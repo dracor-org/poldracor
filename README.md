@@ -1,2 +1,1 @@
-# poldracor
-PolDraCor (Polish Drama Corpus)
+# PolDraCor (Polish Drama Corpus)
