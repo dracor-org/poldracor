@@ -14,7 +14,7 @@
             <surname>Dmuszewski</surname>
           </persName>
         </author>
-<!-- Ludwik Adam Dmuszewski (1777-1847) -->
+        <!-- Ludwik Adam Dmuszewski (1777-1847) -->
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>
@@ -101,61 +101,59 @@
   </standOff>
   <text>
     <front>
-      <div>
-        <titlePage>
-          <docTitle>
-            <titlePart type="main">PIĘĆ SIOSTR<lb/> A<lb/> JEDNA,</titlePart>
-            <titlePart type="sub">KOMEDYA W JEDNYM AKCIE</titlePart>
-          </docTitle>
-          <docImprint>
-            <p>Wystawiona pierwszy raz na Teatrze Narodowym w Warszawie dnia <docDate>10 Marca 1820. R.</docDate>
-            </p>
-          </docImprint>
-        </titlePage>
-        <castList>
-          <head>OSOBY</head>
-          <castItem>
-            <role xml:id="#ludwika">LUDWIKA.</role>
-            <roleDesc>Zacniewska siostra</roleDesc>
-          </castItem>
-          <castItem>
-            <role xml:id="#karolina">KAROLINA.</role>
-            <roleDesc>Zacniewska siostra</roleDesc>
-          </castItem>
-          <castItem>
-            <role xml:id="#jozefa">JOZEFA.</role>
-            <roleDesc>Zacniewska siostra</roleDesc>
-          </castItem>
-          <castItem>
-            <role xml:id="#konstancya">KONSTANCYA.</role>
-            <roleDesc>Zacniewska siostra</roleDesc>
-          </castItem>
-          <castItem>
-            <role xml:id="#amelia">AMELIA.</role>
-            <roleDesc>Zacniewska siostra</roleDesc>
-          </castItem>
-          <castItem>
-            <role xml:id="#staruszkiewicz">CZESNIK STARUSZKIEWICZ.</role>
-            <roleDesc/>
-          </castItem>
-          <castItem>
-            <role xml:id="#wietrznicki">HRABIA WIETRZNICKI.</role>
-            <roleDesc/>
-          </castItem>
-          <castItem>
-            <role xml:id="#oszczednicki">OSZCZĘDNICKI.</role>
-            <roleDesc/>
-          </castItem>
-          <castItem>
-            <role xml:id="#spokoynicki">SPOKOYNICKI.</role>
-            <roleDesc/>
-          </castItem>
-          <castItem>
-            <role xml:id="#lokay">LOKAY.</role>
-            <roleDesc/>
-          </castItem>
-        </castList>
-      </div>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">PIĘĆ SIOSTR<lb/> A<lb/> JEDNA,</titlePart>
+          <titlePart type="sub">KOMEDYA W JEDNYM AKCIE</titlePart>
+        </docTitle>
+        <docImprint>
+          Wystawiona pierwszy raz na Teatrze Narodowym w Warszawie dnia
+          <docDate>10 Marca 1820. R.</docDate>
+        </docImprint>
+      </titlePage>
+      <castList>
+        <head>OSOBY</head>
+        <castItem>
+          <role xml:id="#ludwika">LUDWIKA.</role>
+          <roleDesc>Zacniewska siostra</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="#karolina">KAROLINA.</role>
+          <roleDesc>Zacniewska siostra</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="#jozefa">JOZEFA.</role>
+          <roleDesc>Zacniewska siostra</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="#konstancya">KONSTANCYA.</role>
+          <roleDesc>Zacniewska siostra</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="#amelia">AMELIA.</role>
+          <roleDesc>Zacniewska siostra</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="#staruszkiewicz">CZESNIK STARUSZKIEWICZ.</role>
+          <roleDesc/>
+        </castItem>
+        <castItem>
+          <role xml:id="#wietrznicki">HRABIA WIETRZNICKI.</role>
+          <roleDesc/>
+        </castItem>
+        <castItem>
+          <role xml:id="#oszczednicki">OSZCZĘDNICKI.</role>
+          <roleDesc/>
+        </castItem>
+        <castItem>
+          <role xml:id="#spokoynicki">SPOKOYNICKI.</role>
+          <roleDesc/>
+        </castItem>
+        <castItem>
+          <role xml:id="#lokay">LOKAY.</role>
+          <roleDesc/>
+        </castItem>
+      </castList>
       <set>
         <p>(Scena w Warszawie, w mieszkaniu Ciotki Panien Zacniewskich).</p>
         <p>(Teatr wystawia pokóy dobrze urządzony, Stoliki, Krzesła, Fortepiano).</p>
