@@ -135,23 +135,18 @@
         </castItem>
         <castItem>
           <role xml:id="#staruszkiewicz">CZESNIK STARUSZKIEWICZ.</role>
-          <roleDesc/>
         </castItem>
         <castItem>
           <role xml:id="#wietrznicki">HRABIA WIETRZNICKI.</role>
-          <roleDesc/>
         </castItem>
         <castItem>
           <role xml:id="#oszczednicki">OSZCZĘDNICKI.</role>
-          <roleDesc/>
         </castItem>
         <castItem>
           <role xml:id="#spokoynicki">SPOKOYNICKI.</role>
-          <roleDesc/>
         </castItem>
         <castItem>
           <role xml:id="#lokay">LOKAY.</role>
-          <roleDesc/>
         </castItem>
       </castList>
       <set>
