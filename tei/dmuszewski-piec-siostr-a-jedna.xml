@@ -114,39 +114,39 @@
       <castList>
         <head>OSOBY</head>
         <castItem>
-          <role xml:id="#ludwika">LUDWIKA.</role>
+          <role>LUDWIKA.</role>
           <roleDesc>Zacniewska siostra</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="#karolina">KAROLINA.</role>
+          <role>KAROLINA.</role>
           <roleDesc>Zacniewska siostra</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="#jozefa">JOZEFA.</role>
+          <role>JOZEFA.</role>
           <roleDesc>Zacniewska siostra</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="#konstancya">KONSTANCYA.</role>
+          <role>KONSTANCYA.</role>
           <roleDesc>Zacniewska siostra</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="#amelia">AMELIA.</role>
+          <role>AMELIA.</role>
           <roleDesc>Zacniewska siostra</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="#staruszkiewicz">CZESNIK STARUSZKIEWICZ.</role>
+          <role>CZESNIK STARUSZKIEWICZ.</role>
         </castItem>
         <castItem>
-          <role xml:id="#wietrznicki">HRABIA WIETRZNICKI.</role>
+          <role>HRABIA WIETRZNICKI.</role>
         </castItem>
         <castItem>
-          <role xml:id="#oszczednicki">OSZCZĘDNICKI.</role>
+          <role>OSZCZĘDNICKI.</role>
         </castItem>
         <castItem>
-          <role xml:id="#spokoynicki">SPOKOYNICKI.</role>
+          <role>SPOKOYNICKI.</role>
         </castItem>
         <castItem>
-          <role xml:id="#lokay">LOKAY.</role>
+          <role>LOKAY.</role>
         </castItem>
       </castList>
       <set>
