@@ -1,0 +1,2573 @@
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000008" xml:lang="pol">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Kochanek bez serca czyli Guwernantka zalotna</title>
+    <title type="sub">komedya w trzech aktach oryginalna</title>
+    <author>
+     <persName>
+      <forename>Grzegorz</forename>
+      <surname>Broniszewski</surname>
+     </persName>
+    </author>
+    <!-- Grzegorz Broniszewski -->
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC0 1.0</ab>
+      <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource">
+     <name>POLONA</name>
+     <idno type="URL">https://polona.pl/item/kochanek-bez-serca-czyli-guwernantka-zalotna-komedya-w-trzech-aktach-oryginalna,OTkxMjU4/0/</idno>
+	 <title>Broniszewski, G., Kochanek bez serca czyli Guwernantka zalotna: komedya w trzech aktach oryginalna, Warszawa 1787</title>
+     <availability>
+      <licence>
+       <ab>public domain</ab>
+       <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+      </licence>
+     </availability>
+    </bibl>
+   </sourceDesc>
+   <editionStmt>
+	<respStmt>
+	 <resp>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</resp>
+	</respStmt>
+   </editionStmt>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="staroscina" sex="FEMALE">
+      <persName>Starościna</persName>
+     </person>
+     <person xml:id="staroscic" sex="MALE">
+      <persName>Starościc</persName>
+     </person>
+     <person xml:id="melissa" sex="FEMALE">
+      <persName>Melissa</persName>
+     </person>
+     <person xml:id="szambellan" sex="MALE">
+      <persName>Szambellan</persName>
+     </person>
+     <person xml:id="doyrzalska" sex="FEMALE">
+      <persName>Doyrzalska</persName>
+     </person>
+	 <person xml:id="szyper" sex="MALE">
+      <persName>Szyper</persName>
+     </person>
+	 <person xml:id="salusia" sex="FEMALE">
+      <persName>Salusia</persName>
+     </person>
+	 <person xml:id="tryfon" sex="MALE">
+      <persName>Tryfon</persName>
+     </person>
+	 <person xml:id="szperka" sex="MALE">
+      <persName>Szperka</persName>
+     </person>
+	 <personGrp xml:id="ludzie">
+	  <persName>Ludzie</persName>
+	 </personGrp>
+    </listPerson>
+   </particDesc>
+   <textClass>
+    <keywords>
+     <term>Komedia</term>
+    </keywords>
+    <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+   </textClass>
+  </profileDesc>
+  <revisionDesc>
+   <listChange>
+    <change when="2023-05-23">file conversion from source with some corrections (no text interference)</change>
+   </listChange>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1787">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <div>
+    <titlePage>
+     <docTitle>
+      <titlePart type="main">KOCHANEK BEZ SERCA <lb/>CZYLI <lb/>GUWERNANTKA ZALOTNA</titlePart>
+      <titlePart type="sub">KOMEDYA <lb/>W TRZECH AKTACH <lb/>ORYGINALNA.</titlePart>
+     </docTitle>
+	 <byline>PRZEZ <lb/><docAuthor>GRZEGORZA BRONISZEWSKIEGO</docAuthor>.</byline>
+	 <docImprint>
+	  <p>w <pubPlace>WARSZAWIE</pubPlace><lb/>
+	  w Drukarni <name>P. DUFOUR</name> Konsil. Nadw. J. K. Mości<lb/>
+	  Dyrektora Drukarni Korpusu Kadetów.<lb/>
+	  <date>M. D. CC. LXXX. VII.</date></p>
+	 </docImprint>
+    </titlePage>
+    <castList>
+     <head>OSOBY.</head>
+     <castItem>
+      <role xml:id="#staroscina">STAROŚCINA,</role>
+	  <roleDesc>Wdowa, Matka.</roleDesc>
+     </castItem>
+     <castItem>
+      <role xml:id="#staroscic">STAROŚCIC,</role>
+	  <roleDesc>Porucznik, syn iey.</roleDesc>
+     </castItem>
+	 <castItem>
+      <role xml:id="#melissa">MELISSA,</role>
+	  <roleDesc>Córka.</roleDesc>
+     </castItem>
+	 <castItem>
+      <role xml:id="#szambellan">SZAMBELLAN,</role>
+      <roleDesc>Amant Melissy.</roleDesc>
+     </castItem>
+     <castItem>
+      <role xml:id="#doyrzalska">DOYRZALSKA,</role>
+      <roleDesc>Guwernantka.</roleDesc>
+     </castItem>
+	 <castItem>
+      <role xml:id="#szyper">SZYPER,</role>
+      <roleDesc>Starościny.</roleDesc>
+     </castItem>
+	 <castItem>
+      <role xml:id="#salusia">SALUSIA,</role>
+      <roleDesc>Służąca Melissy.</roleDesc>
+     </castItem>
+	 <castItem>
+      <role xml:id="#tryfon">TRYFON,</role>
+      <roleDesc>Służący Starościca.</roleDesc>
+     </castItem>
+	 <castItem>
+      <role xml:id="#szperka">SZPERKA,</role>
+      <roleDesc>Szafarz Starościny.</roleDesc>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>(Scena na Wsi w Domu Starościny).</p>
+   </set>
+   <div type="appendix">
+   <salute>
+   <p>DO PRZEŚWIETNEGO PUBLICUM<lb/> Warszawskiego.</p>
+   </salute>
+   <p>Pierwsza reprezentacya ninieyszey Komedyi, odebrała od Prześwietney Publiczności niemałe oklaski; druga, ziednała mi honor [za poprzedniczym rozkazem prezentowania się] poznania moich Dobrodzieiów; trzecia, wspaniały przyniosła mi zysk. [a] Temi więc zagrzany pobudkami, umyśliłem podać ią do druku, ażeby ieżeli w ogólności potrafiła, rownie bawiła w szczegulności każdego. Co ieżeli dokazać potrafi, cieszyć się będę iako własney pracy szczęśliwym owocem, .. ieżeli zaś nie, zasmucę się iako wzgardzonego płodu Oyciec, a spokoynym z drugiey strony zostanę, iako dobrze nahrodzony Autor.<lb/>
+		<note>(a) Udarowany zostałem na Teatrze od Łaskawego Publicum 50. Czerwonych Złotych.</note></p>
+   </div>
+  </front>
+  <body>
+  <div type="act" n="1">
+<head>Akt I.</head>
+<stage type="setting">
+<p>(Teatr oznacza Ogród, po bokach kwiaty rożne w Wazonie)</p>
+</stage>
+<div type="scene" n="1">
+<head>SCENA I.</head>
+<stage type="entrance">
+<p>
+<rs key="#salusia">SALUSIA,</rs>
+<rs key="#tryfon">TRYFON.</rs>
+</p>
+</stage>
+<stage type="setting">
+<p>(Salusia unika, Tryfon ią łapie)</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Tak iest. Wierz mi drogi serca mego specyale, że ile razy cię widzę, tyle czuię nieugaszony apetyt, do ucałowania czarnych ślepiąt twoich. <stage>(chce ią ściskać, ta go odpycha)</stage> Cóż to? zawsze tak będziesz niedostępną y upartą?... Ey Pamiętay Salusiu, że pierwszego targu nie opuszczaią ludzie.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Czy potożeś mnie tylko zwabił do Ogrodu, ażebyś swym szaleństwem przymuszał do odeyścia? Otóż idę. <stage>(chce iść)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(zatrzymuie ią)</stage> Zatrzymayże się moia Salusiu... Jeżeli niechcesz bydź łaskawą, nie bądź przynaymniey dziką... Mam ia do ciebie ważne interessa, słuchay mnie tedy cierpliwie, a ia ani krokiem postąpię, ani głową ruszę, ani nawet palcem kiwnę żeby cię nie obrazić, bo ciebie widzę y nayczulsza akcya naymniey nie bawi... Masz tedy wiedzieć... że... zaraz... przeklęta ta niespokoyność... Na czymże stanąłem?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Na czym stanąłeś? na głustwie; ieżeli znowu masz od niego zacząć... uniżona sługa. <stage>(chce odchodzić)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Momencik cierpliwości moia Salusiu, tylko mi napomkniy, na czym stanąłem, a cały ci interess iak z worka wysypię.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Stanąłeś na myśli zwierzenia mi się iakichsiś ważnych interessów, mówże, słucham ciekawie, ale wszystkie oświadczenia miłosne, [ostrzegam] zamkniy razem z akcyą, gdyż mnie równie oboie urażaią.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Tak iest, tak iest, na myśli zwierzenia się ważnych interessów, masz tedy wiedzieć móy Aniołku, iż u mnie nayważnieyszy iest interess serca, y tenbym chciał naypierwey ułatwić.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Wszakżem ci iuż tyle razy powiedziała, że się kochać nie godzi, przecież nie przestaiesz zawsze iedno powtarzać, wierz mi Tryfonie, iuż mi sie to nakoniec y przykrzyć zaczyna.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Prawda, że mi w tym czasie gadasz o tym, ale czemużeś tego nie umiała dawniey?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Bom sama nie wiedziała.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>A któż ci o tym powiedział grzechu?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Nasza Pani Doyrzalska.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Doyrzalska!</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Tak iest, postrzegłszy raz żem się z tobą bawiła, zawołała mnie do siebie, y tyle mi strasznych napowiadała rzeczy, żem się aż rozpłakała, odtąd więc postanowiłam u siebie nigdy nie kochać się.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>O sroższa nad wszystkie Megiery piekielne Babo, która naysłodszych pozbawiaż mię zabaw!... Y tyż Saluniu wierzysz tey czapli przemierzłey? Ona tak mówić musi, bo chociażby iey suche pękało od kochania serce, nie znaydzie dla siebie wzaiemnego... Ależ tobie czemu - czemu nie kochać? Wszystko ci każe, wszystko zachęca, a nic nie wzbrania. Roczek piętnasty wieku twego, iest prawie surowym nakazem kochania... Na cóż masz bydź tak ostrą serca własnego Tyranką?... Y zobaczysz, że ieżeli mu dłużey kochać nie dozwolisz, gwałtem ci się wydrze, y ztowarzyszy z drugim, a będzież to w ten czas dla ciebie pięknie?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Cóż robić, ciężko y mnie przychodzi nie raz pokrywać w sobie czucie, wszelako tłumić go muszę. Nie ia tylko sama w tym sposobie biedna iestem. Panna Melissa daleko odemnie nieszczęśliwsza, bo ta, zakochawszy się aż nadto w Panu Szambellanie, teraz samotnie osadzona przez Doyrzalską, ciężkim tylko wzdychaniem koi utrapienia swoie, y tymże wzdychaniem pomnaża ie bardziey. Tak Tryfonie - minęły iuż lube zabawek naszych czasy, żyć teraz będziemy samotnie y zdaleka od siebie.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Y Jeymośćże to pozwala tey starey poczwarze, o którey iuż świat zapomniał, tyle dokazywać z tobą y z Panną Melissą?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Chociażby kliny na głowie ciesała, słówka iey pisnąć nie można, zaraz bieży skarzyć się do Jeymości... Jeymość zaś nasza, wiesz iak iest prędka, a zatym domyśl się co następuie.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Dorozumiewam się... cięgi obydwie bierzecie za nią... O poczekayże niegodziwa iędzo! chybaby woyny nie było, żebym ią z harmaty kartaczami nie ubił, albo bąbami po powietrzu nie rozniósł... Więc Panna Melissa nie widuie się z Szambellanem?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Bardzo rzadko im się trafia widywać z sobą y to chyba po kryiomu, y bardzo krótko, bo iey Doyrzalska nigdy prawie nie odstępuie.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(na stronie)</stage> Otóż zysk surowey edukacyi, y zbytney pilności; dopoki była wolną, bawiła się z nim przy wszystkich, a teraz pokryiomu widuiąc się, wystawia na niebespieczeństwo sławę - <stage>(do Salusi)</stage> Ale przecie nie przestała go kochać...</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Nie wiem co na to odpowiedzieć, bo toż samo słyszy Pan Szambellan od niey, co ty ode mnie, że się nie godzi kochać, y że nie wiek ieszcze.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>A iakże? czekać pewnie wieku, w którym garb dodawać będzie wdzięków, a powypadałe zęby milszą twarz do uśmiechu zrobią? Otóż mieliśmy się właśnie po co spieszyć, Pan móy umyślnie na trzy miesiące wziął urlop, żeby się ucieszyć w domu y bydź na weselu siostry... Ja także teraz miałem co pomyśleć o tobie aż piękne zastaiemy nowiny... Zkądże Jeymość tego wyrwała Puhacza?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Była Guwernantką Córek pani Podkomorzyny, siostry naszey Jeymci... Jak się tedy Panny Podkomorzanki obydwie powykradać dały, nie miała tam co dłużey robić, y Pani Podkomorzyna rekommendowała ią za Guwernantkę do Panny Melissy.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Y tak tedy Saluniu wierzysz, że się kochać nie godzi? y opuszczasz mnie?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(nie śmiało)</stage> Gdydym wiedziała, że nie prawda co powiada Doyrzalska...</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Jak dzień dziś iasny y czysty, tak to czyste kłamstwo. Wierz mi Salusiu... No, będęż miał szczęście bydź przywróconym do dawnych łask twoich? <stage>(chce ią ściskać)</stage></p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(odpycha go z miłosnym grymasem)</stage> Poczekayże niech się pierwey namyślę... Ty chcesz żeby ta cnota, na którąm się od tak dawna sposobiła, w iednym nikła momencie.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Co mówisz? Kochanie owszem, a ieszcze stateczne, wzmacnia cnotę, ale nie niszczy.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Czy wzmacnia, czy niszczy, dosyć że ia chcę nad tym pierwey pomyśleć; nie tak ci też to pilno, wszak ieszcze nie wyieżdżacie? dosyć będziemy mieli czasu... Powiedz mi pierwey, co też wy w woysku robicie?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(na stronie)</stage> Na takie zapytanie, u samego nawet Konfessyonała gotówbym kłamać <stage>(głośno)</stage> Co my robiemy? Oho moia Panno trudno ci o tym wiedzieć, choćbym ci nawet y powiedział, pewny iestem, żebyś zabaw naszych poiąć nie mogła.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>To zatrudnienia wasze muszą bydź iakieś nadzwyczayne, kiedy nawet nie wszystkim poięte? wszelako czy ich zrozumiem czy nie, proszę cię móy Tryfonie dla samey spokoyności, powierz mi choć część przynaymniey zatrudnień waszych.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Ale na cóż ta ciekawość, iużem powiedział...</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Nie dosyć na tym, proszę cię móy Tryfonie, zaklinam cię na wszystko co naylepiey lubisz, zaspokóy ciekawość moią.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(na stronie)</stage> Jeżeli mię tak dłużey macać będzie, boday czyli nie zapomnę, żem ią kiedy kochał. <stage>(głośno)</stage> Ponieważ się napierasz tak bardzo, a inaczey bydź nie może. Ostrzegam tedy nayprzód, uzbróy twego ducha sentymentem niewzruszoney stałości.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Na cóż taka przedmowa? do czego mam mego uzbraiać ducha?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Żeby nie uciekł z ciała, na usłyszenie naypierwszey, y naymnieyszey naszey czynności... Zaskal serce, ażeby się na naywolnieyszy nie rozpłynęło oleiek. Pozaciągay wolnemi powiekami oczy, dla łatwieyszego obfitych łez spadu. A gdy w takowey staniesz posturze, zacznę opisywać zabawy nasze naywyższego szacunku godne, od czasu samego spoczynku.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(na stronie)</stage> Lękać się zaczynam - Od naymnieyszych zabawek zaczniy Tryfonie.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Masz tedy wiedzieć moia Panno, iż noc zagania nas do spoczynku, dzień przymusza da wstania... Zadrzyi na opisanie dalsze - O godzinie dwunastey...</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Cóż takiego?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Obiad iadamy, a o dziewiątey kolacyą, reszta zaś zabaw naszych iest sekretem poprzysiężonym, którego wyiawić nie mogę; winszuię ci iednak tak stałego serca, żeś bez naymnieyszego strachu wysłuchała com mówił.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Y tegożem się lękać miała, że o dwunastey obiad iadacie? ieżeli wszyscy tak słabe macie duchy, że was y to ustrasza, potrzebaby was do naszey szkoły na naukę...</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Ey porzućmy niepotrzebne próby... ale powróćmy się do naszego. Miałaś się namyśleć, ieżeli mnie kochać będziesz; iuż więcey iak kwadrans, a nic o tym nie mówisz.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Bardzo skorym iesteś. Takowa odpowiedź, iakiey wymagasz po mnie, długiego czasu namyślenia się potrzebuie.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Y maszże tyle serca, tak długo wiernego w niespokoyności utrzymywać kochanka? - Niech mię w naypierwszym attaku kula nie minie, ieżeli ieszcze kwadrans ieden nic mi nie odpowiesz, to sobie sto ładunków, ładunek na ładunek żywcem wsadzę w gardło.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Jeymość słyszę nadchodzi, uciekay prędzey, żeby cię nie postrzegła, nie zabiiay się iednak, póki się ze mną pierwey nie zobaczysz.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Niech mię piorun iasny zapali, ieżeli dłużey rozpacz wstrzymać potrafię, iak do wieczora, y to iedynie na twoią perswazyą. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="2">
+<head>SCENA II.</head>
+<stage type="entrance">
+<p>
+<rs key="#salusia">SALUSIA,</rs> sama.
+</p>
+</stage>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Bydź może... iż Doyrzalska przez chimery tylko [jak on powiada] zabrania nam kochać; wielkie do tego są podobieństwa... Bydź też może, że sprawiedliwe ma racye, zwłaszcza w tym wieku, wiele maiąc doświadczenia - Wszelako chociażby naysprawiedliwsze miała przyczyny, y niezbite przekonania, - za miłością wszystko się uymuie - Serce nawet samo słuchać iey dłużey nie dozwala... A potym, dla dopełnienia surowych iey nakazów, mamże się stać przyczyną śmierci memu kochankowi? Jego grzechy y życie na swoie brać sumnienie?... Nie... nic z tego nie będzie. Wolę łamiąc zakazy, sama grzeszyć, niżeli bydź podnietą samobóystwa... a do tego słyszałam, że to iest grzech nigdy nieodpuszczony... Trzeba tylko będzie pomyśleć nad sposobami, iakby Pannę Melissę z tey wyrwać można niewoli... Ale iak się z Tryfonem pogodzę, on wszystko zrobić potrafi. <stage>(ogląda się)</stage> Ach! zginęłam; Jeymoć z Szyprem nadchodzi, iuż mnie musiała postrzec; spytana po co tu przyszłam? Sama nie wiem co iey mam odpowiedzieć. <stage>(idzie na stronę y zaczyna rwać kwiatki)</stage></p>
+</sp>
+</div>
+<div type="scene" n="3">
+<head>SCENA III.</head>
+<stage type="entrance">
+<p>
+<rs key="#staroscina">STAROŚCINA,</rs>
+<rs key="#szyper">SZYPER,</rs>
+<rs key="#salusia">SALUSIA.</rs>
+</p>
+</stage>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Kiedyż Pani Dobrodzieyka każe sobie oddać kassę, y przeyrzeć raczy rachuneczek, który iuż ułożyłem?</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Jeżeli WPan masz iuż wszystko gotowe, to mi dziś oddać możesz pieniądze... Rachunek zaś do przeyrzenia oddasz memu Synowi - Nie miałżeś WPan iakiego przypadku w drodze?</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Śmiem sobie podchlebiać y Pani sama wiem że przyzna, iż gdziekolwiek do załatwienia interessu użyty zostałem, wszędzie przy szczupłey którą posiadam zdatności, zakończyłem go szczęśliwie.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Nie wątpię o zdatności WPana, gdyż przeświadczoną iestem wielu dowodami, że interessa na iego oddane pieczą, pomyślny mi zawsze przynoszą skutek... do czego iak sądzę, naywięcey mu pomaga zdatność, y chęć dobrego zaszczytu... Ale pytam, ieżeliś WPan iakowych nie miał w tey podruży zdarzeń niebespiecznych?</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Rozsądek dobry, y przytomność w każdym razie żywa, chociażby w nayniebespiecznieyszych człowiek znalazł się mieyscach, pomyślną mu y bespieczną uściłaią drogę... Tych Towarzyszów maiąc zawsze przy sobie, iuż dzięki Opatrzności, osmy do Gdańska szczęśliwie odbyłem Fryor... Pomnieysze zaś zdarzenia, których się ustrzedz niepodobna, zastępowały się, częścią obrotem,... częścią pieniędzmi, podług wydarzeń y okoliczności.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Bardzom kontenta z pilnego WPana o interessach moich baczenia, y starać się będę przyzwoitą mu za to, prócz wyznaczoney kapitulacyi, okazać wdzięczność.</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Dosyć iestem nadgrodzonym, gdy Pani w gront chęci y szczerych prac moich wchodzić raczysz, ta bowiem myśl zapewne ią uwiadomi, iak daleko sługa prawdziwie wierny, narażać się z własnym niebespieczeństwem powinien, chcąc Pana swego żądaniom, a tym samym swoim powinnościom zadosyć uczynić.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p><stage>(postrzegłszy Salusię)</stage> A WPanna co tu robisz? sama iedna śmiałaś wyiść? za czyim pozwoleniem? y za iaką potrzebą?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(mięsza się)</stage> Ja Mościa Dobrodzieyko?... przyszłam tu... Kazała mi Pani Doyrzalska urwać kilka kwiatków... bo iuż tamte powiędły w pokoiu Panny Melissy.</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p><stage>(na stronie)</stage> Kaci tę Dziewczynę nadali, byłbym teraz co z moiey zyskał Pani.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p><stage>(do Salusi)</stage> Dla czegożeś tak pomięszana?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Obeyrzałam się z nienacka, gdy Pani nadeszła, y... y spostrzegłam Pana Szypra... to mnie zmięszało.</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Alboż to ia tak iestem straszny?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Nie,... ale rozumiałam, że żołnierze przyiechali.</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p><stage>(na stronie)</stage> Czysty obraz w iey twarzy widać kłamstwa.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p><stage>(do Salusi)</stage> Zanieśże te kwiatki, y nigdzie mi nogą z pokoiu nie wychodź.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Dobre Mościa Dobrodzieyko. <stage>(na stronie)</stage> Ktoby uwierzył, że przypadkowe kłamstwo tak daleko może bydź pożyteczne. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="4">
+<head>SCENA IV.</head>
+<stage type="entrance">
+<p>
+<rs key="#staroscina">STAROŚCINA,</rs>
+<rs key="#szyper">SZYPER.</rs>
+</p>
+</stage>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Póydę więc po regestra y kassę, z których mam czynić explikacyą przed Jmcią Panem Porucznikiem.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Jeżeli WPan mego Syna zobaczysz... powiedz mu, niech się pierwey ze mną widzi, czekać tu na niego będę...</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Natychmiast dopełnię wolą Pani. <stage>(na stronie)</stage> Zapewne zaleci mu nadgrodzić moie starania. <stage>(odchodzi y wraca się)</stage> Zapomniałem ieszczę upraszać, o niewzgardzenie maleńką daniną, czyli gościńcem, który dla Pani przywiozłem.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Pewnie co nowego z Gdańska?</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Nie Pani Dobrodzieyko, z Torunia. Piernik, ale osobliwszego gatunku, umyślnie kazałem go robić y czekałem na niego. Waży [iak pamiętać mogę] funtów sprawiedliwych Gdańskich 34. Łutów 6. y Efów 3. kosztował wprawdzie więcey iak inne. Gdyż naysławnieysi Toruńscy Piernikarze wyznali, iż dla mnie pierwszy podobney wielkości robili piernik; który Pani łaskawie przyiąć raczy.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Bardzom mu obligowana... Wszelako co kosztuie, proszę w regestrze podać, aby mu pieniądze były powrócone. Dość iestem kontenta, żeś WPan pamiętał o gościńcu dla mnie.</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Jabym zaś miał podawać w regestrze rzecz, którąm na darowiznę wywiózł, nie... nie uczynię tego, daruie mi Pani... Ale poydę poszukam Pana Porucznika. <stage>(na stronie)</stage> Teraz moie interessa pod dobrym zostawuię hyzem. <stage>(odchodzi)</stage></p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Zapewne go WPan znaydziesz w Bibliotece.</p>
+</sp>
+</div>
+<div type="scene" n="5">
+<head>SCENA V.</head>
+<stage type="entrance">
+<p>
+<rs key="#staroscina">STAROŚCINA,</rs> (sama)
+</p>
+</stage>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Co za korzyść mieć sług zdatnych, szczerych, y do swoich Panów przywiązanych... Prawdziwie przy tak rostropnych ludziach, kwitnie rząd domowy, naybuynieyszym wzrostem, a ztąd wypływaią nasiona niezawodnych zysków. A tych gdyby nawet y nie było, nie dosyćże iest przestać na spokoyności własney?... Nie biedzi się człowiek iak z nieukiem, a nuże, poydźże, wróć się; po kilkakrotnie iednegoby nie zapomniał, nie powtarza... Bo sługa tak iak móy szyper przezorny, stara się uprzedzać rozkazy Pańskie,... y prawdziwie mówiąc, wiele rzeczy z samego weyrzenia na mnie dociekł y podług moiey myśli starał się ie poułatwiać. Dobrze to iest powiedziano, iż kto znalazł sługę wiernego, znalazł razem przyiaciela, a tym samym znalazł skarb nieoszacowany.</p>
+</sp>
+</div>
+<div type="scene" n="6">
+<head>SCENA VI.</head>
+<stage type="entrance">
+<p>
+<rs key="#staroscina">STAROŚCINA,</rs>
+<rs key="#staroscic">STAROŚCIC.</rs>
+</p>
+</stage>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p><stage>(wchodząc kłania się Matce)</stage> Szyper Jeymości Dobrodzieyki oświadczył mi rozkaz iey, abym się natychmiast stawił; przychodzę więc...</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Móy Szyper?... równie iest y twoim móy Synu. Mam ci go zalecić, iż to iest ieden służący w domu naszym, na którego poczciwość zdać się zupełnie można.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Jeymość Dobrodzieyka żart sobie podobno czyni, zalecaiąc mi służącego, który do mnie naymniey nienależy, bo ieżeli dla pochwały iey rządów, te zawsze znam naylepsze; wnosić więc nie mogę, ażeby zły sługa mógł bydź kiedy członkiem dobrego rządu.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Móy Synu, nie czynię to końcem chluby, ani też żadnego zalecenia się z troskliwości którą mam, y mieć powinnam około dobra wspólnie naszego. Inne wcale mam do tego powody... A ponieważ teraz wolny zdarza się nieco czas, muszę ci odkryć sposób myślenia... Wiedzieć masz o tym, iż Oyciec twóy znaiąc cię iedynym następcą wszystkich swoich, przyzwoitym sposobem zapracowanych maiątków, nayusilnieyszą miał staranność na danie edukacyi stanowi twoiemu przyzwoitey,... y gdy po skończonych szkołach znaydowałeś się w domu, radził się nayzaufańszych przyiaciół, gdzieby cię dla nabrania oddać miał poloru, y potrzebnych wiadomości... Wielu zgodziło się, iżby było rzeczą przyzwoitą posłać cię za granicę, czemu Oyciec twoy sprzeciwił się, maiąc za sobą kilka Osób podobnego sobie sposobu myślenia, którzy utrzymywali, iż dla nabycia wiadomości własnego kraiu, y powinności obywatela, iako też dowiedzenia się sposobu bydź użytecznym współziomkom y Oyczyźnie, nie trzeba wyieżdżać do cudzych kraiów... Poszedł więc Oyciec twóy za własnego instynktu, y wspomnionych przyiaciół radą - oddaiąc cię w służbę woyskową własnym kraiu... Nie mało nas cieszyły wiadomości o dobrym twoim postępowaniu, wszystkie za tobą czynione pochwały, serca radością napełniały nasze... Lecz... O srogie wspomnienie! tylko co cię miał odebrać y zaiąc się sam wpoieniem w twóy umysł, naypierwszych obowiązków Szlachetności y okazaniem, iak wiele prawdziwie czuły Obywatel swoiey winien Oyczyźnie, gdy nagle chorobą złożony, z tym się pożegnał światem, zostawuiąc nam na zawsze imię sierót.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Strata Oyca naszego, niepowetowaną dla nas stała się zgubą, ten iednakowoż przypadek nie czyni nas ze wszystkim nieszczęśliwemi, zostawuiąc nam WPanią Dobrodzieykę, która wszystkie pożyteczne nauki w umysł nasz wpaiać nie przestaiesz... My więc znayduiemy szczęśliwość w sacownych radach y naukach WPani Dobrodzieyki... WPani zaś Dobrodzieyka miey pociechę z posłuszeństwa, które w nas na wszystkie swoie widzisz skinienia, a takowy sposób zagładzać będzie pamięć żałosney Oyca naszego straty.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Dałyby to nieba, gdybym mogła tyle dla was szczęścia przysporzyć, ile mam chęci; lecz móy Synu, czas nami rządzi, czas mnie iuż z moiey zaczyna obnażać czerstwości, a ciebie postawił w wieku zdolnym do rządzenia własnym maiątkiem... Radzę ci tedy, ażebyś się z obowiązków służby woyskowey uwolnił, a osiadł w domu dla wspierania naszego dobra... Oddam ci rząd zupełnie cały, sama zaś z twoią siostrą siedzieć przy tobie będę spokoynie... Jeżeli się iey za mąż przed śmiercią moią iść wydarzy, ta cię nowina ustraszać nie będzie, ponieważ iuż swóy posag ma złożony w gotowiźnie. Jeżeli zaś nie, ty dla niey po śmierci moiey będziesz Oycem. Szczęśliwa iednak bydź nie przestanę, gdy w czasie rządów twoich po przyiacielską do mnie przychodzić zechcesz radę.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Ach! co mi WPani Dobrodzieyka mówisz?... musialbym się pierwey wyzuć z ludzkości, niżbym na ten przystał proiekt... Nie Mościa Dobrodzieyko, czas, który mnie uczynił zdolnym do prac, tym samym uczynił mię iey podporą... niechcę brać imiena rządzcy, którego ieszcze mieć nie powinienem. Rozkaz WPani Dobrodzieyki względem uwolnienia się dopełnię... lecz dopełnię go nie inną myślą, iak tylko abym był zawsze wolnym wszystkie iey wypełniać rozkazy... Y dopóki cię Nieba dla pociechy y uszczęśliwienia naszego utrzymywać raczą, nie przestaniesz własnym rządzić dobrem y nami... Niechcemy nigdy znać chluby inney nad tę, iż pod rządem dobrey Matki szczęśliwe iesteśmy dzieci.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>W was też szczegulnie mych trosków po stracie Oyca waszego znalazłam koniec, y przy was też spokoynie radabym moie zakończyła życie.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Daruiesz Jeymość Dobrodzieyka, że iey spytam o moją siostrę, o którey nie dawno wmiankokowałaś, iż przy niey siedzieć ma, dopoki się za mąż iść nie wydarzy. Wszak iuż podobno iest przydeklarowaną Jmci Panu Szambellanowi, iak mi sama listownie donosiła?</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Prawda, że Pan Szambellan starał się o przyiaźń twoiey Siostry, a iako przed kawalerem zacnym y szacowanym od wszystkicb, nie miałam przyczyny naszego zamykać domu... Nie miał iednakowoż ieszcze finalney rezolucyi na ten czas, gdy Pani Podkomorzyna, twoia Ciotka przysłała mi pewną staruszkę bardzo zacną do edukowania iey... a ta dała mi poznać y przekonała sprawiedliwie, że małżeństwo iak dla Melissy nie iest rzeczą ieszcze uciekłą. Postanowiłam zatym, ażeby rok przynaymniey ieden w towarzystwie tey staruszki przepędziła... która nauczy ią zapewne, iak ma się stać godną Mężowi żoną y dobrą dzieciom Matką.</p>
+</sp>
+</div>
+<div type="scene" n="7">
+<head>SCENA VII.</head>
+<stage type="entrance">
+<p>
+<rs key="#staroscina">STAROŚCINA,</rs>
+<rs key="#staroscic">STAROŚCIC,</rs>
+<rs key="#tryfon">TRYFON.</rs>
+</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(wpadaiąc)</stage> Pan Szambellan przyiachał.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Prośże go, niech do nas przyidzie. <stage>(Tryfon odchodzi)</stage></p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Zabaw się tu z Szambellanem, ia odeydę na chwilkę do siebie, poźniey trochę przyidziecie do mnie. <stage>(odchodzi)</stage></p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Dobrze Mościa Dobrodzieyko.</p>
+</sp>
+</div>
+<div type="scene" n="8">
+<head>SCENA VIII.</head>
+<stage type="entrance">
+<p>
+<rs key="#staroscic">STAROŚCIC</rs> (później),
+<rs key="#szambellan">SZAMBELLAN,</rs> (y)
+<rs key="#tryfon">TRYFON.</rs>
+</p>
+</stage>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Nie wiem czyli Szambellan wie o ułożeniu Matki moiey względem Siostry, ale wątpię żeby wiedział, po takowey bowiem nowinie zapewneby zemknął swoie w dom nasz wizyty... Martwiłoby mnie to nieznośnie, gdybym tak zacnego w sąsiedztwie utracić miał przyiaciela... Owóż widzę nadchodzi. <stage>(do Szambellana)</stage> Jak się masz serdeczny przyiacielu?... wstydzisz mnie swym uprzedzaniem, a właśnie też dzisiay miałem ci oddać wizytę.</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Tym więcey mnie cieszy, że mu pierwey mogę oświadczyć ukontentowanie, które uczuię z przybycia iego w nasze strony... Odebrałżeś Starościc list, który przed dwoma Niedzielami pisałem do ciebie?</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Odebrałem, nadzwyczaynie byłem z doniesienia tego kontent, y ten list był mi powodem, iak nayprędszego do domu przyiazdu.</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Daruy Starościcu, zwiodłem cię, lecz nie moia wina, pierwey sam zwiedzionym zostałem, pewny na ten czas moich nadziei byłem, kiedy pisałem do ciebie, byś pospieszył do nas, ale po napisanym liście w dwa dni smutnych dowiedziałem się Jeymć Pani Starościny ułożeń, która postanowiła wstrzymać zamężcie siostry WPana naymniey do Roku.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Musiała się iednak Matka moia wytłomaczyć z tey myśli WPanu, bo wierz mi Szambellanie, iż twoią naywyższą iest estymatorką.</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Powiedziała mi, że ten czas koniecznie obrucić musiała na danie iakieysiś nieodbicie potrzebney Pannie Melissie edukacyi - do którey, iak się dowiedziałem, przyięła iedną babę, więcey grymasu, fanatyzmu, niż rozumu maiącą.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Kula w kulę toż samo słyszałem od Salusi, że iak siądzie przy stoliku, y posadzi przy tobie Pannę Melissę, do poty nie wstanie, poki puł funta nie wyżyie tabaki, trzy razy Różańca nie odmówi, y tysiąc razy naymniey nie powtórzy, że się kochać nie godzi... Wierz mi Pan, że Doyrzalska od tego zawsze zaczynaiąc, y na tym kończąc swoią edukacyą, nie wiele brak aby przymusila Pannę Melissę do obmierżenia sobie tey przykrey samotności, a zatym poydzie, że przywiązawszy się do modlitew, miłosne zacznie odbywać stacye.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Słuchay Szambellanie, ieżeli sobie rownie dobrze z siostrą sprzyiacie, będziecie zapewne dla siebie stałemi, a do tego czas osobności waszey nie iest naydłuższy, rok ieden nie może się nazwać wiekiem nieprzeżytym, a wierzay mi, że tą powolnością bardziey sobie Matkę moią uymiesz.</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Znasz Starościcu moie do siostry twoiey przywiązanie, wnosić więc możesz iak ta raptowna odmiana, zabronienie nawet widywania się, mocnym są dla mnie bodźcem, ale to mnieysza, znosiłbym ten cios cierpliwie ciesząc się nadzieią, że będę kiedyś szczęśliwym, gdyby mnie nie inna myśl nie udręczała.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Jakaż to myśl? zwierz mi się Szambellanie.</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Że to iest sposób szczegulnie wymyślony przez Jeymć Panią Starościnę, na pozbycie się mnie z domu swego.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Krzywdę czynisz Szambellanie posądzaiąc ią o podobną w postępkach chytrość, zwłaszcza wiedząc, iż Matka moia nie iest z liczby tych osób, które ukształconą miną, malowanemi słowkami, zwykli pokrywać myśl powierzchownym przeciwną czynnościom... Niech cię ten postępek bynaymniey nie smuci, owszem zapewniam cię, iż nigdy od Matki moiey nie iesteś inaczey wspomniany, iak tylko z prawdziwym szacunkiem. Ale powiedz mi, iaki do takowego myślenia masz powód?</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Własne słowa Jeymość Pani Starościny Dobrodzieyki. Ponieważ wyraźnie dała mi to poznać w swoiey mowie, iż zatrzymuiąc Pannę Melissę od uczynienia mnie szczęśliwym, pod pozorem edukacyi, pozwalała, abym ieżeli mi się iey ułożenie niepodobać będzie, z kim innym ożenił.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Dziki iesteś w swoich ułożeniach Szambellanie. Matka moia ieżeli ci co powiedziała, to zapewne nie w tey myśli, iak sobie tłomaczysz, gdyż ia pewny iestem o iey dla ciebie szacunku. Chodźmy do niey, a natychmiast cię przekonam, iż powieści moiey ufać powinieneś.</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Dałby to Bóg, żebyś się w swym zaufania nie zawiódł. <stage>(odchodzą)</stage></p>
+</sp>
+</div>
+<div type="scene" n="9">
+<head>SCENA IX.</head>
+<stage type="entrance">
+<p>
+<rs key="#tryfon">TRYFON</rs> (sam)
+</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Śmieszna rzecz z temi Panami dalibóg; u nich nawet miłość do zimnego przywiązana rozmysłu, za to też nie iest tak szczera y żywa iak nasza. <stage>(podrzeźniaiąc Panów)</stage> Przeięty iestem dla ciebie szacunkiem; Czas cię przeświadczy o moim szacunku; Powinieneś mieć dla niey szacunek; Jestem dla niey z szacunkiem, y tak nic więcey człowiek nie usłyszy, iak tylko szacunek, a szacunek, a poprawdzie mówiąc ten szacunek iak teraz, y szwadrona iednego diabłów nie wart iest. Bywały to niegdyś tak szczęśliwe iak powiadaią czasy, że gdy Dama Kawalerowi oświadczyła szacunek, szedł z nią na pewne do Ołtarza y brał szlub, ale co teraz ten sposób bardzo zdegradowanym został: y opacznie używanym bywa; naprzykład chcemy kogo podeyść, lub po modnemu oszukać, dokazać tego nie można, nie oświadczywszy mu wprzód szucunku, a iakże można miłosne na nim zasadzać dowody... Trafia się, że po dziesięciu nayżywszych na wierność przysięgach, amant ukoronowany, iak po lodzie gładko od swoiey odiedzie kochanki... Ale na co się mam prożno na racye zdobywać... Niechay sobie słuchaią szacunku, a ia będę głosu miłości. Więcey podobno drugim iak pierwszym dokakać można... Nie wiem tylko iak Salusia będzie dla mnie <stage>(ton prędko odważny)</stage> Jeżeli się dowiem, że mię kocha... <stage>(ton ukontentowania)</stage> O słodka myśli! nigdy nie przestaway serce pocieszać moie. <stage>(myśli)</stage> Niech mię kaci wezmą, że tego iednego słowa kocham, za korzec z gurą niechciałbym zamieniać szacunków... Ey!... cóżbym nie dał, gdybym się teraz na łonie moiey znalazł pieszczochy... Ale to próżna... nic z tego nie będzie, ta stara poczwara nigdzie iey z pod zazdrosnego nie wypuści oka. <stage>(ogląda się)</stage> Co widzę? bieży. Ach! tak, ona.</p>
+</sp>
+</div>
+<div type="scene" n="10">
+<head>SCENA X.</head>
+<stage type="entrance">
+<p>
+<rs key="#tryfon">TRYFON,</rs>
+<rs key="#salusia">SALUSIA.</rs>
+</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(klęka na kapeluszu)</stage> Przybyway wachlo goreiąca, która wszystkie zakąty mego oświecasz ducha. Od ciebie zależy zrobić to mieysce placem śmierci, lub raiem życia.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Ty widzę nigdy nie przestaniesz bydź pustym. Ale czy nie widziałeś Szperki Szafarza naszego? mam do niego pilny interess.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>A na cóż ci moia Salusiu stary Szperka, kiedy mnie młodszego całym u nóg swoich widzisz połciem.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Ah! porzućno tę swywolę... widziałżeś go? czy nie?... muszę więc szukać go. <stage>(chce odchodzić)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(zatrzymuie ią)</stage> Momencik moia Salusiu... Jakiż do Szperki masz interess?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Kazała mu Jeymość powiedzieć, żeby potrawkę z kurcząt przyczynił, bo Pan Szambellan ma bydź na obiedzie; muszę go więc wcześnie szukać, a ieszcze staruszek nie dosłyszy, trzeba mu kilka razy iedno powtarzać - No! bądź zdrów. <stage>(chce odchodzić)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(zatrzymuie ią)</stage> Hola, hola, proszę wrócić na swoie mieysce.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Nie zatrzymuyże mnie, wszak wiesz...</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Wiem, wiem, tobie idzie o potrawkę, a mnie o życie; pomiarkuyże sama co pilnieyszego.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Cóż to ma znaczyć?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Co ma znaczyć? wszak wiesz, że na twoią szczegulnie dotąd perswazyą żyię... Jużbym dawno nie żył, gdybym się moią cokolwiek nie wspierał Filozofią, y twoiey nie ufał stateczności; ale co teraz nie puszczę cię dopoki nie dasz wyroku.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>A ha! przypominam sobie, ale mało czasu na to.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Na wymówienie iednego słowa bardzo wiele masz czasu. No! nie wytrzymuy mnie długo... raz... dwa... gadayże, życie, czy śmierć.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Powiedzże mi nayprzód Tryfonie, ale powiedz prawdę, zaklinam cię na parol żołnierski, czy mię szczerze kochasz?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Parol całego Regimentu, że sam diaboł lepieyby się nademnie kochać w tobie nie potrafił... Kogóżby ta trzoda wdzięków nie zwabiła, z nic u mnie serca wszystkich kobiet, bo chociaż się które zarekrutuie dziś, iutro mu lofpas daię: a twoie zawsze na prawym skrzydle stoi. Y kiedy z tobą mówię, zaraz serce moie chorągiewką naywiększego czucia salutuie przed tobą, a to wszystko dla oddania winney wdziękom twoim attencyi.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>A będziesz to prawda?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Niech mnie granady, kartacze, bomby...</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Stóy, stóy, nie klniy się, wierzę... Otóż masz we mnie wzaiemną przyiaciółkę.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Otże masz - wzaiemną przyiaciółkę... potym ieszcze powiesz estymatorkę; nakoniec zostaniesz z szacunkiem, y dosyć będzie, abym ci zaczął nie wierzyć. Ja się chcę dowiedzieć, czy mnie kochasz wzaiemnie?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Wszyslko to iedno znaczy. Kocham cię tedy wzaiemnie, ale pod pewnym warunkiem.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Domyślam się pod iakim. <stage>(na stronie)</stage> Niepotrzebnie wymówiłem się. <stage>(głośno)</stage> Zapewne pod tym, abym filozofował, ieżeli się w innym kochać będziesz? wszak zgadłem?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Bardzo nie zgadłeś; wcale inszy, y daleko od tego ważnieyszy.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Jakiż inny? powiedz?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Oto krótko ci powiadam, ieżeli nie wynaydziesz sposobu pozbycia się Doyrzalskiey, to po naszym kochaniu nic, gdyż ona wszystkiemu przeszkodzić potrafi.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Co ta Megera? Bodaybym miał miny pod nią zakopać, to ią wykurzyć muszę.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Pomyślże nad tym, a dobrze, inaczey za nic nasze układy, y ia ci cokolwiek dopomagać będę. Ale muszę pobiedz szukać szafarza. Bądź zdrów. <stage>(odchodzi)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Adieu gwiazdo szczęścia moiego.</p>
+</sp>
+</div>
+<div type="scene" n="11">
+<head>SCENA XI.</head>
+<stage type="entrance">
+<p>
+<rs key="#tryfon">TRYFON,</rs> (później) 
+<rs key="#szperka">SZPERKA.</rs>
+</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>To czysta prawda, że póki tu ta baba będzie, póty ia z Salusi żony mieć nie będę... Ach! iędzo niegodziwa kiedy mi na tak wielkiey staiesz przeszkodzie... Otóż chociażbyś się Samsona uzbroiła siłą, wyprosić cię ztąd muszę. Idę zaraz... <stage>(myśli)</stage> Co myślisz czynić Tryfonie? day mieysce reflexyi;... a nuż ci się srzodki nie udadzą... a sztab zaprosi na iaki rok na suchary, y wino Galileyskie... a si to myśl nie żołnierska... Odwaga wszystko robi... Babę wysadzę... a potym capnę żoneczkę...</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p><stage>(przebiegaiąc za kulissę przez Teatr)</stage> Z uciętym ogonem, chwytayże ią prędzey, zabież od szpichlerza.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Tfu diable stary, naypięknieyszą mi myśl przerwał... śliczną łapać każe żoneczkę... ale on zapewne o swoim gada... Trzeba sie z nim widzieć, często bywa w pokoiu Panieńskim, z podwieczorkami, z śniadaniami, pomódz mi może do wniyścia tam.</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p><stage>(uganiaiąc się)</stage> Łapay, łapay w tę stronę pobiegła,... Ach! Mospanie Tryfon, dopieruteńko nam się schowała nie widziałżeś WPan gdzie?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Kto?</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>W tamtę stronę WPan mówisz pobiegła?...</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(na stronie)</stage> Zapomniałem, że głuchy. <stage>(krzycząc do ucha)</stage> Kto pobiegł, za kim WPan gonisz?</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>Pstra kureczka z uciętym ogonem, nie możemy iey złapać.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Porzuć WPan kureczkę... złapią ią y bez niego, a nie odmów mi, o co cię mam prosić... Potrzebuię w iedney rzeczy WPana pomocy.</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>Ja sam wiem, że naylepiey łapać po nocy. Kiedy to nie masz y puł godziny iak odebrałem dyspozycyą.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Nie to mówię; ia się pytam, czy WPan nie odmówisz na moie żądanie.</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>Zgoda, zgoda, bardzo dobrze, tylko mi ią WPan złap, natychmiast dostaniesz śniadanie.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(na stronie)</stage> Luba rozmowa z głuchym, właśnie człowiek do interessu. <stage>(głośno)</stage> Ale Mospanie Szperka, ia nie o kurze gadam, ia proszę WPana łaski...</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>Moiey łaski? gdzież mam po nią do stancyi chodzić, weź WPan y tak iakiego kiia, a biegay prędzey.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(na stronie)</stage> A ten dziad drwi widzę ze mnie, boday czy moich palców z iego nie zesforuię kudłami. <stage>(głośno)</stage> Cóż to Mospanie maią znaczyć te ze mnie żarty?</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>A broń Boże... do czego wypuszczać hary, udusiliby ią, a ia chcę złapać żywą.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Dalibóg nie wytrzymam dłużey. <stage>(głośno)</stage> Cóż ty mi dziadu na wspak odpowiadasz iak waryat iaki.</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>O nie można, nie można, nie można; zważ WPan sam, iakimby ia czołem na mieysce potrawki miał dać na stół flaki, to bydź nie może, trzeba tak robić, iak nam dysponuią.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Panie, odprowadźże go odemnie, poki ieszcze cokolwiek dyszę... <stage>(pokazuie mu na stronę iak gdyby co widział)</stage> O to to pobiegła, łapay WPan.</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>Zabiegay WPan z drugiey strony. <stage>(wybiega)</stage></p>
+</sp>
+</div>
+<div type="scene" n="12">
+<head>SCENA XII.</head>
+<stage type="entrance">
+<p>
+<rs key="#tryfon">TRYFON</rs> (sam).
+</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Idź do Regiment diabłów, przeklęty Bachusie... tylko krew we mnie wzburzył, y cała do interessu pomoc. Nie można się ia widzę spuszczać na nikogo; dobrze to powiedziano, że przez posty wilk nie utyie... Daleyno Tryfonie, pomyśl iak masz zostać Mężem; Pokaż przed światem, że nie sowy płodzisz w głowie. <stage>(myśli)</stage> Wielką rzecz przedsiębiorę, to prawda;... ale się też coś trochę y mięszać zaczynam... a to ten dziad niegodziwy zmięszał mi cyrkulacyą krwi - <stage>(myśli)</stage> Przedziwna myśl... brawo... poydę zaraz do Szambellana, a ieżeli przystanie na móy proiekt, to interess prawie skończony. <stage>(chce iść, y zatrzymuie się)</stage> A nuż y Pan Szambellan przystanie, a mnie się nie uda... Ha! idźmy za przykładem... Znam kilku mężów, którzy dla miłości swych żon nie raz w niebespieczeństwo podawali życie... Poprowadzę y ia dla miłości moiey Salusi, na plac niebespieczeństwa skórę. Mądry to ktoś powiedział. Kiedy się komu szczera miłość w serce wszyie. Słodkie męki... śmierć miła... mnieysza więc o kiie. <stage>(odchodzi)</stage></p>
+</sp>
+<trailer>(KONIEC AKTU I)</trailer>
+</div>
+</div>
+<div type="act" n="2">
+<head>Akt II.</head>
+<stage type="setting">
+<p>(Teatr oznacza Salę śrzodkową rezydencyi Jeymość Pani Starościny, po bokach drzwi z obu stron y w śrzodku)</p>
+</stage>
+<div type="scene" n="13">
+<head>SCENA I.</head>
+<stage type="entrance">
+<p>
+<rs key="#szyper">SZYPER,</rs> (sam).
+</p>
+</stage>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Nie zastałem widzę y tu Pana Porucznika; radbym iak nayprędzey skończyć kalkulacyą. Kiedy się człowiek tey explikacyi zbędzie, zdaie się iak gdyby grzechów pozbył... Zaczekam, pewnie tu nadeydzie. <stage>(dobywa kilka ładunków z złotem y papiery, które kładzie na stoliku)</stage> Wiem, że Pan Porucznik będzie miał zlecenie od Matki, bez żadney czynienia trudności, podpisać mi regestra... A potym z woyskowym paniczem do czynienia... Nie musi mu bydź rachmistrzowska znaiona sztuka... łatwy w nim będzie koniec... Trzeba trochę regestra przeryzować. <stage>(siada przy stoliku, bierze papiery, y często się ogląda)</stage> Ach! to ausztuk, dałbym sobie chleba - niepotrzebnyś ty na świecie... Szczęście wielkie żem postrzegł... trzeba go pogrzebać w kieszeni tym czasem. <stage>(bierze papier drugi y czyta)</stage> Percepta pieniędzy - Za pszenicy korcy tysiąc... korzec a fl. 18... Czer: zł: 1000. <stage>(mówi)</stage> Okrągła to liczba prawda, ale wszyscy wiedzą, że w tym roku pszenica nie popłacała, nie należy ią tak drogo podawać, dosyć korzecz będzie po złotych 15... a na koniec 15. groszy 7 1/2... O bardzo dosyć... Uczyni tedy <stage>(kalkuluie)</stage> Czerwonych złotych 847. fl. 16... Trzeba więc zaraz dusiow 153. odebrać. O! bo Panowie bardziey się zawsze o superatę, niż decess gniewać zwykli... <stage>(odbiera sobie na stronę ładunek ieden y z drugiego dolicza)</stage> Ażeby sobie głowy nie łamał, dopłacam z własnych moich pieniędzy fl. 2. teraz mu gładko wypadnie - To iuż percepta zstrychowana. <stage>(czyta)</stage> Expens pieniężna 1°. w Gdańsku przez dni. 10. na mnie y na człeka... codzień po złotych 20.,... zło:... 200... A należy bydź sprawiedliwym, uięło się percepty, uiąć y expensy należy... więc na mnie y na człeka... drożyzna prawda wielka - ha, niech moie nareszcie ginie... na mnie y na człeka po zło: na dzień 19. groszy 26. czyni <stage>(kalkuluie)</stage> zło: 197. gro: 10. 2°. Za wina Francuzkiego oksest ieden, Czerwonych złotych 12... iakie się wyśmienite zrobiło, komu nie trzeba warto Czerwonych złotych 20. - niechayże będzie 19. 3° Za cukier y kawę zło: 356. gro: 19. na każdym oku iak zapamiętać mogę, przyczyniłem po zło: 1. to mi nienaywiększy zysk przyniosło - więc groszy 19. znoszę - niechay będzie równo zło: 356. 4° Za rożne korzenie podług osobnego regestrzyku Czerwonych złotych 25. - Na tym zarobić miernie bez skrupułu można; bo to wszystko świeże, y waga sprawiedliwa; niechże przynaymniey będzie Czerwonych zło: 30. - Reszty zda mi się nie ma co poprawiać, expensowało się wprawdzie nie mało w drodze po kilka złotych, czego y spamiętać trudno - niechay to przepada - niżbym miał przez niewiadomość sumnienie obciązać... Ale, ale trzeba się zdaleka przypomnieć, Nota, dogadzaiąc szczegulnie ciekawości J. W. Pani uwiadamiam, iż piernik na darowiznę wywieziony, kosztował na mieyscu, nie rachuiąc komór, ani cła, Czerwonych złotych 7. - 3. dukaty dałem za niego, za 4. więc nadto zyskam wdzięczności. <stage>(bierze odłożone pieniądze)</stage> Chodźcie kochane grosze do moiey kieszeni, nie mięszaycie się z Pańskiemi, żeby was nie ziadły.</p>
+</sp>
+</div>
+<div type="scene" n="14">
+<head>SCENA II.</head>
+<stage type="entrance">
+<p>
+<rs key="#szyper">SZYPER,</rs>
+<rs key="#doyrzalska">DOYRZALSKA.</rs>
+</p>
+</stage>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(wchodząc mówi)</stage> Y owszem, y owszem, pomięszaią się z Pańskiemi... Mam mu ciekawą oznaymić nowinę... jeymość Pani Starościna zaleciła Panu Porucznikowi, aby mu w nadgrodę drudów ofiarował Czerwonych złotych 50.</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Gorzko też Mościa Pani ta nadgroda zapracowana - Na tyle zamięszania y trudności w każdym mieyscu, dobrze że zdrowie ieszcze wystarcza.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(biorąc papier)</stage> A to regestra?... <stage>(czyta)</stage> Pod Elblągiem wyexpensowało się złotych 125. groszy 27 1/2... Zapewneś tam WPan kupował co nowego.</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Nie Mościa Pani, przypadek to kosztował tyle. Rotman nas źle poprowadził, tylkożeśmy nie wbiegli na miałczyznę... Kazałem się chwytać czym prędzey lądu... wyskoczył Flis z hamulcem, ale nie dosiągł lądu, y zanurzył się.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(przestraszona)</stage> Ach! Święty Antoni ratuy go! utonął więc?...</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Tak iest, tak, zanurzył się, aleśmy go złapali, wody się opił nieznośnie.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Nieboraczek!... Móy Boże! taczać go przynaymniey było.</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Położyliśmy go na lądzie zapalowawszy się... w kwadrans ledwo raz ziewnął, y znowu tchu nie ma.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Ach! dla Boga! - po Xiędza prędzey w takowym przypadku.</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Posłałem też iak nayprędzey na druga stronę do miasta łodzią po Xiędza,... aleśmy go przecie za kilka godzin y sami dotrzeźwili się. Owoż przyczyna expensy, to na Doktora, to na Felczera...</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Dobrze przynaymniey, że żyie nieboraczek! Trzeba było WPanu ten dzień zapisać, ażeby go do śmierci suszył... Zapewneś WPan teraz do Pana Porucznika przyszedł?</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Tak iest z pieniędzmi, y regestrami, ale się go doczekać nie mogę.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Do officyn się przeniosł, iuż tu nie stoi, tam go WPan znaydziesz zapewne; wątpię iednak aby się sam regestrami zatrudniał, zapewne WPana do Rachmistrza odeszle.</p>
+</sp>
+<sp who="#szyper">
+<speaker>SZYPER.</speaker>
+<p>Szkoda żem nie wiedział, iużbym do tychczas skończył był kalkulacyą - bardzo dziękuię WPani. <stage>(zabiera pieniądze, papiery y odchodząc na stronie)</stage> Dobrze że mnie ostrzegła. Jeżelibym do Rachmistrza odesłanym został - ten się pozna na moiey regestraturze - Ale mam w kieszeni rudel, którym go iak zechcę nakieruię. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="15">
+<head>SCENA III.</head>
+<stage type="entrance">
+<p>
+<rs key="#doyrzalska">DOYRZALSKA,</rs> (sama).
+</p>
+</stage>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Biedni ludzie! wielu tu niebespieczeństwom wystawiać się muszą, dla zyskania tego przebrzydłego kruszcu, naymizernieyszey rzeczy... Gdyby na mnie przyszło, wolałabym iuż gdzie przy Kościele z łaskawey żyć elemozyny, niżeli dla tak marnego zysku, wystawiać życie.</p>
+</sp>
+</div>
+<div type="scene" n="16">
+<head>SCENA IV.</head>
+<stage type="entrance">
+<p>
+<rs key="#doyrzalska">DOYRZALSKA,</rs>
+<rs key="#salusia">SALUSIA.</rs>
+</p>
+</stage>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(wchodząc mówi)</stage> Panna Melissa prosi WPani Dobrodzieyki, abyś iey pozwoliła wyiść do Jeymościnego pokoiu.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Po co?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Zabawić się z gośćmi.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>A iacyż tam są goście?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Jest Pan Szambellan... iest... zaraz... wiem, że Pan Szambellan przyiechał, y ieszcze podobno ktoś.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Y nikt więcey... obeydzie się bez tego pozwolenia. Ma Panna Melissa na dziś naznaczony do czytania żywot Świętego Jozefa, niechay się nim bawi.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Już doczytała do tego mieysca, gdzie WPani Dobrodzieyka naznaczyła - Teraz zaczęła czytać, za co go Putyfar kazał wtrącić do więzienia.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>A Pannie Melissie co do tego? wszakżem iey tylko do tego mieysca czytać kazała... Kara Pana Boga z tym uporem, nigdy tak nie zrobi, iak ia każę. <stage>(odchodzi w złości)</stage></p>
+</sp>
+</div>
+<div type="scene" n="17">
+<head>SCENA V.</head>
+<stage type="entrance">
+<p>
+<rs key="#salusia">SALUSIA,</rs> (później) 
+<rs key="#tryfon">TRYFON.</rs>
+</p>
+</stage>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Daleyże, daley, kudłaty Herodzie na nasze zesłany nieszczęście; gryź, martw, gdyray, dopoki nas do grobu nie powpędzasz... Jedney minuty tak szczęśliwey nie było, w któreyby nowego martwienia nie wynalazła sposobu - ... Nie dosyć, że pozbawiła nas naymilszey swobody, nayprzyiemnieyszey wolności, ieszcze y tę przeklętą samotność nowym coraz goryczy zapuszcza iadem... O szczęśliwe kobiety! które na łonie słodkiey znayduiecie się wolności,... iak drogo wasze cenić powinniście momenta; naymnieysza przeciwność waszym nie zakłuci losem!... żyiecie w pośrzód wygód, przyiemnych zabaw, chociaż nie szanuiecie szczęścia, które pomimo nayżywszych żądań naszych, wszędzie przed nami unikać zdaie się... Muszę póyść do Panny Melissy, zapewne płaczliwe zastanę tam kazanie <stage>(słychać letkie stukanie u drzwi od wchodu, wraca się)</stage> Któż tam znowu? <stage>(otwiera drzwi)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(wchodząc)</stage> Ja moia Synogarliczko.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Ach! Tryfonie! po co tu wchodzisz? wyidź prędzey, żeby cię nie zobaczyła Doyrzalska.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Alboż iey tu teraz nie masz?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Wyszła dopieruteńko łaiać Pannę Melissę, ale się zapewne powróci - Wychodź prędzey. <stage>(wypycha go)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Day go katu, iakżeś moiey wizycie rada, kiedy nawet mieysca dla mnie znaleść nie możesz aż za drzwiami.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Idźże mówię bałamucie, w nieszczęście mnie chcesz wprowadzić. <stage>(wypycha go)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Cóż u wszystkich diabłów, czy Saray u was? czy co? że męszczyznie wchodzić nie wolno... Poczekayże, nie wypychay mnie... niech przynaymniey sam wyidę z honorem; o cóż ci idzie? że Pacholczych komplementów używasz ze mną?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Ale mówiłam iuż, że Doyrzalska... <stage>(wypycha go)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>O! hola... poczekayno trochę moia ty Synogarliczko, nie tak śmiało do karku, bez pozwolenia... Weydzie Doyrzalska, tym lepiey, bom tu po to przyszedł, żeby się z nią widzieć.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Wychodźże mówię zaraz. <stage>(wypycha go)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Otóż na złość nie póydę... <stage>(na stronie)</stage> A czy mnie tu wszyscy diabli wnieśli do tey grubiańskiey loży. <stage>(głośno)</stage> Kogóż to rozumiesz widzieć przed sobą moia ty niedostępna Westalko? - Człowiek z łaski Pana Boga do Pułkowników, Generałów, byle się zameldował, wolny wstęp miewa, a ty od iedney baby na łeb wypychasz... Czy to mi wasza ta stara Czerepacha Sztabs-Officyer, żebym się z nią nie miał wtenczas widzieć, kiedy zechcę? A wieszże ty o tym?...</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Cicho, nie wrzeszcz... możesz się z nią widzieć ale późniey; bo teraz gdyby cię ze mną zastała...</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Ty póyidź sama precz, kiedy się boisz... Co ia bodayby mię roztrzelano, ieżeli krokiem ztąd ruszę.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(płaczącym tonem)</stage> Ty widzę koniecznie chcesz nieszczęśliwą mnie uczynić.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>No, no, no day iuż pokóy, idę idę... ale będziesz tego żałować, bo ieżelim przychodził do Doyrzalski, to nie inną myślą, iak tylko myślą uwolnienia was; ale kiedyś taka żwawa, otóż wychodzę; y więcey tu nie powrócę.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Już się zaraz y gniewasz; wszakże to nie ze złości robiłam, ale dla twoiey y moiey spokoyności... Powiedzże mi, iaki miałeś sposób na uwolnienie nas?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Dla spokoyności? no, znayże dobroć moią, że ci wybaczam, ale zaraz klękniy, y podziękuy Bogu, żeś nie męszczyzna, gdyby mi to równy zrobił, iużbym do tego czasu kulę z fleytuchem zapakował mu w serce.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(łagodnie)</stage> Schowayże kulę na równego sobie... a tym czasem <stage>(głaszcząc pod brodę)</stage> powiedz móy fleytuszku... iaki masz proiekt?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>No, no, tylko bez tych uymuiących pieszczot - Znowu od uszanowania zaczynasz.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Przecież to żart... Wszak ty się znasz na tym. No słucham.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Nie mogę teraz nic mówić, boś mnie w nayniegodziwszy wprowadziła humor - Tyle ci tylko powiem, aby gdy tu poźniey przyidę y zasztukam, żadna z was nie ważyła się odmykać - ale sama Doyrzalska... pamiętayże. <stage>(na stronie)</stage> O kobiety!... O kobiety! iakże wielką moc nad sercami naszemi macie... Tysiąc nieuważnych kroków, ledwie nas mdłym przeciwko wam zapali żalem... A iedno miłe spoyrzenie obłąka zmysły nasze, y pierwszą wam nad nami moc przywraca. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="18">
+<head>SCENA VI.</head>
+<stage type="entrance">
+<p>
+<rs key="#salusia">SALUSIA,</rs> (sama).
+</p>
+</stage>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Biedny chłopczyna!... zburczałam go niewiedzieć za co, y dla czego, może y dobrą iaką na uwolnienie nas ułożył plantę, a tą niepotrzebną porywczością wzbroniłam mu iey zacząć... Sama swoiey wolności oczewistem stałam się nieprzyiacielem... ha! więcey na tym zyska... bo go czuley za to muszę przepraszać - A nad ułożeniem swoim, im dłużey pomyśli - tym lepiey wykona - Panie day, żeby nas mógł z tey wydźwignąć męczarni... Ach! Jeymość słyszę nadchodzi, to znowu coś nowego.</p>
+</sp>
+</div>
+<div type="scene" n="19">
+<head>SCENA VII.</head>
+<stage type="entrance">
+<p>
+<rs key="#staroscina">STAROŚCINA,</rs>
+<rs key="#salusia">SALUSIA.</rs>
+</p>
+</stage>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p><stage>(wchodząc mówi)</stage> Gdzie iest Pani Doyrzalska?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>U Panny Melissy Mościa Dobrodzieyko.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Póyidź iey proś do mnie.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(idzie y wraca się)</stage> A ieżeli teraz lekcyą daie?</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Chociażby lekcyą dawała, niechay przyidzie.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>A ieżeli czyta Mościa Dobrodzieyko?</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Mówiłam raz, że ma przyiść.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>A ieżeli pisze Mościa Dobrodzieyko?</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Cóż to znowu ma znaczyć?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Bo Pani nie wie iak to rzecz straszna przerwać iey iaką zabawę... Byle słówko iedno pisnąć, zaraz gotowa y bić, y łaiać, y krzyczeć, y płakać, ieszcze nakoniec póydzie, y przed Panią oskarży.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Biegay mówię. <stage>(Salusia odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="20">
+<head>SCENA VIII.</head>
+<stage type="entrance">
+<p>
+<rs key="#staroscina">STAROŚCINA,</rs> (sama).
+</p>
+</stage>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Dziwne mi rzeczy o tey Doyrzalski gadaią wszyscy; sama nie wiem, co mam z nią począć, powiadaią, że się zbyt surowo z moią obchodzi córką... Niechce mi się temu wierzyć; gdyż młodzież za zwyczay maiąc nad sobą starszych, od których znosić muszą napominania, zowią ich Tyranami, nie zastanawiaiąc się, iż to dla ich czyni się dobra. Ale naylepiey się przeświadczę, iak przyidzie sama. Otóż widzę idzie.</p>
+</sp>
+</div>
+<div type="scene" n="21">
+<head>SCENA IX.</head>
+<stage type="entrance">
+<p>
+<rs key="#staroscina">STAROŚCINA,</rs>
+<rs key="#doyrzalska">DOYRZALSKA.</rs>
+</p>
+</stage>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Mościa Pani Doyrzalska, przyszłam do WPani wstawić się za moią córką, żebyś była dla niey więcey grzeczną; bo iak słyszałam, zbyt surowo z nią postępuiesz.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Ja Mościa Dobrodzieyko może, nie zapieram się; ponieważ teraz dobre rady rzadko bywaią słuchane bez wzgardy, a zatym moie napominania stać się mogły nieznośne dla Panny Melissy.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Nie mówię ia o napominaniach y radach WPani, ponieważ dla tego szczegulnie zobligowałam ią, ażebyś moiey córce dawać ich nie przestawała; ale mówię o sposobie z nią postępowania... Żaliła się, że ustawicznie ią martwisz, gdyrasz, nieumiarkowanym fukasz na nią sposobem; ponieważ od moiey córki, ile już nie w wieku dziecinnym będącey, wszystkie rady WPani, prędzey mogo bydź przyięte w sposobie perswazyi, y pozwoleniu do siebie poufałości, niżeli w ostrym swoiey używaniu nad nią władzy.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Krotką przed Panią z moiego postępowania uczynię explikacyą... Panna Melissa wychowana pod bokiem WPani Dobrodzieyki więcey miała wolności bawienia się w kompaniykach, które bywać musiały w domu iey, albo u blizkich sąsiadów, tam sobie umysł, iak poznałam nabiła samemi fraszkami - Miłostkami, dowcipnemi żarcikami,... od których gdy teraz uchyloną została - zapomnieć iey tak prędko trudno iest, y zemną onychże rozmawiaćby rada, co gdy iey ganię, ma mnie za nieznośną... Więcey zaś w niczym nie znam się bydź wystepną... Jeżeli WPani Dobrodzieyka na te zmyślone żale tak iesteś tkliwą, w mocy iey iest mnie oddalić, a Pannie Melissie pierwszą przywrócić wolność.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Wiem ia sama, że młodzież nie cierpi upominaiących, dla tego nie dałam żadney odpowiedzi, owszem zganiłam iey ten postępek, y przykazałam, ażeby przez posłuszeństwo iednała sobie WPani przychylność... Ztym wszystkim... proszę, żebyś dla niey była nieco powolnieyszą.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Nigdy nie byłam dla Panny Melissy bezuważnie ostrą, a zatym lepszą bydź nie obiecuię... Pozna wczasie niepotrzebne swoie żale, y o radę, na którą się teraz żali; sama prosić będzie.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Ja też od czasu oddania iey pod WPani dozór, strzegę się naymnieyszego w czym pobłażania.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Bardzo Święty Jeymości Dobrodzieyki postępowania sposób... A cóż Panny Podkomorzanki do tak złego zachęciło uczynku, że się nocą pouwozić dały, ieżeli nie zbyteczne Pani Podkomorzyny pobłażania... Nayszczęśliwsi Rodzice, którzy kochaią dzieci sercem, ale ie dla tego zawsze w przyzwoitey utrzymuią ryzie.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Mam ieszcze w iedney naradzić się z WPanią materyi... siądźmy. <stage>(siadaią)</stage> Musiałaś WPani słyszeć, iż Pan Szambellan w sąsiedztwie bliskim mieszkaiący, kawaler od wszystkich szacowany, tak z edukacyi, iako też z dobrego rządzenia się, stara się od dawna o rękę Melissy; teraz przyiechał, y koniecznie wraz z synem moim nalegaią na mnie, abym uczyniła koniec... Jak mi WPani postąpić radzisz?... Odmówić sądzę rzeczą nieprzyzwoitą, ponieważ nigdy lepszey dla niey nie żądam partyi... pozwolić, ieżeli nie będzie występkiem prędkości nieuważney.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Takowa czynność na własney woli Pani Dobrodzieyki ugruntowaną bydź powinna... Nie iest zatym rzeczą przyzwoitą radzić lub odradzać... Sądzę przynaymniey... iak mi się zdaie,... że Panna Melissa w roku dopiero piętnastym będąc... chociażby pozwoliła na zamężcie... rokować sobie szczęścia nie można, gdyż w takowym wieku, obcessowa, ale niestała podżega serce miłość.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Jakich więc w tey mierze radzisz mi WPani chwycić się śrzodków?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Mnieby się zdawało,... iż nayprzyzwoiciey będzie, ieżeli Pan Szambellan tak dobrze iest położonym u WPani Dobrodzieyki, nie odmawiać mu, ale przeciągnąć czas do zupełnego wyexaminowania w tym Pannę Melissę, y poznania gruntownie iey chcę ci. Ale to na woli WPani Dobrodzieyki, ia tylko mówię, iakbym sama w podobney uczyniła okoliczności.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Bardzo chętnie zgadzam się na ten sposób. Jednakowoż córka moia przez boiaźń narażenia mnie lub wstyd iaki, mogłaby ukryć przedemną, co myśli... zaczym proszę WPani, weź to na siebie, y wypytay się iey iak naydokładniey, iakie w tey mierze ma przedsięwzięcie?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Dopełnię rozkaz WPani Dobrodzieyki.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Oddalam się więc, abym nie przeszkadzała. Uwiadomisz mnie WPani po skończoney rozmowie, iakich Melissa będzie myśli. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="22">
+<head>SCENA X.</head>
+<stage type="entrance">
+<p>
+<rs key="#doyrzalska">DOYRZALSKA,</rs> (sama).
+</p>
+</stage>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Nie Pan Bóg to iak widzę sprowadza do nas tego Szambellana... nie, nie... musi bydź iakaś na moie nieszczęście pokusa. Włóczy się iak żyd bezustannie z ofiarą swego serca... Zbałamucił iuż tak daleko Pannę Melissę, że rozumi, iż on iest ieden machyną, w którey cały świat dla niey zamknięty... Jeżeli iey teraz zamysłu odwrócić nie potrafię, a przyrzeczenie mu uczyni - iuż będzie po mnie - Będą mieli wolność widywania się z sobą, y ułożą bez wątpienia iaki niegodziwy podstęp na oddalenie mnie... Ach! włosy wstaią na głowie na samo pomyślenie teraźnieyszych czynności... Sławny Matuzalu - gdybyś się teraz ukazał na ziemi, nie poznałbyś zapewne wnuków y prawnuków swoich, nie znalazłbyś podobno na ieden krok mieysca, aby nie było napełnione zbrodnią y rozpustą znieważaiącą dawne ustawy... Darmo!... iuż się widzę nieszczęsny zbliża świata tego koniec... Panna w lat piętnaście za mąż, ieżeli może bydź większe do podziwienia zdarzenie... Muszę koniecznie przeszkodzić tym zamachom, nie dla mego broń Boże awantażu, ale dla własnego Panny Melissy dobra - gdyż w tym wieku ieżeliby poszła za mąż, żadną miarą, żadną, szczęśliwą bydź nie może... Lecz postępuymy z wolna y rozsądnie. <stage>(dzwoni)</stage></p>
+</sp>
+</div>
+<div type="scene" n="23">
+<head>SCENA XI.</head>
+<stage type="entrance">
+<p>
+<rs key="#doyrzalska">DOYRZALSKA,</rs>
+<rs key="#salusia">SALUSIA,</rs> (poźniey) 
+<rs key="#melissa">MELISSA.</rs>
+</p>
+</stage>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(wbiegaiąc bardzo prędko)</stage> Czy iuż WPani Dobrodzieyka...</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Cóż to znaczy ten trzpiotowski wchód? Nie mogłaś weyść skromnie, y zapytać się rostropnie, nie tak po szalonemu wbiegać... Nie musisz ty moia kochana spełna pacierza mawiac, kiedy ci nawet brak pamięci, żebyś wiedziała iak masz sobie postępować.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(zawstydzona odwraca się)</stage> Otóż to zwyczayna grzeczność na każde nasze spotkanie.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Takżem cię nauczyła, żebyś się odwracała, gdy weydziesz do mnie?... Ey nie próbuy dłużey moiey cierpliwości ostrzegam.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Czegóż iuż WPani chcesz odemme?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Czego chcę? chcę cię uczynić rozumną, ale iak uważam, próżnie koło tego pracuię...</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(na stronie)</stage> Oy co to, to prawda; lepiey tę pracę na swóy obróć pożytek.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Zawołay Panny Melissy.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Przyjdzie zaraz sama, bośmy rozumieli, że WPani na wieczorne dzwonisz modlitwy.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>O! tak, wieczorne modlitwy wiechały wam w głowę - wieleście się też nauczyli dzisiay.</p>
+</sp>
+<stage>(Melissa wchodząc kłania się)</stage>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Doczytałaś WPanna tego rozdziału?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Ledwo żem dokończyła, aż mnie oczy bolą.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Zapewne dla tego, iż na rozumne patrzały się pismo.</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Druk ten staroświecki tak niewyraźny, że ciężko iest zrozumieć go nawet.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(z ironią)</stage> Tak się spodziewam, że niewyraźny, bo wyszystko prawdę pisze, którey się nam podobno rozumieć niechce, wszak prawda? <stage>(do Salusi)</stage> Przynieś mi książkę dużą w szarey oprawie, leży na moim stoliku... <stage>(do Melissy)</stage> Jeszcze WPanna dzisiay weźmiesz iedną lekcyą małą o sposobie pisania listów, ta nauka iest dla WPanny koniecznie potrzebna.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(wnosząc książkę)</stage> Czy ta Mościa Dobrodzieyko?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Ta. <stage>(do Melissy)</stage> Siądź WPanna <stage>(do Salusi)</stage> Tabakierka.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Mamże przynieść zaraz y różaniec?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Nie trzeba.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(na stronie)</stage> To iuż będzie zapewne do dwunastey nas męczyć. <stage>(idzie y przynosi tabakierkę dużą - sama staie za krzesłem swey Pani)</stage></p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Trzeba, żeby się WPanna nauczyła gładkiego y wyraźnego sposobu pisania listów dawnym zwyczaiem, a nie teraźnieyszą skakanteryą - co to weźmie człowiek list w rękę, więcey w nim zobaczy kresek rożnym kształtem kładzionych, kropek, pauzów, aniżeli słów, y zawsze więcey się domyślać trzeba z niego, niż obiaśni... dawny zaś sposób pisania iest wyraźny, bez wszystkich wymysłów, które tylko głowę zawracaią.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(do ucha Pani)</stage> Słuchay WPanna, może iaki piękny będzie, to go wynotuiemy, y napiszesz go do Szambellana.</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Ja mam czytać, czy WPani sama będziesz?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(z ironią)</stage> Druk staroświecki, a WPanna nie masz w nim gustu, możebyś tego niechciała rozumieć co czytać będziesz,... zaczym ia sama przeczytam, WPanna zaś słuchay pilnie y poymuy, ponieważ chcę, abyś ze mną korrespondowała, a to dla wprawienia się w ten styl.</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Bardzo dobrze, słucham WPani.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(czyta)</stage> List Panny Roztropnickiey odpisany do swoiey Przyiaciołki na doniesienie o śmierci Matki, dnia siedmnastego Marca tysiąc siedmset sześćdziesiąt drugiego Roku. - „Mnie Wielce Mościwa Pani N. N. y kochana przyiaciołko. Odebrałam smutny ogłos WPani, ogłaszaiący smutne ogłoszenie smutney śmierci matki moiey w naywiększym smutku... Ta wiadomość żałosna mało mnie natychmiast śmiertelną nie uśmierciła żałobą... Nie mogę znaleść spokoynego mieysca, któreby mi w tym Labiryncie spokoyne przynieść mogło uspokoienie się... Wszędzie wystawiam sobie dobroczynne matki moiey dla mnie dobrodzieystwa,... a widząc, że ich dłużey odbierać nie będę, w rozpaczaiącey zatapiam się rozpaczy... Jużbym sobie obrzydłe obrzydziła życie, gdybym się nie wspierała perswaduiącą WPani perswazyą, którą na drugiey czytam stronie... Bądź pewna kochana przyiaciółko, ieżeli mi ieszcze kiedy łaskawe niebo udzieli łaski, y obłąka obłąkane zabłąkanie się moie, nie zaniedbam za iey wdzięczność, w naywyższych dowodach wdzięczności wywiązać się wdzięcznością, y okazać czułość czułey duszy moiey... Co wyraziwszy zapisuię się raz na zawsze z naywyższym uwenerowaniem y naygłębszym uszanowaniem szczerą przyiaciołką” - Cóż WPanna o tym stylu rozumiesz?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Dosyć iasne widać w nim tłomaczenie się, iednakże zdaie mi się układ za nadto prosty.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Jak to? cóż WPanna przez to chcesz rozumieć, za nadto prosty? Czyliż można gdzie widzieć teraz w podobnym ułożeniu brzmiące słowa, styl słodszy, y iaśnieyszy wykład myśli?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Czytałam w podobney materyi list w Fortunacie, który opisuie żal, z utraty swoiey kochanki, ale tamten nierównie lepiey zdawał mi się bydź ułożony, y bardziey poruszaiący, niż wszystkie listy, które mi WPani daiesz czytać, y ten nawet który dopiero czytałaś.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Y WPanna śmiałaś czytać Fortunata?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Jeżeli go wszystkim czytać wolno...</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Wolno!... Któż to o tey powiedział wolności?... A wieszże to WPanna, że ia sama iuż siedm razy podawałam zażalenie, aby ta książka była zakazana, y wyklęta nawet, że iuż czwarty rok iak około tego pracuię, y że wkrótce tego dokażę?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Gdy iadnak dotąd niezakazana...</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Niezakazana, niezakazana, straszna rzecz... tak dobrze iak gdyby zakazana, kiedy tego chcę koniecznie, y nie tylko że dopnę, ale mam w Bogu nadzieię, że wszystkim Drukarzom tak niegodziwe pisma drukuiącym, litery w rękach ginąć y topnieć będą.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(do ucha Pani)</stage> Nie gniewny ią WPanna, powiedz, żeś tylko zdaleka słyszała o Fortunacie. <stage>(głośno)</stage> A iuż też wytrzymać nie mogę, żebym WPanny nie oskarzyła o niepotrzebną siebie chwałę... Wszakżem była przy tym, gdy Pan Szambellan zaczął czytać tę książkę - WPanna tylko co słuchać zaczęłaś, w tym Jeymość nadeszła, y przeszkodziła do dokończenia. Szambellan widziałam tę książkę schował, y potym wyiachał; a WPanna śmiesz się chwalić, żeś ią sama czytała?... Można się za to wyznanie gniewać na mnie, - ale zawsze wolę iść drogą prawdy, niż bydź świadkiem próżney chluby WPanny.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Nie czytałaś iey więc WPanna?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Nie czytała, nie, na honor powiadam Mościa Pani, że nie czytała.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Nie ciebie się pytam, za co odpowiadasz?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Czytałam... Ale nie wiem, coby WPanią tak mocnym przeciwko mnie gniewem uzbraiać miało, bo chociaż ta książka podług iey zdania iest złą... w tym przynaymniey niewinną iestem, żem w niey nic nie zobaczyła złego, z czegobym się zgorszyć miała.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(na stronie)</stage> Otóż mi nadgradza za obronę.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Kontenta iestem przynaymniey, żeś WPanna nie rozumiała tego niegodziwego pisma, a zatym y iadem onego ieszcze zarażoną bydź nie musisz... Widzisz tedy WPanna, iaka różnica między teraźnieyszemi a dawnieyszemi dziełami, gdy w nich równie złego iak y dobrego domysłem szczegulnie dochodzić trzeba - to samo przekonywa, że się nam dawnych trzymać należy - Ale mam ieszcze z WPanną pomówić w iedney rzeczy samą. <stage>(do Salusi)</stage> Ustąp Waść tym czasem.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(na stronie)</stage> Zapewne z tey konferencji, urośnie nadgroda za moie kłamstwo, czyńże tu komu dobrze. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="24">
+<head>SCENA XII.</head>
+<stage type="entrance">
+<p>
+<rs key="#doyrzalska">DOYRZALSKA,</rs>
+<rs key="#melissa">MELISSA,</rs>
+<rs key="#tryfon">TRYFON.</rs>
+</p>
+</stage>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>O co WPanny pytać będę, proszę mi odpowiedzieć, wyraźnie, prosto, y szczerze, ponieważ od tego zawisł los WPanny dalszy.</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Sadzę, iż o rzeczach mnie niewiadomych zapytaną nie będę, na którebym iey odpowiedzieć nie mogła - resztę zaś do czego mnie rozkaz WPani zobowiąże, szczerze uwiadomioną będziesz... Pewna iestem, iż wyznania mego, bądźby w nayskrytszey okoliczności, na złe użyć nie zechcesz.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Krzywdębyś mi WPanna czyniła, gdybyś insze o charakterze moim miała wyobrażenie, sekret gdyby nayważnieyszy mnie odkryty, sekretem bydź może nienaruszonym nigdy... Przystępuiąc tedy do rzeczy, pytam, czyli Pan Szambellan dobrze iest w sercu WPanny umieszczonym?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Prawdziwie... takowe zapytanie...</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Także to mi się WPanna szczerze zwierzasz?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Wszakże WPani sama zakazuiesz mówić o miłości?...</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Zakazywałam prawda, ale teraz pozwalam, owszem proszę, abyś mi się WPanna zwierzyła zupełnie; z zabronioney bowiem miłości złe częstokroć wypływaią skutki, postanowiłam przeto, nie wzbraniać WPannie więcey rozmów miłosnych. Szambellan dosyć zdaie się grzeczny, stateczny; ieżeli mu więc WPanna sprzyiasz?...</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Jeżeli sprzyiam?... ach! kocham go... lecz co mówię! Jakiż WPani masz powód pytania się o to?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Daley, daley, kończ WPanna śmiało, kochasz go, bardzom z tego kontenta. Cóż daley?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Tak, przyznaię się WPani, że on iest iedyną rozkoszy moiey nadzieią - y bądź pewną, że chociażby to wyznanie naywiększe przynieść mi miało przykrości, nigdy go nie zataię - zawsze wyznam, że szczerze y statecznie kocham Szambellana, y kochać go nigdy nie przestanę.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Chwalę tak stateczną miłość... nad wiek WPanna pokazuiesz mieć doskonałości... A iesteśże na wzaiem kochaną od Szambellana?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Aż nadto pewną iestem... y wątpić nigdy nie mogę, aby mnie nie kochał... owszem, iego stateczna wzruszyła mnie miłość, y do wzaiemności była podnietą.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>A gdyby też WPannę Szambellan zdradził?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Jakimżeby mnie zdradzić miał sposobem?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Gdy naprzykład w inney się kochał?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Nigdy się takiey nie lękam zdrady; chociażby mi to sam powiedział, nie łatwobym mu uwierzyła.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Aż nadto widzę WPanna w Szambellana wierności masz zaufania. Dowiedzże się odemnie, że inną, którey nie wymieniam, kocha damę y Jeymość iuż o tym wie - Przedsięwzięłam więc uwiadomić WPannę o zamiarach Jeymościnych, która postanowiła, ieżeli się dowie z ust WPanny, że go kochasz, oddać ią do klasztoru... Co za ślepe zaufanie; nie wstydziszże się też WPanna tak podłą powodować namiętnością?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Rozumieszże WPani, iż mnie tym ustraszysz? bynaymniey, chętnie na to przystanę - gdyż to będzie pierwszy sposób przekonania go o moim przywiązaniu - który ieżeli go nie wzruszy, przynaymniey ukarze, iak sobie wystawi, moie do niego przywiązanie y swoią niestałość... Ale WPani próżno mnie martwisz... <stage>(słychać stukanie lekkie u drzwi)</stage></p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Któż znowu sztuka. <stage>(idzie y odmyka)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(głowę tylko pokazuiąc mówi)</stage> Ja. Chciey WPani ieżeli kogo masz przy sobie oddalić, gdyż mam wielki powiedzieć WPani sekret. <stage>(zamyka drzwi)</stage></p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(do Melissy)</stage> W niespokoyność widzę wprawiłam WPannę. Już wszystko wiesz, com ci miała powiedzieć, y ieżeli niechcesz do przeznaczonego bydź przywiedzioną stanu... odeydź do swego pokoiu, y staray się zapomnieć o Szambellanie.</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Jabym o nim miała zapomnieć? ani Matka moia, ani WPani, ani klasztór, ani nawet naywiększe przykrości dokazać tego nie potrafią. Miłość moia niewinnym, a tym samym naymilszym wzmocniona uczuciem, nigdy zruynowaną bydź nie może. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="25">
+<head>SCENA XIII.</head>
+<stage type="entrance">
+<p>
+<rs key="#doyrzalska">DOYRZALSKA,</rs>
+<rs key="#tryfon">TRYFON.</rs>
+</p>
+</stage>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Ktoby się spodziewał, ażeby w młodey Panience tak stała bydź miała miłość... Ciężko iak uważam y przeszkodzić będzie... Ale, ale, iaki to znowu sekret. <stage>(idzie do drzwi y odmyka)</stage> Jakiż móy Panie masz do mnie interess tak pilny?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(tonem taiemnym)</stage> Czy nie masz tu prócz WPani nikogo więcey?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Sama tylko iestem.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Zmiłuy się WPani, ieżeli tylko nie będziemy podsłuchani?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Nie masz mówię nikogo, cóż to za sekret?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Jestem przysłany od Pana mego.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Od Pana Porucznika? Ciekawa iestem co za interess?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(na stronie)</stage> Oy coś się śmiało w oczy patrzy. Panie broń potknąć się w czym, to czysto pozna.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>No, słucham tego sekretu.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Przyszedłem do stancyi, zastałem Pana rozciągnionego na łóżku, oczy do góry słupem mu stały, z piersi gdyby z miechów kowalskich, przerażaiący dobywał się oddech, ręce bez przestanku załamywał, palce gryzł...</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Ach! dla Boga! ratować go było... to konwulsye... Maszże Lahrendogrę?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Oy nie Lahrendogry nam potrzeba, nie. Słuchay mnie WPani daley, przyskoczyłem na ten widok do niego, Panie, rzekłem, coż ci iest? obrócił oczy na mnie, a po krotkim milczeniu te wyrzekł słowa, drzącym tonem: Ach! naymilsza Doyrzalsiu, mogęż sobie obiecywać, że zostanę Panem twoich wdzięków, y spokoynie nayczystsze będę posiadał serce - Ale nie... W tym się znowu odwrócił, wściekłą na twarzy maiąc wyrytą rozpacz.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>A toż znowu co znaczy?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Co znaczy? oto ieżeli mu WPani swoie odmówisz serce, iutro go ieszcze zobaczemy na marach.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Obróć sobie móy Panie do kogo innego te żarty. <stage>(na stronie)</stage> Ach! iakżem szczęśliwa.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Tego też się Pan móy spodziewa, y tego się naybardziey lęka, żebyś WPani w żart nie obróciła, y żeby to broń Boże usłyszał, iuż po nim, usnąłby natychmiast iak kurcze w smutku.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Gdzież teraz iest Pan Porucznik?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Zostawiłem go w stancyi w tym opłakanym stanie, a mnie kazał iść do WPani, y upraszać, abyś przez wzgląd przynaymniey na iego sytuacyą - widziała się dziś w wieczór z nim w ogrodzie, gdzie ią chce przeświadczyć o swoim przywiązaniu - y gdybyś nie poszła, nielitościwą zabiłabyś go ręką. Chciał pisać - wziął pióro, trzy razy mu z rąk wypadło, y na tym skończył, co iey mam honor oświadczyć.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Biegayże do Pana, y powiedz, że dopełnię iego wolą, nie dla tego iednak, żebym sobie podchlebiała, iż mnie kocha, broń Boże nie iestem tey myśli, ale tylko żebym go z tego wyprowadziła błędu, y ieżeli słaby, ratowała przez obowiązek bliźniego.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Bądź dla niego łaskawa, bo gdyby umarł, iużbym tak dobrego nie znalazł Pana.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(na stronie)</stage> Niebom dzięki! doczekałam się przecie tey chwili, gdzie nie blaskom urody, ale statkowi y doyrzałemu rozsądkowi poświęcaią się serca. <stage>(do Tryfona)</stage> Przyidę, przyidę zapewne. <stage>(daiąc mu kilka złotych)</stage> Przyimiy tym czasem ten mały podarunek, w nadgrodę do Pana twego przywiązania. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="26">
+<head>SCENA XIV.</head>
+<stage type="entrance">
+<p>
+<rs key="#tryfon">TRYFON</rs> (sam).
+</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Wiwat Tryfonie, dobrze ci interessa idą... O słodki teraźnieyszy wieku! na sakie takie zdobędzie się człowiek kłamstwo, nigdy bez nadgrody... Łękam się tylko, żeby staruszka z zbyteczney radości waryacyi nie dostała... <stage>(patrzy się w rękę)</stage> A cóż to za pieniądze? <stage>(czyta)</stage> Sigismundus Rex Poloniae... O! to widzę Zygmuntowskie Tymfy. Day go katu, co to za mocna rzecz ta miłość - y staroświecką nawet wygrzebie monetę. Póydę tym czasem wczesne do przyięcia naszey Dyanny w ogrodzie uczynić przygotowanie. <stage>(odchodzi)</stage></p>
+</sp>
+<trailer>(KONIEC AKTU II)</trailer>
+</div>
+</div>
+<div type="act" n="3">
+<head>Akt III.</head>
+<stage type="setting">
+<p>(Teatr oznacza ogród ten sam co y w pierwszym Akcie)</p>
+</stage>
+<div type="scene" n="27">
+<head>SCENA I.</head>
+<stage type="entrance">
+<p>
+<rs key="#szambellan">SZAMBELLAN,</rs>
+<rs key="#tryfon">TRYFON.</rs>
+</p>
+</stage>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Czy mogęż się na to odważyć?...</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Cóż to Pana kosztuie, że przyspieszysz swoie wesele? kiedy móy Pan przystaie, to WPan Dobrodziey bez namysłu nawet powinieneś się chwytać tego sposobu... Chyba, że się żenić nie myślisz?</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Obawiam się takowym sposobem rozgniewać Panią Starościnę.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Nie turbuy się Pan, moia w tym głowa.</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Jakimże tego dokażesz sposobem?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Sposobem mnie wiadomym... Dosyć, że Pan dziś w wieczór będziesz miał otwarty pokóy Panny Melissy, y możesz ią uprowadzić z niego, nie daley iednak, iak tylko do stancyi Pana mego... Inaczey zapewne popsułbyś WPan sobie interessa... Upadam do nóg Pańskich, muszę pobiedz zawczasu czynić przysposobienia, do mego zamysłu.</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Bądź pewnym móy kochany Tryfonie... ieżeli mi pomyślną otworzysz drogę, nigdy ci wdzięcznym bydź nie przestanę.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Nie tylko drogę, ale bity gościniec dzisiay Panu utworzę, upewniam. Pan zaś za to, spodziewam się do mego pomoże mi szczęścia.</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Zawsze się z tobą szczęśliwością moią dzielić będę.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(figlarnie)</stage> Upadam do nóg Pańskich, to dla mnie zawiele; dosyć gdy mi Pan pomoże do ożenienia się z Salusią, Pan dziś na wielkim stopniu szczęśliwości będziesz... Ja zaś niechcę bydź nadto bogatym. <stage>(osobno)</stage> Oy znam was dobrze co umicie Panowie, nayciężey przyiąć taką deklaracyą, musiałbym się tylko nadzieią cieszyć, a potym gdybym się ożenił, Pan iak w dym do współki mego szczęścia... Oho! nic z tego, nie lada diaboł potrafi Tryfonowi dmuchnąć w kaszę... nie od czego noszę głowę. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="28">
+<head>SCENA II.</head>
+<stage type="entrance">
+<p>
+<rs key="#szambellan">SZAMBELLAN,</rs> (sam).
+</p>
+</stage>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Lękam się w takową wchodzić intrygę... Kto wie, może to iest umyślnie zrobiono dla wypróbowania mnie... Niebaczny!... na cóż dozwoliłem Tryfonowi robić zamięszanie w domu tym, którym szczęścia mego zamierzyłem granicę... Nieostrożny sługa zrobi iaką rzecz nieprzyzwoitą, wyda się iego podstęp, będzie pytany o przyczynę zdrady, powie bez wątpienia, iż odemnie namówiony. Sądzić będą, żem podłego chciał dopiąć zamysłu; stracę dobre o sobie mniemanie, zaciągnę na honor plamę, y wstydem ogarniony oddalić się na zawsze przymuszonym zostanę. Niechcę do szczęścia mego takowym postępować torem, któryby naymnieyszy cień ukrywać miał w sobie zdrady... Poydę do Porucznika, odkryię mu okropne takowego zamysłu skutki. O! niebaczna prędkości; do iakowegożeś mnie zamięszania przywiodła stopnia! Zdaie się, iż wszyscy iuż mnie maią za zdraycę, y czekaią tylko, aby wyrzucić na oczy płochą myśl, y ukarać sprawiedliwą wzgardą. Póydę... <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="29">
+<head>SCENA III.</head>
+<stage type="entrance">
+<p>
+<rs key="#szambellan">SZAMBELLAN,</rs>
+<rs key="#staroscic">STAROŚCIC,</rs> (spotykaiąc się z Szambellanem).
+</p>
+</stage>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Dokąd tak spieszysz Szambellanie?</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Do ciebie biegłem przyiacielu. Proszę cie, przykaż Tryfonowi, niech się nie waży żadnego używać podstępu, bo ten zapewne okryie nas zniewagą.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Nie bóy się Szambellanie, na przyiaźń przyrzekam ci, że iego podstęp żadney nam nie przyniesie krzywdy. Wiem o iego zamiarach - Chce tylko Doyrzalską wyprowadzić wieczorem tu do ogrodu y śmieszną iakąś zrobić scenę, a tym samym zepsuie iey kredyt u moiey Matki, y łatwiey nam będzie przychylić ią do naszego żądania - Siostra zaś będzie przez ten czas u mnie, spodziewam się, że iey to nie urazi.</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Odkryłże przynaymniey WPanu, iakim tego dokaże sposobem?</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Nie powiedział ieszcze... Ale chodźmy, musi nam wyznać wszystko, a ieżeli dokaże, wielką będziemy mieli uciechę; bo masz wiedzieć, że matka moia ślepo iest w Doyrzalskiey zaufana; z przyczyny tey, że na krok nigdy moiey nie odstępuie Siostry, gdy się zaś zawiedzie na swoiey ufności, wierzyć iey dłużey nie będzie - y pewna nasza wygrana - a do tego wiesz sam, że ci matka moia nie odmawia; przez ten tedy sposób zwłoka się tylko ukrociłaby. Chodź. <stage>(odchodzą)</stage></p>
+</sp>
+</div>
+<div type="scene" n="30">
+<head>SCENA IV.</head>
+<stage type="entrance">
+<p>
+<rs key="#staroscina">STAROŚCINA,</rs>
+<rs key="#doyrzalska">DOYRZALSKA.</rs>
+</p>
+</stage>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Obcessowa to, iakem Pani pierwey powiedziała, była miłość, którey się teraz Panna Melissa wstydzi, y bardzo iest od postanowienia daleką - Owszem sama uprasza, abyś WPani Dobrodzieyka wyraźnie Panu Szambellanowi odpowiedziała.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Czy to bydź może?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Naylepiey się WPani Dobrodzieyka przekonasz o tym, gdy ią sama wezwiesz - A wiem, że toż samo powie co mnie, że iuż dawno przestała myśleć o Szambellanie - Przymuszać też wiem, że iey WPani Dobrodzieyka nie zechcesz, aby dać miała rękę temu, którego nienawidzi.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Jabym ią zaś przymuszać miała? nie myślę bydź nigdy tak daleko dla niey przykrą - Przyznam się iednak WPani, że mi żal Szambellana.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Cóż tedy robić... Ja sama przyznam się Pani, boleię nad nieszczęściem iego... gwałtu, w takowey okoliczności używać nie można - Oczywista rzecz, że nie masz woli Pana Boga, ażeby Pan Szambellan był WPani Dobrodzieyki zięciem.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Wiem, że ta nowina zmartwi go nie pomału.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Oho! nie wierz WPani Dobrodzieyka temu - Tacy Paniczykowie więcey daleko oświadczaią niż czuią - Zobaczysz Pani, że po tak wielkiey stracie, w trzy dni inney swe serce odda.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Krzywdzisz go WPani.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Nie krzywdzę Mościa Dobrodzieyko. Takową żałobę bardzo prędko zrzucać zwykli... osobliwie w teraźnieyszym wieku.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Wierzay mi WPani, że nie mam serca odpowiedzieć mu - Ale tak naylepiey będzie - Każę więc wezwać do siebie Melissę, w obecności Szambellana, będę ią o przywiązaniu badać - niech mu sama swóy wstręt odkryie, inaczey, mógłby sobie wnosić, iż ia mu iestem przeciwną.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p> Nie można Mościa Dobrodzieyko tak uczynić żadnym sposobem... Panna Melissa zawstydzona iego przytomnością, wręczby mu nie odpowiedziała; zostałby ieszcze w nadziei, y nie przestawałby się ustawnie naprzykrzać - Tu Mościa Dobrodzieyko nie oboiętnych trzeba wyrazów, ale wyraźney odpowiedzi.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Więc zawołać syna mego każę; iest Szambellana przyiacielem, niech mu to oznaymi; gdy mu wierzyć niezechce, y przyidzie do mnie, na ten czas toż samo powtórzę.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Bardzo chwalebny sposób - tego się bespiecznie chwycić można - Niechże się Pani nie ociąga, y idzie iak nayprędzey to oświadczy. <stage>(odchodzi Starościna)</stage></p>
+</sp>
+</div>
+<div type="scene" n="31">
+<head>SCENA V.</head>
+<stage type="entrance">
+<p>
+<rs key="#doyrzalska">DOYRZALSKA,</rs> (sama).
+</p>
+</stage>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Walnie mi się zamysły udały... Prędzey ia podobno póydę za mąż niż się ty Panie Szambellanie ożenisz. <stage>(ogląda się, y dobywa z kieszeni zwierciadełka, flaszeczki y szczypczyki)</stage> Jakaż ia mizerna iestem. <stage>(siada na darniowey kanapce)</stage> Oczy mam pozapadałe, a to wszystko z tey ustawiczney zgryzoty, rumieńcu gdyby na żart, naymnieyszey rzeczy. <stage>(szczypie sobie twarz y naciera suknią dla rumieńca)</stage> Jeszcze te przeklęte siwe włosy iak na złość, im więcey ich wyrywam, tym więcey pokazuia się. <stage>(wyrywa)</stage> Jaką brew rzęsistą miałam, gdybym iey była nie popsuła przez te włosy siwe... Nic, iak uważam nie poradzę, tak ich iest gęsto, że gdybym wyrwała, nicby się włosów nie zostało. Lepiey ukoloruię. <stage>(dobywa z papierka czarny proszek, y naciera sobie brwi)</stage> Chociaż nie rada, muszę się stosować do świata, żeby mnie nie nazwali wyrodkiem. <stage>(nakrapia sobie suknie z flaszeczki)</stage> Świat teraz tak dziki, że kto mu się przeciwi, częstokroć utraca powszechnie sławę u ludzi - Pobiegnę teraz bardziej ustraszyć Melissę, żeby się z czym nie wymówiła przed Matką. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="32">
+<head>SCENA VI.</head>
+<stage type="entrance">
+<p>
+<rs key="#tryfon">TRYFON,</rs>
+<rs key="#salusia">SALUSIA.</rs>
+</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(prowadząc Salusię)</stage> Przyidzie , nie turbuy się... Jam iuż swego prawie iak dokazał - abyś ty tylko sprawiła się dobrze.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Cóż ia mam robić?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Nayprzód masz sekret przed domowemi utrzymać cóż do czasu uskutecznienia wszystkiego, potym gdy Doyrzalska wyidzie tu do ogrodu, dasz znać Panu memu y Szambellanowi, aby Pannę Melissę wzięli do siebie; nakoniec potym wszystkim, pobieżysz do Jeymości oznaymuiąc, że ani Doyrzalski, ani Panny Melissy w pokoiu nie masz - Jeymość wpadnie w immaginacyą, że ią wykradziono - w tym więc zamięszaniu zwołay ludzi, powiedz, ze słyszałaś szelest u furtki ogrodowey, y przybiegaycie tu wszyscy, tylko pamiętay pod to drzewo prowadzić wszystkich.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Kogóż tu zastaniemy?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Kogo zastaniecie, do mnie wiedzieć należy; pamiętay tylko podług przepowiedzianych sprawić się reguł.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Móy kochany, podobno te wszystkie twoie zamachy skończą się...</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>... Na waszym szczęściu.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Na niczym.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Na niczym zaś? śmiać mi się chcę z twego powątpiewania. <stage>(pokazuiąc sobie na głowę)</stage> A wieszże ty co to iest za machina, y co ona znaczy?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Mamże ci prawdę powiedzieć, co o tey myślę machinie?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(na stronie)</stage> Obawia się, abym pochwał nie wziął za podchlebstwo. <stage>(głośno)</stage> Mów, mów, cóż to iest?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Jak mnie się zdaie, iest to wielki magazyn głupstw, w którym próżnych nadziei mieścisz skład niemały; a co zgadłam?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(na stronie)</stage> O! podchlebiłaś mi szalenie... Nie masz w świecie człowieka, któryby się do podobnego przyznał bogactwa. <stage>(głośno)</stage> Zaniechayno te żarty, nie zgadłaś wcale. Jest to owszem szczupłe pomieszkanie mego przewodnika, który mi w lasach, w skałach, głębokim morzu, y na wysokim powietrzu, otwiera pomyślne drogi, y od przypadków broni. - A iakże w waszym mizernym nie ma mi dopomódz dworze.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Ręczę, że y przewodnik tak zachwalony nic ci nie dopomoże.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(z uśmiechem)</stage> Doprawdy - zkądże masz tę pewność?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Ztąd, że Doyrzalska kazała sobie nagotować suknią a zatym wnosić nieomylnie mogę, że ten wieczór bawić będzie u Jeymości z Szambellanem y twoim Panem.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Dobra nasza - nie do Jeymości ona ubierać się będzie, nie, ale do szlubu, który ią diabelnie zawiedzie.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Do iakiego zaś szlubu?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Mam ia dla niey kawalera, któremu dziś poprzysięże wiarę... Ale tym czasem gdy nam dobrze interessa idą, pomyślmy o sobie. No Salusiu! day mi rękę, kiedyś nie pozwoliła abym się zabił, pozwólże teraz, niech z tobą żyię szczęśliwie.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Móy Tryfonie... pomyślno sobie szczerze, czego odemnie żądasz?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Czy ieszcze mam myśleć więcey? Nie wiesz może, iż o tobie ustawiczne myśli mało mi iuż łba nie zawrócą - raz powiedziałem, że twego serca y ręku żądam, y tysiąc razy to samo ci powtórzę.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Naymnieysza rzecz o rękę, tę mieć możesz odemnie zawsze, ale przekonay mnie wprzód, czyli będę za tobą szczęśliwą; wiesz dobrze, że posagu nie mam.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Nie szukam posagu, ale serca, ieżeliby zaś przy nim znalazł się iaki, to mnieysza, musiałbym go przyiąć... Jednak wiedz o tym, że nie na worek wytrzyszczam oczy, nie, drwię owszem z niego, <stage>(osobno)</stage> zwłaszcza kiedy wiem, że pusty. <stage>(głośno)</stage> Szczęśliwa zaś za mną wiem, że będziesz, bo ile sił moich kochać cię będę - Wszak naywiększa szczęśliwość zasadza się na kochaniu, w którym ieżeli mnie kto przepisze, gardło moie stawię... Nakoniec o co ci idzie, zostawszy moią żoną, może się zechcesz o tey przekonać prawdzie, a wiem, że mi oddasz sprawiedliwość.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Dobrze, więc kochasz mnie szczerze, y ia ciebie, bierzemy się... Ciebie Pan odprawia, ia tracę mieysce; czy będzie nasza miłość tak grzeczna, aby nam ieść y pić dawała, kiedy z niey tylko cały maiątek złożony mieć będziemy?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Ty bo zaraz z przyszłością na plac wyieżdżasz - y cóż z tego choćby nas odprawiono, toć iest wiecey Państwa u których byśmy chleb iedli... a potym y o miłości tak dziko trzymać nie można, bardzo wiele znaydziesz tu osób, którzy się zdali na iey dyskrecyą, karmi ich y przyodziewa dobrze... Ty iesteś ładna, młoda, grzeczna, - spodziewam się więc przy tobie mieć łaskawych przyiaciół;... a mężowi ładną żonę maiącemu, chociażby naybardziey podupadł, iest ieden sposób ratowania się bardzo pewny y niezawodny.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Jakiż to naprzykład?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Jest to maleńki bardzo defekcik: zachorować tylko przez czas nieiaki na oczy, a zaraz go wspomogą łaskawi Dobrodzieje... Oho! wierzay mi Salusiu, iest ieszcze bardzo wiele czułych dusz na świecie.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Y tak w nadziei takowego zysku myślisz sie żenić? zapewne to z tey zachwaloney machiny przewodnik twóy tak ci doradza.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Nie, nie, ia owszem niechcę bydź takim pacyentem; to się tylko mówi dla przykładu, że y miłość człowieka pożywić w przypadku może, chociaż poprawdzie mówiąc, nie byłbym pierwszym tey choroby wynalazcą, bo wielu na nią choruie mężów, wszelako nie życzę iey sobie.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Jakiż tedy masz inny sposób?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Dziwna iesteś Salusiu prawdziwie, przecież nie iestem ostatni hołysz, znaydzie się u mnie ieszcze kilka groszy w gotowiźnie, niechcę się tylko chwalić... Możebym Panem był do tego czasu z samego sukcessyonalnego po Oycu, moim maiątku, gdybym w początkach nie stracił był na handlu. Oho! nie uważay Salusiu, chociaż zdaie ci się bydź biednym, umiem ia czasem y handelkiem zabawić się.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Widzę, że masz chęć do handlu, y bardzo wielką, kiedy nawet chcesz dom swóy zrobić sklepem, a żonę towarem... Ale szukay droższego fantu do swego sklepu, bo ia ci zysków przynosić nie myślę.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Ey cóż znowu u kata, na to zawsze odpowiadasz, o co niezapytaną iesteś. Jam tu nie przyszedł Babilońskiey wieży z tobą fundować... Masz kochać, kochayże bez grymasu, a nie, to...</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Inszey swe serce oddasz. Wszak to miałeś mówić?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Czy go oddam, czy nie, nie wszystkim o tym wolno wiedzieć, dosyć ci powiadam, że mi się te próby y ucinki twoie wcale nie podobaią; ze mną po prostu, szczerze, ale nie po modnemu postępować należy.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Zazdroszczę ci bardzo takowey nad sobą mocy... W iednym iak uważam momencie stać się możesz niewolnikiem y Panem... razem się upokarzać y srożyć umiesz... Ja to biedna opłakiwać będę ten moment, w którym offiarę z serca czynię temu, który się od niey odwraca y przyiąć niechcę.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(z przymileniem)</stage> Chciałem się prawda trochę podrożyć, ale żadnym sposobem nie mogę... Nie wierz Salusiu! kocham cię zawsze, tylko porzuć te dzikie myśli, nie sądź bym iuż miał bydź bez żadnego sposobu; gdyby na to przyszło, możebym ieszcze iaki tysiączek znalazł przy sobie. <stage>(biiąc się po kieszeni)</stage></p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Tym gorzey dla mnie?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Otóż znowu nowa myśl... Dopieroś przecie sama gadała, że nic po miłości ieżeli będziemy goli, teraz iuż źle, że mam pieniądze; podług twego humoru trzeba widzę bydź razem bogaczem y hołyszem. <stage>(osobno)</stage> Takim też w samey istocie iestem.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Prawda. Mówiłam, y dokażę, że sprawiedliwie... Zbyteczne bowiem ubóstwo truie miłość między małżeństwem, a częstokroć z gruntu ią niszczy... Lecz daleko nieszczęśliwsze gdy nie iest równie sprzęgłe... Mąż maiętny ieżeli mu żona równych przez posag nie przynosi bogactw, postać amanta maską przyodziewa dumy; niechce bydź mężem, ale Panem; nie łagodnym wspólnikiem, lecz surowym wszystkich spraw żony Sędzią; niechce bydź kochanym z przywiązania, lecz szanowanym z powinności; nie szuka sposobów podobania się, ale używa przykrych sprężyn okazania swey władzy...</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Rozumiem iuż, rozumiem, iaki chcesz zrobić przykład, ale ta myśl nie powinna mieć u ciebie mieysca, bo na przekonanie, że takim nie będę, daię ci zawczasu moc zupełną rozrządzenia moim maiątkiem, iak tylko sama zechcesz.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Teraz poznaię, że mnie szczerze kochasz, nieodmieniay się tylko, a przyrzekam ci moią rękę; nie przeto iednak, żeś maiętny, ale żeś stateczny.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Day go katu z iakemi morałami; gdyby mi dwunastu Kapucynów twoią oddawali rękę, więceyby nie naprawili nauk y przykładów. Żebyś iednak nie sądziła, że się kiedyś odmienię, chcesz, abym ci zaraz moie oddał pieniądze. <stage>(siąga się do kieszeni)</stage></p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Na cóż mi pieniądzę? wierzę ci iuż zupełnie... Ale wiesz co? wszak to wszystko iedno, czy poźniey czy teraz... day mi tylko kilka złotych, co sobie wstążkę piękną kupię.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(na stronie)</stage> Ziedzże sto diabłów, nie mam ani szeląga. <stage>(głośno)</stage> Wstążki potrzebuiesz? to ia sam kupię, a wiem, że trafię w twóy gust.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>O! nie trafisz zapewne; a potym zapłaciłbyś drogo, my lepiey takie rzeczy targować umiemy niż mężczyźni.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Oho! co do targu nikt nademnie lepszy, upewniam, gotowem się puł dnia o ieden grosz targować.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Proszę cię, niech ia sama kupię.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(na stronie)</stage> O! kłopot! wdałem się samochcąc w niepotrzebną robotę.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Jakże, nie dasz Tryfonie?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Ale ia ci nie żałuię, broń Boże... tylko że wszystko złoto mam w grubey sztuce, w samych Imperyałach, a nayciężey tylko rozmieniać, to niewiedzieć gdzie rozlizą się pieniądze, monety zaś choć mam trochę, to iak na nieszczęście wszystka Pruska, musiałabyś na niey stracić, odemnie zaś kupiec przyiąć musi bez straty. <stage>(osobno)</stage> Czy mi diabli nadali przed kobietą wspomnieć o pieniądzach, teraz wpadłem iak mysz w pułapkę. <stage>(głośno)</stage> Ja ciebie kocham moia Salusiu, naymnieysza więc szkoda byłaby szkodą wspólną, ia wiem, że ty sama tego niechcesz, wszak prawda?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Piękną mi swoiey miłości daiesz próbę... kiedy nawet mizernych kilku złotych żałuiesz.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Jabym zaś miał żałować dla ciebie? dla ciebie którey życie wraz gotów iestem oddać. <stage>(osobno)</stage> Y prędzeybym się tym przysłużył niż pieniędzmi. <stage>(głośno)</stage> We mnie znaydziesz cztery Elementa, z których zawsze kontenta będziesz.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Ey! co mi tam po twoich Elementach... Kilka złotych.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Ale słuchayże tylko. W twarzy mam miłą Wiosnę, w ustach pogodne Lato, w sercu obfitą Jesień...</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>A w kieszeni tęgą zimę - Czwarty Element naypewnieyszy zdami się...</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Ciebie się widzę żarty trzymaią, nic więcey... a ia teraz czasu na nich trawić nie mogę. Wieczór się zbliża, trzeba poyść dla Doyrzalskiey po amanta - bądź zdrowa - Odchodzę więc stateczny, a pamiętay coś statecznemu przyrzekła. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="33">
+<head>SCENA VII.</head>
+<stage type="entrance">
+<p>
+<rs key="#salusia">SALUSIA</rs> (sama).
+</p>
+</stage>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Walny chłopczyna - goły, czy bogaty - zawsze wart aby był kochanym... Powolny... serce ma tkliwe, można będzie nim rządzić, podług upodobania... A co mnie naywięcey kontentuie to to, że pokazuie się bydź Filozofem w materyi co do małżeństwa - Spodziewam się bydź z nim szczęśliwą... Bo na męża lepszy iest tysiąc razy wolny Filozof, gdyż ten utrzymuie, że wszystko pozwolono iest w społeczeństwie ludzi, y rad słucha pochwał o żonie, chlubiąc się, iż iego potwierdzaią wybór, niż maiętny prostak, który żonie żyć tylko każe dla siebie.</p>
+</sp>
+</div>
+<div type="scene" n="34">
+<head>SCENA VIII.</head>
+<stage type="entrance">
+<p>
+<rs key="#szperka">SZPERKA,</rs>
+<rs key="#salusia">SALUSIA.</rs>
+</p>
+</stage>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p><stage>(wchodząc)</stage> A cóż to WPanna sama porabiasz o tym czasie w ogrodzie?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(osobno)</stage> Otóż znowu nowy kłopot; chcąc uniknąć podeyrzenia, muszę się y iemu sprawiać. <stage>(głośno)</stage> Wyszłam wolnego zażyć powietrza, bo mnie iuż z tego ustawicznego w pokoiu siedzenia, niezmierne opanowały mdłości.</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p><stage>(zawsze nadstawiaiąc ucha)</stage> O ponętach miłości? nie mogłaś WPanna na to lepszego obrać sobie mieysca - Y ia przed lat dwudziestą czterech, smakowałem w takich zabawach, zawsze bywało pod wieczór wyidziemy sobie z nieboszczką do ogrodu y bawiemy się.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(osobno)</stage> Już zaczyna pleść o swoim, trudno go będzie przesłuchać, trzeba odeyść. <stage>(chce iść)</stage></p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>Już to WPanna idziesz? nie łaska ieszcze zabawić się trochę.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Może mnie Pani potrzebować będzie, muszę iść... WPan wiesz, że sługa na swóy pożytek momentów obracać nie powinien, który służy szczerze.</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>Na wieczerze? ieszcze za rano, nie zaraz będzie... Ale kiedy się WPannie ieść chce, muszę dać podwieczorek - proszę, proszę, <stage>(głaszcząc Salusię pod brodę odchodzi)</stage></p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Boday ładną bydź dziewczyną... u wszystkich można mieć łaskę - Spotkasz się z młodym, kocha; z starym, karmi, a czasem y odziewa - Prawdziwie, gdyby mnie ta myśl nie trapiła, że z czasem trzeba się będzie z wdziękami rozłączyć, nigdybym dla męża niechciała opuszczać tak miłych rozkoszy. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="35">
+<head>SCENA IX.</head>
+<stage type="entrance">
+<p>
+<rs key="#tryfon">TRYFON,</rs> (sam).
+</p>
+</stage>
+<stage type="setting">
+<p>(wnosi fantazma na podobieństwo człowieka słomą wypchane, idzie z nim po nadbrzegiem Teatru, rzuca na ziemię y ociera pot z czoła, potym go bierze y sadza pod drzewem)</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Otóż y Pan młody... Ey Fortuno łaskawa, ieżeli kiedy, to teraz naybardziey wzywam twoiey pomocy; bądź mi przyiazną w ten wieczór, który albo mi na zawsze szczęście upewni, albo długo, świata widzieć nie pozwoli... Diabelnie coś skóra cierpnie... Podstęp, zdrada, źle częstokroć nadgradzane bywaią... częściey iednak pomagaią do szczęścia - kończmy, kiedyśmy iuż zaczęli... Przez różne też stopnie, człowiek do maiątku przychodzić musi, złe y dobre - przyzwoite y niebespieczne... Trafia się y to, że się z czasem stopień urywa, zostawuiąc człeka na szczeblu... Ale móy podstęp nie iest tak wielki; chociaż mi się nie uda, nie odeymie życia przeto... Już się zmierzcha dobrze, póydę po Pannę młodę... <stage>(słychać kaślnięcie za Kulissą)</stage> Oho! iuż podobno idzie - trzeba prosto naprowadzić. <stage>(wybiega za Kulissą)</stage></p>
+</sp>
+</div>
+<div type="scene" n="36">
+<head>SCENA X.</head>
+<stage type="setting">
+<p>(NOC)</p>
+</stage>
+<stage type="entrance">
+<p>
+<rs key="#tryfon">TRYFON,</rs>
+<rs key="#doyrzalska">DOYRZALSKA,</rs> (w nowych sukniach).
+</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(prowadząc Doyrzalską po nad samym brzegiem Teatru, która ręką poprawia sobie około sukni)</stage> Tędy, tędy Mościa Pani, ia wiem, gdzie Pan móy czeka. <stage>(udaiąc)</stage> Ach!... Czy słyszysz WPani? wzdycha nieborak. <stage>(osobno)</stage> A bodayżeś przepadła trupie przeklęty z twoim piżmem - mało się nie uduszę.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p> Chodźmyż prędzey kiedy wzdycha - zapewne chory, trzeba ratować biednego.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(osobno)</stage> Jakże się kwapi na ratunek z swoią starą apteką- <stage>(przyprowadza ią przed Fantazma, y staie mówiąc)</stage> Otóż tu siedzi, rozmawiaycież się WPaństwo z sobą, y ratuycie... a ia odeydę dla trzymania straży zdaleka, żeby kto nie nadszedł... <stage>(niby do Pana)</stage> Panie! przyprowadzam na rozkaz Pański Panią Doyrzalską. <stage>(tu ią opuszcza, y staie za drzewem)</stage></p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Mości Starościcu! przychodzę na rozkaz WPana - słyszałam, żeś był słaby.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(udaiąc Pana)</stage> Twóyże to głos słyszę śliczna Doyrzalsiu! Ach!</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Tak iest, móy. Ale gdzież WPan iesteś? <stage>(osobno)</stage> Samą tylko oddycha miłością, iakżem szczęśliwa!</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(udaiąc Pana)</stage> Ach! głos ten naymilszy przywraca mi życie... Przybliż się, niech ucałuię tę nogi, które mi szczęścia wymierzyły kroki, które...</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(broniąc nóg)</stage> Och! na to nigdy nie pozwolę. <stage>(osobno)</stage> Aż do szaleństwa widzę rozkochany we mnie. <stage>(głośno)</stage> Czegóż WPan chcesz odemnie?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(osobno)</stage> Chcę cię gładko wysorować od nas. <stage>(głośno)</stage> Czego chcę? alboż ci Tryfon nie opisał stanu mego, y nie opowiedział, dla czego cię wzywam.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Tryfon powiedział mi tyle, żeś słaby, przyszłam wiec ratować go.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(osobno)</stage> Patrzaycież, iak ten sekut baba gładko łże. <stage>(głośno)</stage> Tak iest, zachorowałem od pierwszego ciebie zobaczenia, y choroba moia inaczey uleczoną bydź nie może - chyba sercem twoim, ieźli go pozyskam.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(osobno)</stage> Biedny, iakże go miłość męczy, aż mówić nie może, ale ieszcze go chwilkę wytrzymam. <stage>(głośno)</stage> Nie rozumiem wcale Mci Poruczniku, co WPan mówisz?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(udaiąc Pana)</stage> Ach! okrutna! chcesz, abym natychmiast skonał?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(uklekaiąc, maca gdzie Porucznik, Tryfon daie iey rękę swoią, którą mile przyciska. Mówi)</stage> Nie Mości Starościcu, nie żądam śmierci WPana, ale pozwól, że wątpię, aby iego oświadczenie trwałym bydź miało. Serca Wmość Panów ubiegają się, naywięcey za miiaiącym y nietrwałym, blaskiem wdzięków... Tych WPan we mnie nie widzisz... zaczym podchlebiać sobie nie mogę, ażeby...</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(udaiąc Pana)</stage> Serce moie niechce znać osoby ozdobioney wdziękami, lecz naywięcey szacuie rozum, y temu się poświęca. <stage>(osobno)</stage> Jak się Babunia zręcznie droży. <stage>(głośno)</stage> Niechciey proszę oświadczenia mego brać za płonne, poprzysięgam, że mię dobiiesz swym powątpiewaniem. Jakżem nieszczęśliwy.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(osobno)</stage> Nie mogę go dłużey martwić, szczerze kocha. <stage>(głośno)</stage> Ach!... Starościcu! moie niedowierzanie mnie tylko martwi, mnie zabiia - nie możesz nawet myśleć, abyś więcey kochał, iak iesteś kochanym. Niestety?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(odchodzi na bok śmieiąc się)</stage> Day go diabłu iakże sobie piersi starego Testamentu mocuie wzdychaniem.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Poznaię, iż to bydź musi naywyższych Niebios przeznaczenie, abym twoią została niewolnicą.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(osobno)</stage> Ach! pęknę od śmiechu. Poznała przeznaczenie Niebios, aby oddała serce workowi z słomą. Słuchaymy daley.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Nayszczęśliwszą będę, gdy mi pozwolisz często powtarzać, że dni wieku mego dla ciebie tylko iedynie są przedłużone... Ach!</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(osobno)</stage> Wyśmienicie... trzeba iey korrespondować. <stage>(bieży za fantazma y udaiąc Pana)</stage> Ach! <stage>(znowu się oddala)</stage></p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Czegóż wzdychasz Starościcu?... uspokóy się proszę, na wszystko gotowa iestem przystać, byle cię spokoynym uczynić.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(osobno)</stage> Oh! iakaż babuleńka nieoszacowana, nie tylko na szlub, ale y na wesele nawet zaraz pozwolić oświadcza - Trzeba więc pobiedz prędzey po świadków. <stage>(odchodzi)</stage></p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(klęknąwszy)</stage> Tak iest Starościcu, kocham cię, iuż to wyznanie cnotą iest czy występkiem, nie mam mocy tłumić go dłużey w sobie. O! szczęśliwszy dniu nad wszystkie dni życia mego! będziesz u mnie do śmierci naysolenniey obchodzonym... Ufay Starościcu memu wyznaniu, nigdy mnie nie znaydziesz odmienną... Nie rozumiey iednak, abym to czyniła myślą osiągnienia za tobą dostatków, albo polepszenia losu; chociażbyś w naymizernieyszym znaydował się stanie, kochaćbym cię przeto nie przestała... Serce moie nie zna wybiegów, ani usta obłudy...</p>
+</sp>
+</div>
+<div type="scene" n="37">
+<head>SCENA XI.</head>
+<stage type="entrance">
+<p>
+<rs key="#doyrzalska">DOYRZALSKA,</rs>
+<rs key="#staroscina">STAROŚCINA,</rs>
+<rs key="#tryfon">TRYFON,</rs>
+<rs key="#salusia">SALUSIA,</rs>
+<rs key="#ludzie">LUDZIE</rs> (z światłem).
+</p>
+</stage>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p><stage>(na czele ludzi zmieszana)</stage> Przebóg! Córka moia...</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(porywa się z przestrachem y wywraca fantazma)</stage> Uciekay Poruczniku, głos słyszę Jeymości. <stage>(tym czasem nabiegaią na nią)</stage></p>
+</sp>
+<sp who="#tryfon #salusia">
+<speaker>TRYFON. SALUSIA</speaker>
+<p><stage>(razem)</stage> Oto iest, oto stoi.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(spostrzegłszy fantazma wywrocone, mniema że Porucznik, tym przelękniona krzyczy żywo)</stage> Ach! dla Boga!... ratunku... Pan Porucznik umiera.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p><stage>(z przestrachem)</stage> Móy Syn! <stage>(przybliża się)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Móy Pan! <stage>(przybiega y ratuiąc niby rozdziera na piersiach, ztamtąd dobywa słomy garść lub siana)</stage></p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>A to zaś co? <stage>(wszyscy w zadumieniu)</stage></p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Uciekaycie, uciekaycie, Pan Bóg znami. Zdradzona iestem, to szatan.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>A WPani tu co robisz? gdzie iest Melissa?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Nieszczęśliwa! dałam się uwieść pokusom.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Uwieść się dała? gdzie? komu? mówże WPani, o naynieznośnieysza męko! <stage>(tonem poburzonym z żalu)</stage> Do pięknego stopnia przyprowadziłaś ią WPani swoią edukacyą.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Niech się Pani nie troska tak mocno... inaczey się rzeczy maią, proszę mnie tylko słuchać?...</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p><stage>(z radością)</stage> Ach! Mościa Dobrodzieyko, Panna Melissa idzie.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Moia córka?</p>
+</sp>
+</div>
+<div type="scene" n="38">
+<head>SCENA XII.</head>
+<stage type="entrance">
+<p>
+<rs key="#doyrzalska">DOYRZALSKA,</rs>
+<rs key="#staroscina">STAROŚCINA,</rs>
+<rs key="#tryfon">TRYFON,</rs>
+<rs key="#ludzie">LUDZIE</rs> (y) 
+<rs key="#staroscic">STAROŚCIC,</rs>
+<rs key="#szambellan">SZAMBELLAN,</rs>
+<rs key="#melissa">MELISSA.</rs>
+</p>
+</stage>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p><stage>(pokazuiąc na Melissę)</stage> Przyprowadzam Jeymości Dobrodzieyce mniemanego zbiega, który nim w samey istocie nie iest.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p><stage>(do Melissy)</stage> Gdzieżeś była?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Nie postrzegłam, gdzie się Pani Doyrzalska podziała, światła w moim pokoiu nie było, chciałam iść do pokoiu Jeymości Dobrodzieyki, ale zamknięty był także... W tym Pan Brat nadszedł, y poszłam na chwilkę do niego.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Skoro zaś Siostra przyszła do mnie, usłyszeliśmy natychmiast rozruch ludzi, y biegącą WPanią Dobrodzieykę postrzegliśmy do ogrodu... Domyśliłem się zaraz, iż tego zamięszania Panna Melissa iest przyczyną, y przybiegamy wszyscy... Lecz może inna iaka?</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Ta sama, nie inna; sądziłam, że ią kto uwiozł, nawet Pani Doyrzalska toż samo potwierdziła - Ale przytym wyniyść nie mogę z nowego zadziwienia, na co ia tu trafiłam przypadkiem... Pani Doyrzalska w naywiększym pomięszaniu; bałwan oto leży na ziemi, którego mieniła bydź Porucznikiem potrzebuiącym ratunku, potym szatanem... Mościa Pani Doyrzalska, chciey nas teraz obiaśnić, co to wszystko znaczy?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(stoiąc zawsze zadumiona)</stage> Przyznaię się do błędu mego - winna iestem - Lecz razem nayniegodziwiey oszukana.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Cóż to za błąd? y w czym? co ta figura znaczy?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Umrę od wstydu y żalu.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Ja to naylepiey opowiem Mościa Dobrodzieyko, bom był tey ceremonii zadziwienia godney świadkiem.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Ach! oszuście niegodziwy! oczy ci wydrę.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Nic tu po kocich komplementach Mościa Pani, trzeba owszem łaskawą bydź trusią. <stage>(do Starościny)</stage> Tak się rzecz ma cała... Wszyscyśmy Mościa Dobrodzieyko ludzie - a iako ludzie są stworzeni na to, ażeby się podobali ludziom, y byli podobanemi, - tak Jeymość Pani Doyrzalska chcąc nadgrodzić niesprawiedliwość, że się nikomu podobać nie może, maiąc ieszcze cień w sobie serca oddawała go podobieństwu człeka... Nic w tym nie masz dziwnego, każdy o sobie radzi iak może - Patrzyłem na to więcey iak puł godziny, gdy łzy miłosne wylewała, oświadczaiąc się temu bałwankowi, y zapewniaiąc, że chociażby w nayuboższym znalazł się stanie, równe do niego mieć będzie przywiązanie.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Mościa Pani Doyrzalska, mamże tym bałamuctwom wierzyć?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Na pewność tey prawdy, sto razy na odwiedziony korek przysięgnę, ieżeli Pani zechce.</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Zgubiona iestem.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Wiem, że Pan Szambellan w naywiększym był u Jeymości Dobrodzieyki podeyrzeniu.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Prawda, nie taię się.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Nadgrodźże mu WPani Dobrodzieyka tę krzywdę, ręką Melissą - Niechciey się długo opierać, wszak równe do siebie maią przywiązanie, a tym samym y mnie szczęśliwym uczynisz... Znasz WPani Dobrodzieyka Siostrę Pana Szambellana, słyszałem nie raz, że o niey mówisz z zaletą - Deklaruię mi więc Jmć Pan Szambellan dopomódz do zyskania względów u niey.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Prócz tych oświadczeń, nie było moią myślą odrzucać żądanie Jmci Pana Szambellana, ależ Melissa.</p>
+</sp>
+<sp who="#staroscic">
+<speaker>STAROŚCIC.</speaker>
+<p>Chociaż zastraszona klasztorem od Jeymości Dobrodzieyki w przypadku odkrycia chęci twoich do Szambellana, nic to ią wszelako nie ustrasza, y natychmiast powtórzyć ie gotowa.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Ja i zaś zastraszałam klasztorem?</p>
+</sp>
+<sp who="#melissa">
+<speaker>MELISSA.</speaker>
+<p>Oświadczała mi to Pani Doyrzalska imieniem Jeymości Dobrodzieyki.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>A to potwarz nieznośna. <stage>(do Doyrzalski)</stage> Gadałamże kiedy z WPanią o tym?</p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p><stage>(pomięszanym tonem)</stage> Prawda że nie, Ale ia to zrobiłam szczegulnie...</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Dosyć na tym. Nie szukam WPani usprawiedliwienia się. <stage>(do Szambellana)</stage> Mości Panie Szambellanie przyrzekam ią WPanu.</p>
+</sp>
+<sp who="#szambellan">
+<speaker>SZAMBELLAN.</speaker>
+<p>Ach! Mościa Dobrodzieyko! wiekiem całym odsłużyć łask WPani Dobrodzieyki nie potrafię.</p>
+</sp>
+<sp who="#staroscina">
+<speaker>STAROŚCINA.</speaker>
+<p>Chodźmy, niech się nie patrzę na tę duszę podłą Dochodzę teraz dobrze, że wszystkie iey słowa nie znaczyły więcey nic, iak tylko intrygę zamięszania y podstępu. <stage>(odchodząc od Doyrzalski)</stage> Więcym się spodziewała znaleść u WPani charakteru, niż go mieć okazałaś - Odbieray za to słuszną z wzgardy naszey nadgrodę. <stage>(Odchodzą wszyscy z ironią spoglądaiąc się na Doyrzalską)</stage></p>
+</sp>
+</div>
+<div type="scene" n="39">
+<head>SCENA XIII.</head>
+<stage type="entrance">
+<p>
+<rs key="#doyrzalska">DOYRZALSKA,</rs>
+<rs key="#tryfon">TRYFON.</rs>
+</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(kłaniaiąc się)</stage> No! upadam do nóg WPani... Szczęśliwych życzę umizgów - może sobie Pani pozwolić, nikt iuż nie przeszkodzi, ręczę... Ja tym czasem pobiegnę szukać Poety, ażeby wielką na pochwałę dnia dzisieyszego zrobił Odę, któraby słodko opiewała... nowy Maryaż torby z workiem. <stage>(odchodząc wraca się y staie za drzewem)</stage></p>
+</sp>
+<sp who="#doyrzalska">
+<speaker>DOYRZALSKA.</speaker>
+<p>Od zmysłów odchodzę... sama nie wiem gdzie się udać... Poznaię, że sprawiedliwie ukaraną zostałam... Póydę więc iawnie wyznam moią winę... a chociaż odpuszczenia nie zyskam, dam przynaymniey przez to wiedzieć wszystkim, że nigdy zły uczynek dobrze nadgrodzonym nie bywa. <stage>(odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="40">
+<head>SCENA XIV.</head>
+<stage type="entrance">
+<p>
+<rs key="#tryfon">TRYFON,</rs> (sam).
+</p>
+</stage>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Wyśmienicie!... To iuż Szambellana pewny szlub, a zatym y móy z Salusią niezawodny... Ale żeby się nowa iaka w domu nie wykierowała intryga - muszę tu ią sprowadzić, niech mi przyrzecze swą rękę. <stage>(bierze fantazma z ziemi y sadza pod drzewem)</stage> A ty Panie postny kochanku będziesz świadkiem naszey przysięgi.</p>
+</sp>
+</div>
+<div type="scene" n="41">
+<head>SCENA XV.</head>
+<stage type="entrance">
+<p>
+<rs key="#szperka">SZPERKA,</rs> (późniey) 
+<rs key="#tryfon">TRYFON.</rs>
+</p>
+</stage>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p><stage>(niosąc pączki)</stage> Panno Salomeo! Panno Salomeo! nie masz iey widzę - Dobra dziewczyna, zawsze się z człekiem dobrze rozmówi; trzeba iey ten zanieść podwieczoreczek... ale może tu nadbieży, zaczekam na nią. <stage>(siada y postrzega fantazma)</stage> Ach! wszelki duch chwali Pana. <stage>(żegna się y krzyczy)</stage> Ach! ach!</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(wchodząc)</stage> A tego tu dziada po co diabli wnieśli. Co tu WPan Mospanie Szperka robisz?</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p><stage>(drżącym tonem)</stage> Patrz WPan, ratuy mnie.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Y pączki widzę z strachu sypie. A to dla kogo ten prowiant?</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>Ach! podwieczorek! Salusia! przyszedłem! oto leży, ratunku.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(podnosząc głowy)</stage> Jakiego ratunku? oto póydź dziadu spać, kiedyś się upił.</p>
+</sp>
+<sp who="#szperka">
+<speaker>SZPERKA.</speaker>
+<p>Upir. Dla Boga uciekay y WPan. <stage>(chwyta się Tryfona, ten go wyprowadza)</stage></p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>A ta bestya stara chce widzę, żebym się mu przysłużył schódkami na tamten świat. Już mi karmić zaczyna kochankę. O poczekayże trupie! damże ia ci podwieczorek... Pączkami się Jegomość przysługuie, co za nieoszacowany. Ale otóż y ona.</p>
+</sp>
+</div>
+<div type="scene" n="42">
+<head>SCENA XVI.</head>
+<stage type="entrance">
+<p>
+<rs key="#tryfon">TRYFON,</rs>
+<rs key="#salusia">SALUSIA.</rs>
+</p>
+</stage>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Cóż to tu Tryfonie za hałas? Spotkałam się z Szperką.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(ironią)</stage> A cóż ci powiedział?</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Ani słowa, żegnaiąc się tylko bezprzestanku uciekał co miał siły.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p><stage>(pokazuiąc pączki)</stage> Otóż ia ci powiem... Masz pierwsze dowody swoiey wierności - zawczasu się widzę przysposabiasz w żywność...</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Cóż to znowu znaczy?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Nic innego iak tylko pączki od Szperki, za to, że z nim grzecznie gadasz.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>A! to zapewne podwieczorek co mi obiecał - Nie lękay się takiego rywala, nic on ci nie zaszkodzi.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Tak się spodziewam że nic kiedy się żegnaiąc uciekł, tylko że to...</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Co?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Może późniey takich mieć będę, że ia się od nich odżegnać nie potrafię.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>Nie bóy się, ręczę, że prócz ciebie nikogo kochać nie będę.</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Kiedy tak, więc na znak przysięgi takowey wierności day mi rękę... y drugą.</p>
+</sp>
+<sp who="#salusia">
+<speaker>SALUSIA.</speaker>
+<p>A do czego zaś drugą?</p>
+</sp>
+<sp who="#tryfon">
+<speaker>TRYFON.</speaker>
+<p>Prawda Zapomniałem, że kiedy kobieta daie na znak przysięgi rękę, nie daie iak tylko iednę a drugą wolną zostawuie, żeby krzywoprzysięztwa nie popełniła, gdy co ze strony weźmie, nie naruszaiąc, więc dawnego zwyczaiu kontentuie się iedną.</p>
+</sp>
+<trailer>(KONIEC)</trailer>
+</div>
+</div>
+  </body>
+ </text>
+</TEI>

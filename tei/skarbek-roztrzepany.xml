@@ -1,0 +1,2748 @@
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000004" xml:lang="pol">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Roztrzepany</title>
+<title type="sub">Komedya w 3 aktach</title>
+<author>
+<idno type="isni">0000000121206268</idno>
+<idno type="wikidata">Q47963427</idno>
+<persName>
+<forename>Fryderyk</forename>
+<surname>Skarbek</surname>
+</persName>
+</author>
+<!-- Fryderyk Skarbek (1792-1866) -->
+</titleStmt>
+<publicationStmt>
+<publisher xml:id="dracor">DraCor</publisher>
+<idno type="URL">https://dracor.org</idno>
+<availability>
+<licence>
+<ab>CC0 1.0</ab>
+<ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl type="originalSource">
+<name>POLONA</name>
+<idno type="URL">https://polona.pl/item/teatr-t-2,OTc2NTA5MDA/8/</idno>
+<title>Skarbek, F., Roztrzepany: komedya w 3 aktach [w:] Teatr Fryderyka Hr. Skarbka, t. II, Warszawa 1847, s. 1-72</title>
+<availability>
+<licence>
+<ab>public domain</ab>
+<ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+</licence>
+</availability>
+</bibl>
+</sourceDesc>
+<editionStmt>
+<respStmt>
+<resp>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</resp>
+</respStmt>
+</editionStmt>
+</fileDesc>
+<profileDesc>
+<particDesc>
+<listPerson>
+<person xml:id="anzelm" sex="MALE">
+<persName>Pan Anzelm</persName>
+</person>
+<person xml:id="anzelmowa" sex="FEMALE">
+<persName>Pani Anzelmowa</persName>
+</person>
+<person xml:id="julia" sex="FEMALE">
+<persName>Julia</persName>
+</person>
+<person xml:id="ludwik" sex="MALE">
+<persName>Ludwik</persName>
+</person>
+<person xml:id="karol" sex="MALE">
+<persName>Karol</persName>
+</person>
+<person xml:id="zuzanna" sex="FEMALE">
+<persName>Zuzanna</persName>
+</person>
+<person xml:id="julisia" sex="FEMALE">
+<persName>Julisia</persName>
+</person>
+<person xml:id="cwik" sex="MALE">
+<persName>Ćwik</persName>
+</person>
+<person xml:id="jan" sex="MALE">
+<persName>Jan</persName>
+</person>
+<person xml:id="lokaj" sex="MALE">
+<persName>Lokaj	</persName>
+</person>
+</listPerson>
+</particDesc>
+<textClass>
+<keywords>
+<term>Komedia</term>
+</keywords>
+<classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<listChange>
+<change when="2023-05-23">file conversion from source with some corrections (no text interference)</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<standOff>
+<listEvent>
+<event type="print" when="1832">
+<desc/>
+</event>
+</listEvent>
+</standOff>
+<text>
+<front>
+<div>
+<titlePage>
+<docTitle>
+<titlePart type="main">ROZTRZEPANY</titlePart>
+<titlePart type="sub">KOMEDYA<lb/> W TRZECH AKTACH.</titlePart>
+</docTitle>
+</titlePage>
+<castList>
+<head>OSOBY.</head>
+<castItem>
+<role xml:id="#anzelm">PAN ANZELM.</role>
+<roleDesc/>
+</castItem>
+<castItem>
+<role xml:id="#anzelmowa">PANI ANZELMOWA.</role>
+<roleDesc/>
+</castItem>
+<castItem>
+<role xml:id="#julia">JULIA,</role>
+<roleDesc>ich córka.</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="#ludwik">LUDWIK,</role>
+<roleDesc>jej narzeczony.</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="#karol">KAROL,</role>
+<roleDesc>jego współzalotnik.</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="#zuzanna">ZUZANNA,</role>
+<roleDesc>panna służąca.</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="#julisia">JULISIA,</role>
+<roleDesc>pokojówka.</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="#cwik">ĆWIK,</role>
+<roleDesc>ogrodnik, jej ojciec.</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="#jan">JAN,</role>
+<roleDesc>masztalerz LUDWIKA.</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="#lokaj">LOKAJ pana ANZELMA.</role>
+<roleDesc/>
+</castItem>
+</castList>
+</div>
+<set>
+<p>(Rzecz dzieje się w Warszawie).</p>
+</set>
+</front>
+<body>
+<div type="act" n="1">
+<head>AKT I.</head>
+<stage type="setting"><p>Scena przedstawia dziedziniec przed dworem pana Anzelma, którego nie widać wszakże. Na lewo, przy kulisach, brama wjazdu na dziedziniec i niskie słupki z poprzecznemi baryerami, oznaczające odgrodzenie dziedzińca od ogrodu</p></stage>
+<div type="scene" n="1">
+<head>SCENA I.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK</rs>
+(i później) <rs key="#jan">JAN.</rs></p></stage>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(wpada głównym wjazdem, z harapniczkiem w ręku, spodnie ma za bryzgane, patrzy na zegarek)</stage> Acha! postawiłem na swojem; - godzina czwarta. To się nazywa jechać, półtory mili w godzinę. Ciągle kłusem przez błota i bagna, ale nie masz złej drogi do naszej niebogi. Droga Julio! jakżem szczęśliw, że cię zobaczę i to zaraz... natychmiast... <stage>(Biegnie na prawo i zatrzymuje się raptem usłyszawszy za sceną na przeciwnej stronie stąpanie i wołanie na konia)</stage> Co to jest?</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p><stage>(przewraca się przez baryerę i z za kulisy upada na scenę)</stage> O! dla Boga, zabił mnie, zabił!</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Co ci to Janie? czegóż się przewalasz po ziemi? kto cię zabił?</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p>A któż? pan.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Co ty pleciesz? jakto ja? cóż się to znaczy?</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p><stage>(wstaje powoli i stękając)</stage> Eh!...czego się pan pytasz, toć pan widzisz, że mnie koń zrzucił. Ja się kiedy doczekam tego z panem, że się nie wiedzieć jak na tamten świat dostanę.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A któż ci winien, żeś spadł z konia?</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p>Tak, kto? a juścić pan nie kto inny. Potrzebne to było puszczać swego konia?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Sądziłem że jesteś blizko za mną, i że go natychmiast uchwycisz.</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p>A czy to pan nie wie, że to waryat? Nie było teżto poczekać, póki nie dojadę, i oddać mi go do ręki? Czyto człek może zdążyć za panem? Ale nie, puścił go pan, on też bryknął.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Tyś przecię na nim nie siedział, jakże cię tedy mógł zrzucić?</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p>No, toć go trzeba było gonić. Biegnę tedy ku niemu, chcę go schwycić za cugle, schylam się na siodle... ale ten waryat fiknął, mój bestya chciał oddać, chlust zadem w górę, a ja feyt przez łeb, i przez baryerę buch w dziedziniec.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(śmiejąc się)</stage> A, ha, ha, jakie to przednie zdarzenie! Założę się, że nikt jeszcze przed ten dwór tak osobliwie nie zajeżdżał.</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p><stage>(pocierając się po krzyżu)</stage> Ale, przednio, przednio, bo pana nie boli... ale mnie to się tak zaświeciło w oczach, że ażem Kraków obaczył.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A konie gdzie?</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p>A niech je tam ciężkie licho porwie!</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Nie mógłżeś ich to trzymać?</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p>Ale, trzymać, a którego? czy tego pańskiego waryata, co mojego palną! i poszedł w świat? czy też mojego, który mnie przez łeb przerzucił i cugle z garści wyrwał? <stage>(Słychać hałas za sceną, Jan patrzy w tę stronę)</stage> A Wej! widzi go pan w ogrodzie, jakto bryka, co dokazuje. Tak, dobrze, - chlust przez rabaty,- buch w krzaki,- gruch w ten płotek.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale jak dokazuje, jak tęgo suwa!</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p>A tak, tak, zobaczy pan co z tego będzie. Ot, co to ludzi wypadło zanim: ogrodnik z grabiami, lokaje z serwetami; z czem kto może. Co on to szkody narobi, ten bestya! Otóż masz, chlust przez płot, no, jak teraz pójdzie w pole, to bądź zdrów. <stage>(Woła)</stage> prr, prr, prr; gońże go teraz, a mnie krzyże bolą. <stage>(Wybiega krzycząc)</stage> Prr, prr...</p>
+</sp>
+</div>
+<div type="scene" n="2">
+<head>SCENA II.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK</rs>
+(później) <rs key="#karol">KAROL.</rs></p></stage>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>No, proszę, ktoby się był spodział, że się ten koń nie da złapać w ogrodzie... ale kiedy uciekł, to niech go łapią, a ja pospieszę do kochanej Julisi. <stage>(Idzie i napotyka Karola, który wpada na niego z krzykiem).</stage></p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Łapaj, trzymaj, zastąp! <stage>(Do Ludwika, który go trzyma)</stage> A to co znowu, Ludwiku! czegóż mnie trzymasz? czyż nie widzisz, co się tam dzieje?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(puszcza go i chce z nim biedz)</stage> A, prawda... trzymaj, zastąp!</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(zatrzymując go)</stage> A pocóż dalej biedź napróżno, toć go nie dogonimy. Co to za głupiec jakiś, co konia luzem puścił!</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A to ja.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Przepraszam cię za przydomek przypadkiem nadany. Ale ktoby się spodział, że człowiek rozsądny konia do ogrodu wpuszczać może?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Albo ja go do ogrodu wpuszczał? on sam wpadł do niego.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Więc cię zrzucił?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>I, gdzie zaś, mój masztalerz nie zdążył odebrać go ode mnie,... i cóż ja, albo on, albo i koń winien temu, że ogród nieoparkaniony, że takie nizkie baryery?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Radzę ci jednakże, abyś się nikomu nie pokazywał, konia swego złapał, jeżeli można będzie, i na nim lub za nim do domu powrócił.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A to dlaczego?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Dlaczego? ty się pytasz o to? a czy to nie wiesz, że tu wszyscy są amatorami ogrodu? Jak chcesz, aby pan Anzelm obojętnem okiem na to patrzał, jak mu koń kwiaty depce, klomby tratuje i galerye u mostków łamie?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>No i cóż z tego! co się stało, to się stało; przeproszę go i koniec na tem. Zresztą mam do niego pilny interes. <stage>(Chce odchodzić)</stage></p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Ale człowieku, spojrzyjże na siebie, wszakżeś ty zabryzgany jak pocztylion. Ani podobna, abyś się pokazywał kobietom.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A co ja temu winien, że błoto po drogach?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Wierzaj mi, że po tem, co twój koń narobił, najrozsądniej będzie umykać do domu.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Zapewne! tybyś mi się chciał pozbyć, abyś się sam został przy pannie Julii; ale się to na nic nie przyda, ja już mam przyrzeczenie rodziców i panny.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Kto ci panny zazdrości! osobliwy człowiek, że go po przyjacielsku ostrzegam, to on jakieś dzikie ma podejrzenia. Spojrzyjże przynajmniej na siebie.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>E, co tam, kto mnie kocha dla mnie samego, ten na moje suknie zważać nie będzie.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(patrząc za kulisy)</stage> Uciekaj póki możesz, bo oto idą wszyscy z lamentami nad spustoszeniem ogrodu; a jak się dowiedzą żeś ty temu winien...</p>
+</sp>
+</div>
+<div type="scene" n="3">
+<head>SCENA III.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK,</rs> <rs key="#karol">KAROL,</rs> <rs key="#anzelm">P. ANZELM,</rs> <stage>(później)</stage> <rs key="#anzelmowa">P. ANZELMOWA</rs> I <rs key="#julia">JULIA</rs></p></stage>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>A przez Bóg żywy! czy też to kto słyszał co podobnego! koń w ogrodzie, a kiedyż go tam wypędzą!</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>O! już sam wypadł i uciekł w pole nie wiem nawet jak go będzie złapać ale tymczasem niech mi będzie wolno powitać WPana dobrodzieja najserdeczniej.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Jak się masz, jak się masz, mój panie Ludwiku. Ale czy pewnym jesteś, że go już nie ma w ogrodzie?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A jakże, toć mój masztalerz pobiegł za nim, aby go złapać.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>A cóż twemu masztalerzowi do tego konia?...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A bo to mój wierzchowiec.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Jakto? to tedy twój, <stage>(surowo)</stage> to to pański koń tyle mi szkody narobił? Spodziewam się, iż wiedząc, jak dalece lubię mój ogród, umyślnie go pan do niego wpuściłeś?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Nie umyślnie, ale przez roztrzepanie. Wszak prawda Ludwiku?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(przysuwając się do p. Anzelma)</stage> Przepraszam Wpana dobrodzieja jak najmocniej za mego konia... ale to nic nie szkodzi.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Jakto nie szkodzi? to już w tym roku nie odrośnie, co teraz zniszczonym zostanie... Nic nie szkodzi! proszę uniżenie.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale bo kto też słyszał nie ogradzać ogrodu! cóż to takie nizkie baryery dla konia!</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ale kto słyszał wjeżdżać konno do ogrodu?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Słowo honoru, żem nie wjeżdżał do ogrodu; puściłem tylko konia z niecierpliwości <stage>(spostrzegając Julią z matką, biegnie do niej i całuje ją w rękę)</stage> abym był prędzej u nóg najdroższej pani...</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(usuwając skromnie rękę)</stage> Ale, panie Ludwiku!... co pan czynisz, mamie należy się pierwsze powitanie.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(wita matkę)</stage> A, prawda.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Daj mi tam pokój, mnie oto ten koń martwi.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Wystaw sobie kochanko, że to właśnie pan Ludwik tego wszystkiego narobił.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Nie, mamo, słowo honoru; to nie ja, tylko mój koń.</p>
+</sp>
+</div>
+<div type="scene" n="4">
+<head>SCENA IV.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK</rs> <rs key="#karol">KAROL</rs> <rs key="#anzelm">P. ANZELM</rs> <rs key="#anzelmowa">P. ANZELMOWA</rs> <rs key="#julia">JULIA</rs> <rs key="#cwik">ĆWIK</rs> i  <rs key="#jan">JAN.</rs></p></stage>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(jedną ręką trzyma Jana za kołnierz, a w drugiej ma pęk kwiatów i gałęzi połamanych)</stage> Da...dalej, pój...pójdź, za...a...mną...tu...u na sprawę.</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p>I, bodajżeś przepadł jąkało, jużbym go był złapał żebyś mig nie był zatrzymał.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>O...otoż, to te...e...go koń co...o...mi potra...tra, po... tra...tra...</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p><stage>(wyrywając się i przechodząc na stronę Ludwika)</stage> Żebyś ty tra, tra nad tra tra, natrębował jak pocztarek, to się już nie wróci, bo z kopyta jak kula do domu się ruszał. <stage>(Do Ludwika)</stage> No, proszę pana, co teraz będzie począć bez pańskiego konia? niech mu pan przynajmniej każe wydać mojego, bo na nim jest pański mantelzak.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Mo...może! wi...widzisz go! <stage>(Do pana Anzelma)</stage> Ca...a...ła a...le...ja georgi...i nie du...du...beltowych stra. tra...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Stratowana, - no, dobrze, - już wiemy.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(do Anzelma)</stage> Niech pa...an tego nie...go...dzi...jasza ka...a...że do spichrza Wpa...Wpa...kować. <stage>(Skazując na Jana)</stage></p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Mylisz się mój bracie, ten człowiek nic nie winien. Widząc państwa zagniewanych, mógłbym wprawdzie na niego winę zrzucić, że niedość wcześnie odebrał konia ode mnie; ale spodziewam się, że ta bagatela nie może być warta dłuższej rozprawy, i że państwo raczą mi darować prędkość moję.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(do męża)</stage> Widzisz kochanku, jaka to przykładna otwartość, jaki uczciwy sposób myślenia, nie chce nawet swego służącego potępiać.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ty zawsze wszystko z dobrej strony widzisz...</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>To...to sam Lu...Ludwik zrobił...no...o...no...o proszę ta...a...ki du...u...ży pan a ta...a...ki...ta...a...ki...</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Dobrze, że się nie możesz wygadać, bobyś co niedorzecznego powiedział.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>I pa...a...nna Ju...u...lia także...a...a...dwie aka...a...cye zła...a...ma...ne, a...pięć do...o...ni...czek z kwia...a...tami stłu...czo...o...nych...a...a...a...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A, a, a, żebyś się dłużej nad wyliczaniem szkód nie męczył, oto masz czem je wynagrodzić. <stage>(Daje mu pieniądze)</stage></p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(rzuca pieniądze)</stage> Co...o pan...so...o...bie myśli z pieniędz...mi, mnie za.. a...to kwiaty nie od...od...rosną.</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p><stage>(podnosząc pieniądze)</stage> Pozbieram ja je, żeby nie były ziarnem straconem.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Mnie trze...trze...ba satys...fakcyi z tego czło...wie...ka,. któ...któ...któ...regom ja zła...pał. <stage>(Chce schwycić Jana, który mu się wymyka obracając go w miejscu)</stage> Któ...któ...ry się jeszcze za...a… wszy...wszystko złe naśmiewa się ze...e...mnie,... ja...a... je...e...mu i pa...a...nu te...e...go nie...daruję...cały ra...a...bat goź...dzi...i...ków stra...tra...tra...</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p><stage>(biorąc go za rękę)</stage> Znowu zaczynasz trąbić… poszedłbyś oto ze mną do karczmy, to tam temi pieniędzmi zagodzimy sprawę. <stage>(Pociąga go za sobą)</stage></p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(odchodząc)</stage> Stra...tra...tra...to...wany...</p>
+</sp>
+<sp who="#jan">
+<speaker>JAN.</speaker>
+<p><stage>(już przy kulisach)</stage> Tak, trąb pojezdnego, a idź ze mną.</p>
+</sp>
+</div>
+<div type="scene" n="5">
+<head>SCENA V.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK,</rs> <rs key="#karol">KAROL,</rs> <rs key="#anzelm">P. ANZELM,</rs> <rs key="#anzelmowa">P. ANZELMOWA,</rs> <rs key="#julia">JULIA.</rs></p></stage>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(do Ludwika)</stage> Masz nieubłaganego nieprzyjaciela w ogrodniku...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Mniejsza o niego, bylebym tutaj przebaczenie znalazł.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>I ogrodnika nieprzyjaźń minie, jak tylko świeża rosa i pogodny promień słońca podeptane kwiaty odżywią.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Hm, i panna Julianna widzę w obronie pana Ludwiku staje!</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>A naturalnie.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(skromnie)</stage> Ja tylko o ogrodniku mówię.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A za mną ani słowa.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(z ironią)</stage> Niechże się pani wsławi do papy za panem Ludwikiem.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(z przyciskiem)</stage> O! zapewne, że wiele lekkomyślności prędzej na pobłażanie zasługuje, jak trochę nawet złości.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>No, cicho wy wszyscy; nie ma o czem mówić, wszystko już odpuszczone, jutro nie będzie znać szkody w ogrodzie.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Winszuję ci panie Ludwiku tak gorliwych adwokatek. Ale pomimo ich żarliwości w obronie twojej, wyznam ci otwarcie, że to wcale niepięknie, kiedy młody człowiek dobrego wychowania jest tak nierozważnym i roztrzepanym. Taka lekkomyślność może się stać nałogiem i mieć złe konsekwencye.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(który z oznakami niecierpliwości słuchał p. Anzelma, i w końcu na nogi jego się patrzał, schyla się i zabija komara na pończosze mówiąc)</stage> Za pozwoleniem pańskiem. A, poległ nieborak, i padł ofiarą własnego obżarstwa.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(podrywając nogę)</stage> No, i to znowu; przypatrzcie się tylko co on wyrabia!</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>I cóż dziwnego, zabił komara.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ale to nie wypada.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Jakto, jabym miał obojętnem okiem patrzeć na to, jak się komar krwią WPana dobrodzieja poi, i nogę mu kaleczy!</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Lepiejbyś na swoje nogi patrzał, tobyś spostrzegł, żeś niesłychanie zabryzgany.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(do Ludwika)</stage> A widzisz! wszakżem cię ostrzegał.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Co ja temu winien, że u państwa błoto we wsi? Słowo honoru, żem się najbardziej pańskiem błotem obryzgał.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(ze śmiechem)</stage> Jaki przedziwny!... a, kiedy to nasze błoto, to trzeba panu wybaczyć, i przyjąć go bez dalszej wymówki.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale, ale, mam ja jeszcze jednę wymówkę.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Jakąż tedy?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(do Anzelma)</stage> Oto żem się śpieszył z dobrą nowiną, z ważną i pilną expedycyą do Wpana dobrodzieja, a dla pośpiechu musiałem pędzić po błocie, bez względu na to, że się zawalam.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Z ważną i pilną expedycyą, cóż tedy takiego?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Oto adwokat oddał mi wyrok przedstanowczy w sprawie pańskiej, pomyślny dla pana, który jak najspieszniej stronie przeciwnej doręczyć wypada, i dlatego prosił mię abym go jak najprędzej przesłał, a ja wolałem go sam odwieźć.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>No i gdzież jest tedy? stoimy tu już od kwadransa napróżno; a pan ani słowa o nim nie wspomniałeś. Gdzież jest tedy ten wyrok?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(szukając)</stage> O! wiem pewno żem go zabrał z sobą. Zaraz, zaraz. <stage>(Dobywa pakiet z cukierkami i oddaje go Julii)</stage> Oto najprzód ta expedycya dla pani mojej.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Expedycya dla mojej córki! to znowu jakiś skutek roztrzepania, oddajże ją mnie a nie jej.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Ale kochanku, to karmelki.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(do Julii)</stage> Ze wszech miar słodka expedycya, wszak prawda?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Nie ma przynajmniej nic gorzkiego w sobie.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ale mój wyrok!</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(szukając pomieszany)</stage> Zaraz, zaraz... słowo honoru, żem go miał przy samem wsiadaniu na koń... chyba żeby miał zostać w kieszeni surduta, który zdjąłem z siebie, dlatego, że mi było za ciężko w nim.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>O, to bardzo podobne do ciebie, mój panie Ludwiku. Co też to za niebaczny człowiek, ten mój adwokat, aby panu tak ważny i pilny interes poruczać!</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(do Julii)</stage> Czy pani nie zechcesz skosztować, słodyczy przez pana Ludwika ofiarowanych? Czybyśmy w nich udziału mieć nie mogli?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>I owszem. <stage>(Rozwija pakiet i podaje go najprzód matce a potem ojcu)</stage></p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Co mi tam po karmelkach, kiedy mego wyroku nie masz. <stage>(Sięga po karmelki i przygląda się zblizka papierowi w którym są zawinięte)</stage> Ale jeżeli się nie mylę, to to podobno papier stęplowy?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(przerywając)</stage> A, a, przypominam sobie teraz... otóż to właśnie ów wyrok szukany. Oto w drodze zaczęły mi się karmelki sypać, bo je w cukierni źle obwinięto; a nie mając innego papieru, zawinąłem je w ten wyrok.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Już też to przechodzi wszelkie wyobrażenie! pismo ważne i urzędowe do zawijania karmelków użyte!</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Pan Ludwik urzędownie swoje słodycze doręcza.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(do Julii)</stage> A wysypże te cukierki, i oddaj mi mój wyrok co prędzej!</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(do Julii)</stage> Na, przesyp je do tego woreczka.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(przesypując)</stage> Kiedy się poprzylepiały do papieru.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A bo to są malinowe karmelki, którę się od ciepła roztopiły w kieszeni.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(odbiera wyrok i skazując na plamy)</stage> No, proszę, jak to wygląda! jak go to będzie doręczyć stronie!</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Będzie to przynajmniej wyrok nieco osłodzony.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Czy też to kiedy kto widział pismo do urzędowego użytku przeznaczone, tak powalane!</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A co to szkodzi, to się da wywabić - oto tak <stage>(chce wziąć papier od p. Anzelma)</stage></p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(nie dając)</stage> A dajże pokój, jeszczebyś go bardziej powalał. Pójdę ja sam medytować nad tem, jakby go można oczyścić. Oj, oj, co to z ciebie będzie panie Ludwiku z taką roztrzepaną głową!</p>
+</sp>
+</div>
+<div type="scene" n="6">
+<head>SCENA VI.</head>
+<stage type="entrance"><p><rs key="#anzelmowa">P. ANZELMOWA,</rs> <rs key="#julia">JULIA,</rs> <rs key="#ludwik">LUDWIK,</rs> <rs key="#karol">KAROL.</rs></p></stage>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Prawda, mój panie Ludwiku, że dziś bardziej jeszcze jak kiedykolwiek nie myślisz o tem co czynisz. Czasby było, abyś się upamiętał, bo mój mąż zawsze narzeka na twoję lekkomyślność; i dziwić mu się nie można, jeżeli się troszczy o przyszłość twoję, zwłaszcza w stosunkach, w jakich z nami jesteś. Ja nawet sama, pomimo przychylności mojej dla ciebie... ale widzę że mnie nie słuchasz wcale, i kiedy z dobrocią, jak matka do ciebie przemawiam...</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(przerywając)</stage> To młodzieniec wówczas z córką o czem innem rozmawia.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(całując p. Anzelmową w rękę)</stage> Ach mamo! przepraszam, przepraszam po milion razy... Ale, słowo honoru, że moje serce zawsze jest tylko jednem zajęte, chociaż głowę czasem kilka przedmiotów razem zajmuje.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Mamo, teraz to moja wina, bom się p. Ludwika pytała o list od Pauliny.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Otóż to właśnie przyczyna mego roztargnienia. Panna Paulina powierzyła mi list dla panny Julii, a ja chciałem sobie przypomnieć gdziem go podział; <stage>(szukając)</stage> te panieńskie bileciki tak są małe; ale oto jest. <stage>(oddaje go Julii)</stage></p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Jakto, list bez adresu...?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>A bo panna Paulina była może roztargniona, gdy ten list panu Ludwikowi oddawała. To zaraźliwa choroba, zwłaszcza między młodemi ludźmi; można jej dostać przez widzenie osoby roztrzepanej.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(która czytała tymczasem)</stage> Nie rozumiem ani słowa... to nie Pauliny pismo.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(odbierając list)</stage> Pokaż. I, to sam Ludwik pisał. <stage>(Czyta)</stage> „Nie mogę ci dzisiaj służyć na śniadanie, bo w ten moment siadam na konia i śpieszę do mojej ślicznej Julisi.”</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(przerywając)</stage> Mamo, mamo, to nie list panny Pauliny, przepraszam bardzo. <stage>(Chce go odebrać)</stage></p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(nie dając go)</stage> Za pozwoleniem; to się widzę mojej córki tyczy, dobrze też dowiedzieć się co o niej piszesz. <stage>(Czyta)</stage> „Julisi... kochana dziewczyna, tęskni beze mnie!”...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale to nie to... proszę mamy.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Wiem, wiem...</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(urażona)</stage> Tęskni bez pana!... doprawdy?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(czyta)</stage> „Kocha mnie szalenie.”</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(z ironicznym uśmiechem)</stage> Czy tak? Jaka pewność, jaka zarozumiałość!</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Choćby tak było, to się nikomu podobnych rzeczy nie powierza; a ten bilet pisany był zapewne do jakiego wietrznika...</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>O! dzisiejsza młodzież nie zna tajemnicy w miłości.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(pomieszany)</stage> Ale mamo... słowo honoru, że... zresztą, wszakże to nie jedna Julisia na świecie.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Więc to nie pan ten list pisałeś?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(zaglądając)</stage> Jakto zaś nie on; to Ludwika pismo. Ale on dobrze mówi, że nie jedna Julisia na świecie...</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Jeżeli tak jest, nie chcę wiedzieć tajemnicy pana Ludwika. <stage>(Oddaje mu list).</stage></p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(wzruszona)</stage> Mamo, oddalmy się ztąd... zostawmy tych panów.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Kiedy pani zaczęłaś czytać ten nieszczęśliwy bilet, niechże go pani dokończy, to się przekonasz że o żadnej innej Julisi nie pisałem jak o tej, która mnie równie jak pani jest drogą; to, com dopiero o innej Julisi powiedział, było tylko niezręczną wymówką.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Poprzestaję na tem; ale nie mogę darować lekkomyślności, z jaką pan przyjaciołom swoim zdanie swoje o mojej córce otwierasz.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(z czuciem)</stage> Narażając mnie przez to na przekąsy dotkliwe nawet dla dobrej sławy.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(chce ją całować w rękę, którą ona usuwa)</stage> Julio! błagam przebaczenia! czyliżem tak występny, że nie umiem zataić tego, co serce moje najwyższem szczęściem przepełnia!</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Szlachetne miłości uczucie, nie takiemi odzywa się wyrazami... Gminny sposób wyrażania myśli, nie da się z niem pogodzić.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Jest to styl pospolicie między młodzieżą używany.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Przyznam się, żem się tego nigdy po panu Ludwiku nie spodziewała. Powierzać lada komu to, co tylko domysłem, lub daleką nadzieją być może...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale na miłość boską, komużem to powierzył? wszakże ten nieszczęśliwy bilet, teraz dopiero z mojej kieszeni wyszedł, więc go, prócz państwa, nikt inny nie widział; nie ma nawet adresu na nim.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Na cóżeś go pisał? dla kogoż był przeznaczony?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Dla jednego przyjaciela od serca.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Któryby go był później odebrał.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>I, nie, nie, bo już, zamiast niego, odebrał bilet panny Pauliny, który podobnie był złożony, i także nie miał adresu.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Piękne rzeczy... biedna Paulina! jej bilet w ręku jakiegoś młodzika, który go może nadużyje.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale, słowo honoru, że to przez prędkość.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Wiem dobrze, że przez prędkość, przez to roztrzepanie, które już tyle razy panu Ludwikowi zaszkodziło. Życzyłabym z duszy, abyś więcej myślał o tem co czynisz. <stage>(Odchodzi z córką)</stage></p>
+</sp>
+</div>
+<div type="scene" n="7">
+<head>SCENA VII.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK,</rs> <rs key="#karol">KAROL.</rs></p></stage>
+<stage type="setting"><p>(Ludwik stoi w zamyśleniu, i patrzy się za niemi)</p></stage>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(ze śmiechem)</stage> Ha, ha, ha, jakie to przednie! coś też ty dziś głupstw narobił, to przechodzi pojęcie.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(smutno)</stage> One się widzę gniewają na mnie.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Może powiesz, że nie ma za co się gniewać?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A, ja nieszczęśliwy! naraziłem sobie najdroższe dla mnie istoty.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Tak wszystkich, począwszy od ogrodnika, a kończąc, co najgorsza, na pannie.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A czy potrafię przebłagać je kiedy?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Bardzo wątpię. Niczem panny tak łatwo nie urazisz, jak wykryciem jej słabości. Podług mnie nie pozostaje panu memu nic innego, jak wsiąść na konia i zmykać do domu; a jeżeli koń, przez szczególniejsze przeczucie, już go tam uprzedził, wypada wziąć nogi zapas, i ruszać za nim piechotą.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>I ty tak nielitościwie żartujesz sobie ze mnie?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Wcale nie. Daję ci tylko przyjacielską radę. Boby trzeba chyba być głuchym i ślepym, aby nie dostrzedz zagniewania całej familii.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale czy zasłużyłem na to?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Nie wiem, jak się tobie zdaje, ale wiem jak oni myślą.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Miałażby sama lekkomyślność, zwyczajne roztrzepanie, bez żadnej winy, bez uchybienia komukolwiek, stać się przyczyną mojej zguby?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>A, podobno.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(po chwili namysłu)</stage> Nie,... tak źle nie będzie. Potrafię się usprawiedliwić. Nie oddalę się ztąd bez otrzymania przebaczenia.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Zamówże sobie stancyą w austeryi.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Pójdę do ojca, do matki, do drogiej Julii...</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Każ sobie wprzódy inne ubranie z Warszawy przysłać.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Padnę do nóg wszystkim razem.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Lepiej po kolei.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Julia nie mogła się wyrzec tak prędko wszelkiego dla mnie uczucia, ona mi przebaczy i wstawi się za mną. <stage>(Chce biedz do dworu)</stage></p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(zatrzymując go)</stage> Człowieku, zastanów się co czynisz! Dajże im czas uspokojenia się trochę, niech ochłoną z pierwszego gniewu.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Dobrze mówisz... ale cóż będę robił tymczasem?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Spojrzyjże raz jeszcze na siebie, to się domyślisz co masz robić. Wyglądasz jak konny posłaniec, trzeba koniecznie, abyś się przystojnie pokazał, zwłaszcza gdy chcesz błagać przebaczenia. Wróć do domu, i przybądź jutro lub po jutrze pojazdem i lepiej ubrany.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>O! nie potrzeba, nie potrzeba tego. Mam ja inne ubranie na koniu mego masztalerza... za kwadrans powrócę. <stage>(Odbiega)</stage></p>
+</sp>
+</div>
+<div type="scene" n="8">
+<head>SCENA VIII.</head>
+<stage type="entrance"><p><rs key="#karol">KAROL</rs> <stage>(sam).</stage></p></stage>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Tego mi właśnie nie trzeba... Ale idź, idź, przebieraj się, a ja tymczasem będę się starał usłużyć ci, ile możności. Powiedziałeś „że nie jedna Julisia na świecie.” Ani się spodziewasz, do czego cię to doprowadzić może. <stage>(Odchodzi)</stage></p>
+</sp>
+<trailer>(KONIEC AKTU PIERWSZEGO)</trailer>
+</div>
+</div>
+<div type="act" n="2">
+<head>AKT II.</head>
+<stage type="setting"><p>(Rzecz się dzieje we dworze, w kobiecym pokoju)</p></stage>
+<div type="scene" n="9">
+<head>SCENA I.</head>
+<stage type="entrance"><p><rs key="#julia">JULIA</rs>
+(przed lustrem), <rs key="#zuzanna">ZUZANNA</rs> (usługuje jej), <rs key="#julisia">JULISIA</rs> (siedzi na boku przy robocie)</p></stage>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Niech pani przypnie tę różę; ślicznie się będzie wydawać pod tym puklem włosów.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Czegóż mnie chcesz stroić koniecznie? Chcę tylko poprawić włosy, które mi się od wilgoci na dworze poprostowały, ale stroić się dzisiaj nie myślę.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Dlaczegóż dziś mniej jak zwykle? wszakże mamy gości we dworze.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Gości? co za goście! pan Karol.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Wszak i pan Ludwik przyjechał; a przynajmniej koń jego dokazywał po ogrodzie, i niemało szkody narobił.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Wielkie rzeczy! kilka kwiatków połamanych.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>O! mój ojciec powiedział że wiele szkody w ogrodzie narobił.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>I, twój ojciec, o lada co narzeka i płacze. <stage>(Do Zuzanny)</stage> Czegoż mi koniecznie tę różę podajesz? <stage>(Wyrywa ją z rąk Zuzanny i wyrzuca za okno)</stage> Kwiaty mnie dzisiaj znudziły nieznośnie.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Nie pojmuję czego pani taka zagniewana. Czyby pan Ludwik miał był odjechać?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Odjechał czy nie odjechał, co tobie do tego.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Musiał on pani bardzo dokuczyć dzisiaj?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Pan Ludwik taki dobry, że nikomuby dokuczyć nie potrafił, a cóż dopiero pani!</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Słyszy pani, jak się to Julisia za panem Ludwikiem ujmuje!</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(jakby przerażona)</stage> Julisia! <stage>(Po chwili namysłu ciszej)</stage> Nie, nie.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Co pani jest?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>To nic; daj mi chustkę.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Czyby nielepiej było wziąć lekki szalik? Śliczna figurka pani będzie się piękniej wydawać, jak kiedy ję pani tem dużem chuściskiem okryje.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Panna Zuzanna koniecznie mnie chce upięknić dzisiaj.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(całując ją w rękę)</stage> Gdyby się pani nie gniewała, tobym pani dała dobrą radę.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>No, słucham, i cóż takiego?</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Ja wiem dlaczego pani jest w złym humorze dzisiaj. Oto dlatego żeś się pani z panem Ludwikiem trochę poróżniła.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Jaka panna Zuzanna domyślna!</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Tego się każdy domyśli, a to niedobrze.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Doprawdy?</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Nie trzeba nigdy dać poznać mężczyźnie, że nas bardzo zajmuje. Ja kiedy się pogniewam z kochankiem, to udaję wtenczas najweselszą.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Czy tak?</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>I nawet jemu na przekorę, szukam wszelkiemi sposobami innego kochanka, i staram mu się podobać, aby tamtemu dokuczyć.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(z gniewem)</stage> Podaj mi chustkę, powiadam ci; szalika dzisiaj nie wezmę. <stage>(Bierze chustkę na siebie i odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="10">
+<head>SCENA II.</head>
+<stage type="entrance"><p><rs key="#zuzanna">ZUZANNA,</rs> <rs key="#julisia">JULISIA.</rs></p></stage>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(patrząc za nią)</stage> Kapryśnica!... widzisz ją jak się rozgniewała, jaka zła!</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Eh, co też to panna mówi, ona zła?</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Może dlatego dobra, że ci niedawno suknią darowała? co ty wiesz? na czem ty się znasz?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>O! wiem ci, wiem, że panna daleko więcej wiesz ode mnie, że się na wszystkiem lepiej znasz ode mnie.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(siada do roboty)</stage> Zapewne, że się ty na niczem nie znasz, i twoja dobra pani niewiele mędrsza od ciebie. Boże! co się to jeszcze w tej głowie dzieje! ma innego chłopca w domu, wcale przystojnego nawet, i wcale do rzeczy, a żałuje tego, z którym się poswarzyła.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Niby to pana Karola; a toć panna powinna być kontenta, że go moja pani nie chce.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>A to dlaczego?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>A bo koło panny zachodzi.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Eh, co tam z tobą gadać! ty się na takich rzeczach nie znasz... Oto widzisz, jak go nasza panna nie będzie chciała, to on przestanie bywać u państwa, a zatem i u nas.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Nie będzie on, to będzie inny.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Tak, albo to tu Warszawa! <stage>(Wzdycha)</stage> Ach! co to za wygnanie, ta wieś, żeby też to państwo jak najprędzej do Warszawy pojechali. <stage>(Nuci sobie piosnkę)</stage></p>
+</sp>
+</div>
+<div type="scene" n="11">
+<head>SCENA III.</head>
+<stage type="entrance"><p><rs key="#zuzanna">ZUZANNA,</rs> <rs key="#julisia">JULISIA,</rs> <rs key="#karol">KAROL.</rs></p></stage>
+<stage type="setting"><p>(Karol wchodzi po cichu, i niespostrzeżony wchodzi za stołek Zuzanny, i całuje ją)</p></stage>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Hu!... o jakżem się też przelękła! co też to pan dokazujesz! <stage>(Ciszej)</stage> A czy to pan nie widzi że ona tam siedzi?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Łatwy sposób na to aby była cicho, pójdę i ją pocałować.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(zatrzymując go)</stage> A pfe, jaki pan niewybrydny... czybym ja też ścierpiała!</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(na stronie)</stage> Nibym ja to tego nie słyszała! czekaj zazdrośnico, będę ci to pamiętać.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>I czegóż pan chcesz od nas? Pan wie dobrze, że państwo nie cierpią tego, aby goście, a zwłaszcza też młodzi kawalerowie, do kobiecego pokoju przychodzili?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>A kto mi może bronić pobawić się z wami? <stage>(Ciszej)</stage> Żeby się to można pozbyć tej dziewczyny!</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(Cicho)</stage> Pomyślę ja o tem. <stage>(Głośno)</stage> A czy to pan nie ma państwa do zabawy?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(na stronie)</stage> Ktoby cię nie znał, toby cię kupił.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(siada przy Zuzannie)</stage> <stage>(Cicho)</stage> Jakże stoją moje interesa? Cóż mówiła o Ludwiku? Czy się bardzo gniewa na niego?</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(głośno)</stage> I, dałbyś mi pan pokój, bo mi tylko przeszkadzasz w robocie. <stage>(Cicho)</stage> Ostrożnie, bo to bardzo mądra dziewczyna, i wielki pleciuch. <stage>(Do Julisi)</stage> Moja kochana, żebyś też poszła po bawełnę do pani, bo mi zabrakło do roboty.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(wstaje idzie ku niej)</stage> Oto masz panna moję tymczasem.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(odrzucając ją z niechęcią)</stage> Za gruba.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Toć panna wczoraj nią robiła. <stage>(Wracając na swoje miejsce)</stage> Ja też teraz nie pójdę do pani; jakże mam przy gościach wchodzić do pokoju?</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(na stronie)</stage> Niegodziwa dziewczyna!</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Przy jakich gościach? Nikogo nie ma w bawialnym pokoju.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Czy pan Ludwik odjechał?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Nie... ale go tam nie masz.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>I panna się może obejść bez bawełny. <stage>(Na stronie)</stage> Nie pójdę na złość.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(do Zuzanny)</stage> <stage>(Cicho)</stage> Mam wielki interes do ciebie.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(Cicho)</stage> Cóż takiego?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(podobnież)</stage> Trzebaby mi koniecznie zwabić Ludwika tutaj.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>A to poco?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(cicho)</stage> Ale to koniecznie potrzebne do moich widoków.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(cicho)</stage> Nic rozumiem. <stage>(Głośno)</stage> I, niech mi się pan nie sprzeciwia, proszę pana.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(cicho)</stage> To długo o tem gadać, a ona tu siedzi.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Zdaje mi się, że ktoś chodzi w drugim pokoju, idźno zobaczyć Julisiu.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>I, zdaje się pannie, kto ma chodzić. Ale niech państwo co chcą z sobą gadają, ja nic nie słyszę. <stage>(Zatyka sobie uszy)</stage></p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>Widzisz ją, jaka domyślna! A cóżby mi to pan Karol takiego miał powiedzieć, cobyś ty słyszeć nie mogła?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Albo ja wiem, toć przecie coś szepce.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(cicho)</stage> Co to za przekora! <stage>(Do Karola)</stage> Pocóż pan chcesz tu zwabić pana Ludwika?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(cicho)</stage> Chciałbym koniecznie, aby się do tej małej umizgał.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(głośno)</stage> Jeszcze czego, jabym miała na to pozwolić? I, niechże mi pan da pokój bo nie mam czasu.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(cicho)</stage> Ale mnie nie rozumiesz; muszę ci to koniecznie wytłumaczyć. Kiedyżbym się mógł z tobą sam na sam widzieć?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(na stronie przecierając sobie uszy)</stage> Że ja też to nic dosłyszeć nie mogę!</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(głośno)</stage> I, nudzisz mię pan, powiadam panu <stage>(cicho)</stage> zaraz po kolacyi.</p>
+</sp>
+<sp who="#lokaj">
+<speaker>LOKAJ.</speaker>
+<p><stage>(stuka do okna i woła za sceną)</stage> Panno, do pani.</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p><stage>(zrywając się)</stage> Ach! ten głupiec tak mnie przestraszył.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(cicho)</stage> I, cóż tak odchodzisz... gdzież tedy?</p>
+</sp>
+<sp who="#zuzanna">
+<speaker>ZUZANNA.</speaker>
+<p>A wszakże pani woła. <stage>(odchodzi skazując mu na okno)</stage></p>
+</sp>
+</div>
+<div type="scene" n="12">
+<head>SCENA IV.</head>
+<stage type="entrance"><p><rs key="#karol">KAROL,</rs> <rs key="#julisia">JULISIA.</rs></p></stage>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>I czemuż pan za panną Zuzanną nie idzie? Wszakże pan nie do mnie przyszedł, ze mną tu zostać nie można.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Doprawdy? Jakaśto skromna!</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Skromna czy nieskromna, dosyć, że z panem sam na sam zostać nie mogę.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>A, bo się może spodziewasz kogo innego?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Kogożbym się miała spodziewać?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Pana Ludwika.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Pana Ludwika! alboż to on taki jak pan?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>A jakiżto ja jestem?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>To panna Zuzanna lepiej wie ode mnie.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Proszę, jaka cięta dziewczyna, przez ciebie pewno zazdrość mówi.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Zazdrość? A jabym czego miała zazdrościć pannie Zuzannie? Człowiek przecież godzien jest dobrego słowa, i może jeszcze mieć przyjaciół.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Tak, pana Ludwika naprzykład, wszak prawda?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Czyto tylko jeden pan Ludwik jest na świecie?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Dobrze, dobrze; dziewczyno, ty widzę aż nadto masz rozumu na twój wiek!</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Czy pan wyjdziesz, czy nie? bo pójdę do pani na skargę.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(zbliżając się do niej)</stage> A gdybym się też chciał polecić łasce Julisi? <stage>(słychać hałas za drzwiami)</stage> ale ktoś idzie, trzeba uciekać. <stage>(Spostrzegając Ludwika, zatrzymuje się)</stage> A, to pan Ludwik, pojmuję teraz, dlaczegoś mnie się tak koniecznie i pilno pozbyć chciała.</p>
+</sp>
+</div>
+<div type="scene" n="13">
+<head>SCENA V.</head>
+<stage type="entrance"><p><rs key="#karol">KAROL,</rs> <rs key="#ludwik">LUDWIK,</rs> <rs key="#julisia">JULISIA.</rs></p></stage>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(nie spostrzegłszy Karola)</stage> Julisiu! Julisiu! prędko, bo nie mam czasu; proszę.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Czegóż pan chcesz ode mnie? <stage>(Do Karola, który się chce wymknąć tak, aby go Ludwik nie widział)</stage> A pan się czego tak czai? Dlaczego się pan chce cichaczem wynosić? Wszakżem pana nie wabiła, i teraz nie myślę zatrzymywać, ani wypędzać?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(biegnąc do Karola, bierze go za rękę)</stage> Przepraszam cię, mój Karolu, żem tak wpadł niespodzianie... Gdybym był wiedział, tobym nie był przychodził... ale widzisz <stage>(pokazuje mankiet u fraka oddarty)</stage></p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Nie, to ja się usuwam, nie chcąc panu memu przeszkadzać.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale gdzie tam przeszkadzać! Oto widzisz, przebierałem się w oficynie u pisarza: i to z takim pośpiechem, żem niechcący urwał mankiet u fraka. Moja Julisiu, bądź tak dobra i przyszyj mi to naprędce.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(odwracając się)</stage> Daj mi pan pokój, pan mnie oto niewinnie w suppozycyą wprowadziłeś.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(biegnie do niej i chcę ją uściskać)</stage> Już cię uściskam, tylko mi zeszyj ten mankiet.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(odpychając go)</stage> Obejdzie się bez pańskiego ściskania.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(do niej)</stage> Jakżeż być może? toć zeszyj panu Ludwikowi rękaw, boby się nie mógł pokazać u państwa.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Zmiłuj się nade mną kochana, Julisiu! Toć przecie nie mogę tak iść do pokoju, zwłaszcza że się wszyscy na mnie gniewają, że mam wszystkich przepraszać. Gdybym się tak pokazał, toby znowu szydzili z mego roztrzepania.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>No, daj pan, tylko prędko. <stage>(Ludwik, nie zdejmując fraka, podaje jej rękaw do zeszycia)</stage></p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Poczciwa dziewczyno, ja wiedziałem że ty mi tego nie odmówisz.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(odchodząc, na stronie)</stage> Szyjcież sobie teraz... i ja wam co uszyję.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(spostrzegając że odchodzi)</stage> Czegóż odchodzisz? toć poczekaj trochę, pójdziemy razem.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Ktoby się ciebie doczekał! przecież trzeba, żeby który z nas był w pokoju. <stage>(Odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="14">
+<head>SCENA VI.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK,</rs> <rs key="#julisia">JULISIA.</rs></p></stage>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(niecierpliwie trzyma jednę rękę u którą Julisia rękaw naprawia, a drugą układa jej włosy na głowie)</stage> Czy pani twoja była tutaj? Czy też mówiła co o mnie? Czy się bardzo na mnie gniewa?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Ale dajże mi pan pokój, czego mi pan włosy targasz.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(wyjmuje jej grzebyk i czesze sobie nim włosy)</stage> To nic nie szkodzi, nic nie szkodzi; bo widzisz, że mi się włosy potargały.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(odbierając mu grzebyk)</stage> Co też to pan wyrabia! bo doprawdy że nie przyszyję mankieta.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>No, już nie, już nie; już będę spokojny; tylko szyj moje dziecko, a prędko. <stage>(Przestępuje z nogi na nogę i poprawia sobie chustkę)</stage> Ach żebyś wiedziała jaki ja zmartwiony, jaki smutny! <stage>(rusza jej korale na szyi)</stage> o niczem nie myślę, tylko o tem, jakby twoję panią przeprosić.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Już panu znowu moje korale przeszkadzają. A cóż też to za ręce nieznośne!</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Nie, bo widzisz moja Julisiu że ja niechcący z głupstwem się wyrwałem i panna Julia rozgniewała się na mnie. <stage>(Bawi Się znowu koralami)</stage></p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Znowu... A te przeklęte palce!</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Oj, kończże, kończ, moja kochana, bo mi pilno iść do pokoju... boję się, żeby pan Karol nie powiedział im, żem sobie przez prędkość frak rozdarł.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(z ironią)</stage> Możesz się pan czego lepszego po nim spodziewać.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>On taki dobry mój przyjaciel!</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Oj dobry, dobry! Czyto pan jeszcze nie dostrzegł tego, że onby chciał pana od mojej pani odsądzić?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Eh! gdzie zaś... Śpieszno się, śpiesz.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Jaki pan łatwowierny, jaki niedomyślny! coby ślepy namacał, tego pan dwoma oczami nie widzisz. <stage>(Ludwik chwyta znowu za sznurek z koralami i przerywa go, tak iż się wszystkie na podłogę rozsypują)</stage> Otóż masz! moje korale na ziemi. Mój Boże! co mi też to pan za szkodę zrobił; podarunek od mojej kochanej pani, cały sznurek wysnuty, porozlatały się po całym pokoju. <stage>(Ogląda się za niemi)</stage></p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>To niechcący, jak cię kocham; przepraszam cię, moja Julisiu. <stage>(ściska ją, a wtem Julia ukazuje się we drzwiach chcąc wejść do pokoju, woła: Ach! zamyka drzwi i znika niepostrzeżona)</stage> Co to było? czym cię udepnął albo uszczypnął niechcący?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Eh! gdzie, to ktoś był we drzwiach, wypatrzył nas i będzie sobie Bóg wie co myślał; to pewno był pan Karol; a ja nieszczęśliwa dziewczyna! <stage>(Zbiera korale)</stage></p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(dając jej pieniądze)</stage> No, uspokój się moja Julisiu, oto masz na nowe korale. <stage>(Zbiera z nią razem)</stage></p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Nie chcę pańskich pieniędzy, daj mi pan pokój, idź pan sobie precz ode mnie. <stage>(Zbiera)</stage></p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(schylając się ku niej)</stage> Nie gniewaj się, moja Julisiu, i jak mnie kochasz weź te pieniądze.</p>
+</sp>
+</div>
+<div type="scene" n="15">
+<head>SCENA VII.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK,</rs> <rs key="#julisia">JULISIA,</rs> <rs key="#cwik">ĆWIK.</rs></p></stage>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(zatrzymuje się we drzwiach i słyszy ostatnie wyrazy)</stage> Ja...ak, ja...ak mnie ko...ko...chasz! Co...o oto się znaczy?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(zlękniona)</stage> Ach! dla Boga, to mój ojciec, co on sobie może myśleć!</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(do córki)</stage> Co...o ja widzę? z tobą pan Lu...lu...lu...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Lu, lu, lu, no i cóż w tem dziwnego? srożysz się znowu, jak niedawno na mego konia, który tratował.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(w gniewie)</stage> Mój, mój panie, to je... jeszcze gorzej jak koń, któ... tó... ry tra...tra...tra...</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Ale co też to wam do głowy przychodzi, mój tatynku! pan Ludwik kazał sobie przyszywać rękaw, który rozdarł.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(w gniewie)</stage> I to... i to... i toście po ziemi z so...sobą szy...szyli rękaw?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale co zaś znowu, zbieraliśmy paciorki, które się rozsypały.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>To może pa...pa...ciorki, by...były u rękawa pań... pań...skiego, <stage>(do Julisi)</stage> a nie na szy...szyi twojej nie...niecnoto.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Czego tatynek na mnie powstaje, kiedy mnie jeszcze nie wysłuchał i nie wie, o co rzecz idzie?</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Nie...nie...nie wiem o co rzecz i..idzie? nie...nie wiem o co i...idzie mło...młodemu pa...paniczowi. <stage>(Do Ludwika)</stage> Ale...ale...mi to...to pan Lu...lu...Ludwik zapłaci.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>I, cichobyś był nieznośny jąkało, juścić zapłacę, ja nie chcę jej krzywdy, i nawet jej już dawałem pieniądze za to bzdurstwo.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(w wielkim gniewie)</stage> Bzdu...bzdu...bzdurstwo, bzdur...bzdurstwo! na...na patrzcie no...no... się te...e...go pa...pa...panicza. Ja tego pa...pa...panu nie...daruję ja...a...będę po...o...szukiwał pana przed są...ą...dem...bzdu...bzdu...bzdu...bzdurstwo?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Ale czego się tatynek tak gniewa, toć nie ma przecie o co, ktoby znowu o takie rzeczy chodził do sądu!</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(jeszcze bardziej zagniewany do córki)</stage> To i ty ta...taka? to i ty mo...o...że mó...mówisz że to...o bzdu...bzdu...bzdurstwo?.. Czekaj ty nie...nie...cnoto z to...to...bą ja...a nie pójdę do...o są...ą...du ale cię prze... prze... <stage>(Chce ją pochwycić)</stage></p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(zatrzymując go)</stage> Człowieku, nie bądźże głupi.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(rwie się do córki)</stage> Prze...prze...trzepię...trzepię.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(następując)</stage> Czyś oszalał, czy cię geś ukąsił?</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Idźże so...o...bie mój pa...a...nie, pó...ó...kiś cały; rozumiesz?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Owaryował doprawdy! Słuchajże, czyś głuchy czy co? O co ty się szarpiesz!</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>O! ja nieszczęśliwa! nie wiem, za co się na mnie tatynek tak gniewa.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(rzuca się ku niej)</stage> Za...a...co za co? ja ci to sze...szepcę do u...u...u...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(szamocząc nim)</stage> Będziesz ty uważał na to, co ja mówię, czy nie, ty zapamiętały złośniku? bo mi cierpliwości nie stanie.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(krzyczy)</stage> Kto...o w Bo...o...ga wierzy niech mię ra...ra...ratuje, gwałtu gwał...gwałtu.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Bodajeś przepadł! on cały dom rozkrzyczy, i wszystkich mi tu na kark sprowadzi. <stage>(Zamyka mu usta, on usiłuje krzyczeć, gdy się tak pasują z sobą, wchodzą następujące osoby)</stage></p>
+</sp>
+</div>
+<div type="scene" n="16">
+<head>SCENA VIII.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK,</rs> <rs key="#julisia">JULISIA,</rs> <rs key="#cwik">ĆWIK,</rs> <rs key="#anzelm">P. ANZELM,</rs> <rs key="#anzelmowa">P. ANZELMOWA,</rs> <rs key="#karol">KAROL.</rs></p></stage>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(we drzwiach do pana i pani Anzelmowej)</stage> Widzicie państwo, co się to dzieje! Ojciec ich zeszedł, a on go chce wstrzymać aby się nie wydało.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Cóż to za hałas? co za nieprzyzwoitości w moim domu?</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Wiel...wiel...możny panie, o...oto ten pan...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(ze śmiechem)</stage> Najosobliwsze nieporozumienie, ten człowiek upatrzył sobie coś do mnie dzisiaj.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Boś pan coś upatrzył do jego córki. Pfe, tegom się nigdy nie spodziewała.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ta nieprzyzwoitość nietylko samemu roztrzepaniu przypisaną być powinna. Jest to dowód złych skłonności.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale, słowo honoru, żem żadnej nieprzyzwoitości nie popełnił, niechże ona sama powie. <stage>(Skazując na Julisię)</stage></p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>A...ale niech o...ona powie... nie ta...ta...taka ona głu... głupia.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(do Julisi)</stage> Ty też pięknie się prowadzisz doprawdy! Taka młoda dziewczyna, moja córka chrzesna, doznająca tyle łask od mojej córki!</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(z płaczem)</stage> A bodajżem zaraz tutaj w ziemię wrosła, jeżeli sobie mam cokolwiek bądź do wyrzucenia! Niech też pani nie wierzy wszystkim tym plotkom, ani temu, co mój ojciec mówi, bo on sam nie wie co gada.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Nie wie co gada? Że...eby nie...u...sza...szanowanie dla pań...państwa, tobym cię do...dopiero nauczył. Nie...ewiem co ga...adam. Nie zasta...ałżem pa...ana Ludwika sam na sam z to...obą w pokoju?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Cóż w tem dziwnego? Zostałem sam na sam z Julisią, bo na mnie pan Karol czekać nie chciał, abyśmy razem poszli do pokoju, ale pośpieszył do państwa i zrobił jakąś plotkę <stage>(do niego ciszej)</stage> za którą mi w swoim czasie odpowie.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(ciszej)</stage> Cicho, nie gniewaj się, to facecya.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(ciszej)</stage> Która szkodzi mojej dobrej sławie i ma cel zbyt widoczny.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Proszę nie obwiniać pana Karola, był jeszcze ktoś inny co się lepiej o pańskich nieprzyzwoitych postępkach przekonał.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Nie ma w tem nic złego, że pan Karol zapytany od nas czylibyś pan wyjechał, oświadczył nam, iż się właśnie z panem rozszedł i że cię w kobiecym pokoju zostawił. Ciekawi jesteśmy, co pan miałeś za interes do tego pokoju?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Do pokoju nie miałem żadnego interesu, ale trzeba mi było zeszyć ten mankiet od rękawa, i o to prosiłem Julisi. Wszakże jeszcze kawałek jego udarty i niezeszyty.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Tak...tak...niech nie...ch pan nie wierzy tym fa...fa... ne...be...beryom...sza...a...motali się z sobą, bo on jej przer...przer...wał sznu...sznurek pa...pacior...ków, a...ona mu u...u...rwała... ma...mankiet.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>A już też to się nie godzi tatynku, żebyście tak kłamali, ja panu Ludwikowi nic nie urwałam.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>A on ci może pa...pa...pa...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(przerywając)</stage> Cicho bądź, mówię ci, bo mnie do ostatniej niecierpliwości doprowadzasz. Gdyby on miał gadać, toby się rzecz nigdy nic skończyła. Powiadam państwu, że wszystkie państwa domysły są fałszywe, i że ja jestem najniewinniejszym człowiekiem.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(w gniewie)</stage> A pi...pi...pi...pieniądze pi...pi...pi...</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Jakie pieniądze?...</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Któ...ó...re pan da...a...wał mojej cór...córce.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>A czym je wzięła?</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Nie, bom na...adszedł na to.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Te pieniądze tedy, za cóż je pan Julisi ofiarował?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Za paciorki, którem jej niechcący przerwał, tak że się rozsypały po całym pokoju.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>A jak pan ze...erwał te pa...pa...pa...ciorki, za które dałeś pi...pi...pi...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(przypada z niecierpliwością do niego)</stage> Pi...pi...pi... pa...pa...pa...Jak ty będziesz gadał, to ja ani słowa nie powiem. <stage>(Obraca się do pana i pani Anzelmowej)</stage> Ale bo też i państwo osobliwą inkwizycją ze mną chcecie prowadzić: nie chcecie mnie wysłuchać, i pozwalacie gadać temu niedołędze; nie wierzycie temu co ja mówię, a dajecie wiarę temu co ten głupiec mówi.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(w gniewie)</stage> Jakto głu...głu...głu...</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Cicho stary, cicho.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(przypada do Ludwika i kończy zaczęty wyraz)</stage> Piec...głu...głu...</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Cicho stary, powiadam. <stage>(Do Ludwika)</stage> Nie on tedy, ale ja będę mówił mój panie.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(do Ludwika, który daje znaki niecierpliwości)</stage> Ale uspokój się mój Ludwiku, i słuchaj spokojnie co ci pan Anzelm powie.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(do Karola)</stage> Bez tych rad i napomnień, proszę bardzo...</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(w gniewie przystępując do Ludwika)</stage> Ja pa...a...nu za...a...powiadam...że...pa...a...na będę po...po...po...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(chwytając go za kark)</stage> A ja ci zapowiadam, że jak mi jeszcze słowo piśniesz, to cię za drzwi wyrzucę, nie zważając na nikogo.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(do Ludwika)</stage> Pan się zapominasz! nie widziałam pana nigdy w takiem uniesieniu; i to dobrze wiedzieć, że złość nad tobą tak dalece górę wziąć może.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(do żony)</stage> Pozwól kochanko, niech ja powiem co myślę, i niech umityguję zapalczywość jegomości...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Wolno panu mówić, co mu się podoba; ale ja muszę wprzódy oświadczyć, że państwo jesteście dzisiaj wszyscy źle uprzedzeni o mnie i że mi największą niesprawiedliwość wyrządzacie. <stage>(Dobywa chustki, ociera nieznacznie łzę w oku, potem słuchając p. Anzelma gniecie chustkę i po trochu rozdziera ją tak że mu tylko kawałek w ręku zostaje)</stage></p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Być może, być może; ale pomimo to jednak oświadczę panu memu otwarcie, że, jako ojciec dbały o przyszły los córki mojej, nie mogę lekceważyć dostrzeżeń które dzisiaj nad skłonnościami pańskiemi uczyniłem; i że one są mi powodem do proszenia go, abyś nadal domu naszego obecnością swoją nie zaszczycał, <stage>(Do żony)</stage> Pójdźmy kochanko. <stage>(Odchodzą powoli, p. Anzelmowa ogląda się z żalem na Ludwika który stoi niewzruszony i ociera sobie łzy kawałkiem podartej chustki, który mu w ręku został)</stage></p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(biorąc córkę za rękę przybliża się do Ludwika)</stage>, <stage>(Do Julisi)</stage> Pój..pójdź i ty ze mną. <stage>(Do Ludwika)</stage> Pro...proszę pa...ana nie...nie po...postać nogą w o...ogrodzie a...ani w mo...ojej stancyi, wa...wara panu od niej wa...wa...wara...wa... <stage>(Odchodzą)</stage></p>
+</sp>
+</div>
+<div type="scene" n="17">
+<head>SCENA IX.</head>
+<stage type="entrance"><p><rs key="#karol">KAROL,</rs> <rs key="#ludwik">LUDWIK.</rs></p></stage>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(przybliżając się poufale do Ludwika, który stoi w zamyśleniu)</stage> Żal mi cię prawdziwie. Ale bo też przyznaj żeś się uniósł zbytecznie. Nie wypadało w obecności tak szanownych rodziców...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(spoglądając na niego z gniewem)</stage> Czegóż pan pozostałeś przy mnie? Mogłeś pójść za niemi; tobie nie zakazano zaszczycać ich domu swoją obecnością. Idź tam, zkądeś mnie wyrugować potrafił, baw się tam dobrze... póki ja twojej zabawy nie przerwę.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(z łagodnością)</stage> Jakże ci się ma dziać dobrze, kiedy się zawsze unosisz. Inny na mojem miejscu, toby się gniewał; i cóżby z tego wynikło?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>To co nastąpi, choćbyś się nie miał gniewać. Im słodsze cedzić będziesz wyrazy, tem większą goryczą zaprawisz moje serce. Nie tutaj miejsce do tego, abyśmy się porozumieli z sobą; w swoim czasie i w właściwem miejscu odbierzesz pan oświadczenie żądań moich. <stage>(Odwraca się od niego i żalem przejęty chodzi po pokoju)</stage> O Julio! Julio! takżebym to miał niewinnie utracić prawo do twojej ręki! Czyliż dla mylnych pozorów, bez wysłuchania mnie, bez sądu, mam być skazany na wzgardę i najcięższe zgryzoty! <stage>(Karol chodzi za nim zdaleka i chciałby mu przerwać aby go uspokoić)</stage> Proste nieporozumienie, podstępy, plotki, zgubę moję zgotowały!... Nie dozwolono mi nawet usprawiedliwić się... <stage>(Zamyśla się i przez zapomnienie zatrzymuje się przy Karolu, opiera się poufale na nim i mówi)</stage> Ach jak to boli! jak to dokucza! przyznaj, że nie ma nic boleśniejszego nad niesprawiedliwość, nad zdradę przyjaciela. <stage>(Spostrzega się i cofa)</stage> Przepraszam za tę poufałość... Skutek to mego żalu i roztargnienia.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(słodko)</stage> I dowód dobrego serca... wiem ja o tem, że ty się gniewać nie umiesz.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Być może! ale obrazy poszukiwać potrafię.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Widzisz, to było niedobrze powiedziane. Dopieroś narzekał na niesprawiedliwość a sam ją popełniasz względem mnie.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Radbym się o tem przekonać.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Bardzo łatwo. Powiedziałem prawda państwu Anzelmom, żeś tu został z Julisią, ale bez żadnej złej intencyi; nie spodziewałem się żadnych złych skutków z tej prostej powieści, z której pan Anzelm taką wielką rzecz zrobił.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(zamyślony)</stage> A ona co na to? czy i ona także mnie potępia?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Ona poszła za mężem.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Jakto za mężem? ale ona... ona, Julia?</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>A, myślałem że się o matkę pytasz; Julii nie było w pokoju. Ona nic nie wie o tem; czyż możesz nawet przypuszczać, abym przy niej miał mówić coś takiego, coby jakie podejrzenie na ciebie rzucać mogło?</p>
+</sp>
+<stage>(Lokaj wchodzi i oddaje bilet Ludwikowi i odchodzi)</stage>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(odebrawszy go i spojrzawszy na niego)</stage> To od niej, to jej pismo... cóż mi ono zwiastuje. Boże, czyż mogę mieć jeszcze nadzieję!</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(patrząc niespokojnie na list)</stage> Oczywiście... czyż można wątpić nawet, aby panna Julia rodziców za tobą nie prosiła, aby ich przebłagać nie miała?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(przeczytawszy list, rzuca go na stół i chodzi przejęty żalem po izbie)</stage> I ona mnie także potępia. Tak więc znikają przede mną wszelkie widoki przyszłego szczęścia mego!</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(biorąc list ze stołu z udanym żalem)</stage> A to też jest niesłychana niesprawiedliwość! <stage>(Czyta)</stage> „Przypadek zdarzył, żem się sama przekonała o tem, jak mało pana obchodzę, i że nie o mnie była mowa w bilecie pańskim, który przez nieostrożność w nasze wpadł ręce. Umiem cierpieć, lecz nie potrafię czynić wyrzutów. Tyle jednak winnam sobie samej, że zapomnę o naszych stosunkach i że pana proszę abyś o mnie zapomniał. Julia” <stage>(Przeczytawszy)</stage> A to niesłychane! tegom się nigdy nie spodziewał!... Biedny Ludwiku, cóż teraz poczniesz? Jeżeli chcesz odjechać, to weź mój pojazd, proszę cię, bo konia twego podobno nie masz.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(odbierając mu list)</stage> Jakiś ty usłużny, jaki łaskaw dla mnie! <stage>(Odchodzi)</stage></p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(idąc za nim)</stage> Daję ci słowo, że cię najszczerzej żałuję i żebym ci się chciał przysłużyć, czem tylko mogę. <stage>(Odchodzą)</stage></p>
+</sp>
+<trailer>(KONIEC AKTU DRUGIEGO)</trailer>
+</div>
+</div>
+<div type="act" n="3">
+<head>AKT III.</head>
+<stage type="setting"><p>(Rzecz się dzieje w bawialnym pokoju. Drzwi jedne we środku, drugie, na lewo, a naprzeciw nich okno. Przy oknie stoi kanapa nieco od ściany odstawiona, a przed nią stolik. Naprzeciwko, blizko ściany w której są drzwi boczne, stoi drugi stolik, a na nim kałamarz, pióra i papier)</p></stage>
+<div type="scene" n="18">
+<head>SCENA I.</head>
+<stage type="entrance"><p><rs key="#anzelm">P. ANZELM,</rs> i <rs key="#anzelmowa">P. ANZELMOWA</rs> (grają z sobą w karty u stolika przed kanapą stojącego). <rs key="#julia">JULIA</rs> (haftuje w tamborku przed drugim stolikiem). <rs key="#karol">KAROL</rs> (stoi za nią)</p></stage>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Więc pani mi na to wszystko ani słowa nie odpowiesz?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Jest to najlepsze co pana spotkać może.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>E, pani żartujesz, albo nie chcesz mnie rozumieć.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Bardzobym rada była, gdybyś mnie pan tak chciał zrozumieć, jak ja pańskie wyrazy rozumiem.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Pani się nawet nie pozwolisz cieszyć nadzieją?</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(do żony)</stage> Ale, za pozwoleniem, co też Wpani robisz dzisiaj; toć już masz sześć kart w ręku, i jeszcze bierzesz siódmą: za pozwoleniem. <stage>(Odbiera jej kartę)</stage> Ot i pamfil właśnie, dubla pewna.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(przerywając sobie grę)</stage> Wiesz co kochanku, że mi go żal teraz prawdziwie.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Wierzę bardzo... ale i ja go bardzo lubię; <stage>(zadaje)</stage> żołądź ze dwudziestu.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>A i pocóżeś się tak uniósł? czego się było spieszyć?</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Jakto, a toceś go już Wpani w ręku miała?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Kogo w ręku?</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>A kogoż, pamfila.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Ja mówię o Ludwiku. Żal mi go doprawdy.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ani mi Wpani wspominaj o tym trzpiocie. Jakto? w moim domu... wtenczas kiedy... O co to znowu... ze dwudziestu mówię.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Pozór nieraz oszukuje; trzeba się było mocniej przekonać o rzeczy.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Jakto mocniej przekonać? jeszcze czego? oto dam dublę i odsadzę od puli. Dalej kochanko, ze dwudziestu.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(do Julii)</stage> Bodaj to być trzpiotem i bałamutem, to podobno konieczny warunek szczęścia i łaski u dam. Pani widzę nie zapomniałaś jeszcze tego roztrzepańca?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Pan mi nie dasz zapomnieć o nim, bo go ciągle obmawiasz.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>Przez przyjaźń i szacunek dla tego domu ostrzegam o nieupamiętaniu młodzieńca, który mógłby się stać później przyczyną nieszczęścia, i radbym...</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(przerywając mu z uniesieniem)</stage> Ach panie! racz mię z łaski swojej wypuścić z liczby tych, których przyjaźnią i szacunkiem obdarzasz.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(do Karola)</stage> No, panie Karolu, proszę, proszę; trzeba bronić puli, bo wam ją porwę. Żona moja dostała dublę, może i tobie dam suchą odprawę.</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p><stage>(patrząc na Julią)</stage> Toby była jedna po drugiej. <stage>(Do Anzelma)</stage> służę, służę. <stage>(Siada do kart)</stage></p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(która przeszła do Julii)</stage> Cóżeś tak wzruszona Julisiu? widzę iż łzy ocierasz ukradkiem.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(wstaje i bierze matkę za ręką)</stage> Ach! mamo, czyliż mało miałam dzisiaj zgryzoty! I ten jeszcze, którego nienawidzę, śmie czernić przede mną tego, którego muszę potępiać niestety!</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Ale bo i ty też byłaś dzisiaj bardzo skora do potępiania.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Jakże mamo, czyż nie mam wierzyć własnym oczom?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Możebyśmy szczęśliwsze były, gdybyśmy im niezawsze wierzyły! Nieraz, kochana Julisiu, trzeba umieć nie widzieć chociaż się patrzy.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Ale kiedy tylu było świadków nieprzyzwoitego postępku!</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Wszyscy potępiali a nikt nie bronił. Godziło się podobno wysłuchać obwinionego.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(smutno)</stage> Czyby go można było uniewinnić?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Przynajmniej nie było sprawiedliwie karać bez wysłuchania. Ojciec twój uniósł się zbytecznie, zakazał mu bywać w domu, on nie przestąpi tego zakazu... mój Boże, jakże to krótka chwila kilkoletnie nadzieje moje zniszczyła!</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(biorąc ją z rozrzewnieniem za rękę)</stage> Ach mamo! nie tylko ojciec... i ja mu listownie ten sam wyrok przesłałam.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Julisiu!... to nie było z natchnienia twego serca.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ani jednej kozery... co też pan masz za szalone szczęście!</p>
+</sp>
+<sp who="#karol">
+<speaker>KAROL.</speaker>
+<p>To zwykle tak bywa... komu szczęście gdzieindziej nie sprzyja, ten je przynajmniej w kartach znaleźć musi.</p>
+</sp>
+<sp who="#lokaj">
+<speaker>LOKAJ.</speaker>
+<p><stage>(we drzwiach)</stage> Już na stole!</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(rachując)</stage> Dwadzieścia jeden, dwadzieścia pięć, dwadzieścia siedm; wszystkie niźniki u mnie, trzydzieści sześć, dwie szóstki, nieplon, czterdzieści i siedm; bodajże przepadło, o jedno oko dostać dublę <stage>(do żony)</stage> kochanko bronisz puli.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Teraz pójdziemy do kolacyi.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>A prawda, boby ostygła. Może też będziesz miała lepsze szczęście po jedzeniu. Niechże tak wszystko zostanie na stole. Pan przy puli. No, proszę, idźmy. <stage>(Wszyscy odchodzą)</stage></p>
+</sp>
+</div>
+<div type="scene" n="19">
+<head>SCENA II.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK</rs> (sam)</p></stage>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(Gdy wyszli średniemi drzwiami, Ludwik otwiera zwolna okno, zagląda ostrożnie i potem wchodzi niem do pokoju)</stage> A, przecież sobie poszli! Cóż ja też to za nieszczęśliwy człowiek! wypędzają mnie z domu, nie każą w nim bywać; ja też nie wchodzę do niego drzwiami tylko włażę oknem, ale ten jeden raz tylko, abym ją jeszcze widział, abym z nią słów parę pomówił, abym ją przekonał że się myli i żem niewinny. <stage>(Skazując na list)</stage> Ten list mnie dobił. Tak, nietylko ten ale i mój własny. <stage>(siada przy stoliku i bierze machinalnie karty do ręki)</stage> Trzeba na to nieszczęścia, aby się służąca tak jak pani nazywała; żeby ta przeklęta dziewczyna w ręce mi nie wpadła, sam nie wiem jak; żebym ją pocałował w najniewinniejszej myśli, sam nie wiem za co, wtenczas właśnie kiedy tam ktoś we drzwiach. Eh, niech też ciężkie licho porwie! <stage>(rzuca karty na ziemię)</stage> ale co tu począć teraz, widzieć ją muszę, to rzecz oczywista; nie wchodziłem widocznie szanując zakaz ojca, ale zakraść mi się wolno, tak aby mnie nikt prócz Julii nie widział. Pójdę do tego gabinetu, czekać będę póki tu sama nie zostanie, <stage>(idzie do drzwi)</stage> Masz tobie, zamknięte na klucz, i cóż teraz pocznę? <stage>(Patrzy na stół)</stage> Oto kałamarz, papier i pióro, napiszę parę słów do niej; będę ją prosił o pozwolenie widzenia się z nią, choćby na dwie minuty aby jak najprędzej. <stage>(Pisze)</stage> Co za niegodziwe pióra. <stage>(Rzuca pióro na robotę Julii)</stage> O bodajże! znowu głupstwo, jakżem ja też roztrzepany. Żyd ogromny, obok tego, co ta śliczna ręka haftowała, <stage>(Zlizuje go)</stage> Pfe, pfe... nic nie pomoże, już wsiąkło. I cóż robić, tego już nie wywabi. <stage>(Pisze; nieszczęśliwy błaga ze łzami o pozwolenie widzenia Julii)</stage> Więcej nie trzeba, reszty się domyśli. Przypnę ten bilecik do roboty. Ot tak <stage>(przypina go)</stage> i teraz ucieknę. <stage>(biegnie do okna)</stage> Ale cóż mi to pomoże, jakże się dowiem, gdzie i kiedy odbiorę od niej odpowiedź? Trzebaby to jeszcze dopisać, <stage>(Słychać hałas)</stage> Co to? podobno już idą, może też ona sama, poczekajmy, kiedy tu już raz jestem, nie umknę z placu, <stage>(skazuje za kanapę)</stage> tak, tu się skryję i pomyślnej pory czekać będę. <stage>(Kryje się za kanapę)</stage></p>
+</sp>
+</div>
+<div type="scene" n="20">
+<head>SCENA III.</head>
+<stage type="entrance"><p><rs key="#anzelm">P. ANZELM,</rs> <rs key="#anzelmowa">P. ANZELMOWA,</rs> <rs key="#julia">JULIA,</rs> <rs key="#ludwik">LUDWIK</rs> (ukryty).</p></stage>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(prowadzi dalej rozmowę niby z Karolem rozpoczętą)</stage> Otóż to widzisz Wpan, mój panie Karolu, jacy to są ludzie. <stage>(Wszedłszy ogląda się)</stage> Ale gdzież się podział?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>I, on jeszcze z jadalnego pokoju się wymknął.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>A tociem ja wciąż do niego gadał?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Ale on od dawna nie słuchał.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Pewno poszedł kazać zaprzęgać sobie.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(idąc na swoje miejsce)</stage> Co to, to dobrze zrobił; a jeszczeby lepiej było, gdyby już wcale nie przyjeżdżał.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Aleśmy jeszcze puli nie skończyli, a tam się już sporo uzbierało. <stage>(Patrząc na ziemię)</stage> Kochaneczko, co się to bieli na ziemi?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Karty, musiałeś je zrzucić niechcący, gdyś odchodził.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ale gdzie zaś, kochaneczko, ułożyłem je porządnie i zostawiłem na środku stołu.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(biorąc robotę)</stage> Ach! co to za szkaradna plama.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(idąc do niej)</stage> Co? gdzie?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Na mojej robocie. Za nic cała moja praca; to ktoś atramentem powalał.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ktoś, ktoś, przecież tu nikt nie był; musiałaś sama rzucić pióro, albo położyć robotę na atramencie, to cała rzecz. Ale co karty, to nie wiem jakim sposobem na ziemię spadły.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Co tu dziwnego, były na brzegu i spadły.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(rozwijając robotę ukłóła się)</stage> Ach! <stage>(Spostrzega przypięty bilet i miesza się)</stage></p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Cóż ci to znowu?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>To nic. <stage>(Chowa bilet w ręce)</stage></p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(idąc do niej)</stage> Ale dlaczegożeś tak krzyknęła?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Bom się ukłóła. <stage>(Gdy rodzice idą na drugą stronę do Julii, Ludwik tymczasem zbiera jak może karty, ale nie może zdążyć zebrać wszystkich)</stage></p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(do Julii ciszej)</stage> Cóż ci to? zmieniłaś się widzę. <stage>(Julia oddaje jej milcząc ukradkiem bilet)</stage></p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(patrząc zblizka na robotę)</stage> Ale prawda, jaki żyd szkaradny na robocie. I to nie tyś go zrobiła?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(zmieszana)</stage> Ja, ja musiałem zwalać moję robotę.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Ale tak; stół był zwalany atramentem, a tyś na to położyła swoję robotę.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>To było bardzo nieostrożnie! Szkoda roboty doprawdy. Aleć to trzeba karty pozbierać. <stage>(Idzie ku nim)</stage></p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(na stronie)</stage> Otóż masz, to strach dopiero!</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>He? kochaneczko, co mówisz?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Ja? ani słowa.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>To mi się zdawało. <stage>(Zbiera karty)</stage></p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(do Julii ciszej)</stage> Uspokój się Julisiu, ja za ciebie odpowiem i będę się chciała sama z nim widzieć.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(na stronie)</stage> Kochana mama! jeszcze mnie nie odrzuciła.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>He? co mówisz kochaneczko? żeś ty je zrzuciła?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Ale ja do ciebie nic nie mówię.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Jakto znowu nie mówisz? tociem przecież wyraźnie słyszał zrzuciła, a jeżeliś ty zrzuciła karty, tobyś mi mogła pomódz je zbierać.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Nie pojmuję, co ci się zdaje dzisiaj.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(do matki)</stage> Ale jak się ten bilet tutaj dostał?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(do Julii)</stage> Musiał on tu sam być.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>A... przecieżem je pozbierał; ale ich coś mało.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(na stronie)</stage> Tak, bo u mnie reszta.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>He? co ty mówisz kochaneczko? że u ciebie reszta? Daj, to je stasuję.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Znowu ci się coś zdaje, ja mówiłam do Julisi.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>I czegóż też tam po cichu gadacie! <stage>(Rachuje karty)</stage></p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(cicho)</stage> Ale którędy się tu dostał?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(do niej)</stage> Chyba oknem.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ale gdzież reszta kart u Pana Boga?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Nie wiem prawdziwie, chyba że okno było otwarte i że je wiatr porwał.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>No, okno mogło być otwarte; ale tego nie pojmuję, jakim sposobem wiatr, któryby niem wiał do pokoju, mógł wywiać z niego karty na dwór?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>I czy też to warto suszyć sobie głowę nad taką bagatelą!</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Nie, kochaneczko, warto;... boć się przecież cuda na świecie nie dzieją; i ja myślę prędzej, że który z ludzi wpadł do pokoju i chciał wziąć karty, ale go spłoszono i nie porwał.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Być może. <stage>(Do Julii)</stage> Gdzie on się podział?</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>A muszęć ja zrobić stante pede inkwizycyą. Czekajcie hultaje! <stage>(chce odejść)</stage></p>
+</sp>
+</div>
+<div type="scene" n="21">
+<head>SCENA IV.</head>
+<stage type="entrance"><p><rs key="#anzelm">P. ANZELM,</rs> <rs key="#anzelmowa">P. ANZELMOWA,</rs> <rs key="#julia">JULIA,</rs> <rs key="#ludwik">LUDWIK,</rs> <rs key="#cwik">ĆWIK</rs></p></stage>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(wpadając zdyszany)</stage> Pa...panie...a...nie.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>No i cóż takiego? Czy się pali?</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Nie...nie...je...jesz...cze gorzej.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p> Dla Boga, cóż takiego stać się mogło?</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Nie...nie e...nie gorzej tylko że ju...uż..ju...uż wlazł.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Kto wlazł? gdzie wlazł?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Czy złodziej? czy co?</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Ale nie... nie...e...złodziej tylko pa...an Lu...lu...lu.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Co, znowu pan Ludwik?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Chyba ci się zdaje, on dawno odjechał.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>A...ale odje...echał, odje…echał! siedzić o...on w dobrem scho...owa...aniu.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(na stronie, kryjąc się lepiej)</stage> Znowu mnie ten nieznośny jąkała zdradzi.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ależ gdzież jest? gdzie wlazł? gdzież się schował?</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Wla...azł, wla...azł o...o...oknem.</p>
+</sp>
+<sp who="#ludwik #anzelmowa #julia">	
+<speaker>LUDWIK, P. ANZELMOWA, JULIA</speaker>	
+<p><stage>(na stronie razem)</stage> Widział mnie. Widział go. Widział go.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ale dokądże wlazł oknem?</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Do po...po...po...</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>I, zdawało ci się, gdzieby zaś pan Ludwik miał oknem wchodzić do pokoju!</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>To też nie...nie do państwa, tylko do ko...ko...kobiet.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(na stronie)</stage> O! kłamiesz.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(głośno razem)</stage> Zdawało ci się.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Nie kłamię, nie zda...awa...ało mi się, bom go widział na moje o...oczy ja...ak właził.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(do Julii)</stage> Być może, a ztamtąd przyszedł tutaj.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>A...alem ja go zła...apał, bo...om zamknął okien...ni... nicę i podparł ją drą...ągiem, a drzwi zamknąłem na klucz od sieni; i teraz siedzi jak w kla...atce, w klatce.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(na stronie)</stage> O! jeszcze gorzej, to prawda.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ale pocóżby tam właził? Kto go wpuścił?</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>A po...po co? do Julisi... Kto o...ogo wpuścił?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Nie może być; zdawało ci się mój kochany, bo ja posłałam Julisię z lekarstwem do ekonomowej.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>No, to go kto in...ny wpu...wpuścił albo kazał w...pu...w...puścić.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Co? kto inny? toby trzeba sprawdzić.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Nie, to być nie może, to ci się tylko zdawało.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>No...no niechże pa...państwo pój...pójdą sa...a...mi zo...o...baczyć, to się prze...przekonają.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Ale poco? pewna jestem iżby pan Ludwik tego nie zrobił.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Nie zawadzi się przekonać, pójdźmy kochaneczko.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Pójdźmy, kiedy chcesz koniecznie. <stage>(Do Julii)</stage> Pójdźmy, trzeba go ratować.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p><stage>(odchodząc)</stage> Ale czy mama pewno wysłała Julisię? czy jej tam nie masz?</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(do niej)</stage> Ale nie masz jej, zaręczam.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p><stage>(otwierając drzwi)</stage> Pro...proszę państwa, pro...pro..szę. <stage>(Odchodzą)</stage></p>
+</sp>
+</div>
+<div type="scene" n="22">
+<head>SCENA V.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK</rs> sam</p></stage>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(wychodząc z kryjówki swojej)</stage> A, chwałaż Bogu, że sobie poszli, bo to nieznośne miejsce, to moje schowanie; <stage>(prostując się)</stage> już tam nie wrócę, i poczekam na nich tutaj, wystawię się w otwartem polu na ich pociski; spodziewam się przecie, iż się przekonają, że mnie tam nie masz, i że do tej przeklętej Julisi nie zachodzę. Ale co się też to temu staremu zdawało? Musiał mu ktoś donieść, że mnie widział oknem wchodzącego, a on na pewne utrzymywał, żem się do kobiecego pokoju zakradł. Idźcie, idźcie, a ja tymczasem usiądę sobie <stage>(siada)</stage> i poczekam spokojnie na was, aby was potem przekonać, żeście niewinnie poczciwego człowieka potępili. Tym bardziej pozostanę tutaj, aby nie powiedzieli, żem do ekonoma poszedł za Julisią.</p>
+</sp>
+</div>
+<div type="scene" n="23">
+<head>SCENA VI.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK,</rs> <rs key="#julisia">JULISIA.</rs></p></stage>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Co to, nie ma państwa? <stage>(Spostrzegając Ludwika tyłem do niej obróconego, idzie ku niemu i poznawszy go)</stage> Ach! to pan.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(zrywając się)</stage> Co? to ty znowu! A, już trzeba być nieszczęśliwym człowiekiem na to. Dziewczyno, odżegnaj się ode mnie.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>A cóż ja panu winnam? Niczego od pana nie chcę, daj mi pan święty pokój.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale pocóż tu przychodzisz, kiedy ja tu jestem?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>A czy ja wiedziałam o tem? Przychodzę dać pani wiadomość o zdrowiu ekonomowej. Gdzież tedy są panie obie?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Widzisz, że ich tu nie masz, więc idź precz co prędzej; gotów jeszcze kto przyjść i powiedzieć, że się do ciebie umizgam.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>No, pójdę, pójdę, tylko mi pan powiedz, dokąd państwo poszli?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Do kobiecego pokoju. Tylko biegaj co prędzej.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Wszyscy do kobiecego pokoju! A to poco?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Wypatrzeć nas obojga, rozumiesz? Dlatego idź do nich, pokaż im się. No idźże, a prędko.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>I, cóż też pan gada znowu! Ale biegnę bom bardzo ciekawa co się tam dzieje. <stage>(Odchodzi)</stage></p>
+</sp>
+</div>
+<div type="scene" n="24">
+<head>SCENA VII.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK,</rs> sam.</p></stage>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A...poszła sobie przecie. No, proszę, gdyby też byli przyszli, i mnie znowu sam na sam z nią spotkali, nowy pasztet, nowe plotki; jąkałaby mnie potępiał, a jabym sie nie umiał wytłumaczyć, i byłbym zgubiony na zawsze. Teraz jestem spokojny, wszystko musi się wyjaśnić. Wyjaśnię im nawet historyą kart na ziemi porozrzucanych, i plamy na robocie. Oto idą...</p>
+</sp>
+</div>
+<div type="scene" n="25">
+<head>SCENA VIII.</head>
+<stage type="entrance"><p><rs key="#ludwik">LUDWIK,</rs> <rs key="#julisia">JULISIA</rs> (wpada).</p></stage>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(spostrzegając ją)</stage> A nieszczęśliważ moja godzina! To znowu ona.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(żywo)</stage> A jakie przednie rzeczy! Wystaw sobie pan, co się stało.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(odsuwając się od niej)</stage> Kobieto! odżegnajże się ode mnie, powiadam ci, bo nie chcę mieć do czynienia z tobą.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(żywo)</stage> Pobiegłam do naszego pokoju, zastaję drzwi zamknięte: naturalnie, patrzę przez dziurkę od klucza. Cóż widzę, zgadnij pan?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(przybliża się do niej)</stage> Cóż takiego? mów prędko kochana Julisiu.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Oto jegomość otwiera do wielkiej szafy od sukien. Zgadnij pan, co tam było?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(biorąc ją za rękę z niecierpliwością)</stage> Ale gdzie ja tam mam zgadnąć co było! Mów prędko, aby nas kto nie zszedł.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Oto pan Karol...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Jakto Karol! a on tam co robił?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Wyłaził z niej powoli jak zmyty.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale jakże i pocóż właził do szafy?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Jak i poco? To się pan tego nie domyśla? Panna Zuzanna musiała go wpuścić do pokoju, a słysząc hałas za drzwiami schowała go do szafy.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(ucieszony)</stage> Co, doprawdy? O jakie to przednie, jakie to przednie! To on miał widzę romansik z panną Zuzanną?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Dopiero się pan tego domyślasz!</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Teraz przecież poznają, co to za człowiek! Złapali go na uczynku. Kto pod kim dołki kopie, sam w nie wpada; Wszak prawda kochana Julisiu? <stage>(Ściska ją, wtem wchodzą wszyscy)</stage></p>
+</sp>
+</div>
+<div type="scene" n="26">
+<head>SCENA IX.</head>
+<stage type="entrance"><p><rs key="#anzelm">P. ANZELM,</rs> <rs key="#anzelmowa">P. ANZELMOWA,</rs> <rs key="#julia">JULIA,</rs> <rs key="#ludwik">LUDWIK,</rs> <rs key="#cwik">ĆWIK,</rs> <rs key="#julisia">JULISIA.</rs></p></stage>
+<stage type="setting"><p>(Wszyscy wchodzący zatrzymują się we drzwiach i wydają okrzyk zadziwienia widząc Ludwika ściskającego Julisię)</p></stage>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>A wej...a wej go panie! tamten tam a ten tutaj. <stage>(Ludwik i Julisia rozbiegli się na obie strony sceny i stoją pomieszani pod obudwoma ścianami)</stage></p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>A, przyznam się, że to przechodzi pojęcie moje.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Tegom się nie spodziewała.</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>A ja go chciałam bronić!</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Wtenczas, kiedy idziemy szukać jegomości w kobiecym pokoju, gdzie się miał zakraść do tej dziewczyny, to on tymczasem...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(ze smutkiem przerywając)</stage> Czekał tutaj spokojnie na państwo aż powrócicie, aby was przekonać, że jest najniewinniejszym człowiekiem.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>A ta...ak, a ta...ak, bardzo spo...spokojnie, wszyscyśmy to widzieli.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(poważnie)</stage> Cicho! nie przerywać mi! Mówię, że gdy my jegomości tam szukamy, to on sobie tymczasem tutaj z Julisią randewu daje. Wytłumaczże mi pan z łaski swojej jakeś tu wszedł?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>A oknem, - ponieważ mi drzwi były zabronione.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>A...a... cóż ja państwu mówił że pan Lu...Ludwik wlazł o... oknem?</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(do Julisi)</stage> A tyś tu którędy weszła?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p>Drzwiami, tak jak wszyscy ludzie chodzą.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Ale pocoś tu przychodziła? Czy ci pan Ludwik przyjść kazał?</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(idzie do pani Anzelmowej i do Julii, i całuje je kolejno w ręce)</stage> Proszę pani, proszę pani, niechże mię też panie spokojnie wysłuchają; bo widzę, żem się tu najniewinniej wplątała, i że państwo znowu będą łajać.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(przerywa)</stage> Nie, nie, czekaj, ja opowiem wszystko jak było... Oto...</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>O...o widzicie państwo jak się to plątają.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(do ojca)</stage> Tatynku, bądźcież cicho, boście mnie już raz w biedę wprowadzili, a niewinnie, Bóg świadkiem. <stage>(Do państwa)</stage> Oto, proszę państwa, przyszłam sobie tutaj, zwyczajnie z doniesieniem do pani, że ekonomowa zdrowsza, i zastałam pana Ludwika.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>A pan Ludwik zkąd się tu wziął?</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Pan Lu...Ludwik wlazł oknem.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Ale co ty gadasz, głupcze! Toćeś się przekonał, że ten, co wlazł oknem do kobiecego pokoju, był pan Karol, bośmy go przecie... zgroza wspomnieć na to... w szafie znaleźli.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>A czy...czy ich dwóch nie...nie...mogło włazić o... oknem, jeden po dru...drugim? Jam tego wi...widział, a tam...ten niewidziany się za...zakradł.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(do Anzelma)</stage> Panie dobrodzieju, niechże pan z łaski swojej uważa, z jaką flegmą słucham wszystkiego; zebrałem całą przytomność, i słuchając co mi będą zarzucać, przyznam co prawdą będzie i równie otwarcie zaprzeczę potwarzy.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Ciekawam bardzo, jak się pan z tego wszystkiego wywikłasz!</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Jakże tedy, którędy pan tutaj wszedłeś?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Oknem.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Acha, ok...ok...ok...oknem.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Ale nie tem, w którem tyś mnie miał widzieć, ale tem oto; bo do kobiecego pokoju żadnego nie miałem interesu, ale tutaj musiałem przybyć, aby się uniewinnić przed panią. <stage>(Skazując na Julią)</stage></p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Wątpię aby to mogło nastąpić.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(przybliżając się do niej)</stage> O! ja bynajmniej nie wątpię. A pomieszanie pani, gdyś mój bilet otrzymała i łaskawa przychylność mamy, którą na jej twarzy widziałem, są rękojmią przebaczenia moich uchybień.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Mój panie kochany, cóżto to jest to wszystko co tam tak prędko i czule mówisz, bo ja ani słowa nie rozumiem. O jakimże mówisz bilecie?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(mówi prędko)</stage> O tym co go panna Julia u swojej, przez roztrzepanie moje powalanej roboty znalazła, i co się ukłóła jeszcze gdy go odpinała, i krzyknęła, a pan się spytał co to było. A to nic więcej nie było jak śpilka, którą przypiąłem bilet, przez który prosiłem pani o chwilę rozmowy, abym się mógł wytłumaczyć, że jeżeli widziała przypadkiem iż w kobiecym pokoju uściskałem niechący Julisię, to było jedynie przepraszając ją za to, żem jej przerwał niechcący korale; że mniemanie, jakobym o tej Julisi w tym nieszczęśliwym liście pisał, było zupełnie fałszywe, i tylko przez złośliwość pana Karola poduszczone: ponieważ jedna tylko Julia, którą kocham nad życie, nad sercem mojem panować może. <stage>(Całuje ją w rękę, a ona czule pogląda na niego)</stage> Że...</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(przerywa mu mówiąc głośniej od niego)</stage> A słowo Boskie... cóż za nieznośna facundia! Miałeś pan słuchać cierpliwie i odpowiadać na zarzuty?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Albo nie słucham!... i gotów jestem odpowiadać, tylkobym chciał jeszcze...</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p><stage>(przerywając)</stage> Za pozwoleniem, bo jak się znowu zacznie wiatrak, to się końca nie doczekam.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p><stage>(na stronie do Julii z uśmiechem)</stage> Ja widzę że on się wygada, i wszystkich nas jeszcze o niewinności swojej przekona. <stage>(Julia ściska jej rękę ze słodkim uśmiechem w odpowiedzi)</stage></p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Proszę mi powiedzieć, jak pan wiesz o tem wszystkiem, co się tu działo w pokoju?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Bardzo naturalnie: będąc w tym samym pokoju, musiałem być świadkiem wszystkiego co się w nim działo.</p>
+</sp>
+<sp who="#anzelm #anzelmowa">
+<speaker>P. ANZELM. P. ANZELMOWA.</speaker>
+<p>Ale gdzie?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Za tą kanapą, zbierałem karty, którem zrzucił ze stołu; nie było mi wygodnie, alem znosił wszystko cierpliwie w nadziei, że panią zobaczę, że u nóg przebaczenia błagać będę.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>To nie...nie...prawda, obaście pa...panowie w kobiecym po...pokoju byli, pan Ka...Ka...Karol u panny Zuzanny, a pan Lu...lu...lu...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(zniecierpliw ony bieży do niego)</stage> A bodajżeś przepadł jąkało z twemi domysłami. Toć tam twojej Julisi nie było; a gdybym był w tamtym pokoju, jakżebym był z nią tutaj mógł uciec niespotkawszy się z państwem?</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Znowu furory, znowu exorbitancye! Z tego się pan przecież nie wywiniesz, i tego nie zaprzesz, iż na tem miejscu drugi raz ściskałeś Julisię?</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>No i cóż w tem złego? Uczyniłem to z ukontentowania, gdym się dowiedział, żeście państwo pana Karola w szafie znaleźli; bo to was powinno było przekonać, że lepszy ten co się otwarcie lekkomyślności dopuści, od tego co innych potępia, a sam cichaczem gorzej od nich broi.</p>
+</sp>
+<sp who="#anzelmowa">
+<speaker>P. ANZELMOWA.</speaker>
+<p>Dobrze mówi Ludwik. Przekonał mnie, że wszystko co dziś nabroił, było tylko skutkiem roztrzepania, ale nie złych skłonności.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(całując ją w rękę)</stage> Najukochańsza mama! <stage>(Do Julii)</stage> A pani, czy nie pójdziesz za jej przykładem?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Chyba przez wzgląd na to, co mi mama dziś powiedziała: że nieraz trzeba umieć nie widzieć, chociaż się patrzy.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p><stage>(do Anzelma)</stage> A papa dobrodziej nie raczy też łaskawie spojrzeć na mnie?</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>To potrzebuje namysłu, zwłaszcza że mnie dzisiaj człowiek tak dobrze ułożony i tak powolny jak p. Karol szkaradnie oszukał. Proszę uniżenie, umknął z placu i odjechał nie skończywszy puli.</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>To ja zostanę, aby ją za niego skończyć.</p>
+</sp>
+<sp who="#anzelm">
+<speaker>P. ANZELM.</speaker>
+<p>Zostać możesz, ale w maryasza z takim roztrzepańcem grać nie będę.</p>
+</sp>
+<sp who="#julisia">
+<speaker>JULISIA.</speaker>
+<p><stage>(do Julii)</stage> Spodziewam się, że mnie pani nigdy nie posądzała, i że się pani nie gniewa na mnie?</p>
+</sp>
+<sp who="#julia">
+<speaker>JULIA.</speaker>
+<p>Nie, kochana Julisiu.</p>
+</sp>
+<sp who="#cwik">
+<speaker>ĆWIK.</speaker>
+<p>Ale ja je...jeszcze nie...nie wierzę te...temu wszystkiemu bo ten mo...może wszystko zro...zrobić, kto mógł moje ra...rabaty po tra...tra...tra...</p>
+</sp>
+<sp who="#ludwik">
+<speaker>LUDWIK.</speaker>
+<p>Pogodziłem się ze wszystkiemi, to się i z tobą kiedyś pogodzę: bo każdy przebaczy roztrzepanemu uchybienia, które nie ze złego serca pochodzą.</p>
+</sp>
+<trailer>(ZASŁONA ZAPADA)</trailer>
+</div>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,3646 @@
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000002" xml:lang="pol">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Panna mężatka</title>
+<title type="sub">komedya we trzech aktach</title>
+<author>
+<idno type="isni">000000008342946X</idno>
+<idno type="wikidata">Q2338973</idno>
+<persName>
+<forename>Józef</forename>
+<surname>Korzeniowski</surname>
+</persName>
+</author>
+<!-- Józef Korzeniowski (1797-1863) -->
+</titleStmt>
+<publicationStmt>
+<publisher xml:id="dracor">DraCor</publisher>
+<idno type="URL">https://dracor.org</idno>
+<availability>
+<licence>
+<ab>CC0 1.0</ab>
+<ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl type="originalSource">
+<name>POLONA</name>
+<idno type="URL">https://polona.pl/item/panna-mezatka-komedya-we-trzech-aktach,ODEzNzgxNTk/6/</idno>
+<title>Korzeniowski, J., Panna mężatka: komedya we trzech aktach, Wilno 1845</title>
+<availability>
+<licence>
+<ab>public domain</ab>
+<ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+</licence>
+</availability>
+</bibl>
+</sourceDesc>
+<editionStmt>
+<respStmt>
+<resp>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</resp>
+</respStmt>
+</editionStmt>
+</fileDesc>
+<profileDesc>
+<particDesc>
+<listPerson>
+<person xml:id="polkownikowa" sex="FEMALE">
+<persName>Półkownikowa</persName>
+</person>
+<person xml:id="cecylia" sex="FEMALE">
+<persName>Cecylia</persName>
+</person>
+<person xml:id="adolf" sex="MALE">
+<persName>Adolf</persName>
+</person>
+<person xml:id="major" sex="MALE">
+<persName>Major</persName>
+</person>
+<person xml:id="jakob" sex="MALE">
+<persName>Jakob</persName>
+</person>
+<person xml:id="ignacy" sex="MALE">
+<persName>Ignacy</persName>
+</person>
+</listPerson>
+</particDesc>
+<textClass>
+<keywords>
+<term>Komedia</term>
+</keywords>
+<classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<listChange>
+<change when="2023-05-23">file conversion from source with some corrections (no text interference)</change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<standOff>
+<listEvent>
+<event type="print" when="1845">
+<desc/>
+</event>
+</listEvent>
+</standOff>
+<text>
+<front>
+<div>
+<titlePage>
+<docTitle>
+<titlePart type="main">PANNA MĘŻATKA.</titlePart>
+<titlePart type="sub">KOMEDYA WE TRZECH AKTACH.</titlePart>
+</docTitle>
+<byline>
+przez
+<lb/>
+<docAuthor>Józefa Korzeniowskiego</docAuthor>
+.
+</byline>
+<docEdition>
+Wydanie
+<name>Adama Zawadzkiego</name>
+</docEdition>
+<docImprint>
+<p>
+<pubPlace>Wilno</pubPlace>
+. Nakładem i drukiem
+<name>Józefa Zawadzkiego</name>
+.
+<date>1845</date>
+.
+</p>
+</docImprint>
+<imprimatur>
+Pozwolono drukować pod warunkiem złożenia po wydrukowaniu exemplarzy prawem przepisanych w Komitecie Cenzury.
+<placeName>Wilno</placeName>
+,
+<date>1845 roku 19 Stycznia</date>
+.
+<lb/>
+Cenzor
+<name>Jan Waszkiewicz</name>
+</imprimatur>
+</titlePage>
+<castList>
+<head>OSOBY</head>
+<castItem>
+<role xml:id="#polkownikowa">PÓŁKOWNIKOWA.</role>
+<roleDesc/>
+</castItem>
+<castItem>
+<role xml:id="#cecylia">CECYLIA.</role>
+<roleDesc/>
+</castItem>
+<castItem>
+<role xml:id="#adolf">ADOLF.</role>
+<roleDesc/>
+</castItem>
+<castItem>
+<role xml:id="#major">MAJOR.</role>
+<roleDesc/>
+</castItem>
+<castItem>
+<role xml:id="#jakob">JAKOB,</role>
+<roleDesc>lokaj Półkownikowej.</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="#ignacy">IGNACY,</role>
+<roleDesc>lokaj Adolfa.</roleDesc>
+</castItem>
+</castList>
+</div>
+<set>
+<p>(Scena w Warszawie).</p>
+</set>
+</front>
+<body>
+<div type="act" n="1">
+<head>Akt I.</head>
+<stage type="setting">
+<p>(Salon Półkownikowej. Po lewej ręce spektatorów stół okrągły, na którym xiążki, rysunki i inne papiery; bliżej spektatorów wielkie źwierciadło; po prawej ręce kanapka, przy której mały stoliczek. Półkownikowa siedzi w swojem krześle z robotą przy okrągłym stole. Po chwili bocznemi drzwiami wchodzi Cecylia w czepeczku i w stroju wizytowym)</p>
+</stage>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Cóż, kochana ciociu! czy mi tak dobrze?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+Ślicznaś, moja Cesiu! Niedarmo mówią, że mąż będzie kochał kobietę, której ładnie w czepeczku.
+<stage>(Patrzy na nią ironicznie)</stage>
+I twój pewnie szaleje za tobą.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Nie żartuj, droga ciociu! Możebym zasłużyła na to, żeby mię mąż kochał. Cóż, kiedy go dotąd nie mam. A lat dwadzieścia siedem - o Boże mój!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Nie zasmucaj się - dostaniesz go. Może ci się nawet ten twój teraźniejszy pomysł uda. Wiek nasz tak zepsuty, że ten sam mężczyzna, który był prawie obojętnym dla panny, gotów dla niej szaleć, gdy ją ujrzy mężatką.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Dałby P. Bóg, żeby Adolf...</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Ale, ale, jak imię twego mniemanego męża?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Doprawdy, że mi to jeszcze nie przyszło do głowy. A cóż, niech będzie także Adolf.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Aha, rozumiem - żeby sobie tutejszy P. Adolf pomyślał, że właśnie to podobieństwo imion skłoniło cię wyjść za P. Malińskiego.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Gorzej będzie, kochana ciociu, jak sobie nic nie pomyśli.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>O! wątpię, żeby był tak obojętnym. On cię bardzo mile wspomina.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Głupi! widział moje przywiązanie. Nieraz prawdziwie, aż wstydzę się wspomnieć, takie mu robiłam awanse. A on niewdzięczny!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Otoż to właśnie te awanse zrobiły go niewdzięcznym. Panna powinna bydź nadzwyczajnie ostrożna. Mężczyzni wiedzą o tem, że gdy nam dwadzieścia pięć lat minie, na gwałt chcemy wychodzić zamąż; uważają więc nas za zdobycz tak łatwą, tak nic niekosztującą, że się namiętność ich nie zapala: bo namiętność tych panów jest jak teraźniejsze fosforowe siarniczki - potrzebuje czegoś szorstkiego, żeby buchnęła płomieniem.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>O, to prawda, moja ciociu! Zemszczęż się teraz za siebie i za wszystkie stare panny - zawrócę mu głowę - i potem...</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Cóż potem?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>I potem pójdę za niego, jeżeli mię zechce.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>A jak nie zechce?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>To osiądę na wsi; na krok nie ruszę się z domu; czepeczka i szlafroczka nie zdejmę, choćby było naokoło dwadzieścia balów; a jeżeli się gdzie pokazać raczę, to z powagą i dumą, jak matrona.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Otoż to rozumnie zrobisz. Będzie to daleko pewniejszy sposób dostania męża, niż owe stroje, nadstawiania się, obcinanie sobie lat i włosów à l’enfant; co wszystko czyni pannę już w latach śmieszną, a śmieszność jest to zimna woda na wszelki entuziazm. Póki usiłujesz podobać się, nie podobasz się; gdy dasz poznać, żeś o tem już przestała myśleć, otoczą cię zewsząd, i zostanie ci tylko trudność wyboru.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Ach! moja ciociu! jabym przecięż wolała tego nieznośnego P. Adolfa, niż tych wszystkich, co mię tam kiedyś otoczą.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Wierzę ci, moja Cesiu! i jabym go wołała, niż kogokolwiek-bądź. Mężczyzna młody, przystojny, edukowany, bogaty; wszystko za nim mówi; a szczególniej to, że nie trzpiot i nie fanfaron.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>O! ma i on wielkie wady. Nie ma np. determinacyi, waha się, rozbiera, wyszukuje przywar, deliberuje. A nie prawdaż, ciociu, że to dowodzi głupiej zarozumiałości, więcej ufać swojemu rozumowi, niż naszemu sercu? Ich rozum! miły Boże! biedny ten rozum! Ztemwszystkiem chciałabym przecięż, żeby mi się ten wybieg udał: żeby się tak we mnie zakochał, jak niegdyś ów nieboszczyk Adolf w nieboszczce Julii się kochał.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(grożąc)</stage>
+O! o! już i krytyka!
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Ale, ale, niechże ciocia nie zapomni, żem wyszła zamąż na Białej Rusi, już temu miesięcy np. trzy i dni czternaście; że mój mąż obywatel powiatu - jakiegoż powiatu? Otoż nie wiem, jakie powiaty w Witebskiej gubernii.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Naprzykład, powiatu Surażskiego?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>No, niech będzie powiatu Surażskiego. Że ma lat 43; że jest człowiek poważny, uczony, rozsądny...</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Który po trzech miesiącach puścił żonę samę jedną do Warszawy. To cóś niebardzo zakrawa na rozsądek.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>To niech ciocia powie tylko, że uczony.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>A, to co innego. Ale po cożeś tu przyjechała?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Po co przyjechałam? Jużci nie po to, żeby się wydać za P. Adolfa. Przyjechałam naprzód do cioci, a potem w interesie mego męża, który cokolwiek chory.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Na podagrę np.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Fe! to staroświecka choroba. Pomyśli sobie, że on pije, i żem wyszła bez przywiązania. Wie ciocia, lepiej niech on nie będzie chory.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Zgoda, niech nie będzie.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Lepiej powiedzieć, że to taki interes, dla którego on sam musiał jechać do Petersburga, a mnie wysłał tu, gdziebym razem mogła z ciocią się obaczyć.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Niech i tak będzie. Ale jeżeli się P. Adolf dowie pierwej niż potrzeba, że ten improwizowany mąż wcale nie exystuje? jeżeli przypadkiem twoi ludzie z jego ludźmi się rozgadają?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>O, nie, nie - moi ludzie nauczeni - przywykli mię tak całą drogę nazywać, i będą milczeć. Czy on często bywa u cioci?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Prawie codzień. Coraz zmniejsza koło swoich znajomości. Wizyty nudzą go, zabaw nie lubi.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Czy, broń Boże, nie rzucił się do autorstwa?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Nie bój się, tego nie zrobi. Ale zesmutniał widocznie i zmizerniał.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Biedny!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Do mnie tylko przychodzi często; bo, jak powiada, uważa się u mnie domowym i o tobie może tu mówić. Dla tychże przyczyn i z Majorem najczęściej przebywa.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Ach! ten poczciwy Major! Patrz, droga ciociu! jaka ja niewdzięczna! On mię tak kocha, a jam jeszcze o niego nie spytała. Cóż? czy zdrów? czy zawsze chrząka, nim co energicznego powie? czy zawsze Sacre-mort-bleu! i potem poprawia się i przeprasza?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Zawsze jeden i ten sam.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Kochany Majorzysko! Jakbym go chciała uściskać! Odważny, otwarty, poczciwy, prawdziwy żołnierz starej daty, jakich już niema. Czy wie ciocia, że nawet i rozumu ma wiele.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>O! i jak jeszcze. Często pod łupiną rubasznych jego wyrażeń jest prawda tak jędrna, jak ziarnko orzecha prosto z drzewa.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Czy ja go dziś obaczę?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Obaczysz; ale on nie wie, żeś przyjechała.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+O! to dobrze.
+<stage>(Idzie do źwierciadła)</stage>
+No, adieu! droga ciociu!
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Dokądże?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Sama nie wiem - tak przejadę się trochę po mieście.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Ale Adolf tu zaraz przyjdzie.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Właśnie dla tego wyjadę. Chciałabym tylko spotkać się z nim, żeby mię obaczył.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Czy tak ufasz swemu czepeczkowi? Jabym ci nie życzyła zbyt udawać kokietkę, jaką nie jesteś z natury. Skromność, powaga, może więcej zrobić efektu.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>O! znam ja tych panów, moja ciociu! To, co uważają za wadę w pannie, mają za powab w mężatce. Panna kokietka jest w ich oczach prostą kokietką, od której stronią; mężatkę kokietującą z rozumem nazywają une femme charmante, délicieuse, i modlą się do niej, jak żydzi do miesiąca w pełni.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Rób, jak chcesz. Ja tylko to wiem, że jeżeli ci się projekt nie uda, naśmieją się z nas ludzie dowoli.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Cóż mi to szkodzi? Wyjadę i zamknę się na wsi.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>A ja?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(całuje ją w rękę)</stage>
+O cioci powiedzą, że z dobrego serca potwierdzała moje improwizacye, chcąc mię wydać zamąż. Ale cicho! zdaje mi się, że któś idzie. Oh! jak mi serce bije. Ja go podobno bardzo kocham - i to wielkie głupstwo - nie prawdaż? ciociu!
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Nie prawda, moja droga!</p>
+</sp>
+<stage>(Adolf wchodzi, i postrzegłszy Cecylią, staje zadziwiony)</stage>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(po chwili)</stage>
+Więc to Pani?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Czym się tak mocno zmieniła, że mię Pan z trudnością poznajesz, i aż dziwisz się, żeś mię poznał? Czuję ja to i sama, P. Adolfie! Ale cóż robić? Czas bieży, lata napływają i osiadają na twarzy to w bladości, to w zmarszczkach, to w siwiźnie.
+<stage>(Podchodząc ku niemu)</stage>
+Ale i Pan się dużo zmieniłeś. Bośmy też niemłodzi, P. Adolfie! Ja kończę rok dwódziesty siódmy - a Panu wiele?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Mnie daleko więcej, P. Dobrodziko! Wszakże nie to mię zadziwiło...</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A przecięż ja byłam przyczyną Pańskiego zadziwienia.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Nie przeczę; ale powód jego bardzo naturalny. Przed domem zastałem karetę. Powiedziano mi, że to powóz Pani Malińskiej z Białej Rusi. Spodziewałem się więc znaleźć twarz zupełnie obcą. Jakżem się ucieszył i zadziwił, że to Pani!</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Zatem to Pana zadziwiło, żem wyszła zamąż? Czyż Pan myślałeś, że to już rzecz niepodobna?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ależ Pani mi poddajesz myśli, których nie miałem.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(z wyrzutem)</stage>
+Cesiu!
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(wraca ku Półkownikowej)</stage>
+Ach przepraszam! zatrzymałam tego Pana, i nie dałam mu nawet czasu przywitać się. Adieu! droga ciociu! i może dobranoc. Jeżeli wrócę poźno z teatru, nie będę już cioci przeszkadzać.
+<stage>(Przechodząc koło Adolfa, który stał na miejscu)</stage>
+Do widzenia się, Panie Adolfie! Idźże Pan przywitaj się z gospodynią domu.
+<stage>(Wychodzi)</stage>
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Niechże Pan siada.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(przybliża się zwolna)</stage>
+Zabawna rzecz - zmięszałem się.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Widzę.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(siadając)</stage>
+Ale mogłoż mi przyjść do głowy, abym raptem obaczył Pannę Cecylią, i obaczył ją mężatką? Dawneż to małżeństwo? proszę Pani!
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Kilka miesięcy, jak wyszła za Pana Malińskiego. Powracając z matką z Petersburga, poznała go w Witebsku, i tam się sobie podobali.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>I przed Panią nawet był sekret?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Dla zrobienia mi siurpryzy. Wkrótce po zamążpójściu miała mi donieść o tem szczęśliwem dla siebie zdarzeniu; ale właśnie wypadł taki interes, który zmusił jej męża wyjechać do Petersburga, a ją wyprawić tu, raz dla pilnowania ważnego interesu, a właściwie dla widzenia się ze mną. Łatwo Pan sobie wystawi, co to była za radość, gdy wczoraj drzwi się otwarły, i ja ujrzałam tę poczciwą, dobrą Cesię, która tyle zim ze mną przepędziła i tak mi dom rozweselała!</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Któż jest ten Pan Maliński?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Obywatel powiatu Surażskiego, człowiek lat czterdziestu kilku, majętny, poważany, uczony - słowem, mający wszystko za sobą.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(z przekąsem)</stage>
+Zapewne un mariage d’inclination.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Zdaje się, bo Cesia bardzo szczęśliwa.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(spuszczając głowę)</stage>
+Więc szczęśliwa!
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Czy Pana szczęście Cesi zasmuca?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O! bynajmniej! Szczęście Panny Cecylii zawsze mię będzie radować, choćby mię czyniło bardzo nieszczęśliwym.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Któż Panu winien?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Bez wątpienia ja sam i mój charakter nieśmiały i niehazardowny.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Czyż Pan niepewnym byłeś przywiązania Cesi?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+Zdawało mi się, że mi sprzyjała.
+<stage>(Powstając)</stage>
+A przecięż widzi Pani, nie oszukałem się. Wszak jej przywiązanie przeniosło się tak łatwo na innego.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Chciałżeś Pan, żeby wiecznie tęskniła za wielbicielem, który nigdy nie powiedział wyraźnie, co myśli? który ciągle wahał się, deliberował i lękał się jej wad i niedoskonałości? Nie mogłaż Panu powiedzieć: weź mię Pan, bo ja Pana kocham; a poprawię się w tem wszystkiem, co we mnie złego widzisz, jeśli będziesz umiał ze mną postępować.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Wszystko to prawda, ale zawsze byłby to hazard.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Małżeństwo jest zawsze hazardem, bo doskonałości niema ani w mężczyznie, ani w kobiecie. Szkoda, szkoda, P. Adolfie, żeś Pan, jak mówi Major, kunktował.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(opierając się poręczy krzesła)</stage>
+Ponieważ wpadliśmy na tę materyą, pozwól mi Pani wytłómaczyć się.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Na cóż się to przyda? Już Cesia jest żoną innego.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Na nieszczęście, to prawda; ale ja chcę mieć racyą w oczach Pani.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>To trudno.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+Wierzę, ośmielę się jednak spróbować. Pani o tem nie wątpisz, że mi się Panna Cecylia podobała. Do jakiego zaś stopnia byłem nią zajęty, tom postrzegł wtenczas dopiero, gdy wyjechała, a szczególniej czuję teraz, gdym ją stracił na zawsze.
+<stage>(Po chwili)</stage>
+Lecz pomimo przywiązania mojego, daleki jednak byłem od zaślepienia, i widziałem dobrze to wszystko, co jej można było zarzucić.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Podobnoś Pan widział aż nadto dobrze - i więcej niż było.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Mogłem się pomylić, ale był to skutek przywiązania.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Przywiązania krytyka do dzieła, o którem chcę napisać zabawny artykuł. Ale słucham - ciekawy będzie regestrzyk.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Niezbyt długi - niech się Pani nie lęka. Naprzód zacznę od tego, co Panna Cecylia sama poczytywała w sobie za największą wadę, t. j. od jej wieku. Wiek jej nie zrażał mię. Ale wie Pani, co mię zrażało? Oto to, że swoje lata starała się wszelkiemi sposobami ukrywać - nawet kłamstwem.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Śmieszny Pan jesteś! Któraż kobieta powie Panu, wiele ma lat? W tym względzie my wszystkie kłamiemy, ile nas tu jest. A przecięż nie powiedziałaż Cesia Panu niedawno, że kończy rok dwódziesty siódmy?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Teraz! i cóż mi dziś z tej szczerości? Gdyby mi to była pierwej powiedziała, byłbym jej może do nóg upadł i prosił o rękę.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Więc to była jedyna przeszkoda? i więcej jej Pan nie miałeś nic do zarzucenia?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O! nie tylko to, Pani Dobrodziko!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Doprawdy? Cóż naprzykład?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Urodzona w domu zamożnym P. Cecylia nie mogła nauczyć się wartości pieniędzy. Ale ten nałóg rozrzutności, nabyty wychowaniem, powinna była przezwyciężyć, przyszedłszy do lat, i poznać, że majątek rozdzielony na wiele głów nie wytrzyma wszystkich ataków nieumiarkowania, jak wytrzymał wtenczas, gdy był w massie. A tymczasem P. Cecylia była ciągle w ampletach, a co gorsza, w ampletach robionych bez najmniejszej potrzeby, ale jedynie z próżności.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Nie chcę ja Cesi z tego względu zupełnie usprawiedliwiać, ale powiem Panu, że ta wada, prawie pospolita naszym Polkom, przy dobrem sercu żony i rozsądku męża daje się łatwo wykorzenić.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Bydź może; ale P. Dobrodzika raczysz także przyznać, że podobna edukacya żony, i nie szesnastoletniej, wymagałaby większego majątku, niż mój, i silniejszego charakteru, niż mój.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Widać, że musiała w sobie tę wadę przezwyciężyć, i przekonała męża o tem, kiedy ją wysłał tu samę jedną, i jeszcze jej powierzył interesa.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(żywo)</stage>
+I cóż mi z tego, że ją zwyciężyła - teraz? Ale pierwej, pierwej miałem racyą lękać się albo ciągłych sprzeczek, albo wielkich długów.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>I to już wszystko?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Nie - jeszcze nie wszystko, P. Dobr.!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Niemiłosierny Pan jesteś.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Panna Cecylia ma kształtną figurę, twarz piękną i miłą, oczy pełne wyrazu, głos przenikający do duszy, płeć śliczną. Do czegoż, proszę Pani, to złoto złocić wymuszonym strojem? na co te świecidełka, te brzękadełka, które tak lubiła? Parę razy nawet postrzegłem, że się różowała - i przyznam się Pani, to mi się bardzo nie podobało, bom w tem widział zbyteczną chęć podobania się - nie jednemu.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Czyż Pan ją możesz nazwać kokietką?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Tego nie powiem; ale źrzódłem tej przesady była próżność i obawa zostania starą Panną. Lecz pytam się: byłże to śrzodek zapobieżenia temu nieszczęściu, jeżeli to jest nieszczęściem? możnaż rozsądnego mężczyznę ująć bronzikami i odętą toaletą?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>A dzisiejszą jej toaletę czyś Pan uważał?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(żywiej)</stage>
+O! teraz, po niewczasie znajdą się wszystkie doskonałości; ale proszę Pani, na cóż mi się to dziś przyda? Dzisiejsza śliczna - a dawniej, dawniej było nie tak. Panna Cecylia widziała moje przywiązanie, znała moje gusta, wiedziała czego nie lubię. Należało cokolwiek zastosować się do moich skłonności. Tymczasem bywało przeciwnie. Gdym najwięcej chwalił ubior prosty i skromny, wtenczas ubierała się jak najwytworniej. To mi dało sprawiedliwe obawy, że niema w nas zgodności gustów i charakterów.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Zabawnyż Pan jesteś, doprawdy! Czyż można mieć za złe pannie, że nie we wszystkiem ulegała kaprysom kawalera, który się o nią, niby to, starał? Wszakże to jedyna pora naszego panowania. Do posłuszeństwa, do uległości mamy dosyć czasu, gdy zostajemy żonami. I wtenczas to Panowie odpłacacie nam z dobrym procentem - nie prawdaż? Ale już Pan zapewne skończyłeś?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Nie jeszcze, Pani Dobrodziko!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>A toż Pan z tej biednej Cesi chcesz zrobić istne monstrum! Cóż tam znowu jeszcze?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Panna Cecylia, która tak doskonale zna swój język, tak pięknie mówi po polsku, w towarzystwie zawsze mówiła po francuzku, i jeszcze z jakąś przesadą i udawaniem paryzkiego akcentu. Do czegoż to? proszę Pani! czy żeby pokazać dobre wychowanie? jak gdyby dobre wychowanie nie widne było i bez francuzczyzny, i jak gdyby dziś po francuzku i kucharki nie mówiły.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Czyż można zupełnie sprzeciwiać się modzie? bój się też Pan Boga!</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Nie należy się jej zupełnie sprzeciwiać, ale nie należy i hołdować. Panna Cecylia wiedziała o tem, że mi się to nie podoba, ale próżność brała górę i chęć ujęcia tym paryzkim szczebiotem jakie utytułowane paniątko. I jakiż tego był skutek? Hrabiowie i Xiążęta lubią poszczebiotać; ale co śmieszne, to postrzegają najpierwsi, i odchodzą, chichocząc na stronie; a my prostacy, słysząc to i widząc, cierpimy i zaczynamy chwiać się w najlepszych zamiarach. A do tego jeszcze...</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Jeszcze? - Zmiłujże się Pan! tak anatomizować wszystkie wady kobiety, którą się, niby to, kocha! - Powiedzże mi Pan teraz, co zostało w niej do kochania, co do przebaczenia? Bo przywary juz zapewne wszystkie.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ach! nie, jeszcze nie wszystkie.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>A dajże mi Pan pokój! Toż się nie godzi obdzierać ją tak ze wszystkich przymiotów!</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Panna Cecylia miała tyle przymiotów, że mimo tych wad można ją było pokochać. Mam tego dowód na sobie. Ale to wielka różnica Pani Dobr., podobać się przez rozum, dowcip, przyjemne wejrzenie, słodki głos, ładny taniec, a podobać się i ująć tak, aby mężczyzna odważył się złożyć w ręku tej osoby swój los, swoje szczęście i szczęście swych dzieci. Na to ze strony kobiety potrzeba wiele.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(kładzie robotę)</stage>
+A ze strony mężczyzny nie potrzeba nic, tylko objawienia najwyższej woli: bo kobieta powinna zamróżywszy oczy, z pocałowaniem ręki przyjąć tego, który się jej ofiaruje; bo my nie mamy do złożenia w ręku mężczyzny naszego losu, naszego szczęścia i szczęścia naszych dzieci! Wstydźcie się Panowie takiej sprawiedliwości! Czy to my gruszki, mój Panie, że nas można nadkąsić i rzucić, jeśli się nie podoba?
+</p>
+</sp>
+<stage>(Major chrząka za sceną)</stage>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Ale otoż w porę i sukurs mi przybywa.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+O! w sądzie Majora naturalnie, że przegram sprawę, i zawczasu do wspaniałości Pani się udaję i o przebaczenie proszę.
+<stage>(Bierze jej rękę)</stage>
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(nie broniąc ręki)</stage>
+Przegrasz tę sprawę i w sądzie własnym, trochę później, jak porównasz Cesię z innemi kobietami.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(z westchnieniem)</stage>
+O! podobno!
+</p>
+</sp>
+<stage>(Major w czarnym fraku - wąs siwy - w petlicy wstążeczka - trochę nalega na prawą nogę - z laską)</stage>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(wchodząc, do lokaja)</stage>
+Ale co mię tam twoja Pani Malińska obchodzi? gapiu!
+<stage>(Wszedłszy)</stage>
+Całuję nózi Szanownej Pani. A, i Kunktator tu?
+<stage>(Podaje mu rękę)</stage>
+Jak się masz? Fabiuszu!
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Dobrze, żeś przyszedł, kochany Majorze! pomożesz mi pokonać tego Pana.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Jego? - służę Pani, służę. Będę dla niego Anibalem. Ale o cóż idzie?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>O Pannę Cecylią, drogi Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>O Pannę Cecylią? Sacre-bleu... przepraszam Panie! i on śmie bydź przeciwko Pannie Cecylii, którąśmy może przez jego kunktowanie stracili?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Co gorsza, P. Majorze, że jeszcze P. Adolf usprawiedliwia swoje postępowanie; i o to właśnie między nami spór.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Jak to? usprawiedliwia? - więc musi ją obwiniać. Cóż jej masz do zarzucenia? he!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>O! regestr zarzutów bardzo długi, kochany Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Długi? Sacre... ej! do djabł... a to nieszczęście. Przepraszam Panią Dobrodzikę.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Nic, nic, P. Majorze! nie gniewam się.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Serdecznie dziękuję drogiej Pani. Nie zawsze ja to jestem taki prostak; ale kiedy mię co zadraśnie, wtenczas do wszystkich djabł... ej - mówcie Państwo z łaski swojej o czem innem, niech trochę ochłonę.
+<stage>(Siada)</stage>
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Na pociechę i uspokojenie twoje, Majorze, powiem ci, że, mimo wszelkich krytyk, P. Adolf doprawdy żałuje, że stracił Cesię, szczególniej teraz, gdy ją dziś obaczył.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(zrywa się)</stage>
+Obaczył? dziś? a gdzież ona? czemuż Państwo nic nie mówicie?
+<stage>(Bierze kapelusz)</stage>
+Ten cymbał Jakób prawił mi tam o jakiejś Pani Malińskiej, która mię nie obchodzi, a o Pannie Cecylii nie rzekł ani słowa. Co za osieł, na miły Pan Bóg!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Bardzo naturalnie, Majorze! bo Pani Malińska i Panna Cecylia jedna i taż sama osoba.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(zdziwiony)</stage>
+Co? co Waszmość?... cóż to? zamąż poszła?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(z westchnieniem)</stage>
+Ach! poszła!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(śmiejąc się i przedrzeźniając)</stage>
+Ach! poszła! - a widzisz! a nie mówiłem, że pójdzie? Dobrze ci tak! Teraz śpiewaj Tadeusza! Ale bójcież się Państwo Boga i dajcie mi uściskać jej rączki i powinszować.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Cesia wyjechała do miasta, a wieczorem będzie w teatrze.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Pójdę, pójdę do teatru, choćby tam grali jakiego Pantofla w maśle smażonego.
+<stage>(Patrzy na zegarek)</stage>
+O! do djabł...
+<stage>(Pogląda na Półkownikowę)</stage>
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Co długo czekać?</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Dopiero czwarta Sacre... ej.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Cierpliwości, kochany Majorze! - pójdziemy razem.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A, i ty pójdziesz - więc żal? co? A mówiłem ci, nie każdy tak deliberuje; nie każdy, jak aptekarz, na grana i skrupuły waży wszystkie wady kobiety, którą kocha. Tfy z takiem kochaniem! Ja, mój Panie, kiedy kogo kocham, to kocham wszystkie jego brodawki; bo wiem, że i na moim pysku są szramy; że nikt nie jest bez ale. A Waszmość szukałeś anioła w ludzkiem ciele. A sam cóż jesteś? Czy wiesz, jakim będziesz w domu? czy wypróbowałeś się we wszystkich położeniach życia? czy nie powiesz czarno wtenczas, kiedy żona powie biało? czy nie uprzesz się postawić krzesło z lewej strony kanapy, które ona każe postawić z prawej? - uśmiechasz się - myślisz, że to fraszki być sprzecznym, upartym, kapryśnym w drobiazgach codziennego życia? - Od tego, mój Dobrodzieju, zaczynają się wszystkie spory, wszystkie niewierności, wszystkie rozwody. Nie examinowałeś się, prawda? Kto wie, możeby więcej potrzeba było pobłażliwości z jej strony dla ciebie, niż z twojej dla niej.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Wiem o tem, P. Majorze, że w twoim sądzie każdy przegra sprawę, jeżeli jedną stroną będzie P. Cecylia.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Każdy - i mam racyą. Widzę ja w niej tak dobrze jak i Waszmość niektóre skazy. Ale ten wdzięk kobiecy, który może każdą chwilę ozłocić, każdy smutek rozpędzić; ten rozum, którego żadna edukacya nie da, a szczebiotanie francuzkie nie zastąpi; ten grunt poczciwy, który wyprowadza krew na jej twarz na widok niesłuszności, a łzę do jej oka na widok nędzy - oto przymioty, które nagradzają wady, które w niej są, są do wszystkich djabł... ej!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>No, no, kończ, Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Tak jest - są, i właśnie za to ja tak ją kocham, i ty kochasz. Co? może nie?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Nie powiem.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(przedrzeźniając)</stage>
+Tak, nie powiem. Ej! żebym ja był twoim ojcem, dałbym ci dobre pro memoria, żeś pozwolił z przed nosa sobie wziąść taką żonę. Ale zagadałem się, a nic jeszcze nie wiem. Któż jest ten Pan Maliński?
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Obywatel Białoruski.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Młody? stary?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Lat czterdziestu trzech.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A widzisz, niewiele nawet starszy od ciebie.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Majętny.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>No.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Uczony.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Eh!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Z charakterem.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A widzisz? - A Waszmość co? - masło maślane, bez decyzyi. A jak Pani uważałaś, czy szczęśliwa?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Zdaje się.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(przechadzając się)</stage>
+Chwałaż Bogu, chwała Bogu, że jej los ustalony.
+<stage>(Po chwili staje przed smutnym Adolfem)</stage>
+A przecięż, jakkolwiek może bydź zacnym człowiekiem ten P. Maliński, jakkolwiek tyś kunktator, mój Adolfie! wołałbym, żeby była za ciebie poszła.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ach!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Teraz ach! ach! a jak była pora, toś się nie decydował, toś szukał i szperał - wybaczajże - tarde venientium...</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Venientibus, P. Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>No, venientibus, venientibus - wielka rzecz, że lepiej umiesz po łacinie, kiedyś Fabiusz. Sacre-bleu! pod Samosiera nie po łacinie gadali. Lepiej mniej łaciny, a więcej postanowienia, więcej chrześciańskiej pobłażliwości dla wad cudzych, a surowości dla swoich. Bo mój kochany łacinniku! kobieta rozumna usłucha, kiedy mąż mówi do niej z rozumem; kobieta dobra oceni delikatność i pobłażliwość męża; kobieta przywiązana zabroni sobie wszystkiego, co może zrobić przykrość mężowi, i jego przywiązanie umniejszyć. Czy prawda czy nie? Pani najlepiej o tem sądzić możesz.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Dziękuję ci Majorze za tę o mnie opinią.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Co tam opinia - to przekonanie, Pani Dobr., nie opinia, i takie same mam i o Cecylii. A może nie była do ciebie przywiązana?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Zdawało mi się.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Jemu się zdawało. Chciałeś, żeby ci się na szyję rzuciła. Z temi przemądremi głowami doprawdy to kara Bozka. Była, była przywiązana, ja ci to mówię.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ale kochany Majorze! cóż z tego wszystkiego teraz?</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Co? Oto konkluzya taka, żeś ty, z całym twoim kunktatorskim rozumem, kapitalne głupstwo zrobił.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Bydź może - ale stało się. Nie miałem w swoję porę decyzyi, teraz przynajmniej będę miał rezygnacyą.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Musztarda po obiedzie. Ty będziesz miał rezygnacyą, a P. Maliński ma Cecylią - i to podobno lepsze do wszystkich djabł...
+<stage>(uderza się ręką w usta)</stage>
+tfy!
+</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>
+<stage>(wchodzi)</stage>
+Pani Malińska prosi Pani i Pana Majora do swego pokoju.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(powstaje)</stage>
+Tak prędko wróciła! czy niezdrowa?
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Powróciła! idę, biegnę.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(w swoich drzwiach wyciąga ku niemu ręce)</stage>
+Sacre-bleu! kochany Majoroniu!
+<stage>(Usuwa się wgłąb)</stage>
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+O Pani moja droga!
+<stage>(Wchodzi za nią)</stage>
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(Podając rękę Adolfowi)</stage>
+Daruj, daruj, P. Adolfie! musi bydź Cesia niezdrowa, że tu nie przyszła.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(całuje jej rękę)</stage>
+Niech się Pani nie żenuje - ja Panią tymczasem żegnam.
+<stage>(Półkownikowa wychodzi)</stage>
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(sam - po chwili)</stage>
+O! Major ma racyą. Podobnom głupstwo zrobił, wielkie, kapitalne głupstwo.
+<stage>(Wychodzi)</stage>
+</p>
+</sp>
+</div>
+<div type="act" n="2">
+<head>Akt II.</head>
+<stage type="setting">
+<p>(Tamże.</p>
+</stage>
+<stage type="entrance">
+<p>
+Wchodzi
+<rs key="#major">MAJOR</rs>
+,
+<rs key="#adolf">ADOLF</rs>
+, za nimi
+<rs key="#jakob">JAKÓB.</rs>
+).
+</p>
+</stage>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(otrzepując chustką kurzawę z bótów)</stage>
+Więc ty Barnabaszu powiadasz, że Pań niema w domu?
+</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>A jużci niema, proszę P. Majora.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+No, nic nie szkodzi, zaczekamy trochę, i ja przysiądę, bom się do wszystkich djabłów
+<stage>(ogląda się na krzesło Półkownikowej)</stage>
+schodził, jak faktor. Zapewne niedługo zabawią?
+</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>Zdaje się, proszę P. Majora.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A dokądże pojechały?</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>Do jednej mojej znajomej, proszę P. Majora.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Do twojej znajomej? Sacre-bleu! co ty gapiu pleciesz?</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>A jużci tak. Ale to długo opowiadać, proszę P. Majora.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Opowiadaj, Barnabaszu!
+<stage>(Siada)</stage>
+No, cóż to za historya?
+</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>A to widzi P. Major, ta Pani Malińska, jak ją teraz zowią, kiedy jeszcze była Panienką i u nas tu mieszkała, proszę P. Majora, to bywało co tydzień co nowego.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Jak to co nowego?</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>A jużci tak, proszę P. Majora: albo sukienka nowa, albo salopa nowa, albo kapelusz nowy, albo chustka nowa - byle co nowego.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(na stronie)</stage>
+Tak, tak.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(z marsem)</stage>
+No to i cóż? i cóż?
+</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>A ot co, proszę P. Majora, że stare rzeczy - i gdzie tam stare - nie stareć to były, ale że już nie do humoru Panienki, to bywało każe przedawać.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Kłamiesz, durniu!</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>Ej ni, proszę P. Majora. Niech się P. Major spyta Józefowej.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Cóż to u djabła za Józefowa?</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>
+A jużci, proszę P. Majora, ta znajoma moja, którąm ja naraił Panience do sprzedawania rzeczy, i do której teraz Panie pojechały. Otoż bywało jak Józefowa sprzeda i przyniesie pieniądze, to P. Cecylia bywało trzyma pieniądze w ręku i Józefowę zacznie wypytywać. A jak się pokaże, że albo jej mąż chory, albo które dziecko chore, albo drzewa niema za co kupić, albo z kwatery wyganiają - a zawsze bywało u Józefowej jakaś bieda była w dormu - to Panienka bywało wszystkie pieniądze jej nazad odda i jeszcze pociechy kupa - i znowu wyszuka i da co sprzedać.
+<stage>(Major rozrzewniony, Adolf słucha z zajęciem)</stage>
+Otoż widzi P. Major, że ja nie kłamię.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Nie, nie, prawdę mówisz - na.
+<stage>(daje mu na piwo)</stage>
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(Do Jakóba)</stage>
+A teraz po cóż tam Panie pojechały?
+</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>Oto widzi Pan, jak to było. Jak tylko P. Malińska przyjechała, to ja zaraz pobiegłem do Józefowej dać jej znać, bo ona moja znajoma i kuma, proszę Pana. Ale cóż? jej, proszę P. Majora, i mąż umarł, i dziecko jedno umarło, i sama obłożnie zachorzała. Ja to i powiedziałem P. Malińskiej; otóż Panie pojechały teraz do niej same i powiozły jej różnych rzeczy.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>A gdzie mieszka ta Józefowa?</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>Na Lesznie, proszę Jegomości, tam het, jak to Jegomość wie...</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+Rozpowiesz mi potem, jak będę ztąd wychodził. A teraz idź sobie.
+<stage>(Daje mu pieniądze)</stage>
+</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>
+<stage>(odchodząc przygląda się monecie - na stronie)</stage>
+Dobre i to, i nie wiedzieć za co. Dalibógże, kto ich tam zrozumie tych Panisków? Raz człeka wyłają nie wiedzieć za co, drugi raz obdarzą nie wiedzieć za co.
+<stage>(Wychodzi)</stage>
+</p>
+</sp>
+<stage>(Major i Adolf chodzą jeden naprzeciwko drugiego. Major poświstuje, Adolf zamyślony)</stage>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(staje po chwili przed Majorem)</stage>
+Kochany Majorze!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A co?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Bywaj zdrów.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Cóż, nie chcesz trochę zaczekać?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O, nie to - bywaj zdrów na długo - wyjeżdżam.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Wyjeżdżasz? Sacre-bleu! dokądże to? po co? dla czego?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Położenie moje tu jest najgłupsze w świecie. Im więcej na nią patrzę, im więcej jej słucham i o niej słyszę, przekonywam się, żem był osieł kapitalny.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Masz...
+<stage>(Uderza się ręką po ustach)</stage>
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Chciałeś powiedzieć: masz racyą.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(całuje go)</stage>
+Sacre-bleu! nie gniewaj się, ale dalibóg chciałem.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Póki tu będę, będę za nią chodził, wszędzie ją ścigał, wszędzie na nią wytrzeszczał oczy i połykał uszami jej słowa. I cóż ztąd wyniknie? - zakocham się jak waryat, i w kimże? w cudzej żonie! - fe! to się nie zgadza z mojemi zasadami.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Bardzo to pięknie, ale nie widzę, żebyś miał potrzebę uciekać przed kobietą, która nie jest twoją dla tego, żeś nie chciał, i która taką jest teraz, jaką i pierwej była.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O! ba! ba! jak niebo do ziemi, kochany Majorze! Wszystkie jej wady znikły; a przymioty, za które pokochałem ją i dawniej, nim postrzegłem wady, jakimściś sposobem podwoiły się w moich oczach.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A wiesz czemu? -bo cudza żona, kochanku! bo owoc zakazany.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Mówiłem ci, Majorze, że to nie są moje zasady.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Eh! bratku! zasady zasadami, a moda modą, a zepsucie zepsuciem. Spójrzyj dziś na kompanią, gdy się już ugrupuje i uorganizuje. Biedne panienki same jedne, stoją po kątach w kupce, jak owieczki czekające wilka. A wilki gdzie? - hultaje, wszystkie co do jednego koło mężatek. Tam widzą wszystkie smaki i doskonałości, tam ostrzą zęby. A do opuszczonych panienek przybliża się chyba taki stary niedołęga, bez zębów, jak ja - i to z miłosierdzia. Fe! paskudny wasz teraźniejszy świat!</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ależ, kochany Majorze, jakże tych doskonałości nie widzieć, kiedy są? Spojrzyj dziś np. na toaletę Cecylii i porównaj ją z dawniejszą. Co za gust! jaka prostota! jaka niewymuszona elegancya! - Nie byłeś wczoraj wieczorem u Pani Karnickiej - i żałuj. Byłbyś w duszy tryumfował, że ta, którą ty uwielbiasz, była przedmiotem powszechnego uwielbienia. Rozmowa toczyła się jak z płatka, bo ona ją utrzymywała.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(uśmiechając się z radości)</stage>
+Hm! hm!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Notabene! ani jedno francuzkie słowo, ani jedno paryzkie rr nie wyszło z ust jej; a szczere Polskie dźwięki, czyste jak srebro, rozchodziły się po sali, trafiały do każdego ucha, do każdego przekonania, a mnie... mnie padały na serce.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(jak wyżej)</stage>
+Hm! hm! - a widzisz.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Mówiła o pisarzach naszych z rozumem i zdaniem trafnem, i widno, ze swojem własnem; opisywała stolicę Rossyi z prawdą, bez przesadzonych pochwał i niewczesnego uprzedzenia; mówiła o modach bez zapału, ale i bez udanej pogardy, z naturalnością kobiety wyższego tonu, i z pobłażaniem dla tych, które były mniej gustownie ubrane; prosili ją, żeby grała - grała pięknie i czysto; słowem - rozumem, dowcipem, grzecznością, ujęła wszystkich. Mężczyźni byli w zachwyceniu, nawet kobiety ją pokochały. A mnie...</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Cóż ciebie?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(rzucając się w krzesło)</stage>
+Mnie wszyscy djabli brali.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(śmiejąc się)</stage>
+Sacre-bleu! mój drogi Fabiuszu! tyś doprawdy zakochany.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+Jak jaki młodzik, drogi Majorze, jak żak -
+<stage>(powstaje)</stage>
+- i dla tego wyjeżdżam.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Dokądże pojedziesz?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Co mi tam! Gdziekolwiek - do Poznania, do Krakowa, do Kielc; byle nie bydź tu, póki ona tu będzie. Bo do czegożby mię to doprowadziło? W domu usiedzieć nie mogę. Jej obraz nie schodzi mi z oczu, jej głos nie wypada z uszu. Zaledwie postanowię przezwyciężyć się, patrz, chwytam za kapelusz, i biegnę tu, lub tam, gdzie wiem, że ona jest, żeby nacieszyć się skarbem, który mógł bydź moim, a który ja, osieł nad osłami, straciłem.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Do stu djabłów, mój Fabiuszu, cóś cię twoja kunktatorska flegma zupełnie odpadła.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>A dajże mi pokój Majorze z tem kunktatorstwem. Ty, Półkownikowa i wszyscy, którzy ją admirują, uwzięliście się wyrzucać mi głupstwo - nawet ten mazgaj Jakób! potrzebaż mu było teraz dopiero dać mi poznać tak piękny rys jej charakteru! - Nie! muszę jechać! Gdy ją stracę z oczu, może się cokolwiek uspokoję i zapomnę - przynajmniej tyle, że będę mógł spać i jeść.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A teraz spać i jeść nie możesz? Morbleu! szkodaby ciebie, gdybyś z głodu umarł. Ale żart na stronę, wchodzę w twoje położenie, P. Adolfie! Nic ci innego nie zostaje do zrobienia. Czy dziś wyjeżdżasz?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(zaambarasowany)</stage>
+To jest... zapewne... jeszcze nie wiem.
+<stage>(Siada przy stole)</stage>
+Przyznam ci się, kochany Majorze, że chciałbym ją jeszcze parę razy obaczyć, tem bardziej, że dałem słowo. Wczoraj kiedym jej podawał salopę i wsadzał do karety, ścisnęła mię za rękę i powiedziała: do widzenia się, jutro i po jutrze - przyrzekłem.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Na cóż było przyrzekać?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ba! gdybyś był widział wówczas wyraz jej twarzy, na którą światło latarni nagle padło, tak, że się ułożyć nie mogła; gdybyś był czytał w jej oczach, i poczuł to ściśnienie ręki! - Zapomniałem się, z zapałem całowałem jej dłonie - nie broniła.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Nie broniła? - Morbleu! powinieneś jechać.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+To też ja nie mówię, że nie pojadę, ale muszęż dotrzymać słowa -
+<stage>(znajduje na stoliku papier i przypatruje się)</stage>
+- tembardziej... tembardziej...
+<stage>(Zrywa się)</stage>
+Patrz-no, Majorze! co to jest? czy mię oczy mylą?
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A cóż? twój portret - jak żywy. Do djabła! głęboko zapadłeś w jej serce, kiedy tak umie narysować cię z pamięci. Jechać, Adolfie! jechać dziś jeszcze.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(z zachwyceniem przypatruje się)</stage>
+Z jaką sztuką! jak ten ołówek był posłuszny tej ślicznej rączce! jak każdy rys pewny i śmiały! Otoż i o tym talencie nie wiedziałem. Słuchaj, Majorze! i tak i owak tłumaczyłem sobie jej wejrzenie, to ściśnienie ręki - ten portret mię oświeca. O mój drogi Majorze! jeżeli się przekonam, że ona mnie kocha jeszcze - nie jadę.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A zasady?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Prawda - do djabła.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+A myślisz, że ja ci pozwolę bałamucić i kompromitować mężatkę, z którą nie chciałeś się żenić, gdy była panną? Ale fe! czy mi mogły przyjść podobne myśli o kobiecie takiej, jak Cecylia?
+<stage>(Uderza się w czoło)</stage>
+Aha! jestem w domu.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Cóż takiego?</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Co? oto to, że masz teraz wet za wet, kwita z byka za indyka, jakąś miarką mierzył, taką ci teraz, morbleu! odmierza. Wodziłeś ją wtenczas, kiedy ci sprzyjała, teraz ona cię za nos wodzi; i bądź pewny, że cię wyprowadzi w pole.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O! ba! ba! jeszcze czego!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>O, tak, tak. Żartuje sobie z ciebie, bądź pewny; i im więcej będziesz oczy zawracał i wzdychał, tem dalej cię zaprowadzi, a na końcu pokaże ci figę. I dobrze ci tak. Do stu djabłów! nie mam jej za złe takiej zemsty. Gdybym ja był na jej miejscu, sacre-bleu! to samobym zrobił.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Pozwól sobie powiedzieć, kochany Majorze, że ja się znam na tem cokolwiek, i umiem rozróżnić prostą kokieteryą od prawdziwego uczucia.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Fanfarony! fanfarony!</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Nie jestem ja fanfaronem, nie przypisuję sobie bynajmniej szczególnych jakicbściś talizmanów i nie mam pretensji do lwiej grzywy; ale że Cecylia poszła zamąż bez miłości, na tobym dał sobie rękę uciąć. Ale cicho! przestańmy - przyjechały.</p>
+</sp>
+<stage>(Wchodzi Półkownikowa i Cecylia)</stage>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Otoż to, co się nazywa grzecznie.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Może to nadto poufale? Pani Dobrodziko!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Na cóż tak mówić? P. Adolfie! Bardzo dobrze Panowie wiecie, jakbyśmy żałowały obie, gdybyście byli nie poczekali.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(do Półkownikowej)</stage>
+Pani... może.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+A ja nie? Odwdzięczęż się Panu za to, i powiem, żeśmy to pewnie winne Majorowi, a nie Panu.
+<stage>(Podaje Majorowi rekę)</stage>
+Nie prawdaż? Majorze!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Jeśli mam prawdę powiedzieć, ja to pierwszy zaproponowałem; ale mój towarzysz nie sprzeczał się bynajmniej i został chętnie.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(do Adolfa)</stage>
+Czy tak?
+<stage>(z umizgiem)</stage>
+dziękuję.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(na stronie)</stage>
+Sacre-bleu! jak ona miło na niego pogląda!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(na stronie)</stage>
+Co to za wyraz w tych oczach! - o ja osieł!
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Niechże Panowie siadają.</p>
+</sp>
+<stage>(Półkownikowa siada w swojem krześle, przy niej Major, Cecylia cokolwiek dalej, przy niej Adolf)</stage>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Gdzieżeście Panie były?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Proszę zgadnąć. Panu to nietrudno, P. Adolfie, któryś tak z gruntu wystudował skłonności i wady płci naszej. Trzy są tylko miejsca, nie prawdaż? do których kobiety naszego stanu zwykle jeżdżą. Pierwsze - jak Pan myślisz, jakie pierwsze?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ja sądzę, że do kościoła.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Jest to jedno z trzech, ale nie pierwsze, według Pańskiego mniemania o nas, a szczególniej o mnie. Nie jesteś Pan szczerym. A drugie? Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Drugie - naturalnie z wizytą.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Pan Adolf byłby jeszcze nie to powiedział. A trzecie? P. Adolfie!</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(z uśmiechem)</stage>
+Za ampletami, ponieważ Pani sobie tego życzysz.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Gdybyś Pan chciał być otwartym, byłbyś od tego zaczął. Teraz proszęż zgadnąć, w którem z tych trzech miejsc byłyśmy?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>W żadnem.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>W żadnem?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Bo jest jeszcze jedno miejsce, dokąd czasem ukradkiem jeżdżą kobiety szlachetne i czułe.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Dobrze, żeś Pan dodał, że szlachetne. Gdyby tylko były czułe, sądziłabym, że na jakie rendez-vous.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>W rzeczy samej, na rendez-vous z nieszczęściem, dla przyniesienia mu ulgi.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A! jak to ładnie!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Musiał Jakób zdradzić nasz sekret.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Dla czegoż-bo sekret z tak pięknym uczynkiem?</p>
+</sp>
+<stage>(Major przysuwa się do Półkownikowej i mówi jej cicho)</stage>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(ciszej do Cecylii)</stage>
+Jakób więcej mi jeszcze powiedział. O! poznam się z tą Józefową, i będziemy z nią rozmawiali o Pani.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(ciszej do Adolfa)</stage>
+O! wierz mi Pan, niewiele się Pan od niej dowiesz.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Dowiem się jeszcze więcej o tem, o czem, na nieszczęście, dowiedziałem się zapóźno.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Na nieszczęście? czyjeż?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O! rozumie się, że moje.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Czy tak? - Nie pojmuję jednak, na co się Panu ta znajomość przyda. Chyba tylko w moralnym względzie przyniesie ci jakąś korzyść; bo sądzę, że zechcesz pomagać tej biednej kobiecie.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Będzież to Pani przyjemnie wiedzieć, że ta, którą się Pani tak długo opiekowałaś, znajdzie teraz opiekuna we mnie?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(po chwili - głośniej)</stage>
+Czy będziesz Pan dziś w teatrze? P. Adolfie!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(zdziwiony)</stage>
+Dla czegoż to pytanie? Czy Pani myślisz, że my tu gramy komedyą?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Podobno.
+<stage>(Powstaje i odchodzi na bok)</stage>
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ha!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(do Majora)</stage>
+Tak ci się wydało, Majorze!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Ale nie, do wszystkich... to jest Sacre - tfy!</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(która się ku niemu zbliżyła, opiera się na jego ramieniu)</stage>
+Czy ja ci, Majorze, trochę krwi nadpsułam? Prawda, że ja? - Cóż?
+<stage>(szepce mu do ucha)</stage>
+powiedz, Sacre-bleu! Asani cóś na kokietkę zakrawasz. Nie bój się, drogi Majorze! to żarty.
+<stage>(Major powstaje i idzie ku Adolfowi, Cecylia prędko do Półkownikowej)</stage>
+Droga ciociu! wyprowadź zręcznie Majora do swego pokoju.
+<stage>(Odchodzi do lustra i poprawia sobie czepeczek)</stage>
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(na stronie)</stage>
+Proszęż się tu na nią gniewać, lub jej verba veritatis palnąć, jak już miałem zamiar.
+<stage>(do Adolfa)</stage>
+Wyprowadzi cię w pole.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+Ale, ale, kochany Majorze! co ja pocznę z tym moim Paszkowskim? On mię zrujnuje doprawdy. Obacz proszę, co mi o nim piszą, i jakie mi przysłał rachunki.
+<stage>(Wstaje i idzie ku swoim drzwiom)</stage>
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(idąc za nią)</stage>
+Musiał się rozpić. A dobry był człowiek. Szkoda do djab...
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+Chodź-no, Majorze! rozpatrz to i poradź.
+<stage>(Wychodzi)</stage>
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Idę... służę Pani.
+<stage>(Wychodzi oglądając się. Adolf bierze kapelusz. Cecylia siada na kanapie i bierze xiążkę)</stage>
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(po chwili)</stage>
+Pani chce czytać?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Pan ma zamiar wyjść?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O! moje zamiary są teraz tak wątłe!</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Czy tylko teraz?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Szczególniej teraz; bo są chwile w naszem życiu, w których wola nasza przestaje ulegać rozumowi, a staje się posłuszną delikatnemu tchnieniu ust nam miłych, promiennemu wejrzeniu oka, w którem lubimy czytać jego rozkazy.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(kiwając główką)</stage>
+O! nie sądzę jednak, aby z pod wąsów Majora wychodziło to delikatne tchnienie, i z pod jego brwi wymykał się ten promień... jak go tam Pan nazwałeś.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O, ja Majora kocham, ale tej władzy nade mną nie ma.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Musisz więc Pan bydź pod czarami jakichściś pięknych ust, jakiego czarnego, błyszczącego oka.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Zgadłaś Pani.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Winszujęż Panu, serdecznie winszuję.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Pani mi winszujesz?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A dla czegoż nie? Nie jestże to dowód, że Pan kochasz? a miłość nie jestże słodkim przymusem? lekką, kwiecistą niewolą? Tyleż razy czytałam to w romansach. Musi to zatem bydź prawda. Wszak romanse piszą mężczyźni.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Każdy stan duszy, który skłania wolę naszę nie tam, gdzie ją prowadzi rozum i przekonanie, jest stanem pijaństwa lub gorączki. A pijanemu nie wiem czy dobrze i miło.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Jak się wytrzeźwi - prawda.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ja naprzykład...</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(prędko)</stage>
+O! ja myślę, że Pan nie wychodzisz nigdy ze stanu najrozumniejszej trzeźwości.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Myli się Pani. Rozum nakazywał mi dawno wyjść ztąd; rozum i przekonanie nakazywały mi na pewny czas wyjechać z Warszawy - a przecież jestem tu i - nie jadę.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>I to Pan nazywasz stanem chorobnym?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O! wierz mi Pani! nigdy nie byłem bardziej chorym - a co gorsza, chorym bez nadziei wyleczenia.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Toż mi Pana żal, doprawdy. Ale proszę m podać te papiery, co lam leżą na stole.
+<stage>(Adolf podaje; ona kładzie je na kolanach, i przerzucając, mówi)</stage>
+Ale wie Pan, P. Adolfie, na tę chorobę podam Panu lekarstwo nadzwyczajnie skuteczne.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Jakież to?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(nie znalazłszy, wstaje, i idąc ku stołowi)</stage>
+Niech się Pan ożeni.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O, nigdy, nigdy!</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(szukając na stole)</stage>
+Czy Pan masz taki nieprzezwyciężony wstręt do małżeństwa?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(przybliżając się)</stage>
+Nie, Pani! wstrętu nie mam i nigdy go nie miałem, ale w postanowieniach moich jestem nieszczęśliwym - opaźniam się. Skarb, który mieć mogłem...
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(poglądając nań)</stage>
+Doprawdy?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Tak sobie przynajmniej pochlebiam - straciłem na zawsze.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Przez opoźnienie?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>I przez głupstwo.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A!..</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Nowy mój wybór musiałbym powierzyć samemu rozumowi; a tego nie zrobię. Raz pozwoliłem mu wziąść górę nad instynktem serca, i najgorzej mi usłużył. Odtąd mu nie wierzę.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Niedawnoś Pan utrzymywał, że postępowanie przeciwne natchnieniom rozumu jest stanem choroby.
+<stage>(Uśmiechając się)</stage>
+Cóś Pan plączesz się, P. Adolfie!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(bierze jej rękę)</stage>
+O! czuję to aż nadto - ale któż temu winien?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Czy ja?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(przyciskając jej rękę do piersi)</stage>
+Ach! Pani kochana! dla czegoś się Pani tak pośpieszyła?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(usuwając rękę)</stage>
+Czyż nie byłam starą Panną?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O! głupcy tylko rachują lata takiej jak Pani kobiety.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Dziękuję Panu imieniem wszystkich starych Panien - ale dziwna rzecz, gdzie mi się to podziać mogło?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(dobywając portret)</stage>
+Czy Pani tego szukasz?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Zkądże ta bazgranina u Pana?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Znalazłem na stole, poznałem i wziąłem.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A jakiem prawem?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+Więc moje rysy tak są Pani pamiętne, żeś je przelała na papier z taką dokładnością, z taką prawdą! Dzięki ci, dzięki, piękna Cecylio! Choćbyś się gniewać miała, tego skarbu ci nie oddam. Nie dla ulgi zatrzymam przy sobie ten zakład drogi. Ile razy spojrzę na ten portret, tem żywiej stanie mi w myśli wszystko, com stracił, i niedola moja będzie tem kompletniejszą. Na to ja zasługuję i tego chcę.
+<stage>(Cecylia podaje mu rękę, on ją przyciska do piersi)</stage>
+Cecylio! tyś mię kochała!
+<stage>(Ona się odwraca i zakrywa oczy chustką)</stage>
+ach! ty mię jeszcze kochasz!
+<stage>(Klęka)</stage>
+Cecylio! powiedz, mogęż mieć nadzieję?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(usuwając rękę - z powagą)</stage>
+Że Adolfowa Malińska o Panu zapomni? - najzupełniejszą.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(odskakuje na bok)</stage>
+Ha! -
+<stage>(po chwili, biorąc kapelusz)</stage>
+- zapomniałem się - daruj mi Pani. Żegnam Panią, może na zawsze. O! pozwól mi Pani przynajmniej wynieść ztąd to słodkie przekonanie, że wspomnienie tej chwili nie będzie Pani przykrem.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(siadając na dawnem miejscu)</stage>
+Zostań Pan jeszcze. Major zaraz wróci; coż mu powiem, gdy Pana nie zastanie. Usiądź Pan tam, i mówmy spokojnie. Co dzisiaj grają?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(z gorzkim uśmiechem)</stage>
+Hm! czy Pani znowu myślisz, że to komedya?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Nie, nie, P. Adolfie! chcę wiedzieć doprawdy.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Czyż mię teraz obchodzi afisz? Nie patrząc nań, idę do teatru, jeżeli wiem, że Pani tam będziesz.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A dziś Pan przyjdziesz?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Za parę godzin wyjeżdżam z Warszawy.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Dla czegoż to?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(staje przed nią)</stage>
+I Pani możesz mię o to pytać?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(patrząc mu miło w oczy)</stage>
+Pośpiech, P. Adolfie, może bydź równie powodem żalu, jak i opóźnienie.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(bierze jej obie ręce)</stage>
+Nie przyprowadzaj mię Pani do rospaczy.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Mojej loży Numer 7.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(całując jej ręce)</stage>
+Przyjdę więc, przyjdę, choćbym miał jutro umrzeć.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(staje we drzwiach i chrząka mocno - do siebie)</stage>
+Sacre-bleu! to widzę nie żarty! fe! do djabła!
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(do Majora)</stage>
+Ależ Państwo zagadaliście się tak, że Pan Adolf już czwarty raz ze mną się żegna.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Widzę, widzę, do stu...
+<stage>(miarkuje się i chrząka)</stage>
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Chodźmy, Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+A idź sobie Waszmość, jeśli ci pilno; ja jeszcze tu mam potrzebę zostać.
+<stage>(Adolf kłania się)</stage>
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Niechże Pan nie zapomni, o com prosiła. Ona mieszka na Lesznie.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+Rozkazy Pani będą święcie wykonane.
+<stage>(Wychodzi)</stage>
+</p>
+</sp>
+<stage>(Cecylia siedzi na dawnem miejscu i poglądu na Majora filuternie, który się przechadza, namyślając się i pochrząkując)</stage>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(do siebie)</stage>
+Sacre-bleu! sam nie wiem, z jakiej tu beczki z nią zacząć.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Jaki P. Major grzeczny, że z nami jeszcze został.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Grzeczny niegrzeczny, Pani Dobr., a zostałem... tak - bo widzi Pani, zawsze i wiecznie grzecznym jest tylko mazgaj, który nic nie widzi, i tchórz, Pani Dobr., który nie śmie nikomu prawdy powiedzieć.
+<stage>(Na stronie)</stage>
+Morbleu! jakoś zawiązuje się.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Więc i Pan Major umie bydź niegrzecznym? oho!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Umiem do wszystkich dja... to jest, tak jest, Pani Dobr, umiem czasem, a szczególniej kiedy kogo z duszy kocham, i kiedy widzę...
+<stage>(na stronie)</stage>
+o tu sęk, jak to powiedzieć, żeby nie przesolić?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Z tego zaczęcia sądzę, że to ja czemściś niepodobałam się, bom pewna, że to mnie P. Major tak z duszy kocha.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Kogoż u djabła więcej kochałem i kocham, jak Panią? i dla tego zdaje mi się, że jeżeli tak co postrzegam, coby bydź nie powinno, to mogę powiedzieć, choćbym się wydał cokolwiek niegrzecznym. W cudze sprawy, Pani Dobr, ja się wtrącać nie lubię; ale co się Pani tycze, tego nie uważam za cudze: bo Pani wie, żebym wolał, żeby mi druga kula koło nogi przeleciała, niż żeby coś mogło zmniejszyć szacunek...
+<stage>(na stronie)</stage>
+fe do djabła! czy nie zawiele powiedziałem?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Ach! mój BOŻE! musiałam bardzo pobłądzić, kiedy P. Major bierzesz to tak serio. Prędzej, prędzej czarno na białem, drogi Majorze! - nie obwijaj nic w bawełnę;
+<stage>(wstaje, wiesza się na jego ręku, drugą rękę kładzie na jego piersiach)</stage>
+; po prostu, jak twoje zacne serce czuje, powiedz wszystko. Ja przyjmę wszystko jak od ojca.
+<stage>(Głaszcząc go pod brodę)</stage>
+No, luby Majoruniu! chrząknij mocno, i potem, sacre-bleu! tnij verba veritatis twojej faworytce.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(na stronie)</stage>
+Porwała mi i poplątała wszystkie nitki.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>No, cóż chciałeś powiedzieć?</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(odchrząknąwszy)</stage>
+Otoż widzi Pani, co chciałem powiedzieć - chciałem powiedzieć to, że kobieta, zwłaszcza mężatka, powinna bydź bardzo ostrożna w swoich uprzejmościach dla mężczyzn. Bo teraz, Pani Dobr, wiek zepsuty; terazniejsi mężczyźni, Pani Dobr, są jak te źwierzęta, którym pozwól grzędy, to one zechcą wszędy. Każda grzeczność Panny lub wdowy jest P. Dobr. pożyczką, którą trzeba oddać i zapłacić pierścieniem, i dla tego to mężczyźni ich unikają; a fawory mężatki, Pani Dobr., są czystą darowizną, która do niczego nie obowiązuje; i dla tego to, Pani Dobr., młodzież zepsuta tak za niemi goni. A to, sacre-bleu! kompromituje, zwłaszcza kiedy mąż o sto mil, Pani Dobrodziko!
+<stage>(Na stronie)</stage>
+Zdaje się, że wyraźnie i nic nadto.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A jeżeli dalej? P. Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Tem gorzej, tem gorzej, P. Dobr.! Kiedy mąż blizko, to sam zagląda na prawo i na lewo, żeby jaki przyjaciel nie zaszedł z boku; ale kiedy puszcza żonę samą jedną w dalekie strony, znać, że jej ufa; a ufność, Pani Dobr., jest rzecz święta, której obrażać nie godzi się.
+<stage>(Cecylia spuszcza oczy i zasmuca się. Major mówi łagodniej)</stage>
+Tem bardziej, widzi Pani, że zdaleka pozór równie kompromituje kobietę, jak i sam występek; bo teraźniejsi mężczyźni fanfarony, chwalą się tem, czego nie było.
+<stage>(Cecylia siada i zakrywa sobie oczy chustką)</stage>
+Ale co to Pani?
+<stage>(Na stronie)</stage>
+Ej! do djabła! czy nie przesadziłem?
+<stage>(Głośno i coraz łagodniej)</stage>
+Pani Dobro.! niech bo Pani na mnie spojrzy. Pani wie, że ja to mówię z przywiązania, z ostrożności. Ja wiem, że Pani masz rozum; ale, widzi Pani, im dalej w las, tem więcej drew; a języki ludzkie są jak kamienie młyńskie; najczystsze ziarno niech na nie upadnie, to je zetrą na miazgę. Ale proszęż tak nie brać słów moich do serca.
+<stage>(Na stronie)</stage>
+Ej! to mi djabli nadali!
+<stage>(Głośno)</stage>
+No, Pani kochana, mogłem się pomylić.
+<stage>(Cecylia płacze)</stage>
+Fe! droga Pani! cóż bo?
+<stage>(Klęka)</stage>
+Proszęż mi dać rączkę, na miłość Boską!
+<stage>(Cecylia daje mu rękę, śmiejąc się)</stage>
+Sacre-bleu! Pani się śmiejesz?
+<stage>(Chce powstać)</stage>
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(kładzie rękę na jego ramieniu i przytrzymuje)</stage>
+Proszę nie wstawać. Patrz, kochany Majorze, gdyby też nas tak kto zastał, coby pomyślał?
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A cóż? pomyślałby, żem ja na starość ogłupiał, do wszystkich djabłów!</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Otoż uważaj, drogi Majorze, jak pozory mylą. Teraz proszę wstać.
+<stage>(Major wstaje)</stage>
+Tak. Teraz proszę usiąść koło mnie tu.
+<stage>(Major siada)</stage>
+Tak.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Ależ Pani robisz ze mnie i kozła i barana.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Tak bydź powinno, drogi Majorze! to jest w porządku naturalnym.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Śliczny mi porządek! niema co mówić.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Nie przemienicie go Panowie, dopóki będziemy miały cokolwiek oleju w głowie. Ale dajmy temu pokój i pomówmy bez ogólników. Więc znajdujesz to nagannem, drogi Majorze, żem się teraz więcej może niż kiedykolwiek podobała P. Adolfowi?</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Widzi Pani, jeśli mam prawdę powiedzieć, byłbym z tego kontent, bo on na tę karę zasłużył; ale chciałbym, żeby się to stało bez przyczynienia się Pani, żeby ze strony Pani nie było... tak... widzi Pani.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Kokieteryi? co?</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Już to dobrzeby, żeby i tego nie było; chociaż tak trochę rozumnej kokieteryi nie zawadzi. Ale ja, morbleu! nie tego się boję.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A czegoż? P. Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Żeby i on Pani teraz nie więcej się podobał, niż kiedykolwiek.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A cóż w tem złego? kochany Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Jak to, sacre-bleu! co złego? - a mąż?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Mój mąż daleko - na xiężycu.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Cóż u djabł... czy Petersburg na xiężycu?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Petersburg bliżej nas, niż nam się zdaje; ale mój mąż, Majorze, jeszcze dalej - w chmurach, bez ciała i...</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Cóż to za mazgaj ten Pani mąż? czy nie jaki poeta?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>O, nie, drogi Majorze! To mąż urojony, nieexystujący - niema go.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Co? co? więc Pani jesteś dotąd panną?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Sacre-bleu! Majoruniu! panną - i starą.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>I to całe zamążpójście, ten P. Maliński, ta Białoruś, to wszystko mistyfikacya?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Mistyfikacya, kochany Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(powstawszy)</stage>
+Ha! tożeś nas Pani pięknie w pole wyprowadziła!
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(filuternie)</stage>
+Alboż to trudno? luby Majoruniu!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+O! wiem, wiem, że nietrudno. Do skończenia świata my naszych oślich uszu nie pozbędziemy.
+<stage>(Przechadza się)</stage>
+Hm! hm!
+<stage>(Po chwili staje przed nią)</stage>
+Powiedz mi Pani szczerze, czy Adolf Pani podoba się?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(powstaje i robi skromną minkę)</stage>
+Kocham.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>I Pani pragniesz go mieć?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(jak wyżej)</stage>
+Za małżonka.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Sacre-bleu! to go Pani będziesz miała. Wszak można mu już powiedzieć, że Pani nie masz męża - więcej nie zabrnie - co?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Ja myślę, że nie.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>O! co to za minka! Oj! kobiety! Sacre-bleu! dobrze, żem już kapitulował. Ale jak mu to powiedzieć? hm!</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>O! zmiłuj się, Majorze, tak, żeby sobie nie pomyślał, żem tu dla niego przyjechała.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>W tem to i sęk - ale nie bój się Pani. Jedna mię tylko rzecz ambarasuje. Jaki powód naznaczyć, żeś Pani udawała mężatkę?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Bardzo prosty, drogi Majorze! - jechałam sama w tak daleką podróż, co dla panny jakoś nieprzyzwoicie; dla tego dano mi paszport pod nazwiskiem Pani Malińskiej. A podjeżdżając pod Warszawę, przyznaję się, przyszła mi myśl trochę Panów pomistyfikować.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Żeby jednemu do reszty rozum odebrać - he? - a mnie starego osła zmusić, żem Pani prawił morały ni w pięć ni w dziewięć.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(klaszcząc w ręce)</stage>
+A były w miejscu? prawda?
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Głupie! głupiuteńkie!</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>
+<stage>(wchodzi z listem)</stage>
+Od Pana Adolfa do Pana Majora.
+<stage>(Wychodzi)</stage>
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(czyta)</stage>
+„Za kilka godzin wyjeżdżam z Warszawy. Chciałbym się z tobą widzieć, kochany Majorze! Stan mój okropny, do niezniesienia.
+<stage>(Major pogląda na Cecylią, która się uśmiecha)</stage>
+Pojadę szukać ulgi, gdzie mię oczy poniosą. Przychodź zaraz. - Adolf.” O! ba! jeszcze czego!
+<stage>(Bierze kapelusz)</stage>
+Żegnam Panią. Jeszcze dziś obaczymy się. Nadroczęż się z nim należycie! - Aha! chciało się lekkiego chleba u mężatki! - Nie, kochanku! żeń się, żeń się, albo się strzelaj ze mną.
+<stage>(Do Półkownikowej, która się pokazuje we drzwiach)</stage>
+Całuję nózi Pani Dobrodziki.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Zjedz z nami obiad, Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(odchodząc)</stage>
+A! nie mam czasu, Pani Dobrodziko!
+<stage>(Do siebie mówiąc)</stage>
+Sacre-morbleu!
+<stage>(Wychodzi)</stage>
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Chodźże, Cesiu!</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Idę, Ciociu! ale ja jeść nie chcę.
+<stage>(Wychodzą)</stage>
+</p>
+</sp>
+</div>
+<div type="act" n="3">
+<head>Akt III.</head>
+<div type="scene" n="1">
+<head>Scena pierwsza.</head>
+<stage type="setting">
+<p>
+(Pokój Adolfa.
+<rs key="#adolf">Adolf</rs>
+składa papiery.
+<rs key="#ignacy">Ignacy</rs>
+znosi zwolna tłómoki)
+</p>
+</stage>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ależ prędzej! nie guzdraj się.</p>
+</sp>
+<sp who="#ignacy">
+<speaker>IGNACY.</speaker>
+<p>
+<stage>(idąc powoli)</stage>
+Ehe! czy to mnie długo? - ja to wszystko piorunem.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Choć nie piorunem, żeby przynajmniej za kilka godzin było wszystko gotowe do drogi.</p>
+</sp>
+<sp who="#ignacy">
+<speaker>IGNACY.</speaker>
+<p>W oka mgnieniu. A dokąd pojedziemy?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Tobie nic do tego - daleko. A opatrzyłeś podróżną kolaskę?</p>
+</sp>
+<sp who="#ignacy">
+<speaker>IGNACY.</speaker>
+<p>A jakże. Oś pękła.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Otoż go macie.</p>
+</sp>
+<sp who="#ignacy">
+<speaker>IGNACY.</speaker>
+<p>To nic - skoczę do majstra.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Przynajmniej idź, bez skakania obejdzie się.</p>
+</sp>
+<sp who="#ignacy">
+<speaker>IGNACY.</speaker>
+<p>
+<stage>(wychodząc)</stage>
+Gdzie tam obejdzie się? Trzeba się zwijać, jak mucha w ukropie.
+<stage>(We drzwiach do Majora)</stage>
+Jest, jest - a ja lecę do kowala.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(wszedłszy)</stage>
+Stój, zmiłuj się; daj mi pierwej fajkę, nim polecisz.
+</p>
+</sp>
+<sp who="#ignacy">
+<speaker>IGNACY.</speaker>
+<p>
+Piorunem!
+<stage>(Wychodzi)</stage>
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Jak się masz? Adolfie!</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Źle.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Serio się zbierasz? Ja myślałem, że jeszcze trochę podeliberujesz.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+Dajże mi pokój, kochany Majorze, z tą deliberacyą.
+<stage>(Rzuca się w krzesło)</stage>
+Stan mój godny litości. Nigdy nie przewidywałem, że mogę zabrnąć tak głęboko, że będę w stanie pokochać tak silnie, że będę żałował tak gorzko, że będę... że będę tak kompletnie nieszczęśliwym.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(uśmiechając się)</stage>
+Hm! hm! Toż mi ciebie żal, kochany Adolfie!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Żal ci, a śmiejesz się.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Ja się, sacre-bleu! nie śmieję - ale chciałem ci powiedzieć...</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Tylko żadnych uwag i reflexyj, mój Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Ale do wszystkich djabłów, ja ci uwag robić nie chciałem.
+<stage>(Na stronie)</stage>
+Ani przeczuwa, co mu powiem.
+<stage>(Do Ignacego, który wlecze się z fajką)</stage>
+No, dawajże. Tożeś się zwinął!
+</p>
+</sp>
+<sp who="#ignacy">
+<speaker>IGNACY.</speaker>
+<p>Oho! bo to u mnie wszystko gotuje się w ręku.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Niema co mówić. A teraz ruszaj sobie.</p>
+</sp>
+<sp who="#ignacy">
+<speaker>IGNACY.</speaker>
+<p>
+Biegnę, biegnę.
+<stage>(Wychodzi)</stage>
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(siada)</stage>
+Więc dziś koniecznie chcesz jechać?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(z westchnieniem)</stage>
+Dziś.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Czy już się z nią pożegnałeś?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Nie. Miałem jeszcze widzieć się z nią dziś w teatrze - ale namyśliłem się - nie, nie mogę. Gdybym jeszcze raz zajrzał jej w oczy.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Oj! te oczy! morbleu! co to za oczy! hm!</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ile tam rozumu, ile czucia, ile dowcipu! -- jak umieją, gdy zechcą, przeniknąć do samego dna duszy! - jak inną razą prześlizną się tylko po piersiach, jak kawałek lodu.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Filutka! mnie starego niemi elektryzuje.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Albo, gdybym jeszcze raz dotknął jej ręki...</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Tej białej, pulchnej rączki! - Do stu djabłów! jak mię dziś pogłaskała po twarzy, myślalem, że ze skóry wyskoczę.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>A ten jej uśmiech!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A te minki filuterne!</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>A ten głos, co tak moduluje każde słowo!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>I nigdy nie piśnie fałszywie.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>A te wszystkie - co? he? - takie wdzięczne, tak w miejscu, tak rozumne!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A czasem takie zjadliwe!</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(powstaje)</stage>
+O, nie, nie! - Całe moje postanowienie rozbiłoby się o te skały. Zostałbym - i na cóż? - żeby się dręczyć ciągłem żądaniem, którego zaspokoić nie można; żeby pochwały, ubiegania się za nią wszystkich podżegały we mnie i miłość i zazdrość; żeby i ona sama poddmuchiwała we mnie ogień, który mnie i tak pożera - i ją trawi.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Więc pewny jesteś, że i ona ciebie kocha?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O! prawiem pewny - i to mnie nieszczęśliwszym jeszcze czyni.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Hm! teraz rozumiem. Ona to szepnęła cioci, żeby mnie wyprowadziła, i żebyście zostali sam na sam.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O! słodka chwila!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Musieliście tam wpaść na jakiś czuły artykuł, bo jakeś wyszedł; była cały czas smutna.
+<stage>(Na stronie)</stage>
+Ona była smutna!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(zakrywając oczy)</stage>
+Ach! BOŻE mój!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Nawet powiem ci, że w czasie rozmowy ze mną płakała.
+<stage>(Na stronie)</stage>
+Śliczny to był płacz, sacre-bleu!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(chodzi prędko, załamując ręce)</stage>
+O ja nieszczęśliwy!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Szkoda, żeś się nie ożenił. Miałbyś był żonę...</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Majorze! nie przyprowadzaj mię do niecierpliwości, bo na honor, bez czapki ucieknę z Warszawy.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>I terazbyś się z nią ożenił bez namysłu?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Czybym się ożenił? Och!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Widzisz, jaką mi dałeś o sobie opinią.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Jakąż?</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Oto, gdyby jakim cudem Cecylia została wolną, nie dałbym za to i trzech groszy, żebyś znowu zaczął rozbierać, kunktować...</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Jakiż nieznośny jesteś, Majorze! Powiadam ci, że jeślibym się namyślał godzinę, półgodziny, minutę, pozwoliłbym ci, żebyś w ogrodzie Saskim ogłosił mię publicznie osłem i głupcem.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Szkoda, że teraz cudów niema.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(siada zdesperowany)</stage>
+Ha! naturalnie, że niema.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Jednakże nie desperuj, Adolfie! Stało się. - Cóż? - pojedziesz, zapomnisz, znajdziesz inną.
+<stage>(Adolf zrywa się z krzesła i rzuca się w drugie)</stage>
+Nie masz co się zżymać - to porządek naturalny. Boleść serdeczna jest jak kula armatnia - kiedy świśnie niedaleko, sacre-bleu! sądzisz, że już po tobie; a tymczasem to tylko kontuzya. Zaboli tęgo, potem mniej; pokulejesz i na końcu zapomnisz.
+<stage>(Siada)</stage>
+Pomówmy o czem innem.
+<stage>(Adolf wstaje i przechadza się)</stage>
+Czy słyszałeś o jednem dość zabawnem zdarzeniu?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>A, co mię tam teraz wszystkie zdarzenia obchodzą?</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(jakby nie uważał)</stage>
+Wyobraź sobie, że jakaś panna z dalekich stron musiała sama jedna przyjechać do Warszawy. Dla większej więc powagi i przyzwoitości w drodze, dano jej paszport jako mężatce. A ona filutka, przyjechawszy tu i zmówiwszy się z babką czy kim tam, dobrze nie wiem, wyprowadziła w pole, jak nie można lepiej, swoich przyjaciół i znajomych.
+<stage>(Adolf staje przed nim)</stage>
+Cóż mi tak dziwnie patrzysz w oczy? czy nie wierzysz, że się to stać mogło?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(drżąc)</stage>
+Majorze! imie tej panny?
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Nu, cóż? Cecylia.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Jezus! Marya! i ona wolna?</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Tamta wolna.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(rzuca mu się na szyję i ściska)</stage>
+To ona! to ona! mów prawdę, Majorze!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(wydzierając się)</stage>
+Ona, ona. Ale, sacre-bleu! nie duśże mię tak.
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(po chwili)</stage>
+O! co za szczęście! więc moje męczarnie skończą się - ona moja!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Ha! co tego, to nie wiem - może cię nie zechce?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O! ona mnie kocha. Po cóżby tu przyjechała?</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Jak to po co przyjechała? musiała mieć powód bardzo ważny - a ty myślałeś... wstydź się! nie wiedziałem, żeś tak zarozumiały.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(po chwili, na stronie)</stage>
+Jeszcze mię chcesz męczyć? - poczekaj - zemszczę się.
+<stage>(Głośno)</stage>
+Czy co mówiłeś, Majorze?
+</p>
+</sp>
+<stage>(Siada i zamyśla się)</stage>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(cokolwiek niespokojny - po chwili)</stage>
+Jak to czy co mówiłem? - o czemżeś się tak zamyślił?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(powstaje i mówi z flegmą)</stage>
+Prawdziwie mam o czem pomyśleć. A naprzód muszę ci podziękować, kochany Majorze! - obudziłeś mię jak ze snu. Wstydzę się prawdziwie tej zarozumiałości, z jaką się wyrwałem. W rzeczy samej, mogła mieć Panna Cecylia inne powody, dla których tu przyjechała. Muszą one bydź bez wątpienia ważniejsze, niż chęć przypomnienia się dawnemu adoratorowi, kiedy aż udawała się za mężatkę, i prawdę mówiąc, trochę się zakompromitowała.
+<stage>(W ciągu tych słów Major zdziwiony cofa się ciągle, a Adolf, mówiąc, ku niemu idzie)</stage>
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(zatrzymuje się nagle)</stage>
+Co? co?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(cofając się)</stage>
+I jeżeli tak jest? - ha! cóż robić? żalby mi było prawdziwie, ale...
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(następuje)</stage>
+Ale co?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(cofając się)</stage>
+Nie mówię, żeby to mię nie kosztowało; ale rozsądek każe zastanowić się.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Sacre-morbleu! znowu rozsądek?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ależ bo uważ sam, Majorze!...</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+E, co ja tam mam, do tysiąc djabłów, uważać? Ja to uważam, żeście wy wszyscy na jedno kopyto. Tylko co gorzał, jak kuźnia, póki myślał, że to cudza żona; jak się dowiedział, że panna - fu! wszystkie płomienia zgasły, jak stoczek dominikański. To to wasze zasady, wasza moralność! Zamiast lecieć po szczęście, które P. BÓG daje bez zasługi; zamiast upaść do nóg kobiecie, która kocha niewiedzieć za co, to on
+<stage>(przedrzeźniając)</stage>
+ba! cóż robić? żalby mi było, rozsądek każe się zastanowić.
+<stage>(Chwyta za kapelusz)</stage>
+E, Sacre-morbleu! bywaj mi Wasan zdrów.
+</p>
+</sp>
+<stage>(Idzie prędko)</stage>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Ale dokądże? Majorze!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Do Saskiego ogrodu, mój Panie! i tam Wasana czekam. A jeżeli się rozgniewasz, to się ze mną strzelaj, do tysiąc milionów djabłów!</p>
+</sp>
+<stage>(Wychodzi, trzasnąwszy drzwiami)</stage>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+Ha! ha! ha! nieoceniony Major!
+<stage>(Po chwili)</stage>
+Więc to nie sen! ona wolna! Sam nie wiem, jak mi teraz lekko i dobrze. Ale godziłoż się, Cecylio! godziłoż się tak mię dręczyć?
+<stage>(Po chwili - prędko)</stage>
+Aha! dobrze - warto, warto choć trochę odpłacić za to, com wycierpiał; tylko potrzeba mi Majora.
+<stage>(Przez okno)</stage>
+Majorze! Majorze! zaczekaj!
+</p>
+</sp>
+<stage>(Bierze kapelusz i wybiega)</stage>
+</div>
+<div type="scene" n="2">
+<head>Scena druga.</head>
+<stage type="setting">
+<p>
+(Salon Półkownikowej.
+<rs key="#polkownikowa">Półkownikowa</rs>
+w swojem krześle z robotą.
+<rs key="#cecylia">Cecylia</rs>
+w białej sukni, bez czepeczka, idzie zwolna z głębi teatru z xiążką, czytając; po chwili rzuca xiążkę na kanapkę i sama siada)
+</p>
+</stage>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Nie podoba ci się ta xiążka?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Bynajmniej.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>A co to czytałaś?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Doprawdy że nie wiem. Patrzyłam tak sobie w xiążkę, widziałam litery w słowach długich i krótkich, tyle tylko postrzegłam, że b ma garbek z przodu, a d z tyłu.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>A, winszuję, to bardzo filozoficzna uwaga.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(ziewając)</stage>
+Ja filozofii cierpieć nie mogę.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Coż to nudzisz się? moje życie! Przynajmniej wczoraj zabawiłaś się w teatrze, Halpertowa grała?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Nie uważałam.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Nawet Halpertowej nie uważałaś! A cożeś robiła? moja Cesiu!</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Byłam zła.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Oho!</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Ale taka zła, że gdybym się nie wstydziła, byłabym wyświstała autora, aktorów i całą publiczność, a szczególniej tych panów, co w krzesłach.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Czy był między niemi i Adolf?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Dla tego też, że nie był.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>A ty go zapewne czekałaś?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(wstaje)</stage>
+Otóż właśnie, że czekałam i nie doczekałam się.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Pojmuję - to bardzo przykro.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Jeszcze teraz mi się płakać chce na samo wspomnienie. A wyraźnie dałam mu poznać, że życzę sobie widzieć się z nim w teatrze. Ani się pokazał. To prawdziwie nie do zniesienia.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>I zaprosiłaś go do loży?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Prawie że zaprosiłam.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Wiesz, moje życie, że zamiast gniewu, powinnaś bydź wdzięczną P. Adolfowi, że nie przyszedł. Domyślam się jego powodów. Wiedział, że ja nie będę, i nie chciał cię skompromitować.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(robi minkę)</stage>
+Czy ciocia myśli, że oni tacy delikatni? O, bynajmniej! Ale to nieznośne stworzenia. Im potrzeba jarzma, rózgi, srogości; wtenczas tylko skaczą na łapkach; a każda łaskawość z naszej strony zmienia ich zaraz w tyranków. Żeby choć tyranami bydź umieli w porę, ale to i tego nie!
+</p>
+</sp>
+<sp who="#jakob">
+<speaker>JAKÓB.</speaker>
+<p>
+<stage>(Wchodzi z listem i oddaje Półkownikowej)</stage>
+Od Pana Adolfa.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(niespokojnie)</stage>
+Przeczuwałam, że cóś będzie.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(przebiegłszy list, składa go i chowa)</stage>
+Powiedz człowiekowi, że dobrze - będę czekać.
+</p>
+</sp>
+<stage>(Jakób wychodzi)</stage>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Cóż tam? Ciocię ten list zmięszał.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Nie, moje życic! rzecz dla ciebie obojętna.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Naturalnie, ponieważ to od niego - ale tak, przez ciekawość chciałabym wiedzieć.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Na cóż ci to, jeżeli cię los jego nie interesuje?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Nie mówię tego, żeby mię nie interesował; ale jestem obrażona, i przyjmę wszystko z zimną krwią.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+Jeśli tak, to czytaj.
+<stage>(Podaje jej list)</stage>
+Adolf żeni się.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(załamując ręce, z krzykiem)</stage>
+Ach!
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Ale fe! moja Cesiu! miejże rozum - na - weź.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(drżąc, bierze list i czyta)</stage>
+„Szanowna Pani! może to niewdzięcznie z mojej strony, żem się nie poradził Pani, której przyjaźń jest mi tak drogą, w przedsięwzięciu najważniejszem w życiu człowieka. Niech mi Pani wybaczy i z pobłażaniem przyjmie powody mego milczenia, które później wyłożę. Żenię się. To lekarstwo było mi gwałtownie potrzebnem.” - Lekarstwo podkreślone.
+<stage>(Zgniata list w rękach. Po chwili rozwija go znowu, czyta dalej)</stage>
+„W czyje ręce składam los dni moich, o tem Pani powiem za parę godzin, gdy przyjdę prosić o jej błogosławieństwo. Chciałbym narzeczonej mojej ofiarować niektóre bagatelki przed szlubem. Nie będzież to nadużyciem grzeczności Pani, gdy poproszę, abyś mię swoim gustem pokierować raczyła? Przyniosę wszystko z sobą, jeżeli mię Pani łaskawą odpowiedzią ośmielić zechcesz. - Adolf.”
+<stage>(Rzuca list wpół z płaczem)</stage>
+A o mnie ani słowa! jakby mnie na świecie niebyło. O! niewdzięcznik!
+<stage>(Rzuca się na krzesło, płacząc)</stage>
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(wstaje i bierze ją za rękę)</stage>
+Ale wstydź się, moje życie! czyż przystoi ci tak brać to do serca?
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Niedawno chodził za mną - patrzył jak w tęczę - wczoraj tu, w tem samem miejscu! O! to chytrość bez przykładu.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Nie chcę go usprawiedliwiać, że ci prawił dusery, ale że się żeni, temu się wcale nie dziwię.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Ciocia się nie dziwi? - O, wiem, że wszyscy go uniewinnią.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Miałże cię za mężatkę.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Ach! Boże mój! Droga ciociu! otoż to właśnie, że nie miał. Mówiłażem, żem wczoraj przyznała się Majorowi, i miał mu wszystko powiedzieć. A on, zamiast nieposiadać się od radości, od szczęścia, żeni się - z inną! O! monstrum!</p>
+</sp>
+<stage>(Płacze)</stage>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(wchodzi z miną komiczno-tragiczną i mówi ponuro)</stage>
+Całuję nózi Pani mojej!
+<stage>(Cicho do Półkownikowej)</stage>
+A odebrała Pani mój bilecik?
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(cicho do Majora)</stage>
+Odebrałam.
+<stage>(Grożąc)</stage>
+Oj! wy! Panowie!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(cicho do Półkownikowej, pokazując na Cecylią)</stage>
+Lekcyjka nie zawadzi.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(głośno)</stage>
+Cóż? wiesz zapewne, Majorze!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+Wiem, wiem, Pani Dobr.! Dla tegom się i nie pokazał, tak byłem zły.
+<stage>(Przystępuje do Cecylii)</stage>
+Ej! Pani kochana! czyż to warto tak się martwić? Widać, już takie było przeznaczenie. Cóż, przeciwko wody trudno płynąć.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Proszę mię nie pocieszać, P. Majorze! Obejdę się bez tych perswazyj.
+<stage>(Major odchodzi na bok, śmiejąc się)</stage>
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Ale moja Cesiu! czyż nie znasz przyjaźni Majora, że tak odpychasz jego użalenia?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(Powstaje, i patrząc na Majora, tupa nogą)</stage>
+Ja użaleń cierpieć nie mogę!
+<stage>(Siada znowu)</stage>
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(na stronie)</stage>
+Brr! lubię taką energią w kobiecie.
+<stage>(Głośno)</stage>
+Pani kochana! nie dziwię się, że to Panią tak ubodło. Ale ja tu muszę cokolwiek powiedzieć i na jego usprawiedliwienie.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Nie mówiłam, że wszyscy go będą usprawiedliwiać? Ach to kara Boska!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Miałabyś Pani racyą czuć się cokolwiek upokorzoną, gdyby Adolf wiedział, że ręka Pani wolna - ale...</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(powstaje)</stage>
+Ale cóż? on nie wie?
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Nie wie, Pani Dobr.!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>A widzisz, mówiłam.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A toś mi Pan ładnie usłużył! Miałżeś mu Pan powiedzieć, miałeś się Pan strzelać.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Czy Pani chcesz, żebym się strzelał?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+O, nie, nie, nie chcę,
+<stage>(dyga mu ironicznie)</stage>
+, bardzo dziękuję. O ja nieszczęśliwa!
+<stage>(Płacze)</stage>
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Ależ bo, Pani kochana, i jam temu nie winien. Proszęż mię posłuchać, na miłość Boską! Poszedłem do niego, chcąc mu wszystko objawić. Sądziłem, że go zastanę w rospaczy. A on, sacre-bleu! czemże mię przywitał? Oto, że mię zwiódł desperackim listem, że się zreflektował, że się żeni, że już wszystko ułożone, że znalazł anioła i t. d. Cóż miałem robić? miałem Panią zakompromitować? miałem narazić cię na odmówienie? Sacre-morbleu! wołałem zamilczeć. Trzasnąłem drzwiami, że aż się okna zatrzęsły, i poszedłem precz.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>I bardzoś Pan dobrze zrobił - szczerze, od serca Panu dziękuję.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(podaje mu rękę)</stage>
+Dobry Panie Majorze!
+<stage>(Major całuje ją z uczuciem)</stage>
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>No, Cesiu, otrzyjże łezki. On tu zaraz przyjdzie - cóż sobie pomyśli?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Ja go widzieć nie będę - ja natychmiast wyjeżdżam z Warszawy.
+<stage>(Wstaje)</stage>
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>O to, to - ba! jeszcze czego? Proszę Pani Półkownikowej, aby na to nie pozwalała. Cóż to? sacre - ej! przepraszam, Pani chcesz mu dać poznać, że Panią przywiódł do rospaczy?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Major ma racyą.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A gdzież duma kobieca? Czy to Pani, z takim rozumem, nie potrafisz się znaleźć inaczej, jak szlochając?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(ocierając łzy)</stage>
+O, potrafię, potrafię - bądźcie Państwo spokojni.
+<stage>(Na stronie)</stage>
+Niewdzięcznik!
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+Naśladuj mnie - obaczysz, jak ja go przyjmę, jak gdyby nigdy nic się nie stało.
+<stage>(Jakób wchodzi)</stage>
+Czy Pan Adolf? - proś, proś!
+</p>
+</sp>
+<stage>(Jakób wychodzi - Cecylia siada niedbale na kanapce i bierze xiążkę - Major przechadza się nadąsany - Adolf wchodzi, nieśmiało poglądając na Cecylią - Jakób wnosi za nim kartony i kładzie przy drzwiach na krześle)</stage>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+A! jak się Pan ma?
+<stage>(Adolf całuje jej rękę)</stage>
+Bez wątpienia musisz się Pan mieć dobrze. Winszuję, P. Adolfie! i z serca się cieszę.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(na stronie)</stage>
+Jest z czego się cieszyć.
+<stage>(Czyta)</stage>
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(Zbliża się do Cecylii)</stage>
+Pani tak zajęta!
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(spokojnie)</stage>
+Czy to Pan? P. Adolfie! - Kiedyż Pan wszedłeś? doprawdy nie uważałam.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(na stronie)</stage>
+O! filutka!
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Winszujemy Panu! winszujemy! Nakoniec Pan zdecydowałeś się.
+<stage>(Adolf kłania się)</stage>
+Widzi Pan, jak to dobrze posłuchać rady dobrych przyjaciół. Wszak to ja Panu zapisałam tę receptę - wczoraj, pamięta Pan?
+<stage>(Podaje mu rękę z kokieteryą)</stage>
+Obaczy Pan, że będzie skuteczna, boś się Pan nie opoźnił.
+<stage>(Na stronie)</stage>
+Zdrajca!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(całuje jej rękę z uczuciem, którą ona prędko usuwa)</stage>
+O! nie wątpię.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(na stronie)</stage>
+Jego ręka drży!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(na stronie)</stage>
+Ona płakała! o! co za szczęście!
+<stage>(Major przechodzi rubasznie koło Adolfa, chrząkając)</stage>
+A, jak się masz? kochany Majorze!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>A, uniżony sługa Pana mego.</p>
+</sp>
+<stage>(Odwraca się i przechadza się, jak pierwej)</stage>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(z ironią)</stage>
+A quand la noce? Mr Adolphe!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(z uśmiechem)</stage>
+Ja myślę, że wkrótce.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>O, to bardzo rozumnie. Pan już i tak dużo czasu straciłeś.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Pani mię wyprzedziłaś.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>O! bom ja podobno od Pana starsza - czy tak?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Pani sobie ze mnie żartujesz. Jak mię to cieszy, żeś Pani wesoła!</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Dla czegożbym nie miała bydź wesołą? A to zabawnie! Ja się nigdy nie smucę szczęściem moich przyjaciół.
+<stage>(Na stronie)</stage>
+Qu’il est bête! - fi!
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+Pokażże nam, Panie Adolfie, te śliczne rzeczy - będziemy admirować.
+<stage>(Adolf idzie po karton)</stage>
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A, i podarunki? c’est galant, en verité!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(przechodząc, cicho do Cecylii)</stage>
+Dobrze, dobrze, sacre-bleu!
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(do Majora)</stage>
+Mało mi serce nie pęknie.
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(do Cecylii)</stage>
+Pst!
+</p>
+</sp>
+<stage>(Cecylia zaczyna czytać)</stage>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Niechże się Panie ze mnie nie śmieją, bo to, doprawdy, nie nasza rzecz.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Nadto Pan skromnym jesteś - wiemy, ile masz gustu.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>O! we wszystkiem.</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(opatrując kolią)</stage>
+A wie Pan, że przepyszna, bardzo, bardzo ładna!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Szczerze?</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Ale najszczerzej.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(niedbale)</stage>
+A pokaż Pan.
+<stage>(Adolf biegnie ku niej. Ona bierze od niechcenia, i popatrzywszy, oddaje)</stage>
+Oui, c’est jolie.
+<stage>(Na stronie)</stage>
+I to pewnie dla jakiegoś koczkodana.
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Ale coż-bo tu ślicznych rzeczy! to prawdziwie aż oczy w siebie biorą. Cesiu! chodź no tu, obacz.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(do Cecylii)</stage>
+Idź Pani!
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Je suis si paresseuse! moja droga ciociu!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Więc chcesz, żebym do ciebie przyszła?</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(zrywa się i idzie)</stage>
+Ach! Boże mój! coż-bo ciocia robi?
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Patrz, co to za diadem! co za blondy przy tym welonie szlubnym! Jak mię kochasz, Cesiu, przymierz - właśnie do twojej sukni przyjdzie.</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(szepce jej do ucha)</stage>
+Przymierz Pani, na złość mu - niech obaczy, jakim był osłem.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Ale do czegoż to? - wreszcie, jeśli się tak cioci podoba.
+<stage>(Siada, Półkownikowa ją ubiera)</stage>
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(do Majora)</stage>
+Majorze! nie posiadam się!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(cicho)</stage>
+Pst!
+<stage>(Głośno)</stage>
+A, jak się Panu podoba - co mi tam!
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+Weź jeszcze tę kolią.
+<stage>(Nakłada na nią)</stage>
+Co za blask! - ślicznie!
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Teraz i ja widzę, że piękna - ależ na takiej szyi...</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(obrażona)</stage>
+Komplementa! - winszuję Pańskiej narzeczonej.
+</p>
+</sp>
+<stage>(Wstaje i idzie z powagą do źwierciadła)</stage>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(do Majora)</stage>
+Ach! jaka ona śliczna!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(ciągnie go za rękaw)</stage>
+Pst!
+<stage>(Półkownikowa zakłada jej na ręce bransolety)</stage>
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>A propos, P. Adolfie! jakiegoż wzrostu ta narzeczona Pańska? zapewne niziutka, pulchniutka? - co?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Myli się Pani - będzie wzrostu Pani.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Doprawdy? A jakie ma imię? jeżeli wolno zapytać.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(patrząc na nią z wyrazem miłości)</stage>
+Cecylia.
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(zmięszna)</stage>
+Co?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(klęka)</stage>
+O, tak! Cecylia, jeśli Pani pozwolisz.
+</p>
+</sp>
+<stage>(Cecylia blednie, siada na krześle, zakrywając oczy ręką. Adolf bierze jej drugą rękę, i całując z uniesieniem)</stage>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>O Pani droga! pozwól, niech sobie zapłacę szczęściem nad wyrazy, za te męczarnie nad wyrazy, które dotąd znosiłem!</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>
+<stage>(rozrzewniony)</stage>
+Pozwól! pozwól!
+</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(patrzy nań mile i podaje mu drugą rękę)</stage>
+A więc Pan wiedziałeś, że moja ręka wolna?
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Wczoraj jeszcze dowiedziałem się.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>I takeś mię dręczył?</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>Przebacz, Cecylio! przebacz ten mały odwet. Jam cierpiał więcej.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Cóż ja mam robić? - muszę.
+<stage>(Powstaje)</stage>
+</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(zrywa się)</stage>
+O szczęśliwa chwilo!
+</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>
+<stage>(ściska ją)</stage>
+Moja ty droga Cesiu!
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Sacre-bleu! P. Dobr.! i ja dzwoniłem na to kazanie, i mnie się tu cóś należy.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+Uściskaj mię, drogi Majorze! Stalej od ciebie nikt mię nie kochał.
+<stage>(Ściskają się)</stage>
+Ale godziłoż się tak przeciwko mnie?
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>To masz Pani za te głupie morały, którem ci wczoraj prawił - teraz kwita.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>I ty ciociu także! zmawiać się z nimi!</p>
+</sp>
+<sp who="#polkownikowa">
+<speaker>PÓŁKOWNIKOWA.</speaker>
+<p>Moja duszo! mogłam się zmówić z tobą przeciwko nim, dla czegoż nie miałam się zmówić z nimi przeciwko tobie? tem bardziej, że to udanie tem żywiej daje ci uczuć twoje obecne szczęście.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>
+<stage>(bierze rękę Adolfa)</stage>
+O! więc to już prawda?
+</p>
+</sp>
+<sp who="#major">
+<speaker>MAJOR.</speaker>
+<p>Prawda, prawda. Ale jeszcze jedno chciałem Pani powiedzieć: nie probuj Pani mistyfikować go po szlubie. Pani masz na to dużo rozumu; ale widziałaś, sacre-bleu! że i nas na cóś podobnego stanie.</p>
+</sp>
+<sp who="#cecylia">
+<speaker>CECYLIA.</speaker>
+<p>Postaram się, P. Adolfie, że nie powiesż, iż cię los zmistyfikował.</p>
+</sp>
+<sp who="#adolf">
+<speaker>ADOLF.</speaker>
+<p>
+<stage>(trzymając rękę Cecylii)</stage>
+Los, chytry jak Włoch, najczęściej mistyfikuje człowieka; ale kiedy komu da rękę i serce rozumnej i dobrej kobiety, wtenczas jest szczerym, jak Mazur.
+</p>
+</sp>
+<trailer>(Koniec)</trailer>
+</div>
+</div>
+</body>
+</text>
+</TEI>

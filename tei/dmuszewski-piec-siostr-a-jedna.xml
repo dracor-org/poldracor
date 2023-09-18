@@ -1,1664 +1,1530 @@
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000001" xml:lang="pol">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main">Pięć siostr a jedna</title>
-        <title type="sub">Komedya w jednym akcie</title>
-        <author>
-          <idno type="isni">000000007204066X</idno>
-          <idno type="wikidata">Q8861068</idno>
-          <persName>
-            <forename>Ludwik</forename>
-            <forename>Adam</forename>
-            <surname>Dmuszewski</surname>
-          </persName>
-        </author>
-        <!-- Ludwik Adam Dmuszewski (1777-1847) -->
-      </titleStmt>
-      <publicationStmt>
-        <publisher xml:id="dracor">DraCor</publisher>
-        <idno type="URL">https://dracor.org</idno>
-        <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="originalSource">
-          <name>POLONA</name>
-          <idno type="URL">https://polona.pl/item/dziela-dramatyczne-l-a-dmuszewskiego-t-10-intryga-przed-slubem-piec-siostr-a-jedna,NjY0Mzg0NDg/108/</idno>
-          <idno type="URL">https://polona.pl/item/dziela-dramatyczne-l-a-dmuszewskiego-t-10-intryga-przed-slubem-piec-siostr-a-jedna,NjY0Mzg0NDg/</idno>
-          <title>Dmuszewski, L.A., Dzieła dramatyczne L. A. Dmuszewskiego. T. 10, Pięć siostr a jedna, Wrocław 1823, s. 103-159.</title>
-          <availability>
-            <licence>
-              <ab>public domain</ab>
-              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
-            </licence>
-          </availability>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person xml:id="ludwika" sex="FEMALE">
-            <persName>Ludwika</persName>
-          </person>
-          <person xml:id="karolina" sex="FEMALE">
-            <persName>Karolina</persName>
-          </person>
-          <person xml:id="jozefa" sex="FEMALE">
-            <persName>Jozefa</persName>
-          </person>
-          <person xml:id="konstancya" sex="FEMALE">
-            <persName>Konstancya</persName>
-          </person>
-          <person xml:id="amelia" sex="FEMALE">
-            <persName>Amelia</persName>
-          </person>
-          <person xml:id="staruszkiewicz" sex="MALE">
-            <persName>Staruszkiewicz</persName>
-          </person>
-          <person xml:id="wietrznicki" sex="MALE">
-            <persName>Wietrznicki</persName>
-          </person>
-          <person xml:id="oszczednicki" sex="MALE">
-            <persName>Oszczędnicki</persName>
-          </person>
-          <person xml:id="spokoynicki" sex="MALE">
-            <persName>Spokoynicki</persName>
-          </person>
-          <person xml:id="lokay" sex="MALE">
-            <persName>Lokay</persName>
-          </person>
-        </listPerson>
-      </particDesc>
-      <textClass>
-        <keywords>
-          <term>Komedia</term>
-        </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
-      </textClass>
-    </profileDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2023-02-23">file conversion from source with some corrections (no text interference)</change>
-      </listChange>
-    </revisionDesc>
-  </teiHeader>
-  <standOff>
-    <listEvent>
-      <event type="print" when="1820">
-        <desc/>
-      </event>
-      <event type="premiere" when="1820-03-10">
-        <desc>Pięć siostr a jedna: komedya w 1. akcie wystawiona pierwszy raz na Teatrze Narodowym w Warszawie dnia 10 Marca 1820</desc>
-      </event>
-    </listEvent>
-    <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/pol000001"
-        passive="http://www.wikidata.org/entity/Q118129428"/>
-    </listRelation>
-  </standOff>
-  <text>
-    <front>
-      <titlePage>
-        <docTitle>
-          <titlePart type="main">PIĘĆ SIOSTR<lb/> A<lb/> JEDNA,</titlePart>
-          <titlePart type="sub">KOMEDYA W JEDNYM AKCIE</titlePart>
-        </docTitle>
-        <docImprint>
-          Wystawiona pierwszy raz na Teatrze Narodowym w Warszawie dnia
-          <docDate>10 Marca 1820. R.</docDate>
-        </docImprint>
-      </titlePage>
-      <castList>
-        <head>OSOBY</head>
-        <castItem>
-          <role>LUDWIKA.</role>
-          <roleDesc>Zacniewska siostra</roleDesc>
-        </castItem>
-        <castItem>
-          <role>KAROLINA.</role>
-          <roleDesc>Zacniewska siostra</roleDesc>
-        </castItem>
-        <castItem>
-          <role>JOZEFA.</role>
-          <roleDesc>Zacniewska siostra</roleDesc>
-        </castItem>
-        <castItem>
-          <role>KONSTANCYA.</role>
-          <roleDesc>Zacniewska siostra</roleDesc>
-        </castItem>
-        <castItem>
-          <role>AMELIA.</role>
-          <roleDesc>Zacniewska siostra</roleDesc>
-        </castItem>
-        <castItem>
-          <role>CZESNIK STARUSZKIEWICZ.</role>
-        </castItem>
-        <castItem>
-          <role>HRABIA WIETRZNICKI.</role>
-        </castItem>
-        <castItem>
-          <role>OSZCZĘDNICKI.</role>
-        </castItem>
-        <castItem>
-          <role>SPOKOYNICKI.</role>
-        </castItem>
-        <castItem>
-          <role>LOKAY.</role>
-        </castItem>
-      </castList>
-      <set>
-        <p>(Scena w Warszawie, w mieszkaniu Ciotki Panien Zacniewskich).</p>
-        <p>(Teatr wystawia pokóy dobrze urządzony, Stoliki, Krzesła, Fortepiano).</p>
-      </set>
-    </front>
-    <body>
-      <div n="1" type="scene">
-        <head>SCENA I.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#ludwika">LUDWIKA.</rs>
-            <rs key="#karolina">KAROLINA.</rs>
-            <rs key="#jozefa">JOZEFA.</rs> (i) <rs key="#konstancya">KONSTANCYA.</rs>
-          </p>
-        </stage>
-        <stage type="setting">
-          <p>(siedzą przy dwóch stolikach)</p>
-        </stage>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>I cóż mówicie Siostry?</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>Niestety, niestety, i ieszcze raz niestety!</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>Żadnego ratunku, żadney nadziei!</p>
-        </sp>
-        <sp who="#konstancya">
-          <speaker>KONSTANCYA.</speaker>
-          <p>Żadney nadziei? co za okropna przyszłość.</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Dziś tedy musiemy zostać żonami tych których nieznamy, i których naturalnie nie kochamy.</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>Dziś musiemy się wyrzec naszych dobrych, lubych kochanków.</p>
-        </sp>
-        <sp who="#konstancya">
-          <speaker>KONSTANCYA.</speaker>
-          <p>Dziś pierwszy raz staną przed nami obstalowani narzeczeni.</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>Dziś nastąpią układy czyli intercyzy.</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Jutro ogłoszą pierwszą zapowiedź.</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>Za tydzień uyrzem urzędnika cywilnego.</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>Za parę tygodni staniemy przy ołtarzu!</p>
-        </sp>
-        <sp who="#konstancya">
-          <speaker>KONSTANCYA.</speaker>
-          <p>A w tenczas adie wesołości!</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Adie lube marzenia!</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>Adie słodka nadzieio!</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>Adie miłe pożycie!</p>
-        </sp>
-        <sp who="#konstancya">
-          <speaker>KONSTANCYA.</speaker>
-          <p>Cóż potem nastąpi, nic innego iak Ah!</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Ah!</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>
-            <stage>(mocniey)</stage> Ah!</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>
-            <stage>(ieszcze mocniey)</stage> Ah!</p>
-        </sp>
-        <sp who="#ludwika #karolina #jozefa #konstancya">
-          <speaker>LUDWIKA. KAROLINA. JOZEFA. KONSTANCYA.</speaker>
-          <p>Ah!</p>
-        </sp>
-      </div>
-      <div n="2" type="scene">
-        <head>SCENA II.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#ludwika">LUDWIKA.</rs>
-            <rs key="#karolina">KAROLINA.</rs>
-            <rs key="#jozefa">JOZEFA.</rs>
-            <rs key="#konstancya">KONSTANCYA.</rs> (i) <rs key="#amelia">AMELIA.</rs>
-          </p>
-        </stage>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>
-            <stage>(wesoło)</stage> Ah?... i dla czegóż Ah? słyszałam że wasi narzeczeni iuż przybyli do Warszawy, ia mam dobrą policyą, wiem wszystko co się dzieie w stolicy; Pan Oszczędnicki dla menażu stanął nad mostem, Pan Spokoynicki dla zdrowia i aby mu nikt nie przeszkadzał, mieszka między aleami, Pan Hrabia Wietrznicki, naiął paradny apartament w Hotelu Wileńskim, a Pan Cześnik Staruszkiewicz po staropolsku przybył z wielkim dworem i zaiechał do Oyców Reformatów. Już zaanonsowali Cioci swoie przybycie, stanęli ponktualnie podług umowy na iey imieniny, to iest: na dzień dzisieyszy, ale Ciocia, iak wiecie, mocno zachorowała, nikogo przyiąć nie może, i mnie mianowała iako wielką Ochmistrzynię do przyięcia w iey imieniu waszych upragnionych oblubieńców!</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Upragnionych? Ach móy Boże!</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>Okropna chwila!</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>Straszne spotkanie!</p>
-        </sp>
-        <sp who="#konstancya">
-          <speaker>KONSTANCYA.</speaker>
-          <p>Już zawczasu przeczuwam że iutro zachoruię śmiertelnie!</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Otóż osobliwsza Jeremiada w dniu zaręczyn, iak to dobrze kiedy się nie kocha, moie serce iest zupełnie z łaski Pana Boga wolne, i oto widzicie iakem wesoła, a ta wzdycha, ta ięczy, ta obiecuie zachorować... ta... dalibóg łzy w oczach... łzy!... ach te łzy padły i na moie serce – czuię wasze zmartwienie, przekonywam się istotnie że cierpicie! Ale zastanówmy się z uwagą nad waszym losem i szukaymy sposobów, czyby się nieudało odwrócić grożące wam nieszczęście. Jestem waszą naymłodszą siostrą, Matka nasza wydawszy mnie na świat, przeniosła się do wieczności, dobra Ciocia bezdzietna przysposobiła mnie za swoią córkę, uktórey przez całe życie mieszkam w Warszawie; wy zawsze byłyście przy nieboszczyku Oycu mieszkaiącym na samym końcu Woiewództwa Augustowskiego, czyli w dawney Zmudzi; od trzech dni przybyłyście do stolicy dla dopełnienia woli Oyca i poięcia wskazanych przez niego małżonków. Od tych trzech dni poznałam was moie lube siostry i wy naszą kochaną Ciocię, tyle iest mi wiadomo. Ale co się tycze waszych serdecznych okoliczności, co znaczą te ustawiczne Ah, te ięki, te łzy, chcieycie mnie doskonale uwiadomić; wasz los nie może bydź dla mnie oboiętnym.</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Rok minął gdy nasz dobry Oyciec ten świat opuścił. Ty Amelio, iako przysposobiona Córka naszey Cioci, odziedziczysz iey maiętek, i twoie postanowienie zawisło od iey woli. Nam czterem zostawił Oyciec blisko milionowy maiątek, i zalecił abyśmy po skończoney żałobie, poięły za mężów tych Ichmościów, których on przeznaczył, ale niestety, żadna z nas nie zna wybranego małżonka i każda z nas poświęciła serce innemu.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Zle i dobrze – nie ma tego złego, któreby na dobre nie wyszło. Z iedney strony wola Oyca, z drugiey wola serca! okoliczność trochę zawiła... ale nie traćmy nadziei – któż tedy iest ten śmiertelnik szczęśliwy, którego serce twoie wybrało?</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Major od Ułanów.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Major od Ułanów! z takiemi Panami niebezpieczna sprawa! Jego charakter? serce? obyczaie?</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Ma lat 28. piękney postaci, naylepsze serce, skromny, kochany od równych, poważany od podkomendnych, zawsze chwalony od starszych; walczył w kilku bitwach, piersi iego zdobią dwa krzyże otrzymane na placu chwały, a na czole widać dotąd kresy, ktoremi się ozdobił pod Wagram.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Bravo, śliczne zalety! dla czegóż Oyciec nie życzył mieć tak zacnego zięcia?</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Oświadczył że żona żołnierza w lada okoliczności może zostać wdową; i że póty iey los nie może bydź zapewnionym, póki przynaymniey Mąż nie komenderuje pułkiem.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Rozumiem. Jakiegoż ci przeznaczył na mieysce tego zucha Ułana?</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Jest to nieiaki Pan Oszczędnicki, człowiek od lat blisko 60, bogaty w prawdzie i bardzo bogaty, ale ieden z sławnych skąpców, miał on rozmaite stosunki prawne z naszym Oycem, dla ukończenia których, postanowiono aby móy posag zkwitował wszystko.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Skąpiec! a chce się żenić, o to nieuchodzi, sprawę chce zakończyć z ofiarą dobrey dziewczyny, to ieszcze bardziey nie uchodzi, a potem waleczny i młody Ułan z dwoma krzyżami i kresą otrzymanemi na polu sławy, więcey powinien znaczyć od starego bogatego skąpcy. To raz! teraz Wacpanna Karlusiu, któż iest twóy Adonis?</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>Komisarz Obwodowy!</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Zmiłuyże się!</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>Ale zacny, sprawiedliwy, gorliwy! obywatele są szczęśliwi z tym urzędnikiem, nie słychać o nim aby uciemiężał, aby czemkolwiek splamił swoie dostoieństwo, aby komu niesłusznie nadał exekucyą, przytem ładny, rozumny i zaczął dopiero rok 26ty.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>A to fenomen! urzędnik na którego nikt nie narzeka, nie mogę poiąć dlaczego się nie podobał naszemu Oycu?</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>Nieboszczyk do samey śmierci wychwalał iakieś dawne Liberum veto, Komisarz dowodził że to było zgubą naszego kraiu; z dysputy przyszło do niechęci, słowem, móy luby nie mógł się pokazać w naszym domu. Oyciec poiechawszy z potażem do Królewca, poznał tam iakiegoś Pana Spokoynickiego, ma to bydź człowiek nie źle się maiący, kończy dopiero rok trzydziesty, ale nadzwyczayny flegmatyk niezmiernie troskliwy o swoie zdrowie, każdy szelest, każdy odgłos, nawet muzyka osłabiaią iego nerwy, wszyscy iego domownicy muszą chodzić noga za nogą, cztery godzin potrzebuie na uiechanie iedney mili, mówi cicho, zwolna, zgoła iest naygłównieyszym nieprzyiacielem wszelkich rozrywek. Oyciec mnie opisał iako melancholiczkę, co się tak bardzo podobało Spokoynickiemu, iż upraszał o moią rękę i otrzymał przyrzeczenie.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Flegmatyk chce się żenić! broń Boże, to w żaden sposób nie wypada, z melancholii przyszłoby do domowego piekła, od czego niechay niebo zachowa każdą dobrą dziewczynę, z drugiey strony należy znowu koniecznie nagrodzić zacnego Komisarza, maiącego tyle zalet – To dwa – Koley na ciebie Józiu, słucham więc twego romansu?</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>Ja i moia siostra Konstancya poznałyśmy dwóch Braci mieszkających w naszem sąsiedztwie, są to młodzi ludzie; dobrzy gospodarze, każdy ma wioseczkę, która może się nazwać raiem ziemskim, składa się tylko z kilku rolników, ale ci rolnicy błogosławią swoiego dziedzica, nazywaiąc go nie panem ale nayczulszym Oycem.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Poczciwi ludzie i dziedzicy i ich wieśniacy.</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>Ale nasz oyciec przeznaczył dla każdey córki po dwakroć pięćdziesiąt tysięcy gotówki, ani chciał słyszeć o zięciu, któryby miał tylko iedną wiosczynę: móy Boże ia chętnie sto wsi odstąpię za iedno spoyrzenie dobrego Olesia, bez którego nigdy nie będę szczęśliwą!</p>
-        </sp>
-        <sp who="#konstancya">
-          <speaker>KONSTANCYA.</speaker>
-          <p>I ia toż samo bez mego Xawerka!</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Kochane siostry! coraz bardziey mnie zniewalacie, ah tak, istotne szczęście przestawać na małem; a wasi narzeczeni?</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>Mnie oyciec przeznaczył Hrabiego Wietrznickiego, który zwiedził pół Europy, a niewie gdzie leżą nasze Suwałki, stracił iuż prawie cały maiątek i iedynie dla moiego posagu oświadczył naszemu Oycu, którego poznał w Warszawie, iż uczyni zaszczyt naszemu domowi, poymuiąc iednę z nas za dozgonną przyiaciołkę – Oyciec chciał koniecznie aby choć iedna z nas była Hrabiną, przyrzekł, otóż po wszystkiem.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Dla modnego Fanfarona nie zda się poczciwa wieśniaczka na dozgonną przyiaciolkę. A ty Kostusiu?</p>
-        </sp>
-        <sp who="#konstancya">
-          <speaker>KONSTANCYA.</speaker>
-          <p>Móy narzeczony iest bardzo bogaty Pan Cześnik Staruszkiewicz, Wdowiec po dwóch żonach; rok 65ty, obyczaie dawne, zacność nieposzlakowana; Przyiaciel ieszcze szkolny naszego Oyca, po śmierci drugiey żony przypomniał dawną przyiaźń, i przez korrespondencyą otrzymał przyrzeczenie moiey ręki.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Wprawdzie Pan Cześnik ma piękne zalety; ale dla tego że iest tak zacnym, przez sumienie należy go przekonać, iż powinien albo zostać wdowcem, albo obrać stosownieyszą małżonkę – Biedne siostry, rozrządzono tedy waszem sercem, gdy mnie zostawiony wybór podług mego upodobania, niech żyie wolność.</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Ty się cieszysz, gdy my cierpiemy!</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Ach wasze szczęście iest moiem! wesoły móy humor wcale nie przeszkadza aby moie serce nie miało bydź czułem; Ciocia powiada iż mimo mego roztrzepania i pustoty będę naylepszą żoną i wyborną obywatelką; ale powróćmy do waszego interesu. Oyciec tedy przeznaczył wam mężów, i to na piśmie, ale ta iego wola czy iest bez warunkowa?</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Dołożył, iż ieśli narzeczeni nieznaydą nas stosownemi do ich charakterów, słowo może bydź cofnionem!</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Paradnie! bravissimo!</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Niemożna iednak wnosić aby Pan Oszczędnicki tak łakomy, wyrzekł się dwukroć pięćdziesiąt tysięcy, które iuż są odliczone.</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>Albo Pan Spokoynicki, który iedynie z melancholiczną żoną iaką ia nie iestem postanowił doznać prawdziwego szczęścia.</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>Hrabia Wietrznicki iuż połowę dłużników na móy posag obstalował.</p>
-        </sp>
-        <sp who="#konstancya">
-          <speaker>KONSTANCYA.</speaker>
-          <p>Cześnik Staruszkiewicz dawnych obyczaiów, niezwykł słowa odmieniać.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Czekayno... byłam na komedyi Zmyślone Niewinniątko, udany charakter Anieli podaie mi pewny planik, w prawdzie będzie to kopia, ale tu idzie o wasze uszczęśliwienie. Wykonam dobry uczynek, nikt na tem nie straci i owszem każdy zyszcze. Jakem powiedziała Ciocia choruie, i mnie rozkazała przyiąć waszych zamówionych. Pan Oszczędnicki doniosł że przybędzie, o dziesiątey, inni zapytuią kiedy mogą oddać wizytę. Która teraz godzina? <stage>(Patrzy na Zegarek)</stage> Za pięć minut dziesiąta... nietraćmy czasu; każdy z tych Ichmościow powinien osobno tu przybydź – No Panny siostry zamieniam was na Kancelistów; siadaycie, pióro do rąk!</p>
-        </sp>
-        <sp who="#ludwika #karolina #jozefa #konstancya">
-          <speaker>LUDWIKA. KAROLINA. JOZEFA. KONSTANCYA.</speaker>
-          <p>Cóż to znaczy?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Ani słowa, ia wami komenderuię, posłuszeństwo i zaufanie, siadaycie!</p>
-        </sp>
-        <stage>(Wszystkie cztery siadaią przy stoliku i biorą pióra)</stage>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Dowie się każdy z trzech <stage>(bo Pan Oszczędnicki iuż przybywa)</stage> że może nas odwiedzieć, Spokoynicki o kwadrans na iedynastą, Hrabia o wpół do iedynastey, a Cześnik o trzy kwadranse na iedynastą. <stage>(piszą)</stage>
-          </p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Osobliwsza dziewczyna!</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Ale czy kwadrans nie będzie za mało dla iednego Amanta?... nie... dosyć... i bardzo dosyć – <stage>(głośno)</stage> Już skończono, to dobrze, baczność! złożyć bilety! <stage>(składaią)</stage> pieczętować! <stage>(pieczętuią opłatkami)</stage> adres; <stage>(do Karoliny)</stage> ty... Wielmożny Jegomość Pan Spokoynicki  w Aleach <stage>(do Józefy)</stage> ty... A monsieur, monsieur le Comte de Vietrznicki A l’hotel de Vilna, i nakoniec ty, <stage>(do Konstancyi)</stage> Jaśnie Wielmożnemu Jegom: Panu Staruszkiewiczowi Cześnikowi Latyczewskiemu, w Konwencie Oyców Reformatów. <stage>(odbiera bilety i dzwoni)</stage>
-          </p>
-        </sp>
-      </div>
-      <div n="3" type="scene">
-        <head>SCENA III.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#ludwika">LUDWIKA.</rs>
-            <rs key="#karolina">KAROLINA.</rs>
-            <rs key="#jozefa">JOZEFA.</rs>
-            <rs key="#konstancya">KONSTANCYA.</rs>
-            <rs key="#amelia">AMELIA.</rs> (i) <rs key="#lokay">LOKAY.</rs>
-          </p>
-        </stage>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>
-            <stage>(do Lokaia)</stage> Jest kto w przedpokoiu?</p>
-        </sp>
-        <sp who="#lokay">
-          <speaker>LOKAY.</speaker>
-          <p>Ustawicznie przysyłaią bilety z powinszowaniem imienin naszey Pani; a ieśli kto przyiedzie, podług rozkazu oświadczamy, że Imość chora i nieprzyymuie odwiedzin.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Oto są listy, rozeszliy natychmiast podług adresów, ale to natychmiast, rozumiesz?</p>
-        </sp>
-        <sp who="#lokay">
-          <speaker>LOKAY.</speaker>
-          <p>Rozumiem.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Ci Panowie, do których masz bilety, mogą nas odwiedzieć, każdego iednak wprzód oznaymić. Również Pan Oszczędnicki, rozumiesz?</p>
-        </sp>
-        <sp who="#lokay">
-          <speaker>LOKAY.</speaker>
-          <p>Rozumiem.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Na górze mieszka nasz kuzynek Adiutant, poproś go aby pożyczył kapelusza, rękawic i floretów, których potrzebuię do odrysowania pewnego poiedynku, przynieś mi w krótce, rozumiesz?</p>
-        </sp>
-        <sp who="#lokay">
-          <speaker>LOKAY.</speaker>
-          <p>
-            <stage>(odchodzi)</stage> Rozumiem.</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Florety?... a to na co?... przebóg cóż za poiedynek?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Wszystko to potrzebne do moiey roli. Dziesiąta w krótce, zaczyna się tedy nowa scena.</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Jeszcze nic nie rozumiem,</p>
-        </sp>
-        <sp who="#karolina #jozefa #konstancya">
-          <speaker>KAROLINA. JOZEFA. KONSTANCYA.</speaker>
-          <p>
-            <stage>(razem)</stage> Ani ia.</p>
-        </sp>
-        <sp who="#lokay">
-          <speaker>LOKAY.</speaker>
-          <p>
-            <stage>(wchodzi)</stage> Pan Oszczędnicki zapytuie czy może...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Owszem prosić – ale, ale... iakim pojazdem przyjechał?</p>
-        </sp>
-        <sp who="#lokay">
-          <speaker>LOKAY.</speaker>
-          <p>Przyszedł piechotą.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Prosić. <stage>(Lokay odchodzi)</stage>
-          </p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Drżę cała.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Przyszedł piechotą, i w tym zaraz okazuie się iego charakter – a zatem Moście Panny do gabinetu...</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>Ale przez miłość Boską...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Nic nie słucham... Marsz do gabinetu.</p>
-        </sp>
-        <stage>(Cztery siostry odchodzą)</stage>
-      </div>
-      <div n="4" type="scene">
-        <head>SCENA IV.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#amelia">AMELIA.</rs>
-            <rs key="#oszczednicki">OSZCZĘDNICKI.</rs>
-          </p>
-        </stage>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>
-            <stage>(we drzwiach do Lokaia)</stage> Ciężkie czasy a takie zbytki, przedpokóy paradnieyszy od całego moiego pomieszkania, oy, oy, zbytki, zbytki – <stage>(wchodzi)</stage> A... całuię nóżki; nayuniżeńszy służeczka.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Zapewne JPan Oszczędnicki?</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>On sam... służeczka prawdziwy.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Moia Ciotka...</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Słyszałem że zasłabła, żałuię, ubolewam...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Mnie rozkazała przyiąć...</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Jeśli mnie przeczucie nie myli, mam honor witać...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Jedna z Córek nieboszczyka Zacniewskiego.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Czy ta którą dla mnie łaskawie przeznaczył?... Ah ten skromny uśmiech zapewnia moie uszczęśliwienie... nie mylę się Pani, to Pani którą mi niebo zsyła...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>
-            <stage>(wskazuie na krzesło)</stage> Racz Pan...</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>
-            <stage>(do siebie biorąc krzesło)</stage> Śliczna... i tak skromna, będzie wyborna oszczędna gospodyni, właśnie dla mnie, rozpływam się z radości... <stage>(siada gdy usiądzie Amelia)</stage> Przybyłem do Warszawy ieszcze wczoray, nie byłem tu od lat dwudziestu, zbytki, zbytki, błądziłem po ulicach, chciałem wstąpić do Pocieiowa, a znalazłem się pomiędzy przepysznemi gmachami; szukałem przez trzy godziny Krakowskiey bramy, co za zgroza burzyć takie antyki; Pani tym ślicznym uśmieszkiem potwierdzasz moie zdanie, widzę że mamy iednakowy sposób myślenia; było moim zamiarem ieszcze wczoray ucałować rączki Pani, ale mi doniesiono żeście przez cały dzień nie bawiły w domu.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Zrana ieździłyśmy kupować szale i obstalować suknie szlubne. Ah szal cudowny; rzadko znaleźć gustownieyszy nad ten, który wybrałam dla siebie.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Za pozwoleniem Pani Dobrodziko, szal... teraz ciężkie czasy, sreberko no to uydzie, chociaż ginie procencik, ale kapitalik zostanie... ale szale... czyste marnotrawstwo; a ciężkie czasy Mościa Dobrodziko.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Ah ten szal kupiony za bezcen.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Za bezcen: o ieśli tak, to co innego, to dobrze, to arcy dobrze <stage>(do siebie z radością)</stage> będzie wyborna gosposia, iuż widzę iaki menazik zachowuie <stage>(głośno)</stage> To tedy za bezcen, ileż naprzykład kosztuie?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Uważ WPan, tylko pięćset dukatów!</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>
-            <stage>(chwytając się za głowę)</stage> Przebóg! czy dobrze usłyszałem, za pozwoleniem Pani Dobrodziko, iakto pięć...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Tak iest, tylko pięć... set dukatów, nieprawdaż, prawie za bezcen.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Ale Pani Dobrodziko ciężkie czasy, ciężkie czasy.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>To iest niczem w porównaniu innych, słyszałam, że pewna tuteysza Obywatelka rozwodzi się o to, że mąż niechciał iey kupić takiego szala, iaki widziała na Bagateli u pewney Mecenasowey.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Śliczna mi Bagatela, przecież nie ma w Kodexie artykułu zezwalaiącego na rozwód za szal.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Ale iest wyraźny artykuł, iż można żądać rozwodu, gdy się mąż źle obchodzi z żoną, a możesz bydź gorsze obchodzenie się odmówić żonie szala, ieśli się iey podobał.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Ta Panna choć młoda a zna się dobrze na artykułach prawnych... oy źle...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Lecz wróćmy do dalszych wczorayszych sprawunków; pochlebiam sobie, że Pan z upodobaniem słuchać będziesz, gdy mu opiszę moią suknię szlubną.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Słucham Pani Dobrodziko?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Spód z atłasu weneckiego, u dołu garnirowanie z hiiacyntów, róż i stokroci, na wierzchu tunika koronkowa spinana goździkami i hortensyą, dobór kwiatów i układ girland przecudowny, Boski, ale nadewszystko goździki do zachwycenia.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Goździki... no to uydzie, w żaden sposób nie mogą wiele kosztować!</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Cena umiarkowana, cała suknia z ozdobami na głowę tylko kosztuią 150. luidorów w Paryżu.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Za goździki aż tyle... za pozwoleniem Pani Dobrodziko ciężkie czasy, bardzo ciężkie czasy, i na te goździki trzeba przedać pięćset korcy owsa.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Potem oglądaliśmy iuż zamówiony ekwipaż, wystaw sobie WPan, kareta prosto z Londynu, kocz wprawdzie robiony w Warszawie ale ieden z nayparadnieyszych, cztery anglizowane kasztanki, a szory iakie ledwo nowy Król Angielski mieć może.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Za pozwoleniem Pani Dobrodziko ia mam bardzo porządną i ieszcze nie podszarzaną landarkę...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Ah fi... Któż by teraz śmiał pokazać się w landarce... Po południu zwiedziłyśmy magazyny meblów, wybrałam wszystko co tylko nam potrzebne do przystoynego ubrania domu, między innemi zachwycisz się Panie Oszczędnicki nad kolumną z mozaiki rzymskiey; serwisem z porcelany sewskiey, trzema gracyami bronzowemi, i prześlicznym Amorkiem z marmuru de Karara – Oh powiadam WPanu nic równego, iest on dłuta iednego z uczniów Kanowy, co za dowcip w oczach, iaka cała układność.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Za pozwoleniem, ile też ten Amorek ma kosztować?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Zda mi się... tak trzy tysiące złotych iuż z transportem...</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Dziwna rzecz, Amorek więcey kosztuje niż mi żyd przez cały rok płaci arendy z karczmy będącey na pocztowym trakcie – Pani Dobrodziko ciężkie czasy na Amorki, i ośmielam się Pani donieść, że mam z łaski Boskiey dwór porządny, należycie ozdobiony, i zupełnie się obeydę bez Amorków.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Dwór, o którym WPan mówisz, zapewne iest na wsi?</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>W moiey własney wiosce, z czystą hipoteką, niebciążoney żadnym długiem.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>To dobrze, ale ia mówię o meblowaniu domu w Warszawie.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>A cóż mi do Warszawy? ciężkie czasy bawić w tem miasteczku; przybyłem jedynie podług umowy aby się z Imość Ciotuleńką ułożyć o naszym maryażu, i po weselu w imię Boskie ruszemy na wieś, dawszy krzyżyk na zawsze Warszawie.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>WPan zapewne żartujesz?</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>
-            <stage>(nieco iuz rozgniewany)</stage> Nie żartuię, iakem poczciw, nie żartuię.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Dla odmiany w pożyciu możemy pare miesięcy letnich przepędzić na wsi, pieścić się widokami natury, słuchać szczebiotania słowików, bawić się skokami niewinnych baranków, ale przez resztę roku musiemy, <stage>(serio)</stage> tak musiemy mieszkać w stolicy.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Ja pilnuię zniwiarzów, oraczów, siedzę w stodole, w spichlerzu, ślicznie bym się wykierował, słuchaiąc szczebiotania słowików i patrząc na barany, ale za pozwoleniem – na te sprawunki któreś Pani wymieniła, któż, ma łożyć?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Wyprawa należy do mnie; ekwipaż zaś i meble do Pana młodego, przecież taki iest zwyczay, spodziewam się uczynić Panu przysługę, zakupuiąc te rzeczy w iego imieniu.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Meble do mnie? mam zaś za Amorka wydać całoroczną arendę? <stage>(wstaie rozgniewany)</stage>
-          </p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Wszakże móy posag wystarczy...</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>
-            <stage>(siada nagle udobruchany)</stage> Posag... prawda Pani Dobrodziko... dwakroć piędziesiąt tysięcy?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>W gotowiźnie.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>W gotowiznie... prawda... śliczna rzecz w ciężkich czasach, a zatem możemy kapitulować, iuż będziem słuchać słowików i patrzyć na baranki, ale do Warszawy nie tak często będziemy przyieżdzać.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Ale wierzay mi WPan to nie tak wiele kosztuie.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>
-            <stage>(ułagodzony)</stage> Nie tak wiele kosztuie? to dobrze, to arcy dobrze na ciężkie czasy, naprzykład niech Pani proponuie maluteczki budżet.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Komorne niepowinno więcey kosztować iak 400. dukatów – Pięć obiadków przez tydzień na dobranych osób dwanaście, trzy wieczory z wieczerzą na osób 50. loża ambonowana na obadwa Teatra, ekwipaz dla mnie i dla Pana, kredyt u pięciu Marchand de Modes i siedmiu Kupców galanteryowych; Kamerdyner, Kucharz, trzy Panny, czterech staiennych, czterech lokai, Swaycar, Zakiet, Metrowie do śpiewania, fortepianu, rysunku, na nieprzewidziane wydatki pewna kwota, i iak zowiemy kieszonkowa expens miesięcznie ze trzysta dusiów, otóż wszystko.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Wszystko?... Bagatella, za pozwoleniem Pani Dobrodzika ile wiem wychowałaś się na wsi, skądże taka znaiomość tych wszystkich potrzeb?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Niesądź WPan abyśmy i na wsi będąc Pannami, niewiedziały iak żyć należy poszedłszy za mąż, dobra edukacya obiaśnia nas w tey mierze.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Ciężkie czasy a taka edukacya, kłaniam uniżenie <stage>(do siebie)</stage> zastanówmy się... posag dwakroć piędziesiąt tysięcy, procent od nich daymy na to 18. tysięcy... z drugiey strony szal, kredyta siedmiu Kupców, Szwaycar, anglizowane kasztanki... trzy gracye, szczebiotania słowików a nadewszystko ten diabelski amorek... ciężkie czasy... moia wioska za kwartał poszłaby do rąk galanterników; miałem też poco czterdzieści mil iechać do stolicy... co za szczęście że iey oyciec zostawił warunek wrócenia słowa.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Pan się zamyślasz? zapewne o Amorku?</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Powtarzam Pani Dobrodziko ciężkie czasy na Amorki.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Jeszcze muszę Panu donieść, że należy podług wszelkich reguł, abyśmy odbyli iaki woiazik, zwiedzili obce kraie.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>Dla Boga, co ia słyszę?... obce kraie! a cóżby to kosztowało.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Tak, tak, Dobrodzieiu musisz poruszyć spleśniałych dusiów i przewietrzyć ie za granicą, to iest zwyczaiem powszechnie przyjętym.</p>
-        </sp>
-        <sp who="#oszczednicki">
-          <speaker>OSZCZĘDNICKI.</speaker>
-          <p>
-            <stage>(porywa się)</stage> Ciężkie czasy... Jak tylko Imość Ciotuleńka powróci do zdrowia, będę miał szczęście ucałować iey rączki, a teraz nie przeszkadzam Pani, może się wybierasz kupować iakiego Amorka, nieprzeszkadzam... i... i... całuię nóżki, nayuniżeńszy służeczka <stage>(do siebie)</stage> O to mi Dobrodzika! owies po 4. złotych, a Amorek trzy tysiące, ciężkie czasy... <stage>(odchodzi)</stage>
-          </p>
-        </sp>
-      </div>
-      <div n="5" type="scene">
-        <head>SCENA V.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#amelia">AMELIA.</rs>
-          </p>
-        </stage>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>
-            <stage>(sama)</stage> Moia dobra siostra byłaby nieszczęśliwą z takim spekulantem, ani wiek, ani sposób myślenia nie są stosowne. A zatem rozrywając ten związek, wypełnia się dobry uczynek. Podobny sknera powinien tylko żyć z sobą. Poiazd zaieżdża <stage>(biegnie do okna)</stage> Kareta... wszystkie okna zamknięte lokay otwiera powoli... pokazuie się... Aha, bez wątpienia Pan Spokoynicki... wysiada, bawełna w uszach... iakiś Elegant przebiega śpiewaiąc trącił go... Ah iaka mina... rozgniewany... każe się prowadzić pod ręce, osobliwszy oryginał <stage>(oddala się od okna)</stage> z tym Jegomością może trudniey mi wypadnie odegrać rolę.</p>
-        </sp>
-      </div>
-      <div n="6" type="scene">
-        <head>SCENA VI.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#amelia">AMELIA.</rs>
-            <rs key="#spokoynicki">SPOKOYNICKI.</rs> (i) <rs key="#lokay">LOKAY.</rs>
-          </p>
-        </stage>
-        <sp who="#lokay">
-          <speaker>LOKAY.</speaker>
-          <p>
-            <stage>(we drzwiach wołaiąc mocno)</stage> Jegomość Pan Spokoynicki!</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(zatykaiąc uszy)</stage> Dla Boga! móy przyiacielu dlaczegóż tak donośnie mnie oznaymiasz, ia krzyku znosić nie mogę. <stage>(postępuie na przód)</stage>
-          </p>
-        </sp>
-        <stage>(Lokay kładzie na stoliku kapelusz, rękawice, florety i odchodzi)</stage>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>W imieniu moiey Ciotki...</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Z boleścią serca dowiedziałem się że zachorowała, a któż w mieście może bydź zdrowy... powietrze zagęszczone, ustawiczny tentent poiazdów, prawdziwie od wczoray nie czuię moiey głowy. Panią tylko samą znayduię? a iey siostry?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Biorą w tey chwili lekcyą tańca, mnie zaś rozkazano przyiąć Pana iako...</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Jako przyszłego iey małżonka, wielkie to dla mnie szczęście, nie omyliłem się w oczekiwaniu <stage>(do siebie)</stage> bardzo spokoyna, skromna, melancholią wydaią iey oczy, dopełnione wszystkie moie nadzeie.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>
-            <stage>(wskazuiąc na krzesło i siadaiąc)</stage> Proszę...</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(siadaiąc)</stage> Dla zdrowia i spokoyności obrałem mieszkanie w Aleach, ale się zawiodłem, tyle karet, koczów, dorożek uwiia się tamtędy, taka kurzawa iż iestem ogłuszony i nabawiłem się uprzykrzonego kaszlu.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Życzyłabym mieszkać na Krakowskiem przedmieściu.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Ah zmiłuy się Pani, piędziesiąt doboszów wali ustawicznie w bębny, mógłbym umrzeć w godzinie.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Jednak ślicznysz to widok nasza woyskowa parada, oficerowie tak zgrabni...</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Oficerowie? czy Pani lubisz taką hałaśliwą paradę?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Przepadam za nią.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Tem gorzey... przepadam rzekła... hm, tem gorzey. <stage>(głośno)</stage> Słyszałem przecież że Pani iesteś melancholiczną, że równie iak ia przekładasz świętą spokoyność nad wszelkie krzyki wielkiego świata.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Dawniey...</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Jakto dawniey?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Od nieiakiego czasu zupełnie się zmienił móy charakter, przekonałam się że melancholia iest zwolna niszczącą trucizną, że się łączy z hipokryzyą i tysiącznemi przywarami czyniącemi życie nieznośnem. Muszę, powinnam WPanu wyznać otwarcie że iestem wesołą, może nawet za nadto roztrzepaną i pustą, ale za dobroć moiego serca zaręczam, i nic takiego w moiem postępowaniu nie dostrzeżesz, przez cobym zasłużyła na iego niechęć lub naganę.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Roztrzepana, pusta, tem ci gorzey... prawda... co to za filuterne oczy... tem gorzey.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Słyszałam żeś WPan z natury flegmatyk; czuię się przeto bydź obowiązaną wszelkich dokładać usiłowań aby go rozrywać; lubo wychowana na wsi, iednak wiele się uczyłam; naprzykład ieżdżę na koniu iak Kozak.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Panna na koniu?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Galopuię powiadam WPanu.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Tem gorzey, galopuie... tem gorzey.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Mam Dereszka i Siwosza, oba ot tak wysoko o zakład przeskoczą, Dereszek dla mnie, a Siwosz dla Pana.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Dla mnie?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Wszakże razem będziem się ubiegać do mety?</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Ja mam galopować? w życiu moiem nie siedziałem na koniu, nawet nigdy nie ieździłem pocztą prócz w Saxonii.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Jednak mieszkaiąc w oddaleniu, podobna rozrywka iest nieodbicie potrzebną, iuż ia Pana przyzwyczaię do galopu, za trzy miesiące nie będzie równego iezdca.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Trzy miesiące... zawczasu poty biią na mnie.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Dla rozerwania melancholii, nayskutecznieyszą iest muzyka, wszak prawda?</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Muzyka na moich słabych nerwach za mocne czyni wrażenie, ieszcze dumki, romanse, znieść mogę, ale każde alegro a osobliwie forte przeraża mnie, dla tey przyczyny nie bywam nawet w kościele, gdy huczą organy, a opera z chorami iest moiem zabóystwem.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Dumki, romanse? ah to przedziwnie, siaday tu Panie Spokoynicki <stage>(porywa Spokoynickiego za rękę i prędko prowadzi do Fortepiana, przy którem siada i przymusza go usiąść – Zaczyna grać adagio i w krotce bierze akorda mocne, stopniuiąc forte i fortissime, w miarę tey muzyki Spokoynicki okazuie poruszenia, każdy mocny akord przeraża go)</stage>
-          </p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(po naymocnieyszym akordzie porywa się)</stage> Ah to nadto... na miłość Boską zaklinam przestań Pani, czuię tak gwałtowne wzruszenie, ten bas tak mi szumi w uszach...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>
-            <stage>(wstaiąc od Fortepiana)</stage> Muzyka przecież iest naymilszą zabawą.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Czy Pani zwykłaś często rozrywać się muzyką?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Muszę się exercytować, i grywam codziennie przez pięć godzin.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Tem gorzey... pięć godzin hałasu... oh tem gorzey.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Za przybyciem do Warszawy zaczęłam się uczyć fechtować.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Fechtować... dla Boga tem gorzey. <stage>(głośno)</stage> pozwól Pani uczynić uwagę że dla Panienki fechtowanie niewiem na co się może przydać.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Tysiączne korzyści, między innemi, maiąc męża tak spokoynego, powinnam umieć zastąpić go w każdey przygodzie ieśliby mąż został wyzwany na poiedynek...</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Ja na poiedynek?... a niechże Bóg zachowa, u mnie święta spokoyność iest naywiększym skarbem, i ia z całym światem żyię w naylepszey zgodzie.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Któż może przewidzieć rozmaite okoliczności. Możesz Pan nastąpić komu na nogę.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Ja każdego omiiam o pół mili.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Możesz uprzedzić kogo w tańcu na balu.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Jak żyię niebyłem na żadnym balu.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Możesz na kogo spoyrzeć tak iż się to niepodoba.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Jużcić spoyrzeć muszę, ale bez chęci obrażenia.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Otóż i spoyrzenie częstokroć obraża, iesteś Pan wyzwanym, ia stawam za Pana; <stage>(nakrywa głowę kapeluszem stosowanym, bierze rękawice i floret)</stage> Uważ tylko... <stage>(fechtuie)</stage> un... deux... trois... pif, paf, o... iuż przeciwnik bez duszy...</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Oh i ia prawie iestem bez duszy.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Nieprawdaż, co za szczęście mieć takiego przyiaciela.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Ja chciałem żony łagodney iak baranek, a to Dragan – oy tem gorzey – <stage>(głośno)</stage> pozwól Pani otwarcie powiedzieć, iż zamiast tych burzliwych zabaw, byłbym nierównie szczęśliwszy, gdybyśmy czas trawili spokoyniey, naprzykład czytanie...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Czytanie?... ah czemuż nie, ia czytam przedziwnie, owszem nie tylko będę Panu czytać ale i deklamować nawet z pamięci – wszystkie sławnieysze wyiątki z naszych autorów i tłómaczów klasycznych, niech Pan słucha <stage>(co mi naprzód przyydzie do myśli, naprzykład z Cyda)</stage>
-            <stage>(staie w pozycyi i deklamuie tragicznie, a ostatnie wiersze iak naymocniey)</stage> Powstańcie teraz wszystkie potęgi choć z piekła,/ Łączcie się Kastyllanie, Nawarro, Maurowie!/ I kto się tylko mężem w Hiszpanii zowie.../ Jakaż nadludzka siła w moiem sercu płonie,/ Walczyć mam dla miłości w Xymeny obronie;/ Ah tą lubą nadzieią ręka ośmielona/ Na wszystko się odważy! i wszystko pokona!</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(przerażony mocno deklamacyą, mówi do siebie)</stage> Otóż miałbym tragiedyą wrzeszczącą w domu, gdy tylko dramy mogą mnie zaiąć... oy tem gorzey!</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Wspomniałeś Panie Spokoynicki żeś nigdy w życiu nie był na balu, iakto wcale nie tańczysz?</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Ja tańczyć? byłoby to moim grobem.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Muszę wyznać wszystko; wszakże lepiey że przed ślubem poznamy nasz sposób myślenia i nasze charaktery, mnie się zdaie że podobna otwartość iest cnotą.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Zapewne, zapewne.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Taniec iest moią ulubioną rozrywką.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Tem gorzey.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Założę się że móy małżonek przy moiey pomocy tak będzie tańczył iak Westris – Figurka zgrabna, nóżka proporcyonalna, dalibóg musisz tańczyć, sprobuymy... stań Pan w drugiey pozycyi <stage>(zaczyna nucić)</stage> Niech Pan zaczyna...</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Tem mnie iuż dobiła... Ah... iakie szczęście że słowo może bydź cofniętem.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Czy Pan słyszysz?</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>
-            <stage>(przestraszony)</stage> Cóż tam znowu?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Muzyka woyskowa i bębny... parada, będą defilować, stańmy w oknie przypatrzyć się...</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Parada... a zatym... bo... któraż godzina?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>W pół do iedenastey.</p>
-        </sp>
-        <sp who="#spokoynicki">
-          <speaker>SPOKOYNICKI.</speaker>
-          <p>Właśnie o tey godzinie przyrzekłem odwiedzić Kasztelana... czeka na mnie, pozwolisz Pani że ią pożegnam. <stage>(do siebie)</stage> Od powietrza, głodu, ognia, woyny i od takiego roztrzepańca, zachoway Boże każdego spokoynego człowieka. <stage>(odchodzi)</stage>
-          </p>
-        </sp>
-      </div>
-      <div n="7" type="scene">
-        <head>SCENA VII.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#amelia">AMELIA.</rs>
-          </p>
-        </stage>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>
-            <stage>(sama)</stage> Ah iakieyże to żony potrzeba dla takiego człowieka, żyiącąby zagrzebał, niech sobie spokoynie przepędza chwile, w małżeństwie tylko zupełna zgodność umysłów może przynieść uszczęśliwienie. <stage>(przy oknie)</stage> Oh iak prędko wsiadł do karety... każe iechać śpieszno... a zatym ucieka odemnie... a zatym drugi dobry uczynek, bo ani on dla moiey siostry ani dobra Karlusia dla niego. Cóż to? iaki śliczny karykiel na dwóch kołach, angielczyk na przodzie... tu stanął... brawo to Pan Wietrznicki. <stage>(oddala sie od okna)</stage> Ta wizyta będzie wcale innego rodzaiu...</p>
-        </sp>
-      </div>
-      <div n="8" type="scene">
-        <head>SCENA VIII.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#amelia">AMELIA.</rs>
-            <rs key="#wietrznicki">WIETRZNICKI.</rs>
-            <rs key="#lokay">LOKAY.</rs>
-          </p>
-        </stage>
-        <sp who="#lokay">
-          <speaker>LOKAY.</speaker>
-          <p>Hrabia Wietrznicki. <stage>(odchodzi)</stage>
-          </p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Comment, personne encoredans le salon? <stage>(postrzega Amelią)</stage> ah pardon!</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Mości...</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Sliczna, anim się spodziewał... iakie oczy... iaka figurka, a przytem gotowy posag, brawo, ślicznie wyydę na moich interessach <stage>(do Amelii)</stage> Je vous attendais avec une vive impatience.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Kłaniam się Jegomości.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Jegomości?... Que son aimble légerté me plaît.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Jeszcze raz kłaniam się Jegomości.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Elle est ravissante! czy Panna Zacniewska?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Tak iest Mości Jegomość!</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Ta która dla mnie przez Oyca...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Przez Oyca Mości Jegomość.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Mais pour quoi ten Jegomość?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>To, nie Jegomość!</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Le compliment n’est pas du tout galant.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Nierozumiem Jegomości...</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Czy Pani nie mówisz po francuzku?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Ah niech mnie Bóg zachowa.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Czy Pani teraz prócz Warszawy bawiłaś w iakiey stolicy?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Byłam raz w Maryampolu, raz w Balwierzyszkach, dwa razy w Indurze i trzy razy w Suwałkach.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Widać to... widać... Ah i ia prawie nie znam Oyczyzny.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>To źle.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Znam Drezno, Wiedeń, Berlin, Londyn, Rzym, a nadewszystko zachwycaiący, czarujący Paryż.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>To bardzo źle.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Dla czegóż?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Bo u nas zboże tanie, a WPanowie trwonicie pieniądze po cudzych kraiach.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Brawo! Pani iak uważam iesteś przedziwną gospodynią.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Umiem sadzić kartofle, zaprawiam przedziwnie ćwikłę, znam się doskonale na urządzeniu pekefleyszu, a w naszych stronach nikt lepiey nie potrafi gotować boćwiny.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Qu’est–ce que ça boćwina?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Gdyby Jegomość znał się na naszych potrawach i zasmakował w nich za młodu, tobyś tyle nie przeszastał na zagraniczne łakotki.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> Diable! śliczniem trafił... naybardziey mi idzie o to, żem iuż zaręczył posagiem zpłacić połowę dłużników – ha probuymy ieszcze – <stage>(głośno)</stage> Nie tracę nadziei, że Pani żyiąc w stolicy, zmienisz ten ton prowincyonalny. Przebacz Pani że mówię otwarcie, wszakże idzie o nasze uszczęśliwienie. Będziem utrzymywać dom pierwszego rzędu, dobrane i smakowne wieczory...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>O nie...</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Comment nie...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Ja zawczasu idę spać, bo raniuchno wstaię do gospodarstwa.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Przynaymniey możemy bydź w Teatrze.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>O nie...</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>I to nie?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Gdy mi Ekonom doniesie że dobrze wszystko poszło w polu, gdy klucznica doniesie że przybyło kilkoro cielątek i iagniątek, gdy dobrzy rolnicy po całotygodniowey pracy przyydą w niedzielę do kościoła i za mnie iako dobrą Panią będą Pana Boga prosić, to mi to prawdziwa pociecha; lepsza od wszystkich Komedyy, bo trzeba Jegomości wiedzieć, że iakkolwiek iestem parafianka i nie znam się na waszey elegancyi, iednak będę żyć w zgodzie z sąsiadami, pracować na chleb, i udzielać biednym tyle ile tylko Pan Bóg pozwoli.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Więc Pani koniecznie żądasz mieszkać na wsi? Któż są iey sąsiedzi, o których wspominasz?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Pani Strukczaszyna Gawędzka, przedziwna kobiecina, Państwo Stolnikostwo u których żyie się prawdziwie po staropolsku, Państwo ex Ciwunostwo, Oyciec Gwardyan i wielu innych przedziwnych obywateli.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> A iabym skonał za trzy dni między temi karykaturami <stage>(głośno)</stage> czy Pani lubisz czytywać? ia mam wybór dzieł naytkliwszych Autorów.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>O ia także nauczyłam się na pamięć śpiewów Historycznych Niemcewicza.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Cóż to iest? ia tego nieznam.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>To źle że Jegomość nie znasz naszych książek, a o cudzych zapewne rezonuiesz iak z partesów.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>
-            <stage>(do siebie)</stage> C’est incroyable! nieśmiałbym się światu pokazać z tym klockiem <stage>(głośno)</stage> Pani iak uważam iesteś nader szczerą, ufaiąc tey szczerości śmiem zapytać się czy też będę tyle szczęśliwym pozyskuiąc iey miłość?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>O nie...</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Comment? przecież moia figura nie iest odrażaiącą?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Co mi tam po figurze; ia wprzód chcę się zapewnić o sercu.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Pani przy mnie możesz figurować po między osobami dobrego tonu! będziesz Hrabiną.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Ah prawda, powiadał nasz Oyciec żeś Jegomość Hrabia, ale czy też Jegomość tym tytułem zapłacisz choć połowę swoich dłużników?</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>
-            <stage>(obrażony)</stage> C’est trop <stage>(do siebie)</stage> Co tu robić?... iuż wie o długach... c’est trop! c’est cruel! <stage>(głośno)</stage> pozwoli Pani pożegnać...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Kłaniam się Jegomości.</p>
-        </sp>
-        <sp who="#wietrznicki">
-          <speaker>WIETRZNICKI.</speaker>
-          <p>Czy na długo?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Jak wola i łaska!</p>
-        </sp>
-        <stage>(Wietrznicki po kilku wzaiemnych ukłonach i niemey scenie wybiega)</stage>
-      </div>
-      <div n="9" type="scene">
-        <head>SCENA IX.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#amelia">AMELIA.</rs>
-          </p>
-        </stage>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>
-            <stage>(sama)</stage> Z Panem Hrabią krótko się skończyło. I ten człowiek śmiał żądać ręki dobrey szlachcianki, którąby za dwa tygodnie opuścił... o nie, nie Mości Hrabio, masz wiele podobnych tobie Hrabin, do nich się uday, do nich – <stage>(przy oknie)</stage> Zaieżdża Kolasa... Ah to zapewne Pan Cześnik.... sześć koni... dwa ogromne hayduki, wysiada... szanowna postać... <stage>(odchodzi od okna)</stage> prawdziwie, czuię skrupuł uwodzić takiego Weterana, lecz nie... taki zacny staruszek powinien doznawać prawdziwego szczęścia, powinien albo nie mieć iuż żadney, albo taką żonę któraby mu poświęciła serce niepoświęcone nikomu; a serce moiey siostry iuż iakiś Xawerek obiął w possessyą – ta uwaga uwalnia moie sumienie, powinnam dokonać raz ułożonego planu.</p>
-        </sp>
-      </div>
-      <div n="10" type="scene">
-        <head>SCENA X.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#amelia">AMELIA.</rs> (i) <rs key="#staruszkiewicz">CZEŚNIK.</rs>
-            <rs key="#lokay">LOKAY.</rs>
-          </p>
-        </stage>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>
-            <stage>(we drzwiach daiąc pieniadze lokaiowi)</stage> To dla ciebie móy przyjacielu!</p>
-        </sp>
-        <sp who="#lokay">
-          <speaker>LOKAY.</speaker>
-          <p>Boday się święciły takie staropolskie odwiedziny – <stage>(odchodzi)</stage>
-          </p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>
-            <stage>(wszedłszy)</stage> Afekta moie śpieszę złożyć u stopek Podstolanki Dobrodziki. [czysty portret niebożki świętey pamięći Podstoliny]; Godny rodzic WPanny niegdyś był moim przyiacielem od serca; skoro się dowiedział żem powtórnie owdowiał, oświadczył że chce we mnie mieć zięcia, z radością akceptowałem taki honor; bo byłem przekonany że iakie drzewo taki frukt, Nihil tam dificile est, quam differre gaudia. Przybyłem tandem dla dopełnienia woli nieboszczyka rodzica, i widzę żem się nie zawiódł w opisaniu iey osoby, ia też viceversa rekompensuiąc ile możności wyświadczony mi fawor, poświęcę się na usługi Podstolanki Dobrodziki. Jestem w prawdzie podtatusiały, ale ieszcze dosyć dziarski, przy tem nie znudzę Panny bom gadatywus i umiem tysiące dykteryiek – Maiąteczek z łaski Boskiey nieszpetny, a przywara sknerstwa iest mi obcą, możesz waszmość Panna rozrządzać moią szkatułą podług woli.</p>
-        </sp>
-        <stage>(Amelia wskazuie na krzesło i siada)</stage>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>
-            <stage>(usiadłszy)</stage> Ależ Dobrodziko iaka teraz u nas droga, iakie gościńce! nie mogłem się dosyć wydziwić, przybywszy iednak do stolicy, musiałem się nagniewać – Nim kuchnia moia przybędzie, wstąpiłem do naylepszey iak mi powiedziano garkuchni, podaią ogromny reiestr potraw, ale ten reiestr nie pisany po naszemu, oświadczam: daycie mi obiad iak naylepszy, ale panowie posługacze tylko parle parle, ani oni mnie, ani ia ich nie zrozumiałem, wyszedłem rozgniewany; patrzę po domach, iakieś piękne złote napisy, ale kaduk mi potem, gdy nie polskie, pytam się co ten napis znaczy, powiadaią mi że tu mieszka krawiec, tu pierniki przedaią, tam ubiory kobiece... a co mnie naybardziey obruszyło, nawet rzeźnik po cudzoziemsku doniosł że są u niego kiełbasy... Stary szlachcic który za młodu nieuczył się po francuzku, przybywszy do stolicy swego królestwa, musi błądzić albo przyiąć tłumacza aby mógł podieść lub co kupić.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>C’est trop vrai.</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Jak, iak?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Hélas! votre colère me fait trembler.</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Za pozwoleniem, niedosłyszałem?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Mais vous avez une phisionomie de bonté qui me rassure.</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Przyznam się żem ieszcze nie zrozumiał?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Vous me surprenez; on m’en avait fait un tout autre portrait. Quoi? c’est vous qui vous nommnez Monsieur Cześnik Staruszkiewicz?</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Cześnik Staruszkiewicz na usługi, to Bogu dzięki zrozumiałem, ale resztę tak iakbym był na niemieckiem kazaniu.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>J’espère que vous ne conserverez pas toujours cette colêre, ah! de grâce calmez vous!</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Możem się omylił... wszakże mam honor witać Podstolankę Dobrodzikę?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Oui Monsieur.</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Córkę Zacniewskiego?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Oui Monsieur.</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Którą per correspondentiam zaręczył ze mną iey Oyciec.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Oui Monsieur.</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Imość Ciotka iest słaba?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Oui Monsieur.</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Otrzymałem pozwolenie abym poznał moią narzeczoną, o trzy kwadranse na iedynastą?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Oui Monsieur.</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Przybyłem tedy z oświadczeniem...</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>J accepte avec joie une offre faite si obligeament. Vous êtes bien bon.</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Ey co tam bon, bon, ia tylko umiem rozmawiać po polsku i po łacinie.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Hélas!</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>A WPanna czy wcale nieumiesz po naszemu rozmawiać?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Presque rien.</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Móy Boże, co się też to stało poczciwemu Podstolemu, zrobić z rodowitey szlachcianki cudzoziemkę!</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Et comment faut–il donc être pour vous plaire?</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>A to pięknie, żebym ieszcze do żony miał trzymać tłumacza – Jakże? to my się wcale nie zrozumiemy?</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Hélas!</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>A zatem nie mam co robić – Niechcąc Waszmość Pannę inkomodować moią prezencyą, żegnam.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Votre servante!</p>
-        </sp>
-        <sp who="#staruszkiewicz">
-          <speaker>CZEŚNIK.</speaker>
-          <p>Uniżony. <stage>(do siebie)</stage> Już widzę sądny dzień blisko; Biedni moi koledzy Cześnicy i Staruszkiewiczowie. <stage>(odchodzi)</stage>
-          </p>
-        </sp>
-      </div>
-      <div n="11" type="scene">
-        <head>SCENA XI.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#amelia">AMELIA.</rs>
-            <rs key="#ludwika">LUDWIKA.</rs>
-            <rs key="#karolina">KAROLINA.</rs>
-            <rs key="#jozefa">JOZEFA.</rs> (i) <rs key="#konstancya">KONSTANCYA.</rs>
-          </p>
-        </stage>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>To iuż wszyscy czterech.</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>Słyszałyśmy wszystko.</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>Jakaż wdzięczność!</p>
-        </sp>
-        <sp who="#konstancya">
-          <speaker>KONSTANCYA.</speaker>
-          <p>Kochana siostro życie nam przywracasz.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Że Panów Oszczędnickiego, Spokoynickiego i Wietrznickiego pozbędziecie się wiekie dla was szczęście, ale poczciwy Cześnik bardzo mnie uiął, moie serce dotąd Bogu dzięki wolne, i gdyby chciało przeznaczenie, dalibóg wzięłabym tego Polonusa i ręczę żebym była z nim szczęśliwą.</p>
-        </sp>
-      </div>
-      <div n="12" type="scene">
-        <head>SCENA XII.</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#amelia">AMELIA.</rs>
-            <rs key="#ludwika">LUDWIKA.</rs>
-            <rs key="#karolina">KAROLINA.</rs>
-            <rs key="#jozefa">JOZEFA.</rs>
-            <rs key="#konstancya">KONSTANCYA.</rs> (i) <rs key="#lokay">LOKAY.</rs>
-          </p>
-        </stage>
-        <stage>(Lokay oddaie trzy bilety Amelii i odchodzi)</stage>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>
-            <stage>(patrząc na podpisy)</stage> Ten do ciebie Panno Ludwiko! czytay.</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>
-            <stage>(czyta)</stage> „Ciężkie czasy Pani Dobrodziko, ciężkie czasy; przez krótką chwilę w którey miałem szczęście rozmawiać z Panią, przekonałem się iż cały móy majątek niewystarczyłby na ieden tydzień utrzymania życia podług woli i gustu WPanny Dobrodziki, nadewszystko Amorek tak mnie zaambarasował, iż nic mi innego nie pozostaie nad powtórzenie ciężkie czasy, ciężkie czasy, i wyznać żem iest WPanny Dobrodziki nayniższy służeczka.” Bonawentura Oszczędnicki.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>To formalna dymisya, a zatem Mościa Panno siostro Major od Ułanów iest twoim <stage>(oddaie list Karolinie)</stage> Teraz ty dowiedz się.</p>
-        </sp>
-        <sp who="#karolina">
-          <speaker>KAROLINA.</speaker>
-          <p>
-            <stage>(czyta)</stage> „Tem gorzey, wyznać muszę z boleścią serca, tem gorzey, gdym się przekonał, że Pani dopełniaiąc woli Oyca, zostałabyś nieszczęśliwą, poymuiąc małżonka maiącego tak sprzeczny charakter z iey ułożeniem. Racz Pani uznać to usprawiedliwienie za rzeczywiste i nie wypuszczay mnie z swoiey łaski.” Felicyan Spokoynicki.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>I ty odprawiona iesteś z kwitkiem – A zatem iuż tak dobrze iak byś była Komissarzową Obwodową <stage>(oddaie list Jozefie)</stage> No, obaczmy co też pisze twóy Adonis.</p>
-        </sp>
-        <sp who="#jozefa">
-          <speaker>JOZEFA.</speaker>
-          <p>
-            <stage>(czyta)</stage> „Mademoiselle! Przebacz Pani że nie mogąc się dobrze tłumaczyć w Oyczystym ięzyku, krótko donoszę iż niepodobna abyśmy sobie mogli wieczną wiarę przysięgować. Uważałem iż nie byłem szczęśliwy uiąć iey serce, co mnie przywiodło do rozpaczy, dla uśmierzenia którey wyieżdżam natychmiast do Paryża – Mais j’espère que vous êtes satisfaite de ma soumission.” Le Comte de Wietrznicki.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Bravo! ieszcze lepiey gdy się pozbędziesz takiego waryata. Ale dopiero trzy dymissye, Pan Cześnik podobno zostanie przy tobie Kostusiu!</p>
-        </sp>
-      </div>
-      <div n="13" type="scene">
-        <head>SCENA XIII. OSTATNIA</head>
-        <stage type="entrance">
-          <p>
-            <rs key="#amelia">AMELIA.</rs>
-            <rs key="#ludwika">LUDWIKA.</rs>
-            <rs key="#karolina">KAROLINA.</rs>
-            <rs key="#jozefa">JOZEFA.</rs>
-            <rs key="#konstancya">KONSTANCYA.</rs> (i) <rs key="#lokay">LOKAY.</rs>
-          </p>
-        </stage>
-        <sp who="#lokay">
-          <speaker>LOKAY.</speaker>
-          <p>Hayduk zadyszany przyniosł ten list. <stage>(odchodzi)</stage>
-          </p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Hayduk, aha to od zacnego Cześnika czytay Kostusiu, to się ciebie tycze.</p>
-        </sp>
-        <sp who="#konstancya">
-          <speaker>KOSTANCYA.</speaker>
-          <p>
-            <stage>(czyta)</stage> „Mościa Panno Podstolanko! prawda że non omni spiritui credendum est nielada ducha inspiracyi ma bydź powolna serc ludzkich inklinacya, wypróbowany przeto experymentem, widzę że trudno górnym sprzeciwić się ordynansom i w przeciwną dekretów Boskich podpadać kontrawencyą. Zwracam tedy dane słowo. Życzę tandem aby nowy szczęścia i wesela renascatur Waszmość Pannie Fenix, iako ten który iest wielce Jmość Panny uniżony sługa.” Wojciech Staruszkiewicz Cześnik Latyczewski.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Szkoda!</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>A zatem cała rzecz skończona.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>Nie, moie siostry, ieszcze nieskończona. Odważyłam się na wiele, a to ieszcze bez pozwolenia zwierzchności, udamy się teraz do Ciotki i opowiemy wszystko od A do Z; iest to rozsądna i zacna kobieta, ieśli ona potwierdzi moią sprawę, toście wygrały, w przeciwnym razie zniknie wasza nadzieia a cała wina spadnie na mnie.</p>
-        </sp>
-        <sp who="#ludwika">
-          <speaker>LUDWIKA.</speaker>
-          <p>Ah zapewne potwierdzi, wreszcie mamy listy naszych narzeczonych, tak iest potwierdzi, będziemy uszczęśliwionemi, ale iakże zdołamy ciebie wynadgrodzić kochana siostro.</p>
-        </sp>
-        <sp who="#amelia">
-          <speaker>AMELIA.</speaker>
-          <p>
-            <stage>(do Parteru)</stage> Łaskawe przyięcie mego usiłowania, stanie się dla mnie naydroższą nadgrodą.</p>
-        </sp>
-        <trailer>(KONIEC)</trailer>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Pięć siostr a jedna.</title>
+    <title type="sub">Komedya w jednym akcie</title>
+    <author>
+     <idno type="isni">000000007204066X</idno>
+     <idno type="wikidata">Q8861068</idno>
+     <persName>
+      <forename>Ludwik</forename>
+	  <forename>Adam</forename>
+      <surname>Dmuszewski</surname>
+     </persName>
+    </author>
+    <!-- Ludwik Adam Dmuszewski (1777-1847) -->
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC0 1.0</ab>
+      <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="originalSource">
+     <name>POLONA</name>
+     <idno type="URL">https://polona.pl/item/dziela-dramatyczne-l-a-dmuszewskiego-t-10-intryga-przed-slubem-piec-siostr-a-jedna,NjY0Mzg0NDg/108/</idno>
+     <idno type="URL">https://polona.pl/item/dziela-dramatyczne-l-a-dmuszewskiego-t-10-intryga-przed-slubem-piec-siostr-a-jedna,NjY0Mzg0NDg/</idno>
+	 <title>Dmuszewski, L.A., Dzieła dramatyczne L. A. Dmuszewskiego. T. 10, Pięć siostr a jedna, Wrocław 1823, s. 103-159.</title>
+     <availability>
+      <licence>
+       <ab>public domain</ab>
+       <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+      </licence>
+     </availability>
+    </bibl>
+   </sourceDesc>
+   <editionStmt>
+	<respStmt>
+	 <resp>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</resp>
+	</respStmt>
+   </editionStmt>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="ludwika" sex="FEMALE">
+      <persName>Ludwika</persName>
+     </person>
+     <person xml:id="karolina" sex="FEMALE">
+      <persName>Karolina</persName>
+     </person>
+     <person xml:id="jozefa" sex="FEMALE">
+      <persName>Jozefa</persName>
+     </person>
+     <person xml:id="konstancya" sex="FEMALE">
+      <persName>Konstancya</persName>
+     </person>
+     <person xml:id="amelia" sex="FEMALE">
+      <persName>Amelia</persName>
+     </person>
+	 <person xml:id="staruszkiewicz" sex="MALE">
+      <persName>Staruszkiewicz</persName>
+     </person>
+     <person xml:id="wietrznicki" sex="MALE">
+      <persName>Wietrznicki</persName>
+     </person>
+     <person xml:id="oszczednicki" sex="MALE">
+      <persName>Oszczędnicki</persName>
+     </person>
+     <person xml:id="spokoynicki" sex="MALE">
+      <persName>Spokoynicki</persName>
+     </person>
+     <person xml:id="lokay" sex="MALE">
+      <persName>Lokay</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+   <textClass>
+    <keywords>
+     <term>Komedia</term>
+    </keywords>
+    <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+   </textClass>
+  </profileDesc>
+  <revisionDesc>
+   <listChange>
+    <change when="2023-02-23">file conversion from source with some corrections (no text interference)</change>
+   </listChange>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1820">
+    <desc/>
+   </event>
+   <event type="premiere" when="1820-03-10">
+    <desc>Pięć siostr a jedna: komedya w 1. akcie wystawiona pierwszy raz na Teatrze Narodowym w Warszawie dnia 10 Marca 1820</desc>
+   </event>
+  </listEvent>
+  <listRelation>
+   <relation name="wikidata" active="https://dracor.org/entity/pol000001" passive="http://www.wikidata.org/entity/Q118129428"/>
+  </listRelation>
+ </standOff>
+ <text>
+  <front>
+   <div>
+    <titlePage>
+     <docTitle>
+      <titlePart type="main">PIĘĆ SIOSTR<lb/> A<lb/> JEDNA,</titlePart>
+      <titlePart type="sub">KOMEDYA W JEDNYM AKCIE</titlePart>
+     </docTitle>
+	 <docImprint>
+	  <p>Wystawiona pierwszy raz na Teatrze Narodowym w Warszawie dnia <docDate>10 Marca 1820. R.</docDate></p>
+     </docImprint>
+    </titlePage>
+    <castList>
+     <head>OSOBY</head>
+     <castItem>
+      <role xml:id="#ludwika">LUDWIKA.</role>
+      <roleDesc>Zacniewska siostra</roleDesc>
+     </castItem>
+     <castItem>
+      <role xml:id="#karolina">KAROLINA.</role>
+      <roleDesc>Zacniewska siostra</roleDesc>
+     </castItem>
+	 <castItem>
+      <role xml:id="#jozefa">JOZEFA.</role>
+      <roleDesc>Zacniewska siostra</roleDesc>
+     </castItem>
+     <castItem>
+      <role xml:id="#konstancya">KONSTANCYA.</role>
+      <roleDesc>Zacniewska siostra</roleDesc>
+     </castItem>
+	 <castItem>
+      <role xml:id="#amelia">AMELIA.</role>
+      <roleDesc>Zacniewska siostra</roleDesc>
+     </castItem>
+     <castItem>
+      <role xml:id="#staruszkiewicz">CZESNIK STARUSZKIEWICZ.</role>
+      <roleDesc/>
+     </castItem>
+	 <castItem>
+      <role xml:id="#wietrznicki">HRABIA WIETRZNICKI.</role>
+      <roleDesc/>
+     </castItem>
+     <castItem>
+      <role xml:id="#oszczednicki">OSZCZĘDNICKI.</role>
+      <roleDesc/>
+     </castItem>
+	 <castItem>
+      <role xml:id="#spokoynicki">SPOKOYNICKI.</role>
+      <roleDesc/>
+     </castItem>
+     <castItem>
+      <role xml:id="#lokay">LOKAY.</role>
+      <roleDesc/>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>(Scena w Warszawie, w mieszkaniu Ciotki Panien Zacniewskich).</p>
+    <p>(Teatr wystawia pokóy dobrze urządzony, Stoliki, Krzesła, Fortepiano).</p>
+   </set>
+  </front>
+  <body>
+   <div n="1" type="scene">
+    <head>SCENA I.</head>
+    <stage type="entrance"><p><rs key="#ludwika">LUDWIKA.</rs> <rs key="#karolina">KAROLINA.</rs> <rs key="#jozefa">JOZEFA.</rs> (i) <rs key="#konstancya">KONSTANCYA.</rs></p></stage>
+    <stage type="setting"><p>(siedzą przy dwóch stolikach)</p></stage>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+     <p>I cóż mówicie Siostry?</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+	 <p>Niestety, niestety, i ieszcze raz niestety!</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+	 <p>Żadnego ratunku, żadney nadziei!</p>
+    </sp>
+    <sp who="#konstancya">
+     <speaker>KONSTANCYA.</speaker>
+	 <p>Żadney nadziei? co za okropna przyszłość.</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Dziś tedy musiemy zostać żonami tych których nieznamy, i których naturalnie nie kochamy.</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+	 <p>Dziś musiemy się wyrzec naszych dobrych, lubych kochanków.</p>
+    </sp>
+    <sp who="#konstancya">
+     <speaker>KONSTANCYA.</speaker>
+	 <p>Dziś pierwszy raz staną przed nami obstalowani narzeczeni.</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+	 <p>Dziś nastąpią układy czyli intercyzy.</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Jutro ogłoszą pierwszą zapowiedź.</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+	 <p>Za tydzień uyrzem urzędnika cywilnego.</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+	 <p>Za parę tygodni staniemy przy ołtarzu!</p>
+    </sp>
+    <sp who="#konstancya">
+     <speaker>KONSTANCYA.</speaker>
+	 <p>A w tenczas adie wesołości!</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Adie lube marzenia!</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+	 <p>Adie słodka nadzieio!</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+	 <p>Adie miłe pożycie!</p>
+    </sp>
+    <sp who="#konstancya">
+     <speaker>KONSTANCYA.</speaker>
+	 <p>Cóż potem nastąpi, nic innego iak Ah!</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Ah!</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+	 <p><stage>(mocniey)</stage> Ah!</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+	 <p><stage>(ieszcze mocniey)</stage> Ah!</p>
+    </sp>
+    <sp who="#ludwika #karolina #jozefa #konstancya">
+     <speaker>LUDWIKA. KAROLINA. JOZEFA. KONSTANCYA.</speaker>
+	 <p>Ah!</p>
+    </sp>
+   </div>
+   <div n="2" type="scene">
+    <head>SCENA II.</head>
+    <stage type="entrance"><p><rs key="#ludwika">LUDWIKA.</rs> <rs key="#karolina">KAROLINA.</rs> <rs key="#jozefa">JOZEFA.</rs> <rs key="#konstancya">KONSTANCYA.</rs> (i) <rs key="#amelia">AMELIA.</rs></p></stage>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p><stage>(wesoło)</stage> Ah?... i dla czegóż Ah? słyszałam że wasi narzeczeni iuż przybyli do Warszawy, ia mam dobrą policyą, wiem wszystko co się dzieie w stolicy; Pan Oszczędnicki dla menażu stanął nad mostem, Pan Spokoynicki dla zdrowia i aby mu nikt nie przeszkadzał, mieszka między aleami, Pan Hrabia Wietrznicki, naiął paradny apartament w Hotelu Wileńskim, a Pan Cześnik Staruszkiewicz po staropolsku przybył z wielkim dworem i zaiechał do Oyców Reformatów. Już zaanonsowali Cioci swoie przybycie, stanęli ponktualnie podług umowy na iey imieniny, to iest: na dzień dzisieyszy, ale Ciocia, iak wiecie, mocno zachorowała, nikogo przyiąć nie może, i mnie mianowała iako wielką Ochmistrzynię do przyięcia w iey imieniu waszych upragnionych oblubieńców!</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Upragnionych? Ach móy Boże!</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+	 <p>Okropna chwila!</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+	 <p>Straszne spotkanie!</p>
+    </sp>
+    <sp who="#konstancya">
+     <speaker>KONSTANCYA.</speaker>
+	 <p>Już zawczasu przeczuwam że iutro zachoruię śmiertelnie!</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Otóż osobliwsza Jeremiada w dniu zaręczyn, iak to dobrze kiedy się nie kocha, moie serce iest zupełnie z łaski Pana Boga wolne, i oto widzicie iakem wesoła, a ta wzdycha, ta ięczy, ta obiecuie zachorować... ta... dalibóg łzy w oczach... łzy!... ach te łzy padły i na moie serce – czuię wasze zmartwienie, przekonywam się istotnie że cierpicie! Ale zastanówmy się z uwagą nad waszym losem i szukaymy sposobów, czyby się nieudało odwrócić grożące wam nieszczęście. Jestem waszą naymłodszą siostrą, Matka nasza wydawszy mnie na świat, przeniosła się do wieczności, dobra Ciocia bezdzietna przysposobiła mnie za swoią córkę, uktórey przez całe życie mieszkam w Warszawie; wy zawsze byłyście przy nieboszczyku Oycu mieszkaiącym na samym końcu Woiewództwa Augustowskiego, czyli w dawney Zmudzi; od trzech dni przybyłyście do stolicy dla dopełnienia woli Oyca i poięcia wskazanych przez niego małżonków. Od tych trzech dni poznałam was moie lube siostry i wy naszą kochaną Ciocię, tyle iest mi wiadomo. Ale co się tycze waszych serdecznych okoliczności, co znaczą te ustawiczne Ah, te ięki, te łzy, chcieycie mnie doskonale uwiadomić; wasz los nie może bydź dla mnie oboiętnym.</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Rok minął gdy nasz dobry Oyciec ten świat opuścił. Ty Amelio, iako przysposobiona Córka naszey Cioci, odziedziczysz iey maiętek, i twoie postanowienie zawisło od iey woli. Nam czterem zostawił Oyciec blisko milionowy maiątek, i zalecił abyśmy po skończoney żałobie, poięły za mężów tych Ichmościów, których on przeznaczył, ale niestety, żadna z nas nie zna wybranego małżonka i każda z nas poświęciła serce innemu.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Zle i dobrze – nie ma tego złego, któreby na dobre nie wyszło. Z iedney strony wola Oyca, z drugiey wola serca! okoliczność trochę zawiła... ale nie traćmy nadziei – któż tedy iest ten śmiertelnik szczęśliwy, którego serce twoie wybrało?</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Major od Ułanów.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Major od Ułanów! z takiemi Panami niebezpieczna sprawa! Jego charakter? serce? obyczaie?</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Ma lat 28. piękney postaci, naylepsze serce, skromny, kochany od równych, poważany od podkomendnych, zawsze chwalony od starszych; walczył w kilku bitwach, piersi iego zdobią dwa krzyże otrzymane na placu chwały, a na czole widać dotąd kresy, ktoremi się ozdobił pod Wagram.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Bravo, śliczne zalety! dla czegóż Oyciec nie życzył mieć tak zacnego zięcia?</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Oświadczył że żona żołnierza w lada okoliczności może zostać wdową; i że póty iey los nie może bydź zapewnionym, póki przynaymniey Mąż nie komenderuje pułkiem.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Rozumiem. Jakiegoż ci przeznaczył na mieysce tego zucha Ułana?</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Jest to nieiaki Pan Oszczędnicki, człowiek od lat blisko 60, bogaty w prawdzie i bardzo bogaty, ale ieden z sławnych skąpców, miał on rozmaite stosunki prawne z naszym Oycem, dla ukończenia których, postanowiono aby móy posag zkwitował wszystko.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Skąpiec! a chce się żenić, o to nieuchodzi, sprawę chce zakończyć z ofiarą dobrey dziewczyny, to ieszcze bardziey nie uchodzi, a potem waleczny i młody Ułan z dwoma krzyżami i kresą otrzymanemi na polu sławy, więcey powinien znaczyć od starego bogatego skąpcy. To raz! teraz Wacpanna Karlusiu, któż iest twóy Adonis?</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+	 <p>Komisarz Obwodowy!</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Zmiłuyże się!</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+	 <p>Ale zacny, sprawiedliwy, gorliwy! obywatele są szczęśliwi z tym urzędnikiem, nie słychać o nim aby uciemiężał, aby czemkolwiek splamił swoie dostoieństwo, aby komu niesłusznie nadał exekucyą, przytem ładny, rozumny i zaczął dopiero rok 26ty.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>A to fenomen! urzędnik na którego nikt nie narzeka, nie mogę poiąć dlaczego się nie podobał naszemu Oycu?</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+	 <p>Nieboszczyk do samey śmierci wychwalał iakieś dawne Liberum veto, Komisarz dowodził że to było zgubą naszego kraiu; z dysputy przyszło do niechęci, słowem, móy luby nie mógł się pokazać w naszym domu. Oyciec poiechawszy z potażem do Królewca, poznał tam iakiegoś Pana Spokoynickiego, ma to bydź człowiek nie źle się maiący, kończy dopiero rok trzydziesty, ale nadzwyczayny flegmatyk niezmiernie troskliwy o swoie zdrowie, każdy szelest, każdy odgłos, nawet muzyka osłabiaią iego nerwy, wszyscy iego domownicy muszą chodzić noga za nogą, cztery godzin potrzebuie na uiechanie iedney mili, mówi cicho, zwolna, zgoła iest naygłównieyszym nieprzyiacielem wszelkich rozrywek. Oyciec mnie opisał iako melancholiczkę, co się tak bardzo podobało Spokoynickiemu, iż upraszał o moią rękę i otrzymał przyrzeczenie.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Flegmatyk chce się żenić! broń Boże, to w żaden sposób nie wypada, z melancholii przyszłoby do domowego piekła, od czego niechay niebo zachowa każdą dobrą dziewczynę, z drugiey strony należy znowu koniecznie nagrodzić zacnego Komisarza, maiącego tyle zalet – To dwa – Koley na ciebie Józiu, słucham więc twego romansu?</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+	 <p>Ja i moia siostra Konstancya poznałyśmy dwóch Braci mieszkających w naszem sąsiedztwie, są to młodzi ludzie; dobrzy gospodarze, każdy ma wioseczkę, która może się nazwać raiem ziemskim, składa się tylko z kilku rolników, ale ci rolnicy błogosławią swoiego dziedzica, nazywaiąc go nie panem ale nayczulszym Oycem.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Poczciwi ludzie i dziedzicy i ich wieśniacy.</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+	 <p>Ale nasz oyciec przeznaczył dla każdey córki po dwakroć pięćdziesiąt tysięcy gotówki, ani chciał słyszeć o zięciu, któryby miał tylko iedną wiosczynę: móy Boże ia chętnie sto wsi odstąpię za iedno spoyrzenie dobrego Olesia, bez którego nigdy nie będę szczęśliwą!</p>
+    </sp>
+    <sp who="#konstancya">
+     <speaker>KONSTANCYA.</speaker>
+	 <p>I ia toż samo bez mego Xawerka!</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Kochane siostry! coraz bardziey mnie zniewalacie, ah tak, istotne szczęście przestawać na małem; a wasi narzeczeni?</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+	 <p>Mnie oyciec przeznaczył Hrabiego Wietrznickiego, który zwiedził pół Europy, a niewie gdzie leżą nasze Suwałki, stracił iuż prawie cały maiątek i iedynie dla moiego posagu oświadczył naszemu Oycu, którego poznał w Warszawie, iż uczyni zaszczyt naszemu domowi, poymuiąc iednę z nas za dozgonną przyiaciołkę – Oyciec chciał koniecznie aby choć iedna z nas była Hrabiną, przyrzekł, otóż po wszystkiem.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Dla modnego Fanfarona nie zda się poczciwa wieśniaczka na dozgonną przyiaciolkę. A ty Kostusiu?</p>
+    </sp>
+    <sp who="#konstancya">
+     <speaker>KONSTANCYA.</speaker>
+	 <p>Móy narzeczony iest bardzo bogaty Pan Cześnik Staruszkiewicz, Wdowiec po dwóch żonach; rok 65ty, obyczaie dawne, zacność nieposzlakowana; Przyiaciel ieszcze szkolny naszego Oyca, po śmierci drugiey żony przypomniał dawną przyiaźń, i przez korrespondencyą otrzymał przyrzeczenie moiey ręki.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Wprawdzie Pan Cześnik ma piękne zalety; ale dla tego że iest tak zacnym, przez sumienie należy go przekonać, iż powinien albo zostać wdowcem, albo obrać stosownieyszą małżonkę – Biedne siostry, rozrządzono tedy waszem sercem, gdy mnie zostawiony wybór podług mego upodobania, niech żyie wolność.</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Ty się cieszysz, gdy my cierpiemy!</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Ach wasze szczęście iest moiem! wesoły móy humor wcale nie przeszkadza aby moie serce nie miało bydź czułem; Ciocia powiada iż mimo mego roztrzepania i pustoty będę naylepszą żoną i wyborną obywatelką; ale powróćmy do waszego interesu. Oyciec tedy przeznaczył wam mężów, i to na piśmie, ale ta iego wola czy iest bez warunkowa?</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Dołożył, iż ieśli narzeczeni nieznaydą nas stosownemi do ich charakterów, słowo może bydź cofnionem!</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Paradnie! bravissimo!</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Niemożna iednak wnosić aby Pan Oszczędnicki tak łakomy, wyrzekł się dwukroć pięćdziesiąt tysięcy, które iuż są odliczone.</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+	 <p>Albo Pan Spokoynicki, który iedynie z melancholiczną żoną iaką ia nie iestem postanowił doznać prawdziwego szczęścia.</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+	 <p>Hrabia Wietrznicki iuż połowę dłużników na móy posag obstalował.</p>
+    </sp>
+    <sp who="#konstancya">
+     <speaker>KONSTANCYA.</speaker>
+	 <p>Cześnik Staruszkiewicz dawnych obyczaiów, niezwykł słowa odmieniać.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Czekayno... byłam na komedyi Zmyślone Niewinniątko, udany charakter Anieli podaie mi pewny planik, w prawdzie będzie to kopia, ale tu idzie o wasze uszczęśliwienie. Wykonam dobry uczynek, nikt na tem nie straci i owszem każdy zyszcze. Jakem powiedziała Ciocia choruie, i mnie rozkazała przyiąć waszych zamówionych. Pan Oszczędnicki doniosł że przybędzie, o dziesiątey, inni zapytuią kiedy mogą oddać wizytę. Która teraz godzina? <stage>(Patrzy na Zegarek)</stage> Za pięć minut dziesiąta... nietraćmy czasu; każdy z tych Ichmościow powinien osobno tu przybydź – No Panny siostry zamieniam was na Kancelistów; siadaycie, pióro do rąk!</p>
+    </sp>
+    <sp who="#ludwika #karolina #jozefa #konstancya">
+     <speaker>LUDWIKA. KAROLINA. JOZEFA. KONSTANCYA.</speaker>
+	 <p>Cóż to znaczy?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Ani słowa, ia wami komenderuię, posłuszeństwo i zaufanie, siadaycie!</p>
+    </sp>
+    <stage>(Wszystkie cztery siadaią przy stoliku i biorą pióra)</stage>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>Dowie się każdy z trzech <stage>(bo Pan Oszczędnicki iuż przybywa)</stage> że może nas odwiedzieć, Spokoynicki o kwadrans na iedynastą, Hrabia o wpół do iedynastey, a Cześnik o trzy kwadranse na iedynastą. <stage>(piszą)</stage></p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+	 <p>Osobliwsza dziewczyna!</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p><stage>(do siebie)</stage> Ale czy kwadrans nie będzie za mało dla iednego Amanta?... nie... dosyć... i bardzo dosyć – <stage>(głośno)</stage> Już skończono, to dobrze, baczność! złożyć bilety! <stage>(składaią)</stage> pieczętować! <stage>(pieczętuią opłatkami)</stage> adres; <stage>(do Karoliny)</stage> ty... Wielmożny Jegomość Pan Spokoynicki  w Aleach <stage>(do Józefy)</stage> ty... A monsieur, monsieur le Comte de Vietrznicki A l’hotel de Vilna, i nakoniec ty, <stage>(do Konstancyi)</stage> Jaśnie Wielmożnemu Jegom: Panu Staruszkiewiczowi Cześnikowi Latyczewskiemu, w Konwencie Oyców Reformatów. <stage>(odbiera bilety i dzwoni)</stage></p>
+    </sp>
+   </div>
+   <div n="3" type="scene">
+    <head>SCENA III.</head>
+    <stage type="entrance"><p><rs key="#ludwika">LUDWIKA.</rs> <rs key="#karolina">KAROLINA.</rs> <rs key="#jozefa">JOZEFA.</rs> <rs key="#konstancya">KONSTANCYA.</rs> <rs key="#amelia">AMELIA.</rs> (i) <rs key="#lokay">LOKAY.</rs></p></stage>
+	<sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p><stage>(do Lokaia)</stage> Jest kto w przedpokoiu?</p>
+	</sp>
+    <sp who="#lokay">
+	 <speaker>LOKAY.</speaker>
+	 <p>Ustawicznie przysyłaią bilety z powinszowaniem imienin naszey Pani; a ieśli kto przyiedzie, podług rozkazu oświadczamy, że Imość chora i nieprzyymuie odwiedzin.</p>
+	</sp>
+    <sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p>Oto są listy, rozeszliy natychmiast podług adresów, ale to natychmiast, rozumiesz?</p>
+	</sp>
+    <sp who="#lokay">
+	 <speaker>LOKAY.</speaker>
+	 <p>Rozumiem.</p>
+	</sp>
+    <sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p>Ci Panowie, do których masz bilety, mogą nas odwiedzieć, każdego iednak wprzód oznaymić. Również Pan Oszczędnicki, rozumiesz?</p>
+	</sp>
+    <sp who="#lokay">
+	 <speaker>LOKAY.</speaker>
+	 <p>Rozumiem.</p>
+	</sp>
+    <sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p>Na górze mieszka nasz kuzynek Adiutant, poproś go aby pożyczył kapelusza, rękawic i floretów, których potrzebuię do odrysowania pewnego poiedynku, przynieś mi w krótce, rozumiesz?</p>
+	</sp>
+    <sp who="#lokay">
+	 <speaker>LOKAY.</speaker>
+	 <p><stage>(odchodzi)</stage> Rozumiem.</p>
+	</sp>
+    <sp who="#ludwika">
+	 <speaker>LUDWIKA.</speaker>
+	 <p>Florety?... a to na co?... przebóg cóż za poiedynek?</p>
+	</sp>
+    <sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p>Wszystko to potrzebne do moiey roli. Dziesiąta w krótce, zaczyna się tedy nowa scena.</p>
+	</sp>
+    <sp who="#ludwika">
+	 <speaker>LUDWIKA.</speaker>
+	 <p>Jeszcze nic nie rozumiem,</p>
+	</sp>
+    <sp who="#karolina #jozefa #konstancya">
+	 <speaker>KAROLINA. JOZEFA. KONSTANCYA.</speaker>
+	 <p><stage>(razem)</stage> Ani ia.</p>
+	</sp>
+    <sp who="#lokay">
+	 <speaker>LOKAY.</speaker>
+	 <p><stage>(wchodzi)</stage> Pan Oszczędnicki zapytuie czy może...</p>
+	</sp>
+    <sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p>Owszem prosić – ale, ale... iakim pojazdem przyjechał?</p>
+	</sp>
+    <sp who="#lokay">
+	 <speaker>LOKAY.</speaker>
+	 <p>Przyszedł piechotą.</p>
+	</sp>
+    <sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p>Prosić. <stage>(Lokay odchodzi)</stage></p>
+	</sp>
+    <sp who="#ludwika">
+	 <speaker>LUDWIKA.</speaker>
+	 <p>Drżę cała.</p>
+	</sp>
+    <sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p>Przyszedł piechotą, i w tym zaraz okazuie się iego charakter – a zatem Moście Panny do gabinetu...</p>
+	</sp>
+    <sp who="#karolina">
+	 <speaker>KAROLINA.</speaker>
+	 <p>Ale przez miłość Boską...</p>
+	</sp>
+    <sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p>Nic nie słucham... Marsz do gabinetu.</p>
+	</sp>
+    <stage>(Cztery siostry odchodzą)</stage>
+   </div>
+   <div n="4" type="scene">
+    <head>SCENA IV.</head>
+    <stage type="entrance"><p><rs key="#amelia">AMELIA.</rs> <rs key="#oszczednicki">OSZCZĘDNICKI.</rs></p></stage>
+	<sp who="#oszczednicki">
+	 <speaker>OSZCZĘDNICKI.</speaker>
+	 <p><stage>(we drzwiach do Lokaia)</stage> Ciężkie czasy a takie zbytki, przedpokóy paradnieyszy od całego moiego pomieszkania, oy, oy, zbytki, zbytki – <stage>(wchodzi)</stage> A... całuię nóżki; nayuniżeńszy służeczka.</p>
+	</sp>
+    <sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p>Zapewne JPan Oszczędnicki?</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>On sam... służeczka prawdziwy.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Moia Ciotka...</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Słyszałem że zasłabła, żałuię, ubolewam...</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Mnie rozkazała przyiąć...</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Jeśli mnie przeczucie nie myli, mam honor witać...</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Jedna z Córek nieboszczyka Zacniewskiego.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Czy ta którą dla mnie łaskawie przeznaczył?... Ah ten skromny uśmiech zapewnia moie uszczęśliwienie... nie mylę się Pani, to Pani którą mi niebo zsyła...</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p><stage>(wskazuie na krzesło)</stage> Racz Pan...</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p><stage>(do siebie biorąc krzesło)</stage> Śliczna... i tak skromna, będzie wyborna oszczędna gospodyni, właśnie dla mnie, rozpływam się z radości... <stage>(siada gdy usiądzie Amelia)</stage> Przybyłem do Warszawy ieszcze wczoray, nie byłem tu od lat dwudziestu, zbytki, zbytki, błądziłem po ulicach, chciałem wstąpić do Pocieiowa, a znalazłem się pomiędzy przepysznemi gmachami; szukałem przez trzy godziny Krakowskiey bramy, co za zgroza burzyć takie antyki; Pani tym ślicznym uśmieszkiem potwierdzasz moie zdanie, widzę że mamy iednakowy sposób myślenia; było moim zamiarem ieszcze wczoray ucałować rączki Pani, ale mi doniesiono żeście przez cały dzień nie bawiły w domu.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Zrana ieździłyśmy kupować szale i obstalować suknie szlubne. Ah szal cudowny; rzadko znaleźć gustownieyszy nad ten, który wybrałam dla siebie.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Za pozwoleniem Pani Dobrodziko, szal... teraz ciężkie czasy, sreberko no to uydzie, chociaż ginie procencik, ale kapitalik zostanie... ale szale... czyste marnotrawstwo; a ciężkie czasy Mościa Dobrodziko.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Ah ten szal kupiony za bezcen.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Za bezcen: o ieśli tak, to co innego, to dobrze, to arcy dobrze <stage>(do siebie z radością)</stage> będzie wyborna gosposia, iuż widzę iaki menazik zachowuie <stage>(głośno)</stage> To tedy za bezcen, ileż naprzykład kosztuie?</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Uważ WPan, tylko pięćset dukatów!</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p><stage>(chwytając się za głowę)</stage> Przebóg! czy dobrze usłyszałem, za pozwoleniem Pani Dobrodziko, iakto pięć...</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Tak iest, tylko pięć... set dukatów, nieprawdaż, prawie za bezcen.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Ale Pani Dobrodziko ciężkie czasy, ciężkie czasy.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>To iest niczem w porównaniu innych, słyszałam, że pewna tuteysza Obywatelka rozwodzi się o to, że mąż niechciał iey kupić takiego szala, iaki widziała na Bagateli u pewney Mecenasowey.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Śliczna mi Bagatela, przecież nie ma w Kodexie artykułu zezwalaiącego na rozwód za szal.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Ale iest wyraźny artykuł, iż można żądać rozwodu, gdy się mąż źle obchodzi z żoną, a możesz bydź gorsze obchodzenie się odmówić żonie szala, ieśli się iey podobał.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p><stage>(do siebie)</stage> Ta Panna choć młoda a zna się dobrze na artykułach prawnych... oy źle...</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Lecz wróćmy do dalszych wczorayszych sprawunków; pochlebiam sobie, że Pan z upodobaniem słuchać będziesz, gdy mu opiszę moią suknię szlubną.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Słucham Pani Dobrodziko?</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Spód z atłasu weneckiego, u dołu garnirowanie z hiiacyntów, róż i stokroci, na wierzchu tunika koronkowa spinana goździkami i hortensyą, dobór kwiatów i układ girland przecudowny, Boski, ale nadewszystko goździki do zachwycenia.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Goździki... no to uydzie, w żaden sposób nie mogą wiele kosztować!</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Cena umiarkowana, cała suknia z ozdobami na głowę tylko kosztuią 150. luidorów w Paryżu.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Za goździki aż tyle... za pozwoleniem Pani Dobrodziko ciężkie czasy, bardzo ciężkie czasy, i na te goździki trzeba przedać pięćset korcy owsa.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Potem oglądaliśmy iuż zamówiony ekwipaż, wystaw sobie WPan, kareta prosto z Londynu, kocz wprawdzie robiony w Warszawie ale ieden z nayparadnieyszych, cztery anglizowane kasztanki, a szory iakie ledwo nowy Król Angielski mieć może.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Za pozwoleniem Pani Dobrodziko ia mam bardzo porządną i ieszcze nie podszarzaną landarkę...</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Ah fi... Któż by teraz śmiał pokazać się w landarce... Po południu zwiedziłyśmy magazyny meblów, wybrałam wszystko co tylko nam potrzebne do przystoynego ubrania domu, między innemi zachwycisz się Panie Oszczędnicki nad kolumną z mozaiki rzymskiey; serwisem z porcelany sewskiey, trzema gracyami bronzowemi, i prześlicznym Amorkiem z marmuru de Karara – Oh powiadam WPanu nic równego, iest on dłuta iednego z uczniów Kanowy, co za dowcip w oczach, iaka cała układność.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Za pozwoleniem, ile też ten Amorek ma kosztować?</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Zda mi się... tak trzy tysiące złotych iuż z transportem...</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Dziwna rzecz, Amorek więcey kosztuje niż mi żyd przez cały rok płaci arendy z karczmy będącey na pocztowym trakcie – Pani Dobrodziko ciężkie czasy na Amorki, i ośmielam się Pani donieść, że mam z łaski Boskiey dwór porządny, należycie ozdobiony, i zupełnie się obeydę bez Amorków.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Dwór, o którym WPan mówisz, zapewne iest na wsi?</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>W moiey własney wiosce, z czystą hipoteką, niebciążoney żadnym długiem.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>To dobrze, ale ia mówię o meblowaniu domu w Warszawie.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>A cóż mi do Warszawy? ciężkie czasy bawić w tem miasteczku; przybyłem jedynie podług umowy aby się z Imość Ciotuleńką ułożyć o naszym maryażu, i po weselu w imię Boskie ruszemy na wieś, dawszy krzyżyk na zawsze Warszawie.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>WPan zapewne żartujesz?</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p><stage>(nieco iuz rozgniewany)</stage> Nie żartuię, iakem poczciw, nie żartuię.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Dla odmiany w pożyciu możemy pare miesięcy letnich przepędzić na wsi, pieścić się widokami natury, słuchać szczebiotania słowików, bawić się skokami niewinnych baranków, ale przez resztę roku musiemy, <stage>(serio)</stage> tak musiemy mieszkać w stolicy.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Ja pilnuię zniwiarzów, oraczów, siedzę w stodole, w spichlerzu, ślicznie bym się wykierował, słuchaiąc szczebiotania słowików i patrząc na barany, ale za pozwoleniem – na te sprawunki któreś Pani wymieniła, któż, ma łożyć?</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Wyprawa należy do mnie; ekwipaż zaś i meble do Pana młodego, przecież taki iest zwyczay, spodziewam się uczynić Panu przysługę, zakupuiąc te rzeczy w iego imieniu.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Meble do mnie? mam zaś za Amorka wydać całoroczną arendę? <stage>(wstaie rozgniewany)</stage></p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Wszakże móy posag wystarczy...</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p><stage>(siada nagle udobruchany)</stage> Posag... prawda Pani Dobrodziko... dwakroć piędziesiąt tysięcy?</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>W gotowiźnie.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>W gotowiznie... prawda... śliczna rzecz w ciężkich czasach, a zatem możemy kapitulować, iuż będziem słuchać słowików i patrzyć na baranki, ale do Warszawy nie tak często będziemy przyieżdzać.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Ale wierzay mi WPan to nie tak wiele kosztuie.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p><stage>(ułagodzony)</stage> Nie tak wiele kosztuie? to dobrze, to arcy dobrze na ciężkie czasy, naprzykład niech Pani proponuie maluteczki budżet.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Komorne niepowinno więcey kosztować iak 400. dukatów – Pięć obiadków przez tydzień na dobranych osób dwanaście, trzy wieczory z wieczerzą na osób 50. loża ambonowana na obadwa Teatra, ekwipaz dla mnie i dla Pana, kredyt u pięciu Marchand de Modes i siedmiu Kupców galanteryowych; Kamerdyner, Kucharz, trzy Panny, czterech staiennych, czterech lokai, Swaycar, Zakiet, Metrowie do śpiewania, fortepianu, rysunku, na nieprzewidziane wydatki pewna kwota, i iak zowiemy kieszonkowa expens miesięcznie ze trzysta dusiów, otóż wszystko.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Wszystko?... Bagatella, za pozwoleniem Pani Dobrodzika ile wiem wychowałaś się na wsi, skądże taka znaiomość tych wszystkich potrzeb?</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Niesądź WPan abyśmy i na wsi będąc Pannami, niewiedziały iak żyć należy poszedłszy za mąż, dobra edukacya obiaśnia nas w tey mierze.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Ciężkie czasy a taka edukacya, kłaniam uniżenie <stage>(do siebie)</stage> zastanówmy się... posag dwakroć piędziesiąt tysięcy, procent od nich daymy na to 18. tysięcy... z drugiey strony szal, kredyta siedmiu Kupców, Szwaycar, anglizowane kasztanki... trzy gracye, szczebiotania słowików a nadewszystko ten diabelski amorek... ciężkie czasy... moia wioska za kwartał poszłaby do rąk galanterników; miałem też poco czterdzieści mil iechać do stolicy... co za szczęście że iey oyciec zostawił warunek wrócenia słowa.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Pan się zamyślasz? zapewne o Amorku?</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Powtarzam Pani Dobrodziko ciężkie czasy na Amorki.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Jeszcze muszę Panu donieść, że należy podług wszelkich reguł, abyśmy odbyli iaki woiazik, zwiedzili obce kraie.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p>Dla Boga, co ia słyszę?... obce kraie! a cóżby to kosztowało.</p>
+	</sp>
+    <sp who="#amelia"> 
+     <speaker>AMELIA.</speaker> 
+     <p>Tak, tak, Dobrodzieiu musisz poruszyć spleśniałych dusiów i przewietrzyć ie za granicą, to iest zwyczaiem powszechnie przyjętym.</p>
+	</sp>
+    <sp who="#oszczednicki"> 
+     <speaker>OSZCZĘDNICKI.</speaker> 
+     <p><stage>(porywa się)</stage> Ciężkie czasy... Jak tylko Imość Ciotuleńka powróci do zdrowia, będę miał szczęście ucałować iey rączki, a teraz nie przeszkadzam Pani, może się wybierasz kupować iakiego Amorka, nieprzeszkadzam... i... i... całuię nóżki, nayuniżeńszy służeczka <stage>(do siebie)</stage> O to mi Dobrodzika! owies po 4. złotych, a Amorek trzy tysiące, ciężkie czasy... <stage>(odchodzi)</stage></p>
+	</sp>
+   </div>
+   <div n="5" type="scene">
+    <head>SCENA V.</head>
+    <stage type="entrance"><p><rs key="#amelia">AMELIA.</rs></p></stage>
+	<sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p><stage>(sama)</stage> Moia dobra siostra byłaby nieszczęśliwą z takim spekulantem, ani wiek, ani sposób myślenia nie są stosowne. A zatem rozrywając ten związek, wypełnia się dobry uczynek. Podobny sknera powinien tylko żyć z sobą. Poiazd zaieżdża <stage>(biegnie do okna)</stage> Kareta... wszystkie okna zamknięte lokay otwiera powoli... pokazuie się... Aha, bez wątpienia Pan Spokoynicki... wysiada, bawełna w uszach... iakiś Elegant przebiega śpiewaiąc trącił go... Ah iaka mina... rozgniewany... każe się prowadzić pod ręce, osobliwszy oryginał <stage>(oddala się od okna)</stage> z tym Jegomością może trudniey mi wypadnie odegrać rolę.</p>
+	</sp>
+   </div>
+   <div n="6" type="scene">
+    <head>SCENA VI.</head>
+    <stage type="entrance"><p><rs key="#amelia">AMELIA.</rs> <rs key="#spokoynicki">SPOKOYNICKI.</rs> (i) <rs key="#lokay">LOKAY.</rs></p></stage>
+	<sp who="#lokay">
+     <speaker>LOKAY.</speaker>
+     <p><stage>(we drzwiach wołaiąc mocno)</stage> Jegomość Pan Spokoynicki!</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(zatykaiąc uszy)</stage> Dla Boga! móy przyiacielu dlaczegóż tak donośnie mnie oznaymiasz, ia krzyku znosić nie mogę. <stage>(postępuie na przód)</stage></p>
+    </sp>
+    <stage>(Lokay kładzie na stoliku kapelusz, rękawice, florety i odchodzi)</stage>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+	 <p>W imieniu moiey Ciotki...</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Z boleścią serca dowiedziałem się że zachorowała, a któż w mieście może bydź zdrowy... powietrze zagęszczone, ustawiczny tentent poiazdów, prawdziwie od wczoray nie czuię moiey głowy. Panią tylko samą znayduię? a iey siostry?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Biorą w tey chwili lekcyą tańca, mnie zaś rozkazano przyiąć Pana iako...</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Jako przyszłego iey małżonka, wielkie to dla mnie szczęście, nie omyliłem się w oczekiwaniu <stage>(do siebie)</stage> bardzo spokoyna, skromna, melancholią wydaią iey oczy, dopełnione wszystkie moie nadzeie.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p><stage>(wskazuiąc na krzesło i siadaiąc)</stage> Proszę...</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(siadaiąc)</stage> Dla zdrowia i spokoyności obrałem mieszkanie w Aleach, ale się zawiodłem, tyle karet, koczów, dorożek uwiia się tamtędy, taka kurzawa iż iestem ogłuszony i nabawiłem się uprzykrzonego kaszlu.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Życzyłabym mieszkać na Krakowskiem przedmieściu.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Ah zmiłuy się Pani, piędziesiąt doboszów wali ustawicznie w bębny, mógłbym umrzeć w godzinie.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Jednak ślicznysz to widok nasza woyskowa parada, oficerowie tak zgrabni...</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Oficerowie? czy Pani lubisz taką hałaśliwą paradę?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Przepadam za nią.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Tem gorzey... przepadam rzekła... hm, tem gorzey. <stage>(głośno)</stage> Słyszałem przecież że Pani iesteś melancholiczną, że równie iak ia przekładasz świętą spokoyność nad wszelkie krzyki wielkiego świata.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Dawniey...</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Jakto dawniey?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Od nieiakiego czasu zupełnie się zmienił móy charakter, przekonałam się że melancholia iest zwolna niszczącą trucizną, że się łączy z hipokryzyą i tysiącznemi przywarami czyniącemi życie nieznośnem. Muszę, powinnam WPanu wyznać otwarcie że iestem wesołą, może nawet za nadto roztrzepaną i pustą, ale za dobroć moiego serca zaręczam, i nic takiego w moiem postępowaniu nie dostrzeżesz, przez cobym zasłużyła na iego niechęć lub naganę.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Roztrzepana, pusta, tem ci gorzey... prawda... co to za filuterne oczy... tem gorzey.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Słyszałam żeś WPan z natury flegmatyk; czuię się przeto bydź obowiązaną wszelkich dokładać usiłowań aby go rozrywać; lubo wychowana na wsi, iednak wiele się uczyłam; naprzykład ieżdżę na koniu iak Kozak.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Panna na koniu?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Galopuię powiadam WPanu.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Tem gorzey, galopuie... tem gorzey.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Mam Dereszka i Siwosza, oba ot tak wysoko o zakład przeskoczą, Dereszek dla mnie, a Siwosz dla Pana.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Dla mnie?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Wszakże razem będziem się ubiegać do mety?</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Ja mam galopować? w życiu moiem nie siedziałem na koniu, nawet nigdy nie ieździłem pocztą prócz w Saxonii.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Jednak mieszkaiąc w oddaleniu, podobna rozrywka iest nieodbicie potrzebną, iuż ia Pana przyzwyczaię do galopu, za trzy miesiące nie będzie równego iezdca.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Trzy miesiące... zawczasu poty biią na mnie.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Dla rozerwania melancholii, nayskutecznieyszą iest muzyka, wszak prawda?</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Muzyka na moich słabych nerwach za mocne czyni wrażenie, ieszcze dumki, romanse, znieść mogę, ale każde alegro a osobliwie forte przeraża mnie, dla tey przyczyny nie bywam nawet w kościele, gdy huczą organy, a opera z chorami iest moiem zabóystwem.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Dumki, romanse? ah to przedziwnie, siaday tu Panie Spokoynicki <stage>(porywa Spokoynickiego za rękę i prędko prowadzi do Fortepiana, przy którem siada i przymusza go usiąść – Zaczyna grać adagio i w krotce bierze akorda mocne, stopniuiąc forte i fortissime, w miarę tey muzyki Spokoynicki okazuie poruszenia, każdy mocny akord przeraża go)</stage></p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(po naymocnieyszym akordzie porywa się)</stage> Ah to nadto... na miłość Boską zaklinam przestań Pani, czuię tak gwałtowne wzruszenie, ten bas tak mi szumi w uszach...</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p><stage>(wstaiąc od Fortepiana)</stage> Muzyka przecież iest naymilszą zabawą.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Czy Pani zwykłaś często rozrywać się muzyką?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Muszę się exercytować, i grywam codziennie przez pięć godzin.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Tem gorzey... pięć godzin hałasu... oh tem gorzey.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Za przybyciem do Warszawy zaczęłam się uczyć fechtować.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Fechtować... dla Boga tem gorzey. <stage>(głośno)</stage> pozwól Pani uczynić uwagę że dla Panienki fechtowanie niewiem na co się może przydać.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Tysiączne korzyści, między innemi, maiąc męża tak spokoynego, powinnam umieć zastąpić go w każdey przygodzie ieśliby mąż został wyzwany na poiedynek...</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Ja na poiedynek?... a niechże Bóg zachowa, u mnie święta spokoyność iest naywiększym skarbem, i ia z całym światem żyię w naylepszey zgodzie.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Któż może przewidzieć rozmaite okoliczności. Możesz Pan nastąpić komu na nogę.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Ja każdego omiiam o pół mili.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Możesz uprzedzić kogo w tańcu na balu.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Jak żyię niebyłem na żadnym balu.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Możesz na kogo spoyrzeć tak iż się to niepodoba.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Jużcić spoyrzeć muszę, ale bez chęci obrażenia.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Otóż i spoyrzenie częstokroć obraża, iesteś Pan wyzwanym, ia stawam za Pana; <stage>(nakrywa głowę kapeluszem stosowanym, bierze rękawice i floret)</stage> Uważ tylko... <stage>(fechtuie)</stage> un... deux... trois... pif, paf, o... iuż przeciwnik bez duszy...</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Oh i ia prawie iestem bez duszy.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Nieprawdaż, co za szczęście mieć takiego przyiaciela.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Ja chciałem żony łagodney iak baranek, a to Dragan – oy tem gorzey – <stage>(głośno)</stage> pozwól Pani otwarcie powiedzieć, iż zamiast tych burzliwych zabaw, byłbym nierównie szczęśliwszy, gdybyśmy czas trawili spokoyniey, naprzykład czytanie...</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Czytanie?... ah czemuż nie, ia czytam przedziwnie, owszem nie tylko będę Panu czytać ale i deklamować nawet z pamięci – wszystkie sławnieysze wyiątki z naszych autorów i tłómaczów klasycznych, niech Pan słucha <stage>(co mi naprzód przyydzie do myśli, naprzykład z Cyda)</stage> <stage>(staie w pozycyi i deklamuie tragicznie, a ostatnie wiersze iak naymocniey)</stage> Powstańcie teraz wszystkie potęgi choć z piekła,/ Łączcie się Kastyllanie, Nawarro, Maurowie!/ I kto się tylko mężem w Hiszpanii zowie.../ Jakaż nadludzka siła w moiem sercu płonie,/ Walczyć mam dla miłości w Xymeny obronie;/ Ah tą lubą nadzieią ręka ośmielona/ Na wszystko się odważy! i wszystko pokona!</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(przerażony mocno deklamacyą, mówi do siebie)</stage> Otóż miałbym tragiedyą wrzeszczącą w domu, gdy tylko dramy mogą mnie zaiąć... oy tem gorzey!</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Wspomniałeś Panie Spokoynicki żeś nigdy w życiu nie był na balu, iakto wcale nie tańczysz?</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Ja tańczyć? byłoby to moim grobem.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Muszę wyznać wszystko; wszakże lepiey że przed ślubem poznamy nasz sposób myślenia i nasze charaktery, mnie się zdaie że podobna otwartość iest cnotą.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Zapewne, zapewne.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Taniec iest moią ulubioną rozrywką.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Tem gorzey.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Założę się że móy małżonek przy moiey pomocy tak będzie tańczył iak Westris – Figurka zgrabna, nóżka proporcyonalna, dalibóg musisz tańczyć, sprobuymy... stań Pan w drugiey pozycyi <stage>(zaczyna nucić)</stage> Niech Pan zaczyna...</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Tem mnie iuż dobiła... Ah... iakie szczęście że słowo może bydź cofniętem.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Czy Pan słyszysz?</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p><stage>(przestraszony)</stage> Cóż tam znowu?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Muzyka woyskowa i bębny... parada, będą defilować, stańmy w oknie przypatrzyć się...</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Parada... a zatym... bo... któraż godzina?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>W pół do iedenastey.</p>
+    </sp>
+    <sp who="#spokoynicki">
+     <speaker>SPOKOYNICKI.</speaker>
+     <p>Właśnie o tey godzinie przyrzekłem odwiedzić Kasztelana... czeka na mnie, pozwolisz Pani że ią pożegnam. <stage>(do siebie)</stage> Od powietrza, głodu, ognia, woyny i od takiego roztrzepańca, zachoway Boże każdego spokoynego człowieka. <stage>(odchodzi)</stage></p>
+    </sp>
+   </div>
+   <div n="7" type="scene">
+    <head>SCENA VII.</head>
+    <stage type="entrance"><p><rs key="#amelia">AMELIA.</rs></p></stage>
+	<sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p><stage>(sama)</stage> Ah iakieyże to żony potrzeba dla takiego człowieka, żyiącąby zagrzebał, niech sobie spokoynie przepędza chwile, w małżeństwie tylko zupełna zgodność umysłów może przynieść uszczęśliwienie. <stage>(przy oknie)</stage> Oh iak prędko wsiadł do karety... każe iechać śpieszno... a zatym ucieka odemnie... a zatym drugi dobry uczynek, bo ani on dla moiey siostry ani dobra Karlusia dla niego. Cóż to? iaki śliczny karykiel na dwóch kołach, angielczyk na przodzie... tu stanął... brawo to Pan Wietrznicki. <stage>(oddala sie od okna)</stage> Ta wizyta będzie wcale innego rodzaiu...</p>
+	</sp>
+   </div>
+   <div n="8" type="scene">
+    <head>SCENA VIII.</head>
+    <stage type="entrance"><p><rs key="#amelia">AMELIA.</rs> <rs key="#wietrznicki">WIETRZNICKI.</rs> <rs key="#lokay">LOKAY.</rs></p></stage>
+	<sp who="#lokay">
+     <speaker>LOKAY.</speaker>
+     <p>Hrabia Wietrznicki. <stage>(odchodzi)</stage></p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Comment, personne encoredans le salon? <stage>(postrzega Amelią)</stage> ah pardon!</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Mości...</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Sliczna, anim się spodziewał... iakie oczy... iaka figurka, a przytem gotowy posag, brawo, ślicznie wyydę na moich interessach <stage>(do Amelii)</stage> Je vous attendais avec une vive impatience.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Kłaniam się Jegomości.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Jegomości?... Que son aimble légerté me plaît.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Jeszcze raz kłaniam się Jegomości.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Elle est ravissante! czy Panna Zacniewska?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Tak iest Mości Jegomość!</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Ta która dla mnie przez Oyca...</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Przez Oyca Mości Jegomość.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Mais pour quoi ten Jegomość?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>To, nie Jegomość!</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Le compliment n’est pas du tout galant.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Nierozumiem Jegomości...</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Czy Pani nie mówisz po francuzku?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Ah niech mnie Bóg zachowa.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Czy Pani teraz prócz Warszawy bawiłaś w iakiey stolicy?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Byłam raz w Maryampolu, raz w Balwierzyszkach, dwa razy w Indurze i trzy razy w Suwałkach.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Widać to... widać... Ah i ia prawie nie znam Oyczyzny.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>To źle.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Znam Drezno, Wiedeń, Berlin, Londyn, Rzym, a nadewszystko zachwycaiący, czarujący Paryż.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>To bardzo źle.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Dla czegóż?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Bo u nas zboże tanie, a WPanowie trwonicie pieniądze po cudzych kraiach.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Brawo! Pani iak uważam iesteś przedziwną gospodynią.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Umiem sadzić kartofle, zaprawiam przedziwnie ćwikłę, znam się doskonale na urządzeniu pekefleyszu, a w naszych stronach nikt lepiey nie potrafi gotować boćwiny.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Qu’est–ce que ça boćwina?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Gdyby Jegomość znał się na naszych potrawach i zasmakował w nich za młodu, tobyś tyle nie przeszastał na zagraniczne łakotki.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p><stage>(do siebie)</stage> Diable! śliczniem trafił... naybardziey mi idzie o to, żem iuż zaręczył posagiem zpłacić połowę dłużników – ha probuymy ieszcze – <stage>(głośno)</stage> Nie tracę nadziei, że Pani żyiąc w stolicy, zmienisz ten ton prowincyonalny. Przebacz Pani że mówię otwarcie, wszakże idzie o nasze uszczęśliwienie. Będziem utrzymywać dom pierwszego rzędu, dobrane i smakowne wieczory...</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>O nie...</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Comment nie...</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Ja zawczasu idę spać, bo raniuchno wstaię do gospodarstwa.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Przynaymniey możemy bydź w Teatrze.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>O nie...</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>I to nie?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Gdy mi Ekonom doniesie że dobrze wszystko poszło w polu, gdy klucznica doniesie że przybyło kilkoro cielątek i iagniątek, gdy dobrzy rolnicy po całotygodniowey pracy przyydą w niedzielę do kościoła i za mnie iako dobrą Panią będą Pana Boga prosić, to mi to prawdziwa pociecha; lepsza od wszystkich Komedyy, bo trzeba Jegomości wiedzieć, że iakkolwiek iestem parafianka i nie znam się na waszey elegancyi, iednak będę żyć w zgodzie z sąsiadami, pracować na chleb, i udzielać biednym tyle ile tylko Pan Bóg pozwoli.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Więc Pani koniecznie żądasz mieszkać na wsi? Któż są iey sąsiedzi, o których wspominasz?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Pani Strukczaszyna Gawędzka, przedziwna kobiecina, Państwo Stolnikostwo u których żyie się prawdziwie po staropolsku, Państwo ex Ciwunostwo, Oyciec Gwardyan i wielu innych przedziwnych obywateli.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p><stage>(do siebie)</stage> A iabym skonał za trzy dni między temi karykaturami <stage>(głośno)</stage> czy Pani lubisz czytywać? ia mam wybór dzieł naytkliwszych Autorów.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>O ia także nauczyłam się na pamięć śpiewów Historycznych Niemcewicza.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Cóż to iest? ia tego nieznam.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>To źle że Jegomość nie znasz naszych książek, a o cudzych zapewne rezonuiesz iak z partesów.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p><stage>(do siebie)</stage> C’est incroyable! nieśmiałbym się światu pokazać z tym klockiem <stage>(głośno)</stage> Pani iak uważam iesteś nader szczerą, ufaiąc tey szczerości śmiem zapytać się czy też będę tyle szczęśliwym pozyskuiąc iey miłość?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>O nie...</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Comment? przecież moia figura nie iest odrażaiącą?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Co mi tam po figurze; ia wprzód chcę się zapewnić o sercu.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Pani przy mnie możesz figurować po między osobami dobrego tonu! będziesz Hrabiną.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Ah prawda, powiadał nasz Oyciec żeś Jegomość Hrabia, ale czy też Jegomość tym tytułem zapłacisz choć połowę swoich dłużników?</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p><stage>(obrażony)</stage> C’est trop <stage>(do siebie)</stage> Co tu robić?... iuż wie o długach... c’est trop! c’est cruel! <stage>(głośno)</stage> pozwoli Pani pożegnać...</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Kłaniam się Jegomości.</p>
+    </sp>
+    <sp who="#wietrznicki">
+     <speaker>WIETRZNICKI.</speaker>
+     <p>Czy na długo?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Jak wola i łaska!</p>
+    </sp>
+    <stage>(Wietrznicki po kilku wzaiemnych ukłonach i niemey scenie wybiega)</stage>
+   </div>
+   <div n="9" type="scene">
+    <head>SCENA IX.</head>
+    <stage type="entrance"><p><rs key="#amelia">AMELIA.</rs></p></stage>
+	<sp who="#amelia">
+	 <speaker>AMELIA.</speaker>
+	 <p><stage>(sama)</stage> Z Panem Hrabią krótko się skończyło. I ten człowiek śmiał żądać ręki dobrey szlachcianki, którąby za dwa tygodnie opuścił... o nie, nie Mości Hrabio, masz wiele podobnych tobie Hrabin, do nich się uday, do nich – <stage>(przy oknie)</stage> Zaieżdża Kolasa... Ah to zapewne Pan Cześnik.... sześć koni... dwa ogromne hayduki, wysiada... szanowna postać... <stage>(odchodzi od okna)</stage> prawdziwie, czuię skrupuł uwodzić takiego Weterana, lecz nie... taki zacny staruszek powinien doznawać prawdziwego szczęścia, powinien albo nie mieć iuż żadney, albo taką żonę któraby mu poświęciła serce niepoświęcone nikomu; a serce moiey siostry iuż iakiś Xawerek obiął w possessyą – ta uwaga uwalnia moie sumienie, powinnam dokonać raz ułożonego planu.</p>
+	</sp>
+   </div>
+   <div n="10" type="scene">
+    <head>SCENA X.</head>
+    <stage type="entrance"><p><rs key="#amelia">AMELIA.</rs> (i) <rs key="#staruszkiewicz">CZEŚNIK.</rs> <rs key="#lokay">LOKAY.</rs></p></stage>
+	<sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p><stage>(we drzwiach daiąc pieniadze lokaiowi)</stage> To dla ciebie móy przyjacielu!</p>
+    </sp>
+    <sp who="#lokay">
+     <speaker>LOKAY.</speaker>
+     <p>Boday się święciły takie staropolskie odwiedziny – <stage>(odchodzi)</stage></p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p><stage>(wszedłszy)</stage> Afekta moie śpieszę złożyć u stopek Podstolanki Dobrodziki. [czysty portret niebożki świętey pamięći Podstoliny]; Godny rodzic WPanny niegdyś był moim przyiacielem od serca; skoro się dowiedział żem powtórnie owdowiał, oświadczył że chce we mnie mieć zięcia, z radością akceptowałem taki honor; bo byłem przekonany że iakie drzewo taki frukt, Nihil tam dificile est, quam differre gaudia. Przybyłem tandem dla dopełnienia woli nieboszczyka rodzica, i widzę żem się nie zawiódł w opisaniu iey osoby, ia też viceversa rekompensuiąc ile możności wyświadczony mi fawor, poświęcę się na usługi Podstolanki Dobrodziki. Jestem w prawdzie podtatusiały, ale ieszcze dosyć dziarski, przy tem nie znudzę Panny bom gadatywus i umiem tysiące dykteryiek – Maiąteczek z łaski Boskiey nieszpetny, a przywara sknerstwa iest mi obcą, możesz waszmość Panna rozrządzać moią szkatułą podług woli.</p>
+    </sp>
+    <stage>(Amelia wskazuie na krzesło i siada)</stage>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p><stage>(usiadłszy)</stage> Ależ Dobrodziko iaka teraz u nas droga, iakie gościńce! nie mogłem się dosyć wydziwić, przybywszy iednak do stolicy, musiałem się nagniewać – Nim kuchnia moia przybędzie, wstąpiłem do naylepszey iak mi powiedziano garkuchni, podaią ogromny reiestr potraw, ale ten reiestr nie pisany po naszemu, oświadczam: daycie mi obiad iak naylepszy, ale panowie posługacze tylko parle parle, ani oni mnie, ani ia ich nie zrozumiałem, wyszedłem rozgniewany; patrzę po domach, iakieś piękne złote napisy, ale kaduk mi potem, gdy nie polskie, pytam się co ten napis znaczy, powiadaią mi że tu mieszka krawiec, tu pierniki przedaią, tam ubiory kobiece... a co mnie naybardziey obruszyło, nawet rzeźnik po cudzoziemsku doniosł że są u niego kiełbasy... Stary szlachcic który za młodu nieuczył się po francuzku, przybywszy do stolicy swego królestwa, musi błądzić albo przyiąć tłumacza aby mógł podieść lub co kupić.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>C’est trop vrai.</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Jak, iak?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Hélas! votre colère me fait trembler.</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Za pozwoleniem, niedosłyszałem?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Mais vous avez une phisionomie de bonté qui me rassure.</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Przyznam się żem ieszcze nie zrozumiał?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Vous me surprenez; on m’en avait fait un tout autre portrait. Quoi? c’est vous qui vous nommnez Monsieur Cześnik Staruszkiewicz?</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Cześnik Staruszkiewicz na usługi, to Bogu dzięki zrozumiałem, ale resztę tak iakbym był na niemieckiem kazaniu.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>J’espère que vous ne conserverez pas toujours cette colêre, ah! de grâce calmez vous!</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Możem się omylił... wszakże mam honor witać Podstolankę Dobrodzikę?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Oui Monsieur.</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Córkę Zacniewskiego?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Oui Monsieur.</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Którą per correspondentiam zaręczył ze mną iey Oyciec.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Oui Monsieur.</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Imość Ciotka iest słaba?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Oui Monsieur.</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Otrzymałem pozwolenie abym poznał moią narzeczoną, o trzy kwadranse na iedynastą?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Oui Monsieur.</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Przybyłem tedy z oświadczeniem...</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>J accepte avec joie une offre faite si obligeament. Vous êtes bien bon.</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Ey co tam bon, bon, ia tylko umiem rozmawiać po polsku i po łacinie.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Hélas!</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>A WPanna czy wcale nieumiesz po naszemu rozmawiać?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Presque rien.</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Móy Boże, co się też to stało poczciwemu Podstolemu, zrobić z rodowitey szlachcianki cudzoziemkę!</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Et comment faut–il donc être pour vous plaire?</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>A to pięknie, żebym ieszcze do żony miał trzymać tłumacza – Jakże? to my się wcale nie zrozumiemy?</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Hélas!</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>A zatem nie mam co robić – Niechcąc Waszmość Pannę inkomodować moią prezencyą, żegnam.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Votre servante!</p>
+    </sp>
+    <sp who="#staruszkiewicz">
+     <speaker>CZEŚNIK.</speaker>
+     <p>Uniżony. <stage>(do siebie)</stage> Już widzę sądny dzień blisko; Biedni moi koledzy Cześnicy i Staruszkiewiczowie. <stage>(odchodzi)</stage></p>
+    </sp>
+   </div>
+   <div n="11" type="scene">
+    <head>SCENA XI.</head>
+    <stage type="entrance"><p><rs key="#amelia">AMELIA.</rs> <rs key="#ludwika">LUDWIKA.</rs> <rs key="#karolina">KAROLINA.</rs> <rs key="#jozefa">JOZEFA.</rs> (i) <rs key="#konstancya">KONSTANCYA.</rs></p></stage>
+	<sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+     <p>To iuż wszyscy czterech.</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+     <p>Słyszałyśmy wszystko.</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+     <p>Jakaż wdzięczność!</p>
+    </sp>
+    <sp who="#konstancya">
+     <speaker>KONSTANCYA.</speaker>
+     <p>Kochana siostro życie nam przywracasz.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Że Panów Oszczędnickiego, Spokoynickiego i Wietrznickiego pozbędziecie się wiekie dla was szczęście, ale poczciwy Cześnik bardzo mnie uiął, moie serce dotąd Bogu dzięki wolne, i gdyby chciało przeznaczenie, dalibóg wzięłabym tego Polonusa i ręczę żebym była z nim szczęśliwą.</p>
+    </sp>
+   </div>
+   <div n="12" type="scene">
+    <head>SCENA XII.</head>
+    <stage type="entrance"><p><rs key="#amelia">AMELIA.</rs> <rs key="#ludwika">LUDWIKA.</rs> <rs key="#karolina">KAROLINA.</rs> <rs key="#jozefa">JOZEFA.</rs> <rs key="#konstancya">KONSTANCYA.</rs> (i) <rs key="#lokay">LOKAY.</rs></p></stage>
+	<stage>(Lokay oddaie trzy bilety Amelii i odchodzi)</stage>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p><stage>(patrząc na podpisy)</stage> Ten do ciebie Panno Ludwiko! czytay.</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+     <p><stage>(czyta)</stage> „Ciężkie czasy Pani Dobrodziko, ciężkie czasy; przez krótką chwilę w którey miałem szczęście rozmawiać z Panią, przekonałem się iż cały móy majątek niewystarczyłby na ieden tydzień utrzymania życia podług woli i gustu WPanny Dobrodziki, nadewszystko Amorek tak mnie zaambarasował, iż nic mi innego nie pozostaie nad powtórzenie ciężkie czasy, ciężkie czasy, i wyznać żem iest WPanny Dobrodziki nayniższy służeczka.” Bonawentura Oszczędnicki.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>To formalna dymisya, a zatem Mościa Panno siostro Major od Ułanów iest twoim <stage>(oddaie list Karolinie)</stage> Teraz ty dowiedz się.</p>
+    </sp>
+    <sp who="#karolina">
+     <speaker>KAROLINA.</speaker>
+     <p><stage>(czyta)</stage> „Tem gorzey, wyznać muszę z boleścią serca, tem gorzey, gdym się przekonał, że Pani dopełniaiąc woli Oyca, zostałabyś nieszczęśliwą, poymuiąc małżonka maiącego tak sprzeczny charakter z iey ułożeniem. Racz Pani uznać to usprawiedliwienie za rzeczywiste i nie wypuszczay mnie z swoiey łaski.” Felicyan Spokoynicki.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>I ty odprawiona iesteś z kwitkiem – A zatem iuż tak dobrze iak byś była Komissarzową Obwodową <stage>(oddaie list Jozefie)</stage> No, obaczmy co też pisze twóy Adonis.</p>
+    </sp>
+    <sp who="#jozefa">
+     <speaker>JOZEFA.</speaker>
+     <p><stage>(czyta)</stage> „Mademoiselle! Przebacz Pani że nie mogąc się dobrze tłumaczyć w Oyczystym ięzyku, krótko donoszę iż niepodobna abyśmy sobie mogli wieczną wiarę przysięgować. Uważałem iż nie byłem szczęśliwy uiąć iey serce, co mnie przywiodło do rozpaczy, dla uśmierzenia którey wyieżdżam natychmiast do Paryża – Mais j’espère que vous êtes satisfaite de ma soumission.” Le Comte de Wietrznicki.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Bravo! ieszcze lepiey gdy się pozbędziesz takiego waryata. Ale dopiero trzy dymissye, Pan Cześnik podobno zostanie przy tobie Kostusiu!</p>
+    </sp>
+   </div>
+   <div n="13" type="scene">
+    <head>SCENA XIII. OSTATNIA</head>
+    <stage type="entrance"><p><rs key="#amelia">AMELIA.</rs> <rs key="#ludwika">LUDWIKA.</rs> <rs key="#karolina">KAROLINA.</rs> <rs key="#jozefa">JOZEFA.</rs> <rs key="#konstancya">KONSTANCYA.</rs> (i) <rs key="#lokay">LOKAY.</rs></p></stage>
+	<sp who="#lokay">
+     <speaker>LOKAY.</speaker>
+     <p>Hayduk zadyszany przyniosł ten list. <stage>(odchodzi)</stage></p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Hayduk, aha to od zacnego Cześnika czytay Kostusiu, to się ciebie tycze.</p>
+    </sp>
+    <sp who="#konstancya">
+     <speaker>KOSTANCYA.</speaker>
+     <p><stage>(czyta)</stage> „Mościa Panno Podstolanko! prawda że non omni spiritui credendum est nielada ducha inspiracyi ma bydź powolna serc ludzkich inklinacya, wypróbowany przeto experymentem, widzę że trudno górnym sprzeciwić się ordynansom i w przeciwną dekretów Boskich podpadać kontrawencyą. Zwracam tedy dane słowo. Życzę tandem aby nowy szczęścia i wesela renascatur Waszmość Pannie Fenix, iako ten który iest wielce Jmość Panny uniżony sługa.” Wojciech Staruszkiewicz Cześnik Latyczewski.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Szkoda!</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+     <p>A zatem cała rzecz skończona.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p>Nie, moie siostry, ieszcze nieskończona. Odważyłam się na wiele, a to ieszcze bez pozwolenia zwierzchności, udamy się teraz do Ciotki i opowiemy wszystko od A do Z; iest to rozsądna i zacna kobieta, ieśli ona potwierdzi moią sprawę, toście wygrały, w przeciwnym razie zniknie wasza nadzieia a cała wina spadnie na mnie.</p>
+    </sp>
+    <sp who="#ludwika">
+     <speaker>LUDWIKA.</speaker>
+     <p>Ah zapewne potwierdzi, wreszcie mamy listy naszych narzeczonych, tak iest potwierdzi, będziemy uszczęśliwionemi, ale iakże zdołamy ciebie wynadgrodzić kochana siostro.</p>
+    </sp>
+    <sp who="#amelia">
+     <speaker>AMELIA.</speaker>
+     <p><stage>(do Parteru)</stage> Łaskawe przyięcie mego usiłowania, stanie się dla mnie naydroższą nadgrodą.</p>
+    </sp>
+    <trailer>(KONIEC)</trailer>
+   </div>
+  </body>
+ </text>
 </TEI>
