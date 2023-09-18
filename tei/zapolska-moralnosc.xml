@@ -102,7 +102,6 @@
  </standOff>
  <text>
   <front>
-   <div>
     <titlePage>
 	 <byline><docAuthor>Gabryela Zapolska</docAuthor>.</byline>
      <docTitle>
@@ -155,7 +154,6 @@
       <roleDesc/>
      </castItem>
     </castList>
-   </div>
    <set>
     <p>(Rzecz dzieje się w mieście.)</p>
    </set>
