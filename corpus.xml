@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,6 +19,7 @@
     <encodingDesc>
       <projectDesc>
         <p>
+          Edited by members of Historical Pragmalinguistic Team (Magdalena Pastuch, Barbara Mitrenga, Kinga Wąsińska) affiliated to the Institute of Linguistics of University of Silesia in Katowice with technical support Jan Wieczorek, Tomasz Bernaś and Tomasz Naskręt from CLARIN-PL/Wrocław University of Science and Technology. Features about 50 Polish-language plays from 1772 to 1939 with social, popular, and common themes reflecting the colloquial language of that era. For a corpus description and full credits please see the <ref target="https://github.com/dracor-org/poldracor">README on GitHub</ref>.
         </p>
       </projectDesc>
     </encodingDesc>
