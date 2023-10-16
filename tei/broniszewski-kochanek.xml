@@ -1,5 +1,4 @@
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="https://www.tei-c.org/ns/1.0" xml:id="pol000008" xml:lang="pol">
+<TEI xmlns:ns="https://www.tei-c.org/ns/1.0" xml:id="pol000008" xml:lang="pol">
  <teiHeader>
   <fileDesc>
    <titleStmt>
