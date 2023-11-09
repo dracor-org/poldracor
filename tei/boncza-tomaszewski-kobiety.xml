@@ -284,10 +284,9 @@
           <castItem>
             <role corresp="#instygator">INSTYGATOR</role>
             <roleDesc/>
-          </castItem>i
-
+          </castItem>
           <castItem>
-            <role corresp="#zolnierze">sześciu Zołnierzy.</role>
+            <role corresp="#zolnierze">i sześciu Zołnierzy.</role>
             <roleDesc/></castItem>
         </castList>
       <set>
