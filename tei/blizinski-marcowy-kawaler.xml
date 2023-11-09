@@ -119,42 +119,34 @@
         <titlePage>
           <docTitle>
             <titlePart type="series">BIBLIOTEKA TEATRÓW AMATORSKICH
-              
               <lb/>
               Nr. 17.</titlePart>
             <titlePart type="main">MARCOWY KAWALER</titlePart>
             <titlePart type="sub">krotochwila w jednym akcie</titlePart>
           </docTitle>
           <byline>przez
-            
             <lb/>
             <docAuthor>JÓZEFA BLIZIŃSKIEGO</docAuthor>
             .</byline>
           <docImprint>
-            <p>
               <docEdition>GŁÓWNY SKŁAD
-                
                 <lb/>
                 w księgarni 
-                
                 <name>F. H. RICHTERA</name>
                 we               
-                
                 <pubPlace>Lwowie</pubPlace>
                 .
-                
-                <lb/></docEdition>
+                <lb/>
+              </docEdition>
               <bibl>
-                <publisher>Z drukarni &quot;Gaz. narod.&quot; 
-                  
+                <publisher>Z drukarni &quot;Gaz. narod.&quot;  
                   <name>J. Dobrzańskiego</name>
                   i 
-                  
                   <name>K. Gromana</name>
                   .</publisher>
               </bibl>
               <lb/>
-              <date>1879</date>.</p>
+              <date>1879</date>.
           </docImprint>
         </titlePage>
         <castList>

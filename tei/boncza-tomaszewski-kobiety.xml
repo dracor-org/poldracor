@@ -155,17 +155,13 @@
         <titlePage>
           <docTitle>
             <titlePart type="main">KOBIETY,
-
               <lb/>
               JAKICH MAŁO NA ŚWIECIE
-
               <lb/>
               CZYLI
-
               <lb/>
               CNOTA NAGRODZONA</titlePart>
             <titlePart type="sub">DRAMA
-
               <lb/>
               WE TRZECH AKTACH</titlePart>
           </docTitle>
@@ -183,12 +179,12 @@
             </cit>
           </epigraph>
           <docImprint>
-            <p>w 
+              w 
               <pubPlace>WILNIE</pubPlace>
               <lb/>
               w Drukarni XX. Bazylia w Roku 
               <date>1799</date>
-              .</p>
+              .
           </docImprint>
         </titlePage>
         <div type="appendix">
