@@ -19,32 +19,42 @@
       <editionStmt>
         <p>Edited by members of 
           
+          
           <orgName>Historical Pragmalinguistic Team</orgName>
           (
+          
           
           <persName>Magdalena Pastuch</persName>
           , 
           
+          
           <persName>Barbara Mitrenga</persName>
           , 
+          
           
           <persName>Kinga Wąsińska</persName>
           ) affiliated to the         
           
+          
           <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName>
           with technical support 
+          
           
           <persName>Jan Wieczorek</persName>
           , 
           
+          
           <persName>Tomasz Bernaś</persName>
           and 
+          
           
           <persName>Tomasz Naskręt</persName>
           from 
           
+          
           <orgName>CLARIN-PL</orgName>
           /
+          
           
           <orgName>Wrocław University of Science and Technology</orgName>
           (source: Polona.pl with modifications)</p>
@@ -118,12 +128,17 @@
       <titlePage>
         <docTitle>
           <titlePart type="series">BIBLIOTEKA TEATRÓW AMATORSKICH
+            
             <lb/>
             Nr. 17.</titlePart>
           <titlePart type="main">MARCOWY KAWALER</titlePart>
           <titlePart type="sub">krotochwila w jednym akcie</titlePart>
         </docTitle>
       </titlePage>
+      <byline>przez
+        <lb/>
+        <docAuthor>JÓZEFA BLIZIŃSKIEGO</docAuthor>
+        .</byline>
       <castList>
         <head>OSOBY:</head>
         <castItem>
@@ -161,6 +176,7 @@
             
             
             
+            
             <rs key="#ignacy">Ignacy</rs>
             (Szlachcic opiekły z wąsami, stoi za nim niecierpliwiąc się).</p>
         </stage>
@@ -171,8 +187,10 @@
             
             
             
+            
             <stage>(po chwili)</stage>
             mój Heljodorku, dałbyś duszko pokój tej robocie... będziesz miał dosyć czasu, powróciwszy do Warszawy... toć i tak zebrałeś sporo... zapisałeś parę takich książeczek... 
+            
             
             
             
@@ -240,8 +258,10 @@
             
             
             
+            
             <stage>(po chwili podnosząc go gwałtem)</stage>
             mój drogi, przerwij to pisanie, proszę cię, i poświęć mnie kilka chwil... przecież jesteś moim kolegą szkolnym, przyjacielem... 
+            
             
             
             
@@ -259,6 +279,7 @@
         <sp who="#heljodor">
           <speaker>HELJODOR.</speaker>
           <p>Cóż takiego? 
+            
             
             
             
@@ -362,6 +383,7 @@
             
             
             
+            
             <stage>(robi kilka hołubców)</stage></p>
         </sp>
         <sp who="#heljodor">
@@ -412,6 +434,7 @@
             
             
             
+            
             <stage>(Ignacy chce coś mówić, ale się wstrzymuje i zamyśla)</stage>
             zanadto odwykłeś od świata i towarzystw. Widziałem cię razem z twoją panią Klotyldą i gdybym nie wiedział zkądinąd, nie domymyśliłbym się wcale, że się masz do niej... Zapomniałeś już, jak się brać do kobiety...</p>
         </sp>
@@ -419,6 +442,7 @@
           <speaker>IGNACY.</speaker>
           <p>
             <stage>(z lekką urazą)</stage>Dobry sobie jesteś, jak cię życiem kocham... ja zapomniałem, jak się brać!... 
+            
             
             
             
@@ -443,12 +467,14 @@
             
             
             
+            
             <stage>(po chwili)</stage>
             wiesz? obiecałem jej kolczyki brylantowe w razie pomyślnego skutku i jestem pewny, że zrobi mi interes.</p>
         </sp>
         <sp who="#heljodor">
           <speaker>HELJODOR.</speaker>
           <p>To już najlepszy dowód, jakeś się zestarzał i ociężał... 
+            
             
             
             
@@ -491,8 +517,10 @@
             
             
             
+            
             <stage>(dobywając książeczkę)</stage>
             patrz! to wszystko od niej... jakie przysłowia jędrne... a co pieśni!... samej tej: 
+            
             
             
             
@@ -502,6 +530,7 @@
         <sp who="#ignacy">
           <speaker>IGNACY.</speaker>
           <p>Ten znowu swoje... 
+            
             
             
             
@@ -515,6 +544,7 @@
           <speaker>IGNACY.</speaker>
           <p>
             <stage>(chodząc)</stage>Ale zabawny jesteś... 
+            
             
             
             
@@ -555,8 +585,10 @@
             
             
             
+            
             <stage>(chodzi po scenie, po chwili, na stronie)</stage>
             Ma trochę racji... 
+            
             
             
             
@@ -570,6 +602,7 @@
         <sp who="#ignacy">
           <speaker>IGNACY.</speaker>
           <p>Myślałem, żeś sprytniejszy... 
+            
             
             
             
@@ -619,8 +652,10 @@
             
             
             
+            
             <stage>(po chwili)</stage>
             Urządzisz z nią wszystko, wydasz dyspozycje, żeby było dobrze i z szykiem... 
+            
             
             
             
@@ -638,6 +673,7 @@
         <sp who="#heljodor">
           <speaker>HELJODOR.</speaker>
           <p>Więc z Pawłową?... 
+            
             
             
             
@@ -677,8 +713,10 @@
             
             
             
+            
             <stage>(żywo)</stage>
             widzisz, ja jestem prędki, łatwo się unoszę... każę jej zrobić to i owo... jej się to nie będzie zdawać... 
+            
             
             
             
@@ -695,6 +733,7 @@
             
             
             
+            
             <stage>(po chwili)</stage>
             Ja mu mówię w zaufaniu, żądam przyjacielskiej posługi, a on dowcipkuje...</p>
         </sp>
@@ -708,12 +747,14 @@
             
             
             
+            
             <stage>(po chwili z wahaniem)</stage>
             zresztą, bądź co bądź... gdy się ożenię.. ona tu nie będzie mogła zostać... więc możesz jej dać do zrozumienia... tak, delikatnie... że jak będzie fochy stroić, nie słuchać co jej się każe, i wtrącać się w nie swoje rzeczy... to... jednej chwili wyleci ztąd... u mnie krótko...</p>
         </sp>
         <sp who="#heljodor">
           <speaker>HELJODOR.</speaker>
           <p>Czyli innemi słowy, nie chcąc się sam poparzyć, mojemi rękoma chcesz wyciągać kasztany z pieca 
+            
             
             
             
@@ -724,6 +765,7 @@
           <speaker>IGNACY.</speaker>
           <p>
             <stage>(ponuro)</stage>Zrobisz mi wielką przysługę... 
+            
             
             
             
@@ -738,13 +780,16 @@
             
             
             
+            
             <rs key="#ignacy">Ignacy</rs>
             , 
             
             
             
+            
             <rs key="#pawlowa">Pawłowa</rs>
             (Ubrana pół po wiejsku, pół z szlachecka, w chustce zawiązanej na głowie, przy fartuchu), 
+            
             
             
             
@@ -759,6 +804,7 @@
           <speaker>GRZEMPIELESKI.</speaker>
           <p>
             <stage>(ekonom nowomodny z pretensjonalnemi ruchami i wysłowieniem)</stage>Ale co się pani Pawłowa tak sierdzi, to piękności może szkodzić... 
+            
             
             
             
@@ -784,6 +830,7 @@
         <sp who="#grzempieleski">
           <speaker>GRZEMPIELESKI.</speaker>
           <p>Ma się rozumieć nic wielkiego, przepraszam pana dziedzica, tylko według tego, że wczoraj... 
+            
             
             
             
@@ -825,6 +872,7 @@
           <p>Powiadacie, że to stara, uboga kobieta? 
             
             
+            
             <stage>(Pawłowa rusza ramionami)</stage></p>
         </sp>
         <sp who="#grzempieleski">
@@ -837,8 +885,10 @@
             <stage>(żywo biorąc list)</stage>Od pani z Topolina!             
             
             
+            
             <stage>(do Heljodora rozpromieniony)</stage>
             Od niej!... 
+            
             
             
             <stage>(do Grzempieleskiego)</stage>
@@ -854,24 +904,30 @@
             <stage>(na stronie)</stage>Co ona pisze?... jak pachnie! 
             
             
+            
             <stage>(do Heljodora)</stage>
             Powąchaj... 
+            
             
             
             <stage>(przyłożywszy ukradkiem do ust, otwiera kopertę)</stage>
             ciekaw jestem 
             
             
+            
             <stage>(zagląda w list i krzywi się)</stage>
             Do djabła, po francuzku... od guwernantki.. co za głupia myśl... 
+            
             
             
             <stage>(czyta polskim akcentem)</stage>
             „Si vous tenez? obliger une personne qui vous est chére“... 
             
             
+            
             <stage>(do siebie)</stage>
             Obliże? co to znaczy? djabli wiedzą... 
+            
             
             
             <stage>(do Heljodora)</stage>
@@ -886,6 +942,7 @@
           <speaker>IGNACY.</speaker>
           <p>
             <stage>(uradowany zaglądając w list)</stage>Podkreślone, osobiście... śliczny pretekst... zaraz jadę... pojedziemy obaj, moja duszeczko... podwieczorek odłożymy na później...         
+            
             
             
             <stage>(do Grzempieleskiego)</stage>
@@ -909,6 +966,7 @@
             <stage>(niecierpliwiąc się)</stage>Powiedziałem wyraźnie: tej kobiecie wszystko oddać i zaprzęgać do powozu. 
             
             
+            
             <stage>(Grzempieleski wychodzi na prawo)</stage></p>
         </sp>
       </div>
@@ -919,8 +977,10 @@
             <rs key="#ignacy">Ignacy</rs>- 
             
             
+            
             <rs key="#pawlowa">Pawłowa</rs>
             - 
+            
             
             
             <rs key="#heljodor">Heljodor</rs>
@@ -941,6 +1001,7 @@
         <sp who="#ignacy">
           <speaker>IGNACY.</speaker>
           <p>Dajże mi pokój... 
+            
             
             
             <stage>(chodzi, po chwili)</stage>
@@ -969,6 +1030,7 @@
             <stage>(zapisując w notysce)</stage>Wyborna jest... 
             
             
+            
             <stage>(do Pawłowej, wstając)</stage>
             Ale widzicie, moja kobietko, przecież pan ma rozmaite interesa, musi jeździć tu i owdzie...</p>
         </sp>
@@ -989,6 +1051,7 @@
           <speaker>PAWŁOWA.</speaker>
           <p>
             <stage>(patrząc niespokojnie panu w oczy)</stage>Oho! to dość, na starość rogom rość! 
+            
             
             
             <stage>(Heljodor spiesznie zapisuje)</stage></p>
@@ -1015,6 +1078,7 @@
           <p>No to i cóż z tego?... jaka ty dziwna jesteś... 
             
             
+            
             <stage>(głaszcze ją ukradkiem)</stage></p>
         </sp>
         <sp who="#pawlowa">
@@ -1033,6 +1097,7 @@
             <stage>(jak wyżej)</stage>Bo to może i prawda, co ten pan powiedział... 
             
             
+            
             <stage>(żywiej)</stage>
             Żeby pan miał tak zrobić, to bym!...</p>
         </sp>
@@ -1041,8 +1106,10 @@
           <p>Ale cicho głupia... przecie ty wiesz... 
             
             
+            
             <stage>(szepce jej do ucha, głaszcząc; po chwili)</stage>
             no, no, idź naszykuj wody... 
+            
             
             
             <stage>(Pawłowa wychodzi na lewo)</stage></p>
@@ -1053,6 +1120,7 @@
         <stage type="entrance">
           <p>
             <rs key="#heljodor">Heljodor</rs>- 
+            
             
             
             <rs key="#ignacy">Ignacy</rs>
@@ -1092,6 +1160,7 @@
           <speaker>IGNACY.</speaker>
           <p>
             <stage>(na stronie)</stage>Zdrajca! 
+            
             
             
             <stage>(głośno)</stage>
@@ -1163,6 +1232,7 @@
           <speaker>IGNACY.</speaker>
           <p>
             <stage>(na stronie)</stage>Djabła tam nie kosztuje... żeby on wiedział!... 
+            
             
             
             <stage>(chodzi, po chwili stając)</stage>
@@ -1245,6 +1315,7 @@
           <p>Niby nie zgrubiałeś jak ja... ale... przejrzyj się... jakoś, tak... mając egzemplarz do porównania... 
             
             
+            
             <stage>(porównywa się w zwierciedle)</stage></p>
         </sp>
         <sp who="#pawlowa">
@@ -1266,8 +1337,10 @@
           <p>I to do tego stopnia, że zostawiam was samych bez obawy... 
             
             
+            
             <stage>(na stronie)</stage>
             Nie może strawić pigułki... 
+            
             
             
             <stage>(idzie na prawo, przy drzwiach zatrzymuje się; do Heljodora)</stage>
@@ -1283,6 +1356,7 @@
             <stage>(śmiejąc się)</stage>Więc życzę szczęścia. 
             
             
+            
             <stage>(wychodzi na lewo)</stage></p>
         </sp>
       </div>
@@ -1291,6 +1365,7 @@
         <stage type="entrance">
           <p>
             <rs key="#heljodor">Heljodor</rs>- 
+            
             
             
             <rs key="#pawlowa">Pawłowa</rs>
@@ -1302,8 +1377,10 @@
             <stage>(na stronie)</stage>Nie chodzi mi o to, ale dałbym wiele, żebym mógł mieć prawo śmiać się z niego... 
             
             
+            
             <stage>(po chwili)</stage>
             Zawsze spróbuję... choćby dla jego dobra... 
+            
             
             
             <stage>(zbliża się do Pawłowej poprawiając okularów)</stage></p>
@@ -1312,6 +1389,7 @@
           <speaker>PAWŁOWA.</speaker>
           <p>
             <stage>(śmiejąc się)</stage>Hi, hi, hi... po kiego licha pan zawdy ma na oczach te śkiełka? 
+            
             
             
             <stage>(pokazuje palcem)</stage></p>
@@ -1338,6 +1416,7 @@
             <stage>(zawsze poważnie)</stage>Słuszna uwaga... Wiesz co moja kobietko, tak jesteś dowcipna, że mam ochotę wyściskać cię za to... 
             
             
+            
             <stage>(przysuwa się)</stage></p>
         </sp>
         <sp who="#pawlowa">
@@ -1348,6 +1427,7 @@
         <sp who="#heljodor">
           <speaker>HELJODOR.</speaker>
           <p>Zkąd mi się wzięło? ja sam nie wiem... pewno jakem ci się bliżej przypatrzył... 
+            
             
             
             <stage>(posuwa się ku niej)</stage></p>
@@ -1398,6 +1478,7 @@
             <stage>(urażony)</stage>Biedny, bledziuchny... otóż, żeby cię przekonać... 
             
             
+            
             <stage>(chce ją objąć w pół)</stage></p>
         </sp>
         <sp who="#pawlowa">
@@ -1411,12 +1492,15 @@
             <stage>(na stronie, tracąc odwagę)</stage>Zdyfamuje mnie! 
             
             
+            
             <stage>(po chwili, na stronie)</stage>
             Najwidoczniej więcej zyskam notując jej jędrne wyrażenia... 
             
             
+            
             <stage>(dobywa książeczkę)</stage>
             To „żyd do wiązki siana&quot; było kapitalne. 
+            
             
             
             <stage>(siada przy biurku)</stage>
@@ -1441,12 +1525,14 @@
 
             
             
+            
             <stage>(zapisuje)</stage>
             A wasz Paweł jaki był... czy także tłusty?</p>
         </sp>
         <sp who="#pawlowa">
           <speaker>PAWŁOWA.</speaker>
           <p>Ej, gdzie tam, wyglądał kiej szczypa... wypisz-wymaluj... na pana podobny... 
+            
             
             
             <stage>(wskazuje na niego)</stage></p>
@@ -1486,6 +1572,7 @@
           <p>Ano filozof... taki ucieszny, krotofilny... 
             
             
+            
             <stage>(Heljodor zapisuje)</stage>
             a jaki przyścipny do wszystkiego!</p>
         </sp>
@@ -1493,6 +1580,7 @@
           <speaker>HELJODOR.</speaker>
           <p>
             <stage>(jak wyżej)</stage>Przyścipny! 
+            
             
             
             <stage>(na stronie)</stage>
@@ -1635,6 +1723,7 @@
             <stage>(jak wyżej)</stage>No, a cóż się zrobiło z tym waszym pierwszym, co to był czerwony na gębie... 
             
             
+            
             <stage>(zaglądając do notat)</stage>
             i przyścipny...</p>
         </sp>
@@ -1670,8 +1759,10 @@
           <p>A toć jest dzieci kiej u żyda czapek... 
             
             
+            
             <stage>(po chwili z płaczem)</stage>
             A ja wyszłam kiej panna z tańca... ni dziewucha ni wdowa, ino ludzka obmowa... 
+            
             
             
             <stage>(płacze)</stage>
@@ -1710,6 +1801,7 @@
             <stage>(na stronie)</stage>Masz tobie, to już widzę dalej zaszło, niż myślałem... 
             
             
+            
             <stage>(głośno)</stage>
             No, a powiedzcież mi, jak będzie, gdy się ożeni...</p>
         </sp>
@@ -1740,6 +1832,7 @@
             <stage>(na stronie)</stage>U! źle... skłonna do płaczu... jeżeli z nim często używa tej broni, to padam do nóg... on taki mazgaj... 
             
             
+            
             <stage>(głośno)</stage>
             Czegóż płaczecie u licha?</p>
         </sp>
@@ -1757,6 +1850,7 @@
           <p>A bo to pan nie rozumie?... czy nieprzyjemnie, czy dziwacznie, czy matyjaśnie, to wszystko jedno... 
             
             
+            
             <stage>(płacząc znowu)</stage>
             Wołałabym wej zaraz śmierci pozbyć, niż cobym miała tego doczekać.</p>
         </sp>
@@ -1768,8 +1862,10 @@
             <rs key="#heljodor">Heljodor</rs>- 
             
             
+            
             <rs key="#pawlowa">Pawłowa</rs>
             - 
+            
             
             
             <rs key="#ignacy">Ignacy</rs>
@@ -1778,6 +1874,7 @@
         <sp who="#ignacy">
           <speaker>IGNACY.</speaker>
           <p>No, jestem!... 
+            
             
             
             <stage>(idzie do zwierciadła i zakręca wyczernione wąsy; potem ogląda się i spostrzega Pawłowę)</stage>
@@ -1792,6 +1889,7 @@
           <speaker>IGNACY.</speaker>
           <p>
             <stage>(zadowolony do Heljodora)</stage>Patrz, jak ona mi oddaje sprawiedliwość! 
+            
             
             
             <stage>(głaszcze ją po twarzy, ona tuli jego rękę do ust i całuje; do Heljodora, szyderczo)</stage>
@@ -1814,6 +1912,7 @@
           <p>Chyba, to co innego... o! ona jest niewyczerpana... a prawda, że dowcipna, co?... 
             
             
+            
             <stage>(głaszcze Pawłowę)</stage></p>
         </sp>
         <sp who="#pawlowa">
@@ -1825,6 +1924,7 @@
           <speaker>IGNACY.</speaker>
           <p>
             <stage>(spotkawszy jej spojrzenie na stronie)</stage>Żal mi jej... 
+            
             
             
             <stage>(głośno)</stage>
@@ -1857,6 +1957,7 @@
             <stage>(głaszcząc ją)</stage>Ale gdzież tam, powrócę wcześnie... 
             
             
+            
             <stage>(do Heljodora)</stage>
             No jedźmy...</p>
         </sp>
@@ -1879,6 +1980,7 @@
           <p>Sam nie wiesz, co gadasz, duszeczko... No, służę ci... 
             
             
+            
             <stage>(wyprawia go naprzód, oglądając się mimowoli na Pawłowę, z progu ostrożnie przesyła jej od ust pożegnanie, a widząc, że ona niby tego nie uważa, woła po cichu)</stage>
             Marysia, pst! Marychna?</p>
         </sp>
@@ -1888,8 +1990,10 @@
             <stage>(dąsając się)</stage>Nie potrzebuję... 
             
             
+            
             <stage>(po chwili, nagle podbiega i ciągnie go naprzód sceny)</stage>
             A kto to widział tak się żegnać z daleka... 
+            
             
             
             <stage>(rzuca mu się na szyję)</stage></p>
@@ -1944,6 +2048,7 @@
             <stage>(zakłopotany)</stage>Krawat mi poprawiała... 
             
             
+            
             <stage>(wychodzą)</stage></p>
         </sp>
       </div>
@@ -1958,6 +2063,7 @@
           <p>Jak odjedzie, i tak sama wej ostanę, to niemam wskórania, tak mi jakoś tęga... 
             
             
+            
             <stage>(śpiewa porządkując po pokoju)</stage>
             Płynie woda po kamieniach/ W dolinie,/ Oj przykrzy się bez Jasieńka/ Dziewczynie;/ Kaj ty mi się kochaneczku/ Obracasz,/ Że tak długo do swej Maryś/ Nie wracasz?/ Oj żebym ja ptasich skrzydeł/ Dostała,/ I Jasieńka, gdzie pojechał/ Dognała,/ i Oj skryćby się chciał przedemną/ Daremnie,/ Zobaczyłabym czy tęskni/ Bezemnie./ A jeśli on nie dba o mnie/ Mój Boże,/ Wrócę do dom, w zimny grób się/ Położę./ Może z grobu nieszczęśliwa/ Zobaczę,/ Że on za mną chociaż wtedy/ Zapłacze./ Już mi mój jankluz powiada, że on tam nie darmo jeździ... mój Boże, mój Boże, biedna ja sierota...</p>
         </sp>
@@ -1967,6 +2073,7 @@
         <stage type="entrance">
           <p>
             <rs key="#pawlowa">Pawłowa</rs>- 
+            
             
             
             <rs key="#grzempieleski">Grzempieleski</rs>
@@ -2033,6 +2140,7 @@
           <p>Oj, szpekulantny pan Grzempieleski, oj szpekulantny! oj mądry! 
             
             
+            
             <stage>(wychodzi na prawo)</stage></p>
         </sp>
       </div>
@@ -2047,12 +2155,15 @@
           <p>Zapewne, że szpekulantny i mądry... muszę, ma się rozumieć z nią dziś skończyć... trzeci rok tu już jest, musiała coś uciułać... trzeba kuć żelazo póki gorące... 
             
             
+            
             <stage>(idzie do biurka)</stage>
             Wartoby wypalić cygarkę... stary może gdzie zostawił... 
             
             
+            
             <stage>(szuka pomiędzy papierami)</stage>
             Akurat, są dwie... jednę trzeba zostawić dla niepoznaki... albo nie, wezmę obie...; jak nie będzie miał na oczach, to, i ma się rozumieć, sobie nie przypomni... o, i papierosy są... 
+            
             
             
             <stage>(bierze kilka, później przegląda rejestra, notatki, niektóre chowa do kieszeni)</stage></p>
@@ -2063,6 +2174,7 @@
         <stage type="entrance">
           <p>
             <rs key="#grzempieleski">Grzempieleski</rs>- 
+            
             
             
             <rs key="#pawlowa">Pawłowa</rs>
@@ -2087,12 +2199,14 @@
             <stage>(zasiadając do kawy, na stronie)</stage>Mrucz sobie, mrucz... 
             
             
+            
             <stage>(zapija i zajada łakomo)</stage></p>
         </sp>
         <sp who="#pawlowa">
           <speaker>PAWŁOWA.</speaker>
           <p>
             <stage>(na stronie)</stage>Ciekawość, co on mi ma powiedzieć. 
+            
             
             
             <stage>(kręci się)</stage></p>
@@ -2145,6 +2259,7 @@
             <stage>(skończywszy jeść i wstawszy)</stage>No, niech tam! powiem... ale, ma się rozumieć... 
             
             
+            
             <stage>(kryguje się, chrząka)</stage>
             Hm, hm... niech pani Pawłowa zgadnie...</p>
         </sp>
@@ -2163,6 +2278,7 @@
         <sp who="#grzempieleski">
           <speaker>GRZEMPIELESKI.</speaker>
           <p>Pani Pawłowa inaczej gada, a inaczejby rada... przecie teraz, kiedy ma się rozumieć, już prawie rok jak nieboszczyk umarł, i żałoba wychodzi, toć przecie... jak się nazywa... com chciał mówić 
+            
             
             
             <stage>(na stronie)</stage>
@@ -2190,6 +2306,7 @@
           <p>Pan Grzempieleski! 
             
             
+            
             <stage>(śmieje się patrząc na niego)</stage>
             to też dopiero!</p>
         </sp>
@@ -2197,6 +2314,7 @@
           <speaker>GRZEMPIELESKI.</speaker>
           <p>
             <stage>(na stronie)</stage>Śmieje się, to ma się rozumieć, dobry znak..., 
+            
             
             
             <stage>(po chwili)</stage>
@@ -2231,6 +2349,7 @@
             <stage>(na stronie, ucieszony)</stage>Zgadza się!... 
             
             
+            
             <stage>(przysuwając się)</stage>
             Więc ma się rozumieć, zgoda!</p>
         </sp>
@@ -2257,12 +2376,14 @@
             <stage>(zniecierpliwiona)</stage>Dla czego, dla czego — no, to dla tego, że nie! 
             
             
+            
             <stage>(zabiera szklankę i t. d. po kawie i wychodzi na prawo)</stage></p>
         </sp>
         <sp who="#grzempieleski">
           <speaker>GRZEMPIELESKI.</speaker>
           <p>
             <stage>(sam)</stage>Niechże cię siódma skóra zaboli!... ostatnia kompromitacja mię ogarnęła... czekaj babo, nie daruję ci!... 
+            
             
             
             <stage>(do wracającej Pawłowej)</stage>
@@ -2279,6 +2400,7 @@
             <stage>(cofając się)</stage>No, no, ostrożnie, bo mi oczy wydrapiecie — a ja ma się rozumieć, chciałbym się jeszcze przypatrzeć, jak będziecie się wynosić z manatkami... 
             
             
+            
             <stage>(po chwili)</stage>
             No więc, ostatni raz, zgoda między nami czy nie?</p>
         </sp>
@@ -2292,12 +2414,15 @@
           <p>Nie, to nie — niech was tam pies płacze, bo ja nie będę... ale wyjdziecie źle na tem, przepowiadam... 
             
             
+            
             <stage>(spojrzawszy w okno)</stage>
             oho! patrzcie państwo jak to tu wali prosto gubernantka z Topolina... to się coś święci nie na żarty... 
             
             
+            
             <stage>(wychodzi spiesznie drzwiami na prawo: odwracając się w progu)</stage>
             Radzę się jeszcze namyśleć... 
+            
             
             
             <stage>(Pawłowa, która także przyszła do okna, opiera na niem głowę i płacze po cichu)</stage></p>
@@ -2310,6 +2435,7 @@
             <rs key="#pawlowa">Pawłowa</rs>- 
             
             
+            
             <rs key="#eulalja">P. Eulalja</rs>
             .</p>
         </stage>
@@ -2317,6 +2443,7 @@
           <speaker>EULALJA.</speaker>
           <p>
             <stage>(wchodzi głębią)</stage>Korzystałam z tego, że Klotylda wyjechała na parę godzin do prezesowej i wymknęłam się niby na spacer... 
+            
             
             
             <stage>(gadatliwie, chodząc po scenie)</stage>
@@ -2328,6 +2455,7 @@
             <stage>(u okna)</stage>Co ona tu będzie tak spacerować i murgotać... 
             
             
+            
             <stage>(otarłszy oczy, przybliża się i przygląda jej się)</stage></p>
         </sp>
         <sp who="#eulalja">
@@ -2335,8 +2463,10 @@
           <p>Boże kochany, co to za nieznośne stworzenia ci starzy kawalerowie; zdawałoby się, że powinni być kuci na wszystkie cztery nogi, tyle przeszedłszy... gdzie tam!... ten naprzykład, jak malomany, ani be ani me — ust przy Klotyldzie nie umie otworzyć, jak Bozię kocham... co to za różnica od nas panien dojrzałych... 
             
             
+            
             <stage>(spostrzega się)</stage>
             Bodajże cię, wymknęło mi się... 
+            
             
             
             <stage>(do Pawłowej)</stage>
@@ -2377,8 +2507,10 @@
             <stage>(na stronie)</stage>Zaczekam... może pojechał tylko do Topolina, i zminęliśmy się w drodze, bo udałam się umyśinie przez lasek... 
             
             
+            
             <stage>(znowu chodzi)</stage>
             Skoro Klotylda jest gotowa, kolczyki jakbym miała w kieszeni. a może i co więcej oberwę — może wtenczas nareszcie ten zdrajca Anastazy przestanie się wahać i klęknie przedemną... głupiec! za błogosławieństwo boskie powinienby sobie uważać pozyskanie za żonę kobiety takiej jak ja!... mężczyźni są ślepi, jak Bozię kocham... 
+            
             
             
             <stage>(do Pawłowej)</stage>
@@ -2394,6 +2526,7 @@
             <stage>(na stronie)</stage>Uu! ma gębę od ucha do ucha... 
             
             
+            
             <stage>(głośno obrażonym tonem)</stage>
             Co! jakeś powiedziała?</p>
         </sp>
@@ -2405,6 +2538,7 @@
           <speaker>EULALJA.</speaker>
           <p>
             <stage>(na stronie)</stage>Impertynencje mi gada, chce mnie się pozbyć, jak Bozię kocham... to pewno ta, co o niej słyszałam... 
+            
             
             
             <stage>(przygląda się)</stage>
@@ -2428,6 +2562,7 @@
             <stage>(na stronie)</stage>Jak Bozię kocham, irytuje mnie... jednak trzebaby ją wymiarkować, a w razie potrzeby ugłaskać... może ona tu więcej znaczy, niż ja myślę... 
             
             
+            
             <stage>(po chwili głośno)</stage>
             Moja kobieto, macie dobrego pana, prawda?</p>
         </sp>
@@ -2439,6 +2574,7 @@
           <speaker>EULALJA.</speaker>
           <p>
             <stage>(na stronie)</stage>Świętej cierpliwości trzeba, jak Bozię kocham... 
+            
             
             
             <stage>(głośno)</stage>
@@ -2478,8 +2614,10 @@
             <stage>(na stronie)</stage>Jak Bozię kocham, nieznośna baba... 
             
             
+            
             <stage>(głośno)</stage>
             Czy to prawda, czy nie, zawsze szkoda, że się nie żeni... 
+            
             
             
             <stage>(po chwili poufale)</stage>
@@ -2489,6 +2627,7 @@
           <speaker>PAWŁOWA.</speaker>
           <p>
             <stage>(na stronie)</stage>Widzita! jaki to faryzeusz... 
+            
             
             
             <stage>(głośno)</stage>
@@ -2510,6 +2649,7 @@
           <speaker>PAWŁOWA.</speaker>
           <p>
             <stage>(na stronie)</stage>Czekaj, zaraz ty tu zapomnisz języka w gębie... zmyślę, ale niech tam! 
+            
             
             
             <stage>(głośno)</stage>
@@ -2621,8 +2761,10 @@
             <stage>(zatykając jej usta)</stage>Nie mów!... profanacja!... 
             
             
+            
             <stage>(na stronie w poruszeniu)</stage>
             Stary klak!... ja!... 
+            
             
             
             <stage>(spostrzegając wchodzących Ignacego i Heljodora, mdleje)</stage>
@@ -2636,12 +2778,15 @@
             <rs key="#heljodor">Heljodor</rs>- 
             
             
+            
             <rs key="#pawlowa">Pawłowa</rs>
             - 
             
             
+            
             <rs key="#ignacy">Ignacy</rs>
             - 
+            
             
             
             <rs key="#eulalja">Eulalja</rs>
@@ -2676,8 +2821,10 @@
           <p>Trzeba ją ratować. 
             
             
+            
             <stage>(cuci ją)</stage>
             Dawaj wody... prędzej!... 
+            
             
             
             <stage>(Pawłowa przynosi karafkę i leje na Eulalję)</stage></p>
@@ -2701,6 +2848,7 @@
           <p>Zaraz ja ją tu roztrzyźwię... 
             
             
+            
             <stage>(krzyczy jej w ucho)</stage>
             Trrrr...</p>
         </sp>
@@ -2708,6 +2856,7 @@
           <speaker>EULALJA.</speaker>
           <p>
             <stage>(zrywając się)</stage>Ah! cóż za nieznośna baba! 
+            
             
             
             <stage>(wierci palcem w uchu)</stage></p>
@@ -2723,6 +2872,7 @@
             <stage>(odskakując)</stage>Idź pan sobie... nie dotykaj się mojej ręki... 
             
             
+            
             <stage>(Ignacy nie rozumiejąc, patrzy po wszystkich; gwałtownie)</stage>
             jesteś pan niegodziwiec, potwór! bałamucić dwie kobiety, a potem je obgadywać!</p>
         </sp>
@@ -2734,6 +2884,7 @@
         <sp who="#eulalja">
           <speaker>EULALJA.</speaker>
           <p>Co mówię, dwie... trzy kobiety... 
+            
             
             
             <stage>(gestem dramatycznym wskazując Pawłowę, ironicznie)</stage>
@@ -2777,6 +2928,7 @@
             <stage>(trzęsąc się z gniewu, do Pawłowej)</stage>Gadaj mi co się tu stało! 
             
             
+            
             <stage>(ta się odwraca, skubiąc fartuch z figlarną miną)</stage></p>
         </sp>
         <sp who="#eulalja">
@@ -2784,12 +2936,15 @@
           <p>Co się stało? to się stało, że nie potrzebuję pańskich kolczyków... dostanę je od Klotyldy, gdy jej powiem, że mi je pan ofiarowałeś za pomaganie mu do schwycenia jej w swoje sieci... Ale wybij ją pan sobie z głowy, bo 
             
             
+            
             <stage>(uroczyście)</stage>
             jakem Eulalja Trajkotkiewiczówna... tu mi włosy na dłoni wyrosną, jeżeli pan ją dostaniesz... Adieu! uniżona sługa!... 
             
             
+            
             <stage>(wychodzi drzwiami w głębi; odwracając się z progu)</stage>
             Do prędkiego niewidzenia się!... potwór!... 
+            
             
             
             <stage>(wychodzi)</stage></p>
@@ -2802,8 +2957,10 @@
             <rs key="#pawlowa">Pawłowa</rs>- 
             
             
+            
             <rs key="#ignacy">Ignacy</rs>
             - 
+            
             
             
             <rs key="#heljodor">Heljodor</rs>
@@ -2817,6 +2974,7 @@
         <sp who="#pawlowa">
           <speaker>PAWŁOWA.</speaker>
           <p>Nagadałam, to nagadałam — niech pan będzie kontent, że sobie odeszła... 
+            
             
             
             <stage>(odchodzi ku drzwiom na prawo)</stage></p>
@@ -2835,6 +2993,7 @@
           <p>Ta kobieta do wściekłości mię przyprowadzi... 
             
             
+            
             <stage>(przyskakuje do niej z zaciśniętemi pięściami)</stage>
             Powiesz, czy nie?!</p>
         </sp>
@@ -2843,11 +3002,13 @@
           <p>Nie powiem 
             
             
+            
             <stage>(wybiega na prawo)</stage></p>
         </sp>
         <sp who="#ignacy">
           <speaker>IGNACY.</speaker>
           <p>Niegodziwa!... 
+            
             
             
             <stage>(wybiega za nią)</stage></p>
@@ -2865,8 +3026,10 @@
             <stage>(po chwili)</stage>Obstupui!... teraz widzę, że sama da sobie radę, i sprowadzi rozwiązanie, jakie mu przepowiadałem... 
             
             
+            
             <stage>(słychać za sceną krzyki Ignacego i płacz Pawłowej: „o mój Boże! mój Boże! la Boga rety!&quot;)</stage>
             ale tymczasem, on ją tam chyba zabije!... wyleciał za nią wściekły... 
+            
             
             
             <stage>(chce iść za niemi, w tem temi samemi drzwiami wchodzi Ignacy ciągnąc za sobą płaczącą Pawłowę)</stage></p>
@@ -2879,8 +3042,10 @@
             <rs key="#pawlowa">Pawłowa</rs>- 
             
             
+            
             <rs key="#ignacy">Ignacy</rs>
             - 
+            
             
             
             <rs key="#heljodor">Heljodor</rs></p>
@@ -2925,6 +3090,7 @@
           <p>Nie bądź warjatem! 
             
             
+            
             <stage>(szarpią się)</stage></p>
         </sp>
         <sp who="#pawlowa">
@@ -2938,6 +3104,7 @@
             <stage>(osłupiały)</stage>A to kapitalne, wiecie państwo... tego rysu mi brakowało... 
             
             
+            
             <stage>(zapisuje)</stage></p>
         </sp>
         <sp who="#ignacy">
@@ -2946,8 +3113,10 @@
             <stage>(na stronie)</stage>Żal mi jej... zawsze to dowodzi przywiązania... 
             
             
+            
             <stage>(chodzi patrząc z pod oka na Pawłowę, po chwili)</stage>
             No, powiesz? 
+            
             
             
             <stage>(głaszcze ją)</stage></p>
@@ -2971,8 +3140,10 @@
             <stage>(głaszcze ją ukradkiem przed Heljodorem)</stage>No, przeproś mnie... 
             
             
+            
             <stage>(podaje jej rękę do pocałowania; ona odwraca się)</stage>
             przeproś zaraz... 
+            
             
             
             <stage>(unosząc się)</stage>
@@ -2989,8 +3160,10 @@
             <stage>(spojrzawszy na Heljodora)</stage>Cicho!... 
             
             
+            
             <stage>(Pawłowa całuje jego rękę kilkakrotnie)</stage>
             głupia... 
+            
             
             
             <stage>(głaszcze ją; po chwili)</stage>
@@ -3007,6 +3180,7 @@
             <stage>(wzruszony na stronie)</stage>Rozbeczę się, jak mi Bóg miły... 
             
             
+            
             <stage>(głośno)</stage>
             Obmyj sobie oczy, bo ci napuchną... i nos ci się zaczerwienił... widzisz!</p>
         </sp>
@@ -3020,16 +3194,20 @@
           <p>Zobaczymy, zobaczymy... 
             
             
+            
             <stage>(na stronie)</stage>
             Prawdę powiedziawszy, teraz to już wszystko jedno... ta plotkarka będzie wszędzie trąbić... nosa nie będę mógł nigdzie pokazać... 
+            
             
             
             <stage>(po chwili)</stage>
             Zadrwię ze wszystkich! 
             
             
+            
             <stage>(do Pawłowej pół głosem)</stage>
             Marychna... dobrześ zrobiła... nie pożałujesz tego!... 
+            
             
             
             <stage>(szepce jej po cichu; ona przyklęka i obejmuje jego kolana; on kładzie rękę na jej głowie; z tryumfem i ironją spoglądając na Heljodora)</stage>
