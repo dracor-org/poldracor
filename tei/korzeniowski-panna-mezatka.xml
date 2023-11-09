@@ -108,14 +108,12 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">PANNA MĘŻATKA.</titlePart>
             <titlePart type="sub">KOMEDYA WE TRZECH AKTACH.</titlePart>
           </docTitle>
           <byline>przez
-
             <lb/>
             <docAuthor>Józefa Korzeniowskiego</docAuthor>
             .</byline>
@@ -125,10 +123,8 @@
           <docImprint>
             <p>
               <pubPlace>Wilno</pubPlace>. Nakładem i drukiem
-
               <name>Józefa Zawadzkiego</name>
               .
-
               <date>1845</date>
               .</p>
           </docImprint>
@@ -136,13 +132,10 @@
 
             <placeName>Wilno</placeName>
             ,
-
             <date>1845 roku 19 Stycznia</date>
             .
-
             <lb/>
             Cenzor
-
             <name>Jan Waszkiewicz</name></imprimatur>
         </titlePage>
         <castList>
@@ -172,7 +165,6 @@
             <roleDesc>lokaj Adolfa.</roleDesc>
           </castItem>
         </castList>
-      </div>
       <set>
         <p>(Scena w Warszawie).</p>
       </set>

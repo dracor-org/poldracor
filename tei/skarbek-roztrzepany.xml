@@ -120,7 +120,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">ROZTRZEPANY</titlePart>
@@ -172,7 +171,6 @@
             <roleDesc/>
           </castItem>
         </castList>
-      </div>
       <set>
         <p>(Rzecz dzieje się w Warszawie).</p>
       </set>

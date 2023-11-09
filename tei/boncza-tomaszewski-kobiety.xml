@@ -151,7 +151,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">KOBIETY,
@@ -218,13 +217,10 @@
         </div>
         <docTitle>
           <titlePart type="main">KOBIETY,
-
             <lb/>
             JAKICH MAŁO NA ŚWIECIE
-
             <lb/>
             CZYLI
-
             <lb/>
             CNOTA NAGRODZONA</titlePart>
         </docTitle>
@@ -303,7 +299,6 @@
             <role corresp="#zolnierze">sześciu Zołnierzy.</role>
             <roleDesc/></castItem>
         </castList>
-      </div>
       <set>
         <p>(SCENA W NIEMCZECH)
           <lb/>
