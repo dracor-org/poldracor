@@ -115,6 +115,7 @@
   </standOff>
   <text>
     <front>
+        <frontPart>
         <titlePage>
           <docTitle>
             <titlePart type="series">BIBLIOTEKA TEATRÓW AMATORSKICH
@@ -148,6 +149,7 @@
               <date>1879</date>.
           </docImprint>
         </titlePage>
+      </frontPart>
         <castList>
           <head>OSOBY:</head>
           <castItem>
