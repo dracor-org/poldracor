@@ -96,12 +96,12 @@
             <persName>Vice-prezydent</persName>
           </person>
           <personGrp xml:id="konsyliarze">
-            <person sex="MALE" xml:id="konsyliarz1">
+            <persona sex="MALE" xml:id="konsyliarz1">
               <persName>Konsyliarz</persName>
-            </person>
-            <person sex="MALE" xml:id="konsyliarz2">
+            </persona>
+            <persona sex="MALE" xml:id="konsyliarz2">
               <persName>Konsyliarz drugi</persName>
-            </person>
+            </persona>
           </personGrp>
           <person sex="MALE" xml:id="sekretarz">
             <persName>Sekretarz</persName>
@@ -215,15 +215,6 @@
             </signed>
           </closer>
         </div>
-        <docTitle>
-          <titlePart type="main">KOBIETY,
-            <lb/>
-            JAKICH MAŁO NA ŚWIECIE
-            <lb/>
-            CZYLI
-            <lb/>
-            CNOTA NAGRODZONA</titlePart>
-        </docTitle>
         <castList>
           <head>OSOBY</head>
           <castItem>
