@@ -127,18 +127,16 @@
               WE TRZECH AKTACH.</titlePart>
           </docTitle>
           <docImprint>
-            <p>
-              <docEdition>w 
-                <pubPlace>WARSZAWIE</pubPlace>
-                <date>1778</date>
-                .
-                <lb/>
-                Nakładem y Drukiem 
-                <name>MICH. GRÖLLA</name>
-                ,
-                <lb/>
-                Księgarza Nadwornego J. K. Mci.</docEdition>
-            </p>
+              w 
+              <pubPlace>WARSZAWIE</pubPlace>
+              <date>1778</date>
+              .
+              <lb/>
+              Nakładem y Drukiem 
+              <name>MICH. GRÖLLA</name>
+              ,
+              <lb/>
+              Księgarza Nadwornego J. K. Mci.
           </docImprint>
         </titlePage>
         <castList>

@@ -152,19 +152,17 @@
             </cit>
           </epigraph>
           <docImprint>
-            <p>
-              <docEdition>w 
+              w 
                 <pubPlace>WILNIE</pubPlace>
                 <lb/>
                 Przy Collegium S.P.
-                <lb/></docEdition>
-              <publisher>Drukował nakładem Autora
+                <lb/>
+              Drukował nakładem Autora
                 <lb/>
                 <name>Marcin Dymiński</name>
                 Typogr. Wileń.
-                <lb/></publisher>
+                <lb/>
               <date>1808</date>
-            </p>
           </docImprint>
           <imprimatur>Za pozwoleniem Cenzury Wileńskiey.</imprimatur>
         </titlePage>
