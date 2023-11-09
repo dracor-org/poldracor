@@ -105,8 +105,15 @@
   </standOff>
   <text>
     <front>
-      <titlePage/>
-      <castList>
+      <titlePage>
+          <docTitle>
+            <titlePart type="series">BIBLIOTEKA TEATRÓW AMATORSKICH
+              <lb/>
+              Nr. 17.</titlePart>
+            <titlePart type="main">MARCOWY KAWALER</titlePart>
+            <titlePart type="sub">krotochwila w jednym akcie</titlePart>
+          </docTitle>
+        </titlePage>
         <head>OSOBY:</head>
         <castItem>
           <role corresp="#ignacy">IGNACY,</role>
