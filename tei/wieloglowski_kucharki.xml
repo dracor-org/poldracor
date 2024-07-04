@@ -145,14 +145,10 @@
             <docAuthor>Walerego Wielogłowskiego</docAuthor>.
           </byline>
           <docImprint>
-            <p>
-              <docEdition>
               W <pubPlace>KRAKOWIE</pubPlace><lb />
-			  </docEdition>
-              <publisher>NAKŁADEM WYDAWNICTWA DZIEŁ KATOLICKICH<lb />
-              NAUKOWYCH I ROLNICZYCH</publisher>
+              NAKŁADEM WYDAWNICTWA DZIEŁ KATOLICKICH<lb />
+              NAUKOWYCH I ROLNICZYCH
               <date>1858</date>.
-            </p>
           </docImprint>
         </titlePage>
     </front>
