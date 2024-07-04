@@ -112,7 +112,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docAuthor>WŁODZIMIERZ PERZYŃSKI</docAuthor>
           <docTitle>
@@ -120,8 +119,7 @@
             <titlePart type="sub">KOMEDYA W TRZECH AKTACH</titlePart>
           </docTitle>
           <docImprint>
-            <p>
-              WE <pubPlace>LWOWIE</pubPlace> - <date>1907</date>
+              WE LWOWIE - <date>1907</date>
               <bibl>
                 <publisher>NAKŁADEM KSIĘGARNI POLSKIEJ B. POŁONIECKIEGO<lb />
                 WARSZAWA – E. WENDE I SP.
@@ -135,7 +133,6 @@
                 POD ZARZĄDEM JÓZEFA ZIEMBIŃSKIEGO - <origDate>1907 ROKU</origDate>
                 </publisher>
               </bibl>
-            </p>
           </docImprint>
         </titlePage>
         <salute>Tadeuszowi Pawlikowskiemu</salute>
@@ -190,7 +187,6 @@
             <roleDesc/>
           </castItem>
         </castList>
-      </div>
     </front>
     <body>
       <div type="act" n="1">
@@ -2699,7 +2695,6 @@
             </p>
           </stage>
           <stage>(WŁADKA. po wyjściu Łońskiego stoi chwilę pośrodku sceny z zaciśniętemi, pięściami potem podchodzi do drzwi, dzwoni)</stage>
-          </sp>
           <sp who="#franek">
             <speaker>FRANEK.</speaker>
             <p><stage>(wchodząc)</stage> Był...</p>
