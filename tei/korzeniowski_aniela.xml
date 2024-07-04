@@ -1,0 +1,2822 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000012" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Aniela</title>
+        <title type="sub">Tragedia w pięciu aktach</title>
+        <author>
+          <idno type="isni">000000008342946X</idno>
+          <idno type="wikidata">Q2338973</idno>
+          <persName>
+            <forename>Józef</forename>
+            <surname>Korzeniowski</surname>
+          </persName>
+        </author>
+        <!-- Józef Korzeniowski (1797-1863) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/dramata-i-komedye-mniejsze-serya-3-t-2,MTE0MDYwNTU/64/</idno>
+          <title>Korzeniowski, J., Aniela, Tragedja w pięciu aktach, [w:] Korzeniowski, J., Dramata i komedye mniejsze. Serya 3 t. 2, Petersburg, 1853, ss. 55-222</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="aniela" sex="FEMALE">
+            <persName>Aniela</persName>
+          </person>
+          <person xml:id="grabarz" sex="MALE">
+            <persName>Grabarz</persName>
+          </person>
+          <person xml:id="gustaw" sex="MALE">
+            <persName>Gustaw</persName>
+          </person>
+          <person xml:id="helena" sex="FEMALE">
+            <persName>Helena</persName>
+          </person>
+          <person xml:id="herman" sex="MALE">
+            <persName>Herman</persName>
+          </person>
+          <person xml:id="lokaj" sex="MALE">
+            <persName>Lokaj</persName>
+          </person>
+          <person xml:id="ludwik" sex="MALE">
+            <persName>Ludwik</persName>
+          </person>
+          <person xml:id="marja" sex="FEMALE">
+            <persName>Marja</persName>
+          </person>
+          <person xml:id="służąca_pierwsza" sex="FEMALE">
+            <persName>Służąca pierwsza</persName>
+          </person>
+          <person xml:id="służąca_druga" sex="FEMALE">
+            <persName>Służąca druga</persName>
+          </person>
+          <person xml:id="służący" sex="MALE">
+            <persName>Służący</persName>
+          </person>
+          <person xml:id="urzędnik_policyi" sex="MALE">
+            <persName>Urzędnik policyi</persName>
+          </person>
+          <person xml:id="urzędnik_sądowy" sex="MALE">
+            <persName>Urzędnik sądowy</persName>
+          </person>
+          <person xml:id="wilhelm" sex="MALE">
+            <persName>Wilhelm</persName>
+          </person>
+          <person xml:id="zosia" sex="FEMALE">
+            <persName>Zosia</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Tragedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-06">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1826">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">ANIELA,</titlePart>
+            <titlePart type="sub">TRAGEDJA W PIĘCIU AKTACH.</titlePart>
+          </docTitle>
+          <epigraph xml:lang="la">
+            <cit><quote>Quid contraxistis frontem? quia Tragaediam Dixi futuram hanc?</quote><lb /> <bibl>PLAUTUS</bibl></cit>
+          </epigraph>
+        </titlePage>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#gustaw">GUSTAW Hrabia PRZEWORSKI.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#ludwik">LUDWIK STĘŻYC,</role>
+            <roleDesc>jego przyjaciel.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#herman">HERMAN,</role>
+            <roleDesc>Lekarz.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#aniela">ANIELA,</role>
+            <roleDesc>jego córka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#zosia">ZOFIA,</role>
+            <roleDesc>druga córka w siódmym roku.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#helena">HELENA,</role>
+            <roleDesc>wdowa po Kasztelanie Bełzkim.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#marja">MARJA,</role>
+            <roleDesc>jej przyjaciółka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#wilhelm">WILHELM STAŃSKI,</role>
+            <roleDesc>kochanek Anieli.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#urzędnik_sądowy">Urzędnik sądowy,</role>
+            <roleDesc>sąsiad Hermana.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#urzędnik_policyi">Urzędnik policyjny.</role>
+            <roleDesc/>
+          </castItem>
+          <castGroup>
+            <castItem>
+              <role corresp="#służąca_pierwsza">Służąca pierwsza,</role>
+            </castItem>
+            <castItem>
+              <role corresp="#służąca_druga">Służąca druga,</role>
+            </castItem>
+            <roleDesc>Dwie służące Hermana.</roleDesc>
+          </castGroup>
+          <castItem>
+            <role corresp="#służący">Służący stary Gustawa.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#grabarz">Grabarz.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#sąsiedzi">Różni sąsiedzi Hermana, mężczyzni i kobiety.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#pachołki">Pachołki Policyi.</role>
+            <roleDesc/>
+          </castItem>
+        </castList>
+      </div>
+      <set>
+        <p>(Scena we Lwowie)</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT I.</head>
+        <stage type="setting">
+          <p>(Pomieszkanie Hermana)</p>
+        </stage>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage type="setting">
+            <p>(Gustaw przygotowany do wyjścia z domu, spotyka we drzwiach nadchodzącego Ludwika)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#gustaw">GUSTAW.</rs>
+              <rs key="#ludwik">LUDWIK.</rs>
+            </p>
+          </stage>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Nigdyś mi nie był bardziej pożądanym.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Wczas więc przychodzę; miło mi, że los twój w małych ci nawet wydarzeniach sprzyja.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>W obecnym razie mylisz się, Ludwiku.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Coż ci się stało?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(pokazując list)</stage> Znana ci ta ręka?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Twojego ojca.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Zgadłeś, ale czytaj.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p><stage>(przeczytawszy oddaje list)</stage> O przyjacielu! szczerze ci winszuje. Szczęśliwym będziesz, gdy otrzymasz rękę tej zacnej damy, którą wszyscy wielbią.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Nie mów mi o niej!</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Czemu? czyż być może przedmiot godniejszy mowy i myślenia? Piękność i rozum i ród i majątek, wszystko ją chwali. Jużeś raz niebacznie stracił jej rękę i jej serce zranił. Wart kary wiecznie, kto odrzuca ślepo skarb, który szczęście w dłonie jego wsuwa.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Oddawna zwykłeś nazbyt ją wynosić. Ledwiebym nie zgadł celu tej przesady. Wiem, że jest piękna; i pochwała twoja nie zdziała więcej, niż jej wdzięki mogą. Dla tego przestań; raczej, jak przyjaciel radź, co mam czynić?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Spełnić jak najrychlej ojcowską wolę.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>I zapomnieć całkiem o tej Anieli biednej, kochającej, mogąc mieć inną, piękną i bogatą?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p><stage>(pokazując list)</stage> Te słowa, w których sam rozsądek mówi, niech na ten zarzut odpowiedzą.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Jak to? Więc wasz rozsądek każe zdradzić miłość, zawieść nadzieje niewinnego serca, napełnić bolem nieszczęśliwą – czemuż? Bo jej się ojciec zowie tylko Herman; bo odwracając śmierć, i lecząc niemoc szlachetną sztuką, sam na chleb zarabia; bo nie powiększy niczem mych dochodów, których i tak mam więcej, niż mi trzeba? uczciwszej trochę rady oczekuję.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Zbyt trudno radzić królom i kochankom. Gustawie, nie myśl przecież, abyś we mnie pochlebcę znalazł, coby twoje chęci przybierał w podłą barwę swego zdania. Widzę ja stan twój lepiej, niż rozumiesz; a za twą przyjaźń winienem otwartość. Dawnom cię ganił, żeś się wdał w te związki, których nie jesteś najgłówniejszym celem. Miłość i przyjaźń jest wśród równych; biedny bogactwa kocha, nie bogacza; z niemi, nie z nim się łączy.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Nie znasz tego starca, co wzgardzić gotów największemi skarby, gdyby mu trzeba zniżyć się i spodlić. Podobną duszę wlał i w córkę swoję; i ją nauczył cenić tylko ludzi, nie świetną suknię, co ich małość kryje.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Być może; nie znam ich, to prawda. Wreszcie zbyt ona młoda, by łakomą była. Ani tak ciemna, byś się sam jej nie zdał kochania bardzo godnym: lecz pomimo stoickiej cnoty ojca tej Anieli, rozumiem jednak, że twój stan jest dla niej największym wdziękiem w twej osobie, że się lubi przenosić myślą na ów stopień, z którego piękność jej szeroko błyśnie.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Choćby w jej myśli próżność ta postała, ganić jej wcale nie chcę. Słusznie pragnie dać poznać wdzięki swoje; bo w kobiecie, po cnocie, piękność jest najwyższym darem.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Słuchaj Gustawie! dajmy, że cię kocha; zdołaszże szczęście zrządzić jej i sobie? Zrodzony z sercem czułem i drażliwem, zniesieszże ciosy szyderskiego świata? A choćby nawet ciebie nie dotknęły, nie spadnąż wszystkie na twą żonę? Czyliż miłe ci będą krzywe te spojrzenia, gryzące słówka, które jej nie miną? Maszże dość mocy, byś w zakącie jakim zamknął się z żoną i spokojnie znosił familii wzgardę, i co najgorsza, gniew, zbyt surowy gniew twojego ojca?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Ha! być to może; ale może nie być. Jest podobieństwo, lecz pewności nie ma. Potrafi ona, wierz mi, zjednać sobie szacunek ludzi, co nie imię tylko, ale i serce cenią. Wreszcie ze mnie spłynie i na nią dosyć dostojności. Kobieta bowiem przez mężczyznę tylko staje się w świecie czemsiś, albo niczem.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Dość mocno bronisz twojej sprawy; czyń więc jak ci się zdaje. Moja rada insza; i nie te tylko do niej mam powody, na które łatwo znalazłem odpowiedź.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Jakież masz? powiedz.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Na coż ci się zdadzą, gdyś już przedsięwziął.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Kto wie, może jeszcze... choćbym już nawet i przedsięwziął... powiedz, ciekawym poznać moc ich i fundament.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Nic tak nie boli nas, jak własna wina. Sumienie nawet grotem zaostrzonym rani człowieka, co swe szczęście zabił. Bo na swe szczęście, równie jak na życie, natura broni targać się zuchwale.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Zawsześ bogaty w nader mądre zdania. Ale do czegoż dążą?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Obyś tylko za nadto późno nie był przymuszony wyznać, jak mądre były i prawdziwe.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Więcże tak wielkiem mniemasz być nieszczęściem naganę gminu i gniew krótki ojca?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Są to przykrości; ale ci ich niczem związek z Anielą nie osłodzi.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Czemu?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Bo miłość tylko byłaby tem słońcem, coby te przykre cienie rozproszyła. Gorycze nawet dla niej poniesione za miłą sercu wzięłaby zasługę. Lecz twoje serce zimne; ty Anieli nie kochasz wcale.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(zmieszany)</stage> Kto ci to powiedział?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Nie od dziś żyję; i tajemnic serca dochodzić umiem, chociaż język milczy. Oddawnam skłonność twoję śledził; dawnom poznał, że była tylko urojeniem. Los cię wysoko wyniósł i otoczył  Blaskiem, wzrok niższych łatwo uwodzącym.  Każda twa grzeczność była czarodziejstwem, które jej słabe serce uwięziło. Z początkuś czcił w niej utwór twojej głowy, niedługoś poznał, żeś daleko zabrnął. Szlachetnym jesteś; w chwili wspaniałości, za miłość wziąwszy litość, dałeś słowo.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Raz jeszcze pytam, kto ci to powiedział?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Z ciebiem wydobył, mimo twojej wiedzy, tę tajemnicę, którąś godnie taił. Lecz teraz przyznaj szczerze. <stage>(Gustaw odwraca się i milczy)</stage> Czyliż odtąd trudno mi było poznać, ile cierpisz? Wspomniałżeś komu, coś uczynił? Nigdy wstyd cię wstrzymywał i nagany bojaźń. Roztropne sprawy nigdy się nie wstydzą ludzkiego oka.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Miałżem nudzić drugich rzeczą, co dla mnie tylko była ważną?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Prawdziwa miłość nie jest tak przezorna. Wśród obcych tylko cieniem się okrywa, przyjacielowi lubi się wylewać; z rozkoszą mówi o przedmiocie swoim, swój płomień karmiąc podziwieniem drugich. Ty, przyjacielu! nigdyś jej nie kochał. <stage>(Gustaw siada zamyślony)</stage> Tak więc na zawsze zrzekasz się uczucia, co jest natury najpiękniejszym kwiatem. I gdy go każda ręka zerwać może, gdy każde łono chętnie się nim zdobi – ty go odrzucasz i nogami depcesz.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(powstając)</stage> Dosyć już, przestań. Może znajdę jeszcze tyle odwagi, bym powinność spełnił. Jeśli, jak mówisz, wcale jej nie kocham, tem szlachetniejszym będę w oczach własnych, żem rozumowi górę dał nad sercem.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Smutna pociecha!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Leczbym nie miał żadnej, gdybym mój honor splamił, gdybym serce czyste, niewinne rozdarł i zakrwawił; stał się mordercą jej cichego szczęścia, a może nawet... Proszę cię, już dosyć.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Zawsze widziadła wyobraźni twojej za prawdę bierzesz, niemi się przerażasz, albo jak dziecię bawisz. Bądź rozsądnym; spokojnie mówmy. Czas nie minął, jeszcze cofnąć się możesz. Odkryj jej otwarcie powody twoje. Będzie je szanować, jeśli cię kocha. Zbyt ucierpi, prawda; ale te rany rychło się pogoją. I miłość kobiet i ich rozpacz krótka. Przyjdzie jej na myśl, że nie miała prawa do ręki twojej; wszystkie swe nadzieje za mary wezmie piękne, lecz znikome. I, wierz mi, wkrótce po nich się pocieszy, jak tyle innych kobiet oszukanych.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Ja zaś, dla siebie, jak zwodziciel podły, w objęciach innej mam pociechy szukać!</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>W objęciach żony, którą ci przysądza stan twój, społeczność, a najpierwej ojciec; która cię kocha, i do serca twego, od lat tak wielu, ma najpierwsze prawo.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Żal mi jej, zawsze miłość jej niewczesna. Lecz niechaj szuka, jak szukała pierwej, ulgi w zgrzybiałym mężu.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Tyż to możesz tak ostry wyrzut czynić? A przez kogoż oddała rękę, mimo serca? Ktoż to, zajęty wówczas pokątnemi związki odrzucił serce to nieocenione, i głośną wzgardą, do rozpaczy przywiódł? Wartbyś, by miłość srogim się odwetem pomściła krzywd swych. Coż mi na to powiesz?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(zimno)</stage> Chciałem twej rady, zgodzić się nie możem; zakończmy zatem, bo już nie mam więcej, cobym powiedział.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Żal mi cię, prawdziwie. Sam siebie zwodzisz. Z sobąś się poróżnił i z nikim teraz zgodzić się nie możesz. Po co się dręczysz? Kochaszli Anielę; dla czegoż ojcu nie objawisz uczuć, co cię nie hańbią, chociaż nieroztropne? Jeśli Helena wcale ci niemiła; dla czegoż wzrokiem i tkliwemi słowy karmisz jej miłość? Przez dwie drogi razem iść niepodobna i do celu trafić. Postanów śmiało; ale zawsze pomnij, żeś ją uczynił raz już nieszczęśliwą i że cię kocha.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Miłość jej niewczesna, jużem powiedział.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Więc ją ostrzedz muszę; muszę uprzedzić.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Możesz, gdy ci miło w cudze się sprawy bez potrzeby mieszać.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Teraz skończyliśmy, już nie mam więcej, cobym powiedział. Żegnam cię. <stage>(Chce odejść)</stage></p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Stój, dokąd?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Wiesz, dokąd idę.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(biorąc go silnie za rękę)</stage> Wstrzymaj się, Ludwiku! Z tajników serca, z głębi moich piersi, dobyłeś na jaw, com przed sobą taił. Stan mój okropny. Często, na sam obraz ciernistej drogi mojej, opadają skrzydła mej myśli i hart duszy pęka. Stało się przecięż. Spełnię, com powinien. Przeszła już młodość, z nią swoboda moja. Przymus jest królem dojrzałego wieku. Powinność zimna z kajdanami w ręku wita wędrowca, co z krainy marzeń na ziemię schodzi. Znam jej moc potężną. Przyrzekłem, muszę być Anieli mężem; ale Helenę kocham. <stage>(Odchodzi szybko)</stage></p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p><stage>(sam)</stage> Ty ją kochasz? Więc ją mieć będziesz. Wkrótce te zapory, które ci zbytek uczciwości stawia, miłość obali. Jak posłuszne dziecię, łatwo powiodę cię do celu mego, kiedy mię serce twe uprzedzać będzie. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage type="setting">
+            <p>(Pomieszkanie Hermana)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#aniela">ANIELA.</rs>
+              <rs key="#zosia">ZOSIA.</rs> (potem)
+              <rs key="#herman">HERMAN.</rs> (i)
+              <rs key="#wilhelm">WILHELM.</rs>
+            </p>
+          </stage>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(ubierając Zosię, która się niecierpliwi)</stage> Kobietą jesteś, nie nudź się przy stroju.</p>
+          </sp>
+          <sp who="#zosia">
+            <speaker>ZOSIA.</speaker>
+            <p>Kończ już, Anielo.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Jeszcze ci ten wianek na głowę włożę. Wiesz ty, kiedy nasze skronie mirtowym wieńcem zdobią?</p>
+          </sp>
+          <sp who="#zosia">
+            <speaker>ZOSIA.</speaker>
+            <p>Nie wiem.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>O biedne dziecię! jakże ty wiesz mało. Czas to roskoszny, dzień to jest radości! <stage>(Zamyśla się)</stage> Nie zawsze jednak czasem ta korona umaja smutne czoło; łza boleści skrapia zbyt często te prorockie listki, błyszcząc jak kropla rosy na gałązce, która przy grobie rośnie. <stage>(Herman i Wilhelm nadchodzą, Aniela pokazuje ojcu siostrę ubraną, jakby do ślubu)</stage></p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Coż to znaczy?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Dowiesz się, ojcze.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Bez przestanku marzysz.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Nie budź mię: lubię piękne te marzenia; bogatsze one w kwiaty, niżli prawda.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(odwraca się nieukontentowany do Wilhelma)</stage> Jutro więc jedziesz?</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Obym mógł z nadzieją to miasto rzucić. Często oddalenie podwaja wartość nieprzytomnych, uczy cenić, co nazbyt się zwyczajnem zdaje, gdy jest na oczach. <stage>(Poglądając na Anielę)</stage> obym i ja zastał zmianę oddawna próżno wyglądaną!</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>We mnie nie znajdziesz żadnej: takiem sercem witać cię będę, jakiem żegnam. Znasz mię i chęci moje.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Znam cię. Jak mi słodko ciebie szanować, a was wszystkich kochać! Lecz czemuż dla was mam być zawsze obcym? Gdy moja dusza ciągle pod tym dachem przebywać lubi, czemuż tu nie mogę mej głowy schronić? Nie mam ojca, matki, sam jeden żyję w świecie. Praca moja, która mię żywi, a dla kogoś jeszcze starczyćby mogła, staje mi się ciężką. Z jakąż rozkoszą składałbym jej owoc w ręku anioła, coby nad nim czuwał! Jakżeby wszystkie myśli mię ciągnęły do tego domu, w którym słodki węzeł wróciłby sercu, co natura wzięła! W którymby jeszcze nadał mi nazwanie milsze od imion brata albo syna; lecz los mi każe zostać dla was obcym. Żyjcież weseli, wspominajcie o mnie. <stage>(Ściska rękę Hermana, pogląda niejaki czas na Anielę, która go pilnie słuchała)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(zbliża się do niego i podaje mu rękę)</stage> Masz siostrę we mnie, nie wymagaj więcej. <stage>(Wilhelm całuje jej rękę i odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#herman">HERMAN.</rs>
+              <rs key="#aniela">ANIELA.</rs> (i)
+              <rs key="#zosia">ZOSIA.</rs>
+            </p>
+          </stage>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Czy cię nie wzrusza jego skromna tkliwość?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Aż nadto, ojcze drogi; ale mogęż tę ranę goić, której nie zadałam. Jego uczciwość, jego cichy płomień jest mi szacownym. Nawet się nie skarzę, że swoim smutkiem zwiększył ciężką boleść, którą mi sprawił sen dzisiejszej nocy.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Samemi snami żyjesz!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Wiem ja, ojcze, że gardzisz niemi. Ja im mało wierzę, chociaż ich pełno w głowie mojej. Przecież, gdybym wiedziała, że mię słuchać zechcesz...</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>I coż mi powiesz?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Daruj, żem natrętna; lecz dla miłości wszystko ma znaczenie.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Mów więc.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Uważaj, ojcze. Zdało mi się, żem w takim stroju, jaki na niej widzisz, przed tobą klękła; Gustaw ukląkł ze mną, tyś nas przeżegnał i Bóg był przytomny. Z radością potem szliśmy do kościoła; on wziął mą rękę, a jam powtarzała w myśli przysięgę wiary i miłości. Organ brzmiał zwolna, a obrazy słodkie cichego szczęścia żony, dalej matki, wkoło mej głowy igrać się zdawały. Nie szydź, mój ojcze, z tej połowy marzeń, bo ta szczęśliwa.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Jakaż druga?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Druga? Inna... i pierwsza tylko szczęście wróży. Powiem ci przecięż; gdyśmy już przy stopniach ołtarza stali, kiedy kapłan ręką wzniesioną już nas miał pobłogosławić; wtenczas... ujrzałam zblizka, tuż przy sobie, kobietę inną. Twarz jej była groźna, ale szlachetna; ślubny strój ją zdobił. Skoro ją ujrzał Gustaw, nagle wyrwał swą rękę z dłoni mojej.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(odwraca się)</stage> Hm!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Mój ojcze. Pamiętaj przecię, że to sen znikomy.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Coż dalej?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Drżałam jak jesienny listek, gdy burza blizka. Ta złośliwa postać mię odtrąciwszy, moje miejsce wzięła i... patrz, mój ojcze, zdarłszy ze mnie wieniec, podała ręce mojej lilię białą i takim kirem twarz mą osłoniła. <stage>(Zarzuca na Zosię czarną zasłonę, sama stoi z wlepionemi w ziemię oczami)</stage></p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(zrywając zasłonę, do Zosi)</stage> Pójdź, moje dziecię, zabaw się gdzieindziej. <stage>(Zosia odchodzi)</stage> Anielo! co jest sen twój, widzisz sama: nadał on postać, i w posępny obraz, tajemne trwogi serca twego przybrał</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Nie znam ich ojcze, gdym przytomna sobie, gdy mogę myśleć, kogo kocham, kto mię nawzajem kocha. Gustaw jest szlachetny, cokolwiek mówią o nim – fałsz jest, wierz mi. O! nieuwierzysz co się we mnie dzieje, gdy się przy boku jego wyobrażam; kiedy pod jego skrzydłem przelatuję dalszego życia kraje nieznajome. Tam on odwraca każde tchnienie wiatru, coby zbyt ostro moję twarz obraził; tam stroi ziemię w szatę wiecznej wiosny; tam z najczystszego szczęścia tkliwych ludzi, roskoszny napój dla mnie przysposabia! Lecz ty nie wierzysz, ty się nie radujesz? Smutny, ponuro patrzysz w ziemię, jakbyś dla córki twojej miejsca na grób szukał.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(z niecierpliwością)</stage> Jeśli chcesz mówić ze mną, mów inaczej; tej mowy marzeń nienawidzę. Często bierze mię dzika chęć, naturze łajać, że ci zbyt wiele dała owej władzy, co w marach prawdę widzi; a rozumu aż nadto mało.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(z przymileniem)</stage> Ojcze mój kochany! Szczęście kobiety nie jest jego dziełem; ja go nie lubię. Światło to księżyca, zimne i martwe; ściera żywe farby ze wszystkich kwiatów życia i w posępną w bladą powłokę ziemię przyodziewa.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Leć więc na oślep. Niebezpieczne błędy zasiewasz; rozpacz ci się z nich urodzi. A ja to wszystko sobie tylko przyznam.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Daruj mi, ojcze, ja cię nie rozumiem.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Nie chcesz rozumieć. Dawniej pojmowałaś wejrzenia moje, byłaś mi posłuszną, a ja spokojnym. Teraz, mamże wyrzec? Postać zwiedzionej ze snu mię wyrywa, troska o los twój, ta zgryźliwa żona umysłu mego, ciągle we mnie czuwa; a ty nie myślisz mi obawy ująć.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ojcze mój, skądże te obawy wzrosły?</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Chciałem być dobrym ojcem; chciałem szczerze nie nadużywać prawa mi danego. Chciałem, by miłość, nie powagi mojej surowa ręka, męża ci wybrała. Każdy mnie równy cnotą i ubóstwem, a tobie miły, byłby pożądanym; każdy, lecz żaden Hrabia, co zdradziecki zamiar w uczciwą maskę ubrać umiał! I gdybym znał go był z początku, Boga na świadka wzywam, żebym mu był zaraz drzwi domu mego wskazał. Dziś już nie czas! Zapoźnom poznał, kto on jest i czego pragnie. Do innej, równej mu z dostatków i z rodu, serce swoje skłonił. Maszże odwagę przenieść, co ci już zagraża? Opuść go pierwsza, nim cię on opuści; tak rozum radzi, tak ja chcę i każę. nie pragnij, smutkiem poźnym i rozpaczą, tych siwych włosów w jednym dniu pobielić.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Skądże wiesz, ojcze, że on inną kocha? Że ci tak ludzie mówią? Tyżbyś jeszcze, ty, coś lat tyle przeżył na tej ziemi, nie znał języków ludzkich! Rzadkoż one, dla czczej rozrywki, żenią i rozwodzą, wskrzeszają zmarłych i chowają żywych? Więc, że powinność każe mu być grzecznym; już ją ma kochać? Nie tak on zalotny. Żaden wdzięk, żadne przymilenie sztuki nie jest mu słodsze od wejrzenia mego, co płynie z serca, w którem on króluje.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>A gdyby milsze było, powiedz, czybyś mogła go stracić?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Nie; lecz czemuż, ojcze, chcesz mię zastraszać? czemu duszy mojej odbierasz pewność i ufanie w szczęściu? Więc, że dziesięciu oszukało czułość wierzących istot, ma i on oszukać? Mamże powtarzać jego przyrzeczenia, jego przysięgi! Tyś z nich szydzić gotów, bo byli tacy, którzy i najświętsze potargać śmieli. Ale ja im wierzę, ja chcę im wierzyć; z wiarą tą zasypiać i z nią się budzić, póki cios okropny od razu duszy mojej nie oświeci. Pozwól mi lecieć na tych skrzydłach czarów, chociażby lotu mego strasznym kresem, trumna być miała. Sam zaś, dobry ojcze, jak doświadczony w swej szanownej sztuce, kiedy nie możesz zdrowia mi przywrócić, przynajmniej duszy potępieniem nie strasz. <stage>(Herman patrzy na nią surowo i wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#aniela">ANIELA.</rs>
+              <rs key="#zosia">ZOSIA.</rs> (potem)
+              <rs key="#gustaw">GUSTAW.</rs>
+            </p>
+          </stage>
+          <sp who="#zosia">
+            <speaker>ZOSIA.</speaker>
+            <p><stage>(otwierając drzwi)</stage> Anielo! Gustaw idzie. <stage>(Zamyka)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(sama)</stage> Dzięki niebu! On mię pocieszy. Z jego słodkim głosem, zawsze nadzieja do mej duszy wpływa. <stage>(Patrzy w okno)</stage> Lecz coż to znaczy? coż mu się zrobiło? Tak smutnym rzadko bywał, nawet nigdy. Idzie i wraca, waha się, namyśla, stoi na miejscu. Nieba! gdy do niego skrzydłem gołębia donieśćbym się rada, on tak leniwo do mnie się przybliża! <stage>(Odstępuje od okna)</stage> Ach! wszystkoż dzisiaj na mnie się sprzysięgło? Przykra, boleśna trwoga mię przejmuje. Biedne kobiety! pocoż nam się zawsze, przeczuciem marnem, samowolnie dręczyć? Nie mogęż kazać by milczało? Ja go cieszyć mam w smutku, nie zasmucać sobą. <stage>(Gustaw wchodzi i staje przy drzwiach; Aniela, po krótkiej chwili, zbliża się, ku niemu i biorąc go za rękę)</stage> Gustawie! czemuż tak zdaleka? czemu tak bojaźliwie? Dawnoś mię nie widział, już tydzień prawie. Po tak długiej przerwie, takżeś raz pierwszy witać mię powinien?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(z uśmiechem)</stage> Czyż cię inaczej witać dziś, jak pierwej? Oddawna w sobie zmiany nie postrzegam.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Miłość ma bystre oczy, mój Gustawie! Uśmiech zmuszony, co po twoich ustach przebiegł, nie powstał z serca. Ale daruj! Może twe troski dla mnie niepojęte. Stoisz wysoko, z każdej strony możesz odbierać ciosy, które nas, ukrytych w mierności cieniu, dosiądz nie zdołają. Wspomnij wszelako, że tu przy mnie jesteś. Za ten próg, żaden ze złoconych grotów, któremi świat wasz rani, nie przeleci. Bądź dobrej myśli; oddal tę surowość, co twemu czołu nie przystoi. Radość jest boskim darem; grzeszy, kto nią gardzi, i kto spokojny wewnątrz... <stage>(Gustaw odwraca się. Aniela, po chwili)</stage> Nieszczęśliwie ten dzień zaczęłam.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Nieszczęśliwie! czemu?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ktokolwiek do mnie zbliży się, posępnie patrzy i mówi: jakby duszę moję ze wszystkich nadziei chciał obedrzeć! Jakby straszliwą przyszłość na mem czole czytał!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(poglądając na nią łagodnie)</stage> Jakże mi żal cię!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(żywo)</stage> O, wspaniały człeku! Ten wzrok twój wszystkie trwogi me rozpędził. Znów rośnie serce; bije, jak w tej wiośnie, gdyś słowem twojem, długo wyglądanem, otworzył pierś tę szczęściu nad wyrazy. Jakżem ci wdzięczna była! W jakąż suknię przywdziałeś nagle niebo i tę ziemię? Wszystko ożyło szczęśliwemu sercu; każdy liść wiosny mówił mi o tobie, w każdym zawoju róży pokochałam miłości kolor i miłości wróżbę! Jakże ja często chwile te wspominam!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Czas to był piękny!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Miły, jak wschód ranny dla podróżnego, co od domu blizki. Jak mię wysoko, nad mnie samę wyniósł! Dawniej nieśmiała, siedząc przy tem oknie czekałam z drżeniem, aż przyjeżdżać będziesz; i gdy cię koń twój lekko niósł, gdy zwolna zwracając głowę, w mojeś okno spojrzał; zaledwiem wierzyć mogła, że to szczęście do mnie należy. Teraz... o! i teraz siebie się pytam, czem niegodna mogłam zyskać tak wielką chwałę? jakiem prawem ten król młodzieży, możny i bogaty, cel żądań kobiet, które od kolebki na blask fortuny patrzeć się uczyły – jest twoim, twoim będzie już na zawsze!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Nader wymownie mi pochlebiasz.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Wstydź się! Pochlebstwo kłamstwem jest; a jażbym mogła fałszem me usta skazić? Nie, przed tobą każda myśl moja jawną być powinna. Taka mię szczerość wcale nie poniża. Kto mi aniołem stał się, kto promieni sobie ujmuje, aby mię oświecił, przed tym pokora długiem jest i chlubą. <stage>(Z bojaźnią)</stage> Lecz ty nie słuchasz, marszczysz się; już milczę...</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Anielo, nadtoś skromna! ale daruj! Dziwnym, okrutnym ci się wydam. Przecięż nie mogę szczęścia twego, twoich wspomnień czuć i podzielać!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(przestraszona)</stage> O, mój Boże! czemuż?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Nie mam w tej chwili serca i pamięci dla mnie samego, i dla ciebie nawet. Zbyt żywy obraz smutku przyjaciela całą myśl moję zajął.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Znam twe serce, zawsześ czuł mocniej cudze, niżli swoje.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>O! ten przyjaciel jest mi nader miły, od lat dziecinnych. Każdą jego boleść podzielać muszę.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Jakaż to przygoda?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Często przypadek, los i ludzie dręczą koleją błędnych ziemi tej wędrowców. Lecz pod najgorszą gwiazdą ten się zrodził, kto sam dla siebie miejsce ich zastąpił, kto nieposłuszny sercu, nie zgruntował męztwa swej duszy, i w szalonej chwili, swe życie obdarł z wszelkich ozdób ziemi, od ust odepchnął słodki napój uczuć, którym natura dzieci swe upaja.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(wpatrując się w niego)</stage> Jakże ty mocno jego stan podzielasz!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Wart on litości. Serce jego było pełne szlachetnych uczuć. Jego myśli nieraz wznosiły go do tych przedsięwzięć, które młodzieniec tylko powziąć może, a wielka dusza uskutecznić. Śmiało, lecz nadto śmiało bujał w tej krainie urojeń, której istot, której kwiatów na ziemię przenieść i w prawdziwe życie wpleść niepodobna!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Jakże ten przyjaciel podobny tobie!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Właśnie był w tym wieku, gdy serce pragnie najtkliwszego z uczuć, kiedy miłości szuka i przeczuwa jej wielką rozkosz. W słodkiem omamieniu stworzył niebiankę; pędzlem swojej myśli, jej promienistą postać zarysował, anielską duszą natchnął, i ten obraz głęboko w piersiach nosił. Nieuważny! Chciał marom swoim nadać ziemskie ciało. Wybrał kobietę czystą i niewinną i w jej osobie twór swej głowy kochał; ale niedługo trwało omamienie. Zbyt rychło poznał gorzki zawód. Serce praw swych zazdrośne, nagle się ozwało; nagle obaczył postać, która przeszła rysy i farby złotych jego marzeń. Prawdziwa miłość, silna i gwałtowna jak pożar, w piersiach jego się zatliła. Lecz już zapóźno!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Znałżeś tę ofiarę, którą tak pięknie ubrał, by ją zabić?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Znałem ją. Dobra, miła i szlachetna, byłaby bóstwem dla innego serca; jemu jest tylko błędu przypomnieniem: każdem go słowem swej tkliwości rani, każdem spojrzeniem kłamstwo mu wyrzuca. Tak nadaremnie z swojem sercem walczy; próżno mu rozum jakieś widmo szczęścia z czczej pary zlepia, i nędznika łudzi: bo nie uchodzi od surowej kary ta pycha głowy. Miłość nie zna pana; sama się stwarza, i jak błyskawica zapala w duszy. Biada, biada temu, kto za nią bierze cień jej, zimne dziecię swej wyobraźni; kto swój los i szczęście w najpierwsze ręce, bez jej wiedzy, składa. Próżno swój przedmiot własnym kwiatem stroi, skarbami własnej myśli uposaża: nie zmusi serca by zadrzało. Próżno czeka uniesień chwili, gdy gorąca ręka kochanej dłoni się dotyka; kiedy zbliżone tchnienia i myśl z myślą, i duszę z duszą wiążą. Tak, w zapasach z naturą własną, lata swe popycha, i na to żyje, by oddychał ciężko. <stage>(Aniela słabnie i siada, Gustaw zwraca się ku niej)</stage> Czemu tak bledniejesz?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Jużem cię pojęła!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Anielo!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Milcz już. Tego przyjaciela i tę nieszczęsną znam aż nadto dobrze. Więc ci to ciche serce nie wystarcza? Przynajmniej nie myśl, aby słabem było. Nie siebie kocha, i pomyślność twoję potrafi stale nad swą własną przenieść. Przyjmij w twe łono lepszą od tej duszą, co twe żelazne pęta, na różane kajdany zmieni. Cierpieć ja nie będę. Przyjdzie czas, przyjdzie, mój Gustawie drogi, że ani wspomniesz o dziewczynie biednej, dla której bóstwem byłeś! co w tej chwili, gdyś ją z jej nieba w taką przepaść strącił, za godzin kilka snu już przespanego, przy nogach twoich, we łzach ci dziękuje. <stage>(Schyla się do kolan jego, Gustaw nie dopuszcza i odstępuje kilka kroków)</stage></p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Ach!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Wolnym jesteś, opuść mnie. <stage>(Po chwili, rzucając mu się z płaczem na szyję)</stage> Gustawie!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(trzymając ją w objęciu, i patrząc w górę)</stage> Heleno moja! <stage>(Odtrąca ją zlekka od siebie i szybko odchodzi)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Coż się ze mną stało? Także sprawdzacie się posępne mary! A ty się, duszo, we łzach nie rozpływasz, i nie uciekasz z ziemi? Coż on wyrzekł? Nie łudź się, biedna!... to nie twoje imię! <stage>(Zakrywa twarz zasłoną czarną i wychodzi)</stage></p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT II.</head>
+        <div type="scene" n="5">
+          <head>SCENA I.</head>
+          <stage type="setting">
+            <p>(Las)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#gustaw">GUSTAW.</rs>
+            </p>
+          </stage>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(siedząc pod wielkiem drzewem)</stage> I tu daremnie szukam roztargnienia! Napróżnom przebiegł miasto, pola, góry: tłum i odludność, skały i przepaści straciły moc swą i nie mówią do mnie. <stage>(Powstaje)</stage> Te drzewa nawet, których szum wymowny tylekroć myśli moje wznosił, milczą. Tu przecięż spocząć wolę. W twarzach ludzi czytam wyrzuty; pokój na ich czole budzi mą zazdrość. Porównywam los mój z każdego losem i – z tajemnym bolem – zanadto szczęścia na tej ziemi widzę. Cożem uczynił! Gdzież jest ta szlachetność, co była cechą wszystkich moich działań? Nieszukającej, jam się sam narzucił; wstrzymał, zamieszał dni jej bieg szczęśliwy. Jam tchnął w jej piersi nieznajome chęci, przeniósł do wyższej sfery i rozwinął życie kwitnące tylą powabami. Dziś, jak posępny obłok, sam zamknąłem, przed jej oczami, ten horyzont boski; starłem z jej nieba gwiazdy przewodniczki, za których światłem do ojczyzny dawnej wrócić, i w szczęściu dawnem, szczęście jeszcze znaleśćby mogła! Gdy z anielskim wdziękiem chciała rozpędzić smutek z mego czoła, kiedy zwracając ku mnie swoje oczy, słówka pociechy wyglądała, wtenczas okrutną mową rozdarłem jej duszę i od swych piersi trącił. Ja, com dawniej, na nieznanego mi żebraka boleść z litością patrzał! ja, którego zawsze prośba do wsparcia, łza do łez budziła! Nie, nie wytrzymam dłużej tego stanu. Dość już tej walki nizkiej i hańbiącej; jeszczem tak nie padł, by nie powstać. Zdołam wznieść się nad siebie, zrzec się szczęścia ziemi i bez rozkoszy i bez żalu, drugich, jak bóstwo jakie, uszczęśliwiać. <stage>(Dobywa pugilaresu, wydziera kartę, i pisze)</stage> Odbierz w tych słowach nową wiary mej przysięgę; czynię ją głośno i w obliczu, nieba. Ciebie, miłości, żegnam już nazawsze! I z twojej czary płynie jad zatruty dla serca, które pamięć winy dręczy. Ty młodość tylko kwiatem obsypujesz, wraz z nią przekwitasz. Pokój potrzebniejszy. Zgoda z sumieniem, to jest przyjaciółka całego życia; ta nie zdradzi nigdy, w każdej przygodzie wskaże zdrój pociechy i ciche oczy na sen wieczny zamknie. Teraz bezpieczny stanę przed Heleną. Na silny powab jej potężnych wdzięków, potrójna miedź te piersi osłoniła. Wierny jej obraz serca mego skreślę; o przyjaźń prosić będę. W jej wspaniałe ręce mój honor i uczciwość złożę. Winienem krok ten woli mego ojca, uszanowaniu dla jej duszy. Sama niech mię uwolni z tak mi drogich kajdan. Tylą darami losu i natury okryta, wkrótce o mnie dbać przestanie. Sumienniej mogę wydrzeć jeden listek z bujnego wieńca, co jej skronie zdobi; niż do rozpaczy przywieść nieszczęśliwą, co w moich piersiach cały świat zamknęła. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA II.</head>
+          <stage type="setting">
+            <p>(Salon w pomieszkaniu Heleny)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#marja">MARJA.</rs>
+              <rs key="#urzędnik_sądowy">URZĘDNIK.</rs> (wchodzą)</p>
+          </stage>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Nie jestem pewna.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Przecięż rozumiałem, że przyjaciółka wierna i tak dawna skrytości także serca jej podziela.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Kobiety wiele mówią – tak przynajmniej panowie moi, wy myślicie o nas – lecz, gdy o miłość idzie, długo milczą. W tajnikach serca gore cichy ogień długo wprzód, nim go wzrok lub usta zdradzą.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Daruj, Marjo! tajemnice wasze są dla mnie święte. Pragnąc tylko szczęścia tej zacnej pani, chciałem wprawdzie wiedzieć kogo wybrała; lecz nie z ciekawości. Sprawy celniejszych panów są w mych rękach: wielu z nich błyszczy cudzem światłem, wielu szczątki fortuny roztrwonionej zlało w galony sług swych, postrach wierzycieli. Radbym, ażeby piękny ten majątek, którego spis mam w rękach, na naprawę dawniejszych grzechów nie był przeznaczony. Aby rozrzutnik jaki, udający miłość ku tylu cnotom i powabom, skrytym płomieniem do tych summ nie gorzał.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Tego się nie bój... Inny cios ją czeka, przykrzejszy może, niż majątku strata.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Mogęż ja wiedzieć?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Możesz; lecz ją samę nie wiem, jak ostrzedz. Nie chcę deptać kwiatów które, nadziei pełne, pielęgnuje. Bo w rzeczy samej, znam jej skłonność. Ale, jeżeli prawda, czemu wierzyć nie śmiem, wybór jej chybny, miłość nieszczęśliwa.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Być że to może? któryżby mężczyzna oparł się, gdyby ująć go pragnęła?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Czy tak rozumiesz?</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Mimo sześciudziesiąt lat, które głowę moję pobieliły.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Uważ więc, co za dziwne przeznaczenie! Kiedy kobiety insze, niemające ani jej głowy, cnót, ani piękności, gdziekolwiek skłonią serce swe wymyślne, znajdują miłość; a zaledwie warte szacunku, który płci się naszej płaci, jak bóstwa czczone; ta, w życzeniach skromna, w uczuciach stała, piękna i szlachetna, nie wzajemności, nie czci, której godna, wzgardy doświadcza albo zdrady.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Jak to?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Słusznie się dziwisz. Przecięż własnem okiem cud ten widziałam dawniej i dziś widzę. Niebaczny młodzik, co w jej tkliwem sercu ożywił płomień, którym dotąd pała; dar słodkich uczuć i układów dawnych, rękę i serce jej odrzucił. Później w niemiłem jarzmie młodość jej przekwitła. Z wielkością duszy losom swym podległa, udanem szczęściem męża radowała. Nigdy ów zacny starzec żadnej chmurki na jej wspaniałem czole nie wyśledził. Nikt nie mógł dostrzedz, co jej serce czuło. Ja tylko często, przyjacielską dłonią, łzy potajemnie lane ocierałam. Teraz gdy wolna, kiedy w innych związkach mogłaby piersi swe otworzyć szczęściu; ten sam burzyciel chwil jej pierwszej wiosny, znów przed nią stanął, zyskał przebaczenie, silniejszy płomień do jej łona rzucił, i... z drzeniem myślę o tem i wymawiam, na to podobno, by ją srogo zdradził.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Mario, daruj. Oczu mych świadectwu nie chciałbym wierzyć. Nigdy i ty nie wierz wieściom, co często...</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Radabym nie wierzyć, by jego ręka zimną krwią zdołała gubić istotę, co tak blizka bóstwa. Przecięż te wieści nie kłamliwe usta miejskiego gwaru do mnie aż przyniosły przyjaźń go sama oskarzyła, równie o jego szczęście i jej los troskliwa. Mogęż jej wiary nie dać?</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Nie przestawaj na oskarzeniu jednem, co jest często dziełem potwarzy jak i gorliwości. Może potrafię zbić je lub potwierdzić. któż to jej skłonność zyskał?...</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Dosyć na tem. Nadchodzi sama; proszę cię, na przyjaźń, nie daj jej niczem poznać mych domysłów.</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#helena">HELENA.</rs> (wchodzi zwolna)
+              <rs key="#marja">MARJA.</rs> (i)
+              <rs key="#urzędnik_sądowy">URZĘDNIK.</rs>
+            </p>
+          </stage>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Witam cię, zacny starcze; jesteś u mnie szacownym gościem.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Twój szacunek, pani, skarbem jest dla mnie.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jeśli tak rozumiesz, bogatszyś, niżli wielu mi znajomych. <stage>(Wskazuje krzesło)</stage></p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Daruj mi, pani, nie zabawię długo. Ważna mię sprawa czeka już w sądowni, pośpieszać muszę.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Pracą i pilnością zawstydzasz młodych.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Chcę zapomnieć tylko, żem już sam stary. Ciągłym trudem głowy, oddalam z myśli mej umizgi śmierci, która tuż za mną. Ale pozwól, pani, bym ci wyłożył co te pisma mieszczą.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(biorąc papiery)</stage> Pewnam, że wszystko znajdę tu w porządku. <stage>(Przeglądając)</stage> Radabym, wierz mi, aby mój majątek, w gruncie i rzeczach, tak mi był znajomy, jak tobie znany. Dzięki Bogu, teraz z pomocą twoją łatwiej mi to przyjdzie. Ile kobiety słabe siły zmogą, będę starała się używać dobrze i pielęgnować dar ten losu.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Pani, piękny majątek w posiadaniu twojem. Mało jest takich w naszych czasach. Nie ma żadnych ciężarów, coby go wycięczać, albo całości jego grozić mogły. <stage>(Wskazuje jej w papierach)</stage> Tu summy, które ci należą: wszystkie w uczciwych rękach i w zamożnych domach. Tu opis cały twych dziedzicznych włości i później spadłych, przez zapisy męża. Wszystko to czeka gospodarnej dłoni, coby utrzymać drzewo to umiała i podwoiła bujny jego owoc. Daj Boże, abym rychło już obaczył szczęśliwą głowę, którą wybrać zechcesz; Co, do największych swych zaszczytów, chlubny wybór twój, pani, pewnie porachuje.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(z uśmiechem)</stage> Takiemi słowy wybór mój opóźnisz. Pochwale twojej uwierzywszy, mogę ocenić siebie za wysoko.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Pani, głos cię powszechny oszacował. Tylu najlepszych stoi w rzędzie twych czcicieli. Trudno ci wprawdzie wybrać; lecz nie wątpię, że tylko serce swe uczynisz sędzią.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Mądra to rada; jak ją łatwo spełniać! Serce w wyborze swym nie zawsze ślepe; przeczucie szczęścia skłania je i więzi.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Ale przeczucie ślepe. Dusza ludzka tylko rozumu okiem przyszłość widzi.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Kochana Marjo! zawsze jak mężczyzna myślisz i mówisz. Nie chełp się rozumem; i ty uciekniesz z pod chorągwi jego. Miłość szczególniej pokonywać lubi tych, co jej harde czoło stawią. Na nich ma broń ostrzejszą i kajdany cięższe.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Wolę się poddać z musu, niż z ochoty.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Szanowna pani, chciej tu jeszcze spojrzeć: jest to zebranie spraw niepokończonych. Niech cię ich szereg nie przestrasza, wszystkie są małej wagi; jedna tylko trudna.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Z kimże?</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Z Przeworskim Hrabią.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Mam nadzieję, że i ta wkrótce się już zaspokoi. Człowiek to zacny, i nie zechce krzywdy kobiety, która nie swą głową radzi. <stage>(Z nieśmiałością)</stage> Nareszcie, rzecz tę zdał na swego syna, który... <stage>(Zatrzymuje się, i niewiedząc co powiedzieć, zakrywa twarz swoję i odchodzi do okna)</stage></p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p><stage>(do Urzędnika)</stage> Uważasz?</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Tenże to jest?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Widzisz.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Domysły twoje pełne prawdy. Innej dał słowo swoje. Znam te związki.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Nieba!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(powraca)</stage> Dziwnie się czasem roztargnioną widzę. Na czem stanęło?</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Jeśli przychylności, którą ośmielam się pochlubić, wierzysz, radzę ci, pani, być ostrożną. Strzeż się Przeworskich. Duma, upór ojca, równe zbyt rozmarzonej głowie syna. Z jednym i z drugim trudno trafić w czem do końca. Żegnam cię, pani.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(zmieszana pogląda na Marją, potem miarkując się, do Urzędnika)</stage> W przyjaźniejszej chwili obszerniej trochę pomówimy o tem. <stage>(Urzędnik wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#helena">HELENA.</rs>
+              <rs key="#marja">MARJA.</rs>
+              <rs key="#lokaj">LOKAJ.</rs>
+            </p>
+          </stage>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Coż to ma znaczyć? Ledwiem pomieszanie utaić mogła. Jakąż mi przestrogę ten człowiek daje? Wiedziałżeby więcej niżli my obie, lub ja tylko sama?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p><stage>(obojętnie)</stage> Mniemam, że słowa jego się ściągają do sprawy twojej, którą masz z Przeworskim.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Tak obojętnie bierzesz, co mię trwoży? Marjo, pomnij, czego słusznie mogę po twej przyjaźni żądać. Więc skądinąd przestrogi jakieś mnie dochodzić mają? A tyżbyś na to, co mię z najdotkliwszej strony dotyka, czujną być przestała, jak ucho matki na kwilenie dziecka?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Przykry mi wyrzut czynisz. Mojaż wina, że źle tłómaczysz słowa, co się zdają zupełnie obce sprawie twego serca.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Mogą się zdawać, ale nie są. Próżno siebie wymawiasz, mnie chcąc zaspokoić. Oddawna widzę zmianę w twojej twarzy. Nie słyszę więcej tej otwartej mowy, w której grunt serca twego postrzegałam. W ciemnych obrazach i przystosowaniach chcesz mi dać poznać, co mi pojąć trudno. Dziś, gdy na samo imię jego, ukryć musiałam twarz mą wstydem zrumienioną; coż ci ten starzec mówił? co ci doniósł – dostrzegłam trwogę twoję.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>O Heleno! Mówić mi każesz, gdziebym milczeć rada.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ukrywasz zatem tajemnicę jakąś! O! nie pozwalaj myśli wysilonej po czczych domysłach tułać się i gubić.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>I ja ci także radzę, bądź ostrożną.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Marjo! wcale mi przyjaźni swojej nie dajesz poznać, lecz złośliwość jakąś. Trwogę do serca rzucasz, coś powinna każdą uprzedzać, zmniejszać i łagodzić. Mam być ostrożną? jakże się ustrzegę. Nic widząc ręki, co mi grozi?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Daruj; sen twój był słodki, przerwać go nie chciałam. Nie dowierzając wieści, co mi nagle dawną otwartość i wesołość wzięła; w sobie zamknęłam trwogę źle tajoną. Teraz, gdy pewność smuci mię i dręczy, muszę... o Boże! cała drżę... nie mogę.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Po kropli sączysz srogi jad! Na przyjaźń, na młode lata, co nam razem przeszły, na Boga wreszcie, w którym ufność moja, zaklinam, powiedz. Nie znam nic gorszego od tej obawy.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>A ja znam.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Coż, przebóg!</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Słuchaj więc.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(z natężeniem i niespokojnością)</stage> Słucham.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Gustaw inną kocha.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ach! <stage>(Stoi przez niejaki czas w osłupieniu)</stage></p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Bądź odważną, mężnie wzgardź tym ciosem; wszak cię nie zastał nieprzygotowaną. Znasz rękę, z której wypadł; lekszych ona przesyłać tobie nigdy nie umiała. Uważ kto jesteś, coś stanowi swemu i płci swej winna. Pomyśl, czy wart żalu ten, co tak płocho z twojem szczęściem igra.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ach! myślę tylko, że go stracić mogę, stracić raz drugi. Cożem uczyniła? Jakaż myśl moja podła lub bezbożna, jakaż to krzywda, dzieło rąk mych, jaka skarga sieroty doszła aż do nieba; że mię tak ostro karze i odbiera jedyne dobro, którem posiąść rada! Na coż mi zda się cały pozór, szczęścia, co mię wysoko wyniósł, bym samotnie, jak dzikie drzewo na wzniesionej skale, trwała czas, byciu memu naznaczony!</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Tyż się na Boga skarzysz? A ktoż dał ci tę piękną godność, z jaką zniosłaś ciosy niżli ten cięższe? Miałabyś, niestety! Powód do żalu, jeśliby ci Niebo dawną twą wielkość wzięło.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Niech mi weźmie złoto i stan mój, niech mi weźmie wszystko za co mię ludzie tak szczęśliwą mienią; spokojnem sercem i wesołem okiem przyjmę ubóstwo, pójdę wpośród gminu zagrzebać resztę dni niezazdroszczonych. Niech mię ukarze złością wszystkich ludzi, wzgardą mojego rodu; lecz niech na mnie /Kochanej dłoni jego nie uzbraja.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>O zaślepienie! Jak niebaczne dziecię, chcesz ująć ostrze, co cię zranić może. Nazywasz dobrem swojem, posiadanie płochego serca, co w nikczemnych związkach przywykło szukać szczęścia; co się całkiem zatopić mogło w tej dziewczynie, która...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(nagle)</stage> Coż to za jedna?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Coż ci to pomoże?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ciekawam, powiedz; pragnę się dowiedzieć, z kim mię na jednej szali kładzie; komu poświęca serce, co go tyle kocha; kto ta godniejsza z cnoty i piękności, dla której ręką moją i majątkiem raz drugi gardzi!</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Ma to być jednego lekarza córka, biedna, bez nauki, i oprócz trochy wdzięków, niemająca inszej zalety.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Nie, to być nie może. Mógłżeby Gustaw marnych tylko wdzięków w swej żonie szukać? Nie, kochana Marjo! Zwodzą cię, zwodzą. Zazdrość go oskarża; nikczemnik jakiś, co wyśledzić może tajemną skłonność moję, który nie mógł wartością swoją śmiałych poprzeć planów; przez potwarz pragnie zbliżyć się aż do mnie.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Ciesz się jak zdołasz.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Może go nareszcie oskarża pozór. Potok złych przykładów mógł go pochwycić. Może próżność jego jedwabną mową zwodzi łatwowierność biednej dziewczyny, by się chlubić mogła tryumfem nadto łatwym... Lecz, o Boże! Masz mię pocieszać płochość nieuczciwa? Gdy jego obraz we snach i w czuwaniu, strzeże czystości moich myśli, wiary mojego serca; on ma czas być płochym! Którą z nas kolwiek zwodzi, zawsze złym jest. Bo czyż jej szczęście mniej niż moje warto? Czyż jej spokojność dla niej, nie tak droga, jak moja dla mnie? Ostrzedz ją powinnam; przynajmniej honor jej ochronię.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Piękny byłby to zamiar, lecz już niepotrzebny. Ma on dla innych stałość i sumienie, a ciebie tylko zwodzić lubi. Chociaż tai swą miłość, związał się przysięgą, którą potwierdzić pragnie u ołtarza. Na pozwolenie ojca czeka. Wprawdzie wie, że Przeworski dbały o swe imię, żadnej, prócz ciebie, mileby nie przyjął; lecz Gustaw chce mieć tylko pozór syna, który szanuje wolą rodzicielską.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>I ta dziewczyna nic, prócz trochy wdzięków, nic, prócz znikomej maski, nie posiada?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Tak mi mówiono, taki głos powszechny.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>I on ją kocha?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Rzadkoż ślepy kaprys zapala mężczyzn serce bałwochwalcze!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Okrutna zdrado! o nieludzki! Stokroć dziś jest winniejszym, niżli był przed laty. Wówczas przynajmniej w jawnej i otwartej twarzy czytałam zimność jego serca; nie mógł się zmusić i udawać nie chciał; lękliwe duszy mej poloty zbijał surowym wzrokiem pychy i niechęci. Dziś, jakże inszy! przez występną chytrość zaostrzył groty nieczułego serca. Wieleż to razy okiem rozczulonem duszy się mojej o wzajemność pytał? Wieleż to razy, tuląc moję rękę w swych drżących dłoniach, wpół wyraźnem słowem, kazał mi słodkich uczuć się domyślać? A ja nieszczęsna, tę obłudną sztukę brałam za trwożną mowę jego serca! <stage>(Zakrywa twarz swoję)</stage></p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>To nadto! żal mi, żal żem cię ostrzegła.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Nie żałuj wcale, dobrześ uczyniła. Tem jednem słowem zdjęłaś z ócz zasłonę, przez którą ziemia znowu mi się zdała piękną i miłą, życie pożądanem. Tem jednem słowem odpędziłaś z duszy wszystkie nadzieje, a przelałaś w piersi kosztowną roskosz żalu i rozpaczy! <stage>(Siada)</stage></p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Ach! zasłużyłażem na te wyrzuty!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(wyciągając ku niej ręce)</stage> Nie, droga Marjo! daruj mi to, daruj! Oczarowaną sen roskoszny łudził; Tyś mię zbudziła, bo się wąż przybliżał.</p>
+          </sp>
+          <sp who="#lokaj">
+            <speaker>LOKAJ.</speaker>
+            <p><stage>(wchodzi)</stage> Hrabia Przeworski.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Proś go. <stage>(Lokaj odchodzi)</stage></p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(zrywając się)</stage> Jakto, przebóg! Mogęż go przyjąć?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Musisz. Bądź odważną, niech cię obaczy, jaką teraz jesteś. Twe pomieszanie, łzy i trwoga zedrą maskę obłudy; a cokolwiek ujrzysz, zyskasz, bo ujrzysz jego twarz prawdziwą. <stage>(Odchodzi)</stage></p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ty mię zostawiasz?</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#gustaw">GUSTAW.</rs> (wchodzi zwolna i przypatruje się jej pomieszaniu)
+              <rs key="#helena">HELENA.</rs> (poglada nań i odwraca się)</p>
+          </stage>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(zadziwiony)</stage> Mogęż się zapytać, czemu cię, pani, tak zmieszaną widzę?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Mocno żałuję, Hrabio, żeś to postrzegł.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Może przytomność moja?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(po chwili)</stage> Nie; bynajmniej.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>I coż zasępia czoło twoje, pani?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Rzadko dzień jasny trwa aż do zachodu. Radość, jak jesień, niestateczna. Nieraz serce oddane lubym upojeniom jedna wieść, jedno słowo może wydrzeć z pod władzy czarów i w uwagach gorzkich pogrążyć. Właśnie, w tejże samej chwili, o niestałości szczęścia rozmyślałam.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Tobież to, pani, myśli te przystoją? Ktożby się szczycić śmiał darami losu, natury łaską; ktożby nie powinien złorzeczyć chwili, w której słońce ujrzał; jeśli ty nawet szczęścia nie doznajesz? <stage>(Bierze jej rekę)</stage> Tyle powabów, tak anielską dobroć, taka moc myśli i rozumu! Przebóg! Czyż posiadanie tego, co człowieka i w jego oczach i w mniemaniu drugich, czyni szanownym i uczczenia godnym, do szczęścia twego jeszcze nie wystarcza!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Daruj mi, Hrabio! nienawidzę pochwał. Nawet i szczerych.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Do mnież ta przymówka? Jestże pochlebstwem prawda? Bez wątpienia, nie należałoby mi żadnem słowem razić skromności twojej. Ale mogęż zakazać oczom, aby nie widziały, ustom, by milczeć mogły, gdy się gwałtem wydziera wyraz podziwienia! Pani, nie gardź przyjaźni głosem, co nie chwali lecz przypomina ci twą własną wartość; co pokazuje, gdzie masz szukać pociech w chwilowych troskach; co nie może wierzyć, by jaki smutek godny uważania mógł znaleźć przystęp do twojego łona; by się kto znalazł, coby śmiał zuchwale, jaką myśl przykrą przesłać do twej duszy.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Dziwię się, Hrabio, twojej sztuce. Wmówić zdołałbyś we mnie, żem nie zasłużyła by mię ktokolwiek z ludzi nienawidził. Przecięż jest człowiek, co na moje szczęście zdradliwie czyha; który mi z uśmiechem i w pozłacanej czarze daje napój na wierzchu słodki, a na dnie zatruty.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(pomieszany)</stage> Pogardź nim, pani, jeśliś przekonana; żałuj go tylko, jeśli cię pozorów kłamliwość łudzi.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jakże tym zazdroszczę, którzy z przyjaźni, łatwo do pogardy przechodzić mogą. Dzieci to szczęśliwe! Na ich się ustach płacz z uśmiechem wiąże; nowe życzenie z głowy im wytrąca cel żądz dawniejszych. Ja się nie pozbywam obrazów długo w duszy wypieszczonych, serce me nie jest listkiem, który każde dmuchnienie wiatru w inną stronę ciska; zdolna czuć mocno, bez mocnego bolu tracić nie umiem.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Przebóg! jakież straty dla ciebie, pani! są nienagrodzone?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jakże mi łatwo w słowach tych rozpoznać mężczyzny mowę, duszę i naturę! Czemże dla niego strata serca? Rozum, los i społeczność łatwo ją nagradza. Tu go pociąga chwała wojownika, tam hołd i wdzięczność, którą geniuszom  Potomność płaci. Trudnoż mu zapomnieć / O błahych wdziękach, gdy go tyle uczuć, / Tyle żądz wyższych ciągnie i porywa! / Trudnoż mu zerwać więzy swe, gdy może liść mirtu, którym bawił się przez chwilę, wpleść na pamiątkę w laury swego hełmu? Dla nas – w miłości chwała i nagroda. Jeśli kobieta byt swój, los i szczęście składa z ufnością w ręku, co ją zwodzi; jeśli, w tej samej dłoni, nieszczęśliwa widzi kadzidło dla obcego bóstwa – Och! takiej straty nic jej nie opłaci.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Nic, każdej innej, lecz nie tobie pani. Jeśli ten nędznik z musu, czyli z chęci, od swego progu szczęście swe odpycha; iluż godniejszych znajdziesz? iluż płonie tajemnym ogniem? Bo czyjegoż serca nie rozbroiłoby spojrzenie twoje? Do czyich piersi głosby się twój nie wdarł? Któryż mężczyzna chętnieby nie wzgardził Marnym oklaskiem sławy, gdyby wiedział, że go ty kochasz; gdyby mógł być pewnym, że pod twem okiem jego dni upłyną? Ja... jakże radbym chwile te przyśpieszyć, w którychbym ujrzał cię zacnego męża skarbem, pociechą i najwyższem dobrem. Gdybyś, w ufności mej przyjaźni, rzekła: że nie masz życzeń niespełnionych, że się marzenia nawet duszy twej ziściły.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(z wyrazem wyrzutu)</stage> Tegoż to pragniesz?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(nieśmiało)</stage> Czyliż wątpisz, pani?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(z żalem)</stage> Od dziś nie wątpię.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Coż to za łzy? Przebóg!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Opuść mię, nigdyś cenić ich nie umiał.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(z zapałem)</stage> Jażbym przyczyną był tych łez kosztownych? O! ktoż potrafi wagę ich ocenić, kto zdoła pojąć żal i radość moję! Sąż one słodką mową, zapewnieniem twojego serca, co się ku mnie skłania? <stage>(Miarkuje się)</stage> Ale gdzież jestem? Daruj mi, Heleno! Dla mnie ta pewność staje się trucizną, a miłość twoja sroższym ciosem, niżli pogarda sama. Do wszelkiego szczęścia straciłem prawo. Jedno tylko dobro ocalić mogę: honor mój i słowo; i to w twe ręce składam. Bądź wspaniałą, bądź sprawiedliwą, sama osądź, pozwól abym ci wyznał...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Nie potrzeba, wiem już.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(zdziwiony)</stage> Wiesz?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Wiem, i zrzekam się miłości twojej. Wracam ci prawa dane mi przez ojca, tak stałą skłonność i tak długą boleść. Raz to ostatni głos mój słyszysz. Słowa których utrzymać w piersiach mych nie mogę, niech ci pamiętną chwilę tę uczynią. Wiele ci razy w myśli staną, obyś słyszał w nich skargi na surowość nieba, co w twoich rękach losy me złożyło. Widziałeś młodość moję; w pięknych ona nadziejach wzrosła. W biegu mym szczęśliwym żadnej zawady znaleźć nie mniemałam. Byłam kochaniem wszystkich, co mię znali; na każdem czole, co mi się kłaniało, czytałam wróżby samych pomyślności. Nic mi nie brakło; bo i miłość wkrótce ze snu dzieciństwa duszę mą zbudziła; ale, witając w łonie mem to bóstwo, co miało dopleść wieniec mego szczęścia, mogłażem myśleć!... Ach! w tem upojeniu powinnam była umrzeć! Czyja ręka miała mię codzień budzić i przysypiać, Ta mię od siebie z pychą odepchnęła. Kogo nieszczęsna, po doznanej wzgardzie, kochałam.... może nawet jeszcze kocham, ten w inszej masce staje, i nieludzki!  Pragnie mię dobić fałszem swego serca! Okropny los mój! nieszczęśliwa stałość! Bez ciebie byłabym znalazła powab w życiu z tym mężem, co mi opiekunem i ojcem stał się; byłabym, bez ciebie, szczerszemi łzami jego śmiarć płakała. <stage>(Zatrzymuje się, potem nagle)</stage> Nibym się pewnie nigdy nie zniżyła do takich wyznań, których obojętnie słuchasz; i – może w duszy tryumfejesz. <stage>(Chce odejść)</stage></p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(zatrzymując ją)</stage> Heleno! wstrzymaj się! rozpaczy mojej za obojętność nie bierz. Osłupiały na twe wyrzuty, ust otworzyć nie śmiem. Ach! jakże zdołam się usprawiedliwić? Jażtobym pragnął oszukiwać ciebie, któraś się stała treścią moich myśli, bóstwem snów moich! Jabym cię poniżał, ja, co cię w duszy do aniołów wznoszę! Ach! tyś nie była dawniej, czem dziś jesteś, i jam na ciebie inszem okiem patrzał. Był to błąd wielki, ślepy i występny! Znoszę dziś karę cięższą od tej zbrodni. Gdym cię szczęśliwą w nowych związkach mniemał, wdziękiem prostego serca omamiony, dałem się ująć. Związałem się słowem. Honor mój w zakład złożył, i sto razy nieba na świadka mej szczerości wzywał. Po kilku latach ujrzałem cię nowym, nieznanym dla mnie wdziękiem jaśniejącą. W twych oczach błyskał niedogasły płomień w uśmiechu ust twych było przebaczenie. Ktożby się oprzeć zdołał! Od tej chwili krzywoprzysiężcą byłem. Dziś, z jak piękną, z jak trudną myślą stanąłem przed tobą! Pomimo władzy twojej, przedsięwziąłem gwałtem oderwać się od twego serca; Wszystko ci wyznać, i w twej wielkiej duszy, Szukać litości, siły i przykładu. Ale ty płaczesz! ustępuję. Łzy twe tłumią wołanie ciężkiej powinności; każesz inaczej, niech tak będzie, nie znam nikogo więcej oprócz ciebie. Każesz, niechaj więc milczy rozum i sumienie. Silniejszej próby mej miłości nie mam. Oddać ci życie niczemby już było. <stage>(Klęka przed nią)</stage> Wierzysz że?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Słaby i niestały człeku! Mogęż cię słuchać! mogęż ci dać wiarę! O! powróć raczej do tej nieszczęśliwej, jak ja, zwiedzionej; wyjawieniem inszej miłości, biedną duszę jej rozedrzej; a gdy zapłacze, mnie się wyprzysięgniej. Uczyń to: jużeś wprawny do tych razów i moje piersi do nich już przywykły. <stage>(Odchodzi)</stage></p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(który klęcząc z zasłonioną twarzą, powstaje)</stage> Tak mię zostawiasz? także mię obarczasz Wstydem i hańbą! Ale próżno, próżno pod barwą wzgardy rozpacz swoję taisz! Niczem od siebie zrazić mię nie zdołasz: ta boleść, która piersi me zalewa, te łzy, co gwałtem z ócz się moich cisną, potężnie ciągną mię ku tobie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#gustaw">GUSTAW.</rs> (i)
+              <rs key="#marja">MARJA.</rs> (która wchodzi blada i pomieszana)
+            </p>
+          </stage>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Coż tam?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Co się tu stało, Hrabio?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Gdzie Helena?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Zaledwie doszła do pokoju swego, zalana łzami, padła przy swem łożu. Mniemałam, że już życie traci.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Przebóg!</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Niczegom od niej dojść nie mogła. Powiedz. Co się tu stało?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>O nic się nie pytaj; nie mogę mówić, tchu mi braknie. W innym czasie ci wszystko powiem.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Wstydź się Hrabio! Więcże ci nie dość, że ją zdradzasz; jeszcze w jej własnym domu, do utraty zmysłów biedną przywodzisz? Och! to nadto, wierz mi: przynajmniej grzecznośćby nakazywała, oszczędzać bardziej słabe serce kobiet.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Nie teraz pora do wymówek. Nic jej pomódz nie mogą. <stage>(Bierze jej rękę)</stage> Marjo! ty ją kochasz. Nigdy kobieca pierś nie zamykała serca w przyjaźni wierniejszego. Wróć więc, wróć do Heleny. Szanuj i pielęgnuj drogie jej zdrowie, drogą jej spokojność. Nie trać i chwili czasu: jeśli zdołasz wstrzymać choć jednę łezkę, co jej piękne lice rysuje; odjąć choć by jednę Myśl, coby o mnie wątpić jej kazała; pośpieszaj, powiedz, że ją tylko samę kochałem, kocham i czcić będę. Powiedz, że żaden obraz w duszy mej nie postał, że żaden sen mi nie okazał rysów inszej kobiety. Zanieś jej przysięgi, które przed tobą czynię, które wkrótce w obliczu Boga, z uniesieniem serca, powtarzać będę. Powiedz, że już nigdy, nigdy nie ujrzę biednej tej dziewczyny, której nie kocham, co jest dla mnie niczem. <stage>(Marja patrzy nań z zadziwieniem i odchodzi; Gustaw, który stał przez niejaki czas zamyślony, nagle)</stage> Jakto? już nigdy jej nie ujrzę? Jakto? Ona jest niczem dla mnie? Och! przeklęta sprzeczności serca – śmierć od ciebie leksza. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT III.</head>
+        <div type="scene" n="11">
+          <head>SCENA I.</head>
+          <stage type="setting">
+            <p>(Toż samo pomieszkanie Heleny)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#helena">HELENA.</rs>
+              <rs key="#marja">MARJA.</rs>
+              <rs key="#służący">SŁUŻĄCY.</rs>
+            </p>
+          </stage>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p><stage>(wchodząc)</stage> Powóz gotowy.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Dobrze, niech zaczeka. <stage>(Służący odchodzi)</stage></p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Dokąd zamyślasz?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Może gdzie pod niebem otwartem, znajdę jaką myśl pociechy. Marjo! jutro albo dzisiaj jeszcze to miasto rzucam bez powrotu. W pustce najdzikszej z wiosek moich się zakopię. Tam się do większej jeszcze samotności przyuczać myślę; tam się wprawiać będę jak gardzić ziemią, a pocieszać niebem.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Heleno! zawsze nadto prędko działasz; chwilę zapału za swe prawo bierzesz. Ofiary póty miłe, póki płonie szlachetny ogień, co je zrodził. Ale wkrótce natura ściąga nas do ziemi, wracają sercu dawne jego chęci; jak to boleśnie, kiedy już po czasie!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Czyliż nie jestem przymuszona? Mogęż ofiarą nazwać to, co mi konieczność wykonać każe? Ach! okrutny przymus, twarda potrzeba duszę mą niewoli.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Byłże tam przymus, gdyś niebaczna nagle oddała rękę mimo serca. W pierwszej chwili urazy pomyślałaś śmiało, że jak pokochać, tak zapomnieć łatwo; że już nim gardzisz, bo nie umiał cenić serca godnego szczęścia czuć i stwarzać. Błąd ten zbyt długą karą opłaciłaś, już ci więc wyszła z myśli? kiedy innym obce nieszczęście silną jest przestrogą, ciebie przygoda własna nie naucza, jak gorzki owoc rodzi czyn pośpiechu.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jakże postąpić?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Zostać.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Nie, nie mogę. Na coż mam czekać! Ty, coś mi sprzyjała, y przyjaciółka moja; a od ciebie doszłam, że inną kocha. W każdej chwili jaki wróg mściwy może mię tu napaść, z zimną krwią donieść że już od ołtarza idą; że dumna pyszni się tym mężem, który dwa razy rękę mą odrzucił. Nie, nie chcę.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Przebóg! czyliż ci nie mówił, że się jej zrzeka? czyliż mi nie mówił, że jej nie kocha? Są przysięgi chytre, są łzy fałszywe, które z oczu zdrajców. Chwila wyciska i osusza: takim można nie wierzyć. Lecz on był w rozpaczy kiedy przedemną wyznał, że cię wielbi.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Czyż dziś nie przyszedł aby się mię wyrzec? Czyż nie chciał żądać, bym go uwolniła? Czyż go nie wiążą inne przyrzeczenia? Złamał je wprawdzie; usłyszałam nagle Inne przysięgi; lecz to była litość. Widział łzy moje, postrzegł moję rozpacz, zadrżał... i litość, samę litość poczuł. Gdyby był w inszej chwili przyszedł; gdyby to nadto słabe serce mogło było żal swój utaić, boleść swoję połknąć; gdybym spokojnie, jak mi należało, sił mu dodała by powinność spełnił; szczęśliwy! jużby drugą uszczęśliwiał. Jużby jej przysiągł wiarę, w obec Boga, usty i sercem; anibym słyszała, że mię mógł kochać.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Nie znasz go, Heleno! Gdy ciebie straci, może żal bez granic moc jego woli i hart duszy nada; może utrzyma go na ślizkiej ścieżce, którą mu honor i powinność wskaże; lecz nie mów, żeby szczęście na niej znalazł.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Czemuż go bronisz?</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>O! zaprawdę, dawniej przeciwko niemu byłam; bom nie znała jak go daleko kochasz; bo mi zdał się twardym krzemieniem, co zapala iskrą, ale sam zimny. Teraz gdy cię kocha, gdy ci tak drogi, nie czyń przeciw sercu.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Wymowna jesteś.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Widzę, co cię czeka.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(przeszedłszy kilka kroków, poważnie)</stage> Lecz zapomniałaś, że nie tylko Gustaw, nie tylko ja, do szczęścia mamy prawo. Jest jeszcze serce, co wraz ze mną cierpi; Jest kwiat, któregom deptać nie powinna śpiesząc do celu mego. Przeznaczenie pierwej go na tej drodze postawiło, na którą sama weszłam. Los mój w Niebie równą ma wagę, jak los inszych stworzeń; i ostry wyrok, nie błogosławieństwo spadłoby na mnie, gdybym bez wzdrygnienia, po jakim grobie biegła do ołtarza.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Szlachetna duszo! czuję twoję wyższość. O, jakże godny szczęścia, kto dla drugich. Tak się wspaniale może go wyrzekać!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Nie chwal mię, zostaw mi tę świętą wiarę: życie na ziemi jest to czas zasługi; błądzi, kto od niej swej nagrody czeka. Jam się jej zrzekła. Niechaj mi wystarcza to piękne czucie, żem jej warta była. <stage>(Siada zamyślona)</stage></p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p><stage>(przechadza się i po chwili)</stage> Słodko jest dla mnie dziwić się twej cnocie. Bogiem się staje człowiek, kiedy może spokojność znaleźć w swój wielkości własnej. Lecz to ostatnia roskosz! Czyn nadludzki ludzkiego szczęścia dać nie może.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Wiem to.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Dla czegoż innych środków nie poszukasz?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Bo już ich nie ma.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Jeszcze są.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>I jakież? Jeżeli wydrzeć mam ostatni pokarm równie głodnemu, by ocalić życie – umierać wolę.</p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p>Nie. Heleno droga. Sumienie czystem, zacna twoja dusza zostanie zacną, chociaż mię usłuchasz. Nie znasz dziewczyny, której się poświęcasz: ktoż wie, czy warta przywiązania jego; czyli potrafi miejsce twe zastąpić? Może przebiegła, próżna, lekkomyślna jego imienia i dostatków pragnie. Jeśli to prawda, com słyszała o niej, wspaniałość twoja grzeszną rozrzutnością nie dobrodziejstwem będzie. Pójdź więc, poznaj, obacz ją własnem okiem; wtenczas serce, wtenczas ci rozum powie, jak postąpić.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(powstaje i dzwoni; służący wchodzi)</stage> Konie!</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Oddawna już czekają.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Idę. <stage>(Służący wychodzi, Helena odziewa się szybko i idzie za nim)</stage></p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p><stage>(patrząc na nią)</stage> Idź, gdzie cię gwiazda twoja zaprowadzi. Jakżem szczęśliwa, że mem sercem żaden wicher nie miota: dążę w lubej ciszy i widzę port mój, i wiem gdzie przybiję. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA II.</head>
+          <stage type="setting">
+            <p>(Mieszkanie Hermana)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#herman">HERMAN.</rs>
+              <rs key="#wilhelm">WILHELM.</rs>
+              <rs key="#zosia">ZOSIA.</rs>
+            </p>
+          </stage>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(do Zosi)</stage> Niech tu Aniela przyjdzie. <stage>(Zosia odchodzi)</stage></p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Coż zamyślasz?</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Dosyć już mojej powolności. Odtąd nie chcę, by ślepy mię prowadził: memi oczami patrzyć i mą własną wolą działać zamyślam.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Pomnij zacny panie, abyś zanadto ostro nie postąpił. Ucho jej tylko do dobroci twojej przyzwyczajone, może nie rozumie gniewnego głosu i rozkazów przykrych.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Przecięż pamięta jeszcze, żem jej ojciec.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Proszę cię, nie trwoż twojej pięknej córki.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(przechadzając się, po chwili)</stage> Wdzięk ciała, tkliwość serca, bystrość głowy, są to przymioty do zazdrości; każdy ich pragnie. Przecięż nie na jeden koniec natura darów tych udziela: dziwnem prawem, nagradza jednych bez zasługi tą samą rzeczą, którą karze drugich bez żadnej winy.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Prawda, na Anieli zbyt smutny dowód.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Gdyby była brzydką, gdyby jej umysł w kluczach zakochany, nad parę kuchni podnieść się nie umiał; pewnieby żaden Hrabia się nie zjawił, pięknemi kłamstwy pokój jej odebrać. Ledwieby jaki biedak mi się skłonił, coby koniecznie potrzebował w domu czujnej szafarki i rzetelnej żony. Stokroć szczęśliwsza byłaby niż dzisiaj; a ja weselszy nie drżałbym co chwila o jej spokojność i jej cnotę, ani w nocach bezsennych myślećbym nie musiał, jak ją ochronić hańbie albo zdradzie.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>W takiem nieszczęściu, jakżebym ja pragnął być jej pomocą, radą i pociechą. Pewnie, znalazłaby w mem łonie wszystko, czego gdzieindziej próżno szuka. Ale, czemże są moje niedołężne chęci? Ranę miłości tylko miłość goi; tej ja w jej sercu nigdy nie ożywię.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Zły wróg mój zrządził, żeś tu nie był jeszcze, nim obaczyła tego kłamcę.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Może próżno o fałsz go skarzysz i przed czasem siebie i córkę trwożysz. Wszakżeś mówił, że jej dziś przysłał nowe przyrzeczenia, nowe przysięgi, iż nie złamie słowa.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>I tobie, widzę, dosyć powlec miodem brzeg czary, abyś wierzył, że w niej słodki napój się mieści. Ale się nie dziwię! Poczciwe serce twoje nie zna fałszu; młodość cię czyni łatwowiernym. Ja zaś, ja znam tych bożków ziemskich, pośród których szczerość jest głupstwem, prawda złą monetą.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Nie wszyscy, w jednym stanie, jednakowi.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Mała różnica. Z nas każdemu wolno być sobą samym; u nich to jest prawem, by każdy takim był, jak drugi. Jest to zakon, mój bracie, jednakowych myśli, skłonności, uczuć, strojów i zwyczajów.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Gdy serce czuje, wtenczas, człowiek zrzuca przybrane prawa, a natury słucha.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Pókim też wierzył, że go do niej silna namiętność wiąże, patrzyłem przez palce. Lecz kiedy dzisiaj w oczy jej powiedział, że jego miłość była czczem marzeniem: ja działać muszę. Nagła to choroba, lekarstwo zatem musi być gwałtowne.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Maszże więc za nic jego honor, słowo?</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Jeśli mię gniewać nie chcesz, nie czyń, proszę, podobnych uwag: byłbym bez rozumu, gdybym mu wierzył, skoro jej nie kocha. Dzień, dwa dni może, honor go przytrzyma; pojutrze przymus stanie mu się ciężkim. Świat, przyjaciele, ojciec, moda, miłość insza, podadzą powód, by ją zdradził. Że to uczyni, choćby ją miał zabić, taką jest prawdą, jak to, żem ja Herman.</p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#herman">HERMAN.</rs>
+              <rs key="#wilhelm">WILHELM.</rs>
+              <rs key="#aniela">ANIELA.</rs> (Ta wchodzi zwolna, smutno i poważnie, z biletem Gustawa w ręku)
+            </p>
+          </stage>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(wskazując na list)</stage> Poco to nosisz? to jest skrypt bankruta. Cożeś w tych pięknych słówkach wyczytała?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Nic wcale. Próżno szukam w swoich piersiach; gdzieś mi zginęła wiara w jego słowo. Napróżno staram się odnowić roskosz, jakąby dawniej był mi list ten sprawił. Z słodkiego spania ktoś mię nagle zbudził, przymrużam oczy, ale sny przerwane powrócić nie chcą.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Ktoż ci winien, córko! Wielem cię razy trącał, nie otwarłaś oczów, ślepotą jakąś uderzonych.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>O, dobry panie! żalu jej przymnażasz!</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Upór w chorobie, drugą jest chorobą. Zmusić potrzeba tego, co odtrąca zbawienne leki, póki czas ratunku. Tak i ja z tobą, nieuważne dziecię, postąpić muszę.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Na tę słabość, ojcze, nie ma lekarstwa w twojej sztuce. Kiedy piersi skaleczy ostra stal, lub ołów, ty biegłą ręką możesz bol wydobyć, i włókna związać, i balsamem spoić; ale wyrazu, który duszę rani, nie wydobędziesz, chyba z duszą razem. Najmniejsze słowo, które dziś powiedział, jak echo w sercu się rozlega. Nie ma ratunku dla mnie, bo już te obrazy splecione z każdą myślą, gdzie się ruszę, gdzie rzucę okiem, gdzie marzeniem wzlecę, są i być muszą, i nazawsze będą.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Dosyć tych trenów. Wprawdziem postanowił być z nim zdaleka; dałem sobie słowo, że nigdy noga moja nie przestąpi wysokich progów, w których pycha mieszka! Przecięż, dla ciebie, sobie się sprzeciwię. <stage>(Bierze od niej list)</stage> Daj mi ten papier; pragnę się przekonać, czy jego serce słowa te pisało. Najśmielszy kłamca traci swą przytomność, gdy ktoś znajomy w oczy mu popatrzy. W głąb jego serca wzrok mój chcę zapuścić, tam chęć i zamiar jego wyszlakować. Ty zaś, na wszystko bądź przygotowaną; pomnij, że ani łez twych widzieć, ani jęków twych słuchać nie chcę i nie mogę. Patrz, córko! głowa moja posiwiała; Czas mi pozwolić, bym spokojnie dobiegł do kresu mego. Oto zacny człowiek, z którym ci bliżej radzę się zapoznać. Pamiętaj bowiem, że od jutra pragnę być panem w domu. Zostań tu, Wilhelmie! <stage>(Wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#aniela">ANIELA.</rs>
+              <rs key="#wilhelm">WILHELM.</rs>
+            </p>
+          </stage>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(która słuchała ojca ponuro, mówi spokojnie)</stage> Mam się więc z tobą bliżej poznać: tak mi rozkazał ojciec w gniewie. To ma znaczyć, że będziesz mężem moim. O, Wilhelmie! Miałżebyś serce wziąć mię bez mej woli? Przyjąć to ciało, kiedy jego dusza ciągleby z rąk twych uciekała?</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Czemu pytasz mię o to? także mię znasz mało?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Bo coż ci przyjdzie z wiednącego kwiatu, który wiatr groźny zmroził? Nie ożywisz zeschłego serca tchnieniem swej miłości. Wprowadzisz w dom twój czoło zachmurzone, które posępność, smutek i tęsknotę na wszystkie ściany twoje rozsiać może. Po dziennej pracy, z drżeniem wracać będziesz do progu twego. Zamiast zastać żonę coby cię wdzięcznem okiem powitała, coby do piersi przycisnęła rękę która ją karmi, chroni i odziewa; znalazłbyś nędzną, w najciemniejszym kącie, oczekującą grobu i cmentarza!</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Anielo moja! przestań! Nie ten przedział, który, nieszczęściem, powstał między nami; nie ta konieczność, co mię silną ręką zmusza, bym ciebie wyrzekł się nazawsze; ale twój smutek serce mi rozdziera. Odkąd ku tobie skłoniłem swą duszę, nigdym nie myślał o swem własnemu szczęściu; ciebie jedynie, ciebie samę kocham, i miłość moja czysta, jak ta kropla którą pobożność z młodych ócz wyciska. Nie mógłbym wprawdzie pojąć tego szczęścia, gdybym cię swoją pod mój dach wprowadził; gdybyś mi chętnie, rękę swą oddając, rzekła, że tylko serce cię niewoli. Ale spokojnie mógłbym ciebie widzieć w objęciach wroga mego, bylem wiedział, żeś w nim znalazła wszystko, com ci dawał. Nie bój się zatem, nigdy cię nie przyjmę, tylko od ciebie samej. Jeśli przecię życzenia moje nie odwrócą ciosu, który ci grozi; nie racz mię odtrącać. Przywołaj wtenczas przyjaciela twego, on przyjmie skargi twoje, łzy podzieli; on, jak brat siostrę swą, pocieszać będzie. Żadnem spojrzeniem, coby miłość zdradzać, najcichszem słówkiem, coby o nim samym mówić ci mogło, nigdy nie obrazi.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(biorąc jego rękę)</stage> Zacny Wilhelmie!</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Żegnam cię. Bądź mężną! Nie ma przygody, którejby nie zniosły odważne piersi, w Bogu zaufane. Masz we mnie przykład. <stage>(Wychodzi)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(sama)</stage> W tobie? Tyś mężczyzna i jam cię nigdy szczęściem nie łudziła! <stage>(Siada zakrywając twarz)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#helena">HELENA.</rs>
+              <rs key="#aniela">ANIELA.</rs> (i)
+              <rs key="#wilhelm">WILHELM.</rs>
+            </p>
+          </stage>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p><stage>(wprowadzając Helenę)</stage> To jest Hermana córka.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ona?</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Tak jest. <stage>(Wychodzi)</stage></p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Może przeszkadzam?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(wpatrując się w nią z zadziwieniem)</stage> W niczem, zacna pani.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(obzierając się)</stage> Sameż jesteśmy?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Najzupełniej.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Czemuż tak się wpatrujesz we mnie, moje dziecię?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Wybacz mi, pani, jeśli uchybiłam.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Bynajmniej; mniemam tylko, że napróżno twarz moję sobie przypominasz: pewnam, żeśmy się jeszcze nigdy nie widziały.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(do siebie)</stage> O! śnie mój! <stage>(Głośno)</stage> Daruj pani, roztargnieniu. <stage>(Podaje jej krzesło)</stage> Jeśli nie mylę się, rozmawiam z damą wielkiego domu: mogę-li zapytać, co ją sprowadza pod ten dach ubogi?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Mówią o tobie w mieście.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(zmieszana)</stage> To mię dziwi: staram się tylko w domu być znajomą.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Nie trwóż się, moje dziecię! com słyszała, żadnej ci krzywdy w niczem nie przynosi. Mam ważny powód poznać ciebie zbliska, by uskutecznić zamiar zależący od tej godziny.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Będę szczerą. Ty zaś, łaskawa pani, sądź bez uprzedzenia.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(po chwili)</stage> Wszak ci, Aniela, imię?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Tak mię zowią.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Słuchaj, Anielo! słusznie się obawiasz uprzedzeń moich: jestem uprzedzona; lecz bądź spokojna. Mogę ja odrzucić te szkła fałszywe, chcę być sprawiedliwą. Jedno spojrzenie zdradzić może duszę; kilka słów, umysł wykształcony. W tobie postrzegam także, żeś nie zostawiona naturze samej.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Zbyt to chlubne zdanie! Możem myślała kiedy o czemkolwiek; teraz o niczem: wszystko mi jest obce.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Te zapłakane oczy i te słowa myśleć mi każą, że twa dusza cierpi. Nie chcę ja zgłębiać tych tajemnic: przecież, jakbym wiedziała, że go potrzebujesz, niosę lekarstwo twemu sercu. Mniemam, że je odemnie przyjmiesz i usłuchasz co ci przełożę.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Słucham cię więc, pani!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Mam przyjaciółkę zacną i bogatą. Różne przygody nagle odebrały ciału jej czerstwość, a jej duszy pokój. Chce ona szukać straconego dobra pod pięknem niebem Włoch, i wśród stolicy dawnych tryumfów ludzi, dzisiaj wiary, przez czas niejaki mieszkać. Lecz nie może rzucać się sama w kraje nieznajome; pragnie osoby, któraby zdołała jej smutek dzielić i podwajać radość; coby nad zdrowiem jej, z przyjazną duszą, umiała czuwać; coby do niej często, wśród dźwięku mowy pięknej, ale obcej, językiem ziomków z serca przemawiała. Chceszże korzystać z tej okoliczności? Jeżeli serce twe głęboko ranne, wierz, moje dziecię, że się tam najprędzej zagoić zdoła. Coż mi odpowiadasz?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Szanowna pani! czuję tej ofiary ważność i powab. Nie wiem, co cię mogło skłonić, żeś na mnie nieznajomą, wzrok twój obrócić chciała. Może to jedynie dobroci twojej winnam; ale daruj, że z tak wysokiej łaski nie korzystam. Ojciec mój stary, siostra jeszcze mała; nie mam już matki, a... nasz dom ubogi, wymaga ciągle gospodarnej ręki.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Uważ, Anielo! że twój ojciec nawet nie może żądać, byś z nim zawsze była. Dostaniesz męża i już próg rodziców opuścić musisz. Pójdziesz chętnie wyprowadzona własną ręką ojca, co ci przeżegna tę niepewną podróż. Los to konieczny; i twój ojciec dawno przygotowany do stracenia córki.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Jeśli ten powód jeszcze nie wystarcza, mam inny, pani! W czemżebym ja mogła być użyteczną przyjaciółce twojej? Nie, dobra pani; obowiązek taki wymaga więcej światła, lat dojrzalszych i wesołości i swobodnych myśli; ja zaś mam tylko serce, które umie cierpieć i milczeć.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Tam oświecisz rozum, tam doświadczenie przyjdzie ci wśród ludzi; tam serce twoje mowę swą odzyska na widok cudów sztuki i natury. Czujesz to sama; a ja łatwo widzę, że masz przyczyny większej wagi.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Mam je, bo nacożbym się taić miała. Pani! Twój wzrok łagodny, głos, któremu dobroć i tkliwość duszy dała dźwięk anielski, ciągnie ku tobie ufność moję. Nie chciej stąd mię wyrywać. Utraciwszy władzę nad myślą moją, na nic się nie przydam. Zaledwie ręce, co mię karmią, nogi co mię niechętnie z kąta w kąt przenoszą, są mi posłuszne. Głowę utraciłam. Nic robić, myśleć, widzieć, ani słyszeć, co inszych ludzi bawi lub zatrudnia, nie jestem zdolna. Mogę tylko siedzieć w tem smutnem oknie, i w głębokiem niebie wzrok zatapiając, z chmur przelatujących ukształcać ludzi jakich dawniej znałam, i świat, co dawniej wabił mię do siebie.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Stan to okropny, lecz przeminie.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Nigdy. Płacz, widzę, nie jest oczom twoim obcy; na czole twojem smutek lubił mieszkać! Och! jeśli memu on podobny, nacoż cieszysz mię słowem, które czczem jest brzmieniem! <stage>(Kładąc rękę na sercu)</stage> Nie wszystko mija.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(smutno)</stage> Prawda, moje dziecię! Dochodzę źródła twoich cierpień. Jakże żal mi cię, jeśli miłość wiarołomna spokojność serca twego zamieszała. <stage>(Po chwili)</stage> Milczysz, Anielo! Mnie, o! mnie szczególniej, jakże nietrudno smutek twój podzielać. Ach! nie ty jedna cierpisz. Strata twoja niczem zapewne nie da się nagrodzić.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Jak strata życia, gdy porzuca ciało.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Więc twój kochanek złamał ci przysięgi i wiarę swoję w insze ręce złożył?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Nie, pani, tego nie uczynił; tego bez woli mojej, nigdy nie uczyni.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Na coż się żalisz?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ach, straciłam wszystko! On mię nie kocha! Daje mi swą rękę, bo wprzód dał słowo; ja zaś ją odrzucam, bo jego szczęście nad swe życie cenię.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Czyli ku innej serce swoje skłonił?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(smutno)</stage> Mówią, że jakaś wdowa piękna, młoda...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(przerywając)</stage> Znaszże ją?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Nigdy, nigdym jej nie znała. O! gdyby ona mogła się dowiedzieć, jak wielki skarb mi wzięła; gdyby znała miłość i duszę moję! Jeśli może czuć litość, pewnieby nad losem moim gorzkiemi łzami zapłakała.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Przestań!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>I ty nademną płaczesz!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>I nad sobą.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Czemuż to, pani?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Los nasz jednakowy! I ja kochałam; moja dusza także źle oceniona, obrażoną była. I mój kochanek przysiągł miłość innej; i ja odrzucam jego rękę, nie chcąc gubić istoty, której zacność, tkliwość, smutek, do głębi serca mię wzruszają.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>O! ta Helena, której imię wyrzekł, gdy mię odtrącił; która ręce nasze w śnie przeraźliwym rozerwała, pewnie tak wielkiej duszy nie ma.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(powstając)</stage> Taż Helena twego Gustawa ci oddaje.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(przypadając na kolano i zakrywając sobie twarz)</stage> Boże! Tyżeś to?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(z godnością)</stage> Jam jest. Widzisz mię przed sobą; chciałam cię poznać i poznałam. Godnaś i ręki jego i miłości: przyjm więc ode mnie męża, co cię kochać będzie. Od jutra umrę dla was; Bóg i wiara uleczą serce moje z tej słabości, z której już coraz bardziej się oczyszcza. <stage>(Kładąc rękę na jej głowie)</stage> Jak matka życiu twemu błogosławię i szczęście twoje w ręce Boga składam. <stage>(Odchodzi)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(sama, powstaje)</stage> O ty, anielska duszo! jaż więc z tobą równać się chciałam. Czemże jestem teraz! Ach! on cię musi, on powinien kochać! W nieszczęście moje od tej chwili wierzę! <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA VI.</head>
+          <stage type="setting">
+            <p>(Mieszkanie Gustawa)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#herman">HERMAN.</rs> (i)
+              <rs key="#służący">STARY SŁUŻĄCY GUSTAWA.</rs>
+            </p>
+          </stage>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Wkrótce nadejdzie: moment cierpliwości.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(który się ciągle przechadza)</stage> Progi bogaczów są jej szkołą. Mam ją.</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>To wielka prawda. Nikt jej w naszym domu nie potrzebował bardziej, jak ja teraz. Jużem w tym dworze nie dzisiejszy: przecięż tu nie bywało, co się dzisiaj dzieje. Wiem ja, że służba nie jest równa służbie: jeden pan gorszy, drugi lepszy. Ale, żeby się jeden nagle tak odmienił, żeby staremu słudze było ciężko trafić w chęć jego i wypełnić dobrze lada powinność; by odbierał codzień rozkaz na rozkaz z gniewem i fukaniem; tu mu dopiero trzeba cierpliwości! Ja przecięż znoszę, bo to pan poczciwy; to dziecię, którem ja na ręku nosił. Będzie to lepiej. Wilk do lasu, zając po długiem kole, w swoje gniazdo wraca. Kto się urodził, kto był zawsze dobrym, chociaż i zbłądzi, choć się na czas zmieni, nietrudno temu do dobrego wrócić, <stage>(Z uśmiechem)</stage> zwłaszcza gdy jest ktoś, co na dawną drogę wprowadzi znowu. Co to wiele mówić: pan zakochany, myśli ma gdzie indziej. Ojciec mu jeszcze nie pozwolił: wszystko pomiarkowawszy, dziwić się nie trzeba. Ale ty, panie, wcale mię nie słyszysz.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Trzeba być głuchym, gdy kto nadto mówi.</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Przecież od rzeczy niczem nie powiedział. I pan mój zowie mię gadułą; jednak, gdyby mię słuchał, lepiejby mu było.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>W czemże, naprzykład?</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Jużby miał był żonę piękną i dobrą; jużby zamyślony, jak mara jaka, nie tłukł się po nocy; aniby wzdychał, jakby kogo zabił. Samby nie męczył siebie i przy sobie tych, co mu służą, tych co go kochają. Co to pomoże pisać? jam to mówił, jedźmy do ojca! Niechby stary Hrabia spojrzał mu w oczy, jak gorąco proszą; niechby mu pan mój rozpowiedział tylko, jak miła panna, jaki to z niej anioł; samby staruszek się pokochał; rzekłby: dalejże, synu, w imię ojca...</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(z niecierpliwością)</stage> Pewnie nierychło wróci: ja się nie doczekam.</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Och! powiedziałem, że nadejdzie. Dawno wyszedł, a długo nie zwykł przesiadywać. Zaprawdę, dawniej, kiedy pewną pannę, którą ty panie, znasz podobno dobrze, częściej odwiedzał, dłużej się zabawiał. Lecz teraz rzadko biega do tych okien, co je stąd widać. <stage>(Pokazuje oknem)</stage></p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Czemu!</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Ten pan Stężyc! To mi to język! gotów wmówić w człeka, że teraz miesiąc, a nie słońce świeci. Cierpieć nie mogę takich wścibskich. Nieraz mówiłem panu: ej! nie słuchaj Panie, co ci on prawi; coż stąd, że uboga! Wieleż księżniczek tobie się zaleca? A wszystkie, co to, Panie odpuść! Każda harda, że ani spojrzy na człowieka. A tu mi panna miła i młodziutka, jakby krew z mlekiem; a gdy się uśmiechnie, to i staremu tu się dobrze robi. <stage>(Pokazuje na piersi)</stage> Ale te rady, odradzania...</p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#gustaw">GUSTAW.</rs>
+              <rs key="#herman">HERMAN.</rs>
+              <rs key="#służący">SŁUŻĄCY.</rs>
+            </p>
+          </stage>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(wszedłszy nagle, i patrząc z podziwieniem na Hermana, do Służącego)</stage> Odejdź. <stage>(Służący odchodzi)</stage>
+              <stage>(Do Hermana tonem przymuszonym)</stage> Coż cię przywiodło, mój szanowny panie! Żeś mię odwiedził? zwykłeś gardzić tymi, których fortuna marnościami świata obsypać chciała.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Zwykłem gardzić tylko nieuczciwością; cnotę równie cenię i w wielkim panu i w żebraku.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Przecież postanowiłeś, że się nie przybliżysz, bez ważnej sprawy, nawet do mnie, za to iż motłoch mniema, żem od ciebie wyższy.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Mniemań motłochu nie podzielam; inszą niżli on miarą, wartość ludzką mierzę. Widzę od siebie wyższych i nawzajem siebie od wielu wyższym: to wiem przecięż, że wszyscy równi sobie w losie. Każdy doświadczyć może zdrady; oszukany każdy cierpieniem ufność swą przypłaca; każdy za dobre dobrem, a choć późno, złem za złe musi być wynagrodzony.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Prawdy dość znane.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Tak jest: ale często o bardzo znanych prawdach, jak i ludziach, zapomnieć można.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(nagle)</stage> Coż masz do mnie? proszę! Zapewne rzecz jest ważna. <stage>(Wskazuje krzesło i sam siada)</stage></p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Panie Hrabio!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Na coż się zmuszasz! Wiem, że twoje usta najchętniej ludzi po nazwiskach zowią. Znasz moje imię; tem mię nazwij: wszakżem ja taki człowiek jak i drudzy. Tobie najprzyzwoiciej do mnie tak przemawiać, jak insi ludzie nie chcą, lub nie śmieją. Tytuły porzuć: dość ja mam przyjaciół, co ustawicznie mi przypominają za co mię świat ma, bym się nie zapomniał.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>To są prawdziwi przyjaciele: takich winieneś słuchać. Czemże jest natura, gdy ją porównasz z ustami ludzi? Gdy pierwszą zgwałcisz, nikt ci nie pogani; każdy wyśmieje, gdy obrazisz drugie. Człowiek jest niczem w porównaniu z Hrabią. Słuchaj przyjaciół którzy ci to mówią, unikaj żartów ludzkich i każ milczeć sumieniu twemu.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(powstając)</stage> Coż to jest? Doktorze! Widzę szyderstwo; lecz nie mogę pojąć, do czego zmierza.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Nie chcesz. Więc ci powiem, krótko ci powiem; również odpowiadaj. Przed kobietami zwykłem czasem taić stopień choroby; lecz mężczyznie, który powinien mężnie cierpieć, gdy uderza los lub natura, mówię śmiało: Umrzesz! <stage>(Oddaje mu jego list)</stage> To pismo było dla kobiety; mnie zaś poczęstuj prawdą, choćby w arszeniku. Zhańbić mej córki nie chciałeś zapewne; że jej nie kochasz, wiem to od niej samej i stąd poznaję, jak mię tu przyjąłeś. O to ja nie dbam; pragnę tylko wiedzieć, czy masz odwagę być jej mężem. <stage>(Służący wchodzi i oddaje list Gustawowi, który rzuca go na stół i przechadza się pomieszany)</stage> Jeśli i świat i moda twe serce od niej myśl twą odsuwa; nie chcę cię przymuszać. Na ten cios srogi już przygotowana; odważnie zniesie, czegom jej kazał spodziewać codzień: możesz być spokojnym. Zakażę sercu jej rozpaczy; gniew mój rozpędzi smutek z jej bladego czoła, a urągania łzy jej ócz osuszą. Coż odpowiadasz?</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>List ten bardzo pilny.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(odrywając pieczęć, odchodzi na bok i czyta)</stage> „Helena zostaje zakonnicą. Ratuj ją! Jutro już będzie zapóźno. Marja” <stage>(Przerażony upuszcza bilet. Do siebie)</stage> Takiż ją los czeka! <stage>(Do Służącego)</stage> Szukaj Stężyca! <stage>(Służący odchodzi)</stage> To być nie może! ktoś cię zwodzi, jakaś okrutna zdrada, chytrość bezprzykładna te słowa oczom twoim podsunęła. <stage>(Podejmuje list)</stage> Nie, to jej ręka, prawda zbyt wyraźna! <stage>(Rzuca się na krzesło)</stage></p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(zbliżając się)</stage> Jakąż odpowiedź dasz mi? Czekam.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(porywając się)</stage> Żadnej. Okrutny starcze! jesteś bez litości. Wydrzej mi serce, patrz co się w niem dzieje i potem osądź, jaką ci dać mogę.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Żegnam cię, Hrabio! <stage>(Odchodzi)</stage></p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(porywając się)</stage> Mógłżem się spodziewać, bym tak głęboko zabrnął? Któryż szatan uprządł tę siatkę, co mię skrępowała! <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>AKT IV.</head>
+        <div type="scene" n="18">
+          <head>SCENA I.</head>
+          <stage type="setting">
+            <p>(Mieszkanie Gustawa)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#gustaw">GUSTAW.</rs>
+              <rs key="#służący">SŁUŻĄCY.</rs> (potem)
+              <rs key="#ludwik">LUDWIK.</rs>
+            </p>
+          </stage>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(do Służącego)</stage> Przychylnyś, wierny, nawet dobrze radzisz; lecz mi to na nic się nie przyda. Odejdź.</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p><stage>(odchodząc)</stage> Żal mi cię, panie!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(do wchodzącego szybko Ludwika)</stage> Byłżeś u niej? Powiedz.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Próżno: nikogo nie przypuszcza; ledwie Marji wolno kilka słów przemówić: najczęściej klęczy, modli się i płacze. Jej przedsięwzięcie zdaje się być stałem. Znam moc jej duszy; wiem jak umie władać sobą, a przecięż jeszczem nie utracił wszelkiej nadziei.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Mów więc.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Wprawdzie trudno takiego serca tajemnice zgłębić. Rozumiem przecięż...</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Porzuć te domysły.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Na nich gruntują się nadzieje moje. Rozumiem, mówię, że nie sama wielkość serca ją skłania. Widzę ja w tym kroku zwyczajną rozpacz, może dla postrachu; i oburzenie po doznanej wzgardzie.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(z gniewem)</stage> Po jakiej wzgardzie?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Była u Anieli.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Była?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Powiadam. Co mówiły, nie wiem; to pewna, że się ten okropny zamiar po tej bytności zrodził. Bo i coż jej to łatwowierne, to niebaczne dziecię powiedzieć mogło? Oto, że ją kochasz, że pewna ręki twojej, że się dla niej Wszystkiego zrzekasz.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Jeszcze list ten!</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Jaki?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Do dawnych kajdan przydałem dziś nowe, w tych kilku słowach, którem w obec nieba wyrzekł, dawniejsze stwierdziłem przysięgi.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p><stage>(przebiegłszy list)</stage> Jakże, i list ten miała już Aniela?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Jest mi zwrócony.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Więc swą ważność traci.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Podła pociecha!</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Położeniu twemu wybaczam słowo nieuważne. Wierz mi, szalonym byłeś, gdyś te słowa kreślił, biedną dziewczynę utwierdziłeś w myśli, która ją gubi; podałeś w jej ręce broń nadto silną, by jej nie użyła. Helena pewnie to czytała; ręczę. Poniżyć, zmieszać, wyprowadzić na twarz spółzalotnicy kolor zawstydzenia, wycisnąć z ócz jej łzy niedołężnego gniewu: to roskosz dla kobiety każdej nadto powabna, by jej nie skosztować. Co za cios dla niej, gdy w Anieli ręku ujrzała taki dowód twojej zdrady! ani się dziwię, że jej piękna dusza niewzajemnością twoją oburzona, do upokorzeń takich nieprzywykła, szczęścia, swobody, zrzekła się wspaniale.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Lub mię samemu sobie zostaw, albo przez miłość boską, rozumować przestań. <stage>(Po chwili)</stage> Chceszże mi radzić, drogę jaką wskazać?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Ja tylko jednę widzę.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Gdzież jest? pokaż! pójdę nią, chociażby tak ostrą była, jak krawędź miecza.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Stań dziś przed Heleną, zupełnie wolnym. Powiedz, że wyłącznie do niej należysz, a przyjętym będziesz.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Ktoż mi tę wolność nada? kto potrafi do chwil przeszłości, cofnąć dzień dzisiejszy; wydrzeć z pamięci mojej, com uczynił i w czyn cnotliwy krok podłości zmienić?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Konieczność woła: trzeba węzeł rozciąć, gdy go rozwiązać niepodobna. Pozwól, pozwól mi działać; a dziś jeszcze zdołam przypiąć ci skrzydła, które cię z tej toni wynieść potrafią. <stage>(Gustaw przechadza się szybko w niepewności)</stage> Wahasz się nieszczęsny, kiedy cię los twój silną ręką trąca! Stoisz nikczemnie nad przepaścią, którą mógłbyś przeskoczyć! Czekasz-li, aż póki brzęk kraty ucha twego nie przerazi! <stage>(Bierze list Marji)</stage> Czy słyszysz? „Jutro już zapóźno będzie!”</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(porywa się nagle, pisze i oddaje Ludwikowi)</stage> Niech się więc stanie! Żądał odpowiedzi; Zanieś ją ojcu, córce. Ale pomnij, że moja przyjaźń w wściekłość się zamieni, jeśli nieszczęściem... Odejdź.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Bądź spokojny. <stage>(Odchodzi)</stage></p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(patrząc za nim)</stage> Już się więc stało! Moment ten żądany, gdy był dalekim, straszny kiedy blizki, nadszedł. Ów nędznik, co nie wierzył nigdy w rozpacz i miłość, poszedł nas rozłączyć. Twardemi słowy, bez ochrony serca co dla mnie biło, zdradę moję wydać. I kiedy ja tu drżę... gdy skrępowany najniedołężniej w moich więzach jęczę, ty, straszna chwilo! lecisz, ja cię wstrzymać i cofnąć nie śmiem i nie mogę. Przebóg! Tak mi więc łatwo było przesłać... słowo, co tyle uczuć, szczęścia i nadziei, z wiatrem rozniesie! przerażliwe słowo, co jej krew zetnie, oddech wstrzyma, bladą i może martwą u nóg ojca rzuci! Więc, aby jednej krata nie zawarła, drugą grobowy kamień ma przywalić! Straszny obrazie! ustąp z mojej duszy. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA II.</head>
+          <stage type="setting">
+            <p>(Mieszkanie Heleny)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#helena">HELENA.</rs>
+              <rs key="#urzędnik_sądowy">URZĘDNIK.</rs> (i)
+              <rs key="#marja">MARJA.</rs> (siedząca zdaleka)</p>
+          </stage>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Daruj mi zacny starcze! żem tak późno wezwać cię śmiała. Rzecz jest bardzo nagła, twojej nauki i doznanej wiary wymagająca.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Miło mi jest, pani, w każdej ci porze służyć. Coż rozkażesz?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Pragnę majątkiem moim rozporządzić.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Jakto? tak zdrowa? w kwiecie twój młodości?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(poważnie)</stage> Czemuż się dziwisz? każda chwila rani tysiące istot grotem śmierci. Kiedy ziółko wiośniane sroga ręka ścina; gdy owoc, w farbie zdrowia i czerstwości, przed czasem spada; czemużby sam człowiek, w swej zimie tylko, myślał o mogile, lub do łez gorzkich nad porannym grobem gotowym nie był!</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Pani, słów mi braknie, bym ci wyraził podziwienie moje. Bóg sprawiedliwy nie dopuści pewnie, by tak szlachetna dusza, tak krótko zdobiła ziemię.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jutro z niej uciekam.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Mogęż rozumieć co te słowa znaczą?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Dziś już rozstałam się z tym światem: dzisiaj ostatnia burza w łonie mem ucichła. Było to hasło, że już nie należę do ziemi waszej. Jutro więc, już za mną klasztorna brama zamknie się na wieki. <stage>(Urzędnik okazuje znak zadziwienia, Marja powstaje i płacząc odchodzi na bok)</stage> Na coż mię trwożysz podziwieniem swojem. <stage>(Do Marji)</stage> A ty swym płaczem zmiękczasz? Dźwięk tej kraty niczem mojego ucha nie przeraża. Wprawdzie podobna ona do kamienia, który na trumnie leży, od wszystkiego co ziemskie, dzieli. Znam to, i dla tego żegnając wszystkich ludzi, o tych jeszcze co mię kochali, chciałabym pomyśleć. Posiadam rzeczy, których nie użyję: w przedsienia grobu winnam być ubogą, nim w grobie całkiem obnażoną. <stage>(Biorąc papiery i oddając Urzędnikowi z uśmiechem)</stage> Spis ten, któryś sporządził w inszej pewnie myśli, był mi przydatnym. Com tu oznaczyła, com komu dała, to mi dziś lub jutro ułożyć zechcesz, podług myśli prawa. Tyleś lat dawał wiary swej dowody mojemu ojcu i mężowi, tak ja wysoko cenię twoje zacne serce, że losy ludzi miłych mi, z ufnością w twe ręce składam. <stage>(Urzędnik przerzuciwszy papiery, patrzy na nią smutno)</stage> Ale czemuż na mnie tak smutno patrzysz? może nadto mało zostawiam sobie? Wierz mi, nazbyt jeszcze bogatą będę w miejscu, gdzie fortuna ołtarza nie ma.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p><stage>(pokazując miejsce w papierach)</stage> Pani! coż to znaczy? <stage>(Kładzie papiery)</stage></p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jest to pamiątka mej wdzięczności. Przyjmiesz, przyjmiesz ją, starcze! Cień mojego męża pochwali pewnie, żem o twoich dzieciach nie zapomniała.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Pani! jeśli moja przyjaźń ci zdoła podać dobrą radę, nie chciej odrzucać jej ten raz ostatni. Coż ci natchnęło zamiar, do którego rozpacz przywodzi? skąd ta myśl okropna?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Wiem, przewiduję, co powiedzieć możesz; lecz przestań. Myśl ta wznosi mię wysoko! Postanowienie to na skale stoi! Nie mój go rozum stworzył i nie moja zrodziła wola. Weszło do mych piersi nagle, jak gdyby z tchnieniem wiatru, co się o chmury otarł i je z nieba przyniósł. Nikt nie zatłumi we mnie głosu Stwórcy, co mię do mego przeznaczenia woła; nikt nie przymusi, abym nie widziała boskiego palca, co mi cel mój wskazał.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Ach! muszę milczeć i te stare oczy łzami boleści zalać.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Bądź zdrów, starcze! Żegnam cię z sercem pełnem twojej cnoty. Ufam, że rychło spełnisz moję wolą. Najpierwej pomyśl o tem, co przeznaczam biednym sierotom, sługom i Anieli, i mojej Marji. <stage>(Obraca się do Marji, która zakrywa sobie twarz)</stage> Przestań łzy te ronić. Czyż to schronienie mniemasz być tak strasznem, że w niem nie znajdę marnych uciech świata? Czyż mię żałujesz, że rugując z myśli obrazy stworzeń, Stwórcą ją zapełnię? Spokojną jestem. Patrz, co za pogoda panuje w duszy mojej. Z ziemi tylko wznoszą się chmury zdolne zakryć słońce; ja po nad niemi mieszkać, ja nad niemi w jasności wiecznej, będę się unosić. Ty mię nie stracisz: przyjaźń jest tak świętem, tak czystem czuciem, że się zmieścić może obok miłości Zbawiciela. <stage>(Bierze krucyfix, ściska rękę Urzędnika, całuje w głowę Marją i wychodzi)</stage></p>
+          </sp>
+          <sp who="#marja">
+            <speaker>MARJA.</speaker>
+            <p><stage>(po chwili)</stage> Czemuż, o, czemuż niczem odwieść jej nie można!</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK.</speaker>
+            <p>Niczem już. <stage>(Poważnie)</stage> Niechże ten przeklętym będzie, kto ją do żalu kiedykolwiek skłoni.</p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA III.</head>
+          <stage type="setting">
+            <p>(Mieszkanie Hermana)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#herman">HERMAN.</rs>
+              <rs key="#aniela">ANIELA.</rs>
+            </p>
+          </stage>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(zbliżając się do ojca)</stage> Ojcze mój! coż ci myśli te pomogą?</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Nic do mnie nie mów. Zostaw mię jak jestem; niech piersi moje ściska trwoga równa bojaźni łotra, gdy przed sędzią staje. Wolę ją, wolę być niewinną pastwą okrutnych myśli, niżli słuchać ciebie, coś jak syrena, czujność mą uśpiła.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Także mię cieszysz? W teraźniejszej chwili, możeż twe serce takie słowa znaleźć? Kiedy mię wszystko trwoży i opuszcza, kiedy pierś twoja jest jedynem miejscem, gdzie nieszczęśliwa mogłabym bezpiecznie swą głowę schronić i swe łzy wypłakać, ty ją zamykasz? Ojcze! cożem winna? Nareszcie, coż ci się tak złego stało? Czyż nie uczciwość jego dom twój zhańbić, twe siwe włosy wstydem okryć, albo mię na szyderstwo podać może? Nigdy. Swoim on tylko nocom przysposabia myśli, co w piersiach jego czuwać będą; swe własne łoże twardo sobie ściele, na którem, całą wagą swego złota. Nie zmusi powiek, aby się zamknęły. Ja się utulę kiedykolwiek; tobie zostaje córka czysta i niewinna.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>I za to dzięki niebu. Lecz zostanież równie szczęśliwa? Dziecię nierozsądne! Obrażasz serce moje. Czy rozumiesz, że ja spokojnie na twój smutek patrzyć, i łzy twe liczyć zdołam. O! ty nie wiesz jak przeraźliwe echo płacz dziecięcia w sercu rodziców budzi. Nie pojmujesz, z jaką się mocą straszny głos ten wzmaga, gdy nam niebaczność naszę wspomina.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Baczność by twoja nie pomogła: próżno wyrzucasz sobie. Dosyć gdym raz jeden widziała rysy jego, gdy raz tylko głos jego miły w łonie mem się rozległ; już od tej chwili stał mi się tak drogim, jak w obcym kraju widok przyjaciela. Odtąd się los mój związał z jego losem. Mógłżeś, mój ojcze, mógłżeś temu zabiedz? Nie; żadna siła niczem nie przeszkodzi by strumyk mały, skoro wpadł do rzeki, z jej nurtem nie biegł, w morze z nią nie wpływał.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Nie przypominaj, czegom nie uczynił gdy była pora, bo mój gniew obudzasz. Mogłem zakazać, zdrajcy mego progu; mogłem cię zamknąć; mogłem w pierwszej iskrze, przygasić płomień, który cię pochłania.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Mylisz się ojcze: mógłbyś mię był zamknąć; lecz w sercu ludzkiem, równie jak i w ziemi, wre czasem wulkan. Kto wie, jak daleko żar ten zgnieciony byłby mię zarzucił, gdyby zamkniętej zjawił się był zdala, wyciągnął ręce i do siebie wołał; możebym była mury te przedarła i za nim, nawet w przepaść hańby, poszła. Bądź więc spokojnym. Nie skarz się na siebie; powolność była tu mądrością. Na mnie także się nie żal. Wyrok mój niepewny; nie wiesz, jak wielkim ciosem mu pogroził ów list okropny. Przyszle on ci wkrótce odpowiedź swoję. Kto wie, może wezwie, byś mię ustroić kazał; bym na głowę włożyła wieniec; abym szła, gdzie on mię i kapłan z ręką żegnającą czeka. Lecz niechby nawet ta wiadomość miała władzę piorunu; nie trwoż się, mój ojcze! Mam ja odwagę. Łez mych nie obaczysz; łzy są lekarstwem w lekkim tylko bolu; wielkie nieszczęście budzi wielką siłę.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Pamiętaj, abyś słowa dotrzymała.</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#herman">HERMAN.</rs>
+              <rs key="#aniela">ANIELA.</rs>
+              <rs key="#ludwik">LUDWIK.</rs> (który wchodzi zwolna)
+            </p>
+          </stage>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Ktoż to, tak późno?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Proszę się nie dziwić, że o tej porze wchodzę.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Dom mój zawsze otwarty dla tych, co ratunku pragną.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Nie do lekarza tu przyszedłem.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Coż więc?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Przykro mi bardzo, żem się podjąć musiał poselstwa mego. Ale człowiek często wśród takich widzi się okoliczności, że tymże ciosem, który rani jednych, ratuje drugich.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Bez przygotowania! Prosto do rzeczy; proszę.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Wiesz to, panie, że im kto wyżej w społeczności stoi, tem więcej prawom i przyzwoitościom ulegać musi. W miernym stanie, honor, sumienie, sercu są prawidłem. Byle poczciwie działać, wolno żyć każdemu podług humoru, podług woli. Ale stopniami idąc coraz wyżej, coraz ścieśnia się wolność prywatnego życia. Przepis zwyczaju i opinii prawo zaczyna wiązać mocno i stanowczo. Niewolnik stanu swego, nieraz musi wystawić serce na zbyt twarde próby. Odmówić sobie nawet szczęścia, które goryczą później byłoby zatrute.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Wszystko to prawda, wszystko jakby z książki; lecz jakiż koniec będzie tych morałów?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Są one bardzo tu potrzebne. Koniec tak dla mnie przykry, iżbym rad go jeszcze dalej odsunąć.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(dobywając zegarek)</stage> Jest już dosyć późno.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Nim się okaże cel mojego przyjścia. Panie, mam ważny powód ci przypomnieć, że równie prawo ludzi, jak natury, pozwala ojcu rządzić losem dzieci. Czujesz to pewnie; nibyś grzechem nazwał, gdyby twa córka woli twej posłuszna, dla ucieszenia ojca, swej skłonności i sercu swemu milczeć nakazała.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(cicho do ojca)</stage> Dłużej mię ojcze dręczyć nie pozwalaj.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Słuchaj, mój panie, z tego coś powiedział, dobrej dla siebie wróżby nie wyciagam. Jeśli przez litość się opóźniasz, nie znasz ludzkiego serca. Gdy przez złość, rozumiem, żeś już dowoli się ucieszył. Ktożeś i po co przyszedł?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Jestem przyjacielem hrabi z Przeworska i od niegom przyszedł. <stage>(Aniela słabnie i zbliża się ku krzesłu)</stage> Widzę, jak trudną spełniam tu powinność, lecz już się stało. Niech to pismo skończy, <stage>(Oddaje list)</stage> com tylko zaczął. Proszę jednak wierzyć, że mój przyjaciel, słowo swe cofając, ani jest winnym, ani płochym. <stage>(Aniela pada bez zmysłów)</stage> Przebóg!</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>O dziecię moje! wartoż tak żałować człowieka, co cię zdradza i zabija!</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Ratuj ją.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Precz stąd, nędzny najemniku! <stage>(Otwiera szafę, w której rozmaite lekarstwa i powraca do niej)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(podnosząc się)</stage> Ojcze mój! daruj, żem nie mężną była. On się mię wyrzekł. Ach! to słowo nadto, nadto mi strasznem się wydało. Przecież Bóg mię już natchnął siłą. <stage>(Wstaje)</stage> Teraz wszystko odważnie zniosę. Gdzież to pismo? <stage>(Bierze)</stage> Tak jest, to jego ręka, jego drżąca ręka. Mówi, że rozpacz go zmusiła. Jakże chętnie mu wierzę. Serce jego zawsze szlachetnem było. A choć krok ten mówi przeciwko niemu, ja go nie obwiniam. Nicże od niego więcej mi nie powiesz? Czyliż w tych kilku słowach wszystko zamknął nic więcej nie masz?... Wieczne pożegnanie możeby trochę dłuższe być powinno.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Coż mam powiedzieć? Słowa te choć krótkie, malują boleść, której się nie dziwię. O! ty nie wątpisz, że nie jego serce was rozdzieliło: smutna go konieczność zmusiła. Wierz jej; a gdy w ciężkim bolu nie ma dla niego żadnej już pociechy, tej mu przynajmniej dozwól, że nie wątpisz o jego sercu, żalu i rozpaczy że nawet mężniej zniesiesz cios ten srogi...</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(przerywając)</stage> Przez barwę słów widzę twoje serce. Masz ty sumienie wbijać komu sztylet i radzić, aby zaśmiał się konając?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Czemuż nie miałabym to znieść spokojnie! Utracam dobro, co nie było mojem. Mamże do niego jakie prawa? Los mój, ni urodzenie, żadnych mi nie daje. Jeżelim kiedy całą moją duszą posiąść je chciała; było to żądanie płoche, dziecinne. Wieleż to się razy przyrzeka dziecku, co mu dać nie można? Wieleż się razy dziecię to naśmiewa z marnych swych żądań, gdy do lat przychodzi? Wiek mój dziecinny minął, już dojrzałam i nic nie pragnę. Jeśli to Gustawa pocieszyć zdoła, powiedz, żem spokojna, że nawet coraz spokojniejsza będę. Ta zacna pani, ta wspaniała dusza, da mu zapomnieć o mnie. Niech ją kocha, niech się jej dziwi, niech szczęśliwym będzie. Powiedz mu także, że był czas, gdy jego przytomność, słowo i spojrzenie każde było mi niebem. Że ten czas przeminął i że ja... żyję. <stage>(Siada)</stage></p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Pamięć takiej chwili nie zniknie z myśli.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Proszę nas zostawić.</p>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#herman">HERMAN.</rs>
+              <rs key="#aniela">ANIELA.</rs>
+            </p>
+          </stage>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(przeszedłszy parę razy)</stage> Już się więc stało.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Stało się, mój ojcze!</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(stanąwszy przed nią)</stage> Anielo! czemu tak surowo patrzysz? Cios to okrutny; ale wiesz ty córko! Że rozpacz grzechem jest i matką zbrodni.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Rozpacz? nie, ojcze! wcale jej nie czuję: w piersiach mych głucho i spokojnie.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Tej ja ciszy się lękam.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Nie bój się, mój ojcze! Widziałeś męztwo moje. Dar to Boga: gdym upadała, wsparł mię; gdy się sama utrzymać staram, pewnie nie opuści. Czas mię uleczy; on mi da zapomnieć o szczęściu, co mi tak się długo śniło. <stage>(Pada do nóg ojca)</stage> Tu masz mię znowu. Wracam ci twe dziecię niebaczne, z domu twego uciekało; nieszczęścia ręka nazad ci przywodzi i pod twe skrzydła, co je długo kryły, znowu oddaje. Rządź niem podług woli.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(podnosząc ją)</stage> Kochana córko! jakież dzięki złożę Bogu za męstwo, którem cię obdarzył. Bądź wytrzymałą; zgoi się ta rana. Może dożyję jeszcze tej pociechy, że poważniejsze czucie, czucie matki, piersi twe nowem życiem natchnie.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ojcze! Ufam, że spełnię twe nadzieje. Odtąd praca i pilność będzie mą pociechą, powinność myślą, celem i dążeniem, w domu się naszym wiele zaniedbało: ja byłam nadto roztargnioną, tyś był: za nadto dobrym i pobłażającym. Daruj mi; wcale inszą mię obaczysz. Godna ufności twej nagrodzę straty, a jeśli przyjdzie mi twój dom opuścić, żałować będziesz czujnej gospodyni.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>O, jakże radbym chwili tej doczekać! <stage>(Ściska ją)</stage> Lecz, o ty skarbie mój najdroższy! gdzież ja znajdę człowieka, coby cię był godnym?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Nie myśl o córce twojej tak wysoko. Widziałeś, ojcze, że nie wszyscy o niej, jak ty trzymają. Jeśli mam mieć męża, jeśli koniecznie to jest przeznaczeniem biednej kobiety, powiedz Wilhelmowi niech ma nadzieję: jego stała miłość, skromna i cicha, warta jest nagrody. Będzie on czekał, aż się uspokoję. Miłości po mnie niech się nie spodziewa. Jeśli przestanie na przyjaźni, chętnie jemu się oddam. Będę mu przychylną i wierną żoną; będę pielęgnować i od zatraty pracę jego chronić. On mię pocieszy, on mię pożałuje, on mi nie weźmie za złe, gdy niekiedy pamiątkom dawnym kilka łez poświęcę: powiedz mu, ojcze. Teraz mię uściskaj; wrócona tobie, z uniesieniem duszy jakby raz pierwszy rękę twą całuję. <stage>(Ściska jego rękę z uczuciem)</stage></p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Niechaj cię niebo błogosławi, córko! Droga nadziejo moja!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Już jest późno idź już, mój ojcze, połóż się i uśnij; ja tu zostanę, ja się modlić będę.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Bądź zawsze z Bogiem. <stage>(Odchodzi)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(sama, po chwili)</stage> Odszedł!... duszo moja! Teraz uwolnij się z tych więzów. Ciężką przebyłaś walkę: fałszem bezprzykładnym uśpiłaś trwogę ojca. Ach! uciekaj z ziemi, gdzie wszystko twoje już wymarło! <stage>(Idzie do szafy, znajduje truciznę i chowa)</stage> Mam cię napoju słodki i kosztowny! Nie jeden zbladłby, gdybyś jego piersi zblizka dotykał; ja, ja cię z roskoszą tulę do serca, które w proch obrócisz. Żegnam cię, ojcze nieszczęśliwy! módl się za dziecię twoje; żegnam was na wieki, wy, ciche ściany, coście tyle razy płacz mój słyszały. O! wy nieme świadki chwil mego szczęścia, już was nie obaczę. Ty zaś, aniele śmierci! co na czarnych skrzydłach nademną się wznosisz, przybywaj! Noc mię otacza; na twem czole tylko gwiazda nadziei jeszcze mi połyska! <stage>(Wychodzi)</stage></p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>AKT V.</head>
+        <div type="scene" n="23">
+          <head>SCENA I.</head>
+          <stage type="setting">
+            <p>(Pomieszkanie Hermana) (Aniela siedzi na krześle przy łóżku, nakryta czarną zasłoną)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#herman">HERMAN.</rs>
+              <rs key="#aniela">ANIELA.</rs>
+              <rs key="#zosia">ZOSIA.</rs>
+            </p>
+          </stage>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(wchodzi ze świecą)</stage> Śpi i ubrana! Nie mógłżem gdzie ukryć fatalnej krepy, tej szkaradnej wróżki, której się wyrok sprawdził. <stage>(Przysłuchuje się)</stage> Śpi spokojnie, bardzo spokojnie. <stage>(Bierze jej rękę, przerażony)</stage> Zimna! <stage>(Zrywa zasłonę)</stage> Blada! Stwórco nieba i ziemi, ratuj mię! <stage>(Po niejakim czasie szuka znaków życia)</stage> Nie, nie ma, nie ma ratunku! krew jej skrzepła, dusza daleko, ach! daleko już odemnie. <stage>(Postrzega na stole papier i czyta)</stage> „Ojcze! nie żałuj mię, jam żyć nie mogła.” <stage>(Wskazuje na truciznę, kładzie zwolna)</stage> Widzę już wszystko. Więcżeś samobójczą ręką wydarła mi nadzieję! Więcże ojciec pociechę, starzec swą podporę utracił w tobie... i przez ciebie? Dziecię, dziecię niewdzięczne! córko bez sumienia! Przeklęta sztuko! któraś nauczyła wysysać z głazów jad zabijający. Tak, spokojnością podłą i udaną przyśpiłaś trwogę ojcowskiego serca! Miałaś się modlić, wtenczas, gdy złe duchy całą myśl twoję ogarnęły! Wężu w kształcie anioła! miałażeś ty w myśli Boga, twojego Stwórcę, przytykając do ust występnych pokarm ten zdradziecki! Miałażeś w myśli ojca, kiedy przyjdzie cieszyć cię w smutku i zastanie martwą! Ale dla czegoż cię przeklinam! nędzna ofiaro! strata twoja była wielka. Kiedy ją z moją równam... Ach! wybaczam, żeś nawet o mnie zapomniała. Ale ty, zwodzicielu! Nieba! jakbym pragnął tu cię przyciągnąć, tę ci twarz pokazać, przyłożyć rękę twą do tego serca, byś poczuł, jaka tu okropna cichość. Ale przynajmniej rozpacz moję ujrzysz. Choćbyś jak szatan z łez się mych urągał. <stage>(Porywa nóż)</stage> Tym nożem w oczach twoich się przebiję, jak robak zwinę się przy nogach twoich i konać będę, póki ci ten widok bezecnej duszy z piersi nie wyciśnie.</p>
+          </sp>
+          <sp who="#zosia">
+            <speaker>ZOSIA.</speaker>
+            <p><stage>(wbiegając)</stage> Co to jest, ojcze?</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p><stage>(rzucając nóż.)</stage> Ach! ty żyjesz jeszcze. Chroń się, uciekaj stąd. <stage>(Porywają za rękę i wybiega)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#służąca_pierwsza">SŁUŻĄCA PIERWSZA.</rs> (potem)
+              <rs key="#służąca_druga">SŁUŻĄCA DRUGA.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(Pierwsza wpada, i postrzegłszy Anielę, cofa się i staje w milczeniu)</p>
+          </stage>
+          <sp who="#służąca_druga">
+            <speaker>DRUGA.</speaker>
+            <p><stage>(wbiegając)</stage> Nieszczęście! biada! Sama zabiła się, swą własną ręką! Pan nasz w rozpaczy wybiegł na ulicę; rwie siwe włosy, budzi swych sąsiadów; woła, że sama się zabiła. <stage>(Dotyka jej ręki)</stage> Patrzaj, już ciało w twardą glinę się zmieniło; zimne jak ziemia.</p>
+          </sp>
+          <sp who="#służąca_pierwsza">
+            <speaker>PIERWSZA.</speaker>
+            <p>O, kochana panno! Znikły korale z ust twych; pobielały róże twej twarzy. Już nam nie zakwitniesz! Już nas co rana słodko nie powitasz i wiernej pracy naszej nie pochwalisz!</p>
+          </sp>
+          <sp who="#służąca_druga">
+            <speaker>DRUGA.</speaker>
+            <p>Samej się zabić! co za grzech, o Boże! Błogosławieństwa nie ma już w tym domu.</p>
+          </sp>
+          <sp who="#służąca_pierwsza">
+            <speaker>PIERWSZA.</speaker>
+            <p>Już miałaś panią zostać, u drzwi twoich już cię czekało szczęście i honory. Zwodna nadziejo! niosłaś ją wysoko i na dno grobu nagleś ją rzuciła!</p>
+          </sp>
+          <sp who="#służąca_druga">
+            <speaker>DRUGA.</speaker>
+            <p>Jakiego grobu?</p>
+          </sp>
+          <sp who="#służąca_pierwsza">
+            <speaker>PIERWSZA.</speaker>
+            <p>Nikt go nie obrzuci kwiatem niewinnym, jak twe serce było. Zimne twe zwłoki wkrótce już wyniosą w to puste miejsce, gdzie żadnego krzyża nigdzie nie widać. Nikt się nie odważy pójść ze twem grzesznem ciałem. Porzuconą od wszystkich twoich, bez pobożnych świadków, samotny grabarz przyjmie przy mogile. Ach! jak mi żal cię.</p>
+          </sp>
+          <sp who="#służąca_druga">
+            <speaker>DRUGA.</speaker>
+            <p>A ten biedny ojciec! Patrz, już pobudził płaczem swych sąsiadów; zewsząd zbiegają się do okien naszych, i tu nadchodzą! wkrótce całe miasto dowie się o tem. O! nieszczęście!</p>
+          </sp>
+        </div>
+        <div type="scene" n="25">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#służąca_pierwsza #służąca_druga">SŁUŻĄCE.</rs>
+              <rs key="#urzędnik_sądowy">URZĘDNIK.</rs>
+              <rs key="#sąsiedzi">KILKU SĄSIADÓW.</rs> (potem)
+              <rs key="#urzędnik_policyi">URZĘDNIK POLICYI.</rs> (i)
+              <rs key="#pachołki">PACHOŁKI.</rs>
+            </p>
+          </stage>
+          <sp who="#służąca_pierwsza">
+            <speaker>SŁUŻĄCA PIERWSZA.</speaker>
+            <p>Panie! Tyś ją tak kochał! patrzaj co się stało.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK SĄDOWY.</speaker>
+            <p><stage>(patrząc na nią długo)</stage> Spełniłaś czyn okropny! ciężkim ciosem zraniłaś serca twych przyjaciół. Takąż miałem cię dzisiaj ujrzyć i powitać? Ach! gdy ta piękna dusza własne życie odarła z wszelkich kwiatów, by z nich wieniec dla ciebie upleść, ty uciekasz przed nim! Niestety! teraz dary jej daremne, tylko jej modlitw potrzebujesz.</p>
+          </sp>
+          <sp who="#urzędnik_policyi">
+            <speaker>URZĘDNIK POLICYI.</speaker>
+            <p><stage>(wchodząc)</stage> Gdzież jest ta nieszczęśliwa? Panie, widzisz trwogę i pomieszanie moje. Ale kogoż okropniej kiedy przebudzono. Słyszę przy moim domie płacz i narzekanie. Biegnę, Hermana widzę; zadziwiony pytam się co czyni? spojrzał na mnie ostro i głosem, coby każdą pierś przeraził, zawołał: „Tam cię woła służba twoja, tam idź, gdzie córka moja się zabiła.” To rzekłszy odszedł. Kazałem go śledzić, a sam przybiegam na to miejsce płaczu.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK SĄDOWY.</speaker>
+            <p><stage>(pokazując mu jej list)</stage> Oto świadectwo ręki jej, że sama i dobrowolnie życie sobie wzięła.</p>
+          </sp>
+          <sp who="#urzędnik_policyi">
+            <speaker>URZĘDNIK POLICYI.</speaker>
+            <p><stage>(patrzy)</stage> Zbyt smutna prawda</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK SĄDOWY.</speaker>
+            <p><stage>(zakrywając ją)</stage> Dusza, która niegdyś to piękne ciało ożywiała, czystą, niewinną była. Bez wątpienia, miłość, zdrada i rozpacz ją zabiły. Obca ale kochana ręka ją przywiodła do tego kresu, do którego często życie bez zasad, żądze bez rozumu, myśli bez Boga doprowadzać zwykły. <stage>(Ścicha do Urzędnika policyjnego)</stage> Rozkaż ją wynieść, niech z niej widowiska sobie nie czynią; niechaj, za powrotem, nieszczęsny ojciec już jej nie zastanie.</p>
+          </sp>
+          <sp who="#służąca_pierwsza">
+            <speaker>SŁUŻĄCA PIERWSZA.</speaker>
+            <p>Panowie moi! chciejcie mię posłuchać. Jak to jej lice, tak sto razy jeszcze dusza jej była milszą i piękniejszą: nie każcież chować jej w tem pustem miejscu, wśród samych ludzi złych i bez sumienia, gdzie nikt nie przyjdzie; gdzie się czasem tylko psy albo kruki zatrzymywać lubią.</p>
+          </sp>
+          <sp who="#urzędnik_policyi">
+            <speaker>URZĘDNIK POLICYI.</speaker>
+            <p>Tak prawo każe, słuchać go musimy.</p>
+          </sp>
+          <sp who="#urzędnik_sądowy">
+            <speaker>URZĘDNIK SĄDOWY.</speaker>
+            <p>Dobra kobieto! ziemia jednakowa na każdem miejscu; wszędzie się ta garstka gliny w proch zmieni. Ludzie, podług praw swych, ukarzą ciało; Bóg niech duszę sądzi.</p>
+          </sp>
+          <sp who="#urzędnik_policyi">
+            <speaker>URZĘDNIK POLICYI.</speaker>
+            <p><stage>(do sług policyjnych)</stage> Weźcie ją. <stage>(Wynoszą)</stage></p>
+          </sp>
+          <sp who="#służąca_pierwsza">
+            <speaker>SŁUŻĄCA PIERWSZA.</speaker>
+            <p>Boże! ktoż nam dziś zaręczy że jutro słońce twoje powitamy!</p>
+          </sp>
+        </div>
+        <div type="scene" n="26">
+          <head>SCENA IV.</head>
+          <stage type="setting">
+            <p>(Mieszkanie Gustawa)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#gustaw">GUSTAW.</rs>
+              <rs key="#służący">SŁUŻĄCY.</rs>
+            </p>
+          </stage>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(powstając)</stage> Jakąm noc przebył! Czas nieubłagany zatrzymał lot swój i godziny ciężkie do nieskończonych granic porozciągał. Z drżeniem patrzałem jak ta noc wzrastała: nie połyskały gwiazdy, zwolna wszystkie światła pogasły i gwar miasta ucichł. Jam tylko został i występek ze mną: jam tylko został, by nie zamknąć oka, by nie dać spocząć myśli, by tę ciasną przestrzeń krokami tysiąckroć przemierzyć i uderzenia krwi mej czuć i liczyć. Noc była cicha, cicha dla każdego, kto mógł spokojnie we śnie się zapomnieć. Przy moich uszach biły smutne dzwony i jęk pogrzebów koło mnie przeciągał. <stage>(Patrzy w okno)</stage> Przetrwałem wszystko. Dzięki niebu, teraz dnieć już poczyna: wkrótce zejdzie słońce, pozłoci chmurki wschodu, gór wierzchołki, kościołów krzyże. Ujrzę świat, wśród wrzawy ludzi i miasta, zgubię się i – może w sercu przestanę czytać. <stage>(Przypatruje się)</stage> Ale przebóg! Coż przy jej domie tłum ten znaczy? Poco ze wszystkich jeszcze stron się zgromadzają i do jej okien cisną? Ach! dla czegoż ten twarz odwraca, a ta łzy ociera. <stage>(Dzwoni, służący wchodzi)</stage> Przybliż się; patrzaj, widzisz tę gromadę? Czemu drżysz starcze! Śpiesz się, co to znaczy? <stage>(Służący wychodzi śpiesznie, Gustaw po chwili)</stage> Trzęsę się cały, jakieś straszne rysy kreślą się tłumem na mych ścianach. Wszystkie mary, któremi noc mię przestraszała, schodzą się, zimne ręce mi podając. Jakaś nadludzka siła mię odpycha od tego okna! Nie śmiem spojrzeć, nie śmiem postąpić kroku! Dziwne przerażenie ściska pierś moję i podnosi włosy. Nie jest to przecięż bojaźń. Nie, na Boga! Dostałbym mężnie stu nieprzyjaciołom, odważniej zniósłbym widok setnych spiżów ku mnie zwróconych; niż twarz tego starca, co może tylko jedno słowo powie. <stage>(Zastanawia się i słucha)</stage> Czemuż się dręczę! O, ty lotna władzo! Która wyprzedzasz losu uderzenia i w strasznych rysach stawisz je przed myślą, wstrzymaj się, spocznij. <stage>(Słucha)</stage> Już powraca... <stage>(Służący przerażony wchodzi nagle)</stage> Jesteś... Czemuś tak pobladł? jakieżeś straszydło w tym domu ujrzał?</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>O, łaskawy panie!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Mów, powiedz, coż jest?</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Już jej nie ma!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Kogo?</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Anieli nie ma!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(nagle)</stage> Milcz! wiedziałem o tem. <stage>(Stoi w miejscu oparty jedną ręką o stół i patrzy w ziemię)</stage></p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p><stage>(po chwili)</stage> Ktoż mógł przewidzieć, że to dobre dziecię, co słówkiem bało się obrazić drugich, na siebie samę zbójczą rękę wzniesie?</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(jakby do siebie, patrząc w ziemię)</stage> Ja! Ale już się stało. Gdzież jest teraz?</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Już wyniesiona w to bezdrożne miejsce, gdzie samobójców zwykli chować. <stage>(Gustaw zaczyna się przechadzać)</stage> Boże! Truciznę zażyć, bez obawy kary boskiej, i zaco? Gdy ją wszyscy ludzie z serca kochali; gdy ty, panie...</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Odejdź! <stage>(Służący wychodzi)</stage> Jeszcze ją ujrzę! <stage>(Pisze i skończywszy zarzuca na siebie płaszcz i bierze kapelusz, a zdjąwszy ze ściany pistolet i schowawszy go pod płaszcz, dzwoni; służący wchodzi)</stage> Jeśli przyjdzie Stężyc, ten list mu oddasz; to u siebie chowaj <stage>(Daje mu worek z pieniędzmi)</stage> i strzeż jak swego. Co się tu zamyka, używać możesz: ja nie prędko wrócę.</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Kochany panie! co zamyślasz? dokąd sam, bez niczego chcesz się udać? Droga ma prawa swoje. Weź mię z sobą, panie.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Poczciwy starcze! tam, gdzie się zatrzymam, i ty zapewne wkrótce już przybędziesz. Zostań tymczasem w domu i tu czekaj, aż póki Stężyc nie nadejdzie. On ci powie, gdzie jestem. Bądź zdrów dobry sługo... <stage>(Odchodzi bocznemi drzwiami)</stage></p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p><stage>(sam)</stage> Nie słucha! poszedł! gdzież się udać myśli? Czemuż ten Stężyc ma mi to powiedzieć? Na coż zostawił u mnie te pieniądze? Dziwny strach jakiś nawskróź mię przeszywa.</p>
+          </sp>
+        </div>
+        <div type="scene" n="27">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#ludwik">LUDWIK.</rs> (wpada nagle)
+              <rs key="#służący">SŁUŻĄCY.</rs>
+            </p>
+          </stage>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Gdzie Hrabia?</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Wyszedł.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Dokąd?</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p><stage>(z przeciskiem)</stage> Kto wie wszystko, czemuż się pyta!</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Nieuważny, powiedz!</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Hrabia wychodząc rzekł mi, że ty, panie, mię uwiadomisz, gdzie się on znajduje.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p><stage>(niecierpliwie)</stage> Coż to ma znaczyć?</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p><stage>(oddaje list)</stage> Może list ten powie.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p><stage>(czyta)</stage> „Rada twoja była skuteczna. Przywiodłeś mię do zbrodni. Donieś mojemu ojcu, że mu nie mogę być posłusznym. Kiedy to czytasz, jużem nawieki połączony z Anielą. Gustaw.” O wielki Boże! jakież mię okropne zimno przejmuje! Dawnoż się dowiedział? Dawno stąd poszedł? <stage>(Patrzy na ścianę)</stage> Gdzie broń jego?</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p><stage>(załamujac ręce)</stage> Jezus!</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Ślepy, niebaczny starcze! mów natychmiast, jak dawno wyszedł? Może czas nie minął! Biegnijmy! może jeszcze go znajdziemy. O dniu okropny! sobież mam przypisać tyle nieszczęścia! Ach! męczarnie piekła czuję w mem łonie.</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>O ja nieszczęśliwy! Teraz mi wszystko jasno! Tak, niedługo i ja tam przyjdę, gdzie ty jesteś, panie! Teraz już widzę, na coś to zostawił. Precz, precz mamono! na coż mi się przydasz? O, pójdźmy! Ależ dokąd? nam dróg tysiąc, dla niego jedna? jakże go znajdziemy? <stage>(Wychodzą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="28">
+          <head>SCENA VI.</head>
+          <stage type="setting">
+            <p>(Miejsce w lesie, to samo jak na początku aktu II-go)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#wilhelm">WILHELM.</rs> (siedzi pod drzewem zamyślony)
+              <rs key="#gustaw">GUSTAW.</rs> (nadchodzi i staje zdaleka), (potem)
+              <rs key="#herman">HERMAN.</rs>
+            </p>
+          </stage>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Ktoż tu samotnie w myślach zatopiony? Któż odetchnienia szuka na tem miejscu i pod tem samem niebem, co słyszało wszystkie przysięgi moje, którem złamał! <stage>(Przypatruje się)</stage> Lecz się nie mylę: jest to jej kochanek, ów to poczciwy człowiek, o którego cichej miłości wiele mi mówiła. Onby jej drogę był kwiatami usłał, byłby jej oddał każdą rozkosz życia, a zniósł swą głową wszystkie jego burze! O! jego miłość była czystem światłem, którego źródło w niebie. On ją kochał i miał nadzieję, że zostanie kiedyś mężem anioła, coby każdy smutek, każdą uciechę życia z nim podzielał; patrzałby ciągle na tę twarz, na której uśmiech miłości codzieńby go witał; otoczyłby się dziećmi, którym ona dałaby życie, w którychby się obraz jej wdzięków mnożył; co ściskając węzły ich serca, pod ich okiemby wzrastały! Jam przez złość tylko wydarł mu to dobro! Och! krzywda jego niewypowiedziana! Ma-li ją cierpieć? ma-li jak kobieta, topiąc się w żalu, niedołężnie płakać? Niech sobie zemstą ulży! Stanę przed nim: to broń, tu serce wroga, co mu wszystko odjął. <stage>(Po chwili)</stage> Nie, toby dobrodziejstwem było! Jam kary godzien! Ręka Opatrzności wiodła mię, bym go spotkał. Jego widok, ta rozpacz, co go nagle zamieniła w ślepy i głuchy i nieczuły kamień, dwoi ciężary, co mię ciągną w ziemię. <stage>(Chce odejść, potem zwraca się i postrzega zdaleka Hermana)</stage> Ale coż widzę! <stage>(Przystępuje do Wilhelma i bierze go za rękę)</stage></p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p><stage>(postrzegłszy go i odwracając się ze wstrętem)</stage> Ach!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Młodzieńcze! Słusznie odwracasz oczy: straszny widok zbrodni, która przed sąd twój spieszy. Ale patrzaj, w tę stronę spojrzyj: widzisz tego starca? Tyś go szanował; jeśli czujesz litość, dobry młodzieńcze! tędy go nie prowadź, zmyl drogę jego; niech nie ujrzy córki. <stage>(Odchodzi)</stage></p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p><stage>(patrząc za nim)</stage> Stan twój okropny! <stage>(Herman nadchodzi)</stage> Ojcze nieszczęśliwy!</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Tak; miałem córkę, Bóg mi ją odebrał najokropniejszą śmiercią: wolę jego szanować muszę; ale chciałbym jeszcze raz ją obaczyć. Wróciłem do domu, zastałem głuche ściany! Nikt nie wyszedł przywitać ojca, nie wziął mojej ręki i do ust wdzięcznych nie przytulił. Próżnom wołał; sam byłem, sam na całej ziemi! Muszę ją widzieć. Prowadź mię; i tyś ją kochał. Niebaczna!... ach! dla niewdzięcznika obu nas srogo opuściła! wzajem od wszystkich teraz opuszczona. Litość, która się w sercu dla umarłych budzi – nie dla niej. Dziki czyn przeciw naturze, naturę ludzką zmienił. Ja przynajmniej pójdę ostatnią oddać jej przysługę: garść ziemi rzucę na jej ciało, grób jej poświęcę łzami przebaczenia!</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Ojcze! Coż jej pomoże żal twój tak głęboki? Nie idź tam; widok taki nie dla ciebie. Pomnij, że jeszcze ci została córka, nad której młodą głową twarda ręka sieroctwa wisi.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Nie bój się, Wilhelmie, jeszcze ją ujrzę i nie umrę!</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Wróćmy.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Muszę ją widzieć.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Gdy tak pragniesz, pójdźmyż.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Którędyż? Łzy mi oczy zasłoniły; lecz słyszysz ówdzie głos drapieżnych ptaków? Tam ona leży.</p>
+          </sp>
+          <sp who="#wilhelm">
+            <speaker>WILHELM.</speaker>
+            <p>Mylisz się, ta ścieżka prowadzi w góry. Wyszedł stąd dopiero człowiek, co miejsce to zna bardzo dobrze: jegom się pytał, on mi wskazał drogę.</p>
+          </sp>
+          <sp who="#herman">
+            <speaker>HERMAN.</speaker>
+            <p>Prowadź mię zatem, prowadź przyjacielu! <stage>(Wychodzą w przeciwną stronę)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="29">
+          <head>SCENA VII.</head>
+          <stage type="setting">
+            <p>(Dzikie miejsce, na którem widać kilka mogił; Grabarz przy zwłokach Anieli, które leżą na marach przykryte białem prześcieradłem)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#grabarz">GRABARZ.</rs>
+            </p>
+          </stage>
+          <sp who="#grabarz">
+            <speaker>GRABARZ.</speaker>
+            <p><stage>(przestając kopać)</stage> Nie zawsze żołnierz bije nieprzyjaciół, nie zawsze ksiądz się modli, i chłop orze: każda robota ma swój czas: ja tylko bez odetchnienia kopię i oddaję ziemi, co ludzie od niej pożyczyli. <stage>(Kopie)</stage> Śmierć nie spoczywa: miga się jej kosa w lecie i w zimie, w dzień i w nocy; ciągle ścina i zbiera i do gumna mego odsyła żniwo swoje. <stage>(Kopie, potem mówi)</stage> Pan i chłopek, starzec i dziecię, każdy do mnie śpieszy; a ja dla wszystkich przysposabiam domki ciasne i zimne, każdy przecięż kontent, ciszej w nich leży, niżli król w swym zamku. <stage>(Patrząc na Anielę)</stage> Tobie dogodzę także: podług miary dół oznaczony: zmieścisz się i będziesz spokojnie czekać, póki znowu jaki gość tu nie przyjdzie twoje miejsce zająć. Ktoż to się zbliża?</p>
+          </sp>
+        </div>
+        <div type="scene" n="30">
+          <head>SCENA OSTATNIA.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#grabarz">GRABARZ.</rs>
+              <rs key="#gustaw">GUSTAW.</rs> (potem)
+              <rs key="#ludwik">LUDWIK.</rs> (i)
+              <rs key="#służący">SŁUŻĄCY GUSTAWA.</rs>
+            </p>
+          </stage>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p><stage>(patrząc na mury)</stage>Przecięż cię znajduję! Czekasz tu na mnie. Wiernym ci do grobu: tak poprzysiągłem, tak dotrzymam. <stage>(Do grabarza.)</stage> Nędzny Grabarzu! czegoś się tak we mnie wpatrzył? Gzy wiesz kto jestem?</p>
+          </sp>
+          <sp who="#grabarz">
+            <speaker>GRABARZ.</speaker>
+            <p>Z sukni mi się zdajesz być wielkim panem; lecz z twych oczów sądzę, że wkrótce niczem już nie będziesz.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Zgadłeś.</p>
+          </sp>
+          <sp who="#grabarz">
+            <speaker>GRABARZ.</speaker>
+            <p>Przecięż ci radzę: pójdź stąd sobie z Bogiem i nie przeszkadzaj mi w robocie.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Jak to? Znałżebyś litość?</p>
+          </sp>
+          <sp who="#grabarz">
+            <speaker>GRABARZ.</speaker>
+            <p>Nad rękami memi, bo się już dzisiaj nadto zmordowały.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Złoto dodaje sił i dobrej woli; nie żałuj rąk twych, bracie! Tego kraju Ty panem jesteś. <stage>(Pokazując nogą przy grobie.)</stage> Tu mi przedaj ziemi nie wielki kawał, na dziedzictwo wieczne. <stage>(Rzuca mu worek.)</stage></p>
+          </sp>
+          <sp who="#grabarz">
+            <speaker>GRABARZ.</speaker>
+            <p><stage>(wziąwszy.)</stage> Bogato płacisz! bądź spokojny: tak cię głęboko wkopię, jak nikogo.</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Dobrze! Teraz rób swoje. <stage>(Grabarz kopie, Gustaw zrzuca na ziemię płaszcz i kapelusz.)</stage> To więc państwo nasze, to głuchy pałac! tam poddanych rzesza, co nas za chwilę przyjmie i powita. O, piękna żono moja! inszem wprawdzie przyrzekł ci łoże; lecz się lepiej stało — na ziemi krótko bylibyśmy z sobą. Zła rada, podstęp, płochość i niestałość: to ostre miecze, co najtwardsze węzły rozcinać zwykły. Do mogiły naszej fałszywa przyjaźń swoich rad nie przeszle; pod ciężki kamień zdrada się nie wciśnie; tam się nie przykrzym sobie; tam na wieki ciała się nasze w jednę ziemię zsypią, a serca w ziarka jednej skały spoją. <stage>(Siada na mogile.)</stage> Zaledwieś doszła wieku, co tysiącem powabów mami, co nowością uczuć do życia wiąże, co w obszerne pole pięknych nadziei młode serca rzuca; już doświadczona śmiałą ręką zdjęłaś zwodniczą maskę, która zdobi ziemię. Ujrzałaś twarz jej brzydką i uciekłaś od jej fałszywych pieszczot i umizgów. I wtenczas doszłaś, że na kogo wieczność czeka, dla tego wieki i minuty, niczem nieróżne, są tąż samą chwilą. Wtenczas wzgardziłaś zaduszonem tchnieniem zbyt ciasnej izby, mogąc przemieszkiwać pośród gwiazd nieba. <stage>(Powstaje.)</stage> Ktoż ci dał tę śmiałość, kto dał tę mądrość, tak od lat twych starszą? Ów nauczyciel wielki i jedyny — moment rozpaczy. Z jego szkoły idę: ujrzysz mię wkrótce, towarzyszko moja, jak ty pojętnym, i jak ty posłusznym.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p><stage>(za sceną.)</stage> Gustawie!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Ktoż tam? Twój to głos, och! znam cię; daremnie śpieszysz, jużeś niepotrzebny. Cały twój rozum, cała twa wymowa rozbić się musi o ten straszny widok.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Gustawie!</p>
+          </sp>
+          <sp who="#gustaw">
+            <speaker>GUSTAW.</speaker>
+            <p>Naglisz mię; pośpieszać muszę, a ciebie żegnam. Jeszcze raz ostatni niechaj obaczę twoję twarz. <stage>(Podnosi zasłonę i trzyma w ręku.)</stage> Okropnie! Straszliwie wołasz mię do siebie! <stage>(Zostawia odkrytą i odchodzi.)</stage></p>
+          </sp>
+          <sp who="#grabarz">
+            <speaker>GRABARZ.</speaker>
+            <p><stage>(po chwili.)</stage> Gdzież on?</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p><stage>(który ze służącym nadchodzi, postrzegając Anielę.)</stage> Ach! co za widok!</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p><stage>(postrzegając płaszcz, do Grabarza.)</stage> Gdzie jest pan tej sukni?</p>
+          </sp>
+          <sp who="#grabarz">
+            <speaker>GRABARZ.</speaker>
+            <p>Gdzie będzie, powiem; ale gdzie jest teraz, nie uważałem.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p>Cicho, tam coś słyszę. <stage>(Gdy słucha z natężeniem, daje się słyszeć wystrzał. Służący wybiega na strzał.)</stage></p>
+          </sp>
+          <sp who="#grabarz">
+            <speaker>GRABARZ.</speaker>
+            <p><stage>(zimno.)</stage> Dotrzymał słowa, niedaremnie płacił.</p>
+          </sp>
+          <sp who="#ludwik">
+            <speaker>LUDWIK.</speaker>
+            <p><stage>(pada na kolana.)</stage> Wszechmocny! sądź nas, ale sądź jak ojciec.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

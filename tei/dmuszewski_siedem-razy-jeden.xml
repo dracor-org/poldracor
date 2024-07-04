@@ -1,0 +1,1352 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000024" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Siedem razy jeden</title>
+        <title type="sub">Komedioopera w jednym akcie</title>
+        <author>
+          <idno type="isni">000000007204066X</idno>
+          <idno type="wikidata">Q8861068</idno>
+          <persName>
+            <forename>Ludwik</forename>
+            <forename>Adam</forename>
+            <surname>Dmuszewski</surname>
+          </persName>
+        </author>
+        <!-- Ludwik Adam Dmuszewski (1777-1847) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/dziela-dramatyczne-l-a-dmuszewskiego-t-8-jan-grudczynski-starosta-rawski-sekretarz,MTgyNzE3NDE/4/</idno>
+          <title>Dmuszewski, L.A., Dzieła dramatyczne L. A. Dmuszewskiego. T. 8, Jan Grudczyński starosta rawski; Sekretarz i kucharz; Siedem razy jeden, Warszawa 1823</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="angelika" sex="FEMALE">
+            <persName>Angelika</persName>
+          </person>
+          <person xml:id="cześnikowicz" sex="MALE">
+            <persName>Cześnikowicz</persName>
+          </person>
+          <person xml:id="emilia" sex="FEMALE">
+            <persName>Emilia</persName>
+          </person>
+          <person xml:id="gawronek" sex="MALE">
+            <persName>Gawronek</persName>
+          </person>
+          <person xml:id="hrabia" sex="MALE">
+            <persName>Hrabia</persName>
+          </person>
+          <person xml:id="księgarz" sex="MALE">
+            <persName>Księgarz</persName>
+          </person>
+          <person xml:id="lokay" sex="MALE">
+            <persName>Lokay</persName>
+          </person>
+          <person xml:id="staruszek" sex="MALE">
+            <persName>Staruszek</persName>
+          </person>
+          <person xml:id="walery" sex="MALE">
+            <persName>Walery</persName>
+          </person>
+          <person xml:id="złotołów" sex="MALE">
+            <persName>Złotołów</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-27">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="premiere" when="1804">
+        <desc>Grana pierwszy raz w Warszawie 1804.</desc>
+      </event>
+      <event type="print" when="1805">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <titlePart type="series">DZIEŁA<lb />
+          DRAMATYCZNE<lb />
+          <byline>
+            <docAuthor>L. A. DMUSZEWSKIEGO</docAuthor>.<lb />
+          </byline>
+          TOM OSMY,<lb />
+          Z RYCINĄ</titlePart>
+          <docImprint>
+            <p>
+              W <pubPlace>WARSZAWIE</pubPlace>
+              <bibl>
+                NAKŁADEM I DRUKIEM <publisher>N. GLÜCKSBERGA,<lb />
+                KSIĘGARZA I TYPOGRAFA KRÓLEWSKIEGO UNIWERSYTETU.</publisher>
+              </bibl>
+              <lb />
+              <date>1823</date>.
+            </p>
+          </docImprint>
+          <docTitle>
+            <titlePart type="main">SIEDM RAZY JEDEN</titlePart>
+            <titlePart type="sub">KOMEDYO-OPERA<lb />
+            w JEDNYM AKCIE.</titlePart>
+          </docTitle>
+          <note>
+            <p>z Muzyką.<lb />
+            Jozefa Elznera.<lb />
+            GRANA PIERWSZY RAZ w WARSZAWIE.<lb />
+            1804.</p>
+          </note>
+        </titlePage>
+        <castList>
+          <head>OSOBY</head>
+          <castItem>
+            <role corresp="#walery">WALERY ZACNIEWSKI.</role>
+            <roleDesc/>
+          </castItem>
+          <castGroup>
+            <castItem>
+              <role corresp="#emilia">EMILIA.</role>
+            </castItem>
+            <castItem>
+              <role corresp="#angelika">ANGELIKA.</role>
+            </castItem>
+            <roleDesc>Córki Kasztelana Starośw:</roleDesc>
+          </castGroup>
+          <castItem>
+            <role corresp="#hrabia">HRABIA FIUFIU.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#cześnikowicz">CZESNIKIEWICZ POCZCIWSKI.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#złotołów">ZŁOTOŁOW,</role>
+            <roleDesc>Bankier.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#księgarz">KSIĘGARZ.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#staruszek">STARUSZEK.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#gawronek">GAWRONEK,</role>
+            <roleDesc>ubogi chłopak.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#lokay">LOKAY.</role>
+            <roleDesc/>
+          </castItem>
+        </castList>
+      </div>
+      <set>
+        <p>(Scena w Warszawie w Pałacu Kasztelana)</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>SCENA I.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#emilia">EMILIA.</rs>
+            <rs key="#angelika">ANGELIKA.</rs> (obie wychodzą z swoich pokoiów)</p>
+        </stage>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Dzień dobry siostro! ah! mon Dieu! iak ty dziś wyglądasz? co za oczy? fi Angeliko, iak to włosy ułożone... co za nudna regularność... Apropos nie śniłże ci się ten wyborny Michaś? ah to chłopiec do uwielbienia.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Ty wiesz, że ia mało daię uwagi na to, co mi się śniło.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ah czy przypominasz, w iakich Wietrznicki był obrotach... nieborak! Kokietnicka co też mu nie nagadała.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Kochana Emilio, pozwól mi mówić o czem innem.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>O czem innem? zgoda... no słucham, ale ale, uważałaś tę kitę u Xiężniczki... ah fi iak iey to nie do twarzy... ah zapomniałam, że ty mnie masz cóś powiedzieć... no słucham tedy, słucham.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Nasz Oyciec iutro do Warszawy przyiedzie.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Dla Boga! dobrze żeś mi przypomniała, muszę iak nayprędzey kazać zupełnie móy Fermoir przerobić... Papa mnie ieszcze nie widział ubraną, a la Boulogne.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Ale on nigdy na podobne drobnostki nie uważa.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Chociaż... ah bo ty zawsze z twoią wymuszoną rafinadą tak mnie nudzisz na honor niezmiernie nudzisz.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Czytałaś ten list, któryśmy wczoray odebrały od Oyca?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Kiedyż miałam czas, tylko sama osądź.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Donosi nam, że Walery Zacniewski po swoiey dziesiącioletniey niebytności, w tych dniach do Warszawy powróci, i natychmiast iedna z nas ma zostać iego małżonką.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Bravo siostro... na przyszłą wiosnę wyieżdżam do Paryża.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Z kim?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Dziwne pytanie, z moim mężem.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>A ten iest?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>W osobliwszym iesteś dzisiay tonie, któż ieśli nie Walery.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Zapomniałaś widzę siostro, o umowie iego Oyca z moim.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>O wcale nie zapomniałam... Nasz Oyciec z Oycem Zacniewskiego żyiąc w ścisłey przyiaźni, ułożyli, że przez połączenie swoich dzieci, składać będą iedną familią.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Ale Woiewoda Zacniewski, ma iednego tylko syna, a nas iest dwie siostry.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>No... to ty myślisz otrzymać nademną pierwszeństwo? mogłażeś tyle sobie pochlebiać?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Siostro zapominasz się!</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ale tak... to iest pewna... Walery, który całą młodość przepędził dans le grand monde, który widział Paryż i Londyn... Nic nie mam przeciw tobie, iesteś od natury naypieknieyszemi obdarzona przymiotami, ale całe życie powinnaś narzekać na naszego Oyca, że cię dotąd chował na Prowincyi, gdzie nie mogłaś nauczyć się czuć, poznawać i sądzić... Dzięki wybornemu gustowi naszey Matki, która w brew idąc woli swego męża, zawsze mieszkała w Stolicy: tu ia przy niey nabywaiąc prawdziwego światła i gustu, iestem zupełnie przekonaną, że Walery usłyszawszy iedno słowo z ust moich, spoyrzawszy tylko pół okiem, na mnie, poświęci mi swoią miłość i rękę. Apropos! czy widziałaś ty kiedy tego Walerego?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Miałam w ten czas lat 9. kiedy wyiechał z naszey okolicy; dziecinne lata przepędziliśmy razem...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ja go wcale nie pamiętam... Słyszałam że się mocno odmienił... ale ale, wszakże on ma nasze włosy?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Tak iest, i po powrocie swoim podług, umowy...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ah tak po powrocie, która z nas pierwsza otrzyma z rąk iego swoie włosy, to będzie znakiem zaręczyn...</p>
+        </sp>
+      </div>
+      <div type="scene" n="2">
+        <head>SCENA II.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#emilia">EMILIA.</rs>
+            <rs key="#angelika">ANGELIKA.</rs>
+            <rs key="#księgarz">KSIĘGARZ.</rs>
+          </p>
+        </stage>
+        <sp who="#księgarz">
+          <speaker>KSIĘGARZ.</speaker>
+          <p>Książki w różnych gatunkach.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Bravissimo! daway prędzey <stage>(bierze iedną książkę)</stage> Ah! mon Dieu cóż to iest, po Polsku!</p>
+        </sp>
+        <sp who="#księgarz">
+          <speaker>KSIĘGARZ.</speaker>
+          <p>Tak iest, po Polsku!...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Idź precz!</p>
+        </sp>
+        <sp who="#księgarz">
+          <speaker>KSIĘGARZ.</speaker>
+          <p>Jak to?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ja nie umiem czytać po Polsku.</p>
+        </sp>
+        <sp who="#księgarz">
+          <speaker>KSIĘGARZ.</speaker>
+          <p><stage>(do siebie)</stage> Sliczny początek.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Ale Siostro...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Przebóg! cóż może bydź w tym nudnym ięzyku? iaki Romans? iaka czuła Poezya?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Zaraz się przekonasz... Pokaż Przyiacielu, co masz tutay?</p>
+        </sp>
+        <sp who="#księgarz">
+          <speaker>KSIĘGARZ.</speaker>
+          <p>Towar wyborny i dla wszystkich użyteczny, Damy nasze powinnyby do niego gustu nabierać: Oto wybor powieści moralnych: Eliza czyli wzór kobiet. Satyry Krasickiego. O małżeństwie; zapewne Panie z ukontentowaniem czytać będą Teatr Polski Zabłockiego, dzieła Niemcewicza, wiersze Trębeckiego i Węgierskiego, nowe tłumaczenie Jliady, Cyda, Alzyry... Oto ieszcze i Roczniki Towarzystwa Przyiacioł Nauk, na których czele zdało mi się położyć te dwa wiersze:<lb /> Rząd dzisieyszy od dzikich uroień daleki,<lb /> Muzom Polskim swobodney użycza opieki. Jakże nienabędzieciesz Panie którego z tych dzieł, pięknych?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Prostaku niezgrabny idź precz!</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Odłóż tę piękną książkę dla mnie!</p>
+        </sp>
+        <sp who="#księgarz">
+          <speaker>KSIĘGARZ.</speaker>
+          <p>Z serca śliczna Panienko, nie pożałuiesz tego kupna upewniam... Mam ieszcze 12ście Tomów Journalów mody, Opisanie chronologiczne Bohatyrów romansowych... Zalety Trzpiotów, po Francuzku.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Bravissimo! natychmiast zapłacę.</p>
+        </sp>
+        <sp who="#księgarz">
+          <speaker>KSIĘGARZ.</speaker>
+          <p>Ale Mościa Dobrodziko, te 12 Tomów są drogie, dzieło zakaty rzadkie, oprawa przednia, estampy cudowne; słowem inaczey oddać nie mogę, iak za 10 Louidorów.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Siostro możemy się złożyć... Uważ tylko, Journale mody, i po Francuzku, warte zawsze tyle...</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>To się dla mnie na nic nie przyda, a potem nie mam tyle pieniędzy na zbytki... Dano nam wprawdzie dzisiay po 20. Czerwonych Złotych, ale wiesz, że za to mamy mieć nowe suknie na przyiazd Oyca naszego i Walerego.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Z tobą nie można nic rozumnego zrobić... Otóż mon Ami masz tutay twoią należytość. <stage>(bierze 12 książek)</stage></p>
+        </sp>
+        <sp who="#księgarz">
+          <speaker>KSIĘGARZ.</speaker>
+          <p>Całuię nóżki Wielmożney Pani. W samey rzeczy WPanna Dobrodzika posiadasz gust prawdziwie elegancki. Teraz nie popłacaią dzieła rozumne, bo też świat poznał, że dowcip więcey wart, niż prawdziwy rozum... Cały móy handel odtąd inaczey urządzam. Wczoray zawołano mnie do pewnego pałacu, gdzie znalazłem kilkadziesiąt osób. Miłyż Boże, miałem przypadkiem kilka naynowszych książek, czy uwierzycie Wielmożne Panie, rozerwano ie natychmiast, i zapłacono trzy razy tyle, ilem sam za nie żądał. Ale iakie to były dzieła? Oto: Opisanie historyczne kapelusza. Sposób nayskutecznieyszy poniterowania w Faraona. Reguły zawięzywania po elegancku chustek na szyi. Naydokładnieysze ustawy modnego kichania i ziewania. Elegia na śmierć czubka na głowie. Za to tedy dostałem 12. Czerw: Złotych, w końcu pokazałem Historyą przez Naruszewicza, tu śmiech powstał, rozgniewany, chciałem odeyść. Aż iakiś Sampanek raczył się odezwać półgębkiem „trzebać się zlitować nad tym nieborakiem” i chciał mi dać za 5. Tomów grubych in kwarto 2. złote groszy 18 i pół.<lb />
+          <stage>(PIOSNECZKA I)</stage> Pani! taka teraz moda,<lb />Cudzym towarem się szczycą;<lb />Gust, rozum, suknia, uroda,<lb />Wszystko lepsze za granicą.<lb />Próżno Feba towarzysze,<lb />Wzmagaią kraiu zaszczyty,<lb />Nie ieden z nich wyśmienity,<lb />Szkoda że po Polsku pisze.<lb />Niesmaczna Oyczysta mowa,<lb />Nie iasno rzeczy tłumaczy,<lb />Mieszać cudzoziemskie słowa,<lb />To prawdziwy rozum znaczy.<lb />Moie zdanie nie ubliża,<lb />Wielkim zaletom Paryża,<lb />Lecz nad wszystkie francuzczyzny,<lb />Milszy ięzyk swey Oyczyzny.<lb />
+          <stage>(do Emilii)</stage> Ponieważ Pani inaczey myśli, ta książeczka przypadnie iey zapewne do gustu, oto tytuł: Różnica między Elegantką i Parafianką. Notabene po Francuzku, tanio przedam, nic więcey iak za Louidora.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Wybornie, muszę przysługę zrobić moim rodakom, i tę różnicę na Oyczysty przełożyć ięzyk. To iest Autor, zobaczysz Siostro... sama siebie wstydzić się będziesz.</p>
+        </sp>
+        <sp who="#księgarz">
+          <speaker>KSIĘGARZ.</speaker>
+          <p>O mnie się zdaie, że ta zacna Panienka nic takiego nie uczyniła, za co miałaby się wstydzić. Ale iakże?... nic od niey więcey nie utarguię?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Wezmę ieszcze Poezye Krasickiego, maiące zaletę bardzo dowcipnych.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Cha, cha, cha! umrę ze wstydu.</p>
+        </sp>
+        <sp who="#księgarz">
+          <speaker>KSIĘGARZ.</speaker>
+          <p>Oto iest – Polecam mnie łaskawym względom Wielmożnych Pań... przez tę krótką chwilę, dosyć iuż poznałem sposób ich myślenia.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Jak to?</p>
+        </sp>
+        <sp who="#księgarz">
+          <speaker>KSIĘGARZ.</speaker>
+          <p>Drugim razem będę iuż wiedział, iakie dla Pań obydwóch mam przynieść dzieła. <stage>(odchodzi)</stage></p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Te iego ostatnie słowa miały iakieś znaczenie.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>I mnie się tak zdaie.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Zgorszył się zapewne z twego wyboru.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Przecież ia iestem zupełnie kontenta.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Winszuię. Jutro zaraz zacznę tłómaczyć Różnicę Elegantki od Parafianki.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Będzie to nasz Portret.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Bez wątpienia.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>A wszakże ty nie umiesz po Polsku.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Doświadczę dla waszey przysługi. O zapewne Walery będzie zbyt szczęśliwy z tego płodu moiey Edukacyi, bo nie uwierzysz ma soeur, ludzie wychowani na wielkim święcie, inaczey wcale czuią, inaczey myślą, to iest wcale inna metoda życia... słowem człowiek wychowany na wsi, iest tylko pół człowiekiem.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Niestety!</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Uważay naprzykład: muszę ci choć mały urywek z Journala wytłómaczyć, <stage>(bierze książkę)</stage> „Dziś iest grzechem mieć puder na włosach...” uważasz, do iak wysokiego stopnia doskonałości, doszedł dowcip ludzki. Dziś iest grzechem mieć puder na włosach...</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>U nas zowią grzechem występki przeciw ludzkości i niebu.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ale to iest grzech nierównie większy, grzech obrażaiący modę... ale co z tobą o tem mówić... iesteś istotą martwą. Cicho... któś przyiechał, założę się, że Michaś... zobaczemy <stage>(bieży do okna)</stage> Mon Dieu! iakaś odwieczna kolaska...</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Czy nie nasz Oyciec? <stage>(bieży także do okna)</stage></p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ey przecież nie dawno sprowadził Angielską karetę... cóż to ma znaczyć?... niepodobna, żeby to do nas.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Nie... to iest obca Liberya… zapewne gdzie indziey.</p>
+        </sp>
+      </div>
+      <div type="scene" n="3">
+        <head>SCENA III.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#emilia">EMILIA.</rs>
+            <rs key="#angelika">ANGELIKA.</rs>
+            <rs key="#cześnikowicz">CZEŚNIKOWICZ.</rs>
+          </p>
+        </stage>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Czy tylko trafiłem.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Do kogóż Mości Panie?</p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Wszakże to Pałac Pana Kasztelana Staroświeckiego?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Tak iest, iesteś WPan w domu naszego Oyca.</p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Oh to mnie bardzo cieszy... móy Boże iakże mi WPanny porosły. Nie widziałem ich iak będące ieszcze w wieku dziecinnym, aż miło patrzeć, iak piękne.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Kogóż mamy honor witać?</p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Jestem Łukasz Poczciwski, z Woiewództwa Podlaskiego, Ziemi Bielskiey. Móy Rodzic był Cześnikiem Brańskim, stary i dobry przyiaciel rodzica WPannów do którego mam interes. Przyiechawszy tu, dowiedziałem się, że ma się znaydować w Warszawie, przychodzę złożyć mu winne uszanowanie. Ale nie zastawszy iak widzę, pozwólcie mi zacne Damy trochę spocząć, nie przyzwyczaiony chodzić po schodach, czuię się bydź utrudzonym... iestem przyiacielem dawnych zwyczaiów, bez ceremonii, co w sercu to i w ustach.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p><stage>(wskazuiąc na krzesło)</stage> I owszem bardzo proszę, siaday WPan, otwartość iego niezmiernie mi się podoba. <stage>(siadaią, prócz Emilii)</stage></p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Nie wychowany na wielkim świecie, może uchybiam zwyczaiom Miasta, ale wolę bydź Parafianem szczerym, niżeli modnisiem obłudnym. <stage>(do Angeliki)</stage> Cóż to... Siostra WPanny tak młoda, a iuż wzrok utraciła i używa okularów, mocno iey żałuię.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Za nadto WPan iesteś grzecznym... Oyciec nasz ieszcze nie przyiechał, to iest nasz apartament... zechcesz...</p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p><stage>(wstaiąc)</stage> Gdy tak iestem nieprzyiemnym Gościem?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p><stage>(zatrzymuiąc go na krześle)</stage> Niech to WPana nie uraża, że moia Siostra trochę dziś słaba, pragnie samotności. Lecz Emilio! rozmowa nasza, może ci sprawić iakąś rozrywkę, i zapewne z ukontentowaniem...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p><stage>(z szyderstwem)</stage> Oh! tak... i z wielkiem ukontentowaniem.</p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p><stage>(do Angeliki)</stage> Nie tak prędki iestem do urazy, i chociażbym do niey prawdziwy znaydował powód, dobroć i delikatność WPanny Dobrodziki zapomnieć mi o niey każe.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p><stage>(skromnie)</stage> Proszę przestać, ieżeli WPan niechcesz podać w wątpliwość swoiey szczerości, którą na samym wstępie w nim postrzegałam. Czy pozwolisz sobie czem służyć?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p><stage>(do siebie)</stage> Każ mu przynieść gorzałki...</p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Czy Pani co do mnie...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Nie... nie... <stage>(patrząc przez Lornetkę)</stage> Nie mogę odadmirować WPana ślicznych wąsików.</p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Jednakowo ia moich wąsików nie mieniałbym za wszystkie modne okulary. Nasze Dziady i Oycowie mieli wąsy, i podobały się kobietom, samym tylko Nieprzyiaciołom strasznemi byli, zapewne WPanna Dobrodzika nie czytałaś pięknych wierszy Kniaźnina o Ozdobie wąsów, między któremi iest ta sławna dla nas wzmianka:<lb /> Jana trzeciego gdy Wiedeń sławił,<lb />Głos był powszechny między Niemkami,<lb />Oto Bohatyr co nas wybawił,<lb />Jakże mu pięknie z temi wąsami.<lb />
+          <stage>(PIOSNECZKA II)</stage>
+          Niech się kto iak chce obrusza,<lb />Na widok moiey figury.<lb />Młodszy fraczek od kontusza,<lb />Starsze wąsy od fryzury.<lb />Szkło na nosie, czub na głowie,<lb />U kupców cała intrata,<lb />Nie tacy byli przodkowie,<lb />Co sławę mieli u świata.<lb />Gdzie iesteś o wieku złoty,<lb />Kiedy drżały Ossy, Sale,<lb />W ten czas uwielbiano cnoty,<lb />Wąs się wydawał wspaniale.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Bardzo przyiemnie WPan nas zabawiłeś swoią piosneczką.</p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Cieszy mnie to mocno, trzebaby ią powtórzyć Panu Starościcowi memu ciotecznemu bratu, który ogolił wąsy, porzucił wieś, i siedzi zawsze w Warszawie. Czy uwierzycie Panie, nie mogłem go poznać, przychodzę wczoray do niego, zastaię przed pokoiem mnóstwo ludzi narzekaiących, Lokay zatrzymuiąc mnie, pyta wiele mi się należy, i prosi, żebym był cierpliwy. Cóż to rzekłem, za kogóż mnie bierzesz, iestem Poczciwski krewny twoiego Pana. Wchodzę do iego pokoiu, a widząc ieszcze w łóżku o 10tey godzinie, wybladłego i niewyspanego, sądziłem go bydź chorym. Lecz na móy widok wyskoczył z łóżka, rzucił się na moią szyię „ah bracie Dobrodzieiu, w sam czas Niebo cię tu dla mnie sprowadza, musiałeś przechodząc widzieć tych natrętów, którzy mnie trzymaią iak w oblężeniu, są to wierzyciele, Szewcy, Krawcy, Cerulicy, Aptekarze, Kupcy i Przekupki nawet, nie mam wcale czem się ich pozbydź, reszta zabytków oycowskich przeszły wczoray do żydów, ratuy mnie, bo nie będę mógł mieć i iedney spokoyney godziny.” Stan taki poruszył moią czułość, którey oprzeć się nie mogłem, i wygodziłem iego potrzebom. Oy Panie Starościcu, żebyś był wsi nie porzucał, uprawiał ten kawał ziemi, na którey twóy Rodzic z krwawym potem pracował, żył zgodnie z sąsiadami, kochał i wspomagał poddanych, byłbyś dziś, iak ia szczęśliwym, i nicby nie mieszało twoiey spokoyności. Ależ to miły Boże, nie ieden on taki, modnie wystrzyżony, równie też i kieszeń wygolona... <stage>(z płaczem)</stage> O smutne widoki!...</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p><stage>(do siebie)</stage> O dobra duszo!...</p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Ale ale, słyszałem, że Woiewodzic Zacniewski ma teraz powrócić z wędrówki; długo też Panicz bawił w cudzych kraiach... Któraż to z WPannów ma zostać iego żoną?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Kiedy mam szczerze powiedzieć, ieśli iest do WPana podobnym, ustąpię go moiey siostrze.</p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Nayniższy sługa...</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>O ieśli ma tak dobre serce iak... <stage>(miarkuie się nagle)</stage></p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Rozumiem. <stage>(biorąc z zapałem rękę Angeliki)</stage> Niech Bóg WPannie błogosławi w iey zamysłach...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Cha cha cha! a toż co... Siostro?.. czy można?</p>
+        </sp>
+        <sp who="#cześnikowicz">
+          <speaker>CZEŚNIKOWICZ.</speaker>
+          <p>Niech to Panią nie zadziwia, nic nie ma nieprzyzwoitego w dobrem życzeniu. Zegnam Panie. <stage>(odchodząc do Emilii)</stage> Zyczyłbym z serca Pani, pogodzić się z wąsikami. <stage>(odchodzi)</stage></p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Jeden moment dłużey, umarłabym z nudów, iak też mogłaś to wszystko znośić.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Taki dobry człowiek...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ale prostak... tyran wielkiego świata.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Przyiaciel naszego Oyca...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Chociaż... ta przyiaźń u was może cóś znaczyć w kompanii z Paniami Sędzinami i Xiędzem Proboszczem.</p>
+        </sp>
+      </div>
+      <div type="scene" n="4">
+        <head>SCENA IV.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#emilia">EMILIA.</rs>
+            <rs key="#angelika">ANGELIKA.</rs>
+            <rs key="#lokay">LOKAY.</rs>
+          </p>
+        </stage>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Hrabia Fiufiu pyta się, czy może oddać wizytę?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Fiufiu? Mon Dieu! któż to iest... Siostro czy znasz go?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Wszak wiesz, że ia tu prawie nikogo nie znam...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ale Fiufiu! z samego nazwiska poznać można, że iest słuszny chłopiec. Prosić Pana Fiufiu!</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Siostro! iak można przyymować nieznaiomego mężczyznę, Guwernatki nie ma w domu...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Masz racyą... ale nakoniec cóż to szkodzi, iakże można odmówić Hrabiemu Fiufiu? O to bardziey, czy iesteśmy przyzwoicie ubrane. <stage>(do Lokaia)</stage> Poday mi zwierciadło... <stage>(patrząc w zwierciadło)</stage> uydzie... ten łańcuch tysiąc dodaie wdzięków... a te kolczyki iak znayduiesz? przedziwnie... ieszcze tu trochę roztrzepać włosów... no... otóż wszystko, prosić Pana Fiufiu. <stage>(Lokay odchodzi)</stage></p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Ja odchodzę.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Na miłość Boską co ty wyrabiasz? zostań... to zapewne iest człowiek pełen naynowszych sentymentów, przecięż się czegóś nauczysz.</p>
+        </sp>
+      </div>
+      <div type="scene" n="5">
+        <head>SCENA V.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#emilia">EMILIA.</rs>
+            <rs key="#angelika">ANGELIKA.</rs>
+            <rs key="#hrabia_fiufiu">HRABIA FIUFIU.</rs>
+          </p>
+        </stage>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Ah! mes Dames, pierwszą moią było powinnością ucałować rączki Pań moich, <stage>(do Emilii)</stage> Ah! Parole d’honneur Pani dziś wystąpiłaś do zachwycenia!... co za żywość?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Daruy mi Hrabio...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Comment?... Pani mnie zapewne nie poznaiesz? Jak to! wczoray na wieyskiey kawie?...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Jestem prawie zachwyconą?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Parbleu! c’est impossible, chyba inny ubior mnie odmienił, miałem honor podnieść wachlarz Pani, i zaraz prosić o pozwolenie oddania wizyty, n’est cepas?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Chociaż wcale nie przypominam tego zdarzenia, przecież niezmierne czuię ukontentowanie, z poznania takiego brave Garçon.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Je vous rend grace, to iest nad moie malutkie zasługi.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Pan Hrabia tu był niewidzianym.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Dopiero trzy dni, iakem powrócił z Paryża.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Z Paryża? ah co za szczęście!</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Surement! szczęście niewypowiedziane. Kto nie widział Paryża, nie może żyć.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>A my przecież żyiemy...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Pardonnes... to nie iest życie... tu ludzie uśpieni, martwi, c’est impossible, wyrazić co to iest Paryż... Wystawcie sobie Panie, iak się tam bawią... co za gust, co za czucie, ah niepodobna tu siedzieć, same karykatury, nie umieią czuć, poznawać, bez Geniuszu, bez oświecenia... Uważ Pani ten Frak w Londynie robiony... a ta szpilka iak się zdaie?... w Palais Royal ią kupiłem.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>U nas podobnych Fraszek łatwo dostać można.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Vraiment, Pani się mylisz, tutay nic nie umieią, co tylko iest tuteysze, nic niewarto, nie może bydź w żaden sposób doskonałem, c’est naturel.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>No siostro! cóż teraz powiesz o Jegomości panu Poczciwskim.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>On mi się niezmiernie podobał, iego nazwisko odpowiada iego sercu.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Comment?... Poczciwski... ah Mademoiselle... dzisiay podług zwyczaiów Paryskich, [które są dla Mnie prawem] poczciwość iest za chimerę uznaną. Inne wcale iaśnieią Cnoty. Poznano nakoniec, że przymioty oyców są niczem w porównaniu ich wnuków, trzeba nam koniecznie różnić się od pospólstwa, inaczey nie mielibyśmy żadney reputacyi. Ponieważ naypóźniey powróciłem z woiażu, przeto opowiem Paniom, iak naynowsza moda pozwala zarabiać na głośną sławę. Oto chcę, aby Imie moie było reputowane: płacić każdą bagatelę dziesięć razy tyle, ile warto, uwielbiaią Kupcy. Przegrać wszystko, wynoszą pod niebiosa poddani Króla Faraona. Tracić cały maiątek, ah iakież wspomnienia tych, którzy go nabywaią... Wszędzie się znaydować, o wszystkiem decydować, a czego się niezna, miną nadrobić. Wprowadź par exemple Pani, do Damy posiadaiącey gust prawdziwy, 30stu Poczciwskich, wpadnę, kichnę przyiemnie, ziewnę elegancko, takim przymiotom wszyscy ustąpić muszą i z swoią cnotą. Parol d’honneur, za mną wszystkie kobiety szalały w całym Paryżu, i nic mnie to nie kosztowało; śmiałość, odwaga, to są pierwsze stopnie, po nich można zawsze doyść do zamierzonego celu. Apropos iak Panie dziś wieczór przepędzą, bo ia mam ieszcze mały revanche robić, przegrałem wczoray parę set Louidorów, potem Herbata tańcuiąca u Kokietnickiey, ah mon Dieu, ta kobieta iest Chef d’oeuvre, wieczorem muszę bydź trochę na Teatrze, ah nudy do niezniesienia... prawią same morały, co to mnie ma obchodzić. Ah Teatr w Paryżu... Notabene wielkiey Opery, bo dzięki gustowi, Traiedye są widocznie za nudy uważane...</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Jak też Pan Hrabia dzień tutay przepędza?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Chociaż nie dawno tu bawię, iednak codziennie...
+          <stage>(PIOSNECZKA III)</stage>
+          Zaraz po skończonym stroiu,<lb />Wymknę się tylnemi drzwiami,<lb />A wierzyciele w przedpoiu,<lb />Niech czekaią z Regestrami.<lb />Wnet w tysiączne odwiedziny,<lb />Po całey latam Warzawie,<lb />Tu kwadrans, tu półgodziny,<lb />Ziewam a przecież się bawię.<lb />Każdy Dom dla mnie otwarty.<lb />Tu dowcipne gadam żarty,<lb />Tam przy boku Celimeny,<lb />Czułe deklamuię Sceny.<lb />Zwiedzam wszystkie gotowalnie,<lb />Jak ubrać sentymentalnie<lb />Czy bydź rużowo, czy blado,<lb />Jam pierwszą gustu poradą.<lb />Mogą mnie przyiąć Kobiety,<lb />Za Ministra Toalety<lb />Po tych fraszkach na śniadanie<lb />Zasiadam między butelki,<lb />Tu dopiero rycerz wielki,<lb />Pływam iak w morzu w Szampanie.<lb />Potem woyska Faraona<lb />Stawią fortunne szeregi,<lb />I tam nikt mnie nie pokona,<lb />Tak znam Hetmańskie wybiegi.<lb />Kończy się dzień na Teatrze,<lb />Tam choć na Scenę nie patrzę,<lb />Nieznam sztuki, ganię przecie<lb />Lub się pocieszam w Buffecie.<lb />W Północ ku milszey zabawie,<lb />Z liczną towarzyszów Swito,<lb />Zwiedzam po całey Warszawie,<lb />Wszystkie Bale Inkognito.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Bravissimo, na honor Hrabio nic nie mogłeś dla nas uczynić przyiemnieyszego nad tę wizytę.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(do Angeliki)</stage> A Pani czy nierozkaże co ieszcze powiedzieć o Paryżu, par exemple Thuillerie, albo St. Cloud?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Raczey Pan Hrabia zechce nam donieść, czy tam znał Walerego Zacniewskiego?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Zacniewski?... Zacniewski?... ah mon Dieu, przypominam sobie, i to nie warto wspomnienia, to iest odludek, nigdzie go prawie nie widziano, co za głupiec, dziesięć lat woiażował, i maiątku nie stracił, ah to iest bez żadnego gustu ah mon Dieu muszę się wstydzić za niego, maiąc iuż lat 22. chodził na licea, czy uwierzycie Panie, on się tam uczył po Grecku, ieśli też może bydź większy Contrast, literat i modniś... Przyiął potem służbę woyskową, bił się walecznie w iakieyść batalii, i został Pułkownikiem. Cha cha cha... to mi porządna głowa.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ach umieram! niech mi się nigdy nie pokazuie.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>O nieoszacowany Walery.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Wielem teraz usłyszał, mais... czas ucałować rączki Pań, lecę do wiska... Adieu adieu. <stage>(wybiega)</stage></p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Boski chłopiec... ale? póydź no ma Soeur do okna obaczyć go ieszcze... no dla Boga... ty nic nie chcesz poznawać <stage>(bieży do okna)</stage> ah mon Dieu, iak wskoczył do Karety... co za układ... Kłania się... ale chodźże... czy można... ieszcze się kłania... adieu, adieu mon cher Comte... co za pyszny ekwipaż, ah iak stangret zręcznie powozi, niepodobna, aby ten stangret był Polak... Konie warte swoiego Pana... co widzę bez uszów? ah i te konie założę się, nie są Polskie... teraz wiechał w inną Ulicę, <stage>(tu słychać krzyk za Sceną)</stage> Cóż to iest?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Dla Boga, czy nie iaki przypadek?</p>
+        </sp>
+      </div>
+      <div type="scene" n="6">
+        <head>SCENA VI.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#emilia">EMILIA.</rs>
+            <rs key="#angelika">ANGELIKA.</rs>
+            <rs key="#lokay">LOKAY.</rs> (I)
+            <rs key="#gawronek">GAWRONEK.</rs>
+          </p>
+        </stage>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Tu niemożna wchodzić.</p>
+        </sp>
+        <sp who="#gawronek">
+          <speaker>GAWRONEK.</speaker>
+          <p>Ale nie można... alboż to ia sobie nie uczciwy chłopak czy co?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Cóż to za Gamoń?...</p>
+        </sp>
+        <sp who="#gawronek">
+          <speaker>GAWRONEK.</speaker>
+          <p>Ale Gamoń... ia sobie iestem uczciwy chłopak, ale nie Gamoń...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Zapowietrzy pokoie wypchnąć go.</p>
+        </sp>
+        <sp who="#gawronek">
+          <speaker>GAWRONEK.</speaker>
+          <p>Ale wypchnąć?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Może ma do nas iaki interes, któż iesteś przyiacielu?</p>
+        </sp>
+        <sp who="#gawronek">
+          <speaker>GAWRONEK.</speaker>
+          <p>Ja sobie iestem uczciwy chłopak, i nazywam się sobie Pan Gawronek, sobie.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Jak możesz to znosić?...</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Moment tylko... Kończ przyiacielu.</p>
+        </sp>
+        <sp who="#gawronek">
+          <speaker>GAWRONEK.</speaker>
+          <p>Ale... ia sobie skończę, ale ten Lokay dał mi takiego buchańca...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Powinieneś znać, że to Pałac; dobrze zrobił.</p>
+        </sp>
+        <sp who="#gawronek">
+          <speaker>GAWRONEK.</speaker>
+          <p>Ale dobrze zrobił, niechże ia dam komu buchańca czy dobrze będzie, a móy nieboszczyk Tatulo bywało zawsze sobie mawiał: co tobie nie miło, nie czyń drugiemu.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Czegóż więc chcesz poczwaro?</p>
+        </sp>
+        <sp who="#gawronek">
+          <speaker>GAWRONEK.</speaker>
+          <p>Ale... Poczwaro? ia sobie nie iestem Poczwara, nic to nie znaczy, że ia sobie mam taki Spencerek, ia sobie myślę, że Eleganci chodzą sobie i suto i stroyno, a Krawcy, Szewcy i Kupcy nie popłaceni, a ia sobie chodzę iak Pan Bóg dał, alem sobie nic nikomu nie winien i śpię sobie zawsze spokoynie.
+          <stage>(PIOSNECZKA IV)</stage>
+          Móy Tatulo mawiał sobie,<lb />Synu gdy chcesz żyć szczęśliwy,<lb />Czyń wszystko, tak iak ia robię,<lb />Naybogatszy kto poczciwy.<lb />Na tym błyszczą gwiazdy, wstęgi,<lb />Złotem napchane kieszenie,<lb />Lecz gdy ma czarne sumienie,<lb />Niewart tey twoiey siermięgi.<lb />Ah nie iedni w smutney chwili,<lb />Za swą cnotą utracili,<lb />I maiątki i nadzieię,<lb />Cnota i w nędzy iaśnieie.<lb />Poczciwy równie kochany,<lb />Czy żyie w świętney ozdobie,<lb />Czyli go kryią łachmany,<lb />Tak tatulo mawiał sobie.<lb />Niech wiedzą mężni próżniacy.<lb />Ze przy użyteczney pracy,<lb />Bogactwa szczęście przynoszą,<lb />I są prawdziwą rozkoszą.<lb />Dla tego pracować radzę,<lb />Praca nieszkodzi powadze,<lb />Milszy grosz gdy go zarobię,<lb />Tak tatulo mawiał sobie.<lb />
+          Ja sobie miałem Tatula, który sobie był kominiarzem, ale Tatulo sobie umarł, i ia zostałem sobie sierotą. <stage>(płacze)</stage> Móy Tatulo był sobie ubogi człowiek, i niczego mnie niekazał uczyć, bo nie miał za co, i ia też sobie nic nie umiem, muszę sobie pracować, ale uczciwie, poszedłbym sobie gdzie w służbę, ale ia mam sobie Matulę, biedną Matulę. <stage>(płacze)</stage> Otóż ia sobie moiey biedney Matuli nigdy nie odstąpię. Matula nie może sobie, nic zarobić, bo Matula iest sobie bardzo staruszka i chorowita, otóż ia i na nią sobie zarabiam. Jakem sobie teraz szedł, aż znowu iakiś Lokay sobie idzie, zapewne nie chciało mu się samemu dopełnić rozkazu Pana, zawołał mnie, i prosił, abym list oddał w tym Pałacu, dał mi za to dydka, ia też chciałem sobie tu prosto iść, a ten nic dobrego nie chciał mnie sobie w puścić, i ieszcze tak potuzał. <stage>(płacze)</stage> Otóż iest list. <stage>(oddaie Emilii)</stage></p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p><stage>(przeczytawszy)</stage> No no... możesz sobie odeyść.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Trzebać mu przecież cóś dać za fatygę.</p>
+        </sp>
+        <sp who="#gawronek">
+          <speaker>GAWRONEK.</speaker>
+          <p>Ja dostałem iuż za to dydka, a ia sobie za iedną rzecz nie biorę dwa razy zapłaty, nie tak iak Tatulo sobie mawiał, że Patronowie każą sobie płacić za iednę sprawę dziesięć razy.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Przyymiy to dobry chłopcze dla twoiey matki.</p>
+        </sp>
+        <sp who="#gawronek">
+          <speaker>GAWRONEK.</speaker>
+          <p>Czy to Jałmużna?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Nie... to podarunek pochodzący z dobrego serca.</p>
+        </sp>
+        <sp who="#gawronek">
+          <speaker>GAWRONEK.</speaker>
+          <p>Chyba że tak, bo ia sobie póki tylko będę miał zdrowe ręce, na moią Matulę żebrać niemyślę. Upadam do nóg sobie. <stage>(odchodzi z Lokaiem)</stage></p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Wiesz od kogo ten list?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>No?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Od iakiegoś Bankiera...</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Bankiera?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Nazywa się Złotołów, słuchay, co pisze, cha cha cha! na honor cóś nadzwyczaynego. <stage>(czyta)</stage> „Widziałem Panie na ostatniem Kassyno. I przedsięwziąłem donieść im szczególną okoliczność. Jestem człowiek maiętny, bo posiadam w gotowiznie sześć milionów, iestem dziedzicem dwunastu wsi i iednego Miasta, to iest co nayprzód Panie powinnyście wiedzieć, ieśli pozwolicie, to złożę moią uniżoność w ich domu. Nayniższy sługa Bankier Złotołów.”</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Cóż to ma znaczyć?...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ja nie poymuię.</p>
+        </sp>
+      </div>
+      <div type="scene" n="7">
+        <head>SCENA VII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#emilia">EMILIA.</rs>
+            <rs key="#angelika">ANGELIKA.</rs>
+            <rs key="#lokay">LOKAY.</rs>
+          </p>
+        </stage>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Bankier Złotołów iuż iest przed pokoiem.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Cóż mówisz ma Soeur?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Mnie się zdaie odmówić mu.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Jednakże 6. millionów, ah siostro, niepodobna dla takiego człowieka bydź nie grzeczną, <stage>(do Lokaia)</stage> Jakże on wygląda?</p>
+        </sp>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Nos potężny czerwono niebiesko trędowaty, wyschły iak szczapa, peruka okropna.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Peruka?... ah fi... iednakże 6. millionów... prosić Pana Złotołowa.</p>
+        </sp>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p><stage>(odchodzi)</stage></p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Osobliwsze mamy dzisiay wizyty.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Zwyczaynie w Stolicy.</p>
+        </sp>
+      </div>
+      <div type="scene" n="8">
+        <head>SCENA VIII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#emilia">EMILIA.</rs>
+            <rs key="#angelika">ANGELIKA.</rs>
+            <rs key="#złotołów">ZŁOTOŁÓW.</rs>
+          </p>
+        </stage>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>Uuupapadaam doonooog.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Cóż go do nas sprowadza?</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>Miiiiłoość!</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Miłość... WPana?... do nas?...</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>Taaak ieest, szeeść mimimilliioonoow moożna byyydź kokokochaanym.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Czy do mnie WPan miłość uczułeś?</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>Nie.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Przebóg! to może do mnie.</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>Nie.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Więc do nas obydwóch.</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>Taaak iest... Któóóóóraż z WacPaanien życzyłaaby zoostaać moią małmałżoonką?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Z wdzięcznością przyimuiem WPana ofiarę, ale trzeba mu wiedzieć, że nasz Oyciec przeznaczył iednę z nas Waleremu Zacniewskiemu.</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>A ha! Zaaacnieewski, iaaa go znaaam, oon mmi wiinien oooośm Krrrroć sto tysięęęcy, zrruynoowany niema nic, aa nic.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>A nam powiadano przeciwnie, że w całym woiażu żył nayskromniey.</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>Babayka. Przecież iestem Babaankier, maam wexle, czyy znaacie iego rękę?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p><stage>(odbieraiąc wexle)</stage> Czytaliśmy tyle iego listów do naszego Oyca... mon Dieu, prawda, to iego ręka. Przebóg wszystko stracił. O niebaczny, mógłże o tem zapomnieć, że iedna z nas ma zostać iego żoną, mógłże nie wiedzieć, żem ia powinna natychmiast po ślubie wyiechać do Paryża?... mieć swóy osobny dom i ekwipaż, oh żeby iak nayprędzey Papa powrócił, u nóg iego ze łzami żebrać będę, aby zaniechał dopełnienia swoich układów, iak to?... miałażbym zostać żoną człowieka, którego sama będę musiała żywić... ah mon Dieu tyle proiektów?...</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Wszakże Hrabia Fiufiu dowodził, że wszystko stracić, iest to żyć modnie.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Surement!... ale on, on, on, kiedy się o nas stara, powinien bydź bogatym.</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>Oootóż ia maam 6. mimiliionów, ia zawiozę nie tyyylko do Paparyża, a le i doo Aameryyki.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Na honor! wielka szkoda, że tak maiętny człowiek nosisz te...</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>Peperuukę? nie prrawdaaż?... oootóż ia się zroobię eeeleeganteem, i zrobiee toto wszyyystko; coo...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Zrobisz WPan to wszystko co tylko ia będę chciała?</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>A ha!</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>O niebaczny Walery! wszystkie moie zawiódł nadzieie... Mości Panie Złotołów, ieśli WPan... oh tak Papa mnie bardzo kocha... i nic mi nie odmówi... słowem...</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Moia siostra zdaie się WPanu czynić iakąś nadzieię, bo z moiey strony nic się spodziewać nie możesz, muszę wyznać, że od dzieciństwa szacowałam, dobre serce i... rzadkie przymioty Zacniewskiego. Gdy moia siostra iako ubogiemu odmawia swoiey ręki, ia mu ią chętnie poświęcam. Wprawdzie ieśli to pewno, że stracił cały maiątek... ale ieśli zachował swóy sposób myślenia i dobroć serca, to mogę z nim bydź szczęśliwą; bez maiątku łatwiey się obeyść móżna, iak bez dobrych obyczaiów.</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>Prześlicznie.</p>
+        </sp>
+        <stage>(TERCET V)</stage>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Nie ieden stracił zbiory i złoto,<lb />Może szczęśliwszy chociaż ubogi,<lb />Lecz ieśli zawsze rządził się cnotą...<lb />Zawsze mi luby, zawsze mi drogi.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Czy można mon Dieu! straszne zdarzenie,<lb />Nie... niepodobnem to ożenienie,<lb />Pełna nadziei, że się iuż zbliża,<lb />Moment szczęśliwy, żem wśrzód Paryża,<lb />Lecz wszystko stracił... miałże sumienie,<lb />Nie, niepodobnem to ożenienie.</p>
+        </sp>
+        <sp who="#złotołów">
+          <speaker>ZŁOTOŁÓW.</speaker>
+          <p>Całuię nogi. <stage>(odchodzi)</stage></p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Nie mogę wierzyć, aby Walery... oh mon Dieu! przecież ieśli Pan Złotołów oh tak iest, tak bogaty człowiek, a ieszcze przyrzekł zrobić się elegantem, znać zaraz że posiada doskonałą edukacyą, trochę tylko zaniedbany. Zgoda... iuż wszystko zrobiono... na przyszłą wiosnę iadę do Paryża.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Winszuię ci kochana siostro, a ia zostaię w Oyczyznie.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Apropos, muszę się dobrze wypytać. <stage>(dzwoni)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="9">
+        <head>SCENA IX.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#emilia">EMILIA.</rs>
+            <rs key="#angelika">ANGELIKA.</rs>
+            <rs key="#lokay">LOKAY.</rs>
+          </p>
+        </stage>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Co Pani rozkaże?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Jakim ekwipażem przyiechał tu Pan Złotołów!</p>
+        </sp>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Ten brzydki koczkodan?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Głupcze! ten bogaty Pan, co teraz z tąd wyszedł.</p>
+        </sp>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Nie uważałem, bo też to dzisiay osobliwsze dzieią się rzeczy, zaszła staroświecka kolaska, i nikt z niey nie wyszedł, zaiechała potem modna pękata Angielska kareta Pana Fiufiu, i drugi podobny Pan Fiufiu wsiadł do niey, a prawdziwy Pan Fiufiu nie wiem gdzie się u diabła podział... iest na dole ze sześciu Lokaiów, maią tłomoki z sukniami, i tak tam hałasuią, że iużem chciał wszystkich powypędzać z Pałacu.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Cóż to ma znaczyć?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Rozbierzmy z uwagą, kto dzisiay był u nas.</p>
+        </sp>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Nayprzód Księgarz.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Zapłaciłam mu dość tanio za tyle dzieł pięknych.</p>
+        </sp>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Potem Pan Cześnikowicz.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Oh ten Jmpertynent, żebyś mi go nigdy nie wpuszczał.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Zartuiesz siostro, maiąż bydź zamknięte nasze drzwi przed przyiaciołmi naszego Oyca?</p>
+        </sp>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Potem, Pan Fiufiu.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Jego życzyłabym nigdy nie wpuszczać.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Przeciwnie to iedyny człowiek nayprzyiemniey można się z nim bawić.</p>
+        </sp>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Potem wdarł się gwałtem ten obdartus.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Poczciwy chłopiec, trzebaby mu obmyślić iakie mieysce, żywi nieborak ubogą i chorą Matkę.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Dobrze to iest, ale do naszych Apartamentów nie wpuszczać,</p>
+        </sp>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>A Pana Złotołowa mamże wpuszczać?</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Ey to naturalnie, 6. millionów, czyś oszalał...</p>
+        </sp>
+      </div>
+      <div type="scene" n="10">
+        <head>SCENA X.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#emilia">EMILIA.</rs>
+            <rs key="#angelika">ANGELIKA.</rs>
+            <rs key="#lokay">LOKAY.</rs> (I)
+            <rs key="#staruszek">STARUSZEK.</rs>
+          </p>
+        </stage>
+        <sp who="#staruszek">
+          <speaker>STARUSZEK.</speaker>
+          <p>Niech Bóg ten dom błogosławi!</p>
+        </sp>
+        <sp who="#lokay">
+          <speaker>LOKAY.</speaker>
+          <p>Za drzwi! iak możesz wchodzić bez meldowania.</p>
+        </sp>
+        <sp who="#staruszek">
+          <speaker>STARUSZEK.</speaker>
+          <p>Mam bardzo ważny interes do tych Pań. Na miłość Boską upraszam, niech mi wolno pomówić z niemi w sekrecie.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p><stage>(do Lokaia)</stage> Pódź sobie.</p>
+        </sp>
+        <stage>(LOKAY. odchodzi)</stage>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Cóż masz do nas szanowny Staruszku?</p>
+        </sp>
+        <sp who="#staruszek">
+          <speaker>STARUSZEK.</speaker>
+          <p>Daruycie Wielmożne Panie moiey śmiałości, słyszałem o was wiele dobrego, bo ia tylko tam bywam, gdzie ludzie dobrzy mieszkaią. Wasz Oyciec oh! iakiż to nieoszacowany Pan Staroświecki móy to niegdyś nayprawdziwszy przyiaciel... Jestem nieszczęśliwy Oyciec dziewięciorga dzieci, moia żona umiera prawie z głodu, nie widzicie we mnie łaskawe Panie żebraka, byłem ia człowiekiem maiętnym, wspomagałem wielu. Niestety! zamieszania kraiowe, przywiodły mnie do ostatniey nędzy, reszta zginęła na bankach, a w upadku wszyscy mnie odstąpili. Tysiące dawnych przyiacioł, nie znaią mnie teraz, i nawet ci, którzy moią pracą i staraniem powstali; urągaią się z moiey niedoli. Ileż to Pałacow iest w Warszawie... ale niestety! owa sławna hoyności gdzież teraz mieszkasz?... Oto nielitościwy wierzyciel ma teraz zabierać to wszystko co nam pozostało, nędzną pościel... Wielki Boże!... dziesięć dukatów mu winienem... ah dziesięć dukatów iak to teraz wielka summa dla mnie. Powiadano mi, że wasz szanowny Oyciec przyiechał... Litości nayłaskawsze Panie... zaklinam was, wstawcie się za mną, umrę przy nogach waszych... dziesięć dukatów!</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Móy Bracie, nasz Oyciec ledwie iutro przyiedzie, możesz się udać do niego, my nie mamy pieniędzy w naszey mocy.</p>
+        </sp>
+        <sp who="#staruszek">
+          <speaker>STARUSZEK.</speaker>
+          <p>Aż ledwie iutro przyiedzie, a moię biedną żonę w ten moment wyrzucą pod gołe niebo.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Przebóg siostro! trzeba go ratować.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>W prawdzie mieliśmy dzisiay po 20 Czerw: Złotych, ale ia tak wiele wydałam na Journale mody... A za resztę koniecznie na iutro muszę mieć nową suknią.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Ja się bez nowey sukni obeydę, ratuiąc nieszczęśliwego, więcey się uczuie pociechy, iak z nowey sukni… Oto masz dobry Staruszku 10. Czerw. Złotych, biegayże prędzey do biedney żony, uwolniy ią od tego nielitościwego lichwiarza.</p>
+        </sp>
+        <sp who="#staruszek">
+          <speaker>STARUSZEK.</speaker>
+          <p>O chwilo błogosławiona!</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Jak nasz Oyciec przyiedzie, zapewne go odwiedzisz, wielką mi sprawisz radość będąc iutro u nas...</p>
+        </sp>
+        <sp who="#staruszek">
+          <speaker>STARUSZEK.</speaker>
+          <p>O nie tylko iutro... zawsze... zawsze ia będę przy tobie. <stage>(chwyta ią za rękę)</stage></p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Cóż to ma znaczyć?...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Mon Dieu! hola! iest tam kto przed pokoiem?</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Truchleię!</p>
+        </sp>
+        <sp who="#staruszek">
+          <speaker>STARUSZEK.</speaker>
+          <p>Tak iest nayzacnieysza kobieto... zawsze będę przy tobie. Ale muszę coś ci wzaiemnie ofiarować za twoią szczodrobliwą łaskę... przyymiy to...</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Wielki Boże! czy się tylko nie mylę... ale tak... pamiętam moie włosy, które były u Walerego...</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Parol d’honneur nic nie rozumiem.</p>
+        </sp>
+        <sp who="#staruszek">
+          <speaker>STARUSZEK.</speaker>
+          <p>Wszakże taka była umowa, że którey z was Walery odda iey włosy, tę sobie obiera za żonę.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Surment! Ale cóż ma za związek Walery z tobą?</p>
+        </sp>
+        <sp who="#staruszek">
+          <speaker>STARUSZEK.</speaker>
+          <p><stage>(zrzuca ubiór Starca, i pokazuie się Młodzian w uniformie Pułkownika, pełen czułości, rzuca się do nóg Angeliki)</stage> Oto widzisz u nóg twoich tego, który dziś iest nayszczęśliwszym z ludzi. Ten, który ci przedał dzieła Krasickiego, Poczciwski tak dobrze od ciebie przyięty, Modniś wyśmiany, biedny Syn dla matki, z rąk twoich zasiłek odbieraiący, Bogacz wzgardzony, i Starzec od nieszczęścia wyratowany, iest to twóy narzeczony i iest to Walery.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Mon Dieu! co za przykra okoliczność.</p>
+        </sp>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p><stage>(podnosząc Walerego)</stage> Ten postępek daie mi poznać zacność twey duszy.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>O przeklęty Fiufiu!</p>
+        </sp>
+        <sp who="#walery">
+          <speaker>WALERY.</speaker>
+          <p>Po dziesięcioletniem woiażowaniu, wczoray przybyłem tutay wraz z waszym i moim Oycami; mimo moiey usilney proźby, żądali koniecznie poczciwi Starce, aby dziś ieszcze iedna z was została moią małżonką, zbyt trudno wybierać dozgonną przyiaciołkę, nie znaiąc iey serca i sposobu myślenia, uprosiłem, aby mi pozwolili pół dnia, podałem proiekt i Oycowie przystali na niego. Pod różnemi postaciami badałem serca wasze. O cnotliwa Angeliko, iakże z tobą mogę bydź szczęśliwym. Ta kobieta która umie szacować dzieła uczonych rodaków, poważać poczciwych, omiiać wietrzników, czuć szlachetne przywiązanie ku Rodzicom, zachować stałość w każdym przypadku i litować się nad prawdziwie nieszczęśliwym, taka kobieta, musi bydź dobrą matką, dobrą żoną i dobrą obywatelką.</p>
+        </sp>
+        <stage>ŚPIEWKI</stage>
+        <sp who="#angelika">
+          <speaker>ANGELIKA.</speaker>
+          <p>Jedni się żenią dla zbiorów,<lb />Inni szukaią urody,<lb />Ci pragną imion, honorów,<lb />Ci tonu, gustu i mody.<lb />Lecz ta tylko para tkliwa,<lb />Czystego szczęścia doznaie,<lb />Gdzie zgoda, miłość prawdziwa,<lb />I dobre są obyczaie.</p>
+        </sp>
+        <sp who="#emilia">
+          <speaker>EMILIA.</speaker>
+          <p>Widzę że tam para tkliwa,<lb />Czystego szczęścia doznaie,<lb />Gdzie zgoda, miłość prawdziwa,<lb />I dobre są obyczaie.<lb />Niknie próżna okazałość,<lb />Z całą swoią etykietą,<lb />W Kobiecie skromność i stałość,<lb />Naypięknieyszą są zaletą.</p>
+        </sp>
+        <sp who="#walery">
+          <speaker>WALERY.</speaker>
+          <p>Los dla mnie dzisiay życzliwy,<lb />Wszystkie me chęci spełnione,<lb />Ten bowiem nader szczęśliwy,<lb />Kto dobrą pozyskał żonę.</p>
+        </sp>
+        <sp who="#angelika #emilia #walery">
+          <speaker>ANGELIKA. EMILIA. WALERY.</speaker>
+          <p><stage>(Wszyscy)</stage> Bo tam tylko para tkliwa,<lb />Czystego szczęścia doznaie,<lb />Gdzie zgoda, miłość prawdziwa,<lb />I dobre są obyczaie.</p>
+        </sp>
+        <trailer>(Koniec)</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

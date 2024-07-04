@@ -1,0 +1,2877 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000015" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Ojciec Makary</title>
+        <title type="sub">Dramat w trzech aktach Władysława Okońskiego</title>
+        <author>
+          <idno type="isni">0000000108789286</idno>
+          <idno type="wikidata">Q723324</idno>
+          <persName>
+            <forename>Aleksander</forename>
+            <surname>Świętochowski</surname>
+          </persName>
+        </author>
+        <!-- Aleksander Świętochowski (1849-1938) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/ojciec-makary-dramat-w-3ch-aktach-oraz-niewinni-i-antea,MTc0NTcxNzY/4/</idno>
+          <title>Świętochowski, A., Nieśmiertelne dusze i Ojciec Makary: dramat w 3ch aktach / Władysława Okońskiego, Kraków 1876</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="antoni" sex="MALE">
+            <persName>Antoni</persName>
+          </person>
+          <person xml:id="aureli" sex="MALE">
+            <persName>Aureli</persName>
+          </person>
+          <person xml:id="cecylia" sex="FEMALE">
+            <persName>Cecylia</persName>
+          </person>
+          <person xml:id="jacenty" sex="MALE">
+            <persName>Jacenty</persName>
+          </person>
+          <person xml:id="ksawery" sex="MALE">
+            <persName>Ksawery</persName>
+          </person>
+          <person xml:id="makary" sex="MALE">
+            <persName>Makary</persName>
+          </person>
+          <person xml:id="marya" sex="FEMALE">
+            <persName>Marya</persName>
+          </person>
+          <person xml:id="melania" sex="FEMALE">
+            <persName>Melania</persName>
+          </person>
+          <person xml:id="regina" sex="FEMALE">
+            <persName>Regina</persName>
+          </person>
+          <person xml:id="szpitalny_służący" sex="MALE">
+            <persName>Szpitalny służący</persName>
+          </person>
+          <person xml:id="służący" sex="MALE">
+            <persName>Służący</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-11">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1876">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <titlePart type="series">NIEŚMIERTELNE DUSZE.<lb />
+            I.</titlePart>
+          <docTitle>
+            <titlePart type="main">OJCIEC MAKARY</titlePart>
+            <titlePart type="sub">DRAMAT W 3ch AKTACH</titlePart>
+          </docTitle>
+          <docAuthor>WŁADYSŁAWA OKOŃSKIEGO</docAuthor>.
+          <epigraph>
+            <cit><quote>Prawda ma do przebrania się nieskończoną ilość postaci.</quote><lb /> <bibl>(Ze starej książki).</bibl>.</cit>
+          </epigraph>
+          <docImprint>
+            <p>
+              <pubPlace>KRAKÓW</pubPlace>.
+              <bibl>
+                <publisher>W drukarni W. Korneckiego.<lb />
+                Nakładem Księgarni Adolfa Dygasińskiego i Sp.</publisher>
+              </bibl>
+              <date>1876</date>.
+            </p>
+          </docImprint>
+          <note>Prawa autorskie zastrzegają się.</note>
+        </titlePage>
+        <div type="appendix">
+          <p>Dramat obecny jest pierwszą częścią całości większej, której następne wkrótce kolejno się ukażą. Złączy je wspólna idea, tożsamość zaś osób o tyle, o ile przeprowadzenie ich z jednego dramatu do drugiego tkwić będzie w logice ogólnego planu akcyi. Każda przytem część, na podobieństwo obecnej, mieć będzie swoją własną, skończoną osnowę, w której pewna kombinacya motywów rozwiąże się konkluzyą w jej zakresie decydującą. Usprawiedliwienie ogólnej nazwy: Nieśmiertelne dusze – zaczeka do ostatniej z tych prac, z których pierwszą<lb />
+          <salute>
+            <p>Szczerym jej przyjaciołom</p>
+          </salute>
+          przypisuje<lb />
+          AUTOR.</p>
+        </div>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#makary">Ojciec Makary</role>
+            <roleDesc>lat 50</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#aureli">Aureli Wiszar</role>
+            <roleDesc>lat 25</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#ksawery">Ksawery hr. Jastrzębiec</role>
+            <roleDesc>lat 30</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#regina">Regina Zawierz</role>
+            <roleDesc>lat 23</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#melania">Melania Ziemska</role>
+            <roleDesc>lat 24</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#cecylia">Cecylia Jaskier</role>
+            <roleDesc>lat 16</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#jacenty">Jacenty,</role>
+            <roleDesc>braciszek zakonny. lat 22</roleDesc>
+          </castItem>
+          <castGroup>
+            <castItem>
+              <role corresp="#marya">Marya Wigoń</role>
+              <roleDesc>lat 18</roleDesc>
+            </castItem>
+            <castItem>
+              <role corresp="#antoni">Antoni Sęk</role>
+              <roleDesc>lat 60</roleDesc>
+            </castItem>
+            <roleDesc>służący Reginy</roleDesc>
+          </castGroup>
+        </castList>
+      </div>
+      <set>
+        <p>(Dramat rozgrywa się w Krakowie)</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT I.</head>
+          <stage type="setting">
+            <p>(Obszerny pokój z całkowicie czarnem umeblowaniem. Szafa z książkami, w głębi kilka kobiecych posągów starożytnych, na przodzie posąg mężczyzny w ubraniu nowożytnem, ustawiony nieopodal biórka w pięknym gazonie kwiatów. W czasie odkrycia zasłony słychać ostatnie dźwięki fortepianu za kulisami)</p>
+          </stage>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#regina">REGINA.</rs>
+              <rs key="#cecylia">CECYLIA.</rs>
+              <rs key="#marya">MARYA.</rs>
+            </p>
+          </stage>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(zasłuchana w muzykę przerwawszy czytanie książki)</stage> Cesiu...! Cesiu!...</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(wbiegając drzwiami prawej strony)</stage> Mnie pani woła...?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>To ty aniołku i grać umiesz?</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(zlękniona)</stage> Przeszkodziłam pani?...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Naturalnie – bo musiałam cię słuchać a za karę proszę mi tak przeszkadzać coraz częściej... Chodźno do mnie. <stage>(sadza ją obok siebie)</stage> Bardzo zgrabnie suwasz paluszkami... i kto cię tego nauczył?</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Jeden poczciwy staruszek, spowiednik cioci; pożyczył mi nawet pianinka a ile razy do nas przyszedł, miał ze mną lekcyę. Ach! jaki on był szczęśliwy, kiedy dobrze grałam! Bo bardzo mnie lubił, a gdy nikogo w pokoju nie było – nawet całował...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(śmiejąc się)</stage> To korzystną dostał lekcyę – pewnie był z zapłaty bardzo zadowolony.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Gdzie tam! Zwykle nic nie mówił a czasem jeszcze płakał.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Płakał? A to czego?</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Albo ja wiem. Aż kilka razy się na niego rozgniewałam. Ale paniusiu najdroższa, ja dziś koniecznie do niego pójdę, bo niezawodnie powrócił ze Lwowa i nic nie wie, co się stało z ciocią i ze mną. Trzy dni już nie widzieliśmy się a dawniej jednego nie mogliśmy bez siebie przeżyć. On z pewnością płacze – a ja już płakałam...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Jakże się nazywa ten twój czuły nauczyciel?</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Nie mogę powiedzieć – zabronił. Codzień mi powtarzał: jeśli ludzie spytają, kto cię grać uczył, to powiedz, że święta Cecylia. Słucham go wiernie i nietylko w tem, o, bo my mamy między sobą mnóstwo ważnych tajemnic. Mój Boże! powiedziałam, że czasem płacze a tak mi zakazał. Muszę mu się przyznać i zaraz poproszę, ażeby mi pozwolił panią do naszych tajemnic przypuścić. Znowu będziemy sobie żyć w troje a gdy ciocia wyzdrowieje – w czworo. Może nawet już wyzdrowiała – pobiegnę do szpitala i dowiem się.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Posłałam już pannę Melanię – ona zaraz wróci i wszystko nam powie.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Ale do mojego księżulka koniecznie pójdę a gdyby pani mnie zamknęła i nie puściła, to bym umarła.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Cóż za dzieciaczek z ciebie; dla czegoż mam cię zamykać; każę zaraz, jeśli chcesz, karetę przygotować.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Możeby się gniewał – wolę iść – ale zawsze go tu przyprowadzę, bo on za mną to wszędzie pójdzie. Ach! droziutka panno Regino, dotąd jeszcze ani słowa pani nie przeczytałam a mam być przecież lektorką...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nic nie szkodzi – urząd ten piastować będziesz honorowo, bo czytać mogę sama, a jak mi się za kilkadziesiąt lat oczy popsują, to cię poproszę o twoje...</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Wtedy!... ja będę już babcią...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Proszę!... tak na pewno wiesz, że cię ten tytuł nie minie?</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Przecież wszystkie panienki z czasem...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(wszedłszy)</stage> Listy.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(przeglądając szybko adresy)</stage> Nie ma... <stage>(do służącej)</stage> Za chwilę przyjdzie do mnie panna Melania, potem nikogo nie przyjmuję, wyjąwszy gdyby kazał się zameldować pan Wiszar; nie zapomnij – pan Aureli Wiszar.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Co innym mam powiedzieć?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Co ci się podoba – możesz ich nawet bawić lub jak zwykle poprosić do ogrodu. <stage>(po odejściu służącej)</stage> Chciałaś koniecznie objąć swój lektorski urząd, oto właśnie listy, którym możesz wyświadczyć wielką przysługę, jeśli mi je przeczytasz, bo inaczej musiałyby długo na mnie czekać – zamknięte.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>A jak w nich będzie co sekretnego?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>To zobaczysz jak sekret wygląda, którego pewnie dotąd nie widziałaś.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Bardzo przepraszam – mówiłam przecie, że mam dużo tajemnic, a do tego – jak powiada mój księżunio, gdy mnie chce zmartwić – podobno tam wyrosłam, gdzie mnie Bóg nie posiał. <stage>(otworzywszy list)</stage> Jakiś rachunek. <stage>(czyta)</stage> „Magazyn Mód: Za suknię spacerową reńskich 100.” Jezu dobry! cała moja garderoba może mniej kosztuje. Czy i pani będzie w tej sukni na tron wstępować?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Tylko na stopnie wagonu, którym jutro pojadę zwiedzić Wieliczkę z bardzo miłym znajomym.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Szczęście że pani śliczna, bo chyba by wszyscy tylko na suknię patrzyli. Patrzą i na mnie, ale moja tylko cztery reńskie kosztuje. <stage>(wziąwszy drugi list)</stage> „Zuzanna Koral z trojgiem dzieci znowu śmie polecić się szlachetnemu miłosierdziu czcigodnej pani.”</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Dziś już późno, ale jutro rano pojedziemy do niej. Dobrze?</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Chętnie dobra paniusiu. Jedna znajoma cioci powiedziała mi wczoraj pocichu, gdy wychodziłam, że pani tylko piękna, a to nie prawda. <stage>(czyta nowy list)</stage> „Jeśli istotnie lubisz pani postępowanie skracane, to pozwól mi serce i wszystko, czem ono rozporządzać może, złożyć dziś u stóp twoich listownie a jutro między 4–tą a 5–tą osobiście. Leon Zator.”</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Zgadł – lubię postępowanie skracane i pozwolę mu przez Marylkę pospacerować w ogrodzie, którym jedynie moje serce dla niego rozporządza.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Dla czego pani tam swoich znajomych wysyła?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Jest to moja duszko miejsce delikatnego wygnania dla natrętów. Zaprowadziłam u siebie zwyczaj meldowania się przez listy, które w potrzebie zastępują nawet rekomendacyę pierwszej wizyty. Marylka codzień dostaje objaśnienie kogo przyjmuję, ażeby zaś odprawionym, którym zależy wiele na pochwaleniu się bytnością u mnie, osłodzić gorycz odwrotu, radzi im spacer w ogrodzie. Jest wielu takich, których nawet nie znam, a którzy dziesiątki razy odprawieni w przedpokoju słuchają chętnie tej rady dla zyskania pozoru, że bawili u mnie. Dopiero gdy jeden drugiego spotka na tej przechadzce, zwykle obaj przestają mnie odwiedzać, zapewniając, że ich moje towarzystwo znudziło.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>To zabawne! Czy pani ich nic a nic nie lubi?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>I owszem, zwłaszcza kiedy pod mojem oknem defilują.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Ale oni muszą panią bardzo lubić...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>To szczegół najdrobniejszy.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Ciocia mówi – że główny, bo kiedy spostrzegła, że ją nieboszczyk wuj kocha, to go po całych dniach wyglądała. Ale do niej tylko on przychodził. Jabym chyba tak samo robiła, gdyby do mnie jaki wuj... to jest gdyby...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Więc chciałabyś już mieć takiego wuja? No nie rumień się, bo jak to zrobisz kiedy przy mężczyźnie, pomyśli, że mu buzią dajesz sygnał kapitulacyi serca, które radzę ci bronić, dopóki go ktoś szturmem nie weźmie.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Może ten pan Zator panią bardzo kocha?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Może. Cóż tam dalej piszą?</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(czyta)</stage> „Uwierz pani, że miłość moja dłużej twoim chłodem drażniona skończy się wybuchem, który mnie kosztować będzie jedną kulę a panią długie lata wyrzutu. Antoni Wiktor.”</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Byłaby to katastrofa dla nas obojga bardzo tania. Szkoda że tylko tak pisze.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Pani droga on się zabije.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie troszcz się. Z dziesięciu, którzy mi to obiecywali, jeden tylko słowa dotrzymał.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>A jeżeli i ten się zastrzeli?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>To go pochowają.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Pani tak strasznie mówi – aż się boję...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Weź inny list, może cię rozweseli.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(czyta)</stage> „Wszystkim rozdajesz pani bodaj po uśmiechu, tylko dla mnie jesteś wyjątkowo okrutna, jak gdybyś nie wiedziała, że szaleję z rozpaczy.”</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(przerywając)</stage> Sydon – poeta – który wkrótce rozreklamuje mnie w zakładzie obłąkanych. Chętnie wynagrodziłabym go czemśkolwiek za nadzieję tej kuszącej sławy. Chce uśmiechu?! Gdybym była pewna, że którego dnia mijać go będę na ulicy, to jadąc i myśląc o nim ciągle bym się śmiała.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Pisze, że zadowolniłby się doniesieniem, kiedy pani będzie w teatrze.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>O tem dowiedzieć się może najlepiej i jedynie od mego furmana.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Niech się pani zlituje, on tak strasznie cierpi.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Cierpienie jest ambrozyą poetów – powinien zatem mi być wdzięczny. Zbierz aniołku te elegije i włóż je do innych w tej oto szafce.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(otwierając szufladę)</stage> Ach! co tu liścików – pani je na pamiątkę chowa?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Naturalnie – bo jak się więcej nazbiera, każę niemi nawet wykleić...</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Co takiego?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Przedpokój nie będzie to obicie zbyt gustowne, ale interesujące. Jest jeszcze jeden list?</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Ze strachu nie widziałam. <stage>(odpieczętowywa)</stage> „Nie wiem czy się pani domyśla, że nieprzyjęty przez nią wczoraj odszedłem bardzo zdziwiony, gdyż wszystko przedtem zdawało mi się obiecywać uzyskanie na dalszy stosunek przywileju niezależności od warty i ceremonii, które dostęp do pani strzegą...”</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>To już styl bohaterski...</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(czytając dalej)</stage> „Nie jestem gorszy od innych, zatem nie powinienem być mniej szczęśliwy, zwłaszcza że uczucie którebym nawet gotów... <stage>(coraz słabszym głosem)</stage> nazwać... miłością...”</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Dla czego moja dzieweczko tak zbladłaś?</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(usiłując czytać)</stage> Pan Ksawery Jastrzębiec.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Znasz go? i może...</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>O nie... nie... Raz mnie spotkał na ulicy i odprowadził do domu... Potem był u nas... ale ciocia... ksiądz... więcej już nie był...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Widywał cię jednak – nie prawda? coś przyjemnego szeptał, o temperaturze swego serca zapewniał... no nie wstydź się – to nic nie szkodzi. Możesz pana Ksawerego swobodnie słuchać, dopóki cię zajmować będzie, a potem proponuj mu przez Marylkę samotny spacer. Ludzi znać warto... bawiąc się zaś niemi – ostrożnie!... z sobą...</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#regina">REGINA.</rs>
+              <rs key="#cecylia">CECYLIA.</rs>
+              <rs key="#melania">MELANIA.</rs>
+              <rs key="#marya">MARYA.</rs>
+              <rs key="#ksawery">KSAWERY.</rs>
+            </p>
+          </stage>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(wchodzi)</stage> Jakaś poważna lektura – Cesiu nie chmurz się, bo to zły prognostych dla lektorki.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(całując Cecylię)</stage> Nie wierz, złe od takich jak ty aniołków ucieka. Teraz idź, ubierz się, każ służącemu, żeby cię odprowadził do klasztoru, bo już ciemno.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Za pół godzinki będę ubrana i przyjdę się z paniusią pożegnać.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Do widzenia kochanko <stage>(po odejściu Cecylii – do Melanii)</stage> Jakże się ma ciotka?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Nieprzytomna – wzięła mnie za panią, i tylko rozpaczliwie błagała, żeby Cesię pielęgnować. Obaj doktorzy nie ręczą nawet za pół dnia jej życia. Zamówiłam służącego, ażeby panią jeszcze dziś uwiadomił.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>A czy jej nie zaniedbują? Zastrzegłam, żeby nie odstępowali.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Siedzą u niej ciągle i odpędzają jakiegoś bernardyna, który gwałtownie chce z nią rozmawiać. Zanim tam weszłam, usłyszałam z korytarza, jak ktoś wewnątrz pokoju bada po cichu, kiedy pani chorą przywiozłaś, czy ją odwiedzasz i tak dalej. Gdym otworzyła drzwi, stała przy progu szarytka i stary bernardyn, który spostrzegłszy mnie odskoczył jak sparzony i zaraz wybiegł.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Cóż to za jeden?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Zapomniałam się spytać a żałuję, bo wartoby donieść ojcu Makaremu, że jego baranki, korzystając iż świątobliwy przeor zbyt niebem zajęty, za daleko po ziemi się rozłażą.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Więc pani znasz i świat bernardyński?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Słyszałam tylko o strasznym fanatyku Makarym, o którym tu wszyscy mówią, bo ma być niezwyciężonym pogromcą grzesznych i rozumnych. Zapamiętaj pani to ostrzeżenie, tem więcej że – jak mi mówiono – odważnie rzuca rękawiczkę z ambony szczególnie płci naszej.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Jeśli mnie ją rzuci a zasłuży na to – równie odważnie podniosę. Czy to może ten sam zakonnik, który wyszukuje i chowa bezimienne dzieci?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Podobno.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>W takim razie wiedziałabym o nim więcej jeszcze niż pani.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(wskazując na koperty odczytanych listów)</stage> Ach! gdyby on wiedział o tych zmarnowanych pociskach Kupidyna.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Zaręczam, że te bardzo by go ucieszyły.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Z wyjątkiem jednak celnej strzały pana Ksawerego, który tu z pewnością niedaremnie wysłał swój bilecik.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Proszę mi wybaczyć, ale mówisz pani jak nieraz przestrzelona łukiem jego amora tarcza. Cesia niedoczytała mi jego listu – co on tam pisze? <stage>(czyta)</stage> „O szóstej przyjdę.” Miła nadziejo! Więc to słońce <stage>(patrzy na zegarek)</stage> za kwadrans wejdzie w moim – przedpokoju!</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(zbliżając się do Reginy)</stage> Powiedz mi pani szczerze – czy on ci zupełnie obojętny?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>We wszystkich znanych w gramatyce czasach i trybach, a wierz mi pani, bo na jego dochód nie skłamałam dotąd ani jednego słowa.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Wolno pytać dalej?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Choćby do znudzenia.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Dla czego niedawno przyjmowałaś go pani tak często i wyróżniałaś widocznie?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Był dla mnie nowy nie jest pospolity, a nadto sądziłam – że coś wart.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Nie wart – nic?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Dla mnie – co nie zniża jego ceny dla innych. Zgłodniały w pustyni arab – jak mówi dziecinna powiastka – byłby chętnie znalezione dyamenty na ziarnka ryżu wymienił. I ja więc może względem kosztownego klejnotu Krakowa jestem zgłodniałym arabem.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Czegoż więc pani pragniesz?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(śmiejąc się)</stage> Ryżu.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Żart to dobry na odprawę mojej ciekawości. Nie gniewam się za niego, bo zwykłam tylko podziwiać w pani talent dawania tej odprawy wszystkim, gdyż nawet tak groźnym wielbicielom jak pan Ksawery. Czemuż go nie posiadam!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Talentu czy pana Ksawerego?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(ze smutnym uśmiechem)</stage> Zapomniałam o dacie mego westchnienia. Niestety! dziś na talent za późno – nie mogę go nawet pani zazdrościć...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Zwykły to żal kobiecy a słusznie nas karze. Umiemy przed doświadczeniem to tylko, co każdy kwiatek lub jagoda – wabić, a nie pamiętamy o tem, o czem żaden owad nie zapomni – bronić się...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Jak dawno pani wiesz o tej prawdzie?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Od czasu jak jej potrzebowałam.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>I mimo niej...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>I z nią – tak żyłam.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Wyznam, że ile razy chcę panią rozumieć, muszę słowom pani nie wierzyć.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Rób kochana pani jak ci łatwiej. Ja jestem w innem położeniu, bo mi wiara w słowa pani nie przeszkadza cię rozumieć i dla tego nawet spytam: opuściłaś pani sama świat prawowierny, czy cię z niego wyproszono?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Podstęp mnie wywiódł.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Ach! ten najużyteczniejszy ze złych duchów, na którego sumienie zapisujemy wszystkie błędy naszej słabości.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(smutnie)</stage> Jeśli to napomnienie dla mnie, to nie odgaduję jego racyi słysząc je od pani.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>A jednak bardzo proste: jesteśmy tylko we dwie.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Tem więcej mnie to dziwi.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie zmniejszę zdziwienia, bo musiałabym powiększyć przykrość pani – a tego nie chcę. Zresztą wierz mi pani tyle chociaż, że nie mówię o tobie, ale o naszym pociesznym rodzaju, któremu natura czy ludzie dają tak naiwną duszę, że ją każdy z naszych własnych zmysłów uwieść może. Alboż nie? powiedz pani – tylko ja tu usłyszę.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Ale o tem wiesz pani już chyba z doświadczenia.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Cudzego.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(śmiejąc się)</stage> Słusznie – bo na własnem nauka nie bawi a pamięć chętnie o niej zapomina. Bądź co bądź słuchając pani, coraz lepiej pojmuję smutne twarze jej dymissyonowanych wielbicieli, którzy gorzko opowiadają nawet o chwilach swego szczęścia.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Mam jednak nadzieję, że tę ponurą mitologiję mojej osoby rozjaśni wkrótce pan Ksawery, wzbogaciwszy ją swą radosną legendą.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>On umie milczyć – nie lękaj się pani.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Właśnie wtedy bym go lękać się powinna. Dla kobiety niegroźny mężczyzna, który o niej dużo mówi.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Nie znasz go pani...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>I to mi dotąd wcale niepotrzebne. Wiem jednak że należy do ludzi, którzy nawet niepytani tłomaczą się przed opiniją z każdej chwili życia, ażeby pokazać, że jej nie przeżyli darmo – dla siebie. Pan Ksawery trzy miesiące oblegał mój dom...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Darmo?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Może coś zarobił mimo mojej wiedzy i woli a wreszcie od niego samego najlepiej się pani o tem dowiesz, gdyż jak się domyślam z pani pytań...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Pomogę domysłowi pani, który mógłby się omylić: pan Ksawery <stage>(z naciskiem)</stage> kiedyś mi się zwierzał...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>A pani za to masz do niego chroniczne przywiązanie, chociaż zwierzać się przestał. Znowu smutna nuta znanej piosenki kobiecej. Zrobisz mi pani jedno ustępstwo? Powiedz mi tyle o nim i o sobie, ile powiedzieć możesz.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(z udanym śmiechem)</stage> Nasza historya krótka i prosta: on mnie poznał przed trzema laty a ja jego przed trzema miesiącami; on mnie kochał kłamstwem a ja jego wiarą; on dziś zachwyca ludzi moją słabością a ja ich gorszę jego bohaterstwem; on...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Dość o nim – mów mi pani tylko o sobie...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Pan Jastrzębiec prosi koniecznie o przyjęcie.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Chcesz pani z nim się zobaczyć?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Od dawna mnie unika...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(do służącej)</stage> Proś.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(wchodzi uradowany, lecz spostrzegłszy Melanię z tajonym gniewem)</stage> Prawie spodziewałem się...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Zastać pannę Melanię, odgadłam to zaraz z żądania o konieczne przyjęcie. Zostawiam więc państwa samych i idę przygotować moją toaletę do spodziewanej i pożądanej u mnie wizyty. <stage>(wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#ksawery">KSAWERY.</rs> (i) 
+              <rs key="#melania">MELANIA.</rs>
+            </p>
+          </stage>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(patrząc za odchodzącą Reginą)</stage> Ja cię moja pani ubiorę na niespodziewaną i niepożądaną <stage>(szyderczo)</stage> Mam więc być szpakiem dumającym nad plewą, na którą się złapał w samotrzask? <stage>(zbliżywszy się do Melanii przeglądającej list Ksawerego)</stage> Gdyby panią chrzcił prorok, byłby cię niezawodnie nazwał: qui pro quo.</p>
+          </sp>
+          <stage>(MELANIA. milcząc patrzy na niego)</stage>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Czy pani przegrawszy cały los na mnie, przyszłaś tu może wziąść na loteryę probując z Reginą szczęścia do współki?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Nie, już znam uczciwość loteryi na której cały los przegrałam.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(siadając)</stage> Bogini szczęścia, moja pani, nikomu łask swych nie darowywa ale je wydzierżawia, a że jej kontrakt z panią przed kilku miesiącami się skończył...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>I twój chyba równocześnie, bo przed chwilą widziałam, że musisz w deszcz pieszo chodzić.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Czy pani już wyszłaś ze stosunków z panami, że o tej godności dla mnie zapominasz? Nie zatracaj pani w swoim języku tego słówka, bo ono nawet dziś przydać ci się może jako kosmetyk dla podobania się lepszym gustom i jako pamiątka lepszych czasów.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Mówiono mi tu, że pan po straceniu źle zrozumianych łask Reginy każdemu bajronicznie śpiewasz na temat lepszych gustów i lepszych czasów.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Powiedzieć to mogła tylko jej garderobiana, która pewnie z litości przygotowała pani tę nowinę na antimiłosne lekarstwo.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Przeciwnie mówiła mi o tem sama Regina, a nawet gdy jadąc z nią i widząc pana zmokniętego namawiałam, ażeby pana zaprosiła do powozu, wyraziła się że...</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Że pani byłabyś tam dla mnie niestosownem sąsiedztwem.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Nie, tylko że pan byś również zmókł na – koźle.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(wybuchając)</stage> Ona!?... czy ty – śmiesz?!</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Ja śmiem przedewszystkiem zrobić uwagę, że i pan już musiałeś wyjść ze stosunków z paniami, skoro mnie w tej formie pytasz. Wzajemnie więc radzę zachować sobie opuszczone słówko na kosmetyk i pamiątkę.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Jeśli je zachowam, to chyba tylko na dowód mojej wspaniałomyślności w tytułowaniu ciebie... pani.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Jakże ubogą jest ta pańska wspaniałomyślność, kiedy się stroić musi w takie dowody! Zła dola usposabia pana widocznie do zaprowadzania we wszystkiem oszczędności, zarówno w wydatkach na dorożki jak i na tytuły.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Dawniej zaglądałaś pani ciekawie do mojego serca, dziś do mego pugilaresu.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>I ze smutkiem przekonałam się że oba puste.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Nie znalazłszy dla siebie nic w jednem chciałaś pani przynajmniej powetować sobie zawód w drugim.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Przeciwnie, nie mogąc jednego chciałam przynajmniej drugi wypełnić.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Zkądże taka chęć?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Z miłosierdzia.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(udając wesołość)</stage> Orły w pokrzywach gniazd nie ścielą, tyleż dumy spodziewam się po moim opiekuńczym duchu, który w pani sercu pewnie sobie siedliska nie obrał. Litość jednak za litość, przyznaję się do żalu, jaki uczułem dowiedziawszy się, że podobno panią każdy nowy dzień szalenie licytuje – in minus.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Nie ciesz się pan zawcześnie, bo chociaż oboje biegniemy na dół, pan spadasz tak prędko, że się nigdy w tym kierunku nie zrównamy.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Rzeczywiście nigdy – już jesteśmy nie dla siebie. W świecie dzieje się jak w klubie: świeżą taliją my panowie gramy a zużytą lokaje; a ponieważ pani już wysłużyłaś się pierwszym...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Więc mi pozostają drudzy, którzy kart nie znaczą i nie oszukują!</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(zbliżywszy się do Melanii z tajonym gniewem)</stage> Wyjdźmy z tej przenośni, która pani dodała za wiele odwagi i racz mnie pani po prostu objaśnić, kogo to ja oszukałem?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Objaśnisz się pan sam, tylko odpowiedz: kim ja jestem i komu to winnam.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Kim pani jesteś – nie potrzebuję określać, gdyż tu z pewnością w zdaniach się nie różnimy, co zaś do wątpliwości komu pani obecną swą edukacyę winnaś, o ile wiem, byłaś w niej samouczkiem.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(gwałtownie)</stage> Nie zrzekaj się swej nauczycielskiej zasługi, kiedy ci się należy. Tyś mnie swoją piekielną pokusą usidłał, tyś mi pokazał, jak zapominać przestróg uczciwej matki i na jaką swobodę używać troskliwie dla mnie zebranego majątku, tyś mnie nauczył, jak córka może na grobie zacnych rodziców postawić im z siebie pomnik hańby! Przynajmniej wiedz o tem, kiedy się inaczej pomścić nie mogę!</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(biorąc kapelusz)</stage> Wszystko to prościej powiedziane znaczy, że przezemnie stałaś się pani światu użyteczną.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Żeś pan przez samego siebie – nikczemnym.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(idąc ku drzwiom)</stage> Tak tylko brzmieć może w ustach pani najwyższa dla mnie chwała.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Tak brzmieć ona będzie za chwilę w ustach Reginy i – Cecylii!</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(zatrzymawszy się)</stage> Kogo? Cecylii? <stage>(wraca)</stage> Czy pani wiesz cośkolwiek?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Z łaski pana muszę tułać się w świecie sama, przez wdzięczność i dla rozrywki postanowiłam być pańskim cieniem.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Co pani chcesz za to, żebym idąc do tego domu nie potrzebował się oglądać?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>A czem to pan myślisz płacić?</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Nawet zgodą, na poprzednich warunkach, jeśli tego będzie potrzeba.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Naprzód pozwól mi pan ochłonąć, ażebym mogła dalej mówić bez wzgardy dla siebie i... <stage>(po chwili)</stage> O co idzie?</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Przedewszystkiem o porozumienie. Traktowałem cię przed chwilą szorstko bez żadnej intencyi. Chciałem jedynie czemśkolwiek i na kimkolwiek zaraz powetować ukąszenia tej <stage>(wzkazując na drzwi któremi Regina wyszła)</stage> jadowitej żmii. Daruj mi więc, bo przed chwilą byłbym z gniewu aniołów krzyżował; zwłaszcza że mi obrazę powtarzały twoje usta, z których dotąd słyszałem tylko słowa...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(przerywając)</stage> Nie męcz się pan daremnie tem czułem wspomnieniem: wolę pana widzieć strasznym, niż zamaskowanym.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Właśnie chcę zdjąć maskę i pomówić z tobą językiem z czasów naszej zgody. To jest wracam do ciebie a za to żądam...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Co najmniej żebym ci słońce zdjęła.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>O, nie. Żebyś mi sekundowała w pojedynku z Reginą.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>W jakim?</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Bardzo niewinnym. Wspominałem ci już dawniej, że wybrałem sobie missyę nawracania waszego rodu, że lubiłem was jak gaj pomarańcz wabiących rękę żeby je zrywała, że natura nie stworzyła mnie do piastowania tak uczuć jak dzieci, że tyle tylko miałem kwalifikacyi na jednożennego gołębia, ile pragnąłem gruchać we dwoje, że wreszcie z tych powodów byłem sobie ogólnie mówiąc skrzętną pszczołą, której przeznaczono z gorzkich kwiatów tego padołu słodki miód wysysać. Jak pewnie zauważyłaś przez ostatnie trzy miesiące krążyłem około tej róży. Jakie plony zebrałem – mniejsza, dość że kochanka słowików i motyli chcąc zataić swą stratę i nie spłoszyć licznego roju, który się za mną przy niej uwijał, gdym ją opuszczał, dotkliwie i jawnie mnie ukłuła.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Szkoda, że z nią już wprzódy o tem mówiłam i że zamiast strategii podboju, mogę podziwiać w tobie tylko – sztukę zręcznego odwrotu.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Jak ci się podoba, moje dziecię, zapamiętaj sobie wszakże jedną praktyczną wskazówkę: gdy spostrzeżesz jakąś parę rozchodzącą się w dwie różne strony, pytaj zawsze mężczyzny a nie kobiety co między niemi zaszło.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Dam ci praktyczniejszą: nie pytaj ich wcale, bo ona powie za mało i jego uniewinni, a on za dużo i ją potępi.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Pozwalam, gdyż nie to mnie w tej chwili obchodzi a ukaranie Reginy.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>I ja mam ci w tem dopomagać?</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Tak – ty jej odbierzesz – Cecylię.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Cecylię – ja – dla ciebie?</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Ty – ją – dla mnie.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Szatanie, czy sądzisz że ci i sumienie na usługi odstąpię? że będę ci w twojem niegodnem polowaniu tropić i przynosić zwierzynę? Rostań się z tą szlachetną nadzieją! Siebie mogłam ci poświęcić, ale nikogo więcej. Chociaż nisko stoję, umiem jednak odróżnić samobójstwo od zbrodni. Ty myślisz, że zabić siebie i kogoś – wszystko jedno – ja – nie!</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Myślę przedewszystkiem, po co marnujesz te melodramatyczne wybuchy, kiedy one nie przeszkodzą mi powtórzyć propozycyi i rekomendować ci jej do uwzględnienia, naprzód dla tego, że nie jest wcale straszną a powtóre – że byłaby ci bardzo użyteczną. Mylisz się bowiem przypuszczając, że mi idzie o Cecylię...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(z ironią)</stage> Ja też przypuszczam, że ci idzie o siebie...</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Zgadłaś, ale jeszcze nie jestem pewny czy właściwie. Sprawa zaś jest taka. <stage>(zniżając głos)</stage> Panna Regina wyznała mi przy pewnej sposobności poufałego żartu, że odnowiła z tobą dziecinną znajomość i utrzymuje ją dla zapełnienia jednego wakansu w swej służebnej gwardyi, na który nie mogła znaleść dostacznie uzdolnionej kandydatki...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(wybuchając)</stage> Wężu!... kłamiesz! ona jedna mnie nie potępia i ratuje.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Boś jej jeszcze potrzebna. Słuchasz dalej?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(ze wzruszeniem)</stage> Miałażby nawet ona mną poniewierać? Dziś rzeczywiście... Mów!</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>O ile mi się zdaje piękna Regina sprzykrzyła sobie role rozkoszy i wkrótce zamyśla debiutować w komedyi cnoty. Ponieważ zaś dla powodzenia w tym nowym występie trzeba pozbyć się stosunków dawnego zawodu, więc naprzód zaopatrzyła się w młodziutką i niewinną przyjaciółkę, potem odsunęła niemłodziutkiego i nieniewinnego przyjaciela a wkrótce odprawi żenującą rezydentkę. Tym sposobem wyrestauruje swoją opinię – ludzkiej złości wyrwie dwa trzonowe zęby: mnie i ciebie i uspokoi ją wyśmienicie moralnym przysmakiem – Cecylią.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Zatem?</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Zatem powinnaś ją Reginie odebrać i dopóki ciotka nie wyzdrowieje u siebie zatrzymać.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Dla... ciebie?</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>A cóż mnie po niej! Tak młodych przepiórek nie lubię i gdyby mi w największym głodzie niebo ją zesłało z dodatkiem jedynie manny, przysięgam ci na mój gust, że wybrałbym mannę.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Kiedy się czaisz, zawsze jesteś poczciwy. Nie mam żadnej pewności, że nie posłużysz się mną w zgubieniu tego dziecka.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Nie potrzebnie widzisz we mnie tygrysa, tem więcej że chcę się tobą posłużyć, ale zupełnie w innym celu. Przewiduję bowiem, że Regina z czasem swoję lektorkę umyślnie zepsuje, ażeby się uwolnić od nieprzyjemnego a ciągłego z nią porównania. Jeśli więc prawda, że jesteś jeszcze na niedolę cnoty bardzo czułą, to możesz jej właśnie przez ocalenie Cecylii...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Ach! gdybym mogła przeniknąć co w tej chwili myślisz!</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>To, co mówię – przepraszam! – to, że pani dziecinnym uporem możesz zmarnować jedyną sposobność połączenia się ze mną.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(gorzko)</stage> Niestety zbyt dobrze o tem wiesz, że do jednego świata wrócić, do drugiego wejść nie mogę i muszę żyć sama lub z tobą. Straszny fatalizm! Czemuż jestem tak mało zepsuta!</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Ale zapomniałem spytać się o szczegół dosyć ważny: może ty mnie już nie kochasz?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>On się ze mną połączy! Co tu fałszu w tych kilku słowach...</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Ani jednego, gdyż naprzód postanowiłem już odpocząć po miłosnych trudach a powtóre nie przysięgam ci małżeńskiej wierności. Gdyby mnie więc napadła kiedy chęć dokonania z jednego podboju, to nawet w tym wypadku tylko żony głupich mężów byłyby od ciebie szczęśliwsze. Przy najgorszym więc składzie rzeczy spotkałyby cię tylko kłopoty żony męża – mądrego. A wierz mi, że one są nawet potrzebne. Natura tak dziwnie uorganizowała wasz rodzaj, że kobietę złapać można tylko słodyczą a utrzymać tylko piołunem. To też i miłość, moje dziecię, jest to roślinka, która wyrasta przy upale a dojrzewa w mrozie. A teraz żeby ci pozostawić swobodę namysłu – żegnam.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Poczekaj...</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Zdecydowałaś się?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Gdybyś jednak chciał nieuczciwie postąpić, pamiętaj że...</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Dość moja pani tego kazania. Ile razy słyszę takie morały, zdaje mi się że wiatr porusza ludzkiemi ustami. Moja własna chęć i niechęć – to jest dla mnie nakaz i zakaz a gust swój w tym względzie już ci objawiłem. Czcią więc cnoty przerażać mnie nie potrzebujesz, bo ona w twoim rodzie zatknięta tylko dla odstraszania wróbli, do których nie należę. Dla pretensyi moich do Reginy wynajdę sobie inny środek, tobie zaś życzę po raz ostatni wytrwałości w spełnianiu jej poleceń i od obowiązku ratowania Cecylii cię zwalniam. Do widzenia na sądzie ostatecznym, jeśli sprawy nasze będą w jednym wydziale. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Jeszcze tylko słowo...</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Niech wprzódy ciałem się stanie i u ciebie zamieszka.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#melania">MELANIA.</rs>
+              <rs key="#regina">REGINA.</rs>
+              <rs key="#marya">MARYA.</rs>
+            </p>
+          </stage>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(sama)</stage> Co robić? Ha!...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(wchodząc)</stage> Marylka mówiła mi że pan Ksawery wyszedł wesół a tymczasem pani wyglądasz smutna. Jakże mu się podobała zamiana mnie na panią?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(z lekko ironicznym uśmiechem)</stage> Przecież pani doniesiono, że wyszedł wesół.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Jak to czasem rzucimy złośliwością a spadnie dobrodziejstwo. Wiec skaliste serce okrutnego Apollona skruszyło się wreszcie pod westchnieniami pani! Dla siebie jestem z tego kontenta, bo mnie nie będzie może swoją znajomością osławiał i swojemi wizytami nudził.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Dziwna rzecz – jesteście państwo z rozstania w jednakowy sposób zadowoleni.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Język lekceważenia moja pani, jest dla wszystkich jeden, tylko prawa do niego odmienne, więc też nic dziwnego jeśli pan Ksawery jest swojem zadowoleniem do mnie podobny. Wreszcie – darowywam mu tę sztuczkę, bo nią dobrze swój powrót do pani zarekomendował a nadewszystko zwolnił mnie za to od obawy stracenia przez niego nowonabytej znajomości z pewnym niezmiernie interesującym człowiekiem, który może nawet dziś u mnie się zjawi.</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>I którego serce pewnie będziesz pani się starała skruszyć.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Przeciwnie – zahartować, bo bardzo miękkie. W uczuciach mój znajomy jeszcze dziecko – między dzikiemi przez piętnaście lat jakiś podróżnik go wychowywał. Dopiero od kilku miesięcy w Europie a od kilku dni w naszym kraju. Dotąd wszystko podziwia...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>W porę go pani do siebie zaprosiłaś. Nie chcę jego podziwowi przeszkadzać i dla tego żegnam panią. Wieczór spędzam sama, pozwól mi pani wziąść na parę godzin Cesię.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Ona ma zupełną swobodę woli a spodziewam się że pani <stage>(z naciskiem)</stage> jej naiwność uwzględnisz.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Ojciec Makary chce widzieć sie z panią.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(zdumiona)</stage> Kto? Ojciec Makary? Święci zaczynają do mnie się schodzić... Otwórz drzwi – ojca Makarego – proszę.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#melania">MELANIA.</rs>
+              <rs key="#regina">REGINA.</rs>
+              <rs key="#makary">MAKARY.</rs> (i) 
+              <rs key="#cecylia">CECYLIA.</rs>
+            </p>
+          </stage>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(przy progu)</stage> Bóg wszędzie.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(kłaniając się)</stage> Pochlebiam sobie jednak, że ksiądz przyszedł tu ze mną się zobaczyć.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(wbiega ubrana do wyjścia)</stage> Idę już paniusiu do mego... <stage>(spostrzegłszy Makarego rzuca mu się na szyję)</stage> Drogi mój ojczuś... Makary! <stage>(zakonnik całuje ją z radosnem rozrzewnieniem)</stage> Ja właśnie do ojczulka iść miałam... Widzicie panie, wyszukał mnie i przyszedł... Mój droziutki jak on mnie kocha... Tylko nie martw się ojczusiu, bo mi tu bardzo dobrze...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(odsunąwszy ją)</stage> Odejdź – chcę pomówić tylko z tą panią.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(do Melanii)</stage> Och co jemu się nagle zrobiło: nigdy tak na mnie nie patrzył... <stage>(wychodzi zwolna z Melanią, spoglądając na Makarego)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#regina">REGINA.</rs>
+              <rs key="#makary">MAKARY.</rs>
+              <rs key="#marya">MARYA.</rs>
+            </p>
+          </stage>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Proszę księdza zająć miejsce.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(zbliżywszy się do niej)</stage> Dla czego pani zabrałaś to niewinne dziecko?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(z uśmiechem)</stage> W pytaniu szanownego ojca słyszę tylko ciekawość i grozę a chciałabym usłyszeć prawo do jednej lub drugiej.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Bóg mnie upoważnił żądać w jego imieniu od ludzi rachunku z czynów...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>W takim razie niechże przynajmniej wiem, dla czego ojciec na wszystkich czekasz z tem upoważnieniem w konfessyonale a do mnie sam przychodzisz.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(żywiej)</stage> Więc nie jestem księdzem tylko twojem pani sumieniem i od niego pytam, dla czego zabrałaś to dziecko?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Gdybyś ojcze był mojem sumieniem, pytaćbyś o to nie potrzebował i wiedział, że ono właśnie mi tak postąpić kazało.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(gwałtownie)</stage> Nie!... ono nawet w tobie pani musi głos uczciwości pamiętać – zepsuć go całkiem jak ludzi nie mogłaś.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Bez wątpienia – czego najlepszym dowodem właśnie to, że dowiedziawszy się o nieszczęściu ciotki, chorą nie znając umieściłam w szpitalu a Cesię wzięłam do siebie.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(poważnie)</stage> Patrzałem już w dusze strasznie upadłe, w każdej dostrzegłem choć kilka drgań żalu: miałażbyś pani być pierwszą i jedyną, która złem wszystkie zgryzoty potruła?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Może tylko jestem pierwszą i jedyną, która ich nigdy nie miała.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(wybuchając)</stage> A, ciesz się pani sobą, wyzywaj wszystkie pomsty niebios, tylko oddaj mi dziecko, niech je z twojej Sodomy wyniosę.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Po co? Kiedy ona w tej mojej Sodomie będzie miała opiekę, wygody przyjemności...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(gwałtownie)</stage> Występku!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Ten na nią czeka pewniej u was... w klasztorze.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Oddaj mi ją pani tylko, a jeśli gdzieindziej bezpiecznego miejsca nie znajdę, to ją schowam w ołtarzu.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Tam byłoby jej niewygodnie i nudno...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>To ją zabiję, aby – tu nie była.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Ona nie jest Izaakiem a ksiądz Makary – ani Abrahamem, ani jej ojcem.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(drgnąwszy)</stage> Wiem o tem. Wolno mi tylko spokojnie patrzeć jak pani dla niej układasz stos... <stage>(z dziką goryczą)</stage> No, kiedyż nastąpi całopalenie?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Mój zakon na takie ofiary nie pozwala, owszem każe mi sierotę pielęgnować jak siostrę. Jeśli ciotka wyzdrowieje, Cesię jej oddam, jeśli nie...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Musi wyzdrowieć, inaczej sam Bóg by na tem stracił. <stage>(łagodnie)</stage> I co pani po tej dziewczynie?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Chcę ją uszczęśliwić.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Ja jej los zapewnię...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Mnie to przyjdzie łatwiej. Zresztą bardzo ją lubię...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(gwałtownie)</stage> Ja dawniej i... bardziej.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(z lekką ironią)</stage> Ale za to – niestosowniej...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(po chwili milczenia)</stage> Przez miłosierdzie powiedz mi pani, jak się nazywają wasze bogi, na zaklęcie których ustępujecie.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(stając przy jednym z posągów)</stage> To jest moja bogini – swoboda.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Hańba temu pogańskiemu cielcowi, kiedy zdrożnościom króluje!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Ojcze Makary... nie bluźnij bóstwu, którego nie znasz i które może kiedyś czcić będziesz...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Będę czcił... nawet ciebie pani, tylko dziecko mi wydaj...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Kup lepiej sobie kochany ojcze za przymusowa adoracyę zbawienie własnej duszy, gdyż ja jestem tak wymagającą, że ci za nią cudzej nie sprzedam.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(z gorzkim śmiechem)</stage> A jeśli dziś ciotka odwoła prośbę i zażąda, ażebyś pani mnie Cecylię powierzyła?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Poczekam z wypełnieniem żądania, aż chora mi je objawi zupełnie – przytomna.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Skonać jej nie pozwolę, dopóki mi go nie wymówi! <stage>(usłyszawszy śmiech Cecylii za sceną)</stage> Z kim ona tam jest? Takiego jej śmiechu nigdy nie słyszałem!...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Bo może się nigdy u ciotki tak jak u mnie nie bawiła.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(rozpaczliwie)</stage> Ba...wi...ła! <stage>(rzuca się do nóg Reginie)</stage> Pierwszą jesteś z ludzi, przed którą do prośby klękam – oddaj mi to dziecko...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(ze spokojnem szyderstwem)</stage> Oddam... ale wtedy, gdy będziesz ojcze Makary umiał mnie swojem klękaniem zaszczycać a nie znieważać.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(powstawszy)</stage> Nie mam już nic... nic... bo ofiarowałem nawet własne upokorzenie. <stage>(gwałtownie)</stage> I tego za mało? O, bądź przeklęte bezprawie, co rzucasz ludzi na pastwę jak rzeczy bez pana! Ja nie mogę odebrać tego dziecka, moje prawa ustąpić muszą przed grymasem pierwszej lepszej swawoli? Boże zwal lepiej na ziemię swój strop niebieski, aby jej zbrodni nie okrywał, lub daj mi tyle łez, ażebym niemi płacząc nad nieszczęściem zatopił spodlone ludzkie plemię! <stage>(po chwili)</stage> Zatrzymaj pani sobie tę dziewczynkę, ona ci się przyda, bo nawet będziesz mogła zdrową jej krew kazać przetoczyć w swoje zepsute żyły.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(stanąwszy przed Makarym z wesołą dumą)</stage> Przypatrz mi się księże Makary, czy ja zdrowej lub cudzej krwi potrzebuję, a może przyznasz szanowny ojcze, że gdybyś miał syna...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(meldując)</stage> Pan Aureli Wiszar.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(przerażony)</stage> Pani!... jam przytomny!?...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie wiem...</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#regina">REGINA.</rs>
+              <rs key="#makary">MAKARY.</rs>
+              <rs key="#aureli">AURELI.</rs>
+              <rs key="#cecylia">CECYLIA.</rs>
+            </p>
+          </stage>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(nie spostrzegając Makarego)</stage> Przez dwa dni myślałem i wątpiłem, czy ostatnie słowa pani obiecały mi wstęp do jej domu. Dziś wreszcie odważyłem się przyjść i spytać: czy nie mylą się dzicy w swem przysłowiu, że miła niespodzianka jest córką złego przeczucia?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(podając mu rękę)</stage> Nie mylą się chyba, bo ja czekając pana przez dwa dni ze złem przeczuciem, witam dziś miłą niespodzianką.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Nie żałuję straconego czasu i obaw, kiedy mi je łaska pani tak opłaca. Gotówbym nawet...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(zbliżywszy się do Aurelego spokojny)</stage> Z gotowością ostrożnie...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(zdziwiony)</stage> Ksiądz Makary!... <stage>(ściskając mu rękę)</stage> Doprawdy nie wiem czemu się dziwić, czy że kochanego ojca tu widzę, czy że dotąd nie widziałem.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Najlepiej nie dziw się pan niczemu...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(do Aurelego)</stage> Panowie już z sobą poprzyjaźnieni!... Czy pan może przyjechawszy do kraju rozpoczął go poznawać od duchownych?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(szyderczo)</stage> Mogła pani przecież się tego domyśleć, skoro zaledwie przybył, już dziś odwiedza główną polską westalkę.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(wesoło)</stage> Z arcykapłanem naszego miasta!...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>A moim trzecim ojcem. Bo winienem panią objaśnić, że jestem spadkiem, który się dostaje drugiemu z kolei przyjacielowi mego właściwego rodzica. Naprzód odziedziczył mnie i wychował pewien zacnej w mojem życiu pamięci samotnik, którego przed miesiącem śmierć mi zabrała. Ten znowu zapisał mnie ostatniemu z trójcy księdzu Makaremu, którego osobiście znam dopiero od tygodnia, ale w marzeniu kochałem oddawna. <stage>(ściskając rękę Makarego)</stage> Nie unieważnisz ojcze testamentu swego przyjaciela... i pozwolisz mi nazywać się swoim synem...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(wzruszony – z ironią)</stage> Tego panu nie długo będzie potrzeba; wynajdziesz sobie lepszą miłość. Bo i czasu nie marnujesz, kiedy w ciągu kilku dni zdążyłeś nawet tu zajść.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>W tem zasługa nie moja a pani, która mi tak pozwoliła wyzyskać przypadkowe poznajomienie się w podróży, że już dziś mam prawo i honor ją odwiedzić.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(śmiejąc się szyderczo)</stage> Ciesz się, pan, żeś tak wyjątkowo szczęśliwy; bo chociaż to samo prawo wszyscy tu posiadają, przy honorze sam jeden się utrzymasz.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie wszyscy... a jeśli ojcze wątpisz, wyszedłztąd zechciej tu dziś lub kiedyś powrócić...</p>
+          </sp>
+          <stage>(MAKARY. drgnąwszy usuwa się na stronę)</stage>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Żałuję mocno, że nie mogę być rozjemcą przyjacielskiej między państwem sprzeczki. Doprawdy aż mnie straszy, że w ogólności z tego co naokoło siebie widzę lub słyszę nadzwyczaj mało rozumiem. Tułam się po mieście jak zagapione dziecko. W Afryce umiałem na spojrzeniu Negra tak dobrze obliczać jego lata jak cnoty, tu wszyscy wydają mi się jednakowi, a najbardziej wtedy gdy mówią. Wystawiam sobie jakby się ze mnie uśmieli murzyni, gdyby im kto doniósł, że ja co ich rozpędzałem gromadami, tu daję się powodować każdemu. Lew przegnany nagle z puszcz afrykańskich na rynek Krakowa byłby mniej odemnie skłopotany, bo myślałby tylko, jak uciec a ja myśleć muszę, jak zostać. Kto mnie nauczy tu żyć i pracować: ksiądz Makary – nie wiem czy może, pani – nie wiem czy zechce.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(j. w)</stage> O, nie martw się pan – będziemy się dopełniać: czego ja nie będę mógł nauczyć – ta pani zechce.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>I owszem. Po każdem więc chrześciańskiem kazaniu ojca Makarego, przyjdź pan do mnie na pogańską lekcyę.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Cudowna kombinacya! zapewnia mi światło dwu najpierwszych gwiazd naszego grodu. Wątpię czy kto więcej oprócz mnie będzie się mógł pochwalić tak znakomitą nauczycielską parą.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(j. w)</stage> Bo nikt tu nas obojga razem nie potrzebuje a przytem ta pani swoim uczniom chwalić się nią zabrania.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(do Aurelego)</stage> Pan nie odgaduje w tym żarcie dowodu grzeczności. Ojciec Makary dopiero dziś po raz pierwszy raczył wejść do mego pokoju, ale za to daje mi do zrozumienia, że już nieraz stał pod mojemi drwiami.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(wchodząc ostrożnie)</stage> Już można...? <stage>(spostrzegłszy Aurelego)</stage> Przepraszam...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Cóż to za piękny kwiatek. <stage>(do Reginy)</stage> Czy u pani Wenus obrała sobie świątynię?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Tak panie... ale to nie z tej świątyni kapłanka.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Owszem z tej. Podobała się panu? Także dziecko, jak gdyby w naszym dojrzałym świecie dla pana zachowane.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(z trwożliwym pośpiechem)</stage> Co?... <stage>(spokojniej)</stage> Moja wychowanica, po którą właśnie tu przyszedłem i której już męża wyznaczyłem.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Ja jej wynajdę lepszego, chociaż może nie będzie posiadał wszystkich cnót teologicznych. <stage>(powstawszy)</stage> Ksiądz Makary jest nieco rozdrażniony, proponuję więc, ażebyśmy przeszli na balkon – tam chłodniejsze powietrze.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Najchętniej.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(idąc ku drzwiom z Aurelim)</stage> Ojcze Makary, proszę z nami... popatrzymy na miasto, a ludzie z ulicy na nas... proszę...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(sam)</stage> Chce mnie zbeszcześcić, albo wygnać. Ja mam ukazać się z nią całemu miastu!... A powinienem go strzedz... Boże, odbierz mi wstyd a dodaj odwagi! <stage>(zbliża się do drzwi balkonu i odbiega)</stage> Wolałbym w piekło... <stage>(po krótkiej niemej walce)</stage> Idź stary grzeszniku na pręgierz i ratuj!... <stage>(wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#cecylia">CECYLIA.</rs>
+              <rs key="#melania">MELANIA.</rs> (później) 
+              <rs key="#makary">MAKARY.</rs>
+              <rs key="#szpitalny_służący">SZPITALNY SŁUŻĄCY.</rs>
+            </p>
+          </stage>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(wchodząc z Melanią)</stage> Kiedy nic nie wiem... Ojciec Makary jakiś rozgniewany – nie chciał ze mną mówić – tu go znowu niema. Ach, mój Boże wszystko mnie dziś prześladuje... Pojdę z panią, ale pod tym warunkiem, że wstąpimy do księdza Makarego...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Panno Cecylio, już późno na wizytę w klasztorze.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(wpadając)</stage> Nie mogę!... Niebo przez wszystkie gwiazdy, ziemia przez ludzkie oczy mi urąga. <stage>(spostrzegłszy Cecylię przybiega do niej)</stage> Gdzie wychodzisz?</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Do tej pani na wieczór...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Gdzie!? szalone dziecko! nie pozwolę!...</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(do Makarego)</stage> Jeśli pozwolenia trzeba, to może ono być ważne tylko od panny Reginy. Ona być musi na balkonie – chodź Cesiu, pożegnamy się z nią. <stage>(pociąga Cecylię za sobą)</stage></p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(siada bezwładnie)</stage> Więc nawet ta ma do niej prawo tylko ja nie? Czy to wszystko rzeczywiście... się dzieje? Czy ja rzeczywiście widzę... czuję?... <stage>(zerwawszy się)</stage> Aniele mścicielu! jeżeli jesteś rzuć mi swój miecz ognisty lub rozedrzyj nim pierś, może raną lżej odetchnę!</p>
+          </sp>
+          <sp who="#szpitalny_służący">
+            <speaker>SZPITALNY SŁUŻĄCY.</speaker>
+            <p><stage>(wszedłszy ze zdziwieniem)</stage> Ojciec Makary!... tu...!?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Po co tu przychodzisz – stara pewnie zdrowsza – przytomna... no powiedz – że przytomna!</p>
+          </sp>
+          <sp who="#szpitalny_służący">
+            <speaker>SZPITALNY SŁUŻĄCY.</speaker>
+            <p>Umarła.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(rozpaczliwie)</stage> Boże! co robisz!... <stage>(po chwili)</stage> Przecież zmartwychwstają!... Chodź... ja ją wskrzeszę! <stage>(wychodzą)</stage></p>
+          </sp>
+          <stage>(Za sceną) (wesoło) Ha, ha, ha.</stage>
+          <stage>(Zasłona spada)</stage>
+          <trailer>(Koniec aktu I-go)</trailer>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT II.</head>
+          <stage type="setting">
+            <p>(Tenże pokój)</p>
+          </stage>
+        <div type="scene" n="9">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#regina">REGINA.</rs> (i) 
+              <rs key="#aureli">AURELI.</rs>
+            </p>
+          </stage>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(do służącego)</stage> Koniecznie wyszukaj mi Marylkę, a jeśli jej nie znajdziesz, idź sam i powiedz, że te ciągle powtarzane wizyty Cesi u panny Melanii zaczynają mnie już gniewać. Na pannę Cecylię czekam. <stage>(po odejściu służącego)</stage> Więc pan mnie uparcie straszy?</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Chciej pani wierzyć mojemu doświadczeniu. Dzicy to nie baranki a smoki. Zgodę z niemi można tylko utrzymać nieustannie do nich wymierzonym karabinem. Podobało by się pani tak przyjemne i tak bezpieczne życie?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Zapewne – ale czy ono jest jedynie takiem?</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Zwykle jeszcze gorszem, bo trzeba ich często zabijać a zawsze serdecznie żałować. Europa nie ma pojęcia o przerażającej panoramie żywych obrazów Afryki lub Australii gdzie przesuwają się całe gromady szkieletów ledwie skórą obciągniętych i ginących z nędzy. Może świat cywilizowany żartuje z podobnych wzruszeń, wyznam jednak, że zwiedzając przed kilku laty z opiekunem Ocean Spokojny i będąc świadkiem śmierci ostatniego Tasmańczyka umierającego prawie z głodu, płakałem jak dziecko.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Umarłabym tak nędznie, gdybym tylko przedtem mogła żyć tak swobodnie.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Dzicy żyją swobodnie! Ha, ha, ha gdyby im kto dał tę mądrę czaszkę, w której się europejska plotka o ich wolności wylęgła, z pewnością nie zrobiliby z niej jak zwykle puharu, lecz co nawyżej miarkę do kukurydzy. Ich wszystko więzi i podbić może. Sam widziałem, jak składali ofiary osłowi, którego okręt francuski zostawił na brzegach Zangwebaru. To wcale nie wymysł, że gdy raz wiatr poruszył zgubionym przez europejczyków asem kierowym, całe plemię zaczęło mu oddawać cześć boską.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Ach panie, co to dziwnego. My cywilizowani a także mamy swoje asy kierowe, czczone, choć niemi żaden wiatr nie ruszał.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Różnica jednak nie przestaje być wielka. Zresztą uciekam się po obronę do mego niedawno zmarłego przyjaciela, którego słowom zwykle pani wierzy a który mnie w Afryce pożegnał nad grobem tą ostatnią radą: mnie zakop między dzikiemi a sam wracaj do Europy: ja z nią zgodzić się nie mogłem, bo ona uczyła mnie pragnąć; ciebie jednak, co tu marzyłeś – zadowolni.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Zadowolniła?</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Znam ją dotąd prawie o tyle jedynie, o ile w tym domu się mieści, upewnij mnie więc pani tylko, że nie odpowiem za pospiesznie a bez namysłu odpowiem twierdząco.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>W tem nie, ale w czemś innem upewniam: żeś pan jeszcze nie obudził się ze swoich złudzeń nawet w tym domu, który się panu tak znajomym wydaje.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Sprawdzimy to. Jadąc tu nie chciałem nic więcej, jak witać i poznawać społeczeństwo moje w osobie tych, którzy je najszlachetniej reprezentują. Poznawszy i przywitawszy panią jako rodaczkę, mogę w rachubach mego marzenia widzieć pomyłkę zbytniej skromności, ale nie przesady.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>I wtedy nawet byłabym zaraz, pierwszą pańską illuzyą, bo nie jestem ani ideałem ani typem krajowym.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Na to nie wiele trzeba. Dość innych troszkę przerosnąć, ażeby od nich być wyższą i dość wśród nich wyrosnąć, ażeby być do nich podobną.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie widziałeś pan nigdy, jak czasem z ziarna wiatrem zarzuconego drzewko na murach wyrasta? Może i moje takie pochodzenie.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Nie przekonywaj mnie pani dalej że błądzę, bo zacznę bardzo prosić, żebyś mnie pani od tego strzegła.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie będziesz pan o to prosił, jeśli nie zapomnisz co powiedziałam, że jestem prawie nie tutejszą. I ja znam to morze ludzi, które mnie otacza, o tyle tylko, o ile muszę dla bezpieczeństwa tego oto korabiu, ażeby wraz z nim nie zatonąć.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Ja właśnie lubię to morze i chciałbym je zbadać – z panią.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Ze mną? Mogłabym jedynie być pańskiem niebezpieczeństwem.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Przy dobrej woli – szczęśliwem natchnieniem.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Wiesz pan, gdzie się znajdujesz? W maleńkim, tysiącami nieprzyjaciół obsaczonym obozie buntownicy, która gróźb się nie boi a układów nie pragnie. Zgoda między mną a tym światem – niemożliwa, bo ja nie przyjmę jego a on – moich warunków. On mi każe naprzód zrzec się całej niemal swobody a ja mu ani jednego jej prawa nie ustąpię.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Cóż pani po tylu prawach?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>To rzecz moja, ludzka – mi ich nie wydzierać.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>W wojnie ze światem zyskuje się wprawdzie to, co on nam odbiera, ale traci się to co nam daje. Czy pani zysk zawsze nagradza stratą?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie cenię jej, bo nie znam.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Więc pani może wszystkich nienawidzisz?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nikogo. Dawniej nawet lubiłam niewolników, dopóki nie wiedziałam, że każdy trzyma sobie bodaj psa, którego może być panem. Dziś mam sympatyę dla nieszczęśliwych a mogłabym kochać...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Jakich?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Prawdopodobnie panu – nieznanych.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Ale znanych pani. To dostateczny powód dla mnie, ażebym się moim ziomkom bacznie przypatrywał a dla pani, żebyś przynajmniej z niektóremi walczyć przestała.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Gdyby tacy między niemi byli, o czem, jak mniemam, wkrótce pan zwątpisz. Afrykańskie słońce przy pomocy czułych opowiadań tak rozżarzyło pańską imaginacyę, że przebiegłeś pan kilka jeograficznych stopni jak rozpłomieniony meteor, który nie przeczuwa, że spadłszy w zimną otchłań tylko syknie, zgaśnie i ochłodnie. Już widzę pańskie zapały – daremne a niedługo sam pan ujrzysz zawody – niewątpliwe.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>W każdym razie zostanie mi bardzo wiele. Przecież nieszczęśliwych obdarzasz pani swoją sympatyą – skrzywdzonym nie będę.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Korzystniej jednak byłoby dla pana ideałów swojej czarnoksięzkiej latarni z rzeczywistością nie porównywać, lecz uciekłszy ztąd, zdala niemi się łudzić. Między dzikiemi będziesz pan mógł wierzyć, że cywilizowani swobodnie żyć i pracować pozwalają.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Raz Maur opowiadał mi taką bajkę: Pewnemu moslimowi śniły się ciągle porywające widoki raju. Trawiony tęsknotą do nich tak męczył modłami Allaha, że wreszcie uniósł się na obłoku. Zaledwie przeszedł bramę raju, spotyka go cudowna dziewica, która usłyszawszy po co przybył, zaczęła wszystkiemi ponętami swej mowy radzić mu, ażeby powrócił na ziemię, gdyż przechwalony eden jest właściwie królestwem brzydoty. Dobra niebianko – powiada jej moslim – chociażby cały skarb uroków tej krainy nie miał żadnego więcej nad te, jakie w tobie posiada, jeszcze i wtedy byłaby ona dla mnie najpiękniejszą ze światów. Jeśli zaś chcesz ażebym ten raj opuścił, odczaruj mnie naprzód z własnych czarów i naucz nie pamiętać, żem był tu i widział ciebie.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Cóż ona na to?</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Panią prosi przezemnie o zastępstwo w odpowiedzi.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>A pan może ją odbierzesz w imieniu owego moslima...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Chętnie, bo pragnąłbym mieć zakończenie dla mojej bajki.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(po chwili zamyślenia)</stage> Ja bym odpowiedziała: zechciej mój przychodniu zapomnieć żeś tu był, a może nie będziesz potrzebował zapominać, żeś mnie widział.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Dla czego?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>I ja opuszczę ten raj – możesz go opuścić ze mną.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(z gorzkim żalem)</stage> Więc koniecznie ztąd się oddalić lub stracić... Cóż to za okropna próba!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(z lekką ironią)</stage> To też wyobraź pan sobie, że jesteś na nią wystawiony tylko – w bajce.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Pani... jam w uczuciach dziecko. Zamiast szydzić z mojego prostego serca, powiedz mi lepiej, co kryjesz w zagadkowem – swojem.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Dla kogo?</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(wzruszony)</stage> Dla... mnie.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Może już jutro... nic!</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Ale dziś...? O, bodajby to jutro spóźniło się o całe trwanie świata!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Panie Aureli... raczej gaśmy się a nie zapalajmy.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(z zapałem)</stage> Spłonę w własnych uczuciach a nie zgaszę ani jednej ich iskry. Dość już tego lodu, którym mi pani od dwu tygodni każesz zamrażać gorętsze słowa. Dłużej udawać i milczeć nie będę, bo po raz pierwszy w życiu – to muszę, i po raz pierwszy – nie mogę. Będę mówił wszystko co w sercu usłyszę a szczerość moją niech broni świat, który mnie tak wychował. Mów i pani więcej, chociażby to, żeś pani rozumna a ja szalony, żeś pani cywilizowana a ja dziki, że pani umiesz tylko myśleć a ja tylko kochać...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie, żem ja teraz powinna uczyć pana myśleć, bo pan nauczyłeś mnie...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(namiętnie)</stage> Dokończ pani!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(po chwili)</stage> Znasz pan samolubstwo?</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(poważnie)</stage> Widzę je – przed sobą.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Spojrzałeś pan dobrze i zamiast wymówki powiedziałeś prawdę. Tak panie, jestem samolubstwem. Pan nie pojmujesz, jak można żyć zapatrzonym w siebie i tak upajać się miłością własną, jak najpotężniejsi geniuszem lub mocą. Tymczasem są tacy – albo może ja jedna! Dotąd byłam dla siebie swoją kochanką – czy pan wiesz czem dla mnie jest pokochać kogoś?</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Uszczęśliwić...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(przerywając)</stage> Poświęcić – siebie. Uczucia, panie, ujarzmiają. Przykuć się niemi naprzód własnowolnie do jednego człowieka, być potem zmuszoną wejść z nim na nowo w ten służalczy lub ciemięzki świat – och! to zbyt wiele za – miłość. Rozumiesz pan teraz, dla czego radziłam panu ztąd odjechać i dla czego gdy chcesz zostać, myślę o samolubstwie myśląc o kochaniu. Wolną być pragnę, bo taką byłam szczęśliwa.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(ze spokojnem wzruszeniem)</stage> Niech się mnie wyprze całe stworzenie, jeśli kiedykolwiek nie uszanuję praw pani do szczęścia. Niczego więcej nie żądam nad to, co wolno każdemu negrowi, gdy sobie na nowe i niepewne życie obiera za patronkę pierwszą, spotkaną i dobrą istotę. Na tej ziemi bądź nią pani dla mnie, nie odbieraj mi nadziei, daj przyjaźń jaką możesz i nie broń kochać...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(słabym głosem podając rękę Aurelemu)</stage> Nie proś pan! – jam już tylko kobieta i już – niewolna...</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#regina">REGINA.</rs>
+              <rs key="#aureli">AURELI.</rs> (i) 
+              <rs key="#makary">MAKARY.</rs>
+            </p>
+          </stage>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(otwarłszy drzwi gwałtownie, przybiega do Reginy niepostrzeżony)</stage> Czekaj pani! niech Bóg wprzódy jedną twoją zbrodnię obliczy, zanim drugą popełnisz...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(tamując gniew)</stage> Ojcze kochany, czy to tylko wprawa w kaznodziejski zapał...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(zbliżywszy się spokojnie)</stage> Czy w sztukę cudownego objawiania się, która może księdzu sprawiać wiele przyjemności, ja jednak go proszę, o ile na mój dom ta chwała spada, naprzód się mojej służbie meldować a potem mi efektu gromów oszczędzić. O co tym razem idzie?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(gwałtownie)</stage> Gdzie ona?!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Przedewszystkiem – kto ona?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(z dziką ironią)</stage> Pani nie wiesz, bo umiesz tak nie dostrzedz koło siebie braku człowieka, jak liścia rzuconego za okno, dla przekonania się w którą stronę wiatr wieje. No, obejrz się pani dobrze, każ policzyć swoją czeladź i trzodę, może się też nie dorachujecie jednej sztuki. Tylko nie lękaj się pani – ja straszyć nie chcę – drobnostka... jakaś tam biedna dziewczyna...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(ze drżeniem)</stage> Cecylia?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>O bodajbym ja także mógł ją sobie aż przypominać!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Dla czego to mówisz, ojcze Makary?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(szyderczo)</stage> Nie domyślna pani jesteś... Pewnie już dużo kwiatów rozdałaś swym przyjaciołom, to też nic dziwnego że nie wiesz, komu się od ciebie dostał polny chwaścik przypadkiem na drodze zerwany. <stage>(do Aurelego)</stage> No, panie, rąb z marmuru piedestał i postaw na nim tę panią, niech świat ma wreszcie posąg swej cywilizacyi!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Księże nie szydź i powiedz, gdzie jest Cecylia!</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Ty pani powiedz, kiedyś mi ją wyrwała i zgubiła!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(w osłupieniu)</stage> Cecylię... zgubiłam?...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Ojcze Makary, co się stało!?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(słabym głosem – do Aurelego)</stage> Panie, pytaj go...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Nie pytaj pan, bo mógłbyś za wiele usłyszeć. <stage>(śmiejąc się boleśnie)</stage> Nic wesołego... Zauważyłeś pan tego wieczora, gdyśmy się tu spotkali, jak powiernica tej pani uprowadziła do swego domu moją... taką małą dziewczynkę. Nie mogłem temu przeszkodzić, bo miałem za sobą tylko moją niemoc i boleść. Nie mogłem wskrzesić trupa jej ciotki, bo byłem tylko człowiekiem. Nie mogłem pójść i jak pies położyć się w nocy na straży pod występnym progiem, bo byłem księdzem. Wróciłem więc do celi, do której zbiegły się za mną wszystkie hydry rozpaczy do tej straszej celi. Goręcej niż Łazarz żebrałem o śmierć u Boga; jak za karę – żyłem! Z przed myśli zniknęło mi całe istnienie, tylko została ona, chociaż z całego istnienia tylko o niej myśleć nie chciałem. Przez dwa okropne tygodnie napróżno starałem się tu dostać lub pana znaleść; ta pani umiała mnie odganiać a pana więzić. Co wieczór czatowałem na ulicy <stage>(gwałtowniej)</stage> a dziś się wdarłem, ażeby na tem czole wskazać plamę pokalania niewinnego dziecka!</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(z boleścią)</stage> To do zrozumienia... za straszne...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(zbliżywszy się do Makarego – spokojnie)</stage> Czy ksiądz coś wiesz, czy się domyślasz?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(z uniesieniem)</stage> Ja wiem, bo widziałem jak ją dziś po północy uwieziono – <stage>(z odrazą)</stage> a pani się domyślasz – po co...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Kto? od Melanii?... Księże, mów wyraźniej!...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Mówiłbym ci zacna pani, gdybym mógł mojem słowem oberwać ziemię i wraz z wami strącić ją w otchłanie! <stage>(szyderczo)</stage> Jeśli pamięć pani osłabła a ciekawość drażni, pytaj nie mnie a swego przyjaciela, któremu lektorkę darowałaś, lub przyjaciółki, która mu ją wręczyła.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Komu?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Jeszcze pani sobie nie przypominasz?... Idź między groby, uważaj jakiem imieniem teraz puszcze się zwołują, spytaj przed jakiem upiory się wzdrygają a tam usłyszysz nazwisko Molocha, któremu na ofiarę rzuciłaś anioła!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(rozpaczliwie)</stage> Szalony starcze, wymów raz to nazwisko!... Jastrzębiec?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>No otwórzcie się przed niem bramy piekieł. Judaszu! jesteś zbawiony, bo ziemia wydała większego od ciebie zbrodniarza! <stage>(pada bezwładnie na krzesło)</stage></p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(usiłując owładnąć wzruszeniem)</stage> Panie Aureli...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(zerwawszy się)</stage> Uwolnij go pani dla mnie, chociaż na dziś... <stage>(do Aurelego)</stage> U nas tego, co na ulicy rozpaczliwie krzyknie, tylko sprzątają, ażeby spokojnemu rozbojowi nie przeszkadzał. Nie mogłem więc wstrzymać powozu, który ją uniósł i nie wiem, gdzie ją zgubiono. Wierzę jednak, że jeśli żyje, to – czysta, bo ją wychowałem świętą; jeśli zaś splamiona – samobójstwem rzuciła pokalane ciało. <stage>(rzewnie)</stage> Tak jak pan nazywała mnie ojcem – znajdź swoją martwą lub żywą – siostrę...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Ojcze, może źle widziałeś; przecież tu nie dzicy...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Dzicy panie. Chcesz pan jej szukać ze mną?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Nie! Wolę żebyś ją do mnie przyniósł, aniżeli do tej pani przyprowadził...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(gorączkowo)</stage> Dobrze – ale nie odmów mi pan jednej, może ostatniej przysługi. Jeśli pan czujesz, że jesteś mi winien bodaj dobre złudzenie, zechciej za to sprowadzić tu znajomego pana Jastrzębca. <stage>(z dumą)</stage> Potem omijaj pan ten dom, bo od dziś mieć będziesz mniej dla niego szacunku a ja w nim tyleż co dotąd godności.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(wybuchając)</stage> Ludzie, co za złowrogim językiem mówicie!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(wskazując na Makarego)</stage> On sędzia – ja osądzona, niech więc on panu ten język tłomaczy – ja tylko żegnam.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(chwytając Aurelego za rękę)</stage> Jego mam... żywego... chodź... uciekajmy! <stage>(wybiega z Aurelim)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#regina">REGINA.</rs> (sama, później)
+              <rs key="#antoni">ANTONI.</rs>
+            </p>
+          </stage>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(przez chwilę stoi nieruchoma – nagłym zwrotem rzuca się do posągu ojca – wpatrując się weń rozrzewniona, poczem szybko idzie do drzwi, otwiera je i woła rozpaczliwie)</stage> Antoni!</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p><stage>(wpadając przerażony)</stage> Co się stało, że panienka tak woła...?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(usiłując zapanować nad wzruszeniem)</stage> Siądź tu koło mnie, mój przyjacielu.</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>Jezus Marya, co się dzieje... Od śmierci naszego nieboszczyka pierwsze łzy u panienki widzę...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Pamiętasz kochany Antoni, że ojciec umierając jednego tylko człowieka, swego kamerdynera, ciebie mój drogi uznał godnym mi go w potrzebie zastąpić – Pięć lat nie wzywałam twojej pomocy...</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>Skarbie najdroższy, co ci jest? – mrę ze strachu...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie wzruszaj się, staruszku, bo musimy myśleć... Powiedz mi, czy ojciec nie wspominał czasem, jakby postąpił z tym, ktoby mu córkę... siostrę... lub jakąś bardzo drogą istotę...</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p><stage>(wybuchając)</stage> Uwodziciela by zabił!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(drgnąwszy)</stage> Jakto, sam?</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>Tak!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Mówił ci to wyraźnie?</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>Nieraz; a on kiedy mówił, to jak przysięgał!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(z boleścią)</stage> Wiesz Antoni... nasza Cecylia...</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p><stage>(zerwawszy się)</stage> Co?!... Panienko moja, jeśliś temu nic nie winna... wskaż mi tylko łotra a ja ci przy nim zastąpię – ojca!...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(słabym głosem)</stage> Czym nie winna... <stage>(po chwili)</stage> Do tego nie mamy prawa... a nawet lepiej że go nie mamy. Śmierć... to za mało. Zresztą nic jeszcze nie wiem. Oddal się mój przyjacielu. Gdy zawołam przyjdziesz, gdy ja nie będę umiała – ty go ukarzesz, ale tak, żeby żył z karą... <stage>(gwałtownie)</stage> Jeśli ci uczciwego gniewu nie starczy, zmień się w szatana, abyś tylko krzywdę pomścić umiał! <stage>(Antoni wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#regina">REGINA.</rs> (później)
+              <rs key="#ksawery">KSAWERY.</rs>
+              <rs key="#antoni">ANTONI.</rs>
+            </p>
+          </stage>
+          <stage>(REGINA. stoi przez chwilę posępnie zadumana)</stage>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(wchodząc zpoczątku niedostrzeżony przez Reginę)</stage> Wszystkie posterunki przedpokojowej straży zdjęte... <stage>(zbliżywszy się do Reginy)</stage> Czy dla mnie?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(spojrzawszy cofa się ze wstrętem)</stage> Oh!...</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Przestraszyłem? Winien temu lwim szpikiem karmiony afrykański Herkules pani, który mnie tu prawie przemocą porwał na rozkaz swojej...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(z groźnym spokojem)</stage> Coś pan zrobił z Cecylią?</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Pani nie chce, ale ja muszę wiedzieć, że są jeszcze kobiety, dla których jedyną nagrodą za doznane od nich przyjemności jest... <stage>(z naciskiem)</stage> tajemnica.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(gorączkowo)</stage> Daruję panu te słowa, tylko się pan przyznaj, że jedynie dla ubliżenia mnie – okrywasz strasznem podejrzeniem siebie.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Przyznaję się... że nie posądzałem panią o tyle lękliwości. Bo zdawało mi się dotąd, że oboje dzielimy świat na gatunki zjadające i zjadane i że licząc się do pierwszych, nie czujemy potrzeby ulegania prawom wynalezionym dla interesu ostatnich. Chcę żyć i żyję swobodnie – pragnienia pani są też same; czemże więc panią mogłem przestraszyć a na siebie złe podejrzenie ściągnąć?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Bezwstydem! w który jeszcze wierzyć nie mogę...</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Pani dobra... co dla zatarcia różnicy między nami straciłem przed chwilą w zrównaniu się z panią, należałoby mi zwrócić w należnej grzeczności.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(dumnie)</stage> Kto pan jesteś?</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Dziedzicznym moim herbem Jastrzębiec – osobistym – honor, wolno wiedzieć jak się zwie pani nabyte szlachectwo?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Kiedy panu honor służy, wybieram bezcześć dla siebie, aby tylko różnica między nami się nie zatarła.</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Wybór tak właściwy, że trafnością odkupuje nawet swoje znaczne spóźnienie.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(w uniesieniu)</stage> Teraz mnie pan tylko upewnij, ześ śmiał targnąć się na Cecylię, a przez całe życie zdobić się będę obrazą ust pańskich!</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Co to za szczęście, że godność mę jak wydra – nawet najgłębiej zanurzywszy się wypływa sucha. <stage>(siada)</stage> Temu cennemu przymiotowi mojego rodzaju pani winna naszą obecną pogadankę, a ja spokój, że po wyjściu ztąd skrzywdzony przez nią nie będę. Ażeby zaś nawzajem nie skrzywdzić, ośmielę się przed kwestyą Cecylii uczcić podziwem usta pani, które są tak czarodziejskie, że napoiwszy wielu odurzającą rozkoszą, teraz chcą wysączyć dla mnie otrzeźwiającą kroplę cnoty...</p>
+          </sp>
+          <stage>(Wczasie tych słów wchodzi Antoni i staje w głębi sceny)</stage>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(gwałtownie)</stage> Ostatni raz pytam: czy pan Cecylię zgubiłeś?</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(wstając)</stage> Zgubiłaś ją pani – dla mnie – ja tylko podrzuconą znalazłem – wziąłem – a za usłużność dziękuję.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Zbójco!</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p><stage>(kłaniając się szyderczo)</stage> Z łaski twojej – cnoto...</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p><stage>(przybiegłszy do Reginy)</stage> On?!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(do Antoniego)</stage> Pomścij – ja nie umiem... <stage>(wspiera się osłabiona)</stage></p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Kto to?</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>Sługa tego domu!</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Musisz w nim te drzwi otwierać, któremi ja nie wchodziłem – bo cię nie znam.</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>Za to dziś ci otworzę i poznasz mnie. Zbrodniarzu, gdy wyjdziesz ztad, podziękuj djabłu że cię na świat wypluł o pięć lat później, bo gdyby ojciec tej mojej pani był twego występku doczekał, klnę się na świętego Boga i sprawiedliwych ludzi, że by cię żywym ztąd nie puścił. <stage>(do Reginy)</stage> Pani najdroższa, wszystko słyszałem! Jeśli żyć ma – niegodny ażeby czysta dłoń się na nim splamiła... Zwołam całą służbę, może go kto ukarze... <stage>(biegnie i otwiera wszystkie drzwi)</stage> Wszyscy!... tutaj!... <stage>(wpada trzech służących)</stage> Dzieci moje! ten zbrodniarz uwiódł naszego anioła... Cecylię. Kto z was gorszy – niech go znieważy... <stage>(chwila milczenia)</stage> Idź! jesteś wolny... a ja jutro szczęśliwy opowiadać będę, że w służbie mojej pani nie znalazła się ani jedna ręka, któraby chciała dotknięciem zaszczycić twoją twarz honorową...</p>
+          </sp>
+          <sp who="#ksawery">
+            <speaker>KSAWERY.</speaker>
+            <p>Ten lokajski sąd...</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>Ani słowa! Czołem łotrze przed uczciwością lokajów i za drzwi z ich wzgardą!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(z wstrętem)</stage> Korzystaj pan z bezpieczeństwa, póki uczciwość tylko gardzi.</p>
+          </sp>
+          <stage>(KSAWERY. blady milcząc wychodzi)</stage>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#regina">REGINA.</rs>
+              <rs key="#antoni">ANTONI.</rs>
+              <rs key="#służący">SŁUŻĄCY.</rs>
+              <rs key="#melania">MELANIA.</rs>
+            </p>
+          </stage>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(do służących)</stage> Odejdźcie, moi kochani – tylko ty Antoni zostań. Drżałby ród kobiecy, gdyby nieraz widział, jak wyglądają jego ideały – prawda? <stage>(siada zmęczona)</stage> I ja drżę, mój przyjacielu... W ludziach muszą być wulkany, bo czuję w sobie trzęsienie... <stage>(drgnąwszy)</stage> Och! wszystko się we mnie przetapia... na boleść. Wystaw sobie, kochany, słyszę jak mnie powietrze dotyka... myśli przed sobą widzę... Antoni! nigdy tak nie cierpiałam!...</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p><stage>(czule)</stage> Źrenico moja, nie martw się – panienkę znajdziemy.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie wiem wszystkiego – pytać się boję – ten straszny ksiądz mi zabronił. Nawet Marylki od wczoraj nie ma a przecież ona odprowadziła Cecylię do tej nieszczęsnej jaskini.</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>O Marylce niech pani zapomni – niegodziwa!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Dla czego?</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>Potwór! Za tyle lat opieki nad nędzarką od głodowej śmierci uratowaną...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(niespokojna)</stage> Co zrobiła?</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>Potwór! mówię...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie kryj – wolę wiedzieć!</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>Przed chwilą dopiero ją znaleziono. Uciekła do jakiegoś łotra, który tu bywał i powiada, że także chce żyć wolna...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Cały więc świat mój się rozpada!...</p>
+          </sp>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p><stage>(meldując)</stage> Panna Melania!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Precz z nią!</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p><stage>(wdzierając się)</stage> Jam niewinna – on mnie oszukał! <stage>(służący cofa ją zamknąwszy drzwi)</stage></p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(w silnem uniesieniu)</stage> Przynieście mi tu wielką górę i postawcie przede drzwiami, ażeby przez nie nie przełaziły te występne płazy. Antoni drogi, odkryj dach tego domu, bo mnie powietrze zadławi... W pulsach czuję uderzenia ludzkich klątew!... <stage>(rzucając się na popiersie ojca)</stage> Ojcze mój! dlaczego nie żyjesz... <stage>(po długiej chwili milczenia spokojna do Antoniego)</stage> Antoni!</p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p>Jestem panienko.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Idź zaraz do ojca Makarego i proś, ażeby mnie jutro o 9–ej rano u siebie w celi wyspowiadał. <stage>(wychodzi)</stage></p>
+          </sp>
+          <sp who="#antoni">
+            <speaker>ANTONI.</speaker>
+            <p><stage>(zdumiony)</stage> Co to się stało...?</p>
+          </sp>
+          <stage>(Zasłona spada)</stage>
+          <trailer>(Koniec aktu II-go)</trailer>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT III.</head>
+        <stage type="setting">
+          <p>(Cela Makarego. Wprost drzwi na korytarz przez które widać wnętrze klasztornego chóru; na prawo drugie prowadzące do sąsiedniej celi. Dwa proste krzesła, stół, łóżko, półki z książkami i klęcznik a nad nim krzyż)</p>
+        </stage>
+        <div type="scene" n="14">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#makary">MAKARY.</rs> (i) 
+              <rs key="#jacenty">JACENTY.</rs>
+            </p>
+          </stage>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(klęczy niemo wpatrzony w krzyż)</stage> Panie mój, zakończ to nędzne życie, pod którem tak upadam, jak ty upadałeś pod krzyżem, gdyś go na własną mękę nieść musiał. Jako szczęście – za małe, jako kara za – wielkie. Jeśli zaś ta miłość, którą dotąd w duszy chowam, jest grzeszną, a ta boleść, która mnie gnębi – zasłużoną, pomóż mi ażebym to pojął. Ufność strapienia mi wydarły, rozum ze splątanych uczuć wydobyć się nie może, a myśl błąka się w rozpaczy... Spraw więc Panie, ażebym tylko w niebo wierzył, tylko w niebie miał nadzieję i tylko niebo kochał... <stage>(po chwili)</stage> Nic... <stage>(patrzy w książkę a potem wstaje)</stage> Nieme znaki...</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p><stage>(wszedłszy po cichu)</stage> Pozwoli ojciec dobrodziej...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(drgnąwszy)</stage> Czego chcesz bracie?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Przerwałem ojcu pobożne rozmyślania...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Bezbożne – mówisz – i takie nawiedzają...</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Ale nie ojca Makarego, który się ciągle modli...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Gorzej... bo myśli...</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>U ojca to bywa wszystko jedno.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Już nie bywa... Ale po co przyszedłeś bracie?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Chciałem prosić o objaśnienie, jakie oracye mamy odmawiać, bo dziś klasztorne święto a klerycy dobrze nie wiedzą...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Na cóż wam te oracye?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p><stage>(zdziwiony)</stage> Na co?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Ach – przecież – wiem. Siądź no, bo i ja siąść muszę, jestem zmęczony. Powiedz mi, jak ci się zdaje, czy słusznie mówił pewien świecki mędrzec, że „nie należy tłomaczyć ustaw Boga na męczarnie ludzi?”</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>On był człowiek świecki, nie wiedział jak my, że umartwienie jest cnotą.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(uniesiony)</stage> Ty mniej wiesz niż poganin, który ogłosił, że „Bóg nie może być złym, tylko źle rozumianym!”</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p><stage>(lękliwie)</stage> Ach, ojcze szanowny i ja temu nie przeczę...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(spokojnie)</stage> Któżby cię posądzał, żeś przeczyć zdolny. Myślałeś ty kiedy?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p><stage>(zmieszany)</stage> Nad czem?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Nad wszystkiem... nad światem... nad sobą...</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Nad sobą? Wstyd wyznać, ale każdy człowiek o sobie pamięta...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Nie o to pytam. Chociaż znowu lepiej, żeś tak nie myślał.</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Jak?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Jak nieszczęśliwi... potępieni...</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Potępieni!... Boże uchowaj!</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Uchowa cię – a raduj się z tego... Bo lżej wesoło zabijać, niż smutnie myśleć. Barwami tej katuszy możnaby piekło wymalować, jej groźbą – złoczyńców na pokutników zmienić. Są męczeństwa, mój bracie, z których każde wystarczyłoby Bogu do obdzielenia winnych karami na wieczność całą. <stage>(z rzewną boleścią)</stage> Gdybyś ty zajrzał w moje serce...</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>W czyje?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Ach, co mówię... przecież tam nic nie ma... I ty pewnie nawet nie przypuszczasz, ażeby pod tym prostym workiem tliły się uczucia. A jednak i to się zdarza! Wszystko się zapali – wrzuć tylko odpowiednią iskrę. Kto wie, czy od jakiej ziemia by się w dym nie rozwiała – chociaż nie palna. Tak i z nami. Ale prawda, ty mnie pytałeś, czem się najlepiej znieczulić?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p><stage>(zlękniony)</stage> Broń Boże! co dziś śpiewać mamy...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Ach, tak! Już i pamięć straciłem – sobie odpowiadam. Cóż mam robić, kiedy mi nawet Bóg odpowiedzieć nie chce, bo chyba umie – jak sądzisz?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Któżby się odważył o tem wątpić!...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(żywiej)</stage> Są tacy, co się odważają, gdy krzyż milczy.</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Nie wszyscyśmy cudów godni...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Czemu nie mam być godny! Ale twoja rozdeptana dusza nie rozumie takiej śmiałości. Podnieś no przynajmniej na chwilę w proch zagrzebane czoło i spójrz ze mną ku niebu, może kto ztamtąd do nas przemówi...</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p><stage>(wstając z krzesła)</stage> Księże gwardyanie... ja tego nie zrobię...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(z lekką ironią)</stage> A ja chciałem cię skusić!... <stage>(żywiej)</stage> Uciekaj, bo może zapomnę kto jesteś i mówić będę!... <stage>(spokojnie)</stage> Czego ja cię straszę... dziwny jakiś jestem – prawda? <stage>(po chwili)</stage> Czas już do chóru?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Czas – ale ojcowie jeszcze śpią.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>I ja spać chciałem, ale nie mogłem.</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Całą noc ojciec spędził na modlitwie?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Na biczowaniu.</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Boże wielki!</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Tylko nie kłopocz się. W gonitwie do nieba żadnego z was ani o sekundę nie prześcignąłem. A nawet cieszcie się, bo może po tej nocy jestem między wami zasługą pobożności ostatni.</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Wolne żarty: przecież ojciec był w celi – sam.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(szyderczo)</stage> Wiedz przyszły sędzio dusz ludzkich, że nie czyn a myśl grzeszy... Tobie z tej strony nic nie grozi – nie zgrzeszysz... Jesteś przynajmniej szczęśliwy?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Szczęście nasze nie z tego świata, tu mamy mało, ale i mało potrzebujemy.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Poprzestań na tem – radzę ci. Nie budź w duszy tego, co w niej umarło, lub zamorduj to, co zakazane żyje. Zastanowiłeś się kiedy, co znaczą te wysokie i grube mury klasztoru? One nie od złych ludzi nas strzegą, bośmy biedni, ale od nas samych, bośmy bez nich dla siebie niebezpieczni. Trzeba nam zasłonić widok świata, ażebyśmy patrząc na jego ponęty własnego serca nie gryźli. Radzę ci, nie wyglądaj po za te ściany, bo cię odurzy rozkoszne powietrze, olśni blask życia, zobaczysz swobodę, zachwyty, myśli, cele, miłość... wszystko, co tu tajemnie w piersi przeniesione i niezabite zabija. Nasz świat inny, wielki grób, gdzie próchnieją martwi a konają w letargu pogrzebani. I powiedz mi, na co ten grób, na co nas żywe mumie ludzkość sobie przechowywa?!</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>My nie dla niej a dla Boga.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Nędzarzu, sądzisz, że Bóg na to nas stworzył, ażeby się miał nad czem pastwić – On! najmiłosciwszy!? Tylko okrucieństwo ludzkie wymyśliło dla niego kadzidła z krwi i dziękczynienia z jęków!</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Ach! ojciec dobrodziej tak nigdy nie mówił...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(gorzko śmiejąc się)</stage> Nigdy... do ciebie... Widziałeś jak lew ciągle wstrząsa kratami klatki, chociaż lata całe przekonywał się, że ich nie wyłamie – bo spodziewa się, że wreszcie wyłamie. My – no nie ty – ale są przecież tacy jak lwy. Szczęściem że oswobodzeni siebie tylko rozszarpujemy... prawda?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Gdzie my tam lwy – prędzej mizerne robaki.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Co się własnem żądłem zabijają – tak? Więc i ty swojemu habitowi złorzeczysz?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Ja? Bóg świadkiem duszy mojej że nie!</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>To nic nie znaczy! Słuchaj mnie, pozatykaj w swej ciemnej celi wszystkie szpary, bo gdy się jeden promień życia przeciśnie, całą ci falami zaleje. Strzeż się, bo ściany za cienkie, mury za niskie a serce niepokonane. Dwadzieścia lat je dusiłem... <stage>(opamiętywując się)</stage> Ach! co mi jest!... Braciszku mój, już czas do choru... pobudź ojców... może z niemi łatwiej się pomodlę.</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Już chyba wstali.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Albo niech lepiej śpią, może tak jak ja czuwać nie chcą. Siądź jeszcze. Powiedz mi, masz rodziców?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Ojca i matkę.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Pewnie cię źle wychowali, nie uczyli, nie strzegli od mniszych sideł a może wtrącili tu, żebyś starszemu bratu nie przeszkadzał...</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Nie księże gwardianie. Pieścili mnie, oddali do szkółki a potem do seminarium, ażeby mnie los a sobie chwałę i pomoc zapewnić, bo bardzo biedni.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Więc oni cię lubią?</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p>Bardzo.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>I szczycą się tobą? Dla nich może nie ma nic droższego, pewnie chodzą dumni po ulicach i jawnie rozpowiadają wszystkim: mamy syna!... to nasz syn!... niczyj tylko nasz!... Bo ty nie wiesz, co to mieć dziecko i kochać je!... <stage>(gwałtownie)</stage> No przyznaj się, może jesteś także... ojcem!</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p><stage>(zerwawszy się)</stage> Księże Makary, na takie podejrzenie nie zasłużyłem. Przecież nie jestem żaden zbrodniarz...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(w spazmatycznym śmiechu)</stage> Zbrodniarz... zbrodniarz! Robacze serce, jak ty czujesz? O, bracie, przestań się modlić a ucz się rozgrzeszać, bo kiedyś będziesz cudze serca sądził. A teraz idź, idź i powiedz podobnym sobie, że ja w chórze dziś modlić się nie będę, bom oszalał!</p>
+          </sp>
+          <sp who="#jacenty">
+            <speaker>JACENTY.</speaker>
+            <p><stage>(odchodząc przerażony szepcze półgłosem)</stage> Oremus, omnipotens Deus...</p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#makary">MAKARY.</rs> (sam, później)
+              <rs key="#aureli">AURELI.</rs>
+            </p>
+          </stage>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(stoi przez chwilę, potem rzuca się na klęcznik ukrywając twarz w dłoniach i wstaje)</stage> Nie mogę...</p>
+          </sp>
+          <stage>(AURELI. wszedłszy zatrzymuje się)</stage>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(spostrzegłszy go – w uniesieniu)</stage> On, czy tylko... myśl moja?!</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(zbliżając się i podając mu rękę)</stage> Ja ojcze kochany. Przecież sam wczoraj żądałeś, ażebym rano do ciebie przyszedł...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(patrząc mu w oczy z wruszeniem)</stage> Zabiła się? – niekryj pan – i to zniosę... <stage>(rozpaczliwie)</stage> Splamiona żyje? – powiedz – może przecież usłyszawszy to umrę!...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Nic nie dowiedziałem się, oprócz tego, że ją ten niegodziwiec niby na żądanie Reginy, która gdzieś czekać miała, uwiózł.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(ze łzami)</stage> Ach, gdyby święci mu ją wydarli i do nieba unieśli! <stage>(ponuro)</stage> Marzysz zrozpaczony głupcze – dla dogodzenia tobie konieczność w cud się nie zmieni. <stage>(siada osłabiony)</stage></p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Melania jednak przyrzekła, że ją znajdzie i tu odprowadzi.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(jak gdyby do siebie)</stage> Biedaczka moja ocalić się nie mogła – że nawet upadłą bym kochał – nie wiedziała, więc... nie żyje!... <stage>(powstawszy z rezygnacyą)</stage> Oba zrobimy trumnę – oba wykopiemy dół – <stage>(śmiejąc się dziko)</stage> ale sam go pan zasypywać będziesz, bo ja tam z nią zostanę. A teraz dajmy już pokój umarłym i zajmijmy się żywemi. Jakoś mi pan za szybko tu się marszczysz... klimat nie służy...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Niedługo mi dokuczać będzie – jadę do Francyi a potem...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Co to znaczy?</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Gdy mnie przed tygodniem afrykańscy znajomi listownie spytali, czy chcę wraz z niemi wziąść udział w nowej wyprawie do Madagaskaru, brakło mi nawet chęci im na to odpowiedzieć. Wczoraj jednak sam posłałem do nich prośbę, ażeby na mnie czekali...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>To być nie może! <stage>(spokojniej)</stage> Przecież panu się tu dość podobało...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Właśnie dla tego wyjadę. Kocham ciągle moje piękne marzenia, z jakiemi przybyłem i dziś jeszcze pragnę dla nich żyć, przedtem jednak muszę zapomnieć o wszystkiem co mnie tu zawiodło i czego tu łatwo zapomnieć bym nie mógł. W tęsknocie najlepiej giną smutne pamiątki. I mnie więc trzeba teraz potęsknić. Gdy z Madagaskaru spojrzę na nasz kraj, wyda on mi się tak jasnym i czystym, jak z ziemi słońce. Jeśli mam go kochać, nie mogę zaczynać z nim życia od poznania jego plam. Smutna dola! Czy spodziewałem się odebrawszy <stage>(wyjmuje bilet i podaje Makaremu)</stage> ten bilet na afrykańską wyprawę, że on był dla mnie tak złą wróżbą!...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(z wzruszeniem)</stage> Czy pan już dziś chcesz się ze mną pożegnać?</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Na pojutrze swój przyjazd zapowiedziałem. A zresztą im ztąd prędzej, tem lepiej i... łatwiej. Bo kto wie, czy jutro nie poddałbym się uczuciom, którym ledwie dziś oprzeć się mogę, <stage>(z zapałem)</stage> czy w brew naszym obu rozumom nie poszedłbym za tą kobietą...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(przerywając mu gwałtownie)</stage> Jedź, jedź mój drogi i nie wracaj, aż zaczniesz ją nienawidzieć. Ty panie jej nie znasz; na opowiedzenie ci wszystkich okropności życia by mi zbrakło. Okrutna jak nieświadome swych czynów dziecko, zimna jak fala, która pochłonąwszy ofiarę nawet barwy nie zmieni. Jest to postrach dla uczciwości – drapieżna nielitość – bezwstyd w cnotę oprawiony. Ze swego występnego skarbca żywi pół tutejszej nędzy. Gdyby mogła, zburzyłaby to miasto i wybudowała inne, ażeby na jego bramach swoje osławione imię zapisać. Chcesz pan zostać ogryzioną kością, wzgardliwie rzuconą resztką jej rozpustnego stołu, chcesz tułać się po świecie ścigany widmami własnej rozpaczy i śmiechami cudzego szyderstwa, chcesz widzieć, jak byś wyglądał obłąkanym trupem – to rzuć się w jej objęcia!</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Ojcze, czy ty się bardzo nie mylisz...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Czy ja się nie mylę? <stage>(słychać pukanie – Makary spogląda na zegar)</stage> To ona – chce się dziś spowiadać. Wejdź pan do tej celi... <stage>(z dzikim naciskiem)</stage> i nie wyrzucaj z uszu, jeśli jakie słowo do nich wpadnie.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(wchodząc do celi)</stage> Ona?... spowiadać się będzie?</p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#makary">MAKARY.</rs>
+              <rs key="#regina">REGINA.</rs> (później)
+              <rs key="#aureli">AURELI.</rs>
+            </p>
+          </stage>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(sam)</stage> Ona mnie ze swego domu wypędzać mogła a ja ją w moim przyjąć muszę!... Szatan w jej ciele nie śmiałaby przyjść do mnie po rozgrzeszenie!... <stage>(głośniej)</stage> Jestem!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(wszedłszy czarno ubrana)</stage> Dziękuję księdzu za nieodmówienie mojej prośbie...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(cierpko)</stage> Nie wolno mi było odmówić...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Jest mi to wreszcie wszystko jedno, abym tylko była wyspowiadaną.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(siada)</stage> Czekam.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Mogę usiąść?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Obrządek nasz zezwala na to tylko wyjątkowo.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Niewątpliwie należę do jego wyjątków.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Pani więc chcesz spowiadać się głośno? w takim razie drzwi zamknę.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Lepiej ojcze ściany pootwieraj, niech mnie cały świat słucha.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Może pani nie wiesz, że obrządek nasz wymaga w tym akcie szczerości.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Przystępuję do niego po raz pierwszy i jedyny, przyszłam tu z własnej woli, zrzekam się wszelkich korzyści pokory, więc możesz być ojcze spokojny o szczerość mojego wyznania.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(zdziwiony – niecierpliwie)</stage> Czego pani właściwie chcesz?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Wyspowiadać się.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Można usiąść, <stage>(z ironią)</stage> żegnaniem przykrość bym sprawił – więc je pominę.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(usiadłszy)</stage> Pozwól mi ksiądz myśli zebrać. <stage>(pochwili)</stage> W dwudziestu trzech latach mego życia nie mam ani jednej tajemnicy. Dla tego właśnie nikt mnie nie zna, chociaż wszyscy wiele o mnie powiedzieć umieją. Ponieważ nie kryłam się z niczem, posądzono mnie, że kryję się z wszystkiem. Sumienie moje odgadywano kłamstwami; nikt go nie zbadał; każdemu wydawało się zbyt proste, ażeby dla niego mogło być zrozumiałe...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Czy pani pamiętasz, że się spowiadasz?</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Bardziej może niż wszyscy, których ksiądz kiedykolwiek słuchałeś. Przed pięciu laty straciłam ojca. Do tego czasu żyłam tylko z nim, on tylko ze mną. W młodości żył z ludźmi i kochał ich, gdy mu jednak raz kazano się zaprzeć swoich przekonań dla opinii ogółu, usunął się od niego, gdy go za te szczere przekonania zniesławiono, ze zgryzoty umarł. Na to wszystko patrzałam i w tem wzrastałam. Gdy nadeszła ostatnia dla niego chwila, zawołał mnie do siebie i powiedział: jeśli odziedziczyłaś moją naturę, nie łącz się z ludźmi, ażebyś się kiedyś z niemi rozłączać nie potrzebowała. Kochaj głazy, czcij zwierzęta, pozwól się katom umęczyć, ale odmów całej ludzkości najlżejszego ustępstwa, jeśli ci ona prawa do uczuć odmówi. Niech cała zginie – ty nie poświęć się dla niej, jeśli cię do ofiary zmusić zechce; a gdyby cię za to piętnowano, pomyśl, że ja to piętno z grobu pobłogosławię. Wreszcie bądź inną, jeśli chcesz i możesz a wtedy zapomnij o mnie, bo musiałabyś ciągle pamiętać, ile cierpiałem po rozstaniu się z ludźmi – oddając im ciebie. Odziedziczyłam jego naturę i tradycyę jego życia. Nie chciałam i nie mogłam zapomnieć ani o jednej ani o drugiej. Kiedy z jego mogiły spojrzałam po świecie zapłakanem okiem, dostrzegłam odrazu, że mnie czekało poddaństwo lub walka. Wybrałam ostatnią – zaczęłam żyć sama. Nie minęły jeszcze dwa lata a już mnie za to – słuchaj ojcze – za to tylko potępiono. Cywilizowani zbrodniarze uważali się za cnotliwszych ode mnie i nikt im tej wyższości nie odmawiał; uczciwi odwracali się ze zgrozą i nikt im tego za złe nie brał. Wzajemnie pogardziłam wszystkiemi. Z potępienia świata czerpałam godność, z jego złorzeczeń – rozkosze. Nie czułam nic oprócz tego, że byłam swobodnym człowiekiem. Za ten jeden zaszczyt zrzekłam się wszystkich, jakie mi świat wzamian obiecywał i z jakich mnie wywłaszczył. Nie ustąpiłam mu do dziś. Ze wszystkiego co mi się od ludzi należy, najbardziej strzegę moich praw człowieczych. Jestem dla siebie ogniskiem stworzenia. Dla nikogo z musu się nie poświęcę, cnoty w umartwieniu znać nie chcę, obowiązku zapomnienia o sobie nie rozumiem. Niech inni przechodzą życie nie zauważywszy siebie – mnie ten nimbus pokory nie wabi. Dla mnie ludzkość nie jest żadnym obłokiem kurzu, którego wszystkie źdźbła biedz muszą za popędem jednego powiewu. Ile ludzi, tyle osobnych światów – ja jednym z nich i wiem o tem. Nie chcę być niedostrzegalnem ziarnkiem kupy mierzonej massą, nie chcę poruszać się jedynie ruchami gromady, ale przedewszystkiem żyć dla siebie i przez siebie. Wszędzie rozpostrzeć mi wolno moje ludzkie prawa, gdzie one cudzych nie naruszą.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(który drżąc wpatrywał się w Reginę)</stage> Nie sidłaj mi pani myśli – w pychę <stage>(ukrywa twarz w dłoniach)</stage></p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Świat mniema, że te tylko kobiety od niego się usuwają, które chcą upaść. To też rozmaite kruki nawykłe widzieć w naszej swobodzie jedynie chęć zepsucia, zaczęły zlatywać się na około mnie, sądząc, że na to pragnęłam żyć wolną, ażeby się stać ich łupem. W każdym ich hołdzie widziałam jasno niezasłużone dla siebie poniżenie, ale zarazem w każdym ich zawodzie, zasłużoną dla nich karę. Sami na sobie mścili się za mnie. Ja tylko z nielitościwą roskoszą patrzyłam, jak jeden po drugim przeze mnie rozbijał w szaleństwie swe życie. Tłum chciwie przysłuchiwał się i wierzył kłamstwom, jakiemi mnie zawiedzione i nieuczciwe dusze przed nim czerniły, nie wiedząc o tem, że ja gdybym raz we śnie była przekonana o słuszności przechwałek moich wielbicieli, nie obudziłabym się z takiego snu żywa. O sprawiedliwość jednak tłumu nie dbałam. Zwyciężał mnie tylko jedną bronią: zatamował mi wszystkie drogi, na których mogłam i chciałam się stać użyteczną tym, którym najszczerszych uczuć nigdy nie odmawiałam – nieszczęśliwym. Musiałam skradać się z każdą pomocą, bo ile razy ją odkryto – zniesławiano. Klasztor wasz ma ochronę dla sierot – podobno ty ją ojcze założyłeś; pragnęłam ją wspierać i bezimiennie wspierałam, obawiając się nawet pytać, czy istnieje. Raz bowiem zdradziwszy swój udział w jednej dobroczynnej instytucyi, odstraszyłam połowę jej protektorów. Tem tylko że żyłam swobodna. W miarę jak zakres mego życia coraz bardziej się zwężał, wzrastała we mnie chęć oporu massie i ofiary dla jednostek. Postanowiłam nie tylko w swojej niezależności wytrwać, nie tylko wszystkich odtrąconych wspierać, ale nadto każdą mi dostępną duszę na podobną drogę przeprowadzić. Wtedy zaczęły się moje błędy...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(tamując wzburzenie, z rzewnem błaganiem)</stage> Z grzechów... z grzechów zacznij mi się już raz spowiadać!...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie wiedziałam, że swoboda może być także prawem niebezpiecznem. Ona to przez moje usta nauczyła jedną upadłą bardziej upadać, zamiast ją podnieść, popchnęła prostą dziewczynę do zboczenia, zamiast ją od niego powstrzymać, naraziła i zgubiła niewinne dziecko, zamiast je ochronić... <stage>(wstaje)</stage> Najstraszniejsze jednak pomyłki nie wyrównywają winą świadowej zbrodni. Dotąd niemo gardziłam krzywdzącem posądzeniem, ale dziś znieważyłabym sama moją cześć kobiecą, gdybym na odpowiedź twojemu księże oskarżeniu nie odsłoniła jej czystości. Dowiedz się zatem ojcze, że w całem życiu mojem nie ma ani jednego czynu, którego by dzieci, jakiemi Chrystus się pieścił, znać nie mogły. Kiedy dorosłam, mój nieśmiertelnej pamięci ojciec przyprowadził mnie raz przed wiszący u niego obraz pewnej słynnej królowej i rzekł: była tak czystą, że nawet umierając, chociaż gorliwa katoliczka, nie pozwoliła się księdzu dotknąć przy ostatniem namaszczeniu. Taką byłam – ja, aż po chwilę, w której te słowa wymawiam; taką uchować pragnęłam Cecylię wtedy, gdyś księże mnie wyklinał. Oddać ci jej nie mogłam, boś ją chciał odebrać w imię poniżenia dla mnie, bo wierzyłam w prawość moich uczuć dla niej, bo pragnęłam, żeby ona własnem szczęściem opowiedziała kiedyś światu i tobie moją uczciwość i krzywdę, bo ją jak siostrę, jak dziecko kochałam. Jest kto, co by w jej nieszczęściu więcej stracił a mniej zawinił? Sądź ojcze, bo to już wszystkie moje grzechy.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(który długo pasował się z silnem wzruszeniem)</stage> Aureli!... Aureli!... <stage>(Aureli ukazuje się)</stage></p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>On... tam?...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(w uniesieniu do Aurelego)</stage> Nie wiedziałem... kłamałem... kochaj ją... niewinna...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(z zapałem)</stage> Cienie grzechu, pokryjcie sobą wszystkich ludzi, aby mi ona tylko jasną pozostała! <stage>(chce biedz do Reginy)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#makary">MAKARY.</rs>
+              <rs key="#regina">REGINA.</rs>
+              <rs key="#aureli">AURELI.</rs>
+              <rs key="#melania">MELANIA.</rs> (i) 
+              <rs key="#cecylia">CECYLIA.</rs>
+            </p>
+          </stage>
+          <stage>(MELANIA. stając we drzwiach korytarza z Cecylią)</stage>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(z gwałtownym niepokojem i radością)</stage> Żyje!?</p>
+          </sp>
+          <sp who="#melania">
+            <speaker>MELANIA.</speaker>
+            <p>Ocalona! Może za to wszystkim przebaczać będziecie, wtedy przebaczcie i mnie... <stage>(szybko oddala się)</stage></p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(wołając za nią)</stage> Pani!...</p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#makary">MAKARY.</rs>
+              <rs key="#regina">REGINA.</rs>
+              <rs key="#aureli">AURELI.</rs>
+              <rs key="#cecylia">CECYLIA.</rs>
+            </p>
+          </stage>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(przybiegłszy do Makarego z płaczem)</stage> Och księżulku, nie gniewaj się, ale pociesz mnie i podziękuj tej pani, że mnie odnalazła i wyratowała z niegodnej zasadzki, gdzie przez półtora dnia uwięziona konałam w strasznych przeczuciach. Kto wie, czy zdrajca który dotąd nie śmiał... <stage>(Poważnie – odstąpiwszy od Makarego, który z niedowierzaniem się w nią wpatrywał)</stage> Księże Makary... wierz mi, jeśli wierzysz sobie, żeś mnie tylko niepokalaną żyć nauczył.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(powiódłszy na około osłupiałym wzrokiem z wniesionemi do góry rękami zwracając się naprzód do Reginy)</stage> Rozgrzesz mnie pani... rozgrzesz ludzki rodzaju... rozgrzesz całe stworzenie za niesprawiedliwe słowa rozpaczy, bom... ja tych dwojga... <stage>(zatrzymuje się chwilę – następnie z krzykiem)</stage> ojciec!</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>My jego dzieci!</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Ja jego syn – moja siostra!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(cichym głosem)</stage> Rozumiem go... <stage>(chwila głębokiego milczenia)</stage></p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(z dziką rozpaczą)</stage> No nie ociągajcie się dłużej i śmiało przeklnijcie występnego ojca!</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(zbliża się do Makarego i klęka)</stage> Dla innych występny, pozwól mi się uczcić, dla mnie najszlachetniejszy z żywych.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(ze łzami)</stage> Duszo wielka – czemuś w świecie nie jedna. Patrz, jak milcząc złorzeczą mi własne dzieci...</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(rzucając się Makaremu na szyję)</stage> Ojcze drogi, nie wiem czego się zlękłam – przecież cię zawsze tak nazywałam.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(chwytając za rękę Makarego)</stage> Daruj mi ojcze – nie mogłem odrazu rostać się z marą, którą mi za ciebie dotąd podstawiano. Nie tu się chowałem – złorzeczyćbym ci nie umiał. Bądź ojcem moim, kiedy nim jesteś – ja kochać cię będę, jak gdybym kochanego po straceniu odzyskał.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Boże, co ja czuję! W duszy mojej wielkie święto. Zagłuchnij choć na chwilę wszystko co żyjesz, niech ich raz swobodnie nazwę: <stage>(z uniesieniem)</stage> moje dzieci! <stage>(całuje namiętnie Aurelego i Cecylię)</stage> Ach, czemu prócz nas są jeszcze ludzie!</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Ojczulku, gdzie nasza mama?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Biedne sieroty – nie domyślając się, przed kilku tygodniami odprowadziliście ją do grobu.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p>Ciotka – moja mama?</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Dla czego ojcze mi wtedy nie powiedziałeś, byłbym ją przynajmniej w trumnie zobaczył!</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Spytaj lepiej, dla czegoś nie mógł jej przez całe życie widzieć? Dla czego ona zobaczywszy cię tu tajemnie, z wruszenia obłąkana umarła? Dla czego ochrzciwszy cię w przystępie ojcowskiego szaleństwa na własne nazwisko, potem oddałem przyjacielowi, ażebyś zdala od nas ślad swego pochodzenia zatarł? Dla czego twoją siostrę musiałem dla oszukania świata przynieść jej matce niby podrzuconą przy furcie klasztoru? Dla czego mnie i jej podgroźbą występku niewolno było przyznać się do was? Pytaj o to, ale nie mnie, tylko tych, którym na odpowiedź wystarczy – żem ja ksiądz a ona matka moich dzieci. Boże ciebie obrażam!... Cicho moi drodzy... cicho...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Czego się lękasz ojcze.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(zniżonym głosem)</stage> Bezbożności słów własnych... Ty nie rozumiesz, co to jest być księdzem... Tak straszną czuję trwogę, jak gdybym w całej ludzkości tylko ja był winnym. Zdaje mi się, że Bóg tylko na mnie teraz zwrócił swoje groźne oko – tylko mnie słucha. Cicho kochani moi cicho... <stage>(milcząc chwilę wpatruje się w Aurelego i Cecylię)</stage> Kto wy!?... Wiem – nigdy nie zapomniałem – a tak mi trudno powtórzyć. Dwadzieścia pięć lat strach kuł mi usta milczeniem, szesnaście strzegłem się głośno wymówić dwu wyrazów i czasem tylko myślą szeptałem do siebie: ty i ona – nie! Aureli i Cecylia – nie! no czegóż się boję, przecież już raz powiedziałem: syn i córka!... dzieci... moje! tak! moje! Nie lękam się nikogo, ktokolwiek jest w przestrzeni i chce mi prawo do tych słów odebrać. Dzieci moje... moje! mówię głośno – słuchajcie wszystkie światy! <stage>(nagle milknie)</stage> Co to jest?... nie walą się na mnie ściany, nie spadają gromy... Może mi wolno przyznać się do moich dzieci?... <stage>(z boleścią)</stage> Nie! <stage>(rozrzewniając się)</stage> prawda? nie.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Któż ci broni, ojcze kochany?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Kto? Wszystko. Wzbroniłyby mi kamienie, gdyby przemówić mogły... Bodajbym jak one oniemiał... Milczyć jednak nie zdołam – mówić mi nie wolno!... Uciec ztąd muszę... <stage>(po chwili)</stage> Słuchaj mój drogi: chciałeś wyjechać dziś do Francyi i połączyć się z afrykańską wyprawą. Wypędzała cię tam rozpacz, teraz ciebie ułaskawiła a mnie wypędza. <stage>(chwyta leżący na stole bilet)</stage> Okrętowi wszystko jedno, którego z nas powiezie, jego załodze ojciec syna zastąpi, świat cywilizowany pozbędzie się we mnie wyrzutka a dziki zyska pocieszyciela... Dalej więc w drogę...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Alboż ojcze tu zostać nie możesz? Masz że litość nad nami i sobą, żeby nas opuszczać zaledwieśmy cię poznali. Tu dręczyć cię może będzie niepokój – tam zpewnością zabije tęsknota.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(przybiegłszy do Aurelego)</stage> Bracie mój, proś go, bo ja już teraz tylko płakać mogę. Przecież go kochać będziemy...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(gorzko)</stage> Tu mi się tem cieszyć zakazano. Mnich który, wiecznem katowaniem się zasługiwać musi na ludzki szacunek, przewodnik klasztoru, który dewocyą cudze dusze podpalał, żeby ciemności własnej rozświecić – niech zgrzeszywszy ojcowstwem schroni się nawet przed gwiazdami, które na jego kłamstwo patrzyły, bo i te grozić mu będą. Nie łudźcie się – miłość wasza nie zmieni się w powietrze, którem tu oddychają ludzie. Nawet na jednej półkuli żyć obok siebie nie możemy. Gdy nad wami słońce zaświeci, nademną zgasnąć musi, żeby nas razem nie widziano – inaczej ja i wy shańbieni. Dziś nikt nie pamięta, że Makary zwał się kiedyś Wiszarem; jutro przypomnianoby sobie to imię, ażeby niem nas bezcześcić. <stage>(wskazując na Reginę stojącą zdala w niemym zachwycie)</stage> Może ona jedna nie potępiłaby nas... ona wam mnie zastąpi. Pani... pozwól mi zanim odjadę nazwać cię córką... mam jeszcze wobec świata prawo złączyć cię z moim synem...</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(z zapałem do Reginy)</stage> Nie odmów pani... Niech przynajmniej szczęście jednym promieniem rozweseli mi żałobę tej chwili...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie odmówię, ale jeśli pan się o to w innej upomnisz. Wprzódy bez śladu zniknąć muszą wspomnienia, które nas jeszcze wczoraj na zawsze rozłączały. W związku całego życia ślub jest tylko jego drobnem mgnieniem. Poznaj pan nasz świat – może pokochasz jego ideały – a ja wolę, żebyś wtedy czuł dla mnie wdzięczność za obecną odmowę niż – żal za zgodę.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p><stage>(z goryczą)</stage> Pani... ojcze... siostro – jesteścież w rękach mojego losu tylko łudzącemi błyskami, któremi on szyderczo przede mną miga i nigdy mi uchwycić nie pozwala?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Bądź spokojny – ona będzie nigdy nie zachodzącą gwiazdą twego życia i nigdy cię nie opuści. Tak jestem tego pewny, że aż lżej czuję smutek naszego rozstania.</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Więc ciągle ta fatalna myśl...</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p>Nie odbieraj mu jej pan, bo szczęśliwa.</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Tak, szczęśliwa, bo teraz trzeba mi pustyni. Czegóż więcej życzyć sobie mogę! Wiatrom opowiadać będę moją radość i tęsknotę, każda skała powtórzy mi stokrotnem echem wszystkie słowa, gdy jej o moim ojcowstwie mówić będę. Tam i Bóg może łaskawszy a ludzie mniej okrutni. Nie mam już uczuć, nie mam myśli – któreby dostroić się mogły do harmonii tutejszego świata.</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(tuląc się do Makarego)</stage> Przynajmniej jeszcze dni parę ojczulku z nami zostań. <stage>(słychać za sceną stłumiony głos organów i zakonniczego śpiewu)</stage></p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(drgnąwszy – wsłuchuje się przez chwilę rozrzewniony)</stage> Słuchajcie jak ten śpiew żegna mnie i wypędza... Już jestem gotów – wszystko co moje koło mnie lub we mnie... No bądźcie zdrowi!...</p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(rozpaczliwie)</stage> Na zawsze!</p>
+          </sp>
+          <sp who="#aureli">
+            <speaker>AURELI.</speaker>
+            <p>Biedny mój ojcze, co tam robić będziesz?</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Nie sądźcie że jadę w szczęśliwych sercach szczepić truciznę mojej boleści... Dzicy podobno nauki chrześciańskich missyonarzy nie rozumieją – ja im poniosę katechizm w sobie – a co ja powiem, najdziksi rozumieć będą. Stary świat powinien nowemu posyłać na apostołów nie mądrych a nieszczęśliwych.</p>
+          </sp>
+          <sp who="#regina">
+            <speaker>REGINA.</speaker>
+            <p><stage>(ściskając wzruszona rękę Makarego)</stage> Bądź zdrów wielki i zacny człowieku. Jedź – bo możesz całe ludy zbawić. <stage>(do Aurelego)</stage> Pan tu zostań – będziemy razem nieszczęściu służyć i pracować... Jeśli zechcesz połączę się z tobą, dziś niech nas zaręczy pierwszy mój w życiu miłosny <stage>(całuje go)</stage> pocałunek, którego wstydzić się nie będę, choćbyś się jutro jego praw i obietnic wyrzekł...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p>Teraz już rozstać się z wami mogę. O nic was więcej nie proszę, tylko o przebaczenie wszystkim, którzy względem mnie i was zawinili. Tak uczcić powinniśmy nasze rodzinne święto. Po raz ostatni żegnam cię boska świątynio, powiernico moich cierpień i radości, żegnam was uczciwi bracia, a najserdeczniej was... <stage>(z płaczem całuje Aurelego, Cecylię i Reginę)</stage></p>
+          </sp>
+          <sp who="#cecylia">
+            <speaker>CECYLIA.</speaker>
+            <p><stage>(padając na ręce Reginy)</stage> Ojcze...</p>
+          </sp>
+          <sp who="#makary">
+            <speaker>MAKARY.</speaker>
+            <p><stage>(stoi przez chwilę wzruszony, wreszcie nagle wybiega przez drzwi środkowe ukazujące chór modlących się zakonników)</stage> Was... dzieci... moje!</p>
+          </sp>
+          <stage>(Zasłona spada)</stage>
+          <trailer>(KONIEC)</trailer>
+          <note><origPlace>Lipsk saski</origPlace><origDate>26 Listopada 1875 r.</origDate></note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

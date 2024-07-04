@@ -1,0 +1,2250 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  xml:id="pol000011" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Anarchia domowa, czyli Moc miłości ojcowskiej</title>
+        <title type="sub">Drama w pięciu aktach</title>
+        <author>
+          <idno type="isni">0000000370753692</idno>
+          <persName>
+            <forename>Adam</forename>
+            <surname>Siemoński</surname>
+          </persName>
+        </author>
+        <!-- Adam Siemoński (1781-1851) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/anarchia-domowa-czyli-moc-milosci-ojcowskiej-drama-w-5-ciu-aktach,OTI4OTQ4NzE/4/</idno>
+          <title>Siemoński, A., Anarchia domowa czyli moc miłości ojcowskiej: drama w 5-ciu aktach, Kraków 1833</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="aquino" sex="MALE">
+            <persName>Aquino</persName>
+          </person>
+          <person xml:id="baron" sex="MALE">
+            <persName>Baron</persName>
+          </person>
+          <person xml:id="dziennikarz" sex="MALE">
+            <persName>Dziennikarz</persName>
+          </person>
+          <person xml:id="dzierżawca_pieniacz" sex="MALE">
+            <persName>Dzierżawca pieniacz</persName>
+          </person>
+          <person xml:id="edward" sex="MALE">
+            <persName>Edward</persName>
+          </person>
+          <person xml:id="gracz" sex="MALE">
+            <persName>Gracz</persName>
+          </person>
+          <person xml:id="guwerner" sex="MALE">
+            <persName>Guwerner</persName>
+          </person>
+          <person xml:id="henryk" sex="MALE">
+            <persName>Henryk</persName>
+          </person>
+          <person xml:id="jan_lenlokaj" sex="MALE">
+            <persName>Jan lenlokaj</persName>
+          </person>
+          <person xml:id="karolka" sex="FEMALE">
+            <persName>Karolka</persName>
+          </person>
+          <person xml:id="kukuma" sex="FEMALE">
+            <persName>Kukuma</persName>
+          </person>
+          <person xml:id="liwja" sex="FEMALE">
+            <persName>Liwja</persName>
+          </person>
+          <person xml:id="longville" sex="MALE">
+            <persName>Longville</persName>
+          </person>
+          <person xml:id="lord_1wszy" sex="MALE">
+            <persName>Lord 1wszy</persName>
+          </person>
+          <person xml:id="lord_2gi" sex="MALE">
+            <persName>Lord 2gi</persName>
+          </person>
+          <person xml:id="marysia" sex="FEMALE">
+            <persName>Marysia</persName>
+          </person>
+          <person xml:id="mizantrop" sex="MALE">
+            <persName>Mizantrop</persName>
+          </person>
+          <person xml:id="obłąkana" sex="FEMALE">
+            <persName>Obłąkana</persName>
+          </person>
+          <person xml:id="obłąkany" sex="MALE">
+            <persName>Obłąkany</persName>
+          </person>
+          <person xml:id="pan_forester" sex="MALE">
+            <persName>Pan Forester</persName>
+          </person>
+          <person xml:id="pan_simple" sex="MALE">
+            <persName>Pan Simple</persName>
+          </person>
+          <person xml:id="pani_forester" sex="FEMALE">
+            <persName>Pani Forester</persName>
+          </person>
+          <person xml:id="pani_simple" sex="FEMALE">
+            <persName>Pani Simple</persName>
+          </person>
+          <person xml:id="pastor" sex="MALE">
+            <persName>Pastor</persName>
+          </person>
+          <person xml:id="pijak_lokaj" sex="MALE">
+            <persName>Pijak lokaj</persName>
+          </person>
+          <person xml:id="postylion" sex="MALE">
+            <persName>Postylion</persName>
+          </person>
+          <person xml:id="rostropnicki" sex="MALE">
+            <persName>Rostropnicki</persName>
+          </person>
+          <person xml:id="służący" sex="MALE">
+            <persName>Służący</persName>
+          </person>
+          <person xml:id="theolog" sex="MALE">
+            <persName>Theolog</persName>
+          </person>
+          <person xml:id="xiążę_longville" sex="MALE">
+            <persName>Xiążę Longville</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-05">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="written" when="1808">
+        <desc>W KRAKOWIE w ROKU 1808 NAPISANA.</desc>
+      </event>
+      <event type="premiere" when="1820">
+        <desc>W ROKU 1820. NA TEATRZE KRAKOWSKIM ODEGRANA.</desc>
+      </event>
+      <event type="print" when="1833">
+        <desc> W KRAKOWIE W DRUKARNI AKADEMICKIEJ. 1833.</desc>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">ANARCHIA DOMOWA<lb />
+            CZYLI<lb />
+            MOC MIŁOŚCI OJCOWSKIEJ</titlePart>
+            <titlePart type="sub">DRAMA w 5ciu AKTACH ORYGINALNIE</titlePart>
+          </docTitle>
+          <byline>PRZEZ<lb />
+            <docAuthor>ADAMA SIEMOŃSKIEGO</docAuthor><lb />
+            CZŁONKA TOWARZY: NAUKOWEGO KRAKOWSKIEGO
+          </byline>
+          <docImprint>
+            <p>
+              W <placeName>KRAKOWIE</placeName> w <origDate>ROKU 1808</origDate><lb />
+              NAPISANA.<lb />
+              W <date>ROKU 1820.</date> NA TEATRZE KRAKOWSKIM ODEGRANA.<lb />
+              W <pubPlace>KRAKOWIE</pubPlace><lb />
+              W <publisher>DRUKARNI AKADEMICKIEJ</publisher>.<lb />
+              <docDate>1833</docDate>.
+            </p>
+          </docImprint>
+          <epigraph xml:lang="la">
+            <cit><quote>Sunt lacrymae rerum.</quote><lb /> <bibl>VIRGIL</bibl>.</cit>
+          </epigraph>
+          <imprimatur>Za pozwoleniem Cenzury Rządowej.</imprimatur>
+        </titlePage>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#pan_simple">P. Simple</role>
+            <roleDesc>osiadły Polak w Anglii pod cudzem imieniem.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#pani_simple">Pani Simple</role>
+            <roleDesc>Żona Jego.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#liwja">Liwja</role>
+            <roleDesc>ich Córka 16letnia Panienka</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#kukuma">Kukuma</role>
+            <roleDesc>Przyjaciołka ich domowa</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#longville">Margrabia Longville</role>
+            <roleDesc>Syn Xcia wojażującego Kawaler.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#aquino">Aquino</role>
+            <roleDesc>Officyer od Marynarki Angielskiej, brat Pani Simple.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#pan_forester">Forester,</role>
+            <roleDesc>Bankier Londyński</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#pani_forester">Pani Forester</role>
+            <roleDesc>Żona Jego</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#xiążę_longville">Xiążę Longville</role>
+            <roleDesc>Ojciec Margrabiego</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#rostropnicki">Hrabia Rostropnicki</role>
+            <roleDesc>Wojażujący</roleDesc>
+          </castItem>
+          <castGroup>
+            <castItem>
+              <role corresp="#marysia">Marysia</role>
+            </castItem>
+            <castItem>
+              <role corresp="#karolka">Karolka</role>
+            </castItem>
+            <castItem>
+              <role corresp="#edward">Edward</role>
+            </castItem>
+            <castItem>
+              <role corresp="#henryk">Henryk</role>
+            </castItem>
+            <roleDesc>Dzieci Państwa Forester</roleDesc>
+          </castGroup>
+          <castItem>
+            <role corresp="#guwerner">Guwerner</role>
+            <roleDesc>tychże dzieci</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#pastor">Przełożony Instytutu Szalonych, a razem Pastor.</role>
+          </castItem>
+          <castItem>
+            <role corresp="#jan_lenlokaj">Jan Lenlokaj</role>
+            <roleDesc>w służbie Margrabiego.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#postylion">Postylion</role>
+          </castItem>
+          <castItem>
+            <role corresp="#dziennikarz #dzierżawca_pieniacz #gracz #mizantrop #obłąkana #obłąkany #pijak_lokaj #służący #theolog">Pospólstwo, Żołnierze, Waryaty</role>
+          </castItem>
+          <castGroup>
+            <roleDesc>Goście: </roleDesc>
+            <castItem>
+              <role corresp="#lord_1wszy">Lord 1wszy,</role>
+            </castItem>
+            <castItem>
+              <role corresp="#lord_2gi">Lord 2gi,</role>
+            </castItem>
+            <castItem>
+              <role corresp="#baron">Baron</role>
+            </castItem>
+          </castGroup>
+        </castList>
+      </div>
+      <set>
+        <p>(Scena na Przedmieściu Londynu i na końcu w Londynie)</p>
+      </set>
+      <div type="appendix">
+        <salute>
+          <p>DO<lb /> PANI HRABINY ŁOŚ<lb/> z Domu SIEMOŃSKIEJ.</p>
+        </salute>
+        <p>Tę Dramę napisałem dla Ciebie kochana Córko, jeszcze kiedyś była dzieckiem. Twoje wychowanie jedynym celem życia mego było - Odpowiedziałaś we wszystkim moim nadziejom. Gdybym znalazł lepszą od ciebie Córkę, Żonę i Matkę, któraby więcej od Ciebie wartą była szacunku, Jejbym tę pracę ofiarował - Ofiarę w dzieciństwie dla ciebie przeznaczoną, rozumiem, że milej przyjmiesz w dojrzałości Twojej od przywiązanego Ojca.<lb /> Obraz nieszczęść Ojca w tej sztuce skreślony, był mi powodem do wystawienia ich na scenę. Będąc we Florencyi, w Instytucie obłąkanych widziałem Ojca, który z miłości po straconej jedynej swej Córce zmysły utracił, i Córkę Jego, która po stracie swego kochanka, który ją uwiódł i porzucił, zmysły straciła, i była w tym samym Instytucie. Pamiętałem o prawidle Boalego:<lb />"Il est des objets, que l'art judicieux<lb />"Peut offrir en récit et réculer des yeux"<lb />Ale w tej sztuce nie sądziłem tego potrzeby, i oprócz wypadków na okręcie i śmierci Kukumy chytrej przyjaciółki domu, wszystko na scenie się dzieje - Oby ten obraz okropny był przykładem w tem mieście dzieciom, aby podobnego nieszczęścia nie stały się przyczyną swoim rodzicom. Oby Twoja śliczna Melania, Adaś i Alfred we wszystkiem byli podobnemi dziećmi dla Ciebie, jaką Ty kochana Olympjo! Córką byłaś dla mnie!</p>
+      </div>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT PIERWSZY.</head>
+        <div type="scene" n="1">
+          <head>SCENA 1wsza.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs> (sam leżący)
+              <rs key="#liwja">LIWJA.</rs> (z daleka)</p>
+          </stage>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Co ia tu robię? zkąd się tu wziąłem? Prawdziwie mnie się zdaje, że to sen – Ale nie... <stage>(pod czas tego pokazuje się wchodząca z wodą i lekarstwem Liwja)</stage></p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Ach! Mamo! Mamo! nasz chory przychodzi do siebie. <stage>(wraca się)</stage></p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Słyszę jakiś przyjemny organ, to jest rzecz, co mnie nieskończenie się podoba w kobiecie: i tak jak dźwięk metalu uprzedza nas o gatunku dobrej monety. <stage>(odsłaniaiąc firanki spostrzega Liwją idącą bojaźliwym krokiem)</stage> Co za śliczne stworzenie, co za nóżka! jakie oczy! <stage>(wstaje)</stage> Aniele co mnie strzeżesz, powiedz mi... <stage>(Liwja ucieka)</stage></p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Mamo! Mamo! Chciej tu sama przyjść do tego Jegomości! może ten Pan chce z tobą mówić.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA 2ga.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#liwja">LIWJA.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs> (z ukłonem)
+            </p>
+          </stage>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Spodziewam się że się WPan masz lepiej?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Zupełnie dobrze, ale proszę mnie oświecić, łaskawa Pani, jakiż to przypadek mnie do tego Domu sprowadził?</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Ja idę dla WPana po lekarstwo, niechaj moja Córka WPanu powie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA 3cia.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#liwja">LIWJA.</rs>
+              <rs key="#longville">LONGVILLE.</rs>
+            </p>
+          </stage>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p><stage>(z pomieszaniem niewinności)</stage> Wczorajszego dnia przechodziłam się nad brzegami morza; w tem znagła spostrzegłam Człowieka, o którym sądziłam, że już nie żyje – to byłeś WPan – Byłam niesłychanie przestraszoną, pobiegłam do Domu, wołając ratunku.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Więc się domyślam, że tej ślicznej rączce winien jestem życie moje.</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p><stage>(wyrywając rękę którą Longville całuje)</stage> Tak jest, myśmy obie z moją Mamą WPana ratowały. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA 4ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+              <rs key="#liwja">LIWJA.</rs>
+            </p>
+          </stage>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Dobre dziecko, jej pomieszanie jeszcze jej więcej wdzięków dodaje, bo nie jest teatralne, i ma w sobie wiele dobrego wychowania.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Te krople są uniwersalne na wszystkie choroby, proszę zażyj WPan!</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Dziękuję uniżenie! Ja nigdy uniwersalnego lekarstwa, co wszystkie choroby leczy, nie zażywam, i tak o ich doskonałości trzymam, jak o ludziach co wszystko umieją.</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Ale sprobuj WPan, zaręczam że WPanu będzie lepiej, proszę!</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Dziękuję WPannie za tę uprzedzającą troskliwość; co za serce! jak ją to interessuje, prawdziwie rzadko tak dobrą widzieć Panienkę.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Widzę że WPan umiesz się znać na ludziach – To nieoszacowana Dziewczyna; nie dla tego że moia Córka; ale co to za dziecko! co ona nie zadaje sobie pracy, żeby coś umiała, jak ona lubi czytać, jak lubi muzykę, jak się zna na gospodarstwie domowem, i lepiej je umie, niżeli ja i mój mąż jej Ojciec, któryby bez niej nic nie umiał w domu zarządzić i bezemnie; bo to jest dobry człowiek, ale do niczego; nie unika ludzi, ale też za niemi nie chodzi; czyta albo poluje; nigdy się nie gniewa, chyba że mu kto dokuczy; ani zbyt smutny, ani zbyt wesoły; prawda, że zawsze kontent, a największe nieszczęście przyjmuje bez zgryzoty tylko powiada, że w każdym stanie obok szczęścia chodzić zwykło nieszczęście; więc w szczęściu nawet nie powinniśmy zbyt unosić się. Zgoła że z tym nudziarzem nie wiem jak dożyję – Ja powiadam Jegomości, iżbym rada, żeby gdzie lepiej na puszczy osiadł, a jabym sobie tu z Jegomością dała radę, gdybyś tu chciał zawsze z nami bawić.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Zawstydzasz mnie Pani swoją dla mnie łaską – Gdzież jest Mąż WPani? abym obojgu mógł podziękować za tę dla mnie gościnność.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Proszę WPana memu Mężowi za to nie dziękować, bo ja jestem sama wstanie wszystko rozrządzić w moim Domu, i sama w stanie bez niego grzeczność odbierać. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA 5ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#liwja">LIWJA.</rs>
+            </p>
+          </stage>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p><stage>(sam)</stage> Ale jak mi się też wybornie udała choroba! – Zupełnie jak sobie życzyłem – Wczorajszego dnia spostrzegłem na Teatrze w loży tę śliczną Panienkę, nie wiedząc jakimby sposobem można się było z nią poznać, bo się od nikogo dowiedzieć nie mogłem, kto ona jest – umyśliłem iść z Teatru za nią w tropy;  tu przyszedłszy, jakże?  nie wypadało tak obcesowo samemu się do domu uczciwego wpychać, ale zmyśliłem chorobę, i w ogrodzie leżałem jak nie żywy, spodziewając się po czułości, że mi tu z tego domu ratunek dać muszą. Co się stało – a tym sposobem wstęp i poznanie z tą śliczną Damą zyskałem – oto głowa! jakto przednio tak jak ja umieć chorować, a ieszcze nic śmieszniejszego jak ten empiryk Doktor co mi recepty napisał z pół arkusza, mówiąc że ja w letargu jestem, a ja zdrów jak lew – ha! ha! ha!<lb /> Prawdziwie <stage>(wyziera oknem)</stage> jak tu opuszczać to miejsce tak piękne i roskoszne? Widok wspaniały, obok morze, skały, równiny, Panienka gdyby Dyanna, ja gdyby Endymion, co na jej sen czuwam – Cóż mogę mieć lepszego w mieście od mojej teraźniejszej miłości? Jeżeli wojskowość: w obcą służbę nie wnijdę, po co? kiedy w swojej dla tego, że więcej pilnowałem butelki, kart i dziewcząt, nic się dosłużyć nie mogłem, to samoby i tu ze mną zrobiono. Jeżeli znowu wdać się w intrygi miłośne, to i to na próżno, kiedy nie mogę dłużey kochać jak tydzień, a kobiety powszechnie się lubią dłużej kochać – Prawda że mam wielkie szczęście; mogę się tym pochlubić, że 20. kobiet różnych zwiódłem, które dla tego żeby mnie kochały, pozwodziły swoich kochanków wiernych, poodstępowały poczciwych mężów, ja im uciekłem, a tamci się do nich nie wrócili – Ale dobrze im tak, koniecznie potrzeba na świecie takich bałamutów dla ukarania bałamutek, inaczej nie byłoby porządku; a potem za to mnie najwięcej lubią kobiety, żem bałamut – Assamble, ton ten pełny powagi, ton zachowania się w nim przyzwoitego i przystojnego, gniewa mnie. Jeżeli wizyty, które oddawać wypada tym Magnatom i Matedorom, do których mi mój Ojciec podawał listy z rekomendacyą tu do Londynu, to dla mnie nic nieznośniejszego nie masz; bo na nich muszę gadać i opowiadać rzeczy, które mnie wcale nie interessują, albo słuchać jak gazety czytają. Co mnie diabeł do interessów Europy, kiedy mam w kieszeni pieniądze, karetę, karykiel, konie wierzchowe, źokety? Niech się tem trudnią Nuweliści, co są i mieszkają tylko dla tego w Mieście, i ledwie że gazet nie jedzą. – A potem jak u tych Matron na wizytach, albo u Prałatów bywam, to ledwie nie zawsze proponują mi partyje albo w wiska taniego, albo ożenienie bez posagu. – Prawda że ja wielkiego posagu nie potrzebuję dla siebie, ale bym go miał dla Faraona, i dla kredytorów moich, przed któremi z Francyi aż tu schronić się musiałem. –<lb /> Ale kiedy ta Pani życzy sobie, abym tu jeszcze został, muszę dać znać moim Kolegom, że się tu znajduję, żeby do domu tego przyjechali do mnie i tu się bawili z temi Paniami. <stage>(woła)</stage> Mościa Dobrodziejko!</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p><stage>(biegnie)</stage> Czy WPan nie jesteś słaby? proszę powiedzieć, a ja co tylko mogę zrobię dla uzdrowienia najmilej.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Bardzo Panią przepraszam! zadziwiasz mnie swoją grzecznością.</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Czy WPan Mamy potrzebujesz?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Ślicznie Pani dziękuję! o pozwolenie tylko człeka proszę, bo chce go do mojej oberży posłać.</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Przyszlę go tu Panu natychmiast. <stage>(wychodzi)</stage></p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Nóżki Pani całuję. <stage>(Służący przychodzi)</stage> Bądź tak grzeczny mój kochanku, idź do Miasta i powiedz memu kamerdynerowi, żeby mi tu przysłał karykiel z końmi, i nieco rzeczy, tylko prędko; oto masz nadgrodę i adress. <stage>(Służący odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA 6ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+            </p>
+          </stage>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p><stage>(sam)</stage> Im bardziej się rozpatruję, tem mi się bardziej to miejsce podoba – Ale co uważam, żem z jednego wyszedł niebeśpieczeństwa, a wpadłem w drugie – Śliczna ta dziewczyna całą moc duszy mojej zajęła. <stage>(Tę całą mowę Pani Simple podsłuchiwa)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA 7ma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+              <rs key="#lord_1wszy">LORD 1WSZY.</rs>
+              <rs key="#lord_2gi">LORD 2GI.</rs>
+              <rs key="#baron">BARON.</rs>
+            </p>
+          </stage>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Ja umyślnie tu przyszłam dowiedzieć się od WPana jako słabego i do zdrowia przychodzącego, czy możesz jechać na śniadanie – Proszę roskazać sobie, i przyjąć podziękowanie moje, żeś tak grzeczny i tu myślisz zostać z temi Panami, których lubo nie znam, ale zapraszam do siebie.</p>
+          </sp>
+          <sp who="#longville #lord_1wszy #lord_2gi #baron">
+            <speaker>LONGVILLE. LORD 1WSZY. LORD 2GI. BARON.</speaker>
+            <p>Owszem nam należy podziękować, że Pani sobie służyć pozwala. Co Pani każesz, to będzie najlepiej wszystko ułożone i przednio się zabawimy.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Ach jacy grzeczni! <stage>(odchodzi)</stage> Zaraz będziemy gotowe.</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA 8ma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#lord_1wszy">LORD 1WSZY.</rs>
+              <rs key="#lord_2gi">LORD 2GI</rs>
+              <rs key="#pastor">PASTOR.</rs>
+            </p>
+          </stage>
+          <sp who="#lord_1wszy">
+            <speaker>LORD 1WSZY.</speaker>
+            <p>Ale jakżeś nam znikł Margrabio z Teatru – Bilet twój odebraliśmy w drodze wychodząc na polowanie – Zaraz się domyśliłem, że ci ta bronetka wpadła w oczy – Oto masz bileciki od Milordowej, Baronowy i Hrabiny, które podobnie jak i ty nie lubią bydź stałe w miłości, i odpowiedziały ci razem, boś się o serce wszystkich razem starał.</p>
+          </sp>
+          <sp who="#lord_2gi">
+            <speaker>2GI LORD.</speaker>
+            <p>Ale tyś widzę Margrabio doprawdy zakochany, nie ma co z tobą gadać.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p><stage>(pod czas tej mowy drze bilety jeden po drugim nie czytając ich, siedzi pomieszany i smutny)</stage> Z temi kokietkami i bałamutkami nie masz co do czynienia, inny przedmiot serce moje zajmuje.</p>
+          </sp>
+          <sp who="#lord_1wszy">
+            <speaker>LORD 1WSZY.</speaker>
+            <p>A co Baronie? masz karty, możemy sobie zagrać w stosika, nim wyjedziemy do Lusthausu na śniadanie. <stage>(grają)</stage></p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p><stage>(na stronie)</stage> Nie bardzo jestem kontent żem ich tu zaprosił <stage>(głośno)</stage> Ale jakże się u diabła dowiedziały te kobiety, że ja tu jestem?</p>
+          </sp>
+          <sp who="#lord_1wszy">
+            <speaker>LORD 1WSZY.</speaker>
+            <p>One cię wszędzie szpiegują – Czy nie wiesz, że kokietka podobna do cienia słonecznego: jeżeli ty od niego uciekasz, on za tobą idzie, jeżeli go gonisz, to od ciebie ucieka – otóż masz przykład: uciekłeś od nich, one cię gonią.</p>
+          </sp>
+          <sp who="#baron">
+            <speaker>BARON.</speaker>
+            <p>To nie jest obraz kokietek, ale chytrych kobiet, które lubią dręczyć swoich Adonisów, a takiemi te damy nie są – nie wierz temu Margrabio, pójdź i graj z nami, a nie dumaj – Pastorze pójdź grać z nami.</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PASTOR.</speaker>
+            <p>Ale Panowie, po cóż chcieliście mnie wziąść na polowanie, a teraz na śniadanie, do gry; ja czasu nie mam; jutro Zgromadzenie Gminne, na które przyszedłem prosić mego Przyjaciela Pana Simple, właściciela domu tego, jako Elektora, któremu uchybiać nie można, ani Konstytucyi naszego Kraju – Ale proszę Panów, słyszałem że jeden z Lordów przedał dwanaście kresek z dziedzicznego swego miasteczka za tysiąc funtów szterlingów. Aż zgroza widzieć taką przedajność w klassie wyższey! Żeby Lord przedawał siebie, sumienie swoje i dobro kraju, żeby woli Monarchy był przeciwnym i należał do oppozycyi przeciw niemu.</p>
+          </sp>
+          <sp who="#lord_2gi">
+            <speaker>LORD 2GI.</speaker>
+            <p>Czy wiesz Pastorze, to ja zrobiłem! w naszym kraju wolność handlu nieograniczona.</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PASTOR.</speaker>
+            <p>Ja temu nie wierzę – Milord żartuje – Ubogi jestem Pastor, a nie zrobiłbym tego.</p>
+          </sp>
+          <sp who="#lord_2gi">
+            <speaker>LORD 2GI.</speaker>
+            <p>Ja się zaś temu nie dziwuję, boś WPan ubogi, przyzwyczajony chodzić piechotą, a ja potrzebuję karety – Straciłem i przegrałem mój majątek; jakże chcesz? przedajność jest z konieczności: potrzeba mi karety, koni i pieniędzy.</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PASTOR.</speaker>
+            <p>Takie zepsucie zgubi was i naród niezadługo – co też Przyjaciel mój właściciel tego domu, a mąż Pani Simple powie, jak powróci, że mu jego żona tak poczciwych obywateli i ludzi sprowadza? zwłaszcza że ma córkę młodą w domu – Slicznie kłaniam Panom moim i odchodzę – Nie jestem wart w ich towarzystwie się znajdować.</p>
+          </sp>
+          <sp who="#lord_1wszy">
+            <speaker>LORD 1WSZY.</speaker>
+            <p>Ta rzecz się stała przed stu laty, a oni ją teraz odnawiają – Richard Steel repondit un jour à Whinsten, qui lui reprochait sa venalité: – „Cela est bon pour Vous, qui etes accoutumé à aller à pièd, mais moi je ne saurais me passer d’une voiture” – Il y a beaucoup de choses dans ce peu de mots. – <stage>(słychać muzykę zdaleka w ogrodzie)</stage><lb /> Ale jak się tu w tym domu przednio bawią. <stage>(wygląda oknem)</stage> Co tu kobiet, co tu dziewcząt skaczących w ogrodzie, co tu powozów! Margrabio, przestań myśleć, pójdź z nami, musimy poznać twoję kochankę, która cię tak mocno zajmuje, i Pani domu tego oświadczyć, że przebrawszy się, zaraz jej służyć będziemy w Lusthausie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA 9ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#jan_lenlokaj">JAN LENLOKAJ.</rs>
+            </p>
+          </stage>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN LENLOKAJ.</speaker>
+            <p><stage>(sam)</stage> Dalibóg! Co za życie osobliwsze tych młodych Panów! którym za 20. lat jako Lemlokaj służę. – Włóczą się po różnych wielkich miastach, a nie widziałem żadnego Wojażera, żeby z innym interessem jeździł, tylko jak mój teraźniejszy Pan, to jest: żeby się z rana ubrać, jeżeli w swoim domu spał i nocował, – potem jechać do kąpieli, potem na bilar, potem do Lusthausu na śniadanie i na Faraona, potem karyolką na spacer, potem przymierzać z krawcami fraków, z szewcami sprzeczać się o krój butów i trzewików; potem wstąpiwszy do najpierwszego sklepu, nabrać kamizelek, tabakierek, kaźmierki, szalów, potem ubierać się kilka godzin, bo samo chustki zawiązywanie i perfumowanie się zabiera im najwięcej czasu; potem zabrawszy znajomość z kobietami pięknemi, bałamucić wdowy, panny i mężatki, i z niemi na spacerach obiady i kolacye zjadać – potem odmieniwszy z tuzin intryg miłośnych, żeby się zgrał, długów narobił, chory i zmartwiony wyjechał – o tóż wszystkie interessa teraźniejszego mego Pana – ale my służący nie lubiemy źle o naszych Panach gadać <stage>(wygląda oknem)</stage> wszyscy w ogrodzie się bawią i hulają – oho widzę mego Pana i Panienkę którą goni, a ona prosto tu ucieka, o jakże się szalenie do niej bierze.</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA 10ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#jan_lenlokaj">JAN LENLOKAJ.</rs>
+              <rs key="#liwja">LIWJA.</rs> (zmordowana z tańca)
+            </p>
+          </stage>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(kłania się)</stage> Mościa Panno chciej z łaski swojej powiedzieć, czy niemasz tu w ich domu mego Pana, który mi wczoraj wyszedłszy z Teatru na spacer gdzieś zginął?</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Czy jego WPan szukasz? i jego płaczesz? ale jak się zmordowałam.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Tak jest Pani <stage>(na stronie)</stage> za takim wietrznikiem miałbym o co płakać.</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Otóż właśnie Go znalazłeś – czy masz do niego interess?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>O! wielki – najprzód chciałbym żeby mi zapłacił zasługi, i za listy z poczty, które wykupiłem do niego, bo to mi nieraz trafiło się, żem nie od jednego Panicza pieniędzy zasłużonych nie odebrał, i dla tego mi smutno na sercu, bo mi u tych Paniczów przepadło bardzo wiele.</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Proszę mi dać ten List!</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Oto jest?</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p><stage>(czyta)</stage> ASon Excellence M. Marquis de Longville. – Zaraz pójdę do Mamy, i sama mu go oddam... Ale... sobie wypocząć muszę jeszcze.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(na stronie)</stage> Tam do diabła, to już Jejmość Panienka zabrała z moim Panem przyjaźń – ale jaka zmordowana tańcem.</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA 11ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#jan_lenlokaj">JAN LENLOKAJ.</rs>
+              <rs key="#liwja">LIWJA.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Z kimże to WPanna gadasz i co za listy odbierasz? <stage>(bierze list)</stage> à son Exellence Mr. le Marquis de Longville – pójdźmy... ale nie – idź sama... zanieś do Ogrodu... Widziałam że w tę stronę poszedł Pan Margrabia.</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Ja sama? boję się żebym... nie zbłądziła w tym Ogrodzie.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Idź WPanna zaraz kiedy ja każę, i zrób Margrabiemu tę attencyą, ja pozwalam – Natychmiast zaprowadzić tego służącego.</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA 12ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p><stage>(sama)</stage> Tak mi te Guwernantki z moim Mężem to Dziecko popsuli, tak Jej nabili głowę tą dziką skromnością i bojaźnią względem Mężczyzn, że dalibóg nie wiem jak ją wydam za mąż – Bo dobrze jest mieć skromność i bojaźń względem tych co nam się nie podobają, i ktorychbyśmy sobie nie  życzyli – ale skromność taka jest przyzwoitą i w swoiem miejscu – Któż to wie czyliby ona spodobawszy się Margrabiemu, któremu już w oczy wpadła losu nie zrobiła? Ileż to podobnych przypadków bywa, a potem cóż y to była za wielka różnica?... Ja sobie przecie jestem Pani de Simple, mój mąż był przecie Pułkownikiem w Legionach, teraz jest Faworytem wielkich Panów w Londynie – Co większa gdyby nie zazdrość jednego Xięcia Żony, toby się był pewnie ten xiążę z nią rozwiódł, i ze mną ożenił, bo już miałam od niego wielkie tego dowody – Ten Xiążę potem dla rewolucyi z Włoch wyjechał, ja nie miałam co innego robić – Mój Mąż się we mnie pokochał, i poszłam za niego; czego mocno teraz żałuję, bo mogłam była lepiej iść za mąż, a nawet mogłam była zostać Xiężną.</p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA 13ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+              <rs key="#liwja">LIWJA.</rs>
+              <rs key="#jan_lenlokaj">JAN.</rs>
+            </p>
+          </stage>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Już oddałam...</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Po cóż tam było tak długo bawić?</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>I owszem ja zaraz chciałam wyjść oddawszy list, ale Margrabia tak był grzeczny, tak mnie prosił, abym się z parę minut zatrzymała, że nie mogłam mu tego odmówić; a potem rozumiem żem nie uchybiła mając roskaz od Mamy, bo ja tegobym nie zrobiła sama.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Jakże? bardzo był grzecznym dla ciebie!</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Aż tak wiele, że nie można bardziej co mnie najwięcej obowięzuje do niego, że do swojej grzeczności umie łączyć uszanowanie, co jest największym dowodem <stage>(jak mnie mój Ojciec naucza)</stage> szacunku dla płci naszej.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Idź mi precz z tą bojaźnią! <stage>(Liwja odchodzi)</stage> Ojcowskie zawsze w tej dziewczynie odzywają się sentymenta, który mnie tak swoiem zbytecznem uszanowaniem znudził, ileby nigdy inny Mężczyzna swoją niegrzecznością. <stage>(wygląda oknem)</stage> Panie Lokaj od Margrabiego! Panie Lokaj!</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(słychać głos Jana)</stage> „zaraz, słucham, biegnę”.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Jak zaraz znać z oberży człowieka, jaki grzeczny, ale wątpię żeby był tak usłużny i pilny.</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA 14sta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#jan_lenlokaj">JAN.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(wpadając)</stage> Co Pani Dobrodziejka roskaże?</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Oto proszę abyś WPan służył do stołu, bo ludzie nasi prawie wszyscy się popili – muszę aż obcych najmować do dzisiejszej usługi, a chciałabym żeby szła jak należy na śniadaniu, które tu będzie nie daleko w Lusthausie.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>O to Pani Dobrodziejka niech się nie turbuje, ja usłużę za dwudziestu osobliwie do stołu <stage>(na stronie)</stage> właśnie mi się dobrze wydarzyło, bom za katy głodny.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Cóż tam u was w mieście słychać?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Wie Pani Dobrodziejka żem głodny, a kiedy żołądek pusty, to i pamięć słaba – nic niewiem.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p><stage>(woła)</stage> Jest tam kto? Czegóż chcesz? czy bułki z masłem? czy rumu? czy salsesonu? czy szynki? czy piwa? czy porteru.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(niezmiernie ukontentowany)</stage> Najprzód Pani Dobrodziejko napiję się rumu, potem Pani Dobrodziejko zjem bułek, potem Pani Dobrodziejko salsesonu, potem szynki, potem się napiję Pani Dobrodziejko porteru i piwa.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Zaraz ci każę nagotować.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>O wielkie Pani Dobrodziejko wiadomości, i bardzo wielkie – Wojna na morzu i na lądzie, biją się, kłócą się, duszą się, topią się, a o pokoju ani dudu. – Potem czytałem Pani Dobrodziejko ostatnią gazetę, w której piszą o tym Komecie. – Otóż Pani Dobrodziejko Astronom pisze, że jeden kometa będzie przechodził przez nasz horyzont bez ogona, to jest anglizowany, drugi że ma ogona łokci czyli mim dwa miliony, i że teraz Pani Dobrodziejko moczy ten ogon w morzu Bałtyckim, a jak go wymoczy, to...</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Ale mój kochany to nie może być, bo kometa jest materya ognista.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>To też właśnie dla tego Pani Dobrodziejko bo mu gorąco Pani Dobrodziejko. Potem powiadają że kupcy przypłynęli i przywieźli z sobą jeden naładowany Okręt samemi Konstytucyami w karykaturach na sprzedaż. Cóż to tam mówią za wielkie głowy mają bydź w tych karykaturach! To nie dosyć, przywieźli także z sobą nowego wynalazku parowe machiny do rozwiania i organizowania dla oszczędności i pracy i pieniędzy skarbowi, te machiny będą rządzić, sądzić , rachować, reprezentować ludzi, odbierać podatki, wieszać, ścinać, rozwodzić, siać, młócić, orać, zgoła że przy tych machinach zupełnie się bez urzędników i gospodarzy obejdziemy, i pieniędzy będzie podostatkiem, a żadnych podatków, bo Butjet także parowy i pieniądze nie z metau, nie z papieru lecz z pary. <stage>(oglądając się)</stage> Ale cóż? ani rumu, ani salsesonów nie widać Pani Dobrodziejko! <stage>(przynosi mu służący w czasie tej rozmowy salsesony i porter)</stage></p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Już co chcesz to sobie możesz dysponować do jedzenia, tylko mi gadaj różne bajki.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(jedząc)</stage> Otóż Pani Dobrodziejko mamy teraz właśnie w naszem Mieście wojażującego Astrologa i piękne dwie wróżki pod nazwiskiem Sybille, przynieśli z sobą kilka tysięcy cetnarów Iluzuyi na sprzedaż, bo każdy i młody i stary lubi się niemi bawić. – Ja z moim Panem byliśmy u tych Panien, chcąc kupić Illuzyów, zastaliśmy tam wiele Polityków, Dyplomatyków, nowych Agronomów, modnych Filozofów, z któremi układy na przyszłość robili, jakim sposobem wypędzić rozum, nauki, rząd i prawa, i zaprowadzić na miejscu ich same Illuzye, nowe odmiany, widoki i nadzieje – Ach Pani Dobrodziejko – ale Pan mój nadchodzi to potem. <stage>(chowa to wszystko i wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA 15ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#liwja">LIWJA.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+              <rs key="#jan_lenlokaj">JAN.</rs>
+            </p>
+          </stage>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Och Mamo już teraz jestem śmielsza nierównie – Pojedziemy Mamo na spacer – Nie boję się Margrabiego, już sama nawet gdy z nim jestem żadnej nie mam obawy, owszem mam ochotę prawdziwie Go kochać – ale Mamo...</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p><stage>(kłaniając się)</stage> Jeżeli Margrabia pozwoli, to teraz pojedziemy, bo śliczny czas, ja tym czasem wyprawię Jana z biletami zapraszającemi Gości, i do Męża mego, aby powracał z miasta – Oto masz bilety i adressa, powiedz mu niech wraca na dzisiejszy Teatr de Société i na bal, który daję dla Margrabiego, czyli raczej Śniadanie tańcujące.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Słuchaj Pani roskazów Janie – jedź natychmiast – jeżeli Paniom podobać się będzie do Lusthausu ze mną jechać na to śniadanie i spacer, to miałbym sobie za honor służyć Im moim powozem, i końmi, które tu dopiero nadeszły, śliczne gdyby lalki, powóz nosi tak lekko jak okręt, a ja wożę gdyby królewski Stangret – Tam zastaniemy tych Kawalerów, których Paniom tu prezentowałem, i prosić będę, żebyście na nich były łaskawe, przy tym, zarekomendować ich jak doskonałych Aktorów de notre société du Theatre.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Właśnie Margrabia trafił w myśl moję, i ja Go zapraszam, więc iedźmy.</p>
+          </sp>
+          <stage>(LIWJA. skacze z radości wychodząc)</stage>
+          <trailer>(Koniec 1go Aktu)</trailer>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT DRUGI.</head>
+          <stage type="setting">
+            <p>(Teatr reprezentuje ten sam Pokój)</p>
+          </stage>
+        <div type="scene" n="16">
+          <head>SCENA 1wsza.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_simple">PAN SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p><stage>(sam)</stage> Już kilka dni upłynęło jakem nie widział domu mego, i nic nie wiem co też tu robi moja kochana Córka, dla której jedynie tylko życie mi jest miłem bo inaczej skołatany tylu nieszczęściami, których prawdziwie będąc w wojsku w moim kraju doznałem, utraciwszy moję Familią i majątek, a nadewszystko Ojczyznę; gryziony domowemi interessami i nieładem które mi dokuczają, odmienny ustawicznie humor mojej żony, prawdziwie nie może mnie do niego przywiązać — ale cóż robić? trudno z przeznaczeniem losu walczyć, najlepiej jest jemu uledz, i cierpliwie czekać końca, bo w samej rzeczy jest największą odwagą umieć znosić ciężary i przykrości życia u tego, kto ma dosyć mocy odebrać go sobie sam – żeby więcej nie znosił... Darmo! nie dla siebie tylko żyjemy – o gdybym moiemi nieszczęściami dokupić się mógł szczęścia dla mojej Ojczyzny, a w niej kiedyś dla mojej kochanej Liwii, dziesięć razy tyle ich ieszcze znosić byłoby dla mnie najmilszym ciężarem.</p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA 2ga.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_simple">PAN SIMPLE.</rs>
+              <rs key="#jan_lenlokaj">JAN.</rs>
+            </p>
+          </stage>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(wchodzi i oddaje list)</stage> Oto List z którym do Pana jechać miałem, ale tu za bramą spotkałem się z Panem, wracam i oddaję go.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p><stage>(czyta)</stage> „Trafia się dla naszej Córki prawdziwe szczęście. Wczorajszego dnia słabego Człowieka w dom przyjęliśmy – wkrótce potem ten przyszedł do zdrowia – okazało się, że to jest niejaki Margrabia Longville, i ten do prawdy polubił naszą Liwją, na żonę jak powiada; ponieważ ja mu tylko pod tą kondycyą pozwalam się z nią bawić. – Masz WPan przyjeżdżać prędko, żeby jak najprędzej ślub przyspieszyć – Jutro bal daję w moim domu dla niego i dla młodzieży, i Teatr z pokoju, gdzie WPana Biblioteka była”. – Znowu nowe zamieszanie w domu. <stage>(woła)</stage> Panie Lokaj – Powiedz mi mój Człeku u kogo ty służysz, i kto ci ten list oddał.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Oto Panie Dobrodzieju od Jejmości Żony Pańskiej przyjęty zostałem razem z moim Panem – Zaraz wrócę tylko konia uwiążę, bo wszyscy służący Pana się popili, i nikogo dziś w domu nie ma – cały po wczorajszym balu spoczywa w Lusthausie. – Cóż też to Państwo macie za dobrany dwór pijaków... już i ja byłem w rewolucyi i piłem, ale takiej rewolucyi jak w domu Pańskim, tom nie widział, ani tyle obcych figur – Jejmość musi dziś najmować obcych służących.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Szczególniejszy dwór – czyliż w tym nie masz jakiego podstępu? bo jeżeli ten sam Longville, którego ia znam w Rewolucyi, to już nie mało takich narobił kawałków z różnemi kobietami; gdyż pojąć nie mogę, aby Żona moja mogła do tego stopnia nierostropność swoję posunąć, wprowadzać w dom, gdzie jest Panienka młoda, mężczyznę nieznanego, któryby nie miawszy czasu poznania mej Córki chciał się z nią żenić – Prawda, że jak tylko jestem jej Mężem, nie umiała i nie umie wyboru w towarzystwie zrobić, że się łatwo z każdym, czy go zna, czyli nie, familiaryzuje, i z równą łatwością zaczyna bydź grzeczną i przestaje – Lecz przecież do tego stopnia, żeby własne dziecko poddać okazyi... Cała rzecz że Pan Margrabia... a gdzież jest taka ranga Człowieka, któraby niewinność i honor Panienki, gdy ten jest w niebespieczeństwie, usprawiedliwić mogła? ale dalibóg, ledwiebym się nie założył, że to jest intrygą zwyczajną tego Panicza – Lecz nie zaszkodzi wypytać się dobrze tego nowo przyiętego służaka, bo to bywa że słudzy więcej czasem wiedzą u takich Panów niż sami Panowie – tylko że nie dawno przyjęty <stage>(woła)</stage> hola!</p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA 3cia.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#jan_lenlokaj">JAN.</rs>
+              <rs key="#pan_simple">PAN SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Jestem Panie Dobrodzieju!</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Powiedz mi, za cóż ciebie żona moja przyjęła?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Dużoby gadać jak to było, to trzeba żeby Pan Dobrodziej najprzód wiedział, że ja to dla Jejmości Dobrodziejki tylko zrobiłem, żem do niej za lokaja tym czasem przystał, to trzeba Panu Dobrodziejowi wiedzieć czem ja byłem, bo Pan Dobrodziej o tem nie wie może, że ja byłem żołnierzem i do tego hułanem.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Ale mój kochany kiedy ia się ciebie o to nie pytam?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>A to ja Panie Dobrodzieju nie odpowiadam kiedy tak.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>I gdzieżeś ty był Hułanem?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Ja Panie Dobrodzieju byłem w Legionach pod Jenerałem Krasińskim. To mnie Pan niepoznał? a ja Pana poznałem, bo z łaski Jego, gdy nas na baterye nieprzyjacielskie pod Samosiera prowadził, miałem honor dwa razy bydź postrzelonym, i trzy razy miałem honor bydź pchnięty, i miałem honor w niewolą od Hiszpanów bydź wzięty, nakoniec miałem honor z niej uciec, aż się tu w Londynie oparłem, i mam honor bydź gołym bardzo.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Nie wątpię żebym się nie mógł czego od niego dowiedzieć.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Oto niechaj Pan prędzej odpisuje, bo mi ten Pan, co tu w domu teraz Jegomościnym rządzi, oddając list kazał jak najprędzej wracać do Lusthausu, gdzie Państwo i cała kompania na mnie i na Pana czeka, bo my tu Panie Dobrodzieju mamy swoje zatrudnienia i zabawy – Dobrze że Pan Dobrodziej przyjechał, to nie poznasz swego domu – jakie porządki, jakie odmiany: z Gabinetu Pańskiego wszystko gdzieindziej przerzuciliśmy, łóżka w innem miejscu, meble, bióra i kancelaryą wcale inaczej będziemy ustawiać – Teatr robiemy w ogrodzie z Biblioteki Pańskiej – Ta Guwernantka Panny Liwij Kukuma, rządzi moim Panem, mój Pan Jejmością, Córka Pańska mnie roskazuje, a ja na miejscu wszystkie usługi i honory Domu ułatwiam – Jak Panie Dobrodzieju wszystko idzie wyśmienicie, aż miło – Jejmość wszystko chwali i powiada że to jest w najnowszym guście, co my z moim Panem robimy – a cóż dopiero gdy, znowu i dziś w nocy mają bydź serenady, spacery, fajerwerki, to Panie Dobrodzieju nie do opowiedzenia, jak się przednio bawić będziemy – Jutro na 150 osób bal u nas; gdyby w obozie w głównej kwaterze, tobym więcej różnych figur nie widział, co się tu u nas uwija.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Od tego poczciwego i prostego żołnierza wszystkiego się można dowiedzieć – Jakże? nie jestże to żywy obraz zamieszania domowego? ale co tu było odpisać? Najprzód: napisać żem z tego nie kontent, że ten Gość nie znajomy jest w Domu naszym: to Go na złość dłużej będzie zatrzymywać; było napisać, żeby temu nie dawała wiary, aby się z naszą Córką mógł żenić Margrabia; że to jest intrygą do uwiedzenia: to powie że Ją głupią robię i weźmie to za impertynencyą – Pójdę sam z prośbą do niej, żeby Córkę odesłała do żony Bankiera Forester mego przyjaciela na kilka dni, może to przyjmie. <stage>(do Jana)</stage> Powiedz mojej żonie, że sam przyjechałem z odpowiedzią, jak powróci ze spaceru czyli raczej z Lusthausu.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Dobrze Panie Dobrodzieju.</p>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA 4ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_simple">PAN SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p><stage>(sam)</stage> Mam nadzieję w rostropności tej dziewczyny, że żadnego kroku płochego i krzywdzącego Jej honor nie zrobi. – Ale czy ja sobie nie podchlebiam tylko, bo jako Ojciec w sądzeniu o swoiem dziecku mogę się prędzej omylić: czego sobie nie życzymy, z trudnością nam wierzyć przychodzi. O! moja Liwjo! czyliżbyś chciała twego Ojca widzieć prędzej w grobie, niżeli mu natura w nim być przeznaczyła - co nieochybnieby nastąpiło, gdybyś miłość jego ku sobie haniebnemi postępkami sczernić miała!... ale precz z tąd czarne myśli! gdzie jest moja muzyka i poezja, która nam myśli naprawia? pójdźcie przyjaciółki poczciwych ludzi! osłodźcie mi moje smutne myśli, przyłóżcie się swem towarzystwem do pochwały mojej Bogini Samotności. <stage>(czyta wyraźnie)</stage><lb /> W samotności nie znam nudów,<lb /> Bo mam zawsze zatrudnienie;<lb /> W pośród trosków, w pośród trudów,<lb /> Jedno mej Córki wspomnienie,<lb /> Uspakaja narzekania<lb /> I zaczynam od śpiewania. –<lb /> Słodka dla mnie samotności!<lb /> Ty mnie od zdrady zasłaniasz,<lb /> Ostrożnym czynisz w miłości,<lb /> Słabości serca wyjawiasz;<lb /> Każesz tych unikać ludzi,<lb /> Których własny domek nudzi. –<lb /> Samotności, lepiej z tobą,<lb /> Niżli w ciżbie życie trawić;<lb /> Tu się lepiej człek zna z sobą,<lb /> I z sobą się umie bawić;<lb /> Tu szczęście poznaje prawe,<lb /> Znajdując w sobie zabawę. –<lb /> Tobie strumyk w ciemnym lesie<lb /> Przyjemne sprawia szemrania;<lb /> Słowik wdzięczne pienia niesie,<lb /> Zefir miłe powiewania;<lb /> Lubią cię leśni Bogowie,<lb /> I Dryady i Faunowie.<lb /> – Dosyć tego, resztę strof na inny czas sobie schowam; ale je muszę przeczytać, czy niemasz jakiej omyłki w kadencyi, bo w tem tak mierni poetowie jak ja, a nawet i pierwsi często chybiają – czytajmy:<lb /> Samotności! ty wskazujesz,<lb /> Ze mnie kiedyś wieczność czeka,<lb /> Wznosisz umysł i kierujesz,<lb /> Do przeznaczenia człowieka,<lb /> By nie żył tylko dla siebie,<lb /> I bliźnich wspierał w potrzebie. –<lb /> Samotności! ty oświecasz,<lb /> Co jest prawdziwą wolnością,<lb /> Ty szlachetność duszy wzniecasz,<lb /> Gardzisz rzekomą równością;<lb /> Wolnym jest z tobą prawdziwie,<lb /> Ten co żyje sprawiedliwie.<lb /> Ty nie uwieńczasz rycerzy, <lb /> Bo jesteś zawsze spokojna,<lb /> Nie stawiasz w boju żołnierzy,<lb /> Tobie nieznaną jest wojna;<lb /> Ty od prawnictwa uciekasz,<lb /> I wszystkich się intryg lękasz.<lb /> – Tu omyłka, ale niewielka, z tych uciekasz, lękasz, nie jest dobra kadencya, lecz podług mnie, gdybym miał powagę Autora dającego reguły, prędzejbym wybaczył wierszom z małą omyłką kadencyi, kiedy w nich myśl dobra, jak wierszom, w których oprócz kadencyi, żadnego związku i porządku nie masz. – Muszę poprawić – może tak będzie troszkę lepiej:<lb /> Ty prawnictwa nienawidzisz,<lb /> I intrygami się brzydzisz. –<lb /> Samotności! ubóstwiona!<lb /> Chciej mnie rostropnością wspierać,<lb /> Bądź mi zawsze ulubiona,<lb /> Spokojny będę umierać,<lb /> Bądź wesołą i przyjemną<lb /> I nigdy się nie nudź zemną.<lb /> – Czemuż ja tu nic nie wspomniałem o Numie Pompiliuszu, o jego Nimfie Egeryr, której dotąd ślady, pod Rzymem stojąc obozem, widziałem? Wszakże on do tej Bogini Samotności, od zgiełku i okazałości przywiązanych do Tronu, często uciekał do siebie samego, tam radząc się swej Bogini, najpiękniejsze jak wiadomo Prawa Ludowi Rzymskiemu wydawał – ale czas na mnie, abym się z tobą moia Samotności pożegnał, i dowiedział się, co się w domu z mojemi Nimfami dzieje, od czasu, jak ten Bożek zamieszania spokojności domowej do niego zawitać raczył.</p>
+          </sp>
+          <trailer>(Koniec Aktu IIgo)</trailer>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT TRZECI.</head>
+          <stage type="setting">
+            <p>(Teatr reprezentuje Ogród, dziką promenadę, i w nim siedzących, z Kukumą, Liwją i Longvilla)</p>
+          </stage>
+        <div type="scene" n="20">
+          <head>SCENA 1wsza.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#liwja">LIWJA.</rs>
+              <rs key="#kukuma">KUKUMA.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p><stage>(biorąc mu gitarę)</stage> Prawda że WPan mi się podobasz i...</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p><stage>(słychać głos jej Matki)</stage> „Panno Liwjo!”.</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Zaraz idę Mościa Dobrodziejko. <stage>(wychodzą z Kukumą)</stage></p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Pójdź WPanna, już dosyć tych umizgów.</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>SCENA 2ga.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+            </p>
+          </stage>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p><stage>(sam)</stage> To prawda, że mi się jeszcze nie zdarzyło, pod czas sceny gdyśmy komedyą z sobą grali, widzieć do mego gustu, jak ta Dziewczyna. – Jedno tylko małe zdarzenie, kiedy ją chciałem pocałować ukradkiem, to cóż się stało? Oto nie tak zrobiła, jak te, Lukrecye teraźniejszego wieku, co to z największym gniewem i furyą w podobnych zdarzeniach unoszą się nad obrażeniem swej niewinności, przeciwko modnym Tarkwiniuszom; ale owszem pełna spokojności, powiedziała mi, odsunąwszy się bez przysady, że to pocałowanie byłoby jej bardzo miłem, gdyby ją w oczach moich nie upodlało – Ja potem klęknąłem przed nią, zaręczając moją przysięgą, że bynajmniej... Podniosła mnie i ścisnąwszy za rękę prosiła, abym jej nigdy nie przysięgał, bo słyszała od Ojca, że ci mężczyźni, którzy najwięcej kobietom przysięgają, najmniej wiary dotrzymywać zwykli. Że temu co mówi wierzy, ale że własny szacunek, który ma dla siebie samej, nie pozwala jej tego; i tak się na niczem moje projekta skończyły – a miłość dla niej powiększyła się – Gdyby to w miejscu innem mnie się zdarzyło u jakiej panieneczki, tobym to wziął za komedyą i czekałbym ostatniego Aktu – Ale z tą poczciwą dziewczyną, która nie popsuta, miałżebym tak okrutnie postępować? Tylko ta moralność u diabła zawsze mi przychodzi, kiedy jej nie widzę, radbym żeby ona mnie przynajmniej nie chciała odstępować, bo się przekonywam, że to jest jedyny sposób podobania jej się – O jak szczęśliwa rzecz kochać, i bydź kochanym od tak niewinnego stworzenia, które nie wie co to jest niestałość, które nie wie co to jest zdrada, które wszystkiemu wierzy i ufa – ale o Boże! wspomnienie jedno, że mi się przyjdzie z nią rozłączyć, duma Ojca mego, który teraz Xięciem we Francyi został, i urodzenie nierówne... jakież mi czynić może zamysłów nadzieje? <stage>(Liwja nadchodzi której Longville nie postrzega)</stage> Dopiero pierwszy raz narzekam na sławę Przodków moich, którzy ją rozciągnąwszy na swoje potomstwo mocą Dyplomatów, ten ciężar że tak powiem chwały swojej i mnie udzielili – inaczej, będąc w niższym stanie, możebym łatwiej mniej honorów, a więcej szczęścia doznawał – ale cóż robić? muszę bydź dla niej obojętnym.</p>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <head>SCENA 3cia.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#liwja">LIWJA.</rs>
+            </p>
+          </stage>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p><stage>(przerywając mu)</stage> Na cóż to WPan na honor swój narzekasz?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p><stage>(z obojętną miną)</stage> Ja bynajmniej! to jest rzecz na którą się żalić nie można – Ci tylko narzekają na honory, którzy ich niewarci, albo przez zazdrość że ich mieć nie mogą, tym bardziej że ten dziedziczymy z Przodków, chociaż na niego sobie nie zasłużyliśmy; jest to jedna z najznakomitszych nadgród, jaką polityka Monarchów wynaleść mogła, jakże chcesz śliczna Liwjo aby na to narzekać?</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Ale dla czegóż ten honor jest tak okrutny, że pogardza swemi równemi, i kochać ich zabrania?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p><stage>(z interessującą miną)</stage> To jest przesąd ludzi nie znających edukacyi, i tych co się nigdy nie kochali, któremu wszelako natura się sprzeciwia bardzo często – Masz przykłady w Historyi, ileż to Królów i Cesarzów, którzy swoje berła i korony składali nie raz w ręce swoich kochanek... Ja śliczna Liwjo, gdybym był świata całego Panem, i wszystkie jego dostojności posiadał, złożyłbym je natychmiast u nóg twoich, za jedno pocałowanie. <stage>(na stronie)</stage> Otóż śliczna obojętność, którą zachować względem niej miałem. <stage>(Liwja ucieka)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <head>SCENA 4ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs> (i)
+              <rs key="#jan_lenlokaj">JAN.</rs> (który go podsłuchuje nie widziany)
+            </p>
+          </stage>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Muszę już tę scenę wkrótce skończyć, nie mogąc zrobić ją szczęśliwą przez siebie, na cóż wiec mam ją kaprysom moim poświęcać – Przezorny jej Ojciec jest niekontent z mego tu bawienia, jakem się od Jana dowiedział – widać oczywiście jak jest człowiek do rzeczy... Możeby do jakiej sceny niemiłej przyszło. <stage>(chodząc myśli)</stage></p>
+          </sp>
+          <stage>(JAN. podsłuchując mówi niewidziany)</stage>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Pójdę ułożyć wszystko do wyjazdu.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(na stronie)</stage> To już wyjeżdżamy?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Ale cóż ja w życiu mogę posiadać nad tę roskosz, jaką w sercu tej dziewczyny znalazłem?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(na stronie)</stage> Znowu wracamy?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Rozum mnie odchodzi!</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(n. s)</stage> O już dawno pocztą pojechał.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Nadaremnie zdaje się że panował dotąd nademną... Wezmę ją z sobą...</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Ale czy ci Ją dadzą?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>I będę gdzie na miejscu od nikogo nie znanem mieszkał – Ależ czyli to postępowanie zrobi honor tej, co tyle we mnie wzniecała pobudki do miłości i szacunku, jakiego jeszcze dla żadnej z tych co dotąd kochałem nie uczułem?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Co to, to prawda.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Nie stanęż Ja się narzędziem największego nieszczęścia?... Ale co za głupie rozumowanie...</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>I to prawda.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Jak to? ona jest celem mojej miłości... Ja jej celem jestem... Mamże ją zdradzać?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Alboż to ta pierwsza?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Na tyle wzajemnych przyrzeczeń, że się nigdy nie rozłączymy... Cóż z tąd? w jakimkolwiek stanie będzie, chociażby też i w najbiedniejszym, to wszelako taki stan będzie dla niej i dla mnie znośniejszym, nad stan rospaczy, w jakim ja i ona zostalibyśmy, rozłączając się tak niespodzianie! <stage>(z zapałem)</stage> Ale cóż?... to powie żem zdrajca i nakoniec uspokoi się... a ja co powiedzieć będę mógł?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>To mnie poślej z odpowiedzią.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Przeciwko tej poczciwej dziewczynie? Dalibóg! nie wiem co się zemną dzieje... Idę... O! gdybym mógł raz jeszcze ucałować jej białą rączkę... Ach czuję... że mnie nadzwyczajna moc zostawia, i wypycha z tego ulubionego miejsca.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(z hałasem wylatuje)</stage> Ach Panie Dobrodzieju brońmy się – Ja Pana dobrodzieja nie dam... Ktoby nas tu miał wypychać.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p><stage>(niespodzianie hałasem uderzony)</stage> Idź precz głupcze! Ja tu wcale twojej obrony nie potrzebuję, ani ciebie teraz – Idź precz! <stage>(idzie w zakąt dzikiej promenady zamyślony)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <head>SCENA 5ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#kukuma">KUKUMA.</rs>
+            </p>
+          </stage>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p><stage>(sama)</stage> Tu właśnie był nasz Margrabia, musiał zapewnie iść na spacer. Dobry chłopiec, ale widać, że jeszcze nie wiele nas zna kobiety, kiedy jest tak bojaźliwy i skromny względem tej Panny naszej Liwii; a ta Panna tak sobie nabiła głowę nim, jeszcze nie tak ona jak jej Matka, że rozumie, że to tak łatwo jej będzie złowić tego Panicza, jak jej męża we Włoszech. – O! byłam ja świadkiem nie raz, że jej się to samej nie udawało – Już ona wie, że ia to takie rzeczy umiem, i obiecała mi za to 500 dukatów, żebym tego dokazała, i jakim sposobem wprowadzić mogła tego młodego Margrabiego żeby się z jej Córką ożenił – ...O żebym ja miała ten rozum i ten statek we Włoszech, co go tu teraz mam w Anglii, przy tej piękności jakem ją miała na ówczas, byłabym i ja zrobiła inny los – Ale cóż? nigdym się nie chciała do jednego przywiązać, i nie umiałam bydź okrutną dla mężczyzn, rozumiejąc że jeszcze dość czasu mieć będę schować to okrucieństwo dla tego mężczyzny, któryby się był doprawdy starał pozyskać moją rękę – Ale mi się nie udało... tym czasem mnie wdzięki odeszły. – Widzę zdaleka zamyślonego naszego kawalera, muszę mu drogę zastąpić.</p>
+          </sp>
+        </div>
+        <div type="scene" n="25">
+          <head>SCENA 6ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#kukuma">KUKUMA.</rs>
+            </p>
+          </stage>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Wie Pan, że nasz Jegomość przyjechał, ale nie w najlepszym humorze, a Jejmość jeszcze nasza w gorszym?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Słyszałem teraz właśnie od ludzi, ale cóż za przyczyna tego humoru złego? czy on to zawsze taki?</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Owszem jego zwyczajny humor jest przyjemny, ale...</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Cóż ale? zapewne niekontent, że ja tu jestem? już też wyjadę.</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Prawdziwie jesteś Pan przenikliwy – ale jakbyśmy też Pana wszystkie żałowały, a osobliwie Panna Liwja, która cała w Panu jest zatopiona, pomimo swej skromności nie może tego utaić...</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Poczciwe dziecko! bo ja też nic więcej nad Ją samą w myśli i sercu nie mam... O! gdybym tę dziewczynę posiadał, tak Jak serce... ale darmo myśleć o tem...</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Ona toż samo słowo w słowo, co Pan, zawsze powtarza, i tak daleko jest przekonana, że to być nie może, że bojąc się, żeby jak powiada sama nie straciła szacunku u siebie i u Ojca, którego kocha, prosiła go aby ją z sobą wziął, a jak jej Ojciec to przyrzekł, to z godzinę płakała i na serce chorowała, że się z Panem musi rozstać. <stage>(na stronie)</stage> Oj co w tem poniekąd miała racyą, bo to prawda, że nam łatwiej jest daleko unikać tentacyi, a niżeli je zwyciężać. Jest to ostrożność, której ja przyznam się nigdym nie próbowała.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>O! Boże! co jestem za nieszczęśliwy! ona sama o to Ojca prosiła! <stage>(w rospaczy)</stage> czy to do prawdy? Przebóg! to nie może być! Ach! zdrajczyna! mnie chce porzucić!... mnie zwodzić!...</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Uspokój się WPan! Otóż Ojciec jej idzie – żegnam, do zobaczenia. <stage>(Longville wychodzi w rospaczy)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="26">
+          <head>SCENA 7ma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_simple">PAN SIMPLE.</rs>
+              <rs key="#kukuma">KUKUMA.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Czy ten Margrabia, co z nim gadałaś?</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Ten sam.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Cóżeś z nim WPanna rozmawiała?</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Powiedziałam mu, że żadnego balu jutro u nas nie będzie, ani serenady, ani spaceru – radziłam mu żeby sobie z tąd jechał, bo to WPana Dobrodzieja obraża, nie dla tego żebyś nie miał w sobie gościnności, ale że mając córkę młodą, nie widzisz w tem przyzwoitości z nieznajomym kawalerem kompromitowania się.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Cóż ci na to odpowiedział?</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Nic... ale oto... że już właśnie miał wyjeżdżać.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>To mnie cieszy – otóż i nadchodzi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="27">
+          <head>SCENA 8ma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#pan_simple">PAN SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Dowiedziawszy się o przybyciu WPana Dobrodzieja, nie chciałem przeszkadzać przywitaniu się obojga, lecz tu spotykając się mam honor powitać go i oraz prosić, abyś odebrał odemnie najczulsze wyrazy wdzięczności, za gościnność, której w domu Jego doznałem.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Równie i mnie należy Jemu podziękować, za tę preferencyą którą WPan Dobrodziej dajesz domowi memu nad miastem, gdzie rozumiem nierównie większe przy tylu zabawach mógłbyś znaleść dla siebie ukontentowanie, i ja pojąć nie mogę jego celu w zabawach tu naszych wiejskich, chyba że mnie WPan Dobrodziej zechcesz nauczyć...</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p><stage>(na stronie)</stage> Co ja mu na to odpowiem? <stage>(głośno)</stage> Zabawa w domu Jego miła, żona grzeczna, córka iego piękna, nakoniec ogród, widoki i położenie miejsca piękne.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Rozumiem że się już jego oczy dosyć musiały tem wszystkiem nasycić, a Miasto... <stage>(Pani Simple przerywa)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="28">
+          <head>SCENA 9ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#pan_simple">PAN SIMPLE.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>WPan co tak lubisz muzykę Mężu, to cię zabawi głos Margrabiego, bardzo pięknie śpiewa – Proszę zrób nam tę łaskę i śpiewaj Duetto z moją córką!</p>
+          </sp>
+        </div>
+        <div type="scene" n="29">
+          <head>SCENA 10ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#pan_simple">PAN SIMPLE.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+              <rs key="#liwja">LIWJA.</rs>
+            </p>
+          </stage>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Mój głos w porównaniu nie jest tak piękny jak Pana Margrabiego, ale kiedy Mama każe, ja lubię jej roskazy wypełniać.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Ja czyniąc zadosyć żądaniu zaśpiewam, ale nie ma gitary.</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Ja przepraszam, że dla mojej pilnej expedycyi, którą mam dzisiejszej poczty, odejść muszę, i wziąść córkę do pisania mi listu.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p><stage>(z niecierpliwością)</stage> Ale zostań się! to potem... wszakże lubisz muzykę?</p>
+          </sp>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p>Lubię... ale i odpisać także lubię natychmiast, żebym nie uchybił temu kto do mnie pisze; tem bardziej że żaden interess bałamuctwa nie cierpi. <stage>(bierze za rękę córkę i idzie, matka w największej passyi wyrywa mu ią, on odchodzi z flegmą smutny)</stage></p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Idź sobie WPan, ale mi mojej córki nie bierz, i nie ucz jej niegrzeczności kiedy sam jej nie znasz! cóż to za dzik z tego mego męża. – Teraz WPaństwo sami tu sobie śpiewać możecie, bo ja muszę pójść do mego męża, żeby mi się wytłumaczył z tego grubijaństwa, które mnie i WPanu Margrabio wyrządził. – Muszę Go nauczyć co My jesteśmy WPan i Ja. <stage>(idzie prędzej, wraca się)</stage> jak mi się nie wytłumaczy, tak zaraz idę do rozwodu. – Mości Panie Margrabio! WPan mi będziesz dopomagał, i będziesz za świadka. <stage>(wychodzi zła)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="30">
+          <head>SCENA 11ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#liwja">LIWJA.</rs>
+              <rs key="#xiążę_longville">MARGRABIA.</rs> (w zadumieniu)
+            </p>
+          </stage>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>Ale WPan słyszę odjeżdżasz? czy ja tem mam wierzyć? <stage>(na stronie)</stage> Otóż piękna obojętność, którą mi mój Ojciec zalecił, żebym ją względem niego zachowała.</p>
+          </sp>
+        </div>
+        <div type="scene" n="31">
+          <head>SCENA 12ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#liwja">LIWJA.</rs>
+              <rs key="#xiążę_longville">MARGRABIA.</rs>
+              <rs key="#kukuma">KUKUMA.</rs>
+            </p>
+          </stage>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Ach! zmiłuj się WPanna! idź tam do Państwa! Jejmość krzyczy, łaje na Ojca WPanny, nazywa go tyranem, zabójcą, a wszystko o WPannę, teraz na serce chora, mdleje, i chce się zabijać, a wszystko o to, że Jegomość chce ją wziąść z sobą i odwieść do Pani Forester. – Idź WPanna, idź, zmiłuj się, ja lecę po Doktora.</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>O Boże!</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Idź WPanna prędko! <stage>(Liwja idzie, ale się obraca i szepce do ucha Kukumie)</stage> ale idź WPanna! Jak się rozkochała! szepcze mi, żeby prosić Margrabiego, aby dalej nie jechał jak o milę. <stage>(ogląda się)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="32">
+          <head>SCENA 13ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#kukuma">KUKUMA.</rs>
+            </p>
+          </stage>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Cóż to WPanu powiedziała Panna Liwja?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Nie uwierzysz z jaką czułością i niewymownem przymileniem wyrzekła do mnie te tylko słowa: „WPan słyszę odjeżdżasz, czyż ja temu mam wierzyć”? Chciałem jej natychmiast do nóg upaść i przysiądz, że tylko jej roskazów we wszystkiem słuchać będę, a WPanna tym czasem nadeszłaś.</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Oto pięknie WPan dotrzymujesz sobie. – Wszakże miałeś odjechać? a teraz od Jej roskazów zależysz, fe! wstydź się WPan takim być słabym i tak się poddawać kobiecie, która będąc młodą i niewinną z miłością się waha i passuje, jak łódź na wodzie, kiedy ten co nią kieruje pływać nie umie. – Bądź WPan pewny, że my kobiety jesteśmy nadzwyczajne; kiedy kochamy, to kochamy; kiedy nie, to nie! my w miłości ani w nienawiści nigdy nie znamy środka... I tak kiedy kobieta mężczyznę pokocha, a jeszcze do tego gdy jest niewinna, tak szalenie i pierwszy raz jak Panna Liwja WPana, to wszystko dla niego zrobi, nawet życie swoje poświęcić gotowa, bo to jest passya która najwięcej ma mocy i odwagi nad nami. – W ten czas to tylko jesteśmy skromne, i nie upadamy [mówię to do niewinnych] kiedy mężczyzna ten, który jest kochanym, łączy do miłości dla nas szacunek i uszanowanie, co się często zdarza tym mężczyznom, co się prawdziwie kochali, i zepsutych nie są obyczajów.</p>
+          </sp>
+        </div>
+        <div type="scene" n="33">
+          <head>SCENA 14sta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#kukuma">KUKUMA.</rs>
+              <rs key="#jan_lenlokaj">JAN.</rs>
+            </p>
+          </stage>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(który ich podsłuchiwał, z nagła)</stage> O! Panie Dobrodzieju, niechże też Pan Dobrodziej tej filutce babie nie wierzy?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Ach cóż się stało! dla Boga! <stage>(odurzeni)</stage></p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Co to jest?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Bo Pan Dobrodziej niech sobie tylko przypomni tę bajkę o słowiku i wróblu, co to się razem starali oba o dzierlatkę, a wszelako dzierlatka wolała wróbla za męża; a niżeli słowika, chociaż ten ptaszyna ślicznie śpiewa i dobry, a wróbel tylko: „Jurny wróbel z czarną łatką – Uganiał się za dzierlatką – I słowik się do niej palił”.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Ty szalony! Jak mi się raz jeszcze w moje rozmowy wdawać będziesz, to cię hultaju oddam do domu poprawy – Idź mi z tąd zaraz precz. <stage>(Jan odchodzi)</stage></p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>On nie jest taki głupi jak się zdaje – Niech go Pan odpędzi od siebie! impertynent! <stage>(śmieje się)</stage></p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Ale ty moja łaskawczyno! moja Dobrodziejko! twoje nadzieje, które mi czynisz, życie mi wracają – Ale jakże mam postąpić, żebym nie żeniąc się z nią, i swego i Jej honoru nie obraził?</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Byleś go WPan powierzchownie zachował, to nic nie szkodzi – Oto zdaj się WPan na mnie i słuchaj! najprzód mnie musisz zabeśpieczyć 2,000 dukatów i dla beśpieczeństwa honoru Panny, gdybyś Ją porzucił, zapisz 20,000 dukatów i to w ręce jej matki złożysz – Oto są blankiety, proszę je odpisać i Ona o tem niby wiedzieć nie będzie. <stage>(Jan kryje się za drzewo i słucha)</stage></p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p><stage>(Podpisując blankiety)</stage> Prawdziwie wybornie! oto masz tymczasowo na zadatek przyjaźni ten soliter <stage>(zdejmuje i daje)</stage> – Tylko dalej jakże?</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p><stage>(niby nie chce brać lecz bierze)</stage> Słuchajże WPan dalej! napisz WPan czuły a krótki list z pożegnaniem i prośbą, i zaklinając ją i przysięgając, że się z nią ożenisz, gdy z Panem będzie chciała jechać!</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p><stage>(tupa nogą z radości)</stage> Ach wyśmienicie! wyśmienicie! <stage>(całuje ją)</stage> Dalej!</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Dzisiaj o północy WPan sam przypłyń na wielkiej barce tu, pod ten dom, a tak razem popłyniemy do okrętu tego, co tu niedaleko brzegów naszych stoi na kotwicach od kilku dni, i który właśnie, jakem się dowiedziała, dzisiaj w nocy odchodzi. <stage>(Jan podsłuchuje na drzewie)</stage></p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Mnie się tu nie wolno wtrącać – poczekaj nauczę Ja cię bogini! <stage>(ucieka)</stage></p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Bogini szczęścia mojego! Nie mam wyrazów, abym mógł podziękować za te poczciwe rady! Biegnę i to wszystko dopełnię. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Nauczę ja cię tu bogini, co to jest rozum Lenlokajski, coś mnie kazała odpędzić.</p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>WPan idź do siebie i przygotuj wszystko, mnie bilet przyszlej do Panny Liwij pokoju – Ja idę Ją przygotować do tego i powiem że się chcesz zabić z rospaczy.</p>
+          </sp>
+        </div>
+        <div type="scene" n="34">
+          <head>SCENA 15ta.</head>
+          <stage type="setting">
+            <p>(Teatr wystawia pokój Longvilla)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#jan_lenlokaj">JAN.</rs>
+            </p>
+          </stage>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Muszę wszystko tak zrobić żebym ani dał poznać, co robię memu Lokajowi, a nawet go tu zostawię i zamknę w pokoju, bo ten hultaj wszędzie nos wścibi, gotów mnie wyśledzić i cały sekret wydać – Zginąłbym! <stage>(pisze list)</stage> „Życie moje, śliczna Liwjo! równie jak i śmierć są w twoim ręku, albo mnie uszczęśliwisz, gdy dzisiaj w nocy ślub wiecznej miłości na okręcie ze mną weźmiesz, albo dzisiaj zobaczysz śmierć tego, któryby bez ciebie żyć na ziemi nie mógł” – hola!</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Jestem Panie Dobrodzieju!</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Żebyś tu wszystko na drogę przygotował, jutro po południu wyjeżdżam. <stage>(odchodzi pomieszany i zamyka drzwi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="35">
+          <head>SCENA 16ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#jan_lenlokaj">JAN.</rs>
+            </p>
+          </stage>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(sam)</stage> Otóż tak zrobię: ponieważ wiem że niedługo mają wychodzić i płynąć, wezmę na siebie minę kochanka, pójdę na wyznaczone miejsce, i tej starej babie oświadczę, że ją chcę z miłości wykraść i na okręcie przygotowanym popłynąć; jak nie będzie chciała, to powiem że wydam ją, a jak zechce, to także powiem, że ją jeszcze tem prędzej wydam – ona ze strachu musi mi dać za tę sprawę z 10 dukatów. <stage>(ciemno się robi zupełnie)</stage> Więc już pójdę. <stage>(Chce otworzyć ale zastaje drzwi zamknięte)</stage> O niech mnie diabli wezmą jak mnie złapali!... wpadłem jak mucha w pajęczynę. To diabelski łeb tej baby Kukumy, to ona tak mego Pana wyedukowała – Ale co ja tu teraz będę robił? tu noc, uciekać nie ma którędy, chyba oknem z drugiego pokoju... spaść źle... płakać jeszcze gorzej – więc oknem z tamtego pokoju wyskoczę, potem w nogi do Londynu. <stage>(Ucieka do drugiego pokoju)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="36">
+          <head>SCENA 17ta.</head>
+          <stage type="setting">
+            <p>(Teatr reprezentuje wsiadających na łódź, Kukumę, Longvilla, Matkę temu wykradzeniu przytomną, Liwją rospaczającą, i Jana wyzierającego z okna z którego miał uciec – Liwja mając wsiadać waha się i płacze)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#kukuma">KUKUMA.</rs>
+              <rs key="#longville">LONGVILLE.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+              <rs key="#liwja">LIWJA.</rs>
+              <rs key="#jan_lenlokaj">JAN.</rs>
+            </p>
+          </stage>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(odurzony)</stage> Tam do diabła! teraz ani podobieństwa – Cicho! otóż śliczna scena, matka własną córkę wykrada; może też to w tym kraju tak jest, że Panny inaczej za mążby nie poszły, tylko ich potrzeba gwałtem wykradać i przymuszać do tego stanu – ...Oj! co w moim kraju to wcale przeciwnie... daleko poczciwsze Panny!</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p><stage>(w rospaczy zapłakana)</stage> Sama nie wiem co mam czynić? opuścić Ojca którego tak kocham? o! nie zrobię tego! pójdę do... ale jakże mam zdradzać kochanka, który mnie w niczem nie zdradza, którego mam być żoną, i którego kocham nad wszystko, o Boże!...</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p><stage>(bierze ją za rękę)</stage> Liwjo, pójdź WPanna natychmiast... czekam na nią. <stage>(ciągnie ją i na łódź wsadza)</stage></p>
+          </sp>
+          <sp who="#kukuma">
+            <speaker>KUKUMA.</speaker>
+            <p>Pójdź WPanna i nie udawaj, prędko! prędko!</p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p>O Boże, o Ojcze kochany! <stage>(płyną żegnając się na migi)</stage></p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Bardzo dobrze dotąd, ale jak się mąż obudzi? na to powiem... że dobrze mu tak, za co nie było pozwolić dobrowolnego ślubu! pójdę zobaczę co się tam dzieje.</p>
+          </sp>
+          <trailer>(Koniec Aktu IIIgo.)</trailer>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>AKT CZWARTY.</head>
+          <stage type="setting">
+            <p>Podczas Antraktu, nim się Kortyna podniesie, da się słyszeć Kanonada morska z daleka głucha)</p>
+          </stage>
+        <div type="scene" n="37">
+          <head>SCENA 1wsza.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_simple">PAN SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_simple">
+            <speaker>PAN SIMPLE.</speaker>
+            <p><stage>(w rospaczy z chustką w ręku)</stage> Gdzież jestem? i gdzież idę? O nocy okropna!... Ty co zawsze bywasz towarzyszką nieszczęśliwych! zrób się jeszcze dla mnie ciemniejszą... i na zawsze zamknij moje powieki! Bo cóż teraz zostało dla mnie miłego? kto mnie w troskach pocieszy? kogoż, ach! kogoż z tem uczuciem przycisnę do łona ojcowskiego? któż mnie pochowa? <stage>(wychodzi na stronę)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="38">
+          <head>SCENA 2ga.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#jan_lenlokaj">JAN.</rs>
+            </p>
+          </stage>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(sam niewidziany od Simpla)</stage> Tędy droga do domu Pastora... ale jakie ciemno! mój Boże! jakie to nieszczęścia ten mój Wojażer narobił! cały Dom w zaburzeniu – jam ledwie uciekł – ale co Ojciec to zapewne umrze z rospaczy... opuścił Dom i żonę – słychać było kanonadę mocniejszą, Korsarze tu czasem bywają. <stage>(wchodzi do Domu Pastora)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="39">
+          <head>SCENA 3cia.</head>
+          <stage type="setting">
+            <p>(Kanonada ustaje zupełnie. Simple sam w większej rospaczy stoi nad samym brzegiem morza, przy skale widać Dom Pastora)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_simple">SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_simple">
+            <speaker>SIMPLE.</speaker>
+            <p><stage>(jak najwolniej z uczuciem i powagą)</stage> Czyliż na to o! Boże, to jedyne mi dziecko dałeś, abym się doczekał jego zguby? na cóż we mnie wlałeś to uczucie żalu tak mocne po jego stracie! czemuż Panie stwarzając mnie nie dałeś mi serca kamiennego? Ach to bydź nie może, aby to dziecko tak dobre, tak rostropne, tak umiejące się powodować, tak do mnie przywiązane, tak czułe... mogło Ojcu swemu za to, że je tak pielęgnował, kochał i przez lat szesnaście mało kiedy z ręki i oka swego wypuszczał, podobne żalu po sobie wyrządzić okrucieństwo? Mogłażeś, kochana Liwjo, to serce Ojcowskie, które dla ciebie we mnie bije, tak nielitościwie zranić? O! nigdy zapewnie! Ty sama na to zdobyćbyś się nie mogła – Nie, to nie Ty! Czemże ja Ci moja Liwjo mogłem na tak zdradzieckie postępowanie ze mną zasłużyć? <stage>(z ciężkim oddechem)</stage> Dla czegóż zapomniawszy o obowiązku Córki względem Ojca, o sobie także, swoim honorze i uczciwości, płci swojej zapomnieć mogłaś? Czyliż Ja Ci złe kiedy rady dawałem? Nie zapewniałażeś mnie nie raz, że nic bez naradzenia się ze mną nie uczynisz? Nie powiadałażeś mi kilkakrotnie, że mnie ustawicznie swemi postępkami będziesz przekonywać, że mnie kochasz? Jakże mogłem, ja twój przywiązany Ojciec, źle kiedy tobie życzyć? mógłżem u ciebie na to zasłużyć, byś o mnie zapomniała, i mnie opuściła dla jednego człowieka, którego wcale nie znałaś – Wzywam was! <stage>(głośniej)</stage> o wy wszyscy nieszczęśliwi Ojcowie i Matki, którzy albo już byliście w podobnem nieszczęściu, albo się jego obawiacie, dzielcie ze mną tę rospacz i narzekanie, bo gdzież nieszczęśliwi mają kiedy przyjaciół? jeżeli nie tych, którzy podobnego doznają nieszczęścia! O ciemności okropna! ty co świadkiem jesteś moich udręczeń, które mi wnętrzności rozrywają i po kościach moich rozchodzą się, co mi radzisz? Xiężycu! <stage>(ciszej)</stage> ty towarzyszu żeglujących! przyświecaj temu okrętowi, na którym moja kochana Liwja płynie!... Wy wiatry! nie wiejcie, błagam was, dajcie jej czas szczęśliwie u portu gdzie sobie życzy stanąć! <stage>(błyska się)</stage> Bałwany wznosić się zaczynają... słyszałem kanonadę... ale nie... <stage>(zaczyna się błyskać)</stage> błyska się i wiatry powstają... to tylko moja imaginacya... moja Córka już jest beśpieczna, już jest w porcie i myśli o Ojcu. <stage>(coraz bardziej grzmi)</stage> Błogosławię cię kochane dziecię! Niechaj ja tu zginę ofiarą żalu po tobie! <stage>(ze łkaniem)</stage> Niechaj się w bałwanach morskich zanurzę... byle ty żyłaś i mogła być z tym człowiekiem, który cię uwiódł, na zawsze szczęśliwą! ale co słyszę? to grzmi... do prawdy... to musiała być kanonada... może zbójcy morscy ten okręt... język mi martwieć zaczyna... coraz mocniej słabieje... ach! niemasz... <stage>(głośniej)</stage> już niema dla mnie żadnej nadziei. <stage>(grzmi okropnie, wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="40">
+          <head>SCENA 4ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pastor">PASTOR.</rs>
+              <rs key="#jan_lenlokaj">JAN.</rs> (nie postrzegając Simpla)
+            </p>
+          </stage>
+          <sp who="#pastor">
+            <speaker>PASTOR.</speaker>
+            <p><stage>(wychodzi z domu)</stage> Otóż idź do Bankiera Forester jego przyjaciela, ja tam za tobą pójdę, a pewno znajdziecie.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Właśnie tam miałem się udać, i tylko tu do Pana wstąpiłem, aby mu to nieszczęście jego przyjaciela opowiedzieć!</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PASTOR.</speaker>
+            <p>Idź do Pana Forster! już burza ustaje – on pewnie tam się udał jako do swego przyjaciela. – Miły Boże! czy ja mogłem się kiedy spodziewać, znając to dziecko w domu Ojca, żeby się dało kiedy wykraść, i tyle nieszczęścia narobić poczciwemu Ojcu... a nie wiem kto tu winien, czy Ojciec, czy Matka, czy Córka, bo chcąc być sprawiedliwym sędzią w tej mierze, to nie należy nigdy jednej, lecz obudwóch stron wysłuchać. – Otóż są skutki zamieszania domowego i nieładu, kiedy go która familia przekłada mieć w domu swoim nad rząd jednego sprawiedliwego i rostropnego Ojca lub Matki, bo zawsze prędzej czy później w domu swoim Anarchią mieć musi. Pojdę modlić się i prosić Boga o zgodę familii, gdyż to jest pewną rzeczą, że z domowych niezgód i nieładu rodzą się publiczne nieszczęścia narodów. – Boże wielki! Ty co nam dałeś Monarchę tak sprawiedliwego i czułego Ojca, niech przykład jego będzie wzorem cnót dla jego poddanych... <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="41">
+          <head>SCENA 5ta.</head>
+          <stage type="setting">
+            <p>(Teatr się objaśnia, reprezentuje wschód słońca, zdaleka miasto, rogatki i żołnierza na warcie. Na górze Pana Simple, z oczyma wzniesionemi leżącego zdaleka, i trzymającego wielką gałęź, którą urwał z drzewa, i bliskiego furyi z waryacyą, w sukniach zwalanych)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_simple">SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_simple">
+            <speaker>SIMPLE.</speaker>
+            <p><stage>(sam w rospaczy)</stage> Już dnieje, burza zupełnie ustała... ale dla mnie noc i wieczne milczenie... To słońce co wschodzi nie dla mnie, to dla myszy... Ono tylko dobrym Ojcom i szczęśliwym dzieciom świecić na ziemi powinno i robić ukontentowanie. – Ojciec mojej Liwii niepowinien na niego patrzeć! <stage>(odwraca się)</stage> Dla niego noc być powinna przy trunnie... <stage>(żywo)</stage> Bardzo zdrów jestem <stage>(śmieje się czule)</stage> czuję teraz wiele sił... Oto miasto... <stage>(pokazuje na niebo)</stage> Pójdź za mną. <stage>(ciągnie gałęź)</stage> Pójdź kochana Liwio! znalazłem ją... znalazłem cię kochane dziecię!... Wsiadaj do tego powozu, jedźmy do nieśmiertelności... Uciekajmy od tych tygrysów!... tu na tej pomorańczy <stage>(wskazuje do góry)</stage> co to?... siedzi wół z potężnemi złotemi rogami... Nie kłaniaj się kiedy nie znasz! <stage>(wpada w furyą i wywija gałęzią jadąc do góry drogą publiczną, uderza nią przechodzących ludzi dziwiących się, których mnóstwo zbiega się... Żołnierz krzyczy na warcie „do broni!” biją alarm wołają „ogień” jedni, drudzy że waryat, co raz więcej się ludzi zbiega, wiążą waryata, alarm ustaje)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="42">
+          <head>SCENA 6ta.</head>
+          <stage type="setting">
+            <p>(Teatr reprezentuje Panią Simple wychodzącą z gabinetu swego domu, zapłakana sama w furyi)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Wolałabym <stage>(w gniewie)</stage> była się nie rodzić, bobym nie była ani żoną, ani matką, a jeszczej bardziej... <stage>(słychać trąbkę pocztarską)</stage> Cóż to? ktoś przyjechał... może od Margrabiny mojej córki – ale nie, to coś...</p>
+          </sp>
+        </div>
+        <div type="scene" n="43">
+          <head>SCENA 7ma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#aquino">AQUINO.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+            </p>
+          </stage>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>Witam Cię Siostro! cóż to WPani, jak się masz?</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>A WPan co tu robisz Bracie? zkąd się tu wziąłeś?</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>Co tylko z okrętu wysiadłem, zaraz wziąwszy pocztę tu do Ciebie śpieszyłem... Ale cóż to WPani? gdzież jest jej mąż?</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Nieszczęścia, jakie mieć mogłam, doszły teraz do najwyższego stopnia. Oto przez złość, którą mi chciał mąż mój wyrządzić, nie chcąc zadosyć woli mojej uczynić w wydaniu za mąż córki naszej Liwii <stage>(Aquino wzdycha)</stage> za pewnego Margrabiego, który się o nię starał – otóż ją tenże Margrabia wykradł, bez mojej wiadomości, ale temu najwięcej mój mąż winien – Prawda że on przyrzekł, że ślub z nią na okręcie weźmie, ale mój mąż rozgniewany, odszedł, opuścił mnie i dom, i zapewnie ich goni, żeby im ślubu dać zabronił – Mnie zostawił w największych interesach, a dziecko swoje na większą hańbę i wstyd wystawił. – Otóż to szczęście bydź żoną.</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>Darmo, żebym kiedy się spodziewał widzieć w tobie rozsądek i zastanowienie się Siostro w tym czasie, kiedy sama natura zwrócić cię do niego powinna!</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Czy i ty także z mężem moim trzymasz?</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>Ja tego człowieka wielbię... ale go żałuję że jest twoim mężem, bo bratem twoim bydź albo gościem to wybornie.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Jeżeli z temi grubijaństwami tu do mego domu przyjechałeś, to proszę z niego natychmiast wyjeżdżać, i swoim majtkom je gadać.</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>Dosyć tego, oto WPani powiadam, co się z jej córką stało. Płynąc do Londynu z Indyi, kapitan okrętu spostrzegł zdaleka, jak korsarz Francuzki atakował i już zdobył okręt niedaleko brzegów; że to w bliskości naszych było, kazał się udać naszemu okrętowi, aby uratować nieszczęśliwych. Po małej utarczce odbiliśmy okręt, i niewolników od korsarzy wydobyliśmy, ja za całą zdobycz jego, do której się najwięcej przykładałem, dostałem z niewoli siostrzenicę moją, a WPani Córkę Liwją.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Ach gdzież jest? <stage>(upada mu do nóg)</stage> Zbawicielu! Ojcze! zaklinam cię, czy żyje? czy już Margrabiną?</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>Zdziwiony tym nadzwyczajnym przypadkiem, gdy się zacząłem wybadywać, zastałem ją prawie bez zmysłów; trzoźwiąc ją, te tylko słowa jej zrozumiałem: o mój Ojcze! o mój Longville! chciałem się od Kukumy, którą poznałem, dowiedzieć okoliczności, jaka ich na ten okręt przywiodła, wiedząc że Ojciec nie miał żadnego związku z marynarką, ale ta nie mogła gadać, bo jej kartacz język urwał i gębę przestrzelił – Widząc Córkę WPani pozbawioną zdrowych zmysłów, czyli raczej szaloną, najpierwszą moją rzeczą było, przybiwszy do portu, oddać ją do Domu waryatów. <stage>(Pani Simple mdleje)</stage> Jest tam kto? Pani wasza mdleje... wody! Uspokój się WPani, i myśl o ratunku, aby to dziecko było zdrowe, to ja dam wszystko co mam – Ja nie mam wiele potrzeb, a zatem mogę się obejść, chociaż sobie nie wiele zostawię. Pastor, który jest przełożony Instytutu szalonych, obiecał mieć wszelkie staranie o niej.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>To zapewnie musiał na tym okręcie zginąć ten Margrabia jej mąż?</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>Diabli wiedzą, a zapewne może ja mu sam w łeb wypaliłem, a diabeł tam wie, gdyż ja moją ręką kilku korsarzy zabiłem.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Ale on nie był korsarzem tylko Margrabią, to z tego Margrabina moja Córka zwaryowała zapewnie?</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>Co WPani z tego, lepiej że ieden zbójca mniej na świecie, bo podług systematu ludzi honoru, to najwięksi korsarze są kawalerami tego rodzaju, co uczciwe i dobre Panienki zwodzą, albo ich bez woli rodziców wykradają, które nie znając kierunku wiatrów, ani passyi ludzkich, same się na burze świata puszczają.</p>
+          </sp>
+        </div>
+        <div type="scene" n="44">
+          <head>SCENA 8ma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#aquino">AQUINO.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+              <rs key="#jan_lenlokaj">JAN.</rs> (jako posłaniec)
+            </p>
+          </stage>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>A ty co tu robisz Janie?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Oto jest list Pani Dobrodziejko od bankiera Forester, ja to Pani Dobrodziejko, ja najpierwszy poznawszy poczciwego męża Pani Dobrodziejki, na ulicy co go wleczono w ten moment i prowadzono do Domu waryatów, spotkałem Pana Forester, który patrząc wraz ze mną na to męża Pani nieszczęście, który zwaryował, dał mu pomoc, i list ten ołówkiem napisał, ten poczciwy bankier tego momentu mnie tu kazał lecieć z tym listem i Pani go oddać, a dla prędszego doniesienia, kazał mi powozem jechać.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Już ja się dawno tego spodziewałam, że on na tem skończy. Ale o! Boże czegóż ja się doczekałam? Czytaj WPan! a ty czekaj tam Janie! Mój Boże! do jakiegoż ja nieszczęścia z tym człowiekiem przyprowadzona!</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p><stage>(czyta)</stage> „Nie chcąc Ją zostawić w teraźniejszem zmartwieniu bez naszej pomocy, zwłaszcza że WPani nie będziesz w stanie zaradzenia sobie, ofiarujemy jej w domu naszym w mieście mieszkanie, a będąc bliżej nieszczęśliwego męża, możesz łatwiej bydź mu pomocą – My zaś wszelkie wygody dla nich i interessa z ukontentowaniem bierzemy na siebie – Czekamy jej przybycia – Forester”.</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Pani Dobrodziejka niech się zbiera, bo już i powóz na nią czeka.</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p>Ach! cóżbym tu robić miała! <stage>(wychodzi)</stage> zaraz się wybiorę.</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>Widać że ci Forestrowie są poczciwi ludzie — Wątpię żeby się znalazł między marynarzami nawet ktoby im za złe miał, że są bogaci, albo im zazdrościł. Ale jak to mojej Siostrze jest przykro, że zostanie na łasce, i że do tego stanu jest przywiedziona – Przez długi które ma, nie może mieć intraty, a nadewszystko że nie będzie mogła gości w ten Dom przyjmować takich, jak jest Margrabia, gdzie sama gościem będzie. – Do czego to nierostropność przywieść może Dom cały i w nim zrobić Anarchią? miły Boże! mój kochany Szwagier, ile razy on to sobie przepowiadał, że go to tak czeka prędzej czy później; taki rozumny człowiek, i który tyle miał doświadczenia – Ale i to prawda, że głupi jak mówią nigdy rozumu niestraci. – O! lepsze nierównie burze na morzu, niż na lądzie. Tyle razy zdarzyło mi się być pod czas najgwałtowniejszej burzy, tyle razy pod czas najstraszniejszej bitwy, a nigdziem się tak ani części nie strwożył i nie zgryzł, ile w tej domowej nawałności; widzę skołatany okręt, ogołocony z masztów i sternika, którego uratować nie można, widzę nieprzyjaciela, a bić nie mogę. <stage>(słychać trąbkę)</stage> Co u diabła... znowu jakiś kurjer. Zdaje mi się że jestem w domu admiralicyi, gdzie ustawicznie kurjery z doniesieniem o wygranej lub przegranej batalii latają. – Muszę iść obaczyć. <stage>(Aquino spostrzega zdaleka wysiadającego Longvilla, słychać głos: Zbawco! Zbawco! stój zatrzymaj się)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="45">
+          <head>SCENA 9ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#aquino">AQUINO.</rs>
+              <rs key="#longville">LONGVILLE.</rs> (z związaną ręką)
+              <rs key="#jan_lenlokaj">JAN.</rs>
+              <rs key="#postylion">POSTYLION.</rs>
+            </p>
+          </stage>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p><stage>(przypatrując się zdaleka)</stage> Czy mi się zdaje, że to ten sam, któregośmy z niewoli korsarzów wraz z innemi niewolnikami wydobyli? Ale ten sam... Cóż on tu robi?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p><stage>(na stronie)</stage> Tam do diabla! to mój przeszły Pan, muszę udać że go nie znam... To upiór... to duch... po obsygillacyi i jeszcze żyje?...</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Nie pytaj się co tu robię, ale zaklinam Cię na Boga, powiedz mi czy żyie ta Panna, która jak mi powiadano, że miała być siostrzenica, i że ją z sobą zaprowadzić miałeś do domu?</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>Prawda że zaprowadziłem, ale do domu waryatów, bo oszalała, i nie wiem czyli dotąd żyje.</p>
+          </sp>
+		  <stage>Pani Simple na tę Scenę z okna patrzy.</stage>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>Jak to? zmysły utraciła? czyli dotąd żyje?... <stage>(pada jak nieżywy)</stage></p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Nie powiedziałem ja, że to duch co udaje że żyje.</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p><stage>(do Postyliona)</stage> Czy nie wiesz co to za człowiek, i jak się zowie? <stage>(do Jana)</stage> a ty nie wiesz?</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>Nie wiem Panie Dobrodzieju, znałem podobnego trupa.... ale nie wiem...</p>
+          </sp>
+          <sp who="#postylion">
+            <speaker>POSTYLION.</speaker>
+            <p>Ja tylko tyle wiem, że mi cztery razy zapłacił tryngeld, a ja spodziewając się jeszcze jednego, leciałem na złamanie szyi.</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p><stage>(do Jana)</stage> A ratujcież go przecie!</p>
+          </sp>
+          <sp who="#jan_lenlokaj">
+            <speaker>JAN.</speaker>
+            <p>O! zaraz my go tu pochowamy. <stage>(wleką go za kulisy)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="46">
+          <head>SCENA 10ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pani_simple">PANI SIMPLE.</rs>
+              <rs key="#jan_lenlokaj">JAN.</rs>
+              <rs key="#aquino">AQUINO.</rs>
+            </p>
+          </stage>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>A WPani nie znasz tego człowieka? czy to nie Margrabia, ten co tyle nieszczęścia wam narobił?</p>
+          </sp>
+          <sp who="#pani_simple">
+            <speaker>PANI SIMPLE.</speaker>
+            <p><stage>(migając na Jana)</stage> Wcale nie; Ja pierwszy raz tego człowieka widzę – Ale niechaj brat jedzie do męża, ja zaraz za nim przyjeżdżam. Adjeu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="47">
+          <head>SCENA 11ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#aquino">AQUINO.</rs>
+            </p>
+          </stage>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p><stage>(sam)</stage> Dalibóg jabym tu trzeci oszalał, żebym w tym burzliwym Domu dłużej został, co nikt nie wie, co się w nim dzieje. – O szczęśliwy celibacie, w którym jestem! uchowaj mnie od podobnego nieszczęścia, na jakie rozum i poczciwe serce mego Szwagra są wystawione? Uchowaj mnie od tej filozofii i sentymentów, że każdy człowiek moralny żenić się powinien. – Tylko to prawda, ileż to szczęśliwych małżeństw i ludzi w niem widziałem, a my niesprawiedliwie chcąc siebie częstokroć uniewinnić, na stan narzekamy. – Cóż stan winien, jeżeli ludzie wszedłszy w obowiązki jego, nie chcą, albo nie umieją ich pełnić? Najlepiej zrobię że sam pojadę pierwej do mego Szwagra odwiedzić go, a z tamtąd do Pana Forester Bankiera, podziękować mu za jego czułość nad nieszczęśliwą familią mojej Siostry. O! jeżeli bogactwo może bydź pożądanem od człowieka dobrego, to nie dla tej wspaniałości życia, nie dla tych wykwintów i okazałości, nie dla wielkości dóbr, bo te więcej ich robią niewolnikami swoich dochodów i officyalistów, którzy ich kradną i gryzą, ale jedno ukontentowanie w ich sercu jakie mieć mogą, ratując swoiemi nad potrzebę zostającemi dochodami nieszczęśliwych, prawdziwie jest do zazdrości – <stage>(odchodzi i woła)</stage> Postylion ruszay! <stage>(słychać trąbkę)</stage></p>
+          </sp>
+          <trailer>(Koniec IVgo Aktu)</trailer>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>AKT PIĄTY.</head>
+          <stage type="setting">
+            <p>(Teatr reprezentuje w Londynie Salon kompanji bankiera Forester, pięknie umeblowany)</p>
+          </stage>
+        <div type="scene" n="48">
+          <head>SCENA 1wsza.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pani_forester">PANI FORESTER.</rs>
+              <rs key="#pan_forester">PAN FORESTER.</rs>
+              (dzieci ich:) 
+              <rs key="#marysia">MARYA.</rs> (10letnia)
+              <rs key="#karolka">KAROLKA.</rs> (8letnia)
+              <rs key="#edward">EDWARD.</rs> (11letni)
+              <rs key="#henryk">HENRYK.</rs> (12letni)
+              <rs key="#guwerner">GUWERNER.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Prawdziwie że WPani appartament coraz ozdobniejszy, a bez zbytków, gdyż teraz najwięcej apartamentów widzieć można bogatszych od tych co w nich mieszkają – Tu widzę najwięcej roboty dzieci naszych; to haftowanie tego stołka jest Karolki zapewne?</p>
+          </sp>
+          <sp who="#pani_forester">
+            <speaker>PANI FORESTER.</speaker>
+            <p>Prawda, i dla tego ona mnie prosiła jak go skończy, żebyś jej tę nadgrodę zrobił, i na nim pierwszy usiadł, i dla tego pilnuje żeby był wolny. <stage>(Ojciec ją bierze na ręce i całuje)</stage></p>
+          </sp>
+          <sp who="#karolka">
+            <speaker>KAROLKA.</speaker>
+            <p>Cały czas robiąc go o tej nadgrodzie myślałam, która mnie najwięcej do niej zachęciła Papo!</p>
+          </sp>
+          <sp who="#pani_forester">
+            <speaker>PANI FORESTER.</speaker>
+            <p>Marysia także się chwalić tobie będzie, z ofiarowanem dla mnie malowaniem, do tego gabinetu, które jej się ślicznie udało; prosiła mnie także, aby Papa wybrał miejsce, gdzie go ma zawiesić. <stage>(Ojciec ogląda to malowanie)</stage></p>
+          </sp>
+          <sp who="#marysia">
+            <speaker>MARYSIA.</speaker>
+            <p>Miejsce to które mu Papa wyznaczy, przyozdobi moją pracę, i doda jej więcej u mnie szacunku. <stage>(Ojciec ją całuje)</stage></p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Nieskończenie mnie to cieszy, że ma tyle gustu ta dziewczyna, to będzie druga Angelika Kaufman, i jej styl malowania, jej gust zupełnie zachowuje.</p>
+          </sp>
+          <sp who="#edward #henryk">
+            <speaker>EDWARD. HENRYK.</speaker>
+            <p>A o nas też Mama nie mówi? <stage>(pokazują oba razem obrazy)</stage></p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Niech sztuka za wami gada, bo wy już jesteście starsi – To widzę jest kopia Gwidoryniego z mojej Galeryi, a to d’Anibala Carasz, moich upodobanych autorów.</p>
+          </sp>
+          <sp who="#edward">
+            <speaker>EDWARD.</speaker>
+            <p>O! my znamy gust Papy i dla tegośmy te sobie do kopiowania wybrali. Ale nam Papa pozwoli jedną rzecz. <stage>(całuje Ojca)</stage></p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Oto tak Papo! Te obrazy ułożyliśmy sobie sprzedać, i te wszystkie pieniądze chcemy przesłać tej nieszczęśliwej familii Simplów, którą to Papa wziął w swoję opiekę – Oni nas tak kochali.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p><stage>(całuje ich wraz z Matką)</stage> Moje dzieci! pochwalam z rozrzewnieniem serca myśl waszą, ale was proszę zrobić mi to ukontentowanie, abym ja sam od was tę robotę kupił, i zrobił z niej prezenta waszej Guwernantce i Guwernerowi, którzy to przyjąć raczą jako własną pracę, że wasze serca do uczucia cnotliwego umieli przysposobić, bo to jest zasadą waszego przyszłego szczęścia.</p>
+          </sp>
+          <sp who="#guwerner">
+            <speaker>GUWERNER.</speaker>
+            <p><stage>(wstaje)</stage> Prawdziwie nie mogę droższego mieć prezentu, nad ten który mnie przekonywa o ich dla mnie szacunku.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Właśnie miałem się WPana zapytać o zdrowiu Pana Simple i jego Córki; co to za szkoda tej nieszczęśliwej familii! i sama także chora!</p>
+          </sp>
+          <sp who="#guwerner">
+            <speaker>GUWERNER.</speaker>
+            <p>Oto z tamtąd idę – Sama Pani Simple nie chce nigdzie z domu wychodzić dzisiaj; on sam zdaje się że przyjdzie do zdrowia, podług tej nadziei, jaką Doktor czyni, ponieważ go gorączka nie opuszcza, więc to może być maligną, a zaś Panna Liwja, niemasz nadziei żeby zdrową była, bo symptomata są zupełnego szaleństwa.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>FORESTER.</speaker>
+            <p>Co za nieszczęście! czy nie widziałeś się z Buchalterem? czy nie masz do mnie listów z poczty? i gazet?</p>
+          </sp>
+          <sp who="#guwerner">
+            <speaker>GUWERNER.</speaker>
+            <p>Oto są dwa listy z rekomendacyami z przyłączonemi wexlami, jeden na 20,000 dukatów, drugi na 10,000 dukatów do wypłacenia.</p>
+          </sp>
+        </div>
+        <div type="scene" n="49">
+          <head>SCENA 2ga.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pani_forester">PANI FORESTER.</rs>
+              <rs key="#pan_forester">PAN FORESTER.</rs>
+              <rs key="#marysia">MARYA.</rs>
+              <rs key="#karolka">KAROLKA.</rs>
+              <rs key="#edward">EDWARD.</rs>
+              <rs key="#henryk">HENRYK.</rs>
+              <rs key="#guwerner">GUWERNER.</rs>
+              <rs key="#jan_lenlokaj">LOKAJ.</rs>
+              <rs key="#xiążę_longville">XIĄŻĘ LONGVILLE.</rs>
+              <rs key="#rostropnicki">HRABIA ROSTROPNICKI.</rs>
+            </p>
+          </stage>
+          <sp who="#jan_lenlokaj">
+            <speaker>LOKAJ.</speaker>
+            <p>Dwóch cudzoziemców chcą się z Panem widzieć, oto są ich bilety.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p><stage>(do Guwernera)</stage> Zobacz WPan czy to nie ci, dla których są tu w liście wexle, Xiążę de Longville i Hrabia Rostropnicki.</p>
+          </sp>
+          <sp who="#guwerner">
+            <speaker>GUWERNER.</speaker>
+            <p><stage>(czyta bilety)</stage> Tak jest!</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>FORESTER.</speaker>
+            <p>Prosić ich! <stage>(wchodzą kłaniają się)</stage></p>
+          </sp>
+          <sp who="#xiążę_longville">
+            <speaker>XIĄŻĘ LONGVILLE.</speaker>
+            <p>Mamy to szczęście być do Domu jego adresowanemi, oto jest list.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>FORESTER.</speaker>
+            <p>Proszę Panów siedzieć! <stage>(odbiera list)</stage> już właśnie miałem honor być uwiadomiony, i wexle już są gotowe w kantorze.</p>
+          </sp>
+          <stage>(PANI FORESTER. kłania się nawzajem)</stage>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>To jest moja żona – To są Xiążę Longville i Hrabia Rostropnicki twój ziomek; ale mnie dziwi że Panowie ten wojaż tak prędko z Neapolu zrobili – Musieli Panowie mieć wiatr szczęśliwy.</p>
+          </sp>
+          <sp who="#rostropnicki">
+            <speaker>HRABIA ROSTROPNICKI.</speaker>
+            <p>Prawda, że wiatr mieliśmy pomyślny, ale żegluga nasza najniebeśpieczniejsza, bo gdyby nie okręt Angielski, który nas wyratował, i odbił korsarzom, tobyśmy byli w Algierze.</p>
+          </sp>
+          <sp who="#pani_forester">
+            <speaker>PANI FORESTER.</speaker>
+            <p>To straszna rzecz! a na jakimże okręcie Panowie płynęli?</p>
+          </sp>
+          <sp who="#xiążę_longville">
+            <speaker>XIĄŻĘ LONGVILLE.</speaker>
+            <p>Ja się przyznać muszę, że temu winien byłem. – Przyuczony tyle razy pływać po morzu bez żadnego niebeśpieczeństwa, nająłem okręt, grecki, i to mnie zdradziło – Kapitan jego dał znać korsarzom, którzy nas zabrali – znowu ten sam korsarz chciał podobnie drugi okręt tu pod brzegami schwytać, i w samej rzeczy już go miał – ale okręt Angielski uratował jego i nas – jeszcze szczególniejszy przypadek, że się z synem moim na tym okręcie, który do mnie płynął, spotkałem, ale ten chory w łóżku leży i ranny.</p>
+          </sp>
+        </div>
+        <div type="scene" n="50">
+          <head>SCENA 3cia.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#służący">SŁUŻĄCY.</rs>
+              <rs key="#rostropnicki">ROSTROPNICKI.</rs>
+              <rs key="#xiążę_longville">XIĄŻĘ LONGVILLE.</rs>
+              <rs key="#pani_forester">PANI FORESTER.</rs>
+              <rs key="#pan_forester">PAN FORESTER.</rs>
+              <rs key="#marysia">MARYA.</rs>
+              <rs key="#karolka">KAROLKA.</rs>
+              <rs key="#edward">EDWARD.</rs>
+              <rs key="#henryk">HENRYK.</rs>
+              <rs key="#guwerner">GUWERNER.</rs>
+              <rs key="#aquino">AQUINO.</rs> (potem)
+            </p>
+          </stage>
+          <sp who="#służący">
+            <speaker>SŁUŻĄCY.</speaker>
+            <p>Jakiś Officer od Marynarki chce się z Panem widzieć.</p>
+          </sp>
+          <sp who="#rostropnicki">
+            <speaker>ROSTROPNICKI.</speaker>
+            <p>Teraz mamy honor pożegnać WPana Dobrodzieja i prosić abyś nam był łaskaw wyrobić pozwolenie widzenia tu Biblioteki, gabinetów historyi naturalnej, Teatru, Anatomii i innych osobliwości tego wielkiego miasta. <stage>(kłaniają się)</stage></p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>FORESTER.</speaker>
+            <p>Z największą chęcią w czem tylko mogę im być użytecznym, proszę Panów roskazać – Dom mój proszę mieć w pamięci, we czwartki i w niedziele bywają u mnie assamble, rozumiem że Panowie zechcą zrobić ten honor, i przyozdobić je swoją przytomnością – Panowie zapewnie stoją pod Królem? żebym wiedział gdzie ich mam szukać.</p>
+          </sp>
+          <sp who="#xiążę_longville">
+            <speaker>XIĄŻĘ LONGVILLE.</speaker>
+            <p>Tak jest, bo to ma być najlepsza oberża. <stage>(wychodzą i spotykają się z officerem, któremu się kłaniają, i obracają się do Pana Forester)</stage> Oto jest ten officer, któremu życie winniśmy. <stage>(wychodzą)</stage></p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p><stage>(kłaniając się)</stage> Czy WPan Dobrodziej jesteś Bankierem Forester i dobroczyńcą familii nieszczęśliwej Simplów?</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>FORESTER.</speaker>
+            <p>Niechże mam to pozwolenie pierwej spytać się komu mam na pytanie odpowiedzieć?</p>
+          </sp>
+          <sp who="#aquino">
+            <speaker>AQUINO.</speaker>
+            <p>Jestem Aquino brat samej Pani Simple, i przychodzę tu jedynie, abym w imieniu całego domu mojej siostry wynurzył mu uczucia wdzięczności.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>FORESTER.</speaker>
+            <p>Proszę WPana Dobrodzieja być przekonanym, że tyle mnie los ich obchodzi, ile mój własny, bo byłem i jestem szczególniejszym przyjacielem Pana Simple; smutno mi tylko, że mu nie w przyjemniejszej dla niego okoliczności pomoc daję, bo on nie czuje tego ukontentowania w moiej dla niego usłudze, i te ja mam słodyczy, kiedy jestem w stanie ratować przyjaciel. Niemasz momentu żebym łzami nie skropił jego przypomnienia – właśnie teraz moja żona po nich idzie, aby ich do domu jego sprowadzić, dla tem większego starania, – ale wyznać muszę, że siostra WPana może nie...</p>
+          </sp>
+          <sp who="#pani_forester">
+            <speaker>PANI FORESTER.</speaker>
+            <p>O Mężu! możeszże o nich tak sądzić? Idę najprzód odwiedzić Panią Simple, a z tamtąd pojadę i razem z przełożonym Instytutu przywiozę ich tu, już dla nich pokoje są gotowe. <stage>(wychodzą)</stage></p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Ja tu zostanę i czekam.</p>
+          </sp>
+        </div>
+        <div type="scene" n="51">
+          <head>SCENA 4ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_forester">PAN FORESTER.</rs>
+              <rs key="#guwerner">GUWERNER.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Smutna jest rzecz widzieć podobne obrazy nieszczęść!</p>
+          </sp>
+          <sp who="#guwerner">
+            <speaker>GUWERNER.</speaker>
+            <p>Prawda; ale w nas, a osobliwie w dzieciach mocno działają na umyśle. Jeden podobny przykład może więcej zrobić w nich wrażenia, niżeli 200 lekcyi, któreby wzięli odemnie – Najlepsze są dwa tylko sposoby w edukacyi do odstręczenia ich od złych postępków a wprawienia ich do dobrych. – 1mo Aby byty w ustawicznym nałogu czynienia dobrze, i widziały w przykładach skutki pochodzące z dobrych czynów. – 2do Aby mogły być do pewnego wieku tak strzeżonemi, żeby się na jedną nawet minutę w złem towarzystwie nie znajdowały, a zatem w okazyi czynienia źle, lub słuchania nieprzyzwoitości, i mieli przed oczyma przykłady okropne pochodzące ze złego i niegodziwego postępowania. – Bo ludzie w istocie nie rodzą się ani źli ani dobrzy; złe lub dobre wychowanie i towarzystwo zepsuje, choćby w ciele najzdrowszem; a w całej edukacyi nie masz mocniejszego przykładu dla dzieci jak sami rodzice. – Dla tego WPaństwo Dobrodziejstwo nigdy się podobnego nieszczęścia bać nie powinniście od swoich dzieci.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Niechaj Bóg spełni nasze nadzieje przy WPana staraniach! Pójdźmy odwiedzić Panią Simple – Ta nieszczęśliwa kobieta najwięcej od nas wymagać powinna troskliwości. – Nie należy nią pogardzać, że nie najlepsza w niej edukacya wprowadziła ją w nieszczęście, a osobliwie też ta przyjaźń tej Kukumy – Można nie mieć szacunku dla ludzi co błądzą, ale zawsze człowiek człowiekowi wybaczać powinien – Wszyscy jesteście ludzie, a zatem skłonni do pełnienia błędów, a najlepszy z nas wszystkich jest ten, który ich najmniej popełnia! Jest nadzieja że Pan Simple zupełnie do zdrowia przyjdzie, jak Córkę zobaczy, bo tylko o niej gada, ale się obawiam, by obaczywszy Córkę, że jest także bez zmysłów, znowu nie wpadł w recydywę.</p>
+          </sp>
+          <sp who="#guwerner">
+            <speaker>GUWERNER.</speaker>
+            <p>Tego się nie potrzeba obawiać, bo najważniejsza przyczyna jego obłąkania jest, że ma fixacyą tę, że mu Córka umarła; gdy ta przyczyna jest zniesiona, a zatem i skutek ustać musi. – Lecz ja się bardziej boję o Pannę Liwją, bo tu przyczynę ciężko sprowadzić; jeżeli ją ten Margrabia, który wykradł, porzucił, i o niej na zawsze zapomniał, to nie ma nadziei uleczenia.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Co to za spotkanie będzie smutne i tragiczne tego Ojca i Córki, wystawić sobie niepodobna, bo się z sobą jeszcze nie widzieli – Pójdź WPan więc teraz, bo moja żona z dziećmi na niego czekają w Instytucie obłąkanych.</p>
+          </sp>
+        </div>
+        <div type="scene" n="52">
+          <head>SCENA 5ta.</head>
+          <stage type="setting">
+            <p>(Teatr reprezentuje Salę waryatów. Siedzą na stołkach, każdy osobno robi gesta stósowne)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#dziennikarz">DZIENNIKARZ.</rs>
+              <rs key="#theolog">THEOLOG.</rs>
+              <rs key="#mizantrop">MIZANTROP.</rs>
+              <rs key="#pijak_lokaj">PIJAK LOKAJ.</rs>
+              <rs key="#gracz">GRACZ.</rs>
+              <rs key="#dzierżawca_pieniacz">DZIERŻAWCA PIENIACZ.</rs>
+              <rs key="#pastor">PRZEŁOŻONY.</rs>
+              <rs key="#pani_forester">PANI FORESTER.</rs>
+            </p>
+          </stage>
+          <sp who="#dziennikarz">
+            <speaker>DZIENNIKARZ.</speaker>
+            <p><stage>(N. 1)</stage><stage>(Nabija i strzela ustawicznie z kija)</stage> Strzelam do Publiczności – Oho! już ją zabiłem tę Wną Publiczność! precz z Rządem; żeby go nie było, tobyśmy tu nie siedzieli, a co nie prawda?</p>
+          </sp>
+          <sp who="#theolog">
+            <speaker>THEOLOG.</speaker>
+            <p><stage>(N. 2)</stage><stage>(wdziewa Infułę)</stage> kogo Publiczność, a Ja ją benedykuję: requiescant in pace! strzelaj na jej pogrzeb! precz z Religią!</p>
+          </sp>
+          <sp who="#mizantrop">
+            <speaker>MIZANTROP.</speaker>
+            <p><stage>(N. 3)</stage> Nienawidzę uczonych głupców, i wszystkich ludzi bez wyjątku! Precz Eurypidesie, precz Sofoklesie, precz i ty Wirgili, diabelnieście mnie okpili! oddajcie mi mój kapitał. Talagaj przyjacielu! strzelaj do niego! precz z Naukami, precz z Akademią – głupstwo niech panuje.</p>
+          </sp>
+          <sp who="#pijak_lokaj">
+            <speaker>PIJAK LOKAJ.</speaker>
+            <p><stage>(N. 4)</stage> Wiwat nasz król wino! niech żyje nasza królowa wódka. Ach jak wy słodko panujecie nad wszystkim Lokajami! Wiwat wielki narodzie pijaków, strzelaj! trala, la, trala, la. <stage>(wrzeszczy)</stage></p>
+          </sp>
+          <sp who="#gracz">
+            <speaker>GRACZ.</speaker>
+            <p><stage>(5.)</stage> Damo! nieszczęśliwa damo kierowa! zgubiłaś mnie, ty mi zgubiłaś na jednę stawkę dzieci i żonę! strzelaj do tej zdrajczyny! ale waletom daj pokój! wygrałem, <stage>(gnie karty w ręce)</stage> co? oto śmierć!</p>
+          </sp>
+          <sp who="#dzierżawca_pieniacz">
+            <speaker>DZIERŻAWCA PIENIACZ.</speaker>
+            <p><stage>(N. 6)</stage> Poczekajcie Juriści, zobaczycie ex noviter repertis documentis jaką wam akcyą jutro wypalę!</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY.</speaker>
+            <p><stage>(Przełożony Instytutu prezentuje Pani Forester, Jej dzieciom i różnym osobom niektórych Waryatów)</stage><stage>(N. 1)</stage> Oto jest nieszęśliwy syn, któremu Ojciec cały swój majątek wypuścił, miał przytem żonę bogatą, i dzieci dobre i piękne; wdał się z karciarzami, a oszukany od nich, cały swój i żony majątek przegrał. Nie miał siebie, żony za co utrzymać, z desperacyi topił się, ale wyratowany został; jednak zmysły stracił; oto cała zabawa jego: <stage>(waryat karty łamie do faraona: przełożony bierze za rękę)</stage> Tak moje dzieci, jest o passya, która wiele ludzi do szaleństwa przyprowadza, a co większa, że całą familią robi nieszczęśliwą!<lb /> <stage>(N. 2)</stage> To był uczony bardzo Mizantrop, i szczególniejszy Admirator siebie samego, pełny presumpcyi o swoich naukach. Prawda że znał doskonale Greków, Medów, Atsyryjczyków, zgoła Homera i Tacyta umiał na pamięć; ale nie znał siebie, i ludzi z któremi żył – powierzył jednemu filutowi swój kapitał bez skryptu, który mu zaparł, z tej okoliczności cały rodzaj ludzki znienawidził, – z wielkiej Mizantropii dostał pomieszania zmysłów. <stage>(waryat robi gesta wielkiej wagi człowieka i nauki)</stage> To jest przykład moje dzieci, że nie dosyć jest być uczonym, trzeba mieć rozsądek.<lb /> <stage>(N. 3)</stage>  To był dobry Teolog, nie wiedzieć zkąd mu przyszła mania być Biskupem, Infuły nie dostał a zmysły stracił. <stage>(żegna)</stage> To jest właśnie nauką dla tych, którzy nie kontenci z swego stanu. –<lb /> <stage>(N. 4)</stage> To był lokaj wielki pijak; gdy raz pijanego Pan potrzebował, wyszedł, rozumiejąc że drzwiami, oknem z pierwszego piętra, potłukł głowę i mózg stracił. <stage>(Szalony pije z próżnego kieliszka)</stage><lb /><stage>(N. 5.)</stage> Oto jest Dzierżawca, wielki pieniacz, który 14 lat z Jurisdatorem swoim się pieniał o pretensye, we wszystkich Instancyach tę sprawę przegrał, cały swój majątek stracił na prawo – rozgniewany na sąd i na Adwokatów, że się nie miał czem dłużej processować, z żalu oszalał. <stage>(Szalony obłożony dokumentami bawi się)</stage><lb /><stage>(N. 6)</stage> Oto jest uczony Dziennikarz i krytyk teraźniejszego ducha czasu – nie cierpiał wyższych od siebie talentów – ile lubił krytykować, tyle nie lubił sam być krytykowanym; był to rzekomy filozof, z tych co to nie umieją wybaczać nigdy tych błędów drugim, które sami sobie wybaczają, i co biorą skutki za przyczyny, a zatem nie umiał znieść nawzajem krytyki – Ustanowiwszy się plenipotentem Publiczności, w Jej imieniu, ale bez jej upoważnienia, wszystkie Prawa, Rządy, Akademików, Autorów, Aktorów krytykował. Gdy Publiczność obrażona tem nadużyciem na teatrze wygwizdała jego nikczemną Tragedyą, na której nie tylko ręce; twarze, krwią walać musieli, ale nakoniec wszyscy się pomieszali, pozabijali, oprócz jednego, on tak mocno krytykę uczuł, że zwaryował – To jest nauką moje dzieci, jak uczeni Autorowie, Dziennikarze, i krytycy winni są szanować Rząd, Prawa i ducha opinii oświeconej Publiczności. — Teraz wypadałoby nam widzieć nieszczęśliwego Pana Simple, który tu jest w tem pokoju, i jego Córkę, która jest na drugiem piętrze między waryatami, gdzie są kobiety w osobnym także pokoju – Ale rozumiem, że kiedy Pani przyjechałaś w myśli zabrania ich do swego domu, to ich widzieć nie zechcesz publicznie.</p>
+          </sp>
+          <sp who="#pani_forester">
+            <speaker>PANI FORESTER.</speaker>
+            <p>Właśnie uprzedziłeś WPan moją myśl, gdyż tylko źli ludzie mogą robić widowiska z nieszczęśliwych, a cóż dopiero z przyjaciół! Idźmy! Ja zabiorę z sobą nieszczęśliwą Córkę, a WPan jej Ojca przez łaskę swoje I do domu mego zawieść raczysz! <stage>(wychodzą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="53">
+          <head>SCENA 6ta.</head>
+          <stage type="setting">
+            <p>(Teatr reprezentuje Salon ten sam kompanij Bankiera Forester, gitarę leżącą na fortepianie, siedzących Xięcia Longvilla starego, Hrabię Rostropnickiego, Bankiera Forester; Guwernera i Guwernantkę, z daleka stojących, patrzących tylko i nic nie przeszkadzających scenom)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_forester">PAN FORESTER.</rs>
+              <rs key="#xiążę_longville">XIĄŻĘ LONGVILLE OJCIEC.</rs>
+              <rs key="#rostropnicki">HRABIA ROSTROPNICKI.</rs>
+              <rs key="#guwerner">GUWERNER.</rs>
+              <rs key="#guwernantka">GUWERNANTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Od kogo <stage>(głośno)</stage> i jakim sposobem WPan Dobrodziej doszedłeś tego, że brat rodzony jego imieniem Pan Simple znajduje się w Anglii?</p>
+          </sp>
+          <sp who="#rostropnicki">
+            <speaker>ROSTROPNICKI.</speaker>
+            <p>Ja go od kilku lat szukałem, ale na próżno, gdyż on miał imię odmienione za granicą, przeto wyśledzenie jego było niepodobnem – Wiedząc że był w Legionach, starałem się pytać ledwie nie każdego, któregom z nich miał szczęście widzieć, ażeby powziąść wiadomość – dopiero nie dawno od jednego powracającego z tamtąd do swego kraju, który z moim bratem żył i służył razem w jednymże Pułku, odebrałem zupełną informacyą, że się znajduje w Anglii, i że dla jednego pojedynku musiał odmienić imię. – Że zaś przez cały przeciąg niebytności jego w kraju, trzymałem jego własny majątek w administracyi, przyjechałem jemu go tu oddać do zupełnego nim zarządzenia.</p>
+          </sp>
+          <sp who="#xiążę_longville">
+            <speaker>XIĄŻĘ LONGVILLE OJCIEC.</speaker>
+            <p>Szesnaście lat być Sukcessorem, Administratorem i mieć majątek jednego z awanturujących brata w swych ręku, szukać go po świecie, znaleść i oddać mu jego własność, w dobrach tak znacznych i kapitałach, to potrzeba być tak cnotliwym człowiekiem, jakim mam honor znać Hrabiego. – Proszę mi teraz o takiego Administratora, chyba że w ich kraju są tacy.</p>
+          </sp>
+          <sp who="#rostropnicki">
+            <speaker>ROSTROPNICKI.</speaker>
+            <p>Zapewne trudno nie tylko teraz, ale zawsze we wszystkich wnękach i narodach było i jest o poczciwych ludzi; ale żeby powiedzieć można, że jest naród i kraj uprzywilejowany do cnot, a inny do występków, to mi darujesz kochany Xiążę, że to jest fałszywe zdanie, któreby ciebie i twój własny naród krzywdziło. – Wszyscy jesteśmy ludzie, i wszyscy dziećmi jednej i tejże samej natury, a ojczyzną naszą jest świat cały. Jedne więc mamy udziały od niej wad i cnot, a dopóty świat cały będzie nieszczęśliwy, i ustawicznie w wojnach, póki ta nienawiść narodów jednych do drugich, pod maską obłudną patryotyzmu z tej ziemi wypędzoną nie będzie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="54">
+          <head>SCENA 7ma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_forester">PAN FORESTER.</rs>
+              <rs key="#xiążę_longville">XIĄŻĘ LONGVILLE OJCIEC.</rs>
+              <rs key="#rostropnicki">HRABIA ROSTROPNICKI.</rs>
+              <rs key="#guwerner">GUWERNER.</rs>
+              <rs key="#guwernantka">GUWERNANTKA.</rs>
+              <rs key="#pani_forester">PANI FORESTER.</rs>
+              <rs key="#marysia">MARYA.</rs>
+              <rs key="#karolka">KAROLKA.</rs>
+              <rs key="#edward">EDWARD.</rs>
+              <rs key="#henryk">HENRYK.</rs>
+              <rs key="#pastor">PRZEŁOŻONY INSTYTUTU.</rs>
+            </p>
+          </stage>
+          <sp who="#pani_forester">
+            <speaker>PANI FORESTER.</speaker>
+            <p><stage>(kłaniając się)</stage> Otóż przywiozłam tych nieszczęśliwych, i w pokojach obok tego salonu są umieszczeni, każde osobno, bo tak Pan przełożony chciał, żeby się nie widzieli.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Mam honor Ci prezentować rodzonego brata, naszego nieszczęśliwego przyjaciela, wiedz że to jest brat Pana Simple, Hrabia Rostropnicki, dla którego te wexle odebrałem.</p>
+          </sp>
+          <sp who="#pani_forester">
+            <speaker>PANI FORESTER.</speaker>
+            <p>Jakie szczęśliwe zdarzenie dla słabego, ale jak smutne dla WPana Dobrodzieja być musi.</p>
+          </sp>
+          <sp who="#rostropnicki">
+            <speaker>ROSTROPNICKI.</speaker>
+            <p>Przyjaźń, której mój brat doznaje w ich domu, największe zmartwienie osłodzić jest zdolną.</p>
+          </sp>
+          <sp who="#pani_forester">
+            <speaker>PANI FORESTER.</speaker>
+            <p>Ta do naszego szczęścia domowego należy, bez niej nasze dostatki, które mamy, byłyby nam ciężarem; bo podług przekonania mego, nie masz na świecie większych nędzarzy, jak są ludzie bogaci, kiedy są skąpi, łakomi i nic nie czyniący dla poratowania bliźnich, do tego nie mający żadnego przyjaciela – tego gatunku ludzie, jakiejkolwiek klassy, rangi i godności szlachectwa, nie warci, żeby ich ziemia nosiła, bo nie można powiedzieć żeby mieli szlachetną duszę, i mogli być szczęśliwemi – My nie jesteśmy szlachtą, wszelako nikt nam zarzucić nie może nieszlachetności w czynach naszych.</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY INSTYTUTU.</speaker>
+            <p>Nadzieja którą miałem, że przyjaciel jego a brat WPana Dobrodzieja będzie zdrów, coraz więcej iścić się zaczyna – ale żeby Panna Liwja była zdrową, dotąd małą mam nadzieję.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>To jeszcze Ojciec Córki swojej nie widział?</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY INSTYTUTU.</speaker>
+            <p>Jeszcze; i to właśnie, czego rozumiem że mu braknie do zupełnego uleczenia jego obłąkania, jako realna przyczyna. – Zaraz ich tu przyprowadzę, tylko proszę żeby mi wolno było z nim robić to, co mi się zdawać będzie do uleczenia moich pacyentów.</p>
+          </sp>
+          <sp who="#pani_forester">
+            <speaker>PANI FORESTER.</speaker>
+            <p>Co tylko się WPanu podoba, proszę nam tylko powiedzieć – Oto jest kommunikacya z tego pokoju do nich – Na tej stronie jest pokój nieszczęśliwego, a na tej jego Córki.</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY INSTYTUTU.</speaker>
+            <p>Bądźcie Państwo łaskawi nic do nich nie gadać, ani żadnego zadziwienia nic okazywać, póki ja nie dam znaków – Idę po nich. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="55">
+          <head>SCENA 8ma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_forester">PAN FORESTER.</rs>
+              <rs key="#xiążę_longville">XIĄŻĘ LONGVILLE.</rs>
+              <rs key="#rostropnicki">HRABIA ROSTROPNICKI.</rs>
+              <rs key="#guwerner">GUWERNER.</rs>
+              <rs key="#guwernantka">GUWERNANTKA.</rs>
+              <rs key="#pani_forester">PANI FORESTER.</rs>
+              <rs key="#marysia">MARYA.</rs>
+              <rs key="#karolka">KAROLKA.</rs>
+              <rs key="#edward">EDWARD.</rs>
+              <rs key="#henryk">HENRYK.</rs>
+              <rs key="#pastor">PRZEŁOŻONY INSTYTUTU.</rs>
+              <rs key="#liwja">LIWJA.</rs>
+              <rs key="#obłąkany">OBŁĄKANY.</rs> (na nikogo nie zważają)
+            </p>
+          </stage>
+          <sp who="#obłąkany">
+            <speaker>OBŁĄKANY.</speaker>
+            <p>Oto... <stage>(pokazuje na serce)</stage> jest tu dom, tu mieszka... nie ma go... ten sam...</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY.</speaker>
+            <p><stage>(bierze Xcia Longvilla za rękę, prowadzi i przedstawia go waryatowi, mówiąc)</stage> To jest WPana przyjaciel Pan Forester.</p>
+          </sp>
+          <sp who="#obłąkany">
+            <speaker>OBŁĄKANY.</speaker>
+            <p><stage>(przychodzi do siebie)</stage> WPan żartujesz sobie z nieszczęśliwych, jabym nie miał poznać przyjaciela?</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY.</speaker>
+            <p><stage>(bierze P. Forester i przedstawia)</stage> Może ten? <stage>(Obłąkany rzuca się na jego szyję i całuje, przytomni łzy ocierają, potem nagle zrywa się i mówi cicho)</stage></p>
+          </sp>
+          <sp who="#obłąkany">
+            <speaker>OBŁĄKANY.</speaker>
+            <p>Chciej mię w moim pokoju do zwierciadła zaprowadzić, tam będę mieszkał... a jak się będziesz w niem przeglądać, to cię tam zobaczę z moją Córką, która już nie żyje.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Owszem żyje i tu jest z nami. <stage>(Przełożony idzie i przyprowadza ją, zdaleka z nią stoi, aby ją postrzegł obłąkany)</stage></p>
+          </sp>
+          <sp who="#obłąkany">
+            <speaker>OBŁĄKANY.</speaker>
+            <p><stage>(podnosi w zachwyceniu ręce, i drżące trzyma, potem mówi)</stage> O moja Córko kochana! <stage>(łzy ocierają patrzący)</stage> jakiż ja sen przykry miałem... ty żyjesz. <stage>(ona wcale nie poznaje go, ale przynosi kawałek świecy zgaszonej i niesie Pani Forester dając jej – obłąkany siada osłabiony na siłach)</stage> Wieczność światła nie potrzebuje <stage>(pokazuje na słońce)</stage> oto słońce jej świeci – jego ducha widzę. <stage>(chce śpiewać cicho)</stage></p>
+          </sp>
+          <sp who="#liwja">
+            <speaker>LIWJA.</speaker>
+            <p><stage>(zrywa liście z róży i na oberwaną patrząc)</stage> Oto jest mojej niewinności postać, już drugi raz nie zakwitniesz, musisz wraz ze mną tak zostać – i tak ze mną razem znikniesz... <stage>(ucieka nagle do swego pokoju, w czasie tego obłąkany Ojciec zasnął na kanapie)</stage></p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY.</speaker>
+            <p>Dać mu pokój, niechaj tak będzie – to jest najpierwszy znak że przychodzi zupełnie do siebie, bo waryat spać nie lubi – i ta obłąkana coś nie od rzeczy śpiewała.</p>
+          </sp>
+        </div>
+        <div type="scene" n="56">
+          <head>SCENA 9ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_forester">PAN FORESTER.</rs>
+              <rs key="#xiążę_longville">XIĄŻĘ LONGVILLE OJCIEC.</rs>
+              <rs key="#rostropnicki">HRABIA ROSTROPNICKI.</rs>
+              <rs key="#guwerner">GUWERNER.</rs>
+              <rs key="#guwernantka">GUWERNANTKA.</rs>
+              <rs key="#pani_forester">PANI FORESTER.</rs>
+              <rs key="#marysia">MARYA.</rs>
+              <rs key="#karolka">KAROLKA.</rs>
+              <rs key="#edward">EDWARD.</rs>
+              <rs key="#henryk">HENRYK.</rs>
+              <rs key="#pastor">PRZEŁOŻONY INSTYTUTU.</rs>
+              <rs key="#obłąkany">OBŁĄKANY.</rs>
+              <rs key="#obłąkana">OBŁĄKANA.</rs>
+              <rs key="#longville">MARGRABIA LONGVILLE.</rs>
+              <rs key="#jan_lenlokaj">LOKAJ.</rs>
+            </p>
+          </stage>
+          <sp who="#jan_lenlokaj">
+            <speaker>LOKAJ.</speaker>
+            <p><stage>(wchodzi)</stage> Margrabia Longville czy może wnijść?</p>
+          </sp>
+          <sp who="#xiążę_longville">
+            <speaker>XIĄŻĘ LONGVILLE.</speaker>
+            <p>Co on tu robi teraz? w łóżku go zostawiłem, i rannego przez Anglika gdy bronił jakiejś Panny na okręcie korsarzy...</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY.</speaker>
+            <p>Ja nie wiem, ale słyszałem od officera Aquino, że tego imienia kawaler był, który ją Ojcu wykradł, i że to było przyczyną jej pomieszania, i może ją uzdrowić.</p>
+          </sp>
+          <sp who="#pan_forester">
+            <speaker>PAN FORESTER.</speaker>
+            <p>Kiedy WPan tak powiadasz <stage>(obraca się do Ojca)</stage> na to pozwolisz aby tu wszedł jego syn... Prosić go!</p>
+          </sp>
+          <sp who="#xiążę_longville">
+            <speaker>XIĄŻĘ LONGVILLE.</speaker>
+            <p>Czy on znowu nie oszalał? Ja nic o tem nie wiem.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>MARGRABIA SYN.</speaker>
+            <p><stage>(Obłąkany się przebudza)</stage> Oto widzicie... <stage>(klęczy)</stage> przed sobą sprawcę całego nieszczęścia familii nieszczęśliwego Hrabi Rostropnickiego... Ja nim jestem – przychodzę do ciebie przyjacielu tego nieszczęśliwego Ojca, abyś zjednał pozwolenie u niego otrzymania dla mnie ręki Córki jego Liwji, której serce już dawno posiadam.</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY.</speaker>
+            <p><stage>(na stronie)</stage> To jest heroicum medicamentum.</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>MARGRABIA.</speaker>
+            <p>A której nierówność urodzenia mniemana przeszkadzać mi mogła do zezwolenia Ojca mego a może i do zobopolnego kiedyś naszego szczęścia – Teraz te wszystkie przeszkody znikły; ja wszystkie płoche projekta porzuciłem, i żyć lub umierać z nią pragnę. <stage>(wstaje)</stage></p>
+          </sp>
+          <sp who="#xiążę_longville">
+            <speaker>XIĄŻĘ LOGNVILLE.</speaker>
+            <p>Ale czy ty nie wiesz że ona jest obłąkana, zupełnie bez zmysłów?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>MARGRABIA.</speaker>
+            <p>Wiem Ojcze kochany aż nadto – alboż nie warta tem samem być moją żoną, że z miłości dla mnie zmysły utraciła? mamże ją dla tego porzucać?</p>
+          </sp>
+          <sp who="#xiążę_longville">
+            <speaker>XIĄŻĘ LONGVILLE.</speaker>
+            <p>A kiedy tak, to nie mam co przeciw temu powiedzieć, może ją uleczysz?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>MARGRABIA.</speaker>
+            <p>Ale gdzież ona jest? czy ją mogę widzieć? <stage>(Przełożony prowadzi ją)</stage></p>
+          </sp>
+          <sp who="#obłąkana">
+            <speaker>OBŁĄKANA.</speaker>
+            <p><stage>(kłania się)</stage> Dopiero co przyjechałam <stage>(kłania się każdemu z osobna, przychodząc do ukłonu Margrabiemu, pokazuje zadziwienie ze wzruszeniem, ale go nie poznaje jeszcze, zaczyna uciekać, wraca się, i siada na ziemi mówiąc)</stage> czy nie będzie batalij na tym okręcie? jaki huk... <stage>(zatyka uszy, wstaje, bierze gitarę, brząka, i daje ją Pani Forester, która ją oddaje młodemu Margrabiemu – Ona to widząc bieży do niego i wpatruje mu się)</stage></p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY.</speaker>
+            <p>Czy WPan jej nie grałeś? albo nie śpiewałeś?</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>MARGRABIA.</speaker>
+            <p>O! i bardzo często!</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY.</speaker>
+            <p>Zaśpiewajże jej Pan, to co jej się najwięcej podobało, może ją uleczy!</p>
+          </sp>
+          <sp who="#longville">
+            <speaker>LONGVILLE.</speaker>
+            <p>O! nie masz tej rzeczy, którejbym dla jej uzdrowienia nie zrobił. <stage>(śpiewa)</stage><lb /> Śliczna Liwjo, kochanie moje! <lb /> Ty co jesteś celem mej miłości,<lb /> Jeśli zmienisz dla mnie stałość swoję,<lb /> Śmierć będzie moją nadgrodą czułości. –<lb /> <stage>(pod czas tego śpiewania, obłąkana wstaje z ziemi i poznawszy już Longvilla, podaje mu rękę, obracając się poznaje Ojca, z uczuciem pomieszania i wstydu płacze)</stage> <stage>(na znak od przełożonego dalej śpiewa)</stage> Od dnia tego, od tego momentu,<lb /> Gdyś twe serce dla mnie poświęciła,<lb /> Utraciłem mą wolność do szczętu,<lb /> Miłość dla mnie mą duszę zmieniła. <stage>(ociera łzy)</stage></p>
+          </sp>
+          <stage>(Obłąkana nie wie co z sobą robić, czyli ucałować kochanka, czyli uściskać Ojca, przychodzi do siebie zupełnie – Pani Forester bierze ją za rękę i prowadzi przed Ojca, a Pan Forester bierze Longvilla i przedstawia Ojcu, przed którego nogami oboje klęczą. Obłąkany Ojciec łączy ich)</stage>
+        </div>
+        <div type="scene" n="57">
+          <head>SCENA 10ta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_forester">PAN FORESTER.</rs>
+              <rs key="#xiążę_longville">XIĄŻĘ LONGVILLE OJCIEC.</rs>
+              <rs key="#rostropnicki">HRABIA ROSTROPNICKI.</rs>
+              <rs key="#guwerner">GUWERNER.</rs>
+              <rs key="#guwernantka">GUWERNANTKA.</rs>
+              <rs key="#pani_forester">PANI FORESTER.</rs>
+              <rs key="#marysia">MARYA.</rs>
+              <rs key="#karolka">KAROLKA.</rs>
+              <rs key="#edward">EDWARD.</rs>
+              <rs key="#henryk">HENRYK.</rs>
+              <rs key="#pastor">PRZEŁOŻONY INSTYTUTU.</rs>
+              <rs key="#obłąkany">OBŁĄKANY.</rs>
+              <rs key="#obłąkana">OBŁĄKANA.</rs>
+              <rs key="#longville">MARGRABIA LONGVILLE.</rs>
+              <rs key="#pani_simple">PANI SIMPLE.</rs> (słaba) (nagle wpada)
+            </p>
+          </stage>
+          <sp who="#pani_forester">
+            <speaker>PANI FORESTER.</speaker>
+            <p><stage>(głośno)</stage> O! Margrabino Córko moja! Margrabio! Zięciu mój! Błogosławię obojgu Margrabstwu. — Widzisz kochany Mężu <stage>(idzie do niego i całuje)</stage> nie miałamże ja racyi?</p>
+          </sp>
+          <sp who="#pastor">
+            <speaker>PRZEŁOŻONY.</speaker>
+            <p>Prawda Mościa Dobrodziejko, ale do niej potrzeba przyłączyć, Korsarzy, Okręt Admiralski i Dom waryatów, szczególniej ten, w którym Mąż Jej i Córka przyszli do siebie.</p>
+          </sp>
+          <sp who="#obłąkany">
+            <speaker>OBŁĄKANY.</speaker>
+            <p><stage>(wstaje)</stage> Jeszcze ja tego nie pojmuję, i zdaje mi się że to sen, ale się domyślam, że na łonie waszej dla mnie przyjaźni odzyskuję: rozum, córkę, i widzę to wszystko naprawione, co mogły na zawsze zepsuć: nierostropność i ANARCHIA DOMOWA.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

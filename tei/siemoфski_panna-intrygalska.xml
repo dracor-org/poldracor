@@ -1,0 +1,2388 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000026" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Panna Intrygalska, czyli Chytrość uniewinniona</title>
+        <title type="sub">Komedia oryginalna w trzech aktach</title>
+        <author>
+          <idno type="isni">0000000370753692</idno>
+          <persName>
+            <forename>Adam</forename>
+            <surname>Siemoński</surname>
+          </persName>
+        </author>
+        <!-- Adam Siemoński (1781-1851) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/panna-INTRYGALSKA-czyli-chytrosc-uniewinniona-komedya-oryginalna-w-3ch-aktach,ODg2NTIxNzU/6/</idno>
+          <title>Siemoński, A. Panna INTRYGALSKA czyli Chytrość uniewinniona: komedya oryginalna w 3ch aktach, Kraków 1828</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="administrator" sex="MALE">
+            <persName>Administrator</persName>
+          </person>
+          <person xml:id="adolf" sex="MALE">
+            <persName>Adolf</persName>
+          </person>
+          <person xml:id="intrygalska" sex="FEMALE">
+            <persName>Emilia</persName>
+          </person>
+          <person xml:id="hrabia" sex="MALE">
+            <persName>Hrabia</persName>
+          </person>
+          <person xml:id="hrabina" sex="FEMALE">
+            <persName>Hrabina</persName>
+          </person>
+          <person xml:id="licytant_i" sex="MALE">
+            <persName>Licytant i</persName>
+          </person>
+          <person xml:id="licytant_ii" sex="MALE">
+            <persName>Licytant ii</persName>
+          </person>
+          <person xml:id="lokay" sex="MALE">
+            <persName>Lokay</persName>
+          </person>
+          <person xml:id="mośkowicz" sex="MALE">
+            <persName>Mośkowicz</persName>
+          </person>
+          <person xml:id="niewiadoma" sex="FEMALE">
+            <persName>Niewiadoma</persName>
+          </person>
+          <person xml:id="pachołcy" sex="MALE">
+            <persName>Pachołcy</persName>
+          </person>
+          <person xml:id="skąpicka" sex="FEMALE">
+            <persName>Skąpicka</persName>
+          </person>
+          <person xml:id="skąpicki" sex="MALE">
+            <persName>Skąpicki</persName>
+          </person>
+          <person xml:id="woźny" sex="MALE">
+            <persName>Woźny</persName>
+          </person>
+          <person xml:id="zawiło" sex="MALE">
+            <persName>Zawiło</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-29">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1828">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">PANNA INTRYGALSKA<lb />
+            CZYLI<lb />
+            CHYTROŚĆ UNIEWINNIONA.</titlePart>
+            <titlePart type="sub">KOMEDYA ORYGINALNA<lb />
+            w 3ch Aktach</titlePart>,
+          </docTitle>
+          <byline>przez<lb />
+            <docAuthor>ADAMA SIEMOŃSKIEGO</docAuthor>.
+          </byline>
+          <epigraph>
+            <cit><quote>Ses vertus sont de lui, ses vices sont de nous.</quote><lb /> <bibl>TEATRE FRANÇAISE.</bibl>.</cit>
+          </epigraph>
+          <docImprint>
+            <p>
+              W <pubPlace>KRAKOWIE</pubPlace>,
+              <bibl>
+                w <publisher>DRUKARNI BRACI GIESZKOWSKICH.</publisher>
+              </bibl>
+              <date>1828</date>.
+            </p>
+          </docImprint>
+          <imprimatur>Za pozwoleniem Cenzury.</imprimatur>
+          <div type="appendix">
+            <p>PRZEMOWA.<lb />
+            Czytaiąc lub pisząc komedyą, dobrze iest wiedzieć gdzie i kiedy urodziła się ta Muza, iakie iey było wychowanie, postępki w początkach, iaki wzrost, iakie późniey, aż do czasów Rzymskich Cesarzów miała powodzenie, lub przeciwności, iakie nadużycia i iey wydoskonalenie.<lb />
+            Prawdziwemi twórcami komedyi i iey przepisów czyli regół, byli Grecy, ale ta w swoich początkach, iak wszystkie dzieła ludzkie, nieokrzesaną, rubasną i dziecinną była. Około 50tey Olimpiady ziawiła się naypierwey w miasteczkach Attiki, tam zastósowaną będąc do prostych i grubych zwyczaiów, mieszkańców małych miasteczek, karczm, szynków, zabaw prostych i mniey obyczaynych, wieyskiego ludu, komedya nieśmiała się zbliżyć do stolicy, a ieżeli przez przypadek, zabłąkała się iaka zbieranina aktorów, czyli takich komedyantów, którym ani taka komedya zaszczytu, ani oni komedyi, uczynić niemogli, takowa więcey tolerowaną bywała, a niżeli upoważnioną od rządu. Po długim bardzo stanie swoiey niedoskonałości, wzrosła nagle w Sycylii, (*) zamiast więc tego zbioru scen, niemaiących między sobą żadnego związku, Filozof Epicharm, ustanowił pierwszy iey reguły, dał akcyą, nieco przyzwoitości, a w scenach i w kompozycyi, zwrócił naywiększą uwagę na iedność mieysca, czasu, i harakteru osób, przepisał długość czyli liczbę scen w aktach, i nauczył doprowadzenia bez żadnych zboczeń sztuki, do końca rozwiązania ostatniego aktu. Epicharm więc pierwszym był prawodawcą i oycem komedyi, poddał ią nieiakim prawom trajedyi, którey reguły, równie iak i sama ta Muza, iuż miała swoie znaczenie w Grecyi, i mogła iuż bydź na ówczas, wzorem do naśladowania, dla pozostaiącey komedyi; w krótce potem, ta zaczęła dzielić pochwały, ze swoią siostrą rywalką, szczególnie też Atenczykowie, przyięli ią z uniesieniem, podobnem do tego, jakie byli zwykli okazywać po odniesionym zwycięztwie.<lb />
+            Wielu z nich zaraz poświęciło się temu rodzajowi pisania dzieł, z pomiędzy tych naydawnieyszemi byli Magnes, Cratinus, Crates, Pherecrat, Eupolis Aristophan; celem ich tylko pisania było, zyskać oklaski iak naywiększe u gminu i zgiełku, ażeby się to im udało, wszystkie sposoby doyścia do tego, zdawały im się bydź godziwe i dobre, i na ten koniec, używali to Parodyi, to Allegoryi, to Satyry, pod postaciami nieprzyiemnemi figur, czasami mniey przyzwoitych scen, i nieprzystoynych wyrazów, to wszystko dla przypodobania się pospólstwu, które we wszystkich klassach i wiekach się znayduie. Autorowie naysławnieysi sami pożyczali swoich ubiorów aktorom, iuż sami grywali, uczyli min, gestów i wyrazów wyszukanie złośliwych, przeciwko partykularnym, których wyszydzić chcieli, iuż to wywieraiąc przez usta aktorów, nayszkaradnieysze paszkwile, częstokroć nawet przeciwko samemu rządowi; byli i tacy jednak, co powstawali przeciwko wadom ludzkim w ogólności, strzegąc się tykać osobistości. Ale niektórzy biorąc wady serca i ułomności, za występki, zasługi, za śmieszności, szpiegi w nayskrytszych zakątkach, domowego pożycia ludzi, którzy ich często dobrodzieystwy, lub przyiaźnią zaszczycali, Delatory na scenie, poświęcali częstokroć sławę i szacunek osób naygodnieyszych, na wzgardę i szyderstwo u pospólstwa, bogatych wystawiali na pociski zazdrości i złości, zarówno tych, których bogactwa dobrze były nabyte, iak tych, którzy ie nieprawnie, lub ze szkodą dobra publicznego posiadali; niebyło tak dostoynego męża, któregoby zarówno, jak nayniegodziwszego człowieka, swem jadem nie truli, nietylko pod postacią i przystósowanem układem łatwym do poznania osoby, którą udawać chcieli, ale nawet naśladowaniem rysów twarzy, które w masce aktora wyryte bywały. Autorowie ukrywali swoie nazwiska lub przybierali czasem inne, albo się wyrzekali dzieł własnych, dla pokrycia i nasycenia swoich złości, lub zawziętości w nayobrzydliwszych wyrazach, które czuć było mieyscem, jakie uczęszczali, niecierpiąc się nawzaiem z Poetami tragicznemi, ustawiczną woynę zawiści, to z Filozofami, to z Urzędnikami publicznemi, to między sobą, prowadzili; maiąc w swych rękach jad, przebiegali z niem nayskrytsze tayniki wszelkich klass spółeczeństw; dla wystawienia ich na scenie w całey swoiey naturalności.<lb />
+            Cratinus (*) powziął tę myśl rozprzestrzenienia wolności komedyi, a Arystophan ią uskutecznił, dla nadania iey większego znaczenia, do czego naypierwszy powód dała mu zemsta osobista. Będąc razu jednego oskarżony przez Creona, że sobie przywłaszczał tytuł obywatela i prawo; przytoczył w swoiey obronie, stanąwszy przed sądem, te dwa wiersze, (które Homer kładzie w usta Telemaka:)<lb />
+            Jestem synem Filipa, jak matki zeznania,<lb />
+            Co do mnie, kto móy oyciec, niemam przekonania.<lb />
+            Ta dowcipna obrona, utrzymała go przy prawach obywatelstwa na mocy sądowego wyroku, ale odtąd, taką powziął nienawiść, i taką się zapalił zemstą, jak mówi sam, że był natchnięty siłą Herkulesa, przeciwko Creonowi, że napisał sztukę pełną żółci i jadu a ponieważ żaden z artystów podiąć się niechciał robić maski człowieka i Urzędnika tak możnego i lubionego od ludu, ani żaden z aktorów niechciał przyiąć roli, przymuszony był Arystophan sam grać na teatrze tę rolę, pomazawszy sobie twarz, i miał szczególnieyszą rozkosz słyszeć, jak był od tumultu okryty oklaskami, gdy udawał Urzędnika i rzucał na niego potwarze i czernidła przed tym samem ludem, który tyraństwu iego pochlebiał.<lb />
+            Te powodzenia ośmieliły niesłychanie Arystophana, pisał Allegoryie, (†) które na scenie wielkie robiły wrażenie, (‡) bo w samey rzeczy z wielkim dowcipem są ułożone. Interessa nayważnieysze Rzeczypospolitey na scenie wystawiane bywały przez niego, gdzie wskazywał potrzebę ukończenia kosztowney i zabóyczey woyny, iuż powstawał przeciwko zepsuciu i przedayności w zgromadzeniach ludu, podłości osób, na pierwszych urzędach kraju będących, iuż przeciwko niezgodzie w Senacie, przeciwko niedorzeczności ludu w swoich obiorach, naradach publicznych, i dekretach.<lb />
+            Jednak rozsądna część narodu wolnego, jaką na ówczas Grecya się znaydowała, niebyła za tego rodzaju wolnością komedyi, i często z dobrem skutkiem dla siebie. Naypierwszy dekret zakazał wystawiać na scenie podobnego nadużycia, w drugim zakazano wymieniać nazwiska osób, trzeci zabronił przeciwko rządowi i jego osobom, nieprzyzwoite sceny na teatrze wystawiać.<lb />
+            Ale te wszystkie dekreta poszły w zaniedbanie, jako przeciwne duchowi i naturze rządu, jaki tam był na ówczas; nakoniec lud niemógł się iuż obeyść bez teatru, któryby niedogadzał jego namiętnościom burzliwym, jego złości, lub jego mniemanemu interessowi, lub zemście przeciwko osobom prywatnym lub publicznym, których albo niecierpiał, albo im zazdrościł dobrego mienia, albo powszechnego szacunku, albo się obawiał ich przemocy; dopiero na końcu woyny Peloponeskiey, te nadużycia komedyi, były wstrzymane, i Arystophan podał się sprawiedliwey reformie, którey sam widział potrzebę.<lb />
+            Bardzo wiele iest zdań tak wspołecznych iemu autorów, iak i poźnieyszych łacińskich, które są za, i przeciw, Arystophanesowi. Plutarch znayduie w iego sztukach komicznych, niezliczoną mnogość myśli zawiłych i niezrozumiałych, igraszek, słów niedorzecznych, płaskich i nikczemnych, i niesworność stylu; niewypowiedzianym sposobem gani jego dowcip szarpiący i jadowity, któremi dzieła swoie napełnił. Inni poźnieysi Francuzcy autorowie, iak n. p. Wolter, poszedł w tey mierze za zdaniem Plutarcha. – Marmontel niemoże się dosyć nachwalić jego delikatności, gustu, czystości stylu, mocy harakterów, wielkiey znajomości ludzi i ich serca, trafności żartów, prawdziwey naturalności rozmów, gieniuszowi w ułożeniu intrygi z zachowaniem ścisłym regół, poezyi jego śpiewów, podług niego, miał znać ten rodzay atticizmu, tego dowcipu i śmieszności, który się naywięcey w owych czasach podobał Attenczykom, i który we wszystkich wiekach podobać się może, że jego dzieła tyle mieszczą w sobie prawdziwey komedyi wzorów, tak wiele dobrey komiczności, że niemożna go przewyższyć, iak tylko tym autorom, którzy pisząc, są przeniknieni jego dzieł pięknością, nieprzestępuiąc regół i praw tey Muzie należących. (*) Napoleon, który miał myśl kazać wystawić na swoim teatrze kilka sztuk dawnych znanych autorów Greckich, między któremi i sztuki Arystophana, (†) tak zupełnie, iak były w Atenach grywane, że do tego nieprzyszło, szkoda, może nieodwetowana dla ciekawych, uprzedzonych, i uczonych widzów, boby może więcey ceniono współczesnych autorów, osobliwie Francuzkich, którzy tey Muzie naywięcey gracyi i dobrego tonu przydali. – Komedya od Greków przeszła do Rzymian, a że łatwiey iest naśladować złe, płaskie i nikczemne, niżeli delikatne i przystoyne, naydawnieysi komicy Łacińscy ośmieleni wolnością i nadużyciami, iaką miała u Greków komedya, poszli w szlady zupełnie za Arystophanem, z tey liczby był Plaut, jego Muza podług zeznania niepodeyrzanego Rzymskiego Apologisty, była to Bakantka, (żeby niepowiedzieć co gorszego!) którey język był w żółci brudney maczany. Terrencyusz poszedł za Plautem, iak Menander za Arystophanem, którego jednak niedoszedł w harakterach, ani w mocy ułożenia intrygi, iak Cezar o nim powiedział nazywaiąc Plauta połową Menandra. (‡)
+            Współcześni autorowie łacińscy, chwalą i ganią swoich autorów komicznych, i niemasz naygorszych, którychby niechwalono, naylepszych, którychby nieganili. – Plautowi przypisuią, że iest żywy w imaginacyach, wesoły, unikaiący iednostayności scen i akcyi. Terrencyusz, że więcey naturalnieyszy, czystość Stylu zachowuiący, wiele elegancyi, czyli wytworności gustu maiący, że życzyćby należało mieć Plautowi duszę Terrencyusza, a Terrencyuszowi, dowcip Plauta.<lb />
+            Jak od Rzymian, (po nieiakim uśpieniu Muz, za czasów wschodnich Cesarzów,) przeszła komedyia do Włoch, a z tamtąd do wszystkich kraiów Europy, iak uratowanie iey autorów od zagłady winni iesteśmy familii Medycyuszów, z którey ieden Leon X. Papież, ten to naywiększy protektor nauk i sztuk, który ie z gruzów Konstantynopola wydobył i zachował; inaczey żadney z Muz pięknych, nietylko komedyi, bylibyśmy nieznali. Tak podobnie u nas w Polsce: gdyby nie familiia Xiążąt Czartoryjskich, (§) która naywięcey do wykształcenia komedyi i iey autorów przyczyniła się: gdyby nie panowanie Stanisława Poniatowskiego, który był prawdziwym Augustem, dla wydoskonalenia nauk i sztuk pięknych: gdyby nie Bogusławski, jeden z pierwszych aktorów i autorów, który komedyią w Polsce, podobnie iak Molier za Ludwika XIV. z Chaosu w jakim była, wyprowadził, aktorów uformował, scenę polską postawił na stopniu prawie bliskim doskonałości, inaczey zapewne ieszcze ta Muza byłaby w Polsce nieznaną, w krótkim czasie, tak wielki postęp, pomimo przeszkód, iakich doświadczała, zrobiła, że iey autorowie, mogą się równać, naypierwszym autorom komedyi Francuzkiey, Niemieckiey, i Włoskiey; tak w delikatności, w zachowaniu regół, szlachetności i dobrego gustu, iako też w unikaniu zbytniey romantyczności, niektórym autorom Niemieckim właściwey. – Między naypierwszemi autorami Polskiey komedyi są: Bochomolec, ale sztuki iego, bez sztuki teatralney, więcey do dyalogów podobne; Bogusławski, Niemcewicz, Fredro, Trębecki, Dmuszewski, Kamieński, Majeranowski, Bronikowski, (**) których gust, wytworność stylu, dowcip, zachowanie regół, poezyia, intrygi ułożenie, i iey rozwiązanie; mieszczą w dziełach swoich te zalety, iakie tylko mogą bydź wzorem dla poźnieyszych komedyi pisarzy; tak, iak są wzorem Feliński, Wężyk, co do poezyi, dla pisarzy tragicznych. To iest naywiększą wadą tey Muzy, iaką iest komedyia w Polsce, że iest ubogą w dzieła orginalne, i dla tego może mało ma swoich adoratorów, czyli raczey czcicieli, którzyby raczyli nią się zatrudnić, bawić i zbogacić.<lb />
+            KRAKÓW, ta stolica nauk, w którey Muzy miały upodobanie od kilku wieków przebywać, jednak komedya, tego szczęścia nie mogła uzyskać; kiedy miasta Włoskie, ledwie nie każde miały swoie teatra, Kraków, żadnego dla komedyi nieposiadał przytułku, i dotąd ieszcze własnego na to gmachu nie ma. I gdyby nie prywatny teatr Kluszewskiego, Starosty Brzegowskiego, użyczony Publiczności, który tey Muzie świątynią pierwszy wystawił; siebie, swóy maiątek, dla utrzymania iey w tem mieście poświęcił. Ten miłośnik Muz, i od nich ubogacony darami, przy zmianach rządu, utrzymał scenę narodową, sprowadzał dawniey operę Włoską, dla nabrania prawdziwego gustu tey Muzy, iaką iest nieoddzielna od teatru muzyka, inaczey, możeby Kraków, dotąd, ani komedyi, ani muzyki, ani teatru przyzwoitego nieposiadał. Ale też i to prawda, że Rzym utraciwszy swoią dawną wielkość, i kiedy na gruzach jego inny Rzym był zbudowany, kilkanaście wieków zostawał bez teatru, (*) bo Muzy i Apollo, tam tylko przebywać lubią, gdzie kwitnie pokóy, sprawiedliwość, nauki i prawa.
+            </p>
+          </div>
+          <docTitle>
+            <titlePart type="main">PANNA INTRYGALSKA<lb />
+            CZYLI<lb />
+            CHYTROŚĆ UNIEWINNIONA.</titlePart>
+            <titlePart type="sub">KOMEDYA.</titlePart>,
+          </docTitle>
+        </titlePage>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#hrabia">HRABIA,</role>
+            <roleDesc>Dziedzic Dóbr.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#hrabina">HRABINA,</role>
+            <roleDesc>jego Żona.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#skąpicki">SKĄPICKI,</role>
+            <roleDesc>Dzierżawca.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#skąpicka">SKĄPICKA,</role>
+            <roleDesc>jego Żona.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#intrygalska">EMILIA,</role>
+            <roleDesc>ich Córka pod mniemanem nazwiskiem JNTRYGALSKIEY, powiernicy Hrabiny.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#administrator">ADMINISTRATOR,</role>
+            <roleDesc>Dóbr.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#adolf">ADOLF,</role>
+            <roleDesc>Porucznik od Kawaleryi.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#zawiło">ZAWIŁO,</role>
+            <roleDesc>Kómornik.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#mośkowicz">MOŚKOWICZ,</role>
+            <roleDesc>Bankier.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#niewiadoma">NIEWIADOMA,</role>
+            <roleDesc>(w masce), Żona Mośkowicza.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#woźny">WOŹNY,</role>
+            <roleDesc>i SYN jego mały.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#lokay">LOKAY.</role>
+            <roleDesc/>
+          </castItem>
+          <castGroup>
+            <castItem>
+              <role corresp="#licytant_i"/>
+            </castItem>
+            <castItem>
+              <role corresp="#licytant_ii"/>
+            </castItem>
+            <castItem>
+              <role corresp="#pachołcy"/>
+            </castItem>
+            <roleDesc>LICYTANCI, GOŚCIE, i POSPÓLSTWO.</roleDesc>
+          </castGroup>
+          <castGroup>
+            <castItem>
+              <role corresp="#żydzi"/>
+            </castItem>
+            <roleDesc>ŻYDZI.</roleDesc>
+          </castGroup>
+        </castList>
+      </div>
+      <set>
+        <p>Muzyka Janczarska Reymentowa.</p>
+        <p>(Scena podczas Licytacyi na wsi w zamku Hrabiego).</p>
+      </set>
+      <prologue>
+        <head>Prolog.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#intrygalska">INTRYGALSKA.</rs>
+            <rs key="#zawiło">ZAWIŁO.</rs>
+            <rs key="#administrator">ADMINISTRATOR.</rs>
+          </p>
+        </stage>
+        <sp who="#zawiło">
+          <speaker>ZAWIŁO.</speaker>
+          <p>Dawni Grecy Pani Dobrodzieyko, od których my wzory Praw, Procedury i Sądownictwa i reguły Teatru i Licytacyi posiadamy, zaczynali Teatr od Prologów, Sprawy od Indukty, a Licytacye zapewne, gdyby Euripid lub Sofokl był Kómornikiem, zaczynałby ią od wierszów. My słysząc i widząc takie wdzięki, któreby świat dawny zdumiewały, tak iak zdumiewaią teraźnieyszy, umyśliliśmy obydwa, to iest: ia, iako Kómornik z JP. Administratorem przy dzisieyszey Licytacyi, aby Pani zrobić zabawę i zacząć od wstępu, czyli Prologu, i ułożyliśmy wierszem Replikę i wierszem Duplikę to iest: JP. Administrator będzie strona przeciwna, czyli powodowa, a ia strona broniąca. Pan Administrator przeciw Damom, a ia za Damami, a Pani Dobrodzieyka reprezentować raczy Sąd Naywyższy w swoiey własney sprawie. Pierwszy przykład Dupliki i Repliki wierszem i pierwszy raz w Trybunale da się słyszeć Poezya, bo tam zawsze prozą indukuią sprawy.</p>
+        </sp>
+        <sp who="#intrygalska">
+          <speaker>INTRYGALSKA.</speaker>
+          <p><stage>(w szlafroku.)</stage> Dobrze, tylko prędko, siadam i słucham, <stage>(n. s.)</stage> a nawet mogę i drzymać, iak słyszałam że Sędziowie tak robią we wszystkich Instancyach.</p>
+        </sp>
+        <sp who="#administrator">
+          <speaker>ADMINISTRATOR.</speaker>
+          <p>Zaczynam od Indukty i powstaię.<lb />
+          Prześwietny Sądzie! oto Replika:<lb />
+          Wszystkie na świecie sprawy od kobiet pochodzą,<lb />
+          Jakie się w Niebie i na ziemi rodzą:<lb />
+          Z nich pierwsza była grzechu pobudką Adama,<lb />
+          Do którego uczynku przywiodła go sama,<lb />
+          Z nich iedna Salomona uwieść potrafiła,<lb />
+          Mimo iego mądrości, która świat dziwiła,<lb />
+          Któż nie wie, że przyczyną Troi obalenia<lb />
+          Były wdzięki kobiety i iey omamienia?<lb />
+          Antoniusza nieszczęść i zguby przyczyna,<lb />
+          Czyliż nie w Kleopatrze znaj dnie się wina!<lb />
+          Prześwietny Sądzie konkluzya.<lb />
+          Na co ci mam wyliczać dawnych dziejów ślady,<lb />
+          Na co żyiących nudzić martwemi przykłady,<lb />
+          Na co ich w Troi szukać lub chodzić po Raju,<lb />
+          Wszak były w każdym wieku, i są w każdym Kraju.<lb />
+          I to iest konkluzya.</p>
+        </sp>
+        <sp who="#intrygalska">
+          <speaker>INTRYGALSKA.</speaker>
+          <p>Gdybym była Prezesem Sądu, tobym takiemu Adwokatowi, co taką konkluzyą bez sensu zrobił, wyiść za drzwi kazała, a po jurystowsku na ustęp.</p>
+        </sp>
+        <sp who="#zawiło">
+          <speaker>ZAWIŁO.</speaker>
+          <p>Prześwietny Sądzie, zaraz oto Duplika, ia tu stronie powodowey odpowiem:<lb />
+          A kiedy ten co maiąc rzeczy przewidzenie,<lb />
+          Niechciał tego przewidzieć robiąc to stworzenie,<lb />
+          Że tylu nieszczęść świata stanie się przyczyną,<lb />
+          Że ziadła Ewa jabłko, to nie iest iey winą;<lb />
+          Dla tego też na świecie zawsze się tak zdarza:<lb />
+          Że kto Damom ubliża, ten Stwórcę obraża,<lb />
+          Bo wchodzi nierostropnie w iego taiemnice,<lb />
+          Gubi się i swóy rozum obraca na nice.<lb />
+          Stwórca znaiąc przyczyny swych działań odwieczne,<lb />
+          Smieie się, że ich skutki zdaią się nam sprzeczne.<lb />
+          Gdyby słabey płci odiął przymilenia sztukę,<lb />
+          Gdyby sile Lwa dodał chytrości naukę,<lb />
+          Gdyby nad ogniem woda niemiała przemocy,<lb />
+          Gdyby noc dniowi, dzień niechciał ustąpić nocy,<lb />
+          Morzom z koryta swego pozwolił wychodzić,<lb />
+          Gwiazdom w ziemi, roślinom w powietrzu się rodzić,<lb />
+          Zgoła wszystko dla nas inaczey odmienił,<lb />
+          Występkom dał szlachetność, a cnoty nie cenił,<lb />
+          Kobietom odiął piękność, a dał Gorgon postać,<lb />
+          A któżby tu na ziemi chciał u diabła zostać?<lb />
+          Panie! niech ma świat formę iaką mu raz dałeś,<lb />
+          Niech zostaną kobiety iakie ty mieć chciałeś,<lb />
+          Niechay się nikt twoich dzieł poprawiać nieważy,<lb />
+          A ileby się człowiek chciał pokusić razy,<lb />
+          Zawsze go Panie ukarz iak owe Tytany,<lb />
+          I Ducha iego niewpuść pomiędzy Niebiany,<lb />
+          Gdyżby i tam twym dziełom niechciał dać pokoiu,<lb />
+          Niepozbyłbyś się szemrań burzliwego roiu.<lb />
+          Kobietom day pierwszeństwo, wybacz ich słabości,<lb />
+          One są naypięknieyszem celem twey Mądrości,</p>
+        </sp>
+        <sp who="#intrygalska">
+          <speaker>INTRYGALSKA.</speaker>
+          <p>A cóż to za nudziarz, niewytrzymam, pókiż oni gadać będą. <stage>(Intrygalska nieznacznie się wynosi)</stage></p>
+        </sp>
+        <sp who="#zawiło">
+          <speaker>ZAWIŁO.</speaker>
+          <p>One buntów i woien w Kraiach nie wszczynaią,<lb />
+          Ani się wzaiem biią, kłuią i strzelaią.<lb />
+          Możeby ludzkie plemie zaginęło w świecie,<lb />
+          Żeby nie twa przezorność, że słabszey płci przecie<lb />
+          Dałeś moc czarowania, słodyczy prawidła,<lb />
+          Którem Barbarzyństwo bierze w swoie sidła.<lb />
+          Od kobiet szczęście świata prawdziwie zależy,<lb />
+          Kto twe dzieła szanuie, ten to zna i wierzy.<lb />
+          Bez kobiet świat ten cały stałby się pustynią,<lb />
+          Cóż to na nim męszczyzni tak dobrego czynią?<lb />
+          A. A... to Sąd Naywyższy zniknął, a to pięknie, ia prawię Duplikę, a tu Naywyższego Sądu niema; ewaporował.</p>
+        </sp>
+        <sp who="#administrator">
+          <speaker>ADMINISTRATOR.</speaker>
+          <p>Bardzo się pięknie Sąd Naywyższy znalazł, niechce wydać Dekretu w swoiey własney sprawie, i pozwolił się sądzić zaocznie.</p>
+        </sp>
+        <sp who="#zawiło">
+          <speaker>ZAWIŁO.</speaker>
+          <p>Więc póydźmy do naszego Bióra Licytacyi.</p>
+        </sp>
+        <trailer>KONIEC PROLOGU.</trailer>
+      </prologue>
+      <docTitle>
+        <titlePart type="main">PANNA<lb />
+        INTRYGALSKA,<lb />
+        CZYLI<lb />
+        CHYTROŚĆ UNIEWINNIONA.</titlePart>
+        <titlePart type="sub">KOMEDYA.</titlePart>,
+      </docTitle>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT I.</head>
+        <stage type="setting">
+          <p>(Teatr reprezentuie pokóy wielki)</p>
+        </stage>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#intrygalska">PANNA INTRYGALSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#intrygalska">
+            <speaker>PANNA INTRYGALSKA.</speaker>
+            <p><stage>(ubrana w szlafroku)</stage> Co tu ci Kuzynowie moi mieli rzeczy niepotrzebnych, aż nadto, a tego co istotnie do wygody należy, to niebyło; a osobliwie też sama Pani, co tu Sukien, Pereł, Szalów, Kleynotów, a futra żadnego. On nieborak iak słyszę zgryzł się Urzędem, a nadewszystko z ludźmi, z któremi z Urzędu miał mieć do czynienia; umarł nagle, a iego żona w kilka miesięcy po nim poszła, zabiwszy się na iednym Balu filantropicznym, który iey mąż w Miasteczku dawał, gdzie niebyło ani pieca całego, ani całych okien, ona zaś dla przypodobania się iednemu Szefowi tak się letko i cienko wystroiła, że na tym Balu, prawda, że naylepiey była ubrana, że Szef iey nie odstępował, wzdychał, służył, chwalił, wszystkim Damom na tym Balu poodbierała Adoratorów, cały kor Officyerów nią był zachwycony, wszystkie kobiety niemogły na nią patrzeć przez zazdrość, ale cóż po tym krótkim tryumfie, moia Kuzynka powróciwszy do domu ze szlichtady bez dobrego okrycia, bez futra, ato żeby się niewydawała grubą, odziąbiła obie piersi, dostała zapalenia płuc i przy staraniu modnego Doktora życie utraciła. Otóż to życie niedokończonych szarmantek! Ja teraz zawsze iakbym się chciała podobać komu, to naypierwsza rzecz, że będę szukała ciepłego pokoiu i futra; co mnie lub którey z kobiet przyidzie z tego, na mróz choćby z naypięknieyszym gorsem wystawiać się. Teraz właśnie kilka przyiaciołek bardzo pięknych, z któremi byłam niby w przyiaźni, utraciłam, które wszystkie dla przypodobania się temu światu, na tamten świat poszły, a ia wszystkie ich tryumfy z Laurami i Mirtami, gdyby w sukcessyi zabieram, i na dzisieyszey Licytacyi, na którą się wiele Osób pozieżdzało, zrobiłam kilka świetnych zwycięztw i bardzo ważnych, a kto wie, czy mi się nie da pod swoie podbić panowanie Kómornika, Administratora, Notaryusza, Bankiera, którzy zakupiwszy za 10tą część wartości Kleynoty, Perły, i Srebra na Licytacyi, każdy z nich obiecał mi ofiarę uczynić. Chociaż daleka iestem od tey pretensyi przyiąć tę wspaniałość ich serca bez interessowną, lubo odrzucić ich nie mogę, bez ukarania tych Panów, co sobie robią igraszki z niewinności. Ukaranie na potem zostawiam. Z pierwszą Przyiaciołką moią będąc teraz zagranicą dostałam śliczne Perły od iey Kochanka, który iey niebył wierny, iey Męża zgrywał w karty, a mnie prezenta robił; aby go ukarać za to, zaraz Perły te jey Mężowi, którego zgrał, dałam w sekrecie. Teraz bawię przy Hrabinie moiey Kuzynce, która mnie kocha i zawsze prosi żebym szpiegowała jey Męża, i wydała go, gdy iaką niewierność spostrzegę; właśnie niewierność spostrzegłam, gdy moie wdzięki zaczęły go zaymować, chciałam go wydać, gdy mi kulczyki brylantowe darował, bałam się, znaiąc siłę zazdrości moiey Przyiaciołki i zawziętość wzgardzonego przezemnie Hrabiego odkryć tę taiemnicę, niemogłam ich nieprzyiąć; a tak i sekret i kulczyki przy mnie zostaią pomimo moiey woli. Co to iest za smutne czasem nas kobiet, a osobliwie Panien położenie! bydź Intrygantką mimo naszey woli; ale ktoś idzie, zapewne albo Zawiło Kómornik, albo P. Mośkowicz Bankier, nudziarze i głupcy na Adoratorów niestworzeni, ale gdzież tu są lepsi na Wsi? dobrze, że są i tacy.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#zawiło">ZAWIŁO.</rs> (i TAŻ SAMA)
+              <rs key="#intrygalska">INTRYGALSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Jak się ma piękna Pani? niemogłaby mi też iedney łaski zrobić?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Jakieyże na przykład?</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Dadź mi się w gorsik swóy pocałować.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>To coś trąci grubiaństwem i zbytnią familiarnością, potrzebaby nie bydź Kómornikiem, żeby bydź tak niegrzecznym.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>A cóż z tego? pocałować cóż za uchybienie?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(N. s.)</stage> dobrze, dobrze, poczekay móy Jurysto, złapię ia ciebie. [Cóż robić z ludźmi niemaiącemi dobrego wychowania] Co? pocałować? miałżebyś WPan tak niepoczciwe serce, aby mnie niewinną dziewczynę tak krzywdzić, czy WPan sądzisz, że ia z tych Panien?...</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Ale niech Panna Intrygalska Dobrodzieyka wybaczy ten móy zapał, który iey wdzięki wzniecaią, wszakże Pani przyzna, że naysłusznieysze Panie, Matrony, Matki i Mężatki, nietylko niewinne Panny lubią się całować.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Prawda, ale to ze swoiemi Mężami, którzy ich doprawdy kochaią i są ludźmi poczciwemi.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Alboż mnie Pani masz za niepoczciwego?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Ah! uchoway Boże! ale mnie WPan wcale niekochasz i ia WPana – bo gdybyś...</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Jak to Pani?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Wiem, że WPan masz słabość do pewney brunetki, do którey wczoray robiłeś słodkie oczy.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Ja Pani? nigdy, owszem więcey Pani powiem, oto Państwo Skąpiccy się proszą, abym się z ich Córką żenił, ale iey nawet nieznam i niechcę.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Czy doprawdy? iakież WPan masz tego dowody?</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p><stage>(pokazuie list i odpis)</stage> Zna Pani Pana Skąpickiego charakter?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Aż nadto znam i iestem prawdziwie od niego kochana. <stage>(n. s.)</stage> Jakże go znać niemam: to mój Oyciec.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Pani niemożesz bydź odemnie kochaną tylko... <stage>(przysuwa się do niey chce ią w gors pocałować)</stage></p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(odsuwa się z gniewem i wyniosłością pełną duszy)</stage> Proszę z podobnemi odejść odemnie, ia nieiestem... iak WPan o mnie trzymasz, proszę sobie iść licytować i mnie zostawić samą.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Ah! Pani, przebacz i niesądź równie źle o mnie. Każesz mi iść na licytacyą, o gdyby to tam takie Bóstwa kupić można, iabym dał naywięcey; bo nieuwierzysz iak mi się podobasz; prawda, że ia się mam żenić z Córką PP. Skąpickich, niepowinienbym o tem myśleć, ale miłość ślepa, sama niewie co czyni; ieszcze diabeł nadał tę licytacyą, że tu dzisiay moia przyszła żona będzie, ani można, żebym się z Panią mógł bawić.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Czy tak? <stage>(n. s.)</stage> potrzeba go tu upokorzyć. Otóż to wierność i słabość męszczyzn, ieszczem nieiest iego żoną, a iuż mnie zdradza, ieszcze mnie iak Emilią niewidział, bo mnie tu zna pod imieniem Intrygalskiey i pod tym nazwiskiem uchodzę. <stage>(gł:)</stage> Proszę sobie to z głowy wybić, żebyś WPan mnie lub narzeczoną Pannę Emilią miał tym uszczęśliwić, że się o iednę starasz, drugą łudzić chcesz. Idź sobie WPan do Emilii i kłaniay się odemnie.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Nigdym się niespodziewał znaleść Pani tak dla siebie okrutney; wyświadcz mi Pani tę łaskę i chciey mi przynaymniey dadź rączki pocałować.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>I tego nieuczynię boś sobie WPan na to nieumiał zasłużyć, inaczey niebyłabym mu tego broniła, gdyby był z większem dla mnie uszanowaniem, i sądził o mnie inaczey; szkoda, bo tak przystoyny męszczyzna, tak dowcipny iak WPan iesteś, byłby mię całą dla siebie zaiął. <stage>(n. s.)</stage> Jakiey sztuki muszę używać iako Intrygalska, ażebym go niebyła przymuszoną przez mego Oyca wziąść za męża iako Emilia.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Jak to? ia mógłbym się Pani podobać?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Nieinaczey – może.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Śliczna Pani! <stage>(klęka)</stage> przysięgam ci, żeś ty iedna mey miłości celem; iaki zapał czuię.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(N. s.)</stage> Przyznam się, żem się tego oświadczenia niespodziewała, iak tu tego dociec, czyli to iest prawdziwe, bo i toby pomogło do dzisieyszey Licytacyi w interessie Hrabiego, któremu ia tak dobrze życzę i chcę bydź użyteczną. Czegóż WPan klęczysz, i długo tak będziesz w tey postawie?</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Póki od Pani ostatecznego nieodbiorę wyroku.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Więc długo klęczeć będziesz.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Jak na Wyrok w ostatniey i Naywyższey Instancyi, lepiey czekać dłużey, a uzyskać.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(chodząc, myśli)</stage> Przebiegłości kobieca? dowcipie i duchu moich przyiaciołek, które mnie tak w intrygach wyuczyły, przybywaycie mi na pomoc! Daley Panno Intrygalska, gray swoią rolę. Mości Kómorniku, chciey Pan wstać, proszę go tu do siebie.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p><stage>(wstaie)</stage> Jestem na rozkaz Pani!</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Klęcz WPan. <stage>(Zawiło klęka)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#zawiło">ZAWIŁO.</rs>
+              <rs key="#intrygalska">INTRYGALSKA.</rs> (i)
+              <rs key="#administrator">ADMINISTRATOR.</rs>
+            </p>
+          </stage>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>A po cóż tu ten nudziarz przyszedł teraz?</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>A cóż to? P. Zawiło modli się przed Ołtarzem miłości? Ja co tym samym ogniem pałam <stage>(klęka)</stage> niech i mnie wolno będzie klęczący wniyść do serca Pani, którą...</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Idź WPan proszę, teraz niemam czasu.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Co to za natręctwo, sprawa nayścia kryminalna.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Co? natręctwo? do kogo to WPan Panie Zawiło tym wyrazem śmiesz... <stage>(posuwa się na klęczkach)</stage></p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p><stage>(posuwa się także na klęczkach)</stage> Do kogo? do kogo? a to mi Jegomość, nachodzić i szpiegować cudze facta in via juris.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>To iest via facti Mospanie, nie via juris.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Cóż to, poiedynek chcecie Panowie klęczący w przytomności moiey odbywać?</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Przepraszam Panią, odchodzę, ale, ale...</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(do Administratora)</stage> Nieskończenie obowiązana; widać ile Pan iesteś delikatny. Adieu! proszę bydź u Pani Hrabiny, to się zobaczemy. <stage>(do Zawiły)</stage> Dobrześ Pan zrobił, żeś ustąpił temu nudziarzowi, ia się go tu zaraz pozbędę <stage>(Administrator odchodzi)</stage></p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Szczęście, że wyszedł, byłbym go zrąbał.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p><stage>(przy drzwiach)</stage> Twoie to szczęście żem pałasza niemiał, bo...</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Prawda, że Pan Zawiło ma duszę i serce Kawalerskie, oto WPan masz rękę do pocałowania na znak, że WPanu zaczęłam wierzyć i więcey go cenię niżeli Pana Administratora, za to, że masz odwagę.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p><stage>(wstaie)</stage> Ja Pani? ia iuż pięć poiedynków odbyłem, a to przy sekwestracyach Sądowych i Administracyinych; prawda, że ia się sam niebiłem, tylko Żandarmy, ale gdyby mi chciał kto zaiąć serce Pani, to, to, za taką sekwestracyą, biłbym się iak Żandarm.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Uszczęśliwiasz mię WPan, ieżeli to prawda.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Podnoszę dwa palce do góry i przysięgam.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Jakto? na miłość wieczną dla mnie, czyli dla Panny Emilii Skąpickiey?</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Nie, dla ciebie Pani. Niech mnie diabli wezmą, ieżeli ią znam, to tylko był proiekt żenienia się z Emilią dopiero przez iey Oyca ułożony, mnie do konfirmacyi oddany, ale go odrzucam.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Więc ia WPanu będę dyktowała przysięgę.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p><stage>(n. s.)</stage> Tam do diabła! iak tu będzie co nie do rzeczy.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Co tam sobie WPan mruczysz? ieżeli się niepodoba, to proszę mnie uwolnić.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Jakaż ostra iesteś dla mnie Pani. Cóż robić? kiedy kto szczerze kocha kobietę, to dawno musi się stać iey niewolnikiem.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(n. s.)</stage> Osobliwie też kiedy od nas kochanym nie iest, a koniecznie się w nasze serce chce wdzierać. <stage>(głośno)</stage> To prawda; cieszy mnie to, że WP. tak dobrze się znasz na prawach miłości i na kobietach.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Daley, cóż Pani każe, i na co mam przysięgać?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Milcz WPan i czekay; uklękniy do przysięgi.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>O dla Boga! cóż się to będzie działo ze mną? <stage>(drży)</stage> dreszcz mnie bierze, umiałem komu dawać rady, a sobie dać iey nieumiem. O przeklęta miłości, kiedy ty nawet i Jurystów pod swoie podbić możesz panowanie! Dopiero teraz wierzę tym baykom mitologicznym, że miłość Bogom zawracała głowy, cóż ona tu ze mną Kómornikiem przy dzisieyszey Licytacyi dokazywać dopiero będzie. Wstanę albo co? i zrzucę z siebie tego Bożka, który na mnie wsiadł, iak na swego jelenia. <stage>(wstaie)</stage></p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>A to co? kto WPanu pozwolił;... cóż to znaczy? taka oziębłość, taka wzgarda, takie dla mnie upokorzenie, nieczułość w momencie, kiedy moie serce zaczyna pałać ogniem czułości dla niego. <stage>(płacze)</stage> Idź mi WPan z mych oczów, niewdzięczniku!!</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Ah Pani! Bogini duszy i serca mego, litości!... uspokóy się bo mnie zgubisz; miłosierdzia, przebaczenia błagam.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Ah! nieszczęśliwa i zdradzona iestem. <stage>(tupa nogami)</stage> Precz mi ztąd, ani mi się na oczy niepokazywać proszę; ten zdrayca... <stage>(płacze i śmieie się na stronie)</stage></p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Jakże tu takiey kobiety nie kochać, kiedy ona mnie tak kocha? Jakże? ale któż winien i o co idzie? niewiem; po co mi też to było wstawać. <stage>(klęka)</stage></p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Jeżeli u WPana Panie Kómorniku iest pierwsza Licytacya, niżeli moia dla niego osoba? to dobrze; idź WPan, ia go uwalniam od oświadczoney mi przysięgi. <stage>(chce odeyść)</stage></p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Pani! Pani! co robisz? <stage>(plezie się na klęczkach)</stage> Przysięgam, nic takiego niemasz: ani Licytacyi, ani Inkwizycyi, Obsygillacya, ani Inkameracya, Kommissya, Tradycya, Oblikwidacya, ani żadna na świecie Sekwestracya, niezrobiłyby mi takiego ukontentowania, iakiego dzisiay przy zaięciu serduszka, a gdyby można i osóbki Pani doznaie, gdybyś tylko Pani łaskawie zwrócić te piękne oczęta chciała, które odemnie odwróciłaś, inaczey, ia nieszczęśliwy <stage>(płacze)</stage> śmierciąbym przypłacił tę moią nierostropność, żem się odważył wstać bez iey pozwolenia i nieczekał roty przysięgi.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(n. s.)</stage> Wyśmienicie, wyśmienicie; powiadaią, że Juryści nie umieią się kochać, że są franty, nieczuli, ale to ieszcze nie koniec, idźmy daley, bo w drodze intrygi rzadko się trafi tam, gdzie się idzie. <stage>(gł:)</stage> Ponieważ widzę, że WPan masz serce dobre i niepopsute, tak iak wielu teraz Kawalerów, więc dziewczyna tak iak ia, która się ieszcze nie kochała, musi WPanu wybaczyć.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Cóż? mam teraz przysięgać i na co?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Oto cała przysięga, żebyś mnie WPan nie martwił, i żebyś w domu PP. Skąpickich ani razu niebył, i dał mi na piśmie, że się nigdy o Pannę Emilią ich Córkę starać nie będziesz, i z nią się nie ożenisz, i że ją osobiście poznać unikać wcale będziesz.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Przysięgam, i Autentyk przysięgi przy świadkach na piśmie u Notaryusza Pani złożę.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(n. s.)</stage> Bravo! dopięłam swego, że żoną iego nie będę, Idź WPan teraz Licytacyą rozpocząć. Adieu!</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#zawiło">ZAWIŁO.</rs>
+            </p>
+          </stage>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p><stage>(sam)</stage> Ach! <stage>(obciera czoło)</stage> ledwie do siebie przychodzę; tu iuż trzeba było od dwóch godzin zacząć Licytacyą, a tu mnie ta diabelska miłość, która mnie tak osiadła, przytrzymuie; no, no, ale dalibóg, co to za śliczna dziewczyna – prawda, że ia się mam żenić z tą Panną Emilią Skąpickiego córką, Diewczyna iak mi powiadano ma bydź piękna, bogata, Oyciec i Matka życzą sobie mieć mnie Zięciem; prawda znowu iak słyszałem, że Panna tego sobie nie życzy, chociaż mnie nie zna, ale iak mnie pozna, to zaraz będzie insza; a potem od czegóż przymus: Oyciec i Matka każe, dla czegóżbym się niemiał ożenić z Paną Emilią! a Intrygalska serce i osobę posiadać? Dalibóg sam niewiem co robić, tak iestem zbałamucony, czy iść za dobrą Małżonką, iaką będzie Emilia, którey nie znam, czyli za piękną kochanką, iaką iest Intrygalska; czyli mieć obie razem; ale czas na mnie iść licytować. <stage>(odchodzi)</stage> Ale, ieszcze póydę do Intrygalskiey spytać się...</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+          <stage type="setting">
+            <p>(Teatr odmienia się w mieysce licytacyi przeznaczone, wiele rzeczy do licytacyi przygotowanych, pomiędzy któremi Gitara i Lektyka, etc. etc.)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#mośkowicz">MOŚKOWICZ.</rs>
+              <rs key="#woźny">WOŹNY.</rs> (i PEŁNO FIGUR, ŻYDÓW i POSPÓLSTWA przypatrujących się rzeczom)
+            </p>
+          </stage>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>Co u diabła, Kómornika niewidać, ia ręczę, że będziemy tu z miesiąc siedzieć dla Diurny, ia co miałem wziąść, to mi iuż Licytanci oddali, wiele sobie rzeczy poodmieniałem, ale teraz niewiem iak tu wszystkim służyć, i wszystkim dogodzić; ten, co mi nic niedał, to iemu tak będę przewlekał niż wyrzeknę po trzecie; a iak się obróci, to krząknę, kichnę, i krzyknę, zadzwonię i oddam temu, co od niego kapitulowany iestem. Kómornik kazał mi uważać na Pannę Intrygalską, aby co ona chce kupić, żeby iak nayprędzey zadzwonić i oddać iey rzecz. To wiem, że Mośkowicz bogaty Bankier, dla niey brylanty kupi za bezcen, bo Jubiler, który uprzedzony był iak ma ie taxować, powiadał mi o tem w sekrecie. Ta Panna całą licytacyą rządzi, i co chce to robi i z Sędziami i Panami Mecenasami nawet; i ia jey służę, chociaż mi nie dała nic za to, a ia darmo służyć nie lubię i nikomu nie służyłem, lecz dla niey chętnie usłużę i prędko po trzeci raz! wykrzyknę.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Wiesz Wać, że to wśystko, co go tu krzyczy, co go Wać widzisz, to iest drugi ja, to wszystko będzie na mnie licytować, rozumiesz Wać? to, co go Wać od kogo weźmiesz, to iemu day kwit i assygnacyą, żeby sobie odemnie odebrał.</p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>A Panie Dobrodzieiu! Pan tu iesteś JW. Panem Licytacyi, a Panna Intrygalska JW. Panią, a ja, Kómornik i Sekwestrator, iesteśmy Jaśnie Wielmożnych Państwa nayniższemi sługami.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#mośkowicz">MOŚKOWICZ.</rs>
+              <rs key="#woźny">WOŹNY.</rs>
+              <rs key="#kómornik">KÓMORNIK.</rs> (i)
+              <rs key="#administrator">ADMINISTRATOR.</rs>
+              <rs key="#licytant_i">LICYTANT I.</rs>
+              <rs key="#licytant_ii">LICYTANT II.</rs>
+            </p>
+          </stage>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>W tym czasie bydź Administratorem i Sekwestratorem takich Dóbr iak ja iestem, iest lepiey iak Dziedzicem lub Kredytorem. Toto czas dobry teraz dla tych, co maią pieniądze, bo nietylko za pół darmo, ale za trzecią część wartości można nabydź i stać się Panem. JW. Pan Bankier kupi zapewne te Dobra.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Cas płaci, cas traci. Dla nas Slachciech co mamy pieniądze, dobrze, dla tych co go nie maią, źle i nie wyjdą z honorzem.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Woźny! wołay, że Licytacya się zaczyna.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Pamiętay Wać uważać iak goście wyjdą, Srebra dadź na Licytacyą, potem Brylancie.</p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>Mości Panowie! Licytacya się zaczyna.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Jakże JW. Pan każe, czy teraz od Dóbr?</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Ach! lepiey go w tencas, kiedy będzie cas po temu; teraz iest kilka, coby się darli kupić bez pieniędzy, a może bez kaucyi; to lepiey potem inną casą, z nieiaką przezornością, to iest penetracyą.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Sąd zalecił, aby podług Testamentu woli robić Licytacyą, i zaczynać od ruchomości, to iest od sukien, trzewików, bo w nich Testatorka chodziła.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>To mi iest mili człowiek i do moich interessów Plenipotent zdatny, ma głowę ciwilizowaną, iak mówią: fayn fifibus geni.</p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>Dziesięć par sukien Paryzkich, których taxa iest po 10 Złotych, i do nich dołączone są 10 par Paryzkich trzewików, których taxa iest po Złoty 1, ogółem 190 Złotych po pierwsze, 190 po drugie...</p>
+          </sp>
+          <sp who="#licytant_i">
+            <speaker>LICYTANT 1wszy.</speaker>
+            <p>I trzy grosze.</p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>190 Złotych i 3 grosze po 1wsze, 190 Złotych i 3 grosze po 2gie, 190 Złotych i 3 grosze po 3cie. <stage>(dzwoni i oddaie)</stage></p>
+          </sp>
+          <sp who="#licytant_i">
+            <speaker>LICYTANT 1wszy.</speaker>
+            <p>A to piękne suknie i trzewiki Paryzkie! to nayczęściey tak na Licytacyach bywa.</p>
+          </sp>
+          <sp who="#licytant_ii">
+            <speaker>LICYTANT 2gi.</speaker>
+            <p><stage>(do Woźnego)</stage> Tatuniu! Tatuniu! a to Mamunine suknie i trzewiki, co one tu robią? a niechże Tatunia je Mamuni odda.</p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>Ciszy! Ciszy głupcze! idź do domu, pocoś tu przyszedł? <stage>(n. s.)</stage> Jakie to głupie dziecko, ja wziąłem lepsze za gorsze.</p>
+          </sp>
+          <sp who="#licytant_ii">
+            <speaker>LICYTANT 2gi.</speaker>
+            <p>Ale tak, głupcze, Mamuni przedawać suknie i trzewiki, w czemże Mamunia będzie chodzić? <stage>(płacze)</stage> Ja póydę do Mamuni i powiem. <stage>(przestaie licytować)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#mośkowicz">MOŚKOWICZ.</rs>
+              <rs key="#woźny">WOŹNY.</rs>
+              <rs key="#licytanci">LICYTANCI.</rs>
+              <rs key="#kómornik">KÓMORNIK.</rs>
+              <rs key="#administrator">ADMINISTRATOR.</rs>
+              <rs key="#hrabia">HRABIA.</rs>
+              <rs key="#hrabina">HRABINA.</rs> (i)
+              <rs key="#intrygalska">PANNA INTRYGALSKA.</rs> (ubrana w Amazonie)
+            </p>
+          </stage>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Ah! Jaśnie Wielmożni Państwo Dobrodzieystwo zaszczycaią nas swoią przytomnością.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Ostatni termin Licytacyi, można Jaśnie Wielmożnemu Hrabi zapłacić, bo licytacyi Dóbr niebędzie, ia zaś wolę pieniądze.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Ja temu niebardzo wierzę; bo kiedy iest łatwy sposób nabycia tanio rzeczy, to P. Bankier profitować powinien; ja umyślnie przyiechałem do przyspieszenia i poparcia tey sprzedaży, abym zapłacił moich kredytorów.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p><stage>(przysuwa się do Panny Intrygalskiey, która się odsuwa od niego)</stage> Ach! co to za ślicna twarzycka!... odwraca się odemnie?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(z wdzięcznym ukłonem odsuwaiąc się)</stage> Proszę mnie tak zostawić. <stage>(W czasie tego, pospólstwo i Licytanci Hrabiego i Hrabinę obstąpili)</stage></p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Za wiele nam honoru Państwo Dobrodzieystwo czynią – proszę o dyskrecyą. Mości Administratorze! przecie dla mego Urzędu, dla JWWnych Hrabstwa i dla Pani <stage>(obraca się do Intrygalskiey)</stage> kazać porządek zrobić. Hey! Woźny. Porządek dla mego Urzędu. Porządek anima rerum.</p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>Co Panie? niemogę się dostać; po głowie mi chodzą te bikusy, porozlewali inkaust, dzwonek ukradziono, i rzeczy może wiele zginąć.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Ani sposobu, żebyśmy tu w tym zgiełku i w tey wrzawie mogli siedzieć; póydźmy Mężu!</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Panie Kimorniku! niech Pan Licytacyą zakończi, ja JWW. Państwa proszę na śniadanie, iuż wsistko dla nich iest przygotowane w tym tutay bliskim lasku.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>A tak, tak, JWW. Hrabstwo witać i żegnać należy. Ah bodayto w takim domu słodkie spędzać chwile! wypiiemy Węgrzyna za zdrowie nowego i dawnego Dziedzica. <stage>(otwiera drzwi i prosi)</stage> Proszę Pani!</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Zaraz im będę służyć, <stage>(wychodzą)</stage> tylko sobie na głowie poprawię. <stage>(przeziera się w zwierciedle)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#intrygalska">INTRYGALSKA.</rs> (i)
+              <rs key="#mośkowicz">MOŚKOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Cóż Pani Dobrodzieyka tak na mnie zagniewana – tak okrutna?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Kto, ja? a o cóż? widzę tylko same iakieś podeyrzenia P. Mośkowicz ma w swoiey myśli; jabym się miała na niego gniewać? nigdy o tem nie myślałam, przywidzenia same, co kto mnie, albo ia kogo interessować może.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Ja wiem, że ja cywilizowany i Pani cywilizowana, ale to wiem, że Pani przi Gościach ucieka odemnie i gardzi mną, iak gdyby nie cywilizowanym. Ja przestalem kochać moią śliczną źonę w Tryieście, iakem Panią uyźral; móy wzrok iest teraz w Wiedniu, bo cóż to dziwnego, mądry Salomon nieumiałby bydź inacy, ani Dawid, musieliby Pani prosić o miłość, a Dawid z harfą przed oblicem tak ślicnem przygrywaiąc, tańcowałby balet solo, po Królewsku w koronie.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Żebyś to WPan Panie Mośkowicz był kochankiem swoiey piękney żony, zamiast co iesteś iey mężem, to takie zwycięztwo pochlebiałoby moiey próżności, bo my kobiety nielubiemy zwycieztw łatwych, wydrzeć iedna drugiey Amanta, to u nas rozkosz, ale że iesteś Mężem... Męża zbałamucić to nayłatwiey, bo wszyscy nie wiele warci, i rzadko który iest stały; niemam sobie to za rzecz wielką; to iest dla mnie za mały dowód.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Mali dowód. A kiedy ia dla Pani na dzisieyszey Lycytacyi Brylanty, Kleynoty i Dobra kupię, co? mali dowód, mali dowód milości?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(n. s.)</stage> Jakto są niegodziwi ci mężowie cywilizowani. <stage>(gł:)</stage> A taki dowód, to iest z tych, na iakie się szlachetnie myślący męszczyzni, a osobliwie czuli Amanci Bankierowie zdobywać umieią.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Niech Pani doda cywilizowanego i non Amante.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Cywilizowani Amanci Oy mężowie! oy mężowie cywilizowani! to wspaniałe „bon mot”.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Pani to nazywa be me; ia goreię, goreię z miłości, pali się w sercu moiem ogień, a w żyłech słodka krew plinie, a Pani się smieie; niech Pani polozi rękę iak biie: puk, pik, puk, to nie be me, ale rzecz i nie śmiechy.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Posłuchayże WPan iedney Aryjki, lubisz muzykę i tańce, poydź tańcuy.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Wolę i lubię Polonese, niźeli śmiechy i indyferencye.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Tylko się niegnieway, bo to nie do WPana; a z resztą możesz się i gniewać. <stage>(śpiewa)</stage><lb />
+            <stage>(arya)</stage> O męszczyzni kto was kocha!<lb />Kto was kocha,<lb />Mały rozum ma w głowie;<lb />U was miłość zawsze płocha,<lb />Zawsze płocha,<lb />Nigdy w sercu lecz w mowie.<lb />Smiać się z słabości niewinney;<lb />Umiezgać się wraz do inney,<lb />Nie kochać, a chcieć kochania,<lb />Próżne czynić zapewnienia:<lb />Nakoniec zwiodłszy dziewczynę,<lb />Składać na nią całą winę.<lb />O kobiety! co kochacie,<lb />Ze mnie przykład tey prawdy macie.<lb />Uciekaycie od mezkiey miłości,<lb />Od mezkiey miłości,<lb />Bo ich serca bez czułości. <stage>(bis)</stage></p>
+          </sp>
+          <stage>(W czasie śpiewania Mośkowicz zachwycony słuchaiąc, cmuka i wydaie iesta naywiekszey radości)</stage>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#intrygalska">INTRYGALSKA.</rs>
+              <rs key="#mośkowicz">MOŚKOWICZ.</rs> (i)
+              <rs key="#administrator">ADMINISTRATOR.</rs>
+            </p>
+          </stage>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>My na Pana Dobrodzieia czekamy; na śniadaniu pełno ludzi, teraz niema nikogo do licytacyi. Pan Kómornik czeka. Dobra Panie teraz póydą; a zmiłuy się Pan, tylko prętko! takeśmy rzeczy nastroili w innem mieyscu, że Pan te Dobra za sto tysięcy kupić możesz, a może i taniey, a otaxowane milion.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Zaraz biegnę. Idź WPan. Pani! scęścia, scęścia! wsakże to dla Pani, i zaraz Protokól Licytacyi, że to na rzecz Pani kupione odeszlę. To bagatel u mnie.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Kiedy się WPanu tak podoba... <stage>(kłania się z przymileniem)</stage></p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Ale od Pani Dobrodzieyki za to Rendez vous przecie na znak miłości otrzymam.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>WPan wiesz, że moia miłość iest tak ucywilizowana, że w żadne Rendez vous się nie wdaię; ale dla tak grzecznego i przyiemnego kawalera, oboiętną i niewdzięczną bydźbym nie mogła. <stage>(Kłania się z przymileniem)</stage></p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p><stage>(odurzony)</stage> A propos. Adieu. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA X.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#intrygalska">INTRYGALSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(przeglądaiąc się)</stage> To prawda, że nam kobietom takim iak ia, które niedostałyśmy w dziedzictwie iak tylko piękność i dowcip za całą nadzieię przyszłego naszego losu, naytrudniey iest postępować na świecie, i tak n. p. bydź prostego sposobu myślenia i szczerą: to ci Panowie nudzą się nami prętko; udawać skromną, cnotliwą, i nawet bydź nią: uciekaią od nas; zostać łatwo uymuiącą wszystkich, czyli iak oni nazywaią Intrygantką: wszyscy z czasem oszukani opuszczaią i niedbaią. Oto naylepiey tak, iak mnie doświadczenia moiey przyiaciołki nauczyły: bydź razem niby cnotliwą, prostą i kokietką. Prostota i szczerość przyciąga męszczyzn, kokieterya ich głaszcze i bawi, a mniemana mądrość i cnota, utrzymuie. Cóż z tego memu sercu przyidzie? żem sobie złapała tego Kómornika, tego Administratora, tego Bankiera, kiedy ich nielubię. Ale cóż robić? Panna taka iak ia, będę wybierała? kiedy mi móy Oyciec pozwolić niechciał za tego, którego moie serce wybrało, którego mi iuż zapewne dotąd inne skonkietować, czyli raczey złudzić i przywabić do siebie musiały. Odbierać, i nie bydź kochanką żadnego męszczyzny, iest teraz moia rzecz, ale bydź rywalką wszystkich pięknych kobiet <stage>(słychać vivat! vivat!)</stage> Cóż to za hałas? iakieś huczne śniadanie <stage>(Pani! Pani! Dziedziczki nowey)</stage> <stage>(znowu)</stage> niech żyie! <stage>słychać muzykę Janczarską i vivat)</stage>!!</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA XI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#intrygalska">INTRYGALSKA.</rs> (i)
+              <rs key="#woźny">WOŹNY.</rs>
+            </p>
+          </stage>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>Ah! JWPani! JWPani Dziedziczka nasza! Pani tych Dóbr, wszyscy na Panią licytować będą. Imieniny Pani obchodzę, i dziś będzie serenada, wielką muzykę Reymontową sprowadził P. Bankier.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Cóż to iest? gdziesz Pan Hrabia i Pani Hrabina?</p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>Wszyscy na dziedzieńcu Kawalerowie, Półkownicy, Jenerałowie czekaią na Panią; oto niech Pani patrzy: <stage>(otwiera okno i wygląda)</stage> wyieżdzać maią na spacer. P. Mośkowicz na koniu iak Antoniusz Cezar. Pan Kómornik iak Pompejusz i P. Administrator iak Lepidus. Będzie pantomiczny Balet pod tytułem: Kleopatra we młynie. Będzie dzisiay w starym Zamku Faierwerk in gratiam Imienin Pani. Półkownik tego półku co tu stoi, daie obiad dla Pani w lesie, gdzie są wszyscy Officerowie zaproszeni. Ah! Pani! nim zaczną z moździerzy strzelać, nim się Pan Kómornik JWPani pokaże na koniu po rycersku, racz Pani przyiąć od sługi nayniższego Woźnego, ale te wyrazy, wyrazy... to iest wyrazy powinszowania Dziedzictwa i Imienin.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Póydźmy więc, resztę wyrazów WPan na podwórcu dokończysz. <stage>(chce odeyść)</stage></p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>Zaraz, oto iest iakiś Autentyk czyli zeznanie na piśmie Wgo Kómornika, że się żenić iuż niebędzie z iakąś Panną, i oto iest Szal Turecki, który Pani posyła, na wiązanie a który taxowany był 120 Dukatów.</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA XII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#intrygalska">INTRYGALSKA.</rs>
+              <rs key="#woźny">WOŹNY.</rs> (i)
+              <rs key="#lokay">LOKAY.</rs>
+            </p>
+          </stage>
+          <sp who="#lokay">
+            <speaker>LOKAY.</speaker>
+            <p>Już godzinę na Panią czekaią 20tu Kawalerów na koniach; Pani Hrabina Panią prosi, i koń iest dla Pani gotowy.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Zaraz. A on co dał za niego?</p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>On dał tylko 12 Dukatów, bo niebyło Licytantów. Oto iest Toaleta Srebrna, którą Pan Administrator poseła Pani w prezencie z prośbą, ieżeli Pani te Dobra kupi, żeby się został u Pani za plenipotenta domowego.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Dobrze, dobrze. A ta co kosztuie? ile pamiętam otaxowana była podobno coś 5000 Złpol.</p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>O nie Pani! bo Jubiler wiedział że ią ma kupić Pan Administrator, więc ią nie taxowano tylko coś 400 Złpol: a zatem dał za nią infra pretium coś 20 Dukatów.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>A Licytacya Dóbr kiedy nastąpi?</p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>Jak się Licytanci porozieżdzaią, i to w Sądzie przed Zastępcą Sędziego; mamy swoich Licytantów i iuż wiemy, że na Panią licytować ma Adwokat, chociaż imię potem zadeklaruie. Ja żegnam JW. Panią Dobrodzieykę, bo na mnie czas.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Poydźmy... Proszę, iedź WPan nakoniu z nami, każę WPanu dać konia Masztalerskiego Pana Hrabiego, i ubierz się iak Lepidus. <stage>(odchodzą)</stage></p>
+          </sp>
+          <trailer>(KONIEC AKTU PIERWSZEGO)</trailer>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT II.</head>
+        <div type="scene" n="13">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#hrabia">HRABIA.</rs>
+              <rs key="#intrygalska">INTRYGALSKA.</rs> (znowu w inney sukni)
+            </p>
+          </stage>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Wiesz Panie Hrabio! że mi kupuie dziś na Licytacyi ieden bogaty Bankier Dobra, kleynoty i Toaletę Damską na wiązanie.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>A cóżby Panna Emilia niedokazała swemi pięknemi oczyma, swoim dowcipem! to test na świecie moneta, którą Bogowie przebiiali mury, za cóżby nią Dóbr kupić nie mieli na wiązanie. Gdybym niewiedział, że ten Bankier iest tak bogaty, tobym wątpił.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>A cóż to Pan Hrabia rozumiesz, że ia żądałam, lub moich pieniędzy dałam? bynaymniey, będą kupione dla mnie przez przyiaźń iednego bardzo bogatego Adoratora i do tego wcale nie Amanta, którego traktuię iak naygorzey, bo ia nikogo nie kocham, tylko tego co Pan Hrabia wie, to iest Porucznika Adolfa.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Ja powiadam, że z Panny Emilii iest niebespieczna kokietka, nieuymuiąc bynaymniey iey cnocie Panieńskiey.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Cóż to iest bydź tylko kokietką? to iest mała obrona przeciwko waszym podstępom moi Panowie! kokietka kończy tylko na chęci podobania się i sobie samey i wszystkim, bynaymniey się nietroszcząc o stałość swoich Adoratorów, tylko o ich iak największą liczbę i chlubę, że ich podbiła, a ia na tem nieprzestaię; uymuiąc wszystkich serca, całą moią rozkosz zasadzam na dręczeniu i martwieniu tych naybardziey, od których mam szczęście bydź kochaną. Biedny ten nieboraczek, który się w sidła moie dostanie, prawda, że z początku iestem dla niego milutką, uymuiącą, słodką, ale iak tylko spostrzegę, że który z moich Zalotników iest upoiony szczęśliwym urokiem wdzięków moich, i zaczyna wierzyć lub przywidywać sobie, że moie serce pozyskał, natychmiast się od niego odwracam i pewnym rodzaiem dumy i zadziwieniem widzę, że on uznał tę moią zimną oboiętność.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Jabym zaraz porzucił taką okrutnicę.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Oy co nie, to nie; pisałbyś tak iak oni robią po kilku dniach rozpaczy i udręczeniach, list pełen proźb i żalu: że niewiem zkąd pochodzi taka niełaska, że iesteś zawsze gotów na moie usługi, że tylko byłam iedynem celem na świecie twoiey rozkoszy i słodyczy życia, że iesteś zdesperowany, utracaiąc taki skarb szczęścia swoiego. Nieodebrawszy żadney odpowiedzi na ten list, sam znękany zgryzotą więzów swoich, którebyś chciał i niechciał potargać, przyszedłbyś do nóg mi upaść, abym ci się wytłómaczyć raczyła z okrucieństwa, a ja zrobiłabym taką minę, iak gdyby nic między nami nie zaszło; przyjmuię cię naygrzeczniey, pytam się dlaczegoś mnie tak zaniedbał, i dopiero zaczynam nad tobą panować, a ty wtenczas zostałbyś moim naynędznieyszym niewolnikiem – co nie? nie takby było Hrabio?</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p><stage>(n. s.)</stage> Całą historyą moich przeszłych miłostek, iakie z nią miałem opowiedziała. <stage>(gło:)</stage> Przyznać muszę śliczna Emilio, że ja, który strawiłem część życia prawie mego na Dworze intryg i w towarzystwie nayczulszych dudków miłości, nad któremi ty teraz panuiesz, i którym sam nieraz byłem; przyznać się muszę, że tę sztukę zupełnie przeięłaś, tak, że mogłabyś dawać lekcye chytrości kobiecey, ale to niewinney, niewinney.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Moi Panowie! aby was stałemi porobić w miłości, niemasz inney sztuki rozumiem; bo te tylko kobiety od was nie bywaią zdradzone, które tę sztukę znaią i posiadaią, i które tey broni na ocalenie cnoty używać zwykły.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Piękna broń i piękna sztuka.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Zapewne – tylko to iest nieszczęście, że my kobiety do tey broni bierzemy się wtenczas dopiero, kiedy od was zdradzonemi lub oszukanemi iesteśmy, i to tylko przez zemstę, iako iedyny środek; iest to nasza broń, ale nie nasz charakter.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Cóż to za frant z tey dziewczyny? iak mnie przekonała.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Przyznać Pan Hrabia musisz, że ia więcey okazuię charakteru w stałości dla mego kochanka, o którego miłości nieiestem tyle przekonaną, ile Pan o miłości dla siebie Pani Hrabiny swoiey żony, którą przecie chciałeś zdradzać, bo gdyby nie moia broń i nie moie przywiązanie do Hrabiny... to... ale niech to będzie sekretem, ia Pana niewydam.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Emilia wie, że ia także umiem sekretu dotrzymać. Przypominam sobie właśnie, iak ieden młody malarz w Atenach wymalował Harpokrata Bożka, iak wiesz milczenia i sekretu, składaiącego w ofierze Bożkowi miłości różę; ta alegorya tak się podobała kobietom Ateńskim, że każda z pięknych kobiet nieobawiała się uwieńczyć za to swemi faworami tego malarza.</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#hrabia">HRABIA.</rs>
+              <rs key="#intrygalska">INTRYGALSKA.</rs>
+              <rs key="#mośkowicz">MOŚKOWICZ.</rs>
+              <rs key="#administrator">ADMINISTRATOR.</rs>
+              <rs key="#zawiło">ZAWIŁO.</rs>
+            </p>
+          </stage>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Fanfaronada! fanfaronada! co, gdzie u diabła Porucznik miałby Dobra kupować? fanfaronada, fanfaronada, a on fanfaron.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Już tedy wszystko ukończone, będzie łatwo Dobra sprzedać.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Tu przyiechał słyszę iakiś Porucznik Adolf od Kawaleryi, i powiadaia, że on te dobra chciał kupić, tylko że termin sprzedarzy miał przypadać iutrzeyszego dnia, w gazecie tak był wydrukowany, a Dobra dzisiay sprzedane.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>To był error, error druku. Fanfaronada! Porucznik miałby Dobra kupić.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Tylko że te errory często się trafiaią, a ia za nie naywięcey pokutuię; kto wie czy fanfaronada!</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(n. s.)</stage> Porucznik Adolf! czy bydź może: <stage>(gł:)</stage> Żegnam Panów, muszę biegnąć do Pani Hrabiny, i donieść iey o tem. <stage>(n. s.)</stage> Cały rok go niewidziałam, czy się też nieodmienił dla mnie, muszę się sama o wszystkim przekonać; prawda, że to iutro moie imieniny, ale ia mu tu bydź zakazała; dla tego, że tu moi Rodzice będą, pisałam do niego.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Ale niech Dziedziczka nowa tych Dóbr podług tego protokółu Licytacyi do ułożenia i uznania praw swoich powraca.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Ten dobroczyńca i przyiaciel, któremu się te podobały kupić dla mnie, powinien we wszystkiem zastąpić moią Osobę, a móy przyszły Mąż, ieżeli go mieć będę, za to mu podziękuię, a może i zapłaci. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#hrabia">HRABIA.</rs>
+              <rs key="#administrator">ADMINISTRATOR.</rs> (i)
+              <rs key="#mośkowicz">MOŚKOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Proszę Pana Administratora podać mi Rejestr długu, który mam płacić za wexle Panu Bankierowi, które na moie conto i na conto ś. p. Stryia mego popłacił.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Oto iest, co się należy od massy kredytorom, a to co się należy W. Bankierowi.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>To nie wielka summa 10,000 Dukatów, to bagatela.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Ale przecie chciałbym wiedzieć.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Czytay Wać.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Na zapłacenie wexlu przez Bankiera Medyolańskiego, za wypłaconą Machinę Parową z Aparatem do Browaru Pisttoriusza, to iest z Meiszwerwerem, Refrygatorem, Deflamatorem Złp - 36,000.<lb />
+            Za sprowadzenie iey - 2,000.<lb />
+            Za sprowadzenie Piwowara z Anglii – 4,000.<lb />
+            Temuż pensyi rocznie – 6,000.<lb />
+            Od przerobienia Browaru stósownie Maszyn Architektowi umyślnie z Berlina sprowadzonemu – 12,000.<lb />
+            Expensy ogółem Złp: 60,000.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Co ten Browar czyni teraz, kiedy 60,000 Złp: wyexpensowano na niego?</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Teraz ten nowy nieczyni ani grosza, i iuż od dwóch lat stoi, bo machina pękła przez niezręczność ludzi naszych, i sklepienie rozwaliła, ludzi dwóch zabiła; niema żadnego maystra, coby ią naprawił; ale szkoda Panie Dobrodzieiu, ponieważ Spirytus szedł tak grubo, iak moia ręka i Wódka nieśmierdziała garcem; ale naywiększa szkoda, żeśmy stary Browar zburzyli co 1000 Talarów czynił dochodu, i palarza starego wypędził nowy, i...</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Daley.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Za Machinę do młocki zapłacono Złp: 24,000. postawiona iest na drugim folwarku, miała 80 kóp młócić na dzień, a że na tym folwarku iest tylko woda do obracania koła tey machiny, a niema co młócić, a na drugim iest co młócić, a wody coby koło obracać miała, niema, więc musiemy wozić snopki milę, i naymować robociznę ciągłą do wożenia, co na iedno wychodzi, iak dawniey, kiedyśmy naymowali do młocki, i słomy na poszywkę niekupowali, którą muszemy kupować, bo ta machina ią psuie. Za machinę do Lnu Złp: 20,000. z Amszterdamu.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>A czy się udaie Len w tych Dobrach?</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Nigdy, ale my chcemy przymusić machinami ziemię przez Industryą, aby to wydawała co niemoże.<lb />
+            Za Szwaycarskich krów 12 a Du: 50 Duk: 600.<lb />
+            Sprowadzenia expensy – 200.<lb />
+            To czyni 800 Dukatów czyli 14,400 Złp.<lb />
+            Za Merynosów Baranów 10 z Hiszpanii sprowadzonych po 100 Duk: ieden, czyni 1000 Duk.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Te muszą dużo pożytku przynosić?</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Zapewne JW. Panie byłyby przyniosły, gdyby były nie pozdychały, ale na nieszczęście pasza im się w naszey wsi nieudała, bo niska, a te zwierzęta z wysokich gór; kupować karmy niebyło funduszu. Do tego przyięty do nich Szwaycar i Owcarz Hiszpan nie mieli co ieść, to zarzynali po iednemu, potem uciekli. Na ten rok kazał Pan zasiać wszystkie pola Grinfutrami, to iest: trawami, a zboża nie, ani Siana; niewiem zkąd ordynaryą brać będziemy. Za sprowadzenie nasienia Pszenicy z półwyspu Kalifornskiego, z Wyspy Sgo Łukasza, Cetnar 1 1/2 Dukata, zapłacono do Handlu P. Roberta w Madrycie 400 Dukatów.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>A ta czy się udała?</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Gazeta Beobachter pisze, że ma 200 ziarn wydawać i zaraz przyłącza Receptę do robienia ziemi zdatney do rozrostu nasion posianych, i sposób pflancowania Ziemniaków, Żyta, i Jęczmienia. Jak w faierkach to wydaią po 200 ziarn, ale to i nasza Pszenica w faierkach wydaie tyle, niewiem czy tak w polu? Za roczne planty z Wyspy Kuba z Haiti do Oranżeryi 200 Dukatów czyli Złp: 3600.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Czy tu Botaniczny Ogród zakładacie?</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Nie Panie Dobrodzieiu, wycieniśmy Sady rodzayne, a na mieyscu ich Angielskie Ogrody potrzebuią różnych plant na lato do klumbów. Prawda Panie Dobrodzieiu, że to nowe nagle zaprowadzone Gospodarstwo, przy dzisieyszych podatkach i taniości, niemogło odpowiedzieć, ale zróynowalo ś.p. Pana tych Dóbr.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Na cóż to było robić?</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Któż to mógł Panu wyperswadować, to go też to wpędziło w dług, a niemożność wypłaty i natręctwo kredytorów w śmierć.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Otóż to są skutki nie stósownego do kraiu gospodarstwa.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Ogółem tedy dług na tych Dobrach zahipotekowany: 1° loco należący się W. Mośkowiczowi, wynosi 180,000 Złp: z zatrzymanemi prowizyami, właśnie tyle, za ile te Dobra kupione były na dzisieyszey Licytacyi. Późnieysi zaś kredytorowie, nawet i JW. Pan Dobrodziey, co miałeś bydź kredytorem kilku set Dukatów, spadli, to iest: nieutrzymali się. Ale, że za ruchomości zebrano coś 30,000 Złp:, do tego ieszcze będą machiny licytowane, więc JW. Pan Dobrodziey, wraz z dwudziestu kredytorami, do proporcyonalnego podzielenia, macie niezawodne prawo.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Otóż to iest w teraźnieyszym wieku i czasie sukcessye odbierać! odsyłaią do proporcyonalnego podzielenia. Adieu! więcey niemam co z Panami robić; żegnam ich i proszę na ostatni bal w tym pałacu w imieniny nowey Dziedziczki, który moia żona daie. <stage>(odchodzą prócz Hrabiego)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#hrabia">HRABIA.</rs> (i)
+              <rs key="#hrabina">HRABINA.</rs>
+            </p>
+          </stage>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Coś widzę iesteś w złym humorze mężu?</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>A któżby tu u diabła niebył!</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Czy wolno się spytać co za przyczyna?</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Piękna Sukcessya po moim Stryiu: machiny parowe, wodne, krowy Tyrolskie, barany Hiszpańskie ią zabrały. Cóż powiesz, że na to modne gospodarstwo zaciągnął móy Stryj u Bankiera przeszło 10,000 Dukatów. Ja niemiałem pieniędzy wykupić Dobra, które przeszło milion otaxowane, za 180,000 Złp: sprzedane zostały.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Proszę ciebie, kiedym słyszała, że Bankier pokochawszy się w Emilce, te Dobra iey kupił.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>W samey rzeczy, i to mnie wstrzymuie, że nieczynię Rekursu od tey Licytacyi; nieskończona iest liczba głupców iak pismo mówi: Infinitus est numerus stultorum, bronić mu tego niemogłem i niemiałem prawa.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Ale, wiesz o tem, że tu jey dawny Kochanek, który się przed rokiem o nią starał, przyiechał w sekrecie.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Wiem. Cały teraz iestem zaięty, aby doświadczyć co on myśli, czy ią ieszcze nie porzucił; moia myśl iest, ieżeli się to zdawać będzie, aby się Emilia przebrała po męsku i szpiegowała go podobnie iak ty serce moie! kazałaś mnie – pamiętasz?</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Cóż ci to szkodzić mogło? gdybym cię nie kochała, to...</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Nie – owszem przekonało Panią, żem ci był wierny, i że cię zawsze kocham.</p>
+          </sp>
+          <stage>(HRABINA. robi uśmiech drwiący)</stage>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#hrabia">HRABIA.</rs>
+              <rs key="#hrabina">HRABINA.</rs>
+              <rs key="#adolf">PORUCZNIK.</rs> (i)
+              <rs key="#lokay">LOKAY.</rs>
+            </p>
+          </stage>
+          <sp who="#lokay">
+            <speaker>LOKAY.</speaker>
+            <p>Porucznik od Kawaleryi chce JWW. Państwu oddać wizytę, czy Państwo przyjmuią?</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Prosić go.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p><stage>(kłania się i oddaie list)</stage> Państwo darować mi raczą, ieżeli im przeszkadzam, ale interes listu iuż im dawniey znany, i miłość moia dla Panny Emilii, będą mnie przed niemi tłomaczyć; list ten iest od wielkiego ich przyiaciela, inaczey nieśmiałbym trudnić.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Ja stałość w miłości zawsze uwielbiam.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p><stage>(czyta)</stage> „Oddawca tego biletu iest móy Kuzyn, iest razem ieden z Officerów naylepszey konduity, dystyngwowany kawaler, naypięknieyszego wychowania, ale zakochany. Twoiey Hrabio przyiaźni i twemu rozumowi, a razem i dowcipu kobiecego i tey czułości serca, które są charakterem Hrabiny twoiey żony, iest zostawione, abyś mu dopomógł i pozyskał łaskę dla niego u Państwa Skąpickich iey Rodziców, którzy mu córki odmówili, a którey on serce od lat dwóch posiada, tak dalece, żeby ią iuż mógł był uwieść, gdyby honor kochanki swoiey nie przekładał nad życie. Dowiedział się, że jey Rodzice maią bydź dzisiay na licytacyi, która ma bydź w Dobrach Stryia twego, i że Panna będzie także z Państwem, którey Rodzice zabraniaią go widzieć, i jemu w domu swoim zakazali bywać; cała rzecz, że sobie ułożyli wydać ją za Kómornika Zawiło, a którego ona niecierpi”. Tout à vous Xiążę Henryk.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>To iest naypięknieyszy dowód, że WPan kochasz prawdziwie Pannę Emilią, kiedy jey honor tak cię mocno interessuie: ale ja też zaręczyć mogę o jey dla WPana wzaiemności; ma ona tu dosyć konkurentów, ale z wszystkiemi się tylko bawi i żartuie. Naychętniey wszystko będziemy robili, abyśmy dowiedli, iak umiemy cenić wdanie się tak zacnego Protektora, iakiego w Xięciu znalazłeś.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Ale ja tu nie widzę potrzebney WPana przytomności, ieżeli tu Emilii Rodzice dzisiay bydź maią.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Ja też natychmiast wyieżdzam, bo gdyby mnie tu zobaczył Pan Skąpicki, albo Kómornik móy rywal, tak natychmiast zamknęliby w klasztorze Pannę Emilią. Ja tu tyłami do Państwa wszedłem, zostawiwszy moie konie i człowieka w lesie w ruderach starego Zamku, bo przyznam się Pani Hrabinie, niewidząc rok moiey kochaney Emilii, chciałbym się z nią iak nayprędzey widzieć, i przekonać się o iey dla mnie stałości, bo tak ją kocham, że dla niey życie moie gotów iestem poświęcić. Jutro jey urodziny!</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>I iakże WPan tego dokażesz?</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Dalibóg niewiem. Ja z góry z tego Zamku patrzałem na nią przez perspektywę, gdy od niey list odebrałem przez kobietę, która mi go w poziomkach ukryty przyniosła; miałem tu na licytacyi bydź po kominiarsku, gdyby nie ten list z rekomendacyą. Spodziewam się, że tam iutro będziecie Państwo na obiedzie, który Pan Pułkownik móy brat, daie; ja moiey kwatery w tym Zamku ustąpiłem dla gości.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Rozumiem. Spuść się WPan na mnie i na nią, a zaręczam WPana, że mu wszystko ułatwiemy; będziesz ją tu widział publicznie przy iey Rodzicach, przy swoich rywalach, i ani listu w poziomkach, ani stroiu kominiarskiego nie będziesz potrzebował, tylko mnie słuchay.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Hrabino Dobrodzieyko zgubiłabyś mnie! to iest wyraźnie przeciwko rozkazowi moiey kochaney Emilii; jabym się miał w czem sprzeciwiać, jey się narażać: wołałbym na batteryi bydź od nieprzyjaciela rozsiekanym. Upadam do nóżek Pani i uciekam.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Jeżeli tak? kiedy mnie WPan niewierzysz, to mi daruiesz, że się w to wdawać niebędę. Mężu! odpisz Xięciu, że bez ufności w nas Pana Porucznika, niemogliśmy jego żądaniom zadosyć uczynić.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Ah! Hrabino Dobrodzieyko zgubisz mnie! cóż ja nieszczęśliwy mam czynić? wystawiać moią Emilią na gniew i zapalczywość Rodziców, kiedy oni sobie tego nie życzą i mnie niecierpią; nużby też ona płakała na mnie?</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Jeszcze WPan nieiesteś wydoskonalony w sztuce kochania, ale na męża iedyny. <stage>(Słychać tentent, trzaskanie bicza)</stage></p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p><stage>(patrząc przez okno)</stage> Widzisz Pani Dobrodzieyka? oto iadą Państwo Skąpiccy – zginąłem! otóż, wszakże przepowiedziałem. Co ia za nieszczęśliwy! gdzie się ukryię?</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Niebóy się WPan.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Ale daruy mi kochana żono! na cóż narażać Porucznika na niegrzeczność Pana Skąpickiego; czy nieznasz iaki Szlachcic zawzięty? gotów córkę i żonę nietylko wybersztać, ale może...</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Tylko mi pozwólcie. Oto idź WPan do garderoby, masz moie suknie, iesteś młody, piękny, każdy cię weźmie za damę, która sobie po prostu na licytacyą przyiechała, tak iak nas wszystkich; tym sposobem nabawisz i nagadasz się do woli z swoią kochaną Emilią, ale ani jey, ani nikomu o tem niepowiaday.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Ah! przedziwnie. Już teraz widzę, że Pani więcey ma rozumu iak móy Jenerał, i przyznam się, żebym sobie miał za honor bydź pod iey kommendą.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Niechciey WPan w tem krzywdzić Panny Emilii; bądź pewny, że i ona WPanem potrafi komenderować. Jak się ubierzesz, przyjdź tu i czekay aż po ciebie przyszlę, a tak na sali będziemy ieść obiad zarazem z Panną Emilią, z twemi rywalami, i jey rodzicami; ia cię będę prezentował za Guwernantkę, która z Warszawy powraca, a tak będziesz się wyśmienicie razem z nami i z Panną Emilią bawić, a potem łatwiey się dokończy reszta interessów. Uciekay do mego gabinetu! bo ktoś nadchodzi; ale mi teraz o tem Emilii niepowiesz?</p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#hrabia">HRABIA.</rs>
+              <rs key="#hrabina">HRABINA.</rs>
+            </p>
+          </stage>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Wiesz co kochana żono? ia namówił Pannę Intrygalską, iakem ci powiedział, żeby się przebrała po męsku, dla nowey konkiety i wypróbowania niewinności nowo przybyłey z Warszawy Guwernantki.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Wyśmienicie. Przed Skąpickiemi powiemy, żeśmy im Emilią schowali, dla tego, że tu miał bydź na licytacyi iey kochanek Porucznik.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Ty ią przyszley po przebranego za Guwernantkę Adolfa, ale iey nic o tem nie powiaday, że to on – ani iemu, że to Emilia; ona co lubi zwodzić wrzekomych kochanków, niech też raz zwiedzioną będzie od prawdziwego.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Wybornie – tylko się spiesz. Powiedz iey, że to iest od moiey przyiaciołki z Warszawy przysłana Guwernantka Panna Skromnicka. Idę czem prędzey to ułożyć.</p>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#hrabina">HRABINA.</rs>
+              <rs key="#woźny">WOŹNY.</rs>
+            </p>
+          </stage>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>Cała <stage>(krzycząc)</stage> licytacya czeka na JWW. Państwo! Kómornik mnie tu przysłał daiąc znać i zapytać się: czyli JWW. Państwo nie życzą sobie kupić machin do młócenia, wiania, siania; iest ich wiele, ale popsute, zato niedrogo taxowane; tudzież nowomodnego garca, w którym iest 50 klapek i 28 kurków. Jałownika Tureckiego. Astrachańskich kóz. Tybetańskich baranów, elektów merynosów. Leycesterskich owiec szlacheckiey krwi.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Zaraz idziemy, wszakże srebra i kleynoty miały bydź dzisiay dopiero licytowane?</p>
+          </sp>
+          <sp who="#woźny">
+            <speaker>WOŹNY.</speaker>
+            <p>Srebra, kleynoty, Dobra, dawno zalicytowano! żydy, Bankier, Pan Kómornik i Administrator, wszystko zakupili; wszak tam takie same intrygi, iak i wszędzie na świecie. Panna Intrygalska rządzi niemal prawie całą licytacyą! Widziałem, iak się sam na sam z Kómornikiem i z Administratorem rozmawiali rano, a wieczór Pan Bankier prosił jey się o iakieś Rendez vous, ale ona mu go nieobiecała. Widziałem, co Pan Administrator nakupowal dla Panny Intrygalskiey; widziałem, iak poodmieniały żydy naypięknieysze filiżanki, owce, bydło; stangretowi Pańskiemu ukradli płaszcz, masztalerzowi Państwa wybił kuchta oko, za to, że 12 groszy dał więcey za nóż. A Pan Skąpicki iakiego hałasu narobił z Kómornikiem, że kto inny Dobra kupił, że termin licytacyi był zfałszowany. Pani Skąpicka powstała na Kómornika, że niedopilnował kupna serwet i obrósów, bo wszystkie dziurawe, nie Hollenderskie, ale Andrychowskie. Panny służące z Officerami...</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Ale proszę, dosyć iuż tego! bo mnie uszy bolą słuchać; ja wychodzę. Idź WPan! <stage>(Woźny odchodzi)</stage> Cóż to za krzykała. <stage>(Idzie do Gabinetu obok)</stage> Tu będę widziała i pilnowała sceny Emilii i Adolfa.</p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#adolf">ADOLF.</rs>
+            </p>
+          </stage>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p><stage>(przebrany sam wychodzi z Garderoby)</stage> Ah! przedziwnie, niemożna lepiey, ieżeli Achiles dla pozyskania Deidamii serca i ręki, mógł na dworze Króla Likomeda po damsku ubrany służyć, za cóż i ia dla moiey kochaney Emilii, niemam się znaydować na dworze iey Oyca w tym stroiu? ręczę, że Deidamia niebyła ani pięknieyszą, ani lepszą Królewną, i więcey rozumu niemiała, taka chytrość niewinna iest do wybaczenia – są to Stratagemy tak w miłości, iak w woynie. <stage>(przeziera się w Zwierciedle)</stage> <stage>(słychać trąbienie)</stage> Co to za apel? tam do diabła! to może Xiąże przyiechał, nasz pułk widzieć. <stage>(wyziera oknem)</stage> To zwołuią na licytacyą; teraz zaczekam, aż po mnie przyszle Hrabina, a tem czasem zaśpiewam sobie Aryą, którą umyślnie dla Emilii zrobiłem. <stage>(Śpiewa przy Gitarze)</stage>
+            <stage>(arya)</stage> Póydź do mnie śliczna Emilko,<lb />
+            Póydź a ucałuię ciebie,<lb />
+            Zbyt się skromną nierób tylko,<lb />
+            Mamy niewołay do siebie.<lb />
+            Ah! ty nieumiesz tey sztuki,<lb />
+            Którą ci miłość gotuie,<lb />
+            Jaką słodycz z iey nauki,<lb />
+            Dzisiay twe serce uczuie.<lb />
+            Więc póydź śliczna Emilko,<lb />
+            Póydź a ucałuię ciebie,<lb />
+            Zbyt się skromną nierób tylko,<lb />
+            Mamy niewołay do siebie.<lb />
+            Słuchay iak na tey drzewinie,<lb />
+            Moia ty Emilko grzeczna:<lb />
+            Słowik w rozkochaney minie,<lb />
+            Śpiewa tey co mu stateczna.<lb />
+            Jak iey swym głosem dowodzi,<lb />
+            Że ią kocha i niezwodzi;<lb />
+            Jak szczęśliwie z sobą żyią,<lb />
+            W rozkwitłych drzewach się kryią.<lb />
+            Więc póydź śliczna Emilko,<lb />
+            Póydź a ucałuię ciebie,<lb />
+            Zbyt się skromną nierób tylko,<lb />
+            Mamy niewołay do siebie.<lb />
+            Wiesz ty czemu ciebie łaie,<lb />
+            Twoia zbyt okrutna Mama:<lb />
+            Bo iey się koniecznie zdaie,<lb />
+            Że mnie kochać może sama.<lb />
+            Pełna z tego iest zazdrości,<lb />
+            Żem tobie wierny w miłości;<lb />
+            Mnie kochać ciebie odradza,<lb />
+            I w miłości nam przeszkadza.<lb />
+            Więc póydź śliczna Emilko,<lb />
+            Póydź a ucałuię ciebie,<lb />
+            Zbyt się skromną nierób tylko,<lb />
+            Mamy niewołay do siebie.<lb />
+            Dobrze muzyka idzie, spodziewam się, że iey zrobię ukontentowanie, żem o niey myślał.</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#intrygalska">INTRYGALSKA.</rs>
+              <rs key="#adolf">ADOLF.</rs>
+            </p>
+          </stage>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(w końcu tego śpiewania przebrana Emilia po męsku wchodzi niewidziana od Adolfa i słucha)</stage> Doprawdy pięknie śpiewa; a to piękna rzecz – gdyby mnie we mnie niepoznała. Sprobóymy tey cnoty – cicho.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Jakiś młody chłopiec: to zabawna rzecz, że on mnie za Guwernantkę bierze.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Państwo Hrabstwo proszą Pani do siebie na salą.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p><stage>(n. s.)</stage> Muszę ia udawać skromną Panią?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Nim póydziemy, to możemy ieszcze z sobą pogadać, gdyż obiad tak prędko nie będzie.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Całym sercem piękny Kawalerze.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(siada przy Adolfie)</stage> Moia Pani! powiedz mi, czyli to prwda, że tu myślisz zostać za Guwernantkę w naszem domu?</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Ja szukam służby u iedney tu Pani do iey córki; teraz bawię przy Hrabinie na respekcie tym czasem.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(przysuwa się i chce całować iey rękę)</stage> Śliczna rączka! wiesz Pani co? że nasz Pan Hrabia i ia, będziemy obydwa kontenci, mieć tu w domu naszym taką ładną Guwernantkę.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Nie każda Pani, i nie każda żona, byłaby zemnie kontenta.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Ale każdy mąż z tak piękney i grzeczney Guwernantki przy swoiey żonie i dzieciach, byłby kontent; ja byłbym bardzo.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Co o tem bardzo wątpię. <stage>(n. s.)</stage> Nienaylepiey by się wykierował.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>Dla czego? day się namówić móy śliczny buziaczku! jakże, niedasz mi się pocałować? i iakże mnie zostawisz?</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p><stage>(N. s.)</stage> Dalibóg niewytrzymam! to ona. <stage>(gł:)</stage> Oto dla tego, że się kocham, a kto kocha, to o niczyie niedba pocałowania – my kobiety tak robiemy.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p>To prawda, ale my męszczyzni inaczey: u nas serce dla jedney, ale oczy, buzia, zacóż niemoże służyć dla innych? <stage>(n. s.)</stage> To on.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>To się wtenczas tak gada, kiedy niekochamy, albo iuż przestałyśmy. Ale, kiedy chcesz tego móy miły chłopcze, tak ja cię tu wyściskam i wycałuię: bo my kobiety <stage>(zabiera się nieżartem)</stage> kiedy poznamy...</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>INTRYGALSKA.</speaker>
+            <p><stage>(krzycząc)</stage> Pani Hrabino! Pani Hrabino! zdradzona iestem! to on – ten niegodziwiec, niewiedząc że iestem Emilią, poznawszy tylko płeć moią, chciał mi niewierność popełnić. <stage>(płacze)</stage> <stage>(n. s.)</stage> Ja to przewidywałam. Otóż tak męszczyzni umieią! dopiero pierwszy raz uczułam co to iest zazdrość. <stage>(ieszcze płacze)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <head>SCENA X.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#intrygalska">EMILIA.</rs>
+              <rs key="#adolf">ADOLF.</rs> (i)
+              <rs key="#hrabina">HRABINA.</rs> (wchodzi)
+            </p>
+          </stage>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Ja byłam pewną, że się ta scena inaczey nieskończy, i dla tego was pilnowałam; my wiemy, że naymnieysza familiarność z męszczyznami, robi ich śmiałemi, często niegrzecznemi; dla tego te Damy co o tem nie wiedzą, staią się ofiarą swoiey nierostropności, ale tu nie twoia wina: to nasz żart, móy i mego Męża. Emilio! wstydź się bydź tak słabą. Ty, co tylu za nos wodziłaś, zamiast pokazać ton i odwrócić się, ty płaczesz, ty się rumienisz.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p><stage>(klęczy)</stage> Daruy Pani! ia żartować tylko chciałem, poznawszy Emilią w tym ubiorze.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>EMILIA.</speaker>
+            <p>Piękne żarty, a gdyby tu która inna była na moiem mieyscu i dała się WPanu pocałować? To Pani Hrabina temu winna.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Czy Pani sądzisz, że ia mógłbym iey bydź niewiernym? ia, co dwa lata stałości moiey dałem iawne dowody, który cię kocham nad życie moie, i teraz, gdy znaczna, bo przeszło milion w kapitałach spadła na mnie po Stryiu sukcessya, przyiechałem do Hrabiny z proźbą, że przeszkoda, która mogła bydź dotąd, że Oyciec Pani niechciał pozwolić na nasze złączenie, może bydź teraz ułatwioną. Mogęż podpaść iakiey wątpliwości w jey sercu?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>EMILIA.</speaker>
+            <p>I ia też także Dobra co dla mnie kupiono na wiązanie, chciałam WPanu ofiarować, dla tey przyczyny, ale tu nie oto idzie, tu idzie, żeś WPan chiał...</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Więc uspokóy się Emilio! i żartów niebierz za prawdę. Inna rzecz umieć bydź okrutną dla Adoratorów, których się nielubi, ale iak dla kochanka, wkrótce się dasz ukoić; ia zaręczam za nią, nic się WPan nieturbuy, ona się tu zaraz uspokoi. My tylko w tenczas iesteśmy okrutne, kiedy niekochamy, lub kiedy się boimy zdrady i sideł...</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>EMILIA.</speaker>
+            <p>Bo inna rzecz iest kochanek prawdziwy, a inna wrzekomy; my kobiety nieumiemy bydź okrutnemi tylko w tenczas, kiedy łudzonemi iesteśmy, albo chcemy same łudzić, ale prawdziwą miłość zawsze zgadywać umiemy i iey lubiemy podlegać, ia się póydę przebrać, bo niecierpię tego stroiu. Pani Hrabina mnie to namówiła, a ia prosiłam.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Ale kiedy ci w nim bardzo ładnie Emilio!</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Prawda, i ia niewiem iak w tym stroiu Damskim wytrzymam, zdaie mi się, że krzywdzę w nim płeć śliczną moiey Emilii i moią.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Dalibóg, iak iest brzydko w oczach kobiet, kiedy męszczyzna zniewieścieie, tak sądzę, że ieszcze szpetniey w oczach męszczyzn, kiedy kobieta zmęszczyznieie.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Prawdę Hrabina mówi; cóż pięknieyszego nad śliczną Emilią w moich oczach! iey delikatność, iey dla mnie słodycz i wybaczenie winy, iey układ pełny naturalnych gracyj; wszystko niewieście, a piękne.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Proszę Pana Porucznika ubrać się, i póyść na salą tak po kobiecu, ieżeli chcesz, abym dokończyła mego dzieła.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Wiem, że iestem pod twoią Hrabino komendą i we wszystkim chcę ci bydź posłusznym.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Panno Emilio! czekamy na ciebie.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>EMILIA.</speaker>
+            <p>Tylko proszę Hrabiny, aby ta Guwernantka zdaleka odemnie była, bo nieumie bydź dość z uszanowaniem dla swoiey elewki, i Panu Hrabiemu niepowiadać co się stało z moią transfiguracyą.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Czy ieszcze mam raz przepraszać Panią? <stage>(klęka)</stage></p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>EMILIA.</speaker>
+            <p>Proszę wstać, bo ia nielubię klęczących, iuż zapomniałam; iuż doprawdy niegniewam się.</p>
+          </sp>
+          <stage>(ADOLF. całuie ią w rękę)</stage>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Tylko się proszę tak nieomylić i niezapomnieć u stołu przy Oycu. Służę Paniom moim. <stage>(odch:)</stage></p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>EMILIA.</speaker>
+            <p>Ah! iak mnie ten stróy gniewa.</p>
+          </sp>
+          <trailer>(KONIEC AKTU DRUGIEGO)</trailer>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT III.</head>
+        <div type="scene" n="23">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#administrator">ADMINISTRATOR.</rs>
+            </p>
+          </stage>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p><stage>(sam)</stage> Cóż to za głupcy z tych ludzi! jakie dudki, <stage>(śmieie się)</stage> to się niegodzi, żeby tego niewidzieli, że Intrygalska moia przyszła Pani, mnie naywięcey sprzyia, a z nich żartuie. Ślicznie sobie gospodarstwo będziemy prowadzili. Cóż, alboż to pierwszy romans ekonomiczny tego rodzaju? Ileż ia to znam podobnych? dzisiay oglądaliśmy sobie gospodarstwo, dała mi oto chustkę od nosa do schowania, darowała mi pugilaresek, o! co to za śliczna chusteczka! potem oddała mi berlacze, czyli raczey pantofelki, a te iakie śliczniuteńkie; oczywisty dowód, że mnie lubi i kocha! berlacze i chusteczka, są to próbki niezawodne iey dla mnie miłości, a co będzie potem: ktoś idzie podobno... schowaymy się.</p>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#administrator">ADMINISTRATOR.</rs> (ukryty, i)
+              <rs key="#zawiło">ZAWIŁO.</rs>
+            </p>
+          </stage>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Co za głowy! co za głowy! ieszczem też takich osłów, iak ten Administrator i ten Mośkowicz niewidział; co im w głowę weszło? chcieć bydź Rywalami moieim, moiey dystyngwowaney urzędowey osoby, i tego niewiedzieć, że Intrygalska iest cała mną zaięta, i tak szalenie się we mnie pokochała, że to iuż wszyscy spostrzegaią, a ci ludzie tego niewidzą. Przy mnie zawsze lubi siedzieć, o mnie tylko gada, miałem kilka biletów od niey w interessie licytacyi, w szalu co iey darowałem zawsze chodzi, nikomu go niedaie trzymać, nawet lokaiowi. Wczoray dała mi parasolkę, abym ią dał naprawić, pachniącey wódki nalała mi do kamizelki, dała mi kwiatek z swego bukietu, ale co więcey: lodów na talerzu i pomarańczy w cukrze, co niedoiadła, prosiła mnie, abym oddał lokaiowi, a ia te ziadłem z miłości, aby iey ukontentowanie zrobić. No! cóż można więcey żądać przed ślubem? Oy Rywale! kiedy wy się śmiecie mierzyć ze mną, żałuię was – ale ktoś idzie, schowaymy się.</p>
+          </sp>
+        </div>
+        <div type="scene" n="25">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#mośkowicz">MOŚKOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p><stage>(z laseczką w ręku)</stage> Bravo! bravo! obiecała mi kochanka Intrygalska, ale co? zgaday ty glupia glofo? Ty co to jurystofską masz glofę, coś tak byl śmialy, chcieć ią wcoray profadzić przy niey, a ona nie z tobą, ale zemną poszła na spacer; nie tobie, ale mnie podała nogę i śliczne ramie do wprowadzenia na konia: nie tobie, ale memu gębie dała rączkę śliczną do pocalowania; nie tobie, ale mnie dała kasztanka smarżonego w cukrze, karmelkę ponsowego w papierże; zgaday! ale ani ty Administrator, ani ty Kómornik niezgadniesz, a to Rendez fous mi obiecała i iedzie ze mną do Brynu. Szkoda wielka, że ich tu niema tych głupich glóf, boby się spukli, ze zaluzie, to wszystko pieniądz robi w miłości; co krew ślachcicowa, i cywilizowana i w sercu moim i we mnie, pieniądz; iak byłem w Wenecya na Teatrze, nauczylem się od Aktorki, co nieumial tak dobrze, iak ia śpiewać, i tak śpiewka zaczynala po włosku.<lb />
+            <stage>(arya bufa)</stage><lb />
+            Non e piu tempo,<lb />
+            Di far di far l’amore,<lb />
+            All, la platonica,<lb />
+            Col le Signiore.<lb />
+            Amici cani,<lb />
+            Ci vol denari;<lb />
+            Senza peconia: <stage>(bis)</stage><lb />
+            Niente si fa. <stage>(bis)</stage><lb />
+            Quella vol amante,<lb />
+            Altra il servente;<lb />
+            Qella vapori,<lb />
+            Altra liquori,<lb />
+            Senza peconia niente si fa. <stage>(bis)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="26">
+          <head>SCENA IV.</head>
+          <stage type="setting">
+            <p>(słychać pukanie za sceną)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#mośkowicz">MOŚKOWICZ.</rs>
+              <rs key="#adolf">ADOLF.</rs> (i) 
+              <rs key="#niewiadoma">NIEWIADOMA.</rs> (żona Mośkowicza)
+            </p>
+          </stage>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Otóż to umówione Rendez fous <stage>(idzie na palcach cicho)</stage> kto tam?</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Ja, Hrabina, z Panną Intrygalską na Rendez vous.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>JW. Hrabina, czy to bydź może? z Panną Intrygalską: niemówiłem, że to nie iest Platonika filozofa miłość, który niemusiał bydź Bankierem. Cicho, otóż Rendez fous; zaraz pocztą wyieżdzam i wywożę do Wiednia te piękne oczy te sąbki, ten nosek. <stage>(wczasie tego Administrator i Kómornik chowaią się ieden do Lektyki, drugi nagotować sobie powinien co w butelce do uczernienia, wszystko powinno bydź tak narządzone, żeby potem pierzem oblazł, wyszedł z Lektyki zapierzony, a drugi zczerniony; teraz maią cicho siedzieć)</stage></p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p><stage>(przebrany po kobiecu w masce z cicha udaiąc głos Hrabiny)</stage> Umyślnie w masce przyszłam, cicho proszę. Masz WPan swoią damę własną, dotrzymuie ci wiary miłości i przyrzeczonego Rendez vous, ale zmiłuy się iedź natychmiast noc i dzień, ona pierwey w powozie swoim, a ty za nią i dopiero w Brynie się ziedziecie, żeby Oyciec iey nieposłał w pogóń.</p>
+          </sp>
+          <sp who="#niewiadoma">
+            <speaker>NIEWIADOMA.</speaker>
+            <p><stage>(żona Mośkowicza)</stage> Ja iestem aktualna iego żona. Ah zdrayco! poczekay, oddam ia ci wet za wet.</p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Duchy Anielskie prowadzić mnie będą, a na skrzydłach amorkowych pocztą, która tu iest gotowa wyieżdzamy, ale Hrabino. <stage>(całuie ią w rękę i cmuka)</stage> Z Wiednia wexel na 1000 Dukatów dla towarzystwa Dobroczynności, a to przez dyleżans przeszlę, a to nie iest all’ Platonica, bo Plato wszystko chcial bez pieniędzy na świecie robić. <stage>(wychodzą)</stage></p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Bywaycie zdrowi. Ja tam niedługo sama będę w Wiedniu, to się zobaczemy, tylko prętko. Adieu. To mi się bardzo podoba.</p>
+          </sp>
+          <sp who="#niewiadoma">
+            <speaker>NIEWIADOMA.</speaker>
+            <p><stage>(ściska zarękę Mośkowicza i umizga się do niego)</stage></p>
+          </sp>
+          <sp who="#mośkowicz">
+            <speaker>MOŚKOWICZ.</speaker>
+            <p>Adieu! Adieu! nowy konkiet na przyszłość.</p>
+          </sp>
+        </div>
+        <div type="scene" n="27">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#adolf">ADOLF.</rs>
+            </p>
+          </stage>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p><stage>(rozumieiąc się sam)</stage> Ah! to iuż dobrze, <stage>(zdeymuie maskę)</stage> to iuż pozbyłem się iednego głupiego, ale bogatego Rywala, bo onby mógł was wszystkich zapłacić, a może któregoby i kupił. Wyśmienicie; ale to naylepsza, żem mu własną żonę sprokurował, na to Rendez vous, o które codziennie moią Emilią męczył. O kobiety! kobiety! przecież wy macie rozum, i w pole naywiększych mędrców potraficie wyprowadzić, nawet cywilizowanego żyda. To iest koncept moiey Emilii i Hrabiny.<lb />
+            Żona Mośkowicza przyiechała do męża z Triestu, one iey całą awanturę rozkochanego iey cywilizowanego Męża opowiedziały, i kazały iey, aby tym sposobem Męża wywiozła od zarazy niebespieczney choroby miłości. Adieu móy Bankierze, piękną surprizę i Rendez vous mieć będziesz w Brynie. Teraz tu potrzeba myśleć iak się drugich Rywalów pięknie pozbydź. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="28">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#administrator">ADMINISTRATOR.</rs>
+              <rs key="#zawiło">ZAWIŁO.</rs>
+              <rs key="#adolf">ADOLF.</rs>
+              <rs key="#mośkowicz">MOŚKOWICZ.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(pozostali ukryci)</p>
+          </stage>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p><stage>(spierzony)</stage> Czy to sen czyli mowa, ale to bydź musi sen, niech mię diabli wezmą! nie mogę wierzyć, żeby Pani Hrabina z Intrygalską mogły... tu w tym mieyscu teraz bydź.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p><stage>(zczerniony)</stage> Ale to nie iest mara, że mi moią żonę przyszłą Bankier przekupił bo chociaż iestem trochę głuchy, ale nie ślepy.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Ale iak my wyglądamy i skąd my się oba, wzięli?</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Ja biorę pocztę i lecę za moią przyszłą żoną, tylko się muszę widzieć pierwey z Panią Hrabiną i przekonać się, czy mi się to śniło, co tu widziałem i słyszałem, bo mi się zdaie, żem oszalał; żaden Adwokat niepotrafiłby, tak zawikłać sprawy, tylko się tego obawiam, ieżeli poźno do Brynu przyiadą, może będzie iuż matrimonium consumptum. Jak tu sprawę rozpocząć? a zdrayczyno! ktoby się na to dziecko był spodział, z Bankierami pocztą do Bryna na Rendez vous, żeby się stamtąd wróciła przynaymniey, ale iak się zacznie włóczyć po miastach z tym Bankierem, iak się zacznie wdawać z cywilizowanemi Paniczami, iak straci maiątek i dopiero się...</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Wiem, że odstępuię od maiątku w tenczas, kiedy są długi większe od niego, ale tu czysty dopiero kupiony, lecz co mi do tego, ia Administrator, mnie z tem dobrze, będę siedział sobie w dobrach iak Dziedzic, będę się moiey Pani teraźnieyszey Mośkowiczowey Regestrami expensy wypłacać. Ale co to za filut Pani, mnie tak zdradzić po tylu dowodach miłości; alboż to iedna Pani zdradziła tak swego sługę, lecz ią kochałem diabelnie i mimo wszelkiego rozumu, czuię iak mnie rozpacz dręczy i pożera, czuię się bydź słabym, że mdłości na mnie biią; oy! tu iest woda, wody! wody! <stage>(bierze butelkę i kropi się Inkaustem dla otrzyźwienia twarzy)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="29">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#administrator">ADMINISTRATOR.</rs>
+              <rs key="#zawiło">ZAWIŁO.</rs>
+              <rs key="#mośkowicz">MOŚKOWICZ.</rs>
+              <rs key="#adolf">ADOLF.</rs>
+              <rs key="#lokay">LOKAY.</rs>
+              <rs key="#pachołcy">PACHOŁCY.</rs>
+            </p>
+          </stage>
+          <sp who="#lokay">
+            <speaker>LOKAY.</speaker>
+            <p>Jaśnie Wielmożni Hrabstwo proszą Panów wszystkich, co tylko są na licytacyi, na herbatę do ogrodu, potem na bal dzisiay wieczór. Ale co widzę? iuż w maskach ci Panowie.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Co tam u Państwa słychać? powiaday zmiłuy się.</p>
+          </sp>
+          <sp who="#lokay">
+            <speaker>LOKAY.</speaker>
+            <p>Niewiem.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Namówiony.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Jakto niewiecie, że Panna Intrygalska dała się...</p>
+          </sp>
+          <sp who="#lokay">
+            <speaker>LOKAY.</speaker>
+            <p>Co dała się – niewiem, dalibóg niewiem.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Dała się Bankierowi uwieść i poiechali do Brynu, i Pani Hrabina do tego pomogła.</p>
+          </sp>
+          <sp who="#lokay">
+            <speaker>LOKAY.</speaker>
+            <p>Co Panowie, czyście oszaleli?</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Bankier z mego pokoiu, tu przed chwilą wyiechał z Panną Intrygalską.</p>
+          </sp>
+          <sp who="#lokay">
+            <speaker>LOKAY.</speaker>
+            <p>Ale to gorzey, że ten Bankier ma żonę, która tu przyiechała po niego, iak się dowie tylko.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Ja na moie oczy widziałem, tu w tym pokoiu się działo, tu była z Hrabiną i ztąd wyiechała Intrygalska; cóż to czy ia głupi? przecież mam oczy.</p>
+          </sp>
+          <sp who="#lokay">
+            <speaker>LOKAY.</speaker>
+            <p>Ale proszę Panów, kiedy moia Pani i cała kompania ieździliśmy przed półgodziną na spacer; o Pannie Intrygalskiey niewiem, Panny tego nazwiska niema, ia znam Pannę Emilią, co bawi przy Hrabinie.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Namówiony – a niech cię diabli wezmą hultaiu, opasie!</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Przekupiony i udaie, dam ia ci tu łaydaku!</p>
+          </sp>
+          <sp who="#lokay">
+            <speaker>LOKAY.</speaker>
+            <p>To waryaty! krew tym ludziom puścić potrzeba, powiązać i do szpitala odesłać; zaraz ia wam tu bankiet sprawię: hey! stróże, pachołki, pilnuycie tu tych Panów i niewypuszczać, powiązać, ia póydę po felcera, tu iak naypilniey tym ludziom krew puścić potrzeba. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>A to łaydaki! tu potrzeba oszaleć, precz stąd, bo kijem dostaniecie.</p>
+          </sp>
+          <sp who="#pachołcy">
+            <speaker>PACHOŁCY.</speaker>
+            <p>Ale, ale, kijem: zobaczemy, kto tu kijem weźmie, uciszyć się!</p>
+          </sp>
+          <stage>(ZAWIŁO. bierze kiy i bić ich zaczyna)</stage>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p><stage>(nadchodząc przypadkiem na scenę)</stage> Niedaycie się, to są szaleni ludzie. <stage>(n. s.)</stage> Potrzeba tu profitować z okazyi i udawać niby doktora.</p>
+          </sp>
+          <sp who="#pachołcy">
+            <speaker>PACHOŁCY.</speaker>
+            <p>Hola! hola! moi Panowie, zwiążmy ich. <stage>(wiążą im ręce chustkami)</stage></p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p><stage>(przebrany za doktora)</stage> No, to dobrze, waryaci! <stage>(bierze za puls, ci się wyrywaią i w passyą większą wpadaią i krzyczą)</stage></p>
+          </sp>
+          <sp who="#administrator #zawiło">
+            <speaker>ADMINISTRATOR. ZAWIŁO.</speaker>
+            <p><stage>(Obydwa)</stage> Chybaś ty waryat i z całym domem i tą przeklętą licytacyą, i z Panią teraźnieyszą Mośkowiczową Bankierową, i z Panią Hrabiną.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Jeżeli to nie iest przypadkiem z pokarmu niezdrowego, co iedli? co pili, czyli nie są pokąsani od Tarantuli? albo to może colera morbus, która teraz panuie.</p>
+          </sp>
+          <sp who="#lokay #pachołcy">
+            <speaker>LOKAY. PACHOŁCY.</speaker>
+            <p>Nie Panie doktorze! nigdzie niewychodzili na dwór dzisiay, przeciebyśmy ich widzieli, to urok, może urok, albo może colera morfus.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>To uderzenie krwi na wątrobę, lodu! lodu i piiawek prędzey na głowę i wynieść ich lektyką do miasta, żeby się im mózgi niewstrzęsły, ia tam przyjdę za wami; tu stoi na licytacyi lektyka, to ią wziąść.</p>
+          </sp>
+          <stage>(PACHOŁCY. się zabieraią i iuż ich związawszy do lektyki wsadzaią)</stage>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Oddać ich doktorowi ordynaryuszowi, niech tam wyexaminuie, bo ja tu tylko widzę Symptometa frenezyi momentalney z obfitości żółci, to przeydzie do iutra, ale potrzeba ratunku; lokay! pisz receptę.</p>
+          </sp>
+          <sp who="#lokay">
+            <speaker>LOKAY.</speaker>
+            <p>Ale ia Panie doktorze po łacinie nieumiem.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>To nic nieszkodzi, i ia choć doktorem iestem, widzisz także nieumiem, ale recepty piszę, słuchay i pisz: Recipe cornu cervi, to iest jeleniego rogu, Untias decem Unquentum Neapolitane - Assafetyde. Dalibóg więcey niepamiętam, ale Cantarides misce, facias sinepisuum, zrób Synapizmy w pigułkach do zażywania, i popiiay kwaśnem mlekiem.</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>To nie żarty Panie Administratorze! czuię doprawdy źle, lepiey się zawczasu ratować – Periculum in mora – Mości doktorze ratuy nas – ah! słabym, a ty masz gangrynę.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>Dalibóg i ia czuię, że tu coś nam ktoś musiał postradanie zmysłów zadać, albo może to sen, albo iak pachołek mówi urok, a może i colera morbus, kto wie, doktorze ratuy!</p>
+          </sp>
+          <sp who="#zawiło">
+            <speaker>ZAWIŁO.</speaker>
+            <p>Niezaszkodzi, niezaszkodzi poradzić się. – No idźcie, idźcie moi ludzie, tylko prędzey, dalibóg bać się zaczynam.</p>
+          </sp>
+          <sp who="#administrator">
+            <speaker>ADMINISTRATOR.</speaker>
+            <p>To zapewne ta tarantula, co doktór mówi, tego licha narobiła, żem może i oszalał, bo sam niewiem, ah! iakieś mary mi się snuią po głowie, cóż to niepodobnego, może to i colera morbus, teraz epidemiie panuią, darmo, trzeba się tu ratować. <stage>(odch:)</stage></p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Czemprędzey, czemprędzey do łóżka transpirować, transpirować, to iuż niepotrzeba lektyki, idźcie Panowie do łóżka prędko.</p>
+          </sp>
+        </div>
+        <div type="scene" n="30">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#adolf">ADOLF.</rs>
+            </p>
+          </stage>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p><stage>(sam)</stage> To iuż i ci dway rywalowie sami niewiedzą iak są oddaleni, i zdaie im się wyraźnie, że oni doprawdy oszaleli, było tu tego ieszcze kilku na licytacyi pięknych i grzecznych chłopców, ale tamci tak, iak wielu, szukali posagu i serca, i mieli racyą: bo zła miłość o głodzie. Ja zaś go niepotrzebuię, szukałem serca i rozumu w Pannie, i to znalazłem, ieżeli tylko Rodziców Emilii łaska nastąpi. Spodziewam się bydź z nią szczęśliwy, tym bardziey, że się na wszystkich podstępach męzkiey miłości zna doskonale i znaiomości świata przy Hrabinie nabrała, potrzeba iey słuchać: znowu się ubrać i póyść na herbatę z Emilią do Hrabiny, która będzie w ogrodzie, gdzie będą Państwo Skąpiccy. Jego samego się nieboię, bo chociaż trochę prostak, ale poczciwy Oyciec, mąż i obywatel; bo ci cywilizowani bardzo oycowie, mężowie, obywatele, prawda, że są polerowani iak marmury, ale też często tak twardzi i nieczuli, iak te kamienie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="31">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#adolf">ADOLF.</rs> (i)
+              <rs key="#hrabia">HRABIA.</rs>
+            </p>
+          </stage>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Witam doktora, a to ci się Poruczniku doskonale udało, z temi Rywalami przechodząc, całą tę scenę słyszałem.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Lex Talionis, prawo Taliena wet za wet; Kómornik mnie nazywał fanfaronem, że dobra chcę kupować bez pieniędzy, a nieznał mnie, ia go zrobiłem waryatem na pół dnia i szcęśliwym trafem, boby mi nudził moią Emilią i mnie, a ia dziś chcę bydź wesołym.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>A Administratora za co? i Mośkowicza, co pocztą wyprawiłeś na Rendez vous.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Ci ieszcze więcey zasłużyli.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Jakto? słucham.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Nayprzód: Bankier żonę poczciwą, która go kocha, zdradza, do tego śpiewał sobie tu po włosku i chwalił się, że za pieniądze wszystko i miłość u kobiet mieć można. Niech co chce gada i śpiewa, ale niech niekrzywdzi moiey Emilii i kobiet; ona niechciała tego daru bez moiey wiedzy przyiąć na licytacyi, ja prosiłem iey, żeby na ukaranie niepoczciwego męża cywilizowanego i tak bardzo bogatego, nieodrzucała daru, a ia za to dam do Towarzystwa Dobroczynności 6,000 Dukatów, i kupię iakiey sierocie folwark. Co do Administratora: ten chwalił się, że się w nim moia Emilia kocha, że mu sama robi avançe, a takich Ichmościów, co kobiety niewinne obgaduią, co biorą chustki lub karmelki pour des avançes, warto do szpitala posłać, aby im krew puszczono.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Byway zdrów bałamucie! czekamy cię za półgodziny w ogrodzie, i zaręczam, że wszystko się dobrze skończy i dziś ieszcze będziesz miał Emilią za żonę. Adieu!</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Będzie to nagrodą, że ią, i iey płeć, to iest kobiety szanować umiałem, bo w samey rzeczy, że niemasz lepszych Panien za żony, iak tutay, i ten co napisał ich pochwałę miał racyą.<lb />
+            <stage>(arya polones)<lb />
+            (z Tankreti Rossini)</stage><lb />
+            Płci piękna co w tych mieyscach bywałaś przykładem<lb />
+            Takich cnót, które wszystkie zdobić mogą kraie<lb />
+            Ciesz się, że wybaczenia idąc zawsze śladem:<lb />
+            W złych czasach, zachowałaś dobre obyczaie;<lb />
+            I tych nawet co na cię rzucali czernidła<lb />
+            W własne pochwał dla ciebie połapałaś sidła.<lb />
+            Ja muszę póyść, bo na mnie czekaią. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="32">
+          <head>SCENA X.</head>
+          <stage type="setting">
+            <p>(Teatr się odmienia: reprezentuie Ogród. Stół zastawiony do herbaty)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#skąpicki">SKĄPICKI.</rs> (i)
+              <rs key="#hrabia">HRABIA.</rs> (przechodząc się palą fayki)</p>
+          </stage>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>To Pan Skąpicki na próżno się trudził, kiedy na licytacyi nic niekupił?</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>A któż się teraz czego dociśnie i dowie terminu prawdziwego licytacyi, przed temi jurystami, Bankierami, Kupcami, Doktorami; ale ja drwię z tego, obeydę się, kto tak iak ia depce pychę, kto nienawidzi zbytku, kto żyie tak iak ja, kontent z tego co ma.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Ale przecie co więcey to więcey, nieprawda? a dlaczegóż niekupić było Tyrolskich krów, Hiszpańskich baranów elektów, Tybetańskich kóz, machin.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Ja Panie Hrabio? tfy, tfy, a co to Pan Hrabia rozumiesz? ja, dla czego? a to powiem krótko dla czego: jak będzie garniec masła po 4 dukaty, nie po 4 Złote, to kupię Tyrolki Szwaycarki za 40 dukatów; ale kiedy 10 krów Polskich przecie więcey da nawozu, cieląt, mleka, niżeli iedna krowa Tyrolska, a tyle kosztuie, za cóż Polskie niemam preferować.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>A Barany elekty!</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Co tu u diabła, barany teraz Elektorami! tfy, ci, co obieraią, słyszałem, że się nazywaią Elektorami, ale o baranach Elektorach, tom niesłyszał. I wieleż to za takiego Elektora trzeba dadź, żeby go kupić?</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Amatorowie gospodarstwa płacą ich po 300 do 400 dukatów iednego elekta.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Wolałbym do diabła folwark kupić! ja, co mam córki na wydaniu, gdybym dawał takiego merynosa Elektora w posagu, toby jey nikt niechciał, a przecie lepiey dadź dobry folwark w posagu. Powiadam Panu, że niemyślę wiosek sprzedawać, ani pożyczać pieniędzy na modne gospodarstwo na 20 od 100, i dotąd niekupuię żadnego elekta czyli Elektora, póki wełna nie będzie warta połowę tego, co on sam kosztuie, bo ja iak dam za polską owcę 7 Złp., mam z niey zysku 5 Złp. a co, nieprawda?</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p><stage>(śmieiąc się)</stage> Ale Panie Skąpicki zmiłuy się, to przynaymniey machinę do młocki, albo aparat parowy, wszak w swoich Dobrach masz mało robocizny? musisz naymować.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Tfy, tfy. Aparaty ja sprawiam do kościoła. machinę! a mnie machina? ja sam, pieniądze i praca – prawda, że naymuię, ale też daiąc zarobek ludziom biednym, ochraniam ich od występków, w moiey wsi nieznam hultaiów, bo nikt niewidział próżniaka dobrym, a człowieka pracowitego złym i występnym. Ale i JW. Pani Hrabina nadchodzi. Tfy, tfy, jak też ta moia żona ubrana.</p>
+          </sp>
+        </div>
+        <div type="scene" n="33">
+          <head>SCENA XI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#hrabia">HRABIA.</rs>
+              <rs key="#skąpicki">SKĄPICKI.</rs>
+              <rs key="#hrabina">HRABINA.</rs>
+              <rs key="#skąpicka">SKĄPICKA.</rs> (wykwintnie ubrana)
+              <rs key="#adolf">ADOLF.</rs>
+              <rs key="#intrygalska">EMILIA.</rs> (JEY SIOSTRY i GOŚCIE)
+            </p>
+          </stage>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Ślicznie kłaniam Panu Skąpickiemu – ah! iak dobrze wyglądasz, tak świeżo, wesoło, czerstwo; proszę wszystkich Państwa usiąść. Mężu! proś wszystkich gości do nas – oto iest herbata, Pani Skąpicka, proszę cię, tylko bez ceremoniy, wszakże to iesteś kuzynka – bardzo proszę.</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>Ale, czy można się fatygować samey? <stage>(wstaie z grymasem i kłania się dziwacznie)</stage> Panny moie! Panny moie! a iakież to gapie! ukłońmy się razem Państwu Hrabstwu. Hrabia gdyby Ganimed u stołu Jowisza, a Hrabina gdyby Bogini Hebe; prawdziwie iesteśmy, gdyby na uczcie Bogów w Olimpie.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Jak widzę, że Pani Skąpicka bardzo zna Mitologią.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Toć też to moia Pani Dobrodzieyko nieszczęście, bo moia żona nic w domu o niczem niemyśli, ani o gospodarstwie, ani o dzieciach, ani o krowach, tylko tam zawsze o iakichsi Bogach to Gamineydach, to o Hebbalach!</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>To nic iedno drugiemu przeszkadzać nie powinno.</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>Widzisz prostaku! żebyś ty umiał Mitologią, tobyś wiedział iak mężowie, tak iak Bogowie powinni bydź grzeczni dla żon, ale ty stary Haronie niewarteś takiey Nimfy iak ia, na pramie miłości wozić, ani też ia na bleytramie czułości serca mego, nigdy ciebie odmalować niemogę inaczey, tylko iak srogiego Cyklopa.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Ale niech Państwo dadzą tym Mitologicznym sprzeczkom pokóy, lepiey pomówmy o zamęzciu córki waszey Panny Emili, którą chcecie wydać za mąż.</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>Co? za mąż! ona niema dokończoney edukacyi, nic Mitologii niezna, ani jey przyszły mąż, to mi śliczne małżeństwo! to mi dobrana para, co nic Mitologii nieumieią; ja właśnie chciałam przyiąć Guwernantkę do moich córek na dokończenie edukacyi, coby koniecznie umiała poezyą, wiersze pisać, mitologią, kontradansa francuzkiego, żeby była dobrą aktorką i śpiewała romanse.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Tfy, tfy, Panie odpuść!... a ja właśnie takiey szukam, coby tego wszystkiego nieumiała, bo ja niechcę, żeby moie córki tak zawróconą głowę romansami iak WacPani miały, ja chcę, żeby moie córki były dobremi żonami, dobremi gospodyniami i dobremi matkami, ale nie takiemi komedyantkami iakich teraz pełno! tfy. A komu one to będą deklamować na wsi? krowom?</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>To właśnie się dobrze zdarzyło dla Państwa, kiedy sobie życzycie takiey Guwernantki, a bardziey przyiaciołki: oto Panna Skromnicka, <stage>(pokazuiąc na przebranego Adolfa)</stage>, którą mam honor prezentować, iest taką przyiaciołką, iaką sobie życzycie; moia żona i ia, WPaństwu za iey konduitę i iey charakter ręczemy i upewniamy oboyga, że z córki ich zrobi dobrą żonę, matkę i gospodynią, bo ma do tego serce dla niey, i rozum usposobione.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Ja <stage>(śmieiąc się)</stage> zaręczyć mogę, co większa że umie muzykę, kontradansa i mitologią, listy do Emilii o mitologii na pamięć, i deklamuie.</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>I wiersze pisać umie? proszę, niechże co usłyszę z WPanny kompozycyi.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Jeżeli tylko co znaydę w pamięci, <stage>(szuka, znayduie i czyta lub deklamuie, trzymaiąc Emilią za rękę)</stage><lb />
+            Duchem Horacego tchnięta,<lb />
+            Przysięgam serce dać tobie;<lb />
+            Miłością ciebie zaięta,<lb />
+            Czy co piszę, myślę, robię.<lb />
+            Szanuię cnoty naukę,<lb />
+            Poznawania ludzi sztukę,<lb />
+            Znam zazdrość, chytrość i zdrady,<lb />
+            Które ty umiałaś znosić.<lb />
+            Wybacz wszystko z moiey rady,<lb />
+            Day się złym zawsze przeprosić;<lb />
+            A naylepiey z kobiet imie,<lb />
+            Zasłużysz w rzeczy i w czynie.</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>A Bravo! bravo! iabym lepszych nienapisała, niechże ią uściskam, ucałuię. <stage>(całuie Adolfa)</stage></p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Całuię nogi Pani Hrabiny; kiedy z rekomendacyi Państwa, to się odważę wziąść tę Guwernantkę, bo musi bydź coś dobrego, gdyż z tych, co moia żona obierała, to same diablice, ciężko było w domu wytrzymać. WPanny, Panno Emilio! podziękuycież.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Jeżeliby to Państwu niezrobiło przykrości, to pozwólcie mi obydwóch córek, wszakże to moie kuzynki, żeby przy mnie bawiły, do ukończenia edukacyi.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Całem sercem, całem sercem, ale proszę, żeby ta przyiaciołka przy nich sypiała, i była nieodstępna, bo to Panien trzeba pilnować.</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>Ale żeby tylko mitologii, kontradansa i poezyi uczyła.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Tfy, tfy, Panie odpuść. – Day WPani pokóy! iużeście się tak z tym kontradansem, z muzyką, z teatrami po wsiach i po miastach rozgłosiły, że przed waszą muzyką i spać niemożna, i chodzicie ledwie nie iak Wenery w raiu, albo iak Ewy, a ia iak Adam gryzę ogryzki, bo nikt o spiżarni, ani o szpichlerzu niepamięta, salą z niey do kontradansa zrobiły, a ze szpichlerza chciały mi teatr zrobić.</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>A pfe, pfe, Wenerę z Ewą mięszać. <stage>(wstaie)</stage> Otóż to z takim mężem żyć co mitologii niezna, on gotów Pana Boga z Jowiszem złączyć.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Moia kochana żono! dayże też pokóy Panu Bogu, bo iakby twemu Jowiszowi Pan Bóg dał w papę, toby do diabła ze swego tronu wysokiego zleciał, i karkiby połamał.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Czyli prawda Mości Skąpicki, że Państwo sobie życzyli wydać córkę za Pana Porucznika Adolfa? <stage>(wczasie tego oboie amanci siedzą z sobą, wzdrygnęli się)</stage></p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Prawda, ale iakem się dowiedział, że niema tylko wieś, na którey więcey długów iak warta, potem boię się, żeby to niebył ieden z tych synów marnotrawnych, co i swego i cudzego nieszanuią i szczęście domowe za nic maią, takem się zdecydował niedać, i prosiłem go, żeby w domu moim niebywał, i dzieciuch posłuszny, ani zayzrzy; ia ią sobie umyśliłem wydać za Kómornika Zawiło, bo i jurysta, i ma dwie wioski dobre i bez długów, ale ona niecierpi go, a ia chcę, żeby go kochała, tylko się iey głowa zawróciła tym Porucznikiem, a ia chcę, żeby go niekochała.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Zawiło Kómornik sam iey niechce, oto iest iego zrzeczenie się na piśmie; chory, i coś mu w głowie brakuie, leży.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Z doprawdy? niedarmo go tu niewidzę, komu tu wierzyć.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Szkoda, żeś iey Panie niewydał za Porucznika, to człowiek do rzeczy, piękny, młody, i do tego bogaty, bo iak mi wiadomo, to sukcessyą dostał po Stryiu do miliona niezawodnie.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Do miliona?</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>Jak? czy do prawdy? <stage>(porywa sie nagle)</stage> Mężu! wszakeśmy nieodmówili zupełnie.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>A! a! takiemu kawalerowi odmawiać, skąd ci to na myśl przyszło! nigdy! – tak gadaliśmy, próbowaliśmy go, żenowało się. A potem, coś sam do tego Zawiło Kómornika zaczynam mieć odrazę – iakieś złe przeczucie.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Panna, teraźnieysza Guwernantka iest nawet iego i mego męża kuzynka, może to wszystko naprawić, a potem: oto iest Pana Zawiły zrzeczenie się Panny Emilii, on się kocha w iakieś Pannie Intrygalskiey.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Prawdziwie, że widzę sam w niey dużo do niego podobieństwa, tem lepiey, tem lepiey, za cóż nie. Czy niebędzie tu Panny kuzynek? dobry, nieoszacowany, poczciwy kawaler, waleczny rycerz?</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Właśnie chce tu bydź u mnie, ale dowiedziawszy się, że tu Państwo iesteście, chciał bydź posłusznym ich rozkazowi, aby się im więcey nienaprzykszać.</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>To były żarty. <stage>(n. s.)</stage> Ale iak podobna do niego.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>To tak tylko dla zwyczaiu w konkurencyach; ale owszem zawsze nam miły, zabawny, nieoszacowany kawaler, a iak ia go też kocham, poważam, nieoszacowany!</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Wszakże, iako kuzyn mego męża, to mu wolno będzie tu się znaydować?</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Kuzyn JW. Pani? a Mościa Dobrodzieyko! tem bardziey. <stage>(n. s.)</stage> Kuzyn tak zacney familii, i do miliona... <stage>(gł:)</stage> Ah! zacny, nieoszacowany, dobry!</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Więc póydziemy do siebie z Panną Emilią i z Guwernantką i poślemy, żeby iak nayprędzey tu przyszedł z nami.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Bardzo ślicznie. O bardzo czekamy; upadamy do nóg, i zaraz tam pośpieszemy im służyć. <stage>(odchodzą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="34">
+          <head>SCENA XII.</head>
+          <stage type="entrance">
+            <p>
+              (PAŃSTWO SKĄPPICCY) <rs key="#skąpicka">SKĄPICKA.</rs>
+              <rs key="#skąpicki">SKĄPICKI.</rs>
+            </p>
+          </stage>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>Niemówilam ia WPanu, że ieszcze nietrzeba było odmawiać, a tem bardziey zakazywać domu Adolfowi.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Tfy, moia Pani! żebym ia tym wszystkim, co WPani nęcisz i spraszasz do domu, domu niezamykał, toby z niego niedługo była Arka Noego; prawda, żem źle zrobił, żem sobie odstręczył tego Porucznika, bo nieoszacowany, dobry. Ale moia kochana żono! Emilia, to szpak dziewczyna, ona sobie poradzi, bo to wy kobiety... a WPani iakeś mię złowiła, niepamiętasz!</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>To prawda, <stage>(śmieie się, idzie do niego i głaszcze)</stage> przypominam sobie, iakeś do mnie przychodził, gdyby Merkuryusz, ukradkiem.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Tfy, idź WPani z Merkuryuszem do diabła! tfy, Panie odpuść! mnie z takim bezecnym lekarstwem, co ludzi truie i wykrzywia porównywać! ja z tą bestyą nigdy do czynienia niemiałem, i memu Zięciowi nie życzę. Oto póydźmy na salą do Hrabstwa. Teraz potrzeba za Zięciami chodzić, kto chce mieć co dobrego. <stage>(odchodzą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="35">
+          <head>SCENA XIII.</head>
+          <stage type="setting">
+            <p>(Teatr reprezentuie Salą oświeconą)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#hrabia">HRABIA.</rs>
+              <rs key="#hrabina">HRABINA.</rs> (GOŚCIE)
+            </p>
+          </stage>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Chytrość Emilii niewinna, i nasza sztuka, iest iuż przy samym rozwiązaniu.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Ale przyznać potrzeba, żeśmy ią wszyscy dobrze grali.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Ja dosyć nieumiem znaleść wyrazów na pochwałę płci waszey, iak udawać doskonale umiecie bydź tem, czem nie iesteście, a na naganę nas męszczyzn, że sami się częstokroć zwodziemy. Otóż nadchodzą.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Tylko proszę niewyiawiać sekretu przed nikim, aż po ostatnim akcie.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>A któryż kochanek wie co się z nim dzieie wcześniey? na tem też to cała sztuka komedyi zawisła.</p>
+          </sp>
+        </div>
+        <div type="scene" n="36">
+          <head>SCENA XIV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#hrabia">HRABIA.</rs>
+              <rs key="#hrabina">HRABINA.</rs>
+              <rs key="#skąpicki">SKĄPICKI.</rs>
+              <rs key="#skąpicka">SKĄPICKA.</rs> (i)
+              <rs key="#intrygalska">EMILIA.</rs>
+            </p>
+          </stage>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Witam Państwa! bardzo dobrze, właśnie w ten moment przyiechał Pan Porucznik, iest teraz u moiey żony, która go zaraz ma przyprowadzić, i oraz prosić, żebyście na niego byli łaskawi iak dotąd, i nieodmawiali mu ręki swoiey córki.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Ale, czy tylko serce iego nieodmieniło się, i to uszanowanie dla mnie, które miał iak dla prawdziwego oyca; bo to ci zięciowie...</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>To zaręczyć mogę, że nie; kto prawdziwie kocha, i ma pewny charakter, ten się niezmieni.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Prawda, że wdanie się JW. Państwa Dobrodzieystwa czyni mi i moiey córce, za wiele honoru. Cóż ty na to mówisz kochana żono?</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>Ja go chcę widzieć, czy się nie odmienił iego duch i ciało, bo Psyche Amorek i Hymen...</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Ey! tfy, do milion diabłów! przecie WcPani day pokóy, i z temi Psychowskiemi i Himenusami niewyieżdzay, tu idzie o szczęście przyszłe naszego dziecka. Jakże się WcPani zdaie, to czynione żądanie! i tobie Emilio, iakże! no! iakże?</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>EMILIA.</speaker>
+            <p>Ja się zupełnie do woli rodziców nakłaniam. WacPaństwa wola zawsze rządziła moią wolą i sercem.</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>Jakże mam gadać, kiedy WcPan niedaiesz.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Ale przecie kochana żono – wszakże...</p>
+          </sp>
+        </div>
+        <div type="scene" n="37">
+          <head>SCENA XV i OSTATNIA.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#hrabia">HRABIA.</rs>
+              <rs key="#hrabina">HRABINA.</rs>
+              <rs key="#skąpicki">SKĄPICKI.</rs>
+              <rs key="#skąpicka">SKĄPICKA.</rs>
+              <rs key="#intrygalska">EMILIA.</rs> (i)
+              <rs key="#adolf">PORUCZNIK.</rs>
+            </p>
+          </stage>
+          <sp who="#adolf">
+            <speaker>PORUCZNIK.</speaker>
+            <p>Ja ośmielony łaską Pani Hrabiny, przyszedłem ucałować nogi WWP. Dobr: i ponowić, ieżeli mi wolno moie usilne prośby o to, co szczęście moie naywiększe w życiu stanowi.</p>
+          </sp>
+          <sp who="#skąpicki">
+            <speaker>SKĄPICKI.</speaker>
+            <p>Kochana żono! przypatrz mu się, co to za nieoszacowany, dobry, cóż ci się zdaie? bo co mnie, to się zawsze podobał, tylko iak to bywa w konkurencyach, ale kiedy wola Boska taka, cóż mówisz? bo ia iuż zezwoliłem, czekam tylko na ciebie kochana Muzo, póydź! zobacz bliżey Apolina, o którym mi tak wiele prawisz, iak gdybyś go za zięcia mieć chciała.</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>Tylko mnie też Muzą nienazyway, ani naszey córki, bardzo proszę.</p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Pani Skąpicka, co mitologią zna, wiedzieć musi, że 9 muz nigdy niemiały, i dostać dla tego niemogły mężów, że nazbyt były uczone, i pełne talentów.</p>
+          </sp>
+          <sp who="#skąpicka">
+            <speaker>SKĄPICKA.</speaker>
+            <p>Moia córka niechcąc żeby została Muzą, więc zezwalam i ia, iak prętko się to kochanemu mężulowi podoba.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF.</speaker>
+            <p>Więc my śliczna Emilio przy zezwoleniu oboyga twoich Rodziców, możemy się spodziewać prawdziwego szczęścia.</p>
+          </sp>
+          <sp who="#intrygalska">
+            <speaker>EMILIA.</speaker>
+            <p>W samey rzeczy, bo ia go na błogosławieństwie i woli ich zasadzałam, i nieposiadam się z radości, że moie mniemane nazwisko Intrygalskiey, uwolniło mnie, że w niczem i woli rodziców moich nieuchybiłam, i kochanka którego żoną będę, przekonałam o moiey dla niego stałości i szacunku.</p>
+          </sp>
+          <sp who="#hrabina">
+            <speaker>HRABINA.</speaker>
+            <p>Niech cały świat wie o tem, że chytrość niewinnych kobiet, iest tylko bronią płci naszey przeciwko przemocy i podstępom męszczyzn ale nie harakterem. <stage>(słychać muzykę)</stage></p>
+          </sp>
+          <sp who="#hrabia">
+            <speaker>HRABIA.</speaker>
+            <p>Teraz proszę Państwa młodych i całą kompanią na bal do sali. <stage>(Bierze pannę młodą i wychodzą. Słychać muzykę choć kurtyna spada)</stage></p>
+          </sp>
+          <trailer>(KONIEC)</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

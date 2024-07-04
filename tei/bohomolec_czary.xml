@@ -1,0 +1,2979 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000021" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Czary</title>
+        <title type="sub">Komedia we trzech aktach</title>
+        <author>
+          <idno type="isni">0000000082585647</idno>
+          <idno type="wikidata">Q609575</idno>
+          <persName>
+            <forename>Franciszek</forename>
+            <surname>Bohomolec</surname>
+          </persName>
+        </author>
+        <!-- Franciszek Bohomolec (1720-1784) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/czary-komedya-we-trzech-aktach,MTIxODczNjQx/0/</idno>
+          <title>Bohomolec, F., Czary: Komedya We Trzech Aktach, Warszawa 1775</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="drągayło" sex="MALE">
+            <persName>Drągayło</persName>
+          </person>
+          <person xml:id="dziwomir" sex="MALE">
+            <persName>Dziwomir</persName>
+          </person>
+          <person xml:id="gwarzyło" sex="MALE">
+            <persName>Gwarzyło</persName>
+          </person>
+          <person xml:id="konstancya" sex="FEMALE">
+            <persName>Konstancya</persName>
+          </person>
+          <person xml:id="kręciwąs" sex="MALE">
+            <persName>Kręciwąs</persName>
+          </person>
+          <person xml:id="lubisław" sex="MALE">
+            <persName>Lubisław</persName>
+          </person>
+          <person xml:id="miłogost" sex="MALE">
+            <persName>Miłogost</persName>
+          </person>
+          <person xml:id="nastka" sex="FEMALE">
+            <persName>Nastka</persName>
+          </person>
+          <person xml:id="olechna" sex="FEMALE">
+            <persName>Olechna</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-16">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1773">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">CZARY</titlePart>
+            <titlePart type="sub">KOMEDYA<lb />
+            WE TRZECH AKTACH.</titlePart>
+          </docTitle>
+          <date>1775</date>.
+        </titlePage>
+        <castList>
+          <head>OSOBY</head>
+          <castItem>
+            <role corresp="#dziwomir">Dziwomir</role>
+            <roleDesc>Podczaszy Wendeński.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#olechna">Olechna</role>
+            <roleDesc>Żona Dziwomira.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#konstancya">Konstancya</role>
+            <roleDesc>ich Córka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#drągayło">Drągayło,</role>
+            <roleDesc>Kawaler Konstancyi.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#miłogost">Miłogost</role>
+            <roleDesc>Pułkownik.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#lubisław">Lubisław</role>
+            <roleDesc>Guwerner.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#nastka">Nastka</role>
+            <roleDesc>Służąca Konstancyi.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#kręciwąs">Kręciwąs</role>
+            <roleDesc>Sługa Dziwomira.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#gwarzyło">Gwarzyło</role>
+            <roleDesc>Sługa Drągayły.</roleDesc>
+          </castItem>
+        </castList>
+      </div>
+      <set>
+        <p>(SCENA. W Domu Dziwomira. We Wsi Raugieliszkach)</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT I.</head>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#olechna">OLECHNA.</rs>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ty nie wiesz Kostusio; że my mamy gościa bardzo pożądnego.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Pewnie iuż przyiachał J. P. Cześnik Piltyński, Drągayło.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Nie on: ale y ten dziś zapewne przyiedzie, ieszcze na obiad.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Cóż to tedy za gość Mcia Dobrodziko.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Jest to gość z Warszawy przysłany do nas od Madame, u ktorey tam byłaś.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Pewnie Guwerner, o ktorego do niey pisaliśmy?</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Tak iest: wczora wieczorem tu stanął, iakeś poszła do spoczynku.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Dziwno mi, że tak prędko znalazł się Guwerner, ktory się odważył iachać w Kray tak odległy z Warszawy, a ieszcze na wieś.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Y iam się tak prędko iego nie spodziewała: ale żebyś wiedziała, iak grzeczny, iak miły, iak rozumny. Myśmy się z nim wczora poźno w noc bawili.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Dobra iest w prawdzie, y ta grzeczność choć powierzchowna: ale wielu iest, ktorzy iey używaią zamiast płaszczyka, do pokrycia brzydkich serca zepsutego przywar.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>O! co ten, to nie iest taki: mogłabym śmiało za niego ręczyć, z oczu mu poczciwość wygląda.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Może to bydź. Ale ktoż on iest, Polak, czy Francuz.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Polak: ale powiada, że był we Francyi, y umie doskonale po Francusku. Przyślę ia go do ciebie. Mów z nim, y uważay czy dobrze po Francusku umie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Zapewne to musi bydź ieden z tych Awanturnikow, ktorzy straciwszy wszystko, szukaią dla siebie, gdzie mogą przytulenia. Zeby on był tak dobrym, znalazłby dla siebie mieysce y w Warszawie.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Musi on bydź zapewne grzeczny, kiedy go Jeymć nasza tak bardzo chwali. Rzadkiemu ona ten honor czyni.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Mylisz się moia Nastko: alboż nie wiesz iak Jeymć zachwala Pana Drągayłę, a przecięż... drżę, kiedy wspomnę o nim!</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>W tey iednak okolicy, maią go za Człowieka uczonego, y mądrego.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Wiem ia o tym: ale na czym oni tę mądrość iego zasadzaią? Że liznął trochę prawa, że umie coś Łaciny Palestranskiey, że bywaiąc w kompaniach mowi rożne historyiki o czarach, o upiorach, o strachach nocnych, y tym podobnych bałamuctwach. Ale iaki grymaśnik, iak niezgrabny, iak wykwintny - drżę mowię moia Nastko, kiedy wspomnę że mam iść za niego.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ale teraz świeżo będąc w Warszawie może wygrzeczniał.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>On pierwszy raz, iak żyie, był teraz w Warszawie, y to nie wiem, czy tydzień tam bawił... ale niech on sobie będzie, y grzeczny, y ładny, y mądry, moie serce nie dla niego. Raz ie poświęciłam kochanemu Staroście: procz iego, żaden nad nim władzy mieć nie może.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>To prawda, że Starosta iest innego gatunku Kawaler. Ale on został w Warszawie, a my tu. Jak on nigdy nie będzie w tym Kraiu, tak my nigdy w Warszawie: a zatym trzeba nam iuż o nim zapomnieć.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ah moia Nastko, nie rozrzewniay mnie bardziey. Serce mi się kraie, gdy wspomnę sobie, iak on żegnaiąc mnie, powtarzał ze łzami te słowa: iuż się podobno nigdy z sobą nie obaczemy. <stage>(Płacze)</stage></p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ah nie płacz W:M: Panna: Guwerner nadeydzie. Wszak y ia miałam w Warszawie swoiego Maciusia, y mnie go żal; ale coż czynić, trzeba nam o nich w tym Kraiu zapomnieć, a serca nasze do tuteyszych figur przyzwyczaiać.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Jakbym miała o nim zapomnieć! Zadaią nam męszczyzni niestatek w kochaniu; ale ia po sobie miarkuię, że nam krzywdę w tym czynią. Nic serca moiego odmienić nie może.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Milczmy: Jeymć idzie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+              <rs key="#olechna">OLECHNA.</rs>
+              <rs key="#lubisław">LUBISŁAW.</rs>
+            </p>
+          </stage>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Kostusio, oto iest J.P. Guwerner. Zabaw się tu W.M. Pan z moią Córką; wnet ia tu nadeydę. <stage>(Odchodzi)</stage></p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Cóż ia widzę?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Wszelki duch...</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Czy mi się śni?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Nad nadzieię moię mam honor oglądania tey twarzy... <stage>(Chce rękę całować)</stage></p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Stoy W.M. Pan... <stage>(cofa się)</stage> nie poymuię, co się to dzieie.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Y także mię przyimuiesz nieoszacowana Podczaszanko?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ah, to prawdziwie Jmć Pan Starosta!</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Czyż tak prędko zapomniany...</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ah nie mow mi W.M. Pan tego. Ale co tu W.M. Pana przyprowadziło?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Serce.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Coż to Matka moia mowiła, że to Guwerner... a ia widzę W.M. Pana.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Dobrze Jeymć Dobrodzika mowiła.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Jakże? W.M. Pan to u nas masz bydź Guwernerem?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Tak iest.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Z kądże to przyszło do tego?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Dowiedziawszy się od Madame de Grand bruit że Jchmć potrzebuią Guwernera, wnet tu przybyłem pod tym imieniem.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Co też to przyszło W.M. Panu do głowy? Ale czego W.M. Pan chcesz przez to?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Widzieć ieszcze raz W.M. Pannę Dobrodzikę, a potym umrzeć.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ah w iaki mię W.M. Pan labirynt wprowadzasz? czyż może bydź nieszczęśliwsza nademnie.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ja nie wiem czego chcesz W.M. Panna. Kiedy nie widzisz Jegomci, nieszczęśliwa! y kiedy widzisz, znowu nieszczęśliwa.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Więc moie przybycie iest przyczyną umartwienia W.M. Panny Dobrodziki?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Mci Panie Starosto, znasz mię W.M. Pan. Kocham W.M. Pana; kocham y moy honor. Serce moie z widzenia W.M. Pana, czuie słodkie ukontentowanie, ale honor troskliwością mię napełnia. Co powiedzą, kiedy poznaią, kto W.M. Pan iesteś?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>A ktożby miał tu mnie wydać? Pierwszy raz w tym kraiu iestem, nikomu nie znaiomy. Ludzi nawet moich zostawiłem tu w pobliższym miasteczku, y nie wiedzą gdzie iestem. Nastka też iest moia dawna przyiaciołka...</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Oh co to, to prawda: mnie się W.M. Panowie niebóycie, ale bóycie się siebie samych. Prawdę mowiąc W.M. Państwo z soba się kochacie opętanie; a miłość im iest silnieysza, tym prędzey się wyda. Pamiętam, co mi mawiał moy Maciuś w Warszawie, że iak kaszel w piersiach, tak miłość w sercu nigdy się nie utai.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ona rozumnie mowi. Wierz mi moy Starosto, że twoie przybycie, tysiąc rozruchow w mym sercu sprawuie. Ah w iak fatalny dzień przyiachałeś. <stage>(Płacze)</stage></p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Czemuż to? coż to za dzień?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>W.M. Pan nie wiesz, że dziś maią być zaręczyny Jeymci z Panem Drągayłą Cześnikiem Piltyńskim.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Dzisiay zaś?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Dziś go ieszcze na obiad tu czekaią.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Zginąłem! ah Podczaszanko moia, coż to będzie?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Będzie to śmierci moiey przyspieszeniem.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Czy nie można iak zwlec tych fatalnych zaręczyn?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Już ia w to nie potrafię: czyniłam, com mogła; ale ani proźby moie, ani łzy nie poruszaią mych Rodziców.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Cicho, cicho: Jchmć idą.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dziwomir">DZIWOMIR.</rs>
+              <rs key="#olechna">OLECHNA.</rs>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#lubisław">LUBISŁAW.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Mospanie Guwerner, rozmawiałeś W.M. Pan z naszą córką po Francusku?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Rozmawiałem Mci Dobrodzieiu.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>A coż? dobrze mowi?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Bardzo doskonale.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Chwalą ią w tym y drudzy. Ona trzy lata była w Warszawie u Madame Francuski. Kosztowało mię to, ale mi nie żal. Ja nie żałuię na edukacya moich dzieci.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Bardzo rozumnie W.M. Pan Dobrodziey czynisz. Dobra edukacya, iest naylepszą cząstką dziedzictwa.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Y ia toż samo memu mężowi powiadam. Zaraz y synow naszych W.M. Pan obaczysz, iuż wstali. Kostusio, mow im, niech się prędzey ubieraią. Y ty Nastko pomoż ich ubierać.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dziwomir">DZIWOMIR.</rs>
+              <rs key="#olechna">OLECHNA.</rs>
+              <rs key="#lubisław">LUBISŁAW.</rs>
+            </p>
+          </stage>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Mam dobrych dzieci: spodziewam się z nich pociechy. Tylko W.M. Pan nie żałuy na nich kanczuka. Mam ia dobry Boćkowski; dam go W.M. Panu.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ja się spodziewam, że oni na to nie będą zasługiwać. Są dzieci boiaźliwe, y maią dobrą pamięć. Byli tu u nas nie dawno zacni sąsiedzi nasi; y w posiedzeniu mowili rożne historye o upiorach. Woytuś, pierwszy raz ie słyszał, y zaraz tak poiął, że niemal słowo w słowo nam one rozpowiadał. Będzie to chłopiec rozumny.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Y Kazuś mu w tym nie ustąpi, choć młodszy. On iuż wszystkie umie historie, o owym Twardowskim Czarnoksiężniku.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Prawda: a przytym maią punkt honoru. Onegday Woytuś, że mu chłopiec coś zganił, zaraz mu dał w gębę, mowiąc, a zasię tobie: znay się kto ty, kto ia. Oy nie da on sobie grać na nosie. A kiedy Lipczyku chłyśnie, w ten czas nie trzeba mu mowić do trzeciego.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Y Kazuś w tym łepski. A do tego ten lubi pieniążki: szeląga nie da nikomu. Grał on w karty onegday, y przegrał kilka groszy, ale ie porwał ze stołu, y nie oddał: a tak iuż w karty figluie, że y starego oszuka. Mam nadzieię, że ten przysporzy fortuny.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Krotko mowiąc, dobre są dzieci. Będziesz W.M. Pan z nich kontent.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Jest to wielka dla Guwernera pociecha, kiedy iego uczniowie maią sposobność do dobrego.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Co w tym, to się W.M. Pan nie zawiedziesz. Ale y z tego iestem kontent, że W.M. Pan trafiłeś właśnie na zaręczyny naszey córki. Będziemy dziś sobie weseli. Będą taneczki, y szklaneczki.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Dziś to ma bydź Mci Dobrodzieiu?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Dziś: spodziewamy się na obiad Jmci Pana Młodego. Jest to Jmć Pan Drągayło, Cześnik Piltyński sąsiad nasz: człowiek maiętny y rozumny. Gospodarz z niego ciemny, Jurysta tęgi. Był on teraz w Warszawie dla pewnego interessu, ale nieborak nic nie wskurał, bo żałował pieniążkow. Kilka dni temu, iak z tamtąd do siebie powrocił.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Rozumiem, że Jmć Panna Podczaszanka Dobrodzika, musi bydź kontenta z Kawalera, ktory ma tak piękne przymioty.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Przyznam się W.M. Panu, że ona pokazuie iakiś wstręt po sobie od niego: ale to podobno bardziey ze wstydu, niż...</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Dziewczyna młoda, nie zna swoiego szczęścia. Swego czasu ten wstręt zamieni się w kochanie. A do tego, ktoż się teraz dla samey miłości żeni?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ja W.M. Pana iuż iako domowego naszego nie wystrzegam się. Mnie się zdaie, że ona będąc w Warszawie, musiała się tam w kim rozkochać: bo wszystko tęskni; sama nie wie, czego się iey chce.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Y ia to uważam: ale czas takowe leczy choroby. Nie mowmy o tym, oto y ona tu idzie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dziwomir">DZIWOMIR.</rs>
+              <rs key="#olechna">OLECHNA.</rs>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#lubisław">LUBISŁAW.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Już moi bracia są gotowi na przywitanie Jegomci.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Więc prosiemy z sobą W.M. Pana. Ty Kostusio ubierz się trochę lepiey na przyięcie swego Kawalera.</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Co też to ten Starosta uczynił! Przyieżdzać tu! przystawać za Guwernera!</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Jest to znak, że on kocha opętanie W. M. Pannę.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Otym ia nie wątpię. Ale on właśnie sam szuka swego umartwienia. Co to za sztylet będzie iego sercu, kiedy w iego przytomności, będę musiała dać rękę temu, ktorego nienawidzę! Biedny moy Starosta! Upewniam cię Nastko, że iego umartwienie bardziey mię trapi, niż mnie moia nieszczęśliwość.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Jeszcze to nie ślub, ale zaręczyny, Kto wie, może się zdarzyć iaka pomyślna okoliczność, ktora uwolniwszy W.M. Pannę od Drągayły, złączy z Starostą.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Trzeba wprzod rozum utracić, niż się tego spodziewać. Starosta nie iest znaiomy moim Rodzicom. Nie wiem ieśli kiedy o imieniu nawet iego slyszeli w tak odległym od nas kraiu. To pewna, że nie mieliby przyczyny odmawiać mię iemu. Procz pięknych przymiotow, iest Kawaler maiętny, szacowany y kochany od wszystkich. A oprocz tego, iest iedyny dziedzic bogatego Wuia, ktory go iak syna kocha.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>To prawda, że o iego Wuiu, wiele dobrego ludzie powiadaią. W.M. Panna go nie znasz?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Nie znam iak tylko z sławy powszechney: ale nie gadaymy iuż o tym, bo mi się serce kraie.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ey mieymy lepszą nadzieię. Kto wie ieśli ia naszego Drągayły z tąd nic wysadzę.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>I cożby się z tąd zawiązało? Wszelako Rodzice wydaliby mię za innego w tym kraiu; a może gorszego ieszcze niż Drągayło. Co mi po wszystkim, kiedy nie ma żadney nadziei pozyskania Starosty moiego; bez niego nie mogę bydź szczęśliwą.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ktoż to wie: częstokroć maluśki przypadek sprowadza szczęscie, ktore za stracone mieliśmy. Czyńmy tylko co do nas należy. W.M. Panna nie przestaway pokazywać wstrętu od swego Kawalera; a ia z moiey strony...</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Cicho! coż to za szelest w tamtym pokoiu?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Zaraz obaczę. <stage>(Zayźrzawszy za parawan)</stage> Pan Drągayło iuż przyiachał. Podobno go tu prowadzą do W.M. Panny.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Owoż moment fatalny.</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dziwomir">DZIWOMIR.</rs>
+              <rs key="#olechna">OLECHNA.</rs>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#drągayło">DRĄGAYŁO.</rs>
+              <rs key="#gwarzyło">GWARZYŁO.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Kostusio; otoż y Jmć Pan Cześnik.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Stawam u portu szczęścia moiego, z raportem iak naygłębszey unizoności moiey W. M. Pannie Dobrodzice, kiedy odbywszy Warszawską drogę, drogą serca moiego oglądam Cynozurę. Składam wszystkie moie podrożne trudy w tey nieoszacowaney ręce, ktora ma bydź dla mnie indexem pomyślnych momentow. <stage>(całuie rękę)</stage></p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Cieszę się, że w dobrym zdrowiu mam honor oglądać W.M. Pana.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Prosiemy siedzieć. Stołkow, hey!</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Chciey W.M. Pan usieść. <stage>(Drągayło czyni ceremonie, po których siadaią)</stage></p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Dawnoż W.M. Pan z Warszawy powrócił.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Dziś trzeci dzień. Dwa dni tylko w domu odpocząłem, y zaraz udałem się tu do szukania moiego szczęścia, ktore mam łaskawie sobie przyrzeczone od W.M. Państwa Dobrodzieiow.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Y dla nas to szczęście, że sąsiedzka nasza przyiaźń, mocniey się ma utwierdzić z tak zacnym Domem W.M. Pana.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Jakże się W.M. Panu Warszawa podobała?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ah Mcia Dobrodziko: sławny iak mowią bęben za górami. Nasi Jchmć co tam bywali, tak zachwalali tę miłą Warszawę, że rozumiałem, iż to Ray Polski. iakze ia tam przyiachałem, patrzę, aż tam nic nie ma dobrego.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Więc nie miała honoru Warszawa przypaść do gustu W. M Pana?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ja nie mowię co do Miasta, uchoway Boże; co to, to szkoda mowić, że tam y Pałacow, y Kamienic pięknych można się napatrzyć; ale iaka tam hołota, iacy ludzie, iakie grubiaństwo, aż fe.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>A naszey Kostusi Warszawa iest wielką faworytką.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Co do oka, y ia iey nie ganię. Wszystko to stroyno, wszystko bogato, wszystko od złota: Lokaie, y Woźnicy nawet galonowani. U nas drugi Pan, co ma na kilkakroć sto tysięcy substancyi, nie będzie tak bogato ubrany, iak tam foryś: ale to wszystko tylko do oka; a w kieszeni straszny pizus. Quod videatur adest, quod comedatur abest. Upewniam że nigdzie świetniey nie paraduie hołota, iak tam. Oh co ia tam miałem za biedę z temi pozłacanemi Kawalerami. Zwąchali, żem przywiozł z sobą dobrego kota, to ustawicznie do mnie biegali; Ey pożycz pożycz kochany Cześniku, choć sto, choć piędziesiąt Czerwonych Złotych. Nuż mię całować, nuż ściskać, ten daie w zastaw kleynoty, ten złotą tabakierę, ten pierścień diamentowy. A naybardziey męczył mię ieden młodzik, zebym mu choć kilkanaście Czerwonych Złotych pożyczył; a miał za sobą Lokaia w galonach; Ja nie mogąc się od niego odżegnać, rzekłem mu. Ale Mos Panie, ia chudy pachołek, proś W.M. Pan tego Jegomci, co za W.M. Panem przyszedł w galonach: on musi mieć pieniądze, kiedy się tak bogato stroi.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Cha cha cha! aleś mu łepsko odpowiedział: to to dowcip, to rozum.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Otoż twoia Warszawa Kostusio.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Przez to Warszawa nie traci swoiey zalety, że w niey czasem znayduią się marnotrawcy. Bywaią przypadki, że czasem y dobrze rządzącym się brakuie pieniędzy.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Da iednakowoż tam nie ma co chwalić. Jabym za iedne oczko Podczaszaneczki, oddał całą Warszawę. Niech ona dla mnie będzie sobie zdrowa. Wolę ia w domu siedzieć. Pro toto mundo Varsoviam non ibo secundo.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Cha cha cha. Ale piękny wiersz Jmć powiedział, a ieszcze z kadencią.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ja tam mało co, nad tydzień bawiłem; a tak mi tęskno było, że nie wiedziałem iuż co y robić.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Nie musiałeś W.M. Pan tam zażywać rozrywek uczciwym ludziom przyzwoitych.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ey zażywałem: byłem ia tam y na assamblach, ale pożal się Boże. Jedni graią w karty, drudzy gadaią iakimściś ięzykiem nie zrozumianym: inni chodzą, y pogwizduią sobie. Ja patrząc na to, postałem sobie trochę, y wąs kręciłem. Nakoniec, widzę, że tam nie ma co robić, poszedłem sobie szczęśliwie.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Pewnie tam W.M. Pan był y na operze.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Byłem raz: co to, to szkoda mowić, bardzo rzecz piękna.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Czemuż tedy W.M. Pan częściey nie bywał?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ah czy to sposob Dobrodziko. Od iednego razu trzeba dać Złotych dziewięć: a ia przyłożywszy drugie tyle, kupię tu sobie iałowiczkę. Targowałem się z puł godziny: dawałem Złot: 2, 3, 5. nakoniec Złot: 8. ale Niemiec iakiś uparty, nie chciał ani szeląga ustąpić. Już chciałem był poyść precz, ale mnie wstyd było, bo drudzy patrzali, y uśmiechali się.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Coż to ta opera?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Po naszemu to iest Dialog: ale co piękny, to piękny. Kiedym ia tam wszedł, to rozumiałem, żem do nieba wleciał. Tam wszystko precz od złota. Złoto na ścianach, złoto na sukniach, złoto na okrętach, na lasach, na gorach. Ja nie wiem z kąd oni tyle złota nabrali. Po bokach zaś wszystko pokoiki, pokoiki piękne na kilka piątr: a w nich damy, iak boginie sobie siedzą: co ładne, to ładne.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Przecięż się podobały W.M. Panu.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Y iak się podobały. Tylko to, co wysoko siedziały, a ia nisko. A potym iacy tam muzykanci! iak oni grali, y śpiewali, niech ich kaci wezmą. Naybardziey iedna Kastratka, iak zaśpiewa, iak westchnie, iak zapłacze na mnie patrząc, tak ia mało y z ławki nie spadłem.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Bardzo się cieszę że przynaymniey ta śpiewaczka bawiła W.M. Pana.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ale to ieszcze fraszka Dobrodziko. Co to tam było, kiedy przyszło do tańcow! Da fe, fraszka nasz drabant. Jak tam wysoko skakali, iak się wykręcali: a im która wyżey podskoczyła, tym bardziey iey nogi drgały. Ale nadewszystko tam ieden był, aż dziw: musiał on zapewne mieć złego w sobie: iak wypadnie z kąta, iak poleci w gorę, iak wpadnie na drabinę, z drabiny na ziemię, potym wleciał na gorę, z gory na doł. Jam rozumiał że on sobie kark, albo nogę przynaymniey złamie: iako żywo nic. Musi to bydź ieden z tych czarownikow, co na łysą gorę lataią. Ja nie wiem, iak mu to tam uchodzi. Gdyby ten Jegomość był u mnie, musiałby poyść na stos.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Cha cha cha.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Da to nie żart Dobrodziko. Takich ludzi nie można dobrym sumnieniem cierpieć na  świecie.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Będzie on żył dla tego. Ale daymy mu pokoy. Coż się tam więcey podobało W.M. Panu?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Wszystko tam pięknie było. Za to tylko zły byłem, że niektorzy młodzikowie po ławkach chodzą, y one nogami paskudzą. Człowiek potym na nich usiadłszy, zwala suknie. A drudzy wlazłszy na ławkę, stoią, y zasłaniaią drugim, że widzieć nie mogą aktorow.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>W tym W.M. Pan masz żal sprawiedliwy: ale dobrze wychowani, nie czynią tego grubiaństwa.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Po tym co ieszcze. Ja sobie słucham śpiewania; aż tu przychodzi młodzik z hałasem, z szelestem; zaczyna witać podobnych sobie: nuż potym śmiać się, nuż gadać, tak dalece że nic słyszeć nie mogłem. Uważam sobie co to za bieda: ia dałem Złot: 9. żebym się nasłuchał, a oni mi nie pozwalaią. Kręcę się, chrząkam, daię znać, że mnie to martwi; a oni swoie. Już chciałem był iednego grzmotnąć, ale mnie ostrzeżono że gdybym to uczynił, toby mnie przytrzymano dłużey w Warszawie, nizbym chciał. Tak ia ramionami ścisnąłem, y siadłem sobie.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Wyznaię, że się znayduią tak niegrzeczni w Warszawie. Nie pierwszy się W.M. Pan na to uskarżasz.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ale y to ieszcze fraszka, względem tego, co mi się tam przytrafiło. Przynosi do mnie ieden szklankę wody zaprawney: a właśnie miałem pragnienie. Wziąłem, y wypiłem. Widzę potym na teyże tacy kubeczki z czymściś białym. Rozumiałem że twarog. Tylko co wziąłem do gęby, iak mię porwie za zęby zimno, aż zdrętwiały. Myślę sobie co to u kata? coś smacznego: kosztuię daley, aż to śnieg zaprawny. Wyprożniwszy kubeczek oddaię; a on mi mowi: zapłać W. M. Pan. Zadziwiłem się: coż? albo nie zapłaciłem Złot: 9. czyż mam ieszcze za śnieg y wodę płacić? Drudzy mi mowią, iż trzeba zapłacić. Co tu robić: kręcę się. Co za nieszczęście! Daię mu trzy grosze, a on; dwa złote za to należy. Ja do niego: czy masz ty sumnienie, za szklaneczkę wody, y kubeczek śniegu dwa złote? Drudzy w śmiech, a ia zły.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>A iuż też to zdzierstwo! Za trochę śniegu y wody dwa Złote?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>A wszelako musiałem zapłacić; darmo! Oy gdybym mogł złapać tego Jmci!</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Cha cha cha. Zażyliż W. M. Pana tam nieszpetnie. Ale W.M. Pan zaziębiłeś sobie tym śniegiem żołądek. Poźdmy: napiymy się wodeczki: iuż też y obiad gotowy. Proszę do izby stołowey.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT II.</head>
+        <div type="scene" n="9">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#drągayło">DRĄGAYŁO.</rs>
+              <rs key="#gwarzyło">GWARZYŁO.</rs>
+            </p>
+          </stage>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Posłuchay moy Gwarzyło. Czy uważasz ty, iak zemną Podczaszanka postępuie.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Ja rozumiałem, że W.M. Pan nie uważasz; ale ia y teraz, y przed drogą Warszawską, aż nad to uważałem, że ona nie tak z W.M. Panem postępuie, iak te Panny, co to kochaią.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Jam się spodziewał, że ona z czasem tę dzikość ku mnie odmieni; ale tu widzę im bliżey do końca, tym gorzey. Same iey poglądania na mnie, mnie się nie podobaią. Ma coś takiego w oczach, co mnie nie dobrze rokuie.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da y więzy ku u niey nie dobrze. Kilka razy podczas obiadu, tak W.M. Panu przycięła, co aż fe do kata.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Prawda: ale to może z poufałości.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da taka poufałość nie piękna. A z tego młodego Guwernera, y oka nie spuściła.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>To nic nie znaczy. Swieży człowiek, z daleka przyiachał: takiemu się każdy przypatruie z ciekawości.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Oy nie Mospanie: inaczey Panny pogladaią z ciekawości. Więcey coś tam było w tym poglądaniu. Ja nie wiem iak się to nazywa: ale to nie ciekawość.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Może to bydź, że się iey y podobał. Panienki prędzey lgną do sukni Niemieckiey, niż Polskiey. A do tego nic mu: ładny y przystoyny Dzieciuk: y iak uważam ma rozum.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Co ma, to ma: ale czy go kaci nadali, iak on pięknie gadał. Wszyscy go z podziwieniem słuchali, a naybardziey Podczaszanka.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Trzeba mu przyznać, że y grzeczny, y uczony.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Tym gorzey dla nas. Mnie się zda, że ona, nie pospołe rzeczy mowiąc, w nim się rozkochała, y dla tego tak z W.M. Panem...</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ey nie to moy Bracie. Wszakże y przed drogą Warszawską, kiedy ieszcze nie było tego Guwernera, ona mi zawsze oziębłość pokazywała.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da czemużby ona W.M. Pana nie miała kochać? Pan słuszny, wąs piękny, a przytym iest y rozum, y pieniądze. Czegoż ona chce u kata?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Y mnie też to dziwno. Czy wiesz co: Nastka iest iey faworytką: ty z nią masz przyiaźń. Czy nie możesz iak z niey wyrozumieć, za co ona tak ozięble postępuie ze mną. Może to czyni przez wstyd iakiś.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Dobrze W.M. Pan mowisz. Ja ią zaraz w pole wyprowadzę.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Y owszem trzeba powoli, a z daleka do tego przystępować. Zaczniy z nią gadać o Warszawie, a potym nieznacznie wyrozumieway, czy nie kocha kogo innego Podczaszanka. Obiecuy odemnie iey podarunki.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da nie boy się W.M. Pan: iuż ia w to potrafię. Otoż y ona. Idź W.M. Pan do kompanii.</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#gwarzyło">GWARZYŁO.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Coż tu porabia Jmć Pan Gwarzyło?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Ot tak sobie chodzę y wąs kręcę.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Pewnie Jegomość tęskni sobie do ktorey Panny Warszawskiey.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da fe do kata, ia tych Warszawianek nie lubię.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Już ia widzę, żey W.M. Panu rownie się Warszawa nie podobała, iak iego Panu.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da co tam u kata miało się podobać? Nie widziałem nigdzie ludu śmiesznieyszego iak tam. Jak się oni stroią! Wszystko opięto, mało na nich kontusze nie pękaią, boty czarne, wąsiki maleńkie, anglizowane, iak sznureczki, u drugich ze wszystkim pościnane: goluteńko pod nosem, aż brzydko patrzyć. Zadnego tam nie ma, iak to u nas; co to wszystko gracko, buchasto, y zamaszysto: wąs duży, karwasz suty, fordyment tęgi, bot żołty: pas sowity z guzem ogromnym, ot tak!</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Musieli się tam przypatrywać W. M. Panu.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da iak nie? Jak za rarogiem chodzili: nie mogłem się od nich odkaraskać. Razu iednego ia sobie stoię z miną dobrą. Miałem na sobie kontusz saledynowy z karwaszami szumnemi, żupan zielony, pod nim kaftan, iakby to łosi: czapka pikowana wysoka, bot żołty, pas po naszemu; oto tak: przy boku pałasz szeroki, z furdymentem ieszcze większym, iak ten: stoię tedy sobie na ulicy, y wąs kręcę: aż tu idzie sobie iakiś czerkiesik. Postrzegłszy mnie, zaczął mi się przypatrywać, y do koła obchodzić. Ja patrzę, czego on chce u kata. Jak spoyźrzę na niego marsem, iak huknę; czego się ty mnie przypatruiesz? Tak ow nieborak zdrętwiał, ścisnął ramionami, y przeżegnawszy się poszedł szczęśliwie.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Musiały go naybardziey zadziwić wąsy W. M. Pana.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da to prawda, że w całey Warszawie nie widziałem wąsow tak sutych. Jeszcze one były większe, ale iakaś tam baba czarownica urzekła ie była, tak dalece, że zaczęły mi były wypadać. Bardzo mię to było zatrwozyło; ale ia na te uroki znalazłem wczas lekarstwo.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Nie miałże W.M. Pan tam iakiego poiedynku.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da fe; czy można: tam polityki nie znaią: żeby kto szabli dobył, to zaraz Jegomci kaydanki na nogi, a łopatę w rękę: y każą bruki heblować. Jednakowoż raz, maluteńko nie przyszło mi do poiedynku.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Z iakieyże to przyczyny?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Oto widzisz W.M. Panna, dał mi ieden w pysk, ale niechcący.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Jak to niechcący mogł dać...</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Widzisz W.M. Panna on sie pomylił i chciał siebie uderzyć, a mnie trafił.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Nie poymuię, iak to bydź mogło?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Oto tak: on grał w karty: a ia stałem za nim, y schyliłem się, chcąc mu zayrzeć w karty. Tym czasem moy wąs załechtał mu po szyi; on rozumieiąc, że mucha chodzi mu po szyi; chciał ią zabić; y zamiast tego, co miał siebie uderzyć, mnie trafił w gębę.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Cha cha cha: widzisz W.M. Pan, iak to źle z wielkiemi wąsami.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da to prawda, że one czasem zawadzaią człowiekowi, iednakże z niemi iest człek wspanialszy, y strasznieyszy.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Coż W. M. Panu potym, żeś strasznieyszy: czy chcesz żeby od W. M. Pana ludzie uciekali? Wszakże y Niedźwiedź straszny, a przecię...</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da to co innego: Niedźwiedź sobie, a ia sobie: on Niedźwiedź, a ia Człowiek. <stage>(Na stronę)</stage> Ale czasby ziechać do interessu, tylko nie wiem iak. Niczego; potrafię. Ale, Mcia Panno: Niedźwiedź iest dziki y szpetny; a W.M. Panna grzeczna, y piękna. Ja W.M. Pannę kocham.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Może? niewiedziałam o tym szczęściu moim.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p><stage>(Zaczynam zieżdzać)</stage> Ot ia sobie myślę, że to nie źle byłoby, gdybym ia się z W.M. Panną, nie pospołe rzeczy mowiąc, ożenił.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Wielki mi honor W.M. Pan czynisz.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p><stage>(Jadę daley)</stage> Tylko nie wiem iak to będzie, kiedy mego Pana zaręczyny nie doydą.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Czemużby nie miały doyść?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Prawdę mowiąc, moy Pan coś postrzegł, że Jmć Panna Podczaszanka nie ma serca do niego.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Może?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Jakby to W.M. Panna nie wiedziała?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Coż ia mam wiedzieć?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da ia wiem że, W. M. Panna wiesz, tylko niechcesz mi mowić.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Gdybym miała co mowić, to chybabym samemu Panu W.M. Pana powiedziała.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Jeszcze lepiey.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>On tego nie wie: iak ia iestem iemu życzliwa.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Dziękuię ci Nastuleńko. To ia poydę zaraz, y oznaymię Panu o łasce W.M. Panny.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ale dla Boga, trzeba to ostrożnie... żeby nicht o tym nie wiedział.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da czyż ia nie wiem, iak trzeba interessa kierować. Nie boy się W.M. Panna.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Trzeba to czynić z wielkim sekretem.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Tfu: czyż ia nie mam rozumu? kiedy ia mowię, to nie boy się W. M. Panna. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Już lazą w moie sidła?</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#lubisław">LUBISŁAW.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Ah moia Nastko, im bardziey poznaię Pana Drągayłę, tym mocniey ubolewam nad losem naszey Podczaszanki. To mię iedynie cieszy, iż ona kilka serdecznych affrontow mu wyrządziła w moiey przytomności. Znać w nim było iakiś gniew y pomieszanie. Kto wie, może go takiemi postępkami odrazi od siebie.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Dopomogę y ia do tego. Drągayło poczyna mieć ufność do mnie. Mam nadzieię, że on przestanie myślić o Podczaszance.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Lubo to mego losu nic nie poprawi, z tym wszystkim...</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Odeydź W.M. Pan: Pan Drągayło idzie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#nastka">NASTKA.</rs>
+              <rs key="#drągayło">DRĄGAYŁO.</rs>
+            </p>
+          </stage>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Nastusio kochana; mowił mi moy Gwarzyło o twoiey ku mnie życzliwości. Będę ci za to wdzięczen, upewniam.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>W.M. Pan nie znaydziesz wiernieyszey nademnie sługi dla siebie. Ja z pierwszego poznania W.M. Pana Dobrodzieia uczułam zaraz iakieś przywiązanie do iego osoby.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Przyrzekam że nie będziesz tego żałowała.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>W czymże W.M. Pan każesz sobie służyć.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Przyznam ci się moia Nastko, że postępki moiey Podczaszanki, przeciwne są oświadczenia Jchmciow iey Rodzicow. Oni mię upewniaią, że Podczaszanka chce iść za mnie. Ja ią kocham serdecznie, ale ona...</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Cha cha cha... Już widzę y W.M. Pan zaczynasz poznawać Jmć Pannę Podczaszankę.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Albo co?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ey niczego. Jakże? chcesz W. M. Pan szczerze ią poiąć?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Toć dla tego tu przyiachałem.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Kiedy W.M. Pan chcesz, to ią bierz. Ona musi to czynić co Rodzice każą: ale...</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Co ale? Mow mi Nastusio.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Prawdziwie żal mi W. M. Pana: łatwo się wplątać, ale potym...</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Coż potym? proszę cię Nastuleńko.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Boię się Mospanie: to nie fraszka iest.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Pewnie mnie nie lubi? Ja to poznaię...</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ey choćby y lubiła... gorszego tu coś iest. Ale potym o tym; bo iuż Kawę niosą, muszę iść do niey. <stage>(Idzie do rozstawiania filiżanek)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dziwomir">DZIWOMIR.</rs>
+              <rs key="#olechna">OLECHNA.</rs>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#drągayło">DRĄGAYŁO.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+              <rs key="#gwarzyło">GWARZYŁO.</rs>
+            </p>
+          </stage>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Prosiemy na Kawę: stołkow. Proszę siedzieć, oto tu przy corce naszey.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Nie uczynię tego.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ale bez ceremonii...</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Znam ia moię powinność. Cui honorem, honorem.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ale ktoż stoiąc kawę piie?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Jchmć DD. niech siedzą, a mnie dobrze y stać, żebym pokazał iak stoię o ich łaskę.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ale do czego... <stage>(bierze za rękę)</stage> siądź W.M. Pan przy Kostusi.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Zaczynam przywykać do posłuszeństwa, ile że mam tę alatere, ktorą noszę in pectore.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Oto tak dobrze: teraz sobie pogadamy. Jmć Pan Cześnik, ma zawsze co powiedzieć.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ja się zadziwiam nad tym, że u nas w prywatnych domach znayduię więcey grzeczności, y polityki, niż w całey Warszawie.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>A przecięć to tam stolica polityki.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Oto krotko tego dowiodę, Poiachałem tam był do iednego przyiaciela z wizytą. Kazałem się annonsować, albo meldować, są to słowa modne Warszawskie. Miałem na sobie Kontusz moy Axamitny galonowany: pas bogaty, karabela takoż, y pierścień suty. Hayduk też za mną słuszny, z guzami wielkiemi. Rozumiałem tedy, że gospodarz z całą kompanią wybieży na spotkanie moie; w tym otwieraią izbę. Widzę, że tam iedni na kanapie rozwaliwszy się siedzą, drudzy się śmieią, inni w karty graią, y gospodarz z niemi. Czy uwierzycie W. M. Państwo, żaden z tych Jchmciow nie powstał przedemną nawet ani Gospodarz: to tylko rzekł: Jmci Pana Cześnika Dobrodzieia mego: iakże się mam w iego łasce? proszę siedzieć. Ja tym grubiaństwem nic nie zrażony, powiedziałem mu moy komplement dość długi, bo trwał na puł kwadransa, a on tym czasem grał sobie w karty, y nic więcey nie odpowiedział, iak tylko: ale usiądźże W.M. Pan. Postałem trochę, czekaiąc aż mię drugi raz będzie prosił do siedzenia: nic z tego. Myślę sobie, co ia mam stać, iak głupi? zakręciłem wąs, y usiadłem. Rozumiałem, że dadzą wina: bynaymniey; ani piwa szklanki! Posiedziawszy więc trochę, powiedziałem znowu komplement pożegnania, ale y na ten inney nie odebrałem odpowiedzi, iak tylko: kłaniam, kłaniam: bądź statecznie łaskaw. Rozumiałem że mię odprowadzi do schodow przynaymniey, ieżeli nie do ulicy; nic z tego. Powstać nawet z stołka nie raczył. Otoż to polityka Warszawska.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Oh co to, zapewne iest grubiaństwo! Niedziwowałabym się, gdyby komu innemu tę krzywdę uczyniono, ale tak zacnemu Kawalerowi, iak W.M. Pan...</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>U drugiego byłem na obiedzie; ale przyznam się, żem po nim był głodniuteńki, choć było aż nad to co ieść.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Czemuż to?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Naypierwsze grubiaństwo, że potraw nie podawano na talerzach, iak polityka każe, ale każdy brał sam sobie z połmiska, ktory wkoło noszono. Ja przez politykę, nie wiele brałem, y tego iednak choć mi sie chciało, nie mogłem zieść.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Pewnie złe były potrawy?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Y owszem smaczne: ale czy mogłemże ia ieść, kiedy Gospodarz ani gęby otworzył prosząc, abym iadł. Drudzy zaś Jchmć serdecznie repetowali, chociaż y ich nie proszono. Ja inaczey wychowany, nie chciałem czynić takiego grubiaństwa, y wolałem głodny wstać od stołu niż wykroczyć przeciwko polityce.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ha do kata z taką grzecznością! Prosić na obiad, a nie prosić żeby zaproszeni iedli. Otoż Kostusio twoia Warszawska polityka!</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Mnie się zda, że skoro kto prosi na obiad, tym samym prosi, aby iedli.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Co innego iest prosić na obiad, a co innego dodawać ochoty do iedzenia. Drugi iuż y nie chce, y nie może ieść, a przecie kiedy ochoczy gospodarz za każdą potrawą nalega, musi ieść choć przez gwałt. A coż mowić o piciu? Widziałaś, iak drugich gości od nas wywożono bez pamięci. O, niech mi wybaczy Warszawa z swoią polityką.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Jeszczeż to fraszka, iam co gorszego słyszał o Warszawie, że iakoby tam Wiara cale osłabiała.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Co? osłabiała? owszem cale upadła. Mowić tam co o upiorach, o czarach, to się śmieią, a sami publicznie czaruią, y ieszcze im za to płacą.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Wszelki duch... czy to może bydź?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Sam na swoie oczy widziałem, iako głowa Cycerona bez ciała gadała; iako diabełki małe tańcuią, iako gołąbek z głowa uciętą ożył y latał, iako koń liczby składał, karty zgadywał utaione: iako kwiatki na ręku posiane, zaraz wschodziły y rosły. A naybardziey ieden chodził od domu do domu z banią szklanną, w ktorey miał złego zaklętego. Co też ten wyrabiał! ktokolwiek iego drotu dotknął się, to palcem swoim wodkę zapalał, to... ale kto wyliczy wszystkie iego czary? Zegnałem, zaklinałem, ale tak mocne były, żem nic nie wskurał.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Jakże? y nie karza tam za to?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Już mowię że ieszcze im płacą. O gdybym ich dostał, zrobiłbym tak, iak z ową babą.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ale... słyszeliśmy że W. M. Pan iakąś babkę nie dawno kazał utopić. Co to ona zrobiła?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Miała z złym duchem konszachty. Sąsiedzi ktorzy się z nią kłocili, dociekli iż u niey, z przeproszeniem, diabeł bywa w nocy, bo inter nos dicendo, bywaią diabli incubi et succubi. Ja chcąc doświadczyć czy to prawda, puściłem ią na wodę. Patrzę, aż ona niechce tonąć. Czy tak Dobrodziko? poczekayże: diabeł się boi kamienia, przywiążcie iey kamień do szyi. Jak to uczyniono, aż moia babuleńka na dno, y tam do tych czas odpoczywa.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Sprawiedliwie.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Miałem y drugą z teyże wsi czarownicę, ktora na łysą gorę latała. Miała taką uzdeczkę od diabła, iż skoro włożyła na męszczyznę śpiącego, wraz się w konia obracał, y w momencie ia na łysą gorę zawoził. A gdy po tym zdieła uzdeczkę, znowu w człowieka się przemieniał. Y tę Jeymć podobnie sprzątnąłem.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>To bywa często: y skoro się człowiek spocony odecknie ze snu, znak iest, iż na nim czarownica hasała.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>A w Warszawie temu nie wierzą, y utrzymuią, iż to iest szaleństwo czarownice topić, lub palić. Jednego tylko znalazłem kawalera, ktory czarom wierzył. Ten mi się przyznał, iż go iakaś Panienka tam oczarowała, y przez swoie czary wszystkie pieniążki do swoiey kieszeni wywabiła. Ja wiedząc o tym, ile razy worek moy kładłem do kieszeni zawszem, go żegnał. Y dla tego nic mi nie zginęło.</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dziwomir">DZIWOMIR.</rs>
+              <rs key="#olechna">OLECHNA.</rs>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#drągayło">DRĄGAYŁO.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+              <rs key="#gwarzyło">GWARZYŁO.</rs> (CIZ SAMI Y)
+              <rs key="#kręciwąs">KRĘCIWĄS.</rs>
+            </p>
+          </stage>
+          <sp who="#kręciwąs">
+            <speaker>KRĘCIWĄS.</speaker>
+            <p>Zaiechał tu do naszey karczmy iakiś Pan. Koni, sług, pocztowych, haydukow, chartow pełno. Ludzie porządni. Sam Pan iuż nie młody, ale fartyczny. Pytał sie mnie o W.M. Panu, czyś zdrow, czyś się postarzał?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Było się spytać, iak się zowie?</p>
+          </sp>
+          <sp who="#kręciwąs">
+            <speaker>KRĘCIWĄS.</speaker>
+            <p>Pytałem się, ale mi odpowiedział, przepraszam Panie Bracie, nie będziesz tego wiedział. To tylko Panu powiedz, żem dawny iego przyiaciel. Chciałem się od ludzi dowiedzieć, ale mi odpowiedzieli, iż im zakazano tego mowić.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ktożby to był. Trzeba podobno poyść do niego.</p>
+          </sp>
+          <sp who="#kręciwąs">
+            <speaker>KRĘCIWĄS.</speaker>
+            <p>Jam mu też mowił, że W.M. Pan do niego przydziesz; ale on na to rzekł: sam ia będę u niego; niech nie idzie, bo go nie każę tu puścić: obaczę, czy też mię pozna, bo iuż lat blisko 30. iakem się z nim nie widział. Potym obrociwszy się do pocztowych rzekł: nie puszczać tu nikogo, choćby y sam Pan tuteyszy przyszedł.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ktożby to był?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Nie zgadnę: alboż to mało przyiacioł miałem, gdym służył w woysku Koronnym.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Otoż będziemy mieli nowego gościa na dzisieysze zaręczyny. Trzeba się na iego przyięcie, przygotować. Niech Jmć Pan Cześnik tym czasem z Kostusią tu bawi. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Kostusio, bądz że rada Jegomci. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#drągayło">DRĄGAYŁO.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Same Nieba nam sprzyiać zdaią się, kiedy tak zacnych sprowadzaią tu gości, dla pomnożenia nam radości.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Nam zaś?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>A iuż ci: Rozumiem że W.M Panna Dobrodzika... przynaymniey tak mi się zdaie... ieśli się nie mylę, że dzień dzisieyszy, będzie dla nas oboyga początkiem radości, y... y...</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Y końcem. <stage>(Udaie szczkawkę)</stage></p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Zadziwiaią mię te wyrazy W.M. Panny Dobrodziki tak krotkie, ale...</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Dłuższych mi szczkawka nie pozwala. Przepraszam, że dla niey muszę odeyść do mego pokoiku. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#drągayło">DRĄGAYŁO.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Proszę na słowko. <stage>(Zatrzymuie Nastkę)</stage></p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Coż mi W.M. Pan roskażesz?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ah moia Nastko, co się to dzieie! Już też dłużey nie zniosę tych affrontow. Na złość ia wezmę za Żonę: mam po sobie Rodzicow.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Wolno W.M. Pana: moia rzecz tylko ubolewać.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Nad kim?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Wiesz W.M. Pan o moiey ku sobie życzliwości. Więcey mi mowić nie godzi się. Jakbym rada, żeby Panna Konstancya dziś za mąż poszła: przynaymnieybym się uwolniła od tey miłey Panienki.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Czemuż to? Powiedz mi moia rybeńko.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ta szczkawka... ale mnie milczeć należy.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Mnie ona strasznie przeraziła, alem nie śmiał przed tobą mowić. Szczkawka... ona czasem nie dobrze znaczy, ale ia nie posądzam.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Y ia o tym nic mowić nie mogę.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Wiem że szczkawka iest czasem znakiem złego w człowieku utaionego.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Y ia to wiem, ale moia rzecz milczeć.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ah Nastko: może tu coś iest.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Jużem powiedziała, że moia rzecz milczeć.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Jakże często ią napada ta szczkawka?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>W dzień rzadko; ale w nocy... ah...</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Coż w nocy? proszę cię kochaneczko.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ja nigdy przy niey nie sypiam; bom się raz nabrała dość strachu; ledwiem uciekła z iey pokoiku.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Da fe do kata! to pewnie u niey w nocy zły duch bywa?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Jam go nie widziała, y tego nie mowię, ale W. M. Pan masz rozum; dość tego.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ja też to uważałem, że w ten czas, kiedy ią szczkawka napadła, miała iakieś dzikie spoyźrzenie, y z takiemi wyszła grymasami, iakby niepospołe rzeczy mowiąc była opanowana.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ja tego nie mowię, że ona czarownica, że opanowana, że ma coś z złym duchem, ale te krotkie iey odpowiedzi W.M. Panu...</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ja się to tego domyślam, że iey szatan nie pozwalał dłużey ze mną rozmawiać, bo się obawia, aby za mnie nie poszła: on wie, iak ia z takiemi ludźmi postępuię.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Jeszczeż ona w dzień bywa spokoynieysza, ale w nocy... nie chcę mowić.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Toć ia rozumiem, że w nocy musi być gorzey. Nie darmo to ona uymuie się za czarownikow. Ale z kąd to iey? Zapewne w Warszawie iey nauczono.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ja tego nie wiem; ale wiem, że w Warszawie u niey iakaś baba szkaradna bywała, z ktorą ona często się zamykała.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Otoż to, to iest, to zapewne. Już iesteśmy w domu.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ale zmiłuy się W.M. Pan, nie mow tego przed żadnym.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Zachoway Panie! rękę ci daię, y upewniam że przed żadnym nic nie powiem.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ja iakem mowiła, tak y teraz powiadam, że o tym wszystkim nic nie chcę wiedzieć, y nic nie mowię. Jeśli W. M. Pan przed kim powiesz, to ia...</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Przysięgam na sekret wielki.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Zeby nas nie postrzeżono, idź W.M. Pan w tamtę stronę, a ia w tę poydę. <stage>(Odchodzi)</stage></p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Dobrze mowisz. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT III.</head>
+        <div type="scene" n="17">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#lubisław">LUBISŁAW.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>No, mowże, co tam masz dla nas pomyślnego. Tu nas nicht nie słyszy.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Mam honor donieść, żem iuż uwolniła W. M. Pannę od tego miłego Drągayły.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ty zawsze mi czynisz nadzieię, przecięż...</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Upewniam W.M. Pannę na poczciwość moię, że Drągayło z niczym z tąd poiedzie.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ah gdyby to prawda była!</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>On teraz rownie nie chce W.M. Panny, iak W.M. Panna iego.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Jakimżeś sposobem tego dokazała?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Tego nie powiem, boby się W.M. Panna gniewała.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Nic mię nie rozgniewa cokolwiek może mię uwolnić od niego.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Słuchayże W. M. Panna, ale się nie gnieway. Jam go misternie w to wprowadziła, iż on ma W.M. Pannę za czarownicę.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Czyś ty oszalała?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Ah tego mu nie daruię.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Mnie osądzić za czarownicę?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Jam tego iemu nie mowiła...</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Aleś mu dała do tego mniemania przyczynę, iak sama mowisz. Wszelakoś nic do rzeczy uczyniła.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Otoż się y gniewaią! Jak tu wierzyć?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Jak się to nie gniewać o takie rzeczy?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Gdzie chodzi o honor...</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Otoż ia ocalę ten honor. Idę powiem mu żem żartowała, y wybiię mu z głowy tę iego imaginacyą. Kłaniam.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Stoy! poczekay...</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Muszę iść, bo może wyiechać tym czasem, y zaręczyny porzucić.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p><stage>(Zatrzymuie ią)</stage> Ale poczekay. Niech iuż sobie iak chce o mnie trzyma, byleby...</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Muszę go przez sumnienie wyprowadzić z tego błędu, żebyś y W.M. Panna swego honoru, y on iey posagu nie stracił.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ale zaczekay: ty chcesz mię martwić.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ja nie wiem iak W. M. Pannie dogodzić. Kiedy ia dobrze czynię...</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Uspokoy się Nastulko moia; a powiedz mi, iakieś go wprowadziła w tak głupie rozumienie?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Prawdę mowiąc, W. M. Panna sama wprowadziłaś go w to przez swoię szczkawkę.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Przez szczkawkę? Coż mu ta szczkawka?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>On mowi, że ona zle znaczy.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Pewnie wniosł, żem opętana?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Nie inaczey. Ja wiedząc, iak on iest łatwy do wierzenia w tey materyi, użyłam iego słabości, na potwierdzenie tego rozumienia.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Co też to tobie przyszło do głowy?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>W. M. Pannie wolno czynić, co się podoba, ale ia nie mogę mu darować tego głupstwa. Idę, nauczę go...</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Stoy W.M. Pan! Chcesz y siebie wydać, y mnie zgubić?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Ale czyż można mu to darować?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Oto y on idzie: Chodź W. M. Pan ze mną. Nastko, zabaw go tu, żeby nie szedł za nami.</p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#nastka">NASTKA.</rs>
+              <rs key="#drągayło">DRĄGAYŁO.</rs>
+            </p>
+          </stage>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ah moia Nastko, nie wiem sam, co mam czynić. Niechciałbym utracić Podczaszanki: kocham ią: ale zdrugiey strony drzę cały, gdy wspomnę na to, co wiesz.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Czyń W.M. Pan co się podoba: iesteś Pan mądry. Wiesz W.M. Pan, że miłość iest nayżywsza przed ślubem: po ślubie słabieie: po tym ustaie, a na koniec w ohydę często się zamienia. Żona zaś raz poięta, nigdy bydź żoną nie przestaie.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Prawda.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Więcey W.M. Panu nic mowić nie mogę. Zal mi y tego, com mowiła. Zyczliwość moia ku W.M. Panu wymusiła na mnie, żem mu ten sekret wydała. Trzymay go W.M. Pan zmiłuy się Bo ieżeli się o nim dowiedzą, to ia się zaprę wszystkiego, y wyklnę, żem tego nigdy nie mowiła, a W.M. Pana osądzą za plotkę.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Co tego, to się nie lękay: ale ia nie wiem co mam czynić! Przyidzie do tego, że pod innym pretextem zwlekę te zaręczyny.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Wolno Panu co chcąc czynić, byle bez wydania naszego sekretu. <stage>(Kłaniam)</stage></p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Nie wydam, upewniam. Ktoby się spodziewał, żeby Podczaszanka... Przeklęta Warszawo, o iak ty psuiesz młode Panienki! Wczas tu idzie Gwarzyło. Jest to moy dawny sługa, y czasem dobrze mi radzi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#drągayło">DRĄGAYŁO.</rs>
+              <rs key="#gwarzyło">GWARZYŁO.</rs>
+            </p>
+          </stage>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Coż to? Pan smutny, kiedy zaręczyny... Da fe MosPanie, dalibog że to nie pięknie.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ah moy bracie, ty nie wiesz, co się święci. Podobno nic nie będzie z naszych zaręczyn.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da porzuć W.M. Pan: z kąd ta desperacya? Panna ładna, posag łepski: czegoż nam więcey potrzeba.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ah moy Gwarzyło powiedziałbym tobie, ale...</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Ja wiem, co W.M. Pan chcesz mowić; to iest, że Panna nie kocha W.M. Pana. A nam co do tego, czy ona kocha, czy nie kocha, byleby my iey dostali. Jak zawieziem ią do domu, to ona nie widząc tam żadnego Gacha, będzie musiała kochać W.M. Pana.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ah to fraszka: to gorsza, że sumnienie mi nie pozwala iey poymować.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>To co innego.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Zgubiłbym y duszę, y życie, gdybym ią wziął za żonę.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Tam do kata, musi to być coś nie pięknego. Już ia tego nie zgadnę.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Jakbym tobie powiedział, alem sekret poprzysiągł.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>To znowu co innego.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Mogłbym podobno ci powiedzieć, ale...</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Kiedy W. M. Pan możesz, to mow śmiało, ia dotrzymam sekretu, a kiedy nie możesz, to nie mow. Ja to tylko powiadam, że W.M. Pan przyiachałeś tu na zaręczyny: gdybyś z tąd z niczym powrocił, podałbyś siebie na ięzyki całey okolicy.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Y to prawda. Otoż powiem ci wszystko iak iest; ale czy przyimuiesz sekret.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da tfu Mospanie: czy W.M. Panże mnie nie wierzysz?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Słuchayże Przyiacielu, czy życzyłbyś mi Podczaszanki, gdyby ona była... tym co to... ah nie śmiem mowić.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Czym u kata? mow W.M. Pan śmiało.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Gdyby ona była naprzykład czarownicą?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da fe, da porzuć W.M. Pan... wszelki duch... Co to W.M. Panu przyszło do głowy?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>A gdyby tak było?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da nie gaday W.M. Pan tego! tfu!</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Otoż tak iest przyiacielu.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Eh niewierz W.M. Pan temu: to ludzkie udanie. Ja z oczu poznam czarownicę: ona zawsze ma coś strasznego.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Otoż to iest. Ile razy dziś na mnie Podczaszanka spoyźrzała, zawszem coś dzikiego postrzegł w iey oczach.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Y ia to uważałem, że ona nie pięknie na W.M. Pana poglądała; tylkoż czarownice bywaią straszne, a ona miła.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>To prawda o naszych czarownicach, ale Warszawskim same czary wdziękow dodaią.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Dziwne mi rzeczy W.M. Pan powiadasz.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ale prawdziwe.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Da z kądże W. M. Pan wiesz, że ona iest taką?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Tego ci mowić nie mogę, ale upewniam, że tak iest, a nie inaczey.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Może to wszystko bydź.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Coż mi radzisz?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Moia rada sprobować, czy ona iest czarownicą.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Jakże ia mogę sprobować?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Po naszemu. Mów W.M. Pan iey Rodzicom, niech ią spławią.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Czy masz rozum? Jak to im mowić mogę?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Kiedy nie można, to ia inaczey poradzę.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Słucham.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Ożeń się z nią W. M. Pan pierwey, a potym ią spławiemy.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ale co gadasz? mam się żenić z czarownicą?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Kiedy tak, to W.M. Pan nie żeń się.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Tak też y ia myślę: ale nie wiem, co mam powiedzieć iey Rodzicom.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Powiedz W.M. Pan, że niechcesz ich córki.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ale iaką dam przyczynę tey odmiany?</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Taką że W.M. Pan niechcesz, y kwita.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Niechciałbym urazić Podczaszych: są moi dobrzy sąsiedzi, y ludzie poczciwi. A do tego przyznam się, że mi żal Podczaszanki. Niechciałbym iey utracić.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>To się W.M. Pan żeń.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Ale co gadasz? iakim sumnieniem mogę...</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>W.M. Pan widzę, y chcesz y niechcesz. Ja nie wiem co to znaczy, ale się boię, czy nie oczarowała ona W. M. Pana.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Dobrze mowisz; może to wszystko być; bo mi się coś w głowie miesza; sam iuż nie wiem co czynić.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Otoż tak Mospanie. Uiedźmy z tąd cicho, ukradkiem; a w domu pomyślemy, co mamy uczynić.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>To nie zła rada.</p>
+          </sp>
+          <sp who="#gwarzyło">
+            <speaker>GWARZYŁO.</speaker>
+            <p>Ja konie wnet okulbaczę.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>W samey rzeczy tak uczynię; wyiadę nic nie mowiwszy. Idź kulbacz koni.</p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#drągayło">DRĄGAYŁO.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Muszę dać baczność, żeby tu było chędogo: bo nie bawiąc ma tu przyiść ow gość, ktory w karczmie stanął.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Albo iuż idzie?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ma przyiść nie bawiąc. Nasz Pan chciał go nawiedzić, ale on przysłał do niego towarzysza swego, aby sie nie turbował, bo sam w krotce ma przybyć.</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Przyznam się moia Nastko, że nie chcę tu przy nim znaydować się.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Coż W. M. Pan myślisz?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Wyiechać zaraz nie pożegnawszy nawet Państwa. Pokłoń sie im odemnie, a powiedz że wyieżdzam dla uniknienia wizyty owego gościa: y że tego mam moie przyczyny.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Jakże? powrocisz W. M. Pan na zaręczyny?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Przyznam się szczerze, że iuż o nich nie myślę. Miey to W. M. Panna w sobie. Proszę przyiąć tę bagatelę na niezabudesz. Kłaniam.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Tak prędko?</p>
+          </sp>
+          <sp who="#drągayło">
+            <speaker>DRĄGAYŁO.</speaker>
+            <p>Muszę: Kłaniam serdecznie.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Szczęśliwa droga: tegom też ia chciała.</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Zda mi się, że Pan Drągayło z tąd odszedł.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Tak iest: kłania W.M. Pannie, y żegna ią serdecznie.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Jak to żegna? albo wyieżdza?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Wyieżdza, y bez powrotu do W. M. Panny.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Bez powrotu?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Dziękuie W.M. Pannie za chleb, y za sol, y za przyiaźń.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Jakże? w samey rzeczy iuż on nie myśli o mnie?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Choćbyś W.M. Panna iego chciała, to on iuż niechce. Widzisz W.M. Panna, czego moy rozum dokazał.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Owoż nowe dla mnie umartwienie! Rodzice na mnie zwalą przyczynę iego odiazdu, y będą mię prześladowali.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Nie boy się W.M. Panna: biorę to na siebie. Wiem ia, co mam im mowić.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Wszystko to nie polepszy losu moiego. Wyiedzie Drągayło, to przyiedzie drugi iemu podobny, albo y gorszy, a ten ktoremu serce moie poświęciłam...</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Oh! ia W.M. Pannie nigdy nie dogodzę! Chciałaś się W. M. Panna uwolnić od Drągayły...</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Cicho... Jchmć idą.</p>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dziwomir">DZIWOMIR.</rs>
+              <rs key="#olechna">OLECHNA.</rs>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Kostusio, coż to iest? Jmć Pan Cześnik wyiachał z tąd, y słowa nam nie rzekłszy: coż to ma znaczyć?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Musiałaś mu iaki afront wyrządzić.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ja afront...</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ta twoia oziębłość ku niemu, te krotkie y oboiętne twoie odpowiedzi, musiały mu dać przyczynę do takiego wyiazdu.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Starałam się ile możności, nawet z gwałtem serca moiego, czynić mu wszelką grzeczność, podług roskazu W.M. Państwa: z tym wszystkim wyznaię, że serce moie nie zawsze było posłuszne rozumowi. Trudno iest udawać przez długi czas miłość ku temu, od ktorego wstręt czuiemy.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ciesz się teraz: upewniam, że y umrzesz Panną. Ten odiazd Cześnika, będzie dla ciebie plamą nie zmytą. Każdy pomyśli sobie, że nie darmo cię człowiek tak rozumny porzucił: musiał coś w tobie nie pięknego postrzedz.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Jakoż, y postrzegł; on się wszystkiego mi zwierzył.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Coż to on postrzegł?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Przywarę brzydką, szpetną, haniebną y niezbożną.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ale mowże co on postrzegł?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Szczkawkę.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Co ty gadasz? czy masz rozum?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Tak iest, a nie inaczey. Szczkawka go odraziła od Panny Konstancyi.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ale iak to być może?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Przy ostatnim iego rozmawianiu, napadła szczkawka na Pannę Konstancyą, y przymusiła ią odeyść od niego. On to wziął sobie na głowę, y począł mi mowić, że to zły znak, że Panna Konstancya musi mieć w sobie złego.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Jakiego złego?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Po prostu mowiąc, złego ducha.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Wszelki duch...</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Szalony! To pewnie on rozumie, że Kostusia iest opętana?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Więcey ieszcze on mówił, bo mowił, że Jeymć ona z złym duchem konszachty, y że z nią żyć nie może przez sumnienie.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Onby miał to mowić?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Otoż mowił, mowił, ia mu y w oczy to powiem.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>A ty coś na to mu odpowiedziała?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Jam zkamieniała ze złości: y gdybym pod ten czas miała co w ręku, tobym mu łeb rozbiła do stu katow.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Prawda, że szczkawka... ale czyż każdy ma bydź opętany, co szczkawkę miewa?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ktoby sie spodziewał, żeby ten człowiek tak głupie miał podeyźrzenie!</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Mężuniu napisz list do niego; niech tu przyiedzie, y niech sobie wybiie z głowy to nie słuszne rozumienie.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Więc trzeba Jegomci prosić, żeby mi taką zniewagę uczyniwszy... <stage>(płacze)</stage> Do tegom iuż przyszła, że trzeba szukać, żeby mię z miłosierdzia raczył kto poiąć?</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ale moie dziecie, szkoda tey partyi: a o inney nie słychać. Dobre to przysłowie, że pierwszego targu nie trzeba opuszczać.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Albom tak przestarzała?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ale moia rybeńko, dobrze Kostusia mowi. Mnie się zda, że choćby on y sam o nią się teraz nabiiał, to nie powinnibyśmy mu tey łaski czynić.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Tylkoż to człowiek rozumny.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Coż potym, kiedy tak podeyźrzliwy. Jakie byłoby ich pożycie!</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Może kto iemu na figiel to powiedziały a on uwierzył.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Choćby y tak było; czyż on powinien tak lekko temu uwierzyć. Jest to znak że on lubi plotki: iakże można żyć z takim?</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Jeszczem nie widziała takiego człowieka! Przyiachać na zaręczyny, wyiachać po złodzieysku, podać na ięzyki ludzkie y siebie, y Pannę, y Państwo... Jam uboga, a nigdybym nie poszła za niego.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Oy ty; wiem iakeś psowała córce mey serce do niego.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ale ona rozumnie mowi. Dobrze się stało że się ten związek potargał. Zgubilibyśmy córkę. Jam zawsze mowił, że nie należy nam z naszym towarem nabiiać się. O co nam chodzi?</p>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#kręciwąs">KRĘCIWĄS.</rs> (potym)
+              <rs key="#miłogost">MIŁOGOST.</rs> (A z nim kilku Towarzystwa. y ciż sami)
+              <rs key="#dziwomir">DZIWOMIR.</rs>
+              <rs key="#olechna">OLECHNA.</rs>
+              <rs key="#konstancya">KONSTANCYA.</rs>
+              <rs key="#nastka">NASTKA.</rs>
+            </p>
+          </stage>
+          <sp who="#kręciwąs">
+            <speaker>KRĘCIWĄS.</speaker>
+            <p>Już idzie ten Pan, co w Karczmie...</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Idźmy na spotkanie.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Jakże się masz moy dawny przyiacielu.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Upadam do nog W.M.P. Dobrodzieia.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Niechże cię uściskam po dawnemu! coż? nie znasz mię W.M. Pan?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Prawdziwie nie mogę przypomnieć.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Y także to moy Poruczniku kochany...</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ah coś... coś mi przychodzi.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Jestem Miłogost.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ah moy niegdyś Rotmistrz. <stage>(Sciskaią siebie wzaiemnie)</stage> Ah coż to dla mnie za szczęście. Jużem się nie spodziewał W. M. Pana ogladać.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Dobrze to mowią: gora się z gorą nie zeydzie, a człowiek...</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Prawda. Olesio to moy niegdyś Rotmistrz, ia byłem u Jmci Porucznikiem.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ah to Jegomć, o ktorym W. M. Pan tak często wspominałeś.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Proszę mię rekommendować Jeymci Dobrodzice.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Owszem ia się polecam łasce W.M. P. Dobrodzieia.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Żebyś wiedziała moia Pani, iak my się z sobą kochali; bracia rodzeni nie mogą żyć tak poufale!</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>To pewna że w życiu moim nie miałem serdecznieyszego przyiaciela, nad Jegomci.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Kiedyśmy się przez dzień z sobą nie widzieli, tośmy tęsknili do siebie.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>A kiedy Jegomć po skończoney woynie oddalał się do domu z woyska naszego, tom aż zapłakał: choć nigdy w życiu moim, ani przedtym ani potym nie płakałem.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Toż samo y ia. Mnie się zdawało, że mi się dusza z ciałem rozstawała, kiedym ostatni raz żegnał Jegomci.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Ja że do tąd żyie, winienem Jegomci. Pamiętasz W.M. Pan naszę pod Kowalewem potyczkę, kiedy owo podemną konia zabito, y sam raniony byłem: nasi się rozpierzchneli, a w tym dwóch karabinierow nieprzyiacielskich leci do mnie z pałaszami. Ja tu widzę, że trzeba zginąć. W tym przypada Jegomć, zasłania mię swemi piersiami, y iednego z tych Jmciow kulą drugiego pałaszem tak gracko przywita, że ieden zaraz spadł z konia, a drugi raniony, daley w nogi. Jegomć w tym razie porwawszy za konia prożnego, daie mi go; siaday Rotmistrzu. Jam wsiadł, y znowum się bił.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>To prawda, ale mi też Jegomć dobrze za to nadgrodził pod Nadarzynem. Oskoczony od kilku nieprzyiacioł sam ieden, broniłem się długo, ale na koniec, musiałem się im poddać. W tym, gdy mnie iuż prowadzono iak niewolnika, przypadł Jegomć, rozgromił nieprzyiacioł, y mie uwolnił.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Ey to prawda, żeśmy się gracko biiali, pod ten czas. W sześciu potyczkach byliśmy, a zawsze ieden przy drugim.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ale stołkow: prosiemy W. M. Pana Dobrodzieia usieść. <stage>(Siadaią)</stage></p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Czy żyie ieszcze ow dzielny Staruszek, Pocztowy W. M. Pana?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Dochowałem go do śmierci, a pamiętaiąc, naiego dopomogłem do szczęścia iego Synowcowi.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>A gdzie się też podział ów koń W. M. Pana kasztanowaty? Ey co to za koń był! teraz trudno o takiego.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>O! iuż y kości iego niema: dochowałem go aż do śmierci. Ale W.M. Pana siwy, siwy! Co za sprawność! iaka żwawość, iaka rączość. W całym Obozie nie było lepszego.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Prawda że był koń cnotliwy. Darowałem go iednemu Towarzyszowi; y niewiem co się z nim stało A ów chart W.M. Pana Personat nazwany? Co to za chart był! nie widziałem podobnego!</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Y tego aż do śmierci dochowałem. Ale chciey mi W.M. Pan Dobrodziey o sobie powiedzieć, gdzie się przez ten czas obracałeś?</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Zawsze przy Woysku.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>W iakieyże teraz randze?</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Dano mi przecie Pułkownikostwo.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Coż tu W. M. Pana sprowadziło do naszego kraiu?</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Oto Mos Panie dał mi nie dawno Król moy kochany, [niech mu Bog błogosławi] dał mi mowię Starostwo nie daleko tu od W.M. Pana. Obiąłem ie, y dowiedziawszy się, że się W.M. Pan w tym kraiu znayduiesz, przyiechałem tu umyślnie, choć mi z drogi było.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Jakież to Starostwo?</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Nadgrodzkie.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ah to te co z tąd leży mil ośm.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Tak iest.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>A to piekne Starostwo: winszuię W. M. Panu serdecznie, a razem y sobie, że będziemy w bliskości mieszkali.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Przyznam się W.M. Panu, że tego Starostwa nie myślę sam trzymać. Wiadomo W.M. Panu że mam znaczne dziedziczne dobra.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ach czyż ia nie wiem!</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Jeszczem ich drugie tyle przymnożył, iak miałem podowczas, kiedyśmy z sobą służyli. Jestem człowiek nie żonaty, obeydę się bez tego Starostwa. Mam Siestrzeńca grzecznego, myslę mu tego Starostwa ustąpić. Konsensu łatwo dostanę, bo go Król kocha.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>To Jegomć Dobrodziey nie ma potomstwa swego.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Nie mam Mcia Dobrodziko, bom się też y nie żenił.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Czemuż to? Szkoda!</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Co żołnierzowi po żonie. Z tym wszystkim, małom się był nie ożenił, gdym ieszcze był młodszym. Miałem upatrzoną dla siebie Panienkę, zacną y z urodzenia, y z przymiotow, y z urody. Rodzice iey gwałtem prawie mnie ią oddawali. Ale ia postrzegłem, że ona lepsze serce miała do innego, niż do mnie, przetoż ustąpiłem z placu. Wołałem siebie niż ią umartwić.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Nie trzeba było na to uważać. Powoli, powoli. odmieniłaby serce.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Doświadczyłem nie raz tego, że małżeństwa, ktore się w nadzieię przyszłey miłości koiarzą, diabła są warte.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Szkoda! Mogłbyś W. M. Pan w tym wieku mieć pociechę z potomstwa.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Przyznam się W.M. Pani. że na tey mi nie zbywa. Nie mam w prawdzie dzieci, ale mam siestrzeńca, wielkich nadziei młodziana. Nie wiem, czy kochałbym tak syna, iak kocham iego. Piękne iego przymioty, ziednały mu powszechny szacunek, tak u Dworu, iako y u innych.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Serdecznie tego winszuiemy W.M. Panu.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>A W.M. Pan wiele masz dzieci?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Mam dwoch Synkow, y tę córkę, ktorą rekomenduię łasce W.M. Pana.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Nie trzeba mi Jeymci rekomendować. Jey uroda tak śliczna, przeniknęła mię aż do serca. Przyznam się, że miałbym pokusę choć na starość się ożenić, gdybym wiedział, że Jeymć... Ale diabła tam ma młoda starego kochać.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ten żart W.M. Pana Dobrodzieia iest nadto dla mnie pochlebny.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Przysięgam, żem ładnieyszey nie widział! My żołnierze podchlebiać nie umiemy. Zna mnie Jegomć.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Co w tym, to ręczę, że u Jegomci zawsze co w sercu iest, to y w uściech.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Gdzież się W.M. Panna edukowała? Czy zawsze tu w domu?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Byłam lat kilka w Warszawie u Madame de Grandbruit.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Słyszałem o niey: wszyscy iey edukacyą chwalą.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Y ona też aż nazbyt podobno, chwali naszę córkę, iakoby miała we wszystkim celować inne swe towarzyszki.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>To chwała Bogu. Ey szkoda, że nie ma tu mego Siestrzeńca! Czy wiesz co moy dawny Poruczniku... Oto tak... Byłoby to nie źle, żebyśmy nowym związkiem starą przyiaźń utwierdzili. Sprowadzę ia tu Siestrzeńca. Ma dobra znaczne po Oycu, y Starostwo po nim. Teraz będzie miał drugie odemnie: a po śmierci moiey wszystko mu sie dostanie.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Ponieważ Siestrzeniec W.M. Pana tak iest grzeczny, iak słyszę, zgoda.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>[Owoż nowe nieszczęście!]</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Wiem, że Jeymć będzie go kochała, bo procz tego com mowił, iest ładny y przystoyny młodzian. W Warszawie go kochaią.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ale kto wie, ieżeli Siestrzeniec W.M. Pana zechce?</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Za niego ręczę! On iest moiego gustu. Ale ktoby u kata nie kochał takiey piękności! Coż na to W.M. Panna?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Coż ia mogę...</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Ja upewniam że ładny. Ale apropos. Wchodząc tu, widziałem iakiegoś Kawalera przystoynego. Moy Siestrzeniec iest podobniuteńki do niego.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Ktożby to był?</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Widziałem go w sieni. Ale iak podobny! chciałem mu się lepiey przypatrzyć, ale on się odwrocił, y gdzieś odszedł.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>To pewnie Pan Guwerner, ktory tu nie dawno przyiechał z Warszawy.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Radbym go, widział: bo to żywy portret mego Siestrzeńca.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Nastko, prosić Pana Guwernera. <stage>(Nastka odchodzi)</stage></p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>W samey rzeczy, nic milszego dla mnie bydź nie może, iako gdy moy dom złączy się z domem W.M. Państwa. Że do tąd żyie winienem W.M.P. iakiem iuż mowił. Chcę, żeby y w Siestrzeńcu została pamiątka moiey wdzięczności. Skoro do Warszawy przyiadę, zaraz go tu przyślę. Przysięgam, że go wszyscy będziecie kochali.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p><stage>(powraca)</stage> Pan Guwerner nie chce inaczey widzieć się z Jegomcią, iak tylko sam na sam.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>A to czemu?</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Mnie to zadziwia.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Ja nie wiem.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Pozwolcież mi W.M. Państwo: poydę do niego.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Y owszem niech on tu przyidzie, my tym czasem z tąd ustąpiemy.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Zgoda y na to.</p>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#miłogost">MIŁOGOST.</rs> (potym)
+              <rs key="#lubisław">LUBISŁAW.</rs>
+            </p>
+          </stage>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>W samey rzeczy nie źle byłoby, gdyby moy Siestrzeniec poiął tę ładną Panienkę. Ociec iey, iest poczciwy człowiek, y dobrze się biiał. Kochaliśmy się z sobą... <stage>(Nadchodzi Lubisław)</stage> Otoż... co ia widzę? czy mi się śni... Nie inaczey, to moy Siestrzeniec.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Masz mię W.M. Pan Dobrodziey u nog swoich zawstydzonego. Znam to, że moia tu bytność, nie mniey zadziwia W.M. Pana Dobrodzieia, iako y uraża.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Zadziwia to prawda, ale urazić mię pierwey nie może, aż się dowiem o przyczynie. Nie spodziewam się po tobie, żebyś miał to uczynić z iakiey swawoli.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Słabość mię moia tu sprowadziła: ieżeli iednak może się słabością nazwać, miłość uczciwa, miłość rownie z serca iako rozumu pochodząca.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Weyno, do czego tą miłość młodych przyprowadza. Mnie samemu w tym wieku nie raz głowę zawracała. Ale słucham, co to za miłość, y do kogo?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Do tey Podczaszanki, ktora wespoł z Rodzicami teraz z tąd wyszła.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Ho ho ho? Panie Bracie, dobrego iesteś, iak widzę gustu. Że też to przed temi młodzikami nic pięknego ukryć się nie może! Ale iakieś ią tu wyśledził?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Jam w Warszawie ią poznał.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>A z kądże ci w łeb wlazło to Guwernerstwo?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Nie miałem innego pretextu tu przyiachania. Podczaszanka z roskazu Rodzicow, pisała do swoiey Madame, aby dla iey braci znalazła iakiego Guwernera. Toż samo y do mnie wyraziła, przydaiąc, że ią Rodzice chcą wydać za takiego, ktorego ona cierpieć nie może. Ta nowina zasmuciła mię bardzo. Umyśliłem tedy wziąć na się postać Guwernera, y tu przyiechać, żebym albo zwlokł iey zamęźcie, albo przynaymniey choć raz ieszcze ią oglądał</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Weyno, co wynalazek! Ale iakże? Mnie w karczmie mowiono, że dziś maią być zaręczyny tey Panny.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Miały być; ale iey Kawaler postrzegłszy że Dama go nie lubi, wyiechał z tąd nie dawno, nie pożegnawszy nawet Rodzicow.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Coż tedy? Chciałeś się z nią żenić bezemnie?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Bynaymniey. Po ustąpieniu z tąd iey Kawalera, miałem biec do W.M. Pana Dobrodzieia, y prosić go, abyś mi dopomogł do tego szczęścia.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>A gdybym ia na to nie zezwolił?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Leżałbym poty u nog W.M. Pana Dobrodzieia, ażbym otrzymał tę łaskę.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Ale gdybym ia niechciał?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Mnie się zda, że cokolwiek mię uszczęśliwić może, to wszystko uczyniłbyś W.M. Pan Dobrodziey.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Jak widzę Panie Bracie, ty nie źle o mnie trzymasz. Coż tedy? kochasz ią?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Ah gdybyś W.M. Pan Dobrodziey znał te Damę, iaki rozum, iakie serce, iak piękne obyczaie...</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Oh wy młodzi, kiedy widzicie twarz piękną, to zaraz w niey znayduiecie, y rozum, y cnoty, y obyczaie dobre.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Y posag po niey znaczny.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Ey co mi ten posag! Mam tego za... za głupiego, kto się z posagiem żeni. Twoy posag iest u mnie. Jesteś moy dziedzic.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Ah Mci Dobrodzieiu...</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Ey day mi pokoy z temi ukłonami! Wiesz, że ich nie lubię. No... Już to widzę, że kochasz Podczaszankę: ale ona czy kocha ciebie?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Jestem pewien iey serca.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Nie wiem iak Rodzice... to twoie Guwernerowstwo nic po tym: mogą ci zadać iaką płochość. Ale stało się. Słuchayże. Ja lubię więcey czynić, niż gadać. Idź proś do mnie Rodzicow Panny; a nic nie mow nikomu cośmy gadali. Ale... czy wie Podczaszanka, żem twoy Wuy?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Nie wie.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Nie mowże iey nic. Proś Rodzicow y sam tu bądź na pogotowiu.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Lecę.</p>
+          </sp>
+        </div>
+        <div type="scene" n="25">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#miłogost">MIŁOGOST.</rs>
+              <rs key="#dziwomir">DZIWOMIR.</rs>
+              <rs key="#olechna">OLECHNA.</rs>
+            </p>
+          </stage>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p><stage>(sam)</stage> Ma widzę wielką ochotę do Małżeństwa. Niech się żeni. Panna ładna: Ociec iey moy wielki przyiaciel. Ale trzeba iakoś zatrzeć tę płochość Siestrzeńca, że się udał za Guwernera. Otoż y Rodzice.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Pan Guwerner nasz bardzo wesoły wyszedł od W.M. Pana.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Spodziewam się, że będzie ieszcze weselszy przy łasce W. M. Państwa. Jabym chciał wiedzieć, iak się on też podoba W. Państwu?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Jeszcześmy się w nim dobrze nie rozpatrzyli: to iednak w nim poznaliśmy, iż iest grzeczny, y rozumny. Co się tycze obyczaiow, nie wiem.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Jabym ręczyła, że y obyczaiow iest dobrych. Sama poczciwość patrzy mu z oczu.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Y ia w tym ręczę za niego słowem Kawalerskim.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Alboż iest znaiomy W.M. Panu Dobrodzieiowi?</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Bardziey, niż się W. M. Pani Dobrodzika spodziewasz.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Wielce się cieszemy z tego.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Mowię powtornie, że y za obyczaie iego, y za statek ręczę. Ale radbym wiedział, gdyby moy Siestrzeniec, był takim iak on, czy oddalibyście W.M. Państwo swą córkę za niego.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Mowię W.M. Panu, że miałbym to zaszczęście.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Cożby mogło bydź dla nas pożądańszego.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Proszę mi na to dać rękę.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Całym sercem.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Zgoda.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Panie Siestrzeńcze! Panie Starosto! hey!</p>
+          </sp>
+        </div>
+        <div type="scene" n="26">
+          <head>SCENA X.</head>
+          <stage type="entrance">
+            <p>
+              (CIZ SAMI) <rs key="#miłogost">MIŁOGOST.</rs>
+              <rs key="#dziwomir">DZIWOMIR.</rs>
+              <rs key="#olechna">OLECHNA.</rs> (Y)
+              <rs key="#lubisław">LUBISŁAW.</rs>
+            </p>
+          </stage>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Stawam na rozkaz W.M. Pana Dobrodzieia.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Otoż go macie: to iest moy prawdziwy Siestrzeniec, o ktorym mowiłem.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Jak to?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>To Pan Guwerner.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Mowię, że to moy Siestrzeniec. Wiesz moy poruczniku, że ia y z młodu nie lubiłem płocho co mowić. Jeżeli chcecie moi Panowie, będziecie mieli z niego dobrego zięcia. Jam gotow przed ślubem ogłosić go prawnie dziedzicem wszystkich dobr moich: a Starostwo Nagrodzkie, tegoż momentu iemu wypuszczam. Coż? zezwalacie W.M. Państwo na to?</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Całym sercem.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Chętnie. Ale co za przyczynę Jegomć miał, brać na się postać Guwernera?</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Tak iemu było potrzeba: potym o tym: teraz nam nic nie zostaie, iak tylko wiedzieć, ieśli Podczaszanka na to zezwala?</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Czemu nie? ona musi...</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>To słowo musi, nie dobrze znaczy w takiey okoliczności. Już tedy nam tylko Podczaszanki nie dostaie.</p>
+          </sp>
+          <sp who="#olechna">
+            <speaker>OLECHNA.</speaker>
+            <p>Zaraz tu przyidzie. Kostusio!</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Nigdym nie był tak szczęśliwy...</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Otoż y Podczaszanka. Pozwolcie mi W.M. Państwo, niech ia sam z nią rozmowię w przytomności W. M. Państwa.</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Z ochotą.</p>
+          </sp>
+        </div>
+        <div type="scene" n="27">
+          <head>SCENA XI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#miłogost">MIŁOGOST.</rs>
+              <rs key="#dziwomir">DZIWOMIR.</rs>
+              <rs key="#olechna">OLECHNA.</rs>
+              <rs key="#lubisław">LUBISŁAW.</rs> (CIZ SAMI, Y)
+              <rs key="#konstancya">KONSTANCYA.</rs> (Z)
+              <rs key="#nastka">NASTKĄ.</rs>
+            </p>
+          </stage>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Mcia Panno Podczaszanko; mam pozwolenie od Jmciow spytać iey o coś: tylko proszę rzetelnie mi odpowiadać, bom y ia Człowiek rzetelny.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Słucham Mci Dobrodzieiu.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Powiedz mi W.M. Panna, czy chciałabyś poyść za mego Siestrzeńca?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Bardziey to należy do Rodzicow moich woli niż do mnie.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Jest to odpowiedź zwyczayna w tey okoliczności, młodych panienek. Ale Jchmć Rodzice iuż na to zezwalaią. Rzecz cała teraz zawisła od W.M. Panny.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p><stage>(Na stronie)</stage> Czy go Kaci nadali z tym Siestrzeńcem!</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Coż mi na to W. M. Panna?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Jabym miała za szczęście, ale nie mam honoru znać Siestrzeńca W. M. Pana Dobrodzieia.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Moy Siestrzeniec iest we wszystkim podobny do Pana Guwernera.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Coż to do mnie J.P. Guwerner...</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Wszak W.M. Panna znasz dobrze Pana Guwernera?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ale coż ta moia znaiomość... to inna rzecz cale...</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Jeszcze mam honor pytać; czy chciałabyś W M. Panna poyść za tego samego Pana Guwernera?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Za J.Pana Guwernera zaś?</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Tak iest.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Prawdziwie to pytanie mnie zadziwia!</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Nie wątpię: a gdyby też to ten Pan Guwerner, był moim Siestrzeńcem, coby na to W.M. Panna?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Gdyby był... ale ia prawdziwie nie poymuię, do czego się te pytania ściągaią.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Sciągaią się do uszczęśliwienia tego Pana Czerkiesa młodego, y mnie. Mowię tedy iuż iaśnie, że ten Pan Guwerner, iest moy rodzony Siestrzeniec, y dziedzic całey moiey substancyi. Rekomenduię go W.M. Pannie, bo wart tego. Pragnie on ręki W.M. Panny y serca. Jchmć Rodzice zezwalaią, ia tego pragnę. Nie zbywa nam, iak tylko na zezwoleniu W.M. Panny.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Ale ktoż takim sposobem... to iakieś żarty dla mego umartwienia.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Nie są to żarty nieoszacowana Podczaszanko. Szczęście moie zawisło od wyroku W. M. Panny Dobrodziki: nie chciey go zwlekać.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Alboż w samey rzeczy Jegomć iest Wuiem W.M. Pana?</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Ten to sam, o ktorym ieszcze w Warszawie, miałem honor nie raz mowić W.M. Pannie, że bardziey iest Oycem dla mnie naydobrotliwszym, niż Wuiem.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Czemuś mię W.M. Pan nie ostrzegł?</p>
+          </sp>
+          <sp who="#dziwomir">
+            <speaker>DZIWOMIR.</speaker>
+            <p>Coż na to Kostusio! Oto masz godnego Kawalera, a nam przez tosamo barzo miłego, że dom nasz zpowinowaci się z domem mego dawnego łaskawcy.</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Jeżeli to odemnie zawisło... moia rzecz zgadzać się z wolą W. M. Państwa Dobrodzieiow.</p>
+          </sp>
+          <sp who="#miłogost">
+            <speaker>MIŁOGOST.</speaker>
+            <p>Dość nam tego! Niechże cię uściskam moia Guwernerowo. Patrzcie W.M. Państwo, iak ia prędko tak wielki interess skończyłem. U mnie zawsze tak: co ma bydź, niech będzie zaraz.</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p><stage>(Całuie rękę Konstancyi)</stage> Ktoby się spodziewał, że dzisiay będę tak szczęśliwym?</p>
+          </sp>
+          <sp who="#konstancya">
+            <speaker>KONSTANCYA.</speaker>
+            <p>Prawdziwie to iakiś osobliwszy przypadek.</p>
+          </sp>
+          <sp who="#nastka">
+            <speaker>NASTKA.</speaker>
+            <p>Czary to Mcie Państwo, czary!</p>
+          </sp>
+          <sp who="#lubisław">
+            <speaker>LUBISŁAW.</speaker>
+            <p>Bywa to często, że człek sądzi się być nieszczęśliwym, kiedy szczęście tuż pod iego bokiem.</p>
+          </sp>
+          <trailer>(KONIEC)</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

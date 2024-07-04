@@ -1,0 +1,2006 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000029" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Polowanie na męża</title>
+        <title type="sub">Komedia z życia mieszczańskiego w 2 aktach</title>
+        <author>
+          <idno type="isni">0000000083922174</idno>
+          <idno type="wikidata">Q1894116</idno>
+          <persName>
+            <forename>Michał</forename>
+            <surname>Bałucki</surname>
+          </persName>
+        </author>
+        <!-- Michał Bałucki (1837-1901) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/polowanie-na-meza-komedya-z-zycia-mieszczanskiego-w-2-aktach,MTA5NzUxODc/6/</idno>
+          <title>Bałucki, M., Polowanie na męża: komedya z życia mieszczańskiego w 2 aktach, Lwów 1869</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="aniela" sex="FEMALE">
+            <persName>Aniela</persName>
+          </person>
+          <person xml:id="babka" sex="FEMALE">
+            <persName>Babka</persName>
+          </person>
+          <person xml:id="błażej" sex="MALE">
+            <persName>Błażej</persName>
+          </person>
+          <person xml:id="karol" sex="MALE">
+            <persName>Karol</persName>
+          </person>
+          <person xml:id="kasia" sex="FEMALE">
+            <persName>Kasia</persName>
+          </person>
+          <person xml:id="leon" sex="MALE">
+            <persName>Leon</persName>
+          </person>
+          <person xml:id="lokaj" sex="MALE">
+            <persName>Lokaj</persName>
+          </person>
+          <person xml:id="walenty" sex="MALE">
+            <persName>Walenty</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-29">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1865">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">POLOWANIE NA MĘŻA.</titlePart>
+            <titlePart type="sub">KOMEDYA<lb />
+            z życia mieszczańskiego w dwóch aktach.</titlePart>
+          </docTitle>
+          <byline>PRZEZ<lb />
+            <docAuthor>MICHAŁA BAŁUCKIEGO</docAuthor>.
+          </byline>
+          <docImprint>
+            <p>
+              <pubPlace>LWÓW</pubPlace>.
+              <bibl>
+                <publisher>NAKŁADEM KSIĘGARNI ZELMANA IGLA.<lb />
+                Ulica Syxtuska Nr. 131 2/4.</publisher>
+              </bibl>
+              <date>1869</date>.
+            </p>
+          </docImprint>
+        </titlePage>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#walenty">P. WALENTY PYSZNICKI,</role>
+            <roleDesc>zamożny mieszczanin.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#aniela">ANIELA,</role>
+            <roleDesc>jego córka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#babka">BABKA ANIELI.</role>
+            <roleDesc/>
+          </castItem>
+          <castGroup>
+            <castItem>
+              <role corresp="#leon">LEON</role>
+            </castItem>
+            <castItem>
+              <role corresp="#karol">KAROL</role>
+            </castItem>
+            <roleDesc>koledzy szkolni.</roleDesc>
+          </castGroup>
+          <castItem>
+            <role corresp="#błażej">BŁAŻEJ,</role>
+            <roleDesc>mieszczanin.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#kasia">KASIA,</role>
+            <roleDesc>pokojowa Anieli.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#lokaj">LOKAJ.</role>
+            <roleDesc/>
+          </castItem>
+        </castList>
+      </div>
+      <set>
+        <p>(Rzecz dzieje się w domu p. Walentego)</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT I.</head>
+        <stage type="setting">
+          <p> (Pokój, drzwi w głębi i z boku: po prawej jedne, po lewej stronie dwoje drzwi)</p>
+        </stage>
+        <div type="scene" n="1">
+          <head>Scena pierwsza.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#aniela">ANIELA.</rs> (siedzi przy toalecie i poprawia ubranie na sobie.)
+              <rs key="#kasia">KASIA.</rs> (patrzy przez okno)
+            </p>
+          </stage>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>No i cóż?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Znowu się wrócił od rogu ulicy i idąc patrzy tutaj; ale jak patrzy... Śliczny chłopiec!</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Podoba ci się?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Ja za brunetami przepadam. A panienka?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ja?... <stage>(nieodpowiadając idzie roztargniona ku oknu i patrząc na ulicę mówi)</stage> Tak, to ten sam, który od paru tygodni chodzi jak cień za mną. W kościele, w teatrze, na spacerach, wszędzie go spotykam. Trudno uwierzyć, że to prosty przypadek, zwłaszcza że jego oczy tak wymownie...</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Więc panienka i oczy uważała?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Poszedł już... <stage>(zamyśla się)</stage></p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p><stage>(zbliżając się poufnie)</stage> Panienka wolałaby, żeby nie był poszedł. Oj! coś ten nieznajomy brunet za głęboko panience w serduszko zajechał. Coby na to pan Leon powiedział?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Cóż panu Leonowi do mnie? Cóż jego może obchodzić, że mi się ten lub ów podoba?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Jakto nie obchodzi? Wszak on się podobno w panience kocha?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Piękne mi kochanie, kiedy dotąd jeszcze się nie oświadczył. Wszak miał już dosyć czasu? Tyle nieraz gada, że aż głowa boli słuchać, a to jedno słowo „kocham” trudno mu powiedzieć.</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Może nie śmie?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Nie śmie? - Teraz młodych panów o brak śmiałości wcale posądzać nie można. On niechce. Nieraz umyślnie naprowadzam go na wyznanie: on westchnie, ja pytam zaraz: „za kim?” zamyśla się, ja wnet - „budzę pana” - czasem sama wzdycham, zamyślam się, chcąc aby się domyślił, a on nic i nic. Otaczam go nieraz pytaniami tak, że zdaje mi się, że już koniecznie coś stanowczego powiedzieć musi; gdzie tam! On jak ryba gładko się wyślizgnie i o czem innem rozpoczyna rozmowę; albo wtedy, kiedy ja najniecierpliwiej czekam na wyznanie - on urywa rozmowę, i odchodzi do ojca mówić o tej nieznośnej i nudnej polityce. To wszystko pokazuje, że nie ma stałych zamiarów; więc trudno, żebym czekała aż mu przyjdzie ochota oświadczyć się i dla jego miłości zostać starą panną. Nie będzie on, to będzie stu innych.</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Tak się to mówi panienko. Teraz tak trudno o tych chłopców, że strach. Do kochania to ich tam jeszcze dosyć się znajdzie, ale do żeniaczki ani sposób chwycić.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>No, wszakże niczem nie dałam poznać panu Leonowi obojętności i wcale nie myślę z nim zrywać, ale gdyby się kto inny trafił...</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Zresztą, wie panienka co? Ja go się tak nieznacznie...</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Cicho, cicho - babka nadchodzi. Och! będzież nudzić!</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Scena druga.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#babka">BABKA.</rs>
+              <rs key="#aniela">ANIELA.</rs>
+              <rs key="#kasia">KASIA.</rs>
+            </p>
+          </stage>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(z lewej strony, z bocznych drugich drzwi - w czepcu z dwiema falbankami, podwiązanym żółtą chusteczką - w ciemnym szlafroczku i derowej chustce - okulary na nosie - robi pończochę)</stage> Dzień dobry moja duszko, dzień dobry.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(z grymasem - niechętnie)</stage> Dzień dobry babci. <stage>(siada nieco od niej odwrócona)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Posiedzę tu troszeczkę u ciebie, bo mi tam starej przykrzy się samej siedzieć; nikt nie zajrzy.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(na str.)</stage> Och! jakże gdera. <stage>(bierze książkę)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(zbliżając się ku niej)</stage> Cóż za historyę czytasz? - czytajże głośno - ja to lubię.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(półgłosem niecierpliwie)</stage> Ach! jaka nudna.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Nudna? A to nie czytaj lepiej, ja ci przyniosę ładniejszą. Znasz ty tę książkę o św. Genowefie, co? Mam ją od mojej znajomej - powiadam ci - śliczności.</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p><stage>(zbliżając się mówi po cichu do Anieli)</stage> Panienko, znowu ten młody przechodzi koło okna.</p>
+          </sp>
+          <stage>(ANIELA. idzie ku oknu)</stage>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(patrząc za nią z zajęciem)</stage> Jak ona chodzi, jak księżniczka jaka...</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(do siebie)</stage> Jeżeli tak ciągle jak wahadło będzie chodził koło okna - to dziękuję za to.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Czy do mnie co mówisz?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ależ nie <stage>(na str.)</stage> Och! z tą babcią.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(zbliżając się do niej z troskliwością)</stage> Cóż ci to gołąbeczko?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Nic - głowa mnie boli.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Głowa? Biedaczka. Przyłóż octu z wodą, powiadam ci, nic lepszego nadto. Chcesz, to ci zaraz przyniosę.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(na stronie)</stage> A to męka. <stage>(głośno)</stage> Ależ dziękuję babci - to samo przejdzie - ja tak miewam co rano.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Wiesz ty Anielciu, czy to przypadkiem nie z tego, że tak późno wstajesz? Bo to wy panny dziwną modą teraz żyjecie. Ja jakem była taka jak ty, to już raniutko byłam wymyta, wyczesana, aż miło. To też byłam zdrowa i świeża. Chcesz Anielciu, to cię zbudzę jutro, pójdziemy na primaryą - co? dobrze? pomodlemy się do św. Andrzeja, żeby ci dał dobrego męża.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ależ cóż mi babcia wciąż o tym mężu mówi, ja tego niepotrzebuję.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(zdziwiona)</stage> Nie? może chcesz na zakonnicę? ha i to dobre. <stage>(po chwili uśmiechając się i grożąc)</stage> Ale, filutko, nie chcesz prosić o męża, boś go już pewna. Ten pan co tu bywa - a co? ja stara, ale się domyślam. On tu nie bez przyczyny bywa.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Dziwna babcia. Czy to już każdy ma być mężem, kto tylko próg domu przestąpi? Bywa u ojca, jak wielu innych i nic więcej.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>A przecież widziałam jak rozmawiał z tobą sam na sam. Bywa tu przecież już od kilku tygodni - i nie oświadczył się jeszcze?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ależ nie.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Może z ojcem mówił?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(z irrytacyą)</stage> Ależ powiadam babci, że nie - i wcale o tem nie myśli.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>A to dziwna rzecz. Wiesz co Anielciu, choćbym ja go się zapytała? Mnie to ujdzie.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Czy babcia mnie chce na wstyd wystawić?</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>No, no, już nie turbuj się, już ja to dobrze zrobię. Nie myśl, że twoja babka już do niczego.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ale ja nie chcę, nie potrzebuję, żeby się babcia mną opiekowała. <stage>(zagniewana odchodzi na lewo z Kasią)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(sama)</stage> Gniewaj się i nie gniewaj, ja swoje zrobię. Jej, jako pannie, wypada być tak skromną; ale my starsi powinni za nią myśleć i robić. I cóż to wstydliwego spytać się kawalera, czy ma ochotę się żenić? Bo jeżeli nie, to niech drugim miejsca nie zabiera. Tak dawniej bywało, to też panny szły za mąż. A dziś - młodych niby pszczół koło panien; rodzice muszą to nakarmić, napoić, nakłaniać się temu - i nic. Koszt duży, zachodu wiele, a o weselu ani słychu. O! nie! z Anielcią tak nie będzie. Już ja wiem co zrobię. Jako babka mam do tego prawo. <stage>(spostrzega wchodzącego Leona)</stage> Ah!</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Scena trzecia.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#babka">BABKA.</rs>
+              <rs key="#leon">LEON.</rs>
+            </p>
+          </stage>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Czy nie zastałem nikogo w domu?</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(na str.)</stage> Widocznie o nią się dopytuje. <stage>(głośno)</stage> Jest, jest Anielcia, tylko co wyszła do swego pokoju.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Ależ ja chciałem się widzieć z ojcem panny Anieli. <stage>(na str.)</stage> Spodziewam się, że skłonię p. Walentego by głosował za Ignacym. Hrabia nie może, nie powinien zostać posłem - to człowiek wsteczny.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(na stronie)</stage> Z ojcem chce mówić. No, chwała Bogu, chce się widać oświadczyć. <stage>(głośno)</stage> Ta nowina Anielcię uzdrowi i ucieszy.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Nowina? jaka nowina? A czy panna Aniela cierpiąca?</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(na stronie)</stage> Jak się zatrwożył. No, ślepy by chyba nie poznał, że szaleje za nią. <stage>(głośno)</stage> Nie trwoż się pan, tylko troszkę głowa ją boli, ale to minie. Ona tu wnet przyjdzie.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Bardzo żałuję, że nie mogę złożyć osobiście uszanowania pannie Anieli. Pani będzie łaskawa usprawiedliwić mnie przed nią - za mało mam czasu - przyszedłem tylko z ojcem jej kilka słów pomówić o rzeczy, nie cierpiącej zwłoki.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Bardzo słusznie - to bardzo chwalę - tak dawniej bywało. Rodziców wola najpierwsza w tym względzie. O! nie pożałujesz pan tego kroku; będziesz miał uczciwą i dobrą żonę.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(zdziwiony mocno)</stage> Jakto? Ależ pani Dobrodziejko...</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Nie kryj się - wiem o wszystkiem. Tylko śmiało! zyskaj tylko pozwolenie ojca - a za pannę ja ci ręczę. Ja się rozumiem na tem - i ja kiedyś byłam młodą. No, szczęść ci Boże, panie Leonie. <stage>(odchodzi do drugich drzwi na lewo)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Scena czwarta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#leon">LEON.</rs>
+            </p>
+          </stage>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(sam)</stage> <stage>(stoi chwilę osłupiały)</stage> Co ona mówiła? - czy ja dobrze słyszałem? - coś wspominała o oświadczeniu. Czy babinie w głowie się przewróciło? - mieliżby tu myśleć o czem podobnem? A tom się wplątał w kabałę. <stage>(chodzi po pokoju)</stage> Ja pracuję nad tem, aby ojca, mającego pewną wziętość u wielu mieszczan skaptować i nakłonić do głosowania za Ignacym - a tu tymczasem posądzają mnie o miłość i nim się dobrze pannie przypatrzyłem, wołają: żeń się! To miła rzecz. <stage>(chodzi)</stage> A to prawdziwe nieszczęście mieć interesa w domu, gdzie są panny dorosłe, a gorzej jeszcze tam, gdzie są <stage>(zatrzymuje się - ogląda i kończy po cichu)</stage> przerosłe. Spojrzysz na nią - kochasz się najwyraźniej; wszystkie mamy i ciocie przysięgnąć na to gotowe; powiesz kilka najzwyczajniejszych komplementów - już czekają oświadczenia. <stage>(zastanawia się)</stage> Może też kiedy wyrwałem się przy Anieli z jaką niebaczną czułością? Ależ nie - nie przypominam sobie wcale. Rozmawiam z nią - to prawda; ale jakże tu nie rozmawiać, kiedy podczas rozmowy z ojcem panna przychodzi, kłania się i siada. Jak tu nie powiedzieć jakiego komplementu, kiedy panna przy tobie tłucze się na fortepianie po całych godzinach i śpiewa „kwiatki nasze”; - a ojciec co chwila powtarza: to moja córka panie, - jakby kto wątpił, - ja łożyłem na jej edukacyą, itd. itd. Potem za tę mękę, cierpliwość i grzeczność, posądzą cię o małżeńskie zamiary - i nie jednego tak złapią, odurzą, tak wmówią w niego, iż uwierzy, że się zakochał i - rad nie rad - żenić się musi. Ze mną tego nie będzie. <stage>(patrzy na zegarek)</stage> W pół do dwunastej, a pana Walentego nie widać. Chciałbym z nim stanowczo pomówić w kwestyi wyboru, dziś jeszcze upewnić się muszę o skutku głosowania. Spodziewam się że p. Walentego skłonię na naszą stronę. Hrabia wprawdzie ma wiele głosów; ale i Ignacego partya silna - musimy zwyciężyć. <stage>(spostrzega wchodzącego Walentego)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Scena piąta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#walenty">WALENTY.</rs>
+              <rs key="#leon">LEON.</rs> (później)
+              <rs key="#lokaj_hrabiego">LOKAJ HRABIEGO.</rs>
+            </p>
+          </stage>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>A pan Walenty! Niecierpliwie czekam na pana.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(napuszony)</stage> Sługa uniżony - cóż tak pilnego? Człowieka teraz rozrywają na tym politycznym torze. <stage>(wita Leona)</stage> Wiesz panie Leonie, byłem u hrabiego.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(niekontent)</stage> Tak?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Jak Boga kocham, co to za miły człowiek - prosił mnie siedzieć, ścisnął za rękę - <stage>(z dumą)</stage> mówiliśmy długo o różnych rzeczach. Takiego pana to rozumiem.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Udaje tylko takiego - kłania się i jest grzecznym, bo mu idzie o głosy.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(urażony)</stage> I cóż to ma udawać? cóż my gorszego od niego?</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Słusznie pan mówisz. Minęły już te czasy, w których urodzenie stanowiło o wartości człowieka, nadawało mu prawa i przywileje z krzywdą drugich. Dziś nie znaczek herbowy, ale osobista zasługa powinna odznaczać ludzi. Kto chce stanąć wyżej od innych, niech ich prześcignie pracą, szlachetnością, poświęceniem.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(natężając się, aby zrozumieć)</stage> A tak, tak, o! rozumiem wszystko - rozumiem.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Dziś i stan średni - mieszczaństwo - ma ludzi, którymi się szczycić może... Tym ludziom należy się od nas uznanie i szacunek.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(jak wprzódy)</stage> A tak, tak - my górą!</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>I Pan jesteś tego zdania? To dobrze, to mnie cieszy, tego się po panu spodziewałem. <stage>(ściska mu dłoń)</stage> Wybierzemy więc na posła człowieka posiadającego powszechne zaufanie - pana Ignacego - Zgoda?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(cofając się)</stage> Jakto? Zkądże znowu jego? A cóż on lepszego od nas?</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Właśnie dla tego, że równy nam.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Jeżeli Ignacy, to i ja takim prawem mógłbym...</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Pan Ignacy ma już wiele głosów za sobą; idzie tylko o to...</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(chodząc dużemi krokami)</stage> Próżna chwalba - pan hrabia ma całe miasto.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Ale cóż pan masz przeciw panu Ignacemu?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Nie chcę - nie chcę - Ignacy... Hm, i co mi za figura? Fabrykant i nic więcej. Jakiż mi to familiant? A toć wszyscy dobrze wiedzą, kto był jego ojciec. I jemu się zachciewa być posłem. Patrzaj mi go. Nic z tego. Ja głosować będę za panem hrabią.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(na str.)</stage> No, poradź że tu co z takiemi ludźmi. <stage>(głośno)</stage> Ależ panie, tu właśnie o to idzie, żeby był wybrany ktoś z mieszczaństwa.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Nie chcę - nie chcę - pan hrabia jest godny człowiek i kwita - on będzie posłem i basta. Jest mospanie dobrodzieju grzeczny człowiek...</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Więc to pana ujęło? Pan Kalasanty lepiej się spisał - nie będzie głosował za hrabią, choć hrabia osobiście był u niego.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(podziwiony)</stage> Co? był u Kalasantego? Że też to pan hrabia z byle kim żyje. Był u niego? I gdzież ta chudzina mógł go przyąć? Izbina jak chlewek - ani to mebli porządnych.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(na str.)</stage> Skutkuje. <stage>(głośno)</stage> Był u niego, siedział dość długo, zapewniał go o swojej przyjaźni, mówił, że tylko na jego wpływie polega i wiele nań liczy...</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Tak? To dobrze - niech liczy, niech sobie liczy. Zobaczymy, czy pan Kalasanty co zrobi. Ja się słowa nie odezwę, zobaczymy jak to będzie.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(skwapliwie)</stage> Więc pan będziesz głosował za panem Ignacym?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Ja będę głosował przeciw panu hrabiemu.</p>
+          </sp>
+          <sp who="#lokaj">
+            <speaker>LOKAJ.</speaker>
+            <p><stage>(wchodząc)</stage> Czy tu mieszka pan Walenty Pysznicki?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Tu. A czego tam? A to lokaj od pana hrabiego.</p>
+          </sp>
+          <sp who="#lokaj">
+            <speaker>LOKAJ.</speaker>
+            <p>Jasny pan kłania się, i przysyła ten list.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(biorąc list z uszanowaniem)</stage> Kłania się? <stage>(na str.)</stage> Co to za grzeczny i miły człowiek - dalibóg. <stage>(głośno)</stage> Kłaniaj się ślicznie odemnie panu hrabiemu i podziękuj.</p>
+          </sp>
+          <stage>(LOKAJ. chce odejść)</stage>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Ale - ale - czekajno! <stage>(szuka po kieszeniach)</stage> Masz!</p>
+          </sp>
+          <stage>(LOKAJ. odchodzi)</stage>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(na str.)</stage> Może mu za wiele dałem. Eh, pal go licho! Niech zna, że i ja po pańsku żyć umiem.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Cóż pisze hrabia?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(zakłopotany obracając list w ręku)</stage> A tak - prawda, - hm - tak - co też pisze? <stage>(odrywa niezgrabnie pieczątkę - otwiera list i obraca go na wszystkie strony - zakłopotany - jako nieumiejacy czytać)</stage> A - tak - tak - pisze - hm, ten tego - sam pisze.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Cóż takiego?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Pisze mi... <stage>(oddając mu list zażenowany)</stage> Przeczytajno co tam pisze, panie Leonie, bo ja jakoś dziś nie usposobiony do czytania.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(z uśmiechem bierze list i czyta)</stage> Wielmożny Panie Wal...</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(ucieszony)</stage> Jak? Jak? Jak jest? powtórz, nie dosłyszałem.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(z uśmiechem)</stage> „Wielmożny Panie Walenty!”</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(z dumą i uciechą)</stage> A tak - tak - to do mnie.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(czyta)</stage> „Znając twój wszechwładny wpływ na zacnych współobywateli, liczę zupełnie nań i spodziewam się, że poprzesz swojemi głosami mnie przyjaciela i życzliwego ci sługę” - podpisano „Albin”.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(który słuchał listu z głęboką uwagą)</stage> Śliczny list. Już to można mu przyznać, że cudownie pisze.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Jeszcze jakieś postscriptum.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Czytaj - czytaj.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(czyta)</stage> „Po wyborach wpadnę do ciebie na herbatę.”</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(rozrzewniony)</stage> Co to za człowiek - co to za anielski człowiek - jaka to dusza szlachetna - i gdzież tu znaleźć godniejszego człowieka na posła?</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Więc pan znowu za nim?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Jakto znowu? Byłem, jestem i będę za panem hrabią. I tobie radzę panie Leonie, głosować za nim. Nie pożałujesz tego. Ty młody, potrzebujesz zrobić karyerę. Jeszcze ci się hrabia bardzo przydać może.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(ruszając ramionami)</stage> <stage>(na str.)</stage> Róbże tu co z takiemi ludźmi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>Scena szósta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#walenty">WALENTY.</rs>
+              <rs key="#leon">LEON.</rs>
+              <rs key="#kasia">KASIA.</rs>
+            </p>
+          </stage>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p><stage>(wbiegając)</stage> Panna Aniela dowiaduje się, czyś pan przyniósł tę książkę, coś pan obiecał.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(na str.)</stage> Tak, mnie teraz książki w głowie. <stage>(głośno)</stage> Przeproś pannę, moja kochaneczko, i powiedz, że zapomniałem.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Zapomniałeś? Jakże można było zapomnieć? Dziewczyna się zmartwi. Bo to powiadam ci, pasyami w tych książkach zamiłowana. I o północy ci w stanie do romansu. No, idź, idź, wytłómacz się przed nią.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(zakłopotany)</stage> Ależ panie Walenty...</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(popychając go do pokoju córki)</stage> O! nie spisujesz mi się chłopcze. Anielciu! zburcz go jak należy, bo zasłużył na to. <stage>(popycha go - Kasia idzie za nim)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>Scena siódma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#walenty">WALENTY.</rs> (sam - później)
+              <rs key="#błażej">BŁAŻEJ.</rs>
+            </p>
+          </stage>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(zacierając ręce chodzi po pokoju)</stage> Czego oni chcą od tego hrabiego? Dalibóg godny człowiek. Bo to panie i religiant jak rzadko. A choć pan z panów - nie zadziera przecież nosa, i umie żyć z ludźmi. A jak mieszka ślicznie, co to za meble, co za lustra, podłoga jak szkło. <stage>(patrzy na podłogę)</stage> Zdałoby się i u mnie coś podobnego. Lokaj od pana hrabiego mówił mi, że to nie tak wiele kosztuje. A zresztą, przecież człowieka stać na to. Ciekawym bardzo, czemu u mnie nie ma być tak samo, jak u pana hrabiego, kiedy człowiek ma żyć z hrabią za pan brat. <stage>(chodzi)</stage> Tak, wszystko musi być u mnie na ten sam facon: lustra, panie Dobrodzieju, dywany, kancelarya. <stage>(reflektując się)</stage> A na co? - Co tam na co? Niech widzi, że i my możemy tak samo. Tu będzie pokój re... re... jakże oni to u licha nazywają? re... re... reskrypcyjny, tak reskrypcyjny - tam...</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p><stage>(wchodząc)</stage> Niech będzie pochwalony!...</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(opryskliwie)</stage> Któż tam <stage>(obraca się)</stage> A! <stage>(niechętnie)</stage> Na wieki... Jak się masz panie Błażeju?</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>Jak groch przy drodze. Ciężkie czasy.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(protekcyonalnie)</stage> Proszę siadać.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p><stage>(oglądając się)</stage> Ależ tu teraz u ciebie po pańsku panie Walenty.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(z dumą)</stage> Ha, niechwalący się i człowiek żyje w świecie, ma z różnemi osobami do czynienia - to musi. A przytem jest i córka na wydaniu.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>Właśnie w tem interesie przychodzę i chciałbym z wami pomówić.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Jakto? niby o czem?</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p><stage>(wstaje)</stage> Przychodzę tu do was, jako życzliwy przyjaciel. Wiem, że córka wasza już w tych latach...</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Owszem. Dopiero jej będzie na matkę boską gromniczną...</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p><stage>(mówi dalej)</stage> Że jej trzeba męża. Otóż mam dla niej porządnego człowieka.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Kogóż tam takiego?</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>Majstra ciesielskiego, pana...</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(wstaje i śmieje się z przekąsem)</stage> A toś się miał z czem wybrać panie Błażeju.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p><stage>(zkonsternowany)</stage> Człowiek majętny, porządny -</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(urażony)</stage> Ależ mój panie Błażeju, czy mnie obrażać chcecie? Nie natom dziecku dawał edukacyą, żeby ją potem wydać za byle kogo.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>A wszakże sam panie Walenty byliście...</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(porywczo)</stage> Co tam, czem byłem, to byłem. Na to pracowałem, żeby moje dziecko mogło jaki los zrobić.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>To was mocno przepraszam, panie Walenty, darujcie. Widzicie, ja niewiedziałem o tem. Chciałem wam tylko dopomódz, bo wiem jaki to kłopot mieć córkę na wydaniu. <stage>(z westchnieniem)</stage> Ja ich mam aż pięć.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>No, widzicie, jak do córek. Moja - nie chwalący się - i na fortepianie zagra i z panami po francuzku się rozmówi.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>A, to ładnie - to i guwernantką zostać może.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>A to po co? Cóż ja to nie mam majątku, żeby moja córka obce kąty wycierać potrzebowała? Pójdzie za jakiego pana, to jej się przyda edukacya.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>Za pana? Eh! to ładnie - to bardzo ładnie. Ale darujcie panie Walenty - jak się pan nie trafi?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Niech was o to głowa nie boli. Ma ona w czem wybierać.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>Tak? Mój Boże! do moich nikt się nie bierze. <stage>(wstaje)</stage> No, to przepraszam was, panie Walenty, spieszę się do domu, bo tam czeka robota. A jest na kogo pracować.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Ale, ala. Na kogóż głosujesz panie Błażeju?</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>Ja? Na nikogo, a mnie to na co?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>To ciebie polityka nie interesuje?</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>To ta tylko dla panów zabawa. A biednemu na co się to zda? Jak ja głodny, to mi polityka jeść nie da, ani zięcia nie nastręczy.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(na str.)</stage> Poradźże tu z takiemi ludźmi. Najmniejszego wyobrażenia o polityce. O ciemnoto! ciemnoto! <stage>(głośno)</stage> No, bywaj zdrów panie Błażeju, a wpadnij do mnie w który dzień na herbatę.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>Alboż czyje imieniny wypadają?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Ja nie czekam imienin z herbatą. U mnie teraz często zabawa, bo widzisz człowiek żyje z ludźmi.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>Stawię się niezawodnie. Bywajcie zdrowi panie Walenty. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(sam)</stage> Nie potrzebniem się przed nim wygadał z herbatą; gotów przylecić wtedy, gdy jacy panowie przyjdą do mnie. Ha, niech tam, niech widzi z jakiemi ja ludźmi żyje. Rozpowie potem wszędzie. Dopiero to pójdzie po nosie panu Ambrożemu, co to i szkoły kończył i za granicę się przejechał. Niech zna, że ja szkół nie powąchał, a z panami za pan brat jestem. <stage>(zaciera ręce i wychodzi rozpromieniony do swego pokoju)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>Scena ósma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#leon">LEON.</rs> (później)
+              <rs key="#karol">KAROL.</rs>
+            </p>
+          </stage>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(wchodząc spiesznie)</stage> Jak Boga kocham, najwyraźniej kocha się we mnie. Teraz dopiero otworzyły mi się oczy. Co chwila spogląda na mnie, ale to tak czule, tak przenikająco, jakby chciała na dnie mojej duszy dopatrzeć aktu ślubnego; <stage>(zamyśla się, wzdycha)</stage> O źle! - Próżno zagaduję jak mogę, ona z każdego słowa umie wysnuć rozmowę na ulubiony temat miłosny. Ja mówię o kwiatach - ona mi myrt wspomina, ja o książkach - ona bohaterów romansowych za wzór mi stawia - zaczynam o niebie, o ziemi, o kamieniach, o zwierzętach - ona wciąż do miłości skręca. O! źle! Tak dłużej zostać nie może. <stage>(zamyśla się)</stage> Tylko jak jej tu tak wprost powiedzieć: ja panny nie kocham, panna mi się nie podoba - a jednak, bądź co bądź, wywinąć się z tej matni muszę. <stage>(zamyśla się)</stage></p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(wchodzi nieśmiało i rozgląda się)</stage> Zdaje się, że trafiłem, to okno - tak tu jej mieszkanie.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Co? <stage>(obraca się - chwila zadziwienia)</stage> Karol?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Leon? <stage>(witają się)</stage></p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Ty tu?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Od kilku tygodni jestem w tem mieście.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>A cóż cię do tego domu sprowadza?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(nieśmiało)</stage> Jakby ci tu powiedzieć. - Serce.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Jakto?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Zakochałem się.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>W kim?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Jeżeli się nie mylę, to w córce właściciela tego domu.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Co? <stage>(na str.)</stage> Jest mój wybawca. Spadł mi jak z nieba.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Czy ty ją znasz?</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Bardzo dobrze. Bywam tu u nich.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(z obawą)</stage> I może oświadczyłeś się o nią?</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(z pośpiechem)</stage> Niech mię Bóg broni.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Jakto? Dlaczego?</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(miarkując się)</stage> Tak - widzisz - ja nie czuję w sobie powołania na męża - do życia familijnego nie mam wcale zdolności. Ale gdzież poznałeś pannę Anielę?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Więc Aniela jej imię? Zobaczyłem ją w teatrze, zachwyciła mnie, oczarowała, i bądź co bądź, postanowiłem poznać się z nią.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>I ożenić się - to bardzo naturalnie.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Gdyby można.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Ale koniecznie musisz się żenić. Cóż ci przeszkadza, jesteś młody, przystojny; ręczę że się pannie spodobasz.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Tak. Ale mój stan.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Jakto?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Jestem szewcem. <stage>(chwila milczenia)</stage></p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Co? <stage>(Ogląda go na wszystkie strony)</stage></p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Ten wyraz jak straszydło na wszystkich ludzi - nieprawda.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(wychodząc z zadziwienia)</stage> Tyś szewcem? Ależ to niepodobna.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>I mnie się to z początku niepodobieństwem zdawało. Skończywszy szkoły gymnazyalne, roiłem Bóg wie jakie nadzieje, jak każdy młody. Ale wola ojca była inną. Mój stary był szewcem. Wiek nie pozwalał mu już zajmować się rzemiosłem - chciał abym go zastąpił. Mówił, że tego chce dla mojego szczęścia, że tylu uczonych ludzi teraz w biedzie żyje - a rzemiosło daje zawsze i wszędzie pewny kawałek chleba. Może bym się był oparł tej woli, ale ukończenie edukacyi wymagało jeszcze funduszów, a tu ojciec nietylko że więcej dać nie mógł, ale sam potrzebował pomocy, wyręczenia. Dla szczęścia więc moich rodzicowi wyrzekłem się świetnych, ale niepewnych nadziei - poszedłem drogą cichej pracy - Bóg mi pobłogosławił i dziś dorobiłem się jakiej takiej fortuny.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(poważnie)</stage> Dziwnego miałeś ojca, Karolu. Dziś rzadko o takich. Dziś ojciec rzemieślnik od małości wmawia w dziecko, że musi być czemś lepszem, niż on - uczy je być niezadowolonem ze stanu, w którym się wychował, a piąć się coraz wyżej. I cóż dziwnego, że często potem dziecko nie uszanuje siwizny ojca, że gardzi jego rzemiosłem i wstydzi się go. Wszystko pnie się coraz wyżej i wyżej - i wszystkim potem ciasno tam w górze i zpychają się nawzajem; ztąd tyle ludzi zmarnionych. Nie jestem ja za kastowością, ale przecież na wszystkich stanowiskach potrzeba ludzi wykształconych, aby różnica stanów zniknąć mogła, bo wykształcenie zbliży nas i połączy.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>I mój stary to samo mówił, tylko nie tak jasno jak ty. On nie rozumiał, ale czuł, że mi dobrze radzi; ale widzisz Leonie, nie wszyscy tak się na tę rzecz zapatrują, jak ty - i nie raz wiele mam z tego powodu przykrości. I ztąd ta wątpliwość, czy panna Aniela mnie zechce. To mi tylko daje otuchę, ze podobno i jej ojciec był rzemieślnikiem czy fabrykantem. Postanowiłem więc oświadczyć mu moje zamiary, a niemając tu nikogo znajomego, postanowiłem się sam przedstawić. Mam nadzieję, że gdy...</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(zakłopotany)</stage> Nie - tak nie można.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Czemu?</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Widzisz mój kochany - ojciec Anieli jest trochę próżny, potrzeba ci więc będzie przedstawić się w innym charakterze... naprzykład...</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Nigdy tego nie zrobię, wolę się cofnąć.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Więc jej nie kochasz?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>O! bardzo! ale właśnie dlatego że ją kocham, nie chcę podstępem zyskać jej serca.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>A jednak, to jest koniecznością. Bo widzisz, mój kochany, świat ma jeszcze wiele przesądnych wyobrażeń, z których się naraz otrząsnąć nie może. Potrzeba go do tego powoli przygotować. To słowo „szewc” zabije cię od razu w oczach panny, zasłoni przed nią wszystkie twoje przymioty; będzie sobie wyobrażać ciebie jak innych twoich współkolegów i zlęknie się.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Złe mi dajesz o niej wyobrażenie.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Ależ ona kobieta, a kobiety się najtrudniej i najpóźniej pozbywają przesądów.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Jeżeli nie jest taką, jak sobie ją wyobrażałem - to wolę się zrzec wszystkiego.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Na cóż się zrzekać przed czasem. Pierwej przypatrz się, poznaj...</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(wachając się)</stage> Nie, tak nie można, nie chcę...</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(biorąc go za rękę)</stage> Cicho! nadchodzą!</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>Scena dziewiąta.</head>
+          <stage type="setting">
+            <p></p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#walenty">WALENTY.</rs> (z prawej strony - potem)
+              <rs key="#aniela">ANIELA.</rs>
+              <rs key="#kasia">KASIA.</rs> (z lewej)
+              <rs key="#karol">KAROL.</rs>
+              <rs key="#leon">LEON.</rs>
+            </p>
+          </stage>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(głośno do Walentego)</stage> Mam honor przedstawić panu <stage>(widząc wchodzącą Anielę)</stage> i pani - mojego przyjaciela Karola - obywatela ziemskiego. <stage>(ukłony)</stage></p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p><stage>(na str.)</stage> A, to ten nieznajomy z pod okna.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Bardzo nam miło poznać, Mospanie Dobrodzieju. <stage>(podaje mu rękę)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(do siebie uradowana)</stage> Obywatel ziemski!</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT II.</head>
+        <stage type="setting">
+          <p>(Pokój ten sam co w Akcie pierwszym, tylko bogaciej przystrojony w lustra i dywany)</p>
+        </stage>
+        <div type="scene" n="10">
+          <head>Scena pierwsza.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#walenty">WALENTY.</rs> (później)
+              <rs key="#kasia">KASIA.</rs>
+            </p>
+          </stage>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(chodzi z dumą po pokoju, przypatrując się i oglądając)</stage> Ślicznie! cudownie! <stage>(staje przed lustrem, poprawia ubrania i robi miny)</stage></p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p><stage>(wchodzi z koszykiem pełnym pakiecików)</stage> Ledwie niosę.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Cóżeś przyniosła?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Albo ja pamiętam, proszę pana. Lokaj od pana hrabiego tyle mi naspisywał wymyślnych sprawunków, że nie wiem, jak się to wszystko na stole pomieści.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Widzisz - to wszystko do herbaty. A kasztany są?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Są, panie.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>To dobrze. - U hrabiego zawsze bywają kasztany do herbaty; ale w serwecie - rozumiesz?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Rozumiem.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>A jak pan hrabia będzie czego chciał od ciebie - to mu dasz na tacy - rozumiesz? a zawsze mów: jasny panie; <stage>(patrząc na nią)</stage> jaka szkoda, żeś ty nie mężczyzna - u panów, to lokaje wszystko robią. A sukno na schodach jest?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Jest panie.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>I możeś deptała po nim?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Ano szłam po nim.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>No, nie głupież to ciele. Czy to dla ciebie, czy dla jasnego pana sukno położone; przysiągłbym, że powalała.</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p><stage>(przypominając sobie)</stage> Ale, ale, byłabym zapomniała powiedzieć. Pan Błażej kazał się panu kłaniać i powiedział, że tutaj dziś przyjdzie. <stage>(zabiera się do odejścia)</stage></p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(na str.)</stage> Licho go tu przyniesie. Obeszłoby się bez takich gości. <stage>(głośno)</stage> Bo pewnoś mu już wytrąbiła, kto tu dzisiaj u mnie będzie?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Nie, panie.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>No idź już, idź. <stage>(Kasia odchodzi na prawo)</stage> Że też to przed temi dawnemi znajomościami ognać się nie można. Co sobie pomyśli pan hrabia jak go zobaczy? <stage>(słychać w sieni dzwonek - Pan Walenty zrywa się iść otworzyć - reflektuje się, wraca, siada i woła napuszyście)</stage> Kasiu! idź zobaczyć kto dzwoni.</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p><stage>(przebiega z prawych drzwi do środkowych, po chwili wraca z bukietem)</stage> Bukiet od pana Karola; - kazał powiedzieć przez służącego, że tutaj za chwilę przyjdzie.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Bukiet? o tym czasie - a to raritas. Pokaż - jaki śliczny. Oh! musi kosztować z jakie kilka ryńskich. No, chwała Bogu, widać że chłopiec coś myśli.</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>I to na seryo myśli.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Jakto? Czy co wiesz?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Widziałam.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Cóż takiego?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Na własne oczy widziałam, jak pan Karol panienkę wczoraj...</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>No, no, cóż zrobił?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>W rękę pocałował.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>W rękę?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Dwa razy.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>No, chwała Bogu. Widać, że chłopiec ma stałe zamiary, kiedy się tak od razu do rzeczy bierze i nie traci czasu. Tylko jakby tu skończyć z tym panem Leonem - on coś głęboko Anielci w serce zajechał. Ci panowie, co to książki układają, to mają przeróżne sposoby bałamucenia panien; a moja dziewczyna wiersze lubi aż strach, serce ma takie czułe, więc i nie dziwota.</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Niech się pan nie boi, panience ten się zawsze lepiej podobał, niż pan Leon.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Alboż go znała przed tem?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Pan Karol już od dwóch tygodni chodził za naszą panną.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Chodził? Chwała Bogu! To już widoczne przeznaczenie - ha, niech się żeni. Ja jako ojciec nie będę miał nic przeciwko temu. Co obywatel, to nie literat. No, chodźmy do Anielci - sam jej zaniosę ten bukiet - dziewczyna się ucieszy. <stage>(odchodzą na lewo do pokoju Anieli)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>Scena druga.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#leon">LEON.</rs> (później)
+              <rs key="#babka">BABKA.</rs>
+            </p>
+          </stage>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(wchodzi i rozgląda się)</stage> Co tu za zmiany. Czyby wesele? Ależ to zawczasu. Lubo to prędzej czy później nastąpić musi. No, spadł mi ciężar z głowy; - panna zdjęła ze mnie miłośne pęta, a przeniosła je na innego szczęśliwca. Uważam, iż od czasu jak tu Karol bywa, Aniela widocznie mnie unika. To bardzo roztropnie. Przeczuła zapewne, że z tej mąki chleba nie będzie i zmieniła front. Nie mam już obawy ataku z tej strony. <stage>(chodzi)</stage> Gdyby tylko pana Walentego można jeszcze jakim sposobem przerobić. Za chwilę nastąpi głosowanie, i kto wie czy pan Albin, mimo całej naszej usilności, nie będzie obrany. O! źle idzie, szkaradnie.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(wchodzi)</stage>
+              <stage>(na str.)</stage> Zamyślony - łatwo zrozumieć dlaczego. <stage>(głośno)</stage> Sługa uniżona pana Dobrodzieja.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(ocknąwszy się)</stage> A! Padam do nóżek pani Dobrodziejki, doprawdy nieuważałem.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Nic dziwnego - młody - zakochany - ja to rozumiem <stage>(ciekawie)</stage>, no i cóż? - jakże?</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Niby z czem?</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(na str.)</stage> Filut - udaje. <stage>(głośno)</stage> Przedemną nie masz potrzeby taić, ja ją równie kocham jak pan i los jej mnie obchodzi. No i cóż? Jakże poszły oświadczyny?</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(zdumiony)</stage> Oświadczyny?</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>No, no, nie udawajno pan, ja się rozumiem na tem, no więc jakże, może ojciec się wahał, sprzeciwiał? To tylko tak - dla formy - ręczę ci. Zresztą i ja powiem słówko za panem. Nie myśl pan, że ja już nic nie znaczę.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(na str.)</stage> Masz tobie - znowu mnie łapią. Nic a nic tego nie rozumiem. <stage>(głośno)</stage> Ależ pani dobrodziejko - to jest - ten tego - tego ten - miałem wprawdzie zamiar - ale ten tego</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Jakto? Nie oświadczyłeś się? A to brzydko - bałamucisz dziewczynę.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Ależ bo nie wiem czy panna Aniela teraz...</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Kocha cię? On jeszcze wątpi. Trudno przecież żeby ci się sama oświadczyła.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Kocha? Mnie kocha? <stage>(na str.)</stage> Tu oszaleć trzeba.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>I nie poznałeś tego jeszcze?</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Dawniej może, ale teraz...</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(zbliżając się ku niemu poufnie)</stage> Otóż dowiedz się niedowiarku, że Aniela dała mi do poznania, iż ją to dziwi, żeś się dotąd jeszcze o nią nie oświadczył.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(na str.)</stage> Masz tobie, a to wesoła nowina. Wtedy grom uderza, kiedy się go najmniej spodziewałem. <stage>(głośno)</stage> Ależ, pani dobrodziejko...</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Tylko śmiało, bo ci jeszcze kto porwie dziewczynę z przed nosa. No, śmiało, przeżegnaj się i idź do ojca.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(żegnając się)</stage> <stage>(na str.)</stage> W imię ojca, czego ci ludzie chcą odemnie? Chcą mnie gwałtem wystrychnąć na męża.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>A potem przyjdź do mnie i powiedz jak się stało. <stage>(odchodząc na stronie)</stage> No proszę, żeby nie ja - toby się to wszystko rozchwiało. I to nieśmiałe i to nieśmiałe. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>Scena trzecia.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#leon">LEON.</rs> (później)
+              <rs key="#aniela">ANIELA.</rs>
+            </p>
+          </stage>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Oświadczyć się. Znowu się oświadczyć, - a to skaranie! - Więc Aniela nie kocha Karola? No, rozumie się, że nie kocha, kiedy się mnie oświadcza. Więc ta jej obojętność, to ciągłe gorączkowe prawie zajmowanie się Karolem jest tylko udaniem, aby obudzić we mnie zazdrość i miłość. Żal mi jej! - ale darmo! Stanowczo muszę pozrywać te siatki, w które mnie tu los zaplątał. Powiem jej, żeby sobie nie robiła żadnej nadziei, żeby zapomniała o mnie; - wystawię jej miłość Karola, jego przymioty - <stage>(spostrzega wchodzącą Anielę)</stage> Ach! ona - sama pora. <stage>(kłania się)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(wchodzi z książką w ręku)</stage> A - pan Leon <stage>(na stronie krzywiąc się)</stage> wizyta wcale nie w porę i nie na rękę.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(na str.)</stage> Biedna dziewczyna żal mi jej. Ale mamże kłamać uczucie, którego nie czuję - uwodzić ją? to by było niegodnie. <stage>(głośno)</stage> Pani dziś czegoś smutna.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(obojętnie)</stage> Owszem <stage>(na str.)</stage> Żeby sobie jak najprędzej poszedł - Karola co tylko nie widać.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(na str.)</stage> Jak tu zacząć?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(obojętnie)</stage> Teraz to przychodzi, a dawniej, kiedy po całych dniach czekałam na niego, to go nie było. <stage>(siada i czyta)</stage></p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(na str.)</stage> Wyraźnie czeka na oświadczenie - trzeba raz skończyć <stage>(głośno)</stage> Pani!...</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Słucham pana...</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(na str.)</stage> Masz tobie, już gotowa. <stage>(głośno)</stage> Chciałbym z panią stanowczo pomówić i...</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(na str.)</stage> On widzę myśli się oświadczyć - a to w porę... <stage>(wstaje - głośno)</stage> Panie!</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(wstrzymując ją)</stage> Chwilkę pani. - Daruj, że będę szczery, że ci otwarcie powiem i bez ogródek to, co myślę.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(na str.)</stage> Zmieniły się nasze role - teraz ja mu dam uczuć obojętność.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(na str.)</stage> Doprawdy nie myślałem, że to tak trudno powiedzieć pannie „ja pani nie kocham” - ale darmo, trzeba się odważyć - uderzmy w sam środek - <stage>(przystępując do niej z determinacyą - głośno)</stage> Babka pani wspominała mi...</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(rozirrytowana)</stage> Nieznośna ta babka! Pan daruje... <stage>(odchodzi spiesznie)</stage></p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(sam)</stage> Odeszła zawstydzona, zapłoniona. W istocie głupstwo zrobiłem, zaczynając od babki. Zdradziłem tajemnicę. Jakżeż można było pannie tak wprost powiedzieć, iż wiem, że się o mnie stara. No, ale chciałem się prędko odbyć i wszystko krótko wypowiedzieć.</p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCena czwarta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#karol">KAROL.</rs>
+              <rs key="#leon">LEON.</rs>
+            </p>
+          </stage>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(wchodząc prędko - wesoły)</stage> Jesteś tu Leonie? Dobrze że cię spotykam. Chciałem podzielić się z tobą mojem szczęściem. Aniela jest mi przychylną - widzę to najwyraźniej - jestem najszczęśliwszym z ludzi - ona mnie kocha. <stage>(całuje go i ściska)</stage></p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(z głupią miną na str.)</stage> Aniela go kocha? Tu oszaleć potrzeba - panna mnie się oświadcza, a jego kocha. Biedny Karol! jaki łatwowierny - nie dorozumiewa się komedyi.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Lękam się tylko chwili, w której będę musiał jej wyznać, że ją tak niegodnie oszukiwałem. Może ten podstęp nie był wcale potrzebny - i bez tego byłaby mnie pokochała - to anioł!</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>No, przecież tak bardzo nie skłamałem, nazywając cię obywatelem ziemskim. Wszakże wszyscy jesteśmy obywatelami ziemi.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>To udawanie wstydzi mnie i męczy okropnie - co chwila się zapominam, mieszam. Wczoraj naprzykład, pytała się o moje najbliższe sąsiedztwo i o mało się nie wygadałem z cukiernikiem i fryzyerem, którzy obok mnie mieszkają. To znowu pyta mnie o położenie mej majętności, o moje stosunki - a ja wcale nie mam fantazyi twórczej, więc się pocę i męczę okropnie tą rolą, jaką mi przybrać kazałeś. To udawanie już mi kością w gardle - trzeba jak najprędzej skończyć, dziś jeszcze powiem jej wszystko.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Więc jesteś zupełnie pewny panny?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Nie mogę nie wierzyć; jej postępowanie ze mną, jej oczy...</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Karolu, nie buduj nigdy twojej nadziei na tak ruchliwym i zwodniczym gruncie, jak są oczy kobiece.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Aniela nie jest taką, jak inne...</p>
+          </sp>
+          <stage>(LEON. robi gest niedowierzania)</stage>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(z wyrzutem)</stage> Leonie!</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Mówię to z przyjaźni dla ciebie. Nie odradzam, ale radzę: upewnij się dobrze zanim przystąpisz do stanowczego kroku.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Otóż ona nadchodzi. Zmiłuj się, zostaw nas samych.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Bądź zdrów. <stage>(na str.)</stage> Żal mi go. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>Scena piąta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#aniela">ANIELA.</rs>
+              <rs key="#karol">KAROL.</rs>
+            </p>
+          </stage>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(na str.)</stage> O czem oni tu mówić mogli - może zwierzenia. <stage>(do Karola całującego jej rękę)</stage> Tak późno?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Proszę mi przebaczyć, że przychodzę tu o wiele później, niż moje chęci.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Powinnabym się gniewać; ale był tu ktoś - co prosił za panem.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Leon pewnie.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(z niesmakiem)</stage> W takim razie złego byś pan miał obrońcę.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Któż więc taki?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Pańskie kwiaty, za które ślicznie dziękuję.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Szczęśliwym jestem, żem niemi chwilową przyjemność sprawił. <stage>(całuje ją w rękę)</stage> Ale dla czegoż pani o Leonie wyraziła się tak cierpko?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Niewarto o tem mówić.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Może panią czem obraził?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>On? Nie. Ale przyznam się, że jego częste wizyty u nas zaczynają być trochę nudne.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Sądziłem że Leon jest dobrym znajomym państwa. Nawet sam mówił mi o tem.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(prędko)</stage> Może i to mówił, że się oświadczał o moją rękę.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(z mocnem zdziwieniem)</stage> Jakto? on oświadczał się?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Przed chwilą nawet zmuszona byłam wyjść, by się uwolnić od jego natrętności. Żądał stanowczej ze mną rozmowy. Bywa wprawdzie w naszym domu, ale postępowanie moje z nim nie upewniało go nigdy do czegoś podobnego.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(na str.)</stage> On śmiał więc... to szkaradnie. Teraz dopiero rozumiem jego dwuznaczne słowa, jego odradzania...</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ale nie mówmy o tem. Panu jako jego przyjacielowi...</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Tylko znajomość szkolna nas łączy i wolałbym, żeby nawet tego węzła nie było między nami, żebym nieznał ludzi podobnych jemu.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Zkądże ta zmiana w panu? Przed chwilą, uważałam, byliście dobrze z sobą.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Tak, ale słowa pani oświeciły mnie, pokazały mi jego podstęp i brudotę. On to uszczypliwemi dwuznacznemi słowami chciał we mnie ostudzić miłość, wystawić panią przedemną w złem świetle.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(porywczo)</stage> On śmiał?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(bierze ją za rękę)</stage> Pani go nie kochasz - prawda? - nigdy nie kochałaś?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Jak pan mogłeś przypuszczać coś podobnego?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(całując ją w rękę)</stage> O jakżem szczęśliwy. Dowiedz się pani, że ja za jego namową zataiłem przed tobą prawdę; ale dzisiaj dowiesz się o wszystkiem mój Aniele. <stage>(całuje ją w rękę)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>Scena szósta.</head>
+          <stage type="setting">
+            <p></p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#walenty">WALENTY.</rs>
+              <rs key="#kasia">KASIA.</rs> (wchodząc z lewej strony)
+              <rs key="#aniela">ANIELA.</rs>
+              <rs key="#karol">KAROL.</rs>
+            </p>
+          </stage>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(z uśmiechem)</stage> Tu jak widzę nie próżnują.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(spostrzegłszy go - zmieszany)</stage> Ah!</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Nie masz się czego żenować panie Karolu - i my byliśmy młodzi. <stage>(ściska go za rękę)</stage></p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Rozczulasz mnie pan swoją dobrocią.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Pragnąłem zawsze dla mojego dziecka znaleźć człowieka godnego i spodziewam się, żem się nie zawiódł. <stage>(bierze go na stronę i rozmawia z nim po cichu)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(cicho do Kasi)</stage> Wiesz Kasiu, jak ten Leon będzie tu bywać - to ja się nigdy za mąż nie wydam.</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Jezus, Maryja! Cóż on panience zrobił?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Obgaduje mnie przed Karolem.</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>A to heretyk. A może by mu tak coś de grubis powiedzieć, żeby tutaj więcej nie przychodził?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Czekaj, powiem to ojcu.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(do Karola głośno)</stage> Nie znasz hrabiego Albina? O, my żyjemy ze sobą bardzo dobrze. Poznam cię z nim. Widzisz, i my nie tak zwyczajni ludzie jakbyś myślał - nie powstydzisz się nas. Dziś będzie hrabia u mnie na herbacie. Wiesz o tem?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Niewiedziałem o tem.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Nie wiedziałeś? Ta to po całem mieście mówią o tem. A jakże - będzie, bo my żyjemy ze sobą. „Po wyborach wpadnę do ciebie na herbatę” - pisał mi wczoraj. Wybory szczęśliwie poszły - on został posłem - <stage>(poufnie)</stage> nawiasem powiedziawszy - mnie to ma zawdzięczać. Lada chwila go się spodziewam. <stage>(po chwili przypominając sobie)</stage> Ale, ale, Anielciu! Jak pan hrabia przyjdzie - to nie wybiegaj zaraz z pokoju - możesz sobie coś ładnego tymczasem wygrywać na fortepianie, tylko głośno, żeby poznał, że masz edukacyą - a dopiero do herbaty wyjdziesz, tak jak pani hrabina. - A z nim ciągle po francuzku.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(cicho niechętnie)</stage> Przecież wiem.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(cicho do niej)</stage> No, no, nie gniewaj się zaraz, bo widzisz twój ojciec bywa po wielkich domach, to wie co przystoi. <stage>(do Karola)</stage> Wszystko będzie u mnie jak u hrabiego. Powiadam ci hrabia się za głowę złapie - tak wszystko po magnacku urządziłem. Chodź, zobacz! <stage>(bierze go pod rękę)</stage> Kasiu! chodź za mną. <stage>(odchodzą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>Scena siódma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#aniela">ANIELA.</rs> (później)
+              <rs key="#leon">LEON.</rs> (potem)
+              <rs key="#karol">KAROL.</rs>
+            </p>
+          </stage>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Zdaje się, że dziś Karol stanowczy krok zrobi... <stage>(chodzi po pokoju zamyślona, mnąc chustkę)</stage></p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(wchodzi niewidziany od niej, trzymając list - on również nie widzi Anieli)</stage> Tak, to będzie najlepiej - ten list powie jej to, czego ja nieśmiałem - położy koniec jej nadziejom względem mnie. Trzeba przecież jakoś uczciwie skończyć. <stage>(spostrzega ją)</stage> A, panna Aniela - dobry wieczór?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(spostrzegłszy go - niechętnie)</stage> Dobry wieczór! <stage>(na str.)</stage> Znowu on.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Pani sama?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Tak niby - daruj pan, ale mam tyle zajęcia. <stage>(kłania się i ucieka)</stage></p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>A to znowu co? Inny wiatr wieje. Szkoda że nie ma babci - możeby i to nazwała dowodem szalonej miłości. Jak widzę graliśmy w ślepą babkę. <stage>(drze list)</stage> I ja głupi mogłem uwierzyć, że panna we mnie zakochana, że dla mnie zechce się zrzec obywatelstwa ziemskiego. Karol nie próżnował.</p>
+          </sp>
+		  <stage>(KAROL. przechodzi z prawej strony ku lewej do pokoju Anieli - ujrzawszy Leona rzuca mu spojrzenie pogardliwe)</stage>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(spostrzegłszy go)</stage> No, Karolu, powinszować sukcessu. Przyznaj, że w tej sprawie i mnie wiele masz do zawdzięczenia.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(zimno)</stage> Jeżeli komu mam do zawdzięczenia - to pewnie nie panu. Jego rady nie skutkowały u mnie. <stage>(odchodzi do pokoju na lewo)</stage></p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(osłupiały)</stage> Co? i ten także? - Nie, tegom się przecież nie spodziewał. W tem jest coś; to pachnie babskiemi plotkami. <stage>(słychać za sceną fortepian i śpiew „Kwiatki nasze”)</stage> Masz tobie. Najnowszemi pieśniami czaruje nowego kochanka, ta pieśń, to cały repertoar jej śpiewu, ja miałem przyjemność słyszeć ją dwadzieścia razy. <stage>(zatyka uszy)</stage> Uciekam od tej boskiej muzyki. Żegnaj mi świątynio moich kłopotów! Wszedłem tu w roli romansowego bohatera, a wychodzę jak wygwizdany komedyant. Na panu Walentym się zawiodłem. Hrabia obrany posłem, jedynie mój stan kawalerski wyszedł bez szwanku. <stage>(z udanem pathos)</stage> Anielo! Anielo! żegnaj mi! <stage>(śmiejąc się wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>Scena ósma.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#aniela">ANIELA.</rs>
+              <rs key="#karol">KAROL.</rs> (później)
+              <rs key="#babka">BABKA.</rs> (potem)
+              <rs key="#walenty">WALENTY.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(Aniela z książką w ręku - Karol za nią)</p>
+          </stage>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Więc mnie pani uważałaś, gdy niepostrzeżenie chodziłem za tobą?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Już to tak bardzo niepostrzeżenie - nie; owszem, dość widocznie.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Cóż miałem robić? Od pierwszej chwili zachwyciłaś mnie pani - oczarowałaś. Wszystkie myśli moje były tylko o tobie - gdziekolwiek szedłem zawsze jakaś niepojęta siła pod twoje okna mnie wiodła. Tu mi było najlepiej.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(czule)</stage> O! ja rozumiem pana.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>I czyż mogłem się spodziewać, że ta, na którą ledwie z daleka ukradkiem patrzeć mi było wolno, będzie moją. <stage>(przyciska ją w objęciach)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(wchodząc przypatruje się)</stage> Otóż tak panie Leonie, to mi się podoba; prosto do... <stage>(ujrzawszy twarz Karola, który się do niej zwrócił - osłupiała)</stage> A to co? - Anielciu! cóż to znaczy przez Boga żywego?...</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(mocno zakłopotana)</stage> To moja babka - pan Karol.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>A pan Leon gdzie?</p>
+          </sp>
+          <stage>(KAROL. patrzy zdziwiony na Anielę pomieszaną i na babkę)</stage>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(za sceną)</stage> Panie Karolu! panie Karolu! chodź no teraz, przypatrz się! A to dalibóg po królewsku zastawione. Panie Karolu! <stage>(wystawia głowę na scenę)</stage> Chodźno, zobacz!</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(który chciał coś mówić do Anieli)</stage> Służę panu! <stage>(wychodzi)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(ze zgrozą)</stage> Anielciu! Bój się Boga! obcy człowiek cię całował.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(z gniewem)</stage> Cóż to babcię obchodzi? Ten obcy - to mój narzeczony, babcia niech się nie wtrąca, bo przez babcię, to jeszcze starą panną zostanę. <stage>(płacze)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>I po cóż ja się za ciebie oświadczyłam panu Leonowi?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Tak, mów Babcia o Leonie przy tamtym, to będzie ładna rzecz. O ja nieszczęśliwa!</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>No, no, uspokój się moja rybko! Już dobrze, dobrze. <stage>(zakłopotana do siebie)</stage> I cóż ja teraz powiem Leonowi? Ha, mógł się spieszyć. Ja mu to przepowiadałam. I kiedyż zaręczyny?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(aby się jej pozbyć)</stage> Dziś, dziś.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Dziś? - dziś jeszcze. A niechże ja idę trochę się przystroić; przecież jako babka muszę wam pobłogosławić. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ach! oddycham. Byłam jak na mękach. Babka byłaby wszystko wygadała. <stage>(słysząc nadchodzących siada)</stage></p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(wchodząc do Karola)</stage> A co? wspaniale - prawda? Tylko mnie to niepokoi, że pana hrabiego jeszcze nie widać. W tem coś być musi. Czekajcie polecę do niego. <stage>(wychodzi)</stage></p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(nieco zachmurzony siada obok Anieli)</stage> A gdzież babka pani?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Ah, poszła już do siebie.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Pani musisz nie kochać babki?</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>To nie, ale każda z nią rozmowa rozdrażnia mnie - jestem tak nerwową. Bo trzeba panu wiedzieć, że z całego domu jedna tylko babka sprzyja temu nieznośnemu Leonowi i koniecznie chce go swatać ze mną. Zważ więc pan czy podobna z nią rozmowa - może mi być miłą.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(ucieszony)</stage> Więc tak się ma rzecz? - I ja śmiałem posądzać panią. - O przebacz mi pani. Teraz wierzę, że nigdy go nie kochałaś.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>I pan mogłeś przypuszczać coś podobnego? - Serce moje tylko ciebie znało jednego - Karolu. Choćbyś był ubogim, choćby mi przyszło dzielić z tobą najprzykrzejszy los - nie miałabym siły wyrzec się tej miłości. <stage>(patrzy nań czule)</stage></p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(przyciskając ją)</stage> Pani! Anielo! o! jakżem szczęśliwy! Teraz mogę ci śmiało odkryć, to co mnie gniecie Anielo! ja nie jestem tym, za kogo się wydaje.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Jakto? - tajemnice? <stage>(na str.)</stage> A może to hrabia jaki...</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Pewny jestem, że gdy ci odkryję prawdę - ty mnie nie mniej kochać będziesz.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>O nie wątp pan - ale mów, mów.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Do tego podstępu namówił mnie Leon.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(ze wzruszeniem bierze go za rękę)</stage> Więc pan jesteś?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Szewcem.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(puszcza jego rękę gwałtownie)</stage> Co? <stage>(po chwili - uśmiechając się)</stage> He, he, he, wolne żarty - i ja dziecinna, chciałam temu wierzyć.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(poważnie)</stage> Nie zwodzę cię Anielo - i...</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(przerażona)</stage> Nie?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Nie, ręczę ci słowem - i żałuję mocno, żem cię dotąd oszukiwał. Teraz więc, gdy już wiesz o wszystkiem, jeszcze raz cię proszę. <stage>(zbliża się)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(gwałtownie - z obrzydzeniem)</stage> Precz! - fe, fe - smoła! - Panie, proszę się nie zapominać. <stage>(na str.)</stage> Szewc! to okropnie - z Leonem zerwałam - ha! <stage>(siada osłabiona)</stage></p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(kiwając smutnie głową)</stage> Zawiodłem się - Leon prawdę mówił.</p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>Scena dziewiąta.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#aniela">ANIELA.</rs>
+              <rs key="#karol">KAROL.</rs>
+              <rs key="#walenty">WALENTY.</rs> (z)
+              <rs key="#leon">LEONEM.</rs> (później)
+              <rs key="#kasia">KASIA.</rs> (potem)
+              <rs key="#błażej">BŁAŻEJ.</rs> (w końcu)
+              <rs key="#babka">BABKA.</rs>
+            </p>
+          </stage>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(wpada z furyą - za nim Leon)</stage> A niech go tam licho porwie tego... tego... panka. Widzisz go, dla tego, że jasny pan, to nos do góry zadziera. Prawdęś mówił Leonie, święte twoje słowa. To lis! o! lis! - Jak Boga kocham, tyś się na nim poznał. <stage>(ściska go za rękę)</stage></p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Ale cóż się stało? - Bo od czasu jak mnie pan złapałeś na ulicy i gwałtem tu ciągniesz, niczego jeszcze dowiedzieć się, ani zrozumieć nie mogę.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Co się stało? Słuchaj! - Wczoraj, jak wiesz, obiecał być u mnie na herbacie. Dziś gdy już po wyborach - i z mojej łaski został posłem, gdy mnie już niepotrzebuje, ten - ten - ten arystokrata...</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(uśmiechając się)</stage> No i cóż?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Nie chce przyjść.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(j.w)</stage> A to okropnie! I czemuż?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Że niema czasu, że zajęty...</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(j.w)</stage> A to niegodnie.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>A potem, gdym go prosił, błagał, nalegał, zaklinał, żeby mi tego wstydu nie robił, że całe miasto wie, iż ma być u mnie, że wszystko już przygotowane, wystygnie, zepsuje się - on powiedział, on śmiał powiedzieć...</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(z udanem oburzeniem)</stage> Cóż!</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Żebym sobie poszedł, żebym go nie nudził. Nie nudził? Proszę, hm, panek, arystokrata.</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p><stage>(wchodzi)</stage> Proszę pana, dać już? Bo jak, nie dam teraz, to się wszystko zepsuje, wysuszy - ta to od dwóch godzin stoi kolacya gotowa.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(markotny)</stage> Chodźmy! Panie Karolu, podaj rękę Anielci.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(odsuwając się gwałtownie)</stage> Nigdy!</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Cóż to znowu ma znaczyć?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Ja panu całą rzecz wyjaśnię. Starałem się o rękę panny Anieli...</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>No i masz ją. Dałem ci na to słowo.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(gwałtownie)</stage> On szewc!</p>
+          </sp>
+		  <stage>(chwilka milczenia)</stage>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p><stage>(załamując ręce)</stage> <stage>(na str.)</stage> O! Jezu! nie szkoda też to takiego ładnego człowieka na szewca!</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(wychodząc z przerażenia)</stage> Co? szewc? - Pan szewc? - Nie obywatel ziemski? - Mój Panie! -</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Oszukiwałem was, czego teraz mocno żałuję; ale chciałem pierwej zyskać serce panny Anieli, a potem odkryć jej mój stan. Myślałem, że nie wzgardzicie mną - zwłaszcza, że ty sam panie Walenty byłeś...</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(z gniewem)</stage> Co tam, czem byłem. Mój Panie, ty mi nie wyrzucaj mojego stanu.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Pozwól pan...</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(odsuwa lekko Karola)</stage> Pozwól, ja będę mówić za ciebie. Więc pan, panie Walenty, nie życzysz sobie mieć Karola za zięcia?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Prędzej mi tu <stage>(pokazuje na dłoń)</stage> włosy wyrosną.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>I czemu?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(opryskliwie)</stage> Ja nie mam dla szewców dziecka z edukacyą.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p>Więc pogardzasz człowiekiem, który tobie równy stanem, a nierównie wyższy wykształceniem - a sam na hrabiego piorunujesz, że z tobą żyć nie chce. Piąć się do wyższych, małpować ich - a gardzić równymi i niższymi - to się u was zowie demokracyą, równością. Kupiec handlujący jedwabiem wyższym się czuje od tego, co pieprz waży i z góry na niego patrzy; u rękawiczników szewc za podłą zdaje się figurę - choć obaj zarówno skóry wyciągają. Uderzcie się pierwej w piersi, zanim na drugich rzucicie potępienie. <stage>(obracając się do Anieli)</stage> Panno Anielo! dowiedz się, że Karol nie zwodził cię.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(po cichu do Leona)</stage> Ależ przecie.</p>
+          </sp>
+          <sp who="#leon">
+            <speaker>LEON.</speaker>
+            <p><stage>(do Karola)</stage> Cicho bądź! - <stage>(głośno)</stage> Jest on istotnie obywatelem ziemskim - a ta cała komedyjka była ułożona na wyszedzenie waszych arystokratycznych zachcianek, na ukaranie i zawstydzenie was. A teraz żegnamy. <stage>(Bierze Karola pod rękę i wychodzą)</stage></p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p><stage>(na str.)</stage> I ja niedomyśliłam się, że to komedya. O! ja nieszczęśliwa! <stage>(wpada na fotel)</stage></p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(skonfundowany)</stage> A niech sobie poszli. Widzicie go, młodzik - będzie mi nauki dawał. Ja nauk mospanie niepotrzebuję. <stage>(chodzi po pokoju)</stage> Hm, teraz się to rozniesie po mieście - dziewczynę wezmą na języki.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p><stage>(zadyszany wchodzi)</stage> Spieszę - lecz - możem się spóźnił, co? Panie Walenty, czy to prawda, co ludzie mówią po mieście?</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Jakto, już wiedzą o wszystkiem? <stage>(na str.)</stage> A co - niepowiedziałem?</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>Ależ - całe przedmieście mówi, że podobno jacyś hrabiowie i książęta mają być dziś u was na herbacie.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p>Eh! dajcie mi pokój - niech ich tam licho i hrabiów.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(wchodzi z uroczystą powagą i zbliża się do Anielki)</stage> No, moja Anielciu - jako twoja babka przyszłam wasz związek pobłogosławić. Błogosławieństwo starszych szczęście przyniesie. Zbliżcie się moje dzieci. Anielciu, a gdzież narzeczony?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Już po nim - poszedł sobie.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>To jeden, ale gdzież drugi?</p>
+          </sp>
+          <sp who="#kasia">
+            <speaker>KASIA.</speaker>
+            <p>Nie ma żadnego.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(do Anieli)</stage> Anielciu, cóż się to stało? Wszakże on miał być twoim mężem.</p>
+          </sp>
+          <sp who="#aniela">
+            <speaker>ANIELA.</speaker>
+            <p>Daj mi babcia pokój z tym mężem, ja męża nie chcę, nie potrzebuję.</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>A na cóż cię całował.</p>
+          </sp>
+          <stage>(ANIELA. robi gest niecierpliwy)</stage>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(biorąc Błażeja pod rękę na boku - półgłosem)</stage> Słuchajcie no panie Błażeju, wy tam podobno macie jakiegoś porządnego człowieka dla mojej Anielci.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>Eh, to ten majster ciesielski.</p>
+          </sp>
+          <sp who="#walenty">
+            <speaker>WALENTY.</speaker>
+            <p><stage>(ze wstydem)</stage> A niechby tam i ten wreszcie.</p>
+          </sp>
+          <sp who="#błażej">
+            <speaker>BŁAŻEJ.</speaker>
+            <p>Tak? - O! co za szkoda! - On sobie już innej żony poszukał.</p>
+          </sp>
+          <trailer>(KONIEC)</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1553 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000016" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Zmarnowane życie.</title>
+        <title type="sub">Dramat w pięciu aktach</title>
+        <author>
+          <idno type="isni">0000000117520692</idno>
+          <persName>
+            <forename>Stefania</forename>
+            <surname>Laudyn-Chrzanowska</surname>
+          </persName>
+        </author>
+        <!-- Stefania Laudyn-Chrzanowska (1872-1942) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/zmarnowane-zycie-dramat-w-5-ciu-aktach,NzUxODk4NjU/8/</idno>
+          <title>Laudyn-Chrzanowska, S., Zmarnowane życie: dramat w 5-ciu aktach, Lwów 1895</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="anna" sex="FEMALE">
+            <persName>Anna</persName>
+          </person>
+          <person xml:id="babka" sex="FEMALE">
+            <persName>Julja Moszczyńska</persName>
+          </person>
+          <person xml:id="doktor" sex="MALE">
+            <persName>Doktor</persName>
+          </person>
+          <person xml:id="górski" sex="MALE">
+            <persName>Andrzej Górski</persName>
+          </person>
+          <person xml:id="karski" sex="MALE">
+            <persName>Edward Karski</persName>
+          </person>
+          <person xml:id="jan" sex="MALE">
+            <persName>Jan</persName>
+          </person>
+          <person xml:id="paweł" sex="MALE">
+            <persName>Paweł</persName>
+          </person>
+          <person xml:id="przyborski" sex="MALE">
+            <persName>Przyborski</persName>
+          </person>
+          <person xml:id="stebelska" sex="FEMALE">
+            <persName>Stebelska</persName>
+          </person>
+          <person xml:id="józia" sex="FEMALE">
+            <persName>Służąca</persName>
+          </person>
+          <person xml:id="służący" sex="MALE">
+            <persName>Służący</persName>
+          </person>
+          <person xml:id="tancerz" sex="MALE">
+            <persName>Tancerz</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-11">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1895">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">ZMARNOWANE ŻYCIE.</titlePart>
+            <titlePart type="sub">Dramat w 5-ciu aktach</titlePart>
+          </docTitle>
+          <byline>PRZEZ<lb />
+            <docAuthor>STEFANIĘ LAUDYNOWĄ</docAuthor>.
+          </byline>
+          <docImprint>
+            <p>
+              <pubPlace>LWÓW</pubPlace>.
+              <bibl>
+                <publisher>GUBRYNOWICZ I SCHMIDT.<lb />
+                przy placu Katedralnym</publisher>
+              </bibl>
+              <date>1895</date>.
+              <bibl>
+                <publisher>Z DRUKARNI I LITOGRAFII PILLERA I SPÓŁKI.</publisher>
+              </bibl>
+            </p>
+          </docImprint>
+        </titlePage>
+        <castList>
+          <head>OSOBY:</head>
+          <castItem>
+            <role corresp="#górski">ANDRZEJ GÓRSKI,</role>
+            <roleDesc>bogaty obywatel.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#anna">ANNA,</role>
+            <roleDesc>jego córka, jedynaczka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#babka">JULJA MOSZCZYŃSKA,</role>
+            <roleDesc>jej babka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#karski">EDWARD KARSKI,</role>
+            <roleDesc>doktor.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#przyborski">PRZYBORSKI,</role>
+            <roleDesc>jego kolega i przyjaciel.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#stebelska">STEBELSKA,</role>
+            <roleDesc>ciotka Karskiego.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#jan">JAN,</role>
+            <roleDesc>lokaj Górskich.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#paweł">PAWEŁ,</role>
+            <roleDesc>lokaj.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#józia">JÓZIA,</role>
+            <roleDesc>pokojówka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#doktor">DOKTOROWIE N. N.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#tancerz #tancerze">Goście, Panowie i Panie.</role>
+            <roleDesc/>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT I.</head>
+        <stage type="setting">
+          <p>(Scena przedstawia zbytkownie umeblowany gabinet kawalerski. Na ścianach obrazy nagich kobiet, posągi Wenery, Bachusa; kanapy, tureckie sofy, dywany, lampy, zbytek i zmysłowość)</p>
+        </stage>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage type="setting">
+            <p>(Karski siedzi w wygodnym fotelu, w pozie niedbałej i obojętnej; nad nim pochylony w zamyśleniu Przyborski. Ten ostatni wysłuchuje i opukuje mu piersi i plecy. Karski w kamizelce i koszuli, pali papierosa)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#karski">KARSKI.</rs> (i) 
+              <rs key="#przyborski">PRZYBORSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(p. ch. głosem żartobliwym, z lekką ironią)</stage> No, cóż tam, kolego?... Zanadto jakoś pogrzebową masz minę! Proszę cię, nie rób sobie ceremonij... powiedz... wszak nie zdziwisz mnie, bądź przekonany! Na tyle mi jeszcze zdrowego sensu zostało, że się nie łudzę i wiem, że... <stage>(z emfazą)</stage> ach, jak to tragicznie!... Że <stage>(z naciskiem)</stage> że chwile życia mego są policzone!... <stage>(p. ch. więcej serjo)</stage> Nie po to też cię właściwie wezwałem, ale, ot, pragnąłem wiedzieć, ile mi też tych miłych chwil pozostaje? Bądź łaskaw więc... pomyśl... i określ, o ile można dokładnie! Podług tego chcę się urządzić!</p>
+          </sp>
+          <sp who="#przyborski">
+            <speaker>PRZYBORSKI.</speaker>
+            <p><stage>(z miną bardzo niezadowoloną, odkłada przyrządy na stronę, siada, zapala cygaro, p. ch. mówi)</stage> Ha, pragnąłbym ci dogodzić!... Ale... abym mógł możliwie najdokładniej odpowiedzieć, musisz wprzód przyjąć i zgodzić się na plan życia, jaki dla ciebie ułożę... Wtedy tylko mógłbym nie jako następstwa obliczyć... Inaczej, daruj, mój drogi, ale nic ci powiedzieć nie umiem!</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(żywo, porywając się z miejsca)</stage> Plan życia!... ha!... ha!... ha!... Drwisz czy żartujesz!... A toż wolałbym natychmiast w łeb sobie palnąć, niż tak kroplami swobodę rozmierzać!... Fe, głupstwa mówisz!... <stage>(chodzi szybko, zirytowany; p. ch. siada nieco uspokojony)</stage> Nie mówmy o tem więcej... Widzisz, jak to mię zaraz irytuje! <stage>(p. ch)</stage> A wszak to mi szkodzi... bardzo szkodzi... <stage>(z ironią i goryczą)</stage> Trzeba się oszczędzać... tak!... Nie wiele zostało!... Zaczynam być o te resztki dbałym! <stage>(zamyślając się)</stage> Ciekawym, co czuć będę, gdy finał nadejdzie?... finał tej głupiej farsy, jaką jest życie!... Najszczęśliwszy ten chyba, co się nie rodził... Tak mnie to wszystko znudziło... <stage>(z apatyą w ruchach i głosie)</stage> zmęczyło... Ach!...</p>
+          </sp>
+          <sp who="#przyborski">
+            <speaker>PRZYBORSKI.</speaker>
+            <p><stage>(z ciężkiem westchnieniem, poważnie, z bólem)</stage> Sam winien jesteś... Miałeś rzadkie do szczęścia warunki! Zmarnowałeś wszystko... A i zdolności i energia niepoślednie były... źle-ś ich użył!... Mówiłem ci nieraz, nie chciałeś słuchać, a teraz... <stage>(P. ch)</stage> Żal mi cię!</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>I ja też ciebie żałuję... wierzaj mi! Czy myślisz, że życie twoje co warte? Ech? <stage>(coraz bardziej zapalając się)</stage> Praca twoja, cnotliwość, oddanie gdzież cię zaprowadzą?! Najlepsze lata zmarnujesz, wyczerpiesz siły daremnie i... nie poznasz życia!... tego życia, kipiącego rozkoszą, ani najlepszego z darów jego — użycia!... Spleśniejesz nad żmudną pracą swoją, aby się zapóźno przekonać, że cele twoje to urojenie, a cała, jak mówisz, pożyteczna działalność — nie warta funta kłaków!... Brr... to gorsze, niż moja dola! Ja czuję przynajmniej, że żyłem!... i choć bankrutuję, niczego mi nie żal i o nic nie dbam! <stage>(p. ch)</stage> A ty?... Myślisz, że cię również bankructwo nie czeka?... ha!... ha!... ha!... Czeka bratku, czeka, i to znacznie gorsze... Mnie przynajmniej koniec osładza szał przeżytej przeszłości, a tobie zatruje myśl o zmarnowanem życiu, które poświęciłeś na służbę... nicości!... Bo wszystko jest nicość, a bankructwo wszystkiego — to nieubłagana fatalność!</p>
+          </sp>
+          <sp who="#przyborski">
+            <speaker>PRZYBORSKI.</speaker>
+            <p><stage>(z powagą)</stage> Mylisz się. Nie taka to fatalność, jak ci się wydaje. Zechciej przeciwstawić jej jakąbądź wiarę, byle silną — a straci natychmiast swoją konieczność! Wiara — to grunt! W cokolwiek wierzyć powinniśmy, inaczej zginiemy!... I w tym razie masz słuszność. Co do mnie, wierzę w to, czemu służę i wiem, że cel, jaki obrałem, zawieść nie może, więc — jestem spokojny i o przyszłość się nie troszczę!</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Przyszłość!... Wierzysz więc w wieczność idei?!... Nauka, badanie!... czyż na każdym kroku nie dają one tysiąca dowodów swej nieudolności?... Zresztą, pomijam to!... Ale powiedz mi, zmiłuj się, jaki jest realny cel twojej pracy?... po co pracujesz?... Ach! <stage>(drwiąco, ze śmiechem)</stage> Wiem... wiem!... Powiesz mi zaraz: <stage>(z przesadą)</stage> dobro ludzkości!... ulżenie jej cierpieniom!... Wybornie! <stage>(z ironią)</stage> Ale dlaczegóż to ludzkość tak dobrze ongi bez nas się obchodziła?... tak zdrową była?... A potem... ta straszna śmiertelność, nad którą biadacie i która, zamiast się zmniejszać, ciągle wzrasta?!...</p>
+          </sp>
+          <sp who="#przyborski">
+            <speaker>PRZYBORSKI.</speaker>
+            <p>Mówisz, jak dziecko. Zdawałoby się, że my choroby tworzymy! A jeśli pod względem śmiertelności istotnie tak jest, jak mówisz, to wina nie nasza, ale tysiąca innych przyczyn... i gdyby dziś medycyna istnieć przestała lub znikła nagle, umarłoby dwa a może i trzy razy tyle co dzisiaj!</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(z ożywieniem, zrywając się z miejsca)</stage> I bardzo pięknie! Tego tylko chciałem!... Chwyciłeś w lot myśl moją!... Więc, byłoby, jak dawniej: umieraliby słabi, a pozostawali silni!... W tem właśnie rdzeń kwestyi! Wyginęłoby całe to pokolenie charłaków, niedołęgów, którzy dziś żyją i życie innym dają... i zabiłoby się złe w samym zarodku skutecznie i bezpowrotnie!... Cóż ty na to? Aha? bierzesz czapkę, bo nic mi odpowiedzieć nie umiesz!</p>
+          </sp>
+          <sp who="#przyborski">
+            <speaker>PRZYBORSKI.</speaker>
+            <p><stage>(mówi, zabierając się do wyjścia)</stage> Przedewszystkiem, gdyby drapieżny twój system mógł wejść w życie, sam byś zginął najpierwszy! Tymczasem dziś, zamiast medycynie dziękować, wymyślasz jej niesumiennie!</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(wesoło, z humorem)</stage> A bo głupstwo robi! Po co mnie oszczędza?... Gdyby mię tak zaraz, z całą falangą innych do mnie podobnych zniszczyła, przyznałbym jej mądrość wysoką!... Ale tak, ponieważ tego nie robi, przeciwnie, podtrzymuje mię, jak umie — więc, cóż mam sobie żałować? ... <stage>(ożywiając się coraz bardziej)</stage> Będę żył jeszcze!... <stage>(z brawurą)</stage> Ho!..., ho!... w niczem sobie nie odmówię!... pal djabli siły!... Nie o to mi chodzi... nie o długość życia, ale o siłę wrażeń... o ich smakowitość!... <stage>(nagle chwytając Przyborskiego za ramię)</stage> Naprawdę!... wiesz co?... już czuję się lepiej!... Zdaje mi się, że nagle jakieś nowe źródło sił we mnie się odkryło!... No, powiedz że mi, proszę, ile też w najgorszym razie pociągnę?... Podług mego obliczenia... Ale, nie!... nie! siebie badać nieumiem!... Więc... ile, jak ci się zdaje?... Rok, dwa, trzy?... co?...</p>
+          </sp>
+          <sp who="#przyborski">
+            <speaker>PRZYBORSKI.</speaker>
+            <p>Może... i prędzej!... a może i później, jak ci to już dawniej mówiłem. Płuca dłużej trzymać się mogą, w tym wieku zepsucie nie posuwa się już tak szybko, ale... choroba serca... Wszak sam, jako medyk, wiedzieć musisz, że cierpienie takie co chwila niebezpieczeństwem zagraża... że silne jakieś wzruszenie nawet zabić może... Dlatego warto, abyś miał się na baczności i więcej się zastanawiał... Radziłbym ci szczerze, abyś obciął nieco swój budżet rozchodów... Wierzaj, na dobre ci to wyjdzie. Wszak sam mówiłeś przed chwilą, że czujesz apatję i znudzenie... czyż nie najlepszy to dowód, że to, czem żyjesz, jest męt i piana?... Oszczędź się, a kto wie, może długich lat jeszcze doczekasz!...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>A toś mi wyprorokował!... Nie chcę!... nie chcę!... Życie dla mnie — to bal, najlepszy&gt;wtedy, gdy się w sam czas dla biesiadników kończy... a najgorszy, gdy każdy sam ucieczki zeń szukać potrzebuje!... Więc... lebe wohl, przyjacielu!... <stage>(deklamacyjnie)</stage> Idź do swych obowiązków!</p>
+          </sp>
+          <sp who="#przyborski">
+            <speaker>PPZYBORSKI.</speaker>
+            <p>Rób, jak chcesz!... Pamiętaj tylko, abyś później nie żałował!... Bądź zdrów!... Jeśli potrzebować mnie będziesz, przyślij. W każdej porze gotów jestem ci służyć!... Do widzenia!... <stage>(podaje rękę i wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#karski">KARSKI.</rs> (sam, potem)
+              <rs key="#paweł">LOKAJ.</rs>
+            </p>
+          </stage>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(czas jakiś przechadza się milczący, zamyślony, potem staje i mówi z uśmiechem ironii)</stage> Farsa!... Doprawdy, zdaje mi się chwilami, że jestem gdzieś, na przedstawieniu... Ludzie, jak aktorzy, przesuwają się i znikają... Ale ten to nie aktor!... On wierzy!... To bohater tragiczny, który idzie ze spokojem i wiarą, w zaślepieniu szalonem nie czując, że to, co widzi, złudzenie, fałsz, omamienie, a na dnie, na dnie wszystkiego, co istnieje, — nicość, nicość i jeszcze raz... nicość! <stage>(chodzi, p. ch. posępniej, ciszej)</stage> Ale kto z nas szczęśliwszy?... czy on, co tego nie czuje, czy ja, co piołunem się tym upajam, a raczej odurzam!?... <stage>(p. ch)</stage> Dlaczego ja to piołunem nazywam? Wszak się wybornie z tą rzeczywistością godzę... <stage>(z chwilowem ożywieniem)</stage> A jednak... a jednak boli mnie tu coś... pali... czuję ciągle, jakby głód jakiś nienasycony... a mimo to niczego już pragnąć nie umiem!... <stage>(siada bezwładnie, p. ch)</stage> Niczego!?... Nie, to nie prawda!... ja pragnę jeszcze czegoś!... pragnę znów szaleć, hulać, używać... ile sił starczy!... <stage>(p. ch. z niechęcią, apatycznie)</stage> Ale takie to wszystko znane... wiadome... <stage>(z bólem prawie)</stage> takie to wszystko nie nowe!... <stage>(p. ch)</stage> Kto wie, może to ona właśnie jest tem oryginalnem, nieznanem... Ale... trudno wierzyć!... Tyle ich znałem, a wszystkie tak strasznie do siebie podobne!... różnica temperamentu jedynie!... Tamta wydała mi się inną... całkiem niepodobną do znanych... Ale czy to nie pozór tylko? Wszak każda przedstawiała się pod innym pozorem, a w końcu... zeszły się wszystkie do jednego mianownika!... Brr... to okropnie!... Ta jednostajność straszna mnie zabije! Jeśli nic innego nie wynajdę, czuję, że nie doczekam końca!... A wolałbym, aby sam przyszedł... trudno mi nawet o siłę do przyśpieszenia go!...</p>
+          </sp>
+          <sp who="#paweł">
+            <speaker>LOKAJ.</speaker>
+            <p><stage>(wchodząc)</stage> Lokaj pani Fabiańskiej przyniósł ten list i czeka na odpowiedź. <stage>(Podaje list na tacy)</stage></p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(z gniewem list otwiera i p. ch. z pasyą)</stage> Dlaczego nie powiedziałeś, żem chory?</p>
+          </sp>
+          <sp who="#paweł">
+            <speaker>LOKAJ.</speaker>
+            <p>Powiedziałem, proszę pana. Ale nie chciał za nic odejść, mówi, że mu pani kazała koniecznie odpowiedź przynieść.</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Niech was dyabli porwą! nie umiecie nigdy dać sobie rady... chwili spokoju mieć nie można. <stage>(Siada i szybko pisze, zakleja, oddaje, lokaj wychodzi. Karski zirytowany przechadza się)</stage></p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(p. ch. sam)</stage> Ta natarczywość mnie oburza! Chciałyby wprządz mnie w jarzmo, jak konia roboczego. Ale ja tam z wami ceremonji robić nie myślę!... Mniejsza o to! co było, to nie jest!... Dokuczyłyście już mi wszystkie!... <stage>(zamyśla się i uspokaja; p. ch)</stage> Ciekawym, czy zechce dopomódz mi ciotka?... Spodziewam się, wszak dotąd byłem jej ulubieńcem!... a bez niej, wątpię, czy co zrobię! <stage>(p. ch)</stage> Życie prowadzą podobno bardzo zamknięte... nikt prawie nie bywa... trzymają pannę pod kluczem... a klucz w ręku ojca, który ma być bardzo trudny w wyborze!... Przeszkody więc będą... a czy to warte?... W tem sęk!... Trudno coś sądzić z jednego widzenia na balu, ale zdaje mi się, że ma w sobie coś... to coś, czego dotąd nie spotykałem i co mię najbardziej w niej intryguje... Więc przekonać się muszę!... Ach! <stage>(w upojeniu)</stage> Gdyby to prawdą było!... umarłbym chyba z radości, odkrywając coś nowego... chociaż by to miało mi nawet nieszczęście przynieść — pragnę!... Byłoby to zawsze czemś, co by mnie zaspokoiło... Wypełniło pustkę choć chwilowo!... <stage>(chodzi w zamyśleniu)</stage> Tak!... tak!... <stage>(Za sceną słychać stłumiony hałas. Karski zatrzymuje się i wsłuchuje)</stage> Co to?... zdaje mi się... tak... on tam z kimś wojuje!... ktoś się dobija... <stage>(Chwyta dzwonek i gwałtownie dzwoni; wbiega lokaj)</stage></p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Co to jest?... co się tam u was dzieje?</p>
+          </sp>
+          <sp who="#paweł">
+            <speaker>LOKAJ.</speaker>
+            <p>A niech ich tam!... Proszę pana, to ta pokojowa od pani Burskiej, gwałtem się dobija!... Nie pozwalam, mówię, że pan chory... Gdzie tam! ani chce słuchać, mówi, że nie wyjdzie, póki się z panem nie zobaczy.</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Sprzątaj tu nim ja wrócę!... Pewno ma coś ważnego!... Sam się z nią rozmówię! <stage>(wychodzi spiesznie)</stage></p>
+          </sp>
+          <sp who="#paweł">
+            <speaker>LOKAJ.</speaker>
+            <p><stage>(patrząc za Karskim, drwiąco)</stage> Aha!... znam się!... A zdaje się chory... czort go wie!... To umiera, to znów jakby nic... Dyabeł w nim siedzi, nie człowiek! <stage>(odmuchując pyły, i poprawiając meble)</stage> No, ale i te baby!... Święty straciłby z niemi cierpliwość!... Jak się wezmą, ani rusz!... nie ma ratunku, choć weź i za drzwi wypychaj!... Nie jedzie, to przysyłają, a jak i to nie pomaga, to same przyjadą... Ha!... ha!... ha!... to u nas już lepiej!... przynajmniej odczepić się można!... Tfu! obraza Boska!... To nie stolica, ale Sodoma i Gomora.</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(wbiegając, zniecierpliwiony)</stage> Żebyś mi nadal i takie za drzwi wyrzucał! Pamiętaj, żadnej ceremonji! Za rękę i... precz! <stage>(Lokaj wychodzi, Karski spaceruje szybko po scenie)</stage></p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(po ch. ze śmiechem i lekką, irytacyą)</stage> A to bestyjka! Patrzcie, czego się jej zachciało!... chce się ze mną bawić!... A... pal ciebie licho!... Co prawda, ładny dyabełek, wolałbym ją, niż jej panią! No, poczekaj, nie zawsze ci się tak uda!... <stage>(po ch.)</stage> Ale ta... to bezwstyd prawdziwy! <stage>(z oburzeniem)</stage> Tyle razy dawałem już jej do poznania, że mnie znudziła... Nie... i nie!... To się poprostu w prześladowanie zmienia! Czego one chcą! Od dziś postanawiam nie znać z nich żadnej!... Niech się wściekają, zamknę drzwi przed nosem! <stage>(Chodzi długo milcząc, potem siadając w fotelu, wyciąga się z miną bardzo znudzoną)</stage> Ach... jaka nuda!... Co ja tu robić będę?... co?!... <stage>(Spoglądając na zegarek)</stage> Wieczór długi... Ale może ciotka przyjedzie!... Napisałem taki rozpaczliwy list... Byłem wtedy pod świeżem wrażeniem panny Górskiej... A teraz, czy już nie jestem... <stage>(powoli z namysłem)</stage> Jestem... jestem!... Ale jeżeli trudności te długo potrwają?... Kto wie?... często tak ze mną bywa, że chęć opuszcza mnie tak nagle, jak przyszła! A potem... znów nuda, jednostajność, apatya!... Boję się, aby tak właśnie nie było... Trzeba się spieszyć!... <stage>(Nagle, porywając się z miejsca)</stage> Zdaje mi się, że to głos ciotki!... tak. tak!... <stage>(z uradowaniem)</stage> Musi mieć coś pomyślnego, skoro sama przyjeżdża. Poczciwa starowina! Ta prawdziwie mnie kocha!... No, trzeba być słodkim, bardzo słodkim i czułym... ona to lubi! <stage>(Wybiega i w drzwiach spotyka się z ciotką)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#karski">KARSKI.</rs>
+              <rs key="#stebelska">STEBELSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(całując ręce Stebelskiej)</stage> Ach, ciocia, cioteczka!... uszczęśliwiony jestem!... Niechże cioteczka siada... Proszę... <stage>(sadowi ją na kanapie i pomaga zdjąć okrycie)</stage> Ja sam to zdejmę!... niech się ciocia nie fatyguje!... Czy myśli może, że nie potrafię?...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(śmiejąc się dobrodusznie, mówi wesoło, żartobliwie)</stage> Zaręczam... iż coś mu się zdaje... pewnie już sobie dużo z mojej wizyty obiecuje... Co?... przyznaj się!... zgadłam?... Oj, stary bałamucie!... tak się rozpływasz...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(niby obrażony)</stage> Ależ, cioteczko... Czy to się godzi?... Mnie, o interesowność posądzać?!... Może tak bywa, ale tylko nie względem cioci... O... nie... Przecie cioteczka wie, jak ją kocham. <stage>(Całując ręce)</stage></p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(niby gderząc)</stage> Wiem, wiem... że jak co — to do ciotki... a jak ciotka co radzi — to... ani chce słuchać... Co tam... <stage>(robi ruch ręką)</stage> Stare rozumu nie mają... A ty go masz dużo... Spójrz do czego jesteś podobny... Jak wyglądasz... a jeszcze brawuje... <stage>(wzdycha)</stage></p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(ciągle wesoło, z przesadą)</stage> Ja!?... Do czego jestem podobny?... Alboż ciocia nie wie?... <stage>(prostując się dumnie)</stage> Do — lwa!... Tak, ciociu... wszak jestem lwem salonów...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(litośnie, trzęsąc głową)</stage> Powiedz raczej — byłem... Bo dziś już nic lwiego w tobie nie zostało... chyba tylko ta grzywa... i ta sama zawsze harda pewność siebie... <stage>(coraz smutniej)</stage> O... mój Boże!... Gdybyś mógł siebie widzieć i porównać z tem, czem dawniej byłeś — płakałbyś tak, jak ja płaczę nieraz... Co się to z tego, jak wiśnia, pięknego chłopca zrobiło?... Kaszle... stęka... serce go boli... Ot — co z ciebie to lwie życie zrobiło... Masz skutki... <stage>(po chwili)</stage> Cóż mówi doktor?...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(ciągle żartując)</stage> Mówi, że ciocia przedewszystkiem leczyć się potrzebuje... bo chora na nerwy... <stage>(niby seryo)</stage> Tak... niech się ciocia zaradzi... <stage>(przymilając się)</stage> A może cioteczka pozwoli, to ja jej cokolwiek przepiszę... Wszak nieraz recepty pisywałem...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(cofając się)</stage> A niechże mię Bóg broni... Piękniebym po twojej kuracyi wyglądała... wykierowałbyś mię tak chyba, jak siebie...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>No... no... Gdyby cioteczka tak trochę... odrobinkę młodszą była, to — może... i jejbym to samo doradzał... ale... tak... nie mam odwagi...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(oburzona naprawdę)</stage> Wstydu ty nie masz, a nie odwagi... Odwagi na wszystko ci starczy... Nikogo nie uszanujesz... Co tam... Wszystko ci jedno... Jak pleść — to pleść... Same głupstwa w głowie...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(wesoło, chwytając jej rękę)</stage> Przepraszam, cioteczko... Przepraszam... <stage>(ona stara się wyrwać rękę, niby zadąsana, on — całując)</stage> Już nie będę... doprawdy... jak... jak... <stage>(śmiejąc się)</stage> kiedy nie mam na co przysięgać!...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(udobruchana)</stage> Nie trzeba mi twoich przysiąg... I takbym nie uwierzyła... No... Ale powiedz że mi nareszcie, jak twoje zdrowie?...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Wybornie, ciociu... Mówił mi doktor przed chwilą, że matuzalowych lat mogę doczekać... O małom go za to nie wybił... Ale... to do rzeczy nie należy... otóż... ale cioteczka mi, widzę, nie uwierzy. Stanowczo — brak mi przysiąg... A więc — mówię seryo... <stage>(powoli, z naciskiem)</stage> Powiedział, że wcale tak źle nie jest... trzeba się tylko oszczędzać... Zresztą, sam czuję, że jest mi znacznie lepiej... Na ostatnim balu tańczyłem więcej, niż kiedy... i... nic mi nie zaszkodziło...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(żywo)</stage> Ale, poco próbować?... Poco się narażać?... Czyś się mało jeszcze natańczył?... Właściwie wszystko przetańczyłeś... i to mu jeszcze mało...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>To prawda... Tańczyłem dużo. ale... nie z panną Górską!... <stage>(po chwili z nagłym wybuchem)</stage> Ciociu!... Panna Górska!... Jeśli nie uczynisz tego, o co cię prosiłem — umrę albo zwarjuję z rozpaczy... Ale — to wcale nie żart... Trzeba cioci wiedzieć, że każda irytacya, gniew, rozpacz — niezmiernie mnie dużo kosztują i strasznie szkodzą... A będę się irytował, gniewał, rozpaczał... — umrę...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(niby gniewnie)</stage> Tak... tak... U was zaraz umrę... nie przeżyję... Umrzeć dla tych młokosów, to — jak chleb z masłem zjeść... A czy ja jestem wszechwładna?... Czy mogę robić cuda dla ciebie... Ot... zachciało mu się... Stań się — stało... I jeszcze mi grozi... Macie go... to mi błazen...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(wpatrując się w nią uważnie przez chwilę, potem nagle, zrywając się i chwytając w objęcia)</stage> Ciociu!... Ciociu! Już wiem... widzę, że się cioci udało... że będę mógł być u nich... ją widzieć... <stage>(w uniesieniu)</stage> Ach... ciociu, ciociu!... ciocia jest aniołem!...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(śmiejąc się, uwalnia się z jego uścisków)</stage> Nie ja... nie ja — waryacie... Ale rzeczywiście urwis ten ma szczęście... Trzebaż, że w tym właśnie czasie — wyjechał stary Górski... co się niezmiernie rzadko trafia...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Brawo!... Sam los mi na pomoc pospieszył... A widzi ciocia — to przeznaczenie... to pewno... w tem jest wola boska... Tak... tak... Więc my zaraz jutro z cioteczką do nich jedziemy... Wszak cioteczka się zgadza... naturalnie... Trzeba się śpieszyć...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(bierze go za rękę i sadowi obok siebie, głos jej i zachowanie się stają się bardzo poważne)</stage> Za pozwoleniem... Uspokój się... Właśnie po to przyjechałam, aby z tobą w tej kwestyi pomówić!... Tylko proszę... bez żadnych żartów... seryo... rzecz ważna... Inaczej zabieram się natychmiast i — wyjeżdżam...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Nie... Cóż znowu... Czy ciocia sądzi, że nie umiem zachować powagi... O i jak jeszcze... Więc, gotów jestem... zaczynajmy...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p>Otóż, chciałam cię uprzedzić, że dom pp. Górskich znam oddawna. Pamiętam nawet samą panią Górską, ale ona umarła bardzo młodo, dając życie tej córce. Wychowaniem jej kierował ojciec z nadzwyczajną troskliwością i staraniem... To też panna znaną dziś jest w całej stolicy z wykształcenia, rozumu, piękności, a głównie z niezwykłej dobroci i miłosierdzia... Musiałeś i ty coś słyszeć o jej filantropii...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Tak... tak... Ale to do rzeczy nie należy... i najmniej mnie obchodzi...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(surowo)</stage> Ale powinno cię obchodzić!... Pomyśl i zastanów się nad tem, jak panna tego rodzaju będzie się zapatrywać na ciebie... z czego się jej możesz podobać?... <stage>(z ironią)</stage> Myślisz, że zachwycisz ją swoją piękną postawą, elegancyą, szykiem... Wyperswaduj to sobie... Widziała ona nie takich. Zresztą, gdyby i tak... Czy sądzisz, że osoba taka, jak ona, na tem poprzestanie... Wszak zechce poznać cię głębiej — a wtedy cóż odkryje?...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Niech się już ciocia o to nie troszczy. W tem moja sztuka... Ręczę za siebie... Kawaler, jak ja, nigdy swej ciotce wstydu nie zrobi... Proszę wierzyć...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(niechętnie)</stage> Zarozumialec jesteś — i basta... Zepsuły cię same kobiety... Czepiały się go, jak ćma... No... <stage>(lekceważąco)</stage> takie to i były... Ale tu — inna sprawa... z tą tak gładko nie pójdzie... Co tam... Przypuśćmy nawet, że tak... Podobałeś się... zakochała się nawet... cóż dalej?... Czy sądzisz, że ojciec jej kiedykolwiek na małżeństwo wasze przystanie?...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(parskając nagłym śmiechem)</stage> Małżeństwo?!... Cha... cha... cha... Ciociu... Czy mi się śni?... Czy ciocia naprawdę to powiedziała?... Małżeństwo!... Cha... cha... cha... Ja i małżeństwo... Cha... cha... <stage>(biega po pokoju, trzymając się za boki)</stage></p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(w najwyższem oburzeniu, porywając się z miejsca)</stage> Więc o cóż ci chodzi, jeśli nie o małżeństwo?... Myślisz, że to jedna z takich, co się na romans z tobą zgodzi?... Rozpustnik... Nie chcę dłużej tu siedzieć... Podaj mi okrycie... i wiedz... że jeśli na przyszłość z podobnemi prośbami do mnie...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(przerywając)</stage> Ależ, ciociu!... Zapomniałem języka w gębie... Tak się ciocia gniewa. Co sobie ciotka o mnie myśli... Romanse... rozpusta... Ciotka mi złe myśli poddaje... to grzech... Ani mi coś podobnego w głowie postało... Że się chcę z porządną panną zaznajomić i bywać — to ma być zbrodnią... A któż to mi zarzucał przed chwilą, że tylko u nieporządnych bywam... Awantura!... A że się żenić nie chcę — tem lepiej dla mnie, bo wszak mi jej nie dadzą... A czy to już patrzeć i mówić i znać się nie wolno, gdy się nie ma żenić... <stage>(z przesadą)</stage> A co ciotka myśli, może ja się przy niej poprawię... może ustatkuję... a nawet przyzwoitym się stanę... A co?... Widzi ciotka, że nie wiedzieć czego tak się obruszyła. No... <stage>(nadstawiając twarz do pocałunku)</stage> proszę przeprosić... wszak ciotka winna...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p><stage>(usuwając go)</stage> U ciebie zawsze ktoś winien być musi, byle nie ty... Ale pamiętaj, że, jeśli tylko tam sobie pozwalać zaczniesz i różne rzeczy wygadywać — to poprostu, za drzwi cię wyproszą... Tam trzeba język na wodzy trzymać, tak, aby z prawdziwej natury twej nic się  nie wymknęło... inaczej — przepadłeś... Myślisz, że przesadzam... Nie kochanku... Tam nie to... <stage>(z ironią)</stage> Ech... Pewna jestem, że cały ten zachód napróżno... Będziesz raz... drugi... trzeci — najwięcej... i... zemkniesz... sam zemkniesz... Co tam... Wszak znam cię... Czy to ci takie towarzystwo zasmakuje... Tobie — hulanki, szampan, brewerye... a nie tam jakaś herbatka... No... zadługo już tu z tobą dysputuję... Gadałam i nic nie wygadałam... Co tam... Lepiej wracać do domu...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Jakto nic?... Dała mi ciocia zbawienne przestrogi, za które najczulej jej wdzięczny jestem... <stage>(całuje ją w ręce, ona niedowierzająco kiwa głową)</stage> Doprawdy, ciociu... Bez żartu... Proszę się nie śmiać... Ja cioci bardzo... bardzo wdzięczny jestem... Tak kocham cioteczkę, jak nigdy... <stage>(ściskają się)</stage> Więc jutro... Tak, ciociu najdroższa... Jutro... Bo czekać — to męka dla mnie...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p>Dobrze... dobrze... Przyjedziesz do mnie jutro na śniadanie, a potem razem do nich pojedziemy...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Wybornie, cioteczko... Stawię się wyświeżony, piękny, jak Filon miły... Mowa, humor i zachowanie — podług recepty cioci...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p>No... Bądźże zdrów, sowizdrzale... Do widzenia... <stage>(ściskają się)</stage> A szanujże się, Edziu... proszę cię... Nie wychodź już dziś nigdzie... Połóż się spać wcześniej, odpocznij... to może i nie tak mizernie będziesz jutro wyglądał... Dobrze?...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Wola cioci jest dla mnie rozkazem... Położę się natychmiast... i spać będę aż... do jutra...</p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p>Pamiętaj... Bądźże mi jutro zdrów i świeży... <stage>(Karski zabiera się do wyjścia)</stage> A to dokąd?....</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Sprowadzę cioteczkę na dół... do karety... <stage>(Spogląda bokiem w lustro, poprawia ubranie i włosy; bierze palto, uśmiechając się ukradkiem)</stage></p>
+          </sp>
+          <sp who="#stebelska">
+            <speaker>STEBELSKA.</speaker>
+            <p>Patrzcie... jaki mi galant... A nie przezięb się tylko... Ot tak... włóż palto... Strzeż się, kochanku... Szanuj zdrowie... <stage>(Wychodzą, Karski prowadzi ciotkę z namaszczeniem pod ramię)</stage></p>
+          </sp>
+          <trailer>(KONIEC AKTU PIERWSZEGO)</trailer>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT II.</head>
+        <stage type="setting">
+          <p>(Salon wspaniale umeblowany; obrazy, malowidła, kwiaty. Na prawo i lewo drzwi, w głębi taras zapełniony zielenią i kwiatami)</p>
+        </stage>
+        <div type="scene" n="4">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#anna">ANNA.</rs> 
+              <rs key="#karski">KARSKI.</rs> (później)
+              <rs key="#jan">LOKAJ.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(Anna siedzi pogrążona w zadumie, Karski opodal niepostrzeżenie w nią się wpatruje. Postawa jego pełna głębokiego szacunku, twarz wzruszona i smutna. Wzrok, którym Annę ogarnia, wyraża zachwyt i uwielbienie. Anna, budząc się z zadumy, podnosi na niego oczy i mówi łagodnie i smutnie)</p>
+          </stage>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>Nie ma pan żadnych w życiu celów?... <stage>(ze współczuciem)</stage> Jakże to smutno być musi?...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Bardzo...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(p. ch., głosem bardzo łagodnym, z pewnem wahaniem)</stage> A jednak... Zdaje mi się... o ile słyszałam... pędzisz pan życie wesołe, bez troski... Więc... i taką pustkę zapełnić można... a nawet... nie czuć jej... Myślałam dotąd, że to niepodobna...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>I miałaś pani słuszność... Zapełnić pustkę można, ale... nie na długo... Okazuje się wkrótce, że to było złudzeniem... gorzej... to, co zdawało się wypełniać — pogłębia jeszcze jej wielkość... Tak, pani... Życie upływało mi dotąd w zabawach, wesołości... Rzucałem się w wir ich, <stage>(ciszej, nieco z bólem)</stage> póki starczyło sił i ochoty... <stage>(p. ch. coraz więcej ożywiając się)</stage> Wszak mówisz pani sama, że trzeba mieć cel jakiś... otóż moim — była zabawa... Nie umiałem, czy nie mogłem stworzyć sobie innego... Od dzieciństwa i słowem i przykładem uczono mię myśleć i dbać tylko o siebie... Wszędzie pieniądz górował... Całą myśl pochłaniał dobrobyt i karyera... To też przyzwyczaiłem się nie mieć myśli innej, prócz o własnej pomyślności... Siebie kochałem... Własne „ja“ było jedynym bodźcem życia... Hasłem — przyjemność i zadowolenie... Sądziłem, że mi to wystarczy do końca... Zawiodłem się... Uczułem w końcu wielką, bezgraniczną pustkę i nudę... Własne ja — zawiodło... a po za niem — nie umiałem już nic ani widzieć, ani czuć... <stage>(p. ch. głosem dziwnie miękkim)</stage> Wtedy — panią poznałem... I nagle straciłem grunt pod nogami... Zasłona z oczu mi spadła... Zrozumiałem, że to, czem żyłem — były męty i piana... że w nich pogrążony, nie domyślałem się nawet czystej głębi pod sobą... tej głębi, co pracą myśli i czynem, szlachetnem poświęceniem i wielką miłością płynie spokojnie i niewidzialnie pod powierzchnią, <stage>(cicho, jakby do siebie)</stage> Dziś — to zrozumiałem... dziś... gdy... jest zapóźno... <stage>(nagle gorąco, z wybuchem)</stage> Panno Anno!... Jak śmiem mówić pani o tem wszystkiem? razić czystą myśl jej obrazem takiej nędzy?... Przebacz mi pani!... To rozpacz mówi przezemnie... szaleństwo, które nie widzi ratunku... <stage>(p. ch)</stage> Wiem, co czuć musisz pani w tej chwili... Wszak prawda?... Oburzona jesteś, potępiasz?...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(bardzo wzruszona, cicho, z wielką słodyczą)</stage> Nie widzę tu winy, tylko nieszczęście... <stage>(po chwili)</stage> Nie kochać nic... i w nic nie wierzyć!... Okropnie!... Jakże nieszczęśliwym pan jesteś... Współczuję z panem serdecznie... I... gdyby w mocy mej było wzbudzić w panu energję i chęć życia innego — uczyniłabym wszystko... wszystko, co mogę...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(z uniesieniem)</stage> Czegóż pani uczynić nie możesz, panno Anno?... Zechciej tylko... W mocy pani jestem... Pani jedna na świecie całym wszystko ze mnie uczynić potrafisz... Nie rozumiem siebie, gdy jestem przy pani... Wszystkie męty duszy mojej opadają i milkną... budzi się jasność jakaś, nieznana mi dotąd, pierzcha niewiara i szyderstwo... a w sercu zbiera się tylko żal wielki, bez końca... Będąc przy pani, czuję rozkosz nieznaną mi dotąd... ale i ból... wielki... dotkliwy...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(nie mogąc stłumić wzruszenia, mówi głosem miękkim i drżącym)</stage> Dlaczego, panie Edwardzie?... Nie chciałabym panu cierpienia przyczyniać!... Dlaczego... niech mi pan powie... <stage>(p. ch)</stage> To mi przykro... boleśnie... i żal mi pana... <stage>(p. ch)</stage> Pragnęłabym tak pocieszyć... rozpędzić smutne myśli... obudzić lepsze nadzieje... Gdyby mi się udało... Gdybym mogła w pustkę serca pana przelać choć część tej wiary i miłości, jaką świat ten we mnie budzi?... <stage>(p. ch. wzruszona)</stage> Marzę niekiedy, że to mi się uda... że wrócę pana, być może... <stage>(nieśmiało)</stage> życiu i społeczeństwu... Wszak prawda, panie Edwardzie?... Niech mi pan powie, że ja się nie łudzę...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(z zapałem i miłością)</stage> Przez panią i dla pani — wszystko stać się może... Przez panią gotów jestem kochać świat cały i wszystkich tych ludzi — tak obcych mi dotąd i obojętnych... Dla pani gotów jestem myśleć o społeczeństwie całem... czuć biedę jego... troszczyć się o pomyślność... Ale tylko — <stage>(z naciskiem)</stage> przez panią i dla pani!... Nie dziw się pani temu... Kto pół życia strawił w ciasnych uczuciach i myślach — ten z trudem wielkim i cudem niemal wejść może na wysokie szczyty... <stage>(unosząc się coraz bardziej)</stage> Nie czuję w sobie sił żadnych... Tak słaby jestem, że przez wielką miłość jedynie i jak ona wielkie szczęście — odkupiony być mogę... Nie porzucaj mię pani!... Bądź siostrą!... Pomocy swej w połowie drogi nie cofaj... bo bez niej... runąć musi gmach cały... a może i ten, który go wznosił... O, powiedz mi pani, że mnie nie odstąpisz, że nikt i nic cię do tego nie zmusi?...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(nieco pomieszana)</stage> Nie rozumiem pana... Kto może chcieć do tego mnie zmuszać!... Co komu na tem zależy!... Nie zwykłam zresztą cofać się, gdy mi cel piękny przyświeca... Czy jest w tem co złego?... Nie rozumiem pana... Proszę, mów pan otwarcie...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Dobrze... <stage>(p. ch)</stage> Myślałem o ojcu pani... <stage>(Anna, bardzo zdziwiona, chce mówić, ale on pospiesznie dodaje)</stage> Nie uwierzy pani, z jaką obawą oczekuję jego powrotu... Tysiące wątpliwości tłoczy mi się do głowy... A to już tak blisko... lada dzień... lada chwila... Nie wierzę w przeczucia... a jednak tym razem... nie mam siły się oprzeć!...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(spokojnie, z uśmiechem)</stage> Dlaczego to pana trwoży?... Musiałeś pan źle słyszeć o moim ojcu, skoro jesteś tak uprzedzony?... Niech pan nie wierzy... Ojciec mój jest bardzo dobry... tak chętnie wita każdego u siebie... <stage>(żartobliwie)</stage> zwłaszcza, gdy ten ktoś ma protektorki tak silne, jak babcia... i... ja...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(z zachwytem porywając jej ręce)</stage> Pani... przedewszystkiem... Całą ufność moją złożyłem w dobroci pani... i... wierzę, że mię... <stage>(z naciskiem)</stage> nie zawiedzie...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>Bądź pan spokojny...</p>
+          </sp>
+          <sp who="#jan">
+            <speaker>LOKAJ.</speaker>
+            <p><stage>(wbiegając pospiesznie)</stage> Jaśnie pan jedzie... Widzę z daleka nasze siwe konie...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(zrywając się z wielką radością)</stage> Ojciec!... ojciec!... Prędzej, zawiadom panią... Spieszcie się, Janie...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(kłaniając się)</stage> Pozwoli pani, że ją pożegnam...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>Dlaczego?... Zostań pan...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Nie, pani... nie mogę... Nie śmiałbym tak nagle przedstawić się szanownemu ojcu pani... nie jest zresztą do tego usposobionym w chwili powitania...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>Ależ pisałam już do ojca o panu... Proszę się nie bać... <stage>(śmiejąc się wesoło)</stage> Ojciec już uprzedzony... No... proszę... zostań pan... A jeśli nie chce pan prezentacyi tak zaraz, to proszę... można przejść do parku... za chwilę przyślę po pana... <stage>(on się waha)</stage> Proszę... Pragnę bardzo, abyście się panowie poznali...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(kłaniając się)</stage> Skoro pani każe... Będę czekał... Proszę tylko o mnie się nie troszczyć... Jest tam tak pięknie, iż się nie znudzę... <stage>(Odchodzi głębią przez taras)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#anna">ANNA.</rs>
+              <rs key="#babka">BABKA.</rs>
+            </p>
+          </stage>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(wbiegając pospiesznie na scenę drzwiami bocznemi i oglądając się zdziwiona)</stage> Andziu... A cóż to?... Pana Edwarda już niema?...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>Wyszedł tymczasem do parku... Nie chce tak odrazu przedstawić się ojcu...</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(uradowana)</stage> To bardzo dobrze... bardzo dobrze... Tego się właśnie bałam... Wiesz, że ojciec był źle względem niego uprzedzony... Ale, gdy mu powiemy... Nie wątpię, da się przekonać...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(wesoło)</stage> O... z pewnością... Ojczulek taki dobry... <stage>(biegnie do okna)</stage> Ach... Otóż i on... <stage>(biegnie do drzwi bocznych, wołając radośnie)</stage> Ojczulek...</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#anna">ANNA.</rs>
+              <rs key="#babka">BABKA.</rs>
+              <rs key="#górski">GÓRSKI.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(Górski wchodzi pośpiesznie i zatrzymując się u drzwi, wyciąga ramiona do córki)</p>
+          </stage>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(rzucając mu się w objęcia)</stage> Mój drogi... kochany ojczulek!... <stage>(całując jego ręce)</stage> Najdroższy!...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p>Maleńka!... Moja ty pieszczotka... <stage>(podnosząc jej głowę ku sobie)</stage> No... Pokaż mi się... Niech ci się przyjrzę... Może schudłaś... <stage>(żartobliwie)</stage> może zbladłaś... Broń Boże... tego nie wolno... <stage>(grozi palcem, potem zwracając się do babki i całując ją w rękę)</stage> Jakże zdrowie mamy?... Czy wszystko tu u was w porządku?... <stage>(siadając)</stage> A... tak już rad jestem... żem w domu nareszcie... <stage>(do córki z pieszczotą)</stage> Chodź tu, Andziuniu... Usiądź tu... przy mnie... <stage>(ona siada na niskim stołeczku u nóg jego. On gładzi jej włosy i wpatruje się w nią z czułością, ona również)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Zrobiłeś nam prawdziwą niespodziankę Andrzeju... Nie spodziewałyśmy się, abyś wrócił tak prędko...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(ciągle wesoło, żartobliwie)</stage> Toż się i sam nie spodziewałem... A wszystko — ta mała... To ona mię tak nastraszyła...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>Co, ojczulku... Ja?!... Czy się co stało?... Ja nic nie wiem... doprawdy... w niczem nie zawiniłam...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p>To dobrze... dobrze... Nie bój się, aniołku... Skoro nic nie zawiniłaś — to dobrze... O to się tylko bałem... Uspokój się, maleńka... <stage>(całuje ją w głowę)</stage> Nie chciałem cię przestraszyć... <stage>(śmieje się)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Czy naprawdę byłeś o nas niespokojny, Andrzeju?... Zdaje mi się... nie dałyśmy powodów... Andzia przez cały czas zdrową była... w domu nic nadzwyczajnego nie zaszło... Pisywałyśmy często, jak tego chciałeś... i szczegółowo o wszystkiem.</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(pieszcząc córkę, wesoło)</stage> To bardzo dobrze... Kochana mamo... Przyjechałem tak prędko, aby wam niespodziankę zrobić... i... chwycić was... ot tak... znienacka... Zdaje mi się... zabardzoście tu używały, moje panie... Przyjęcia, goście, wizytki... nowi znajomi... Obawiałem się, byście nie nadużyły swobody... Cha... cha... cha... No... ale... to na później... Nie chcę zrzędzić tak od razu... wszak odwykłyście już od tego... To nic... przyzwyczaję was znowu... Che... che... che... <stage>(śmiejąc się, staje i woła)</stage> Janie!... <stage>(lokaj staje w progu)</stage> A przygotuj mi tam fajkę i poduszki w gabinecie... <stage>(do córki i babki)</stage> Jestem trochę zmęczony... Chciałbym się zdrzemnąć chwileczkę...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(z pomięszaniem i nieukontentowaniem)</stage> Ojczulek będzie spał?... A ja myślałam... że razem kawkę wypijemy... <stage>(obejmując go, z prośbą w głosie)</stage> Czy nie lepiej zdrzemnąć się później, po kawie?... Kazałam przygotować taką, jak ojczulek lubi... Co?... Prawda — lepiej zasnąć później...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p>A no... Co robić... Taki już los... „Jak pan każe — tak ja gram“... Muszę słuchać tej błaznotki... Idźmy... No, prowadź że mię za to, maleńka... Wspomagaj starość ojca...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(czule, prowadząc go pod ramię)</stage> Ojczulku mój najdroższy... Taka rada jestem że i wypowiedzieć nie umiem... Tak nam smutno bez ojczulka było...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(grożąc jej żartobliwie)</stage> Oj, nieprawda... filutko... Udajesz... Tak mi się coś zdaje... A cóż ta nowa znajomość, o której pisałaś... Nie mogłem dobrze nazwiska wyczytać... Zdawało mi się... ale... nie byłem pewny...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(wesoło)</stage> Zaraz ją ojcu przedstawię... Ale, to już i nie zupełnie nowa... bo wszak to jeszcze w zimie poznajomiłam się z nim na tym publicznym balu... wie ojciec?...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(stając nagle zdumiony)</stage> Jakto!... <stage>(głosem zdławionym)</stage> Byłżeby to... Karski?... On — tu... u was... w moim domu... <stage>(oglądając się)</stage> I gdzież on?... Nie widzę go... przecie...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(bardzo pomieszana)</stage> Był u nas, gdy ojciec nadjechał... Nie chcąc przeszkadzać w powitaniu... wyszedł do parku... Każę go natychmiast prosić... Janie... <stage>(chwyta dzwonek)</stage></p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(surowo)</stage> Wstrzymaj się... Uczynię to sam, gdy będzie potrzeba... <stage>(p. ch. starając się stłumić wzruszenie)</stage> Więc on u was bywa?... I często?... Oddawna?... Czy od mego wyjazdu?... <stage>(Anna usuwa się nieco na stronę, bardzo pomieszana i wzruszona)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(przekonywująco, starając się go uspokoić)</stage> Tak, zaczął bywać wkrótce po twoim wyjeździe... Wprowadziła go pani Stebelska — jego ciotka... osoba zacna i ze wszech miar godna... Przyznam jednak, że z początku i ja z tego rada nie byłam... Wiedziałam o twem uprzedzeniu... Ale trudno, nie mogłam obrazić osoby, z którą znamy się od dzieciństwa... Otóż — więc — zaczął bywać... Lecz kiedy go bliżej poznałam, powiem ci otwarcie, że bardzo z tego rada byłam... Taki przyjemny, miły, ujmujący... Tak umiał nas pozyskać... zająć... Doprawdy nie rozumiem, jak mogłeś być tak źle uprzedzony... Plotki... nic więcej...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(obrażony, z naciskiem)</stage> Matko... zdaje mi się, że znasz mię dość dawno, aby wiedzieć, że ja sądów moich nigdy nie opieram ani na plotkach, ani na urojeniach... Człowiek ten rósł w oczach moich prawie... Słyszałem o nim dużo i miałem możność sprawdzić o tyle, aby się przekonać, że dziś — nic nie wart... <stage>(babka robi żywe poruszenie, Anna zrywa się z miejsca)</stage> Tak... Nic nie wart... I pod tym względem nikt sądu mego zmienić nie potrafi... <stage>(zaczyna niespokojnie chodzić po scenie)</stage></p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(podchodzi do ojca nieśmiało i mówi cicho, tłumiąc wzruszenie)</stage> Ojcze... wszak sam mnie uczyłeś, że zanim potępić, trzeba długo myśleć i dużo przyczyn zbadać... O mój Ojcze... Któż wiedzieć może, ile w życiu jego własna wina, a ile... nieszczęście zdziałało... Nie bądź zbyt surowym, ojczulku...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(patrzy na nią z miłością i uwielbieniem, p. ch. łagodnie, ale stanowczo)</stage> Idź, dziecko moje, na górę... do siebie... <stage>(całuje ją czule w czoło)</stage> Później cię zawołam... Teraz... chciałbym widzieć tego pana... Proszę zostawcie nas samych... Będziecie nam przeszkadzały... <stage>(dzwoni, wchodzi lokaj)</stage> Janie... poprosić tu pana Karskiego... Jest w parku...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(z wahaniem i prośbą w głosie)</stage> Nie mogę zostać, ojcze?... Przykro mu będzie przedstawiać się samemu...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(z irytacyą)</stage> Bądź spokojna... Już on sobie poradzi... <stage>(Anna powoli opuszcza pokój, Górski chodzi niespokojny)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(również wychodząc, mówi z niepokojem)</stage> Spodziewam się, że mu nic przykrego nie powiesz... Ubliżyłbyś tem sobie... i nam...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(chwytając się nagle za głowę, z wybuchem)</stage> Czego się najbardziej bałem... o Boże!.... Czyż mogłem przypuszczać, że on tu wstęp znajdzie przy mamie?... Pamiętaj, matko, że jeśli z tego nieszczęście wyniknie, cały ciężar odpowiedzialności spada na ciebie... nie na mnie...</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>E... Przesadzasz.... Co się ma stać?... Nic się nie stało... i nie stanie... Wielka rzecz... Nie chcesz aby bywał — no... to przestanie... Nie trudno dać mu to poznać!... <stage>(z naciskiem)</stage> Ale, — według mnie — zupełnie niesprawiedliwie... zupełnie niesłusznie... Człowiek wykształcony i miły... Ot uprzedzenie... <stage>(wychodzi pospiesznie)</stage></p>
+          </sp>
+          <stage>(GÓRSKI. chodząc szybko, niespokojnie, ściska głowę rękami)</stage>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#górski">GÓRSKI.</rs> (sam, potem)
+              <rs key="#karski">KARSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p>Biedne dziecko... Widziałem, jak jej to przykro było... Ale... muszę... niepodobna... Gdzie chodzi o jej spokój ustają dla mnie wszelkie względy... Miałem przeczucie... Bałem się... że to on... i... tak się stało... Ach!... Jak śmiał do niej się zbliżyć... Utracjusz... bankrut... hulaka — odważył się o niej pomyśleć.... o krwi mojej, o mojem drogiem dziecku... O... Wściekać się trzeba... Starłbym go w proch, gdybym mógł... <stage>(zbliżając się do drzwi prowadzących na taras i szybko na przód sceny cofając)</stage> Otóż... i on... Jaki śmiały i pewny siebie... Bezczelny uwodziciel.... <stage>(ściska pięście, p. ch)</stage> Wszystka krew we mnie się burzy... lecz... trzeba się hamować... wszak to u mnie... w domu moim... <stage>(stara się przybrać spokojną, i obojętną postawę)</stage></p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(wchodzi z elegancją i swobodą, kłania się z głębokim szacunkiem; zbliżając się)</stage> Edward Karski... <stage>(Górski oddaje ukłon sztywnie i ceremonjalnie, podaje końce palców i wskazuje krzesło)</stage></p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Przykro mi bardzo, <stage>(swobodnie)</stage> że obecność moja wypadła dziś tak nie w porę... Szanowny pan zmęczony być musi... i... pragnąłby może wypocząć... <stage>(mówi z przestankami, ale Górski milczy, zdaje się mało słuchać, przygląda mu się tylko badawczo i przenikliwie. Karski zdaje się tego nie widzieć, mówi ciągle tonem grzecznym i swobodnym)</stage> To też nie chciałbym szanownego pana obecnością swoją utrudzać...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(tonem zimnym)</stage> Nic nie szkodzi... Robisz mi pan niespodziankę prawdziwą... <stage>(z ukrytą ironią)</stage> Dotychczas miałem przyjemność słyszeć o nim tylko... Nieprzypuszczałem jednak, aby nadarzyła się kiedy sposobność poznania go zbliska...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>To samo prawie mogę powiedzieć o sobie... I cała wdzięczność moja za tak pomyślny zbieg okoliczności, należy się ciotce mojej, Stebelskiej, która zaopiekowała się mną w tak szczęśliwy sposób...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(tłumiąc oburzenie z ironją)</stage> Tak... Pani Stebelska była tak na nas łaskawą... <stage>(p. ch)</stage> Zapewne, należy jej się wdzięczność od pana... ale... zdaje mi się... że może jeszcze zawcześnie o wdzięczności orzekać... Należy może... nieco poczekać!... aż powody tego uczucia znajdą bardziej jasne... i pewne uzasadnienie...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(żywo)</stage> O... W tym razie byłoby to najzupełniej zbyteczne... Wdzięczność, jaką czuję dla ciotki, nie może się zmniejszyć, chyba wzrośnie... <stage>(Górski czyni niespokojne poruszenie, Karski tego nie uważa)</stage> Wyświadczyła mi ona jedną z tych przysług, o jakich się nigdy nie zapomina...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(pochylając się ku niemu, mówi z naciskiem, z trudnością oburzenie hamując)</stage> Proszę... Czy nie raczyłbyś mi pan powody tej wielkiej wdzięczności wyjaśnić?... Przyzna pan, że jeśli to dom mój pośrednio uczucie takie w panu budzi... to... mam prawo niejakie... o przyczynę, która je wywołuje — zapytać... Przypuśćmy... Zdarza się to nieraz, że... co jeden z nas za szczęśliwe i zbawienne dla siebie poczytuje... drugi to samo uważa — za fatalne i zgubne... Cóż pan na to?... Czy nie prawda?... <stage>(okazując rosnące wzburzenie)</stage> No!... <stage>(stając przed nim, z energją i stanowczością)</stage> Proszę... Bądźmy otwarci... Wiedz pan, że jestem z tych ludzi, co się w obwijanie prawdy nie bawią... każdą kwestyę stawią na ostrzu noża... Przypuszczam... niewielu się to podoba... Ale taką już mam naturę... Więc, proszę... mówmy wyraźnie... <stage>(Karski ciągle milczy, zdając się staczać ze sobą walkę, Górski p. ch. milczenia, w której go obserwuje, zaczyna mówić z większym spokojem, jakby chcąc gorycz załagodzić. Karski tłumiąc silne wzruszenie, staje i chodzi naprzemian)</stage> Widzi pan, mając córkę, i to jedną córkę... dbać przedewszystkiem winienem o jej szczęście i spokój... Otóż — i jedno i drugie zależne jest od tego, kogo przyjmuję i kto się do niej zbliża... Musi tu być ścisła kontrola, której następstwem może być cała przyszłość... Dlatego, rozumie pan, że odrzucając na stronę wszelkie względy, muszę być nieraz szorstki... a nawet bezwzględny... Sądzę jednak, że mię dostatecznie tłumaczy wzgląd tak ważny... Zresztą, nie dzieje się przez to krzywda nikomu... Przeciwnie... prócz chwilowej chyba przykrości — obie strony na tem zyskują... unika się zawodu i daremnych nadziei... <stage>(chodzi w zamyśleniu; Karski zdecydowany i stanowczy, mówi spokojnie, czasem tylko głos mu lekko drży)</stage></p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p>Istotnie... Widzę, że... mimo woli mojej, rozmowa nasza zaszła na... całkiem dla mnie niespodziane tory. Słowa pana zastały mię tak nieprzygotowanego — że... na razie... nie mogłem nic powiedzieć... Ale... skoro tak być musi... Najzupełniej z szanownym panem się zgadzam, że... lepiej jest — wyraźnie kwestyę stawiać, niż bawić się w jej nierozumienie... Otóż... wyznaję, że bywanie w domu szanownego pana sprawia mi... wyjątkową przyjemność... Powiem więcej... pozbawienie się jej — byłoby dla mnie ciosem prawdziwym... <stage>(p. ch)</stage> Jestem otwarty i bezwarunkowo szczery... więc... dodam... iż... dotąd... o niczem więcej nie myślałem... żadnego innego pragnienia mieć nie ośmieliłem się. Starałem się tylko, jak najczęściej w domu szanownego pana bywać... jak najczęściej mieć rozkosz widzenia jego córki.</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(porywczo)</stage> Dość tego... panie... aż nazbyt szczery jesteś... Odpłacam panu tem samem... i oświadczam stanowczo, że odmówić sobie przyjemności tej musisz... bo... ja... uważaj pan, ja, który szczęście dziecka swego nad wszystko przenoszę — nigdy jej więcej, w domu moim widzieć panu nie pozwolę... To, co było, stało się mimo mej woli, a raczej bez wiedzy mojej... Żałuję tego mocno... Ale w mocy mej jest złemu zapobiedz... i wszystko poprawić...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(stoi chwil kilka, jak ogłuszony. p. ch. opanowując wzruszenie, głosem pewnym i nieco wyniosłym)</stage> Czy mogę zapytać o przyczynę, tak nieprzychylnej i niezrozumiałej dla mnie odpowiedzi pana? Słyszę nie tylko odmowę... ale... czuję... głębokie w niej oburzenie... Pragnąłbym wiedzieć...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(cofając się w zdumieniu)</stage> Pan?!... Pan — o to mnie pytasz?... <stage>(wybuchając stłumioną goryczą i oburzeniem)</stage> Cha... cha... cha... Nie, panie... to cierpka i ubliżająca ironja... Pan możesz nie rozumieć przyczyn... Ależ to... <stage>(z gwałtowną niecierpliwością)</stage> O... dajże mi pan pokój... nie zmuszaj, bym się w domu własnym zapomniał... i powiedział ci rzeczy, o które własne sumienie przedewszystkiem oskarżać cię winno... Ale... dziś u was, moi młodzi panowie, wszystko jest nadto czułe, prócz sumienia... które całą wrażliwość swą na rzecz zmysłów ustąpiło... Zadawalniajcież się wiec niemi... nie sięgajcie do uczuć, któremi wzgardziliście i istnienia których nie uznajecie!... Dla szczęścia swego szukajcie równych wam istot... Ale jakiem prawem ośmielacie się zbliżać do tych, które tak niewinne i czyste, że ani wartości waszej zrozumieć, ani przeszłości ocenić nie potrafią... <stage>(p. ch)</stage> A może... na to właśnie pan liczyłeś?... Zapomniałeś widocznie, że ma ona ojca, który ani tak łatwo wiernym, ani tak czułym, jak kobieta nie jest... którego ani zręcznie oszukać, ani uwieść — niepodobna... Wiem, że w tem pan celujesz... że to jest szlachetną specyalnością pańską, ze mną jednak, jak widzisz, tak gładko nie pójdzie...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(tłumiąc gniew, z oburzeniem, wyniośle)</stage> Nie dałem panu najmniejszego prawa odgrywać nademną roli sędziego... Sąd o mnie — możesz pan dla siebie zachować... Nie jestem skłonny wysłuchiwać go... od nikogo... chociażby nawet od tego, który jest ojcem takiego, jak panna Anna — anioła... Uwielbiam ją — mówię to panu raz jeszcze... Chciałem wszystkich sił moich użyć, aby wzajemność jej pozyskać i stać się jej godnym... ale... <stage>(p. ch)</stage> Myśleć jednak o niej — zabronić mi pan nie jesteś wstanie... Odchodzę... Nie przestąpię więcej progu tego... chyba... z nadzieją powodzenia... Żegnam pana... <stage>(Wychodzi szybko drzwiami na lewo. Górski stoi nieruchomy przez chwilę, potem pada, przybity, na krzesło)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#górski">GÓRSKI.</rs> (sam, później)
+              <rs key="#anna">ANNA.</rs>
+            </p>
+          </stage>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(siedząc w fotelu, głosem wzburzonym, powoli się uspakajając)</stage> Zuchwalec... Nie tylko się nie upokorzył... ale mi jeszcze grozi... Nie tylko bez wiedzy mojej w dom się zakrada... ale... jeszcze tłumaczyć się każe... Mnie... w obec takiego młokosa... Co za bezczelność... Dziś bezwstyd im tylko rozgłosu i sławy dodaje... Zamiast się wstydzić, gotowi są hańbą swoją się chlubić... <stage>(p. ch. z niepokojem i smutkiem)</stage> Co ja jej powiem?... Wszak czyste dziecko to nie zrozumie nigdy całej jego ohydy.... Czy mogę zresztą tłumaczyć jej, jak żył i jak całe życie zmarnował nędzny gach ten... Czy mi uwierzy?... Czy zechce zrozumieć, że cała dusza takiego człowieka — to żądza użycia jedynie... a wszystkie uczucia — to tylko egoizm i niskie zmysłów podszepty... Co począć?... jak zresztą mówić jej o tem?... Czy mi tak bez dowodów uwierzy?... Czy nie posądzi o niesprawiedliwość... <stage>(wspiera głowę na rękach i siedzi tak, w myślach pogrążony. Anna staje na progu, rozgląda się niespokojnie, potem cicho, na palcach zbliża się do ojca, pochyla się nad nim i przyklękając, tuli ręce jego do ust. On, patrząc na nią z wielką czułością, głosem wzruszonym)</stage> Dzieweczko moja!...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>Co tobie, ojczulku!...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p>Zgryziony jestem i smutny... Nie wesoły ten wasz świat... Nie mogę nigdy wielkiemu smutkowi się oprzeć, gdy mam sposobność bliżej go obserwować... jakież to beznadziejne pokolenie!... Gdzież jest ten postęp, którym wiek wasz się chlubi?... Czy ten brak wiary, brak wszelkich ideałów i myśli — to jego dorobek?... W głowie — ciemno... w duszy — pusto... Jakże smutno patrzeć na to tym zwłaszcza, którym w duszy zawsze wzniosłe cele świeciły, a gorąca miłość i silna w nie wiara rozgrzewały serce...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(z początku nieśmiało, potem stopniowo się ożywiając)</stage> Mój ojcze... I oni kochają... i oni cele swe mają... Może inne, nie takie, jak dawniej... ale również szlachetne... <stage>(ciszej nieco, ze smutkiem)</stage> Są i tacy, którzy żadnych nie mają — ale to są wyjątki, nie trzeba z nich w ogóle sądzić... <stage>(p. ch. z nowem ożywieniem)</stage> O tak... mój ojcze... I dzisiaj są ideały... nie tak one wysoko się wznoszą... treść ich bardziej codzienna, powszednia... bliżej one trzymają się ziemi... ale niemniej — są... Znikła ta wiara, mój ojcze... co w podobieństwo niepodobieństw wierzyła... co, uskrzydlona zapałem, w niedościgłe wzbijała się błękity... i w gorycz zawodu nawet balsam pociechy wsączyć umiała... Dziś — niema błękitów... W duszach ludzi ciemno... bardzo ciemno... Tem bardziej podziwiać wypada pracę tę w ciemnościach i pustce... bez świateł przewodnich... współczuwać serdecznie — mozołowi ich bez osłody i nadziei...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(patrzy na nią z wielką miłością, p. ch. z powagą i wzruszeniem)</stage> Jakże szczęśliwy jestem, dziecko moje, że cię od tej zgubnej atmosfery wieku uchronić zdołałem... że w duszy twej jasno... w sercu pełno... Niechże ten, który kiedyś miejsce tam znajdzie... ma duszę również pełną i jasną, jak twoja... Niech miłość jego świeża, młodzieńcza da poznać ci szczęście w całej pełni, a wspólność usposobień i myśli poręczy je wam na zawsze... Takiego męża w przyszłości pragnę dla ciebie, Andziuniu... taki może być pewny, że dla żadnych względów mu nie odmówię... Bo najważniejszy i jedyny wzgląd, jaki mam — to szczęście twoje... Wszak wiesz o tem, maleńka... Nie wątpisz, że stary twój ojciec kocha cię ponad względy wszelkie i że wszystkie poświęcić mógłby dla ciebie – prócz tego jedynego... <stage>(ona tuli się do niego)</stage> Tak... tak... moje dziecko... No... a teraz... dobranoc... starym kościom moim coś się należy... zupełnie o nich zapomniałem... ale to i nieproszone się przypomni... Dobranoc... <stage>(wstając i kierując się ku drzwiom)</stage> Andziuniu... pójdę sobie trochę dogodzić... <stage>(Idzie wolno ku drzwiom, ona stoi wahająca się i nie pewna. Kilka razy robi krok za nim, zdaje się chcieć coś powiedzieć, ale znowu się cofa. Gdy on bierze za klamkę, ona postępuje nagle za nim, głosem proszącym, nieśmiałym)</stage> Ojcze!...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p>A co chcesz, Andziu?...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(znowu z wahaniem, nieśmiało)</stage> Chciałam... zapytać... ojcze... o czem... mówiłeś tu... z panem Karskim... przed chwilą?... Co mu powiedziałeś ojcze?... <stage>(Głos jej nieco drży. Górski patrzy na nią badawczo przez chwilę, potem spokojnie, ale ze stanowczością)</stage></p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p>Powiedziałem mu... że... pożądanem jest dla mnie... aby zaprzestał u nas bywania... i... chciał o nas... zapomnieć... <stage>(Anna szuka ręką oparcia, blada i przerażona opuszcza się powoli na krzesło. Górski zdaje się nic nie uważać i spokojnie mówi dalej)</stage> że, póki ja żyję, nie zniosę widoku jego w moim domu... <stage>(wolno opuszcza pokój)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#anna">ANNA.</rs>
+              <rs key="#babka">BABKA.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(Anna siedzi ciągle nieruchomo z oczyma w jeden punkt utkwionemi. Zdaje się nic nie widzieć i nic nie czuć)</p>
+          </stage>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(wbiega pospiesznie, staje, załamuje ręce, potem rzuca się ku niej)</stage> Andziu... Andeczko... dziecko moje... Co tobie?... Boże mój!... Aniołku mój... Powiedz... co ci oni zrobili... Powiedz... uspokój mię... złotko moje...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(budząc się z zamyślenia, słabo, z wysiłkiem, siląc się na uśmiech)</stage> Nic mi nie jest... Babciu... Słabo trochę... <stage>(czyni ruch)</stage> Pójdę... do swego pokoju...</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(z irytacją)</stage> O... już ja wiem... domyślam się... Musiał ci coś przykrego powiedzieć... Taki bywa szorstki chwilami... Doprawdy, jak co sobie uroi... to bieda prawdziwa... ani go przekonać... Ale się nie martw, aniołku... Już my sobie poradzimy... Wszak jestem przy tobie... Nie dam ci krzywdy zrobić nikomu, chociażby ojcu nawet... Andeczko... aniołku... serce moje... uspokój się... nie smuć... Nie mogę patrzeć, kiedy ty się smucisz... Doprawdy, tak... tak... smutno mi się robi... że... sama... płakać zacznę... Aniołku mój... <stage>(ze łzami w głosie)</stage> Wszystko będzie, jak zechcesz... dziecko moje... tylko się nie smuć... nie płacz...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(z wybuchem, tuląc się do jej piersi)</stage> O... babciu moja... babciu najdroższa... Tak mi smutno... tak smutno... jak nigdy dotąd <stage>(ściskają się, płacząc, zasłona spada)</stage></p>
+          </sp>
+          <trailer>(KONIEC AKTU DRUGIEGO)</trailer>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT III.</head>
+        <stage type="setting">
+          <p>(Buduar niebieski. Obrazy, lustra, kosztowne sprzęty, ozdoby, kwiaty)</p>
+        </stage>
+        <div type="scene" n="10">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#anna">ANNA.</rs> (sama, potem)
+              <rs key="#józia">SŁUŻĄCA.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(Wchodzi Anna w okryciu i kapeluszu, za nią służąca. P. ch. służąca odchodzi. Anna blada i wyczerpana opuszcza się na szezlong. Przymyka oczy i leży nieruchoma, potem cicho, smutnie)</p>
+          </stage>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>()</stage> Tak się zmęczyłam... Dziwna rzecz... wycieczka ta, zamiast mię pokrzepić — wyczerpała zupełnie... <stage>(p. ch)</stage> A jednak... kocham te małe... Z radością widzę ich rozpromienione moim widokiem twarzyczki... I one mię kochają... Biedne sieroty... Czytam to w ich wymownych spojrzeniach... <stage>(p. ch. z bólem)</stage> Boże mój!... Wszak to mię tak dawniej cieszyło... tak szczęśliwą się czułam, że mam możność i środki otaczania ich opieką, osładzania smutnej ich doli... <stage>(p. ch)</stage> A teraz?... <stage>(z rosnącem wzruszeniem)</stage> Czy to mi dziś już nie wystarcza?... Czy nie dość mi tego do szczęścia?... <stage>(p. ch)</stage> Wszak dobrze czynić i być użyteczną choć trochę — było dotąd jedynem mojem pragnieniem... wszystkie myśli inne — ta myśl pochłaniała... To było marzeniem mojem i celem... <stage>(wstając powoli w zamyśleniu)</stage> Czyby i marzenia i ideały nasze były tak nietrwałe, jak spokój?... Czy zachwiać niemi ma prawo pierwsze... osobiste...uczucie?... <stage>(p. ch. głosem drżącym)</stage> Ach!... <stage>(coraz silniej)</stage> Czy ono pyta o prawo?... Czy liczy się z nami lub pyta o zgodę?... Nie!... nie!... Owłada bez wiedzy i woli... opanowuje... pochłania... Każe przestać być sobą... zapomnieć o wszystkiem... i... żyć myślą całą i duszą... w wybranym... <stage>(p. ch)</stage> Więc... taka jest miłość... To znaczy — kochać!... <stage>(p. ch)</stage> Jakże się bardzo myliłam, sądząc, że można ją z życia wykreślić... lub innem zastąpić uczuciem... Jakże nieszczęśliwą musi być ta, co nigdy nie zaznała jej w życiu... chociażby przez ból... i cierpienie!... <stage>(chodzi w zamyśleniu, potem z tłumionym wybuchem i siłą)</stage> Kochać!... kochać tak, aby w uczuciu zatracić świadomość nawet własnego istnienia... własność myśli i potrzeb... własnej radości i bólu... i żyć tylko przez innego i w innym... W nim tylko czuć, myśleć... z nim — życie rozumieć... jakaż to rozkosz!... <stage>(p. ch. ciszej wzruszona)</stage> A gdy jeszcze ten ukochany cierpiącą ma duszę, chorą myśl i serce — gdy miłość nasza ożywczym być może promieniem... pobudką życia... warunkiem odrodzenia i czynu — wtedy... czyż większe szczęście dla kobiety być może?... <stage>(p. ch)</stage> Dla mnie — nie!... <stage>(p. ch)</stage> Dlaczego ojciec jest tak niesprawiedliwy?... Czemu odepchnął go brutalnie odemnie?... <stage>(p. ch. w zamyśleniu)</stage> Pamiętam z jaką goryczą opowiadał mi o swem dzieciństwie... Nie uczono go kochać... ani wierzyć... W duszy jego świeżej, dziecięcej szczepiono tylko egoizm i... żądze użycia... Nikt mu nie mówił o wielkiej, wszystko ogarniającej miłości... która sama jedna zbawić mogła, bo żyje widzialna... tysiącem swych cierpień i nieszczęść wymowna i jak samo życie — trwała!... <stage>(p. ch)</stage> Wszedł więc w świat z pustką w duszy i egoizmem w sercu... To go zabiło... Lecz... <stage>(ożywiając się)</stage> czy on winien temu?... Czy wszystko już zresztą stracone?... <stage>(p. ch. unosząc się)</stage> Ja widzieć go muszę... wiedzieć, co myśli i czuje... dodać mu siły... ratować w zwątpieniu... <stage>(kryje nagle twarz w dłoniach, łkanie nią wstrząsa)</stage> Dlaczego miłość nasza ma być zbrodnią?... Dlaczego mi szczęścia poznać nie dano?... <stage>(p. ch. nieco spokojniej)</stage> Napisać... chyba mogę... Wszak nikt mi tego nie broni... Jest to nawet... obowiązkiem moim... <stage>(siada przy biurku, do pokoju wbiega służąca pomięszana, niepewna)</stage></p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(ździwiona)</stage> Czego chcesz, Józiu?...</p>
+          </sp>
+          <sp who="#józia">
+            <speaker>SŁUŻĄCA.</speaker>
+            <p><stage>(głosem urywanym)</stage> Proszę pani... ten pan... co dawniej... u nas bywał... ten pan... kazał panience bilet oddać...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(zrywa się z miejsca i stoi nieruchoma przez chwilę, potem biorąc bilet, głosem cichym bez dźwięku)</stage> Powiedz... że... że... <stage>(p. ch. nie panując nad sobą)</stage> Boże... Co mam mu powiedzieć... Wszak... bez woli ojca — nie mogę...</p>
+          </sp>
+          <sp who="#józia">
+            <speaker>SŁUŻĄCA.</speaker>
+            <p><stage>(ciszej, głosem drżącym)</stage> Ten pan... coś pisał... na drugiej stronie... może panienka przeczyta...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(idąc szybko naprzód sceny, głosem zmienionym)</stage> „Widzieć panią muszę... ostatni raz w życiu... Ratuj mię, pani“.</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(wzburzona)</stage> Proś!...<stage>(Służąca znika, Anna stoi nieruchoma, w drzwi wpatrzona, ręką tłumiąc bicie serca)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#anna">ANNA.</rs>
+              <rs key="#karski">KARSKI.</rs> (później)
+              <rs key="#józia">SŁUŻĄCA.</rs> </p>
+          </stage>
+          <stage type="setting">
+            <p>(Na scenę wbiega gwałtownie Karski. Znać w nim silne wzruszenie, twarz zmieniona, ruchy gorączkowe. Na widok Anny opuszcza ręce, stoi p. ch. nieruchomy, w oczach jego maluje się rozpacz, niemal szaleństwo. Anna bezwiednie wyciąga ręce ku niemu, zbliża się i mówi cicho, głosem drżącym)</p>
+          </stage>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>Co panu jest... p. Edwardzie?... W jaki sposób mogę pana ratować?...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(chwytając jej ręce, z wybuchem rozpaczliwej ironji)</stage> Mnie — ratować?... Nie myśl pani o tem... To — nieprawda... Nadużyłem zaufania twego... Wiedziałem, że litość najpewniej serce pani wzruszy... jej więc użyłem, by wejście tu sobie uzyskać... i widzieć cię... <stage>(z naciskiem)</stage> raz ostatni... <stage>(p. ch. wpatrując się w nią, głosem miękkim)</stage> Jakże mam pani dziękować... za łaskę tę wielką, którąś mi wyświadczyła... <stage>(Anna wpatruje się w niego z natężeniem, on cofając się)</stage> Dlaczego pani tak się we mnie wpatruje?... Czy widok mój cię przeraża?...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(głosem cichym, urywanym)</stage> Zaklinam pana... powiedz mi prawdę... co uczynić z sobą zamierzasz?... W oczach pana czytam... że... coś strasznego kryjesz przedemną... że... powiedzieć mi... nie masz odwagi... O... Błagam... Bądź szczerym... Powiedz wszystko... Ja wiedzieć — pragnę... muszę...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(ściska głowę kurczowo, p. ch. opanowując się)</stage> Uspokój się pani... <stage>(z goryczą)</stage> Troszczyć się o mnie, być niespokojną — nie warto... <stage>(po ch.)</stage> Litość twoja pani, zbyt wielka, gdy sięga aż do mnie... Cofnij ją w porę... Ta serca jałmużna przeszłości mojej nie zgładzi... wszak wiesz pani o niej od wszystkich... <stage>(p. ch)</stage> Oni mają słuszność... powinnaś pani im wierzyć... Prawda, wszystko — prawda... Zmarnowałem zdrowie, zużyłem siły, jestem bankrutem moralnym, skończonym... pogardy godnym... Odtrąć mnie... powiedz, że mnie nienawidzisz, pogardzasz... Bądź, jak wszyscy, jak inni... Zrzuć swe anielstwo... to ulży mej męce... <stage>(p. ch. z rozrzewnieniem)</stage> Przebacz... sam nie wiem, co mówię... jestem szalony... tyś jedna w życiu aniołem mi była... Tyś — dobra i piękna... <stage>(unosząc się coraz bardziej)</stage> to też przyszedłem ci za to dziękować... powiedzieć, że jeśli prawdą jest, iż w nic nie wierzyłem... jeśli zaprzeczyć nie mogę, że nic w życiu, prócz siebie, nie kochałem... to również świętą prawdą jest dla mnie... prawdą dziś dla mnie jedyną, w którą wierzę — to, że ciebie... ubóstwiam... w ciebie jedną wierzę... dla ciebie tylko żyć mógłbym inaczej... <stage>(bardzo wolno, z naciskiem)</stage> gdybym spotkał cię wcześniej na mej drodze... <stage>(mówiąc, cofa się powoli ku drzwiom, ponuro)</stage> Dziś... zapóźno... Widzieć cię więcej nie powinienem... Przebacz pani... nie nadużyję już ani litości twej... ani zaufania!...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(idąc ku niemu, w najwyższem przerażeniu)</stage> Nie możesz pan... tak odejść... <stage>(z uniesieniem bólu)</stage> Ja chcę wiedzieć, co myślisz... jakie masz plany na przyszłość?... Co z życiem swojem uczynić zamierzasz?</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(posępnie, z ironją i bólem)</stage> Plany na przyszłość?... Alboż je miałem kiedy?... Całe życie moje było szaleństwem... Przez chwilę myślałem, że może się z niem rozstanę... <stage>(z rosnącą siłą)</stage> Przekonałem się, że to niepodobna... <stage>(p. ch)</stage> Przeszłość, jak zużyta suknia, odrzucić się nie daje... Przyrasta ona do ciała... trzyma się nas... pomimo nas samych... Wszystko przekonywa nas o tem... i samo przeznaczenie wtrąca znów we wzgardzoną kolej... dla takich — niema zbawienia... <stage>(Anna opuszcza się bezwładnie na krzesło)</stage> Wszystko się przed niemi cofa... usuwa... sam czas, zamiast łagodzić cierpienie, pogłębia tylko próżnię... rozszerza pustkę wewnątrz... i zewnątrz nas samych... <stage>(stoi ze zwieszoną głową milcząc)</stage></p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(wstaje nagle i mówi z głębokiem wzruszeniem)</stage> Pan nie możesz być tak nieszczęśliwy... Wszystko uczynię, aby pana ratować... Czy nic już poradzić nie mogę?... Powiedz mi... nie znam życia... Rozumiem nie wiele... Myśli moje się plączą i wyjścia nie znajdują... Ale... wszak pragnę i chcę wszystko uczynić... byle pana ratować...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(z wybuchem, chwytając jej ręce)</stage> Wszystko?... <stage>(p. ch)</stage> A jeśli tem wszystkiem może być jedynie miłość twoja — Anno?... Czy się nie cofniesz?... Jeżeli ona jedna przy życiu zatrzymać mię może — czy mi jej nie odmówisz?...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(cofając się)</stage> Przy życiu!?... <stage>(p. ch)</stage> A więc... chciałeś pan...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(z mocą)</stage> Tak... <stage>(p. ch)</stage> Teraz, kiedy widzę, że niezupełnie obojętny ci jestem... kiedy w niepokoju twym czytam, że nie sama powoduje tobą litość, wyznam prawdę... Idąc tu — śmierć wybrałem... <stage>(Anna, z okrzykiem, chowa twarz w dłonie)</stage> Żyć dłużej nie miałem odwagi... Przechodziło to siły moje... Wiedziałem zresztą, że męka ta duszy śmiertelną dla mnie się stanie... Było więc jedynie kwestyą czasu: dziś lub jutro... Pocóż miałem odkładać i czekać?... Postanowiłem zobaczyć cię raz ostatni... z ręki twej przyjąć wyrok bezwiedny... i jako ostatnie z życia wspomnienie — wynieść twój czysty, anielski obraz...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(cicho, ze smutkiem głębokim)</stage> Chciałeś pan... życie odebrać... I mówisz o tem... z takim spokojem... Czy mam panu tłumaczyć, jak wielki ból mi to sprawia... że niszczy to najgorętsze moje pragnienie <stage>(p. ch)</stage> Marzyłam, że słowa moje inne w duszy pana obudziły uczucia... myśli całkiem różne... nie takie... <stage>(p. ch. milczenia, ożywiając się stopniowo)</stage> Pomyśl pan tylko... czy jedno marne dla kobiety uczucie równoważyć może całą bogatą, różnorodną treść życia? Czy nie ma uczuć innych na świecie, bardziej wzniosłych, szlachetnych?... Miłość, p. Edwardzie, może być światem całym — dla nas... dla kobiet... <stage>(p. ch)</stage> Ale... Dla was... to kwiat życia, nie cel jego i treść... Nie ono o życiu waszem wyrokować powinno... ani wypełniać treść jego... może być tylko osobistego szczęścia dodatkiem... Czy po za niem nie ma nic, coby żyć... i życie to kochać nakazywało?... Nie... Ja w to nie wierzę... Wszak pierwej, niż miłość poznałeś, byłeś pan człowiekiem... synem społeczeństwa swego i kraju... Dla nich więc żyj... w pracy i myśli o nich — szczęścia swego szukaj... o osobistych uczuciach zapomnij... <stage>(p. ch. podając mu, ręce, głosem urywanym)</stage> Musisz pan siłę tę znaleść... cierpieniu się oprzeć... Przez miłość dla mnie... przez uczucie to wielkie, ale wtedy tylko, gdy do wielkich czynów prowadzi — bądź pan odważnym... Zapomnij o wszystkiem co było... Zapomnij o szczęściu , któremu ziścić się nie dano... rozpocznij życie inne... obowiązków i pracy...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(w uniesieniu)</stage> Nigdy... <stage>(p. ch)</stage> Pomyśl, pani, czem byłem, nim ciebie poznałem... Wszystko, co jest dziś we mnie lepszego, co pozwala mi słowa twoje rozumieć... nie kalać je cynizmem i śmiechem — obudziło się i powstało pod ręką twoją... niedawno... Więc też i istnieć może pod wpływem twoim jedynie... razem z usunięciem się twojem — runąć musi wszystko i znów stać się próżnią, stokroć gorszą, niż dawniej, bo z męką wspomnienia <stage>(p. ch)</stage> Znosić jej dłużej — nie będę miał siły... i... przysięgam... żyć nie potrafię... <stage>(unosząc się)</stage> Jednem dotknięciem uleczę zbolałą głowę... i uciszę szalejącą tam burzę... Drżysz pani... Widzę, że cię przerażam... Sądzisz może, że jestem szalony... Prawda... Jak... <stage>(ściskając głowę)</stage> Szalony jestem... Ból mię opętał... Ale szaleństwo to razem z życiem jedynie skończyć się może...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(z rozpaczą, do siebie)</stage> Boże... Co począć?... Nie widzę ratunku...</p>
+          </sp>
+          <sp who="#karski">
+            <speaker>KARSKI.</speaker>
+            <p><stage>(w uniesienia, chwytając jej ręce)</stage> Kochaj mnie, jak ja ciebie... Zapomnij o wszystkiem... Bądź moją!... Czem są względy wszelkie, gdy one nam szczęście wydrzeć usiłują... A szczęście to życia podstawa, to warunek naszej wartości i siły... tak, Anno... Szczęśliwi tylko — dobrymi i szlachetnymi być mogą... Nieszczęście — duszę wyżera... zabija w niej wszystko, co lepsze... Daj mi więc to szczęście... ono w twej mocy... a... urzeczywistnię twoje marzenia... żyć będę dla obowiązków i pracy... Anno... Moja Anno, z tobą wszystko... bez ciebie — nic... próżnia, rozpacz i śmierć...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(powstając, niemal uroczyście)</stage> Dziś jeszcze będę ojca prosić... Będę go błagać... aż się ulitować musi... <stage>(cofając się ku drzwiom, mówi wolno)</stage> Pragnę, abyś pan... żył... a w życiu... aby szczęście... wspomagało panu... <stage>(Karski stoi, jak odurzony, nie mogąc słowa wymówić; na scenę wbiega służąca, bardzo pomieszana)</stage></p>
+          </sp>
+          <sp who="#józia">
+            <speaker>SŁUŻĄCA.</speaker>
+            <p>Jaśnie pan... o panienkę pyta... Co mam powiedzieć?...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(milczy przez chwilę, znać, że walczy z sobą; p. ch. ze spokojem i decyzyą)</stage> Powiedz... że... jestem tu... <stage>(służąca spiesznie się cofa)</stage></p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(zatrzymując ją)</stage> Zaczekaj... Naprzód — przeprowadź pana... później — Zawiadom ojca... <stage>(wyciąga rękę do Karskiego, który wpatruje się w nią przez chwilę, poczem opuszcza pokój. Anna stoi nieruchoma, potem podnosi głowę i mówi cicho, ale stanowczo)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA III.</head>
+          <stage type="setting">
+            <p></p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#anna">ANNA.</rs> (sama, potem)
+              <rs key="#ojciec">OJCIEC.</rs>
+            </p>
+          </stage>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>Stało się... Muszę zostać jego żoną... Powinnam... Rozstać się z nim — możebym w sobie siłę znalazła... możebym w trosce o innych o własnem szczęściu zapomnieć mogła... Ale... przeżyć śmierć jego... czuć, że ją przyspieszyłam... że sama go do zguby pchnęłam — nigdy... nigdy!... <stage>(pada wyczerpana na krzesło, kryjąc twarz w dłonie. W progu staje Górski, patrzy na nią przez chwilę, kiwa głową boleśnie i podchodząc, mówi smutnie, z wymówką)</stage></p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p>Andziu!... <stage>(Ona zrywa się, chwilę stoi bezruchu, potem z wybuchem łkania rzuca mu się na szyję. On ją tuli i pieści, mówiąc łagodnie)</stage> Smutniejszą dziś jesteś niż zwykle... dziecko moje... Nie pamiętam już kiedy widziałem cię śmiejącą się, wesołą... a wszak byłaś nią zwykle dawniej... <stage>(wzdycha, p. ch)</stage> Myślę nad tem ciągle... przyszedłem właśnie pomówić z tobą... Nic tak nie uspokaja i nie rozprasza smutnych myśli, jak podróż... Gdybyś nie miała nic przeciwko temu — możemy pojechać... sam będę ci towarzyszył... Mało znasz zagranicę... Tyle tam pięknego życia i świata widzieć można...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(usiłując zapanować nad sobą, mówi łagodnie, z uczuciem ale stanowczo)</stage> Dziękuję ci, ojcze... Nie pragnę opuszczać kraju... Mnie tu — najlepiej... <stage>(p. ch)</stage> Dobrze jest poznawać obczyznę... gdy się ma duszę na wrażenia otwartą... gdy myśl w nas swobodna... Ale... tak... sądzę... że jest najlepiej... nie w kraju obcym, nieznanym lecz tu, u nas... gdzie wszystko takie kochane i bliskie...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p>Hm... Może masz słuszność... W takim razie możemy na wieś wyjechać... do naszej pięknej Orawy... Co?...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(smutnie)</stage> Nie mój ojcze... Jeżeli nic nie masz przeciwko temu — wolę tu zostać...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(wstaje i chodzi przez chwilę, znać że się opanować pragnie, p. ch. staje przed nią, mówi z wymówką i hamowaną przykrością)</stage> Dlaczego zawsze zastaję cię samą?... Unikasz ludzi, stronisz od towarzystwa — to źle na usposobienie oddziaływa... Trzeba się ożywić... więcej udzielać... odwiedzać znajomych... Od dziś postanawiam wprowadzić inny tryb życia... Wypadnie ci porzucić rozmyślania te... i... samotność...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(wstając i siląc się opanować drżenie głosu, mówi cicho i wolno)</stage> Przed chwilą... nie byłam samotną, mój ojcze... <stage>(Górski staje i wpatruje się w nią)</stage> Miałam... niespodziewanego gościa.</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(surowo, z naciskiem)</stage> Któż to był?...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(z wysiłkiem, ale głosem pewnym)</stage> P. Edward Karski... mój ojcze...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(cofa się jak rażony, p. ch. głosem zdławionym)</stage> Karski... <stage>(z naciskiem na każdem słowie)</stage> Ty mi to mówisz... Wymawiasz imię jego tak spokojnie... przedemną... I w dom mój... bez wiedzy mojej... wprowadzasz... tego... <stage>(zaciska zęby i szybko chodzi, p. ch. stając przed nią)</stage> Nie... To... być nie może... Ty... dziecko moje... byłabyś zdolną...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(opuszcza się na kolana i mówi cicho, z bolem wielkim)</stage> Przebacz mi, ojcze... Wiem, że źle postąpiłam... ale... inaczej... nie mogłam... <stage>(z łkaniem w głosie)</stage> Uniosła mię boleść... żal... i straszny niepokój... Ojcze... Zapomniałam o wszystkiem... Ja go widzieć musiałam...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p>Ty... ty <stage>(niemal z przerażeniem)</stage> Mogłabyś aż tak się zapomnieć... przekroczyć obowiązek swój... narażać godność...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(podnosząc się, z powagą i bólem)</stage> Godności mej — nie narażałam, ojcze... Nie była to schadzka miłośna... ale rozmowa dwojga ludzi... od której cała ich przyszłość zawisła... Rozmowę tę - nie ja wywołałam... ale powinnam była przyjąć... gdy tak doniosłe powodowały ją względy...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(tłumiąc gniew i oburzenie)</stage> I jakież to względy donioślejsze być mogą, niż wyraźna wola twego ojca... <stage>(Anna milczy, on z nagłym wybuchem)</stage> Co zresztą człowiek ten może mieć z tobą wspólnego... prócz nierozsądnej litości tej chyba, którą tak niezasłużenie go darzysz...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(bardzo wzruszona)</stage> Nie litość to, ojcze...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(w uniesieniu)</stage> Więc cóż?... cóż?... Czy usta twoje ośmielą się wyznać przedemną inne jakie uczucie?...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(ze smutkiem, głosem drżącym)</stage> Jak, mój ojcze... Nauczyłeś mię sam mieć śmiałość i otwartość przekonań... Czy teraz wymódz na mnie pragnąłbyś, abym kłamała... <stage>(ożywiając się, z wielkiem uczuciem)</stage> O nie... mój ojcze... Ty tego nie chcesz... Nie umiałabym zresztą nic taić przed tobą... <stage>(z wrastającem uczuciem)</stage> Wszak zawsze dotąd każdą myślą moją dzieliłam się z tobą... Nie miałam matki — tyś mi ją zastępował... Wiem, że jesteś w swych sądach surowy... nie... wiem również, że obok tej surowości, miałeś zawsze dla mnie — łagodność i wyrozumiałość... Ojcze... nie odmawiajże mi ich teraz.... teraz, gdy potrzebuję najbardziej...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(głosem silnie wzruszonym)</stage> Sama więc czujesz, że to, co mi chcesz powiedzieć zachwiać może całem mojem względem ciebie usposobieniem... Jeżeli tak — poco chcesz mówić?... Czy nie lepiej zmienić lub zagłuszyć to, co może mieć tak smutne następstwa... i oszczędzić ciężkich przejść i boleści — sobie i mnie?...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(z wybuchem rozpaczy)</stage> Zapóźno, mój ojcze... Nie mogę... dziś... nic już odmienić... Wypadków cofnąć i uczuć wyrwać Z serca — niepodobna... <stage>(wyciąga ręce do ojca błagalnie)</stage> Kocham go ojcze!... Całą duszą — kocham...<stage>(Górski cofa się, ściskając głowę rękami i pada bezwładnie na krzesło)</stage></p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(p. ch. głosem złamanym, od łez drgającym)</stage> Ojcze mój... najdroższy... Gdybyś wiedział, jak straszną mękę boleść twoja mnie sprawia — nie kazałbyś mi na nią patrzeć... pożałowałbyś mię... O... powiedz mi, ojcze... czy jest na świecie moc jaka, coby posłuszeństwo uczuciom nakazać zdołała... Kocham — alboż w tem wina moja?... Przyszło bez wiedzy i woli mojej... Zrozumiałam wtedy, gdy było... zapóźno...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(z goryczą, hamując oburzenie i ból)</stage> I czegóż chcesz teraz odemnie?... Może... abym błogosławił waszemu związkowi... cieszył się szczęściem, jakie ci najbliższa przyszłość gotuje?... <stage>(zrywając się z wybuchem)</stage> A czy wiesz ty, czem jest naprawdę ten twój ukochany?... Zbrodniarzem... człowiekiem bez czci i sumienia, który szlachetność twą pozorami smutku uwiódł... podstępnie cię w jarzmo zrujnowanego swego życia wciągnął, aby młodością twoją, zdrowiem, uczuciem, poświęceniem gorzki koniec sobie osłodzić... <stage>(Anna cofa się)</stage> Tak... Nie myśl bym mówił to w uniesieniu... Zbadałem i wiem wszystko dokładnie... Przed paru dniami byłem u jego lekarza... Człowiek to uczciwy... i mający sumienie... Zrozumiał moje powody i wręcz mi oświadczył, że zdrowie jego jest zrujnowane do szczętu... a życiu każdej chwili grozi niebezpieczeństwo... <stage>(Anna w najwyższem rozdrażnieniu przyciska rękę do serca, Górski dalej z naciskiem)</stage> Zużyty i wyczerpany, prawdopodobnie ma suchot początki... a prócz tego — chorobę serca... I ty chcesz, abym cię oddał temu człowiekowi... Życie twoje związał z brudną jego przeszłością, w której zapisały się jedynie tysiące przetrawionej fortuny i imiona... uwiedzionych kobiet...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(rzucając się ku niemu, w uniesieniu rozpaczy)</stage> Przez litość, ojcze... Ani słowa więcej... Ja nie chcę nic wiedzieć ani o przeszłości jego... ani o życiu... Przeszłość — nie do mnie należy... on nie znał mnie wtedy... Zresztą ja mu przebaczam... ojcze... Wszystko przebaczam... Kocham go... i im bardziej zagrożony — tem silniej ratować go pragnę... Niech miłość moja okupi tę ciemną przeszłość jego... zmaże winy... Ja wierzę, ojcze... wierzę... że on być innym potrafi... i wiary tej nic we mnie zachwiać nie może... <stage>(p. ch. błagalnie)</stage> Pozwól mi, ojcze, zostać żoną jego... Pozwól mieć przyszłość taką, jakiej pragnę... Nie mierz szczęścia mego własnem o niem wyobrażeniem, lecz daj mi być szczęśliwą po swojemu...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(w uniesieniu)</stage> Nigdy... Szaloną jesteś... Miłość cię zaślepia... ale mnie omamić nie ma sposobu... Powinienem mieć rozum za siebie i za ciebie, i on mi wskazuje, że idziesz na zgubę niechybną... że nadzieje twoje są urojeniem... że czeka cię przyszłość straszna... pełna zawodów, udręczeń... gorsza, niż życie nawet całe smutne, ale bez męki... Miej litość nad sobą, Andziu... dziecko moje... Wierz mi, co w doświadczeniu życia osiwiałem i tylu już ludzi poznałem do głębi — on ciebie nie kocha... miłuje — twą piękność, młodość... twe ciało... ale on duszy w tobie nie kocha i nie rozumie... on życia nie zmieni i nie potrafi wejść na wyżyny, na które chcesz go prowadzić... Zapóźno... niema już po temu ani sił... ani czasu... Czeka cię zawód straszny, moje dziecko... przed którym chcę cię ratować...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>Nie mój ojcze... nie... Ty się mylisz... Mylicie się wszyscy... Ja w przyszłość wierzę... Wierzę w jego odrodzenie moralne, jak również i w powrót zdrowia i sił... Szczęście go uleczy... a silne uczucie dźwignie... Ratować go muszę, ojcze... Sumienie i serce mi to nakazują... Jedno możebym jeszcze zagłuszyć zdołała... ale to pierwsze — nigdy!... <stage>(p. ch)</stage> Gdyby on zresztą siłę miał przeżyć... i o mnie zapomnieć... ale... tak... nigdy... <stage>(padając przed nim na kolana)</stage> Ojcze... Zaklinam cię... Przez świętą pamięć mej matki, którą sam kochałeś tak bardzo... przez troskliwość tę i czułość, jaką całe moje otoczyłeś dzieciństwo — wysłuchaj mnie... pozwól... Pozwól być nieszczęśliwą... <stage>(z naciskiem)</stage> Ja pragnę tego... W tem szczęście moje widzę... I gdybym nawet kiedy życiem przypłacić to miała — błogosławić ci tylko będę... <stage>(chwieje się i szuka oparcia)</stage></p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(ponuro)</stage> Nieszczęście... Chcesz, abym sam wiódł cię do zguby... <stage>(p. ch. surowo)</stage> Nigdy... A gdybyś... odważyła się... pomimo mej woli — przestajesz być moją córką... zrywasz wszystkie łączące nas węzły... i... nigdy już... <stage>(głos jego drży)</stage> pod dach domu tego wstąpić — nie będziesz miała prawa... To moje ostatnie słowo... Pamiętaj...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(osuwając się, głosem coraz cichszym, tracąc przytomność)</stage> Litości... mój ojcze... Ja cię kocham tak bardzo. <stage>(Pada zemdlona. Górski z okrzykiem przerażenia rzuca się ku niej, bocznemi drzwiami wbiega Babka)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#anna">ANNA.</rs>
+              <rs key="#górski">GÓRSKI.</rs> (i) 
+              <rs key="#babka">BABKA.</rs>
+            </p>
+          </stage>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(rzuca się ku niej, usiłuje ją podnieść i mówi głosem zdławionym)</stage> Okrutnik... Zabija dziecko własne... <stage>(pochylając się nad nią z czułością)</stage> I to jeszcze — takiego anioła...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(p. ch. z bolem i wyrzutem)</stage> Ciesz się matko... wszak to dzieło twoje... To szczęście... o które się dla niej wystarałaś... <stage>(oddala się)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(patrząc mu w ślad, z gniewem i uporem)</stage> I będzie je miała... zobaczysz... Uczynię wszystko, co będzie chciała... pastwić się nad nią nie pozwolę nikomu... <stage>(z miłością i pieszczotą)</stage> Biedny mój aniołku... Odezwijże się... Przyjdź do siebie... To stara babcia twoja przy tobie... <stage>(Anna otwiera oczy i ogląda się przerażona)</stage> Nie bój się, aniołku... Ja ci krzywdy zrobić nie pozwolę... Matce twej, gdy umierała, przyrzekłam, że szczęśliwą będziesz... i... szczęśliwą uczynić cię muszę... Nie martw się, aniołku... Wszystko dobrze będzie...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>O... Babciu... moja Babciu... Jakież to życie straszne... <stage>(z wybuchem łez tuli się do Babki, która ją pieści. Zasłona spada)</stage></p>
+          </sp>
+          <trailer>(KONIEC AKTU TRZECIEGO)</trailer>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>AKT IV.</head>
+        <note>(W 2 odsłonach)</note>
+       <div type="scene-stage" n="1">
+         <head>ODSŁONA I.</head>
+         <stage type="setting">
+           <p>(Pokój sypialny, bogato umeblowany, widać łoże za wspaniałą kotarą. Z przodu sceny miękkie, wygodne meble z boku piękny klęcznik)</p>
+         </stage>
+        <div type="scene" n="14">
+         <head>SCENA I.</head>
+         <stage type="entrance">
+           <p>
+             <rs key="#karski">KARSKI.</rs>
+             <rs key="#stebelska">STEBELSKA.</rs>
+           </p>
+         </stage>
+         <stage type="setting">
+           <p>(Karski leży na sofie, opierając się na poduszkach. Blady, zmieniony, nogi okryte pledem, na twarzy cierpienie. Z widocznym rozdrażnieniem to podnosi się, to opada na poduszki. Niekiedy kaszle, krzywi się i dotyka ręką serca. Stebelska siedzi obok w fotelu, zakłopotana i niespokojna, sili się na spokój i cierpliwość)</p>
+         </stage>
+         <sp who="#stebelska">
+          <speaker>STEBELSKA.</speaker>
+          <p>No... Proszę cię, Edziu... Zrób to dla mnie... Nie uwierzysz, jakby mi to przykro było... Ciebie usprawiedliwić łatwo... Wszyscy wiedzą, żeś chory... ale ona... Gdyby nawet nie chciała... wierz mi... trzeba, abyś namówił... Dla uniknięcia próżnej gadaniny... plotek... dla oszczędzenia siebie samego... Tak mój drogi... Gdyby nie była — ty byś ucierpiał przede wszystkiem... Nie przez próżność więc tylko chcę — tego... Chociaż, nie przeczę, że z dumą pochwalę się nią przed przyjaciółmi i sąsiadami... Tyle o niej słyszeli... wszyscy spragnieni są widzieć...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(z lekką ironią i goryczą)</stage> Chce się nią ciocia pochwalić... Tak... „Patrzcie... nie wierzyliście, że zechce być żoną jego... ale otóż... jest nią... została..." Cha... cha... cha... Doprawdy to musi być przyjemnie... Ale... Wie ciocia, co oni potem powiedzą?...</p>
+        </sp>
+        <sp who="#stebelska">
+          <speaker>STEBELSKA.</speaker>
+          <p>Nie trudno odgadnąć... Powiedzą to samo, co wszyscy jednogłośnie o niej mówią... Czy sądzisz, że ona może nie podobać się komu?...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(zgryźliwie, z niezadowoleniem)</stage> Ee... Nie o tem myślałem... Nie podobać się? <stage>(z przestankami)</stage> Wiem... wiem... Zanadto się wszystkim podoba... w tem właśnie moje nieszczęście... <stage>(ponuro)</stage> Wolałbym, aby nie podobała się nikomu... Miłość i uwielbienie spotyka ją od wszystkich... Cóż w takim razie mąż jej dać może... <stage>(p. ch. z wybuchem rozpaczy)</stage> Ach!... Ciotko... Hołdy te ich — to dla mnie katusza... a każdy występ jej w święcie — tortura...</p>
+        </sp>
+        <sp who="#stebelska">
+          <speaker>STEBELSKA.</speaker>
+          <p><stage>(zgorszona, kiwając głową ze zdziwienia)</stage> Człowieku... Co z tobą się dzieje... Zamiast cieszyć się, że żona jego tak jest wielbioną od wszystkich, on się tem gryzie... Dziwactwo... śmieszność... Sam się na nią wystawiasz... i nie napróżno posądzają cię o nią... Podejrzliwość niesłychana mówi przez ciebie... i... zaślepia ci rozum... <stage>(zgorszona i oburzona)</stage> Czy ty ją podejrzewać możesz... Zastanów się... takiego anioła...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(zrywa się i chodząc prędko, mówi wzburzony)</stage> Anioła... anioła... Wszyscy mi to twierdzicie... Dość tego!... <stage>(p. ch)</stage> Zrozumiejcież raz przecież, iż nie jestem tak ograniczony, abym insynuacyj waszych nie rozumiał... Wiem, co mi przez to chcecie powiedzieć... ach!... Wiem o tem... Wiedziałem to jeszcze przed wami... i dziś nie zapomniałem bynajmniej, czem jestem z nią w porównaniu... <stage>(p. ch. z wybuchem, gwałtownie)</stage> A jednak... Ona mnie kocha... mnie... choć nie wart jej jestem... choć słaby jestem... chory... i przykry... Mnie kocha, chociaż litościwe miny wasze odrazę w niej wzbudzić mogłyby... I póki żyję — kochać mnie ona nie przestanie... Wasze miny i słowa — przekonać jej nie potrafią... ale... <stage>(głosem rozpaczy)</stage> mnie życie skracają... krew burzą... i piekło w duszy czynią... <stage>(pada wyczerpany na sofę)</stage> Wody!... <stage>(opada na poduszki i przymyka oczy)</stage>
+          </p>
+        </sp>
+        <sp who="#stebelska">
+          <speaker>STEBELSKA.</speaker>
+          <p><stage>(przerażona, rzuca się, nie wiedząc co robić. Wreszcie podaje mu szklankę, naciera skronie i mówi cicho, lękliwie, z czułością)</stage> Edziu... Drogi mój!... Dziecko moje jedyne... Czy to się tak irytować godzi... Boże mój!... Nigdy ty zdrów nie będziesz... z charakterem takim... Gniewać się... unosić... Ależ to szkodzi... mój chłopcze... Myślałam, że u mnie się wzmocnisz, poprawisz, nim za granicę pojedziecie... a tu... ot co... <stage>(całuje go czule w głowę)</stage> No... Uspokój się... co tam... Gdybym przewidzieć mogła, nigdybym ci o tem nie mówiła... Ale... Ja nie nalegam... Rób, jak chcesz... Jeżeli to cię tyle kosztuje — nie trzeba... Co tam... Zdrowie i spokój — to najważniejsze...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(czule)</stage> Wiem o tem... moja ciociu... Nie ty jesteś winna... Dobra jesteś, kochasz mnie i rada jesteś szczęściu memu... <stage>(cicho, z goryczą do siebie)</stage> Szczęściu? <stage>(p. ch. stanowczo)</stage> Andzia na balu będzie... Musi być, choćby nie chciała... Masz słowo moje, ciotko...</p>
+        </sp>
+        <sp who="#stebelska">
+          <speaker>STEBELSKA.</speaker>
+          <p><stage>(bardzo uradowana, całując go czule)</stage> Wiedziałam... że tem się skończy... Wszak cię na ręku nosiłam i od pieluch nauczyłam się rozumieć twoje kaprysy... Drogi ty mój!... Serce masz złote... ale gwałtowność twoja zdrowie ci rujnuje przedwcześnie... i... życie skraca... <stage>(ze łzami)</stage> Edziu... Czy ty się nigdy nie nauczysz być spokojniejszym i na szystko więcej wyrozumiałym... Wszak teraz... to już nie to, co dawniej... i sam najlepiej rozumiesz, jak drogo wypada ci płacić za każde takie uniesienie... Zmiłuj się... Pożałuj ty siebie...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(głosem złamanym i słabym)</stage> Niema już czego żałować... Dzień więcej, czy mniej - wszystko jedno... Niewiele w każdym razie zostało... Ach!... Dość już o tem... Znużony jestem... <stage>(czule)</stage> Idź... ciociu... i... bądź spokojną... Andzia na balu będzie... lecz... nie przysyłaj jej teraz... do mnie... Chcę trochę odpocząć... a może... zasnę... <stage>(przymyka oczy, Stebelska okrywa mu nogi pledem, całuje w czoło i cicho, na palcach odchodzi)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene" n="15">
+        <head>SCENA II.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#karski">KARSKI.</rs> (sam, potem)
+            <rs key="#służący">SŁUŻĄCY.</rs>
+          </p>
+        </stage>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(leży czas jakiś cicho, z zamkniętymi oczyma, potem długo wpatruje się w jeden punkt, nareszcie podnosi się wolno. Uśmiecha sie ironicznie, nagle chowa twarz w dłonie i siedzi tak przez chwilę, potem zrywa się, idzie ku oknu i otwiera je naoścież. Wciąga powietrze chciwie, krztusi się, kaszle. Zamyka okno i stoi nieruchomy. Nagle, wyciągając ręce, z rozpaczą i bolem)</stage> Więc... taki mój koniec!... <stage>(p. ch)</stage> Gdybym wierzył, że jest tam coś ponad nami, powiedziałbym bym w tej chwili, że straszna, karząca mieszka tam sprawiedliwość... Ale... tam nic niema... Pusto!... <stage>(chodzi wolno, potem stając w zamyśleniu przed klęcznikiem)</stage> Gdyby było... toż — obok sprawiedliwości istniałoby też miłosierdzie... A wszak... oto chyba błaga ona dla mnie tu... codzień... <stage>(z ironią i bolem)</stage> przed tym cudownym obrazem... <stage>(p. ch)</stage> Obraz — głuchy... Czyste łzy jej płyną daremnie... Fatalne rozwiązanie zbliża się szybko... niedługo już czekać... <stage>(chodzi, nagle z wybuchem)</stage> A jednak... żałuję życia!... Po co mam przed sobą udawać?... Rozumowania wszelkie, perswazye — na nic się zdały... Żałuję szczęścia, które porzucić mi wypadnie... <stage>(p. ch)</stage> Szczęścia?!... Czy jestem szczęśliwy?... <stage>(p ch)</stage> Mógłbym nim być... O... Jakbym mógł! Mam wszystko, czego pragnąłem... Powodzenie zostało mi wiernem do końca... Miłość, dla której życie strawiłem, obdarzyła mię hojnie na zakończenie... i dziś tylko, na finał, poznać mi dała, czem jest jej prawdziwa potęga... <stage>(z uniesieniem)</stage> Miłość!... Dla niej wieki żyć warto... Ona jedna taką rozkosz i szczęście dać może... o jakiem się nigdy aniołom nie śniło <stage>(z żalem)</stage> Andziu... Moja Andziu... czemu nie spotkałem cię wtedy... gdy pełen sił i zapału... spragniony rozkoszy — po miłość i szczęście biegłem w życie... Ognista imaginacja, spragnione wzruszeń nerwy podsycały wzburzenie... Szalałem... Zapomniałem o wszystkiem... Nie czułem, że zamiast miłości, same męty jej piję... a zamiast kobiet ściskam — samice. Przekleństwo... Byłem młody, pełen życia i ognia... one mię zgubiły... <stage>(p. ch. głosem złamanym)</stage> Szalony... oddałem im wszystko... I dziś... kiedy pierwszy raz kocham... kocham bez granic... całą siłą i namiętnością wszechwładnego uczucia... kiedy mam ją... widzę miłość jej świeżą, dziewiczą... i całą miłość tę chciałbym siłą mojej męskiej miłości pochłonąć... upoić się... odurzyć — opadają mię siły... słabnie chore ciało... odmawiają posłuszeństwa wyczerpane zmysły... <stage>(ze zgrzytem, dziko)</stage> wściekłość tylko bezsilna szaleje pod czaszką... dzika rozpacz i żądza — rozrywa serce... a reszta życia i sił ginie w tej strasznej agonii ducha... Śmierć... Śmierć... Przybywaj prędzej... Męki takiej dłużej nie zniosę... Stróżem własnej żony — być nie potrafię... <stage>(pada wyczerpany, chwyta wodę, oddycha ciężko, p. ch. w zamyśleniu, ciszej)</stage> Śmierć... A ona... zostanie tu... piękna... młoda... i wolna... <stage>(coraz mocniej z siłą)</stage> życie się do niej uśmiechnie... ona znów szczęścia... i miłości zapragnie... <stage>(zrywając się)</stage> Nigdy!... Na myśl o tem — tracę przytomność... To być nie może... Ja jej zostawić — nie potrafię... <stage>(głucho)</stage> A zabrać... nie mam sposobu... <stage>(p. ch. z wybuchem)</stage> Gdybym go miał... Jakże byłbym szczęśliwy!... Cała rozpacz moja, gorycz i żal zmieniłyby się natychmiast w rezygnacyę cichą... i łagodne poddanie... Nie żałowałbym nic... gdybym ją tylko mógł zabrać... <stage>(p. ch. chodząc)</stage> Mąci mi się w głowie... dzikie myśli w niej chodzą... <stage>(po dł. ch. milczenia, ciszej do siebie)</stage> Gdybym mógł... ją zabić... Myślałem o tem już nieraz... ale... nie mam odwagi... Żeby się zgodziła — żebym mógł... lecz... podstępnie... przemocą — nie potrafię... A ona się nigdy nie zgodzi... Religia i moralność — nie pozwoli jej na to... <stage>(biega po scenie)</stage> Co począć?!... <stage>(staje nagle i przysłuchuje się)</stage> Cicho... Zdaje mi się... że to ona... jej głos... tak... Słyszę wyraźnie... jej głos... <stage>(słychać śmiech za sceną: p. ch. z wybuchem)</stage> Śmieje się... Gdy ja, tu umieram z rozpaczy <stage>(p. ch)</stage> I jej wierzyć mogę... Mogę myśleć, że i po śmierci nawet zostanie mi wierną... Cha... cha... cha... Ależ ona teraz... za życia jeszcze... już o mnie nie myśli... Śmieje się z kimś... a ten ktoś... może tylko końca mego wygląda... <stage>(wściekle)</stage> Nie!... <stage>(chwyta dzwonek i gwałtownie nim wstrząsa, wbiega przerażony służący)</stage> Poprosić tu młodą panią... natychmiast... <stage>(wychodzi. Karski rzuca się po scenie)</stage> Nie!... To okropne!... Ona... po śmierci mojej wyjdzie za mąż... I... ktoś inny będzie ją posiadał... i pieścił... da jej poznać całą rozkosz miłości, pełnej sił i życia... pozna wtedy... zrozumie... całą nędzę moją... ze wstrętem odwróci się od wspomnienia nawet o mnie... z ohydą i wstrętem - od której dziś nieświadomość tylko ją broni... <stage>(ze zgrzytem)</stage> Okropność!... Myśl o tem do szału doprowadzić może... Ona mię zabija... <stage>(p. ch. ciszej)</stage> Nie... Do nikogo należeć nie będzie... Umrze... Wątła i delikatna — zaród choroby weźmie odemnie... <stage>(p. ch)</stage> A jeśli nie?... jeśli dość silna — cierpienie odeprze... <stage>(wściekle z bolem)</stage> Co począć?... <stage>(p. ch)</stage> Szalony... Ja się rozpaczą zabijam... a ona tymczasem... bawi się... śmieje... <stage>(pada wyczerpany, przymyka oczy i leży bez ruchu. Drzwi otwierają się cicho, na progu staje Anna niespokojna, wystraszona, na palcach zbliża się do niego)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene" n="16">
+        <head>SCENA III.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#karski">KARSKI.</rs>
+            <rs key="#anna">ANNA.</rs>
+          </p>
+        </stage>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(pochylając się nad nim, mówi z miłością)</stage> Co tobie najdroższy?... Czy gorzej się czujesz?... Powiedz, mój Edziu...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(odsuwając się, cierpko)</stage> Mniejsza o to... Cóż to cię obchodzić może...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(łagodnie, z wymówką)</stage> A cóżby mię innego obchodzić mogło?... <stage>(pieszczotliwie)</stage> Ty wiesz dobrze... najdroższy... że świat mój — to ty... a wszystkie myśli moje — to myśl nieustanna o tobie, jedyny...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(j. w)</stage> Słowa... zawsze słowa... Odejdź... Zostaw mię samego... Idź tam, gdzie wesoło... Śmiej się... Wybacz, że ci przerwałem...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(stoi jakby nierozumiejąc, potem przypomina sobie i myśli zbiera, nagle ze skruchą i pomieszaniem)</stage> Prawda, zostawiłam cię samego... Bawiłam się tam z dziećmi, gdy mię tu potrzebować mogłeś... <stage>(ciszej, gorąco)</stage> O mój najdroższy... Taka nierozsądna jestem... Żałuję zawsze po czasie... zdawało mi się... że... dziś... zdrowszym się czułeś... To mię usposobiło weselej... Bawiłam się z Władkiem, który tak dokazywał... że się mimowoli zaśmiałam... Ty mi przebaczysz, prawda... Tyś — dobry taki... Lepszy niż ja... co się zapominam ciągle i zgryzotę ci sprawiam... <stage>(tuli się do niego)</stage>
+          </p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(złagodzony, mówi jednak z wymówką)</stage> Gdybyś więcej kochała... nie zapomniałabyś nigdy...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(cofając się nieco)</stage> Ja... mało cię kocham?... <stage>(mówi łagodnie, z rosnącym bolem i skargą)</stage> Nie!... Chyba większej miłości na świecie niema... <stage>(p. ch)</stage> Ale... nierozsądną jestem — to pewna... Ileż razy myślałam już o tem... ile razy gorąco Boga prosiłam, aby nauczył mię... natchnął, jak mam być dobrą dla ciebie... Czem ci dogodzić?... Jak rozumieć... i przewidywać twe chęci... I... tak się staram... Tak się wysilam... <stage>(słychać łzy w głosie)</stage> Napróżno... Zamiast uspakajać cię — dręczę... zamiast rozweselać — smucę... i tak często irytuję cię i gniewam... <stage>(pochyla się nad nim i zwolna opuszcza się na kolana, opierając o sofę)</stage> O... mój jedyny... Powiedz mi, naucz, jak się mam zachowywać... Czego strzedz?... o co starać?... aby cię nie martwić... i nie zasmucać... <stage>(p. ch)</stage> Ty nie wiesz... ile to mię kosztuje... jak cierpię, widząc... że cię martwię... <stage>(wyciąga ku niemu ręce błagalnie)</stage> Edziu mój... Drogi, Czy jest co tak trudnego, czegobym z rozkoszą nie spełniła dla ciebie... Ale... Ja — nie wiem... Nie umiem... Chęci mam dobre... Brak mi domyślności... Ty mi więc powiedz... co mam czynić... aby być twą radością... spokojem... Mój Boże... Tak mi smutno... tak ciężko... Tak wszystkie myśli się plączą... gdy widzę, że jesteś niekontent... <stage>(chowa twarz w dłoni, słychać łzy tłumione)</stage>
+          </p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(zrywa się, podnosi ją gwałtownie, tuli do siebie i mówi z uniesieniem)</stage> Aniele mój!... Andziu!... rozkosz moja... szczęście... Ty winną nie jesteś... W czem winną być możesz, ty moja biedna... Chyba, żeś mię pokochała?... Powiedz... Czemu na życie tak ciężkie poszłaś ty ze mną?... O... Nie przerywaj mi... Wiem... że chcesz zaprzeczyć... Ale to nieprawda... Czuję, jak strasznie zły i niewdzięczny jestem względem ciebie... Ale to trudno... <stage>(ściska jej kolana)</stage> Przebacz mi... <stage>(głosem bolu, rozpaczy)</stage> Innym być nie mogę... Wszystko we mnie się psuje... Ani myśleć, ani kochać już nie umiem... Całe uczucie moje dla ciebie w dzikie szaleństwo się zmienia... i tak okrutnem... męczącem się staje...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(w uniesieniu)</stage> Byle tylko nie dla ciebie... o mój Edwardzie... Dla mnie — niech niem będzie... W cierpieniu każdem z ręki twej, ja rozkosz czuję bez granic... słodycz jakąś dziwną, której mi nic zastąpić nie może... Mój jedyny... Co mi dać szczęście większe jest w stanie, jak żyć i cierpieć dla ciebie... Ale to nie jest cierpienie... Edwardzie... Każdy ból... łza każda jest mi drogą dla ciebie... tak drogą, jak ty sam, o mój ukochany... Kocham cię... kocham za łzy te, jak za uśmiechy... za szczęście i ból ten pełen rozkoszy — jaki mi dajesz...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(smutnie, z bolem)</stage> Za często ci go daję, ukochana moja... Tak mało chwil lepszych masz ze mną... gdybyś jednak wiedziała, ile męki mam w duszy... usprawiedliwiłabyś może te moje wybuchy... i gorzkie nieraz usposobienie...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(słodko, łagodnie)</stage> Czy nie dość, żeś chory?... Alboż to nie usprawiedliwia cię dostatecznie?... <stage>(weselej)</stage> Poczekaj... Wszystko się zmieni... Wyzdrowiejesz... Będziemy weseli oboje... Będziemy razem się śmiać... I wtedy już nie będzie się o nic gniewał mój Edzio... ani się martwił...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(posępnie)</stage> A sama... bezemnie... czy ty się śmiać więcej nie będziesz?... Czy wesołość twoja zniknie razem zemną?... I... czy nikt... nigdy... nie zastąpi mię przy tobie?... Andziu... przerażona jesteś... widzę to... Ale... mówić muszę... Zrozumiej... Chorzy dziwne nieraz przywidzenia miewają... Chwilami... zdaje mi się... ze... gdybym umarł... tybyś mogła... pokochać innego... Powiedz... że... to być... nie może... Upewnij, że nikt mężem twoim nigdy nie zostanie... <stage>(Mówi z przestankami, wzrokiem się w nią wpijając i konwulsyjnie ściskając jej ręce. Ona patrzy przerażona, potem z miłością zarzucając mu ręce na szyję)</stage>
+          </p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Alboż — drugi raz w życiu tak kochać można?... Poco ty mi o tem mówisz?... Skąd dziwne te przypuszczenia... Zdrów będziesz, Edziu... <stage>(głosem drżącym)</stage> Ty... nie umrzesz... To być nie może... Ja cię... tak kocham... tak Boga o to proszę... Ty... żyć będziesz... Wszak prawda?... Ty... żyć pragniesz... Pragnienie to i miłość i modlitwa moja — uratują cię... Los tak okrutnym nie będzie... <stage>(słychać tłumione łkania)</stage> nie odbierze życia wtedy, gdy go się najbardziej pragnie...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(tuląc ją z rozpaczą ku sobie)</stage> A jeśli?... jeśli?... O... moja Andziu... Czy ty rozumiesz, czem jest takie pytanie, gdy się raz w mózgu zagnieździ... gdy powstaje w niem ustawicznie... i na jawie... i we śnie... w dzień... i w nocy?... Zdrowego nawet do szału doprowadzić może... cóż mówić o chorym, jak ja... Mam taką wątpliwość... I... nie śmierci się boję... nie ona mię straszy... Przeraża mię myśl... rozstania z tobą, porzucenia cię na zawsze... <stage>(p. ch. z szaleństwem)</stage> Powiedz mi... <stage>(ściska i targa jej ręce)</stage> Przysięgnij... że i wtenczas, gdy umrę, wierną mi pozostaniesz... że nie zapomnisz nigdy... że... miłość, którąś mi na życie przysięgła — Zachowasz dla mnie i po śmierci... Że — nigdy... przenigdy... do nikogo należeć nie będziesz... Uczyń to... Daj mi tę pewność... Albo przed śmiercią jeszcze, zmysły postradam...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(przerażona, drżąca i blada, twarz łzami zalana, wyciąga ręce błagalnie i mówi z poddaniem)</stage> Co mam czynić?... W jaki sposób dać ci tę pewność... Mów... Rozkazuj... Jestem gotowa... <stage>(łzy głos jej tłumią)</stage>
+          </p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(chwyta ją za rękę i pociąga przed klęcznik)</stage> Przysięgnij tu... Przed tym cudownym obrazem... a będę spokojny masz wiarę... przysiędze twojej — ja wierzę... Wiem, że jej nie złamiesz... Przysięgnij więc, że wierną mi i po śmierci zostaniesz... że nigdy żoną niczyją nie będziesz...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(klęka, mówi uroczyście, z pochyloną głowią)</stage> Przysięgam... mój Boże... Nigdy żoną niczyją nie będę... nie pokocham nigdy... nikogo... prócz ciebie... Przysięgam... <stage>(łkanie głos jej tłumi, chwieje się i o mało nie pada)</stage>
+          </p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(prowadzi ją ku sofie, sam opuszcza się na kolana. Tuli jej ręce, mówi głosem tkliwym)</stage> Nie będę już nigdy cię smucił... Nigdy... Czy wart jestem skarb taki posiadać... Moja!... Ty — moja... Teraz... i na wieki... O... Chcę być dobry dla ciebie... tak dobry, abyś zapomniała o wszystkiem... co było... <stage>(p. ch)</stage> Moja Andziu... Wstąpiło we mnie dziwne wesele i spokój... Zaczynam od tego... że... dziś... razem z tobą... idę na bal... <stage>(ona cofa się)</stage> Dlaczego tak się przelękłaś?... Może tak straszny już jestem, że nie mogę się ludziom pokazać... <stage>(żartobliwie)</stage> Uspokój się... żoneczko... Tak źle nie jest... czuję się dobrze w tej chwili... tak dobrze... jak nigdy... <stage>(p. ch)</stage> Nie myśl, że żartuję... <stage>(spogląda na zegarek)</stage> Będziemy dziś na balu... Dałem ciotce słowo... Przygotuj się... pieszczotko, zajmij się toaletą... Już późno, <stage>(wstając)</stage> Pośpiesz się...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(niepewna)</stage> Doprawdy... Nie wiem... chyba żartujesz... Czy można o tem myśleć... Przed chwilą byłeś tak blady... sądziłam, iż chyba zemdlejesz...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(z humorem, wesoło)</stage> Bagatela... Byłem blady... ale to przeszło... wieczorem będę wyglądał doskonale... No... Ubieraj się droga moja... Wiesz, że nie odmieniam zamiarów... Bądź o mnie spokojna... Zobaczysz, jak się ciotka ucieszy, gdy zamiast ciebie jednej obojga nas ujrzy... Ani się spodziewa... Widziała, żem był zły... i chory... Będzie niespodzianka... <stage>(bierze jej ręce)</stage> Do widzenia... Andziu... Pójdę do siebie... Postaram się, aby nie spóźnić... Droga ty moja!... <stage>(całuje ją w czoło i ręce, wpatruje się w nią z zachwytem, oddala się powoli, zatrzymując się w pół drogi z czułością)</stage> Piękna ty moja!... <stage>(wychodzi powoli)</stage>
+          </p>
+        </sp>
+      </div>
+      <div type="scene" n="17">
+        <head>SCENA IV.</head>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(stoi nieruchoma przez chwilę, potem, jakby zbudzona, ogląda się, idzie wolno w zamyśleniu głębokiem)</stage> Zdaje mi się chwilami... że śnię... że to marzenie jakieś gorące, z którego dopiero oddalenie jego mnie budzi... Takie to dziwne wszystko... niezwykłe... Tak prędko wszystko się stało... A jednak już rok blisko... <stage>(p. ch)</stage> zdaje mi się... że tak niedawno... <stage>(p. ch. smutnie)</stage> Dom mój — daleko... Ojciec — w rozpaczy... <stage>(chowa twarz w dłonie)</stage> Tak wielką ofiarą szczęście to okupić mi przyszło... Nie mogę o tem myśleć... Ból ciągle — taki dojmujący i żywy... Przy nim jedynie jestem szczęśliwą... Zapominam o wszystkiem... nie myślę nic... i nic mnie nie boli... On tylko... Widzę i czuje jego tylko... <stage>(p. ch)</stage> Ale... kiedy go niema... kiedy jestem samą... Zdaje się, że zmieram... Wszystko staje się tak obojętnem, bezbarwnem... jakby nie istniało... Wszędzie zimno... i pustka, którą on jeden dla mnie może wypełniać... i... rozświecać może... <stage>(wstaje i siląc się na energję)</stage> Jak ja się zmieniłam... Czy to dobrze?... Wszak kochać jedynie to mało... Trzeba jeszcze myśleć, działać, pracować... A ja kocham tylko... kocham cała... I myśli energja i czyn — wszystko się w uczucie zmieniło... Pragnę przez niego jedynie... I dumną, i użyteczną, i czynną — być mogę tylko przez niego... Więc też on żyć musi i działać za siebie... i za mnie... Ja chcę mu dać szczęście jedynie... radość i szczęście... jako pracy nagrodę i dźwignię... <stage>(podchodząc do klęcznika, smutnie)</stage> O zdrowie dla niego... błagam tu co dzień... Dla siebie — o nic nie proszę... Nie umiem nic teraz pragnąć dla siebie... <stage>(opuszcza się zwolna na kolana)</stage> "Zdrowia... o Panie... dla niego... Zdrowia... dla pracy... dla szczęścia..."</p>
+        </sp>
+        <stage>(Zasłona zapada)</stage>
+        <trailer>(KONIEC ODSŁONY PIERWSZEJ AKTU CZWARTEGO)</trailer>
+       </div>
+      </div>
+      <div type="scene-stage" n="2">
+        <head>AKT IV.<lb />ODSŁONA II.</head>
+      <div type="scene" n="18">
+        <head>SCENA I.</head>
+        <stage type="setting">
+          <p>(Sala balowa, przybrana wspaniale. U wejścia wygalonowani lokaje; zieleń, kwiaty, zwierciadła; strojne toalety dam, fraki panów. Siedzą, chodzą, śmieją się i rozmawiają. Pomiędzy innymi przechodzi Karski, prowadząc Annę w sukni jasno-popielatej, w białe kwiaty. Twarz jej łagodna i uśmiechnięta, ale nie wesoła. Wychodzą na przód sceny, spojrzenia wszystkich gonią za nimi. Patrzący robią ciche uwagi, wymownie porozumiewają się wzrokiem. Miny współczujące, albo pogardliwie. Karski, ukrywając wzburzenie, śledzi wszystko uważnie. Do Anny mówi półgłosem, siląc się uśmiechem pokryć wzburzenie. Głos drży gdy mówi)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#karski">KARSKI.</rs>
+            <rs key="#anna">ANNA.</rs>
+            <rs key="#stebelska">STEBELSKA.</rs>
+            <rs key="#tancerz">TANCERZ.</rs>
+            <rs key="#tancerze">TANCERZE.</rs>
+          </p>
+        </stage>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p>Czy widzisz, jak oni się patrzą... Uważaj... co to za miny... <stage>(p. ch. zwracając się ku niej, z nagłem rozdrażnieniem)</stage> Dlaczego włożyłaś tę suknię?... Czy nie miałaś jaśniejszej?... <stage>(z gryzącą ironią)</stage> A może i ty... zamanifestować chciałaś swoje nieszczęście... Okazać... jak godną jesteś współczucia...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(bardzo łagodnie)</stage> Sądziłam, że ta... stosowniejszą będzie... Nie chciałam wkładać zbyt jasnej... Onegdaj... przykro ci było... Zresztą... wszak tańczyć nie będę... więc... wszystko jedno...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(z rosnącem niezadowoleniem)</stage> Tańczyć nie będziesz?... A to — dlaczego?... Zawcześnie przywdziewasz żałobę... Przeciwnie — tańczyć trzeba... Tańczyć — będziesz... Ja nie chcę, aby myślano... że tak jesteś zbiedzoną... nieszczęśliwą...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(słodko, tuląc jego ramię)</stage> Dobrze... Najdroższy... Jeżeli tylko chcesz... <stage>(wskazując małą kanapkę na stronie)</stage> Może osiądziemy tam... chwilkę...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(z uśmiechem, pochylając się do męża)</stage> Nie widzę jeszcze cioteczki... Wszak ona rozpocząć powinna... <stage>(Stebelska wchodzi spiesznie, ogląda się, zdaje się szukać)</stage> Ach... otóż i ona... Jaka dziś cioteczka wesoła... <stage>(idzie ku niej)</stage>
+          </p>
+        </sp>
+        <sp who="#stebelska">
+          <speaker>STEBELSKA.</speaker>
+          <p><stage>(całując ją czule)</stage> Moja Andeczko... To dzisiaj bal wyłącznie dla ciebie... Rozpocznij go więc... moja droga... Tak... tak... moje dziecko... Nie opieraj się... Proszę... Wszak... właściwie nie ja, ale wy tu gospodarzami jesteście... Wiek mój — już krótki... Co tam... Szczęśliwą jestem, że taka Andeczka zastąpi tu mnie wkrótce... w starej spuściźnie tej gospodarować będzie... <stage>(Anna całuje ją w rękę)</stage> idź... moje dziecko... Już wszyscy gotowi... Czekają na ciebie... <stage>(Patrząc na zbliżającego się poważnego mężczyznę)</stage> A otóż... I nasz prezes kochany... Jak widzę... Nie może jeszcze w swoje szczęście uwierzyć... Idź, Andziu...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(podając mu rękę, do męża, czule)</stage> A ty... Edziu... Tu pozostaniesz...</p>
+        </sp>
+        <sp who="#stebelska">
+          <speaker>STEBELSKA.</speaker>
+          <p><stage>(wesoło do skwaszonego Karskiego)</stage> O... i my z nim pójdziemy... Cóż sobie myślisz... Chce, czy nie chce... musi starą ciotkę prowadzić... <stage>(Anna z prezesem odchodzą, stają w pierwszej parze. Muzyka gra poloneza, szereg rozwija się z powagą. Rozdzielają się, łączą, znów idą. Muzyka kończy, Anna wraca na miejsce)</stage>
+          </p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(stając za jej krzesłem, pochyla się ku niej i mówi gorąco)</stage> Jakaś ty piękna... Andziu... śliczna... czarująca... Dumny jestem z ciebie... Miny ich nic mię już nie obchodzą... Niech zazdroszczą... wszak odebrać mi ciebie nie mogą... Tyś — moja... <stage>(słucha przygrywki)</stage> walc... Będziesz tańczyć ze mną... Tańczysz jak żadna... Pamiętasz... Wszak od owego balu nie tańczyliśmy ani razu ze sobą... Wesela nawet nie mieliśmy... Na ślubie smutno było, jak na pogrzebie... <stage>(patrząc na sunącego ku nim tancerza)</stage> Patrz... już się spieszy... Pamiętaj... Pierwszy walec — mój...</p>
+        </sp>
+        <sp who="#tancerz">
+          <speaker>TANCERZ.</speaker>
+          <p>Pozwoli pani... <stage>(kłaniając się)</stage>
+          </p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(nieco pomieszana)</stage> Przepraszam pana... W tej chwili...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(wyręczając ją)</stage> Ze mną tańczy... <stage>(Kawaler, tłumiąc nagłe zdziwienie, z ukłonem oddala się)</stage>
+          </p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(żywo do męża)</stage> To być nie może... Edziu... Ja się nie zgadzam... Ty tańczyć nie możesz... Byłoby szaleństwem... opamiętaj się... Edziu... Błagam cię...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p>Ani myślę... Tańczyć będę koniecznie... Muszę tańczyć dziś z tobą... To nie kaprys... Uważałaś... jak się zdziwił ten facet... Myślisz, że mogę pozwolić, aby się wyśmiano ze mnie... Pokażę im, jak tańczyć trzeba... żaden z nich, choć zdrów? tańczyć tak nie potrafi... Już grają... Andziu... Proszę cię... Bądź spokojna... Wyjątkowo dobrze się czuję... Siły mnie nie zawiodą...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(zrywając się, przerażona)</stage> Boże... Mój Boże... Gdzie ciocia?... Może cię ona powstrzyma... Czekaj... <stage>(chce odejść, on bierze za ręce, ona głosem drżącym)</stage> Przez litość... Edziu... Ja się tak boję... Błagam cię, drogi... Zrób to dla mnie... tańczyć nie mogę... nie będę... <stage>(opierając się)</stage> Mnie słabo... Nogi drżeć zaczynają... Edziu... Błagam cię...</p>
+        </sp>
+        <sp who="#karski">
+          <speaker>KARSKI.</speaker>
+          <p><stage>(otaczając ją ramieniem, mówi z uniesieniem)</stage> To nic... Tańczyć będziesz... Pamiętaj... Nie rób mi wstydu... Walc... Taniec mój ulubiony... Taniec — na życie i śmierć... O... Andziu... Szczęście ty moje!... Gdyby nawet umrzeć mi przyszło... Mniejsza o to... Byle z tobą... w twojem objęciu... <stage>(Puszcza się pędem w wir szalony, za nim ukazuje się kilka par innych, on wszystkie prześciga. Inni zaprzestają, on tańczy. Spojrzenia gonią za nimi, widać rosnące zdumienie, niektórzy z miejsc powstają, słychać wykrzykniki)<lb />
+          — Patrzcie... jak tańczy...<lb />
+          - Ależ to rozkosz... on lata, nie tańczy...<lb />
+          — Szaleństwo... tak się narażać...<lb />
+          (Robi się pustka, sami jedni wirują. Na salę wbiega Stebelska przerażona, wołając)</stage></p>
+        </sp>
+        <sp who="#stebelska">
+          <speaker>STEBELSKA.</speaker>
+          <p>Ach... Zatrzymajcie go... Prędzej... Szaleniec... Co on robi... <stage>(W tej chwili słychać gwałtowny krzyk Anny, Karski chwieje się i pada na podtrzymujące go ręce. Zamieszanie ogólne. Opuszczają go na kanapę, oczy ma zamknięte, głowa odrzucona)</stage>
+          </p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p><stage>(pada przy nim na kolana, chwyta jego ręce i woła z rozpaczą)</stage> Edziu... Edziu?... Co tobie?... <stage>(nagle zrywa się, wołając rozpaczliwie)</stage> Ratunku... On... umiera...</p>
+        </sp>
+        <sp who="#stebelska">
+          <speaker>STEBELSKA.</speaker>
+          <p><stage>(przerażona, rzucając się ku niemu)</stage> Doktora!... Prędzej... Ratujcie!... <stage>(Wbiega doktor głębią. Bada puls, przykłada ucho do serca, p. ch. cofając się)</stage> Niema ratunku... Nie żyje... Serce pękło... <stage>(Anna z głuchym jękiem pada bez zmysłów, zamieszanie, zasłona spada)</stage>
+          </p>
+        </sp>
+        <trailer>(KONIEC AKTU CZWARTEGO)</trailer>
+       </div>
+       </div>
+      </div>
+      <div type="act" n="5">
+        <head>AKT V.</head>
+        <div type="scene" n="19">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#anna">ANNA.</rs>
+              <rs key="#babka">BABKA.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(Taras wspaniały, wśród bujnej roślinności południa, w oddali szafirowe niebo, góry i drzewa, opromienione słońcem. Na tarasie, na miękkim szezlongu leży Anna w bieli. Twarz jej wyniszczona, znać niemoc śmiertelną i cierpienie. W oczach — gorączka, na twarzy — rumieńce. Nogi okryte wschodnim szalem. Opodal w fotelu siedzi babka w sukni czarnej. Co chwila spogląda na uśpioną, wzdycha i nieznacznie, kryjomo łzy ociera. Twarz Anny rozjaśniona, zdaje się być pogrążona w marzeniu. P. ch. otwiera oczy, patrzy na słoneczny krajobraz, potem mówi w rozmarzeniu)</p>
+          </stage>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p>Jaki świat piękny!... Babciu... Jaki cichy... pogodny... <stage>(p. ch)</stage> Tak dobrze mi dzisiaj, tak zdrową się czuję... że... zaczynam... wyzdrowienie... przypuszczać... Babciu... Czy ja żyć będę?... Boże mój... Takbym pragnęła...</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(uradowana siada przy niej i tuląc ją, mówi pieszczotliwie)</stage> O... Moja ptaszynko... Czy o tem wątpić możesz... Taka młodziutka... I żyć... i zdrowa będziesz... i pociechy z dziecka swego doczekasz...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(podnosi się nieco i mówi rozpromieniona)</stage> Ach... Babciu... Dla niego żyć pragnę... <stage>(p. ch)</stage> Czemże byłam bez niego?... Czy mogłam tak wytrwać długo?... <stage>(p. ch)</stage> Dusza moja w tęsknocie męczącej ulatywała za tamtym... za moim Edwardem... Życie... gasło dla mnie... Nie miałam nic... ani przyszłości... ani nadziei... <stage>(p. ch)</stage> Teraz... zdaje mi się, że to on wrócił... do mnie... że mam go znowu... tylko taki mały... wątły... słabiutki... jak kiedy był dzieckiem... I miłość moja ta sama... tylko niby inna... dziwniejsza... Z nim wróciło mi czucie... znów żyć zapragnęłam... i dusza, odrętwiała z boleści — znów czuje... pragnie... i kocha... Babciu... <stage>(wyciąga ramiona ku niebu)</stage> Jaki Bóg dobry... Jaki On dobry, że kochać taką siłę nam daje...</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(z zachwytem)</stage> Ach... Moja dzieweczko... Aniołku mój złoty... Ja zawsze pewna tego byłam... Pewna byłam... że On cię w końcu uzdrowi... Tak się modliłam... Tyle mszy na twoją intencyę po różnych odprawiano kościołach... O... moja Andeczko... Cała bieda ta przejdzie... Ty wyzdrowiejesz... zapomniesz z czasem o wszystkiem... i znów będziesz szczęśliwą...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(w rozmarzeniu)</stage> Alboż nią już nie jestem, Babciu... Byle tylko wyzdrowieć... Być przy nim... widzieć go... pieścić... O... mój maleńki... Jaki do niego podobny... Piękny, jak on był... <stage>(z nagłym smutkiem i bolem)</stage> Tylko — nie chcę, aby był tak nieszczęśliwy... Babciu... Ja go szczęśliwym uczynię, jak tego pragnęłam dla ojca... On umarł... z nim zgasły moje nadzieje... <stage>(p. ch)</stage> Teraz... znowu ożyły... Przyszłość jego w naszem ręku... Ja go myślić nauczę... czuć, co czuje... kochać — co kocham... <stage>(p. ch)</stage> Jakie to szczęście mieć w kogo duszę swą przelać!... On będzie szczęśliwy, Babciu... Ale nie tem szczęściem szarem... codziennem, co na egoizmie oparte, chwieje się i ginie za lada podmuchem <stage>(z uniesieniem)</stage> Innego chcę szczęścia dla niego... tego, co się osobistych nieszczęść nie boi... co w miłości wielkiej poczęte, rozpłomienione ukochaną ideą, nie da mu poznać nigdy próżni duszy... pustki życia... lecz trwałe, czyste, bez końca dźwignie go w prozie życia, da mu przejść je z głową wzniesioną, niezachwianie, z jasnem słońcem w duszy i pogodą w sumieniu... <stage>(opuszcza się wyczerpana na poduszki)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(pochyla się nad nią, wzruszona i niespokojna)</stage> Po co się tak wzruszać, aniołku... dobrze... dobrze... Uczynisz go sobie, jakim sama zechcesz... Ale... Takie to jeszcze dalekie... Trzeba być najprzód spokojną... i zdrową... zdrową przedewszystkiem...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(ze łzami w głosie)</stage> Zdrową!... Gdybym już raz nią być mogła... <stage>(p. ch)</stage> Gdzie ojciec?... Nie widziałam go dziś jeszcze... Dlaczego tak długo nie przychodzi?... <stage>(p. ch. zdaje się rozważać coś, potem nagle, ciszej, tajemniczo)</stage> Wiesz... Babciu... Chcę go dziś pocieszyć... Biedny ojczulek... Taki smutny był wczoraj... <stage>(ciszej z naleganiem i stanowczością)</stage> Wiesz... Babciu... Wstanę... <stage>(Babka cofa się)</stage> Tak... tak... wstanę... i przejdę... ot... tam... <stage>(wskazuje duży fotel)</stage> przejdę... Babciu... i usiądę... tam bliżej do światła... powietrza...</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(z niepokojem)</stage> Ale... Czy tylko przejdziesz... słabiutka jesteś, Andeczko... Ja stara... niewiele ci dopomogę... Możeby kogo powołać...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(podnosząc się, opiera się o poręcz i ramię babki, mówi wesoło)</stage> E... nie... Babciu... Po co?... Same przejdziemy... Zobaczy babcia... Taka silna... dziś jestem... jak nigdy... <stage>(Idą zwolna, krok za krokiem, nagle Anna zatrzymując się)</stage> Trochę mi słabo... ale to nic... przejdzie... dawno już nie wstawałam...</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p>Może by lepiej wrócić, Andeczko... Już się zmęczyłaś... Cała spotniałaś... Nie dojdziesz...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(z wysiłkiem, robiąc jeszcze kilka kroków)</stage> Dojdę... Babciu... Dojdę... Już niedaleko... <stage>(nagle chwiejąc się)</stage> Och... Babciu... Tak mi słabo... W oczach się ćmi....</p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(z rozpaczą)</stage> A widzisz... Mówiłam... jeszcze zemdleje... Andziu... co począć?... <stage>(Anna chwieje się, Babka podtrzymuje ją i ogląda się przerażona, w drzwiach staje Górski)</stage> Prędzej... Andrzeju... Ona upadnie...</p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#anna">ANNA.</rs>
+              <rs key="#babka">BABKA.</rs>
+              <rs key="#górski">GÓRSKI.</rs> (potem)
+              <rs key="#jan">LOKAJ.</rs>
+              <rs key="#karski">DOKTOR.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(Górski biegnie ku nim i napół niosąc Annę opuszcza ją, na fotel. Ona odrzuca w tył głowę, przymyka oczy i leży tak chwilę bez ruchu)</p>
+          </stage>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(stoi przed nią z wyrazem przerażenia, do babki głosem drżącym)</stage> Po co jej mama pozwala... Taka osłabiona...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(otwierając oczy, mówi z uśmiechem, słodko)</stage> Ja tak chciałam... ojczulku... Jak zwykle... jestem grymaśna... Chciało mi się niespodziankę zrobić dla ciebie... Tak dobrze się czułam...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(siada przy niej, bierze jej ręce i tuli do ust, potem całuje ją w czoło, znać, że tłumiąc rozpacz, sili się wesołość okazać)</stage> Więc to dla mnie Andziunia w tak wielką wybrała się podróż... Nieładnie... Nieładnie... przystawać w pół drogi... A gdyby nie ja?... Na krzyk wasz mógłby się jaki młody sąsiad nadarzyć... I cóż wtedy?... W takim negliżu!... młoda pani... <stage>(śmiejąc się)</stage> Jakby to wyglądało, Andziuniu... E... ty mi coś... miewasz pomysły... <stage>(grożąc palcem z czułością)</stage> Pilnuj się... Zacznę podejrzewać...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(z uśmiechem, tuląc ręce jego do ust, z niezmierną czułością)</stage> Ojczulku... Drogi mój... Już nie będę... Przyszedłeś w sam czas... ratować sytuacyę... groźną... <stage>(z uniesieniem miłości)</stage> Drogi mój... Drogi... Najdroższy!... Dlaczego tak długo nie przychodziłeś?... Czekałam... Wyczerpała się cała cierpliwość...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(z miłością, pochylając się nad nią)</stage> A mamy jej wiele?... <stage>(śmieje się)</stage> Otóż, moja panienko... trzeba ci wiedzieć... Wszystko to w twoim interesie... Cały ranek u doktorów strawiłem... <stage>(do babki, zgorszony)</stage> Wyobraź sobie, matko... dziś wszystkim coś na przeszkodzie stanęło... to w domu niema... to chory... to wyjechał... a niechże was... prawdziwa fatalność... Musiałem więc nowych zbierać... iść... prosić... zapraszać...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(spokojnie, ze zdziwieniem)</stage> Dlaczego tak jest, ojcze?... Opłacasz ich przecie tak hojnie...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(z nagłym wybuchem, nie mogąc stłumić silnego wzruszenia)</stage> Byle cię tylko uzdrowili... maleńka... <stage>(chwyta jej ręce i całuje gorąco)</stage> Nie tyle... wszystkobym oddał... Oddałbym duszę... byle cię uzdrowili, dziecko moje...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(wzruszona, wodząc wzrokiem po pięknym krajobrazie)</stage> Będę zdrową, ojcze, będę, ale nie oni mię wyleczą... Uzdrowi mię chyba natura ta... taka piękna tu... i bogata... Ach!... Jaki świat cudowny... jaki wspaniały... Jaka ziemia ta malownicza i piękna... Tyle, zdaje się, szczęścia kryje w swej ukwieconej powierzchni... <stage>(po dł. ch)</stage> O... mój ojcze... życie jest pełne zawodów i bólu... pełne łez i cierpienia... Ale... póki w sercu naszem mieszka miłość — wielkie uczucie... żyć można... Ono ból wszelki przetrwa... słodycz wieje w cierpienie... nadzieją przyszłość zwycięży... <stage>(po ch.)</stage> Mój ojcze... Sprawdziłam to na sobie... Z nowem uczuciem — nowe życie we mnie wstąpiło...</p>
+          </sp>
+          <sp who="#jan">
+            <speaker>LOKAJ.</speaker>
+            <p><stage>(meldując)</stage> Doktorowie... proszę pana...</p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p><stage>(powstając, do Anny)</stage> Można prosić, Andziu?... <stage>(Ona skinieniem przyzwala, Górski postępuje ku drzwiom, wchodzą trzej doktorowie)</stage></p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(do ojca, głosem nagle zmienionym)</stage> Proszę cię... ojcze... Nie odchodź... <stage>(niespokojnie)</stage> Coś mi jest... dusi mię... źle... <stage>(rzuca się)</stage> Słabo... ojcze... nie opuszczaj mię... ojcze... <stage>(on staje przy niej; jeden z doktorów zbliżając się)</stage></p>
+          </sp>
+          <sp who="#doktor">
+            <speaker>DOKTOR.</speaker>
+            <p>Jak się szanowna pani dziś czuje?... Zdaje się... lepiej...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(głosem słabym)</stage> Tak... Było znacznie lepiej... a teraz... znów... gorzej mi... gorzej... <stage>(Zbliżają się dwaj inni, w czynnościach zdradzają pośpiech, porozumiewają się spojrzeniami)</stage></p>
+          </sp>
+          <sp who="#doktor">
+            <speaker>DOKTOR.</speaker>
+            <p>Pozwoli pani... trzeba puls zbadać... <stage>(Po chwili odchodzi, ukrywając pomieszanie; inny przyklęka i słucha serce. Odchodzi bardzo pomięszany. Mówią cicho do siebie, spoglądając w stronę Anny. Ona leży z odrzuconą w tył głową, pierś podnosi się szybko, usta chwytają powietrze. Wszyscy trzej wychodzą, dając poznać Górskiemu, aby z nimi wyszedł. Górski z nagłym przestrachem śpieszy za nimi)</stage></p>
+          </sp>
+          <sp who="#babka">
+            <speaker>BABKA.</speaker>
+            <p><stage>(przerażona biegnie do Anny)</stage> Andeczko... Dziecko moje... Co tobie?... <stage>(Ona porusza ustami, ale nic wymówić nie może. Babka z łkaniem, tracąc niemal przytomność)</stage> Andziu... Aniołku... Boże... Boże... <stage>(pada na kolana, wyciągając ręce ku niebu)</stage> Ratunku... Panie!... Ratuj ją <stage>(Łkanie głos jej tłumi, do pokoju wpada Górski. Wzrok jego błędny, rzuca się do Anny, opuszcza się przy niej na kolana. Nieprzytomny wpatruje się w nią chwilę, potem w szale rozpaczy wstrząsa nią gwałtownie, wołając)</stage></p>
+          </sp>
+          <sp who="#górski">
+            <speaker>GÓRSKI.</speaker>
+            <p>Nie!... To nieprawda!... Ty nie umierasz!... żyjesz... Żyć będziesz!... <stage>(Anna budząc się niby, otwiera oczy, Górski pada znów przy niej na kolana, wołając rozpaczliwie z łkaniem)</stage> Andziu... Litości... Panie... litości... Ona żyć będzie...</p>
+          </sp>
+          <sp who="#anna">
+            <speaker>ANNA.</speaker>
+            <p><stage>(jakby przez sen)</stage> Dziecko moje... Syn mój... <stage>(po ch.)</stage> Umieram... <stage>(szukając rękami)</stage>
+              <stage>(po ch.)</stage> Ojcze... Babciu... <stage>(coraz ciszej, wolniej)</stage> Wam... go oddaję... Błogosławię mu... Niech będzie szczęśliwy... Kocha... ludzi... świat cały... dla dobra ich żyje!... <stage>(umiera; zasłona spada)</stage></p>
+          </sp>
+		  <trailer>(KONIEC)</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

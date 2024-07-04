@@ -1,0 +1,1577 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000027" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Dymisjonowany kawaler</title>
+        <title type="sub">Komedioopera w jedym akcie oryginalnie napisana</title>
+        <author>
+          <idno type="isni">0000000370487654</idno>
+          <persName>
+            <forename>Ludwik</forename>
+            <surname>Rajszel</surname>
+          </persName>
+        </author>
+        <!-- Ludwik Rajszel (1805-1871) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/dymissyonowany-kawaler-komedjoopera-w-jedym-akcie-oryginalnie-napisana,OTI4OTYyNDU/4/</idno>
+          <title>Rajszel, L., Dymissyonowany kawaler: komedjoopera w jedym akcie oryginalnie napisana, Warszawa 1833</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="flankier" sex="MALE">
+            <persName>Flankier</persName>
+          </person>
+          <person xml:id="floransowicz" sex="MALE">
+            <persName>Floransowicz</persName>
+          </person>
+          <person xml:id="helena" sex="FEMALE">
+            <persName>Helena</persName>
+          </person>
+          <person xml:id="madam_de_tul" sex="FEMALE">
+            <persName>Madam de Tul</persName>
+          </person>
+          <person xml:id="piotruś" sex="MALE">
+            <persName>Piotruś</persName>
+          </person>
+          <person xml:id="zdzisław" sex="MALE">
+            <persName>Zdzisław</persName>
+          </person>
+          <person xml:id="łukasz" sex="MALE">
+            <persName>Łukasz</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-29">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1823">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">DYMISSJONOWANY<lb />
+            KAWALER.</titlePart>
+          </docTitle>
+          <imprimatur>Za pozwoleniem Cenzury Rządowej.</imprimatur>
+          <docTitle>
+            <titlePart type="main">DYMISSJONOWANY<lb />
+            KAWALER.</titlePart>
+            <titlePart type="sub">KOMEDJO-OPERA<lb />
+            W JEDNYM AKCIE<lb />
+            ORYGINALNIE NAPISANA</titlePart>
+          </docTitle>
+          <byline>PRZEZ<lb />
+            <docAuthor>Ludwika Edwarda Rajszla</docAuthor>
+          </byline>
+          <note>Z MUZYKĄ<lb />
+          JÓZEFA DAMSEGO.</note>
+          <docImprint>
+            <p>
+              W <pubPlace>WARSZAWIE</pubPlace>
+              <bibl>
+                <p>W <publisher>DRUKARNI JANA WRÓBLEWSKIEGO<lb />
+                W RYNKU STAREGO MIASTA Nr. 61.</publisher></p>
+              </bibl>
+              <date>1833</date>.
+            </p>
+          </docImprint>
+        </titlePage>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#floransowicz">FLORANSOWICZ,</role>
+            <actor>JP. SZYMANOWSKI</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#helena">HELENA,</role>
+            <roleDesc>pasierbica Floransowicza</roleDesc>
+            <actor>JPna WEROWSKA</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#piotruś">PIOTRUŚ,</role>
+            <roleDesc>siostrzeniec Floransowicza</roleDesc>
+            <actor>JP. PANCZYKOWSKI</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#madam_de_tul">MADAM de TUL,</role>
+            <roleDesc>daleka krewna Floransowicza</roleDesc>
+            <actor>JPani KOSTECKA</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#zdzisław">ZDZISŁAW,</role>
+            <roleDesc>porucznik</roleDesc>
+            <actor>JP. JASIŃSKI</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#flankier">FLANKIER,</role>
+            <roleDesc>jego ordynans</roleDesc>
+            <actor>JP. MAJEWSKI</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#łukasz">ŁUKASZ,</role>
+            <roleDesc>stary służący Floransowicza</roleDesc>
+            <actor>JP. BARANIECKI</actor>
+          </castItem>
+        </castList>
+      </div>
+      <set>
+        <p>(Rzecz dzieje się w domu Floransowicza.)</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>SCENA I.</head>
+        <stage type="setting">
+          <p>(Teatr wystawia pokój, po prawej stronie okno, obok stolik a na nim różne kobiece roboty – z lewej strony na otwartem biórku rozłożone papiery, atrament i pióra, z tejże strony drzwi do gabinetu Heleny)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#piotruś">PIOTRUŚ.</rs>
+          </p>
+        </stage>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(sam; wchodzi ubrany po wojskowemu, w ciasnym bardzo mundurze, komicznie przegląda się w lustrze)</stage> Zupełnie co innego!... co to za figura!... jakie spojrzenie!... a ten pałasz, ta furażerka... niech djabli porwą co się to ze mnie zrobiło. Wczoraj byłem sobie jeszcze głupim, nic nieznaczącym Piotrusiem, a dziś jestem wojskowym kadetem w konnej kawaleryi. Co też to panna Helenka powie, jak mnie zobaczy... ja najprzód stanę przed nią tak... <stage>(wyciąga się)</stage> a potem ukłonię jej się tak... <stage>(bierze rękę do furażerki)</stage> a ona najprzód wytrzyszczy oczy tak... <stage>(pokazuje)</stage> a potem z radości podskoczy w górę i na szyi wieszać mi się będzie <stage>(chce pokazać jak, ale mu mundur przeszkadza)</stage> przeklęty mundur, ja zaraz powiedziałem panu Wachmistrzowi że cokolwiek zaciasny, ale on rozśmiał się tylko... ruszył wąsami i kichnął sobie, jakby naumyślnie. Mój Boże! do czego to miłość niedoprowadzi, słowo honorowe daję, że ani mi się śniło, ażebym kiedy był wojskowym kadetem w konnej kawaleryi, ale panna Helenka ciągle dała się z tem słyszeć, że nie lubi... nie cierpi cywilnych, że za wojskowego tylko pójdzie... cóż miałem więc robić... dla miłości, dałem dymissyię cywilności i zaciągnąłem się do wojskowości <stage>(śmieje się)</stage> ale po części nie żałuię tego... kiedym szedł przez ulicę, wszystkie panny przechodzące, a nawet i z okien milutkiemi na mnie poglądały ślipkami.<lb />
+          <stage>(ŚPIEW I)</stage><lb />
+          I pałasik... i ostrogi...<lb />
+          O jak dobrze mieć!<lb />
+          Każdy mi umyka z drogi,<lb />
+          Czy to pan... czy kmieć.<lb />
+          Patrzę w górę bystrem okiem,<lb />
+          Powabny mam ruch,<lb />
+          Idę prosto... nigdy bokiem,<lb />
+          Bom żołnierz, bom zuch!<lb />
+          Płeć piękna gdy mię obaczy,<lb />
+          Wzdycha, ach! ach!.. ach!...<lb />
+          Wiem ja dobrze co to znaczy,<lb />
+          Tęgi ze mnie gach!<lb />
+          Wojskowy się wyda wszędzie,<lb />
+          Charmant... nigdy mal,<lb />
+          Zwłaszcza gdy z pochwy dobędzie<lb />
+          Hartowaną stal.<lb />
+          Bodajto bydź wojskowym – słowo honorowe daię, że mnię to nadzwyczajnie cieszy, kiedy widzę wszystkich oczy zwrócone na mnie... o jak naprzykład teraz... <stage>(śmieje się i patrzy na publiczność)</stage> a co?... nie prawdę mówiłem <stage>(ogląda się w koło)</stage> ale cóż to? niewidać nikogo... nikt tu zapewne nie dowiedział się jeszcze, o moiem zaciągnieniu się do wojska – jakże się zdziwią, gdy im przed samym przedefiluię nosem... Oho!... ktoś nadchodzi... <stage>(spostrzegłszy wchodzącego Łukasza)</stage> to stary Łukasz, wątpię żeby mnie poznał, bo całe życie jest roztargniony.</p>
+        </sp>
+      </div>
+      <div type="scene" n="2">
+        <head>SCENA II.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#piotruś">PIOTRUŚ.</rs>
+            <rs key="#łukasz">ŁUKASZ.</rs>
+          </p>
+        </stage>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(prezentuiąc się komicznie)</stage> Czy poznałeś Łukaszu pana Piotrusia ex-cywilnego?</p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p><stage>(ciągle zamyślaiący się – w jednej ręce trzyma list, w drugiej tabakierkę)</stage> Po takowem zapytaniu, jakżebym niemiał pana Piotrusia poznać... już cały dom dowiedział się o tym wypadku; jakie to było zadziwienie... Madam de Tul dotychczas niechce temu wierzyć. Jegomość pan Stryjaszek jak się dowiedział, stanął najprzód jak wryty... potem zmarszczył głowę... i pokręcił czołem...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(n. s.)</stage> Znowu roztargniony... <stage>(powtarza śmieiąc się)</stage> zmarszczył głowę... i pokręcił czołem...</p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p>Potem przeszedł się mrucząc po sklepie... potem... stanął... i iuż nic potem <stage>(przypomniawszy sobie)</stage> ale... ale... prawda... potem rzekł; „idź Łukaszu poproś tu do mnie pana Piotrusia, ale przedewszystkiem powiedz mu, że się gniewam na niego”... potem zawołał; to hultaj przeklęty!... potem ja wyszedłem... i tu przyszedłem...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(nieco zasmucony)</stage> Jak uważam Stryjaszek wcale jest niedyskretnym... każe mi się prezentować w sklepie, jakgdyby niemógł sam się tu pofatygować, nazywa mnie hultajem, a przecież nic tak złego nie zrobiłem – gdyby wiedział cel dążności przedsięwziętego przedsięwzięcia mojego, toby wcale inaczej postępował ze mną.</p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p>Pan Piotruś nie ma racyi – bez wiedzy i zezwolenia Stryjowskiego zaciągać się do wojska, jest to postąpić sobie przeciw wszelkim przepisom Trybunału handlowego. Ale ja niemam czasu do stracenia... Jegomość pan Stryjaszek czeka na pana Piotrusia... kazał mi to oświadczyć... a potem oddać ten list <stage>(wskazuiąc na tabakierkę)</stage> na pocztę... niech pan Piotruś idzie... bo i ja idę...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Niech sobie jak chce będzie, ale Stryjaszek niezechce mnie kompromitować... bo <stage>(wskazuiąc na pałasz)</stage> słowo honorowe daię... że... idźmy. <stage>(wychodzą – Łukasz w roztargnieniu szedł ku drzwiom gabinetu)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="3">
+        <head>SCENA III.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#zdzisław">ZDZISŁAW.</rs>
+          </p>
+        </stage>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(za sceną otworzywszy okno)</stage> Psyt... Helenko!.. Heleneczko!... Helenciu! <stage>(w oknie)</stage> co się to znaczy? że jej tu dotychczas nie ma... <stage>(wchodzi na scenę)</stage> sama jedynasta... to jest godzina naszego Rendez vous... Zapewne ją kochany ojczym zatrzymuje opowiadaniem swoich handlowo-spekulacyinych interesów, miedzy któremi połączenie jej z Piotrusiem najmocniej go teraz zajmuje, <stage>(zbliżywszy się do stolika)</stage> O ileż to razy, jej piękne rączki na tym wspierały się stoliku, w chwili, kiedy spojrzenie jej czaruiących oczu, przedzierało się do serca mojego – jakże ią kocham!... <stage>(ŚPIEW 2.)</stage><lb />
+          Obok takiego Anioła<lb />
+          Przyjemnie stać na szyldwachu;<lb />
+          A gdy – „kto idzie?” zawoła:<lb />
+          Drżę z miłości... nie od strachu.<lb />
+          Za każdem na nią spojrzeniem,<lb />
+          Serce jak werbel uderza;<lb />
+          „Kto idzie?” głuszę westchnieniem<lb />
+          Jak przystoi na żołnierza.<lb />
+          Diabla jednak będzie sprawa z tym panem ojczymem, strzeże jej jak oka w głowie i uroczyście postanowił nikogo z obcych w dom swój nie przyjmować... Ale poczekajno panie procentowiczu!... nie tak łatwo odeprzesz mój atak. Panna jest za mną, a maiąc tak silną assekuracyię, otrzymanie placu boju ani na chwilę nie może bydź wątpliwem <stage>(słyszy nadchodzących)</stage> jeżeli się nie mylę... nadchodzą... dalej na nasze stanowisko. <stage>(oddala się śpiesznie)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="4">
+        <head>SCENA IV.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#floransowicz">FLORANSOWICZ.</rs>
+            <rs key="#helena">HELENA.</rs>
+            <rs key="#piotruś">PIOTRUŚ.</rs>
+          </p>
+        </stage>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(wchodząc)</stage> Tak chcę i tak bydź musi, a kiedy ojczym powiada że tak bydź musi, więc ma się rozumieć, że inaczej nie będzie – dosyć to tych ceregielów... Piotruś kocha cię serdecznie... dał tego świeży dowód, a jakkolwiek ten dowód jest najniedorzeczniejszem głupstwem, potrafię jednak temu wcześnie zaradzić. Dziś jeszcze będę u Pułkownika – najdalej jutro siostrzeniec mój otrzyma dymissją... a po jutrze wesele... i kwita.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>O... o... o... co też stryjaszek powiedział.. dymissja... wesele... i kwita... to ma się niby rozumieć, dymissjonowane wesele z kwitkiem <stage>(śmieje się)</stage> a co panno Helenko!... czy nie dowcipnie rzecz tę rozranżerowałem?...</p>
+        </sp>
+        <stage>(ŚPIEW 3)</stage>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p> Przyśpieszę wasze wesele,<lb />
+          Chce szczęśliwych widzieć was...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(zacieraiąc ręce)</stage> A krewni... i przyjaciele...<lb />
+          Będą odwiedzali nas!</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Już widzę rój drobnych dziatek...<lb />
+          Mnie dziaduniem będą zwać.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(n. s.)</stage> Słodki miłości zadatek,<lb />
+          Trzeba będzie żonie dać...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Pamiętaj, kochać ją szczerze,<lb />
+          Mniej obiecuj... więcej rób...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Wielka mnie ochota bierze,<lb />
+          Dziś jeszcze odprawić ślub!...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(do Helenki)</stage> Czy widzisz jak się zapala,<lb />
+          Jak o tobie mówi wciąż...</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(n. s.)</stage> Prawdziwie pocieszna lala...<lb />
+          Piękny z niego byłby mąż!..</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(n. s.)</stage> Mój stryjaszek mie zachwala.<lb />
+          O mnie wspomina jej wciąż.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(jak wyżej)</stage> Prawdziwie pocieszna lala!...<lb />
+          To mi amant... to mi mąż...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(jak wyżej)</stage> Czy widzisz jak się zapala...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>O mnie wspomina jej wciąż.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Prawdziwie pocieszna lala!...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(kłania się Helenie)</stage> Dobry ze mnie będzie mąż.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Razem z Floransowiczem)</stage> Piękny z niego byłby mąż.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(Razem z Heleną)</stage> Dobry z niego będzie mąż.</p>
+          <p>A teraz powiedz mi chłopcze, jakim sposobem przyiąłeś służbę wojskową, i jak się to stać mogło bez mojego zezwolenia?</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Jakim sposobem? bardzo naturalnym... poszedłem najprzód do pana Wachmistrza, pan Wachmistrz zaprowadził mnie do Wielmożnego Pułkownika... Wielmożny Pułkownik nominował mnie wojskowym kadetem w konnej kawaleryi... i już klamka zapadła... słowo honorowe daię, że w pięciu minutach wszystko się skończyło... jeżeli stryjaszek nie wierzy... to ja się pójdę zapytam pana Wachmistrza.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Co za nieznośny gaduła.... na to mi tylko odpowiadaj, o co pytanym będziesz – jak się nazywa twój Pułkownik?</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Ostrorąbalski... miał szlify na ramionach i z ostrogami bóty na nogach.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>W jakim, jest wieku?</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>O już staruszek... siwiuteńki jak gołąbek – ubrany był po wojskowemu... przy pałaszu... przy świecących guzikach... ale nie tak ciasny miał mundur.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Gdzież mieszka?</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Nie daleko nas... w tym wielkim domu... gdzie to pierniki sprzedaią...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Jakie cię przyiął?</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Nie uważałem tego, bo jakiem odchodził, to on lufcikiem wyglądał na ulicę.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(z gniewem)</stage> Ale ja się pytam, czy był grzecznym?... przystępnym?</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>O i jak jeszcze... najprzód siedział i palił fajkę... potem wstał i przestał fajkę palić... potem uśmiechaiąc się rzekł: „no mój bracie, trzeba będzie zapomnieć o cackach, bomby... kartacze... granaty... służyć ci teraz będą w miejscu piłki” – piękna mi piłka... pomyślałem sobie, i jakoś mi niedobrze zrobiło się na sercu...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Wstydź się Piotrusiu... niebyłem nigdy zatem, ażebyś był wojskowym; ale kiedy już nim jesteś, nie mogę pochwalić tchórzostwa, którem dzielny i śmiały żołnierz brzydzić się powinien.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Ale mój stryjaszku, to tylko z początku tak się źle robi na sercu – przecież stryjaszek zwykł mawiać, że od razu Krakowa niezbudowano; toż samo rozumie się i o wojskowości... serce żołnierza rośnie jak na drożdżach.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Dodaj jeszcze w czasie pokoju.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>A naturalnie – żołnierz i ciasto, to wszystko jedno... ciasto rośnie w pokoiu... i żołnierz formuje się w pokoju... ciasto wypieka się w piecu, a żołnierz dopieka się na wojnie... <stage>(do Helenki śmieiąc się)</stage> a co? czy nie jestem dowcipnym... <stage>(do Floransowicza)</stage> i czy nie mam racyi?...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Zjesz ty twoią racyię, ale ci czczo po niej będzie...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Ale jak się to musztrowałem – najprzód wyciągnąłem się frontem do góry... tak jak teraz stoię... <stage>(wyciąga się)</stage> niech stryjaszek obaczy w lustrze czy ja dobrze stoię, bo ja nie widzę... a z miejsca nie wolno mi się ruszyć.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>No... no... trzpiocie, dobrze stoisz.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Ale co się z moią głową działo... to już niepamiętam, <stage>(probuiąc)</stage> jakoś nie za bardzo w górę... ani w dół... O to tak zupełnie wyrychtowali mnie <stage>(przekręca głowę)</stage> myślałem że mi oczy wylecą uszami... a język stał w gębie jak kołek... <stage>(śmieje się)</stage> słowo honorowe daię, że to było bardzo pociesznie.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>No... dosyć to tego... słuchaj Piotrusiu <stage>(mówi do niego na stronie, tymczasem Zdzisław uchyla okno, całuie rękę Heleny, daje jej różę i znika)</stage> jeżeli chcesz zasłużyć na moje względy, staraj się przypodobać Helence, i jeszcze w dniu dzisiejszym wymódz zezwolenie na ten związek.<lb />
+          <stage>(ŚPIEW 4)</stage><lb />
+          Kawaler póki jest młody,<lb />
+          Zwykle tylko liczy na to;<lb />
+          Żeby przez małżeńskie gody,<lb />
+          Złączyć się z panną bogatą.<lb />
+          A gdy się już podstarzeje...<lb />
+          Dola jego jest krytyczną,<lb />
+          Całą wówczas ma nadzieię,<lb />
+          Wygrać w loteryą klassyczną.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Helena musi bydź moią... słowo honorowe daję....</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Nie trać więc czasu – przedstaw się jej grzecznie... pomów rozsądnie...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>A broń Boże... ja nic mówić niebędę... mrugnę tylko oczami, brzęknę ostrogami... i już wszystko skończone <stage>(śmieje się)</stage> u nas w konnej kawaleryi tym sposobem podbijaią się serca panien... i słowo honorowe daię stryjaszkowi, że panna Helena bez namysłu kapitulować będzie.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(zacieraiąc ręce)</stage> No, no, już wy tu sobie dacie radę... a teraz muszę odejść – obecność pryncypała zawsze jest w handlu potrzebną <stage>(do Helenki)</stage> przypatrz no mu się dziewczyno... chłopiec jak lalka... dla twojej miłości zrobił z siebie tak wielką ofiarę, ale ja ci go uwolnię od wojska, <stage>(co raz w lepszym humorze)</stage> O wiem ja dobrze figlareczko... ten porucznik... o... o... o... spuszczasz oczki... rumienisz się... wszakże zapomnisz o nim... nieprawdaż Helenko?</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(całuiąc go w rękę)</stage> Kochany ojcze!...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Znam twoią uległość, i dla tego pewny jestem.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(pokazuiąc różę)</stage> Oddawca tej róży zasługuje ze wszech miar na wdzięczność moią... i czuię że serce moje...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>To bardzo ładnie... bardzo przyzwoicie... domyślam się... <stage>(n. s.)</stage> róża świeżo zerwana... Piotruś a nie kto inny mógł bydź tym oddawcą <stage>(odchodząc mówi po cichu do Piotrusia, który przez czas powyższej rozmowy, wykonywał naukę marszu wzdłuż sceny)</stage> pamiętaj chłopcze dobrze się sprawić.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Już wziąłem pozycję... umykaj stryjaszek...</p>
+        </sp>
+        <stage>(Floransowicz odchodzi)</stage>
+      </div>
+      <div type="scene" n="5">
+        <head>SCENA V.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#helena">HELENA.</rs>
+            <rs key="#piotruś">PIOTRUŚ.</rs>
+          </p>
+        </stage>
+        <stage type="setting">
+          <p>(Piotruś staje przy drzwiach gabinetowych, Helena zaięta ręczną pracą, pogląda ciągle w okno – milczenie)</p>
+        </stage>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(n. s.)</stage> Nie patrzy na mnie... <stage>(chrząka)</stage> ani się ruszy... <stage>(uderza ostrogami)</stage> czy ogłuchła?... czyli też wyraźnie żartuje sobie ze mnie... <stage>(dobywa pałasza i ostrzy go na pochwie, poglądaiąc z boku na Helenę)</stage> a już też tego nadto... jak uważam, ona i głucha i ślepa bydź musi... <stage>(chowa pałasz)</stage> trzeba będzie mnie pierwszemu gębę otworzyć <stage>(po cichu)</stage> panno Helenko!... <stage>(głośniej)</stage> panno Helenko!... <stage>(jeszcze głośniej)</stage> panno Helenko!...</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Nie wrzeszczałbyś waćpan, bo się ludzie pozbiegaią.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(wdzięcząc się)</stage> Czy mnie panna Helenka rozumie...</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(odwracaiąc się od niego)</stage> Pan sam siebie nie rozumiesz... proszę mi nie przeszkadzać...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>A ja proszę obejrzeć mnie od stóp do głowy... albo... od głowy do stóp – bo od dołu do góry, to jakoś niezręcznie, o naprzykład <stage>(głaszcze się ręką po twarzy z dołu w górę)</stage> tak... to diabelnie nieprzyjemnie – ale tak... <stage>(z góry w dół)</stage> to aż miło... <stage>(śmieje się)</stage> nieprawdaż? panno Helenko?</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Nie lubię... kiedy kto niepotrzebną gadaniną przerywa mi robotę... <stage>(spojrzawszy w okno – na stronie)</stage> Zdzisław mi się kłania... <stage>(nieznacznem poruszeniem głowy odkłania się wzajemnie)</stage></p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Ta robota wcale nie jest na swojem miejscu.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Owszem, ja to miejsce najdogodniejszem znajduię... <stage>(spojrzawszy znów w okno)</stage> wychodzi śpiesznie z ogrodu... co by to miało znaczyć?... niewidział się wcale ze mną.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Nie idzie tu o miejsce... ale o czas nie stosowny do pracy... wszakże to dziś niedziela... a xiądz na kazaniu powiedział „w powszednie dni róbcie dzieci, a w świąteczne bawcie się” panna Helenka niepowinna bydź grzesznicą...</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Byłabym nią właśnie, gdybym pobłażała niedorzecznościom waćpana.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Przecież ani migami, ani ostrogami nie zgorszy się panna Helenka, aże jestem wojskowym kadetem w konnej kawaleryi... wiec niepodobna ażebym był bez ostróg... bez...</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(z ironią)</stage> Pan Piotruś pełen jest dowcipnych pomysłów, znamionuiących jego nieporównaną delikatność... jego wyższe usposobienie.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(n. s.)</stage> Ani słowa nie zrozumiałem... trzeba żeby i ona mnie nawzajem nie zrozumiała <stage>(głośno)</stage> istotnie... że... prawdziwie... owa styczność... z subtelnością... urozmaicona wybujałością... jest zaiste... doskonałością! <stage>(na boku)</stage> niech pęknę, jeżelim sam siebie zrozumiał.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(jak wyżej)</stage> Prawdziwie, czarodziejska słów tych harmonja... w podziwienie mnie wprawia! Jak uważam, pan Piotruś bujną ma imaginacią!</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(n. s.)</stage> Lubi romantyczność!... powiedzmy jej co górnym stylem, jak to ja umiem, a co mnie nie wiele kosztuje: <stage>(klęka)</stage> Ach perło djamentowa!... krysztale marmurkowy!... krwawniku romansowy!... synogarlico kanarkowa! pierniku toroński! oto u nóg twoich... płynie lawa wulkaniczna, którą nielitościwa Bellona zalała serce moje... <stage>(na stronie)</stage> koniec mi się udał.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(udaiąc czułość)</stage> Powstań krwawniku romansowy!... i wiedz, że na krysztale marmurkowym, piernika torońskiego nigdy jeść nie będziesz.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Czy panna Helenka żartuie?... czy też na prawdę sentymentalność moią odrzuca?</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(iak wyżej)</stage> Dopóki nie zjawi się na święcie synogarlica kanarkowa, dopóty oboiętnie patrzeć będę, na ową... płynącą lawę... z głębi zakochanego serca twojego.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(n. s.)</stage> Proza nie trafia do jej serca – zarecytujmy jej odę, której nauczenie się pół roku czasu mnie kosztowało... <stage>(deklamuje)</stage><lb />
+          Niechaj cię moja oda wzruszy romantyczna!<lb />
+          Dotknij się mnie... ach! dotknij, zapałko chemiczna.<lb />
+          A ujrzyj... jak płomieniem serce się zapali...<lb />
+          Jak ten płomień... gwałtownie posunie się dalej...<lb />
+          Wówczas... szmermel miłości... rozstrzelony jaśnie!<lb />
+          Póty się będzie kręcił... aż pęknie... i zgaśnie.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Zamknij waćpan usta, ażeby z nich nowe jakie głupstwo nie wyleciało.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(n. s.)</stage> Tym przeklętym górnym stylem, cały sobie interes popsułem. <stage>(wstaje)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="6">
+        <head>SCENA VI.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#helena">HELENA.</rs>
+            <rs key="#piotruś">PIOTRUŚ.</rs> (i)
+            <rs key="#flankier">FLANKIER.</rs>
+          </p>
+        </stage>
+        <sp who="#flankier">
+          <speaker>FLANKIER.</speaker>
+          <p><stage>(spostrzegłszy Piotrusia)</stage> Aha, to waćpan zapewne... przybywam z expedycją od pułkownika Ostrorąbalskiego – oto jest... <stage>(oddaje)</stage></p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(na stronie)</stage> Co widzę? Flankier ordynans Zdzisława.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(ciekawie)</stage> Pułkownik do mnie pisze... <stage>(spojrzawszy na adres)</stage> tak, do mnie – obaczmy... <stage>(odrywa pieczęć)</stage></p>
+        </sp>
+        <sp who="#flankier">
+          <speaker>FLANKIER.</speaker>
+          <p><stage>(po cichu do Heleny)</stage> Mój pan wkrótce tu przybędzie.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(czyta)</stage> „Kadet plotka Piotr uda się natychmiast do koszar, i tamże zamelduje się wachmistrzowi starszemu”.</p>
+        </sp>
+        <sp who="#flankier">
+          <speaker>FLANKIER.</speaker>
+          <p><stage>(na boku)</stage> Przytrzymaią tam ptaszka.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(czyta dalej)</stage> „Niedopełnienie niniejszego rozkazu, pociągnie za sobą surową odpowiedzialność – pułkownik Ostrorąbalski”. <stage>(na boku)</stage> to źle, i bardzo źle... mogą mnie tam zatrzymać do wieczora... a ja z panną Helenką nic dotychczas niezrobiłem <stage>(głośno)</stage> panie... a jak się pan nazywa?</p>
+        </sp>
+        <sp who="#flankier">
+          <speaker>FLANKIER.</speaker>
+          <p><stage>(żywo)</stage> Nazywam się Flankier Bujko, i mam zaszczyt bydź ordynansem pułkownika.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Do prawdy!... ordynansem pułkownika! mój panie Bujko, czyby nie można nie iść do tych koszar... a przynajmniej nie zaraz... bo ja tu właśnie... z tą panną... mam cóś do załatwienia...</p>
+        </sp>
+        <sp who="#flankier">
+          <speaker>FLANKIER.</speaker>
+          <p><stage>(serio)</stage> Niemamy ani chwili czasu do stracenia – a otrzymałem rozkaz towarzyszenia panu kadetowi – proszę z sobą.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(na stronie)</stage> Czy go tu diabli przynieśli... prawdziwy jakiś bujko... ale może też nie długo tam zabawię – Pułkownik do mnie pisze... odmówić, niewypada jakoś... byłoby nawet nie grzecznie <stage>(do Flankiera)</stage> idziem natychmiast <stage>(do Heleny)</stage> wiele, bardzo wiele, na tem cierpię... że muszę pannę Helenkę porzucić – ale... cóż robić?... pułkownik do mnie pisze...<lb />
+          <stage>(ŚPIEW 5)</stage><lb />
+          Muszę z tąd iść...<lb />
+          ach muszę iść...<lb />
+          Patrz... pułkownik pisze sam –<lb />
+          Gorzki ten orzech trzeba zgryść,<lb />
+          Ja moją powinność znam.<lb />
+          Żegnam cię więc... Aniołku mój,<lb />
+          Najpierwsza z najpierwszych Dam;<lb />
+          Przekonam cię... gdy będę twój,<lb />
+          Że moją powinność znam.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Najniższa... najuniżeńsza...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(kłaniaiąc się)</stage> Słowo honorowe daię, że nie mogę zostać... Pułkownik do mnie pisze!... <stage>(odchodzi wraz z Flankierem)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="7">
+        <head>SCENA VII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#helena">HELENA.</rs> (później)
+            <rs key="#łukasz">ŁUKASZ.</rs> (i)
+            <rs key="#floransowicz">FLORANSOWICZ.</rs>
+          </p>
+        </stage>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Przecież odszedł – o mam nadzieię że mój ojczym nie będzie tyle okrutnym, ażeby mnie gwałtem chciał połączyć z człowiekiem, któregobym nigdy kochać nie mogła. Zdzisław zupełnie co innego... gdym go pierwszy raz ujrzała, serce moje mocniej bić zaczęło – dał mi tyle dowodów przywiązania... Ale niestety!... ojczym mu wzbronił wstępu do naszego domu... w kościele więc tylko i niekiedy przez to okno, spotykaią się oczy nasze <stage>(po chwili namysłu)</stage> ten rozkaz pułkownika wręczony przez Flankiera... to śpieszne oddalenie się z ogrodu Zdzisława... mieści w sobie coś tajemniczego. Daj Boże!... aby jakim cudownym sposobem, spełniły się moje nadzieje!</p>
+        </sp>
+        <stage>(wchodzi Łukasz)</stage>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p>Czy nie był tu jegomość?</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Niedawno wyszedł.</p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p>Nigdzie go znaleść nie mogę... nie wiem co się to ma znaczyć... nie zwykł nigdy o tej godzinie wychodzić z domu.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(oknem odmieniwszy głos)</stage> Heleniu!... Heleneczku!</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(pomięszana – n. s.)</stage> Ach to Zdzisław... <stage>(głośno)</stage> Trzaby ci Łukaszu poszukać jegomości.</p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p>Niezmiernie jestem zfatygowany... muszę cokolwiek odetchnąć... a potem gdzie ja go szukać będę?</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(daje mu pieniądze)</stage> Poczciwy Łukaszu, przyjm tę drobnostkę odemnie – wszakże i ty kiedyś kochałeś! nieprawdaż Łukaszu?</p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p>Alboż to raz opowiadałem pannie Helenie mój nieszczęśliwy romans... ledwie niezwarjowałem z miłości <stage>(rozczulony)</stage> nigdy nie zapomnę tej czaruiącej białogłowy!... miała oczy blond... włosy niebieskie... usta nieco zgarbione... i nosek różowy! <stage>(spojrzawszy na wzięte od Heleny pieniądze)</stage> ale cóż to wszystko ma znaczyć?...</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Odejdź... zaklinam cię!...</p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p>Nic wcale tego nierozumiem... ale co mnie do tego. <stage>(odchodzi myląc się jak w scenie drugiej)</stage></p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(za sceną)</stage> Psyt... Helenciu!</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(otwieraiąc okno)</stage> Czy ty Zdzisławie?</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(nagle ukazuiąc się w oknie)</stage> Ha!... złapałem cię romansowy słowiku! temi to drzwiczkami wkradał się twój szczygiełek – szczęście, że się wymknął z ogrodu... bobym mu był uczciwie podciął skrzydełka... <stage>(zamyka okno)</stage></p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Nieszczęśliwa! zginęłam na zawsze.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(wchodząc na scenę)</stage> Bravo!... bravissimo!... o mościa panno... za daleko rzeczy są posunięte – w moim domu... i pod moiem okiem, podobne zgorszenia nigdy niemiały miejsca, i nigdy cierpianemi nie będą. Za karę... dziś ieszcze oddasz rękę Piotrusiowi – Officerek przypadł pannie do gustu... nic z tego... chciałaś pójść za wojskowego, Piotruś nim został... a kadet tak jest dobry, jak i pan porucznik... w miłości nie uważa się na stopnie... inna jest wcale manipulacja w miłości...</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Wiem kochany ojcze, ile wspaniałomyślnym jesteś... i ile nadewszystko cenisz otwartość... dla tego więc...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(przerywaiąc jej)</stage> Aha!... dlatego więc owa otwartość, ośmieliła cię do otwierania okna porucznikowi – Nic nie słucham... postanowienie moje jest nieodmiennem.</p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p><stage>(wchodząc)</stage> Pułkownik Ostrorąbalski zajechał przed dom pański.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(zaambarasowany)</stage> Pułkownik Ostrorąbalski!... dowódzca pułku do którego się mój siostrzeniec zaciągnął... trzeba było powiedzieć, że mnie nie ma domu... wiesz przecie raz na zawsze że ja nikogo nieprzyjmuię.</p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p>Nie pytał się o to wcale... a ja zapomniałem, przypomnieć sobie o tem...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Czegóż on żąda?... może ma interes do sklepu?...</p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p>Ordynans mi jego powiedział, że przyszli tu z wizytą...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(n. s.)</stage> Piotruś mi wspominał, że to już człowiek w podeszłym wieku... no, ale zawsze oficer... <stage>(do Heleny)</stage> udaj się Waćpanna do swego gabinetu... tylko bardzo proszę, znów tam jakich drzwiczek szczygiełkowi nieuchylać. <stage>(Helena odchodzi: Floransowicz przechadza się wzdłuż sceny)</stage></p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p><stage>(n. s.)</stage> Biedne to stworzenie z tej panny Heleny... diabelnie to przykro chcieć cóś mieć... a znów jakieś cóś... stoi na przeszkodzie <stage>(otworzywszy drzwi)</stage> otóż i pan pułkownik... <stage>(odchodzi)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="8">
+        <head>SCENA VIII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#floransowicz">FLORANSOWICZ.</rs>
+            <rs key="#zdzisław">ZDZISŁAW.</rs>
+          </p>
+        </stage>
+        <stage type="setting">
+          <p>(Ostatni przebrany jako pułkownik w siwej peruce)</p>
+        </stage>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Witam pana!... wszakże gospodarza tutejszego domu, mam honor oglądać...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(z uniżonością)</stage> Nieinaczej... ja nim jestem... i prawdziwie zaszczyt oglądania pana pułkownika w moim domu, niepospolitej dla mnie jest ceny – mój siostrzeniec zostawszy w dniu dzisiejszym jego podkomendnym, niemógł dosyć wychwalić dobroci i uprzejmości wielmożnego dowódzcy!...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>A więc iuż pan o wszystkiem zawiadomiony jesteś... to dobrze... to bardzo dobrze;... lubię ja protegować młodzież, do mojego zaciągającą się pułku, i dla tego, zamierzyłem osobiście zapewnić waćpana, że o losie jego siostrzeńca, najtroskliwsze mieć będę staranie – w istocie... chłopiec przystojny... dobry z niego może bydź żołnierz...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(jak wyżej)</stage> Wysoki dowód łaski pana pułkownika, zobowiązuje mnie nieskończenie – ale przedewszystkiem... muszę go uprzedzić, że jakkolwiek... nowo-obrany zawód przez mojego siostrzeńca, jest ze wszech miar zaszczytnym i poważania godnym... wszelako... nie zgadza on się bynajmniej z życzeniem mojem: siostrzeniec mój rozrządził się sam sobą, bez wiedzy i woli mojej.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Czy podobna... więc pan o niczem nie wiedziałeś?...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Ani pół słóweczka.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Tym sposobem siostrzeniec pański oszukał nas obudwóch – czytaj waćpan... <stage>(oddaje pismo)</stage></p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(przejrzawszy takowe)</stage> To nie jest mój podpis... o hultaj chłopiec, zfabrykował zezwolenie.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(odbiera na powrót papier)</stage> Ha... stało się – Rodowód Piotra już odesłany wyższej władzy – pominąwszy jednak tę okoliczność... dziwię się prawdziwie, że pan tak wielkim jesteś nieprzyjacielem stanu wojskowego.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>O... nie... bynajmniej... ale... trzeba wiedzieć panu pułkownikowi, że my kupcy we względzie różnych okoliczności... tyczących się interessów i stosunków familijnych... mamy wyłączne rachuby i kombinacje... i z tego to jedynie tytułu, najmocniejsze miałem postanowienie, poprowadzić siostrzeńca mojego drogą handlową.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(n. s.)</stage> Wraz z moją najdroższą Heleną! <stage>(głośno)</stage> szkoda, że się inaczej stało... ale trudno już temu zaradzić, a to tem bardziej, że przed chwilą odebrałem rozkaz, udania się z pułkiem moim nad granicę państwa.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Co słyszę!... więc i siostrzeniec mój...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Pomaszeruje z pułkiem.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(n. s.)</stage> Protekcja dowódzcy pułku jest mi koniecznie potrzebną. <stage>(głośno)</stage> Czyby nie można, wynaleść jakiego sposobu, jakiego wreście kupieckiego forteliku, ażeby siostrzeńca mojego dymissjonować...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(n. s.)</stage> Już to ja mu się podobno dwiema dymissjami przysłużę.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>W przeciwnym razie... wszystkie moje rachuby i kombinacje, w zawiłej poplączą się algiebrze.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Gdyby był nie wykonał przysięgi, możeby się jeszcze znalazł jaki środek.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Jakto... więc i przysięgę wykonał?... no proszę... jak się ten mazgaj uwinął we wszystkiem.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Formalności tej, obowiązany był dopełnić koniecznie.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Gdyby można coś z Generałem...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(serio)</stage> Jak to waćpan rozumiesz?</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(spostrzegłszy się)</stage> Ja to rozumiem... udać się... drogą łaski... uprosić... ubłagać...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(n. s.)</stage> Wyborna myśl <stage>(głośno)</stage> rozważmy okoliczność tę z zastanowieniem – tak... w istocie... możeby... Generał wprawdzie jest moim bliskim kuzynem.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Bliskim kuzynem... a czegóż więcej potrzeba...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Czego więcej potrzeba... oto potrzeba wiedzieć, że generał jest to człowiek najsurowszego charakteru... nie ugięty... jednem słowem, zawołany służbista <stage>(po niejakim namyśle)</stage> jednakże sprobować nie zaszkodzi... <stage>(wskazuiąc na papier, leżący na biórku)</stage> ten arkusz papieru zamieniemy w memoryał... zgadzasz się pan na to?... <stage>(siada i pisze)</stage></p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Z całego serca... z całej duszy.. <stage>(na stronie)</stage> pułkownik dowódzca pułku pisze memoriał... a generał bliski jego kuzyn czytać go będzie... <stage>(zaciera ręce)</stage> bravo!... bravissimo!...</p>
+        </sp>
+      </div>
+      <div type="scene" n="9">
+        <head>SCENA IX.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#floransowicz">FLORANSOWICZ.</rs>
+            <rs key="#zdzisław">ZDZISŁAW.</rs>
+            <rs key="#madam_de_tul">MADAM de TUL.</rs>
+          </p>
+        </stage>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(za sceną)</stage> Panie Floransowiczu!... panie Floransowiczu!...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(n. s.)</stage> Przecież wstała... ale czegóż chce odemnie – jak ja tego wołania niecierpię... a jeszcze kiedy się baba z swoim dyszkantem odezwie.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(n. s.)</stage> Głosek pięknej dozorczyni!... ale coż się? jej tam u licha zrobiło – krzyczy jak na gwałt.</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(wychodzi z gabinetu niepostrzegaiąc Zdzisława)</stage> A już też oczywiście panie Floransowiczu, chcesz zguby twojego dziecięcia; nie wiem co tam między wami zaszło... ale biedna Heleneczka płacze i płacze... obawiaiąc się ażeby palpitacyi serca niedostała, przymuszona byłam obudzić się, ze snu najprzyjemniejszego...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Ale na miłość pana Boga, nie wrzeszcz że Madam tak bardzo... przecież tu nie sami jesteśmy.</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(zażenowana)</stage> Jak to źle... że mnie nie ostrzegłeś panie Floransowiczu...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(do niej)</stage> A czegóżeś mnie Madam nie ostrzegła, że tak wrzeszczyć będziesz... <stage>(do oglądaiącego się Zdzisława)</stage> Madam de Tul... moja daleka krewna.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(kłaniaiąc się)</stage> Czy tak... a... najniższy sługa <stage>(na stronie)</stage> pocieszna facyata!</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(po odkłonieniu się wzajemnem; n. s.)</stage> Przyjemny jakiś człowiek!... <stage>(do Floransowicza)</stage> w czasie dziesięcio-godzinnej słabości mojej, wielkie jak uważam, zaszły w tym domu odmiany – Piotruś podobno został żołnierzem... bardzo mu winszuię... tęgi chłopak... w wojsku potrzebuią takich.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(n. s.)</stage> Otóż ią macie... w sam czas wyjechała baba z swojem powinszowaniem.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(wstaiąc)</stage> Skończyłem – przeczytaj waćpan... spodziewam się, że zamieszczona przezemnie okoliczność, zwróci uwagę generała.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(czyta i podpisuje)</stage> Bravo!... bravissimo!...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(napisawszy na kartce)</stage> Oto jest adres mieszkania generała <stage>(na stronie)</stage> przed godziną wyjechał do Karlsbadu.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Bravo!... bravissimo! – idę więc... lecę... że tak powiem <stage>(poważnie)</stage> przez niebytność moję, zdaię panu pułkownikowi, kommendę nad całą tą fortecą... najdalej za godzinę, parlamentarz wróci... ma się rozumieć ja <stage>(uśmiechaiąc się)</stage> a propos, do opędzenia nudów rekomenduję Madam de Tul... essencjonalne dzieła nigdy nietracą swojej normalnej wartości, czas wprawdzie zeszpeci okładki... ale co wewnątrz było dobrem... zawsze dobrem pozostanie – do zobaczenia. <stage>(odchodzi)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="10">
+        <head>SCENA X.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#zdzisław">ZDZISŁAW.</rs>
+            <rs key="#madam_de_tul">MADAM de TUL.</rs>
+          </p>
+        </stage>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Rekommendować mnie w ten sposób... i sam na sam zostawiać z officerem... jak to nierozsądnie ze strony pana Floransowicza – Co sobie pułkownik pomyśli... a odejść... byłoby niegrzecznie... <stage>(siada przy stoliku i robi pończochę)</stage></p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(poglądaiąc na drzwi gabinetu)</stage> Gdyby się mogła dowiedzieć ze tu jestem. <stage>(głośno)</stage> Madam de Tul wzięła się do pracy.</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>O to wcale biegowi myśli nieprzeszkadza... u mnie ręce nigdy niepróżnuią... zawsze się cóś znajdzie do przebierania...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(ciągle niespokojny, oczekuiąc z niecierpliwością przyjścia Heleny)</stage> Madam de Tul czy dawno postradała męża?...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Wie, że niemam męża... musi go to interesować... zapewne jest jeszcze kawalerem... <stage>(westchnąwszy – głośno)</stage> już piąty rok upływa od pamiętnej epoki zerwanych związków małżeńskich...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(jak wyżej)</stage> Oj ta nielitościwa śmierć... ile to już ofiar padło pod jej zabójczym ciosem.</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Nie wie że jestem rozwódką... <stage>(głośno)</stage> mój mąż padł ofiarą procesu rozwodowego.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Czy tak... ja rozumiałem że umarł nieboraczek... a więc dostał dymissją... <stage>(na stronie)</stage> pewny jestem że na własne żądanie...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>Niestatkował... mnie się też naprzykrzyło.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>O bardzo temu wierzę... bo wreszcie jedno i ciągle jedno... to znudzi w końcu... <stage>(na stronie)</stage> jakże mnie nudzi nieznośnie!...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>W pół roku po naszym rozwodzie, z inną ożenił się niecnota.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>No proszę... potrzebne mu to na starość...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(urażona wstaje)</stage> Na starość!... myśmy się w kwiecie młodości pobrali – żyliśmy z sobą dwa lata i trzy tygodnie... więc niemoże bydź jeszcze tak starym...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>A to co innego... bardzo przepraszam <stage>(n. s.)</stage> słyszał to kto, przed siedmio laty, była jeszcze w kwiecie młodości.</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>Ale mocno mnie cieszy, że iuż i w tym nowym związku wkradły się nieporozumienia... i słyszałam z pewnością, że mój exmałżonek wkrótce powtórnie zostanie abszytowany – proszę tylko posłuchać...<lb />
+          <stage>(ŚPIEW 6)</stage><lb />
+          Dla zdrowia poratowania,<lb />
+          Co rok wyjeżdża do wód;<lb />
+          Żonie z sobą jechać wzbrania,<lb />
+          Bo kochankę wysłał wprzód.<lb />
+          Łzy wylewa przy rozstaniu,<lb />
+          Przysięga stałość w kochaniu!<lb />
+          Powraca od wód bez siły.<lb />
+          Straszny go przejmuie gniew,<lb />
+          Że mu wody zaszkodziły,<lb />
+          Zbytnie oziębiły krew:<lb />
+          Że tak blady... i zmieniony...<lb />
+          Do najdroższej wrócił żony!</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Na honor... szczególniejszy małżonek...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(wzdychaiąc)</stage> O męszczyźni... męszczyźni!...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(n. s.)</stage> A czy mi diabli tę babę na kark wpakowali <stage>(głośno)</stage> nie wszyscy jednak takim postępuią torem... wielu daje wzorowy przykład najszczerszego przywiązania – i tak:<lb />
+          <stage>(ŚPIEW 7)</stage><lb />
+          Niemogąc działać otwarcie,<lb />
+          Pewien rycerz romansowy;<lb />
+          Wśród nocy... staje na warcie,<lb />
+          Pod oknem, swojej królowej.<lb />
+          Bez jej wiedzy zejść się boi...<lb />
+          Mogłaby połajać za to:<lb />
+          Posłuszny – całą noc stoi...<lb />
+          Przed panną piękną!... bogatą!...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>Ani słowa... jest tu w tem cóś romantycznego.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>W samej rzeczy... jest to prawdziwie romantyczny kawałeczek.</p>
+        </sp>
+      </div>
+      <div type="scene" n="11">
+        <head>SCENA XI.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#zdzisław">ZDZISŁAW.</rs>
+            <rs key="#madam_de_tul">MADAM de TUL.</rs>
+            <rs key="#helena">HELENA.</rs> (później)
+            <rs key="#flankier">FLANKIER.</rs>
+          </p>
+        </stage>
+        <stage type="setting">
+          <p>(biegnąc śpiesznie z gabinetu ku drzwiom środkowym)</p>
+        </stage>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>To on!... to Flankier!... z daleka go poznałam. <stage>(zatrzymuie się we drzwiach)</stage></p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(n. s.)</stage> Ach to ona!...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>Flankier!... co to się ma znaczyć?...</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Spostrzega, że nie jest sama – kłaniaiącemu się Zdzisławowi, wzajemny czyni ukłon – jego nieznacznem skinieniem zostaje wyprowadzona z błędu – całuie rękę Madam de Tul)</stage> O kochana Madam de Tul!... jakże jestem szczęśliwą!...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Nic tego nie rozumiem...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(głośno do wchodzącego Flankiera)</stage> W sam czas przybywasz... <stage>(n. s.)</stage> byłżeś u pułkownika?... czy masz jakie pismo?</p>
+        </sp>
+        <sp who="#flankier">
+          <speaker>FLANKIER.</speaker>
+          <p><stage>(po cichu)</stage> Pułkownik śmiał się do rozpuku, gdym mu powiedział, żeś pan porucznik wdział siwą perukę – kazał mi się udać do bióra, gdzie iuż wygotowaną zastałem expedycią – oto jest... <stage>(oddaje)</stage></p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Nie oszacowany dowódzca – gdzieżeś uplacował kadeta?</p>
+        </sp>
+        <sp who="#flankier">
+          <speaker>FLANKIER.</speaker>
+          <p>Zaprowadziłem do starego kaprala z szewronem – kadecisko kręci się diabelnie... ale go tam na krok niepuszczą.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Wybornie – a teraz oddal się... i bądź tu wbliskości na zawołaniu... <stage>(Flankier odchodzi – cała ta rozmowa żywo iść powinna – Zdzisław chowa expedycją i mówi głośno)</stage> W istocie... mocno ubolewam, że dla pana Piotra dymissyi wyrobić nie mogę... <stage>(ciągle się umizga Helenie, a ile razy Madam de Tul zwróci na nich oczy... przybiera postawę poważną)</stage></p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>Jakto?... dziś został żołnierzem, i już chce dymissyi - mój Boże! co to za nie statek...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>O bez wątpienia... bez wątpienia...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>No... panno Heleno! przecież się waćpanna rusz cokolwieczek... pan pułkownik nie jest wprawdzie wymagaiącym... ale nie można znów tak bydź nie śmiałą... i mało mówiącą... <stage>(n. s.)</stage> trzeba ią ośmielić... pułkownik wie, że to mojego chowu panienka...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(z przymileniem do Heleny)</stage> Pani jesteś tak piękną!... i tyle zachwycasz twem anielskiem spojrzeniem! że w istocie... gdybym niebył w tym wieku...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Rozsądny jakiś człowiek <stage>(do Heleny)</stage> widzisz Heleneczko jak jest grzecznym... no... tylko śmiało... nieobawiaj się niczego... spojrzyj tylko... siwiuteńki jak gołąbek <stage>(do siebie)</stage> ale przyjemny jakiś człowiek... <stage>(do Heleny)</stage> z waćpanny przyzwoitego znalezienia się, poweźmie zarazem dokładne o mojem wychowaniu wyobrażenie – <stage>(odchodząc do stolika)</stage> i jam taką była, pókim niedoświadczyła mężczyzn konwersacyi <stage>(wzdycha)</stage> ach! co to za przyjemne wspomnienie!... <stage>(siada przy stoliku i robi pończochę)</stage> <stage>(n. s.)</stage> niech sobie pogadają – jestem w tym względzie, zupełnie spokojną... bo ani on dla niej, ani ona dla niego.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(jak wyżej – po cichu)</stage> Jakże jestem szczęśliwy!...</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(podobnież)</stage> O Zdzisławie! na cóż się narażasz...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Gdyby mi nawet przyszło życie moje poświecić dla ciebie, umierając... rzekłbym: „czyliż tej ofiary nie godną jest piękna Helena”!</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>Czekajmy aż mnie sam zaczepi – spodziewam się, że moią obojętnością tem więcej przyciągnę go do siebie.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Nie wątpię, że mnie kochasz... ale czyliż rozumiesz, że uwodząc tym sposobem mojego ojczyma, zdołasz usunąć zawady, niesprzyjające naszemu połączeniu się.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Środek któregom się chwycił, był koniecznym – dzisiejszego poranku zaszłe wypadki... a mianowicie, zaciągnienie się do naszego pułku, mojego współzalotnika; spowodowało mnie, do przyięcia roli pułkownika. Mój Flankier uwolnił cię od towarzystwa natrętnego kadeta – Ojczym twój chce koniecznie dla niego wyrobić dimissją... już ią mam wygotowaną – lecz przedewszystkiem, o stałości twoiej chcę bydź zapewnionym – wydaj twój wyrok. idzie tu o przyszłość moię!</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Już mi się przykrzyć zaczyna... tak długo czekać nie będę.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Milczysz piękna Heleno?</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Alboż możesz jeszcze wątpić... tak... kocham ciebie!... i twoią bydź na zawsze... najuroczyściej przysięgam!...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(klęka i całuie ią w rękę)</stage> O najdroższa!... szczęście moje jest zupełnem!...</p>
+        </sp>
+      </div>
+      <div type="scene" n="12">
+        <head>SCENA XII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#zdzisław">ZDZISŁAW.</rs>
+            <rs key="#madam_de_tul">MADAM de TUL.</rs>
+            <rs key="#helena">HELENA.</rs>
+            <rs key="#flankier">FLANKIER.</rs> (i)
+            <rs key="#floransowicz">FLORANSOWICZ.</rs>
+          </p>
+        </stage>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(wchodząc nagle)</stage> Co widzę!... pułkownik u nóg mojej pasierbicy... cóż to się ma znaczyć?</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(z zadziwieniem)</stage> Tegom się i ja wcale nie spodziewała...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(podnosząc się; n. s.)</stage> Czy go diabli przynieśli – ale tem lepiej... wcześniej się skończy kanonada.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Przyznasz panie pułkowniku... że podobny krok...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>A i cóż w tem nadzwyczajnego.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(n. s.)</stage> Bo stu katów... gdyby nie to, że jest dowódzcą pułku, w którym mój siostrzeniec pozostaje...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Nim się z postępowania moiego jaśniej wytłómaczę, proszę mi powiedzieć, jaki skutek otrzymała proźba jego?</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(jeszcze w złym humorze)</stage> Z łaski pana pułkownika, niepotrzebnie się fatygowałem... bo pan generał pojechał sobie szczęśliwie do Karlsbadu, nieczekaiąc na moią wizytę...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Ha!... w takiem położeniu rzeczy... ja, będę przymuszony zadecydować o losie młodego Piotra.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(żywo)</stage> Mógłżebyś pan pułkownik, z pożądanym to skutkiem uczynić!</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>W niebytności generała, ja jego zastępuję miejsce...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>A więc, siostrzeniec mój otrzyma dymissję.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Nieinaczej – dziś jeszcze... natychmiast, daje na to słowo – ale, pod jednym warunkiem.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(ciekawie)</stage> A ten jest?</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Ażeby ręka pięknej Heleny, mnie była oddaną.</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Co ja słyszę!... nie moja?...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Pan pułkownik żartuje sobie... pasierbica moja już jest przeznaczoną Piotrusiowi... <stage>(uśmiechając się)</stage> apotem, zastanów no się tylko panie pułkowniku... w tym wieku... i do tego tak jasnym będąc blondynem... a panna tak młoda... jakżeby to dało się pogodzić jedno z drugiem.</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Nie mówię jeszcze zemną... chociażby to i tak dosyć niewłaściwe było małżeństwo; ale ja będąc doświadczoną... prędzejbym się jakoś zastosować umiała.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>O nie jestem ja tak starym... jak się państwu zdaje zbieg różnych... nieprzewidzianych okoliczności... prawie w kwiecie młodości, włos mój szronem obsypał. Zresztą, to zależeć będzie od woli panny. Czy pan zgadzasz się na to?...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(do siebie)</stage> Nie oświadczy się za pułkownikiem, jestem tego pewnym... bo porucznik w jej serduszku dobrze stoi kwaterą... <stage>(głośno)</stage> No... Helenciu!... odpowiedz szczerze i otwarcie, idzie tu bowiem, o los twój przyszły.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Kochany... najdroższy ojcze!... pozwalaiąc mi rozrządzić sercem mojem według upodobania... czynisz mnie najszczęśliwszą! <stage>(spuszczaiąc oczy)</stage> dowiedz się więc... że Zdzisław mnie kocha, i pozyskał moią zupełną wzajemność.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(ukrywaiąc radość)</stage> Jak to!... Zdzisław!...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>Zdzisław!...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(zacieraiąc ręce)</stage> <stage>(n. s.)</stage> Szczęście że ten ptaszek przed chwilą poleciał sobie na urlop – Flankier Bujko zapewnił mnie o tem.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Ten młody porucznik z pułku dowództwa mego.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>On sam, a nie kto inny – ja to od niejakiego czasu uważałem... ale maiąc względem mojej pasierbicy, inne zamiary...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Skoro tak... więc abdykuię z tytułu kochanka na rzecz mojego porucznika, i warunek podany rozciągam do osoby jego.</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> To bardzo szlachetnie z jego strony... gdyby tu częściej chciał bywać, możebyśmy się lepiej porozumieli.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Jakkolwiek serdecznie pokochałem pannę Helenę... gdy jednak porucznik plac boju otrzymał... tę przynajmniej chcę mieć pociechę, abym go mógł zawiadomić i zapewnić o łaskawych względach ojczyma pięknej Heleny – Waćpan dobrodziej dajesz więc słowo... że wyborowi jego pasierbicy, przeciwnym nie będziesz?...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(zaambarasowany)</stage> <stage>(n. s.)</stage> Oto mnie attakuje... <stage>(głośno)</stage> ale... to nie ma nic tak pilnego... ja sądzę... że to na później możemy zostawić.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>My wojskowi nieodkładamy nic na później...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Coraz mnie więcej zobowiązuje... szlachetny jakiś człowiek!</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(do siebie)</stage> Z resztą... tamtego tu niema, ten jutro z pułkiem pomaszeruie...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>A więc?...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(podaiąc rękę)</stage> Verbum kupieckie!... za ważność jego ręczę sumieniem.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(na stronie)</stage> Nie... niepodobna dłużej utrzymywać go w błędzie... kocham Zdzisława... alem zapominać niepowinna o obowiązkach córki... <stage>(całuiąc Floransowicza w rękę)</stage> przebacz kochany ojcze!... przebacz... niemogę dłużej taić przed tobą... każda chwila zwłoki występniejszą mnie czyni... dowiedz się zatem, że ten pułkownik!... mój najdroższy Zdzisław.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(n. s.)</stage> Uprzedza mnie... jakże jest niecierpliwą.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Co!... co!... co!... co!... i pułkownik i Zdzisław... otóż ją macie, ona jak widzę w obódwoch się rozromansowała.</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Niechby już sobie porucznika wzięła.</p>
+        </sp>
+        <stage>(gdy Floransowicz zaczyna śpiewać, Zdzisław zbliża się ku drzwiom środkowym – otwiera je – skinieniem ręki przywołuje Flankiera – zdejmuje z głowy perukę)</stage>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(ŚPIEW 8)</stage><lb />
+          Panna skromna... i cnotliwa,<lb />
+          Chce się kochać dubeltowo;<lb />
+          I jeszcze się z tem odzywa,<lb />
+          To za bardzo romansowo!<lb />
+          Tamten zrobił jej nadzieje...<lb />
+          Ten ledwie rzekł do niej słowo:<lb />
+          I już za niemi szaleje,<lb />
+          To za bardzo romansowo!</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(głośno do Flankiera oddaiąc mu expedycją)</stage> To uwolnienie od służby wojskowej, wręczysz panu Piotrowi – rozumiesz mnie?</p>
+        </sp>
+        <sp who="#flankier">
+          <speaker>FLANKIER.</speaker>
+          <p>Dobrze panie poruczniku. <stage>(odchodzi)</stage></p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(z zadziwieniem)</stage> Co widzę!... porucznik!...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(toż samo)</stage> Porucznik...</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Tak jest... porucznik Zdzisław – odegrałem rolę pułkownika, dla tego jedynie, ażeby waćpanu powrócić siostrzeńca, i w nadgrodę tego czynu; zasłużyć sobie na jego łaskawe względy.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(do siebie)</stage> O hul... jakże mnie podszedł. <stage>(przechadza się szybko wzdłuż sceny)</stage></p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>Żeby tu kto na nas patrzył... toby myślał że komedją gramy...</p>
+        </sp>
+        <stage>(Zdzisław i Helena klękaią przy Floransowiczu)</stage>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Przebacz... kochany ojcze... przebacz.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Wyrok już zatwierdzony... waćpan dobrodziej mógłbyś wprawdzie założyć rekurs, ale na cóżby się zdała jego wygrana... pogrążaiąca w rozpaczy, dwie nieszczęśliwe ofiary!... bądź sędzią w własnej sprawie...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(do siebie)</stage> Nadto byłbym niesprawiedliwym... gdybym sam siebie... starego, że tak powiem, głupca, nie ukarał <stage>(podaiąc rękę Heleny Zdzisławowi)</stage> oto jest pozew... wręczam ci go Zdzisławie, z warunkiem, ażebyś na przyszłość, mnie woźnego, za nos nie wodził.</p>
+        </sp>
+        <stage>(Zdzisław i Helena powstaią)</stage>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>O!... ileż jesteś wspaniałomyślnym? <stage>(całuie rękę Heleny a następnie Madam de Tul)</stage></p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Wcale przyjemny człowiek... przyiemniejszy nierównie, aniżeli był w peruce...</p>
+        </sp>
+      </div>
+      <div type="scene" n="13">
+        <head>SCENA XIII OSTATNIA.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#zdzisław">ZDZISŁAW.</rs> 
+            <rs key="#madam_de_tul">MADAM de TUL.</rs>
+            <rs key="#helena">HELENA.</rs>
+            <rs key="#floransowicz">FLORANSOWICZ.</rs>
+            <rs key="#piotruś">PIOTRUŚ.</rs>
+            <rs key="#flankier">FLANKIER.</rs> (i)
+            <rs key="#łukasz">ŁUKASZ.</rs>
+          </p>
+        </stage>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(za sceną)</stage> Bój się Boga panie Bujko!</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Ale i otóż mój siostrzeniec.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(we drzwiach)</stage> Lecisz tak prędko... że nadążyć niemogę, <stage>(wchodzi wraz z Flankierem przebrany po cywilnemu – za niemi Łukasz)</stage> – Otóż jestem... oto moja dymissja – niech diabli porwą, co się to ze mnie w przeciągu jednego dnia zrobiło – byłem i jestem na przemiany, to ex-cywilno-wojskowym... to ex-wojskowo-cywilnym...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p><stage>(przeglądaiąc dymissję)</stage> Ani słowa... Ostrorąbalski, i pieczęć pułkowa...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(śmieje się)</stage> Jak uważam, stryjaszek wierszami gada.</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(śmieiąc się)</stage>
+            <stage>(n. s.)</stage> Biedak... nie wie jeszcze, co się tu święci.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(przedrzyźniaiąc)</stage> Z czego się Madam Tulowa śmieje...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Hultaj chłopiec, nigdy mi tego de niedoda <stage>(głośno)</stage> niemiałam więc tego ukontentowania, widzieć pana Piotrusia w mundurze.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Niech go tam djabli porwą mój mundur tak był ciasny, że mnie ledwie z niego wyciągnęli.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>No... powiedz mi chłopcze... gdzieżeś był? cóżeś robił?</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>O to dziwne pytanie... żołnierz gdzie był i co robił – samo się przez się rozumie, żem był najprzód na musztrze... a potem wpakowano mnie do kozy...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Do kozy... a to za co?...</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Bo się tak podobało panu wachmistrzowi.</p>
+        </sp>
+        <sp who="#flankier">
+          <speaker>FLANKIER.</speaker>
+          <p>Ale to niebył areszt... to była kwatera kaprala.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(ŚPIEW 9)</stage><lb />
+          Oddano mnię do kaprala.<lb />
+          Straszny to z wąsami chłop...<lb />
+          Śpiewał ciągle: tra... la... la... la<lb />
+          Co mnie kazał krzyczeć – hop!<lb />
+          Koleżki wtórzyli zdala,<lb />
+          Każdy z nich, wąsaty chłop;<lb />
+          Zrobiło się: hop... tra... la... la...<lb />
+          A jam ciągle krzyczał – hop!</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p><stage>(n. s.)</stage> Ten chłopiec nigdy dojrzałym nie będzie.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(spostrzega Zdzisława)</stage> Ale cóż to ja widzę... officer ściska pannę Helenkę, a stryjaszek oboiętnie na to patrzy...</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>Wolno kochankowi a conto nastąpić maiącego ślubu... czynić co mu się podoba.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(serio)</stage> Moi państwo!... przecież ja tu nie jestem kaflem od pieca... powiedzcież mi co się to ma wszystko znaczyć?...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Za twoją dymissją, musiałem porucznikowi ofiarować rękę Heleny.</p>
+        </sp>
+        <sp who="#łukasz">
+          <speaker>ŁUKASZ.</speaker>
+          <p><stage>(do siebie)</stage> Muszę bardzo bydź teraz roztargniony... bo jestem kompletnie głupi.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(na wpół z płaczem)</stage> Otóż to są skutki zaślepienia... miłość mnie na dudka wystrychnęła – nikt inny, tylko panna Helenka, z tą przeklętą chęcią pójścia za wojskowego... narobiła mi tyle złego – myślałem sobie... że woli może starą zostać panną... jak nie wojskową żoną.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p><stage>(biorąc go pod rękę)</stage> Posłuchaj mnie – przed chwilą byłeś wojskowym i zarazem kawalerem, teraz zostałeś cywilnym, ale zawsze jesteś kawalerem; bo nie masz żony i służyłeś w kawalerii – jednem więc słowem... iesteś dymissjonowany kawaler! nieprawdaż? mój przyjacielu!... mój ex-kolego?</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(uderzając się dłoniami po udach)</stage>
+            <stage>(do siebie)</stage> Ex-kolego!... przyjacielu!... ten wąsaty kapral, ani w setney części nie był tak grzecznym... <stage>(głośno)</stage> E... niech tam diabli porwą romans... a prócz tego... panna Helenka niezna się na ludziach - azatem... jestem sobie dymissjonowany kawaler...</p>
+        </sp>
+        <sp who="#zdzisław #łukasz #floransowicz #madam_de_tul">
+          <speaker>ZDZISŁAW. ŁUKASZ. FLORANSOWICZ. MADAM de TUL.</speaker>
+          <p><stage>(powtarzaią, śmieiąc się)</stage> Dymissjonowany kawaler!!!</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p><stage>(przedrzyźniaiąc)</stage> Otóż ich macie... śmieią się, jak gdyby było z czego...</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Tak więc mój Piotrusiu, po dwakroć jesteś dymissyonowany, i z wojska – i z romansu.</p>
+        </sp>
+        <sp who="#piotruś">
+          <speaker>PIOTRUŚ.</speaker>
+          <p>Dwie dymissje razem, to zawiele na jednego... ale ja pierwszą tylko akceptuię... bo co do drugiej... to przecież niejedna panna jest na świecie – a zatem ja, nie dymissję... lecz urlop wziąłem nieograniczony. <stage>(do Publiczności, trzymaiąc dymissją w ręku)</stage>
+          <stage>(ŚPIEW 10)</stage> Ta dymissja mnie nie smuci...<lb />
+          Bom w waszej służbie pozostał;<lb />
+          Ten, smutny ze sceny wróci,<lb />
+          Kto dymissją waszą dostał.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Ponieważ w obecnej sprawie,<lb />
+          Przebaczenie mam ojczyma;<lb />
+          Więc i publiczność łaskawie,<lb />
+          Z moją się dymissją wstrzyma.</p>
+        </sp>
+        <sp who="#zdzisław">
+          <speaker>ZDZISŁAW.</speaker>
+          <p>Wygrałem sprawę podejściem,<lb />
+          Wątpię otrzymać oklaski,<lb />
+          Więc przed dymissji nadejściem,<lb />
+          Śpieszę do was drogą łaski!</p>
+        </sp>
+        <sp who="#madam_de_tul">
+          <speaker>MADAM de TUL.</speaker>
+          <p>Idąc zawsze cnoty torem,<lb />
+          Wszak dosyć byłam ostrożna:<lb />
+          Więc mi pod żadnym pozorem,<lb />
+          Dymissyi dawać nie można.</p>
+        </sp>
+        <sp who="#floransowicz">
+          <speaker>FLORANSOWICZ.</speaker>
+          <p>Patrzcie... towarzystwo całe...<lb />
+          Pokorną przybrało postać;<lb />
+          By za prace nie dojrzałe...<lb />
+          Waszej dymissji nie dostać.</p>
+        </sp>
+        <sp who="#piotruś #helena #zdzisław #madam_de_tul #floransowicz">
+          <speaker>PIOTRUŚ. HELENA. ZDZISŁAW. MADAM de TUL. FLORANSOWICZ.</speaker>
+          <p><stage>(Wszyscy)</stage> By za prace nie dojrzałe...<lb />
+          Waszej dymissyi nie dostać.</p>
+        </sp>
+        <stage>(zasłona spada – Łukasz podczas kupletów, tak daleko przez roztargnienie, postąpił na przód sceny, że po zapadnięciu zasłony, pozostaje z zewnętrznej strony tejże)</stage>
+        <trailer>(KONIEC)</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1401 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000023" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Podejrzliwi</title>
+        <title type="sub">Komedia we trzech aktach</title>
+        <author>
+          <idno type="isni">0000000082585647</idno>
+          <idno type="wikidata">Q609575</idno>
+          <persName>
+            <forename>Franciszek</forename>
+            <surname>Bohomolec</surname>
+          </persName>
+        </author>
+        <!-- Franciszek Bohomolec (1720-1784) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/podeyrzliwi-komedya-we-trzech-aktach,MjE0MTIzMTg/2/</idno>
+          <title>Bohomolec, F., Podeyrzliwi: komedya  we trzech aktach, Warszawa 1781</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="agatka" sex="FEMALE">
+            <persName>Agatka</persName>
+          </person>
+          <person xml:id="biedak" sex="MALE">
+            <persName>Biedak</persName>
+          </person>
+          <person xml:id="bogacki" sex="MALE">
+            <persName>Bogacki</persName>
+          </person>
+          <person xml:id="gaszkiewicz" sex="MALE">
+            <persName>Gaszkiewicz</persName>
+          </person>
+          <person xml:id="krewny" sex="MALE">
+            <persName>Krewny Prostakiewicza Żony</persName>
+          </person>
+          <person xml:id="prostakiewicz" sex="MALE">
+            <persName>Prostakiewicz</persName>
+          </person>
+          <person xml:id="rozalia" sex="FEMALE">
+            <persName>Rozalia</persName>
+          </person>
+          <person xml:id="staruszkiewicz" sex="MALE">
+            <persName>Staruszkiewicz</persName>
+          </person>
+          <person xml:id="żona" sex="FEMALE">
+            <persName>Żona Prostakiewicza</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-27">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1781">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">PODEYRZLIWI</titlePart>
+            <titlePart type="sub">KOMEDYA<lb />
+            WE TRZECH AKTACH</titlePart>
+          </docTitle>
+          <docImprint>
+            <p>
+              w <pubPlace>Warszawie</pubPlace>
+              <bibl>
+                <publisher>w Drukarni Nadworney<lb />
+                J. K. Mci</publisher>
+              </bibl> <date>Roku 1781</date>.
+            </p>
+          </docImprint>
+        </titlePage>
+        <castList>
+          <head>OSOBY</head>
+          <castItem>
+            <role corresp="#staruszkiewicz">STARUSZKIEWICZ</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#rozalia">ROZALIA</role>
+            <roleDesc>Córka Staruszkiewicza</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#gaszkiewicz">GASZKIEWICZ</role>
+            <roleDesc>Kawaler Rozalii.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#biedak">BIEDAK</role>
+            <roleDesc>Lokay Gaszkiewicza.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#prostakiewicz">PROSTAKIEWICZ</role>
+            <roleDesc>Mieszczanin.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#żona">ŻONA</role>
+            <roleDesc>Prostakiewicza.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#bogacki">BOGACKI</role>
+            <roleDesc>Ociec Anzelma.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#agatka">AGATKA</role>
+            <roleDesc>Służąca Rozalii.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#krewny">KREWNY</role>
+            <roleDesc>Prostakiewicza Żony.</roleDesc>
+          </castItem>
+        </castList>
+      </div>
+      <set>
+        <p>(SCENA w Wilnie)</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT I.</head>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#staruszkiewicz">STARUSZKIEWICZ.</rs>
+              <rs key="#rozalia">ROZALIA.</rs>
+              <rs key="#agatka">AGATKA.</rs>
+            </p>
+          </stage>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p><stage>(Płacząca wchodzi, a Ociec za nią. Mówi)</stage> Ah, nigdy się tego niespodzieway móy Oycze, żeby me serce na to zezwolić miało.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Co tam pod nosem burczysz, niewdzięcznico? Chcesz się temu sprzeciwić, com postanowił? Nie będzie z tego nic. Rozumiesz, że nie potrafię nad tobą użyć mey władzy? Chcesz, żebym ia moy rozum Oycowski stosował do twego młodego mózgu? Kto z nas dwoyga ma większe prawo do tego, ty? czyli ia? Albo to twoia głowa, ma tyle, co ia, rozumu do poznania, co iest pożytecznieyszego? Strzeż się pobudzać mię do gniewu, ieśli nie chcesz doznać, iak silną ieszcze mam rękę. Twoia rzecz, przyiąć bez tych grymasów małżonka, któregom ci wyznaczył. Ale mówisz: <stage>(mówi tonem kobiety)</stage> Ja go ieszcze dobrze nie znam, i kiego on iest humoru, trzeba mi wprzód uważyć, czy się zgadza z moim. <stage>(znowu swym tonem mówi)</stage> Wiedząc, iak znaczna na niego spada substancya, niepowinnaś o resztę badać się. Anzelm, dziedzic kilku tysięcy dukatów, ma dość wdzięków, aby był kochanym. Nie gadayże mi więcey otym. Kto ma tak znaczną summę, możesz być pewna, że iest, y ładny, y grzeczny, y uczciwy.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Niestety!</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Cóż to do stu katów, ma znaczyć ten niestety! Porzuć ty, porzuć, mówię, te niestety: bo ieśli mię do większego ieszcze gniewu pobudzisz, zaśpiewasz mi inaczey niestety. Otoż, otoż pożytek z czytania tych bezbożnych Romansów. Te ci głowę zawróciły, te miłością nie rozumną twe serce zaprzątnęły. Lepieybyś uczyniła, żebyś czytała: Popieiec bez popiołu, albo Strzałę pobożną do postrzału serc ludzkich na światło publiczne wypuszczoną. Y to piękna Książka: młotek serca ludzkie dryluiący. Albo y taka: Trąba Ogromna z fletami do płaczu pobudzaiącemi, cztery okropne tony wydaiąc. Znaydziesz te, Książki w spiżarni naszey. Te czytay, te, a upewniam, że nauczysz się, iak masz żyć na świecie, y iak powinnaś iść za wolą Oycowską.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Czysz możesz móy Oycze tego na mnie wymagać, abym zapomniała na stateczne ku mnie serca przywiązanie Gaszkiewicza? Byłabym winna, gdybym go sama bez twoiey woli sobie obrała; wszakżeś sam mnie na to namówił, abym mu dała me słowo.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Żebyś mu i tysiąc słow dała, to wszystko nic nie warto, skoro się drugi dla ciebie nadarzył, człowiek cale maiętny. Gaszkiewicz iest grzeczny, to prawda, niema co mowić przeciwko temu: ale wiedz o tym, że grzeczność przed bogactwem ustąpić powinna; że złoto y nayszpetnieyszym dodaie wdziękow osobliwszych, y że bez niego wszystkie ozdoby są nudne. Wiem ia, o tym, że ci się Anzelm niepodoba, ale choć nie iest twoim kochankiem, będzie iednak twym mężem. Nie uwierzysz, iak wiele może nad sercem imie małżonka; y miłość, która się po ślubie rodzi, mocnieysza bywa. Ale na coż się zatrudniam temi namowami, który mam prawo samowładne rozkazać? Dayże więc pokoy, proszę cię, day pokoy twoim narzekaniom; cierpieć iuź dłużey nie mogę tego dziwactwa. Ten przyszły twóy małżonek ma tu przyść dziś wieczorem. Patrzże, żebyśmi go przyięła iak naymiley: bo ieśli nie... Więcey nie chcę nie mówić.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#rozalia">ROZALIA.</rs>
+              <rs key="#agatka">AGATKA.</rs>
+            </p>
+          </stage>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Co się też to W mć Pannie dzieie? Niechceieć tego, czego drugie serdecznie pragną? Któż to kiedy słyszał, płakać dlatego, że iey męża ofiaruią? Oh gdyby mnie tak miły prezent ofiarowano, przyiełabym go sercem otwartym. Kobieta bez męża, iest ni to, ni owo. Dobrze mi raz mówił Pan Dyrektor brata WM Panny, kiedyśmy się raz z sobą rozgadali o tych rzeczach doczesnych, że Kobieta, iest to iak bluszcz, ktory póty dobrze, y pięknie rośnie, póki się trzyma drzewa, a iak się od niego oderwie, żadnego nie przynosi pożytku. Ah moia Mcia Panno, ia mizerna grzesznica na sobie tego doznaię. Niech odpoczywa w pokoiu móy biedny Marcin. Póki on żył ze mną na tym świecie, wyglądałam iak łąteczka: twarz rumiana, oko wesołe, serce spokoyne: a teraz, gdy iestem Wdową, ięczę ustawicznie, iak Synogarliczka, gdy pozbędzie się pary. Oy Mcia Panno nie znasz, co to za szczęście mieć męża! Choćby innego z niego nie było pożytku, dobrze y to, że kiedy człowiek kichnie, to iest komu powiedzieć; na zdrowie Agatko kochana.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Jakimże ty sumnieniem możesz mi radzić, żebym opuściła kochanego Gaszkiewicza, a poszła za tego koczkodana?</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Ale bo to też to y Pan Gaszkiewicz iest śmieszny: włóczyć się po drogach w ten czas, kiedy go tu naybardziey potrzeba. Kto wie, czy on z nas nie żartuie! Ta długa iego niebytność, czy nie pochodzi czasem z odmiany iego serca?</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Ah nie rokuyże mi tego nieszczęścia! Dość iestem y tak zmartwiona. Nie, nie podobna, żeby on miał odmienić swe serce ku mnie. Dobywa iego portretu. Spoyrzy na tę twarz kochaną: sama poczciwość z niey wygląda. Te oczy, te miłe oczy potwierdzaią mi iego przysięgę tylekroć uczynioną. Miałbyż on mnie opuścić? Miałbyż do inney serce swe skierować?</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Prawda, że ładny kawaler: masz WM Panna słuszną przyczynę iego kochania.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Z tym wszystkim trzeba będzie... Ah trzymay, trzymay mnie. <stage>(Mdleie: tym czasem portret na ziemię upuszcza)</stage></p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Ah Mcia Panno... o ia nieszczęśliwa... iuż widzę kona... Hey ratuycie, kto w Boga wierzy, ratuycie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#rozalia">ROZALIA.</rs>
+              <rs key="#agatka">AGATKA.</rs>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Co tam takiego? Czego chcesz?</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Oto moia Pani umiera.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Czy tylko to? Jam rozumiał, że iakie straszne nieszczęście... tak hałasować? Ale obaczmy. Mcia Panno... Mcia Panno... czyś iuż umarła WM Panna? Day go katu, nic nie odpowiada! to nie dobrze.</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Ja pobiegnę po wódkę Węgierską, a WM Pan tym czasem, kiedy możesz, tu ią zanieś.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#rozalia">ROZALIA.</rs>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs> (y iego Żona)
+              <rs key="#żona">ŻONA PROSTAKIEWICZA.</rs>
+            </p>
+          </stage>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Trzymaiąc ręke na piersiach Rozalii)</stage> Już ostygła ze wszystkim. Niewiem co tu czynić. Zbliżmy się do iey ust, obaczmy, czy ieszcze oddycha. Prawdziwie nie wiem, co na to mówić: ale podobno, ieszcze widzę iakiś znak życia.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p><stage>(Patrząc przez okno)</stage> Ah coż to ia widzę? Móy Mąż z iakąś Panienką. Ale zeydę na dół. Wiarołomca! zdybię go niespodzianie.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Trzeba ią iak nayprędzey ratować. Szkoda byłaby, gdyby miała w tym wieku umrzeć. Co iey potym głupstwie iść na tamten świat, kiedy może być dobrze dla niey y na tym; zanieśmy ią do tego domu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#żona">ŻONA PROSTAKIEWICZA.</rs>
+            </p>
+          </stage>
+          <sp who="#żona">
+            <speaker>ŻONA PROSTAKIEWICZA.</speaker>
+            <p>Już umknął zdrayca. Zapewne się przedemną kryie: ale niczego: temi oczami sama widziałam dowody iego dla mnie niewierności. Nie darmo to bezbożnik, tak zimno ze mną postępuie. Inna iego serce do siebie pociągnęła. Otoż nadgroda za moię stateczną miłość ku niemu. Tak to pospolicie nasi mężowie z żonami swemi obchodzą się. Co im wolno, to ich nudzi. W początkach wszyscy nie oszacowani. Jak żywe oświadczenia, iak ochocze usługi, iak miłe karessy, a potym, y patrzeć na nas nie raczą. Oh żeby tak wolno bylo odmieniać mężow, iak suknie! Znalazło by się nie mało żon takowych, któreby na to chętnie zezwoliły. Lecz cóż ia widzę? <stage>(Podnosi portret od Rozalii upuszczony)</stage> Cóż to za puszeczka? Ale iak ładnie zrobiona! Muszą tu być iakieś kleynoty.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs> (Żona Jego)
+              <rs key="#żona">ŻONA PROSTAKIEWICZA.</rs>
+            </p>
+          </stage>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Rozumieliśmy, że iuż była umarła, a to tylko mdłość, widzę, ią opanowała. Cóż tu moia żona porabia?</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p><stage>(Nie widząc męża: otwiera puszeczkę)</stage> Ah... to widzę portrecik... Ale iak ładnego Chłopca!</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Z tyłu zaglądaiąc)</stage> Co to tam ona ogląda? Portrecik iakiś... Ah ten portrecik nie znaczy nic dobrego dla mnie. Pewnie to iey kochanek.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p><stage>(Niewidząc męża)</stage> W życiu moim, tak pięknego chłopca nie widziałam. Ale y zapach czuć iakiś miły. <stage>(Do nosa przytyka)</stage></p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>O bezbożna! wszak to całuie! Dobrze, żem ią zdybał.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p><stage>(Niewidząc męża)</stage> Trzeba wyznać, że iest rzecz prawie nie podobna, widzieć tak ładnego, a nie kochać. O iakbym była szczęśliwa, gdybym takiego męża miała, zamiast tego niezgrabnego Grądala...</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Wyrywa iey portret)</stage> A niegodziwa kobieto, mam cię w ręku. Tak to pięknie szanuiesz twego kochanego małżonka? Więc ia nie godzien iestem twoiego kochania, nie oszacowana żonulo? Y gdzież to, do wszystkich katów lepszego znaydziesz męża dla siebie? Patrz, co we mnie możesz zganić? Ta kibić, ktorey się wszyscy dziwuią, ta twarz, do którey tyle kobietek wzdycha, ten wąsik anglizowany, te oczy... słowem, co we mnie znaydziesz takiego, w czym by mię twóy kochanek miał przesadzić?</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Znam się dobrze na twoich wybiegach. Chcesz tym sposobem pokryć twoię nie wierność?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Nie potrafisz mi oczu zamydlić. Mam w ręku dowód twoiey bezbożności.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Ey dayże mi pokoy; iuż y tak cała gniewem pałam: nie dodaway drewek do ognia. Ty myślisz pewnie, że ci ustąpię tey puszeczki?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Ja myślę tobie kości kiiem połamać. Oh gdybym mógł dostać w moie ręce tego Gacha, którego mam portret w garści!</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>A to dla czego?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Dla nieczego moia kochaneczko, dla niczego. Powinienem ci podziękować, za ten piękny podarunek, ktoryś do czoła moiego raczyła przypiąć. <stage>(Patrząc na portret)</stage> Co za ładny chłopczyna! pieścidełko. O niegodziwa kobieto! Ten to, ten twoie serce zbałamucił, ten w nim wzniecił bezbożne zapały, które...</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Które? Mów daley, dokończ coś zaczął mowić. No, cóż, które?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Które, mowię ci, które... serce mi się ze złości kraie.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Radabym wiedziała, co przez to rozumie ten cechowy piiak?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Nie rozumie Jeymć Dobrodzika, nie rozumie tego, co ia mowię. Otóż ci iaśnie powiadam hultayko, że ia do tych czas byłem uczciwym człowiekiem: wszędzie miałem względy dla siebie, a teraz będę pośmiewiskiem u wszystkich.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Z przyczyny?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Z przyczyny, żeś WM Pani Dobrodzika na moim czole rogi osadziła.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Y śmiesz mi w oczy takie rzeczy powiadać?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Y śmiesz mi taką zniewagę czynić!</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Jaką zniewagę? Ja ci zniewagę czynię? ia? wytłumacz się mi iaśniey, co mi chcesz zadawać?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Ee nic, to bagatelka, że zemnie człowieka poczciwego, zrobiłaś bydle rogate. Wszak nie mam o co się gniewać: nieprawda?</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Uczyniwszy mi krzywdę tak srogą, nad którą sroższey żadna poczciwa żona mieć nie może, chcesz pokryć twą winę tym gniewem zmyślonym, y sprawiedliwey mey pomsty uniknąć? Czyż można tak okrutny postępek znieść cierpliwie? Popełnić nieprawość, y tę nieprawość zadawać temu, przeciwko komu iest popełniona, iest dowodem nayzłośliwszego serca.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Patrzcie, co za obrót kobiety, chcę mię w tym obwiniać, w czym sama wykroczyła. Pewniem ci nie dotrzymał wierności małżeńskiey?</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Rozumiesz bezbożniku, żem tego nie widziała, kiedyś tu w tym mieyscu karessował iakąś Panienkę. Ale co ia z tym piiakiem chcę gadać. Odday mi moy portret. <stage>(Wyrywa mu z rąk portret, y ucieka)</stage></p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Rozumiesz, że ucieczesz z tym portretem? Y z gardła go tobie wyrwę. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT II.</head>
+        <div type="scene" n="7">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+              <rs key="#biedak">BIEDAK.</rs>
+            </p>
+          </stage>
+          <sp who="#biedak">
+            <speaker>BIEDAK.</speaker>
+            <p>Przecie kiedyż tedyż, skończyliśmy tę podróż nieszczęśliwą. Ale Mos Panie, ia chciałbym spytać WM Pana o pewną rzecz, ieśli Pan pozwoli.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Mow śmiało, słucham.</p>
+          </sp>
+          <sp who="#biedak">
+            <speaker>BIEDAK.</speaker>
+            <p>Z przeproszeniem WM Pana... wszak to nic nie szkodzi honorowi... mnie się zda, że WM Pan musisz być czarownik.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>A to czemu?</p>
+          </sp>
+          <sp who="#biedak">
+            <speaker>BIEDAK.</speaker>
+            <p>Ja słyszałem, że czarownik dobry, y sto mil uleci, a nic się nie zmorduie. Caluteńki tydzień, dzień, y noc, takeśmy tu lecieli, że nie potrafionoby nas y chartami dogonić. Ledwie na nogach stać mogę: mnie się zda, że mi się wszystkie członki z swoich mieysc ruszyły. A naybardziey mię siodło skaleczyło. WM Pan iednak, tak czerstwy, tak zdrowy, że nie chcesz tu y momentu spocząć. Przynaymnieyby zieść cokolwiek teraz należało.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Nie powinieneś się dziwować, żem tak spieszno tu leciał. Wiesz że z duszy kocham Rozalią, a Ociec ią za kogoś innego chce wydać. Muszę się o tym dowiedzieć, iak nayprędzey, y zabiedz temu.</p>
+          </sp>
+          <sp who="#biedak">
+            <speaker>BIEDAK.</speaker>
+            <p>Masz WM Pan przyczynę: ale mi się zda, że dobry obiad pomógłby wiele Wasz Mci Panu do docieczenia tey prawdy; y serce WM. Pana byłoby silnieysze do znoszenia przeciwności, ieśliby się iaka nadarzyła. Ja po sobie miarkuię; naymnieysze umartwienie napełnia goryczą móy umysł, kiedy iestem głodny: a kiedy się dobrze posilę, to y naywiększe nieszczęście nie potrafi mię pokonać. Wierz mi WM Pan. Nayniepomyślnieysze przypadki, mało co nas trapią, kiedy żołądek iest dobrze napakowany. A ieśli chcesz WM Pan, żeby żadne umartwienie nie wdarło się do serca, uzbróy one tuzinem kieliszków wina Szampańskiego.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Nie mam cale appetytu do iedzenia.</p>
+          </sp>
+          <sp who="#biedak">
+            <speaker>BIEDAK.</speaker>
+            <p>Ale ia mam opętany. Wszakże obiad dla WM. Pana iuż iest gotowy.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Dayże mi pokoy, nie gaday mi więcey o tym.</p>
+          </sp>
+          <sp who="#biedak">
+            <speaker>BIEDAK.</speaker>
+            <p>Piękny komplement!</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Już mówię, że nie mam appetytu: nie spokoyność mię trapi.</p>
+          </sp>
+          <sp who="#biedak">
+            <speaker>BIEDAK.</speaker>
+            <p>A mnie y nie spokoyność, y appetyt dokucza. <stage>(Mówi na stronie)</stage> Dla iego głupiey miłości, mam z głodu umierać!</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Co za obżarty człowiek!</p>
+          </sp>
+          <sp who="#biedak">
+            <speaker>BIEDAK.</speaker>
+            <p>Obżarty? a iuż ci to będzie więcey iak 20. godzin, iakem nic w gębie nie miał. Lecieliśmy iak opętani na koniach, y nigdzieśmy przez ten czas nie popasali.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Idzże sobie do stu katów, ziedz tam móy obiad.</p>
+          </sp>
+          <sp who="#biedak">
+            <speaker>BIEDAK.</speaker>
+            <p>Pański rozkaz, iako dobry sługa, idę iad nayprędzey wykonywać.</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p><stage>(Sam)</stage> Nie: to być nie może. Próżno, próżno przypuszczam do serca tę troskliwość. Ocieć mi przyrzekł; a córka dała mi oczywiste dowody swoiey ku mnie miłości. Nie ma cale przyczyny lękać się tey odmiany.</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Niewidząc Gaszkiewicza)</stage> Chciała mi wydrzeć niezbożna, ale nie potrafiła. Ten portret będzie mi potrzebny do przekonania iey niewierności. Przypatrzmy się mu na osobności, co to za ieden, co mey żony serce zbałamucił. Nie: nie znam tey twarzy.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Co ia widzę? Podobno móy portret. Który dałem Rozalii. Ah cóż się to znaczy?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Biedny Prostakiewiczu! Ktoby się spodziewał, żebyś miał doczekać tey hańby! Do tego więc... <stage>(Postrzegłszy, że Gaszkiewicz z tylu zagląda przechodzi na inną stronę, nie spoyrzawszy na twarz iego)</stage></p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p><stage>(Na stronie)</stage> Poiąć nie mogę, iakim sposobem ten móy upominek dostał się iemu. Ah biedne serce moie... co za troskliwość!</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Ten postępek mey żony, nie może się utaić. Coż teraz ludzie o mnie powiedzą? Moi sąsiedzi będą mię palcem wytykali. O bezwstydna kobieto! czegom się biedny doczekał?</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Ale może się ia mylę.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Żebyż to człowiek był stary, albo chorowity, tobym się temu ieszcze nie dziwował: ale to w kwiecie wieku moiego, y przy tey czerstwości, dzwigać rogi na czele...</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p><stage>(Poglądaiąc na portret z tyłu)</stage> Nie mylę się, móy portret, móy własny portret.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Tyłem się obraca)</stage> Ale to iakiś ciekawy człowiek!</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Prawdziwie, poiąć tego nie mogę.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Na stronie)</stage> Czego ten chce odemnie?</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Przystąpmy do niego. <stage>(Głośno mówi)</stage> Mos Panie... Mos Panie...</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Umyka)</stage></p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p><stage>(Za nim idąc)</stage> Mos Panie, proszę... iedne tylko słówko.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Umykaiąc przed nim)</stage> Co on mi chce powiedzieć: iakiś natrętnik!</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Ale proszę... uczyń mi WM Pan tę łaskę: racz mię uwiadomić iakim przypadkiem dostał się do rąk WM Pana ten portrecik?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Ale zkąd mu ta ciekawość? <stage>(Spoyrzawszy na twarz Gaszkiewicza)</stage> Co ia widzę? Ah teraz rozumiem, rozumiem! iuż mię nie zadziwia iego ciekawość. Owoż to ten móy Gaszek! ba nie móy, ale żony moiey.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Chciey WM Pan uspokoić moię troskliwość, zkąd WM Pan masz ten portrecik?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Znam teraz dobrze, zkąd ta troskliwość WM Pana pochodzi. Ten portrecik, iak miarkuię z podobieństwa, iest portrecik WM Pana. Był on w ręku pewney osoby, znaiomey dobrze WM Panu. Już teraz nie są taiemnicą te słodkie związki przyiazni, które łączą serce WM Pana, z sercem tamtey osoby. Co ia, to nie wiem ieszcze, ieśli mam honor być znaiomy Jaśnie Wielmożnemu WM Panu Dobrodzieiowi. Wszakże śmiem upraszać iak naypokorniey łaski Pańskiey, abyś raczył dać pokoy dalszym umizgom do tey Osoby, która zemną węzłem małżeństwa iest złączona.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Jak to? ta osoba od którey WM Pan masz móy portret, ma być złączona małżeństwem z WM Panem?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Nie inaczey; iest to moia żona, a ia sługa WM Pana pokorny, mam honor być iey mężem.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>WM Pan iey mężem?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Tak iest, mężem, mężem, y iak może być, doskonałym zewszech miar mężem, ale mężem zhańbionym. WM Pan wiesz dobrze tego przyczynę. Idę do moiey żony krewnych, y oznaymię im o wszystkim.</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p><stage>(Sam)</stage> Ah nieszczęśliwy! czegom że się ia to dowiedział! Dobrze mi mówiono, że ten, za którego Rozalią wydawano, iest ieden z naywiększych Gapiów. Ah nie godziwa Rozalio! nie dość tego, żeś mi twoiey przysięgi, tylekroć powtórzoney nie dotrzymała; trzeba ieszcze było, na większe moie pohańbienie, przenieść nademnie tego koczkodana! O niewdzięcznico! owoż moia stateczna miłość nadgrodzona, owoż moie usługi... ale y drogą zwątlony, y tą niewdzięcznością do żywego dotknięty, czuię słabość... serce mi coś ściska... nogi nie służą...</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+              <rs key="#żona">ŻONA PROSTAKIEWICZA.</rs>
+            </p>
+          </stage>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Czego odemnie chce ten mąż niewierny... Cóż to iest? Musisz WM Pan chorować? Ta słabość tak wielka... co to WM Panu?</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Sam niewiem, co misię dzieie: iakaś słabość nie spodziana mnie zdeymuie.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p><stage>(Przytrzymuiąc iego)</stage> Boię się, żebyś WM Pan nie zemdlał. Zaprowadzę WM Pana do tey izby. Idź WM Pan śmiało, idź.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Chyba na moment tylko, bo się obawiam...</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Ale idź WM Pan, może ta słabość ominąć, iak WM Pan sobie odpoczniesz trochę.</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs> (y)
+              <rs key="#krewny">KREWNY.</rs> (Jego Żony)
+            </p>
+          </stage>
+          <sp who="#krewny">
+            <speaker>KREWNY.</speaker>
+            <p>Nie ganię ia tey troskliwości WM Pana: iesteś mężem, masz prawo oglądać się na postępki swey żony; ale się tego strzedz powinieneś, abyś z lada fraszki nie brał podeyrzenia: To wszystko, coś mi WM Pan o niey mówił, nie przekonywa ieszcze mnie o iey niewierności. Jest to rzecz bardzo delikatna. Bez wielkich, y bardzo iasnych dowodów, nie należy w tym żony posądzać; inaczey wzniecisz WM Pan nie winne kłótnie, y piekło w swym domu.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Jakże? chcesz WM Pan, żebym palcem tę prawdę wytknął?</p>
+          </sp>
+          <sp who="#krewny">
+            <speaker>KREWNY.</speaker>
+            <p>Jużem mówił WM Panu, że zbyteczna prętkość, częstokroć nas w błąd wprowadza. Kto wie, iakim się sposobem ten portret iey dostał? Może to być, że ów kawaler, którego miała portret, iest iey nieznaiomy. Chciey się WM Pan o tym lepiey wywiedzieć. Jeśli się to iaśniey pokaże, co WM Pan iey zadaiesz, upewniam WM Pana, że my iey krewni, uymiemy się za krzywdę iego.</p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Sam)</stage> On widzę nie źle mówi. W samey rzeczy lepiey iest powoli, y milczkiem dochodzić prawdy. Może mi się y przywidziało, że mam rogi na czele. Ten portret nie iest ieszcze tak iasnym dowodem, żeby mię żona miała nabawić hańby. Trzeba mi było nic iey niemowić, a szpiegować tym czasem...</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs>
+              <rs key="#żona">ŻONA PROSTAKIEWICZA.</rs>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p><stage>(Przy drzwiach rozmawiaiący z Prostakiewiczową)</stage></p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>A to co? z domu mego wychodzą! Niechże mowią, że próżne moie podeyrzenie! u mnie portret, a u Jey Mci oryginał.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p><stage>(Do Gaszkiewicza)</stage> Nie spiesz się WM Pan: lepiey trochę zaczekać, żeby znowu słabość WM Pana nie powróciła.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Nie: nie mogę tu dłużey bawić: muszę odeyść: WM Pani zaś serdecznie dziękuię za te starania koło mnie, y za dobre iey serce.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Widzi Wać, iak Jhmć serdecznie z sobą się żegnaią. Maią przyczynę.</p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>On na mnie pogląda. Obaczmy co mi zaśpiewa.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p><stage>(Na stronie)</stage> Ah serce mi się kraie, patrząc na tego człowieka! ale cóż on winien? Nie na niego, ale na móy los narzekać powinienem. O i k mu zazdroszczę! O iakże on szczęśliwy, że ma tak ładną żonę. <stage>(Przechodząc koło niego, y poglądaiąc nań, odchodzi. Tym czasem Rozalia patrzy z okna, y widzi odchodzącego Gaszkiewicza)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA X.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs>
+              <rs key="#rozalia">ROZALIA.</rs>
+            </p>
+          </stage>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Ten Jego Mć bardzo się iaśnie wytłumaczył. Już daley o tym y wątpić nie można. Darmo! Gwałtem mi się rogi na głowie dobywaią.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p><stage>(Na stronie)</stage> Cóż to ma znaczyć. Postrzegłam tu mego Gaszkiewicza. Czemuż się to on tai przedemną z swoim tu powrotem? Rozumiałam, że do mnie przyidzie... albo że na mnie tu zaczeka.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Jakże on szczęśliwy, że ma tak ładną żonę. Oy szczęśliwy! Bogdaybyś ty Gachu był tak szczęśliwy, iak ia! Ta bezbożna niewiernica, zapomniawszy na małżeńską przysięgę, y na moie ku niey miłość, rogami wypłaca się mi, za moie dobre serce. Rozalia zbliża się powoli do niego chcąc mowić. Ale ia, iakbym ręku nie miał, dopuściłem tem gachowi na sucho ztąd odeyść? Czemuż nie cisnołem na niego kamieniem? Czemu go kapeluszem w łeb nie uderzyłem? Czemu go za suknią nie schwytałem, y... y... czemu na gwałt nie zawołałem, żeby go przytrzymano iako złodzieia moiego honoru?</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Mości Panie, czy znasz WM Pan tego młodego kawalera, który tu nie dawno od WM Pana odszedł.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Kto ia? ia go nieznam, ale go zna dobrze moia żona.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Oco się to WM. Pan gniewasz? Widzę żeś bardzo pomieszany.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Nie dziwuy się temu WM Panna, a dozwól mnie nie szczęśliwemu przynaymniey wzdychać.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Ale przecie... cóżby to miało WM Pana tak bardzo martwić?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Ja się nigdy o fraszki nie martwię, ale kiedy się martwię, to się diabelnie martwię. Y nie wiem czy iest taki człowiek na świecie, któryby potrafił być cierpliwym w takiey okoliczności. Oto krótko mowiąc. Jestem wzorem mężow nieszczęśliwych. Nie dość, że mi żonę odbieraią, ale co mię bardziey martwi, y reputacyą.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Ktożby to WM Panu tę krzywdę czynił?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Oto ten umizguś, o którym się WM Panna pytasz, przypiął mi rogi za pozwoleniem WM Panny.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Kto? ten co teraz...</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Ten sam, ten mnie znieważył. Kocha się w moiey żonie, a żona w nim.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Ah dorozumiewam się nieszczęśliwa, dla czego się on przedemną tai z swym powrotem. Przeczuwało moie serce tę iego niewiernosć, gdym go z okna tu postrzegła. Ah ktożby się tego po nim spodziewał!</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Ah widzę, że moia bieda y WM. Pannę martwi, znać że masz serce miłosierne: Nie wszyscy to są tak skłonni do litości. Drudzy Jchmć, którym te moie utrapienie przekładałem, zamiast użalenia, mało nie pękli ze śmiechu.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>O czarna duszo, czegoś iest wart twóy postępek! Czyż można dostateczną nań karę wynaleść. Nie wstydże po tak haniebney niewierności żyć tobie na świecie? Ktoby mogł temu wierzyć.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Wierz mi WM Panna: tak iest, a nie inaczey.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Ah złoczyńco, zdrayco, niewdzięczniku... do tego przyść kresu?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Dobra dusza tey Panienki.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Y w piekle nie ma tak cięszkiey kary, ktoraby wyrownała tey zbrodni.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Jak rozumnie mówi.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Tak postępować z samą dobrocią, z samą niewinnością.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Płacząc)</stage> Prawda: z samą dobrocią.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Czyż zasłużyło na taką wzgardę te serce, tak przychylne, tak przywiązane, tak wierne?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Prawda, iam tę niewdzięcznicę kochał, y dochowałem iey aż dotąd wierności małżeńskiey.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Czyż można było tak postępować... ale daymy temu pokoy: y pomyślić o tym nie mogę bez srogiego żalu.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Przestań się iuź martwić moia śliczna Panienko. Ktoby się spodziewał, żeby moia bieda tak rozrzewniała serce WM Panny.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Ale nie rozumiey, żebym miała przestawać na samym żalu, y prożnym uskarżaniu się. Znaydę ia sposób pomszczenia się nad twoią niewiernością. Nic łatwieyszego miłości wzgardzoney, iak pomsta.</p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA XI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Sam)</stage> Niech ią Bóg broni od podobnego nieszczęścia. Poczciwa iakaś dusza; chce się pomścić za moię krzywdę. Ale to nauka dla mnie. Jedna Panienka nie może znieść cudzey krzywdy, bez szukania pomsty, a ia męszczyzna, silny, mocny, czerstwy, ia który niegdyć mego Sąsiada tak grzmotnął pięścią, że aż nogi zadarł, ia mówię w moiey krzywdzie tak okrutney, będę stał ręce złożywszy? Będę milcząc poglądał na moię sromotę? Ah do stu katów, co ludzie na to powiedzą? Idę, idę wszystkie mu kości na drobne kawałki zgruchotam. Nauczę ia ciebie zdrayco, co to iest uczciwym ludziom rogi przypinać. Idę. <stage>(Wziołwszy kilka kroków powraca zamyślony)</stage> Jednak to trzeba powoli, y uważnie czynić. Jego mina nie bardzo mi tuszy, żeby się mi dał obić. Nie trzeba sobie podchlebiać. Opartzył mi czoło pięknie, może y grzbiet opatrzyć. Nie raz mi Matka mówiła, Synu wstrzymuy się od gniewu, bo gniew zdrowiu szkodzi, y czasem w gorszą biedę człowieka wprowadza, niż ta, o którą się gniewamy. Tak ona mawiała, a była rozumna kobieta. Jakoż w samey rzeczy, gniew nie przystoi na człowieka rozumnego. <stage>(Przechodzi się)</stage> Ale honor mi mówi do serca, że takiey hańby nie należy puszczać bez pomsty... Eh, co mi z tym honorem, niech on sobie co chce mówi. Gorzey będzie, kiedy mi ten bezbożnik szpadą przeszyie wnętrzności. Co w ten czas ludzie powiedzą, gdy się dowiedzą o moiey śmierci? Albo mnię ten honor wskrzesi? Nie, nie mam ieszcze ochoty leżeć w sklepie: to mieysce iest bardzo melancholiczne, y wilgotne. Lepiey więc rogi dzwigać, niż dla honoru umierać. Y cóż mi te rogi szkodzą? Albo ia przez to nie będę raźny, tak miły, y tak kibitny, iak iestem? Musiał to być człowiek barzo głupi, ktory pierwszy wniósł modę wstydzić się tego, co y naygodnieyszemu człowiekowi może wyrządzić Pani małżonka niewierna. Wiem ia co Statut opiewa: Ociec za Syna, brat za brata odpowiadać nie powinien: Ktoś mię tedy przymusi, żebym się miał wstydzić na sromotę żony? Kiedy Jeymć zgrzeszyła, niechże Jeymć y pokutuie: niech ią skarzą, ia się o to gniewać nie będę. A do tego, alboż to ia ieden tylko będę w bractwie rogaczow: są w nim daleko godnieysi niż ia. <stage>(Przechadza się zamyślony)</stage> Wszelako to mię martwi. Moi Sąsiedzi będą się na śmiewali, ieśli się nie pomszczę tey krzywdy moiey: powiedzą, żem thurz, żem podłego serca, że niedbam o móy honor! Otóż wiem, co uczynię; pomszczę się nad honorem mego zdraycy, y przed wszystkiemi będę głosił, że on iest zwodziciel moiey żony.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT III.</head>
+        <div type="scene" n="18">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#staruszkiewicz">STARUSZKIEWICZ.</rs>
+              <rs key="#rozalia">ROZALIA.</rs>
+              <rs key="#agatka">AGATKA.</rs>
+            </p>
+          </stage>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Tak iest móy Oycze, iestem gotowa iść za twoim rozkazem. Serce moie iest teraz w twoich ręku. Naznacz dzień, ktory ci się podoba, do zakończenia mego małżeństwa; znaydziesz mię powolną. Wyrzekam się zupełnie moich chęci, y serce moie pod twoy rząd poddaię.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Ot teraz rozumnie mówisz moia Rozalio. Serce moie napełniasz radością: podskoczyłbym z niey, gdyby tu nas nikt nie widział. Przybliż się do mnie, niech cię uściskam, niech cię ucałuię. Wszak tego żaden zganić nie może, że Oyciec córkę całuie. Niech ci Bog błogosławi moia Rozalio. Z wielkiego ukontentowania, zda mi się, żem odmłodniał. O gdyby się wszystkie córki takie rodziły! Póydę rozporządzę zaraz, co się tycze twoiego wesela.</p>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#rozalia">ROZALIA.</rs>
+              <rs key="#agatka">AGATKA.</rs>
+            </p>
+          </stage>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Ta odmiana tak nagła serca WM Panny bardzo mię zadziwia.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Jak się dowiesz, co mię do tey odmiany przywiodło, iestem pewna, że mię pochwalisz.</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Wszystko to być może.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Wiedz tedy, że tę odmianę serca moiego sprawił sam Gaszkiewicz. Ten niewdzięczny zdrayca, dawno się iuż w tym mieście znayduie, y kryie się przedemną, wstydząc się swey niewierności, zatopiwszy w inney swe serce...</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>A otoć on idzie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+              <rs key="#rozalia">ROZALIA.</rs>
+              <rs key="#agatka">AGATKA.</rs>
+            </p>
+          </stage>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Nim się na zawsze oddalę od WM Pani?</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Pewnie rozumie, żem iuż za mąż poszła.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Niech mi się godzi choć na tym mieyscu wynurzyć móy żal sprawiedliwy przeciwko WM Pannie.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Cóż to? Y masz ieszcze niewdzięczniku śmiałość mowić tak do mnie?</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Prawda, że moia śmiałość iest wielka, a WM Pani zemną postępek tak chwalebny, że grzeszyłbym przeciwko sprawiedliwości, gdybym śmiał iey wymawiać iey serca odmiane. Gardź WM Pani moią życzliwością y żyi, szczęśliwa z tak godnym swoim oblubieńcem, który iey y ukontentowanie serca, y honor tak wielki czyni.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Tak iest zdrayco, chcę z nim żyć; a ukontentowanie moie będzie ztąd naywiększe, gdy twego serca będzie utrapieniem.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Radbym wiedział, co za przyczynę masz WM Pani, takiey ku mnie zawziętości?</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Y masz ieszcze śmiałość dziwować się moiemu gniewowi, y pytać mię o przyczynę onego?</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+              <rs key="#rozalia">ROZALIA.</rs>
+              <rs key="#agatka">AGATKA.</rs>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Zbronią na stronie)</stage> Teraz, teraz iestem w stanie pomszczenia się nad tym złodzieiem moiego honoru, ktory mię tak srodze znieważył!</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Obroć się, obroć: spoyrzy tylko na tego człowieka, a poznasz, że mi nie trzeba innego dowodu do zawstydzenia ciebie.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Niewiem kogo bardziey, czy mnie, czy WM Panią powinien ten człek zawstydzić.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Nie opuszczaymy pory tak dobrey, do ukarania tego Świstaka. Póki gniew w sercu, póty y śmiałość. Jak mię gniew ominie, to będzie nic potym. Musi on z moiey ręki na tym placu poledz. Już ponim. W sam środek serca ugodzić trzeba...</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Na kogo się to odkazuiesz?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Ja? na nikogo.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>A ta broń pod płaszczem, na kogo?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>To iest płaszcz od deszczu. <stage>(Na stronę mówi)</stage> Ah iakbym był kontent, żebym mu serce na wylot przeszył! Ey, śmiało...</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Cóż to tam pod nosem burczysz?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Ja nic nie burczę. <stage>(Na stronie biiąc pięścią w brzuch)</stage> Ah iakiż ze mnie tchórz! Serce zaięcze! Czemuż się nie rozgniewam?</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Widok tego człowieka przeraża oczy WM Pana, y iakieś pomieszanie w sercu sprawuie.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Prawda. Masz WM Pani przyczynę cieszyć się; że dla tego człowieka, czarną swoią niewiernością zdradziłaś moie serce, które nie odmiennym do niey przywiązaniem dotąd się szczyciło.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Na stronie)</stage> Gdzież się podziała moia odwaga?</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Ah okrutniku, y śmiesz ieszcze mi w oczy takie czynić urągania?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Ah odważmy się! oto y ta Jeymć ze mną trzyma. Uderzmy śmiało na tego zdraycę. Jak się tam obroni, to go udrę.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p><stage>(Postępuie kilka kroków nie zważaiąc na Prostakiewicza, czym zlękniony Prostakiewicz cofa się: a Gaszkiewicz mówi)</stage> Ponieważ wymawianie mey krzywdy uraża WM Panią, więc nic mi nie zostaie, iak tylko powinszoać iey, żeś tak zacnego obrała sobie małżonka.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Przyimuię WM Pana powinszowanie, y upewniam, żem iest kontenta z moiego obrania.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Na to nie mam nic odpowiedzieć. Masz WM Pani przyczynę bronienia iego.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Bez wątpienia: dobrze Jeymć czyni, że broni prawa moiego, a WM Pana postępek iest przeciwko wszelkiemu prawu y naturalnemu, y nie naturalnemu. Nie należało WM czynić mi tak wielkiey krzywdy. Masz WM Pan szczęście, że ia mam rozum, inaczey byłaby tu wielka siekanina między nami?</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Co ten za krzywdę wspomina? człowiecze, co ma znaczyć ta głupia mowa?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Oy nie głupia! znasz WM Pan co mię boli; ale gdybyś WM Pan miał cokolwiek sumnienia, y dbał o duszę swoię, tobyś na to nie zapominał, że moia żona, iest moią żoną, WM Panu nic do niey. Przywłaszczać sobie prawo do cudzey rzeczy, nie iest to rzecz Chrześiańska.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Te twoie podeyrzenie, iest śmiechu bardziey godne, niż odpowiedzi. Nie bóy się móy przyiacielu: wiem, że Jeymć do ciebie iuż należy: nie zazdroszczę ci tego szczęścia, y upewniam, że nie tylko iey kochać odtąd...</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Co za chytry człowiek! iak on to udaie!</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Pewnie WM Pani rozumiesz, że ia myślę iaką krzywdę uczynić miłości iego ku WM Pani? Chcesz ieszcze y tą podłością me serce oczernić?</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Mów WM Pan, mów z nim samym: on potrafi oświecić, y przekonać WM Pana.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Niechcę, niechcę. Niech Jey Mć mowi, bo Jeymć lepiey potrafi moię krzywdę wyrazić.</p>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#rozalia">ROZALIA.</rs>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs>
+              <rs key="#żona">ŻONA PROSTAKIEWICZA.</rs> (y)
+              <rs key="#agatka">AGATKA.</rs>
+            </p>
+          </stage>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p><stage>(Do Rozalii)</stage> Nie przychodzę ia tu do Jeymci wyrzucać na oczy tey krzywdy, którą mi Jeymć czyni. Mam prawda żal cięszki na sercu do niey, ale nie iestem zbyt zawisna. Powinnaby Jeymć o tym wiedzieć, że taka iey miłość, która małżeńskie związki osłabia, nie iest chwalebna. Może Jeymć swoie gorące serce do kogo innego skierować, a mego męża proszę nie bałamucić.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Ale to widzę komplement nie szpetny.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Do Żony)</stage> Kto cię prosił hultayko, żebyś tu przyszła. Chcesz szukać kłotni podług twego zwyczaiu. Wszakem ci zakazał z twego domu wychodzić. Boisz się niecnoto, żeby ci kto nieodmówił tego Jegomci y twego kochanka?</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Nie bóy się moia kochana, nie myślę ia o tym. <stage>(Obracaiąc się do Gaszkiewicza)</stage> Cóż? nie prawdę mówiłam? Jestem wielce kontenta, że cię mogę w oczy przekonać.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Cóż się to znowu ma znaczyć?</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Ja prawdziwie tego nie poymuię o co tu chodzi WM Państwu. Im dłużey słucham tych wymówek, tym mniey rozumiem, zkąd ten wzaiemny gniew pochodzi. Nie będzie tu widzę końca, ieśli się ia nie wmieszam w teń interess. Stawa między Gaszkiewiczem y Rozalią. Odpowiadaycie WM Poństwo koleyno na moie pytania. A nayprzód WM Pana się pytam, co WM Pan masz za urazę do moiey Pani?</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Co za urazę? Alboż mię to nie boli, że Jeymć po tylu przysięgach, porzuciła mnie, y innego sobie obrała, Ja prawdziwą miłością zapalony, nie maiąc względu, ani na trudy ani na zdrowie moie, dzień y noc tu leciałem, iak szalony. Przybiegam tu, y znayduię Jeymć Dobrodzikę iuż za mężem.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Już za mężem?</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Nie przeryway mi WM Panna. <stage>(Do Gaszkiewicza)</stage> WM Pan mówisz, że moia Pani iuż za mężem. Chcieyże mi ieszcze powiedzieć za iakim mężem?</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p><stage>(Skazuiąc na Prostakiewicza)</stage> Toć za Jegomcią.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Jak to? Jegomość móy mąż?</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Ale proszę mi nie przeszkadzać. <stage>(Do Gaszkiewicza)</stage> WM Pan tedy rozumiesz, że to iest mąż Jeymci?</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Bez wątpienia, wszkaże...</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Y WM Pan śmiesz mowić, że to móy mąż?</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Ale proszę... inaczey do końca nie trafiemy. <stage>(Do Gaszkiewicza)</stage> Ktoż to WM Panu mówił, że to iest mąż moiey Pani?</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p><stage>(Skazuiąc na Prostakiewicza)</stage> Sam Jegomć mi to mówił.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Jegomć to śmiał mówić?</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Ale proszę o cierpliwość. <stage>(Do Prostakiewicza)</stage> Jakże? mówił to WM Pan?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Kto? ia? Jam mówił, że ia iestem mężem moiey żony.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>A przecieć to ia u WM Pana widziałem móy portret! WM Pan się tego zaprzeć nie możesz.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Portret? Prawda: o to go mam.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>WM Pan y to mnie powiedziałeś, że ten portret masz od tey, ktorą sobie za żonę poślubiłeś?</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p><stage>(Skazuiąc na żonę)</stage> Powiedziałem, y teraz powiadam, żem wydarł z iey ręku ten portret: y że ten sam portret, iest dowodem, że Jegomć mi własną moię żonę bałamuci.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Co ty baiesz Dziwaku. Jam Jegomci nigdy nie znała, a ten portret, tu w tym mieyscu znalazłam. W ten czas nawet, kiedym Jegomci zemdlonego do swego domu wprowadziła, nie uważałam cale, że ten portret iest samego Jegomci.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Ja to, widzę, ia sama iestem przyczyną tey awantury: bo gdym tu była zemdlała, upuściłam z rąk ten portrecik. <stage>(Do Prostakiewicza)</stage> WM Pan wten czas wprowadziłeś mię do swoiego domu, y czyniłeś staranie o moie zdrowie. Za co winnam WM Panu podziękowanie.</p>
+          </sp>
+          <sp who="#agatka">
+            <speaker>AGATKA.</speaker>
+            <p>Widzicie WM Państwo: bezemnie nie byłoby końca kłótni, y wymówek prożnych. Tak to, nic prędzey w błąd nie wprawia człowieka, iak miłość podeyrzliwa.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Niechże y tak będzie: może to być, że y ia pobłądziłem. Wszelako zdaie mi się, że mi ieszcze czoło świerzbi.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Moie podeyrzenie, nie iest ieszcze zupełnie uspokoione... Kto wie, ieśli tu nie ma iakiego oszukania.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>Posłuchay Żonko: daymy sobie pokoy, a wierzmy wzaiemnie, że iesteśmy ludzie poczciwi. Wszakże, gdyby miało być inaczey, moia krzywda byłaby większa, iak twoia. Zgoda kochaneczko: daymy sobie ręce wzaiemnie.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>Mnieysza o to, to y zgoda, ale wara, żebym się o tobie czego nie dowiedziała.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p><stage>(Mówiwszy wprzód cicho z Gaszkiewiczem)</stage> Ah nieszczęśliwa! ieśli tak iest, cożem ia to uczyniła! Do iakiego mię kroku ślepe podeyrzenie przyprowadziło! Wyznaię móy błąd: rozumieiąc, że mi niechcesz dotrzymać słowa danego, przedsiewzięłam pomścić się nad tobą; y poszłam na oślep za wolą Oyca moiego. Dziś właśnie zezwoliłam na iego naleganie, y przyrzekłam mu uroczyście, że gotowam iść na tego, którego me serce cierpieć nie może. On tą moią powolnością ucieszony, iuż wszelkie do tego nieszczęśliwego małżeństwa uczynił przygotowania! Otoż, iak na nieszczęście, y on tu idzie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#rozalia">ROZALIA.</rs>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs>
+              <rs key="#żona">ŻONA PROSTAKIEWICZA.</rs>
+              <rs key="#agatka">AGATKA.</rs>
+              <rs key="#staruszkiewicz">STARUSZKIEWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Przybywszy tu iak nayspieszniey, po moiey podróży, nie tracę nadziei, że moia miłość stateczna, odbierze skutek pożądany, przyobiecaney mi łaski WM Pana Dobrodzieia, względem poślubienia sobie nie oszacowaney iego Córki.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Witam WM Pana Mci Panie, który przybywszy tu nayśpieszniey, nie tracisz nadziei, że iego miłość stateczna odbierze skutek, y kłaniam WM Panu iak nayniżey. <stage>(Chce odchodzić)</stage></p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Jakże Mci Dobrodzieiu? y możeż to być, żeby moia nadzieia, ufundowana na słowie tak zacnego człowieka, miała być zawiedziona?</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Tak iest, tak Mci Dobrodzieiu. Ja iestem Oycem córki swoiey, a córka znaiąca swoię powinność idzie za moim powodem, y dziś ieszcze ślub bierze, z Panem Anzelmem, Synem Jmci Pana Bogackiego. Rozumiesz to WM Pan?</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Powinność moia, móy Oycze, iest dotrzymać słowa, które za zezwoleniem samego WM Pana, dałam Jmci Panu Gaszkiewiczowi.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Cóż to za zuchwałość tak Oycu odpowiadać? Nie dawnoś mi przyrzekła, żeś gotowa iść za Anzelma, a teraz inaczey mowisz?</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Ale móy Oycze...</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Ale ale... Córka nie powinna mówić Oycu ale.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Wszelako Mci Dobrodzieiu...</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Wszelako WM Pan córkę mi bałamucisz, y od posłuszeństwa Oycu winnego odprowadzasz: to nie pięknie iest Mci Panie.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>W czymem ia przecie przewinił WM Dobrodzieiowi, że teraz.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>W tym Mci Pani, w tym WM Pan przewinił, że nie iesteś tak bogaty, iak Jmć Pan Anzelm. To nie mała iest wina.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Wszakże wiadomy był WM Panu Dobrodzieiowi móy maiątek, kiedyś mi raczył przyrzec.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Wszystko to prawda, ale to większa prawda, że Anzelm ma większy maiątek. Daymy temu pokoy: iuż to być inaczey nie może. Dziś moia córka musi wziąć ślub z Anzelmem. Otóż iuż y Ociec iego tu idzie. Wnet y ślub będzie. Kłaniam, kłaniam WM Panu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#rozalia">ROZALIA.</rs>
+              <rs key="#gaszkiewicz">GASZKIEWICZ.</rs>
+              <rs key="#staruszkiewicz">STARUSZKIEWICZ.</rs>
+              <rs key="#prostakiewicz">PROSTAKIEWICZ.</rs>
+              <rs key="#żona">ŻONA PROSTAKIEWICZA.</rs>
+              <rs key="#agatka">AGATKA.</rs>
+              <rs key="#bogacki">BOGACKI.</rs>
+            </p>
+          </stage>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Witam Jmć Pana Bogackiego. Pożądany tu WM Pan przychodzisz. Uwalniasz mię przez to od pewnego natrętnika.</p>
+          </sp>
+          <sp who="#bogacki">
+            <speaker>BOGACKI.</speaker>
+            <p>Przychodzę do WM Pana z wielkim moim żalem, y wstydem.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Coż się to tam stało? Pewnie który dłużnik WM Pana zbankrutował?</p>
+          </sp>
+          <sp who="#bogacki">
+            <speaker>BOGACKI.</speaker>
+            <p>Ah byłaby to fraszka względem tego, co mam powiedzieć.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Cożby to było? słucham.</p>
+          </sp>
+          <sp who="#bogacki">
+            <speaker>BOGACKI.</speaker>
+            <p>Tak to my biedni Oycowie, cieszemy się, kiedy da Pan Bóg potomka: myślemy sobie, że w starości naszey będzie nam pociechą y podporą; dla tego nie oszczędzamy, ani kosztu, ani pracy na iego wychowanie. Przyidzie starość, aż zamiast pociechy odnosiemy od niego umartwienia, kłopoty, zgryzoty, y troski serce do żywego przenikaiące, tak dalece, że z iego przyczyny musiemy częstokroć przed czasem wynosić się z tego świata.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Prawdę WM Pan mówisz, napatrzyłem się takowych przypadków niemało. Niebywało tego przed tym. Taki to teraz świat. Ale do czegoż ta mowa WM Pana ściąga? Pewnie Syn WM Pana Pan Anzelm...</p>
+          </sp>
+          <sp who="#bogacki">
+            <speaker>BOGACKI.</speaker>
+            <p>Tak iest Anzelm...</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Ale cóż ten Anzelm?</p>
+          </sp>
+          <sp who="#bogacki">
+            <speaker>BOGACKI.</speaker>
+            <p>Wiadomo WM Panu, z iakim ia ukontentowaniem przyiąłem zezwolenie WM Pana na ożenienie mego Syna z iego Córką. Prawda, że mi Anzelm, y w początkach pokazywał wstręt iakiś od tego małżeństwa...</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Y WM Pan że masz uważać na ten wstręt iego?</p>
+          </sp>
+          <sp who="#bogacki">
+            <speaker>BOGACKI.</speaker>
+            <p>Ja też na to nie uważałem.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Więc niech bierze ślub.</p>
+          </sp>
+          <sp who="#bogacki">
+            <speaker>BOGACKI.</speaker>
+            <p>Tak też y ia chciałem, ale się teraz dowiaduię, że on iuż przed czterema miesiącami, nic mi nie mówiwszy, inną sobie poślubił.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Tam do kata. Ale ia będąc WM Panem postarałbym się o rozwód.</p>
+          </sp>
+          <sp who="#bogacki">
+            <speaker>BOGACKI.</speaker>
+            <p>Jabym to rad, ale ani Syn, ani Synowa tego niechce, a Familia Synowey iest mocna, nic bym nie wskurał.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Coż to za Familia tak straszna?</p>
+          </sp>
+          <sp who="#bogacki">
+            <speaker>BOGACKI.</speaker>
+            <p>Moia Synowa, iest córką Pana Kłotnickiego.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Tego to Patrona?</p>
+          </sp>
+          <sp who="#bogacki">
+            <speaker>BOGACKI.</speaker>
+            <p>Tak iest.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p><stage>(Na stronie)</stage> To iuż darmo: zapadła klamka. Ale wstyd mię Gaszkiewicza, niewiem co on teraz powie.</p>
+          </sp>
+          <sp who="#bogacki">
+            <speaker>BOGACKI.</speaker>
+            <p>Przepraszam więc WM Pana z żalem moim, że móy Syn iuż nie może służyć córce WM Pana.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Ja się oto nie urażam, bo przyznam się WM Panu, że ia tylko żartowałem, kiedym mówił, że chcę Rozalią wydać za Syna WM Pana. Jużem ią dawno obiecał Jmci Panu Gaszkiewiczowi memu wielce Mciwemu Panu, y muszę mu przez sumnienie słowa dotzymać. Iestem człowiek rzetelny.</p>
+          </sp>
+          <sp who="#gaszkiewicz">
+            <speaker>GASZKIEWICZ.</speaker>
+            <p>Ah Mci Dobrodzieiu, iużem był y nadzieię stracił tego szczęścia, które mi WM Pan Dobrodziey teraz oświadczaśz.</p>
+          </sp>
+          <sp who="#rozalia">
+            <speaker>ROZALIA.</speaker>
+            <p>Ah Oycze... te łzy, które mi radość niespodziana wyciska, niech będą dowodem wdzięczności moiey.</p>
+          </sp>
+          <sp who="#staruszkiewicz">
+            <speaker>STARUSZKIEWICZ.</speaker>
+            <p>Niech wam Bóg błogosławi moie dzieci.</p>
+          </sp>
+          <sp who="#żona">
+            <speaker>ŻONA.</speaker>
+            <p>A iam rozumiała, że ta Panienka w moim się mężu kochała.</p>
+          </sp>
+          <sp who="#prostakiewicz">
+            <speaker>PROSTAKIEWICZ.</speaker>
+            <p>To widzę ten Kawaler, nie do moiey żony umiżgał się: a iam ią nie słusznie posądzał. Mci Panowie, bądzcie ostrożnieysi moim przykładem: choćbyście wszystko swoiemi oczami widzieli, niewierzcie.</p>
+          </sp>
+          <trailer>(KONIEC)</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

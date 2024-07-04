@@ -1,0 +1,2463 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000013" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Zabawy, czyli życie bez celu</title>
+        <title type="sub">Komedia we trzech aktach</title>
+        <author>
+          <idno type="isni">0000000113401215</idno>
+          <idno type="wikidata">Q4335691</idno>
+          <persName>
+            <forename>Feliks</forename>
+            <surname>Oraczewski</surname>
+          </persName>
+        </author>
+        <!-- Feliks Oraczewski (1739-1799) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/zabawy-czyli-zycie-bez-celu-komedya-we-trzech-aktach,MTE2Nzg5NDI/4/</idno>
+          <title>Oraczewski, F., Zabawy, czyli życie bez celu: komedya we trzech aktach, Warszawa 1780</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="cześnikowa" sex="FEMALE">
+            <persName>Cześnikowa</persName>
+          </person>
+          <person xml:id="lorens" sex="MALE">
+            <persName>Lorens</persName>
+          </person>
+          <person xml:id="luiza" sex="FEMALE">
+            <persName>Luiza</persName>
+          </person>
+          <person xml:id="lustratorowicz" sex="MALE">
+            <persName>Lustratorowicz</persName>
+          </person>
+          <person xml:id="michał" sex="MALE">
+            <persName>Michał</persName>
+          </person>
+          <person xml:id="pułkownikowicz" sex="MALE">
+            <persName>Pułkownikowicz</persName>
+          </person>
+          <person xml:id="rewizorowicz" sex="MALE">
+            <persName>Rewizorowicz</persName>
+          </person>
+          <person xml:id="starosta" sex="MALE">
+            <persName>Starosta</persName>
+          </person>
+          <person xml:id="starościna" sex="FEMALE">
+            <persName>Starościna</persName>
+          </person>
+          <person xml:id="subdelegatowicz" sex="MALE">
+            <persName>Subdelegatowicz</persName>
+          </person>
+          <person xml:id="teresa" sex="FEMALE">
+            <persName>Teresa</persName>
+          </person>
+          <person xml:id="zacniewski" sex="MALE">
+            <persName>Zacniewski</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-06">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1780">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docAuthor>Oraczewski</docAuthor>
+          <docTitle>
+            <titlePart type="main">ZABAWY,<lb />
+            CZYLI<lb />
+            ŻYCIE BEZ CELU,</titlePart>
+            <titlePart type="sub">KOMEDYA<lb />
+            WE TRZECH AKTACH</titlePart>
+          </docTitle>
+          <docImprint>
+            <p>
+              w <pubPlace>Warszawie</pubPlace> <docDate>1780</docDate>.<lb />
+              Nakładem y drukiem
+              <bibl>
+                <publisher>MICHAŁA GRÖLLA</publisher>
+              </bibl>,<lb />
+              Księgarza Nadwornego J.K.Mci.
+            </p>
+          </docImprint>
+        </titlePage>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#starosta">STAROSTA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#starościna">STAROŚCINA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#teresa">TERESA,</role>
+            <roleDesc>corka Starościny.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#cześnikowa">CZEŚNIKOWA,</role>
+            <roleDesc>przyjaciołka mniemana Starosty.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#pułkownikowicz">PUŁKOWNIKOWICZ,</role>
+            <roleDesc>kuzyn Cześnikowy, konkurent.</roleDesc>
+          </castItem>
+          <castGroup>
+            <castItem>
+              <role corresp="#rewizorowicz">REWIZOROWICZ,</role>
+            </castItem>
+            <castItem>
+              <role corresp="#lustratorowicz">LUSTRATOROWICZ,</role>
+            </castItem>
+            <castItem>
+              <role corresp="#subdelegatowicz">SUBDELEGATOWICZ,</role>
+            </castItem>
+            <roleDesc>Przyiaciele Cześnikowy, y Pułkownikowicza.</roleDesc>
+          </castGroup>
+          <castItem>
+            <role corresp="#zacniewski">ZACNIEWSKI,</role>
+            <roleDesc>przyiaciel domowy Starosty.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#luiza">LUIZA,</role>
+            <roleDesc>służąca Starościny.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#michał">MICHAŁ,</role>
+            <roleDesc>służący Starosty.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#lorens">LORENS,</role>
+            <roleDesc>lokay.</roleDesc>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT I.</head>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage type="setting">
+            <p>(Teatrum reprezentuie pokoy Starościny)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+              <rs key="#subdelegatowicz">SUBDELEGATOWICZ.</rs>
+              <rs key="#rewizorowicz">REWIZOROWICZ.</rs>
+              <rs key="#pułkownikowicz">PUŁKOWNIKOWICZ.</rs> (y)
+              <rs key="#lustratorowicz">LUSTRATOROWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Jakże te godziny między obiadem y komedyą są nudne! nie wiedzieć co robić.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Ale iak nudne! chłopcy, bawcie mnie, Panie kuzynie Pułkownikowiczu, ty czasem bywasz śmieszny; powiedz co wesołego. Wiesz, że to iest dom, w ktorym trzeba, żebyś się podobał; dziś myślę dotrzeć twego interesu.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ma on też swoie zgryzoty; nie prawda, Pułkownikowiczu?</p>
+          </sp>
+          <sp who="#pułkownikowicz">
+            <speaker>PUŁKOWNIKOWICZ.</speaker>
+            <p>Nie, y owszem miałbym więcey przyczyn być kontent: wszyscy dziś w Saskim ogrodzie admirowali moie sprzęczki, nikt większych nie miał; co to za tryumf miły dla człowieka maiącego gust! wielka szkoda, że mnie Starościanka nie widziała ieszcze.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>Stolnikowna uważała, żeś WM. WM. Pan trochę kulał; musiały cię trzewiki ściskać.</p>
+          </sp>
+          <sp who="#pułkownikowicz">
+            <speaker>PUŁKOWNIKOWICZ.</speaker>
+            <p>Mnieysza o Stolnikowne.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Właśnie też lada parafianka może sądzić o guście człowieka, ktory woiażował; za granicą się to ludzie formuią: trzeba czasem przycierpieć y kulać, byle pokazać, że człowiek nie darmo swoy czas strawił w cudzych kraiach. Taniec, fryzura, sprzączki, kapelusze modne, toć to iest cel woiażowania człowieka dobrze wychowanego.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Jużci wy chłopcy modne, ale nie wygodne; mało z was pożytku do zabawy: żebym przynaymniey mogła zebrać partyą do trysety.</p>
+          </sp>
+          <sp who="#starosta #pułkownikowicz #rewizorowicz #lustratorowicz #subdelegatowicz">
+            <speaker>STAROSTA. PUŁKOWNIKOWICZ. REWIZOROWICZ. LUSTRATOROWICZ. SUBDELEGATOWICZ.</speaker>
+            <p><stage>(Wszyscy razem)</stage> Dobrze, Mościa Dobrodziko.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Ale czy umiecie przegrać?</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Jak los padnie.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>A zapłacić?</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>Jeymosć Dobrodzika nieoszacowana w żartach.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Starosto! każ dać karty; kiedym się iuż w tę stronę miasta zapędzili, nie chcę do siebie powracać, tu się będę bawić: może też Starościna skończy swoie nudne zatrudnienie z Teresą, to nas więcey będzie, y ułożemy iaki proiekt, czym się bawić.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Naylepiey nic nie układać, co przyidzie do głowy, to zrobiemy, byle się bawić. <stage>(Ziewa)</stage></p>
+          </sp>
+          <sp who="#cześnikowa #rewizorowicz #lustratorowicz #subdelegatowicz #pułkownikowicz">
+            <speaker>CZEŚNIKOWA. REWIZOROWICZ. LUSTRATOROWICZ. SUBDELEGATOWICZ. PUŁKOWNIKOWICZ.</speaker>
+            <p><stage>(Wszyscy razem)</stage> Bravo, oto rada dobra! bawić się, to grunt.</p>
+          </sp>
+          <sp who="#subdelegatowicz">
+            <speaker>SUBDELEGATOWICZ.</speaker>
+            <p>Nic smutnieyszego, iak zakładać sobie iaki cel życia; Vivat wolność.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>To mi to ludzie! można mowić, że teraz młodzież uformowana; iuż tey staroświedczyzny nie widać, co to wszystko kazali się młodym chłopcom mozolić, żeby byli zdatni dla kraiu; niech się z kraiem dzieie, co chce, byle się bawić.</p>
+          </sp>
+          <sp who="#subdelegatowicz">
+            <speaker>SUBDELEGATOWICZ.</speaker>
+            <p>Oyciec moy chciał koniecznie, żebym ia się uczył prawa: na co mnie prawo! czyż można z damami o prawie mowić? Właśnie bym ia wskorał, żebym z Ładowskim wyiechał na plac u Podczaszanki.</p>
+          </sp>
+          <sp who="#pułkownikowicz">
+            <speaker>PUŁKOWNIKOWICZ.</speaker>
+            <p>A mego oyca staranie całe było, żebym ia był gospodarzem; kazał mi się w domowe interesa wdawać, zachwalał mi spokoyność rolniczego życia: ślicznieby mnie był wystawił, gdyby nie matka moia, ktora była dworka, y wersatka; przedała w niebytności tatula kilka set wołow, mnie pieniążki dała na woiaż, y przeiechałem się walnie, zawsze poczta dniem y nocą, nie oparłem się aż w Paryżu, zkąd właśnie te sprzączki wywiozłem, bo tam dostanie rożnych towarow: iaki tam ratusz piękny! cały murowany.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>Co ia, to z moim oycem na funkcyi byłem 1775. roku, aplikowałem się ze wszystkich sił, w iego ślady wstępowałem, w dobrym czasie był Lustratorem, po Jezuitach; umiał korzystać z okoliczności, to też przecię iest dziś za co bawić się w Warszawie.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Mnie się udało, że oyciec moy umarł, właśnie w ten czas, kiedy uzbierał sumkę, y chciał dać na dobra: matka moia inszych była sentymentow, y lepiey się oboie bawiemy, poki stanie.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Walne chłopcy! siądźmy do trysety, albo iuż daymy pokoy, oddam ieszcze z kilka wizyt. <stage>(do Starosty)</stage> Starosto, czy chcesz ze mną iechać? bo ta twoia nudna żona, nie prędko zapewne ieszcze skończy swoie kłopoty; WaćPan umiesz żyć, rozumiem, że kiedy ci dama proponuie, żebyś ią akompaniował, to nie odmowisz: powinno cię to atandryzować.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Jak się Pani podoba; coż mam czynić? trzeba być du bon ton; hola!</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#michał">MICHAŁ.</rs> (Kamerdyner, y dawni)
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+              <rs key="#subdelegatowicz">SUBDELEGATOWICZ.</rs>
+              <rs key="#rewizorowicz">REWIZOROWICZ.</rs>
+              <rs key="#pułkownikowicz">PUŁKOWNIKOWICZ.</rs>
+              <rs key="#lustratorowicz">LUSTRATOROWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(do ludzi)</stage> Czy iest kareta?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Jest zaprzężona, od rana aż do wieczora.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Powiedzże tu moiey żonie, że wyiechałem oddać kilka wizyt, powrocę w krotce; a ta młodzież, czy poiedzie z nami?</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Tak się spodziewam; chłopcy! kupą za mną, będziemy się lepiey bawić.</p>
+          </sp>
+          <sp who="#pułkownikowicz">
+            <speaker>PUŁKOWNIKOWICZ.</speaker>
+            <p>Ja muszę ieszcze iechać do Saskiego ogrodu, bo tam dopiero cztery razy dziś byłem.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>Niemasz tam nikogo, lepiey iedźmy do Uiazdowskiey ulicy na raki.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>To mi to człowiek, co przecie sobie umie iakiś cel życia założyć! bravo na raki, to posilnieysze iak wizyty.</p>
+          </sp>
+          <sp who="#starosta #cześnikowa #subdelegatowicz #rewizorowicz #pułkownikowicz #lustratorowicz">
+            <speaker>STAROSTA. CZEŚNIKOWA. SUBDELEGATOWICZ. REWIZOROWICZ. PUŁKOWNIKOWICZ. LUSTRATOROWICZ.</speaker>
+            <p><stage>(Wszyscy razem)</stage> Na raki, na raki, na raki.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Ale w Saskim ogrodzie dziś lody walne, porzyczkowe.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>To iest znowu nowa trudność; iak to życie ludzkie zawsze iest podległe odmianie!</p>
+          </sp>
+          <stage>(Tu razem wszyscy, iedni na lody, drudzy na raki wołaią)</stage>
+          <sp who="#subdelegatowicz">
+            <speaker>SUBDELEGATOWICZ.</speaker>
+            <p>Proszę o głos, kiedy nie masz powszechney zgody, w tak walnym interesie, otoż ia poradzę: mamy po pięć palcow u ręki, rachuymy; co wypadnie, tego się chwycić.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Mądrze mowi; ia będę zaczynała naypierwey, na raki, na lody, na raki, na lody, na raki.</p>
+          </sp>
+          <sp who="#starosta #cześnikowa #subdelegatowicz #rewizorowicz #pułkownikowicz #lustratorowicz">
+            <speaker>STAROSTA. CZEŚNIKOWA. SUBDELEGATOWICZ. REWIZOROWICZ. PUŁKOWNIKOWICZ. LUSTRATOROWICZ.</speaker>
+            <p><stage>(Wszyscy)</stage>Bravo, bravo, na raki, na raki. <stage>(Odchodzą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#michał">MICHAŁ.</rs> (sam zamyślony, siada na krześle y mruczy)
+            </p>
+          </stage>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Na raki, na lody, na raki. Co to daley z tego będzie, nie wiem; nie dawno iestem w tym domu, ale nie mogę pomiarkować, co my za życie prowadziemy: miałem przedtym Pana, ktoremu naymiley było zamknąć się w swoim pokoiu, nie wiem po co, ale płacił ludziom dobrze, nie miał napaści od dłużnikow, miał wielu przyiacioł, w zgodzie żył z żoną, dzieci miał grzeczne y dobre, y umarł spokoynie. Dosłużyłem mu do śmierci, żal mi go, teraz się tu dostałem, zawsze huczno, zawsze szukamy czegoś, mało Pan w domu zabawi, mało się z Panią y z corką widzi, Pani Cześnikowa wszystkim rządzi, pełno młodzieży, ktora nie wiem, czego chce? czego nie chce? biegaią, lataią, gonią coś, y nie mogą dogonić: co to z tego daley będzie? nie wiem: ludzie mruczą, woźnicy przeszłey zimy umarzło ucho, bo całą noc stał na mrozie w kapeluszu; lokaie narzekaią, że iuż od kilku miesięcy nie płatni; rzemieślnicy toż samo: iak to można weselić się, a ludzi krzywdzić? ale coż mi to za wesołość? zawsze im czegoś niedostaie. Co to będzie za koniec tego życia? Na ostatek, iużci to musi być dobrze, boć to przecie Pan, to musi mieć rozum.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#luiza">LUIZA.</rs>
+              <rs key="#michał">MICHAŁ.</rs> (drzymie)
+            </p>
+          </stage>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p><stage>(patrzy na drzymaiącego)</stage> Biedny Pan Michał! śpi, a nie wie, co go czeka, w piękne się ręce dostał! będzie on kontent; a iakiś dobry człowiek, nie wiem czy też zabawny?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(się porywa ze snu)</stage> Kłaniam się uniżenie, Jeymość Pannie Luizie.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p><stage>(z miną zkomponowaną)</stage> Nayniższa Pana Michała? Jegomość iest? musi go nie być, bo WM. WM. Pan widzę zasypiasz.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ey coż robić! w nocy się mało sypia, we dnie trzeba za pańskiemi interesami biegać, odpychać od drzwi kupcow, rzemieślnikow, ktorzy się przykrzą o pieniądze, to nie dziw, że sen weźmie; teraz przecie Jegomość odiechał, to mam czas wolny.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>U moiey Pani spokoynieysze życie; całe iey zatrudnienie iest uszczęśliwienie corki, radaby ią wydać dobrze za mąż, ale gdzież to tych dobrych mężow szukać?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Znam ia bardzo dobrego człowieka; żył w przyiaźni z nieboszczykiem moim Panem, radby się także żenić, ale nie raz też mowi: gdzie to tę dobrą żonę znaleść? Jeden tylko ma defekt, że nie ma żadnego urzędu, kupić też żadnego nie chce, bo powiada: że poczciwy człowiek powinien zasłużyć, nie kupować, y że tylko ci kupuią, co nie chcą zasłużyć.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Ale iak się zowie ten Jegomość?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Pan Zacniewski.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Pan Zacniewski? a znamy go; bywa tu u Jeymości, ale rzadko, bo iak Jegomość przyidzie z temi trzpiotami, iak wezmę się kręcić, baiać, to on zaraz odchodzi, ile, że się Jegomości przywidziało, że ten Pułkownikowicz będzie mężem Panny Teresy; ma mieć rodzicow bogatych, ale niech Bog broni takiego męża dla tey Panny.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Nie znam ieszcze bardzo Panny, ale co ten Jegomość, to mi się nie podoba; wszyscy ci, ktorych tu widzę, maią minę ludzi, ktorzy nie wiedzą, na co się porodzili, dla tego tylko wstaią z rana, żeby w wieczor poszli spać, a wszystko mowią, że się bawią.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Widzi to moia Pani, ale coż ma czynić? nayczęściey też w swoim pokoiu siedzi z Panną Teresą; ta społeczność cale im nie do smaku: oto kiedy Pan Zacniewski u nich bawi, to bardzo lubię.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>A WM. WM. Panna, co też robisz przez ten czas?</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Ja siedzę y szyię, czasem się też bawię.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>A nic tęskno WaćPannie samey? bo co mnie to tęskno.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Y mnie czasem tęskno.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>A gdybyśmy te dwie tęsknice złączyli do kupy, możeby to było wygodniey?</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Może…</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ale WaćPanna masz iuż może kogo, co swoię tęsknicę z iey tęsknicą złączył.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Nie mam.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(biorąc ią za rękę)</stage> Eyże Panienko! nie szczerze mowisz, te oczki figluią.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Szczerze. Ale ktoś idzie. Wrocę się do moiey Pani, powiem, że Jegomości nie ma, bom się zagadała z WM. WM. Panem, y zapomniałam, że mnie tu po to przysłali.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#michał">MICHAŁ.</rs> (y)
+              <rs key="#zacniewski">ZACNIEWSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Jak się masz, Panie Michale? państwo są?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Jegomości nie masz. Poiechał się bawić.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>A podobno prędzey nudzić: a Jeymość iest?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Była tu dopiero pokoiowa, powiedziała, że iest; zaczęliśmy się iuż dosyć dobrze rozmawiać, ale Pan przeszkodził do reszty.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Bardzo cię żałuię, moy Michale.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Była też y o Panu mowa.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Coż przecie?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Nie źle; Luiza mowi: że się nasza Jeymość, y nasza Panna Teresa, wcale na Pana nie gniewa.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Nie dałem im przyczyny; iak matkę wiele poważam, tak y corkę radbym widzieć szczęśliwą, bo prawdziwie tego warta.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Jam też com wiedział, tom powiedział, y zapewne to Luiza powie swoiey Pani: czyby wytrzymała pokoiowa, żeby swoiey Pani nie miała powiedzieć wszystko, co słyszy przez dzień?</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Jeżeliś, moy Michale, dobrze o mnie mowił; to ci wdzięczen iestem.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Powiedziałem wszystko, co wiem dobrego o Panu, ale też y to, co wiem złego, nie zamilczałem.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Nie wątpię, że mam wiele w sobie ułomności, y nie dziwuię się, że ie znasz; boś mnie tak często widywał u swego przeszłego Pana: był to ieden z moich nayszczerszych przyiacioł, przestrzegał mnie zawsze, gdy widział co błędnego. Powiedz mi szczerze, coż przecie złego we mnie widzisz?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>O moy Pan nieboszczyk nigdy tego nie widział, ale co ia, to słyszałem od wielu innych, co Panu dobrze życzą.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Ale coż przecie? powiedz, to się poprawię.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Otoż powiem, że WM. WM. Pan masz blisko trzydziestu lat, żyiesz zawsze między urzędnikami, a żadnego urzędu nie masz; wielu to krytykuią.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>O! moy kochany Michale! radbym, żebyś mi całe życie nic gorszego nie miał do wymowienia: uspokoy się nad tym, że w moich oczach naypięknieyszy tytuł iest, być poczciwym człowiekiem.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>To się też WM. Pan w ten sposob niczego nie doczekasz, a choćby dla postanowienia, to przecie tego potrzeba; ktoż wie! czyby WM. WM. Panu Starościankę dali? a do tego, iak to musi być miło, na pierwszym mieyscu u stołu siedzieć, pierwszy kielich za WM. WM. Pana zdrowie: setny ledwo wie, iakiemi sposobami kto stał się urzędnikiem, a w parafii zaraz się pięknie kłaniaią, xiądz zaraz wychodzi ze mszą; a dla poczciwości, ktoż co robi? czasem y szklanki wody nikt nie poda u stołu.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Nie łam sobie głowy, moy kochany Michale, nie namowisz mnie; ale dowiedz się, czy można iść do Jeymości? czy przyimuie? ieżeli nie zatrudniona?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Dobrze; ale pozwolże WaćPan, żebym go Stolnikiewiczem nazwał dla mego honoru.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Nie, moy Michale; żebym wiedział, że Pani Starościna tych tytułow, ktorych ia nie mam potrzebuie: tobym się tu więcey nie wracał; znam ia tę Panią dobrze, nazwiy mnie tak, iak mnie zawsze zowiesz, nie wstydzę się za moie imie, ani za moie czyny. Lepiey, że się dziwuiesz, za co nie mam urzędu, iak gdybyś się dziwował, za co go mam?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Coż mam czynić? idę: kiedy Pan taki uparty, ale Pani przyzwyczaiona do Pułkownikowiczow, Lustratorowiczow y innych urzędnikow, to ia nie wiem, iak się iey będzie proste szlachectwo wydawać, ile, ieżeli na konkurenta; co ia tam mam uważać! niech się gniewa, ieżeli chce, ia postaremu powiem, że Stolnikiewicz.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#zacniewski">ZACNIEWSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p><stage>(sam)</stage> Dobry człowiek, a ma widzę te same dziwactwa, co wielu innych; koniecznie mnie chce zrobić urzędnikiem, choć żadnym nie iestem: ale nie dziwuię się; bo nawet przeieżdżaiąc przez okopy, pytali mnie się strażnicy, kto iestem? powiedziałem, iak się zowię. To nie dosyć było, koniecznie chcieli, żebym im powiedział godność; zaklinałem się, że nie mam żadney inney, tylko moie imie, y z podziwieniem odemnie odstąpili; w kalendarzykach nawet y dyaryuszach, choć oświeceni ludzie, a urzędy daią takim, co ich nie maią; iak się dziwować gminowi? ale nie widać Michała; może Starościna nie przyimuie: nigdy tak długo na iey rozkazy nie czekałem; wyznaię, że każda trudność w widzeniu Teresy iest mi dotkliwa; nazbyt się przyzwyczaiłem do iey wdziękow, y do iey przymiotow; nie wiem, czyby nie czas uymować sobie tey rozkoszy.</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#michał">MICHAŁ.</rs> (y)
+              <rs key="#zacniewski">ZACNIEWSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Opowiedziałem Jeymości; zaraz tu przyidzie przyiąć WM. WM. Pana, prosi o cierpliwość.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Zkądże ze mną ta ceremonia? zawsze mi wolno było iść do pokoiu Jeymości; zły to znak, iakąś to oziębłość znaczy.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Jeymość tak powiedziała, że nie może Pana przyiąć w swoim pokoiu.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Milsza mi była poufałość, niż ta grzeczność.</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starościna">STAROŚCINA.</rs>
+              <rs key="#teresa">TERESA.</rs> (y)
+              <rs key="#luiza">LUIZA.</rs>
+              <rs key="#zacniewski">ZACNIEWSKI.</rs>
+              <rs key="#michał">MICHAŁ.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(Wchodzą, y zdaleka się ceremonialnie kłaniaią. Zacniewski toż samo, nie wiedząc, co to znaczy)</p>
+          </stage>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p><stage>(ze śmiechem)</stage> Coż ia to widzę? to Pan Zacniewski.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Tak iest, ten sam, ktoremu zawsze wolno było służyć Pani w iey pokoiu, nie odrywaiąc od przykładnych zabaw.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>A mnie powiedziała Luiza, że iakiś Stolnikiewicz przyszedł.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Ja tak powiedziałam, iak mi Pan Michał powiedział; coż ia temu winna, że nie Stolnikiewicz.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Panie Michale! coż to znaczy?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(z ambarasem)</stage> Wyznaię, żem nie mogł tego znieść na sobie, żebym tak dobrego Pana, ktorego tak dawno znam y szanuię, po prostu nazwał u moiey Pani.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Wiedzże, Panie Michale, że ia takich ludzi, iak Jmć Pan Zacniewski, więcey poważam, iak tych, co nic z siebie nie maiąc, że czczych tytułow tylko szukaią okrasy.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ja nie wiem, iak ludziom dogodzić. Prawda, że u mego przeszłego Pana, zawsze Jegomości nazywałem tylko Panem Zacniewskim, y był mu zawsze rad; ale u teraźnieyszego Pana, nie widzę, tylko Pułkownikowiczow, Rewizorowiczow: bałem się, żeby Jegomości iaka konfuzya nie spotkała, iak go nazwę po prostu.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p><stage>(ze śmiechem)</stage> Dziękuię ci, moy Panie Michale, za dobre serce.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Nie dawno w naszym domu, ani moiey matki, ani mnie nie znał dosyć.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Czy tylko ta omyłka nie przeszkodziła Paniom w ich zabawach.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Już też Teresa skończyła niektore swoie lekcye, bawiła się aftowaniem; ia miałam zatrudnienia domowe, ale ułatwiłam. Moy mąż przyzwyczaiony do zabaw ustawicznych, muszę go często wyręczyć, żeby mu oddalać przykrości nierządu domowego.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Czemuż Pani nie zażyie przyiacioł, ktorzyby iey uięli pracy.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Ja nawet nie mogę uprosić matki moiey, żeby pozwoliła pomoc sobie w zatrudnieniach; każde iey naśladowanie byłoby mi nauką: znam to, że celem życia moiego nie same są zabawy, te dopiero po powinności dopełnieniu mogą być przyiemne.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Moia kochana Tereso! bardzobym cię krzywdziła, żebym cię oddalała od poznania przyszłych powinności twoich; cała ostrożność moia w tym zawisła, żeby ci ich przed czasem nie obrzydzić: co dzień mi pomagasz w rozporządzeniu domowym, ale tego nie czuiesz, boś chętnie przywykła; to co czynisz iest dosyć dla płci naszey, ieżeli będziesz miała męża rządnego y znaiącego delikatność; ieżeli zaś trafisz na męża niedbałego o własne dobro, masz rozum y cierpliwość; ale odwracać będę, ile możności, taki los od ciebie, bo znam co kosztuie, y iak mało żon znosić go przystoynie umieią, a radabym cię widzieć nayszczęśliwszą, bo sobie podchlebiam, żeś tego warta.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Miło widzieć tę szczęśliwą wzaiemność między dobrą matką, y dobrą corką; ustawiczne karesy, dogadzanie prożności, nie są miłością macierzyńską; ale przez przykłady rządu y cierpliwości, być ustawicznym domowey spokoyności wzorem, to iest, co się zowie prowadzić roztropności drogami do ułagodzenia nayprzykrzeyszego życia losu: ieżeli corce należy winszować matki, to y matce corki.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Już ia nie wiem, w czym iestem pomocą matce moiey.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Nie czyń mi krzywdy, Tereso; wyznay szczerze, że nic nie taię przed tobą, y że zawsze przytomna iesteś zatrudnieniom moim: nie raz ci przepowiedziałam, co cię za los czeka; wiesz, że oyciec twoy nie oszczędza fortuny, wolno mu, bo iego iest własna; nie sarkam na to, ale gotuiąc cię, żebyś się w każdym losie umiała znaleść szczęśliwą; rozumiem, że ci naybogatszy gotuię posag.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Prawdziwie wdzięczen iestem Michałowi, że się stał niewinną przyczyną, tych ślicznych cnoty y sentymentu sporow: możebym był tego nie słyszał, gdybym był Panią w iey pokoiu nad praktyką tych powinności zastał; bo te zazwyczay w wielkiey cichości y spokoyności widziałem.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Cichość nie może być zawsze; bo chcąc mieć spokoyność, trzeba czasem napomnieć upartych, żeby nie przerywali słodyczy rządu. – Tereso! przyznay się, żeś y ty nie raz wzięła napomnienie; ia nie wiele trzymam o roztropności tych, ktorych nieprzyzwoicie dobremi nazywaią dla tego, że są oziębli, niedbali y słabi; kto chce utrzymać rząd szczęśliwy, musi wszystko widzieć, a wszystko widząc, y z ludźmi nie z aniołami do czynienia maiąc, musi zganić, lub pochwalić, co sprawiedliwość każe.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Ja tyle wiem, żebym zawsze rada być tak napominaną, iak byłam od matki moiey; bo mi to często wyszło na dobre.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>To iest przynaymniey moim celem: ktora matka rozumie, że dała doskonałą edukacyą corce, gdy ią kazała uczyć ięzykow obcych, tańcować y grać na klawikorcie; bardzo się myli: mogą te zabawy być wielką pomocą do osłodzenia przykrych nudow; ale ia przynaymniey wiem z doświadczenia, że rząd domowy, ktory właśnie iest naszey płci powinnością, tyle ma podziałow, gdy go kto chce doskonale pełnić, że często nayprzyiemnieyszą zabawę zastąpić może, bo skutki iego są naypewnieyszą przyczyną trwałego szczęścia. Jeżeli zaś te powierzchowne ozdoby maią samey prożności być sidłami; bardzo przemiiaiącą daią rozkosz, a bardzo pewne y długie gotuią cierpienie, chociażby w nayobfitszym losie. Wiele żon narzekaią na swoy los, a nie zważaią, że często samę są przyczyną, bo się w tym losie znaleść nie umieią, y osłodzić go przez rozum.</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#luiza">LUIZA.</rs> (y dawni)
+              <rs key="#starościna">STAROŚCINA.</rs>
+              <rs key="#teresa">TERESA.</rs>
+              <rs key="#zacniewski">ZACNIEWSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Jegomość przysłał, że czekać będzie Pani w Saskim ogrodzie, gdzie Pan Pułkownikowicz daie lody y puncz.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Niechże przeprosi mego męża, że nie mogę być; bo, bo, bo, bo, słaba trochę iestem; y moia corka ieszcze czeka na lekcyą historyi Polskiey.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Ale ten lokay powieda, że tam dużo ludzi, na klarynetach graią bardzo wesoło, officerow pełno, y Pani Cześnikowa.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Tereso! czy chcesz, żebym iechała? oddaię ci to do woli.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Pozwol mi WaćPani Dobrodzika, żebym iey tu służyła; nie chciałabym opuścić moiey lekcyi: właśnie iestem w tey części historyi, kiedy Polska tak szanowana była od wszystkich narodow; radabym znaleść co na pochwałę płci naszey, że umiała ożywiać y zachęcać ducha rycerskiego: bo zda mi się, że to powinnoby być celem edukacyi naszey, ieżeli we płci męskiey chcemy widzieć obrońcow naszych, y ludzi do społeczności szacownych.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Więc powiedz Luizo, że nie możemy być.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Przykładna iest chęć poznania historyi tym celem, ktory dopiero słyszałem z ust Teresy.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Mnie się zdaie, że iedna z przyczyn mocnych, dla czego w Polszcze mało widać prawdziwych obywatelow, iest ta: że cała edukacya mężczyzn iest obrocona na podobanie się kobietom, a kobiety nie są dosyć oświecone wiadomością dzieiow własnego kraiu, żeby im się tacy tylko ludzie podobać mogli, ktorzy sławę y dobro iego maią za cel: rozumiem, że w dawnieyszych wiekach choć mniey było wdziękow, musiało być więcey czułości w płci naszey. Polacy dawni, gdy woiażowali, rodzice wysyłaiąc za granicę, musieli sobie zakładać iakiś cel nauki y doświadczenia, ktore potym na pożytek własnego kraiu służyły. Dziś woiaże więcey śmieszności nałogow, iak oświecenia w powracaiących do kraiu wprowadzaią; bo nie maią żadnego pożytecznego dla kraiu zamiaru: gdy wychowanie kobiet, albo mężczyzn nie ma za cel dobra powszechnego, tylko prożność, ten musi być skutek koniecznie.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Gdyby takich matek więcey było, iakbyśmy byli szczęśliwi! ta sama chęć podobania się dobrze użyta, mogłaby uszczęśliwiać narody: ale dalekoby nas ta rozmowa zaprowadziła. Powrocę tu poźniey, teraz miałbym sobie to za występek, gdybym więcey czasu tak dobrze używanego zabierał.</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA X.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starościna">STAROŚCINA.</rs>
+              <rs key="#teresa">TERESA.</rs>
+            </p>
+          </stage>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Poydźmy, kochana Tereso, do zabaw twoich; rozumiem, że cię szacunek takiego człowieka, iak Pan Zacniewski, powinien zachęcić.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Ale, ieżeli tylko powroci.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Powroci, bo obiecał; ieżeliby tu kto przyszedł, powiedzieć, że mnie nie masz, iak się uspokoię, to tu sama przyidę. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA XI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#luiza">LUIZA.</rs>
+              <rs key="#michał">MICHAŁ.</rs>
+            </p>
+          </stage>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Czy rozumiesz, Panie Michale, to wszystko, co oni tu gadali? bo ia nie wiele rozumiem: chcą, żeby Panna Teresa uczyła się historyi; ia zawsze słyszała, że kiedy kto iaką historyią gdzie zrobił, to wszyscy na niego biy zabiy, a oni chcą z tey Panny tak grzeczney historyczkę zrobić.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>A to z wysoka dla ciebie, moia Panno, nie taka to historya, iak WaćPanna rozumiesz; są to iakieś historye dawne w książkach drukowane; ale kto to tam wie! czy to prawda, czy nie prawda: ci Panowie czasem nie wiedzą, co się w ich domu dzieie, a chcą wiedzieć, co się przed kilka set lat na świecie całym działo.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Moy Panie Michale! iaby też rada iaką historyą umiała; czasem moia Pani nie może usnąć, tobym iey prawiła; możeby to pomogło na sen: żebyś mnie WaćPan iakiey nauczył, bardzobym WaćPanu dziękowała; ia widziałam nie raz przez okno, iak WM. WM. Pan nieboszczykowi Panu swemu książki nosił, to WaćPan musisz być bardzo mądry.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>A iużci dał Pan Bog rozum; przecieć człowiek nie darmo iadł y pił na świecie.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Czy był WaćPan w szkole?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>W samey szkole nie byłem, alem bardzo blisko szkoły mieszkał.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Coż też to tam robią w tych szkołach?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>A rożne rzeczy, rożne rzeczy. <stage>(na stronie)</stage> Co iey tu powiedzieć, kiedy ia sam nie wiem.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Ale coż przecie, czy kwiatki? czy kornety?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Bardzoś ciekawa, moia Panno, bardzoś ciekawa; iam przysiągł na sekret, że wynidę ze szkoł, a nie będę mowił o szkole, iakbym tam nigdy nie był.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>No, kiedy WaćPan tak dobry do sekretu, to mi WaćPan musisz przynaymniey czytać: mam tu starą książkę; bobym się rada przecie od WaćPana czegoś nauczyła.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(do ludzi)</stage> Oy! źle; a ia czytać nie umiem; <stage>(do Luizy)</stage> zkądże to WaćPanna tę książkę wzięła?</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Tu w garderobie na połce leżała.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(przewraca książkę)</stage> A boyże się Boga! moia Panno; to książka zakazana.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Jak to zakazana?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Nie wolno iey czytać.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Jak to może być nie wolno? kiedy kto ma oczy, y ma księżkę przed oczami; wszak to są kazania: – Xiądz Kapelan zawsze nam ie na wsi czytał, a potym przepisował, y w inszey parafii za swoie prawił.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Moia Panno! co Kapelanowi wolno, to Kamerdynerowi nie wolno; żeby on też przyszedł Pańskie suknie przerzucać, tobym ia mu nie dał, to też ia się do iego rzeczy nie chcę mieszać, <stage>(do ludzi)</stage> udało mi się.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>A to co inszego; y czymże się będziemy bawić, kiedy WaćPan taki skrypulat? był tu przedtym Pan Łukasz, ale on nie był taki skrypulat, y na co więceyby się był odważył.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Y iakże też WaćPannę bawił, ten Pan Łukasz?</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>A bardzoś WaćPan ciekawy, ia też przysięgła na sekret, tak iak WaćPan w szkole; dosyć WaćPanu wiedzieć, że mi Pan Łukasz nigdy nie odmowił, kiedy mi się czego chciało.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Czy to tak było, moia Panno?</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Oy! tak, tak, bawiliśmy się bardzo dobrze.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Winszuię WaćPaństwu. <stage>(W tym słychać dzwonek)</stage></p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Oy! Jeymość dzwoni, byway WaćPan zdrow, przyidę ia tu znowu do WaćPana potym; bo kiedy Pana Łukasza nie masz, to mnie musi Pan Michał zabawić. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA XII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#michał">MICHAŁ.</rs>
+            </p>
+          </stage>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(sam)</stage> No, no; widzę to stworzenie także się lubi bawić; iuż to bawienie nieszczęśliwe, do wszystkich stanow przeszło; mało kto czyni swoię powinność, bo się wszyscy bawią; to też y kupcy bankretuią, rzemieślnicy zawodzą, y Panowie nie maią czym płacić, bo wszyscy szukaią wiatru po świecie, a nikt się nie umie rządzić według swego stanu. Już sobie ułożyłem w głowie, że się może z tą Luizą ożenię; dziewczyna mi się podoba, rzeźwa; ale kiedy się iuż lubi bawić, to nie na żonę. Człowiekby rad przecię iako grosz zebrać na starość, żeby mieć pokoy w domu, a toby wszystko poszło na zabawy kochaney żonki. Poydę teraz do Pana spytać się, czy będzie w wieczor w domu, y czym się będzie bawić, co wieczerza, to wątpie, żeby była: bo się kucharz z szafarzem poszli bawić, y nic nie przygotowali; potym muszę się spytać, iak dziś będziemy pozbywać wexlowe wizyty: dziś to właśnie dzień straszny; kto tam wie, co się na sądach stało? iuż tu dziś woźny zaglądał, to nie darmo.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT II.</head>
+        <div type="scene" n="13">
+          <head>SCENA I.</head>
+          <stage type="setting">
+            <p>(Teatrum reprezentuie ogrod Saski, słychać muzykę na dętych instrumentach graiącą rożne sztuczki, w głębokości Teatru rożne osoby niby po ogrodzie chodzące, z przodu Starosta z Cześnikową siedzi na ławie przy szklepiku, w ktorym Lemonadę przedaią, y cicho mowią z sobą. Pułkownikowicz, Rewizorowicz, Lustratorowicz, Subdelegatowicz, nie daleko od nich na stołkach, gdy muzyka przestaie)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+              <rs key="#lustratorowicz">LUSTRATOROWICZ.</rs>
+              <rs key="#rewizorowicz">REWIZOROWICZ.</rs>
+              <rs key="#subdelegatowicz">SUBDELEGATOWICZ.</rs>
+              <rs key="#pułkownikowicz">PUŁKOWNIKOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(woła na chłopca roznoszącego puncz)</stage> Daway ieno go tu ieszcze, chłopczyku, wypiymy za zdrowie Cześnikowy.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Nayniższa, nayniższa, bez fatygi; ale czy zdrowy puncz po rakach? bobym y ia się napiła.</p>
+          </sp>
+          <sp who="#starosta #lustratorowicz #rewizorowicz #subdelegatowicz #pułkownikowicz">
+            <speaker>STAROSTA. LUSTRATOROWICZ. REWIZOROWICZ. SUBDELEGATOWICZ. PUŁKOWNIKOWICZ.</speaker>
+            <p><stage>(Wszyscy razem)</stage> Vivat Jeymć Pani Cześnikowa, vivat, vivat.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Ale pfe! chłopcy nie krzyczcie; będą rozumieli, żeście poszaleli dla mnie.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>Ale za coż nie szaleć? y coż mamy lepszego do roboty? na to żyiemy.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Ale puncz walny! ey Podczaszaneczko, szkoda, że cię tu nie masz, ieszczebym wypił za twoie zdrowie.</p>
+          </sp>
+          <sp who="#subdelegatowicz">
+            <speaker>SUBDELEGATOWICZ.</speaker>
+            <p>Wypiymy, kto co lubi?</p>
+          </sp>
+          <sp who="#starosta #lustratorowicz #rewizorowicz #pułkownikowicz">
+            <speaker>STAROSTA. LUSTRATOROWICZ. REWIZOROWICZ. PUŁKOWNIKOWICZ.</speaker>
+            <p><stage>(Wszyscy razem)</stage> Va, va, zgoda, co kto lubi.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p><stage>(wstaie, y kłania się wszystkim)</stage> Dziękuię wam, moie chłopcy; iacyście wy nieoszacowani! ale co ty, Panie kuzynku, Pułkownikowiczu, toś nie szczery: bo ia wiem, co ty lubisz, y iuż z kochanym Starostą ułożyliśmy praeliminaria.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p><stage>(do ludzi)</stage> A ona widzę rozumiała, że to o niey mowa; co kto lubi, moia rybeńka.</p>
+          </sp>
+          <sp who="#subdelegatowicz">
+            <speaker>SUBDELEGATOWICZ.</speaker>
+            <p>To wcale stworzenie do lubienia.</p>
+          </sp>
+          <sp who="#pułkownikowicz">
+            <speaker>PUŁKOWNIKOWICZ.</speaker>
+            <p><stage>(do Cześnikowy)</stage> Prawda, Mościa Dobrodziko, że lubię to, co kuzynka Dobrodzika myśli; ale ieszcze nie wiem, czy mnie tam lubią, y boię się trochę ambarasu; ieżeli przyidzie do ślubu, iuż się nie będę mogł tak bawić.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p><stage>(do Pułkownikowicza, przez ten czas, iak to Cześnikowa mowi, Starosta z drugiemi niby cicho rozmawia)</stage> Cicho! nie bądź cudakiem; Macierzyńska substancya znaczna, Panna iedynaczka, matka sama się rządzi swoią fortuną, nie marnotrawi, to na was będzie zbierać; a kiedy będzie twoią żoną Teresa, łatwiey temu poradzić, żeby Ichmościow oszukać, a może y kochaną żonkę. Już tylko się ożeń. Ja się podeymuię wystawić cię na człowieka; nie takich ia wyprowadzała w pole, iak ten nudny Starosta. <stage>(w tym obraca się do Starosty)</stage> Starostuńku! przecież ty nieoszacowany iesteś! iak mnie ty bawisz: prawdziwie, uczcie się młodzikowie, iak damy bawić.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Alboż to y my nie bawiemy? wszak to iuż szosta waza punczu.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(ziewaiąc)</stage> Nie można inaczey mowić, tylko żeście zabawni; ale co moiey żony nie widać? iuż tak dawno posłałem, żeby tu z moią corką przybyła do naszey kompanii; bo czasem muszę ią menażować, ma Jeymość Dobrodzika pieniążki.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Dobrze robisz, Starosto, że menażuiesz taką żonę; radabym, żeby przyiechała y Teresa, bobyśmy iuż co zkonkludowali w tym interesie mego Pana kuzyna.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Nie tak to tam łatwo, ale ia mąż, a mąż głowa.</p>
+          </sp>
+          <stage>(Tu zaczyna grać muzyka almandę, Cześnikowa minkami przysadnemi zaczyna tańcować do Starosty; po długim podryganiu, Cześnikowa, wachluiąc się, mowi:)</stage>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Ah! ah! zmordowałam się.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Wierzę, wierzę.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Jak to WaćPan wierzysz? to WaćPan pewnie rozumiesz, że ia ciężka.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Nie to chciałem mowić, tylko że WaćPani Dobrodzika tańcuiesz z akcyą, y z gracyą; to bardzo morduie.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Otoż nie morduie; gotowabym ieszcze nie iednego przeskoczyć.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Wierzę, bo Pani iak ptaszek.</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#lorens">LORENS.</rs> (Lokay y dawni)
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+              <rs key="#lustratorowicz">LUSTRATOROWICZ.</rs>
+              <rs key="#rewizorowicz">REWIZOROWICZ.</rs>
+              <rs key="#subdelegatowicz">SUBDELEGATOWICZ.</rs>
+              <rs key="#pułkownikowicz">PUŁKOWNIKOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#lorens">
+            <speaker>LORENS.</speaker>
+            <p>Starsza Pani nie będzie, bo trochę słaba, a młodsza Pani bierze lekcyą.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Jaką lekcyą? o tym czasie po obiedzie. Coż ta moia żona z tą biedną dziewczyną robi? na co się te lekcye zdadzą, czy nie lepiey się zabawić? ile że lekcya po obiedzie pewna niestrawność w żołądku.</p>
+          </sp>
+          <sp who="#lorens">
+            <speaker>LORENS.</speaker>
+            <p>Sama młodsza Pani prosiła Jeymości, żeby iey pozwoliła zostać w domu, y lekcyi nie opuszczać, bo to tam coś ma być bardzo ciekawego: iakaś to tam historya Polska, ale nie wiem iaka, tylko że to ma być bardzo pięknie, bo długo o tym mowili.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Co? historya Polska dla Panny? a iuż też ta Starościna niewiedzieć po iakiemu edukuie tę corkę! nie dziwowałabym się, żeby dla tańca, albo dla klawikortu została w domu. Ale dla historyi, y ieszcze dla Polskiey, a pfe! coż to za nudy! y WaćPan oyciec, a pozwalasz na to; cel edukacyi Panny powinien być, zawracać głowy mężczyznom, a cel życia mężczyzn, iest umizgać się y bawić damy.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Historyczkę zrobią z Panny bez potrzeby, nie miło o tym y słuchać; poydźmy. <stage>(Tu młodzikowie odchodzą w ogrod)</stage></p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Już ta moia żona nic nie wie, co to iest edukacya corki; coby ią miała nauczać, iak to przecie w kompanii uśmiechnąć się, w czasie okiem mrugnąć, nogę pokazać niby nie chcący, opisać drugie damy, iak ktora była ubrana, iaki miała kornet, iaki kwiatek, do kogo się umizgała, kogo oszukuie, żeby przecie pokazała, że się na tym zna, y żeby umiała zabawić kompanią, to ona iey każe uczyć historyi Polskiey; na co się iey to zda? – rzadko ktory Polak zna historyą swego kraiu, z kim ona będzie o tym mowić? chyba z cudzoziemcami?</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Już ia miarkuię, kto to tego narobił; zapewne ten nudny Pan Zacniewski, bo żona WaćPana zawsze go rachuie za bardzo pożytecznego człowieka dla kraiu, a on też wszystko iey doradza, co ma z Teresą czynić; ślicznie on ią wyedukuie: będzie umiała historyą Polską, a wstążki na głowie nie będzie umiała dobrze przypiąć.</p>
+          </sp>
+          <sp who="#lorens">
+            <speaker>LORENS.</speaker>
+            <p>Był tam y Pan Zacniewski.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Otoż, nie mowiłam ia? trzeba żebyś WaćPan koniecznie tego człowieka pozbył z domu, tak mowiąc między nami, to y nie przystoi, żeby ten człowiek uczęszczał w dom WaćPana. <stage>(w tym się ogląda)</stage> Ale apropo, gdzie się nasze chłopcy podzieli?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Poszli chodzić w ogrod.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Kiedy nam nikt nie przeszkadza, umowmy co względem wiadomego WaćPanu interesu, ale trzeba lokaia odesłać.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(do Lorensa)</stage> Czekać mnie z karetą u żelazney bramy.</p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs> (sami)
+            </p>
+          </stage>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Moy Starosto! trzeba iakiś koniec zrobić; podchlebiam sobie, że moia dla WaćPana powolność zasłużyła, żebyś mi nie odmowił, o co ci dawno iuż głowę kłocę: znasz mego kuzyna, Pułkownikowicza, chłopiec udatny, szykowny, tańcuie bardzo ładnie, woiażował; co większa, że zawsze dniem y nocą iechał, toć ia rozumiem, że żyźwieyszego chłopca nie możesz pretendować dla swoiey corki za męża: przytym rodzice wkrotce Bogu ducha oddadzą, pieniążki maią; iest prawda kilkoro dzieci, ale drobnych, a ten chłopiec ma obrot, to on potrafi użyć awantażow opieki, ia mu też moiey rady nie odmowię, bo ia iestem bardzo dobra kuzynka; a do tego w tey młodości iuż iest Pułkownikowiczem, ieżeli stopniami poydzie, zapewne poydzie do znacznego urzędu: nie mogę WaćPanu dać większego dowodu przyiaźni, iak tę partyą ofiaruiąc dla corki.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(zamyślony)</stage> Prawdziwie znam to za exces łaski Pani, ale moia żona zostawiła sobie obierać dla Teresy męża. Ja widzę, że Pułkownikowicz zabawny, przynaymniey całe życie się bawi; iednak bez moiey żony o corcę boie się co układać.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>A pfe, Starosto! podłe sentymenta, żeby zaś mąż miał się radzić żony; zkądże ci się ta staroświedczyzna wzięła? prawda, że nieboszczyk Cześnik, moy kochany małżonek, nic bezemnie nie robił, ale też wiedział, iaką miał żonę; nie chwaląc się, iestem wzięta u ludzi, y znam świat, ale WaćPana żona, coż zna? ieżeli ten rząd domowy, te śpiżarniane zabawy, te rachunki z Ekonomami, afi! afi! gdzie taka kobieta może dać dobrą radę mężom! nie chwale się, ale powinieneś sobie WaćPan winszować, żeś dostał takiey przyiaciołki, iak ia.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Przyznaię ia to wszystko, Mościa Dobrodziko, ale też y to przyznać muszę, że odtąd, iakem zaczął pod słodkiemi iey przyiaźni prawami używać świata, wprawiłem się w ambarasy wexlowe, y gdyby nie moia żona, iużbym był nie uniknął niedyskrecyi traduiących.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>O! moy kochany Starosto! lada bagatela cię zatrudnia; to Pańska rzecz przewexlować fortunę: czy wolałbyś, żeby te spleśniałe dukaty śmierdziały ci pod nosem? fi! porzuć te brudne myśli! decyduy się Starostulu dla mego kuzyna; żona WaćPana bogata sama z siebie, corka iedynaczka, zrobisz szczęście dla tego grzecznego chłopca; toć on może w to potrafi, używszy protekcyi, że żona WaćPana nie będzie długo zawadzać fortunie, a WaćPana obowiąże się żywić do śmierci...</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(z podziwieniem)</stage> Mnie żywić do śmierci? smutna perspektywa! tenże to iest cel zabaw naszych, żebym ia został bez sposobu do życia?</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>A! moy Starosto! iakisz masz umysł trwożliwy; coż ci to szkodzi? byle się dobrze bawił: fi! nie przystoi mężczyznie być tak mało odważnym! bierz ze mnie przykład, choć iestem kobieta; wiesz, że mi to nie długo wystarczało, co mi się po mężu zostało, przecięż używam świata rowno z naybogatszemi, bo mam sposoby y odwagę, y iestem Cześnikową a la mod.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Nie każdy tak szczęśliwy, Mościa Dobrodziko.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Ale, moy Starosto! bo nie każdy da sobie czas poznać skrytości sprężyn, ktoremi się ludzie promowuią na świecie; wierz mi, tylko mnie słuchay, day corkę memu kuzynkowi, to zobaczysz, iak cię wypromowuię; wiesz z kim iestem w przyiaźni? y w iak ścisłey?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Pozwol mi WaćPani Dobrodzika pomyśleć nad tym, bo to chodzi o rzecz; dawno też iuż nie miałem czasu żadney uczynić uwagi, bom się bawił.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Otoż cię zostawiam samego, moy kochany Starosto; poydę w ogrod naszych chłopcow poszukać; naypierwiey pomyśl o tym, że, ieżeli dobrze mieć mnie za przyiaciołkę, to bardzo niebespiecznie mieć mnie za nieprzyiaciołkę; a ieżeli WaćPan odmowisz mi, o co proszę, będę wiedziała co z tym czynić: wszak wiesz, że mam głowę, y wiem do kogo trafić, żeby wszystkiego dokazać. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs>
+            </p>
+          </stage>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(sam, zamyślony)</stage> Diabelnie daleko zabrnęłem z tą przyiaciołką! ani mi odchnąć nie da, tylko mnie wszystko bawi; prawdziwie ta zabawa stanie za naywiększą pracę! z tą tylko rożnicą, że bez pożytku w domu: iak tu wybrnęć z tey galery? kiedy sobie żyłem spokoynie z moią żoną, prawda, żem tyle nie ieździł na spacery, ale się mnie zdaie, żem był szczęśliwy; teraz się wszystko bawię, y bawię, y bawię ustawicznie, ale gdy powrocę do domu trzeźwo, y porachuię się sam z sobą; widzę, że im więcey się bawiłem przez dzień, tym więcey niespokoyności zostaie w domu: do czego mnie też te zabawy zaprowadzą? nie wiem: musi to przecie mieć iaki cel, bo widzę, że się wszyscy bawią, a rzadko kto fantazyią traci, choć wielu, między bawiącemi się, imiona w regestrze wexlowym widziałem. Prawda, mowi ta Cześnikowa: że trzeba mieć odwagę y czoło, to się wszystko udaie; iednakowoż kobieta rozumna: darmo, iuż teraz nie czas wrocić się do spokoyności domowey, trzeba brnąć, trzeba corkę ażardować za tego iey kuzyna; niech się dzieie co chce, będę się bawił, choćbym się miał y nudzić, trzeba zagałusić tę niespokoyność y gryzotę.</p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#michał">MICHAŁ.</rs>
+            </p>
+          </stage>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>A iak się masz, Michale? coż tam powiesz? gdzie idziesz?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Do Pana.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>A po co?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Chciałbym wiedzieć, czy Pan będzie u siebie w wieczor.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Będę.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>A wieczerza?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Na 12 osob.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>A ktoż będzie wydawał do kuchni?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Kto? zwyczaynie szafarz.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ale kiedy go nie masz.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Gdzież u diabła poszedł?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Poszedł się bawić.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Pogański syn! co za hultay! Na koniec to niech odbiią śpiżarnią; czyż trudno o ślosarza? co mi tam takie nudy baiesz?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Mnieysza o to, ia każę odbić, kiedy Pan tak każe, <stage>(odchodzi, y znowu się wraca)</stage> ale, Mości dobrodzieiu! szkoda kłotki, bo to angielska.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Idź do diabla z tą ekonomią! co cię moy worek kosztuie?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Prawda, że mnie nie kosztuię, ale mi żal Pańskiey szkody; bo to ślosarze drodzy.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Skończże te baie.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(odchodzi y wraca się)</stage> Ale, Mości dobrodzieiu! iak się śpiżarnia otworzy, ktoż będzie ieść gotował?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Czyś oszalał? zwyczaynie kucharz.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ale kiedy go nie ma w domu?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Gdzie się podział?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Daie bal na Pradze swoim kolegom, kucharzom y pasztetnikom, pod wiechą; maią tam być także niektorzy lokaie dystyngwowani.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Coż to za prożniacy!</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(kłania się nisko)</stage> Z przeproszeniem Pańskim, albo to człowiek prożnuie, kiedy się bawi? wszak się Pan ustawicznie bawi, a zawsze smutny, zmordowany powraca do domu, iak gdyby naywięcey pracował.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Panie Michale, wara z takiemi żartami; nie za panie brat.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Bez urazy, Mości Dobrodzieiu; ia nie chcę Pana gniewać, choć prawdę mowię.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>No, idźże sobie iuż precz, bo ia nie mam czasu o takich bzdurach gadać.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Pozw;l ieszcze, Panie, aby słowko.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Mow, a nie baw się.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Oto mnie się zdaie, żeby pewnieysza wieczerza była u Jeymości; bo chociaż Jeymość nie bardzo rada tym gościom, co u Pana bywaią, to Panu samemu, wiem, że będzie rada bardzo.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Coby ia cały wieczor z moią żoną robił! ia się chcę bawić w moim apartamencie, a Jeymość niech sobie siedzi w swoim, kiedy chce; ieszcze lepiey, nie będę miał subiekcyi.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ale pewnieysza wieczerza, y kłotki byśmy nie zepsuli, y kucharz, kto wie, czy powroci; może się bardziey bawi, iak Pan.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Baiesz nic do rzeczy; iak ia chcę, tak niech będzie.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(odchodzi y wraca)</stage> Jeszcze mi Pan niech pozwoli iedno słowko.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Tylko prędko.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Jeżeli iacy niespodziewani goście przyidą, co im powiedzieć?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Nie przyidą, tylko proszeni.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ale, bo ia iuż dziś kilku nieproszonych odprawiłem.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Jak to?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Jakiś Subdelegat z woźnym, iuż kilka razy napierał się do Pańskiego domu; ale iak się dowiedzieli, że Jeymość sama iest, odeszli, ale postawili iednego, ktory pilnuie na przyiazd Pański; powiadaią, że są od iakiegoś sądu przysłani na tradycyą, ruchomych y nieruchomych kawałkow Pańskich.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Oy źle! Panie Michale; moy kochany Michale, nie puszczay tych gości; prawda, że dziś sprawa przypadała, a ia się bawiłem, y zapomniałem wszystkiego.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>To nie muszą być goście zabawni, kiedy ich Pan nie chce puszczać.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Biegay, proś moiey żony, żeby nie wychodziła z domu, ia tam zaraz przyidę; biegay.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>A mam szukać szafarza, kucharza, ślosarza?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Nie, nie, nie, biegay do domu, pilnuy, nie puszczay, choćbyś miał życiem przypłacić, moy Panie Michale.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Tak to! poki Michał mowił o wieczerzy, to był prostym Michałem; iak go trzeba, żeby dłużnikow nie puszczał, iuż ci ow prosty Michał został Panem Michałem. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs>
+            </p>
+          </stage>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(sam, zamyślony)</stage> Oy źle! iak się tu wykręcić! to nie żart; dziś termin przypada do zapłacenia 3000 czerw. złotych, a ia szeląga nie mam; co to, to nie bawi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#rewizorowicz">REWIZOROWICZ.</rs>
+              <rs key="#lustratorowicz">LUSTRATOROWICZ.</rs> (y)
+              <rs key="#subdelegatowicz">SUBDELEGATOWICZ.</rs>
+              <rs key="#starosta">STAROSTA.</rs>
+            </p>
+          </stage>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>A gdzie się podziała Cześnikowa?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Poszła WaćPanow szukać.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>A my też właśnie iey szukamy; cośmy się tam naśmiali z Podczaszanki, ktora prożno sidła swoie na Starościca zastawiła, a on się z tego śmieie, y do Skarbnikowny pali; to trio extra zabawne.</p>
+          </sp>
+          <sp who="#subdelegatowicz">
+            <speaker>SUBDELEGATOWICZ.</speaker>
+            <p>To fraszka, ale ten Reverendus Pater, co się ze szkiełkiem za robranami uwiia między lipami, wart sto tysięcy.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>A ten lichwiarz, co to po trzydzieści od sta bierze na miesięc, iakim pożądliwym okiem na brylanty Kasztelanowy poziera! znać to z miny iego, że ie iuż ma za swoie.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(po długim zamyśleniu)</stage> Muszę ia iednak Cześnikowy poszukać; kto wie, czy ona mi nie poradzi? ta kobieta ma rożne sposoby, y sposobiki: <stage>(odchodzi)</stage> na ostatek iey moię corkę obiecam; tonący brzytwy się chwyta.</p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#lustratorowicz">LUSTRATOROWICZ.</rs>
+              <rs key="#subdelegatowicz">SUBDELEGATOWICZ.</rs>
+              <rs key="#rewizorowicz">REWIZOROWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Kiedy tu Cześnikowy nie masz, to ona zapewne złapała gdzie Pułkownikowicza, y swata; bo to iey pasya swatać, y intrygować.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>Jeżeli ona chce tego fircyka zrobić z wysoka amoroso, to nam walną komedyą wyprawi; ale iakże ona diabelnie tego Starostę wystrychnęła! mowią wszyscy, że ani nadziei nie masz, żeby powstał: co dzień inszy termin wexlowy; a słyszę ma tey zabawki ieszcze na kilka niedziel. Wyperswadowała mu, że ią kocha, on rozumie, że Starosta powinien koniecznie mieć intrygę, y sie, iak swego.</p>
+          </sp>
+          <sp who="#subdelegatowicz">
+            <speaker>SUBDELEGATOWICZ.</speaker>
+            <p>Jeszcze on fantazyi nie traci, y dziś słyszałem daie nam bardzo zabawną wieczerzą w swoim apartamencie, y dobrze, że ta melancholiczna Starościna u siebie siedzi, bo ona z nami nie umie trzech zliczyć.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Ale Teresa ładna; iabym wołał, żeby ona bywała z nami: nie masz takiey dziewczyny na świecie, ktoraby nie nadstawiła ucha, kiedy iey kto co słodkiego podyktuie; iuż ia nie raz tego doznałem, a stopniami można ią na wszystko namowić.</p>
+          </sp>
+          <sp who="#subdelegatowicz">
+            <speaker>SUBDELEGATOWICZ.</speaker>
+            <p>Już ia tamtych pracowitych amorow nie lubię używać, to iest grunt.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p><stage>(ziewaiąc)</stage> Używać y zabawić się, to iest celem życia każdego edukowanego człowieka.</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>SCENA IX.</head>
+          <stage type="setting">
+            <p>(cicho mowiąc wchodzą)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#lustratorowicz">LUSTRATOROWICZ.</rs>
+              <rs key="#subdelegatowicz">SUBDELEGATOWICZ.</rs>
+              <rs key="#rewizorowicz">REWIZOROWICZ.</rs> (Dawni, y)
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs> (z)
+              <rs key="#pułkownikowicz">PUŁKOWNIKOWICZEM.</rs> (cicho mówiąc wchodzą)
+            </p>
+          </stage>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p><stage>(do ludzi)</stage> Nie mowiłem ia, że ona go formuie na amanta? iuż, kiedy szepce, to zapewna iaka intryga w robocie; będzie kontenta ta żona, co z iey łaski będzie miała męża.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Jak się macie, chłopcy? a gdzieżeście podzieli mego śmiesznego Starostę?</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>Poszedł Pani szukać, iak żelazo za magnesem, iak słomka za bursztynem, tak iego serce za Panią.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Nie żartuy, nie żartuy, bo on mnie niesłychanie nudzi: dobrze mieć między niewolnikami taką figurę, bo pożyteczna; ale co nudny, to nudny; kiedy to on chce udawać młodzika y galanta, to wiele warto.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Ma iakiś interes pilny do Pani, bo się wypytywał, y poszedł szukać po wszystkich ulicach ogrodu, musi być interes bardzo pilny; ha, ha, ha, bardzo pilny.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Już ci on mnie wszystko winien; pokazałam mu drogę życia, nauczyłam go, iak się ma bawić, rozłączyłam go z tą żoną, bo nic nudnieyszego nie masz, iak ten mąż z żoną ustawicznie, iakby iuż dla mężczyzny nie było innych kobiet, tylko żona.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>Tego tylko brakuie do przykładnych nauk Pani, żeby żonę nauczyła, że są inni mężczyźni dla niey, procz męża; boby to czasem y Teresa profitowała.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Nie boycie się, poymie to Teresa łatwo, spodziewam się, że będzie wkrotce moią kuzyną; ia potrafię zdiąć tę maskę indyferencyi dla chłopcow: nie dziwować się, że ieszcze nic nie umie, bo czego się można przy takiey matce nauczyć, chyba historyi Polskiey! to śliczna rzecz, ha, ha, ha.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>Ha, ha, ha, potrzebna ta historya, iak umarłemu kadzidło.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Przerobię ia tę historyą na bardzo ładny romans; potrafię ia w to, że nam się będą ordery kłaniały: nie prawda kuzynku?</p>
+          </sp>
+          <sp who="#pułkownikowicz">
+            <speaker>PUŁKOWNIKOWICZ.</speaker>
+            <p>Żeby tylko bogate ordery, bo iak ubogie, to te gwiazdy żadnego pożytku do domu nie przyniosą, ieżeli nie będzie komu banku założyć, ani dla kogo kart nakartować rozumnie.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Jakże to? alboż nasz Pułkownikowicz wstępuie wstan małżeński?</p>
+          </sp>
+          <sp who="#pułkownikowicz">
+            <speaker>PUŁKOWNIKOWICZ.</speaker>
+            <p>Jeymość ta sobie ułożyła, ma swoie sistema gruntownieysze, iak Kopernika; ia muszę się powodować, bo to moia protektorka.</p>
+          </sp>
+          <sp who="#subdelegatowicz">
+            <speaker>SUBDELEGATOWICZ.</speaker>
+            <p>Bravo, bravo! a z kim?</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Z tą niedostępną Teresą, corką Starosty; nie prawda, że proiekt rozumny? będziemy się walnie bawić; ale wy chłopcy, hołysze, wy tylko z łyszką do stołu, trzeba tu o pożytecznieyszych znaiomościach pomyśleć, możecie mi do tego pomoc, tylko zaczniycie zawczasu chwalić przyszłą moią kuzynkę, że piękna; przed drugiemi chwalcie wieczerze, bo są tacy, co ich to prędzey zniewoli, przed innemi mowcie, że iest gra mała dla zabawy; chwalcie bankiera, że bardzo pięknie gra, że sprawiedliwy, y że pięknym złotem płaci: będziecie smacznie wieczerze ziadać.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>W iakimże guście życzysz sobie Pani gości? czy filozofow?</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>A pfe! nie chcę, będą dzikie rzeczy gadać, y zawrocą głowę moiey kuzynie sentymentami; to na intratę nic nie warto.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>To poetow.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Tych zrazu trzeba, żeby wsławili piękne oczy moiey kuzyny; bo to wierszyki idyle madrygały wszędzie będą latać, nie iednego zwabią do tego bożyszcza, ktoremu kadzidło dadzą; iam wiele winna iednemu za odę, przez inne kanały prawda, że mowiąc o pewnych oczach, łatwo mu było o pochwały.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>A gdyby też bankierow, kupcow bogatych, wszak to ludzie uczeni? można ich w społeczności widzieć.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Oy! to, to, to, dobry proiekt; tak dobry, iak gotowe pieniędze; znać zaraz człowieka, co gruntownie myśli, to daleko żyznieysze, iak Jaśnie Wielmożna hołota.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>Jabym życzył prałatow modnych nie zapominać, y tam gotowizna pewna.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Dobrze mowisz; y nad temi dość iawnie w tym wieku nasze wdzięki panuią; proszę o nich: zdrożeią może śluby, rozwody, y pogrzeby, ale nasz pożytek.</p>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <head>SCENA X.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs> (y dawni)
+              <rs key="#lustratorowicz">LUSTRATOROWICZ.</rs>
+              <rs key="#subdelegatowicz">SUBDELEGATOWICZ.</rs>
+              <rs key="#rewizorowicz">REWIZOROWICZ.</rs>
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+              <rs key="#pułkownikowicz">PUŁKOWNIKOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ah! Mościa Dobrodziko! wszak ia to Pani szukam, iak mego słońca, ktorego promienie bardzo mi są dziś potrzebne.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Wierzę, wierzę, moy Starosteńku; nie odmawiam ci, ile możności, tego luminiarza posiłkow.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ale czy nie moglibyśmy na osobności mowić? bo to rzecz iest wielkiey wagi.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Nie strzegę się prawda nigdy tych chłopcow, bo są dobrzy do sekretu; ale ponieważ WaćPanu tak pilno, żebyśmy tylko sami byli; gotowam to uczynić: chłopczyki, chłopczyki, idźcie sobie pobiegać, szpieguycie te subiekta, o ktorych mowiliśmy, bo ia tu muszę ze Starostą serio pomowić; widzę że Jegomość ma iakieś proiekta niespodziewane.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Dobrze, Mościa Dobrodziko; Mości Starosto, bez subiekcyi, tylko bez naymnieyszey subiekcyi. <stage>(Odchodzą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <head>SCENA XI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs> (y)
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+            </p>
+          </stage>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ah! Pani, ratuy, zmiłuy się!</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Ale mnieysza o to, zaraz, czy tak pilno?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Dziś powinienem zapłacić wexel na Cz: Złł: 3000, a żadney gotowości nie masz; chcą mi wszystko tradować, iuż w domu czekaią na mnie.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>O to to chodzi? prawdziwie z miny WaćPana porywczey, wcale co innego sądziłam; aż mi gorąco.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Czy nie mogłaby mi Pani dać iakiey rady?</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Mam ia tu iednego przyiaciela, ktory, wiem, że ma pieniądze; ale trzeba zrobić facyendę, bo inaczey nie da.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Już na wszystko rezolwowany iestem, byle się ognać tey biedzie.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Trzy tysiące Czerwonych Złł: to bagatela; będzie ie miał zapewne ten zacny człowiek, ale mu trzeba będzie dać wexel na 6000 Czerwonych złotych; trzeba zdublować summę, kiedy pilno, a on WaćPanu wreszcie da karetę Gdańską, zegarek Stambulski, pierścionek, karabelę, kilkanaście beczek soli, y inne fanty; ktore się zawsze zdadzą, y 3000 Czerwonych złotych w gotowiźnie. Dawszy mu wexel na Czer: Złł: 6000, trzeba mu będzie regularnie płacić po trzydzieści od sta na miesiąc, bo to sumienny człowiek, nie będzie więcey wyciągał – aż do terminu.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>A iużci, kiedy brnąć, to brnąć, coż czynić?</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Y WaćPan to nazywasz brnąć? powinienbyś sobie winszować, że na tak sumiennego człowieka trafisz: spytay ieno się WaćPan innych, iak lichwiarzom płacą.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Już na wszystko przystaię, bylem zawodu nie miał: dobrze y iaki tydzień spokoyności, choć drogo kupić.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Właśnie go tu widziałam: poszukam go, może się z nim spotkam, to WaćPanu tę przysługę uczynię, żebym mu dała dowod, że umiem być przyiaciołką; spodziewam się, że to zobowiąże WaćPana, iże większą znaydę w nim łatwość dla proiektow mego kuzyna.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Wszystko, co Pani każe, uczynię: oyciec iestem, mam prawo rozrządzić losem moiey corki; potym umowiemy ślub: tym czasem muszę iechać do domu, wstrzymać tradycyą, y tam będę czekał na Panią y z całą kompanią. <stage>(Odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <head>SCENA XII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+            </p>
+          </stage>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p><stage>(sama)</stage> Bravo, Cześnikosiu! los ci sprzyia, y wdzięki y rozum twyy wiele dokazuią: właśnie myślałam, co zrobię z temi pieniędzmi, ktore dopiero odebrałam za pewną facyendę; a tak pod imieniem cudzym y kapitał zdubluię, y prowizyika urośnie; y tych śmierdzących nieboszczyka męża meblow pozbędę z domu. Vivat rozum – bravo, Cześnikosiu! Już też Staroście nie zostaie tylko pałac w Warszawie, będzie on moy: bo zkądżeby pieniędzy dostał na termin? – Każę wybielić, przedam; Wezmę przynaymniey 12,000 dusiow, y znowu zdubluiemy kapitał. Bravo, Cześnikosiu! Masz rozum.</p>
+          </sp>
+        </div>
+        <div type="scene" n="25">
+          <head>SCENA XIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#rewizorowicz">REWIZOROWICZ.</rs>
+              <rs key="#pułkownikowicz">PUŁKOWNIKOWICZ.</rs>
+              <rs key="#lustratorowicz">LUSTRATOROWICZ.</rs>
+              <rs key="#subdelegatowicz">SUBDELEGATOWICZ.</rs> (y)
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+            </p>
+          </stage>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Przybywaycie, chłopcy, winszuycie tey głowie tych oczu, y tym oczom tey głowy; oboie się walnie popisuią.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Tośmy nie darmo zostawili Panią: coż przecie, kochany Starosta frysz?</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Oy bardzo nie frysz! alem ia go ożywiła, obiecałam mu balsamu życia.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p>Kogożby Pani nie ożywiła! tym ci to oczom cudow dokazywać, umarłych wskrzeszać.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Prawda, że macie ze mnie nieoszacowaną kobiecinę. Cożeście tam widzieli? trzeba nazbierać magazyn nowin, żebyśmy się mieli czym bawić podczas wieczerzy.</p>
+          </sp>
+          <sp who="#subdelegatowicz">
+            <speaker>SUBDELEGATOWICZ.</speaker>
+            <p>Alboż to trudno o to w Saskim ogrodzie? kto zna związki sekretne, kto umie oczy szpiegować, to wiele się nauczy każdym weyrzeniem; a czego nie widzi, to się domyśli: a na reszcie, kiedy tego potrzeba, żeby się bawić, to skomponuie.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Już podobno y na komedyą poźno; piękny dzień, to nam czas zszedł w ogrodzie bez komedyi.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>A czyż może być lepsza komedya, iak ta, ktorą my sami dziś w ogrodzie gramy? ubył nam naylepszy aktor, kochany Starosta, iego suspiry młyny by wietrzne poruszyły.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Znayduiemy go na wieczor w domu, y upewniam was, chłopcy, że nigdy nie byłam tak z upragnieniem przyięta, iak dziś będę; kochany kuzynku – dziękuy mi, dziś, nie zawodnie odbierzesz pierścień zaręczaiący; ale strzeż się, żebyś się nie zakochał w swoiey przyszłey żonie, stałbyś się pośmiewiskiem wszystkich ludzi dobrego gustu; trzeba Jeymość prowadzić na naszą wolą, nie na iey humorek.</p>
+          </sp>
+          <sp who="#pułkownikowicz">
+            <speaker>PUŁKOWNIKOWICZ.</speaker>
+            <p>Ja tam nie wiem, co się ze mną dzieie, coście tam WaćPaństwo o mnie uradzili: ia do gotowego, byle się bawić dobrze.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Jeżeli mi się będziesz powodował z łagodnością, y ieżeli nie będziesz smutnym amantem swoiey żony, ieżeli cię iey pożyteczne ułomności nie będę gniewać, ia będę wiedziała, iak ie dyrygować, y wszystko poydzie dobrze: ale to iuż wieczor; iedźmy naprzod do mnie na moment, bo muszę z sobą zabrać pewne papiery, a potym poiedziemy wszycy do Starosty; za mną chłopcy.</p>
+          </sp>
+          <sp who="#rewizorowicz #pułkownikowicz #lustratorowicz #subdelegatowicz">
+            <speaker>REWIZOROWICZ. PUŁKOWNIKOWICZ. LUSTRATOROWICZ. SUBDELEGATOWICZ.</speaker>
+            <p><stage>(Wszyscy razem)</stage>Bravo, bravo, iedźmy za Panią. <stage>(Śpiewaią)</stage> To to Pani! to to Pani! Dobrodzika nasza.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT III.</head>
+          <stage type="setting">
+            <p>(Teatrum reprezentuie apartament Starosty)</p>
+          </stage>
+        <div type="scene" n="26">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#michał">MICHAŁ.</rs> (y)
+              <rs key="#luiza">LUIZA.</rs>
+            </p>
+          </stage>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Coż też to ci Panowie robią! co mogliby być tak szczęśliwi, y dobrowolnie się czynią nieszczęśliwemi.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Alboż wiesz co nowego?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Wszak tu codzień co nowego: oto nie pewni iesteśmy dzisieyszey nocy; czy nam tu pozwolę spać; y gdyby nie Pani, podobnobyśmy tu iuż nie byli.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>To wielkie szczęście, że moia Pani ostrzegła sobie zawczasu rząd swoiey własney fortuny: u nas wszystko w cichości; prawda, że się nie bawi tak, iak Jegomość, ale się też nigdy nie nudzi, zawsze ma coś do czynienia, y Panna Teresa toż samo: czas im schodzi, choć się nie staraią o to, żeby go zabiiać. Co mnie to troszkę tęskno bez Pana Łukasza, bo mnie nie ma kto bawić.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Czyń WaćPanna tak, iak Pani, zatrudniay się iey usługą, tak iak ona się zatrudnia, żebyś była szczczęśliwą, to zobaczysz, że nie będziesz tęsknić; ia też WaćPannie będę pomagał: a gdy uczyniemy zadosyć powinności, będziemy sobie spokoyni; y wiem, że ta dobra Pani pomyśli o tym, żebyśmy byli szczęśliwi.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Razem oboie?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Za coż nie? wszak y ia człowiek, iak drugi; gdybyś WaćPanna mogła zapomnieć o Panu Łukaszu, tobym y ia WaćPannę może zabawił.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>To tam nayłatwiey Pana Łukasza zapomnieć, on mnie bawił tylko czasem: nie raz my się namyślali w oknie stoiąc, osobliwie kiedy kto żyda na ulicy obił.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Otoż iabym WaćPanny tak nie zabawił; bo ia, gdybym widział, że kto y żyda niesprawiedliwie biie, tobym go bronił.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>WaćPan widzę bardzo sprawiedliwy, ale Pan Łukasz był śmieszny.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>A gdyby też WaćPannie przyszło męża wybierać, iakiegobyś wołała, czy śmiesznego, czy sprawiedliwego?</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>O! co na męża, iaki się trafi, byle prędko; nie trzeba teraz wybierać.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ale gdybyś też WaćPanna utraciła dobrą Panią, a dostała takiego męża, cobyś na niego musiała pracować, a onby wszystko przepił, albo przehulał z innemi; tobyś WaćPanna podobno nie była bardzo szczęśliwa; nie prawda?</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>Prawda; ale ktoż was tam zna: rzadko ktory dotrzyma po weselu to, co obiecał przed ślubem.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ale czasem mogłby się taki znaleść.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>O moy Panie Michale! proszę o niego, zaraz za niego poydę, proszę WaćPana wyswatay mnie WaćPan, za takiego będę WaćPanu zawsze mankietki prasować darmo. <stage>(w tym słychać dzwonek)</stage> O o! Jeymość dzwoni, byway zdrow, Panie Michale. <stage>(biegnie)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="27">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#michał">MICHAŁ.</rs>
+            </p>
+          </stage>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(sam)</stage> Ten dzwonek zawsze mi na przeszkodzie, kiedy zaczynam dobiiać targu, to mi się coś wmiesza, y popsuie interessa: ale iuż dziewczyna zaczyna poymować, żeby tylko Pańskie sprawy dobrze poszły; bo się bardzo boię tey wizyty wexlowey – cała nadzienia w Pani. Co to za dobra Pani! iey słowo tu więcey warto, niż wszystkie wexle.</p>
+          </sp>
+        </div>
+        <div type="scene" n="28">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starościna">STAROŚCINA.</rs>
+              <rs key="#teresa">TERESA.</rs>
+              <rs key="#luiza">LUIZA.</rs> (y)
+              <rs key="#michał">MICHAŁ.</rs> (w oddaleniu)
+            </p>
+          </stage>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p><stage>(idąc mowi do Teresy)</stage> Jak nam miło będzie teraz użyć świeżego powietrza, kiedy nam dzień zszedł pożytecznie! Czy nie żałuiesz tych ludzi, ktorzy ustawicznie roskoszy gonią, a wszędzie się nudzą? my nigdy nie tęskniemy, bo się umiemy bez ustawicznych zabaw obeyść; a kiedy na to przyidzie sposobna chwila, im rzadsze, tym bardziey smakuią?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Przynaymniey ia za siebie ręczę; ale nie śmiem sobie podchlebiać, żeby zatrudnienie, ktore WaćPani Dobrodzice daię, bez przykrości było.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Jeżeli przyznaiesz mi cokolwiek dobrych serca skłonności, powinnaś wierzyć, że wszystko, co dla ciebie czynię, iest zabawą, y to iest naypierwszą przyczyną spokoyności moiey: bo znayduiąc tak łatwą rozkosz w domu, nie szukam obcey; może bez ciebie y iabym tęskniła. Żałuię matek, co nie znaią prawdziwey rozkoszy być matkami.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p><stage>(całuiąc matkę w rekę)</stage> Nie spodziewam się zasłużyć na to, żebyś mnie WaćPani Dobrodzika kiedy oddaliła od siebie; w poświęceniu iey wszystkich godzin życia, naymiley przyszłość przewiduię.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Nie, moia Tereso, nie zawsze będziemy razem, trzeba, żebyś sobie obrała męża; poydziesz za losem iego, nie będzie to nigdy moią myślą, żebym cię miała rozłączać z powinnością dobrey żony.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Jeżeli mi ten wybor pozwolony, szacunek będzie mi powodem.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Ten tylko długie oswoienie się z przymiotami człowieka zasłużyć może; a ty ieszcze nie znasz może, kogo ci los przeznaczył.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Już się zwierzyłam podobno WaćPani Dobrodzice, kto ma moy szacunek, ten mnie zapewne nie będzie oddalał od społeczności matki moiey, bo wie, iak do mego uszczęśliwienia potrzebna.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Domyślam się: ale czy iesteś pewna iego zamysłow? dotąd nie mowił iaśnie, czy chce, czy nie chce; może inne ma ułożenia.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Mowił on ze mną nie raz boiaźliwie, ale kiedy widzę w tym wolą WaćPani Dobrodziki – z takim przyiacielem nie trzeba ostrożności, ile że nadchodzi czas, w ktorym trzeba oddalić wszystkie prożne nadzieie Pani Cześnikowy, ktora mnie iuż dawno swoim kuzynem straszy; potrzebny ten Jegomość inney społeczności, nie tey w ktorey ia mogę pomyślność znaleść.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Cieszy mnie ta nadzieia, oddalać iey nie chcę; ale nic chcę taić przed tobą, żeś winna względy woli oyca, a wiesz, że ma swoie ułożenia.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Zmiękczę go ufnością w dobroci iego.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Będziemy o tym mowić w przeciągu naszey podroży, teraz iedźmy zażyć chłodu. Michale!</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Mościa Dobrodziko.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Czy zaprzężona kareta?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Jeszcze nie.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Czemuż? niech się śpieszą.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ale, bo ia mam iednę proźbę do Pani.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Powiedz, czego chcesz; ale niech zaprzęgaią.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ale, bo iak ia powiem Pani moię proźbę, to znowu będę wyprzęgać; bo ia Panią znam: Pani nie wyiedzie, na co prożno ludzi trudzić?</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Tylko bez tych ogrodek, powiedz, o co chodzi, bo mi się spieszy.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Oto byłem u Jegomości tam, gdzie się to Jegomość bawi, y zastałem go samego, co sobie drzymał na ławce w Saskim ogrodzie.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Ale mnieysza o to, iak się bawi, tylko prędko.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Otoż, Mościa Dobrodziko, ia nie chciałem przerwać tey zabawki, żeby się Pan nie zląkł, iakby się nagle obudził, y tak sobie stanąłem na boku, y czekałem.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Ale coż daley? spiesz się, moy przyiacielu.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Otoż się Jegomość obudził, y mowił do mnie: iak się masz, Panie Michale; Pani się domyśli, żem ia się ukłonił, y odpowiedziałem: dobrze do usług Pańskich; bo przecie wiem, iak z Panami mowić; nie pierwsza służba.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Ale iuż nie powtarzay tych komplementow; mow o rzeczy, bo ia chcę iechać.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Ale nie poiedzie Pani, ia znam Panią.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Y coż daley?</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Oto pytałem się Jegomości, czy będzie w domu na wieczerzy? &amp;c. a nakoniec powiedziałęm, że tu iakiś Subdelegat z Woźnym, iuż dawno się skradaią na nasz dom, tylko maią wzgląd na Panią, ale gdyby Pani wyiechała, to pewna tradycya: w ten czas Jegomości łzy stanęły w oczach, aż mi go żal było; y o wieczerzy zapomniał, y o gościach, ktorzy mieli być, tylko mnie prosił: moy Michale! nawet, moy Panie Michale! biegay czym prędzey do domu, proś moiey żony, żeby nie wyieżdżala nigdzie, poki ia nie powrocę, y ia też przybiegłem y proszę Pani.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Aleś nie ostrożny, moy Michale; gdybym ia też była wcześniey wyiechała? Należy także zlecenia pilniey dopełniać.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>Oy! pilnował ia na schodach, byłbym się mostem przed końmi położył, a nie byłbym Pani puścił; bo mi żal y Pana y Pani takiey dobrey.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Już nie iedźmy, moia Mościa Dobrodziko.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Nie poiedziemy zapewne: y owszem, kochana Tereso, teraz powinność nasza tak ułożyć interessa, żebyśmy męża mego uwolniły z tego zatrudnienia nie daiąc ludziom sceny: muszę się w moich papierach, w kleynotach, y w srebrach przeyrzeć, wybrać, bez czego się obeyść można; wszak na podobną dla oyca przysługę, nie będziesz tych prożnych ozdob żałować? Podchlebiam sobie, że ich nie potrzebuiesz.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Gdyby mi naypotrzebnieysze były, chętnie uczyniłabym ofiarę: ale co mogło oyca mego wprawić w to nieszczęście?</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Ma serce dobre, ale zbyt iest łatwy, o, wszystkich według siebie sądzi, otoczony ludźmi, ktorzy żyią bez celu, potrafili mu obrzydzić słodyczy domowego życia, przywykł do hałasu, nie może się oprzeć sidłom zdrady; nie ma czasu uwagi uczynić, iak szukaiąc roskoszy, oddala się od uszczęśliwienia; nayciężey wpaść na tę drogę, to naylepszy człowiek musi błądzić, y naybogatszy zniszczeć.</p>
+          </sp>
+        </div>
+        <div type="scene" n="29">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#zacniewski">ZACNIEWSKI.</rs> (y dawni)
+              <rs key="#starościna">STAROŚCINA.</rs>
+              <rs key="#teresa">TERESA.</rs>
+              <rs key="#luiza">LUIZA.</rs>
+              <rs key="#michał">MICHAŁ.</rs>
+            </p>
+          </stage>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Spodziewałam się WaćPana prędzey.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Bardzo to iest podchlebne dla mnie przywitanie, ale nie chciałem przeszkadzać zabawom Pani, bowiem, że są przykładne y miłe; niektore rozporządzenia domowe przytrzymały mnie. Nie iestem tak szczęśliwy, iak Jegomość Pan Starosta, nie mam się komu powierzyć z tą sprawiedliwą ufnością, z ktorą on zostawuie dom pod władzą Pani.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Bardzom wdzięczna mężowi memu, że mi pozwala tego zatrudnienia; bo prawdziwie bez tego wiele godzin życia byłoby nudnych. Zostawiam cię tu, Tereso, z Jegomość Panem Zacniewskim, wiesz, co mam do czynienia.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>A Pani miała się przeiechać do ogrodu?</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Prawda, ale mam iedno zatrudnienie, ktore pierwey ułatwić muszę. Tereso, nie dayże tu tęsknić Jegomości; ia tu wkrotce powrocę. <stage>(Odchodzi y Michał)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="30">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#zacniewski">ZACNIEWSKI.</rs> (y)
+              <rs key="#teresa">TERESA.</rs>
+            </p>
+          </stage>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Nie wiem, czy potrafię wykonać wolą matki moiey; nie chciałabym, żeby Wać Pan tęsknił ze mną.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Podobno ia powinienem mieć tę boiaźń; wiem, wiem, że piękną Teresę to tylko bawi, co ię interessuie: słyszałem o proiektach Jmci Pana Starosty.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Jakież są? bo ia nie wiem o niczym.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Pani Cześnikowa swego kuzyna chce uczynić szczęśliwym; nie dziwuię się temu, znać, że mu bardzo dobrze życzy, y dała to poznać nawet ludziom mnie nieznaiomym, że iest pewna swego ułożenia.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>WMPan dawny moiey matki y moy przyiaciel, czy życzysz mi tego?</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Nie dosyć znam człowieka; zbyt mnie interessuie los Teresy, radbym w tym wiedział samey WaćPanny Dobrodziki zdanie, ktore zawsze doskonałe znałem.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>W podobnych przypadkach więcey trzeba przyiaciołom wierzyć, iak sobie; bo raz zbłądziwszy, trudno naprawić losu: ia mam WaćPana za nayżyczliwszego przyiaciela, y bardzo chętnie za iego zdaniem poydę.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>A gdyby też ten przyiaciel, na ktorego zdaniu WaćPanna Dobrodzika chcesz polegać, lepiey sobie życząc, iak drugim, za sobą mowił? to oczywiste niebespieczeństwo dla WaćPanny Dobrodziki.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Zbyt przyzwyczaiona iestem do dobrych rad tego przyiaciela, z ktorym mowię, żebym się wzdrygała podobnego od niego oświadczenia.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Czyż mogę temu ufać, co mowisz, śliczna Tereso?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Możesz WaćPan, y powinieneś, ieżeli mnie znasz.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p><stage>(całuiąc ią w rękę)</stage> Ah! zbyt szczęśliwa otwiera mi się nadzieia!</p>
+          </sp>
+        </div>
+        <div type="scene" n="31">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs> (zamyślony, y dawni)
+              <rs key="#zacniewski">ZACNIEWSKI.</rs>
+              <rs key="#teresa">TERESA.</rs>
+            </p>
+          </stage>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Coż ia to widzę! moy oyciec pomieszany, smutny – Coż WaćPanu Dobrodzieiowi? <stage>(całuie oyca w rekę)</stage> Niechże wiem, co za przyczyna tego smutku; WaćPan Dobrodziey powracasz z zabaw wesołych.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Dałem ia sobie z zabawami!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Ale coż przecie?</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Jeżeli można WaćPanu Dobrodzieiowi być w czym zdatnym, chętnie przyimę na siebie obowiązek.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(do Teresy)</stage> Nie możnaby się tego gościa pozbyć, bo mam z tobą do mowienia.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Prawda, że Jegomość Pan Zacniewski dawny domu naszego przyiaciel, nie masz przyczyny, żeby się go strzedz; ale kiedy taka wola oycowska, wiem, że chętnie ustąpi. <stage>(Do Pana Zacniewskiego.)</stage> Proszę WaćPana, żebyś mi pozwolił z moim oycem w osobności pomowić.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Jeżeli nie mogę być tak szczęśliwy, żebym się zdał na co Jegomości Dobrodzieiowi, posłuszeństwo przynaymniey niech będzie dowodem, iak pragnę spokoyności iego.</p>
+          </sp>
+        </div>
+        <div type="scene" n="32">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs> (y)
+              <rs key="#teresa">TERESA.</rs>
+            </p>
+          </stage>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Czy wiesz, moia Tereso, o nieszczęściu moim? zruynowany zupełnie iestem.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p><stage>(z łzami, całuiąc rękę oyca)</stage> Czuię nieszczęście, ale kiedy mi wraca ufność oyca, nie iest ten los bez nadziei.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Cała moia nadzieia w tobie, kochana Tereso; ośmieliłem się przyrzec cię za żonę człowiekowi, ktorego przyiaciele obiecali mnie na iakiś czas wyrwać z tey niespokoyności; musiałem to uczynić, wybacz.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Chętnie z siebie uczyniłabym ofiarę dla uwolnienia z troskow oyca mego – ale.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Wybacz Tereso, nie masz tu żadnego ale; trzeba tu dziś wziąść tę rozmyślność, nie masz czasu do tracenia, chyba zechcesz hańby moiey.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Niech mi się godzi wiedzieć przynaymniey, komu przeznaczona iestem: wszak wielu, rozumiem, znalazłoby się przyiacioł, chcących tę usługę uczynić oycu memu, ktory tak był zawsze wylany dla przyiaźni.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Wiele takich przyiacioł! – wiele takich przyiacioł! – ah! corko moia! nie znasz ludzi.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Może nie znam tych, ktorzy tylko w dobrym losie otaczali WaćPana Dobrodzieia, ale znam takich, ktorzyby go w nieszczęściu mogli pocieszyć.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Nic mam ia żadney inney nadziei, tylko w Cześnikowy; ta kobieta przez rozum wsparła mnie do iakiego czasu; przez nię dziś pozbędę naygwałtownieyszego dłużnika; ale musiałem przyrzec, że cię wydam za iey kuzyna: coż tedy wolisz, czy mnie widzieć nieszczęśliwym, czy szczęśliwym przynaymniey na iaki czas ieszcze?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Wybacz mi, oycze, ale w tym szczęściu, ktore sobie obiecuiesz, nic gruntownieyszego nie widzę; iest to tylko na iakąś chwilę oddalić, a może potym zwiększyć umartwienie: gdybym zaś y ia nieszczęśliwą z tey przyczyny była, takbym została na całe życie, y ufam w dobroci oyca mego, żeby na to cierpiał.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ale za coż nieszczęśliwą? czy to ten mąż, czy inny; teraz nie trzeba przebierać, a interes mi ułatwisz.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Ja w mężu przyiaciela potrzebuię: co się tycze interessu, nie spodziewam się, żeby y mnie y oyca mego do tey ostateczności przymusił; wiele ufności pokładam w matce moiey.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ja iuż twoiey matce nie wspomnę o niczym: wstydzę się błędow moich; tak byłem szczęśliwy przez nią, a tak mało umiałem być wdzięczen.</p>
+          </sp>
+        </div>
+        <div type="scene" n="33">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#michał">MICHAŁ.</rs> (y dawni)
+              <rs key="#teresa">TERESA.</rs>
+              <rs key="#starosta">STAROSTA.</rs>
+            </p>
+          </stage>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(prędko wpada)</stage> Mości Dobrodzieiu! ten nieszczęśliwy subdelegat z woźnym chcę tu wniść gwałtem do domu; spotkali się z Panem Zacniewskim, y umawia się z niemi, on ich chce prowadzić do siebie – ręczy za wszystko, ale oni mu nie wierzą. Wielkie się tam historye dzieią w bramie. <stage>(Tu słychać hałas w bramie)</stage></p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Proś tu Jegomości Pana Zacniewskiego; nie chcę, żeby się prożno wystawiał na napaść: powiedz tym ludziom, że ia sam zaraz do nich wynidę, że pieniędze będą, wexle zapłacę, czekam tylko na Panię Cześnikową, kilka minut wszystko zrobi; biegay prędko, a naybardziey o to proszę, żeby moia żona nie wiedziała. <stage>(Michał odchodzi)</stage></p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(do Teresy)</stage> Widzisz, moia Tereso, że to nie żart; przykroby ci podobno było widzieć mnie osławionego za bankruta: namyśl się, poki ieszcze czas, bo Cześnikowa zaraz tu będzie z pieniędzmi, a zapewne ich nie da, ieżelibyś miała być przeciwna memu ułożeniu.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p>Widzę ia to, że daleko zaszły obowiązki, ale śmiem ufać ieszcze; nie łatwa iestem do rozpaczy. Matka moia przyzwyczaiła mnie do tak iasnego naywiększych trudności rozwiązania, że iey rada wszystko mi obiecuie: poydę do niey, y spodziewam się wkrotce tu z pomyślnieyszą wrocić wiadomością. <stage>(odchodzi)</stage> Ufność w tak dobrey matce naypewnieyszą w troskach pociechą.</p>
+          </sp>
+        </div>
+        <div type="scene" n="34">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs>
+            </p>
+          </stage>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(sam)</stage> Nie wierzę ia temu; tu gotowych pieniędzy potrzeba, nie rady moiey żony: iuż to dziś nierychło ufać bez żadney ufności przyczyny; tylko iedna Cześnikowa z swoim przyiacielem może mnie wydźwignąć; prawda, że lichwa okrutna, ale coż czynić? iużże kiedy potrzeba, nie można nic uważać. Naybardziey się boię, żeby moia corka nie popsuła roboty, nie śmiem iey przymuszać, nic mi nie winna, tylko życie, a życie nie iest naywiększy dar oyca, ieżeli uszczęśliwienie tego życia od niego zaniedbane; wszystko winna matce, y iam iey tak wiele winien.</p>
+          </sp>
+        </div>
+        <div type="scene" n="35">
+          <head>SCENA X.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#zacniewski">ZACNIEWSKI.</rs> (y)
+              <rs key="#starosta">STAROSTA.</rs>
+            </p>
+          </stage>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p><stage>(wpada z niespokoynością)</stage> Ah! Mości Dobrodzieiu! czemuż też WaćPan Dobrodziey nie przestrzegłeś domowego przyiaciela swego, że masz interessa potrzebuiące ułatwienia? wszak powinieneś wiedzieć iak mi spokoyność tego domu iest miła. Przypadkiem spotkałem się z ludźmi zesłanemi na zgwałcenie tey cichey szczęśliwości, ktorey tu zawsze używałem; dowiedziawszy się od nich, po co idę, uprosiłem przecież moment czasu, żebym mogł do mego domu doyść, y znaleść sposob oddalenia napaści. Już WaćPan Dobrodziey możesz być spokoyny. <stage>(Oddaie mu wexel)</stage></p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Co mowisz, zacny przyiacielu? coż to ia widzę!</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Nic WaćPan Dobrodziey nie widzisz, czegobyś sam, widząc mnie w podobnym przypadku, nie uczynił.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ale, iakże ia mogłem tyle przyiaźni zasłużyć?</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Czyż mnie WaćPan Dobrodziey nie sądzisz godnym, żebym ci tę przysługę uczynił?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ale nie chcę być przyczyny zatrudnienia WaćPana.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>To, co mam honor dziś mu dać, iest u mnie zawsze składem przyiaźni, odmawiane sobie zbytnie wydatki bez wszelkiey trudności, corocznie małą część dochodow odkładałem, by w potrzebie przyiaciołom moim mogła być zdatna: nigdy tey kassy inaczey nie używałem. Nie krzywdzę sam siebie, a te są nayszczęśliwsze chwile życia moiego, kiedy ią mogę tak chętnie, iak dziś, ofiarować.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ah! zacny przyiacielu! dziwisz mnie, y poniżasz: dopiero widzę, iak często niesprawiedliwym byłem.</p>
+          </sp>
+        </div>
+        <div type="scene" n="36">
+          <head>SCENA XI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+              <rs key="#pułkownikowicz">PUŁKOWNIKOWICZ.</rs>
+              <rs key="#subdelegatowicz">SUBDELEGATOWICZ.</rs>
+              <rs key="#lustratorowicz">LUSTRATOROWICZ.</rs>
+              <rs key="#rewizorowicz">REWIZOROWICZ.</rs>
+              <rs key="#starosta">STAROSTA.</rs> (y)
+              <rs key="#zacniewski">ZACNIEWSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Przywiezłam WaćPanu to grono zacnych chłopcow, są to ofiary przykute do wszystkich moich tryumfow; przywiezłam także y tę pomoc interessom iego, ale nie uwierzysz, z iaką mi to trudnością przyszło, nie mogłam mego przyiaciela namowić z sobą; a te meble, kareta, karabele, pasy, y sol zaraz przywiozą. Znayże WaćPan przyiaźń moię, y podpisz ten papier. <stage>(Daię mu wexel do podpisania)</stage></p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(odbiera ten papier, y daie go Zacniewskiemu do czytania)</stage> Będę wiedział, iak tę łaskę Pani oszacować. Pozwolisz WaćPani Dobrodzika, żeby moy przyiaciel przeczytał to pismo, nim go podpiszę. <stage>(Zaciewski czyta na boku)</stage></p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p><stage>(mowi)</stage> Co? Pan Zacniewski WaćPana przyiaciel? a to nowa rzecz dla mnie! y WaćPan się tak z ladaiakim przyiaźnisz? zawsześmy z sobą bardzo zimno byli, iak zwyczaynie z prostym szlachcicem. Wiedziałam ia o tym, że go żona WaćPana cierpi w domu, y nie dziwowałam się temu? może on być dobry do iey szpichlerzowych zabaw, ale co po WaćPanu, tom się nigdy podobney podłości nie spodziewała; pfe, fidą Starosto! iesteś człowiek, du grand mond, a chcesz się podobnym związkiem osmolić.</p>
+          </sp>
+          <sp who="#rewizorowicz">
+            <speaker>REWIZOROWICZ.</speaker>
+            <p>Y ia wyznaię, żem się tego nie spodziewał; wkrotce nie będzie z kim żyć w tey Warszawie, ieżeli nam się ieszcze Starosta wda w takie kompanie.</p>
+          </sp>
+          <sp who="#pułkownikowicz">
+            <speaker>PUŁKOWNIKOWICZ.</speaker>
+            <p><stage>(na boku)</stage> Potrafię ia w to, że ten Jegomość nie długo będzie w domu, iak tylko Teresa będzie moią.</p>
+          </sp>
+          <sp who="#lustratorowicz">
+            <speaker>LUSTRATOROWICZ.</speaker>
+            <p><stage>(na boku)</stage> Bardzo ia się boię, żeby on dłużey w tym domu niezabawił, iak my; bo my żyiemy y bawiemy się bez żadnego celu, tylko żeby się bawić, a ten Jegomość z cicha podobno lepiey do swego celu wymierzył.</p>
+          </sp>
+          <sp who="#subdelegatowicz">
+            <speaker>SUBDELEGATOWICZ.</speaker>
+            <p><stage>(na boku)</stage> A gdzie! to flegmatyk; on się nigdy nie ożeni, on tylko chce być przyiacielem kobiet, a Teresi czegoś więcey trzeba, iak przyiaźni.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(po długim zamyśleniu)</stage> Zbyt łatwo WaćPaństwo sądzicie o człowieku, ktorego żeby znać y oszacować, czego wart, trzeba wprzod z własnemi porachować się przymiotami, czy my iesteśmy warci, aby się taki człowiek stał naszym przyiacielem.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>A! to śliczny komplement! my nie warci Pana Zacniewkiego. Ja sobie Cześnikowa; Ichmość wszyscy urzędnicy: ha, ha, ha, moy kochany Starosto, radotuiesz.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Nie mowię do WaćPani Dobrodziki; dama iesteś, winniśmy ci respekt, ale sam siebie nie ochraniam, powtarzaiąc, że tyle, ile poznałem tego człowieka, to nie my iego przyiaźni unikać, ale on naszey mogłby sprawiedliwie.</p>
+          </sp>
+          <sp who="#cześnikowa #pułkownikowicz #subdelegatowicz #lustratorowicz #rewizorowicz">
+            <speaker>CZEŚNIKOWA. PUŁKOWNIKOWICZ. SUBDELEGATOWICZ. LUSTRATOROWICZ. REWIZOROWICZ.</speaker>
+            <p><stage>(Cześnikowa ze wszystkiemi)</stage> Ha, ha, ha, ha! a moy Starosto, coż z ciebie za heretyk! ha, ha, ha! Pokiż on będzie ten wexel przewracał? Mości Panie hey! skończże WaćPan prędko, bo tu trzeba podpisać.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Ten dowod przyiaźni WaćPani Dobrodziki, dla Jegomości Pana Starosty, wart, żeby się nad nim zastanowić; iest nowy dla mnie.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Wierzę, wierzę; nie tak zimni przyiaciele, iak WaćPan, mogę poiąć gorącość przyiaźni moiey dla Starosty.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p><stage>(z ukłonem)</stage> Może to być; ale ten przyiaciel, ktorego tu wexel widzę, musi być naywiększy lichwiarz na świecie: takich przyiacioł wiele maiąc, można z naylepszym losem wkrotce się rozstać.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Coż to iest, Mospanie Starosto? w domu WaćPana moich przyiacioł będzie Jegomość osławiać? chłopcy, do pałaszow! za moy honor rozsiekać Jegomości.</p>
+          </sp>
+          <stage>(Rewizorowicz, Pułkownikowicz, Subdelegatowicz y Lustratorowicz, biorą się do broni razem)</stage>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Powoli, Mościwi Panowie; ten dom wart uszanowania, ia się kupy nie boię, ale proszę z sobą na ulicę. <stage>(Chce wychodzić)</stage></p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Przepraszam, przepraszam; ia Ichmościow na ulicę nie puszczę, oni mi tylko do obrony ciała służą: zawsze przy mnie chłopcy.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p><stage>(wracaiąc się)</stage> Znaydę ia Ichmościow: nikt się na mnie nie porywał do broni bezkarnie.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Coż ia to widzę? nową rzecz odkryłam, moy Starosto, w tym twoim przyiacielu; on widzę burda, nie zna się na żartach.</p>
+          </sp>
+          <sp who="#rewizorowicz #pułkownikowicz #subdelegatowicz #lustratorowicz">
+            <speaker>REWIZOROWICZ. PUŁKOWNIKOWICZ. SUBDELEGATOWICZ. LUSTRATOROWICZ.</speaker>
+            <p>My tylko żartowali, a Jegomość się zaraz uraża.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Nie życzę Wać Panom więcey tak żartować z słusznemi ludźmi; bo przepuszczenie iego was krzywdzi, a skutek żartow może was daleko zaprowadzić.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Ale, moy Starosto, iuż kończmy iedno, podpisz WaćPan ten papier, a iak żona WaćPana przyidzie z Teresą, to skończemy drugie z moim kuzynem. Mości Panie Zacniewski, dayże WaćPan ten papier Staroście; iuż się nie gnieway, moy Zacniesiu, ia tylko z moiemi chłopcami żartowała; wszak widziałeś, że nie bardzo porywczy; a WaćPan zaraz w pasyą wpadasz: pfe! Zacniesiu.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>Ja dla damy zawsze iestem z uszanowaniem. <stage>(Kłania się iey nisko)</stage> Ale na dowod tego, że nigdy nie pozwolę, żeby Jegomość Pan Starosta ten szkaradny dekret na własny los podpisał, rozdzieram go. <stage>(Tu Zacniewski wexel na drobne papierki rozdziera)</stage></p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Ah gwałtu! Słabo mi: Kolońskiey wodki, balsamu vitae – lodekarmu.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p><stage>(przystawia stołka Cześnikowy)</stage> Siąć WaćPani Dobrodzika, będzie wygodniey omdlewać.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Dobrze ci tak, Mości Panie Starosto; patrzay, iakiegoś wybrał przyiaciela, cały interes zepsuł.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Pierwey go naprawił; y postępek iego nie ździwił mnie, bo go znam, ale mnie oświecił. <stage>(Pokazuie wexel zapłacony)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="37">
+          <head>SCENA XII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starościna">STAROŚCINA.</rs>
+              <rs key="#teresa">TERESA.</rs> (y dawni)
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+              <rs key="#pułkownikowicz">PUŁKOWNIKOWICZ.</rs>
+              <rs key="#subdelegatowicz">SUBDELEGATOWICZ.</rs>
+              <rs key="#lustratorowicz">LUSTRATOROWICZ.</rs>
+              <rs key="#rewizorowicz">REWIZOROWICZ.</rs>
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#zacniewski">ZACNIEWSKI.</rs>
+              <rs key="#michał">MICHAŁ.</rs>
+            </p>
+          </stage>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>A! chwała Bogu, że Starościna idzie: ieżeli się iedna kategorya nic udała, to przynaymniey druga. Witam moią Panią serdeczną. <stage>(Starościna y Teresa kłaniaią się z skromnością)</stage></p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p><stage>(mowi)</stage> Przepraszam, żem nie wiedziała o przybyciu WaćPani, byłam zatrudniona: moy mężu, za coż mnie WaćPan nie kazałeś zawołać; miło mi, kiedy WaćPana widzę w domu.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(całuiąc żonę w rękę)</stage> Rozumiałem, że Teresa wzięła to na siebie.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Ja, iako przyiaciołka Starosty, chciałam mu usłużyć w interessach, ale widzę uprzedzona iestem: przynaymniey spodziewam się, że kochany Starosta nie cofnie słowa swego dla mego kuzyna, wszak to między nami nie trzeba wielkich ceremonii.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Coż za przysługa, o ktorey Jeymość Pani Cześnikowa wspomina? moy mężu, spodziewam się, że przynaymniey w domowych zatrudnieniach mnie dasz pierwszość do uczynienia ci przysługi.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(skazuiąc Zacniewskiego)</stage> Nie dał mi czasu ten zacny przyiaciel y wspomnieć WaćPani o moich kłopotach; nie dał mi czasu nawet tey uwagi uczynić, iak wiele traciłem, oddalaiąc się od iedyney społeczności, ktora mnie mogła uszczęśliwić. Wszystko zaspokoił: oto wexel.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Znayże, moy mężu kochany, co to za przyiaciel!</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p><stage>(do ludzi)</stage> Jakże ta Starościna piwowarskim tonem mowi: wszystko, moy mężu, moy mężu; za co nie Monsieur: widzę y on wkrotce nauczy się mowić: moia żono, moia kochana żono: coż to za ton paskudny y nienaturalny!</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p><stage>(do Starosty)</stage> Jeźli mi WaćPan Dobrodziey chcesz uczynić łaskę, to więcey nie mow mi o tym.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Ja nie iestem mniey wdzięczna Jmci Panu Zacniewskiemu, aleby mi krzywdę uczynił, żeby nie odstąpił dla moiey przyiaźni tey uczynności, ktorą odemnie tylko przyzwoicie mąż przyiąć może. Jeżeli co potrafi mi nadgrodzić, dobrze. Rozrządzenie intrat, ktorych mi ustąpił; to gdy te dochody, bez ktorych się obeyść mogłam, pomogą interessom iego. Mości Panie Zacniewski, oddaię WaćPanu kluczyk od szkatuły moiey, w ktorey znaydziesz summę tak przykładnie dla przyiaźni użytą. Żebym cię zaś, kochany mężu, na zawsze spokoynym uczyniła, oddaię ci tu dziesięć wexlow innych dawniey zapłaconych, ktoremi nawet ci Ichmość, co się twemi przyiaciołmi nazywaią, chcieli ci szkodzić: nie wymawiayże mi teraz, ieżeli, w osobności żyiąc, uczyniłam powinność moią.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Tak niespodziewana, bo niezasłużona szczęśliwość przewyższa wszystkie nadzieie moie.</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p><stage>(do Teresy)</stage> Co to za matka! co to za żona!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p><stage>(całuiąc w rękę matkę)</stage> Co to za nauka dla mnie!</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Ale moie Państwo, nic mi nie odpowiedacie na moie wniesienia: moy kuzyn radby wiedzieć ich wolą.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ja nic nie obiecałem, coby mogło corkę moią zrobić nieszczęśliwą; ale te wexle, ktore z rąk moiey żony odbieram, są znaiome WaćPani, y tym Ichmościom widzę: im było pilno korzystać z mego nieszczęścia; żebym zaś WaćPanią y Ichmościow uspokoił, zostawiam moiey corce wolność wybrać, ktory z przytomnych tu wart być iey matki zięciem, y iey mężem. Tereso, powiedz swoie zdanie.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA.</speaker>
+            <p><stage>(zbliżaiąc się do Zacniewskiego, y daie mu rękę)</stage> Nie zamyślam się nawet nad tym; cnota y wdzięczność temu ią ziednała, y iuż dawno obiecała wyborem.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p><stage>(do Zacniewskiego)</stage> Ah przyiacielu! czemużeś mi się nie zwierzył?</p>
+          </sp>
+          <sp who="#zacniewski">
+            <speaker>ZACNIEWSKI.</speaker>
+            <p>O tak wielkim uszczęśliwieniu zawsze powątpiewać skromność każe.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Otoż masz! te sceny patetyczne, wcale nie w swoim czasie. Poydźcie chłopcy; nie ma tu co robić między temi Ichmościami. Mości Panie Starosto, wpadniesz WaćPan ieszcze w moie sidła: nie tacy to do mnie się wracali! znam ia, iak długo te sentymenta trwaią. Adieu, wierny mężu, y wierna żono. Kłaniam Mościa Panno Tereso, żałuię cię, że nie poznasz świata: szkoda tych oczu! nie dla iednego męża się urodziły.</p>
+          </sp>
+          <sp who="#pułkownikowicz">
+            <speaker>PUŁKOWNIKOWICZ.</speaker>
+            <p>Widzę z nas zażartowali nieszpetnie; iam iuż kazał trzy stoły do faraona zrobić, y dwa do kwindeczy, y kart w fabryce na cztery lata obsztalowalem takich, iak mi potrzeba.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Podźmy chłopcy do Saskiego ogrodu, tam kapela brzmi; prędko się ukonsuluiemy w ulicy wzdychaiących.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p><stage>(wyprowadzaiąc tych gości do drzwi, mowi)</stage> Szczęśliwa droga, na raki y na lody.</p>
+          </sp>
+        </div>
+        <div type="scene" n="38">
+          <head>SCENA XIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#starościna">STAROŚCINA.</rs>
+              <rs key="#teresa">TERESA.</rs>
+              <rs key="#zacniewski">ZACNIEWSKI.</rs>
+              <rs key="#michał">MICHAŁ.</rs> (y)
+              <rs key="#luiza">LUIZA.</rs>
+            </p>
+          </stage>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Kochany mężu! ieżeli cię to nie bawi zostać z nami na wieczerzy, czyń, co chcesz; ale ieżeli zostaniesz, miło mi będzie ten dzień uszczęśliwienia moiey kochaney Teresy strawić z tobą.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Już mnie masz zupełnie za swego, kochana żono. Tłok sowizdrzałow wciągnął mnie w to nudne prużniakow życie, ktore nazywali zabawą; wplątali mnie w złe interesa, y musiałem się iuż prawie w rospaczy powodować: ale ieżeli mi pozwolilsz wrocić do domowey szczęśliwości, y ieżeli ten zacny przyiaciel, zostawszy zięciem naszym, będzie żył z nami, y my z Teresą; ożyię z waszey łaski, y na zawsze się wyrzekam nudnego bez celu pod imieniem zabaw życia.</p>
+          </sp>
+          <sp who="#michał">
+            <speaker>MICHAŁ.</speaker>
+            <p>A Wielmożny Panie, kiedy cię iuż Bog nawrocił, coż też przecie za życie będziemy prowadzić? Jeżeli się Pan będzie ieszcze bawić, od Saskiego ogroda do Łazienek, od Łazienek, do Wilanowa, od Wilanowa, do Woli, codziennie ieżdżąc, toć ia muszę o żonie zapomnieć; bo kiedyżbym miał czas być iey mężem? a iabym też przecie dla siebie rad mieć żonę, nie dla drugich: ieżeli zaś spokoyne życie zaczniemy, tobym y ia przecie przy protekcyi Pańskiey o Luizie pomyślał, lubo ona często wspomina Pana Łukasza; iednak w niebytności Jegomości, dobry y Pan Podstarości.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Y ty, poczciwy Michale, wieleś mi pomogł do wybrnienia z kłopotow. Luizo! masz dobrego człowieka, dasz się podobno namowić; ia o posagu pomyślę.</p>
+          </sp>
+          <sp who="#luiza">
+            <speaker>LUIZA.</speaker>
+            <p>A iużci, Mości Dobrodzieiu, żeby mnie nie było tęskno; Pan Łukasz czy się wroci, czy nie wroci: day rękę Panie Michale.</p>
+          </sp>
+          <sp who="#starościna">
+            <speaker>STAROŚCINA.</speaker>
+            <p>Niech y oni będą szczęśliwi: ten dzień, ktory mi w mężu wraca, a w zięciu daie przyiaciela, powinny czuć wszystkie serca tkliwe na głos cnoty.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,2903 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000022" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Uszczęśliwienie narodu czyli miłość i wdzięczność w poddanych</title>
+        <title type="sub">Drama we dwóch aktach</title>
+        <author>
+          <idno type="wikidata">Q104181175</idno>
+          <persName>
+            <forename>Michał</forename>
+            <surname>Bończa-Tomaszewski</surname>
+          </persName>
+        </author>
+        <!-- Michał Bończa-Tomaszewski (-1813) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/uszczesliwienie-narodu-czyli-milosc-y-wdziecznosc-w-poddanych-dramma-w-2-aktach,NjU5MjEwNDY/4/</idno>
+          <title>Bończa-Tomaszewski, M., Uszczęśliwienie narodu czyli miłość i wdzięczność w poddanych: Drama we dwóch aktach, Wilno 1804</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="anielika" sex="FEMALE">
+            <persName>Anielika</persName>
+          </person>
+          <person xml:id="błażey" sex="MALE">
+            <persName>Błażey</persName>
+          </person>
+          <person xml:id="chór">
+            <persName>Chór</persName>
+          </person>
+          <person xml:id="dalbor" sex="MALE">
+            <persName>Dalbor</persName>
+          </person>
+          <person xml:id="elżbieta" sex="FEMALE">
+            <persName>Elżbieta</persName>
+          </person>
+          <person xml:id="kampler" sex="MALE">
+            <persName>Kampler</persName>
+          </person>
+          <person xml:id="karol" sex="MALE">
+            <persName>Karol</persName>
+          </person>
+          <person xml:id="pani_dalbor" sex="FEMALE">
+            <persName>Pani Dalbor</persName>
+          </person>
+          <person xml:id="reinhard" sex="MALE">
+            <persName>Reinhard</persName>
+          </person>
+          <person xml:id="wanewille" sex="MALE">
+            <persName>Wanewille</persName>
+          </person>
+          <person xml:id="wieśniak" sex="MALE">
+            <persName>Wieśniak</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-17">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1802">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">USZCZĘSLIWIENIE<lb />
+            NARODU<lb />
+            CZYLI<lb />
+            MIŁOSC Y WDZIĘCZNOSC<lb />
+            W<lb />
+            PODDANYCH</titlePart>
+            <titlePart type="sub">DRAMA WE DWÓCH AKTACH,</titlePart>
+          </docTitle>
+          <div type="appendix">
+            <p>Z kilku wydarzonych okoliczności: a mianowicie osobliwego przypadku pod Rumszyszkami, w czasie przeiazdu Nayiaśnieyszego ALEXANDRA I. IMPERATORA Całey Rossyi, przez Prowincye Litewskie w Roku 1802. z dodatkiem Przypisków obiaśniaiących niektóre szczeguły w tem dziele.</p>
+          </div>
+          <byline>przez<lb />
+            <docAuthor>MICHAŁA B. TOMASZEWSKIEGO</docAuthor><lb />
+            NAPISANE
+          </byline>
+          <docImprint>
+            <p>
+              w <pubPlace>Wilnie</pubPlace>, w <bibl><publisher>Drukarni XX, Piarów</publisher></bibl>
+              <lb />
+              <date>Roku 1804</date>.
+            </p>
+          </docImprint>
+          <note>
+            <p> Drama we dwóch Aktach przez Michała B. Tomaszewskiego napisana niemaiące nic przeciwnego obyczaiom, a w dobrey chęci pełne czci i wdzięczności dla Nayłaskawszego MONARCHY, może z druku wyniść: jak wyszły i jnne podobnego rodzaju tegoż Autora pisma. w Wilnie Roku 1803. Dnia 17. 9 br:<lb />
+            X. Golański Censor.</p>
+          </note>
+          <imprimatur>
+            <p>Wedle opinij Censora, wolno drukować. Podpisano: H. Stroynowski. N. B. K. Ł. Rektor Uniwersytetu.<lb />
+            Zgodnie z Autentykiem Olbrycht Stanisław Odachowski. Rządu JMPERATORSKIEGO Wileńskiego Uniwersytetu Sekretarz.</p>
+          </imprimatur>
+        </titlePage>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#dalbor">ALFONS DALBOR,</role>
+            <roleDesc>Major Jnwalid.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#pani_dalbor">PANI DALBOR,</role>
+            <roleDesc>jego żona.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#anielika">ANIELKA,</role>
+            <roleDesc>jch córka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#wanewille">WANEWILLE,</role>
+            <roleDesc>stary Kapitan brat Pani Dalbor.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#kampler">KAMPLER,</role>
+            <roleDesc>uczący się malarstwa.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#reinhard">REINHARD</role>
+            <roleDesc>kupiec.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#karol">KAROL</role>
+            <roleDesc>jego syn.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#błażey">BŁAŻEY</role>
+            <roleDesc>służący Kapitana.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#elżbieta">ELŻBIETA</role>
+            <roleDesc>wieśniaczka.</roleDesc>
+          </castItem>
+        </castList>
+      </div>
+      <set>
+        <p>(Scena w Wilnie, w domie P. Dalbor)</p>
+      </set>
+      <div type="appendix">
+        <p>
+          <opener>DO<lb />
+          Jaśnie Wielmożney<lb />
+          MYRYI<lb />
+          z ANDRZEYKOWICZOW<lb />
+          BARONOWEY<lb />
+          BENIGSENOWEY<lb />
+          Litewskiey, Woienney<lb />
+          GUBERNATOROWEY.</opener>
+          <salute>JASNIE WIELMOZNA PANI!</salute>
+          Wszystkie dzieła wychodzące dotąd z pod mego pióra na widok publiczny, acz znaydowały zawsze łaskawe przyjęcie; były tylko płodem imaginacyi moiey. To zaś, które teraz poświęcam Jimieniowi Jaśnie Wielmożney Pani (prócz dialogu przezemnie ułożonego,) z resztą, zawiera w sobie nayistotnieyszą prawdę; a nawet osoby wystawione w tey sztuce, prawie wszystkie są rzetelnemi. Słowem: są to zebrane różnego gatunku kwiaty i w ieden ułożone bukiet. Naywiększą zaś ozdobą, przez którą usiłowałem dodać świetności temu dziecku, iest okazana dobroć i miłosierdzie Panuiącego MONARCHY, miłość iaką są przeięci ku Niemu wszyscy Jego poddani. Wyznać muszę, że odwaga moia za nadto się posuneła w tym razie: bo któreż pióro iest zdolne należycie okazać światu Portret ALEXANDRA Pierwszego i wyszczegulnić to wszystko, co TEN MONARCHA od wstąpienia na Tron Przodków swoich czynił i dotąd czynić nieprzestanie dla uszczęsliwienia Narodu? Ale mam nadzieię, że baczny Czytelnik i Spektator przez wzgląd na szczerą chęć moią, z łatwością przebaczy mey niezdolności, a ostry i surowy Krytyk stanie się choć na moment łaskawszym.<lb />
+          Rok tysiączny ośmsetny wtóry, rok pamiętny w dzieiach ludzkości, kiedy Nayiaśnieyszy IMPERATOR obieżdżaiąc Prowincye tuteysze, wszędzie zostawił ślady dobroci Swoiey, Miłość i wdzięczność, iaką cały Narod iest przeięty, i w każdym punkcie stara się swemu MONARSZE okazać (czego naywiększym dowodem jest Miasto Wilno które w tymże roku dzień trzydziesty Augusta poświęcony Imieniowi ALEXANDRA z niesłychaną dotąd obchodziło okazałością) są to prawdy, na które się oczy nasze patrzyły, prawdy ogłaszane przez pisma publiczne. Te mi były na celu w pisaniu tego dramatu, a usiłowanie uiściło przedsięwzięcie. Niemogę tedy przyzwoiciey użyć tey moiey pracy, iak poświęcaiąc ią Jmieniowi Jaśnie Wielmożney Pani, iest to JWżna Baronowo mały bukiet szacownym i pięknym ozdobiony kwiatem, który CI offiaruię; znam, że jdąc za powszechnym zwyczaiem, należałoby mi przy tem okazać światu wielkość i wielość nayokazalszych przymiotów Twoich, ale niech każdy sobie wystawi: iak one muszą bydź obfite w tey Osobie, która potrafiła ziednać u wszystkich współobywateli powszechną miłość i poważenie, a szacunek u Męża piastuiącego w tuteyszych Prowincyach władzę tak Wielkiego MONARCHY. Mam przeto nadzieię, że ta offiara moia będzie od Pani łaskawie przyięta.
+        </p>
+      </div>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT I.</head>
+          <stage type="setting">
+            <p> (Teatr okazuie pokoy)</p>
+          </stage>
+        <div type="scene" n="1">
+          <head>SCENA PIERWSZA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#anielika">ANIELIKA.</rs> (sama)
+            </p>
+          </stage>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(siedzi przy krosienkach, robi koronkę, po małey pauzie ociera oczy, i wstaie od roboty)</stage> Na daremnie staram się utrzymać te rzęsiste łez potoki, cała robota uroszona niemi wniwecz się obraca... Ale dla czegóż serce moie tak srogo iest udręczone?... dla czegoż ile w dniu dzisieyszym doznaię tak wielkiey niespokoyności, jakiey w życiu moim niedoznawałam... Miałożby to być jakie okropne przeczucie?... Boże!... odwróć te trwożące mnie myśli!... Jażbym miała utracić ulubionego oyca mego!... tę iedyną moią pociechę!... <stage>(spogląda na pokoy oyca)</stage> On tak długo nieprzebudza się, matka nie powraca z kościoła; Kampler zaś już od kilkunastu dni nas nie odwiedza: Elżbieta! i ta prostora, choć tylko jest prawie gościem w naszym domu, dnia dzisieyszego zdasię unikać odemnie. Zostawiona będąc sama sobie, gdzież mam szukać pomocy? <stage>(siada do roboty)</stage> Staraymy się jednak ukryć przed matką tę niespokoyność: jey serce jest nadto czułe, zapewne niezniosłaby mego umartwienia. Otóż nadchodzi. <stage>(ociera oczy, robi skwapliwie)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA DRUGA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+              <rs key="#anielika">ANIELIKA.</rs>
+            </p>
+          </stage>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(na stronie)</stage> Tak jest roztargniona, że mnie nawet nie spotyka.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(udaie iakoby dopiero postrzegła matkę porywa się od roboty, całuie w rękę, przyymuie książkę, zdeymuie salopę)</stage> Kochana matko daruy! zatrudnienie niedopuściło dostrzedz WP. Dobrodziki.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Zatrudnienie twoie jak widzę było większe niżeli innych czasów.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(niespokoynie)</stage> Kończyłam skwapliwie rozpoczęty zombek. <stage>(siada do roboty)</stage> WP. Dobrodzika dziś nie równie dłużey bawiłaś się w kościele, niż innych czasów.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(siada zdrugiey strony kros)</stage> Nie postrzegłam tego. Momęta w dopełnieniu moich obowiązków nie są u mnie kalkulowane, Elżbieta niepowróciła z miasta?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Nawet niewidziałam jey dzisiay.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Oyciec twóy niepotrzebował czego?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Nie musiał się jeszcze przebudzić.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>J to coś nadzwyczaynego. <stage>(spogląda z boku na Anielikę)</stage> Ty nadzwyczaynie byłaś zatrudniona robotą, ja nadzwyczay bawiłam się w kościele; oyciec zaś twóy nadzwyczay długo niepije swoiey herbaty: dzień dzisieyszy jak uważam, Jest jeden z nayosobliwszych. <stage>(spogląda na robotę Anieliki)</stage> W robocie zaś nic niewidać nadzwyczaynego; cała korónka jest jednakowa... Pokaż że mi więcey... <stage>(odkrywa krosienka)</stage> Coż to jest? jakie to są plamy?... Anieliko!... to są łzy... Ty Płakałaś?... a co większa i teraz jeszcze płaczesz... Porzuć że tę robotę, a powiedz, co cię trapi tak nieznośnie? Prawda że od kilku dni wielką widzę w tobie odmianę, nigdy jednak niebyłaś tak ztrapioną jak dzisiay.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>WPani Dobr: przenikasz grunt serca mego.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Dziecie! myślisz że przed troskliwą matką, można z łatwością utaić swoią dolęgliwość? nie przenikasz ty tego, ani jesteś w stanie przeniknienia; jak miłość rodzicielska jest czuynym badaczem wszystkich waszych czynności i uczuciów, to mnie jednak naybardziey martwi, że dotąd niemogłam u ciebie ziednać zaufania. Anieliko!... nieznaydujesz że ty we mnie naybliższey swoiey przyiaciółki? dla czegoż tak długo ukrywasz przedemną twoie umartwienie?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Doznaiąc od dzieciństwa WPDobr: przywiązania, nie mogę jey nie zaufać; ale matko!... ja sama nie mogę dociec tego przyczyny.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Być może ta: że nie starasz się ziednać przyiaciela, któremubyś śmiało mogła powierzyć wszystkie swoie uczucia.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Maiąc matkę tak łaskawą, na cóż mi szukać kogo jnnego?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Dotąd niewidziałam tego po tobie: chociaż od niemowlęcich lat twoich miałaś we mnie matkę naytroskliwszą o ciebie. Starałam się zawsze uprzedzać twoie potrzeby, niedopuszczając dać ci poznać nieszczęścia i upadku, w jakim dotąd jesteśmy pogrążeni.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Mimo ukrywania tego przedemną, serce moje zawsze czuło jey umartwienia: łzy WPDobr: któremi ją widziałam bardzo często zalaną, nie mogły być dla mnie oboiętnemi.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Poznawałam to po tobie, uważałam nawet że dociekałaś przyczyny; gruntu jednak dociec, nie było w twoiey mocy.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Któżby tego nieprzewidział, że tak ciągła i ciężka choroba oyca mego, naywiększą jest tego przyczyną.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Doday do tego utratę tak dawną mego brata, [którego nigdy bez ciężkiey boleści wspomnieć niemogę] przy tym, bezustanne cierpienie niedostatku, natarczywość kredytorów, a naymnieyszey nadziei zaspokoienia jch kiedy!</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Ta Opatrzność, w którey WPDobr: zawsze miałaś nadzieię; weyrzała na naszą nędzę miłosiernym okiem swoim: wspaniały Karol Reyngard zdaie się być zrządzeniem Jey ręki; on napierwszym wstępie do naszego domu, wyświadczył tak wielkie dobrodzieystwo.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Prawda. Jednakże momęt pierwszy jego dla nas dobroci, stał się prawie pierwszym momętem twoiego zmartwienia.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(spuszczając oczy)</stage> WPDobr: nayczęściey zwykłaś mawiać, że teraźnieyszych czasów rzadko znaleść człowieka; któryby czynił co dla kogo nie jnteresownie.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Podobnie jednak o wszystkich, myśleć nigdy nie można; gdyż mimo zepsutych tego wieku obyczaiów, znayduią się jeszcze tacy, których jedynym jest celem osładzać nieszczęścia bliźniego.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Naywiększym tego dowodem jest, postępek P. Karola, on z natury ma serce czułe i miłosierne.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Jnaczey myśleć nie można. W początkach ja sama miałam podeyrzenie, ale za usunięciem się jego z bliskości naszego mieszkania, zostałam zupełnie spokoyną.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Gdyby więc ta jego dobroć miała być przyczyną mego zmartwienia, oddalenie się jego od nas, powinnoby mi przywrócić utraconą spokoyność.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Zdaie się że nic nad to prawdziwszego: musi tedy być w tem co innego. Powiedz że mi, jak dawno Pan Kampler był w naszym domu?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Jutro będzie dwa tygodnie.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(na stronie)</stage> Każdy dzień iak widzę iest u niej w dobrey pamięci. <stage>(głośno)</stage> J niewiesz dla czego nas tak dawno nie odwiedza?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Domyśleć się nawet nie mogę.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Przez ten czas, nie miałaś też od niego jakiey wiadomości?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Naymnieyszey.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Tak długie niewidzenie się z Kamplerem, nie może też być czasem nayprzyzwoitszą okazyą twoiey melancholij?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(z westchnieniem)</stage> Pan Kampler!... wszakże on nie pierwszy raz tak długo nas nie odwiedza: zdarzało się że po kilka miesięcy niewidywałam jego, nigdy jednak niebyłam tak zmartwioną jak teraz... Nie, musi w tym być co jnnego.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Być to może. Ale P. Kampler wyieżdżaiąc jnnemi czasy, zawsze nam pierwey oznaymywał, i zawsze wiedzieliśmy gdzie się znayduie... Teraz zaś...</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>O naymilsza matko!... WPDobrodzika lepiey znasz serce moie, niżeli ja sama znać go mogę.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Otóż jest to, co nam było potrzebnego. Przywiązanie twoie ku temu cnotliwemu człowiekowi, od dawna jest mi wiadome; i pierwiey one mi zostało odkryte, niżeli ty sama dostrzedz to mogłaś.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Przywiązanie moie ku niemu, od dziecinnych lat prawie wzrost swóy miało. Niegodzien że jest tego?... Od momętu zapadnienia w tak ciężką chorobę oyca mego, on jeden tylko był nieodstępnym przyiacielem naszego domu: i gdy nas wszyscy prawie ludzie odstąpili i urągali się z naszego upadku; on jeden nad nami ubolewał: i wynaydywał różne sposoby do sprawienia nam ulgi i pociechy. <stage>(tu słychać dzwonienie)</stage></p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Otóż i oyciec już się obudził. Jdź poday mu herbatę.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Ach! ta usługa każę mi zapominać o wszystkich moich umartwieniach.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA TRZECIA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pani_dalbor">PANI DALBOR.</rs> (sama, potym)
+              <rs key="#elżbieta">ELŻBIETA.</rs>
+            </p>
+          </stage>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Biedne i kochane dziecie!... Jey niewinność niedopuszcza poznać uczuciow jey serca, a prosty i szczery sposob myślenia jaśnie to wydaie. Kampler! ten szlachetny młodzieniec godzien jest naywiększego szacunku... O! gdybym była kiedy w stanie nadgrodzenia mu jego dobroci, ale nie! to podobno nigdy nie nastąpi.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p><stage>(niosąc koszyk)</stage> Pani już powróciła z kościoła, a ja tak długo zabawiłam się.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Zapewne miałaś jaki interes.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Tak jest Pani: chodziłam do stancyi Pana Kamplera.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(zdziwiona)</stage> Czy tak!... zapewne byłaś od kogo o to proszoną?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Tak jest MDobr. Dziś rano idąc do miasta, napodkałam człowieka z naszey wioski, przez którego brat móy przysłał Jmości i P. Kamplerowi po półgarcowem garnuszku miodu, samey czystey patoki: kazał mi przy tem dowiedzieć się, czy prędko P. Kampler skończy malowanie; bo cała nasza wioska, a naybardziey nasza stara matka, która już prawie jest przy schyłku życia: żąda koniecznie widzieć choć malowanego Jmperatora. Otóż razem z tem posłańcem chodziliśmy do p. Kamplera i oddaliśmy przysłany jemu garnuszek, a to jest Jmościn. <stage>(podaie garnuszek)</stage></p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Dziękuię ci kochana Elżbieto.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>A moia matka staruszka przysyła Jmości parę serów i dwie kopy świeżych jaiek.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Bardzo dziękuię i wdzięczna jestem za tę pamięć. P. Kamplera zastałaś w stancyi?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Zastałam: ale gdybyś Pani wiedziała jak się on odmienił! spoyrzawszy na niego, rozumiałam że dopiero wstał z jakiey ciężkiey choroby, ile że niebył tak długo u Jchmościów.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Zapewne musiał gdzie wyieżdzać?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>On powiedział że cały ten czas siedział nad bardzo pilną robotą.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Może śpieszył portret dla twego brata?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Nic tego niewiem: bo on mnie i temu człowiekowi co był ze mną, bardzo wiele pięknych napokazywał rzeczy. Ale gdybyś Pani wiedziała jak on mego brata i Pannę... <stage>(postrzega się)</stage> Ay!... <stage>(chwyta się za gębę i mówi na boku)</stage> małom się nie wygadała.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Cóż to? czego się tak zlękłaś?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Ey!... nic to MDobrodziko; wcale nic. <stage>(na boku)</stage> Ach! gdyby ona mogła wiedzieć jak jey córka jest pięknie odmalowana, to możeby się nie poieła z radości. Ale ja tego nie powiem, uchoway Boże! bo on mi to przykazał.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(na boku)</stage> Co ona tam rozmawia sama z sobą?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p><stage>(spogląda na Panią Dalbor z uśmiechem i mówi na stronie)</stage> Albo i powiem, wszakże w tem niema nic złego. <stage>(głośno)</stage> Oto MDobrodziko!... ay!... <stage>(na boku)</stage> Ależ on mi przykazał:... otóż naylepiey zrobię, kiedy się jey samey o to zapytam.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Cóż mi masz powiedzieć?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Niech mnie Pani wprzódy obiaśni! kiedy kto prosi o sekret, czy proszony koniecznie powinien go dotrzymać?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Bez wątpienia; jeżeli ten sekret nie jest na uszkodzenie lub krzywdę czyią.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>O! co w tem tobym przysięgła że Pan Kampler nie umie ani myśleć o pokrzywdzeniu kogo. Otóż tylko powiem Jmości o moim bracie: jak on jego podobnego odmalował, wszakże to kieby żywy.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Twego brata?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Tak jest. Ale jak on jest słaby i wybladły! ledwo cień życia w niem można widzieć. A wie też Pani po co my przyiechaliśmy do Wilna?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Nie zewszystkim: o tem tylko powiedział mi P. Kampler, że to ma być twóy brat, o którem dawniey namieniała gazeta: [a] jż on będąc na statku, uległ niebespiecznemu przypadkowi. A gdy się zatrudniano przywróceniem jemu zmysłów, nadiechał nasz MONARCHA.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Tak jest Pani!... Ten miłosierny MONARCHA rozkazał zaraz stanąć, wysiadł z karety, zaczoł go sam trzeźwić i oblewać pachnącą wódką; zawołał potem cyrulików, kazał mu krew puścić; a sam go trzymał i usługiwał, nie jak wielki Monarcha, ale tak właśnie, jakby był równy memu bratu, albo naybliższy krewniak.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>O! jak wielki przykład pokory miłosierdzia.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>To samo właśnie mówił sąsiad naszey włości, stary Pan Podstoli; jeszcze i to dołożył: „że szczyci się Austrya postępkiem swego Monarchy Józefa wtórego i zachowuie dla niego pamięć; że ten Cesarz naiechawszy przypadkiem na kmiecia orzącego pole, zsiadł z konia, wzioł za pług i kilka bruzdów przeorał. Daleko większą rzecz i godnieyszą pamięci uczynił ALEXANDER Pierwszy w tym zdarzeniu. Józef orał pole dla rozrywki, ALEXANDER zaś dawał pomoc naylichszemu poddanemu, z jedynych pobudek dobroci i miłosierdzia”.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Wielka ofiara ile z tey osoby, która jednym tylko słowem mogłaby mu zupełnie dopomódz.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Gdy tedy móy brat przyszedłszy cokolwiek do zdrowia powracał do domu. sam P. Podstoli i cała nasza wioska wyszła na przeciw niemu z powinszowaniem tego szczęścia co jego spodkało: a gdy Walenty poczoł opowiadać, iak mu JMPERATOR usługiwał, iak go trzymał, ocierał wódkami, dawał chustkę do zawiązania ręki gdy mu krew puszczono; iak poprawiał słomę na wozie gdzie miał bydź wieziony, iak go sam wsadzonego poprawiał; iak zawiązawszy w drugą chustkę wiele złotych pieniędzy darował ią memu bratu: to naszemu staremu Podstolemu, i nam wszystkim łzy się z oczów rzuciły. Potem oddał móy brat naszey matce wszystkie pamiętne znaki dobroci łaskawego MONARCHY to iest: tę chustkę którą miał zawiązaną rękę, i drugą z pieniędzmi: co gdy nasza matka uyrzała, padła krzyżem na ziemię wielbiąc ze łzami BOGA i Błogosławiąc momęt urodzenia miłosiernego ALEXANDRA.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Którażby matka w podobnym razie nieuczyniła tego.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Od tego czasu nic więcey matkę naszą niezatrudniało, o niczym niemyśliła ani mówiła, tylko o tym przypadku; w końcu postanowiła koniecznie iść choć piechotą do Peterzburga oglądać samego Monarchę, ale widząc się być właśnie iak przy schyłku życia, zaniechała swego przedsięwzięcia; a namieyscu tego, naległa na mego brata, ażeby on koniecznie postarał się, przynaymniey o portret MONARCHY.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>J cóż twóy brat na to?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Musiał uczynić zadosyć iey woli. Umyślnie tedy przyiechaliśmy po to do Wilna. Szczęściem, zaprowadzono nas do Pana Kamplera, który podiął się dla nas tey pracy, ale powiedział że ta rzecz wiele potrzebuie czasu. Odrysował potem Walętego, i kazał ma powracać do domu, a mnie rozkazał służyć u Jmości, póki ten Portret niebędzie gotowy.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Prędkoż ma być ukończony?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Już iest ze wszystkim. ia go chciałam odebrać, ale Pan Kampler powiedział, że zaniesie go do stolarza ażeby ramy dorobił, i po obiedzie miał go sam przynieść. Otóż gdybyś pani widziała iak móy brat iest podobny, ia w samey rzeczy rozumiałam że na żywego patrzę. Ale ażem zapłakała widząc go tak bardzo stłuczonego; i gdy go Pani obaczysz to sama będziesz żałowała, bo to on siedzi cały wybladły, i ledwie znać w nim cień życia. JMPERATOR Jego przytrzymuie, krew mu idzie puszczona, a koło niego cyrulik, i wielu iakichsić ludzi.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Osoba MONARCHY Jest że podobna?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Ja tego niewiem bom GO nigdy niewidziała... Ale kiedy móy brat iest tak bardzo podobny i drugi malęki portrecik Panny Anieliki kieby żywy... to zapewne i Monarcha musi być podobny.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Poznała żeś sama portret moiey córki?</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Od pierwszego weyrzenia. Ale zkąd Pani wiadomo że on go malował?... wszakże on mi przykazał ażebym ia tego przed nikim niemówiła.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(z uśmiechem)</stage> Prawdziwie, ia nawet domyślić się niemogłam, że to ten sekret iest ci zalecony.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA CZWARTA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+              <rs key="#elżbieta">ELŻBIETA.</rs>
+              <rs key="#anielika">ANIELIKA.</rs>
+            </p>
+          </stage>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(z wielką radością)</stage> Mościa Dobrodziko!... Jegomość prosi WPani Dobrodziki...</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(zdziwiona)</stage> Mnie zaś?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>To WPanią Dobrodzikę zadziwia?... ale zadziwisz się bardziey gdy się dowiesz o tem co mnie wten momęt spotkało.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Cóż takiego?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Wypiwszy herbatę, wzioł moią rękę i pytał się kto iestem? na co gdy mu odpowiedziałam, przycisnął mą rękę do swoich piersi, i rzekł słabym ale nayprzyiemnieyszym głosem, „Kochana córko! proś do mnie matki twoiey ieżeli iest w domu” te słowa, a bardziey mowa iego od lat kilku niesłyszana, tak przeieły serce moie, że sie poiąć niemogę z radości.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Ach może sie iuż Bóg ulitował nad biednym stanem iego. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Dobry Boże więc i ja poznam ieszcze naszego Jegomości... o co za szczęśliwość! <stage>(zabiera koszyk i odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA PIĄTA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#anielika">ANIELIKA.</rs> (potym)
+              <rs key="#kampler">KAMPLER.</rs>
+            </p>
+          </stage>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>O Dobry Boże!... oyciec móy przychodzi do zdrowia... <stage>(chce biegnąć za Matką, spotyka wchodzącego Kamplera)</stage> Ach Mos. Panie Kampler!... w samą porę WPan przychodzisz, dopomożesz nam WPan dzielić nasze ukontentowanie.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Ukontentowanie?... więc ja może za późno przyszedłem, z nowiną także pomyślną. Cóż to takiego?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Oyciec móy w ten momęt przemówił.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Bardzo się z tego cieszę... taką rzeczą, moie doniesienie będzie tylko dopełnieniem ich radości... to iest: że kredyta Rodziców WPanny są zupełnie zaspokoione.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>To nam podwónyne sprawi ukontentowanie... spiesz się WPan... proszę!... spieszmy się uwiadomić o tym moich Rodziców.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Kochana Anieliko! wiadomo WPannie, że choć od lat kilku iestem przyiacielem ich domu; jednak z przyczyny tak ciągłey choroby oyca WPanny, nie jestem mu znaiomym... przytomność tedy moia...</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Ztak pomyślną nowiną będzie mu nayprzyiemnieyszą... MPanie Kampler... ja WPana proszę!</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>W teraźnieyszey porze, WPanna sama możesz tylko o tem oznaymić:... po niey zaś...</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Dla czegóż nie zaraz... dla czegóż WPan niechcesz dać się poznać oycu memu? iednak, ieżeli WPan żądasz tego koniecznie ażebym ia sama doniosła mu o tem, więc idę... Ale WPan zatrzymay się tu!... proszę!...</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Bardzo dobrze... słowo tylko... Nie iesteś też WPanna ciekawa widzieć, kto dla nich wyświadczył to dobrodzieystwo?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Prawdziwie ia z wielkiey radości zapominam że żyię na świecie... Proszę mi tedy powiedzieć rzecz całą, ażebym moim rodzicom mogła uczynić należytą relacyą. Któż to był taki?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Któżby miał być inny prócz cnotliwego Karola Reynhard, ten, póty prawie iak umyślnie siedział tu w Wilnie, i nie przestawał wywiedywać się o kredytach P. Majora... póki wszystkie zupełnie nieuspokoił.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Co za dobroć serca, iak iest wspaniała dusza w tem młodzieńcu.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>U wszystkich cnotliwie myślących ziednał dla siebie szacunek i pochwałę, a ukochaney Anieliki, zapewnie zasługuie na winną mu wdzięczność.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(spuszczaiąc oczy z rostargnieniem)</stage> Tak iest... nic nad to prawdziwszego... <stage>(wychodząc z rostargnienia)</stage> Ale!... zapomniałam pytać się o to, co mnie naybardziey interesuie... My zaczynaliśmy się lękać o zdrowie WPana, nie maiąc o nim tak długi czas naymnieyszey wiadomości. Czy niewyieżdżałeś WPan dokąd?...</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Byłem zatrudniony ukończeniem historyi brata Elżbiety... <stage>(wpatruie się w Anielikę)</stage> i spieszyłem robić śliczny prezent dla Pana Karola.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Dla Pana Karola?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Tak iest... który WPanna sama oddasz iemu, a to wypłacając się za łaski im wyświadczone: iego czułe serce, <stage>(wzdycha)</stage> tak iest... on go przyimie z radością. <stage>(oddaie portret)</stage></p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(wpatruie się)</stage> Jak śliczna miniatura!... zapewne ten rysunek iest wyobrażeniem WPana jmaginacyi?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Nie zgadłaś WPanna... Jest to portret oryginału naycennieyszego sercu memu.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Jak to?... co WPan mówisz?... możeż kto żyiący być przyozdobiony tylu wdziękami?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Jest... wierz mi WPanna... Choć moia ręka nayusilniey to kreśliła co iey serce dyktowało, iednak te wyobrażenia są tylko powierzchownych przymiotów... wnętrznych zaś naydoskonalszy penzel nie iest w stanie okazania.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>J owszem, za pierwszym weyrzeniem z łatwością można wyczytać w tey postaci, szlachetna duszę, dobroć serca, szczerość, niewinność...</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Doday WPanna do tego nieskażoną cnotę, niezmyśloną pokorę, pobożność, miłość rodzicielską, stałość w nieszczęściu, litość nad upadkiem bliźniego; a na ten czas szlachetne przymioty tey osoby, będą należycie opisane.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>O iak szacowny! i nader szacowny oryginał tego portretu... słowem: jeżeli to być może, to iest Anioł w ludzkim ciele... Godzien iest tey nadgrody wspaniały i dobroczynny Reynhard. Nim się dostanie w ręce iego, bardzo bym ządała wiedzieć, iak się ta osoba nazywa?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>WPanna znasz ją bardzo dobrze.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Ja?... WPan, chiba żartuiesz. Poznać tak dokładnie osobę, trzeba się i nią znać bardzo długo, ia zaś ieżeli znam kilka osób, znam ie tylko z widzenia, i to nikogo podobnego przypomnieć sobie niemogę.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Znakiem że WPanna niewpatruiesz się nigdy dobrze w lustro będące przed iey oczyma.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(pomieszana)</stage> Jak to?... ten portret miałby być...</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Ten portret nieczyi inny iest, tylko ulubioney Anieliki... Zewnętrzne podobieństwo tak iest mocne; że każdy go z łatwością może rozeznać za naypierwszym weyrzeniem: dziś rano była u mnie Elżbieta z iednym wieśniakiem, ta ile będąc wieśniaczką, niemoże nigdy rozeznać obiektów należycie; uyrzawszy iednak ten portret rzekła że to żywe wyobrażenie Panny Anieliki. Wszyscy tedy oddaią mi sprawiedliwość. Podobieństwo zaś iey przymiotów, ten tylko może wyczytać, kto ią pozna tak blisko, iak ia ią znać mogę.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(bardziey pomieszana)</stage> Panie Kampler!... Panie Kampler!...</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Cóż to ią czyni tak niespokoyną?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Ja się nieznam... ia się nieczuię do tego, co przez WPana wten momęt zostało opisane... Ach taki podstęp!...</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Cnotliwy sposób myślenia, i głęboka pokora, niedopuszczaią WPannie dostrzec tego w sobie.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(z stałością)</stage> Mospanie!... nikt mnie lepiey znać niemoże nademnie samą. Jeżeli to iest próżne podchlebstwo, tedy mnie obraża, a ieśli zbyteczne uniesienie się... lituię się nad nim.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>WPanna się lituiesz?... <stage>(na stronie)</stage> Ach cóżem uczynił!...</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(wolniey)</stage> Wyiąwszy powinność i obowiązki, ieżeli ich ieszcze mogłam: albo wypełniłam podług mego stanu, więcey do niczego się nieznam.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Każdy czyniący zadosyć powinności stanowi swemu przyzwoitey, śmiało może się nazwać naypoczciwszym. <stage>(pokornie)</stage> Mościa Panno!... proszę darować moiey odwadze, wyznaię swóy występek, iż znaiąc ciebie od dzieciństwa, nieprzenikałem: że twoia skromność obrazi się pochwałami, choć aż nadto służącemi tobie. Jakże?... Kochana Anielika sama odda Karolowi ten portret, czy przezemnie zechce go posłać?... Chętnie bym się podiął tey przysługi.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(pomieszana)</stage> Karolowi?... nie... on go mieć niepowinien... <stage>(niespokoynie)</stage> ia chcę... ia żądam tego... tak iest... ia żądam ażeby on nazawsze został przy WPanu.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(przyimuie Portret z żywością)</stage> Kochana Anieliko!... czymże ia mogłem zasłużyć na ten tak wielki dar u ciebie?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Dzieło WPana, może się nazwać moim darem?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(całóiąc rękę Anieliki)</stage> To dzieło z rąk twoich godna Panienko!... iest szacownieyszym darem nad własne me życie.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(strwożona chwyta się za piersi)</stage> Ach!... cóż to iest?... Panie Kampler!... WPana obeyście się ze mną dnia dzisieyszego... WPana nadzwyczayne wyrazy!... <stage>(na boku)</stage> władać sobą niemogę... sama niewiem co się ze mną dzieie. <stage>(spogląda na Kamplera, i odchodzi raptem)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA SZOSTA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#kampler">KAMPLER.</rs> (potym)
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+            </p>
+          </stage>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(patrzy czule za odchodzącą)</stage> O ty wzorze cnoty i niewinności!... ty dziecie godne szacunku i uwielbienia! Ręka naywyższey Jstności dotknęła z iedney strony strapioną matkę dopuszczeniem tak ciężkiey choroby na jey męża; z drugiey strony przynosi iey pociechę utworzywszy tak piękne serce w iey córce... O jak szczęśliwym będzie się widział ten, co otrzyma iey rękę... Fatalne przeznaczenie!... dlaczegoż nieumieściłoś mnie w stanie utrzymania jch całey Familij!... a na ten czas, pozostała by mi przynaymniey nadzieia otrzymania kiedy tego skarbu... teraz zaś, naymnieyszey mieć niemogę. <stage>(wpatruie się w Portret)</stage></p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(wchodząc)</stage> Dzień dobry kochany Panie Kampler!</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(nieuważaiąc)</stage> Ten portret został mi powróconem, a tem samym szacownieyszy iest sercu memu... Jeżeli ią otrzyma kto inny? <stage>(całuie portret)</stage> tedy spóyrzeniem na ciebie!... spórzeniem na to nie ocenione dzieło rąk moich będę słodził nayprzykrzeysze dni życia mego... Nayprzykrzeysze?... nie... ia ich nigdy nie doznam, abym tylko widział twoie uszczęśliwienie... <stage>(spogląda wbok, i postrzega P. Dalbor)</stage> Jey Matka? <stage>(staie pomieszany)</stage></p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Cóż to iest? WPan się trwożysz?... Zapominasz że otem, iż się znayduiesz w domu przyiacioł?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(pomieszany)</stage> Mościa Dobrodziko!... niespodziewana iey przytomność:...</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Możesz WPan być spokoynym... Będąc uwiadomioną od Anieliki o WPana przybyciu przyszłam mu podziękować za tę pomyślną nowinę o którey mi córka wten momęt doniosła. Widząc zaś jego zatrudnionym, iuż myślałam się uchylić.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Więc Pani cała rzecz iest zupełnie wiadoma?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Nic bynaymniey. To tylko poznałam, że WPan masz obiekt godny iego szacunku... Winszuię iey tego choć może nieznaiomey... Szczęśliwa jeżeli będzie w stanie poznać cnotę WPana.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(z żywością)</stage> Ten cel naygdnieyszy uwielbienia!... nie... ia nigdy nie sądzę się... <stage>(wahaiąc się)</stage> Pani!... nic ci zapewne iuż nie iest taynego.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>WPan wątpisz o moiey rzetelności?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Ja? daruy Pani!... z wielkiego roztargnienia przyiść do siebie niemogę... Ale gdy Pani zostaniesz uwiadomioną, ziednamże u niey przebaczenie?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Cóż to jest? ia go wcale nierozumiem: WPana dzisieysze wyrazy, wcale są dla mnie obcemi.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(pokazuie portret)</stage> Poznayże Pani: co iest tak wielkim moim zatrudnieniem; ale razem daruy występkowi!</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(bierze portret)</stage> Tenże to iest cel interesujący go tak daleko?... wszakże to iest córka moia.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Szukaiąc dla siebie rozrywki stanowi memu przyzwoitey; między innemi, naymilszą znalazłem w domu WPani Dobr. Od lat kilku, codziennie prawie zapatrując sie na wzróst Anieliki. A widząc jey ćwiczenia się w cnotach podług wieku i zdolności, idącey we wszystkim za przykładem matki swoiey; trudno się było oprzeć uczuciom.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Nic w tym niema nadzwyczaynego, ani można to mieć za występek.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Nie podchlebiałem sobie tyle, ani unosiłem się tak daleko ambicyą osiągnienia kiedy iey ręki; ale iako prawdziwy przyiaciel, oczekiwałem tylko niecierpliwie momętu iey uszczęśliwienia.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>O tym bynaymniey niepowatpiwam.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Teraz zaś uważaiąc wszystkie czynności Pana Karola, iuż widzę spełnione moie życzenia, ukontentowanie zwidzenia bliskiego szczęścia Panny Anieliki, przeięło serce moie, zamknełem się tedy w stancyi dla wypracowania tey dla niego przysługi.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Ten WPana postępek, wielkiey nabawił nas niespokoyności.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Radziłem dziś Pannie Anielice, ażeby na znak wdzięczności ofiarowała Karolowi ten portret. Lecz Anielika jak uważałem będąc daleko od tego, wróciła mi go nazad.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Więcey uczyniła niżelim się mogła poniey spodziewać. Może to wyobrażenie niemiałoby u Pana Karola tyle szacunku ile go ma u WPana. Ale daymy temu pokoy; mam WPana prosić, ażebyś w pewney materyi chciał dać szczere swoie zdanie, spodziewam się że mi nieodmówisz tego.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>W czym takim M. Dobrodziko?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Wyznaię że Pan Karol iest godzien wielkiey wdzięczności za podźwignienie nas z tak ciężkiego upadku... Ale iego hoyność przekonywa, że Reynhard iest w stanie wspierania... czegoż iest godzien taki, co uymuiąc swoim własnym potrzebom, zastępuie obce; co sam niemaiąc innego funduszu do życia prócz talentu i pracy; kilka lat opatruie iedna podupadłą Familią: a to ieszcze tak sekretnie, żeby nietylko kto inny, ale nawet ta sama familia niedowiedziała się kto ich iest dobroczyńcą?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(miesza się)</stage> Jak to Mościa Dobrodziko?... ja tego nie rozumiem.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Więc ia WPanu iaśniey to opiszę: Od czasu zapadnienia mego męża w tak ciężką chorobę, blisko lat czterech; Opatrzność Boska przez iakąś niewidomą osobę bezustannie nas wspierała: a iak się późniey dowiedziałam, że tey osoby całym funduszem iest praca jego rąk. Osądź że teraz WPan, czy podobny nie zasługuie na większą, a przynaymniey równą wdzięczność z tym: co może tysiączną cząstkę swego maiątku odkłada na wsparcie bliźniego.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(bardziey niespokoyny)</stage> Prawdziwie, ja sam niewiem co nat to mam odpowiedzieć. Ale iak mi się zdaie, że ten, co się tak ukrywał, musiał mieć szczegulne do tego przyczyny... odkrywaiący zaś cudze sekreta, niemoże się nazwać poczciwym człowiekiem.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Póty niemogłam bydź spokoyną póki tego nie dociekłam, a teraz póty nią niebędę, póki mu nie oświadczę tego, co me serce czuie... O gdybym teraz posiadała skarby całego świata, ieszczeby to małą było ceną w porównaniu mey chęci i jego dobroci. Lecz te łzy... które teraz wdzięczność wydobywa z mych oczów, niechay mu będą nadgrodą i wstawieniem się przed Tronem Naywyższey Jstności.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Pani tak daleko unosi się... w samey rzeczy zdaie się mi: że ten, dla którego Pani zdobywa się na tyle oświadczeń: gdyby tu był przytomny; niewiem czyby mógł być na to spokoynym.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>WPan tak mówisz? więc muszę temu wierzyć. Proszę iednak WPana! poday mi iaki sposob, ażebym choć w iakiey części mogła wypłacić się mu za to.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(zatrudniony)</stage> Ja Pani?... ja nawet nie iestem wstanie odpowiedzieć iey na to... Proszę mi darować, niektóre interesa niedozwalaią mi bawić dłużey, muszę odeyść.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(wstrzymuie)</stage> Ja proszę żebyś został... Dosyć iuż tego... niemam tyle mocy; ażebym dłużey mogła się wstrzymać zwynurzeniem mu tey wdzięczności, którą od dawna serce moie iest przeięte... Młodzieńcze pełen ludzkości!... życie nasze... życie moie... i nieszczęśliwego męża mego, twoim iest darem, i do ciebie zupełnie należy.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(niecierpliwie)</stage> Mościa Dobrodziko!...</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Gdyby nie twoia dobroć, możeby z ostatniey nędzy przyszło się oddać rozpaczy.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Pani!...</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Jeżeli Anielika iest ci szacowną... szczęście iey, szczęście moie iuż iest spełnione... Mimo iey ukrywania się przedemną czy to przez skromność... czyli bardziey przez niewinną niewiadomość, poznałem od dawna jey do WPana przywiązanie... Jeżeli tedy Anielika może się nazwać godną tak dobroczynney ręki i serca...</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Ach Mościa Dobrodziko!... Anielika!... ten skarb pełen cnoty, miałażby się za szczęśliwą, będąc żoną iednego Artysty?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Znayduiąc serce podobne swemu; możnaż sobie życzyć większego uszczęśliwienia?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Dosyć iuż!... aż nadto dosyć dla mnie nadgrody, gdy Matka Anieliki znayduie mnie być godnym iey ręki.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(oddaie portret)</stage> Odbierz że WPan ten portret, on do niego należeć powinien.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>A gdyby Pan Karol nie inną myślą unosił się tak wielką wspaniałością tylko iedynie dla uczynienia sobie wstępu do domu Jchmościów, i proszenia o Anielikę?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Nie... to nie iest rzeczą podobną.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>J owszem, to nic iest niepodobnego; jey wdzięki każdego młodzieńca oko zwracaią.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>A jey ubóstwo, iest naywięszą odrazą.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Ja myślę ża naylepiey to zostawić do woli i wyboru Anieliki.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Tedy upewniam że ten padłby na WPana.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Ja bym zaś życzył przeciwnie... tyle bowiem szacuię Anielikę, że iey szczęście przenoszę nad moje własne... Pan Reynhard iest czuły i miłosierny... A ile będąc tak maiętny...</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA SIODMA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dalbor">DALBOR.</rs>
+              <rs key="#anielika">ANIELIKA.</rs>
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+              <rs key="#kampler">KAMPLER.</rs>
+            </p>
+          </stage>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Otoż móy mąż nadchodzi, nieszczęśliwy!... iak on wygląda? <stage>(pomaga prowadzić Anielice)</stage></p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(podaiąc krzzesło)</stage> Jaki wiek sędziwy!... co za postać uymuiąca!...</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p><stage>(tonem bardzo słabym)</stage> Boże Wszechmogący!... niech będzie Jmie Twoie wiecznie błogosławione, że mi dozwalasz oglądać jeszcze światło słoneczne... Przepuść zbrodniarzowi szemrzącemu tak długi czas przeciw Twoiey dobroci i miłosierdziu. <stage>(siada)</stage></p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Alfonsie!... siły twoie bardzo są zwątlone; nie mów z tak wielkim poruszeniem.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Dobra i cnotliwa Justyno!... iak twóy głos iest wdzięczny i przyiemny uszom moim... iak dawno niewidziałem twarzy twoiey tak miłey niegdyś sercu memu... pódź!... dozwól się uściskać i przeprosić za tyle przykrości uczynionych ci przez czas tak długi moiey choroby. <stage>(ściska P. Dalbor)</stage></p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Kochany Mężu!... ia naymnieyszey niedoznawałam nigdy.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Dobroć twoia to wszystko zniosła cierpliwie... <stage>(spogląda na Anielikę)</stage> Przystąp tu bliżey Anieliko!... iak ty iesteś miła... iak piękna; tak właśnie iak wesołe zorze poprzedzaiące wschod słońca. <stage>(Anielika spuszcza oczy)</stage></p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Cóż to, wstyd ci twarz zarumienił? tym lepiey!... tym pięknieyszą iesteś oczom moim... to iest naypewnieyszym znakiem twoiey niewinności.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(całuie ręce oyca)</stage> Naymilszy oycze!</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p><stage>(przyciska ią do piersi)</stage> Kochane dziecie!... o Boże!. wżyciu moim nie doznawałem tak wiekiey radości, iakiey teraz doznaię... za każdym weyrzeniem na ciebie naymilsze dziecie, nowe i coraz większe uczucia rodzą się w sercu moim... Byłżebym doznał kiedy tak wielkiey radości, gdybym zbrodniczy móy zamysł przyprowadził do skutku.</p>
+          </sp>
+          <sp who="#pani_dalbor #anielika">
+            <speaker>PANI DALBOR. ANIELIKA.</speaker>
+            <p><stage>(w podziwieniu)</stage> Zbrodniczy zamysł?</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Tak iest... tak kochane dziecie!... ty przed kilko laty, mało niestałaś się nieszczęśliwą ofiarą z desperowanego oyca.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(wzdryga się i przybiera minę spokoyną)</stage> Alfonsie!... dawne rzeczy powinny być zapomniane.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(na stronie)</stage> O Boże co to było!...</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Dzień dzisieyszy nayroskosznieyszy dla nas, dzień iakiego w życiu moim niepamiętam... niech że nie będzie zatruty smutnemi powieściami!... córka iego oto prosi!</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Córka moia!... ach niemasz tego czegobym dla niey nieuczynił... A to co za młodzieniec?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Jest to naybliższy nasz przyiaciel.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Macież wy ieszcze przyiaciół?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Niemasz człowieka tak nieszczęśliwego, któregoby Opatrzność zostawiła bez swoiey pomocy.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Nie tenże to wspaniały, co poopłacał moich kredytorów?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Stan i sytuacya, nieodpowiada chęciom moim.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Jednakże obowiązany mu iestem za tę przyiaźń, którą się dom móy zaszczyca.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Ja zaś winszuię sobie, że się przybliżył ten pożądany momęt poznania WPana Dobrodzieia, i cieszenia się z polepszenia zdrowia iego.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Blisko czterech lat bez zmysłów prawie leżałem. A gdy mi spokoyność zaczęła powracać; naypierwsza moia myśl była o Bernardzie twoim bracie Justyno. Niemiałaś też przez ten czas iakiey o nim wiadomości?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Naymnieyszey... iuż podobno nigdy go nie obaczę. <stage>(odwraca się i ociera oczy)</stage></p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Ty płaczesz? masz słuszną przyczynę... dobry to był i poczciwy człowiek... jeden tylko błąd popełnił, za który ty należycie odpokutowałaś.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Błąd!... ia za niego odpokutowałam! a to iakim sposobem?</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Ze ciebie zbytecznie kochał, a tem samem stał się przyczyną tak wielkiey twoiey nędzy.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Nie rozumiem ciebie.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Gdyby mniey był uważał na twoie ku mnie przywiązanie, i użył swoiey władzy, jaką miał nad tobą; a oddał cię za którego współ ubiegaiącego się o twoią rękę: będąc tedy za iakim kupcem albo bankierem...</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Przy dostatkach i wygodach, możebym tysiąc razy była nieszczęśliwszą niżeli teraz mnie być sądzisz. <stage>(wstaie z krzesła)</stage> Gdybym niebyła oczewistem świadkiem twoiego upadku, wnosiłabym z twoiey mowy; że sam dobrowolnie stałeś się tego przyczyną.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Justyno!... ty się gniewasz?... wybacz mi!... ja ciebie niechciałem obrazić!... ia to mówiłem lituiąc się nad twoim biednym stanem i losem nieszczęśliwym.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Gdy cię oglądam zdrowego, tem samem los móy iest nayszczęśliwszy.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(na boku)</stage> Co za dobroć!</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Jak wielkie ukontentowanie!</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Ulubiona małżonko!... Boże cię błogosław!</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Pan Karol Reynhard podobno idzie.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Cóż to za ieden?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Jest to ten, co po opłacał naszych kredytorów.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Ten poczciwy!... ten!... dopomożcie mi podnieść się... dopomożcie wyiść przeciw niemu.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Nie trudź się tak bardzo!.. my zastąpiem twoie mieysce.</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA OSMA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dalbor">DALBOR.</rs>
+              <rs key="#anielika">ANIELIKA.</rs>
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+              <rs key="#kampler">KAMPLER.</rs>
+              <rs key="#karol">KAROL.</rs>
+            </p>
+          </stage>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Całuie nóżki Panów moich!... dzień dobry!... dzień dobry!...</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Uniżona sługa Mości Reynhard! witam WPana.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>WPan iesteś unas gościem bardzo pożądanym.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>A szczegulnie odemnie... Niecierpliwie oczekiwałem momętu poznania mego dobroczyńcę.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Niewiem z kim mam honor mówić... Czy nie Pan Major.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Tak iest... to iest móy oyciec.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Bardzo mnie cieszy, że mam to szczęście poznania tak zacnego męża, i złożenia u nog iego winney moiey submissyi.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Jest to zbytek łaski iego.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Nagłe wiadomości wymagaiące prędkiego mego odiazdu; niedopuszczaią mi tyle nawet czasu usprawiedliwiać się przed WPanem Dobrodzieiem z mego postępku, a razem wyszczegulnić pobudki, iakie miałem w zatrudnieniu się jego interessami... Proszę mi tedy darować że bez Pańskiego zezwolenia poopłacałem i uspokoiłem, wszystkich Pańskich kredytorów. Oto są WPana Dobr: wexle, obligi i kwitacye z tego wszystkiego, co się tylko należało komu. Proszę to przyiąć, i rozkazać mi sobie służyć w czym na czas dalszy, co będzie naywiększym moim obowiązkiem.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Naywiększy móy dobroczyńco!.. Każdy twóy szeląg wydany na zaspokojenie moich dłużników, iest u mnie nieoceniony. To iedno było przyczyną moiey choroby, to iedno mało mnie nieprzywiodło...</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(przerywa)</stage> J ia przyłączam moie podziękowanie... Ale usta moie nie są w stanie wyrazić tego co serce czuie.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Pan Karol niech nam raczy podać sposob wypłacenia się mu za to.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Ja jeżeli co uczyniłem, to bez naymnieyszey pretensyi.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(na boku)</stage> Jak wielka wspaniałość.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Proszę mię jednak mieć za wymówioną, że w początkach miałam onim podeyrzenie. Młodzież bowiem tegowieczna, tak iest zepsutą; że tysiące łożyć na dopięcie zbrodniczego zamiaru, mniey u nich waży: niż kilku groszami wesprzeć potrzebę ludzką.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Ale też taki iest podobny do owey fałszywey monety, co póty tylko ma swóy walor, póki nie dóydzie do rąk znającego się kupca, albo bankiera; tam dopiero zupełnie traci swoie znaczenie, a przybita wielkim ćwiekiem do kassy kupieckiey, zostaie na zawsze bezczynną. Ale daymy temu pokóy! JPanna Majorówna włożyła na mnie obowiązek podania sposobu nadgrodzenia tę małą moią przysługę. Gdyby tedy Jchmość Majorowie chcieli mi powierzyć staranie o sobie; zatrudniania się ich potrzebami: na ten czas, byłbym zupełnie nadgrodzonym.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(na stronie)</stage> Cóż to ma znaczyć?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>To, co dotąd dla nich czyniłem, iest to iedno nic względem tego, cobym żądał dla nich uczynić. A dla uniknienia na dalszy czas wszelkiey o mnie podeyrzliwey suppozycyi, nayprzyzwoicieyby było, gdybym... gdybym naprzykład mógł otrzymać pozwolenie połączenia się z ich cnotliwą familią.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Posiadaiąc tak dobre serce, przystałoż tak daleko żartować?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Krzywdę mi WPan Dobrodziey czynisz w tym razie. Nigdy myśl moia niebyła tak płochą; co wyrzekłem, to iest tak punktualne iak słowo kupieckie. Jeżeli tedy nastąpi Jchmościów zezwolenie?... Jeżeli śliczna Anielika nie pogardzi moią ręką? Jużem zupełnie szczęśliwy. <stage>(przymuszenie)</stage> Jeżeli zaś stanie się przeciwnie? natych miast pogrążam się w rospaczy, i na całe życie zamykam się za klauzurę u Kapucynów. <stage>(na boku)</stage> A dalibóg wszakże ja umiem grać rolę rozkochanego.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(na boku)</stage> Tego się spodziewałem.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(wzdycha)</stage> Ach!</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(na boku)</stage> To iest, czegom się naybardziey lękała.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Cóż to?... żadne z was nic nie mówi; Anieliko!... do ciebie naypierwey należy odpowiedzieć.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(zatrudniona)</stage> Ja! ja iestem pod władzą rodziców, powinnością moią iest, być posłuszną ich woli.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Jch władza nie rozciąga się do twoich wnętrznych uczuciów.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Ja iestem pewnym, że JPanna Anielika tam się nakłoni, gdzie będzie widziała swoie dobro, i uszczęśliwienie rodziców.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Będąż spełnione moie życzenia?</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Wszystko mówi na stronę WPana... maiąc jego moim zięciem przepędziłbym resztę dni życia mego w radości i ukontentowaniu. Będąc oswobodzony z długów, iuż mię więcey nic nie obchodzi, tylko los córki moiey: chiba że Anielika iuż dała komu słowo i przyrzeczenie, a to nigdy niepowinno być cofnione, choćby naywiększe skarby.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Nie móy oycze, nie dałam nikomu żadnego. <stage>(spogląda na Kamplera z uczuciem)</stage></p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Więc zezwalasz na żądanie Pana Karola?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Chcę dopełnić wolę WPana Dobrodzieja!</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Skromność iey niedozwala iaśniey się tłumaczyć.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(na stronie)</stage> A uczucia nie zgadzaią się z wyrazami.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(biorąc rękę Anieliki)</stage> Mogęż być pewnym iey ręki?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Pod tą iedynie kondycyą, ażeby rodzice moi zostali się przy mnie na zawsze.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(całuiąc rękę)</stage> To iest jedynym moim żądaniem.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Panie Kampler!... cóż WPan na to?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Będąc ich przyiacielem, nie mogę opisać mego w tem ukontentowania.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Mości Reynhard!... WPan iesteś młody... powiedz mi szczerze... rządziszże sobą zupełnie, czyli też iesteś pod czyią władzą?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Co do pierwszego, rządzę samym sobą, podług moiey woli, ponieważ mam udzielny, i móy własny maiątek... Nigdy iednak nic nie czynię bez woli oyca mego.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>To iest rzeczą bardzo chwalebną.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Moie zamysły iuż są oycu wiadome. Naydaley dziś po południu spodziewam się jego brzybycia. Jeżeli tedy WPan zezwolisz?... w przytomności jego ukończemy rzecz całą.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Bardzo dobrze... proszę WPana o to! Ach!... zbyt długie siedzenie... słabość mnie ogarnia...! Anieliko!... Justyno!... pomóżcie mi podnieść się; i zaprowadźcie na łóżko... Mospanie! z niecierpliwością oczekuję przybycia oyca jego. <stage>(tu go podnoszą i odprowadzaią)</stage></p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Nieuchybię momętu.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(prowadząc męża mimo Kamplera)</stage> Panie Kampler!... proszę nas dziś odwiedzić.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Bardzo dobrze Pani.</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA DZIEWIĄTA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#karol">KAROL.</rs>
+              <rs key="#kampler">KAMPLER.</rs>
+            </p>
+          </stage>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(na stronie)</stage> Musi to być ten malarczyk, o ktorym mi mówiono.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Mości Dobrodzieju!... o jak wielki skarb zdobyłeś przez tę swoią dobroć... Mogę mu powinszować... i bardzo mogę.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(nakrywa głowę ambitnie)</stage> Dziękuię mu za jego grzeczność; i bardzo dziękuię. <stage>(odchodzi z pompą)</stage></p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(sam)</stage> Nie!... Jego sposob postępowania nie zgadza się z tem dumnem ambitem!... iest tu w tem cóś ukrytego... Ale jeżeli to małżeństwo przyidzie do skutku, a to ulubione stworzenie zamiast szczęścia, znaydzie większe umartwienie?... tedy serce moie, bardzieyby było udręczone, niżeli w tem momęcie gdy ią utracam.</p>
+          </sp>
+          <trailer>(Koniec Aktu Pierwszego)</trailer>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT II.</head>
+          <stage type="setting">
+            <p>(Pokoy Karola)</p>
+          </stage>
+        <div type="scene" n="10">
+          <head>SCENA PIERWSZA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#karol">KAROL.</rs> (potem)
+              <rs key="#reinhard">REYNHARD.</rs>
+            </p>
+          </stage>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Już tedy wszystkie zawady są ułatwione... moie małżeństwo naypewnieysze... Ach iakże iestem niespokoynym! każdy momęt oczekiwania na oyca mego, wiekiem się mi staie... Ale gdyby to wszystko miało być jakim omamieniem, gdyby móy oyciec dał się uwieść iakiemu chytremu podeyściu!... tedy może bym się powiesił z rospaczy. Tyle wydatków... tyle zabiegów:... głowa się mi zawraca, gdy tylko o tem pomyślę. <stage>(Reynhard wchodzi)</stage> Ach kochany oycze!... iakże niecierpliwie oczekiwałem WPana przybycia.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Dobrze żem ciebie zastał. Kroku iednego niemogłem odstąpić od tego starego Kapitana; iuż od godziny stanoł tu w mieście; i wywiaduie się o swoim szwagrze. Jakże... uczyniłeś tu wszelkie przygotowanie.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Zupełnie, do potwierdzenia moich związków, Major Dalbor oczekuie tylko WPana przybycia.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Niemiałżeś tu jakiey trudności?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Z podobnemi biedakami, żadney nietrzeba się było spodziewać; ale wydatków bez liczby.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Nic to... wszystko to nam będzie nadgrodzono. Ależ w wypłaceniu kredytorów, trzeba było mieć kalkulacyą.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Umiałem zachować formę dobrego porządku; niektóre pomnieysze w połowie; a znacznieysze ledwie w czwartey części poopłacałem.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Bardzo dobrze!... bardzo rozumnie. Cóż na to dłużnicy.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Kontenci byli że się im i tyle dostało, ponieważ to wszystko mieli za przepadłe.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Wszystko dobrze, wszystko regularnie: więc taką rzeczą wszystkie zawady są uprzątnione?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Z strony ożenienia niema żadney.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Oy możeby i bardzo wielka nastąpiła, gdyby Majorowie wiedzieli; że jch córkę ma spotkać tak znaczny maiatek: a ieszcze większa; gdyby im kto oznaymił, iż my dla naszey zbyteczney jndustryi, kalkulacyi i oszczędności; u wszystkich Lipawskich obywateli iesteśmy w pogardzie: i że u żadney handlowey kompanii mieysca mieć nie możemy.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Potrafilibyśmy z nich zażartować; gdyby to tylko prawda była; że moią narzeczoną czeka tak wielki posag.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Co wtem, śmiało ręczę moim życiem.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Jednak to się mi w głowie pomieścić niemoże, iak ten Kapitan maiąc tak wielkie pieniądze; dopuścił tyle lat siostrze swoiey zostawać w ubóstwie: ieszcze będąc tak hoynym i rozrzutnym; iak mi WPan opisałeś?</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Dla zaspokoienia twoiey ciekawości muszę ci całą rzecz powiedzieć. Rodzice Kapitana i Majorowy, byli bardzo bogatemi obywatelami w Gdańsku; którego ich dwoie tylko byli sukcessorami. Major Dalbor po śmierci rodziców swoiey żony, wzioł połowę spadaiącęgo majątku, a że miał ochotę do Woyska; kupił rangę w byłym woysku Polskim: byłoby mu to wszystko nadgrodziło się niezmiernie, gdyby umiał korzystać z okoliczności tak, jak wielu innych Sztabs-Officyerów, Officyerów, kwatermistrzów i kassyerów; ale że poczciwość więcey cenił nad własny pożytek; po rozpuszczeniu woyska przyszedł do tak wielkiey nędzy iak iuż tobie iest wiadomo. Brat zaś Majorowy, oddał swoią Połowę do kompanii handlowey w Hollandyi, a że był ćwiczony w sztuce Marynarskiey, przyiął w teyże kompanii offiarowaną rangę Kapitana okrętu: z warunkiem: ażeby na okręt będący pod iego sterem; mógł przyłączać pewną liczbę swoich towarów, co mu było pozwolono. Gdzie będąc więcey lat dwódziestu, odbył wiele podróży bardzo szczęśliwie: i tem sposobem, podniosł swóy kapitał do tak znacznego stopnia, iż zdaie się iakoby w iego brudnym puilaresie cały bank Hollenderski był zamknięty. Przy tem wielką mi był do tey wiadomości pomocą nieiakiś Pułkownik Plotkarski, który, w iednym regimencie służył z Majorem w woysku Polskiem, ten tedy opisał przed Kapitanem całą sytuacyą jego szwagra, a mnie odkrył wszystkie iego zamiary. Co mi było wielką pobudką w dołożeniu nayusilnieyszey staranności, ażeby ten maiątek dostał się w ręce nasze.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Jakimże sposobem mogłeś się WPan o tem wywiedzieć?</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Losem szczęścia stanąłem w Petersburgu w teyże samey kamienicy, w którey on miał stancyą. Cięka ściana, i drzwi zamknięte przedzielali nasze pokoie... tam tedy dowiedziałem się o tem wszystkiem o czem ciebie listownie uwiadomiłem, i o tem com ci teraz powiedział.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Taką rzeczą, P. Guteman co się tak bardzo wzdrygał z wydaniem swoiey córki za mnie, nieochybnie dostanie zawrotu przez zayzdrość.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Niech szaleie!... niech pęka ze złości, i ci wszyscy, co nie są z nami jednego sposobu myślenia. Aby tylko dostać te pieniądze w nasze ręce, tego momętu buduiemy nowy okręt, ładuiemy go kurant towarami; i wysyłamy do St.-Domingo, a to pod dozorem twego Wuja Kapitana Wanewill: oy wytrawiony to żeglarz, każdy okręt będący pod iego sterem, powracał nayszczęśliwiey, i żadnemu niepodpadał niebeśpieczeństwu.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>A jeżeli kto zechce dać na frakt, niech sie wprzódy dobrze opłaci; a do tego długo naprosi i nakłania nim go przyimiemy.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Dobrze mówisz móy synu. Ale!... dla lepszey prowadzenia intrygi i interesu, trzeba ci wiedzieć; że Kapitan Wanewill, na pierwszym wstępie do domu swoiey siostry, chce się pokazać iako ostatni żebrak: a to dla doświadzenia i przekonania się; z iakim będą ku niemu przywiązaniem. Pamiętay tedy, iak masz w tem razie postąpić sobie.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Nie trzeba mi to powtarzać. Opisz mi WPan tedy jego postać i charakter, ażebym...</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Jest to człowiek wysoki, wywiędły, czarno zarasta, surdut na nim granatowy z karmazynowem kołnierzem dobrze wytartym; kapelusz okrągły, którego podobno ledwie w Kościele zdeymuie, szpada ze srebrnym felcechem, trzścina gruba w ręku, którey musiał przysiądz że nigdy nie oddali od siebie... ma zwyczay głośno gadać, tak, iak wszyscy okrętowi: porywczy, prędki; i za naymnieyszą bagatelę hoynie szafuiący pieniędzmi; o dostatki, bardzo mało; albo wcale nic niedbaiący, które podobno ślepe szczęście gwałtem mu w ręce pchało. Ale co widzę!... iego służący?... już musiał przyiechać!... podobno tu... tak iest, tu nadchodzi... czegoż on tu potrzebuie?... ja się schronie, a ty się jego wypytay: a pamiętay go spotkać dobrym podarunkiem. <stage>(pokazuie pieniądze)</stage></p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Już wszystko rozumiem.</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA DRUGA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#błażey">BŁAŻEY.</rs>
+              <rs key="#karol">KAROL.</rs>
+            </p>
+          </stage>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Przepraszam że tak odważnie!</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Któż jesteś móy przyiacielu?</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Jestem Błażey, służący starego Jnwalida Kapitana Wanewill.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>W którymże woysku twóy Pan zostawał, i co tu porabia?</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Gdy był młodszym, służył u kompanii handlowey w Hollandyi, i odbywał podróże morskie, od iedney do drugiey części świata; handluiąc towary na towary. Na starość zaś, odbywamy podróże londowe, handluiąc pacierze na chleb.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Taką rzeczy, Pan twóy iest potrzebujący wsparcia?... Bardzo się z tego cieszę, że trafiłeś do mnie; być pomocą w upadku, iest to dla mnie naywiększą roskoszą. Na, <stage>(dobywa sakiewki)</stage> iest tu 20. czer. złł. odday ie twemu Panu.</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Bardzo dziękuię móy miły Panie.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Proś twego Pana, niech tak będzie łaskaw, a raczy mnie odwiedzieć, daleko większe czeka go wsparcie.</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Bardzo dobrze móy miły Panie; ale ia nie po to tu przyszedłem.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Czegoż ieszcze żądasz?</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Powiadano mi, że ia się tu mogę dowiedzieć o mieszkaniu Majora Dalbor.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Dobrze ci powiadano. On mieszka za ostrą bramą, można do niego trafić niepytaiąc się nikogo więcey, gdyż nad bramą tey kamienicy, czyli też dworku; iest wielka czarna tablica, na którey wielkiemi białemi literami, na iedney połowie po polsku, na drugiey po rusku, iest napisane jmie, nazwisko, i wszystkie tytuły gospodarza domu. Byway zdrów kochany przyiacielu! a nie zapominay prosić do mnie swego Pana. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Będę pamiętał... <stage>(po odeśyciu Karola)</stage> A wszakże to bogatemu dobrze być i żebrakiem. Pan móy: co dziesięciu wielkim familiom mógłby dać dobry fundusz do życia, na pierwszym wstępie zmyślonego swego ubóstwa, dostał tak znaczną iałmużnę. A gdyby tak prawdziwie ubogi i potrzebuiący wsparcia, trzy dni stał pod oknem jakiego bogacza, i żebrał dwódziestu złotych... niewiem czyby ie mógł wyprosić, choćby to miało być na wykupienie jego od śmierci... O fortuno! ślepa fortuno!... nie darmo ciebie maluią z zawiązanemi oczyma... ty iak byłaś ślepą, iesteś ślepą; i będziesz ślepą aż do skończenia świata.</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA TRZECIA</head>
+          <stage type="setting">
+            <p>(Teatr się odmienia, okazuie pokoy Dalbora)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#anielika">ANIELIKA.</rs> (potem)
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+            </p>
+          </stage>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Już tedy przeznaczenie moie zupełnie się uiściło!... dziś mam zawrzeć związki, na których samo wspomnienie siły mnie odstpuią! Boże przyimiy tę offiarę, którą z siebie czynię dla ulubionych moich rodziców... ulituy się nad biednym moim stanem, a ulżyy tego ciężaru, którym serce moie tak srogo iest udręczone. <stage>(siada pogrążona w żalu)</stage></p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Znowu na ustroniu!... Anieliko!... kochana córko!... słuchay moiey rady! słuchay rady naywiększey twoiey przyiaciółki!... jeszcze masz dosyć czasu, jeszcze możesz to naprawić.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Dawszy słowo, mamże go nie dotrzymać?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Staray się pomówić z Karolem na osobności, opowiedz mu rzecz całą, nie tay naymnieyszey skrytości; on iest czułym, i pewną iestem że nie zniesie tego ażeby...</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Nie!... ja się na to nigdy odważyć nie mogę... za tyle łask jego, mam że się okazać tak niewdzięczną?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Tym okażesz mu szczerość swoią; za którą, ile będąc tak cnotliwy, urażać sie nie powinien: inaczey, sama zrządzisz sobie na zawsze nieszczęście, biednemu Kamplerowi zadasz raz nieznośny... mnie zaś, staniesz się przyśpieszeniem ostatnich godzin życia mego.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Miłość własna, bardzo iest różniącą się od tey, którą cnotliwe dzieci winni są swoim rodzicom: oddaiąc tedy rękę Kamplerowi, zboczyłabym zawsze od moiey powinności.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(poważnie)</stage> Którey rodzice nigdy po tobie niewymagaią. Niechcesz tedy przyimować rady przyiacielskiey, będziesz mi winna posłuszeństwo.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(w wielkim żalu)</stage> O iakże mi iest nieznośnie widzięć WPanią Dobrodzikę zagniewaną!</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Oycu twemu ieszcze nic nie iest wiadomo... opowiem mu rzecz całą, upor twóy, zapewne powróci go do tego nieszczęśliwego stanu, w którym zostawał: będziesz patrzeć na jego udręczenie, będziesz słuchała jego jęczeń i wzdychania, czuć będziesz iego boleść i uciśnienie, którego nikt więcey, tylko ty staniesz się przyczyną.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(nieposiadaiąc się z żalu)</stage> Ach co za smutne i okropne wyobrażenia!... wstrzymay się WPani Dobrodzika!... wstrzymay się proszę! stanę się posłuszną... wszakżem nigdy nie uchybiała ani na krok od jey rozkazów... ale pozwól mi WPani Dobrodzika wytłumaczyć się wprzódy z mego sposobu myślenia.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Mów!... słucham.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Oddaiąc rękę moią Kamplerowi, nie tylko że uczyniłabym zadość woli WPani Dobrodziki, ale nadto, zrządziłabym sobie naywiększe uszczęśliwienie. Lecz to uszczęśliwienie, iakby długo trwało; to tylko Bogu iest wiadomo, i memu przewidzeniu.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Jak to?...</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Będąc w tak wielkim niedostatku, nie stanęż się dla niego ciężarem naynieznośnieyszym?... potrzeby domowe, dopuszcząż mu doskonalić się w tey sztuce, którą wzioł za cel życia swego? praca jego na wyżywienie domu znaydzież gdzie przyzwoitą nadgrodę?... Talęt zaś iego choćby naydoskonalszy, ile z potrzeby, znaydzież dla siebie odpowiadaiący szacunek?... jego tedy trudy, kłopoty, a co nieznośnieysza, ubóstwo i niedostatek; iakieżby mi przyniosło uszczęśliwienie? <stage>(coraz mocniey za największym żalem)</stage> Oto patrząc na iego zgryzoty, i umartwienia, zamiast uciech i roskoszy; nie zalewałażbym się ustawicznie łzami tak; iak WPani Dobrodzika zalewasz się patrząc na zbolałego oyca mego.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>O kochane dziecie!...</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>WPani Dobrodzika widząc jego trudy i moie udręczenie, mogłażbyś być spokoyną?... Oyciec zaś móy patrząc na córkę swoią ustawicznie zalaną łzami, nieżyczyłżeby sobie prędszego przyśpieszenia śmierci?.. na ten czas... choć ja niebędę przyczyną tego nieszczęścia... i chociaż się naymniey do niego nie przyłożę... czuć iednak iego nigdy nie przestanę...</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Dość iuż!... dość tego... czyń tak iak ci twóy instynkt radzi.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Dobroć Karola potrafi zniewolić serce moie... uważać w nim będę nie męża, ale naywiększego dobroczyńcę... a nieprzywykłe z nim momęta, słodzić sobie będę miłą spokoynością ulubionych moich rodziców.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(przyciska Anielikę, i całuie w głowę)</stage> Ukochana Anieliko... błogosławieństwo niebios nad tobą... o iak szczęśliwi rodzice, którym Bóg daie mieć taką pociechę z ich dzieci, iakiey ja teraz doznaię z ulubioney moiey córki.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Pewną iestem, że Pan Kampler iest równego zemną zdania; on moze być przekonanym, że gdybym miała pewny swóy fundusz, szacownieyszaby mi była jego ręka, niżeli mitra Xiążęcia.</p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA CZWARTA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#błażey">BŁAŻEY.</rs>
+              <rs key="#anielika">ANIELIKA.</rs>
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+            </p>
+          </stage>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Szczęśliwe pozdrowienie temu domowi!</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Dziękuię ci dobry człowieku, czegoż to potrzebujesz?</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Miła Pani, chciałem się dowiedzieć, gdzie tu mieszka Major Dalbor?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>To iest iego mieszkanie, ale niemożna się z nim widzieć, bo iest bardzo chory: ieżeli masz iaki interes, możesz mnie go powierzyć.</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Bardzo chętnie miła Pani; mam mu oddać ukłon, od Kapitana, Bernarda Wanewill.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(z radością)</stage> Bernarda Wanewill?... Ach kochany przyiacielu!... gdzieś go widział?... gdzie on iest?... gdzieś go zostawił? proszę powiedz!</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Widziałem się z nim przed kwadransem, zostawiłem w mieście.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Co!... móy brat iest tutay?... Anieliko!... biegay do oyca powiedz mu tę pomyślną nowinę... twóy Wuy przyiechał.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(odchodząc)</stage> Móy Wuiaszek!... iakże dzień dzisieyszy iest dla nas szczęśliwy. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Naymilszy przyiacielu, powiedz, gdzieś go zostawił?</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Prawdziwie ia nieumiem Pani powiedzieć, bo dopiero pierwszy raz iestem w tem mieście.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Prędzey prowadź mnie do niego proszę!</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Ale nadaremnie będziemy go szukać ulicach, bo móy Pan nigdy na mieyscu nie posiedzi; niech Pani momęcik będzie cierpliwą, a zaręczam że wkrótce nadeydzie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA PIĄTA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#błażey">BŁAŻEY.</rs>
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+              <rs key="#anielika">ANIELIKA.</rs>
+            </p>
+          </stage>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(za sceną)</stage> Mościa Dobrodziko!... dla Boga Mościa Dobrodziko!... <stage>(wpada na scenę)</stage></p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Co sie to stało?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Jegomość z wielkiego ukontentowania zerwał sie raptem z łóżka, i upadł na ziemię, ia sama nie mogę dać sobie rady i podnieść go.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(przelękniona)</stage> Ach biedny! zapewne się potłukł. <stage>(odchodzi z Anieliką)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA SZOSTA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#błażey">BŁAŻEY.</rs> (sam, potem)
+              <rs key="#wanewille">WANEWILLE.</rs>
+            </p>
+          </stage>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Co tu krzyku!... co tu hałasu! w samey rzeczy ten nie skłamał kto to powiedział, że ludzie ze zbyteczney radości zawrótu głowy dostaią.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Cóż to iest!... długo ja będę czekać na ciebie?</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Jakżeście nie cierpliwi miły Panie!... Wszakże ia tylko co wszedłem.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Zastałżeś tu kogo?</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Zastałem dwie kobiety, podobno to będzie wasza siostra, i iey córka.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Powiedziałżeś im o moim przybyciu?</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Powiedziałem, i mnie się zdaie, że Wy Panie nadaremnie przybraliście przed niemi maskę żebraka.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Jak to?</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Na samo wspomnienie waszego jmienia, rozumiałem że się obie powaryiuią z radości, Major chory uwiadomiony o tem przez córkę, z wielkiego ukontentowania, skoczył z łóżka, padł na ziemię, i podobno boki sobie potłukł.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Biedny Jnwalid. Żebyś mi iednak milczał, ia sam upatrzę porę odkrycia im moiey sytuacyi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA SIODMA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dalbor">DALBOR.</rs>
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+              <rs key="#anielika">ANIELIKA.</rs>
+              <rs key="#wanewille">WANEWILLE.</rs>
+              <rs key="#błażey">BŁAŻEY.</rs>
+            </p>
+          </stage>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p><stage>(za sceną)</stage> Gdzie on iest, prowadźcie mnie! prowadźcie.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Alfonsie!... ty iesteś słaby!</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Słyszycie co się to dzieie?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Kochani przyiaciele!</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Nie słaby!... iestem zdrów zupełnie!... gdzie on iest!... <stage>(wchodzą)</stage></p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Jestem tu ty stary biedaku.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p><stage>(podnosi ręce)</stage> O kochany móy bracie!... o ty móy dawny przyiacielu <stage>(ściskaią sie i całują)</stage></p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Witam cię!... witam kochany Majorze!... Dzięki naywyższemu że cię przecie zastałem żywego... Ale siądź, proszę!... nie trudź się.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p><stage>(siadaiąc)</stage> Dzięki Bogu!... dzięki Naywyższey Jstności!... O jakże dzień dzisieyszy iest dla mnie szczęśliwy! iakiego się nigdy niespodziewałem.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(ściska Wanewille)</stage> Brasiszku!... iak ty iesteś niespodziewanym u nas gościem, iak miłym i od dawna pożądanym.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Miła siostro!... gdy się dowiedziałem o was że tu mieszkacie, rozumiałem żem się na nowo na świat narodził. A to zapewne wasza córka?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Tak iest... iestem tą szczęśliwą córką... a tem szczęśliwszą teraz, gdy mogę poznać czci godnego Wuia, i ucałować szanowne jego ręce. <stage>(całuie w rękę)</stage></p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Powiadano mi, że cnota twoia i rozum godne są szacunku. Jeżeli te przymioty wyrównywaią twoiey piękności, tedy mnie to bardzo cieszyć będzie.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Łaskawe Nieba wszystkim ią udarować raczyły na pociechę iey rodziców.</p>
+          </sp>
+          <stage>ANIELIKA. spuszcza oczy</stage>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Pochwały twoiey Matki zawstydzaią ciebie? znać że musisz na to zasługiwać, kiedy ci ie w oczy daią, przyimuy te a zasługuy na inne.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Cóz wy tam sami tylko rozmawiacie? Bernardzie!... siądź tu przy mnie, a pozwól się nacieszyć twoią przytomnością.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Dobrze!... bardzo dobrze <stage>(siada)</stage> No!... wiecież tedy co mnie tu do was sprowadza? oto bieda, i nędza... Przecież może znaydę gdzie blisko was przytulenie, w którym będę mógł spokoynie przepędzać resztę dni życia mego.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Gdzieżby ci było miley i spokoyniey ieżeli nie u nas?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>To iest prawda... ale ia lękam się być dla was ciężarem, ponieważ to co na mnie widzicie, iest całe moie bogactwo.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Ta opatrzność, która nam dotąd nie dopuściła zaginąć, i na czas dalszy będzie miała nad nami opiekę.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Dobrze mówisz siostro!... Kto w niey ufa, ten nigdy nie zginie.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>A ja biorę sobie za powinność, zatrudnienia sie iego usługą.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Dziękuię ci moie dziecie. A tamtego starca gdzie podzieiemy?</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Mnie podobno przyidzie gdzie w szpitalu z niecierpliwością czekać śmierci.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Dobry Człowieku!... póki mi Bóg zdrowia i życia dozwoli, nigdy ci tego niedopuszczę.</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Niech łaskawe nieba okręt życzeń twoich, do pożądanego doprowadzą portu.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Jednakże będąc w tak wielkm niedostatku, iak się mi dało słyszeć; ciekawy iestem wiedzieć, zkąd wy spodziewacie się funduszu, na wyżywienie nas dwóch darmoziadów.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Przyiacielu! ia więcey czterech lat niewstawałem z łóżka, i niewidziałem kiedy noc, a kiedy dzień: starannością iednak twoiey siostry, cały dom był utrzymywany.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Kochana Justyno!... pódź!... niech cię powtórnie uściskam za to, że iesteś czułą i pilną w dopełnieniu swoich obowiązków: <stage>(ściska siostrę)</stage> teraz mnie to niedziwi że się chlubisz z pięknych przymiotów córki swoiey, która niemoże być inną, maiąc tak przykładną matkę. Ale ia poiąć niemogę, iak wy mogliście tak długo cierpieć niedostatek, żyiąc w tem narodzie, w którem zdaie się że sama dobroć i miłosierdzie założyli sobie mieszkanie... Sam tego dnia dzisieyszego doznałem; i muszę wam opowiedzieć zdarzenie, które mnie spodkało na pierwszym wstępie do tego miasta.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Cóż to takiego?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Błażey móy wypytuiąc się o waszem mieszkaniu, natrafił na iakiegoś Jegomości, który nieznaiąc mnie, ani nawet nigdy może niesłysząc: przysłał mi na wsparcie dwadzieścia czerwonych złotych.</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Tak byłem ciekawy, że się pytałem o jego jmie, powiedziano mi, że się nazywa Karol Reynhard.</p>
+          </sp>
+          <sp who="#dalbor #pani_dalbor #anielika">
+            <speaker>DALBOR. PANI DALBOR. ANIELIKA.</speaker>
+            <p><stage>(wszyscy w podziwieniu)</stage> Karol Reynhard?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(na boku)</stage> O dobry!... o cnotliwy Karolu!... wszystkie jego czynności zapewniaią mnie, że będę z nim szczęśliwą.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Trzeba ci wiedzieć kochany bracie, że tenże sam młodzieniec poopłacał wszystkie moie kredyta wynoszące do sześciuset dukatów.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Co za dobroć!</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>A co większa, chce się połączyć z naszą familią, przez ożenienie się z Anieliką.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Bardzo się z tego cieszę... bardzo winszuię... Taką rzeczą kochana Anieliko, obowiązek przez ciebie przyiety zatrudniania się moiemi usługami, wcale ci nieprzystoi; ale ieżeli mnie zechcesz karmić, tedy pokarm z tak śliczney ręki, będzie mi nayprzyiemnieyszy.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>To iest naywiększym moim życzeniem.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p><stage>(ściska iey rękę)</stage> Stanie ci się podług jego; bądź pewną. Przypomniawszy iedzenie... Pani siostro!... niemasz tam iakiego porządnego śniadania? naprzykład, szynki dobrze usoloney, albo wędzonego ozora? bo ja przez zbyteczną chęć nayprędszego widzenia się z wami, ani kiliszka gorzałki dziś nie wypiłem. A ieżeli wam braknie pieniędzy, tedy weźcie te dwadzieścia czerwonych złł: co dziś dostałem od przyszłego zięcia waszego.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Jeszcze się bez nich obeydziemy, śniadanie zaś będziesz miał tego momętu. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Odbywszy naszą podróż szczęśliwie, można beśpiecznie udać się do spoczynku, ale wprzódy trzeba by gdzie opatrzyć beśpieczny magazyn na nasze paki, składaiące się z dwóch skórzanych mantelzaków.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Pódź za mną poczciwy Błażeiu!... ja ci dam na nie mieysce.</p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA OSMA</head>
+          <stage type="setting">
+            <p>(Anielika spuszcza oczy)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#wanewille">WANEWILLE.</rs>
+              <rs key="#dalbor">DALBOR.</rs>
+            </p>
+          </stage>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>O biedny inwalidzie!... iak ty wyglądasz... prawdę mi mówił Półkownik Plotkarski.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Plotkarski?... gdzieżeś go widział?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Szczęściem zabrałem z nim, czyli bardziey on zemną znaiomość w Petersburgu; prawda że iego częste wizyty były mi do uprzykrzenia, ale wdzięczen mu iestem za to, że mi dokładną o was uczynił relacyą. Powiedz że mi przyczynę tak długiey twoiey choroby.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Przyiacielu!... żądasz wiedzieć to, co ja sam przed sobą radbym utaić na zawsze.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Jest że to rzecz tak wielkiey wagi?</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p><stage>(ciężko wzdycha, spogląda w górę)</stage> Ach!... <stage>(po nieiakiey pauzie)</stage> słuchayże cierpliwie.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Bracie!... ia się lękać zaczynam, lepiey zamilcz.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Oskarżenie samego siebie, iest znakiem prawdziwego żalu, żal zaś, przynosi ulgę obciążonemu sumnieniu... przytym iuż zawiele powiedziałem, żebym rzeczy samey miał zamilczeć.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>To iest prawda... Ja zaś, niewiedząc o tem zupełnie, niemógłbym nigdy być spokoynym względem ciebie, może też to nie iest rzeczą tak wielką iak ia sobie wystawiam, słucham tedy.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Po rozpuszczeniu woyska, w którem miałem rangę, nieznaiąc naymnieyszego przemysłu, siedziałem bez sposobu, i żyłem z pozostałego wniosku moiey żony. Wprzeciągu tych lat kilku, przez codzienne wydatki, a bez naymnieyszego przychodu, nietylko cała summa twoiey siostry: Ale kleynoty, srebro, a nawet sprzęty domowe poszły na życie. Widząc w końcu ostatnią moią ruinę, a naymnieyszey nadziey powstania z niey kiedy, przeklinałem dzień pierwszy poznania Justyny: przeklinałem sam siebie, złorzeczyłem tobie że tak łatwo zezwoliłeś na nasze Małżeństwo.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Źle zrobiłeś, ponieważ to było zrządzeniem Ręki władaiącey losem każdego człowieka... Pewien iestem że żona twoia wcale inaczey myśli.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Jey to dobroć, cierpliwość, i stałość w nieszczęściu; coraz w większey mnie pogrążali melancholii... Udeterminowałem tedy uwolnić ją od tak wielkiego ciężaru, iakim się być dla niey sądziłem; a przeciąwszy pasmo życia mego, zostawić ią swobodną.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Nieszczęsny!... cóżeś to zamyślał?</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Byłbym może przyśpieszył ten momęt, gdyby mnie nie zastanowił los córki moiey.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Bogu dzięki!</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Anielika naten czas miała lat jedenaście... przyszłość iey wystawiałem sobie za naynieszczęśliwszą... nayprzód utrata sławy, do czego nayczęściey niedostatek: ile w tak słabey płci iest przyczyną. Poczem, uważałem powszechną iey wzgardę, w końcu, wieczną hańbę i ubóstwo; w którem, zdało się mi jakobym słyszał złorzeczącą, przeklinającą dawcę życia swoiego!... Postanowiłem tedy zapobiedz temu, a będąc iey oycem, sądziłem, że nad jey życiem zupełną mam władzę.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Ay!... ay!... włosy na głowie powstaią... jakże cię Bóg obronił od tego.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Szczególną łaską swoią... Upatrzywszy porę, w którey matka iey zwykła wychodzić na ranne nabożeństwo; uzbroiony nożem iuż na to przygotowanym: wszedłem do iey pokoiu; w zamiarze nieodmiennym; odięcia kwitnącego iey życia... a zbroczonym w iey krwi niewinney i nieostygłym póinałem: przeszyć udręczone serce swoie.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Dość iuż tego!... przestań!... albo nie! kończ raczey, i powiedz iak się to odmieniło?</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Już miałem rękę wyniesioną na zadanie iey ostatniego razu, gdy przypadkiem zwróciłem oko na iey śliczne oblicze: a w iednem prawie momęcie; przyszły mi na pamięć wszystkie szczeguły, po których dawniey uważałem ią być dzieckiem czyniącym mi wielką nadzieię pociechy w przyszłości... w iednym punkcie malowały się mi w oczach iey niewinne karesy, pieszczoty, rozrywki iakie starała się mi sprawić; iey bystry dowścip, prędkie poięcie rzeczy, pamięć w naukach i ochotę: do tych wnętrznych przymiotów, któremi ią dobroczynne Nieba udarować raczyło; uderzyły mnie w oczy iey powierzchowne ozdoby... Nie przeczuwało iey czyste serce nieszcześcia, które nad nią, wisiało na iednem włosku, spala na ten czas spokoynie, wypukłe jey oko, powlekały długie i czarną brwią przyozdobione powieki, a usta koralowe zdały się domnie uśmiechać wdziękiem Anielskim prawie. Na ten widok serce moie zadrżało, oczy czarna przyćmiła pomroka, siły mnie odstąpiły, a ręka niebyła w stanie władania.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Cóż daley?</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Niepamiętam iakem się znalazł na moiey pościeli, gdzie czy to ze zbytecznego natężenia imaginacyi, czyli też w początkach gorączki; zdało się mi iakobym widział przy nogach moich leżącą Anielikę: zbroczoną we krwi, wybladłą i pozbawioną wszelkich ozdób; złorzeczącą i wołaiącą o pomstę na swoiego oyca... Późniey, słyszałem iakoby piorunuiący głos surowey sprawiedliwości, skazuiący mnie na nieskończone cierpienia. Od tego czasu, bardziey byłem umarły, niżeli żywy; niedbałem o nic, każdy momęt był mi naynienawistnieyszy: światło słoneczne stało sie mi nieznośne; przytomność Anieliki przypominała mi moią zbrodnię, i powracała często srogim udręczeniom. Znienawidziałem wszystkich ludzi, i to wszystko, co mnie tylko otaczało. Każdy podany mi pokarm, żądałem żeby był trucizną; usypiaiąc cieszyłem się myśląc, że to ostatni momęt życia mego; a przeklinałem każdy momęt przebudzenia. Słowem, za życia iuż byłem potępiony.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>O zapamiętały!... a miałżes ty Boga w sercu?</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Ty iak uważam nie iesteś wstanie przeniknienia, iak ten naywiększy dar Nieba, to iest życie; którego naymnieyszy robaczek, nayusilniey stara się zachować; iest nieznośne człowiekowi pozbawionemu z ostatniego sposobu do życia.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Powiedz raczey rozumu, i nadziey w nieograniczoney dobroci.</p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA DZIEWIĄTA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#kampler">KAMPLER.</rs>
+              <rs key="#dalbor">DALBOR.</rs>
+              <rs key="#wanewille">WANEWILLE.</rs>
+            </p>
+          </stage>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(przyimuie od człowieka Kopersztych oprawny w ramach i kładzie na stołku)</stage> Dziękuię móy przyiacielu! <stage>(człowiek odchodzi, Kampler spogląda na Kapitana)</stage> jakiś nieznaiomy officier?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>A to co za młodzieniec?</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Ja go sam ieszcze nie znam: ale żona moia nazywa go przyjacielem.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Twoia żona to mówi? więc trzeba temu wierzyć. <stage>(do Kamplera)</stage> Mospanie!... ponieważ Pani Majorowa zaszczyca się WPana przyiaźnią, więc proszę z nią być i dla mnie, gdyż ia iestem iey bratem.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>WPan Dobrodziey iesteś bratem Pani Majorowey? Ach iakże przybycie Pańskie musiało ią uweselić; bardzo często przypominała go sobie, mówić o nim, było dla niey naywiększą rozrywką... a pozbawiona będąc zupełnie nadziei widzenia go kiedy, częstokroć zalewała się łzami.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p><stage>(na boku)</stage> Co tylko o niey słyszę, wszystko naywiękzą radością serce mnie napełnia. <stage>(głośno)</stage> A jey córka?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(z naywiększym poruszeniem)</stage> Panna Anielika?... Ach!... na iey pochwałę dosyć iest powiedzieć, że niczem się nieróżni od swoiey Matki.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Cóż to iest? WPan się mienisz?... czy nie WPan to iesteś ów wspaniały Karol Reynhard, co to tak hoynie szafuiesz iałmużną, i chcesz się żenić z moią siestrzenicą?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Zyiący z pracy, rzadko może być hoynym; żeniąc się zaś, trzeba mieć pewny fundusz.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p><stage>(na boku)</stage> Ta odpowieź iest bardzo polityczna, ale dość wyrozumiała. Trzeba to będzie wyśledzić. <stage>(głośno)</stage> Czemże sie WPan bawisz?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Chodzę na wyzwolone nauki, a szczegulnie ćwiczę się w sztuce Malowania.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Talęt bardzo piękny... Apropos... właśnie miałem się pytać, i dobrze że mi się wydarzyła okoliczność. Na pewney stacyi wpadło mi w ręce iakieś pismo, pod Tytułem Kuryer Litewski; gdzie na samym początku tego pisma, było opisanie ceremonii wprowadzenia Portretu ALEXANDRA Pierwszego, na Wileński Ratusz [b] w czem, tak wielkie miałem upodobanie, że ten Artykuł pokilkakrotnie odczytywałem.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Jakaż to była ceremonia?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Alboż to ty nie widziałeś?</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Ja na ten czas może niewiedziałem czy żyię na świecie.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>O jleż ty pięknych rzeczy utraciłeś przez tę swoią chorobę, a szczegulnie przyięcie ALEXANDRA w tem mieście [c]. Wszakże to w obcych narodach, czytaiący tylko dyaryusz podróży JMPERATORA wydziwić się niemogą: JEGO Naymiłościwsza przychylność ku swoim poddanym, Poddanych miłość ku swemu Monarsze; prawie całą Europę wprawia w zadumienie. Jadąc z Petersburga tu do Wilna, tym samym traktem którym JMPERATOR przeieżdżał, w wielu mieyscach zostawione ślady JEGO Dobroci, napawali serce moie radością i ukontentowaniem: a gdy mi pokazano to mieysce na którem ALEXANDER tak dobrze iakby usługiwał maytkowi przypadkowi uległemu... to prawdziwie że mi łzy z oczów rzucili się choć iuż niepamiętam kiedym tego doznawał.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Szczęściem dla mnie widziałem GO właśnie przed samą moią chorobą, na ten czas, kiedy z nieboszczykiem PAWŁEM Pierwszym, swoim oycem przeieżdżał tędy, ale więcey podobno nigdy GO nieobaczę.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Jak tylko cokolwiek odpocznę z podróży, zaraz idę oglądać ten Portret, którego szanowny Oryginał iest mocno w sercu moim wyryty.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Widziałżeś samego Monarchę?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Alboż po co innego przybyłem do tego Kraiu? straciwszy zupełnie siły, przytym i ochotę do marynarstwa, a niemaiąc od tak dawnego czasu naymnieyszey od ciebie wiadomości; i niewiedząc nawet czy żyiesz na świecie: umyśliłem resztę dni przepędzać w spokoynym gdzie zakącie świata... Ustawiczne zaś wiadomości, iuż to przez pisma publiczne, iuż przez odbywaiących podróże, ogłaszaiące szczęśliwość tego Narodu; taką wemnie wzbudziły ochotę, że za naypierwszym odbiiaiącym okrętem po oddaleniu się moim, popłynąłem do Petersburga.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Jnneż narody maią nas za szczęśliwych?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Do zayzdrości nawet; i gdy Bóg Wszechmogący przedłuży ALEXANDROWI życia, wkrótce ten kray będzie napełniony różnych narodów przychodniami. Między innemi naychwalebnieyszemi Ustawami, urządzenie ztak wielkim nakładem edukacyi w narodzie [d], dana wolność cudzoziemcom, a nadewszystko uchylenie samokupstwa czyli monopoliów, taką się stało ponętą dla obcych, że lud zewsząd się garnie pod tak łaskawe Panowanie. Niemasz bowiem nic tak odrażaiącego iak te szkodliwe przywileie: przez co dla dogodzenia chciwości iednego łakomcy, lub rozpustnego marnotrawcy; przytłumia sie przemysł, tępieją talęta, młodzież traci ochotę do użytecznych nauk, handel upada, lud żyie w nędzy, a zostawiony bez sposobu, chwyta się środków nayniegodziwszych, albo co gorsza, oddaie się rozpaczy. Co wszystko bardziey Kray niszczy, niżeli powietrze i woyna. Tu zaś nicht na nic uskarżać sie niemoże, bo ma przemysł niezbronny. Garną się więc tu ubodzy, bo są pewni, że mogą mieć dla siebie pewny sposób życia, garną się maiętni, bo są pewni zabeśpieczenia swoiey własności.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>O Wszechmogący Boże!... przywróć mi zdrowie, i przybliż ten momęt, ażebym mógł choć w Portrecie oglądać tak Mądrego i łaskawego Monarchę.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Ja mam Portret przy sobie, ieżeli tedy W Pan Dobrodziey żądasz...</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Ach proszę!... i bardzo proszę.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(dobywając portret z Pugillaresu)</stage> Jest to Kopia Portretu będącego na Ratuszu, rys zaś Twarzy iest zdięty z samego Oryginału. Oto iest.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p><stage>(biorąc Portret)</stage> Proszę!... niech ia pierwiey obaczę, czy ma też należyte podobieństwo, bawiąc więcey dwuch Miesięcy w Petersburgu, miałem zręczność niemal codzień widzieć samego Monarchę.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Naylepsze tedy WPan Dobrodziey możesz dać o tem zdanie.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>W samey rzeczy żywy prawie Oryginał. <stage>(zdeymuie kapelusz)</stage> Ten sam wdzięk ust uymuiący każdego; miłe i przenikaiące weyrzenie oczu, łagodność twarzy, powaga bez wyniosłości. Ach zdaie mi się iakobym patrzał na Jego samego.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Pokażcież mi... proszę!...</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Na! a ieżeli ci moie przybycie iest przyiemne, tedy proś Boga o szczęśliwoe i długie życie ALEXANDRA, bo gdyby nie Jego Dobroć, tedy byś mię nigdy nie oglądał.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p><stage>(zdeymuie szlafmyce)</stage> O Ty iedyne dobro i uszęśliwienie Narodu!... Oycze swych Poddanych życzenia moie niechay staną przed Ponem Zastępów, a ubłagaią długość i pomyślność dni Twoich, niech Cię utwierdzą w Rządach Państwa Twego, i nigdy nie wypuszczą ze swoiey opieki.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Wszystko to iest dobrze!... Ale włóż szlafmycę na tę twoią zbolałą głowę... gdyby nawet sam Monarcha przytomny nie wyciągałby tego po tobie.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Kochany Panie Kampler... Jakże mi to iest nieznośnie, że nie iestem w stanie zapłacenia mu za ten Portret.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Dosyć dla mnie tey zapłaty, gdy moim talentem mogę służyć WPanu Dobrodzieiowi. Ustępuię go więc bez naymnieyszey pretensyi.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p><stage>(wyciąga ręce do uściśnienia)</stage> Poczciwy młodzieńcze barzo ci dziękuię <stage>(ściska)</stage> póty iednak nie będę spokoynym, póki ci Bóg choć z kąd inąd, nie nadgrodzi tego.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p><stage>(miną zapewniaiącą)</stage> Co to, to wkrótce może nastąpić, ponieważ iak uważam, że iak jesteś mocnym w swey sztuce, tak też posiadasz dobre serce... Ale musiałeś się dobrze przypatrzyć Monarsze, kiedy rys twarzy Jego wydałeś tak należycie.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Każdy, nawet małe dzieci mieli nayłatwieyszą zręczność przypatrzenia się JEMU, ia zaś widziałem GO na każdem prawie mieyscu, które tylko przytomnością swoią raczył zaszczycić. Przy iedney okazyi muszę Jchmościom pokazać nowy obraz tey historyi, która iak uważałem iest iuż Panu wiadoma <stage>(pokazuie przyniesiony Estamp)</stage> o to iest.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Cóż to?... To iak uważam owa pamiętna akcya ALEXANDRA pod Rumszyskami... tak!... to iest to samo... <stage>(do Dalbora)</stage> uważ tego biednego, ale razem szczęśliwego człowieka, w którym ledwie cień życia można obaczyć... Obok izgo Jmperator podaie chustkę do zawinięcia ręki po upuszczeniu krwi... iak szczery żal i troskliwość okazuią się w JEGO twarzy... Panie Kampler... byłżeś WPan przytomny temu zdarzeniu?... czyli też kopiowałeś z czego?... Jakże to zdaie się należycie być wydane.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Nie widziałem tego na moie oczy, iednakże to iest Oryginał moiego wynalazku, do czego mi była pobudką pewna okoliczność.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Za tę Sztukę będziesz WPan nadgrodzonym barzo dobrze, zaręczam WPana... Ja znam iednego amatora co WPanu da za nią naymniey 1000 Czerwonych złotych.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Zeby i dziesięć tysięcy, tedy żadną miarą nie mogę odstąpić, ponieważ ten Estamp iuż nie iest moim.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>A do kogoż ón należy?</p>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA DZIESIĄTA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#kampler">KAMPLER.</rs>
+              <rs key="#dalbor">DALBOR.</rs>
+              <rs key="#wanewille">WANEWILLE.</rs>
+              <rs key="#elżbieta">ELŻBIETA.</rs>
+            </p>
+          </stage>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(uyrzawszy Elżbietę)</stage> Oto do tey Kobiety.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Widząc WPana idącego, rozumiałam że przyidzie Pan do Jmościnego Pokoiu, ale że nie mogłam się doczekać, tedy tak niecierpliwą byłam, że koniecznie chciałam się mu pokłonić. <stage>(kłania się)</stage></p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Dobra Elżbieto przyniosłem ci ukończoną robotę, oto iest w rękach Jegomościnych.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Niech Bóg Nayświetszy nadgrodzi mu za to, nietylko móy brat, nasza matka, ale i cała gromada naszey wioski będziem Boga prosić za WPana.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Moia poczciwa Panno! ustąp mi tę sztukę, a upewniam że nie będziesz żałować, bo ci to dobrze będzie zapłacono.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Nie tylko WPan, ale nawet i cały świat nam nie zapłaci tyle, ile my chcieli zapłacić Panu Kamplerowi za odmalowanie nam iednego tylko JMPERATORA; Oto chcieliśmy mu dać te wszystkie pieniądze co memu Bratu dał Imperator ocucaiąc go i trzeźwiąc omdlałego.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Jak to?... Twóyże to Brat był ten nieszczęśliwy.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Tak iest Mości Panie. Ale teraz nayszczęśliwszy, bo Pan Kampler nietylko że nam odmalował Jmperatora iednego, ale przy tym i mego Brata, i ieszcze kilku innych ludzi, a co większa, że nie przyiął tych pieniędzy cośmy mu ofiarowali... Mamy tedy z łaski Jmperatora dosyć pieniędzy, a z łaski P. Kamplera Portret; i nic nam więcey nie potrzeba, a co większa, że i móy brat tak iest podobny, że kieby żywy, <stage>(odbiera Portret)</stage> oto przypatrz się WP. iak ón zbiedniony!</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Mospanie!... zamawiam sobie łaskę WPana!... i przyrzekam WPanu słowem charakteru poczciwego, że nie będziesz żałować swoiey pracy. <stage>(na boku)</stage> To człowiek iest barzo poczciwy.</p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA IEDENASTA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#kampler">KAMPLER.</rs>
+              <rs key="#dalbor">DALBOR.</rs>
+              <rs key="#wanewille">WANEWILLE.</rs>
+              <rs key="#elżbieta">ELŻBIETA.</rs>
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+              <rs key="#anielika">ANIELIKA.</rs>
+            </p>
+          </stage>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Bernardzie!... obiad iuż gotowy, ale musisz się nieco wstrzymać, ponieważ Pan Karol nadchodzi, a podobna ze swoim Oycem.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Mościa Pani!... Pan Kampler zabawił tu nas tak pięknemi rzeczami, że ia o głodzie, a ten biedny Łazarz o swoiey chorobie wcale zapomnieliśmy. <stage>(uważa nieznacznie Kamplera i Anielikę)</stage></p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Pan Kampler ma szczegulne sposoby rozerwania trapiących myśli.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>WPani Dobrodzika nadto mi przypisuiesz.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Przyznam się braciszku, że gdy Pan Karol po zawarciu Małżeństwa weźmie nas do siebie, rozstanie się nasze z Panem Kamplerem będzie barzo nieznośne.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(na boku)</stage> A zwłaszcza mnie nieszczęśliwey.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Mimo tego ukontentowania, którym iestem przeięty z strony szczęścia Panny Anieliki, czuię aż nadto: iak nieznośne będzie dla mnie rozstanie się z tak miłym towarzystwem.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p><stage>(na boku)</stage> Tu trzebaby nie mieć naymnieyszego poznania: żeby nie dociec gruntowney tego przyczyny.</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>SCENA DWONASTA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#kampler">KAMPLER.</rs>
+              <rs key="#dalbor">DALBOR.</rs>
+              <rs key="#wanewille">WANEWILLE.</rs>
+              <rs key="#elżbieta">ELŻBIETA.</rs>
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+              <rs key="#anielika">ANIELIKA.</rs>
+              <rs key="#reinhard">REYNHARD.</rs>
+              <rs key="#karol">KAROL.</rs>
+            </p>
+          </stage>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Do nog upadam całey godney kompanii!... do nóg upadam.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Wierny sługa i prawdziwy przyiaciel Panów moich... <stage>(na boku)</stage> zdaie się mi, iakobym gdzieś widział tego Jegomości.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Mości Dobrodzieiu!... proszę mi darować... słabość moia nie dozwala mi oddać mu winnego uszanowania.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Proszę bydź spokoynym i bez naymnieyszey subiekcyi.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Podobno mam honor mówić z Jmć Panem Reynhard?</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Tak iest Mości Dobrodzieiu!... Nie mogłem się óprzeć proźbom i naleganiom syna mego; który blisko czterech tygodni iak mi nie daie pokoiu, i sztafetę za sztafetą pędza z ustawicznemi proźbami żądaiąc mego przybycia.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Mości Dobrodzieiu!... Jak syn WPana Dobrodzieia iest czułym, iak miłosiernym; nieznanym nigdy od siebie wyświadczył tak wielkie dobrodzieystwo, i opłacił długi moie, ktore barzo znaczne były.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Nie pierwszy to dla niego uczynek, czego nie mogę mu naganić; jednakże i w dawaniu Jałmużny trzeba zawsze, zachować tę miarę: ażeby w czasie samemu nie przyiść do stanu potrzebowania oney. Nie mogłem jednak znaleść innego sposobu uczynienia go nieco menażownieyszym, radziłem mu tedy! ażeby wynalazl gdzie sobie rostropną i godną iaką partyą. Zona bowiem rostropna, iest prawie drugim Aniołem Stróżem tkliwego małżonka. Ten tedy wybór iego padł szczęśliwym losem na córkę WMć Pana Dobrodzieia, co mnie barzo kontentuie, ponieważ barzo wiele estymy dało mi się o niey słyszeć.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Dnia dzisieyszego tak byłem szczęśliwy, że otrzymałem słowo tak od rodziców, iako też od godney ich córki. <stage>(idzie do Anieliki i całuie rękę)</stage> Otóż to iest ta dama, co w przyszłości ma sie stać ozdobą domu naszego.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Taż to dama?... Witam!... witam moią synowę. A co teraz to się nie dziwuię dla czego żądałeś tak nagle mego przybycia... Barzo mnie to cieszy... MPanno!... Masz że WPanna wolę póyść za mego syna?</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Już dołam słowo, a to w przytomności moich rodziców, odmienić go nie iest w moiey woli.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Jak to?... Dałaś iuż słowo?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(przymuszaiąc się)</stage> Tak iest Mości Dobrodzieiu, Ja sam byłem przytomny temu...</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p><stage>(w patruiąc się mocno w Kamplera)</stage> WPan byłeś przytomny!...</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Ta rzecz iuż dziś rano zupełnie została ukończoną, a do potwierdzenia mych związków nic więcey nie brakło, tylko przytomności oyca mego.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Mości Reynhard!... Wiadomo iest Panu Karolowi: że nim dałam mu moie przyrzeczenie, założyłam pierwiey niektóre kondycye, względem moich Rodziców, co zostało przyięte: Ale nie przewidziałam na ten czas przybycia mego wuia; którego chociaż nie znałam, przez codzienne iednak przypominanie Jmienia jego przez moją matkę, od dawna go iuż kochałam, ten wuy dziś przybył, a stare lata jego potrzebuią wygodnego odpocznienia; wolałabym tedy powrócić nazad do opłakanego stanu mego; a niżeli mieć go kiedy oddalonym, a co większa w takiey niesposobności iak teraz zostaie.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Kochane Dziecie!... <stage>(porywa z naywiększą czułością i sciska Anielikę)</stage></p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Cnotliwa córko!... pódź!... niech memi radośnemi łzami skropię głowę twoię, niech razem z niemi spłynie na nią Boskie błogosławieństwo!... <stage>(sciska Anielikę)</stage></p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>A mnie pozwól ucałować te przenikaiące twoie oczy. <stage>(całuie w głowę, Anielika całuie iego rece)</stage> O iak mi twoia ofiara iest przyiemną.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p><stage>(na boku)</stage> Co za dobroć w tey Panience.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(na boku)</stage> Jak srogie serca udręczenie.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Po tym wszystkim poznaię: że to musi bydź godny wuy moiey przyszłey synowy?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Ten sam Mości Dobrodzieiu, który przy tym pierwszym poznaniu, czuie się być obowiązanym oświadczyć synowi WPana Dobr: wdzięczność, którą mu iestem winien.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Wdzięczność? Pierwszy raz mam honor widzieć go...</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Doznałem dobroci jego przed dwiema godzinami... ponieważ ia to iestem ten, któremu WPan przysłałeś 20 Cz: złłch.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Mości Dobrodzieiu... to mnie zawstydza; to iest rzecz barzo mała, ale iak będę miał to szczęście nazywać go moim wuiem, na ten czas...</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Jak to?... WPan miałbyś brać na siebie taki ciężar?</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>WPan Dobr: będziesz drugim oycem jego.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Szacowna mi iest łaska Jchmościów; Ale ia mam ieszcze iednego starego maytka na usługach, bez którego nigdy obeyść sie nie mogę, a ten je za trzech, a gorzałkę piie za dziesięciu, odzienie zaś na nim gdyby ogniem palił.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Gdyby przyszło całą czeladź z pięciu woiennych okrętow karmić, poić, i odziewać, to mi będzie rzeczą nayprzyiemnieyszą czynić dla tak piękney i cnotliwie myślącey synowy.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Kiedy się rzeczy maią tak daleko, kiedy Anielika dała iuż słowo, Rodzice zezwolili, mnie nic więcey nie pozostaie, iak tylko przyłączyć moie życzenie: Anieliko!... Winszuię ci!... będziesz miała barzo dobrego Męża, i kochaiącego Oyca... nie prawdaż P. Kampler?</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(przymuszoną wesołością)</stage> Nic prawdziwszego... trzeba iednak oddać wtem sprawiedliwość Pannie Anielice; że iey ludzkość, cnota, pobożność; zasługuią na to; Bóg dobry nigdy nieda cnocie zaginąć.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p><stage>(na boku)</stage> Biedny iakże mi iest żal jego, iaśnie z oczów widać udręczenie które cierpi w ten momęt... Ale trzeba mu to czym innym osłodzić.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(do Reynharda cicho)</stage> Co on tam tak długo gada sam z sobą.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Zapewne namyśla się względem odkrycia stanu.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>No!... teraz się iuż niemam czego dłużey ukrywać... Siostro!... Bracie, daruycie mi ten mały podstęp zwami, ia nie iestem tak ubogi iak się wam pokażywałem; Bóg mi pobłogosławił w moiey pracy, i oto w tem brudnem puliaresie iest tyle, że dobry kupiec mógłby wybudować dwa okręta trzymasztowe, a nałodowawszy Europeyskiemi towarami, wysłać ich do Ameryki.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p><stage>(do Karola)</stage> Uważasz synu, dwa okręta trzymasztowe wybudować...</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>I Europeyskiemi towarami uładowawszy, wysłać do Ameryki; ktoby się tego spodziewał po tym brudnym puilaresie.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Niemaiąc ani żony ani dzieci; niewiedząc ani słysząc o moim szwagrze gdzie się obraca, myślałem opatrzyć gdzie spokoyny kącik, a wsparszy tem groszem iaką bieną familią; resztę dni życia mego przy niey przepędzić.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Jakaby to szkoda była.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Odgłos pewszechny brzmiący po całym świecie, o nayszczęśliwszym tuteyszym Panowaniu, zwabił mnie do tego kraiu, z postanowieniem osiąść na zawsze w Petersburgu.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p><stage>(na boku)</stage> Ach mało mi serce niewyskoczy do tego puilaresu.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Szczęściem wielkim dla mnie, dowiedziałem sie o upadku mego szwagra, i o cnocie Anieliki; cały tedy móy zbiór, przeznaczyłem dla niey.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p><stage>(głośno)</stage> Słusznie, i bardzo rostropnie pomyślano.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Gdy tedy życzenia moie lepiey się uiściły niżelim się spodziewał.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(na boku)</stage> A on widzę do iutra nieskończy tey perory...</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p><stage>(na boku)</stage> Ach pęknę z niecierpliwości.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Moia synowica ma ludzkiego, cnotliwego, i ze wszelkiemi przymiotami męża; iey rodzice pewny fundusz, ia zaś zmoim Błazeiem spokoyny kawałek chleba; więc taką rzeczy, żadne z nas nic niepotrzebuie, ate pieniądze coby mieli umnie próżnować, niech lepiey staną się użytecznemi, Panie Kampler proszę WPana.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(zadziwiony)</stage> Jak to Mości Dobrodzieiu.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p><stage>(w osłupieniu)</stage> A to co takiego?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p><stage>(strwożony)</stage> Cóż to ma znaczyć.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>No przyimiyże proszę ciebie! uczysz się pięknego talętu, przytem, iesteś człowiekiem bardzo poczciwym, warteś zawsze losu dobrego.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p><stage>(zradością)</stage> O Boże dzięki tobie!</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(podnosząc ręce)</stage> Jak wielka iest dobroć twoia Panie!</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p><stage>(do Karola)</stage> Otóż i nasz okręt rozbił się.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>A wszystkie nadzieie poszli w przepaść bezdenną.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Teraz ten Portret mogę beśpiecznie zatrzymać.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Prawdę mówił Pan Kampler, że nigdy Bóg dobry nieda cnocie zaginąć.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p><stage>(trzymając puilares)</stage> Mości Dobrodzieiu!... moie sumienie niedozwala...</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Dziecko iesteś!... bierz kiedy ci daią. Maiąc pewny fundusz, będziesz mógł lepiey doskonalić się w swoim talęcie, z czego, w późnieyszym czasie możesz przyiść do takiey reputacyi, iak wiele innych Artystów; robiąc zaś z potrzeby cały twóy talęt skończy się na malowaniu karet, pokoiów a naywięcey dekoracyi po teatrach.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Jak to?... i WPan cały swóy maiątek oddałeś temu Jegomości.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Nie inaczey... zatrzymuiąc go u siebie, stałbym się niegodnym łaski offiarowaney mi przez Jchmościów, ponieważ toby było subtelnym oszukaństwem, oddaiąc zaś WPanu, byłoby to samo, co płacić u niego żywność i mieysce, czym delikatność jego zapewne zostałaby obrażony. Niemogłem tedy nic regularnieyszego uczynić, iak oddać to temu cnotliwemu chłopcu, niedawno go poznałem, a wiele w nim dobrego odkryłem, słowem mówiąc; on iest zupełnie podobny z ucznków do Pana Karola, i gotów iestem przysiądz, że tem maiątkiem uszczęśliwi iaką biedną familią, i poymie sobie iaką ubogą dziewczynę. osądź WPan, mogłemże lepiey postąpić?</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p><stage>(w passyi)</stage> Ey MPanie... ia sądzę że WPan iesteś! <stage>(pomiarkowszy się)</stage> uniżony sługa!... nayniższy!.. proszę mi darować, że niemogę się tu dłużey bawić... upadam do nóg.</p>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <head>SCENA OSTATNIA</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#kampler">KAMPLER.</rs>
+              <rs key="#dalbor">DALBOR.</rs>
+              <rs key="#wanewille">WANEWILLE.</rs>
+              <rs key="#elżbieta">ELŻBIETA.</rs>
+              <rs key="#pani_dalbor">PANI DALBOR.</rs>
+              <rs key="#anielika">ANIELIKA.</rs>
+              <rs key="#karol">KAROL.</rs>
+              <rs key="#błażey">BŁAŻEY.</rs>
+            </p>
+          </stage>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p><stage>(patrzy za odchodzącym)</stage> A ten stary sknera co tu robi?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p><stage>(wstrzymuie odchodzącego Karola)</stage> I WPan żegnasz się iuż znami?</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Tak iest podobno... Ale wreszcie ia sam niewiem... póydę zainformuię się w tem oyca mego, a potem dam Jchmościom finalną odpowiedź. Nayniższy! upadam do nóg... <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Powiedźcie mi, co to wszystko znaczy?</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Wcale tego nierozumiem.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Ja się nawet domyśleć niemogę.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Ta rzecz trudna iest do poięcia.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Mnie się zdaie że oni powaryowali.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Ja po części dochodzę tego: tylko to się mi w głowie pomieścić niemoże, zkąd oni dowiedzieli się że ia mam tak wielkie pieniądze, i że postanowiłem oddać ich moiey siestrzenicy. Wszystko się mi zdaie, że gdzieś widziałem tego starego, lecz sobie przypomnieć niemogę.</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>J Pan że jego niepamiętasz? wszakże to ten co w Petersburgu wiedney z nami stał kamienicy, przez iedną tylko ścianę.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Wsamey rzeczy to on sam.</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Mnie tylko zastanawia co on tu robi, bośmy go zostawili w Petersburgu, i gdyśmy siadali do poiazdu, to na swoie oczy widziałem, iak wygladał przez okno. Naywiększa, i naymilsza iego była kompania ztem Pułkownikiem, co to do was ustawicznie przychodził po wspomożenie.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Z Pułkownikiem Plotkarskim?... teraz się wszystkiego domyśliłam... Ten Pułkownik znał zupełnie waszą sytuacyą i nayregularniey mnie ią opisał; on też wiedział o wszystkich moich układach, ponieważ nic przednim nie taiłem... On tedy musiał im to wszystko odkryć... <stage>(ogląda się na drzwi)</stage> A Panowie filuty!... dobrze i bardzo dobrze się stało że moia ulubiona Anielika niedostała się w ich szpony. Ależ zdrugiey strony powiedziawszy <stage>(spogląda na Kamplera)</stage> nleżałoby się im powrócić to, co oni przez swoią fałszywą dobroć wydali na opłacenie waszych długów; a ia teraz nie mam naymnieyszego funduszu... Jać to tego nieżałuię że cnotę Pana Kamplera wsparłem tak należycie, to mnie tylko martwi, że was zostawiłem bez sposobu.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Nie Mości Dobrodzieiu!... przyjąłem ten puilares niechcąc się opierać woli iego, ale nie w myśli zatrzymania go sobie, on zawsze zostałby zwrócony tam, gdzie go WPan Dobrodziey sam przeznaczyłeś... Co miało nastąpić późniey, niech lepiey zaraz będzie wykonane. Panno Majorówno!... ten puliares do niey należy.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(bierze puliares z czułością)</stage> Panie Kampler!...</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Co za poczciwość!</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Którey to było ostatnią moią probą. W samey rzeczy twoia cnota w zadziwienie mnie wprawia.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Zadziwisz się bardziey braciszku, gdy się dowiesz, iak wiele ten poczciwy...</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Mościa Dobrodziko!...</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Kończ WPani!... proszę!... kończ WPani!...</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>On żyiąc z pracy rąk swoich, od momętu zapadnienia mego męża, w tak ciężką chorobę, bez ustannie opatrywał, i uprzedzał nasze potrzeby, wynayduiąc wszelkich sposobów w przesyłaniu nam pieniędzy, a to dla utaienia przednami swego dobrodzieystwa... niemogę tego wymówić bez serdecznego poruszenia, że życie nasze jego iest darem! <stage>(ociera oczy)</stage></p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p><stage>(na boku)</stage> Ach, czegoż się ia dowiaduię?...</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Przyiacielu móy... Dobroczyńco móy!... Bóg ieden może ci to tylko nadgrodzić.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>O iak wielka dobroć serca...</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>W wschodnich Jndyach będąc, nie słyszałem nawet o tak poczciwym człowieku.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Piersi moie zahartowane, i serce nigdy nie wzruszone na widoki nayokropnieysze i naywiększe nieszczęścia, w całym prawie życiu nie dopuściły oczom moim uronić naymnieyszey łezki... teraz w tym roku iuż drugi raz czułość i wdzięczność wydobywa ich z gruntu serca mego... Pierwszy raz uroniłem ich tam, gdzie brat tey kobiety był ratowanym... teraz zaś... patrz iak obficie płyną z wdzięczności ku tobie poczciwy młodzieńcze.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Nic więcey nie uczyniłem nad powinność bliźniego, a tak wielka nadgroda spotyka mnie teraz!</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Będziesz ią WPan miał dopełnioną. Braciszku! Alfonsie!... Dzisiay przypadkiem odkryłam życzenie P. Kamplera, przywiązanie zaś Anieliki ku niemu, od dawna iuż mi iest wiadome, możnaż mu większą wynaleść nadgrodę nad tę... gdy iego życzenia przyidą do skutku; a naszey kochaney córce możnaż sprawić większe ukontentowanie, iak oddaiąc ią tak czci godnemu Mężowi?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Ach co za radość!... Na samym wstąpieniu poznałem to po P. Kamplerze, iego poruszenia na każde wspomnienie Anieliki, iaśnie tłumaczyło uczucie serca iego; Ale zmyślona dobroć tamtych filutów tak mi pomieszała szyki, że wcale o tym zapomniałem... Jednak WPani nie dobrze zrobiłaś, że mi zaraz tego nie powiedziałaś.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Ani mnie.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Wzbraniali mi okoliczności, o których się potym dowiecie, a teraz dosyć iest: że te okoliczności iednaią naywiększą miłość ku naszey Córce, i szacunek ku naszemu Zięciu... Ach iakaż roskosz mianować go tym tytułem.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>W samey rzeczy roskosz do niepoięcia.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Anieliko!... Kochasz że ty Pana Kamplera?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Czyż można w oczach kawalera pytać o to panny?... spóyrzyi tylko na nią... Czy nie widzisz iak ten śliczny rumieniec wyraźnie odpowiada?... <stage>(do Kamplera)</stage> I ty się rumienisz?... prawda, zapomniałem że ieszcze iesteś studentem, nie dziw tedy, że iesteś tak nieśmiałym. Trzeba się tedy postarać o przyśpieszenie szlubu; przysięga ich serc cnotliwych doda im śmiałości... Bogu dzięki, iuż wszystko ukończono... Szkoda że nie mam czym okazać moiey zbytniey radości, z którey się nie posiadam... Czekaycie!... iest... Oto jeszcze wam pokażę coś ciekawego.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Cóż tam ieszcze masz takiego?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p><stage>(dobywa puliares)</stage> Oto nic więcey, tylko drugi Pugillares, ze wszystkim podobny do tamtego, tylko że we dwóie tyle zawieraiący... że zaś przed wami to utaiłem dotąd, w krótce się wam usprawiedliwię.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Któż tu żąda twego usprawiedliwienia?</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Ja chcę tego koniecznie... Jadąc z Petersburga, uproiektowałem sobie, rozdzielić całą massę mego maiątku na trzy części... <stage>(rozwiia Pugillares)</stage> A że moim postanowieniem było zawsze wesprzeć iakiego cnotliwego człowieka, więc teraz iedną z tych trzech części odłożyłem na to, co mi lepiey wyszło, niżelim sobie obiecywał, bo ofiaruiąc tę część Panu Kamplerowi, odkryłem podstęp i fałsz tamtych filutów.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Bóg Wszechmogący nigdy cnoty nie zostawia bez nadgrody... To są słowa Pana Kamplera.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Drugą część przeznaczyłem dla moiey kochaney Anieliki, a uważaiąc ią iuż niby nie potrzebuiącą tego, umyśliłem to utaić do iakiego czasu; Ale że teraz Anielika ma małżonka tak cnotliwego, kteremu bez naymnieyszey obawy może swey los zayfać, więc nie myślę to dłuźey u siebie zatrzymywać!... Weź, to iest twoiey żony.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Ach Mości Dobrodzieiu!</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Tę zaś ostatnią część rozdzieliłem na połowę, iedną odłożyłem na biednych żebraków, i wspierania podupadłych, takoż nadgradzać cnotliwie myślącym, i z tey summy ty naypierwsza cnotliwa Elżbieto masz sto talarów, za to, że umiesz szacować cnotę Pana Kamplera.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Bóg ci zapłać móy kochany Panie! iak nasza gromada będzie się schodzić oglądać ten Obraz, tedy wszystkim będę opowiadać dobroć WPana; i pokazywać te sto talarów.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Ostatnią zaś przeznaczyłem dla moich wnucząt, ieżeli się ich doczekam kiedy, a gdy mi Bóg dozwoli cieszyć się niemi, gdy ich bieluchne i pulchniutkie rączęta będą się plątać koło moiey szyi, kiedy całuiąc ktere, obrażę ich niewinne usteczka swoją ostrą brodą, i rozgniewam na siebie, będę miał za co kupić cacek na ugodę... a pozostałą summę przed moią śmiercią rozdzielę im po równey części... Co zawsze mi będzie przypominać nie spodziewane to moie uszczęśliwienie, które mnie w ten momęt spotkało.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Powiedz raczy nas wszystkich.</p>
+          </sp>
+          <sp who="#kampler #dalbor #wanewille #elżbieta #anielika">
+            <speaker>KAMPLER. DALBOR. WANEWILLE. ELŻBIETA. ANIELIKA.</speaker>
+            <p>Tak iest, wszystkich.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Kterego ty iesteś zrządzeniem.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Nie!... ja sobie tego nie przypisuię... Gdyby nie dobroć Łaskawego waszego Tytusa słynąca po całym świecie sprowadziła mnie tutay, zapewne, że byście mnie nigdy niewidzieli... Teraz zaś, gdyby nie ten nowy Obraz, którymż się pieści Elżbieta nie odkrył charakteru tego poczciwego Młodzieńca, zapewne wpadłabyś w sidła iednego łakemcy, i zatruła dni swoie goryczą. <stage>(zdeymuie kapelusz)</stage> Wszyscy tedy nasze uszczęśliwienie winni iesteśmy Nayłaskawszmu ALEXANDROWI Pierwszemu... Uważcież tedy: iak dobroć Monarchy nietylko Naród w ogulności, w szczegulności miasta i prowincye uszczęśliwia, ale może tysiące mieszkańców w iednym dniu nawet, ieżeli nie tym sposobem iakim my teraz, tedy iakim innym doznaią skutków Jego Dobroci... życzmyż tedy Jemu jak naydłuższego życia, i nayszczęśliszego Panowania... Niech żyie Wielki w Dobroci, i Łaskawy Monarcha ALEXANDER.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p><stage>(wstaie i zdeymuie szlfmycę)</stage> Niech żyie Opiekun sierot Miłościwy Monarcha ALEXANDER.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Niech żyie dobro Narodu, Wielowładny Monarcha ALEXANDER.</p>
+          </sp>
+          <sp who="#anielika">
+            <speaker>ANIELIKA.</speaker>
+            <p>Niech żyie Pan serc naszych ulubiony Monarcha ALEXANDER.</p>
+          </sp>
+          <sp who="#kampler">
+            <speaker>KAMPLER.</speaker>
+            <p>Niech żyie Opiekun Nauk i Talentów Mądry, i przezorny Monarcha ALEXANDER.</p>
+          </sp>
+          <sp who="#elżbieta">
+            <speaker>ELŻBIETA.</speaker>
+            <p>Niech żyie Ociec Poddanych Dobroczynny Monarcha ALEXANDER.</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Niech wasze Prawnuki oglądaią Łaskawą Twarz JEGO, niech żyie.</p>
+          </sp>
+          <sp who="#kampler #dalbor #wanewille #elżbieta #anielika #pani_dalbor">
+            <speaker>KAMPLER. DALBOR. WANEWILLE. ELŻBIETA. ANIELIKA. PANI DALBOR.</speaker>
+            <p>Niech żyie w naydłuższe lata... niech żyie!</p>
+          </sp>
+          <stage>(Tu daie się słyszeć długi werbel w kotły, przy końcu huczne polne w trąby: teatr się odmienia przedstawia illuminacyą ile może bydź nayokazalii: dekoracya ustawiona porządkiem następnym:<lb /> W ostatniey kortynie wyrznięty prospekt w kolumnadzie, którędy widać Słońce w transparancie, w Słońcu widać cyfrę A.I. Promienie słoneczne zdaią się przechodzić wszystkie strony kortyny, między któremi w górze widać napis:<lb /> WSZYSTKIM ZA RÓWNO.<lb /> U dołu kortyny znamiona sztuk wyzwolonych, nad temi matka nauk wzniesiona na obłoku, w iedney ręce podnosi ku cyfrze palącą się offiarę, w drugiey trzyma uwieńczoną koronę nad znamionami.<lb /> Z prawey strony znamion, Mars otoczony woiennemi rynsztuekami, usypia na dziale, nad nim napis:<lb /> TU MÓY ODPOCZYNEK.<lb /> Z lewey Sprawiedliwość: u iedney ręce trzyma wyniesioną Szalę, w drugiey miecz opuszczony na dół. Nad nią napis:<lb /> NIE KARAĆ PRAGNIE...<lb /> Na pierwszych dwóch Kulisach: z iedney strony wzniesione miasto, z drugiey, Okręt w bliskości Portn.<lb /> Na drugich: z iedney strony różne, znaki kunsztów, z drugiey, znaki handlowe iako to: kotwica, paki i inne.<lb /> Na trzecich: z iedney strony narzędzia rolnicze, z drugiey facyata na niey napis: Dom miłosierdzia.<lb /> Na pozostałych: zboża, owoce, kwiaty i różne rośliny.<lb /> Przed kortyną stoią uszyknwane dzieci wieśniacze, w iednych rekach trzymaią bukiety, w drugich: pasterskie fleciki. Do Aktorów tych, co grali w Dramacie, przybywa wieśniak. Po ukończonym polne, czyli Vivat granego przez trębaczów, zaczynaią Vaudeville)</stage>
+          <sp who="#chór #kampler #dalbor #wanewille #elżbieta #anielika #karol #reinhard #błażey #pani_dalbor">
+            <speaker>CHÓR. KAMPLER. DALBOR. WANEWILLE. ELŻBIETA. ANIELIKA. KAROL. REINHARD. BŁAŻEY. PANI DALBOR.</speaker>
+            <p>Gdy rostoczy swe promienie<lb /> Słońce po Nieba błękicie:<lb /> Czem żywiołom pocieszenie,<lb /> A roślinom daie życie;<lb /> Tak ALEXANDRA staranie<lb /> Uszczęśliwia wszystkie stany.<lb /> On iest Narodu kochanie,<lb /> On Bóstwem ludu nazwany.</p>
+          </sp>
+          <sp who="#kampler #anielika">
+            <speaker>KAMPLER. ANIELIKA.</speaker>
+            <p>On sprawiedliwości szale<lb /> Bez stronnie dla wszystkich trzyma.<lb /> Ani tu obłudne żale,<lb /> Ni złoto przewagi nie ma.<lb /> Światło nauk rozprzestrzenia.<lb /> Chce swóy Narod mieć szczęśliwym.<lb /> Daie w nim Muzom schronienia.<lb /> Jest Dobroczyńcą prawdziwym.</p>
+          </sp>
+          <sp who="#wanewille">
+            <speaker>WANEWILLE.</speaker>
+            <p>Mars znużony długim boiem,<lb /> Spoczywa na swobod łonie.<lb /> Cieszy się lubym pokoiem,<lb /> Przy swym Oyczystym zagonie.<lb /> Głos chrapliwy surm woiennych,<lb /> Spokoyności nie przerywa.<lb /> Żołnierz wśrzód ćwiczeń codziennych<lb /> Na dal dzielności nabywa.</p>
+          </sp>
+          <sp who="#reinhard">
+            <speaker>REYNHARD.</speaker>
+            <p>Nowe się miasta wznaszaią.<lb /> Tworzą się nowe osady;<lb /> Nową świętość przybieraią.<lb /> Idąc w miast stołecznych ślady.<lb /> Dzielnym wsparciem zasilone,<lb /> Te, co iuż w gruzach ginęły:<lb /> Dziś na nowo odrodzone,<lb /> Wdzięczną na się postać wzięły.</p>
+          </sp>
+          <sp who="#karol">
+            <speaker>KAROL.</speaker>
+            <p>Monopolium wygnane,<lb /> Podkupstwo ściśle wzbronione.<lb /> Intrygi prawie nie znane;<lb /> A z tąd zyski nie zliczone.<lb /> Porty dla handlu otworem,<lb /> Od wszystkich stron uczęszczane.<lb /> Pysznią się licznem Naw zbiorem.<lb /> Niosą bogactwa nieznane.</p>
+          </sp>
+          <sp who="#pani_dalbor">
+            <speaker>PANI DALBOR.</speaker>
+            <p>Rzemieślnik z wzgardy dzwigniony,<lb /> Którą go przesąd pokrywa.<lb /> Talęt udoskonalony,<lb /> Wdzięczną przyszłość obiecywa.<lb /> Przemysł znayduiąc nagrodę,<lb /> Co raz się bardziey rozszerza,<lb /> A przez pokoy i swobodę<lb /> Do swey doyrzałości zmierza.</p>
+          </sp>
+          <sp who="#błażey">
+            <speaker>BŁAŻEY.</speaker>
+            <p>Ten, co w swym kraiu zgnębiony,<lb /> Nie znayduie przytulenia;<lb /> Pewien wsparcia i obrony,<lb /> Tu szukać idzie schronienia.<lb /> Rząd mu swą opiekę daie,<lb /> Liczy go w mieszkańców rzędzie,<lb /> Gdy łask Monarszych doznaie,<lb /> Więc szczęśliwy w każdym względzie.</p>
+          </sp>
+          <sp who="#dalbor">
+            <speaker>DALBOR.</speaker>
+            <p>Lecz więcey Oyciec Oyczyzny<lb /> Wzrok swóy zwraca na sieroty.<lb /> Goić ich nieszczęścia, blizny:<lb /> Oto są JEGO pieszczoty.<lb /> Dzwiga z nędzy nieszczęsnego,<lb /> Nad udręczonym lituie.<lb /> Zachował Prawa każdego.<lb /> Przez co mu szczęście sprawuie.</p>
+          </sp>
+          <sp who="#elżbieta #wieśniak">
+            <speaker>ELŻBIETA. WIEŚNIAK.</speaker>
+            <p>Rolnik wesół na zagonie,<lb /> Na buyne pogląda Niwy,<lb /> A na obfitości łonie,<lb /> Wyznaie że iest szczęśliwy.<lb /> MONARCHO! TWOIE to dzieło<lb /> Zda się że za TWYM spóyrzeniem<lb /> Wszystko milszą postać wzięło,<lb /> Idąc za Pańskim skinieniem.</p>
+          </sp>
+          <sp who="#kampler #dalbor #wanewille #elżbieta #anielika #karol #błażey #pani_dalbor">
+            <speaker>KAMPLER. DALBOR. WANEWILLE. ELŻBIETA. ANIELIKA. KAROL. BŁAŻEY. PANI DALBOR.</speaker>
+            <p>Zyi więc naydłużey Szczęsliwy,<lb /> Spracwco szczęścia ludu Twego.<lb /> Ojcze dobry, sprawiedliwy.<lb /> Celu miłości każdego.<lb /> Niech Dobroci Twojey czyny.<lb /> Prawnukom Wnuki podaią.<lb /> Niehay nie zwiędłe wawrzyny,<lb /> Skronie TWOIE otaczaią.</p>
+          </sp>
+          <stage>(Pod czas ostatniey sztrofy, dzieci rzucaią bukiety: po ukończeniu choru, Aktorowie daią plac, dzieci tańczą stosowne Divertimento przegrywaiąc na flecikach. Przy końcu, staią rzędem blisko Cyfry, rozwiiaią flety, z których formuie się Tarcza, na niey napis.<lb /> USZCZĘŚLIWIENIE NARODU)</stage>
+          <trailer>(KONIEC)</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

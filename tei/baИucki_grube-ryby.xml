@@ -1,0 +1,4321 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000017" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Grube ryby</title>
+        <title type="sub">Komedia w trzech aktach</title>
+        <author>
+          <idno type="isni">0000000083922174</idno>
+          <idno type="wikidata">Q1894116</idno>
+          <persName>
+            <forename>Michał</forename>
+            <surname>Bałucki</surname>
+          </persName>
+        </author>
+        <!-- Michał Bałucki (1837-1901) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/grube-ryby-komedja-w-trzech-aktach,MjkxMjEx/2/</idno>
+          <title>Bałucki, M., Grube ryby: komedja w trzech aktach, Warszawa 1900</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="burczyński" sex="MALE">
+            <persName>Burczyński</persName>
+          </person>
+          <person xml:id="dorota" sex="FEMALE">
+            <persName>Dorota</persName>
+          </person>
+          <person xml:id="filip" sex="MALE">
+            <persName>Filip</persName>
+          </person>
+          <person xml:id="helena" sex="FEMALE">
+            <persName>Helena</persName>
+          </person>
+          <person xml:id="henryk" sex="MALE">
+            <persName>Henryk</persName>
+          </person>
+          <person xml:id="onufry" sex="MALE">
+            <persName>Onufry</persName>
+          </person>
+          <person xml:id="pagatowicz" sex="MALE">
+            <persName>Pagatowicz</persName>
+          </person>
+          <person xml:id="wanda" sex="FEMALE">
+            <persName>Wanda</persName>
+          </person>
+          <person xml:id="wistowski" sex="MALE">
+            <persName>Wistowski</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-12">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1881">
+        <desc />
+      </event>
+      <event type="premiere" when="1881-08-27">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/pol000017" passive="http://www.wikidata.org/entity/Q119719222"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">GRUBE RYBY</titlePart>
+            <titlePart type="sub">KOMEDJA W 3ch AKTACH</titlePart>
+          </docTitle>
+          <byline>oryginalnie napisana<lb />
+          przez
+            <docAuthor>Michała Bałuckiego</docAuthor>
+          </byline>
+          <docImprint>
+            <p>
+              <pubPlace>WARSZAWA</pubPlace>
+              <bibl>
+                <publisher>Skład główny w Księgarni JANA FISZERA<lb />
+                Nowy-Świat Nr. 9.</publisher>
+              </bibl>
+              <date>1900</date>.
+              <bibl>
+                <publisher>Druk F. Csernaka, Warszawa. Krak.- Przedm. Nr. 60.</publisher>
+              </bibl>
+            </p>
+          </docImprint>
+          <imprimatur>Дозволено Цьнзурою<lb />
+          Варшава, 16 Августа 1899 г.</imprimatur>
+        </titlePage>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#onufry">ONUFRY CIAPUTKIEWICZ,</role>
+            <roleDesc>emeryt.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#dorota">DOROTA,</role>
+            <roleDesc>jego żona.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#wanda">WANDA,</role>
+            <roleDesc>wnuczka Ciaputkiewiczów.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#burczyński">BURCZYŃSKI,</role>
+            <roleDesc>obywatel.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#helena">HELENA,</role>
+            <roleDesc>jego córka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#wistowski">WISTOWSKl,</role>
+            <roleDesc>kapitalista.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#henryk">HENRYK,</role>
+            <roleDesc>jego bratanek.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#pagatowicz">PAGATOWICZ,</role>
+            <roleDesc>Radca Sądu.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#filip">FILIP,</role>
+            <roleDesc>służący Ciaputkiewiczów.</roleDesc>
+          </castItem>
+        </castList>
+      </div>
+      <set>
+        <p>(Rzecz dzieje się w mieszkaniu Ciaputkiewiczów)</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT Iszy</head>
+          <stage type="setting">
+            <p>(Pokój obszerny, na lewo stolik do kart, na prawo biórko, w środku stół okrągły, fotele, w głębi klawikord, zegar z kukułką, drzwi po bokach i w głębi)</p>
+          </stage>
+        <div type="scene" n="1">
+          <head>SCENA 1sza</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#onufry">ONUFRY.</rs>
+              <rs key="#dorota">DOROTA.</rs> (później)
+              <rs key="#filip">FILIP.</rs> </p>
+          </stage>
+          <stage type="setting">
+            <p>(Onufry drzemie z gazetą w ręku w fotelu na lewo, Dorota z pończochą na kolanach na prawo; za podniesieniem kurtyny długa pauza, potem słychać mocne dzwonienie w przedpokoju)</p>
+          </stage>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(zrywa się przestraszona)</stage> Wszelki duch Pana Boga chwali! <stage>(spogląda na drzwi i męża)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(zrywając się)</stage> Co się stało?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(z oburzeniem)</stage> Ktoś dzwoni!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>O tej godzinie?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Niesłychana rzecz!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Od dziesięciu lat jeszcze mi się to nie przytrafiło, żeby wtedy, kiedy ja odprawiam poobiednią drzemkę, ktoś śmiał dzwonić.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>I to tak mocno. Ja to odchoruję z pewnością, migrena na wieczór, jak amen w pacierzu.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ale, że Filip pozwolił. <stage>(do wchodzącego)</stage> Mój Filipie, cóż to znaczy?</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p><stage>(oddając telegram)</stage> Z telegrafu proszę pana.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>To nie mógł sobie błazen poczekać?</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Powiada, że to pilne.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Pilne, pilne. Teraz, ci ludzie to chcieliby mieć wszystko na wyskoki; dawniej nie mieliśmy ani telegrafów, ani tych głupich kolei, a przecież nam się tak nie spieszyło. Był czas na wszystko, a teraz...</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Proszę pana, trzeba podpisać tę cedułę, bo czeka.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Przecież się nie pali, żeby tak na gwałt... zaraz <stage>(idzie do biurka)</stage> gdzież to moje okulary - pióro, <stage>(podnosi z ziemi)</stage> wszystko mi z rąk leci z tego pośpiechu.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Żeby też tak nagle kogoś budzić! Ja się jeszcze cała trzęsę.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(podpisawszy)</stage> Na, masz, a powiedz tam temu błaznowi, że jak mi jeszcze raz coś podobnego zrobi, to, to - no to ja mu już będę wiedział co zrobić. <stage>(Filip wychodzi)</stage> Właściwie mówiąc, to ja mu nawet za to nie mogę nic zrobić, bo oni teraz panami świata.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Cóż znowu? Posługacze!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A jak Boga kocham, od czasu jak zaprowadzili te koleje, telegrafy, djabły, historje, to człowiek niewolnikiem w swoim własnym domu. Lada dureń, oto taki naprzykład chłystek z telegrafu, przyjdzie ci choćby w nocy, tłucze się do drzwi choćbyś spał w najlepsze i jeszcze mu za to trzeba dać na piwo. Albo te koleje! Pakują człowieka jak tłomok do skrzynki...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Od kogóż, duszyczko, telegram?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A prawda, jeszczem nie otworzył. <stage>(otwiera i mówi z uciechą)</stage> Od Wandy.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Od naszej kochanej wnuczki. Cóż donosi? <stage>(zbliża się)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(czytając)</stage> „Z powodu szkarlatyny”...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Co? chora na szkarlatynę! Jezu Nazareński!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ależ nie, tylko szkarlatyna pokazała się na pensji i dlatego panienki rozpuszczono do domu.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Ach! to doskonale!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(do wchodzącego Filipa)</stage> Filipie, daj mu tam na piwo.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Kiedy już poszedł.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>To biegajże za nim, na, masz. <stage>(Filip wychodzi)</stage> A cóż to za znakomita rzecz te telegrafy! to boski wynalazek! Ileby to czasu dawniej było potrzeba, zanim byśmy się dowiedzieli, że nasza kochana Wandziuchna przyjedzie.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p><stage>(który wrócił przed chwilą)</stage> Co? nasza panienka przyjeżdża? Toż to będzie uciecha!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Prawda stary? Inne to będzie życie.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Trzebaby jej pokój przygotować.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A to po co? Będzie sypiać z nami, jak dawniej.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Ależ nie pleć, nie pleć. Przecież to już nie dziecko, tylko panna dorosła. Gdzieżby mogła przy tobie...</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No to cóż z tego, ja stary.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Ale cóż znowu, nie wypada.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No to... to... w mojej kancelarji, tam jej będzie wygodnie, cichutko.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(niezadowolona)</stage> Tak, tylkoby ją, trzeba przewietrzyć, bo fajką przesiąkła cała.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No to właśnie dobrze. Będzie miała przyjemny aromacik w pokoju.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Takżebyś ją uraczył! Ona fajki nie znosi.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Kto? Wandziunia? A toż ona przepada za fajką. Nie pamiętasz to, jak mi zapalała, to zawsze sobie parę dymków puściła przy tej sposobności.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Bo widziała, że cię to bawi - ale teraz z pewnością nie lubi tego.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Dorciu, bój się Boga, jak można fajki nie lubić? zobaczysz, że Wandzia to lubi.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>A ja ci powiadam, że nie lubi.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A ja ci powiadam, że lubi.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Kiedy ty, Nufciu, tobyś się przy najmniejszej rzeczy chciał sprzeczać.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ja się sprzeczam? to ty się sprzeczasz.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Ja tylko powiadam, że ona fajki nie lubi - kwiatki, to nie mówię, <stage>(do Filipa)</stage> weźmiesz kilka wazoników z mego pokoju.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>I zegar z komody.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>I klatkę z kanarkami.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(skrobiąc się za uchem niezadowolony)</stage> Hm, to znowu jej spać nie dadzą, jak się zaczną drzeć.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(z wyrzutem)</stage> Mój Nufciu!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No, no, już nic nie mówię, ale zobaczysz, że będzie miała z tego tylko codzień migrenę... Takie ciągłe świergotanie...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Że ty nie lubisz to jeszcze nie racja. Przecież przyjemniej w pokoju, jak się coś rusza, odzywa.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No, to będzie miała zegar. Tik, tak - tik, tak - czy może być co jeszcze przyjemniejszego; na co tu jeszcze kanarków?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Zobaczysz, że ona będzie wolała kanarki.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Chyba z grzeczności, dla ciebie będzie znosić ich hałasy.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Więc, Nufciu, znowu!?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ja tylko tak sobie mówię.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Jak kanarki będą hałasować, to się je nakryje.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Prawda, nakryje się i basta. A słuchaj, Filipie, trzebaby jej mieszkanko jakoś ładniej umeblować. Dasz jej ten garniturek niebieski.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>I lustro z nad kanapy.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>I to krzesło huśtające.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>I moje biureczko.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>I serwantkę z porcelaną.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>To panienka nie będzie się miała gdzie ruszać, jak się to wszystko tam wniesie.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Nic nie szkodzi. Jak się będzie chciała ruszać, to przyjdzie do nas. Skorzystamy na tem, prawda, Dorciu?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Musimy się nacieszyć nią za wszystkie czasy.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>A kiedyż panienka przyjeżdża?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A! prawda, nie wiemy kiedy!</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Musi tam stać.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(bierze telegram)</stage> A prawda, zaraz zobaczymy. <stage>(czyta)</stage> „Przyjeżdżam dziś”.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>To już za małe pół godziny, bo pociąg przychodzi o wpół do szóstej.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Chryste Jezu! - a niechże ja się lecę zbierać. <stage>(wychodzi na prawo)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(żywo)</stage> Filipie, mój surdut, prędzej. <stage>(zrzuca szlafrok)</stage></p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p><stage>(podaje surdut)</stage> Toż to będzie u nas wesoło teraz, jak panienka wróci!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(wiąże krawat)</stage> Ciekawym, czy się teraz bardzo odmieniła, może już mnie przerosła.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>E!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A cóż ty myślisz! Panny teraz to rosną szybko, jak żydowska lichwa.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Czy mnie też pozna, bo to przecież już kilka lat - człowiek się postarzał.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>O! przy niej to odmłodniejesz, zobaczysz, stary. Ona nas tutaj wszystkich rozrusza. Gdzież u licha rękaw?...</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Tu panie! To prawda, panienka niby żywe srebro.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>W matkę się wrodziła. A jaka miła swawolnica. Pamiętasz stary, jakiego to ona figla wypłatała nam z tą wazą?</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Na prima aprilis. Jakżebym nie pamiętał!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Nam, panie, aż ślinka idzie na szczawiową zupę. Pani podnosi pokrywkę, <stage>(śmiejąc się do łez)</stage> a tu - zamiast zupy - wróble - i fru fru po całym pokoju.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Co to było śmiechu, ażeśmy się kładli.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Albo z tym nauczycielem muzyki, to także było paradne; co to mu wpakowała do kieszeni fartuszek zamiast chustki od nosa. On, panie, wyjmuje...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(w futrze i kapeluszu)</stage> Cóż to, jeszcześ nie gotów, Nufciu, bój się Boga!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Duchem będę! Filipie prędko kapelusz, laskę.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>A niech Filip tymczasem nastawi samowar.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>I możeby coś z mięsa przygotować przed kolacją. Będzie pewno głodna z drogi.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Niech Walentowa zrobi parę bitych kotletów.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Chyba siekanych duszko, bo Wanda bitych nie lubi.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>To zapomniałeś, aniołku - siekanych nie lubi.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Jak cię kocham, tak ona tylko siekane, przecież pamiętam dobrze.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Nufciu, jak cię kocham, tak bite.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p><stage>(patrzy na zegar)</stage> Żeby się tylko państwo nie spóźnili na kolej.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Za pięć minut wpół, gwałtu, jedźmy, nie zapomnij Filipie, siekane. <stage>(wychodzi)</stage></p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Bite, pamiętaj, bite. <stage>(wychodzi)</stage></p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Bite, siekane, siekane, bite - kogóż tu słuchać? Najlepiej zrobię, jak każę Walentowej zrobić i siekane i bite a sam skoczę do sklepu po kasztany pieczone, bo ona to pasjami lubiła i co to jeszcze? a! chleb świętojański. Zawsze mówiła, że jak zostanie wielką, panią, to sobie kupi całą furę świętojańskiego chleba. Kupię jej tego sporo i włożę pod poduszkę; jak jutro rano zobaczy, to jej będzie przyjemnie, że stary Filip nie zapomniał o jej gustach.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA 2ga.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#filip">FILIP.</rs>
+              <rs key="#wistowski">WISTOWSKI.</rs> (później)
+              <rs key="#pagatowicz">PAGATOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(nadzwyczaj starannie ubrany, gors mocno wykrochmalony z żabotami, złota lornetka, pierścienie, łańcuch u zegarka z brelokami, laska ze złotą gałką, którą w usta wkłada, sztywny, pretensjonalny. Mówi przez nos z pewną dosadnością)</stage> Cóż to? pana Pagatowicza jeszcze niema?</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Nie, proszę pana.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>I stolik do kart jeszcze nie przygotowany!</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Gdzie nam ta dzisiaj karty w głowie!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Przecież już wpół do szóstej minęło, to nasza zwykła godzina. Gdzież gospodarz?</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Pan pojechał z panią na kolej.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Na kolej? a tam po co?</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Nasza panienka dziś przyjeżdża.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Panienka? Co za panienka?</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Panna Wanda, wnuczka naszych państwa.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Państwo Ciaputkiewiczowie mają wnuczkę?</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>I to dorosłą.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Pierwszy raz o tem słyszę.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Bo panienka chowała się na pensji. Taka była wola nieboszczyka jej ojca. Bał się zapewne, żeby mu jej dziadkowie nie rozpieścili zanadto przy sobie.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>A to śliczna historja <stage>(do wchodzącego)</stage> Panie Pagatowicz, słyszałeś pan?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Co takiego?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Ciaputkiewiczowie mają wnuczkę, która dzisiaj przyjeżdża.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Tam do licha, to nasz wist przepadł na dzisiaj.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Może i na dłużej. <stage>(do Filipa)</stage> Bo ona tu zapewne myśli dłuższy czas bawić, co?</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>A to się rozumie <stage>(spojrzawszy na zegar)</stage> Szósta, masz tobie, a samowar jeszcze nie nastawiony. <stage>(wychodzi na prawo)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(stawia kapelusz i laskę)</stage> O! to nam zepsuje cały porządek. A tak przyjemnie schodziły nam tu wieczory, co dzień - jak zapisał - partyjka: to wiścik, to taroczek. Było czem czas zabić. Teraz kto wie, jak będzie.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Ja się tu więcej nie pokażę.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>No, to znowu nie, bo przecież...</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Jak uczciwość kocham, nie myślę bywać tu więcej.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A to dlaczego?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Z zasady.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Z zasady?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Tak, z zasady nie bywam w domach, gdzie są panny dorosłe.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A to z jakiego powodu?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Zaraz to panu wytłomaczę. <stage>(siadują)</stage> Czy wiesz pan, co to są grube ryby?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A no, karpie, szczupaki?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>W znaczeniu ogólnem, ale w przenośni, grube ryby, to my.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Jakto, i ja gruba ryba?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Pan i ja, i wogóle każdy człowiek nie żonaty, z majątkiem i wyrobioną pozycją, który może żonie zapewnić dobry los, piękne utrzymanie; słowem to, co nazywamy dobrą partją.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Aha, rozumiem.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Owóż uważasz pan, jak taka gruba ryba pokaże się w domu, gdzie są panny na wydaniu, zaraz mama, ciocie i opiekunowie, usiłują go złapać na męża. Zaczynają się swatania, namowy, słowem, formalne polowanie. Czy panu nie przytrafiło się nigdy coś podobnego?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Tak na razie, to sobie rzeczywiście nie przypominam.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Toś pan szczęśliwy. A ja, panie, raz wraz przechodziłem podobne historje. Ot, nie dalej, jak parę miesięcy temu, jedna wdówka tak mnie prześladować zaczęła swoją miłością, że się aż do miasta przenieść musiałem, aby się od niej uwolnić.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>To to takie kobiety! O! to trzeba być ostrożnym.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Dlatego właśnie bywałem u Ciaputkiewiczów, że tu czułem się bezpieczny od wszelkich małżeńskich ataków. Ale teraz, skoro i tu zjawia się jakaś tam wnuczka, to kłaniam uniżenie, nie zobaczą mnie więcej.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Więc pan jesteś nieprzyjacielem płci pięknej?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Nieprzyjacielem, uchowaj Boże! Było się przecież nawet trochę donżuanem - bałamuciło się mężateczki... Tak, tak, panie Pagatowicz, bo nie chwalący się, miałem szczęście do płci pięknej, ale co do małżeństwa, to nigdy nie miałem ochoty.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Nie? I dlaczego?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Bo ja lubię niezależność i nie czuję najmniejszego powołania na ojca rodziny. Zresztą, mój panie Pagatowicz, jak się zjadło dobre śniadanie, to się łatwo można obejść bez obiadu. Prawda?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Zkąd ja to mogę wiedzieć, kiedy nigdy takiego śniadania nie kosztowałem i dotąd bez obiadu się obchodzę.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Więc pan także nie myślałeś nigdy o małżeństwie?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Owszem, myślałem i bardzo wiele, ale się tylko na myśleniu skończyło. Pan wiesz, jak to u nas urzędników, im mniej zębów, tem więcej chleba. Teraz mógłbym się żenić, bo i pensyjka niezła, i po ciotce ładna sukcesyjka mi się dostała, ale któraźby mnie dzisiaj chciała?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Na kopy pan takie znajdziesz.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Tak, ale to już chyba nie dla mnie samego, ale dla mego majątku.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>To się rozumie dla tego, że pan jesteś grubą rybą.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Dziękuję ślicznie za to. A mnie po co tego kłopotu na starość, ja, panie, słabowity. Katar żołądka - tak, tak. Co tylko zjem - to zaraz, z przeproszeniem, takie churkotanie, gniecenie tu i tu, i raz zimno, raz gorąco, że desperacja. Dlatego wziąłem urlop na parę tygodni i myślę jutro pojechać do Wiednia poradzić się jakiego specjalisty.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Wyjeżdżasz pan? To może i ja wybiorę się do Lwowa. Mam tam bratanka, na którego włożyłem obowiązek utrzymania rodu Wistowskich. Napisałem mu właśnie w tych dniach, że, jeżeli sobie wybierze żonę podług mego gustu, zrobię go uniwersalnym spadkobiercą moim. Ale zastrzegłem sobie wyraźnie, że podług mego gustu, bo ja, panie, stary koneser, będę umiał wybrać matkę dla przyszłych Wistowskich.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA 3cia</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wistowski">WISTOWSKI.</rs>
+              <rs key="#pagatowicz">PAGATOWICZ.</rs>
+              <rs key="#filip">FILIP.</rs>
+              <rs key="#onufry">ONUFRY.</rs>
+              <rs key="#dorota">DOROTA.</rs>
+              <rs key="#wanda">WANDA.</rs>
+              <rs key="#helena">HELENA.</rs>
+            </p>
+          </stage>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Otóż i nasza panienka przyjechała. <stage>(otwiera drzwi)</stage> Dwie, jak mi Bóg miły, dwie. A to cudowne rozmnożenie! <stage>(wchodzą Wanda, Helena pootulane tak, że im prawie nic twarzy nie widać, za niemi Onufry i Dorota w wesołym humorze)</stage></p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>No, teraz rozbierajcie się swawolnice.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(piszczącym głosem)</stage> O! nic z tego! Proszę pierwej poznawać.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(do Wistowskiego i Pagatowicza)</stage> No przypatrzcież się, nie figlarki to; przyjechały tak pootulane, jak je tu widzicie i bawią się z nami w zgadywanego.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>A jak, tu poznać, kiedy obie jednako całują i ściskają. O! jeszcze się śmieją swawolnice.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(do Wistowskiego)</stage> Wyraźnie, panie, jak na reducie. <stage>(usiłując być serjo)</stage> No, panny, dosyć już tej maskarady - rozbierajcie się, bo się pogrzejecie i dostaniecie kataru. No, prędzej, ja tu z wami nie będę żartów stroił. <stage>(zbliża się do Wandy)</stage> Dawaj szal. <stage>(chce jej zdjąć)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(usuwając się)</stage> O! nic z tego, niech dziadzio pierwej zgaduje.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(uradowany)</stage> Dziadzio! a widzisz figlarko, złapałaś się!</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Wandzia najdroższa, oj ty, ty, tak nas zwodzić. <stage>(ściska ją i rozbiera)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ha, kiedym się wydała, to się przyznam, że to ja.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Bagatela!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ale zgadnijcie, kto ta druga.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(oglądając Helenkę)</stage> Czy ja wiem.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Widocznie taka sama psotnica, jak ty. <stage>(zagląda jej w oczy i mówi do Wandy)</stage> Czy ją znamy?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>O! i bardzo dobrze!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ślepka błyszczące, ktoby to mógł być?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Chrześnica dziadzi.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Toś mi też wiele pomogła! Ja miałem chrześnic, żeby ich na palcach nie zliczył... Może Adelka Filipska?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Adela przecie o wiele starsza.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A któż to pozna, kiedy jej nawet w ząbki zajrzeć nie można.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Pokaż dziadzi ząbki, Helenko.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Helenka!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Helenka Burczyńska.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(odsłaniając się)</stage> Ta sama. <stage>(ściska Onufrego i Dorotę)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Że też mi to zaraz na myśl nie przyszło, te błyszczące ślepka. <stage>(rozbiera ją)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(do Filipa, który zabiera ich rzeczy)</stage> A! Filip, poczciwy, jak się macie?</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p><stage>(uradowany)</stage> Panienka mnie poznała. <stage>(całuje ją w rękę i kłania się jej w chwili, gdy z nim rozmawia po cichu)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(do Doroty, wskazując na Helenkę)</stage> Patrzno, Dorciu, jak ona wyrosła. Takie to było zawsze, jak węzełek.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>A zkądżeś się ty tu wzięła?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Uciekłam razem z Wandą z pensji przed szkarlatyną. Telegrafowałam do ojca, że tu będę czekać na niego, <stage>(filuternie)</stage> jeżeli mnie państwo przyjmiecie?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Słyszysz, Nufciu, jeżeli ją przyjmiemy, to figlarka!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A od czegóż ja ci ojcem chrzestnym. <stage>(całuje ją)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(rozglądając się)</stage> Jak tu dobrze - jak miło. Nic się nie zmieniło; ten sam zegar z kukułką, te same meble, to fotel dziadunia, a to babci, tylko tak jakoś wszystko pomalało.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>He, he, meble nie pomalały, tylko panienka urosła.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(do Pagatowicza)</stage> My tu, jak widzę, całkiem zbyteczni. <stage>(chrząkając, biorą za kapelusze)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A prawda, nie przedstawiłem was jeszcze naszym gościom. Nasza wnuczka, Wandzia, Pan Wistowski.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Czy nie ze Sławkowic?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A tak, ze Sławkowic. Tylko teraz przerobił się na mieszczucha.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(do Heleny)</stage> Stryj Henryka.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Pan Pagatowicz, radca sądu, nasz przyjaciel.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>A o mnie ojczuś chrzestny zapomniał?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A prawda, Helenka Burczyńska.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Bardzo mi miło. Czy przypadkiem nie córka pana Jana?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Tak, pan zna mojego ojca?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>I pannę Helenę znałem jeszcze taką maleńką, nosiłem nieraz na rękach.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Terazby to było trudniej.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>To może to pan byłeś, co jakieśmy mieszkali jakiś czas w mieście, bywałeś tak często w domu moich rodziców, to pan może przynosiłeś mi zabawki?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A ja - ja!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Panu na imię Hilary?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Do usług.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>O! to ja sobie pana bardzo dobrze przypominam.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Po cukierkach.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>A rzeczywiście. Ile razy potem jadłam cukierki, to mi pan zawsze na myśl przychodziłeś.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(uradowany, n. s)</stage> Lube dziewczę.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Pamiętam, że pan zawsze mojej mamie załatwiałeś sprawunki i mama utrzymywała, że nikt tak nie zna się na tem, jak pan.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Pani pamięta to jeszcze?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ah! jak doskonale! Wandziu! To ten pan, o którym ci nieraz mówiłam.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Filipie, a rzeczy panienek.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Prawda, rzeczy. <stage>(wychodzi środkiem)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Prosto do kancelarji, ja tam idę. <stage>(wychodzi na prawo)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(ucieszony zażywa tabakę i mówi na stronie do Wistowskiego)</stage> Mówiła nieraz o mnie, słyszałeś pan? Poczciwa dziewczyna. To taki mały był berbeć, powiadam panu, a teraz się taka piękna panna z tego zrobiła. Ale i ta druga niczego, zkądże ona zna pana?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Chyba z szematyzmu. Może ich uczą tego na pensji teraz, żeby wiedziały, gdzie szukać kandydatów na mężów.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(zgorszony)</stage> E! cóż znowu!</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Ale wy pewnie głodne, każę wam podać co tymczasem.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>O, ja ślicznie dziękuję!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>I mnie nic a nic jeść się nie chce. Babuniu, zaczekamy do kolacji.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(do Pagatowicza, siadając przy nim)</stage> Pan dawno widział się z moim ojcem?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>O, już bardzo dawno.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>To się tatko ucieszy, jak pana zobaczy; jutro przyjeżdża po mnie.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Kiedy ja jutro rano wyjeżdżam do Wiednia.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jutro? Ah, jaka szkoda! Ojciec będzie bardzo żałował i ja także, bo nawet nie będę mogła nacieszyć się panem po tak długiem niewidzeniu.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Cóż robić? kiedy trzeba.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Panie Pagatowicz, pan zostajesz?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>A pan?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Ja muszę pożegnać panie.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(wracając)</stage> Jakto, odchodzicie? Ale cóż znowu, nie puszczę was.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Kiedy, bo...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Bośmy gotowe pomyśleć, że panowie przed nami uciekają. A to byłoby nam bardzo przykro, że wystraszamy dziadkom gości z domu.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A to filut dziewczyna! No, kiedy panny proszą, nie możecie przecie odmówić.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Skoro tak, to zostaję.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Nagadamy się za wszystkie czasy.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A pan Wistowski?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Ale...</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Niema żadnego ale, aresztujemy pana i kwita. Wandziu, zabierz kapelusz - tak - teraz musisz pan zostać.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(do Pagatowicza)</stage> A co, nie mówiłem? Polowanie już się rozpoczyna.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A ty, Dorciu, może pomyślisz o kolacji.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>My babci będziemy pomagać.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Ale wy zmęczone, z drogi.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Nic a nic.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Będziemy się z babcią bawić w gosposie. Ah! jak to będzie zabawnie. Chodźmy, babciu. <stage>(biorą ją pod ręce)</stage></p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Powoli, bo mnie roztrzęsiecie. <stage>(wychodzą na prawo)</stage></p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p><stage>(który wszedł przed chwilą, patrzy za niemi)</stage> Toż to teraz wesoło u nas, aż miło.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Filipie, nakrywaj, nakrywaj. A my może sobie, tymczasem, małego wiścika, co?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ja, z ochotą, panie Wistowski.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Służę panom <stage>(rozbierają karty; do Onufrego)</stage> Pan grasz z dziadkiem.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>To nas będzie dwóch dziadków, he - he - a to się paradnie złożyło. <stage>(siadają, Onufry rozdaje karty)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(w białym fartuszku)</stage> Dziadziuniu, gdzie są klucze babci od spiżarni.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Klucze? <stage>(szuka po kieszeniach, potem wskazuje na biurko)</stage> A tam leżą.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(także w fartuszku, z tacą, na której wino i kieliszki)</stage> Chrzestna matka przysyła, żeby się panom lepiej grało.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Doskonale. Trzeba przecież oblać przybycie naszych panienek. <stage>(nalewa)</stage> Wandziu! czekajno, musimy przecież wypić wasze zdrowie.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Za szczęśliwe przybycie łaskawych pań.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No, musicie przecież podziękować; dajcież jeszcze kieliszków.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>My, z Wandzią, z ojczulka kieliszka. <stage>(trąca się z Pagatowiczem i Wistowskim)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(toż samo robi)</stage> Dziękujemy panom.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No, a zemną.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Dziadziowi, na podziękowanie, całusa. <stage>(całuje i wybiega na prawo)</stage></p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>I ja. <stage>(całuje i wybiega)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A co, jakie rozkosze dziewczęta, nieprawda? He, he, zobaczycie, jak wam tu teraz przyjemnie będą schodzić wieczory.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(chrząka na stronie)</stage> Nie wszystkim.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>One wam tu tak głowy pozawracają, że się jeszcze na zabój w nich rozkochacie.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>O! o!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No, zobaczycie!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Do czegóżby to było podobne.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Pagatowicz już zrobił dobry początek, bo sobie pannę cukierkami skaptował. Teraz tylko kuć żelazo, póki gorące.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>W cóż pan wychodzisz?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>W co wychodzę? No, rozumie się, w kara, <stage>(zadaje)</stage> dla pana Wistowskiego, znowu, ta Wanda, byłaby jak ulał.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(trąca Pagatowicza)</stage> Oho, już zaczyna!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Co to za sprytna dziewczyna, to nie macie pojęcia.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Biję asem; co pan oddajesz z dziadka? Może szóstkę pik.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Niech będzie szóstka. A jaki rozumek? - fiu-fiu - i to od samej małości. Jeszcze nie miała ośmiu lat, kiedy mi wykoncypowała powinszowanie, ale to takie, powiadam wam, że jeno drukować, jak Boga kocham. Czekajcie! mnie się zdaje, że je mam gdzieś na wierzchu. <stage>(wstaje)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Ja już zadałem.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Zaraz! karty nie uciekną, a to warto posłuchać, jak was kocham. Sami się przekonacie, zaraz wam pokażę. <stage>(idzie do biurka)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Zaczyna się zachwalanie towaru, to atak drugi.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Prawda, atak nie na żarty.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Gdzież, u licha, podział mi się kluczyk! A jest. <stage>(odmyka)</stage> Powiadam wam, że zgłupiejecie. <stage>(szuka między papierami)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(do Pagatowicza)</stage> Nie zobaczy on mnie tu więcej.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A, jest. <stage>(bierze pożółkły arkusik i, niosąc do grających, mówi do Wandy, która w tej chwili weszła)</stage> Twoje powinszowanie, to wierszem, pamiętasz? O, patrzcie!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(żywo)</stage> Co dziadzio chce robić?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Przeczytać im.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ja nie chcę, panowieby się ze mnie wyśmieli!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Będziemy podziwiać.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>To się rozumie.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ja nie chcę, nie pozwolę! <stage>(wyrywa mu i odchodzi za kanapę)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(idąc za nią)</stage> Wandziu - co robisz! niech cię Bóg broni, żebyś mi to podarła! przecież to moja własność. Oddaj mi to zaraz, słyszysz! <stage>(Wanda ucieka na lewo)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(rzuca karty)</stage> Ale, cóż to za gra taka; to męczarnia, nie gra. Panie Onufry, gramy, albo niegramy?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(wraca od drzwi)</stage> Ale gramy, rozumie się; dla czegóżbyśmy nie mieli grać. <stage>(bierze karty)</stage> Zaraz, zaraz, pan zadałeś to.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Tak, i dziadek bije.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Dziadek bije? dobrze, czemby tu. Filipie, idź za panną, żeby mi się nie ważyła podrzeć, bobym się naprawdę pogniewał.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Możeby lepiej nie grać?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(mocno zdziwiony)</stage> A to dlaczego?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>No, bo czekamy i czekamy, a pan nie bije.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ale biję, biję. <stage>(do wchodzącej Wandy)</stage> Wandziu, bardzo proszę, dość tych żartów. Oddaj mi to zaraz.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>A nie pokaże dziadunio nikomu?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No, nie pokażę, nie pokażę.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Słowo?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No, słowo. <stage>(odbiera)</stage> Poczekaj ty, swawolnico jakaś, odpłacę ja ci za to.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ale dziaduś nie gra, a panowie czekają. <stage>(do Wistowskiego)</stage> Czy wolno usiąść przy panu?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(chłodno)</stage> O! bardzo proszę. <stage>(do Pagatowicza, trącając go)</stage> Uważasz pan?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Przy kimże szczęście?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Mnie dziś karta okropnie nie idzie.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Powinieneś się pan cieszyć z tego.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A to dla czego?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>O! o! cóż udajesz niewiniątko! nie znasz to przysłowia?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Doprawdy, nie znam.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Kto nieszczęśliwy w karty, to bywa zwykle szczęśliwy... w loteryjkę.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(śmieje się)</stage> W loteryjkę! A to mu dogodziła! Widzisz, masz, co chciałeś. W loteryjkę! ha ha, ha. <stage>(do Wistowskiego)</stage> Prawda, dowcipna dziewczyna, co? Loteryjka! ha, ha, ha, to się jej udało. Muszę to babci opowiedzieć.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(rozpatrując się w kartach)</stage> W co by tu wyjść.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ja bym szła w piki.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ty, mała, będziesz ty tam cicho?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>To pani grywa w karty?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Jak z nut.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Przy ojcu musiałam się nauczyć, bo nie lubiał grywać z dziadkiem.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Co, zemną, nie lubił?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ale nie z dziadziem, tylko z dziadkiem...</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Więc pani radzi - w piki.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ja tak myślę.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(po namyśle)</stage> Ha, usłucham pani. <stage>(zadaje)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(żywo)</stage> A rozumie się, nie można było lepiej, bo ja biję, teraz zagrywam karo, i wszystkie lewy nasze. O! <stage>(wykłada karty)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(ucieszony)</stage> Prawda, wszystkie nasze.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Jak to wszystkie? a mój as kierowy?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Pan Pagatowicz bije go atutem, bo niema żadnego kieru i dostałeś pan wielkiego szlema. Pysznie nam pani doradziła. <stage>(wstaje rozpromieniony)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>To ty, figlarko jakaś, będziesz na własnego dziadka podmawiać? Poczekaj dam ja ci?</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA 4ta</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wistowski">WISTOWSKI.</rs>
+              <rs key="#pagatowicz">PAGATOWICZ.</rs>
+              <rs key="#filip">FILIP.</rs>
+              <rs key="#onufry">ONUFRY.</rs>
+              <rs key="#dorota">DOROTA.</rs>
+              <rs key="#wanda">WANDA.</rs>
+              <rs key="#helena">HELENA.</rs>
+            </p>
+          </stage>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Proszę panów kończyć, bo już kolacja.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(wstając)</stage> Właśnie, w sam raz mnie obębnili, i to przez tę małą. <stage>(do Wistowskiego)</stage> Ale gracz z niej nie lada, co?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>A rzeczywiście, można powiedzieć.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Możebyśmy z nią po kolacji spróbowali jednego robra?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(gdy Filip postawił półmiski)</stage> Proszę panów, panienki przy mnie. <stage>(siada)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Babciu, przeplatanego!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Będzie weselej.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Przeplatanego, doskonale, a gdzież mnie wpleciesz?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Dziadunio między babcią i Heleną.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Dobrze, posuń się, stara.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Pan Pagatowicz tu, <stage>(wskazuje mu miejsce obok Helenki, do Wistowskiego)</stage> a ja przy panu.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(idąc, n. s)</stage> Coś na ostro atak idzie. <stage>(siada)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Co panu podać? kurczę, czy kotlety?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(zimno)</stage> O, niech się pani nie trudzi. <stage>(przyjmuje od niej półmisek)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ale wy, robaczki, nic nie jecie.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Owszem, ja jem.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Wandziu, a ty?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Mnie się, babuniu, nic a nic jeść nie chce; tak jestem pełna od radości, żem znowu przy was.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(z czułością)</stage> Moja gołąbeczka złota!</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Ale choć kawałeczek kurczątka! <stage>(idzie do niej z półmiskiem)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(składając ręce)</stage> Kiedy nie mogę, jak babcię kocham!</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Kawałeczek, jak mnie kochasz. <stage>(nakłada jej na talerz)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(tak samo)</stage> Choć odrobinkę, bobym się pogniewał na ciebie.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ależ, dziadku, na miłość Boską!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>I sałaty troszeczkę. <stage>(nakłada jej)</stage></p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Ale idźże z sałatą. <stage>(do Wandy)</stage> Wszak ty nie lubisz sałaty, prawda?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ale...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>A widzisz! kompotu, to nie mówię. <stage>(nakłada jej)</stage> Jedz, jedz, kochanko, to ja sama smażyłam!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Kiedy, jak was kocham, nie mogę! - Jutro i później będę się objadała za wszystkie czasy, ale nie dziś. <stage>(wstaje żywo)</stage> Pójdę nalewać herbatę. <stage>(idzie do samowara)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(biegnąc za nią)</stage> Czekaj, ostrożnie, poparzysz sobie palce! Filipie, uważaj na panienkę. <stage>(idzie dopomagać jej, ona nalewa i wnosi, Filip sprząta półmiski i talerze ze stołu)</stage></p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(do Pagatowicza)</stage> Czy pan koniecznie musisz jechać jutro do tego Wiednia?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Koniecznie, pani. Urlop mam krótki. Muszę korzystać z każdego dnia.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(z przymileniem)</stage> A gdybym pana prosiła bardzo, żebyś się pan zatrzymał, choć na dwa dni - choćby na jeden dzień.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A cóż pani zależeć może na tem, abym został?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>O! zależy, i bardzo wiele! Ani pan wyobrażasz sobie, jak wiele. Idzie tu o coś, czego już dawno gorąco pragnęłam.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(porusza się niespokojnie na krześle)</stage> Dawno pragnie, masz tobie. <stage>(głośno)</stage> I cóż to takiego?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Nie powiem panu, bo muszę pierwej z ojcem pomówić o tem.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(jak wyżej n. s)</stage> Z ojcem, bagatela, to przecież jasne, jak słońce!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Bo to od niego zależy wszystko.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(n. s)</stage> Jak Boga kocham, Wistowski miał racją! Co tu robić?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(słodko)</stage> No i cóż, uproszę pana?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(podaje herbatę Pagatowiczowi)</stage> Służę panu.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ślicznie dziękuję.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Może mało słodka?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Z pani rączek będzie z pewnością słodka.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(po odejściu Wandy)</stage> O! jaki pan komplemencista! Gotowam być zazdrosną.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(n. s)</stage> Zazdrosną... nie ma wątpliwości... Stary trzymaj się!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A może herbatka lepiejby nam smakowała przy kartach?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Dalibyście sobie pokój dzisiaj z kartami. Są przecież panny w domu. Możnaby się w coś przyjemniejszego zabawić.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Prawda! np. w kotka i myszkę!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>E! to taka dziecinna gra.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Widzicie ją, jaka mi dojrzała.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Lepiej zatańczmy, ja tak lubię tańczyć! Dziadzio z babcią zagrają tak, jak to dawniej, pamięta dziadunio, a my sobie zatańczymy.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ale z kim?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(wskazuje na Wistowskiego i Pagatowicza)</stage> Przecież są kawalerowie!</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p><stage>(n. s)</stage> Tacy tam kawalerowie, Boże odpuść!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A prawda, no to dalej. Przecież to karnawał teraz! <stage>(bierze skrzypce i, stroi)</stage> Dorciu! Do roboty. <stage>(Dorota idzie do fortepianu)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(dygając przed Wistowskim)</stage> Ja pana angażuję.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Daruje pani.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No, nie możesz pan przecież odmówić, kiedy panna sama prosi.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(do Pagatowicza)</stage> A pan ze mną.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ależ, łaskawa pani, gdzie mnie do tańca, ja już zapomniałem!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>To będziemy sobie przypominać.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Trzeba zrobić miejsce. Klipie, Helenko! <stage>(razem z Filipem usuwają stół)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Czekaj, bo się oberwiesz. <stage>(pomaga jej wraz z Helenką)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(do Wistowskiego)</stage> I cóż pan na to wszystko?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Biorą nas na wszystkie sposoby, ale się nie damy.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>O, nie damy się!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Grube ryby nie łapią się na takie przynęty, prawda?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A tak, tak, lubo ta Helenka, to wcale niczego panna...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>No, sala balowa już gotowa. <stage>(do Wistowskiego)</stage> Służę panu... Babuniu! Dziaduniu!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Cóż wam zagrać?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Walca!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Tak, tak, walca!... <stage>(staje z Pagatowiczem)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Nie wiem, czy potrafię.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ale potrafisz pan, nie ma, jak walc!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(do Doroty)</stage> Matka! tego naszego. <stage>(grają jakiegoś starego walca)</stage></p>
+          </sp>
+          <stage>(Wistowski tańczy z Wandą i chce się widocznie popisać, że z niego jeszcze dobry tancerz)</stage>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(porusza się w tańcu z Heleną i zaraz z początku pomylił się w takcie, zatrzymuje się)</stage> Zaczekajmy, od punktu. No, raz, dwa, trzy, raz, dwa, trzy.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(wesoło)</stage> Cztery, pięć, sześć, dziesięć, najlepiej bez rachuby. <stage>(porywa go w szybki taniec)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(trąciwszy Wandę)</stage> O, przepraszam! <stage>(tańczy dalej niezgrabnie)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(zadyszany)</stage> P-a-a-ni lu-lu-lu-bi tańczyć?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Pasjami, szczególniej walca.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Taaaak, wa-wa-walca?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Przepadam za walcem... <stage>(Pagatowicz przewraca się, Helena go podnosi, Wanda przestaje tańczyć)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(podnosząc się)</stage> Bardzo przepraszam, noga mi się tego...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ależ nic nie szkodzi! To się najlepszemu tancerzowi trafia.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(który, grając, patrzył z zadowoleniem na tańczących, przytupując w takt nogą, przerywa granie i mówi)</stage> Nie rób sobie nic z tego Pagatowicz, to dobry znak.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(n. s. dotykając się)</stage> Rzeczywiście, będzie dobry znak.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Pamiętasz, Dorciu, myśmy się także przewrócili przy pierwszem poznaniu.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(do Pagatowicza)</stage> No, tańczmy dalej!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>O nie pani! Ja już caput! <stage>(idzie na lewo, siada, Helena przy nim)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(siada z prawej i wachluje się, mówiąc zalotnie do Wistowskiego, który siadł obok niej)</stage> Ale jak pan lekko tańczy.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(kłania się zadowolony)</stage> Wolne żarty; kiedyś to to się tam tańczyło niezgorzej.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Z nikim jeszcze nie tańczyło mi się tak dobrze, jak z panem. Tak, prawie nie czuję żadnego zmęczenia.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(ucieszony)</stage> Rzeczywiście? to może pani jeszcze pozwoli. <stage>(wstaje)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>O, z największą, ochotą! Dziaduniu, jeszcze troszeczkę. <stage>(Onufry i Dorota grają, ale piano, aby gra ich nie tłumiła rozmowy Heleny i Pagatowicza)</stage></p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(chwytając Pagatowicza za rękę)</stage> O, nie! pan tego nie zrobisz, żebyś miał odjeżdżać jutro! Pan nie pojedziesz, prawda?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(n. s)</stage> Jak ona patrzy. To trzeba być kamiemieniem chyba, żeby nie zmięknąć.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(błagalnie)</stage> No?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(n. s)</stage> Tak mnie rozmiękczyła, że jestem teraz, jak masło majowe. Możnaby mnie na chlebie rozsmarować.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Nic pan nie mówisz? Dawniej, to pan zawsze powtarzałeś, że mnie tak kochasz, że nie byłbyś w stanie niczego mi odmówić. A teraz, to takiej drobnostki nie chcesz pan zrobić dla mnie.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(n. s)</stage> Nie, dłużej się nie oprę! <stage>(głośno)</stage> Niech się dzieje co chce, zostanę.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(z żywą radością)</stage> Otóż tak, to lubię. O, nie uwierzysz pan, jak mnie tem uszęśliwiasz! <stage>(ściska mu rękę)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(wzruszony)</stage> I siebie, i siebie, panno Heleno - wierz mi.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(który przed chwilą grać przestał)</stage> A możeby tak kadryla?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(zrywając się z zapałem)</stage> Dobrze, kadryla. <stage>(do Heleny)</stage> Służę pani <stage>(bierze ją za rękę i, idąc na środek, nuci kadryla)</stage> tra la la la - tra la la la.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A to się Pagatowicz rozhulał! Patrzno Dorciu! <stage>(zaczyna grać kadryla)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(do Wistowskiego)</stage> A pan nie zmęczony?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(wstając)</stage> Ja? ja gotów jestem tańczyć do samego rana.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Więc tańczmy. <stage>(Pagatowicz wyrywa się zawcześnie)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(z ferworem kawalerskim)</stage> Attendez - ośm taktów wytrzymać, tak a teraz en avant, chaîne anglaise, retour, balancé. <stage>(tańczą)</stage></p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p><stage>(który się z zajęciem przypatrywał)</stage> A to się staruszkowie rozbrykali.</p>
+          </sp>
+          <stage>(Zasłona spada)</stage>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT IIgi</head>
+          <stage type="setting">
+            <p>(Ten sam pokój)</p>
+          </stage>
+        <div type="scene" n="5">
+          <head>SCENA 1sza</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wanda">WANDA.</rs></p>
+          </stage>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(siedzi przy fortepianie, znudzona, rozkapryszona, gra to powoli, to prędko, to wesołe, to smutne rzeczy, w końcu wstaje od fortepianu)</stage> Sama nie wiem co mi jest, a jednak smutno mi tu i nudno. Och, Boże! Boże! Ah! za nic w świecie nie odważyłabym się przyznać do tego przed nimi. No, ale cóż ja temu winna, że madame przyjęła takiego ładnego nauczyciela do muzyki. To nie ja jedna przecież, bo cała klasa w nim się kochała na zabój, a że mnie wybrał, to tylko honor dla mnie. <stage>(po chwili)</stage> Co on sobie tam pomyśli, jak przyjdzie na lekcję, a tu ani jednej panny? Chciałam mu donieść, że wyjeżdżam, ale Helenka osądziła, że nie wypada pisać do kawalera. <stage>(siada)</stage> Czy jemu też tam tak tęskno bezemnie, jak mnie tutaj? <stage>(wstaje)</stage> Ah, Boże! ja teraz dopiero widzę, jak go kocham!</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA 2ga</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wanda">WANDA.</rs>
+              <rs key="#burczyński">BURCZYŃSKI.</rs>
+              <rs key="#helena">HELENA.</rs>
+              <rs key="#filip">FILIP.</rs> (z pakunkami)
+            </p>
+          </stage>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p><stage>(w czamarce, czapka rogata z daszkiem, mówi do Filipa)</stage> Poznoś tam te bagaże do pana pokoju. Jest tego porcja. <stage>(Filip odchodzi)</stage> Jak my się z tem wszystkiem zabierzemy, to, dalibóg, nie wiem?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(do Wandy)</stage> Tatko dziś w nienajlepszym humorze!</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p><stage>(siadając)</stage> Niech licho weźmie to miasto! Ciągle tylko trzymaj rękę w kieszeni i, gdzie się ruszysz, tylko płać i płać, i to od rana do wieczora. Jakby mi tu przyszło jeszcze z kilka dni pobyć, to, dalibóg, nie byłoby o czem wracać.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(rozbierając się ze śmiechem)</stage> E! co też tateczko mówi!</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>A jak Boga kocham! No, widzicie państwo, ona się śmieje!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(ze śmiechem)</stage> Jak panu braknie, to dziadunia pożyczy.</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Tak, pożyczyć łatwo, tylko skąd oddać?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Myślałby kto, że tatko taki biedny.</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>A cóż ty sobie myślisz, smarkulo, że ja kuję pieniądze, czy co? A tożby się w studni przebrało, przy takich wydatkach!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(zadąsana)</stage> I cóż to znowu za takie straszne wydatki?</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Co za wydatki? a wiesz ty, smarkulo, wiele ja od wczoraj wydałem? Dwieście pięćdziesiąt reńskich i to wszystko przez ciebie.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jakto przeze mnie?</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>A tak, tak, bo, gdyby nie ty, nie byłbym się ruszał z domu, a Zębaczyńska, jak tylko widzi, że się wybieram do miasta, to zaraz rychtuje konotatkę na dwa łokcie. <stage>(wyjmuje notatkę z kieszeni)</stage> O, cała litanja!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>To też tatko potem znowu przez kilka miesięcy nie będzie nic wydawał.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Potrzeba, przecie, żeby miastowi coś zarobili.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Tatko przeszłego roku tyle wziął pieniędzy za przenicę...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>A widzi pan.</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p><stage>(wstaje)</stage> E! ktoby was przegadał! Dajcie mi święty spokój; <stage>(do Wandy)</stage> gdzie dziadek?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>U siebie.</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Wolę iść do niego na fajkę, bo z wami, tobym końca nie doszedł; szkoda czasu. <stage>(idzie na prawo)</stage></p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(do odchodzącego)</stage> Tatko nie lubi prawdy słuchać!</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Dajcie mi spokój, nic nie słucham. <stage>(wychodzi)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ten twój ojciec to musi być taki burczymucha, co to zrzędzi, krzyczy, łaje, ale w gruncie poczciwy i miękki. Co?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Dobry jest, to prawda. Bardzo dobry, ale na punkcie wydawania pieniędzy, to strasznie twardy. <stage>(z westchnieniem)</stage> A ja mam teraz właśnie taką wielką prośbę do niego. Zbieram się od rana na odwagę i nie mogę...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Pewnie o nowy kapelusik?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>E! gorzej jeszcze. Chcę go prosić na materjalną suknię.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ho, ho, czego ci się zachciewa!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>No cóż, moja droga. Julcia Grzybkowska, przecież młodsza odemnie, już w przeszłym roku, na egzaminie, miała jedwabną suknię, wiesz, tę niebieską w paski, pamiętasz?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>O, pamiętam dobrze!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>A no, widzisz! A ja teraz mam taką dobrą sposobność. Pagatowicz jedzie do Wiednia, a on się zna bardzo dobrze na materjałach. Powiadają, że tam zabezcen można kupić. A u nas, w sąsiedztwie, wielki bal na Święty Józef u Gagatnickich, toby doskonale mi wypadło. Coby to było za szczęście pokazać się w materjalnej sukni z ogonem, z takim długim, długim ogonem. Ach, żeby tylko tatko zmiękł! Może teraz, jak się z twoim dziadkiem rozgada, będzie w lepszym humorze. Pójdę spróbować. Muszę się śpieszyć, bo Pagatowicz dziś jest, a jutro wyjeżdża. Ledwie go uprosiłam, żeby się zatrzymał. No, odważnie! W Imię Ojca i Syna. <stage>(idzie na prawo i wraca się)</stage> A, prawda! zapomniałam ci powiedzieć, że Henryk jest tutaj.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(z żywą radością)</stage> Jest tutaj? widziałaś go?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Spotkałam się z nim w mieście. Będzie tu, u was, o czwartej. Ma ci coś ważnego do powiedzenia. <stage>(wybiega)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(sama)</stage> Boże! jak mi serce bije! On jest tutaj! może umyślnie za mną przyjechał! No, rozumie się, skoro ma mi coś bardzo ważnego do powiedzenia. <stage>(patrzy na zegar)</stage> Do czwartej już niedaleko.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(za sceną z lewej)</stage> Filipie! klucze od spiżarni.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Babcia gdyby go tu zobaczyła! No, cóż z tego, przecież każdemu wolno przyjść z wizytą.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Niech Filip idzie ze mną.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Idzie tu! Co robić, żeby tu długo nie zabawiła? A wiem. <stage>(kładzie się prędko na kanapie i udaje śpiącą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA 3cia</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wanda">WANDA.</rs>
+              <rs key="#dorota">DOROTA.</rs>
+              <rs key="#filip">FILIP.</rs> (z lewej, po chwili)
+              <rs key="#onufry">ONUFRY.</rs> (z prawej)</p>
+          </stage>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(do Filipa)</stage> Zaniesiesz potem panom wino. <stage>(spostrzega śpiącą)</stage> A, śpi; cicho! masz klucze i idź do piwnicy, nie tłucz się. <stage>(Filip wychodzi na lewo)</stage></p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(przypatrując się Wandzi)</stage> Zasnęło niebożątko!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(z prawej)</stage> Dorciu! każno nam dać wina.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(daje znak)</stage> Cicho! <stage>(wskazuje na śpiącą)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(cichuteńko)</stage> Każno nam dać wina.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(tak samo)</stage> Już poszedł Filip.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(zbliżając się)</stage> Śpi? Wandziu!</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Dajże jej spokój!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Śpisz? no śpij, śpij. Możeby jej jasia pod głowę?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Zaraz przyniosę. <stage>(do Filipa, który idzie z winem)</stage> Ostrożnie, na palcach, bo panienka śpi. <stage>(wychodzi na lewo)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(do Filipa, dając znak, gdzie ma iść)</stage> Do mego pokoju, słyszysz? tam; tak. <stage>(po chwili)</stage> Moje śliczności, jak to to smacznie zasnęło, ale zziębnie biedactwo; możeby ją czem przykryć. <stage>(szuka po pokoju, a nie znalazłszy nic, zdejmuje szlafrok)</stage> Tak, teraz jej będzie cieplej. <stage>(otula ją)</stage></p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(wchodzi na palcach)</stage> Jest jaś.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Tylko ostrożnie, żebyś jej nie obudziła. Tak...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Chodźmy!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Chodźmy. <stage>(Wychodzą na palcach, oglądając się na śpiącą)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(zrywa się)</stage> Nareszcie! Jacy oni poczciwi, jak mnie kochają! Doprawdy, że mnie wstyd, że ich tak oszukiwać muszę. Ale cóż było robić? Czwarta co tylko nie uderzy! <stage>(spostrzegłszy wchodzącego)</stage> A!</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA 4ta</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#henryk">HENRYK.</rs>
+              <rs key="#wanda">WANDA.</rs>
+            </p>
+          </stage>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p><stage>(wchodzi żywo)</stage> Ah! panno Wando! <stage>(chce ją całować w rękę)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(cofa się i ogląda z przestrachem)</stage> Panie Henryku! co pan robisz? nie można sobie tak pozwalać, bo tu nie pensja. Gdyby tak dziadkowie zobaczyli...</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>A cóż dziadkowie pani mogliby mieć przeciw temu?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Oni jeszcze nie wiedzą o niczem. Nie znają pana.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>No, to mnie pani poznasz z nimi, przedstawisz, jako twego narzeczonego.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Narzeczonego?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Teraz już śmiało mogę wystąpić w tym charakterze na mocy tego listu. <stage>(pokazuje list)</stage> Dostałem go parę dni temu i pobiegłem zaraz na pensję, aby się z panią podzielić tą radosną nowiną; powiedziano mi, że pani wyjechała, więc natychmiast za panią tu przybyłem.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>I cóż ten list zawiera?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Czytaj pani!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(bierze od niego list i czyta)</stage> „Drogi synowcze”!</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>To do mnie.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(j. w)</stage> „Jesteś jedynym reprezentantem naszego nazwiska, rozumie się, nie licząc mnie. Na tobie więc ciąży obowiązek utrzymania naszego rodu na przyszłość”. <stage>(mówi)</stage> Tego nie rozumiem?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Ja to pani później kiedy wytłómaczę, czytaj pani dalej.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(j. w)</stage> „Jeżeli wybierzesz sobie żonę, która zyska moją aprobatę”.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Aprobatę - dwa razy podkreślone.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(j. w)</stage> „Zabezpieczę wam dostatnie utrzymanie, a po mojej śmierci zrobię cię uniwersalnym spadkobiercą mojego majątku”.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p><stage>(z radością)</stage> I cóż pani na to? Szczęście nasze już zapewnione, nieprawdaż?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>A jak się nie podobam pańskiemu stryjowi i nie zyskam jego aprobaty?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Chybaby oczów nie miał.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Nie śmiej się pan, bo to bardzo możebne. Robiłam, co mogłam, aby pozyskać jego względy, ale mi się zdaje, że mi się... że mi się to nie bardzo udało.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Jakto? pani znasz mego stryja? widziałaś go gdzie?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Tutaj.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>On tu bywa?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Jest prawie codziennym gościem u moich dziadków.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>A to się wybornie składa.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ja nie widzę w tem nic tak jeszcze wybornego.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Jakto? nie! powiem mu wprost: stryju! oto moja narzeczona - i koniec.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>A stryj pański wtedy zacznie mnie oglądać, krytykować i wyszukiwać koniecznie różne złe strony. Dziękuję panu za taką przyjemność.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Więc coż mam robić?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Przedewszystkiem iść stąd.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Jakto, mam odejś?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Nie na długo. Przyjdzie pan tu razem ze stryjem z oficjalną wizytą i będziesz udawał, jakbyśmy się wcale nie znali.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Dlaczego?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ah, jakiż z pana niedomyślny człowiek! Bo wtedy może łatwiej spododam się stryjowi pańskiemu, gdy nie będzie wiedział, że mi tak na tem zależy.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>A, rozumiem.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(z uśmiechem)</stage> Przecież! A teraz odejdź pan, żeby kto nie nadszedł. <stage>(słychać kroki i chrząkanie na schodach)</stage> Ktoś idzie - idź pan, do widzenia. <stage>(wybiega)</stage></p>
+          </sp>
+          <stage>(Henryk wybiega środkowemi drzwiami i potrąca mocno wchodzącego Pagatowicza)</stage>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA 5ta</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pagatowicz">PAGATOWICZ.</rs> (później)
+              <rs key="#onufry">ONUFRY.</rs>
+            </p>
+          </stage>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A cóż to za warjat. Mało mnie nie roztrącił. <stage>(poprawia ubranie, stawia kapelusz i laskę, dobywa tabakierkę i siada)</stage> No i nie pojechałem. Stało się, jak chciała. Wistowski będzie się śmiał ze mnie, jak się dowie, ale jakże tu było odmówić, kiedy tak prosiła, tak prosiła! Niech się dzieje co chce, ja zdecydowany na wszystko.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(z prawej)</stage> O, Pagatosio już tu! jeszcze piątej niema, a kawaler już na stanowisku - brawo! brawo!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Przyszedłem wcześniej bo...</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Nie tłómacz się... Wiem ja dobrze, jaki magnes cię tu ciągnie. Ja to wam z góry przepowiadałem, że się rozkochacie, jak marcowe koty.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ale cóż znowu!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>I nie dziwię się wam wcale. Toż to samo kochać się każe, takie to skowyrne, milutkie, że aż ślinka idzie. <stage>(klepie go po ramieniu)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ależ...</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Jak Boga kocham, tak wyswatam.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ależ, panie Onufry, wolne żarty! - gdzie mnie małżeństwo w głowie, ja stary.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>O! o! stary. Adyć ty smarkacz w porównaniu ze mną. Jak ja byłem w twoim wieku... Wieleż ty lat teraz sobie liczysz?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A będzie pięćdziesiąt dwa.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A no. To jak ja byłem w tym wieku, to miałem także pięćdziesiąt dwa lat, a byłem panie taki chwat do kobiet, że moja Dorcia, to mi sceny robiła, tak była o mnie zazdrosna. A on mówi, że zastary, że mu nie w głowie małżeństwo, Herr Gott! żebym ja był na twojem miejscu, toby mi ono było nietylko w głowie, ale w rękach, w nogach, w oczach, wszędzie.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Dobrze to tak mówić, jak się jest zdrowym, czerstwym - ale ja schorowany, defektowy.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A czy może być lepsze lekarstwo na wszystkie choroby, jak żona?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(zniedowierzającym uśmiechem)</stage> E! gadanie.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A, dalibóg - miałem kolegę szkolnego, Filipowicza, może go znałeś nawet?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Nie miałem przyjemności.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Otóż, panie, chłop ciągle stękał, kwękał od najmłodszych lat. Jeździł do Karlsbadu, Bóg nie wie gdzie - i nic! Dopiero, jak się ożenił, wszystkie choroby, jakby ręką odjął. Chłop, panie, teraz, jak rydz, a dzieci blizko do tuzina.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Kiedy mnie doktór mówił...</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>E, co tam doktorzy! co oni wiedzą! Jużciż muszą wymyślać różne choroby, bo inaczejby z głodu poumierali. Dobrze wyjdziesz, jak się ich będziesz trzymał. Ja ci mówię, że niema lepszego lekarstwa, jak żona... no i morison; a! morison także.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A, rzeczywiście, morison, coś mi pan poradził, pomógł mi trochę.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A widzisz! spróbuj jeszcze ożenić się, a ozdrowiejesz do reszty. Pannę znasz od dziecka, nie potrzebujesz więc czasu tracić na długie konkury, zatem uderz śmiało i kwita. <stage>(bierze go pod rękę)</stage> A coby to była za satysfakcja, panie, mieć w domu takie miluchne stworzonko, taką... taką dzierlateczkę. Widzisz! uśmiechasz się, bałamucie. Poczekaj, zaraz ci ją tu przyszlę, jest właśnie u ojca. O coś go tam sztrasznie molestuje. No, Pagatosiu, nie zasypiaj sprawy. Poprosicie mnie potem w kumy, he, he, he. <stage>(wychodzi na prawo)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Molestuje ojca. O! jak widzę, to nie na żarty idzie. Dziewczyna na dobre rozmiłowała się we mnie. Ha, dziej się wola Boża! Śmierć i żona od Boga przeznaczona. Niech tam Wistowski śmieje się ze mnie, jak mu się podoba, ja zrobię jak mi lepiej.</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA 6ta</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pagatowicz">PAGATOWICZ.</rs>
+              <rs key="#helena">HELENA.</rs> (wchodzi łkając głośno)
+            </p>
+          </stage>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(idzie do niej z czułością)</stage> A to co? Cóż się stało? Panno Heleno! Co pani jest? Czego pani płacze?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(j. w)</stage> Taki ojciec! to - to tyran, nie ojciec!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Cóż on pani zrobił?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(j. w)</stage> Nie chce pozwolić, choć go tak prosiłam, błagałam na wszystko w świecie!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(zasmucony)</stage> Nie zgadza się?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ani chce słyszeć o niczem.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>I dlaczego?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Powiada, żem jeszcze za młoda.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Na to właśnie najlepsza pora.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>No, nie prawda? Ja mu to samo mówiłam. Julcia Grzybowska przecież młodsza odemnie, a nie bronią jej tego. To tylko ja jedna taka nieszczęśliwa. <stage>(zaczyna znowu mocno płakać)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(n. s)</stage> Biedne dziecko. <stage>(głośno)</stage> No, no, panno Heleno, jeszcze nic straconego. Ojciec przecież da się w końcu ubłagać. A możeby dobrze było, żebym jak tak z nim pogadał.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>O nie, nie! popsułbyś pan jeszcze wszystko. Ja znam ojca; jak się uprze, to niech Bóg broni, żeby go męczyć prośbami, bo jeszcze gorzej. Trzeba poczekać, aż się sam zreflektuje, udobrucha i trafić mu na dobrą chwilę. Tylko, jeżeli pan przedtem odjedziesz?...</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(biorąc ja za rękę i głaszcząc po niej)</stage> Nie odjadę - nie odjadę.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Bo jabym się zadesperowała.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(n. s)</stage> Jak tu nie uledz takiej miłości.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>A długo pan będziesz mógł się zatrzymać?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Dopóki sama będziesz chciała, ty - ty - gołąbeczko moja. <stage>(chce ją pocałować w rękę)</stage></p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(cofa się)</stage> Fe, panie, co pan robisz!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(n. s)</stage> Jakie to skromne, niewinne, Boże kochany!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>A jakbym ja nic nie wskórała u ojca, to jeszcze Wandzi poproszę. Ojciec ją bardzo lubi.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Więc pani myślisz powiedzieć o tem pannie Wandzi?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Już jej powiedziałam. My nie mamy przed sobą żadnych sekretów. Ona, jak się w Henryku zakochała, to mnie pierwej z tem się zwierzyła.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Zakochała się panna Wanda?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>I to już od roku.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Bagatela!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Pan nie poznałeś pana Henryka? miał tu byś o czwartej; nie spotkaliście się panowie?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A tak, spotkaliśmy się i to dosyć dobrze. <stage>(n. s)</stage> To to on był, a Wistowski sobie imaginował... ha - ha - toż to mu pójdzie po nosie. Dobrze mu tak, będzie ukarany za swoją zarozumiałość.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>A jakież zrobił na panu wrażenie pan Henryk?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Bardzo mocne, dotąd je czuję.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Prawda, że przystojny chłopiec, a jak znakomicie gra?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>W taroka, czy wista?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ale cóż znowu! na fortepianie... Był przecież nauczycielem muzyki na naszej pensji.</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p><stage>(za sceną)</stage> Heleno!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ojciec mnie woła. Więc pamiętaj pan, że mam pańskie słowo, że zostajesz.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>To się rozumie, że zostaję.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Dopóki się ojciec nie zdecyduje?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Choćby mi przyszło czekać Bóg wie, jak długo.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(podając mu rękę)</stage> Ah! jaki pan dobry. Oby nam się tylko udało.</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA 7ma</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#helena">HELENA.</rs>
+              <rs key="#pagatowicz">PAGATOWICZ.</rs> (i) 
+              <rs key="#burczyński">BURCZYŃSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p><stage>(z prawej, ubrany do wyjścia)</stage> Helenko, co to znaczy? wołam i wołam... O! Pagatowicz. Ej ty, ty, stary, mam ja z tobą na pieńku.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ze mną?</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>No, no, nie udawaj niewiniątka. Cóż ty tam spiskujesz z Helenką przeciwko mnie, co?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ależ...</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Komu to wdawać się w takie rzeczy. Bałamucisz mi tylko dziewczynę, zamiast jej wybić z głowy te głupstwa.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(z determinacją)</stage> Mój Burczyński, proszę cię, co ty możesz mieć przeciwko temu?</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Dobry sobie! A cóż to ja mam pieniądze na wyrzucenie?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Przecież tu nikt od ciebie nie żąda pieniędzy. Idzie tylko o twoje zezwolenie.</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Zwarjował, czy co? Cóż ty sobie myślisz, że jabym się zgodził na to, żeby moja córka od ciebie łaski przyjmowała?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ale, bo tatko nie zrozumiał!</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p><stage>(stukając laską)</stage> Panna tu nie masz głosu. Proszę iść do swego pokoju!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(n. s)</stage> Ja mówiłam, że ten Pagatowicz jeszcze wszystko popsuje. <stage>(odchodzi na prawo)</stage></p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p><stage>(chodzi zagniewany)</stage> Hm, proszę, jaki mi dobrodziej. Ja, mospanie, dobrodziejstwa od nikogo nie potrzebuję!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ależ, Burczyński, nie masz się czego obrażać! Zważ tylko, że tu idzie o szczęście twojej córki!</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Masz tobie! on to także szczęściem nazywa; śliczne mi szczęście!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>No, czyż nie, skoro panna Helena...</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Co tam Helenka, Helenka! co ona wie, takie cielątko młode.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Przecież jest już w tym wieku...</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>E, idź, stary, idź! Miej że ty rozum przynajmniej i nie gadaj mi takich głupstw, bo to sensu niema, żeby pannie w siedemnastu latach zachciewało się coś podobnego.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ależ posłuchaj tylko!...</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Nie, nie słucham! Dajcie mi święty spokój! Nie pozwalam i basta! <stage>(wychodzi środkiem)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Tatko trochę grubjanin, ale to nic; dla takiego anioła można przecież znieść te małe nieprzyjemności. Niech on sobie gada, co chce, skoro panna za mną, to reszta drobnostka. Tu panna grunt. I żeby ojciec się na głowie postawił, to nie ustąpię, jak mi Bóg miły, nie ustąpię! Czuję teraz w sobie odwagę do walczenia z całym światem, skoro ona za mną. <stage>(spostrzega wchodzącego Wistowskiego)</stage> A, pan Wistowski! dobrze, że pan idziesz!</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA 8ma</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wistowski">WISTOWSKI.</rs>
+              <rs key="#pagatowicz">PAGATOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Cóż się stało?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(tajemniczo)</stage> Ja już z panną gotów.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Jak to?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(ucieszony)</stage> Zakochała się we mnie dziewczyna po uszy.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Co za dziewczyna?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>No, Helenka Burczyńska.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(z ironją)</stage> Tak na poczekaniu?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ja, panie, sam głupieję, skąd się to wzięło. Kiedyż jeszcze sama mi się prawie oświadczyła, jak mnie pan żywego widzisz! Jak jej tylko napomknąłem, że chcę wyjechać... jak pan wiesz, miałem jechać do Wiednia...</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Poradzić się na to mruczenie, wiem - wiem...</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Otóż ona, jak to usłyszała, tak zaraz „nie jedź pan, zostań”, zaklinała mnie biedaczka na wszystko w świecie, a dziś już z ojcem o tem mówiła.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>No, i ojciec rozumie się zgodził się. To było do przewidzenia.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Otóż właśnie w tem sęk, że ojciec mi troszeczkę bruździ.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(z ironją)</stage> O!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Powiada, że jeszcze za młoda.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Zwyczajne ceregiele, znane rzeczy! Ja ręczę panu, że się zgodzi.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Bóg by dał.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Więc na serjo myślisz się pan żenić?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A cóż robić? wobec takiej miłości ze strony panny, nie mogę przecież pozostać jak głaz.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>A cóż będzie z pańską chorobą?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(z fantazją)</stage> E, panie! przy takiej żonie, to człowiek o chorobie zapomni. Ot, np. wczoraj w wieczór, jakieśmy się rozbawili, roztańczyli, to zaraz czułem się zdrowszy.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>A, rzeczywiście, pysznieśmy się zabawili. Tak nam jakoś przyjemnie zeszedł wieczór.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(j. w)</stage> Jak biczem trzasł, nieprawda? O! mnie ten taniec, szczególniej, bardzo dobrze zrobił, bo przecież jadło się to i owo przy kolacji, a mimo to, cóż pan powiesz, najmniejszego gniecenia w żołądku - nic; spałem wybornie noc i wstałem nazajutrz, jakby odmłodzony. Język, co prawda, jeszcze trochę biały, ale jestem przekonany, że po kilku takich wieczorkach, to i język by się całkiem wyczyścił.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Jak widzę, to pana już kompletnie złapali.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Dlaczegóżby mieli łapać? czy to panna garbata, albo ułomna? dziewczyna jak malowanie, że poszukać takiej, i nie bez grosza, bo to jedynaczka. To też mam szczery zamiar żenienia się, bo po głębszym namyśle przychodzę coraz więcej do przekonania, że stare kawalerstwo, panie, to licha warte.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(z ironją)</stage> Tak pan sądzisz?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Zobacz pan wykazy statystyczne: największa śmiertelność i najwięcej samobójstw przypada na stan kawalerski. Co to za życie, panie, takiego kawalera! człowiek się tylko kwasi... Pan także powinieneś pomyśleć o żeniaczce.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Kłaniam uniżenie. Ja, dzięki Bogu, mam język czysty, więc mi małżeństwo niepotrzebne.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Przecież i ja nie dla języka biorę żonę, tylko dlatego, że widzę, iż małżeństwo ma swoje dobre strony.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Tylko więcej z tych małżeństw, panie, to czysta niewola, a kto tak, jak ja, przyzwyczaił się do wygód, niezależności, swobody, tego pan nie namówisz, żeby zdrową głowę kładł pod ewangielję. <stage>(siada)</stage> Nie przeczę, że panna Wanda ma bardzo dużo zalet, że jest miła, wesoła, gra znakomicie w karty, ale...</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Ale ma już narzeczonego.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Któż to panu mówił?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Helenka.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(śmieje się)</stage> Helenka! i pan uwierzyłeś temu?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Dlaczegóż miałbym nie wierzyć?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Mój panie, znamy się i na takich sztuczkach.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Sztuczkach?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>A rozumie się. <stage>(bierze go pod rękę)</stage> Pokazuje się umyślnie spółzawodnika, żeby zachęcić do stanowczego kroku; śpiesz się, mój panie, bo są tacy, co cię gotowi uprzedzić. Stara taktyka i takie historje mi się już trafiały, mój panie Pagatowicz!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Więc pan sądzisz, że to taki konkurent... no, niby też to?...</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Może tam i jest rzeczywiście jaki aspirant do ręki, jaki kancelista, albo akademik z wielkiemi nadziejami w dalekiej przyszłości. Ale cóż to panie, znaczą takie kiełbiki i płotki wobec nas, grubych ryb! Jestem przekonany, że gdybym tylko słówko pisnął, to panna moja.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Na dwoje babka wróżyła.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Wątpisz pan?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Bardzo wątpię.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Dla samego przekonania pana gotów jestem spróbować.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A jak panna da kosza?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Co? mnie, kosza? Ha, ha! Gdyby mi się tylko chciało zadać sobie pracy, tobyś pan zobaczył, co to Wistowski jeszcze potrafi. Miało się nie małą praktykę w tym względzie. <stage>(spostrzega wchodzącą Wandę)</stage> A! lupus in fabula, w samą porę. <stage>(poprawia ubranie i kryguje się pretensjonalnie)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA 9ta</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wistowski">WISTOWSKI.</rs>
+              <rs key="#pagatowicz">PAGATOWICZ.</rs> (i) 
+              <rs key="#wanda">WANDA.</rs>
+            </p>
+          </stage>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(wchodzi z czepeczkiem, który obszywa, uprzejmie)</stage> A! panowie tutaj, a dziaduniu nic o tem nie wie. Pójdę go zawiadomić.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(podając jej rękę na powitaniu)</stage> O! niech się pani nie fatyguje, my poczekamy. <stage>(zalotnie)</stage> Skorzystamy tymczasem z miłego towarzystwa pani. <stage>(podaje jej krzesło)</stage> Służę pani.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(siadając)</stage> Jeżeli tylko panowie nie znudzą się ze mną.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>To my raczej powinniśmy się obawiać. <stage>(kończy frazes po cichu nachylając się ku Wandzie)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(n. s)</stage> Co to znaczy wprawa. Idzie mu, jak po maśle. Jabym tak, przyznam się, nie potrafił.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Panie wolą zawsze młodszych.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Nie zawsze, bo dzisiaj młodzi panowie wcale nie zabawni.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>To pani masz zupełną rację. Co to za młodzież dzisiaj! czy to można nazwać młodzieżą?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Takie to skrzywione, zanudzone, a wygodnisie! że aż brzydko patrzeć.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Za moich czasów, to była młodzież, proszę widzieć: wesoła, grzeczna, ochocza, a od panien, toby ich i kijem nie odpędził.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>A dziś młodzi panowie ledwie odtańczą z pannami te kilka tourów, jak za pańszczyznę, i zaraz na papierosy uciekają.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>A co to przedtem grymasów, zanim taki młodzik raczy zaszczycić wieczór swoją obecnością. Nie pójdzie na zabawę, dopóki mu gospodarz wizyty nie złoży, według wszelkich form; potem jeszcze chce wiedzieć, jaka będzie muzyka, jaka posadzka, jaka kolacja i ile panien posażnych...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Niema to, jak starsi panowie. To też my na pensji u naszej madame, jak tylko była jaka zabawa, tośmy zawsze wolały, jak było kilku starszych panów, bo ci dopiero umieli zabawę ożywić i wszystkich rozruszać.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(ściska ją za rękę)</stage> W imieniu starych zuchów dziękuję pani za to votum pochwalne dla nas.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Przecież pan do starych panów liczyć się jeszcze nie możesz! Kto tak wygląda, jak pan, tańczy z takiem życiem...</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Tak, dzięki Bogu, trzymam się niezłe, ale latka są - o, są!...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ile też tak, naprzykład?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>No! niech pani zgadnie.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Czy ja wiem? może ze czterdzieści.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(zgorszony odchodzi na bok)</stage> E! już mu kadzić zaczyna.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>W łaskawych oczkach pani.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(ze zdziwieniem)</stage> Więcej?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>I grubo więcej; pięćdziesiątka z okładem - tak, tak!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Nigdybym tego nie była powiedziała. Pokazuje się, że to lata nic nie znaczą.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Masz pani racją. Dotąd człowiek jest młody, póki jest zdrów i silny, <stage>(zbliża się zalotnie)</stage> póki umie zachwycać się tem, co piękne i ma serce wrażliwe na słodkie uczucia miłości.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(n. s)</stage> U! tu się już na dobre zaczyna. Nie przeszkadzajmy! Ten pan Henryk przepadł z kretesem! <stage>(odchodzi po cichu na prawo)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(zalotnie)</stage> Czemu pan nie siada?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(czule)</stage> Czy pani pozwoli przy sobie?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Bardzo proszę, pan nie pogniewa się, że zajmę się robotą.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>O, pani! będzie mi bardzo przyjemnie.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Chcę babci ubrać czepeczek na wieczór; <stage>(pokazuje mu)</stage> Uważa pan - tu się da ryżkę, po bokach - liljowe wstążeczki, bo babcia lubi ten kolor, a tu kokarda - będzie bardzo dobrze. Żeby tylko było na czem upiąć, ułożyć. <stage>(ogląda się)</stage> Babcia tu dawniej miała taką głowę, pójdę poszukać.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Po co pani masz szukać innej głowy, gdy masz moją?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(zdziwiona)</stage> Pan byś pozwolił? Ależ!...</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Bardzo proszę - rozporządzaj pani moją głową podług upodobania.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Czy jabym śmiała tak trudzić pana.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Nie zapominaj pani, że należę do dawnej kawalerji, dla której grzeczność dla dam była największą przyjemnością. Oddaję moją głowę całkiem pod pani rozkazy.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ale pan taki wysoki...</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Wnet się zrobię maleńkim. <stage>(klęka)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ależ, panie, ja nie mogę na to pozwolić!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Ja, pani, przyzwyczajony na kolanach przed płcią piękną.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ha, skoro pan taki grzeczny... <stage>(wkłada mu czepek na głowę)</stage> Jak panu do twarzy w czepku!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Z ustek pani ta pochwała ma dla mnie bardzo wielką wartość.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Proszę się nie ruszać, i muszę zapowiedzieć panu, że to potrwa dosyć długo.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Choćby najdłużej!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(przyszywając zmarszczoną falbanę)</stage> Czy pan bardzo cierpliwy?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Jak baranek.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Będę pana tymczasem bawić rozmową, żeby się panu nie nudziło. O czem my to mówili?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(podnosząc głowę)</stage> Że serce...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>O, kiedy się pan rusza.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(spuszcza głowę)</stage> Że serce nie starzeje się i że w późnym wieku zdolne jeszcze pokochać całą siłą.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(krzyknęła boleśnie)</stage> Ah!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Co takiego?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ruszyłeś się pan znowu i przez pana się ukłółam.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Gdzie, gdzie? <stage>(bierze ją za rękę)</stage> O! biedny paluszek!</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA 10ta</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wanda">WANDA.</rs>
+              <rs key="#wistowski">WISTOWSKI.</rs> (i)
+              <rs key="#henryk">HENRYK.</rs>
+            </p>
+          </stage>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p><stage>(wchodzi spiesznie)</stage> Stryju najdroższy!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(z krzykiem)</stage> Ah! <stage>(zrywa się i ucieka zażenowana na prawo)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(wstaje prędko, zmieniony i zły)</stage> A ty skąd się tu wziąłeś?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Prosto ze Lwowa. Byłem w mieszkaniu stryja, ale mi powiedziano, że stryj tutaj i przyszedłem.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Cóż tak pilnego?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Chciałem ci, kochany stryju, co prędzej podziękować za radość, jaką mi sprawiłeś swoim listem.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(zimno)</stage> A! <stage>(n. s)</stage> To się w porę wybrał!</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Więc pozwól kochany stryju... <stage>(chce go uściskać)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(zatrzymuje go)</stage> Ależ to była tylko propozycja, życzenie.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Życzenie stryja jest dla mnie rozkazem, do którego nie omieszkam się zastosować.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Nie ma nic pilnego. Nie masz wcale potrzeby śpieszyć się.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Rannego wstania i wczesnego ożenienia, jak mówi przysłowie... więc pozwól, kochany stryju... <stage>(chce go uściskać)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(zatrzymuje go)</stage> Zrobiłem wprawdzie obietnicę, ale z zastrzeżeniem, jeżeli wybierzesz sobie żonę...</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Podług twego gustu, to się rozumie, jestem pewny, że ci się spodoba. Więc pozwól kochany Stryju... <stage>(znowu chce go uściskać)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(zniecierpliwiony)</stage> Ależ, dajże mi spokój święty z tem twojem pozwól i pozwól! wpadłeś tu, jak bomba, do obcego domu, gdzie cię nikt nie zna.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Spodziewam się, że mnie stryj zapozna.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Innym razem, innym. Teraz właśnie byłem na wychodnem. <stage>(bierze za kapelusz)</stage></p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Na wychodnem?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Tak, tak, chodźmy!</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p><stage>(ze śmiechem)</stage> W tym czepku.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(n. s)</stage> A! bodajcie! <stage>(zrzuca czepek z gniewem)</stage> no chodźmy.</p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA 11ta</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wistowski">WISTOWSKI.</rs>
+              <rs key="#henryk">HENRYK.</rs>
+              <rs key="#onufry">ONUFRY.</rs>
+              <rs key="#dorota">DOROTA.</rs>
+              <rs key="#wanda">WANDA.</rs>
+            </p>
+          </stage>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Synowiec jego, mówicie. Brawo! dajcie go tu. <stage>(do Henryka)</stage> To pewnie pan, właśnie mi Wanda mówiła.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(niechętnie)</stage> Tak, to mój synowiec.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Bardzo nam miło.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Nigdy nam pan nie wspominałeś, że masz takiego chwackiego synowca.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(j. w)</stage> Przybył do mnie w interesie, dlatego państwo darują... <stage>(bierze za kapelusz)</stage> Henryku!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Jakto, odchodzisz pan? i do tego jeszcze chłopca nam zabierasz?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Interesa.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>E, co tam! interesa nie uciekną! Nagadacie się jeszcze.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Kiedy rzeczywiście musimy.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Co tu długo gadać? <stage>(zamyka drzwi wchodowe)</stage> Aresztujemy was! tak, wrzeciądze zaparte, mosty zwiedzone, musicie zostać i basta. Wandziu, oddaję ci więźniów pod twoją komendę.</p>
+          </sp>
+          <trailer>(Kurtyna spada)</trailer>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT IIIci</head>
+          <stage type="setting">
+            <p>(Ten sam pokój)</p>
+          </stage>
+        <div type="scene" n="16">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dorota">DOROTA.</rs>
+              <rs key="#filip">FILIP.</rs> (później)
+              <rs key="#onufry">ONUFRY.</rs>
+            </p>
+          </stage>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(do wchodzącego Filipa)</stage> Cóż, nie widać jeszcze pana?</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Ani słychać, proszę pani.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Co to jest? On zwykle taki punktualny, a tu już blisko trzecia. Niech Walentowa ma jeszcze dla pana obiad na blasze: zapewne niezadługo nadejdzie. <stage>(Filip odchodzi)</stage> Coś się stać musiało, bo przecież od czterdziestu lat, jak żyjemy ze sobą, jeszcze mi tego nie zrobił, żeby nie przyjść na obiad... <stage>(spostrzega wchodzącego)</stage> Nufciu! Bój się Boga, gdzie ty tak długo siedzisz! ja czekam i czekam...</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(zarumieniony, w wesołym humorku)</stage> Dorciu kochana, nie gniewaj się, duszyczko! <stage>(całując ją w rękę)</stage> troszeczkę się zaawanturowałem. Byłem, jak się nazywa, na śniadanku <stage>(pod sekretem)</stage> i utulaliśmy się troszeczkę; nie wiele - nie wiele, tak w sam raz, i szampitrem, jak cię kocham.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Ej, Nufciu, psujesz mi się! Już po śniadaniach zaczynasz się włóczyć.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Raz na parę lat, duszyczko kochana! <stage>(całuje ją w rękę)</stage></p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>A tu Walentowa obiad przysuwa, odsuwa; będziesz jadł teraz wysuszone, przypalone...</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Dziękuję, ci, duszyczko, za obiad, jestem objedzony i opity. Śniadanko było, co się zowie. Zgadnij, czem się uraczyłem najwięcej?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(ruszając ramionami)</stage> Czy ja wiem?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(głaszcząc ją)</stage> Czy też zgadniesz. No? no?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(myśli, po chwili)</stage> E, daj mi pokój!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(zastępując jej drogę)</stage> No, duszyczko, jak mnie kochasz, zgadnij. Coś, co ja bardzo lubię...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Czy ja wiem? Może zrazy nelsońskie?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A, jak cię kocham, zrazy... ale jakie! fiu-fiu-z trufelkami, garniturkiem, historjami - powiadam ci, pyszności, przeparadne! Potem były kuropatwy, przeróżne sery, owoce - słowem królewskie śniadanie. I to wszystko, wystaw sobie, kosztem Wistowskiego.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>O! zkądże on dziś taki hojny?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(tajemniczo, z uciechą)</stage> Z okazji naszej Wandzi.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Wandzi? nierozumiem.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(j.w)</stage> Oświadczył się o nią.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>E!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Jak cię kocham!</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>W imię Ojca! Cóż się znowu staremu zachciało!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(urażony)</stage> Moja Dorciu, najprzód młodszy o wiele odemnie.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>To także porównanie! co ja, to nie Wanda.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ależ, Dorciu, uważ sobie, Wistowski gruba ryba... dwie wsie, kamienica w mieście...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Cóż z tego, jak go Wanda nie zechce, przecież gwałtem jej nie wydamy.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Uchowaj Boże! Ale widzisz, mnie się wszystko zdaje, że ona nie będzie od tego. Uważałaś, że od pierwszej chwili Wistowski jakoś przypadł jej do gustu. Ciągle nim zajęta, tak uprzedzająco grzeczna... Wczoraj np. cały wieczór prawie tylko z nim rozmawiała.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>To prawda.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Choć miała młodszego, tego, jakiegoś tam, bratanka.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Z tym prawie nic nie mówiła.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A widzisz! dziewczyna ma rozum, to - to...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Ha! gdyby taka była wola Boska. <stage>(siada)</stage></p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(siada obok niej)</stage> Toby było bardzo dobrze, prawda? Nie potrzebowalibyśmy się z Wandzią rozłączać, byłaby tak bliziutko nas.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Pewnie, jak w domu.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Wychowywalibyśmy sobie ich dzieci...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Jeżeli będą!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ale będą, z pewnością! Cóż ty sobie myślisz? Wistowski, chłop nie od parady. <stage>(bierze ją za rękę i mówi z uciechą)</stage> Prawnuczęta!... słyszysz matka, coby to była za radość, doczekać się prawnuka. O! bo koniecznie musi być chłopiec!</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Mój Nufciu, co Pan Bóg da...</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>O nie, nie! chłopiec koniecznie. Z góry to zapowiem Wistowskiemu, że chcę koniecznie chłopca! wykierujemy go, panie, potem na jakiego wielkiego inżyniera.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>To przecież już lepiej na doktora.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>E! doktorów teraz, jak śmieci.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Niech sobie będzie, zawsze co doktor, to doktor!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Wielki mi honor całe życie pulsa macać i języki oglądać, gdy tymczasem inżynier... toż oni teraz panami świata, robią z naszą świętą ziemią, co im się tylko żywnie podoba. Morza sobie przenoszą, panie, jak nic, góry przebijają, kolejami, jak postronkami, powiązali wszystkie kraje, no, i robić tu takim co! Mocarze, panie - jak Boga kocham, mocarze! A nuż tak nasz prawnuczek zostanie dyrektorem kolei, albo żeglugi balonowej, bo kto wie, co oni do tego czasu nie wymyślą.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Gadaj ty sobie co chcesz, ja tam na żadnego inżyniera nie przystaję, będzie doktor i koniec.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Prędzej mnie tu włosy wyrosną! <stage>(pokazuje dłoń)</stage> żeby tam nie wiedzieć co...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Nie będzie.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Będzie.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Przecież tu nie ty rozstrzygać będziesz, tylko Wandzia, a ona z pewnością będzie za doktorem.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Kto, Wandzia? To jej nie znasz dobrze. Jabym przysiągł, że będzie wolała inżyniera.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(wstaje trochej zirytowana)</stage> A ja ci mówię, że nie.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(wstaje także)</stage> A ja ci mówię, że tak.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Nie, nie, nie.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Tak, tak, tak. <stage>(chodzą oboje zirytowani)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA 2ga</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#dorota">DOROTA.</rs>
+              <rs key="#onufry">ONUFRY.</rs>
+              <rs key="#wanda">WANDA.</rs> (z prawej)
+            </p>
+          </stage>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(z uśmiechem)</stage> O cóż taka żarliwa sprzeczka?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A, otóż Wanda! <stage>(bierze ją za rękę)</stage> No, powiedz sama, cobyś wolała: czy żeby twój...</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(dając mu znak, aby nie mówił dalej)</stage> Nufciu!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(zatyka usta, n. s)</stage> A tobym był bąka strzelił! Przed panną, przecież, nie można.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>O cóż chodzi?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>E nic, nic! - takieśmy się z babcią zagalopowali.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>W czem?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>E, to ciebie nie obchodzi! dziadek, jak zwyczajnie, bredził.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Moja Dorciu, bardzo proszę.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Jak widzę, to państwo mają jakieś tajemnice przedemną.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Ale, żadne tajemnice!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Przysięgłabym, żeście tu coś? mnie mówili!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Ale, gdzie zaś!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>No, niech mi dziadzio spojrzy w oczy. A co? nie mówiłam?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>No, mówiliśmy o-o-o twojej przyszłości.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Prawda, a propos przyszłości. <stage>(kiwa na nią)</stage> Chodźno tu, Wandziu, siadaj!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(żartobliwie)</stage> O! coś będzie bardzo poważnego, bo dziaduś ma taką oficjalną minę.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(siląc się być serjo)</stage> Tylko bez tych żartów, bardzo proszę!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(prostując się)</stage> Będę okrutnie poważną. No, słucham!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(chce mówić, po chwili)</stage> E! kiedy mnie całkiem zbiła z tropu temi błazeńskiemi minami.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Kiedy ty, Nufciu, zadużo robisz ceregieli! <stage>(siada z drugiej strony Wandy)</stage> Widzisz, idzie tu poprostu o to...</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Chcesz iść za mąż, czy nie?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(filuternie)</stage> To zależy od tego, za kogo?</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Za Wistowskiego.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(zrywając się, ucieszona)</stage> O! więc oświadczył się już?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Dziś właśnie, hm, i cóż ty na to?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(z udaną pokorą)</stage> Ha, jeżeli dziadkowie tego sobie życzą - to - to ja najchętniej.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A co! widzisz matka, nie mówiłem? Ona na to, jak na lato.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Chwała Bogu! To już widocznie przeznaczenie.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No, więc rzecz załatwiona; niema już o czem mówić. On tu niedługo przyjdzie, to sobie dopowiecie resztę. A teraz dajcie mi się chwilę przedrzemać, bo ten szampiter strasznie mnie jakoś rozebrał. Dorciu! a może i ty małego szlumerka? Toć to nasza godzina!</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Choć oczy zmrużę na chwilę.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(do Wandy)</stage> Przeproś ty swojego Wistowskiego za nas. Myślę, że nie będzie się bardzo gniewał, że was samych zostawimy. <stage>(szczypie ją w policzek)</stage> Ej! ty - ty, bałamutko jakaś! - No, pa!</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p><stage>(całuje ją)</stage> Mój ty robaczku złoty.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No, matko, czekam!</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Idę, idę! <stage>(wychodzą na prawo)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Więc Henryk się oświadczył? to energicznie! A nic mi wczoraj o tem nie mówił. Przecież powinien był, przynajmniej dla formy zapytać się, czy pozwalam. Ci mężczyźni, jak się tylko dowiedzą, że są kochani, to im już zdaje się, że mogą z nami robić, co im się tylko podoba. O! nic z tego. Trzeba będzie panicza wziąć krótko, boby potem zawiele sobie pozwalał! <stage>(po chwili)</stage> Toż to Helenka się zadziwi, jak się dowie, że już po wszystkiem.</p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA 3cia</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wanda">WANDA.</rs>
+              <rs key="#henryk">HENRYK.</rs>
+            </p>
+          </stage>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Czy wolno?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(zadąsana)</stage> O, teraz, to się pyta! myślałby kto, że taki nieśmiały! A o co innego, toś się pan nie pytał, czy wolno?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p><stage>(zdziwiony)</stage> O co innego?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Jak to udaje, jakby o niczem nie wiedział! Nie potrzebne udawanie! dziadek mi już mówił...</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>O czem?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ah! co to za obłudni, ci mężczyźni. To pan już zapomniał, o czem mówiłeś dzisiaj z moim dziadkiem?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Kiedy ja dziadka pani dzisiaj na oczy nie widziałem!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Przecież dziadek mówił, żeś mu się pan oświadczył o mnie!</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Mówił, że ja?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>No tak, Wistowski!</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>A tak, Wistowski, ale nie ja, tylko mój stryj!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(oburzona)</stage> Co?!</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Właśnie dlatego tu przychodzę, bo dziś dowiedziałem się, że mój stryj ma się żenić. Nie wiedziałem tylko z kim, ale z tego, co mi pani mówisz, widzę, że chce z panią!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(na pół z płaczem i oburzeniem)</stage> Cóż ten stary sobie myśli, że jabym poszła za niego? Za nic w świecie! Wolę iść do klasztoru! Niech, mi się tylko ośmieli wspomnieć o tem, to mu nagadam takich impertynencji, że popamięta...</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>I pogniewa się na panią na wieki wieków, a wtedy z naszego małżeństwa nic.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>To prawda. Boże, Boże! co tu robić? <stage>(chodzi)</stage> No radźże pan przecież! Od czegożeś pan mężczyzną? Panu przecież także powinno zależeć na tem, żebym nie została pańską stryjenką!</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>O to niema obawy, bo przecież dziadkowie nie zmuszą pani do małżeństwa.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Spodziewam się.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Idzie więc tylko o to, jak wyperswadować stryjowi ten niedorzeczny zamiar; trzebaby delikatnie, żeby go nie obrazić i skłonić w końcu, aby nam dał swoje zezwolenie.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ale jak zrobić?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p><stage>(myśli, po chwili)</stage> A! mam doskonałą myśl.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Co takiego? <stage>(słychać za sceną chrząkanie Pagatowicza)</stage></p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Wszak stryj pisał mi...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Ktoś idzie, może to on? Uciekajmy!</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Ale gdzie?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(wskazując na lewo)</stage> Do mego pokoju chodźmy. <stage>(bierze go za rękę)</stage></p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Opowiem pani mój plan. <stage>(wychodzą na lewo)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pagatowicz">PAGATOWICZ.</rs> (później)
+              <rs key="#wistowski">WISTOWSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>No, doskonały mam sposób na Burczyńskiego! <stage>(wydobywa papiery)</stage> Zrobiłem formalny zapis całego majątku na rzecz Helenki; to go powinno przekonać, że nie czyham na jego majątek i że się żenię jedynie z czystej miłości. <stage>(siada, do wchodzącego Wistowskiego)</stage> A i pan ciągnie tutaj? brawo, brawo!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(elegancko ubrany, mina zadowolona)</stage> No i cóż pan na to, panie Pagatowicz, że wstępuję w pańskie ślady?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Słyszałem, słyszałem i winszuję! <stage>(podaje mu rękę)</stage> Socius doloris, chciałem powiedzieć, amoris..</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(siadając)</stage> Przyznam się panu, że z początku nie miałem wcale tego zamiaru, ale poznawszy pannę bliżej... To fenomen panna!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Tak samo, jak moja Helenka.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Bo choć młoda, ale rozsądna nad wiek.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>I do tego z pensji, to wiele znaczy.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Tak, da się łatwo pokierować. A jak gra w karty, no, to satysfakcja prawdziwa!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Prawda, nie pytałem się jeszcze Helenki, czy ona także; grywa.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>A powinieneś ją pan koniecznie do tego namówić. Co to za przyjemność mieć partnera w domu pod ręką. Nieraz paskudna zadymka, że psa ciężko wygnać, a człowiek musiał wyjść, żeby gdzie jakotako zabić wieczór. A teraz, jak się będzie miało w domu młodą żonkę, to się ani pomyśli o wychodzeniu. Ogień na kominku, herbatka, partyjka, coś-owoś... O, małżeństwo ma swoje dobre strony!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A, widzi pan, na mojem stanęło!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(przechadza się rozpromieniony, nuci półgłosem)</stage> Tam na polu zawierucha<lb /> Mokrym śniegiem dmie,<lb /> Na kominku ogień bucha...</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A cóż kuzynek na to wszystko?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>A cóż mnie to obchodzi, co on powie? Byłbym chyba ostatnim głupcem, gdybym, mogąc sam pracować dla utrzymania rodu Wistowskich, wyręczał się kim innym.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>No, a obietnica zapisu?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>To mnie do niczego nie obowiązuje. Obiecałem, że mu oddam majątek, jeżeli się ożeni z panną, która mnie się spodoba.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>No tak!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Ale teraz, skoro się żenię z panną Wandą, ręczę, że mi się żadna niepodoba.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>A prawda, doskonała furtka!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Bliższa koszula ciała, aniżeli sukmana.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Tak! prima charitas ab ego...</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>A, otóż ona! Zmiłuj się pan, zostaw nas samych, bo chciałbym...</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Nie potrzebujesz się pan tłómaczyć, my zakochani rozumiemy się dobrze... <stage>(ściska mu rękę, do siebie)</stage> Pójdę, i ja poszukać mojej ślicznotki. <stage>(odchodzi na prawo)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA 5ta</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wistowski">WISTOWSKI.</rs>
+              <rs key="#wanda">WANDA.</rs> (z lewej)
+            </p>
+          </stage>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>O, coś panna Wanda dziś taka zasępiona, smutna!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Czy to zawsze można być wesołą? <stage>(siada)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(siada obok)</stage> To prawda. Ale, jeżeli kiedy, to dziś pragnąłbym widzieć panią weselszą.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Dlaczegóż właśnie dzisiaj?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Bo to dla mnie dzień niezwykły, uroczysty.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Może imieniny?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Stokroć więcej: dziś dzień mojego odrodzenia.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Odrodzenia?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Tak! Ten dawny Wistowski już nie żyje... Umarł, razem ze swojemi uprzedzeniami, błędami, a urodził się zupełnie inny człowiek, który wierzy, kocha, spodziewa się iż znalazł: cel życia... Słowem, stoi przed panią całkiem nowy człowiek.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(wstaje i kłania)</stage> Bardzo mi miło poznać nowego pana Wistowskiego.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(ucieszony)</stage> He, he, figlarka z pani! <stage>(ściska ją za rękę)</stage> Otóż taką panią lubię, ale, panno Wando, oddałbym, Bóg wie co, za to, aby panią widzieć zawsze szczęśliwą i uśmiechniętą.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Cóż panu zależeć może na mojej wesołości.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Co zależy? Czyż Wistowski może być szczęśliwym, gdy pani jesteś smutną?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Pan sobie żartuje ze mnie!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(zapalając się)</stage> Jak honor kocham, tak prawdę mówię. Pani formalnie oczarowałaś mnie, odmieniłaś do niepoznania, <stage>(czuło)</stage> zachwyciłaś!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(z udaną skromnością)</stage> Ja sobie taka zwyczajna istota! Boże kochany! Cóżby we mnie mogło się panu podobać?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(j. w)</stage> Co? wszystko! Pani obdarzona jesteś tak hojnie wszystkiemi zaletami, że trzebaby chyba nie mieć oczów, nie mieć rozumu, żeby tego nie widzieć. Ja nie wiem komuby się pani mogła niepodobać.</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Panu pierwszemu. <stage>(rzuca ukradkowe spojrzenie na Henryka, który wyszedłszy z lewych drzwi niepostrzeżenie stoi za Wistowskim)</stage></p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Mnie? <stage>(wstaje uroczyście)</stage> Przysięgam pani, że jeszcze żadna kobieta w życiu tyle mi się nie podobała, co pani!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(podaje mu rękę z żywą radością)</stage> O! dziękuję panu za to zapewnienie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>SCENA 6ta</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wanda">WANDA.</rs>
+              <rs key="#wistowski">WISTOWSKI.</rs> (i) 
+              <rs key="#henryk">HENRYK.</rs>
+            </p>
+          </stage>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p><stage>(biorąc go za drugą rękę)</stage> O! dzięki ci, stryju najdroższy!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>A ty za co mi dziękujesz?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Za to, coś powiedział przed chwilą, że panna Wanda ci się tak podoba.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(niecierpliwie)</stage> Cóż ciebie to obchodzie może? co się ty tu wtrącasz do tego?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>I bardzo obchodzi, bo w takim razie nie będziesz miał nic przeciw mojemu małżeństwu!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(j. w)</stage> Jakiemu małżeństwu? z kim?</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p><stage>(z uśmiechem)</stage> No, z tą oto, tu przytomną.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Zwarjowałeś!</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Czy dlatego, że ją kocham?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>No, formalny warjat! Panno Wando! powiedz mu sama! pierwszy raz cię widzi...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(spuszczając oczy)</stage> Znamy się już od roku.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Co? gdzie?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Na pensji, był moim nauczycielem muzyki.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>To panią ślicznie uczył.</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Mam słowo stryja, list...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>A mnie pan mówiłeś przed chwilą, że pragnąłbyś mnie widzieć szczęśliwą - a będę nią w zupełności, gdy mi będzie wolno kochać pana, jako stryja mego męża.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Tak! zamieniał się stryjek, na siekierkę - kijek!</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p><stage>(biorąc go za rękę)</stage> Stryju najdroższy!...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Jabym także chciała powiedzieć „stryju najdroższy”, ale nie wiem, czy pan pozwoli.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Oo! jaka to teraz nieśmiała. Trzeba się było pierwej pytać o pozwolenie, <stage>(uśmiechając się)</stage> ty, ty bałamutko mała!</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(biorąc go za rękę)</stage> Więc zezwalasz pan.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Ha, cóż mam robić, kiedyście mnie tak podeszli!</p>
+          </sp>
+          <sp who="#henryk">
+            <speaker>HENRYK.</speaker>
+            <p>Stryju najdroższy! <stage>(ściska go)</stage></p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(całując go w rękę)</stage> Będziesz pan miał we mnie stałego partnera do wista.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(n. s)</stage> Wolałbym do marjaża, ale cóż robić?</p>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <head>SCENA 7ma</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wanda">WANDA.</rs>
+              <rs key="#wistowski">WISTOWSKI.</rs>
+              <rs key="#henryk">HENRYK.</rs>
+              <rs key="#onufry">ONUFRY.</rs>
+              <rs key="#dorota">DOROTA.</rs>
+              <rs key="#pagatowicz">PAGATOWICZ.</rs>
+              <rs key="#filip">FILIP.</rs>
+            </p>
+          </stage>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>No cóż? porozumieliście się ze sobą?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(tuląc się do Henryka)</stage> Zupełnie!</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>A to co znaczy? Panie Wistowski?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(udając nieświadomego)</stage> Co takiego?</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Przecież mnie pan dziś najwyraźniej prosiłeś o rękę Wandzi...</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Dla mego synowca.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Synowca? patrzcie państwo! a ja myślałem... Co to ten szampiter nie może...</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>I uniwersalnego spadkobiercy mojego.</p>
+          </sp>
+          <sp who="#dorota">
+            <speaker>DOROTA.</speaker>
+            <p>Chwała Bogu, że się tak stało. Zawsze, co młodszy, to młodszy.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Jakto? to nasza panienka wychodzi za mąż za tego młodego pana?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Tak, mój Filipie.</p>
+          </sp>
+          <sp who="#filip">
+            <speaker>FILIP.</speaker>
+            <p>Toż to będzie uciecha. <stage>(całuje w rękę ucieszony wszystkich)</stage></p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(do Wistowskiego)</stage> Jakżeż się to stało? Przecież mi pan najwyraźniej mówiłeś...</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(maskując zawstydzenie)</stage> Tak się tylko mówiło! Pan wiesz dobrze, że ja nie byłem nigdy zwolennikiem małżeństwa!</p>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <head>SCENA 8ma</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wanda">WANDA.</rs>
+              <rs key="#wistowski">WISTOWSKI.</rs>
+              <rs key="#henryk">HENRYK.</rs>
+              <rs key="#onufry">ONUFRY.</rs>
+              <rs key="#dorota">DOROTA.</rs>
+              <rs key="#pagatowicz">PAGATOWICZ.</rs>
+              <rs key="#filip">FILIP.</rs>
+              <rs key="#burczyński">BURCZYŃSKI.</rs>
+              <rs key="#helena">HELENA.</rs> (ubrani, wchodząc z ulicy)
+            </p>
+          </stage>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(wchodzi pierwsza prędko)</stage> Czy jest tu pan Pagatowicz?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(zwraca się do niej)</stage> Jestem jestem!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(chwytając go uradowana za rękę)</stage> Ah, nie uwierzysz pan, jak jestem szczęśliwa! Tatko nareszcie dał się uprosić i pozwolił.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(z radością)</stage> Pozwolił? <stage>(do Burczyńskiego)</stage> poczciwy ojczulek, no, zmiękłeś przecie! <stage>(ściska go za rękę)</stage></p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Ha, cóż miałem robić? Dziewczyna mi beczy po kątach, chodzi ze spuszczonym nosem... Myślę sobie, pal was sześć, dla miłego spokoju!...</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(wzruszony)</stage> Nie będziesz żałował tego, zobaczysz! Nie zawiedziesz się na mnie.</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Tylko żebyś jej dogodził, żeby mi się potem znowu nie krzywiła!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(j. w)</stage> Przecież mnie znasz nie od dzisiaj!</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Wiem, wiem, że ty do babskich interesów jedyny - więc ile to tam łokci tego będzie potrzeba?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p>Łokci?... jakich łokci?</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>No! czy tam metrów, jak teraz mówicie!</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(z zwrastającem zdziwieniem)</stage> Metrów? panno Heleno?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jak pan myślisz? Mnie się zdaje, że trzydzieści łokci powinnoby wystarczyć.</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Co, co? trzydzieści łokci? W imię Ojca! a ileż ty sukni myślisz sprawiać?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jednę, tatuńciu!</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>No, i trzydzieści łokci, - zwarjowałaś!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Przecież się tyle bierze. Panie Pagatowicz, wytłómaczże pan to ojcu! Przecież potrzeba na bufy, na ogon.</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>A tobie to na co?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Taka moda teraz.</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Do licha z taką modą! Czy to słyszana rzecz, panie dobrodzieju, żeby pannie w tych latach zachciewało się już chodzić w jedwabnych sukniach?</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(przybity)</stage> To jej się tego zachciewało? a ja, osieł, myślałem...</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p>Przyda się jej, jak raz, na moje wesele.</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>Co? co? wesele? co wy, dziewczęta, wyprawiacie za historje?</p>
+          </sp>
+          <sp who="#wanda">
+            <speaker>WANDA.</speaker>
+            <p><stage>(przedstawiając Henryka)</stage> To mój narzeczony.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Tak, tak! Taki majster dziewczyna! Na poczekaniu sobie chłopca wywinęła!</p>
+          </sp>
+          <sp who="#burczyński">
+            <speaker>BURCZYŃSKI.</speaker>
+            <p>I możeby miała ochotę jeszcze Helenę namówić? <stage>(do Heleny)</stage></p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Niech się tatuńcio nie boi, ja poprzestanę na jedwabnej sukni.</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p><stage>(do Pagatowicza, ruszając nim)</stage> Panie Pagatowicz! przyjdźże pan do siebie, nie kompromituj się! Powinieneś pan być kontent, żeś uratował swoje kawalerstwo.</p>
+          </sp>
+          <sp who="#pagatowicz">
+            <speaker>PAGATOWICZ.</speaker>
+            <p><stage>(żałosnym głosem)</stage> A mówiłeś pan, że one wszystkie mają apetyt na grube ryby!</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>No, niema reguły bez wyjątku!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(której przez ten czas ojciec dawał pieniądze)</stage> Panie Pagatowicz, oto są pieniądze, próbka! teraz już pan możesz jechać.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p><stage>(patrząc na Pagatowicza)</stage> A tobie co Pagatosiu? Co ci się stało?</p>
+          </sp>
+          <sp who="#wistowski">
+            <speaker>WISTOWSKI.</speaker>
+            <p>Nic - nic, to katar żołądka.</p>
+          </sp>
+          <sp who="#onufry">
+            <speaker>ONUFRY.</speaker>
+            <p>Morison - niema, jak morison na takie rzeczy!</p>
+          </sp>
+		  <trailer>(KONIEC)</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,2235 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000020" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Filut postrzeżony</title>
+        <title type="sub">Komedia oryginalna we trzech aktach</title>
+        <author>
+          <idno type="isni">0000000409612169</idno>
+          <persName>
+            <forename>Grzegorz</forename>
+            <surname>Broniszewski</surname>
+          </persName>
+        </author>
+        <!-- Grzegorz Broniszewski (1730-1797) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/filut-postrzezony-komedya-oryginalna-we-trzech-aktach,OTkwODk4/0/</idno>
+          <title>Broniszewski, G., Filut postrzezony: komedya oryginalna we trzech aktach, Warszawa 1786</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="adam" sex="MALE">
+            <persName>Adam</persName>
+          </person>
+          <person xml:id="cnotliwski" sex="MALE">
+            <persName>Cnotliwski</persName>
+          </person>
+          <person xml:id="cześnik" sex="MALE">
+            <persName>Cześnik</persName>
+          </person>
+          <person xml:id="cześnikowa" sex="FEMALE">
+            <persName>Cześnikowa</persName>
+          </person>
+          <person xml:id="organista" sex="MALE">
+            <persName>Gałda</persName>
+          </person>
+          <person xml:id="frontyni" sex="MALE">
+            <persName>Frontyni</persName>
+          </person>
+          <person xml:id="starosta" sex="MALE">
+            <persName>Perswadowski</persName>
+          </person>
+          <person xml:id="szykanowicz" sex="MALE">
+            <persName>Szykanowicz</persName>
+          </person>
+          <person xml:id="wścibska" sex="FEMALE">
+            <persName>Wścibska</persName>
+          </person>
+          <person xml:id="zuzanna" sex="FEMALE">
+            <persName>Zuzanna</persName>
+          </person>
+          <person xml:id="łatwowierski" sex="MALE">
+            <persName>Łatwowierski</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-16">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1786">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <titlePart type="series">TEATR<lb />
+          POLSKI<lb />
+          CZYLI<lb />
+          ZBIOR<lb />
+          KOMEDYI DRAMMY TRAGEDYI.<lb />
+          z naysławnieyszych autorow Francuzkich tłómaczonych, i przez aktorów Polskich na Teatrze Warszawskim granych.<lb />
+          TOM XVI.<lb />
+          w WARSZAWIE.<lb />
+          u P. DUFOUR Konsyliarza Nadwornego<lb />
+          J. K. Mci i Dyrek : Druk : Korp : Kadet :<lb />
+          M.DCC.XCIV.</titlePart>
+          <docTitle>
+            <titlePart type="main">FILUT<lb />
+            POSTRZEŻONY</titlePart>
+            <titlePart type="sub">KOMEDIA<lb />
+            ORYGINALNA<lb />
+            WE TRZECH AKTACH</titlePart>
+          </docTitle>
+          <byline>PRZEZ<lb />
+            <docAuthor>GRZEGORZA BRONISZEWSKIEGO</docAuthor>
+          </byline>
+          <docImprint>
+            <p>
+              w <pubPlace>WARSZAWIE</pubPlace>
+              <bibl>
+                <publisher>w Drukarni P. DUFOUR, Konsyl: Nadw: J. K. Mci,
+                Dyrektora Drukarni Korpusu Kadetów.</publisher>
+              </bibl>
+              <lb />
+              <date>M. DCC. LXXXVI.</date>
+            </p>
+          </docImprint>
+        </titlePage>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#łatwowierski">ŁATWOWIERSKI,</role>
+            <roleDesc>Podstoli Wdowiec.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#zuzanna">ZUZANNA,</role>
+            <roleDesc>Córka iego.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#starosta">PERSWADOWSKI,</role>
+            <roleDesc>Starosta. Przyjaciel Łatwowierskiego.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#szykanowicz">SZYKANOWICZ,</role>
+            <roleDesc>mniemany amant Zuzanny.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#cnotliwski">CNOTLIWSKI,</role>
+            <roleDesc>Regent... Od Zuzanny kochany.</roleDesc>
+          </castItem>
+          <castGroup>
+            <castItem>
+              <role corresp="#cześnik">CZEŚNIK,</role>
+            </castItem>
+            <castItem>
+              <role corresp="#cześnikowa">CZEŚNIKOWA,</role>
+            </castItem>
+            <roleDesc>Przytulińscy Sąsiadowie.</roleDesc>
+          </castGroup>
+          <castItem>
+            <role corresp="#adam">ADAM,</role>
+            <roleDesc>Hayduk Łatwowierskiego.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#frontyni">FRONTYNI,</role>
+            <roleDesc>po Uzarsku, służący Szykanowicza.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#wścibska">WŚCIBSKA,</role>
+            <roleDesc>Pokoiowa Zuzanki.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#organista">GAŁDA,</role>
+            <roleDesc>Organista.</roleDesc>
+          </castItem>
+          <castGroup>
+            <head>DWÓCH LUDZI</head>
+            <castItem>
+              <roleDesc>w Lyberyi niemych.</roleDesc>
+            </castItem>
+          </castGroup>
+        </castList>
+      </div>
+      <set>
+        <p>(Scena na Wsi w Domu Łatwowierskiego)</p>
+      </set>
+    </front>
+    <body>
+      <div type="title">
+        <p>FILUT<lb />
+        POSTRZEŻONY<lb />
+        KOMEDIA.</p>
+      </div>
+      <div type="act" n="1">
+        <head>AKT I.</head>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage type="setting">
+            <p>(Teatr oznacza salę po obydwóch stronach drzwi maiącą do Pokoiów, z prawey, pokóy Łatwowierskiego, z lewey strony pokóy Zuzanny, w głębi Teatru drzwi do wchodu - Czas ranny)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#adam">ADAM.</rs> (sam)
+            </p>
+          </stage>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p><stage>(przechodzi się i przeciąga)</stage> A! iuż też musiałem grzechów moich przewyższyć miarkę: gdy mnie Pan Bóg młodą y ładną ukarał żoną. O głupszy nad wszystkie pod słońcem stworzenia Adamie, rozumiałeś, że słodyczy z rozumną kosztować będziesz żoną; aż ona ci często piołunem przepłukuie gardło... A kto mego nieszczęścia naywiększą jest przyczyną? to świętey pamięci Imość nieboszczka. Gdyby iey była nie przyimowała, dowiedziawszy się, że z Warszawy, Adam byłby może ieszcze grzeszył, a tak w dwudziestym siodmym roku, ostrą iuż zaczął pokutę... Winien też iestem nieco y sam sobie, po co mnie wdawać się było z kawiarką... Ach! ładneż bo to zwierzątko, trudno było wytrzymać... Ha klepię teraz biedę, miałem pierwey za to roskosz. Co naywyśmienitsze fusy kto wypił? Adam z łaski kawiarki. Kto czasem po nocy Imbryczki y filiżanki potłukł? Adam. A któż za to wziął w skórę, albo chartami zaszczwanym został... Wszelako nie miałem tyle słodyczy, ile teraz gorzkich ciosów ponosić muszę... O niegodziwe iarzmo małżeńskie! bodayby w ciebie osłów, mułów, ale nie poczciwych zaprzęgano ludzi. Co za zmartwienie! Służyłem wprzód u sąsiada Pana mego, y po dwuroczny pozostały iurgielt posyłam żonę, przywozi mi kanarka, chwaląc się ieszcze, iż z wielką trudnością za tak małą kwotę, tak pięknego dostała ptaszka, co mi diabli po nim... położyłem się spać o dwunastey, ta bestya niegodziwa świszcząc bez przestanku nad głową, przebudza mnie o czwartey. Wstaię myślą złaiania żoneczki za tak miłą przysługę, aż ona proponuie mi, żebym mógł ieszcze złapać myszkę, którą ułaskawić podeymuie się. A to na co? Oto powiada, przyiechawszy kiedy do Warszawy znaczne za to można wziąść pieniądze... Nowybym wprawdzie zaszczepiał handel w kram handluiąc myszami, y gdybym mógł wiedzieć, iż takowe powiedzie mi się kupiectwo, nie tylko myszy, ale szczury nawet brykami do Warszawy zaprowadzałbym... ale któż mnie o tym upewnić może zysku... O! nieszczęśliwy Adamie! wieleż to zgryzot ponosić musisz... Darmo... sam teraz poznaię, iak są mocne wszystko z nami dokazywać kobiety. Nie dawno zrobiła mnie Jeleniem, iuż teraz w kota znowu przemienić usiłuie. <stage>(słucha)</stage> Ktoś po pokoiu stuka. Pan wstaie zapewne, osobliwszym y ten sposobem chce swoią uszczęśliwić córkę. Zal mi iey prawdziwie. <stage>(idzie na bok do stolika)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#adam">ADAM.</rs>
+            </p>
+          </stage>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(wchodząc nie spostrzega Adama, idzie ku brzegowi Teatru trzymając w ręku bilet otwarty)</stage> Co za rozum! iaka sposobność uięcia sobie przyiaciół; Jakże będę szczęśliwym, ieśli go zięciem moim uczynić potrafię: Co za subtelny wyraz, innym nawet pisze niż my sposobem. <stage>(czyta)</stage> Pozwolisz mi WPan Dobrodziey dostąpić honoru y szczęścia pożądanego w oddaniu mu wizyty. <stage>(mówi)</stage> Ach całym sercem! pragnę tego y czekam; Bożkiem go prawie Edukacyi wszyscy mianuią... Trzeba się będzie wcześnie przysposobić na przyjęcie tak zacnego gościa <stage>(chce odchodzić, spostrzega Adama)</stage> Co ty tak rano robisz?</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p><stage>(przez całą tę kwestyą czynił lazy śmieszne z Pana)</stage> Chędożę pieprzowy kontusz, w który się Pan dziś ma zgalować na przyjęcie owego Bożka Edukacyi, czy miłości, iak Pan mówi; mnie się zaś zdaie, że wizyta wielkodowcipnego oszusta...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Adamie! Ostatni raz ci wybaczam... y przysięgam, że ieżeli aby raz ieszcze podobne zrobisz głupstwo, pewne sto kiiów... Robić co każą powinność służącego, ale nie wdawać się w niepotrzebne z Panem reflexye. Strzeszże się, pamiętay.</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>Przepraszam Pana, prawda żem sobie zbyt śmiało postąpił, nie zasłużyłem iednak na taką iaka mi iest przyobiecaną karę, y gdyby Pan momencik cierpliwie chciał mię posłuchać, uznałby sam zapewnie, że żadney, bądźby naymnieyszey nie wart iestem.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(niecierpliwie)</stage> Cóż mi powiesz? y iakim sposobem z głupstwa się twego explikować będziesz?</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>Służę Panu lat cztery wiernie y...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Y za każdy rok pieniądze zasłużone odbierasz regularnie, cóż daley?</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>Niechciałyby nakoniec oczy moie widzieć Pana oszukanym y Pannę Zuzannę nieszczęśliwą, przez podstęp iednego, wielką umieiętnością szczycącego się Filuta.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(w ostatniey niecierpliwości)</stage> Milcz Obwiesiu! bo na całe życie Cuchtauz... Jakby to do ciebie należało czynności moie roztrząsać... Idź do Zuzanny; ieżeli wstała, niech przyidzie do mnie, ale wara z naymnieyszym się przed nią wygadać słówkiem, bo com obiecał, to dotrzymam zapewne.</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>Boday mi gębę <stage>(krzywi się)</stage> ot tak wykręciło, ieżeli słówko iedno pisnę.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Co za truteń śmiały! patrzay go!</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p><stage>(przy drzwiach na stronie)</stage> Oy coś to więcey ieszcze, bo y córkę y maiątek większemu myślisz oddać niż ia trutniowi. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(sam)</stage> Kara Boska z temi służącemi, byle który rok, dwa, posłużył, iużci sądzi, że powinien bydź Dyrektorem Pana swego, iak gdyby to nam łaskę czynili, że za pieniądze służą... Ale zapomniałem, żem go posłał po córkę, zapewne co przed nią wyplecie, trzeba się zdobydź będzie na nowe znowu reflexye, y perswazye dla niey... Podobno też iuż idzie... Tak iest. <stage>(uyzrzawszy Wścibską)</stage> Skaranie Boże y ta znowu prowadzi za sobą kata, który wszystkie zamysły moie iak mieczem podcina.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#zuzanna">ZUZANNA.</rs>
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Chodź tu bliżey moie dziecię, mam ci nową, a dla ciebie wcale pocieszną powiedzieć nowinę.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p><stage>(pomieszana)</stage> Ah Mci Dobrodzieju! nigdym nie była tak niespokoyną iak dnia dzisieyszego, sama nie wiem, co mi się stało: Jakieś ustawiczne przeczucia zdaią się wróżyć dla mnie prędkie nieszczęście... Boiaźń nadzwyczayna serce mi porywa - własnego lękam się głosu, y boię się, żeby...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Moie dziecię, zwyczayne to są y próżne strachy, które częstokroć do imaginacyi Płci waszey są przywiązane.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(do ucha Zuzannie)</stage> Opierayże się WPanna a dobrze, inaczej iak nas staruszek przysiądzie, iuż mu się ciężko będzie wywinąć.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Słuchayże tedy moie dziecię... Pamiętaiąc na słowa ś.p. nieboszczki żony moiey, a twoiey matki, które mi dała w upominku, ażebym się starał nayusilniey o twoie uszczęśliwienie; troskliwy zawsze o to iestem, y nieba zdaią się iuż do próźb moich nakłaniać, gdyż wkrótce twoie upewnione zostanie szczęście, a to tym sposobem. Jmć P. Szykanowicz Wendeński Kawaler, ze wszech miar zacny y rozumny, przeieżdżając z za granicy, przypadkiem zatrzymał się dni kilka u Państwa Cześnikowstwa naszych sąsiadów, gdzie uyzrzawszy ciebie, jak słyszałem w kościele, takie ku tobie powziął przywiązanie, iż cię chce uczynić dziedziczką serca tego, którego za granicą naywyższe familie pociągnąć do siebie nie potrafiły... Będziesz tedy moia córko z tak rozumnym szczęśliwa mężem, bo nawet słyszałem, iż sam wyznał, ale to dość skromnie bez naymnieyszey chluby, iż publicznie za granicą gazety pisały, że on drugi Salomon wynalazł się na świecie: Przygotuyże się tedy, aby go uczciwie z wszelkim przyiąć respektem y uszanowaniem, inaczey nieznałabyś szczęścia swego... Ale cóż to? pomieszaną cię widzę.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Jeżeli WPan Dobrodziey chcesz przyspieszyć moie uszczęśliwienie, pozwól, niech mi własnym wolno będzie rządzić się wyborem.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Bardzo słusznie Jeymć moia mówi, bo iey samej żyć przyidzie z mężem nie WPanu Dobrodziejowi, a zatym...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>A zatym, milcz Jaszczurko; bo kości w tobie połamię. <stage>(do Zuzanny)</stage> To prawda moie dziecię, że y twoiey na to potrzeba chęci, ale też wiedzieć masz y o tym, iż Oycem twoim iestem y bydź mi winnaś posłuszną. A do tego wiem, że ci się ten kawaler podoba, w reszcie chociaż się y nie podobał z kaprysu twego; ia tak chcę y tak bydź musi.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Dopókim była Panią serca mego, rządziłeś nim WPan Dobrodziey przez władzę Oyca którą masz nademną, ale teraz...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Cóż to iest? mów mi prędzey.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Kawaler, którego mi WPan Dobrodziey przeznaczasz, znany mi iest aż nadto z swego charakteru... Jest to naygłównieyszy Płci naszey nieprzyiaciel, y dla tego szczegulnie z przyiaźnią swoją oświadcza się, aby obszernieysze do wyszydzenia tkliwości naszey miał pole.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Oy tak, tak, Mci Dobrodzieju, słyszeliśmy, że ten Jegomość drwi ze wszystkich na świecie kobiet, z niego zaś, ta chyba nie, która go nie zna, albo o nim nie słyszy.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Rozumiem! Waść to tak niepomyślną dla córki moiey iesteś gazetą, ale radbym wiedział, co masz za potrzebę wściubiać tam swóy nosek, gdzie go nie potrzeba, uspokoię ia prędko te zamachy. <stage>(do Zuzanny)</stage> Ale cóżeś ty mi wspominała o iakieyś władzy, że serca swego nie iesteś Panią? Cóż to ma znaczyć?</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p><stage>(uklękaiąc)</stage> Tak Oycze móy kochany! Cnotliwski mimo mey woli stał się władcą serca mego, które samo się w tę rwało niewolą; iuż go nic wydobydź z tych nie zdoła więzów, y pierwey śmierć oziębi członki, niż kto potrafi wygasić ogień przywiązania, który pała w duszy moiey dla niego... Nie bądź tylko WPan Dobrodziey przeciwnym, a zupełnie zostanę szczęśliwą.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(na stronie)</stage> Wyśmienicie, zaiechała mu drogę.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(poburzony)</stage> Tegożem się niebaczna miał po tobie spodziewać córko, ażebyś wyzuwaiąc się z pod władzy Oyca twego ślepym dawała się powodować omamieniom... Nie... Widzę teraz dopiero, iak daleko powolne obchodzenie się rodziców psuie dzieci.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Ah! Oycze móy...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Nie, nie, nie, nic z tego, krótko ci powiadam, albo zapomniy na zawsze o Cnotliwskim, y przyimiy za męża tego, którego ci daię, albo do śmierci klasztor, obieray teraz z dwoyga iedno, y krótko mi odpowiedź. <stage>(odchodzi w złości)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#zuzanna">ZUZANNA.</rs>
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(zatrzymując Zuzannę)</stage> No! y czegóż znowu WPanna tak rozpaczasz, chymera Rodziców, nie jest Dekretem śmierci dla dzieci, może też się ieszcze da uprosić.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Ah! moia kochana, gdybyś wiedziała, iaka niespokoyność duszę moią uciska... Przywiązanie mocne do Cnotliwskiego, nieposłuszną czyni mnie Oycu. Mamże dla własney skłonności stać się upartą, odrodną, a może y wzgardzoną nakoniec córką. Wolę bydź rozkazom iego posłużną, póydę, upadnę mu do nóg, y...</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(zatrzymując)</stage> Ale czekay WPanna, pewnie się boisz, żeby cię do klasztoru nie oddał. O! ieszcze pierwey sto razy za mąż poyść możesz nim do tego przyidzie... Pódź WPanna lepiey do swego pokoiu, a ia tu zaczekam na Jegomości, użyię pewnego sposobu, może mi się uda.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Dobrze moia kochana, tylko zmiłuy się; nie gnieway go więcey, y ieżelibyś go znalazła równie iak był upartym, powiedz, że żałuię pierwszey moiey nierozwagi, y że na wszystko z chęcią gotowa iestem przystać, bylebym go zagniewanego na siebie nie widziała. Jego bowiem spokoyność nad własne przenoszę życie.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Spuść się WPanna na mnie zupełnie, a wszystko stanie się dobrze; ale słyszę iakiś szelest. Zapewne Jegomość nadchodzi. Idź WPanna prędzey.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Ah! Cnotliwski, iakże mnie drogo twoia kosztuie miłość. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(sama)</stage> Otóż to serce prawdziwe kobiece... dopiero się Oycu Lwem stawiła, iuż ci teraz iak wosk topnieie y na wszystko pozwala... A iuż też prawdziwie nadto znowu powolna. <stage>(podrzeźniaiąc ią)</stage> Ach móy Oycze! móy kochany Oycze; móy Tatulu, móy Dobrodzieiu. A stary też widząc ią tak boiaźliwą, rozdyma się jak pęcherz nowemi co raz chymerami... Jednakże źle znaią mężczyźni serca kobiet, wieleżby to ten Amant nie zyskał, któryby pierwszy impet sprzeciwienia się zniósł cierpliwie... Żal mi iey prawdziwie, ona teraz zapewne płacze, szlocha, y przeklina moment, w którym się urodziła. A stary Tatuś musi w swym gabinecie rachować Dukaty które mu onegday szyper przywiozł, bo to iego nayupodobańszą zabawą... Powiadają prawda, że Szykanowicz ma bydź chłopiec ładny, hoży, młody, y po Francuzku, a Cnotliwski Polonus, ieszcze jak na nieszczęście y oczy nieczarne... Opadną biednemu na dół te kasztanowate wąsięta, iak się dowie o całey robocie - Wszelako ieżeli to prawda co mówią o Szykanowiczu, nie wart moiey Pani, wolę bydź pomocną Cnotliwskiemu, dobry za to będzie z czasem urząd klucznicy, a potym iaki Paniczyna mąż, wszystko to na wsi uydzie - Ale iuż podobno nasz staruszek nadchodzi; trzeba się będzie bardzo daleko ryskować, chcąc iego zamysł zniszczyć.</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+              <rs key="#frontyni">FRONTYNI.</rs>
+            </p>
+          </stage>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(wchodząc zawadza szabeltasem o Drzwi)</stage> Jakiez tu u kopy diabłów drzwi, że y weyść nawet wygodnie nie można.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Kto iesteś Mospanie? czego chcesz? nie rób hałasu.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Co co?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Podnieś WPan ten miecz w górę, nie szczękay nim bo Pana zbudzisz, kogoż WPan szukasz?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(na stronie)</stage> Jakieś nie szpetne stworzenie, <stage>(głośno)</stage> Powiedzże mi zacna <stage>(ieżeli się nie mylę)</stage> Panienko, czy tu mieszka Jmć Pan Łatwowierski Podstoli?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>W tey wsi ieden tylko dwor, zaczym błądzić WPan nie mogłeś.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Ja y teraz nawet nie wiem, ieżeli we dworze albo stodole iestem... Zastałem Pana tuteyszego, iak ty nazywasz, Dworu?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Jest Jegomość, ale śpi ieszcze, bo słaby, od kogoż WPan iesteś? y z iakim interessem, tylko proszę, nie rób hałasu.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>A cóż ia moia Panno za hałas robię... Miałżem wniyść do nieznanego mi Domu y pierwszy raz bez pałasza? O! u nas tak nie uchodzi... Prędkoż się będzie można z Panem twoim widzieć - iużby powinien wstać - O szóstey wyiachałem - Trzy mile drogi - A to iuż iak miarkuię musi bydź koło dziesiątey.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Wątpię nawet, żeby wstał prędko bo słaby... Ale iakiż WPan masz do niego interess? ieżeli list, to zostaw, ia mu go późniey oddam.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Nazywam się Frontyni... Jaśnie Wielmożny Jmć Pan Szykanowicz Skarbnikowicz Wendeński, przysłał mnie tu do Pana twego z listem, oznaymuiącym mu swoją wizytę... oraz zlecił mi, ażebym widział córkę iego z którą się ma żenić, co też o niey będę decydował... iako też wypytać się iak iest bogaty, y czy ma więcey dzieci. WPanna zapewne będziesz służącą przyszłey żony Pana mego, naylepiey mnie o tym zainformuiesz.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Do ważnych interessów Pan WPana używa, ale odemnie żadney o tym nie poweźmiesz wiadomości, o maiątku Pana mego rezonować nie umiem, co zaś do dzieci, iedną tylko ma córkę y ta iuż komu innemu, nie Panu iego iest przyobiecaną.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Co zaś? komu innemu? żartuiesz chyba... a potym nie będzie to żadną Panu memu zawadą, bo chociażby sto, nie tak iednego miał rywalów, nie iest to dla niego żadnym zmartwieniem, ale raczey rozrywką będzie się pomału niewinnym y politycznym zabawiał polowaniem, przerabiaiąc ich na Jeleni... O! wiele my takich cudów wyrabiamy na świecie.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>A gdyby też który z takowych Jeleni nasrożył się, y ubódł was? wierzcie mi moi Panowie, takowe polowanie nie naybespiecznieysze bydź zdaie się.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(z śmiechem)</stage> Nasrożyć? na nas nasrożyć? niechaybyno spróbował, a upewniam, że od tego żelaza, które wzmacnia y ruynuie Domy <stage>(pokazując na pałasz)</stage> nie tylko rogi ale y łeb by mu natychmiast uleciał... Nie ieden to iuż chciał tym iak ty powiadasz postąpić sobie sposobem, ale przedtym kadzidłem diabelnie zmykał. Gdybym chciał moia Panno wszystkie konserwować czapki, pasy, zegarki, kapelusze, szpady, szable, ostrogi, które za takiemi zbieram Ichmościami, Jużbym do tego czasu mógł okryty mieć sklep.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>To wy takim sposobem burdy iesteście, nasz zaś Jegomość z ludźmi tylko rozeznanymi chce mieć do czynienia.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Nie... Y owszem nayspokoynieysi iesteśmy, któż temu winien, że się nas tyle boią. A Pan móy tak iest wielki w postępowaniu flegmatyk, że chociażby mu kto tysiączne wyrabiał głupstwa, on wybaczy, pamiętaiąc na sentencyą Similis simili gaudet. To iest mądry głupiemu ustąpić powinien. A cóż robić? kiedy byle kto zaszedł z nim w spór, a ia nadeydę, ten w nogi, y chociażby na ten czas rękę albo nogę zgubił, iuż się po nią nie zwróci. Ale pominąwszy to, dawno służysz u swoiey Pani, y iaki w tym domu posiadasz urząd?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Służę Pani moiey lat cztery, iaki zaś posiadam urząd, sama nie wiem, bo do wszystkiego używaną bywam, to wiem, że domowi nazywają mię garderobianą. Ale na cóż WPanu ta ciekawość?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Kto się chce cudzym zatrudnić losem, swóy nayprzód ustanowić powinien... wierz mi kochaneczko, skorom tylko tu wszedł y uyzrzał ciebie, natychmiast coś iak Piorun w serce moie uderzyło, domyślam się, że to bydź musi miłość, y tak iest w samey rzeczy, bo iuż wiele zaczynam czuć dla ciebie, gdybyś tedy równym chciała mi się wypłacać czuciem, pomyślałbym o wyższej dla ciebie promocyi, zrobiłbym cię Królową, uformowałbym Tron w głębi serca mego, y osiadłabyś na nim spokoynie.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Dziękuję uniżenie WPanu za tak wysoki urząd, nie zdam się do niego, ani też myślę królować w kraiu tak niespokoynym y niestatecznym, gdzie tysiąc do rządu miałabym wspólników... Zatrzymay się WPan, póydę do Jegomości, powiem, że masz do niego interess.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Zaczekay, zaczekay, moja pupeczko, ze mną się pierwey ułóż.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Potym, potym. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#frontyni">FRONTYNI.</rs>
+            </p>
+          </stage>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(sam)</stage> Y... szczęśliwa drogą... Dobreby to rzeczy były, żeby Pan móy mógł dopiąc swego zamysłu. Jedynaczka. Oyciec iuż musi bydź stary a do tego słabowity, nie zadługo zapewne zechce zasnąć w Bogu, a Pan tym czasem za Fortunę y pieniążki łap... Już mi się też sprzykrzyło latać z nim po świecie, tu wygra, tu przegra, a koniec końców, nigdy niema nic, y gdybym mu czasami gładko po kilka Dukatów nie wymykał z sakiewek, tobyśmy y żyć nie mieli za co, albo też czasem drapnąć z mieysca, niebezpiecznego... Nigdzie pokazać się nie może, wszędzie kredytorowie z Processem iak na mysz z pułapką czekaią, y bardzo się obawiam, żeby nam gdzie tryumfalney do kozy nie otworzono bramy... Jeżeli się ieszcze tu nie ożeni, muszę mu za służbę podziękować, bo z nim iak uważam woiaż daley niebespieczny, wolę niech moie przepadną zasługi, niż, żebym miał gdzie na Fabryce wspólnie z nim odrabiać długi!... Ktoś tu widzę nadchodzi, powróćmy się do dawney wesołości, a chociaż serce płacze, sumienie wiąże, twarz niechay się śmieie, ten iest ton wielkiego świata.</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#frontyni">FRONTYNI.</rs>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(do Wścibski idąc)</stage> Niechayże się ubierze prędko, a potym dopilnuiesz mi, żeby wszędzie był porządek, rozumiesz? <stage>(tu Frontyni oddaie list który Łatwowierski po cichu czyta)</stage></p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Dobrze Panie <stage>(na stronie)</stage> Chciałam co rozpocząć względem polepszenia losu Panny Zuzanny, a zatym koczkodanem przemierzłym nie można - Ale ziedzą diabła, umieią oni, iak powiada przerabiać na jeleni - postaram się też y ia wystrychnąć Ichmościów na Dutków. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA X.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#frontyni">FRONTYNI.</rs> (późniey)
+              <rs key="#adam">ADAM.</rs>
+            </p>
+          </stage>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(przeczytawszy list)</stage> Całym sercem, całym sercem, czy tedy przyiacielu iedzie iuż Pan? czyś go ieszcze na mieyscu zostawił?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(kłaniaiąc się zawsze)</stage> Na mieyscu Panie Dobrodzieiu, ale tak dobrze, iak gdyby iuż wyiechał, ustawicznie o tym gadał, z wieczora ieszcze ten list napisał, y całą noc spać mi nie dał, żebym iak nayraniey wyiechał, wielką ma chęć Panie Dobrodzieiu prezentować się w domu Pańskim, niespokoyny, ustawicznie wzdycha, musi mieć iakiś ważny do Pana interess.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Z niemnieyszą y ia niespokoynością czekam Jmci Pana Skarbnikowicza, powitać w moich progach.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(na stronie)</stage> Powolny widzę Staruszek, będzie go można za nos wodzić.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Czy masz przyiacielu zlecenie czekać tu na Pana czy też przeciw niego wyiedziesz, oddałżeś konia do stayni?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Mam wyiechać, ale nie daleko ztąd spotkam go, bo zapewne jak pióro lecić będzie. Prawda to nie Pocztą. Wielka to nie wygoda Panie Dobrodzieiu, że tu nie masz w każdey wsi Poczty regularney, jak w innych kraiach... Naprzykład za Berdyczów wyiechawszy w kray Moskiewski Poczta na mile więcey kosztować nie będzie, iak groszy 10. <stage>(na stronie)</stage> Ale to wtenczas, kiedy chłop z iarmarku powraca do domu.</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p><stage>(wpadając)</stage> Panie Dobrodzieiu! Pan Starosta Perswadowski iedzie.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Zkądże wiesz?</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>Ułan pierwey przyiechał, powiada, że go zostawił ztąd o pół mili.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Bardzom kontent z tey nowiny, dawny to nasz przyiaciel, ucieszy się wraz z nami a właśnie w dobry czas iedzie.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Upadam do nóg Pańskich, pośpieszać muszę przeciw Panu, mógłby się na mnie gniewać, ieżelibym się w przód z nim nie widział, jak mi zalecił.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(dając mu w ręce kilka złotych)</stage> Bądź zdrów przyiacielu... masz na piwo.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Co się Pan Dobrodziey masz dla mnie uszkadzać, Pan móy dał mi na drogę <stage>(na stronie)</stage> dwa razy pięścią w pysk.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Weź móy bracie, zda ci się y to.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Kiedy tak Pan mieć chce, nie gardzę łaską Pańską. Upadam do nóg Pańskich <stage>(na stronie)</stage> Oy co się zda, to zda. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA XI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#adam">ADAM.</rs> (późniey)
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Potrzeba tedy iakem mówił Adamie, ażebyś naprzód, jak nayczyściey pouprzątał, potym powiesz moiey córce, niech wyda srebra stołowe, nakryć macie do stołu, w zielonym pokoju na osób... ośm.</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>A Pana Starostę Pan liczy, y on na obiad ziedzie.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Ale, ale, zapomniałem, nakryicież na osób dwanaście y powiesz Mikołaiowi, niech doiedzie po Xiędza Kanonika, bo też bez tego będzie mi dziś potrzebnym.</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p><stage>(na stronie)</stage> Oho! to iuż po diable kiedy po Xiędza posyła, utopi zapewne córkę za tego modnisia. <stage>(głośno)</stage> Y Pan Cnotliwski słyszałem ma przyiechać, będzie dziś dosyć gości.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Y... bez niegoby się obeyść można, a gdy przyiedzie tym lepiey będzie uczestnikiem zabaw, y uciechy naszey, ieżeli zechce, Ale Pan Starosta ieżeli nie porzucił dawnego sposobu postępowania, bardzo się obawiam, żeby mi nie skwasił kompanii... Tak iest nudny z swoiemi morałami, z swemi dzikiemi perswazyami, że chociażby nayweselszą kompanią oziębi y znudzi.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(wchodzi y daie znak na migi Adamowi, żeby odszedł, Adam odchodzi, ta mówi na stronie)</stage> Teraz właśnie dobra wydarza się pora, nie trzeba iey opuszczać.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Temu człeku prawdziwie należało zostać Xiędzem, a równego szukaćby kaznodziei.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(niby nie widząc Łatwowierskiego idzie w brzeg Teatru y fartuchem zasłoniwszy oczy udaje, że płacze)</stage> Oh! co za nieszczęście!</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(postrzegając ią)</stage> Cóż to znowu? czego płaczesz?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(udaiąc zawsze że go nie widzi, na stronie)</stage> Trzeba go wytrzymać! <stage>(głośno)</stage> Ah! i bym tak dobrą utracić miała Panią, sama wprzód umrzeć wolę.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(pomieszany)</stage> Utracić tak dobrą Panią? zapewne córka moia słaba... Słyszysz ty? nic mi nie odpowiadasz! czego lamentuiesz? co się stało?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Tyle dla mnie była łaskawą...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(porywa ią za ramię y obraca)</stage> A odezwiyże się głucha gadzino, czego płaczesz? odpowiadayże prędzey.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Ach! Mości Dobrodzieiu, żal który serce dręczy, musiał mi y uszy pozatykać, kiedym nawet nie słyszała ieżeliś WPan Dobrodziey mówił co do mnie.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Od pół godziny wrzeszczę na ciebie. gadayże!</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(zawsze z płaczem)</stage> Panna... Zuzanna...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Cóż Panna Zuzanna, słaba, umiera, czy co?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Jeszcze nie umiera, ale umrze zapewnie, ieżeli WPan Dobrodziey zamysłu swego nie odstąpisz.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Jakiego zamysłu? Cóż robi Zuzanna?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Ubiera się w swoim pokoiu y płacze, ta iey cała robota y zabawa, <stage>(płacze)</stage> Oh! Pani, nayukochańsza moia Pani iuż cię tedy utracę.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Jak widzę, zawrotu głowy dostała... Ale wstrzymam się, ieżeli powolnością prędzey nie doydę, co to wszystko znaczy?... Czegóż ty tak rozpaczasz, kiedy Pani y ty zdrowe iesteście.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Czego?... Alboż to WPan Dobrodziey nie wiesz, że się teraz sny prawdzą.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>A! kiedyś się tak mocno snu ulękłaś to nigdy nie śpiy. Szalona dziewczyna, tak mię nastraszyła swym głupstwem... Nie masz się moia kochana czego lękać! Sen zawsze bayka.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Niechay to podług mniemania WPana Dobrodzieia będzie bayką, Ja zaś słusznie płaczę bo wiem co z tego wyniknie, a ieszcze taki straszny sen iak Pani moia miała, ach trętwieię cała...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>A cóż się to iey śniło przecie? pewnie że z góry na dół spadła, niechayże nigdzie wysoko nie wyłazi to upewniam sen skłamie.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Mnieysza o taki sen, od którego ustrzedzby się można. Ale to tak fatalny że mu zapobiedz nie iest nawet w mocy Panna Zuzanny.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Cóż to przecie za sen, powiedz. <stage>(na stronie)</stage> może bydź y prawda, kiedy iakieś maią przeczucia... Ja sam miałem sennik, który mi Xiądz proboszcz odebrał, iak tylko postrzegł, mówiąc iż to iest Xiążka zakazana, musi więc w tym bydź coś, kiedy go czytać bronią.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(na stronie)</stage> Zaczyna się chwiać, widzę udawaymy daley… <stage>(głośno)</stage> Oto śniło się Pannie Zuzannie... Że przyszedłszy do niey Osoba w długiey sukni po Xięzku... A WPan Dobrodziei wiesz, że o Xiężach zawsze są sny nie dobre.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Cóż dalej?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Ta tedy Osoba, tonem poważnym rzekła do niey... Szkoda cię Panno. Jesteś młoda, iedynaczka, a wkrótce zmartwienia Oycu staniesz się przyczyną... Panna Zuzanna odpowiedziała iey, dla czego y czym Oyca mego mam zmartwić, gdy we wszystkim iego pełnię rozkazy, iak na posłuszne przynależy dziecię... Tym gorzey rzekła Osoba... Że mu iesteś posłuszną: Bo skoro podług woli iego póydziesz za Szykanowicza, w trzy dni po szlubie nagle umrzesz... Uważ tedy WPan Dobrodziey, iak ia nie mam płakać, wiedząc iż tak dobrą utraciłabym Panią.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Sen mara, a Bóg wiara, dawne to iest przysłowie ale dobre. <stage>(na stronie)</stage> To kawałek dla mnie nie nadto smaczny. <stage>(głośno)</stage> Nie trzeba temu wierzyć, próżne to baśnie.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(na stronie)</stage> Miesza się. Wyśmienicie. <stage>(głośno)</stage> Gdyby to można wiedzieć, że tak minie... A nuż się sprawdzi tak, iak móy z Czwartku na Piątek, to y po Pannie Zuzannie.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>A iakiż to ci się sen sprawdził?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Powiedziałabym go, ale się boię, żeby się Pan nie uraził, bo to sen dziwny, ale istną maiący w sobie prawdę.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Ja w sny nie wierzę, możesz mówić, słucham.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Tylko com zasypiać poczęła, aż prawie iak na iawie spostrzegam, że brytan iakiś straszny y duży napastował na drodze małe niewinne dziecię, chcąc go od iego odpędzić zabawki, iam go niby bronić skoczyła, w tym ów pies rzucił się na mnie, y odecknęłam się.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>No? y w czymże ci się sprawdził?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Albożeś mię WPan Dobrodziey niechciał obić rano, gdym się uymowała za Panią moią.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Aha! rozumiem... Więc ia mam bydź owym strasznym brytanem, a ty niewinnym dziecięciem. <stage>(na stronie)</stage> To czyste iak uważam wybiegi... moia kochana, powiedzże mi, gdy ci się przyśni, że ów straszny brytan pokąsał to niewinne dziecię, a upewniam, że czy to z Czwartku na Piątek, czy z Piątku na Sobotę, zawsze ci się sprawdzi.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>WPan Dobrodziey dworuiesz sobie... prawda że to iest w mocy iego uchronić Pannę Zuzannę od tego niebespieczeństwa, y takby Pan powinien zrobić, inaczey byłoby to oczywiście wyganiać ią na tamten świat. Jeżeli więc Pan czuie miłosierdzie, niech idzie, y pocieszy ią, bo ten nawet ustawiczny płacz i lamenta, mogą iey zdrowiu szkodzić... Perswadowałam iey ile możności, mówiłam, żeby się przeszła po ogrodzie, nie siedziała w pokoiu, który ustawnie iey tę smutną przypomina scenę... niechciała nawet y na to przystać.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Nie troskay się, będzie ona y żywa, y zdrowa, iak póydzie za mąż, a pomiarkuie po trzech dniach, że wygodniey w łóżku, niż na marach, namyśli się y zechce żyć dłużey. <stage>(na stronie)</stage> Wszelako muszę ią wyprawić do ogrodu, niech sobie myśli rozerwie, mogłaby z samey zachorować imaginacyi. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA XII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(sama)</stage> O toż to dziad przeklęty... y zdawał się ustraszać moią powieścią y znowu do swoiego powrócił się; z nim, widzę, y sam dziaboł nie wskóra... Wszelako praca moia nie zewszystkim poszła daremnie, poszedł do iey pokoiu, zapewne iść iey każe do ogrodu, żeby się rozerwała, y rozerwie się bez wątpienia dobrze, bo tam na nią czeka Cnotliwski... Ah! iak to luba rozrywka, patrzyć na dwie kochaiące się Osoby, na ich niewinne żarty, zaczepki, płonienia się, przymówki, gniewy zmyślone, przepraszania czułe, oświadczenia żywe, wzdychania ustawiczne, uskarżania się na los, y tysiączne inne, rozkochanych amantów zabawki... Prawdziwie widząc ich, człeka raz śmiech drugi raz płacz bierze... Ale muszę pobiedz y wartę trzymać, żeby ich kto nie zszedł, byłoby to nie naylepsze zdarzenie... A prócz tego świat teraz tak się co raz mocniey poleruje, że daley daley iak uważam trudno nam nawet będzie y odrwić takiego mężczyznę. <stage>(chce odchodzić)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA XIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+              <rs key="#adam">ADAM.</rs>
+            </p>
+          </stage>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p><stage>(wpadając)</stage> Psyt, psyt, Mościa Panno Barbaro, Panno Barbaro, zaczekayno WPanna, mam bardzo ciekawą rzecz powiedzieć.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(wracając się)</stage> Kogóż to wołasz?</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>WPanny.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Alboż to nie wiesz gapiu? że się nazywam Wścibska? Patrzay go Barbaro, Barbaro.</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>Przepraszam Mościa Panno Wścibska, nie wiedziałem, nie gnieway się WPanna wszak Jeymość nieboszczka tak ią zawsze zwała, chybaby to teraz inaczey.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Jeymość mię tak zwała z grymasu, wolno iey było, bo Pani, a tobie cyt... bo tak zechcę, to po służbie.</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>Y... wołałbym był y nie zaczepiać, takie gniewy za iedno słowo.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(łagodnie)</stage> Zląkłeś się widzę Adasiu nie bóy się, iam to żartowała, wszelako nie zwiy mnie tak więcey, mógłby kto usłyszeć, y czysty śmiech ze mnie... Ale cóżeś to mi miał ciekawego powiedzieć? mów prędzey, bo nie mam czasu.</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>Uprzątałem w pokoju Panny Zuzanny, gdy Jegomość nadszedł do niey, iak ią wziął wyganiać do ogrodu, ażem się zdziwił, zawsze bywało przykazuie, żeby niegdzie nie wychodziła... a teraz ta się biedna prosi exkuzuie, a ten koniecznie iak się uparł, y wypędził ią... nieśmiałym tedy krokiem przez próg przestąpiła, Jegomość się tym czasem wrócił do swego pokoiu, a ona widziałem co tchu pobiegła... Idź WPanna za nią, żeby sobie czego nie zrobiła z rozpaczy.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Dobrze mówisz móy Adamie, muszę pobiedz. <stage>(na stronie)</stage> O głupcy, głupcy, byle tylko iednego oślepić zręcznie, to dziesięciom mgła zasłoni oczy. <stage>(odchodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA XIV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#adam">ADAM.</rs>
+            </p>
+          </stage>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p><stage>(sam)</stage> Diabelny im Jegomość zabiia klin w głowę z tym Szykanowiczem... Panna Zuzanna ginie prawie za Cnotliwskim... Ale czego się iuż Cnotliwski tak za nią ugania, człek iego powiadał mi, iż mówił, że ieżeli go nadzieia ominie, to sobie w łeb ma strzelić, albo umrze z rozpaczy. A iuż też to grubiaństwo niesłychane... Ktoby umarł z zbytecznego pragnienia żony, nie wart żeby go przy Kościele chowano... Oy poznałem ia się na tym ziółku dobrze... Głupi... Niechaybyno za intratę zaczęła kupować kanarki, a iemu tak iak mnie moia kazała łapać myszy, toby sobie prędzey w łeb strzelił, dla tego, że ma żonę. <stage>(odchodzi mruczaiąc)</stage></p>
+          </sp>
+          <trailer>(KONIEC AKTU I)</trailer>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT II.</head>
+        <div type="scene" n="15">
+          <head>SCENA I.</head>
+          <stage type="setting">
+            <p>(Teatr oznacza Ogród Łatwowierskiego)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#cnotliwski">CNOTLIWSKI.</rs> </p>
+          </stage>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p><stage>(sam chodząc)</stage> Co za Katusza!... Mógłżem się kiedy takowego spodziewać udręczenia... Powolność Oyca, przychylność Zuzanny, wszystko zdawało się szczęście upewniać dla mnie... Teraz nagły szturm ruynuie y niszczy wszystkie nadzieie... Będzież mocy moiey wygasić to przywiązanie, którym pałam dla niey... Ale nie, bydź nie może, ażeby Zuzanna odmieniła swóy sposób myślenia, stały iey sentyment zaręcza mi za nią... Ale Oyciec... O nieba! iakże trudno przychodzi człowiekowi dobrze myśleć chcącemu, los przyzwoitym upewnić sobie sposobem... Dobrze żem ią oznaymił, iż się znayduię w ogrodzie, ieżeli przyidzie, będę przynaymniey mógł z niey wyrozumieć, czyli iest ieszcze dla mnie stałą, lub w smutney dopuści umrzeć rozpaczy. <stage>(odchodzi w głąb w naywiększym smutku)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#cnotliwski">CNOTLIWSKI.</rs>
+              <rs key="#zuzanna">ZUZANNA.</rs>
+            </p>
+          </stage>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p><stage>(szukaiąc go)</stage> Gdzieby się podział... Dawał mi znać, że czeka, a znaleść go nie mogę... Nieszczęśliwam... im większe wydarzają się przeszkody, tym bardziey czuię, że go co raz mocniey kocham... Ach! Cnotliwski. <stage>(chce iść)</stage></p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Daruy śliczna Zuzanno, dawno tu iuż na ciebie czekam, rozumiałem nakoniec, że nie przyidziesz, zwłaszcza wiedząc, iż ci się nowa w domu ziawiła zabawka, a kto wie? może milsza niż...</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Powiedz lepiey naysroższa... Możeszże tak lekko trzymać o mnie... Bądź pewnym, że przywiązanie moie do ciebie w nayokropnieyszych razach iest niewzruszone.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Więcey ia daleko iestem nieszczęśliwszym, czuiąc razem oboyga nas zmartwienie, a bliskie uszczęśliwienie mego rywala, tym ostrzeyszym grotem serce mi przeszywa... Rozpacz tylko sama stawa przed oczy, y ta podobno będzie tarczą zasłaniaiącą mnie od dalszych ucisków... Tak śliczna Zuzanno, nową czynię przysięgę, że mi nikt serca twego wydrzeć nie potrafi, chyba wraz z życiem - Y wprzód musi Szykanowicz rękę w krwi moiey zbroczyć, nim ci ią do odebrania szlubów wzaiemnych poda.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Ach! drżę na samo wspomnienie poiedynku - wiesz dobrze, iż w takowych krokach nayczęściey zbrodnia z tryumfem odchodzi, a cnota tym bardziey uciemiężona bywa... Na cóż się na to masz narażać niebespieczeństwo... Jeżeli pragniesz krwi iego, pomniy, że nie masz prawa odbierać życia, którego mu nie dałeś, ieżeli swego chcesz się pozbydź, równie grzeszysz, wystawiając na niebespieczeństwo to, co naywięcey szanować powinieneś... Odday to czasowi, kto wie? może ieszcze pomyślna zaświeci nam chwila - póydę do Oyca mego, y lubo iuż słyszałam z ust iego ten fatalny wyrok, mimo to iednak padnę mu do nóg - może się nakoniec wzruszy, y odmieni swoie przedsiewzięcie.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>A ieżeli się ubłagać nie da, y koniecznie zechce...</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Oyciec móy był zawsze dobrym y łaskawym dla mnie Oycem, nie podobna ażeby w tym momencie, tak okrutnym stać się miał Tyranem... Gniew iego iest tylko momentalny, a dobroci pełne zawsze nosi serce.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Składam więc w ręku twoich śliczna Zuzanno wszystkie moie nadzieie, zupełnie twoią będę się powodować poradą, użyi ieszcze y tego sposobu na zmiękczenie Oyca. A może...</p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#cnotliwski">CNOTLIWSKI.</rs>
+              <rs key="#zuzanna">ZUZANNA.</rs> (Ciż y)
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(wpadając żywo)</stage> Mościa Dobrodziko...</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Cóż tam?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Pódź WPanna prędzey! Jegomość Kazał wołać. Pan Starosta iuż na dziedzińcu, prędzey, prędzey.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>To zapewne Szykanowicz?...</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Ja tam nie wiem kto, dosyć żem sama widziała, iak Bramę otwierano, y ktoś konno pierwey wieżdżał. Biegayże WPanna.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Odchodzisz więc śliczna Zuzanno?</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Muszę śpieszyć na rozkaz Oyca, ale nie omieszkam uwiadomić cię o wszystkim.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Ach! tą iedynie ożywiasz mię nadzieią. <stage>(tu się żegnaią z sobą pantominą iak nayczuley y Zuzanna odchodzi)</stage></p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(na stronie)</stage> Jakże się słodko pieszczą z sobą gdyby dwa czubate gołąbki, aż miło patrzyć... <stage>(odchodzi za Panią)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#cnotliwski">CNOTLIWSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p><stage>(sam)</stage> Poszła więc do Oyca, ach! żeby go uprosić mogła cóżbym za to nie dał... Jak iest przezorna, iak uymuiąca, każde iey ruszenie, nowe we mnie zapala czucie... Lecz Oyciec tak uparty wszystkie iey może odrzuci proźby, y przymusi do dania ręki Szykanowiczowi. Ach! myśl mnie ta zabiia... Póydę do gościnnego domu... A późniey nie zaniedbam sam stawić się przed iey Oycem, azali go prędzey nie ubłagamy oboie. <stage>(odchodzi zasmucony)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA V.</head>
+          <stage type="setting">
+            <p>(Teatr oznacza dom gościnny, ludzie wnoszą niektóre rzeczy)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p><stage>(sam)</stage> Jestem iuż przecie we wsi nayukochańszego Teścia... Posłałem ieszcze raz z oznaymieniem, że iadę... chcąc bydź poważnym, trzeba sobie rum zrobić. Niech Pan Oyciec za bramę przeciw mnie wyidzie... Co za miła z wieśniakami rozrywka... Człowiek nawet o tym rezonować może, co nigdy nie bywało na świecie, a ci prostaczkowie przyzwyczaieni do słuchania nauk kościelnych z równą y mnie słuchaią attencyą y wszystkiemu wierzą... A tak w iednym momencie ich fantazyą rządzić iak chcieć można... Gadać im n:p: o rozbiciu okrętów, o Magnesowey Wyspie, o zbóycach morskich, iużci płaczą... powiedać im znowu o pomyślney żegludze, o perłowych Skałach, o owym padole gdzie dyamenty torbami brać można, śmieią się y kontenci... Y tak bez naymnieyszey trudności płaczących, y śmieiących się widzieć można... Dzięki nieśmiertelne Autorowi, dwunastu książek Awantur Arabskich. Z nich, o woiażu po całym świecie rezonować mogę. Trzeba będzie nową wynaleść awanturkę na zabawienie moiey nayulubieńszey żony, dopóki się pięniążków nie złapie. A potym y sami będą się mieli czym zabawiać, iak się późniey moia odkryie sztuka... Ale cóż to nie widać Frontyniego; musi bydź Dwór daleko, trzeba aby mi insze dał sprzączki. Frak lepiey spudrował, y muszek dwie dobył... A iuż widzę powraca, ciekawą będę miał nowinę.</p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs>
+              <rs key="#frontyni">FRONTYNI.</rs>
+            </p>
+          </stage>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(wpadając)</stage> Ach! Panie Dobrodzieiu ledwo staruszek ślepiów nie wypatrzy oczekując przybycia Pańskiego. Jak mię złapał, a gdzież iest? gdzież iest? czy daleko? czyście się gdzie nie wywrócili, ledwo że mi dał czasu wymówić, że Pan zdrów, y że iechał bez żadnego przypadku, y wstąpił do gościnnego domu dla przebrania się. A to na co? kaczkowatym wrzasnął Dziaduś głosem, iuż iest dla niego wyprzątniona officyna. Napiyże się wódki... Kazał przynieść flaszkę y kielich duży, pił nawet do mnie, można mówić, że grzeczny z niego będzie Tatuś... potym mnie kazał zaprowadzić do officyn... Ach! ledwiem się nie udusił od śmiechu.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Cóż takiego? mów prędzey!</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Hayduczysko gdyby Wielbląd uwiiał się, y jałowcem wykadzał... słowem mówiąc Kaplicę dla Pana wyporządzili.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>A córki nie widziałeś?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Tylkoć też com to miał mówić... wyszła, gdyśmy z staruszkiem gorzałę ścinali... Ale niech się Pan nie gniewa, co powiem... Czysty wzrok Sowi. Oczy zapluszczyła, y obrzmiałym tonem spytała mnie, ieżeli Państwo Cześnikostwo będą.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Cóż ty na to?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Odpowiedziałem, że pospieszą służyć Pani.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Przedziwnie. A ona co?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Odwróciła się od nas, y zmarszczywszy się nadzwyczaynym sposobem, Oczy do góry wytryszczyła, Ach! y odeszła.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>No nie baw się, Cześnikostwo iuż muszą iechać, przynieś mi tamte sprzączki, Dwie muszki, y worek z pudrem, trzeba trochę lepiey frak ubielić, śpiesz się.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(odchodzi y wraca się)</stage> Ale, ale, zapomniałem ieszcze powiedzieć, przyszedł do mnie Koniuszy, pytaiąc wiele koni mamy z sobą, y iaki obrok iadaią, ha, ha, ha.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>A ty mu powiedziałeś pewnie...</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>A! broń Boże, Pan rozumi, żem wyznał, iż pożyczanemi przyiechaliśmy? nie... Odpowiedziałem mu, że naiętemi, a swoie zostawiliśmy u Cześnikostwa.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Walnieś powiedział, podźże...</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Wiem, wiem, biegnę. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Cześnikostwo kazali mi powiedzieć, żem ią widział w Kościele, y tam mi się spodobała, a moia nawet noga nie postała w Kościele... Jeżeli tak iest brzydka iak powiadasz, trudno mi będzie y udawać nawet, że ią kocham... Ha nie pierwszym ia będę z liczby interessowanych amantów... Znayduią się tacy, co całe nocy pod oknami swoich trawią Bogiń; y za naywiększe poczytuią szczęście, gdy która wpół obumarłym wyrzecze tonem... Grzecznym WPan y zabawnym iesteś... Za cóż ia za pieniądze słuchać tego niemam, że mnie kocha, albo powiedzieć, iż ią kocham, powiem iey owszem, że nad życie.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(powraca z przączkami dużemi)</stage> Otóż y sprzączki... Y za to się nawet należy Blacharzowi groszy 20, co ie pobielał... ha iuż to przepadło. A... iakie teraz piękne, gdyby perłami wysadzone... <stage>(przypina sprzączki, y Frak bieli)</stage></p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Tylko ubiel dobrze, osobliwie w kołnierzu.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>W tym mieyscu przetarło sie widzę... Ale tego znać nie będzie <stage>(bieli tam naywięcey)</stage> Otóż iakiś Polak idzie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs>
+              <rs key="#frontyni">FRONTYNI.</rs> (Ciż y)
+              <rs key="#cnotliwski">CNOTLIWSKI.</rs>
+            </p>
+          </stage>
+          <stage>(CNOTLIWSKI. wszedłszy kłania się y siada na boku)</stage>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(do ucha Panu)</stage> Zapewne od tuteyszego Dworu.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Jegomość pozwoli się spytać, czyli iest tuteyszym?</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Nie Mości Dobrodzieiu.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>To podróżny po naszemu. Ale musi przynaymniey mieć znaiomość z tuteyszey wsi Panem?</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Mam honor zaszczycać się iego łaską.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Y ia dzisiay tego mam dostąpić szczęścia, razem y zpokrewnienia się z nim.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p><stage>(z ciekawością)</stage> To zapewne mam honor mówić z Jmcią Panem Szykanowiczem, który ma dzisiay zaślubić godną córkę Jmci Pana Podstolego.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Czy iuż to tak iest głośno? Prawda, ia iestem, który ią chcę wprzód widzieć, nie tak iednakowóż łatwo do tego przystąpię. Muszę się wprzód dobrze rozpatrzyć y wypytać, bo iak słyszałem, ma bydź nienayładnieysza, y Ociec cały w hymerach.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Y owszem zacny Dom... Jmć Pan Podstoli, y godna iego córka, okoliczny u wszystkich maią szacunek.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Równie zapewnie ciemnych iak są sami... Ja tego rozumieć nie mogę, iak ci Parafianie mogą komu przypisywać szacunek, kiedy nawet nie są w stanie poznania sentymentu, ani go nie mogą dystyngwować w człowieku. Co się tycze córki, dosyć, że iest kobieta, żeby ią tak mocno nie szacować... Znam się ia bardzo dobrze na gatunku iego stworzenia... Jest to płeć nayzdradliwsza pod słońcem, y nie szacuią iey tylko ci, którzy nie są w stanie przez ciemną [bo tak mówić mogę] Edukacyą, poznania się na ich sztukach y zdradach podstępnych.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Krzywdzisz WPan tym mniemaniem niesłusznie [że tak powiem] tę płeć która równego nam warta iest szacunku... Bo ieżeli niekiedy mnieysze w niey spostrzegamy wady, możemyż się wyprzeć daleko większych y nierównie mocnieyszych wartych nagan, które posiadamy... A potym...</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Ale czyż tylko ia ieden utrzymuię, znaydziesz WPan tysiąc osób, które się ze mną zgodzą, a tym samym wierzyć należy, iak powiadaią Pluralitas Votorum concludit.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Prawda, że nasza młodzież tak iest popsuta przez zbytnie pobłażania y wolność, iż niektórzy ledwie dopiero, że czytać za staraniem Rodziców umieią, a iuż po wszystkich posiedzeniach w proporcyi stanu swego o niestatecznych rezonuią kobietach. A nie maiąc to sobie zganiono, w tym wyrastaią nałogu, y innych złym psuią przykładem... Poprawić kogo w złym poczynaniu y ostrzedz, mam za cnotliwy uczynek, lecz naśmiewać się z cudzey ułomności, a ieszcze bez żadnego przekonania z samego szczegulnie uprzedzenia y dzikiey Filozofii, jest w moim rozumieniu rzeczą nayhaniebnieyszą.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(na stronie)</stage> Day go diabłu, iakiż moralista, musi bydź iakiego Prałata Duchownego Siostrzeniec, albo może bliższy krewny.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Musisz się WPan kochać bez wątpienia w iakiey Damie, że tak mocny dla nich zachowuiesz sentyment. Żal mi go prawdziwie, ze mną iednym uydzie mu to utrzymywanie, lecz w licznieyszey kompanii piekielnie byłbyś zawstydzonym y wyśmianym. Jak to można tak serio statek i wierność utrzymywać kobiet. Wieleż nie mamy romansów opisuiących ich charakter, y tyle innych przykładów, słowem razem z niemi, rodzi się w nich chęć y sposobność oszukiwania nas mężczyzn, a iakże można utrzymywać? że...</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Jeżeli z Romansów sądzić mamy o kobietach, które nie są istotą przekonywaiącą...</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Jak to? y WPan prawdziwym nawet wierzyć niechcesz opisaniom?</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Bardzobym błądził, gdybym wierzył pismom szczegulnie tylko dla zabawienia nas utworzonym. Zwyczayny to iest sposób Autorów, iż gdy chwali jedną, ganić musi drugą osobę, inaczey, czymżeby swoie ukształcił dzieło? Gdyby z takowych przykładów sądzić można o charakterach ludzi, w każdym rodzaju y płci równąbyśmy część znaleźli, wartą pochwał, y nagany.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(na stronie)</stage> A dalibóg on widzę formalnie zaczął kazanie.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Utrzymuyże WPan nakoniec iak mu się podoba. Prawda iest, że wolność mówienia nie iest zakazana w Polszcze, wolno człowiekowi myśleć, y mówić co tylko sam chce, y iak mu światełko dyktuie poznania.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Y toć to iest naygorszym złym, że nie zakazana, z tey bowiem wolności wzrasta trucizna, która wielu Oyczyźnie truie synów y naywyższym ustawom kraiowym wiernych wyrywa wykonywaczów... Gdyby to tylko Filozofowie modni, takowey wolności głupstwa napoieni iadem, na samym przestawali o kobietach rezonowaniu, mnieybym ich winił. Lecz nie na tym tylko swoią zasadzaią chlubę, ściągaią ieszcze do naywyższych magistratur y rządów kraiowych, szydzą z stanu każdego rodzaju, y dystynkcyi osób, samey nawet pokoiu nie daią Religii, a tak daleko zapędziwszy się przestaią bydź ludźmi, staiąc się tylko Bałwanami, na podobieństwo ludzi przemawiaiącemi.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(na stronie)</stage> Daley, daley, iak uważam nasz moralista, rozpłacze się.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Prawda, prawda, śliczny sentyment przekonywasz mnie WPan <stage>(na stronie)</stage> żeby się pozbydź można to... widzę Sarmata iakiś, grubianin w nawyższym stopniu. <stage>(do Frontyniego)</stage> Przynieś mi surdut i szpadę.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Zaraz Panie Dobrodzieiu <stage>(na stronie)</stage> Czy nie zechce on kłótni zrobić z tym Katechistą. <stage>(odchodzi)</stage></p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Zdaie mi się, żem WPana mową swoią uraził, co ieżeli tak iest, bardzo przepraszam, nie mówiłem ia w szczegulności ale w ogóle, więc...</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Bynaymniey, bynaymniey, nie widzę przyczyny gniewania się o rzecz, która się mnie nie tyka. Owszem kontent iestem z iego gorliwości dla Dam, prawdziwie gdyby która słyszała, upewniam, żebyś natychmiast czule nadgrodzonym został.</p>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs>
+              <rs key="#cnotliwski">CNOTLIWSKI.</rs> (Ciż)
+              <rs key="#frontyni">FRONTYNI.</rs> (y)
+              <rs key="#organista">ORGANISTA.</rs> (podpity)
+            </p>
+          </stage>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(zatrzymuiąc Organistę)</stage> Gdzie się ciśniesz móy Bracie? niemasz tu wódki, na przeciwko, na przeciwko.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p><stage>(odepchnąwszy Frontyniego)</stage> Puśćże mnie świstaku iakiś... patrzay go. Dom Boży zawsze dla mnie otwarty, a ty przedemną Mościwy Panie, chcesz zamknąć karczmę... Widzisz go, iaki mi on.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Ale Pan... Czapka... <stage>(chce mu zdiąć czapkę)</stage></p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Day mu pokóy.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Pan Czapka <stage>(idąc do Szykanowicza)</stage> To WPan Mościwy Panie nazywasz się Pan Czapka? bardzo się z tego cieszę, że się tak nazywasz... Proszę nakryć głowę... Ale niech wiem z iakiego Województwa, czy nie móy ziomek.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Któż Waść iesteś?</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Waść? a Waści wszyscy diabli do tego, Waść.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>A pociągneż ia go raz płazem.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Day pokóy, będziemy mieli zabawkę, nim Cześnikostwo nadiadą... Przepraszam przepraszam. Któż WPan iesteś?</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>To co innego. Ale nie czyń WPan Mci Panie ceremonii, nakryi głowę... Równy z równym nigdy żadnych kurowodów czynić Mci Panie nie powinien... A po tym trzęsieniu ziemi diabelnie aura nie zdrowa.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Ale niechże wiem z kim mam honor mówić?</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Jestem Mci Panie urodzony Gałda, z Woiewództwa Czerwonogrodzkiego... czyli... ba tak dobrze mówię Czerwonogrodzkiego.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Y czymże się tu WPan zabawiasz?</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Oyciec móy nazywał się tak iak ia, matka zaś z Wielkich Lubczyc Lubczewiczów Pimpinella, Lubczewiczówna. A co? miarkuy się WPan Mci Panie, czy nie należysz co do mnie. hę.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Cóż tu WPan robisz w Koronie?</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Wszystko się zdaie Mci Panie, żem z WPanem razem do szkół chodził pod Professorem Łykaczewiczem w Pińsku. Pamiętasz go WPan?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Ale Pan się WPana pyta, co tu robisz, y czym się bawisz w Koronie?</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p><stage>(czyni gest urżnięcia języka)</stage> Jest to cnota nad cnotami... trzymać zęby za ięzykiem, rozumiesz? nie wściubiay nosa między Panów móy Bracie.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(na stronie)</stage> Oh! poczekay bestyo! zadławię, zadławię iak psa byle tylko wyszedł do sieni.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Jestem tedy Mościwy Panie sługą Bożym y iego Domu Kościoła, to iest Farskim Organistą... A WPan Mościwy Panie iakiey iesteś Professyi? Ale, ale... należą do mnie prócz tego, dwie kaplice y...</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Y wszystkie karczmy.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Co ty pleciesz bluźnierco! A mores cujus generis? <stage>(tu mu wypada róg z tabaką)</stage> Ziedzże diabła... Ach wspomniałem szatana, Panie ofiaruię ci to za grzechy moie... Cóż albo to się można utrzymać, tu iak uważam człowiek y wszystkich diabłów wspomniałby... Proszę na tabakę.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Dziękuję, nie zażywam.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Co ia do tego trunku przyzwyczaiłem się.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>A podobno naywięcey do flaszki.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>A zasie hamie Mościwy Panie, zaraz, zaraz, zaraz, ia cię tu rozumu nauczę... Pozwól WPan Mościwy Panie, tylko mu mordy nakuię.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p><stage>(zatrzymuiąc go)</stage> Daruy mu WPan Mospanie Gałda, wybacz, <stage>(do Frontyniego)</stage> Wyidź ztąd. <stage>(Frontyni odchodzi)</stage></p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Nie zatrzymuy mię WPan, trupem Mościwy Panie, tego obwiesia położę.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>A nie godzi się zabiiać, przecież WPan sługą Bożym iesteś.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Prawda, prawda, y wielka prawda dobrze WPan Mościwy Panie mówisz... Parce nobis Domine, si cut nos dimittimus. No, wybaczam mu, ale iedynie dla tego, że do Dworu Mościwy Panie iść muszę.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Alboż masz interess y do Dworu?</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Y ieszcze iaki Mościwy Panie. Mam oznaymić, że Xiądz Kanonik bydź nie może chyba samym wieczorem, y przeprosić Państwo.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p><stage>(na stronie)</stage> Ach! iakżem z tey nowiny kontent, może ta zwłoka pomyślną dla mnie przyniesie korzyść.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>A to niegrzecznie, czemuż nie zaraz!</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Czy to on nie ma co do czynienia, iak wlazł nieboraczek na to Probostwo, iuż mu cztery uciekło gospodyń, a każda coś łapnie, y póydzie. Teraz u niego wesele.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>U Xiędza wesele?</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Wesele, wesele, Mościwy Panie, wydaie za mąż sierotę. Jakie kurowody... Musiał dać za nią Mościwy Panie parę wołów y krowę, bo inaczey niechciał iey parobek brać, no! temu się Mościwy Panie nie dziwuię. Gdyż Xiądz powiadaią nie ma żony, ani dzieci, niechże Mościwy Panie wspomaga ubogich ad M. D. G.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Prawdę WPan mówisz.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Osobliwie w tym czasie... Strach Boży, co się dzieie? nie zadługo koniec świata... Ziemia się trzęsie, nie mało szkody Mościwy Panie narobiło w Kościele, na chórze nawet, dwie co naydonośnieysze Mościwy Panie Piszczałki, zwichnęły mi się w pozytywie, y miechy popękały... Okna powylatały, potłukły się, nawet w tym zamieszaniu; gdzieś nam się święcona woda Mościwy Panie podziała, ledwieśmy ią we trzy dni znaleźli.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>A Rezydencya Xiędza Proboszcza?</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Nic iey przecie z łaski Pana Boga, bo dobrze opatrzona y podmurowana Mościwy Panie. Co w dzwonnicy także wiele szkody, sznury się Mościwy Panie porwały, y słup ieden wywraca się y dzwon tylko tylko że się Mościwy Panie nie urwie.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Trzeba wcześnie reparować!</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>A za co? Fundusz przy Kościele Mościwy Panie mały, Parafia nie naywiększa, cóż to te trzydzieści pięć wiosek. Nawet y lud teraz Mościwy Panie nienabożny, prócz pogrzebów, Chrzcin, y innych drobnych obwencyi których niema co Mościwy Panie y rachować, przez cały rok... y na tysiąc nawet mszy uzbierać nie można. Żyć Mościwy Panie daley nie będzie za co.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(wpadając)</stage> Państwo Cześnikostwo Przytulińscy iuż przyiechali.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Przytulińscy? a to Moi Dobrodzieie... należą też y oni do naszey Mościwy Panie Parafii.</p>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs>
+              <rs key="#cnotliwski">CNOTLIWSKI.</rs>
+              <rs key="#frontyni">FRONTYNI.</rs>
+              <rs key="#organista">ORGANISTA.</rs> (Ciż y)
+              <rs key="#cześnik">CZEŚNIK.</rs>
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+            </p>
+          </stage>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Ach! iakżem kontent niewypowiedzianie z przybycia WPaństwa Dobrodzieystwa poiedziemy tedy do Dworu.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Toś WPan nas tu umyślnie czekał?</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p><stage>(do Cnotliwskiego)</stage> Jak się masz Panie Regencie? Co tu robisz?</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Regent? ach! iakże się masz kochany Mecenasie?</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Byłem u bliskich moich sąsiadów, teraz powracaiąc do Domu stanąłem tu na popas.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Bardzom z tego kontenta, nie puściemy cię, poiedziesz z nami do Dworu. Skarbnikowiczu rekommendowałeś się Jegomości?</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Miałem honor tylko mówienia z Jegomością... proszę mnie rekommendować!</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Trzeba, trzeba, Regencie, rekommenduiemy ci przyszłego naszego sąsiada.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Kłaniay mu się Skarbnikowiczu niżey, tak interess wymaga, żeby ci niechciał szkodzić... bo masz wiedzieć... że iest twoim rywalem.</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>No daruy Skarbnikowiczu, żeśmy cię tak długo wytrzymali, moia żona temu winna, koniec nie chciała wziąść starszą córkę, a ia młodszą... Ona tamtey, a ia tey ubierać się kazałem... Ledwiem iey mógł wyperswadować, że przestała napierać się o starszą, alem też y na iey proźbę pozwolić musiał, y tak żadney nie wzięliśmy... Konie nawet zaprzężone więcey iak dwie godziny stały.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Wielka szkoda prawdziwie, bylibyśmy licznieyszą mieli Kompanią, lepszą zabawę...</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Alboż to z mężem moim można co poradzić... y nie wezmę, y nie wezmę Marysi, y nie wziął... tak się biedna spłakała.</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Niechay siedzi w domu, czy to wszędzie moia rybko dzieci za sobą włóczyć.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>WPan chcesz, żeby iak się porodziły za piecem, tak y poginęły, nigdzie im na świat pokazać się nie pozwolisz.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Brawo, dobrze Jeymość Pani Cześnikowa mówi.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p><stage>(włazi między nich)</stage> A mnież to Mościwy Panie, Państwo nie poznaią?</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Pan Gałda, iak się masz przyiacielu?</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>A Xiądz Kanonik zdrów?</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Do usług Pańskich, rusza się ieszcze Mościwy Panie.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Mieliśmy tu piękną rozrywkę z Panem Gałdą.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Tak iest. Poznawaliśmy się Mościwy Panie, oba z iednego iesteśmy kraiu.</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Bardzo zabawny wprawdzie. <stage>(do Organisty)</stage> To pewnie przyiechałeś po pieniądze na zapowiedzi... Nic nie wskórasz przyjacielu, bo szlub za Indultem będzie.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>A Veni Creator? także za Indultem? Oho nic z tego gotowych na to Mościwy Panie potrzeba pieniędzy. Co Bogu, to Bogu, a co nam to nam, z tego żyiemy.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Regencie, ruszayno się przecie... takeś pomieszany pierwszy raz cię takiego widzę... wyskoczysz przecie dzisiay z nami.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Y owszem Mościa Dobrodziko wesół iestem dosyć, y dopomagać im kompanii będę. <stage>(na stronie)</stage> O męczarnią!</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Nie traćmy czasu daremnie, iuż musiały konie wytchnąć, siadaymy... Ty moie serce z Panem Regentem, a ia biorę z sobą Skarbnikowicza. <stage>(odchodzi z Szykanowiczem biorąc go pod rękę)</stage></p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Brawo, brawo, siadaymy.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Brawa brawa, siadaymy, kochana Dobrodziko moia.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Gałduś, y ty iedziesz z nami?</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Jadę, iadę Mościwy Panie. Mam tu moią szkapę. Czekam na nią trochę, póki przetrze zęby... Ale Mościwy Panie dam znać Xiędzu Proboszczowi, że Państwo przyiechali. Gdzie Pani tam y my, bez nas nic się nie stanie, uchoway Boże Mościwy Panie.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Pokłońże mu się odemnie móy Gałduś, a niech się śpieszy. <stage>(odchodzi Cnotliwski)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <head>SCENA X.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#organista">ORGANISTA.</rs>
+            </p>
+          </stage>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p><stage>(sam)</stage> Móy Gałduś, móy Gałduś kochana, Cześnikowa, kochana Dobrodzika! Nieoszacowana Pani! Tak ma dobre serce, że gdyby można każdemuby nieba przychyliła... Pobożna, cnotliwa, zacna, można mówić kobieta: wielki też ma wszędzie partes. Ona u naszego Proboszcza pierwsze oko w głowie... Świadczy też wiele... Barany gdyby byki z iey owczarni idą na ofiarę... y o mnie nigdy nie zapomina. To święta Dusza... Pamiętam, gdy raz dała sto złotych na intencyą... przepomniałem iaką... A. a. a. żeby się iey ieszcze dziateczki rodziły... y ia wtenczas Mościwy Panie talara oberwałem... Modliliśmy się też szczerze y nie darmo... Nie rodzi ona, rodzą córki, wszystko to iedno... Day Boże Mościwy Panie, żeby prędko za mąż popochodziły... zacne także będą Panie. <stage>(odchodzi)</stage></p>
+          </sp>
+          <trailer>(KONIEC AKTU II)</trailer>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT III.</head>
+        <div type="scene" n="25">
+          <head>SCENA I.</head>
+          <stage type="setting">
+            <p>(Teatr oznacza też samę salą co w pierwszym Akcie)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#zuzanna">ZUZANNA.</rs>
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Gdzież WPanna znowu idziesz?</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Wiesz moia kochana iak Oyciec nagli moie z Szykanowiczem zamężcia... Ostatniego umyśliłam chwycić się sposobu. Póydę ieszcze raz do niego, y u nóg iego prosić będę, ażeby odmienił tak okropny wyrok.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Y nic zapewne nie wskórasz. Wiesz WPanna dobrze, iak Jegomość iest w swoim zacięty zdaniu. A Szykanowicz musiał go zczarować prawdziwie, bo inaczey nie rozumiem, iakby można do nieznaney osoby z samey szczegulnie pochwały Cześnikowstwa, tak daleko przywiązać się.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Cześnikostwo też po naywiększey części staią się umartwienia mego przyczyną, chwaląc go, że zna wielki świat, wiele może w Warszawie y łatwo mu będzie urząd taki dla mego wyrobić Oyca.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Urząd? on urząd dla Jegomości wyrobić, a iaki? chyba Kassierstwo w skarbie Króla Faraona, bo on tam iak słyszałam nawięcey może, co zaś gdzieindziey, nie rozumiem.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Cóż! kiedy Oyciec móy wierzyć temu niechce, wszystko ma za plotki y niesłuszne obmówiska, gniewa się nawet gdy mu kto wspomni, że...</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Oy co to to prawda, kaducznie Jegomość twardy... Ja sama wymyśliłam była maleńki na zniewolenie go sposób... gdzie ani sposobu... iak groch ściany, tak iego żadna nie chwyta się perswazya... Jeszcze mnie mało kułakiem nie poczęstował, y nową do odpędzenia z domu uczynił obietnicę.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Prosiłam Pana Starosty...</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Y to daremnie.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Ale słuchayże. Zwierzyłam mu się całego przywiązania, które mam dla Cnotliwskiego, y odrazy które na samo wspomnienie Szykanowicza czuię. Prosiłam, ażeby to przełożył Oycu memu...</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Cóż? podiął się, czy nie?</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Zdawał się przez czas nieiaki bydź w zadumieniu. Nakoniec spytał mnie, ieżeli chcę iść za Szykanowicza: niechcę, odpowiedziałam! lecz Oyciec mnie przymusić usiłuie.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Cóż on na to?</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Rozśmiał się, y rzekł, nie turbuy się, póydź pierwey do Oyca, y poproś, ia resztę biorę na siebie.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Nic łatwieyszego iak wziąść to na siebie, ale razem nic trudnieyszego iak dokazać, z serca życzę, lecz... Otóż y Jegomość idzie. Czyń WPanna, co możesz, a ia drapnąć muszę, bo mu dowierzać niechcę.</p>
+          </sp>
+        </div>
+        <div type="scene" n="26">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#zuzanna">ZUZANNA.</rs>
+            </p>
+          </stage>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Dobrze że cię tu zastaie moie dziecię... iuż przecie y Cześnikostwo przyjechali... Ceremonia niepotrzebna, zaiechali przed officyny, razem zapewne z Skarbnikowiczem przyidą... Ty iesteś gospodynią, należy żebyś uprzedziła, póydź tedy y zabierz ich tu z sobą.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p><stage>(uklękaiąc)</stage> Ah! Oycze kochany przez litość...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Cóż to znowu ziawiło się; wstań waść.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Nie, nie wstanę, dopóki go albo nie ubłagam, albo życia u nóg iego nie skończę.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Czegóż chcesz moie dziecię?</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Nie nagliy mnie WPan Dobrodziey do dania ręki Szykanowiczowi, puść to w odwłokę, y oddal do czasu namyślenia się mego.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>To znowu nowy kaprys. Ieszczeć to więcey iak dwie godziny do tego przystąpienia, możesz więc przez ten czas myśleć sobie, inaczey iednak nie zrobisz, tylko iak ia chcę. Rozumiem ia dobrze, co cię zatrzymuie, Cnotliwski, wszak prawda... ale uważ sama; mogęż przekładać Cnotliwskiego, który iednę tylko wioskę y to przez zastaw trzyma, nad Szykanowicza tak wiele iak powiadaią mogącego w Warszawie... A potym sto tysięcy nie bagatela, które zaraz dać myślę. Cóżby niemi zrobił Cnotliwski, nie maiąc iak tylko w naszym Woiewództwie cokolwiek renomy... Lepiey ia moie dziecię te rzeczy uważam, y ieżeli co czynię; czynię końcem dobra twoiego.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Zatrzymay WPan Dobrodziey posag, który mnie iak uważam szczęśliwą nie zrobi. Cnotliwski dość iest bogatym gdy żyć bez cudzey może pomocy, więcey nawet możnym bo w własnym nie w obcych Woiewództwach... Nakoniec miley mi będzie choć przy miernym maiątku dzielić los z osobą, którą kocham, niż żyć w pośrzód dostatków z tym którego nienawidzę.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>A to rzecz osobliwsza... Jakże możesz nienawidzić osoby, którey nie znasz, w którey nic chwały, ani nagany wartego nie widziałaś ieszcze.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Y którey nawet znać niechcę... Dosyć ią iuż właściwie mam odmalowaną, że wątpić nie mogę.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Odmalowała go przed tobą tak źle, zapewne iaka wdowa, przez zazdrość że iey może kochać niechciał, słyszałem wprawdzie y ia, że nie naylepszą o kobietach ma opinią, ale to nie o wszystkich zapewnie. A ieżeli o niektórych mówi źle, nie mam mu tego za złe... Wiele bardzo znaydziemy takich, które więcey ieszcze niż bez względnych warte są krytyk.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>To pewna Mości Dobrodzieiu, ale...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Ale, ale, iużem ci tyle razy powiedział, że tak bydź musi, iak ia chcę... Wyidź przeciw Cześnikostwu... Ale otóż widzę, y sami nadchodzą.</p>
+          </sp>
+        </div>
+        <div type="scene" n="27">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#zuzanna">ZUZANNA.</rs> (Ciż)
+              <rs key="#cześnik">CZEŚNIK.</rs>
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(z radością)</stage> A witam, witam, moich Dobrodzieiów, miło mi iest...</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Prezentuiemy tedy WPanu Dobrodzieiowi zacnego kawalera, Jmci Pana Szykanowicza, a sami dawney przypominamy się łasce.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Wdzięcznem iestem WPaństwu Dobrodzieystwu za ich łaski, ta bowiem wizyta przynosi mi...</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Gwiazda, pod którąm się urodził, prognostykowała mi, iż będę kiedyś w domu, w którym cnota swoie założyła siedlisko. Uiszcza się teraz, gdy mnie przeznaczenie sprowadza do oddania winney attencyi w progach WPana Dobrodzieia.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Nie mogę inaczey mówić, iak tylko, że mnie WPan Dobrodziey czynisz szczęśliwym przez świadczenie tey łaski, która...</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Dosyć tych komplementów, dosyć, lepiey tym czasem...</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Prezentuię mu córkę moią.</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p><stage>(do Łatwowierskiego)</stage> Mamy prócz tego wiele z Panem do mówienia, chodźmy więc do iego pokoiu, a młodzi niech się tu poznaią tym czasem.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Proszę, proszę... służę WPaństwu. <stage>(odchodzą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="28">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs>
+              <rs key="#zuzanna">ZUZANNA.</rs> (zamyślona odchodzi pomału)
+            </p>
+          </stage>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p><stage>(na stronie)</stage> Sam nie wiem iak do niey zacząć <stage>(głośno)</stage> cóż to? unikasz Pani odemnie?</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Miałam odeyść do mego pokoiu dla uczynienia niektórych dyspozycyi. <stage>(na stronie)</stage> na sam widok tey poczwary serce się wzdryga.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Nie racz ukrywać śliczna Pani tych wdzięków, któremi serce skrępowałaś moie... Mógłżem się kiedy tak drogiey y szacowney spodziewać chwili, w którey bez żadney przeszkody patrzać na twoie śliczne wolno mi iest wdzięki.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Żart WPana wcale nie jest powiedziany w mieyscu, znam to sama naylepiey, iż żadnych nie posiadam wdzięków, ani mocy serc krępowania.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p><stage>(na stronie)</stage> Wielka prawda <stage>(głośno)</stage> Co mówisz Pani? któż może mieć moc większą podbiiania serc, iak ta płeć białością przechodząca Lilie. Ten rumieniec blaskiem swym kassuiący róże. Te brwi dyskretnym ułożone promykiem, ta pierś obła y wspaniała, ta kibić, te rączęta, słowem; niech zginę w oczach twoich, ieżeli kłamię, iż żywy portret w tobie widzę Wenery... Y bądź pewna, że chociażby twardsze nad marmur, stal, y skały serce było, zmiękczyćbyś go y zapalić ku sobie łatwo potrafiła.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Nie maiąc Edukacyi wielkiego świata, równą mu się grzecznością wywiązać nie potrafię... W mym zaś sposobie myślenia, wszystkie iego pochwały mam raczey za krzywdy zwłaszcza pewną będąc, iż...</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Y ieszczeż mi nie wierzysz? Bogdayżem większych doznał przypadków, nad Hipolia, Koloandra, Tybola, y innych ieżeli nie nayszczerszą wyznałem ci prawdę... Tak wierz naysłodsza duszy moiey pociecho... y racz mię o swoiey upewnić ręce... inaczey, rozpacz mi życie odeymie. <stage>(na stronie)</stage> Jeśli wprzód oszaleię.</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Śmierci... WPana nie żądam... Upewnić go zaś o sercu tym nie mogę, którym sama nie rządzę.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Ach! ileż ci winien nie iestem za tak słodką odpowiedź... że śmierci moiey nie żądasz, znakiem iest że Ci drogie moie życie, że zaś sercem swym nie rządzisz, podchlebiam sobie, że ie iuż posiadam... Pozwólże niech ci...</p>
+          </sp>
+          <sp who="#zuzanna">
+            <speaker>ZUZANNA.</speaker>
+            <p>Daruiesz mi WPan, że odeyść muszę.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p><stage>(przeprowadzaiąc ią)</stage> Adieu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="29">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p><stage>(sam)</stage> A ona się iak uważam, z tym swoim rucianym kwiatkiem powabu drożyć zaczyna... Y... mnieysza o to. Byle pieniążki łapnąć, o serce bardzo krotki targ będzie między nami... Spisałem niektóre punkta, żeby się na nich staruszek zgodził, bardzo bym był kontent... Cześnikostwo iednak wielką mi są pomocą, mogę mówić, iż bez nich wątpię, żebym czego dokazał... wdzięczen też im iestem za to... Nauczyłem Cześnika grać w Kalabrakę, Kwindecz, y po części w Faraona, a nawet nie wiedział iak kartę w ręku trzymać... Co zaś naywiększa, nauczyłem go bez żadnego prawie zysku... graiąc z nim po złotemu, dwa, a naywięcey kiedy przyszło do pół dukata... ha! mało zyskałem, mam za to przyiaciela, który mi do większych zysków uścieła drogę.</p>
+          </sp>
+        </div>
+        <div type="scene" n="30">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs>
+              <rs key="#frontyni">FRONTYNI.</rs>
+            </p>
+          </stage>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(wchodzi zmieszany, tonem taiemnicy)</stage> A sam Pan tu iest tylko?</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Sam, cóż ztąd?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Dowiedziałem się od człeka, tego Starosty co tu iest, iż Pańskiego przyiaciela Pana Wywiackiego, schwytano, y zasadzono do Kozy.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Gdzie?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Zapomniałem się spytać, ale w tym za pewne miasteczku zkąd są oni... Zmiłuy się WPan, nie bespieczno tu na nas. Niech tam milion Diabłów weźmie y żonę, chodzi tu o nas samych.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Tchórz iesteś móy kochany, wiesz dobrze, że nas tu nie znaią... Na cóż mam uciekać? kiedy myślę suto wyiechać ztąd, y wziąść na drogę cokolwiek dukacików od mojego Teścia, ha, ha.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Ale iak przy Wywiackim znaleziono ten list, który Pan do niego pisał, to gorzey... Skóra moia coś przeczuwa niedobrego; nie popasaymy tu długo!</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Ja też sam, byle z staruszkiem skończyć natychmiast chcę wyiechać... y boday czy iutro nie wyiedziemy. Interessa coś nie naygorzey idą.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Dałby to Bóg, żeby co zyskać można pieniędzy, bo iuż nawet z tych ostatnich dwunastu Czerwonych złotych, które Pan u Cześnika wygrał, nie będę miał więcey iak groszy ośmnaście.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>To prawda że bieda, ale mnie czasem y śmiech bierze, iak y teraz ośmnaście groszy w kassie na cały woiaż... O gdyby wszyscy woiażuiący, tak się wybierali za granicę bogato, y porządnie, iak ia czasem, z mieysca iakiego wymknę... Małoby bardzo tracił kray pieniędzy, ale odeydź. Myślę ia sam o sobie dobrze... Ma tu przyiść moia nayukochańsza Małżonka, ha, ha, ha.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>A cóż? nie prawdziwie ią opisałem Panu?</p>
+          </sp>
+        </div>
+        <div type="scene" n="31">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs>
+              <rs key="#frontyni">FRONTYNI.</rs> (Ciż y)
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(wpadając)</stage> Jeymość Pani Cześnikowa prosi Pana.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Gdzież iest? w którym pokoiu?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>W tym, U moiey Pani. <stage>(Szykanowicz odchodzi. Frontyni stoi)</stage></p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(na stronie)</stage> Muszę też się choć malutką poumizgać chwilkę, bo powiadaią, że serce usycha, kiedy próżnuie. <stage>(do Frontyniego)</stage> Czy dawał WPanu Adam wódki? <stage>(na stronie)</stage> Tak mnie pewna stara nauczyła matrona, że miłostki zawsze od niego zaczynać należy.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(zamyślony)</stage> Piłem iuż z łaski WPanny. <stage>(na stronie)</stage> Terazby to czas naylepszy palić umizgi... Cóż?... Tak mam strachu y boiaźni pełne napakowane serce, że y kawałeczka miłości nie można w nim umieścić.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p><stage>(wracaiąc się)</stage> Coś sobie pod nosem mruczy, zapewne nie śmie.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(na stronie)</stage> Trzeba przynaymniey dla umorzenia zgryzoty pomówić z nią <stage>(do Wścibski)</stage> Pewnie WPanna miałaś mi dać zakąskę?</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Tak iest? Ale cóż to? tak iesteś nie wesoł y pomieszany... Czemu to?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Mam ważne móy Aniołku przyczyny. Koń się podemną ów doświadczony szpakowaty potknął. A to zły iakiś prognostyk. <stage>(na stronie)</stage> Czysta nie zabawem koza.</p>
+          </sp>
+          <sp who="#wścibska">
+            <speaker>WŚCIBSKA.</speaker>
+            <p>Nie uważay nic, żeby w takie prognostyki wierzyć, z izby chyba nie potrzebaby wychodzić obawiaiąc się przypadku. Nic to, nie znaczy. <stage>(na stronie)</stage> Nie raz wydarzy się podknąć, przecież nie zawsze szkodzi... Ale Jegomość widzę nadchodzi, chodź ze mną do apteczki, napiiem się ieszcze wódki, muszę cię koniecznie zrobić wesołym. <stage>(odchodzą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="32">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#starosta">STAROSTA.</rs> (późniey)
+              <rs key="#adam">ADAM.</rs>
+            </p>
+          </stage>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Jakim to bydź może sposobem, przyznam się WPanu Mości Starosto, trudno mi wierzyć nawet przychodzi temu.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Piękniebyś WPan wykierował był córkę. Tak się rzecz ma cała. Oszukiwał, szulerował, skrypta zmyślał, y na te pieniędzy pożyczał, nakoniec zemknął, y szczęściem w moim go schwytano miasteczku... Znaleziono nawet przy nim list, który mi był powodem, żem natychmiast do WPana pośpieszył. <stage>(dobywa)</stage> Oto iest. Czytay go WPan, a dopiero poznasz, co cię wkrótce czekało.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p><stage>(czyta)</stage> „Monsieur Wywiacki kochany przyiacielu. Jeżeliś goły, nie troskay się, wkrótce będziemy bogaci, walna mi tu do stu tysięcy trafia się partya, u poczciwego staruszka Łatwowierskiego. Jestem teraz w urzędzie, nazywaią mnie Skarbnikowiczem, y wszyscy Parafianie czołem prawie przedemną biią. Niechcę tak pomyślney opuszczać chwili, trzeba z osłów profitować. Zabawiam się teraz u Cześnikostwa Przytulińskich iego sąsiadów, ci prostaczkowie nie wiedząc co się stanie, naywiększą mi są pomocą do zyskania ręki namienionych pieniędzy. W tych dniach myślę zakończyć wszystko. Ułożyłem niektóre punkta, na które spodziewam się bez żadney trudności od mego mniemanego Teścia dostać pieniędzy... A tak zaręczyny zrobiwszy, a może y część wesela, pośpieszę do ciebie, zostawiwszy komu się podoba żonę... Jeżeli masz także iaką facyendę, uwiiay się co żywo, gdyż ia wkrótce do ciebie zbiegnę, y musiemy uiechać daley. Całuię się serdecznie, twóy przyiaciel y sługa,<lb /> Franciszek Szykanowicz.<lb /> A po tuteyszemu Skarbnikowicz Wendeński” ... No. Takiś to waść Panie zięciu?</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Cóż WPan na to mówisz?</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Ach Mości Dobrodzieiu! iakżem wdzięczen, wyrazić nie potrafię za ten iego dowód przyiaźni. Ale nie trzebaby nam opóźniać się, żeby się nie wymknął oszust... Każę go wziąść y odeślę do Grodu, prędzey się iak spodziewał z swoim zobaczy kamratem.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Nie wie on o niczym, ani też mnie zna, dosiedzi nam zapewnie. Ale zróbmy uciechę, udawaymy, że o niczym nie wiemy, niech nam produkuie punkta, o których w liście wspomina, a potym za czub Jegomość P. Cnotliwski, któregom iuż dawno kierował w dom WPana. Kawaler uczciwy, Obywatel nam znany, skończmy więc to dzisiay.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Całym sercem przychylam się do żądania WPana Dobrodzieia, szacowałem też sobie zdawna Jmci P. Cnotliwskiego, nie mniey y córka moia życzyła go sobie. Ułożemy to dzisiay zupełnie... Czy mnie zczarował, żem się tak był do tego przywiązał oszusta... Osłami nas Mospanie porobił... będziemyż się starać odwdzięczyć za to Jegomości <stage>(dzwoni)</stage>
+              <stage>(Adam wchodzi)</stage> Słuchay Adamie, Ty, Mikołay kredencerz y Strzelec Jmci Pana Starosty macie bydź w przedpokoiu, a gdy zadzwonię w niydźcie, y pamiętaycie to robić, co wam rozkażę. <stage>(Adam odchodzi)</stage></p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Walne mu wyporządziemy zaręczyny ha, ha, ha.</p>
+          </sp>
+        </div>
+        <div type="scene" n="33">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#starosta">STAROSTA.</rs> (Ciż y)
+              <rs key="#cześnik">CZEŚNIK.</rs>
+            </p>
+          </stage>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Czy iuż po sekretach? siedzę, siedzę sam, iużbym był prawdziwie zasnął, żebym się był nie rozerwał w karty, pięknie WPan Mospanie Podstoli przyimuiesz gości.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ja to winien iestem Mości Dobrodzieiu tey niegrzeczności gospodarza, zatrzymawszy go do tego czasu, maleńką mieliśmy konferencyikę.</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Zapewne o handlu - y ia słyszałem, że teraz w Gdańsku pszenica nie popłaca. Pan Łowczy nawet na Potaziu stracił. Ciężkie czasy. Ale gdzież są młodzi?</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Podobno z Jeymść Panią Cześnikową także robią konferencyą. Ale spodziewam się nadeydą.</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>O! moia żona lubi bardzo koiarzyć kochanków, wiele to iuż ona poswatała, pożeniła, y zliczyćby trudno. A zawsze chwała Bogu szczęśliwie.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Zazdrościć można Jeymć Pani Cześnikowey Dobrodzice takowey zręczności.</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Ma swoie sposoby... Ależ Pan Cnotliwski arte gra w Maryasza, można mówić.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>A gdzież iest?</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Został się w pokoiu... Owóż idzie.</p>
+          </sp>
+        </div>
+        <div type="scene" n="34">
+          <head>SCENA X.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#cześnik">CZEŚNIK.</rs> (Ciż y)
+              <rs key="#cnotliwski">CNOTLIWSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>A Mości Panie Regencie prosiemy do kompanii. Godzi się to od szczerych unikać przyiaciół? bardzo nie grzecznie. <stage>(ściska Cnotliwskiego)</stage></p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p>Zabawiałem się z Jmć Panem Cześnikiem Dobrodzieiem w karty, teraz pośpieszam służyć WPanu Dobrodzieiowi.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Bądź dobrey myśli Panie Regencie, będziemy się wesoło bawić.</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Zapewne nie ma się czego smucić... Ja sam kiedym był Kawalerem, w czterech mieyscach, pewną miałem nadzieię. Wszędzie mi odmówiono, przecież dla tego nie powiesiłem się, y trafiłem na moią Babę, żeśmy się nakoniec spokoynie pobrali. Jak to powiadaią. Oboie raboie. <stage>(biiąc po ramieniu Cnotliwskiego)</stage> Oy tak, tak, Mości Panie, tak.</p>
+          </sp>
+        </div>
+        <div type="scene" n="35">
+          <head>SCENA XI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#cześnik">CZEŚNIK.</rs>
+              <rs key="#cnotliwski">CNOTLIWSKI.</rs> (Ciż y)
+              <rs key="#organista">ORGANISTA.</rs>
+            </p>
+          </stage>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p><stage>(wchodząc)</stage> Pokóy temu Domowi. Jegomość Xiądz Proboszcz przezemnie godnego subalterna swego, naywyższą całey kompanii przysyła Benedykcyą, y przeprasza, że służyć nie może, chyba po nieszporach... ale mogą tym czasem Państwo rozpoczynać Mościwy Panie Fest weselny... Dobry Pasterz, czy pierwey czy późniey włoży na swoje owieczki błogosławieństwo, rownie iest Mościwy Panie ważne.</p>
+          </sp>
+        </div>
+        <div type="scene" n="36">
+          <head>SCENA XII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#cześnik">CZEŚNIK.</rs>
+              <rs key="#cnotliwski">CNOTLIWSKI.</rs>
+              <rs key="#organista">ORGANISTA.</rs> (Ciż)
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+              <rs key="#zuzanna">ZUZANNA.</rs> (y)
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs>
+            </p>
+          </stage>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Właśnie wczas zastaiemy WPaństwa w tym mieyscu Mości Panie Podstoli. Czas upływa, trzeba zacząć robotę, smutna nam wprawdzie Panna młoda, ale to iest zwyczajem... Odmieni humor nie zadługo, spodziewam się.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Tak y ia tuszę Mościa Dobrodziko. Nim tedy przystąpiemy do rzeczy, trzeba się nam spytać, ieżeli się sobie podobaią wzaiemnie.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Nie ma co o to pytać... Jmć Pan Skarbnikowicz życzy sobie ręki Jeymć Panny Zuzanny. Ja zaś za nią odpowiadam, że mi się iey nie odmówi... Ważnieysze tym czasem ułatwiać interessa... Skarbnikowiczu! gdzie są punkta?</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Oto są Mościa Dobrodziko, aleby to zrobiło się y późniey, co się ma Jmć Pan Podstoli żenować.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Y owszem proszę o nie, <stage>(bierze)</stage> Ja sam, ieżeli chcę rzecz iaką robić, chcę ią mieć zawsze na dobrym fundamencie.</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Bardzo słusznie, ludzie iesteśmy śmiertelni... wszystkie więc nasze czynności powinniśmy robić mocno, y gruntownie. Czytay WPan, y my też podpiszemy się iako przytomni przyiaciele.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>No! podpisuycież prędzey, niech długo z obrączkami nie czekam... Nie koniecznie y czytać trzeba, wiem, że Skarbnikowicz musiał napisać dobrze.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Owszem słyszeć chcemy... Mospanie Podstoli, Pan Regent młodszy niech WPana wyręczy.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Bardzo proszę. <stage>(oddaie punkta Cnotliwskiemu)</stage></p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p><stage>(czyta)</stage> Między Wielmoż: Jm Panem Fraciszkiem Kiełda Szykanowiczem, Skarbnikowiczem Wendeńskim z iedney, a Jmścią Panem, iakiego bądź Imienia Łatwowierskim Podstolim: z drugiey strony, przedślubne, zgodnie umowne, y w niczym nieodmienne spisane punkta.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Proszę się zatrzymać... <stage>(do Cnotliwskiego)</stage> Czy nie możnaby Mościwy Panie wymazać jego przydomku. On się widzę nie naylepiey wydaie... Już dwanaście lat Mościwy Panie iestem przy Kościele, a ieszcze się nam żaden nie trafił Kiełda... Popaskudzi nam Mościwy Panie wszystkie metryki szlubne.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p><stage>(czyta)</stage> 1mo. Ponieważ Jmć Pan Podstoli pragnie mieć zaślubioną córkę swoią przez W. Skarbnikowicza, nie odkładaiąc więc czasu, ani żadney czyniąc zwłoki, natychmiast zaręczyny zrobi,</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Nie myślę ia sam żadney czynić zwłoki. Słuchaymy.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p><stage>(czyta)</stage> 2do. Od dnia zaręczyn, szlub, ani pierwey ani późniey nastąpić nie ma, iak za Niedziel trzy, a to za powrotem W. Skarbnikowicza z Dóbr swoich dziedzicznych klucza Astrachańskiego, na Pokuciu sytuowanych.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Ale czy się będziesz WPan mógł zwrócić za tak krótki czas z Pokucia?</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Dzień późniey lub dwa, nie wiele zrobi różnicy.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Słuchaymy daley?</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p><stage>(czyta)</stage> 3tio. Ponieważ zaś wzmiankowane Dobra klucz Astrachański są w zastawie, a teraz Triennium kończy się, w moc więc posagu Jmć P. Podstoli natychmiast summą trzy tysiące Czerwonych złotych na wykupno Possessora wyliczy, z którey co instante W. Skarbnikowicz zakwitować obowiązuie się.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p><stage>(na stronie)</stage> To widzę nieszpetny Baranek, na pierwszym wstępie chce podstrzyc owieczkę, y obłatać sobie skórę.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Całym sercem wyliczę, wyliczę.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p><stage>(czyta)</stage> 4to. Unikaiąc expensy na Pocztową podróż... Kolaski y czterech koni dobrych Jmć Pan Podstoli nie wzbroni, y dania stu Czerw. Złotych na drogę nie odmówi, które za powrotem Wielm. Skarbnikowicza oddane bydź maią.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p><stage>(na stronie)</stage> Sto Czerwonych złotych na samą drogę. Chyba do Jerozolimy Mościwy Panie poiedzie... za te pieniądze pysznyby można kupić Organ, y z parę trębaczów utrzymywać Mościwy Panie.</p>
+          </sp>
+          <sp who="#cnotliwski">
+            <speaker>CNOTLIWSKI.</speaker>
+            <p><stage>(czyta)</stage> Które to punkta, dla tym większey wagi, strony obie przy uproszonych przyiaciołach podpisuią.</p>
+          </sp>
+        </div>
+        <div type="scene" n="37">
+          <head>SCENA XIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#łatwowierski">ŁATWOWIERSKI.</rs>
+              <rs key="#starosta">STAROSTA.</rs>
+              <rs key="#cześnik">CZEŚNIK.</rs>
+              <rs key="#cnotliwski">CNOTLIWSKI.</rs>
+              <rs key="#organista">ORGANISTA.</rs>
+              <rs key="#cześnikowa">CZEŚNIKOWA.</rs>
+              <rs key="#zuzanna">ZUZANNA.</rs>
+              <rs key="#szykanowicz">SZYKANOWICZ.</rs> (Ciż)
+              <rs key="#frontyni">FRONTYNI.</rs> (y)
+              <rs key="#wścibska">WŚCIBSKA.</rs>
+            </p>
+          </stage>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(bieży przed Łatwowierskim)</stage> Ponieważ Pana mego solenny Akt odrawuie się zaręczyn, niech Pan raczy y nas pobłogosławić z tym buziaczkiem <stage>(pokazuie na Wścibską)</stage> Jużeśmy dali sobie słowo.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Zaczekay przyiacielu, nie zapomnę ia y o tobie. <stage>(dzwoni, ludzie wchodzą)</stage></p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p><stage>(na stronie)</stage> Y daleyże, brykaycie, póki wam pasza służy... Dwa szluby, dwie sikory, a ieszcze przy iednym zapaleniu świec.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(na stronie)</stage> Ma dziewczyna kilka złotych, zdadzą się na drogę.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Zuzanno! przystąp tu... Mospanie Cnotliwski daycie sobie ręce. <stage>(tu z wielką radością klękaią oboie)</stage> Niech was Bóg błogosławi moie Dzieci.</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>A Mospanie Podstoli, cóż ten żart ma znaczyć ze mnie?</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(na stronie)</stage> Ziedżże sto Diabłów. To iuż po szczęściu.</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Potożeśmy Mospanie przyiechali?</p>
+          </sp>
+          <sp who="#cześnik">
+            <speaker>CZEŚNIK.</speaker>
+            <p>Tey krzywdy nigdy darować nie możemy.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p><stage>(na stronie)</stage> Wszystkim iakby patykiem Mościwy Panie poucierał nosy.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Poczekaycie moie Państwo, wnet się wam usprawiedliwię. <stage>(dobywa listu y do Szykanowicza mówi)</stage> Znasz WPan ten charakter y swego Kollegę Pana Wywiackiego?</p>
+          </sp>
+          <sp who="#szykanowicz">
+            <speaker>SZYKANOWICZ.</speaker>
+            <p>Zginąłem.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p>Już po nas!</p>
+          </sp>
+          <sp who="#cześnikowa">
+            <speaker>CZEŚNIKOWA.</speaker>
+            <p>Cóż to znaczy? poiąć tego nie mogę.</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Łatwo WPaństwo poymiecie, y dowiecie się, iaką przysługę uczynić mi mieliście. A tym czasem. <stage>(do ludzi)</stage> Weźcie Ichmościów do piwnicy. <stage>(tu Szykanowicz w naywyższym wstydzie odchodzi z ludźmi: Frontyni zaś wydziera się im)</stage></p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Otóż macie, przyiechałem na wesele, trafiłem na pogrzeb, sam nie wiem czy powinszowanie, albo exortę zacząć <stage>(do Łatwowierskiego)</stage> Ale po cóż do piwnicy? taki karceres dla uczciwych ludzi Mościwy Panie zdałby się. Lepiey pod moią Juryzdykcyą zamknąć ich do kuny, niech się Mościwy Panie z parszywych Kozłów wszystkie naśmiewają Owieczki.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(wydarłszy się pada do nóg)</stage> Panie daruy, ia nie iestem winien, po cóż y mnie do piwnicy?</p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Nie, nie, nie, chciałeś się przyiacielu razem z Panem zaręczać... Towarzysz mu więc y teraz... Wspólnie musieliście oszukiwać, wspólnie będziecie karani.</p>
+          </sp>
+          <sp who="#frontyni">
+            <speaker>FRONTYNI.</speaker>
+            <p><stage>(przeraźliwie)</stage> Bodayżem zkościał, ieżeli chciałem się żenić, to był żart... Ja mam nieodbite powołanie, do Bernardynów wstąpić.</p>
+          </sp>
+          <sp who="#organista">
+            <speaker>ORGANISTA.</speaker>
+            <p>Obeydzie się bez twoiey wokacyi, zostawszy Kwestarzem wybierałbyś w naszey Parafii Barany. Szczęśliwa droga. <stage>(odchodzi za Frontynim, którego poprowadzili)</stage></p>
+          </sp>
+          <sp who="#łatwowierski">
+            <speaker>ŁATWOWIERSKI.</speaker>
+            <p>Dosyć iuż dosyć oszukiwać, y latać po świecie. Póty dzban wodę nosi, póki się ucho nie urwie. <stage>(do Starosty)</stage> WPanu zaś Dobrodzieiowi nieskończoną do zawarcia powiek winien zostaię wdzięczność, żeś mnie od takiego uchronił przypadku.</p>
+          </sp>
+          <sp who="#starosta">
+            <speaker>STAROSTA.</speaker>
+            <p>Ta mała przysługa będzie dowodem czułey przyiaźni, którą mam zawsze dla WPana Dobrodzieia... Ale niech to zdarzenie nie miesza naszych uciech... Chodźmy rozpoczęte kończyć dzieło <stage>(do młodych)</stage> Wam zaś moie dzieci przy błogosławieństwie Oycowskim, życzę, niech się zawsze szczęści, a teraźnieysze zdarzenie nauczać was będzie, że każdego Filuta zawsze zły koniec czeka.</p>
+          </sp>
+          <trailer>(KONIEC)</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

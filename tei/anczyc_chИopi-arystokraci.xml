@@ -1,0 +1,1908 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000028" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Chłopi arystokraci</title>
+        <title type="sub">Szkic dramatyczny w jednej odsłonie ze śpiewkami</title>
+        <author>
+          <idno type="isni">0000000071465148</idno>
+          <idno type="wikidata">Q713375</idno>
+          <persName>
+            <forename>Władysław</forename>
+            <forename>Ludwik</forename>
+            <surname>Anczyc</surname>
+          </persName>
+        </author>
+        <!-- Władysław Ludwik Anczyc (1823-1883) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/chlopi-arystokraci-szkic-dramatyczny-w-jednej-odslonie-ze-spiewkami,NDQ3MTQy/3/</idno>
+          <title>Anczyc, W.L., Chłopi arystokraci : szkic dramatyczny w jednej odsłonie ze śpiewkami, Kraków 1851</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="feldwebel" sex="MALE">
+            <persName>Feldwebel</persName>
+          </person>
+          <person xml:id="jędrzejowa" sex="FEMALE">
+            <persName>Jędrzejowa</persName>
+          </person>
+          <person xml:id="katarzyna" sex="FEMALE">
+            <persName>Katarzyna</persName>
+          </person>
+          <person xml:id="marcin" sex="MALE">
+            <persName>Marcin</persName>
+          </person>
+          <person xml:id="marysia" sex="FEMALE">
+            <persName>Marysia</persName>
+          </person>
+          <person xml:id="mojsiek" sex="MALE">
+            <persName>Mojsiek</persName>
+          </person>
+          <person xml:id="stanisław" sex="MALE">
+            <persName>Stanisław</persName>
+          </person>
+          <person xml:id="szczepan" sex="MALE">
+            <persName>Szczepan</persName>
+          </person>
+          <person xml:id="wojciech" sex="MALE">
+            <persName>Wojciech</persName>
+          </person>
+          <person xml:id="żydek" sex="MALE">
+            <persName>Żydek</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-29">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="premiere" when="1849-12-20">
+        <desc>Przedstawiono na Teatrze Krakowskim pierwszy raz dnia 20go grudnia 1849go roku</desc>
+      </event>
+      <event type="print" when="1850">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">CHŁOPI<lb />
+            ARYSTOKRACI</titlePart>
+            <titlePart type="sub">SZKIC DRAMATYCZNY<lb />
+            W JEDNEJ ODSŁONIE ZE ŚPIEWKAMI</titlePart>
+          </docTitle>
+          <byline>PRZEZ<lb />
+            <docAuthor>WŁADYSŁAWA LUDWIKA ANCZYC</docAuthor>.
+          </byline>
+          <docImprint>
+            <p>
+              <pubPlace>KRAKÓW</pubPlace>
+              <bibl>
+                W <publisher>DRUKARNI JÓZEFA CZECHA</publisher>.
+              </bibl>
+              <date>1951</date>.
+            </p>
+          </docImprint>
+        </titlePage>
+        <castList>
+          <head>OSOBY:</head>
+          <castItem>
+            <role corresp="#wojciech">WOJCIECH,</role>
+            <roleDesc>kmieć</roleDesc>
+            <actor>Pan Białczyński.</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#katarzyna">KATARZYNA,</role>
+            <roleDesc>jego żona</roleDesc>
+            <actor>Panna Grochowska.</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#szczepan">SZCZEPAN,</role>
+            <roleDesc>żołnierz, syn Wojciecha</roleDesc>
+            <actor>Pan Linkowski.</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#marcin">MARCIN,</role>
+            <roleDesc>parobczak, syn Wojciecha</roleDesc>
+            <actor>Pan Janowski.</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#marysia">MARYSIA,</role>
+            <roleDesc>wychowanka tegoż</roleDesc>
+            <actor>Pani Linkowska.</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#stanisław">STANISŁAW,</role>
+            <roleDesc>zagrodnik</roleDesc>
+            <actor>Pan Trynkhaus.</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#feldwebel">FELDWEBEL,</role>
+            <roleDesc/>
+            <actor>Pan Gołębiowski.</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#jędrzejowa">JĘDRZEJOWA,</role>
+            <roleDesc>komornica</roleDesc>
+            <actor>Panna Kruczkowska.</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#mojsiek">MOJSIEK,</role>
+            <roleDesc>arendarz</roleDesc>
+            <actor>Pan Giettirch.</actor>
+          </castItem>
+        </castList>
+        <note>PRZEDSTAWIONO NA TEATRZE KRAKOWSKIM<lb />
+        PIERWSZY RAZ<lb />
+        DNIA 20go GRUDNIA 1849go ROKU</note>
+      </div>
+      <set>
+        <p>(Scena w Jasielskim w zimie 1849 r.)</p>
+      </set>
+    </front>
+    <body>
+      <div type="title">CHŁOPI ARYSTOKRACI</div>
+      <stage type="setting">
+        <p>(Teatr przedstawia izbę chłopską)</p>
+      </stage>
+      <div type="scene" n="1">
+        <head>Scena pierwsza.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#marysia">MARYSIA.</rs>
+            <rs key="#jędrzejowa">JĘDRZEJOWA.</rs> (zajęte sprzątaniem)</p>
+        </stage>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Nie mała tez to robota dzisiaj, a wszystko na przyjęcie Szczepanka.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Dawnoć bo go niema, to i nie dziwota, że się tak sposobią na jego przyjęcie. Ośm lat przebył w wojsku a ciągle w Italii, podczas wojny ani o nim słychać niebyło, toć po takich turbacyach, niechaj się należycie ucieszą.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Oj musiał się też Sceponek odmienić.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Ba coby mu nie dało... ale mi się widzi że jak on cię ujrzy, może coś i pomyśli wele zeniacki...</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Dajcie mi pokój, mnie to nie w głowie. <stage>(wzdycha)</stage></p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Wiemci ja wiem, kaj ci się serdusko wydziera, to wszystko na nic, dawniej co innego... ale teraz?...</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Oj prawda... teraz jak ostali panami.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Mocny Boze, straśni mi tam panowie, co w górnicach chodzą. Łońskiego roku, tośma razem okopywali ziemniaki panu, a teraz to sie mną brzydzą jak psi dziadem.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Prawda. Ale wiecie wy co, ze wcora gospodarze uradzili; zeby im kumornicy mówili Jegomość a gospodyniom Imość.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Ciewy, a to wyraznie skaranie boskie.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>O juz tez teraz Marcinek nie dla mnie.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Zapewne moja Maryś, musis sobie wybić z głowy to kochanie, bo im teraz trzeba panny z urodzeniem i majątkiem a nie biednej sieroty, co nic nie ma jeno ucciwość.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Dobrze wam mówić... ale mnie co innego na myśli.<lb />
+          <stage>(ŚPIEW)</stage><lb />
+          Ja bez wszyckie dnia godziny<lb />
+          O Marcinku myślę wciąż<lb />
+          Bo dla ucciwej dziewcyny<lb />
+          Scęściem byłby taki mąz.<lb />
+          Przy robocie pędzi chwile<lb />
+          Niknie przy nim smutku cień,<lb />
+          Za godzinę zrobi tyle<lb />
+          Co drugi bez cały dzień.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Co prawda, to nie grzech, pracowity chłopak, a co najdziwniej, ze teraz kiej wsyscy nic nie robią, on tak pracuje jak wtedy kiej pańscyzna była; pracuje, kiej insi lezą albo w karcmisku piją.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Prawda ze za wsyckich robi, ale tez ojcowie nic nie robią, a zyją jak święci.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>A juści jak święci ale jak tureccy – bo nie nie mają — Wojciech bez cały dzień w karcmie siedzi, do połednia śpi, Katarzyna pije, a cały dorobek Mosiek zabiera.</p>
+        </sp>
+        <stage>(słychać za sceną Marcinka śpiewającego)</stage>
+      </div>
+      <div type="scene" n="2">
+        <head>Scena druga.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#jędrzejowa">JĘDRZEJOWA.</rs>
+            <rs key="#marcin">MARCIN.</rs>
+            <rs key="#marysia">MARYSIA.</rs>
+          </p>
+        </stage>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p><stage>(biegnie do niego)</stage> Ach to mój najmilsy Marcinek.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(wpada)</stage> Niech będzie pochwalony Jezus Chrystus.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Na wieki wieków amen.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Jak się mas dziewucha!... dzień dobry wam Jędrzejowa!</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Bóg zapłać Marcinku <stage>(poprawia się)</stage> panie Marcinie...</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Co? co? jak? a to co znowu! co ty gadas Marysiu.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Ej bo widzis... bo...</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Bo co!?</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Bo wasa matka przykazała mnie i Jędrzejowej, żebyśmy wam mówiły Panie Marcinie.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Toć przecie wiecie, ze od wcorajsa, my biedacy nie to co oni... bo są panami ślachtą... a my nie mamy nic. Otóz skoro jesteście pańskie dziecko, nalezy wam się mówić panie.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Tam do bisa... awo się starym we łbie zapaliło. Ale niech będzie co chce, ja zawdy ten sam Marcinek, kocham was, to mi nie róbcie despetu i nieprzezywajcie mie panem.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Myćby ta i radzi, bo nam się to widzi przeciwnie, ale skoroś jest panem i mas się ze Stanisławową dziewuchą zenić.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Będzies miał teraz bogatą zonę... a Marysia... biedna Marysia, w cóż się obróci... zapomnisz o niej.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Marysiu niezakrwawiaj mi serca... nie znas mię widzę – niewis jak cię kocham... za wsyćko w świecie nieustąpiłbym cię, i niech mię Bóg skarze jeśli cię kiej opuscę.<lb />
+          <stage>(ŚPIEW)</stage><lb />
+          Nieznas mię Marysiu luba<lb />
+          Krew ma dla Cię tylko płynie<lb />
+          Zyć przez ciebie dla mnie zguba<lb />
+          W tobie scęście me jedynie.<lb />
+          Dla ciebie tylko dla ciebie<lb />
+          Zyć pragnę sieroto biedna<lb />
+          I jak jeden Bóg na niebie,<lb />
+          Tak ty w świecie dla mnie jedna.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Dziękuje ci Marcinku, Bóg ci to wynagrodzi ze chces scęścia biednej sieroty.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Twego scęścia? a mojego niby to nie droga Marysiu.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Dzięka Bogu wsyćko przyryktowano... ho! ho! dziś u nas będzie siła ludzi, cała gromada zbiegnie się ujrzyć waszego brata Scepanka, co az z Italii przychodzi – nabiliśma gęsi, napiekliśma kołacy... a ojcowie pośli do harendarza po wódkę.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>A tak – mój brat powraca – ha moze tez i gospodarstwo chwyci na siebie. Wies Marysiu, byłem dziś u księdza probosca, obiecał ojcom dobrze nakłaść w usy; ale to wszyćko będzie jak groch na ścianę.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Onić ta zwazają na księdza, kiedy Boga znać nie chcą – prędzejbyś wskurał zebyś posedł do harendarza. <stage>(słychać hałas)</stage> A to ojcowie wracają, rozejdźcie się dzieci, bo matusia mają srogie ocy, toby wnet zmiarkowali zeście ze sobą.</p>
+        </sp>
+        <stage>(Marcin i Marysia rozchodzą się)</stage>
+      </div>
+      <div type="scene" n="3">
+        <head>Scena trzecia.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#marysia">MARYSIA.</rs>
+            <rs key="#jędrzejowa">JĘDRZEJOWA.</rs>
+            <rs key="#stanisław">STANISŁAW.</rs>
+            <rs key="#wojciech">WOJCIECH.</rs>
+            <rs key="#katarzyna">KATARZYNA.</rs> (i)
+            <rs key="#marcin">MARCIN.</rs>
+          </p>
+        </stage>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(Ręce w kieszeniach)</stage> Ej dalibóg że u tego Mośka gorzałka to scyrna okowita, juz on nie osukuje tak jak inne zydy.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p><stage>(Z cygarem w ustach kołnierze wykrochmalone)</stage> A niech sobie osukuje, abom to nie pan zebym nie płacił. Mam dość pieniędzy a jak braknie, wiem kaj ich sukać, a jak mi się osukaństwo uprzyksy, wiem co z zydem zrobić.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Niebzduzcie Stanisławie, bo wiem ze sam radzi Mośkową wódkę pijecie, będziecie widzieć jakiej on tu dla Sceponka przyniesie. <stage>(do Marysi)</stage> No ty pruźniaku pszysykowane wsyćko, gęsi, kołace? co?</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>Wsyćko gotowe prawie, siodać i jeść... ale jakoś Sceponka niewidać.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Kogo? kogo? niewidać.</p>
+        </sp>
+        <sp who="#jędrzejowa">
+          <speaker>JĘDRZEJOWA.</speaker>
+          <p>A no Sceponka wasego syna.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Sceponka!... Sceponka... widzicie... a któz to was naucył, zebyście tak poniewierali moim dzieckiem – nie pierwsy raz wam powiadam zebyście moim dzieciom honor oddawali... co my panowie, to nie wy charłaki... widzicie ją Sceponka!... mnie się widzi zeście mogli powiedzieć „wsyćko gotowe prosę Imości – tylko brakuje Imościnego syna pana Kogucińskiego”.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>O! o! Matusiu, przecieśma go zawdy nazywali Sceponkiem, z jakiejzeście okazyje wyryktowali go na jakiegoś Kogucińskiego. Choćbyście nawet i po przezwisku mówili, toć mu przecie Koguciak ale nie Koguciński.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Głupiś milc... nie rezenuj, kej się nie znas. Jakeś był chłopem, toś się mógł nazywać nie tylko Koguciakiem ale i cielakiem, ale teraz wara kieś ostał ślachcicem.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Slachcicem... ja?... chłop!... tfy do bisa, co wy tez juz nie wygadujecie!</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Chłop! Chłop!... co było a nie jest, to się nie pise w legestr, pókiśma robili pańscyznę tośma byli chłopy, ale teraz jesteśma galant ślachcicami, a wies dobrze ze zaden ślachcic nie może się nazywać Koguciokiem, ale Kogutkiewicem abo Kogucieńskim.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Aha! teraz wszyćkie chłopy ostali panami.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A dyć ty osalałeś Marcinku! a kazby się, podzieli kumornicy co nic nie mają, są chłopami i będą chłopami – a my ze nie potrzebujemy robić, a przeto jesteśma ślacheckiej kondycye. Tak: ja jestem pani, mój jest pan, a ty jesteś pańskie dziecko Marcinku.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Uwazacie wy Stanisławie, jaka moja kobieta mądra.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Ba moja byłaby mądrzejsa... kieby nie umarła.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Ho! ho! ja juz od dawna cuję w sobie pańską zyłkę. Najpzód ze juz od maleńkości nic nie lubiłam robić; zawdym sobie była rzetelna bom się codzień upijała; do frajcuzkiego miałam okrutną ochotę, bo mię nawet i kamerdyner frajcuz, co był we dworze, co dzień ucył po frajcuzku. Okomona tegom najbardziej uwazałam, co miał bat największy. Oj radaćbym teraz trzymać okomuna, zeby mu chociaz dwa razy bez tydzień sprawić frycówkę. Wielka skoda Stanisławie, ze wy nie znacie na ksiązce bobyście do mnie za okomona pośli.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Co ja? ja miałbym iść do was za okomona? a coz to abo ja to nie taki ślachcic jak wy, abo to mój Ujek niebyt deputokiem we Widniu, a jesce jakim, mądrzejsem od wsyćkich; bo bez cały cas gęby nie otwarł; abo nie wiecie cem ja to był, co ja to znacył... i ja miałbym być u was okomonem? tfy! niedocekanie wase... ja okomonem... cie! hola!</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Wielki mi pan zagrodnik, daleko ci do nas!</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Nie tak daleko jak ci się widzi... wy macie? siła, ale macie cudze, ja mam mało ale swoje.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Dajcie spokój Stanisławie.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Jesce na wiosnę, kiej dziedzica do reśty wygnamy ze wsi, to dopiero wsyćko będzie inacej – wsyćkim się podzielema – wtedy to i wam Stanisławie coś obliźnie, no to się wie ze ze nie tyla co nam – bo ja muse kuniecnie we dworze mieskać, juzem się do niego przyzwycaiła, jakem była za pannę do trzody; niesposob mi bez dworskiego życia wytrzymać: bo nawet kiej posłysę ze trzoda kwicy, to mi się zaraz na płac zbiera.<lb />
+          <stage>(ŚPIEW)</stage><lb />
+          Kiej cłek pańskie grunta złapie,<lb />
+          Przeniesiema się do dwora,<lb />
+          Będę siedzieć na kanapie,<lb />
+          Będę sobie zawdy chora.<lb />
+          Bez cały dzień będę piła,<lb />
+          Na obiad co dzień gęsina,<lb />
+          Arakiem się będę myła <stage>(bis)</stage><lb />
+          Wiwat pani Kogucina <stage>(bis)</stage><lb />
+          Jak panowie z polityką<lb />
+          Z Wiednia sę sprowadzę granie,<lb />
+          Mnie zwać będą „Dobrodziejko”<lb />
+          Mego Wojtka „Jaśnie panie".<lb />
+          A gdy jadę do kościoła,<lb />
+          Luberya konie zacina<lb />
+          Juz słyszę jak naród woła <stage>(bis)</stage><lb />
+          Wiwat pani Kogucina <stage>(bis)</stage><lb />
+          Wojtku tobie fracek sprawie<lb />
+          Sobie sal za ryńskich dwieście<lb />
+          Bez lato w kąpielach bawię,<lb />
+          W zimie będę mieszkać w mieście.<lb />
+          A gdy jestem za granicą,<lb />
+          Wtedy myśląc zem grefina,<lb />
+          Juz słysę jak Miemcy krzyczą <stage>(bis)</stage><lb />
+          Wiwat pani Kogucina. <stage>(bis)</stage></p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>A co Stanisławie prawda, ze moja Kaśka na wielką panią stwozona.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Widzę ja to państwo – ale radbym wiedzieć jak ono będzie wyglądać, jeśli kiej Bartłomiej powróci.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(cicho do Stanisława)</stage> Cicho bądźcie z takiem gadaniem <stage>(głośno)</stage> coś Mośka nie widać z gorzałką. Jędrzejowa skoknijcie do niego czemu dotąd wódki nieprzynosi. <stage>(Jędrzejowa odchodzi)</stage></p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Wybiegniej no Marcinku, cy Sceponka kaj nie widać. <stage>(do Marysi)</stage> A ty biegaj do organiściny, pozdrów ją i powiedz ze pani Kogucińska zaprasa ją na odwieceze. No rusajze.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p><stage>(Cicho do Marcina)</stage> Ciekawam po co oni nas wyganiają.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Pewno będą robić obrachunek ze zydem.</p>
+        </sp>
+        <stage>(odchodzą)</stage>
+      </div>
+      <div type="scene" n="4">
+        <head>Scema czwarta.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#wojciech">WOJCIECH.</rs>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#stanisław">STANISŁAW.</rs>
+          </p>
+        </stage>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Ej juz tez wy Stanisławie dalibóg ze za pół grajcara rozumu nie macie, kto widział takie głupstwa przy ludziach gadać.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Niekoniecznie i głupstwa – Bartłomiej od trzynastu lat Bóg wie kaj się obraca — a wy sobie siedzicie na jego gospodarstwie, kieby kura na jajach; ale niechnoby kiej powrócił, tobyście całe wase ślachectwo, musieli kaj w chlewku usadowić.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Ba skądby znowu wrócił... on juz pewnie nie zyje.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Ale nie zyje... a ten regiment co przymasierował do Tarnowa? a toć on w nim słuzy.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Nie baj baja... przecie on słuzył przy śwalizierach.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>No prawda... ale go tranśponowali do piechoty, do tego regimentu co jest w Tarnowie.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Toście wy słyseli co o Bartłomieju.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Awo mi urlopnik powiadał, ze on jest w tem regimencie kapralem i ze święcie powróci z Italii.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Ei co tam gwarzyć o Bartłomieju, kiej trza pomyśleć o Sceponku – musi to być okrutnie ślicny chłopak, okrutnie ślicny, bo był zawdy do mnie podobny – moja pociecha jedyna dziś przywandruje – ludzie o mnie gadają zem zła, ale przekonajcie się dokumentnie jaka ja dobra. Kiej Marcinek za młody ja wasą Frankę oddam Sceponkowi, tak tak biorę ją za synową, choć jesteście daleko nizsej kundycyje odemnie.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Niżsej kondycyje, tfy do wsyćkich diabłów ani ja, ani mój ojciec, ani dziad trzody nie pasał... tak jak wy... ale wiem zkąd taka zycliwość, cała okazyja ku temu, ze ino ja wiem jakoście byli kumornikami u Bartłomieja, a potem kiej go wzięli na zołnierza za one awantury z sylwachem – toście udali przed ludźmi ze on wam gospodarstwo sprzedał. Otoz teraz boicie się cobym was nie zdał i bez to Frankę chcecie wziąść za synową.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A bodajeś zmarniał z taką mową – ja twoją Frankę biorę ze scyrego serca, ale nie ze śpekulacye.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Ja się bardzo za wasem krewieństwem nie uganiam, ale zem se juz raz ustanowił, to tak być musi, bo tak chcę... bom pan... ale jak mi nie dotrzymacie – to pamiętajcie ze u mnie gęba nie zamarzła.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Nieturbuj się, wsyćko musi tak być jak chces.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>A jak Scepankowi Marynka wpadnie w oko?</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Nic nie szkodzi... niech się z nią nieboracek ubawi, byle się z Franką ozenił.</p>
+        </sp>
+      </div>
+      <div type="scene" n="5">
+        <head>Scena piąta.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#stanisław">STANISŁAW.</rs>
+            <rs key="#mojsiek">MOJSIEK.</rs>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#wojciech">WOJCIECH.</rs>
+            <rs key="#żydek">ŻYDEK.</rs>
+          </p>
+        </stage>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p><stage>(z gąsiorem wódki)</stage> Jak się mas Stanisławie, Wojciechowa! przyniosłem wam coś extra fain.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Widzicie łapserdaka – nie mozes to powiedzieć pani Kogucińska.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Niech mu będzie i Kogut: ale mi lepiej zapłać, kiedyś taka pani, moje siedmnaście ryńskich śrebła.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>No no Mosiecku przestań, pokaz no lepiej coś tam przyniósł.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu jakto co ja przyniósł? ja wam przyniósł bardzo rarytne wódkę, jesceście takiej niepowąchali.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(ogląda)</stage> Ej prawda ślicny kolorecek, jaze się uśmiecha do mnie bestyjka – trzeby jej wnet sprobować, dawajno Mosiecku.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Jakto daj? a pieniądze!?</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Ej co tam, to nam przyborgujes.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Ani za grajcar. Ja i tak na was stratne; winniście mnie tyla pieniędzy, mieliście mi dać w długu krowę; ani pieniędzy, ani krowy, sukajcie sobie kaj indziej wódki, ja wam tej nie mogę ostawić.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(wydziera wódkę, Mojsiek niepuszcza)</stage> Pocoześ ją przyniósł, zeby mię draźnić. <stage>(odtyka i wącha)</stage> Slicnie wonie; musis ostawić gorzałkę. Biez do palarusa krowę, a mnie ostaw tę pociechę; ale kwit z długu.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Jakto kwit? takie kiepskie krowe... oj waj take zdechline, co juz po śmierci chodzi a wiele une wart.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>No no Mosiecku, my się nie pobijemy, ostaw wódkę, zborguj nam. <stage>(cicho do Mośka)</stage> Jak się siwula ocieli to dostanies w procencie cielątko, powiem staremu ze go ukradli. <stage>(głośno)</stage> Co tam Mosiecku nie niepzezbywaj się z nami – jak panią ostanę to ci spuscę z harendy.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu co ja mam robić, ja zawse was psyjaciel Wojciechu, ja wam i wam i te wódkę ostawię i jesce na wiecor psyborguje miodu <stage>(odchodząc cicho do Katarzyny)</stage> nu a pamiętajcie jak się urodzi tego mały wuł, to mi go zaraz przyślijcie.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Cekajno Mośku!... A to widzis chciałbym zebyś mi wygodził w jednej rzecy.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu dalibóg, ja teraz pieniędzy nie mam.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Któz ci gada o pieniądzach – oto widzis słychać ze Bartłomiej ma wrócić.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>A wa! co wy gadacie – Bartłomiej?... ten Bartłomiej coście od niego wysachrowali gospodarstwo.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Oj byłaby strasna termedyja, musielibyśma oddać grunt i chałupę.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>I do chłopskiej kondycyje powrócić.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>A ja musiałbym rad nie rad France innego spekulować męża, bobym się nie rad z chłopami krewniać.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Poradźno Mosiecku a scyrze, toć my psecie potrafiema się odsłuzyć.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Kieruj Mośku a dobze, oni stazy znajomi tobym się rad z niemi ostać w pzyjaźni. <stage>(cicho do Moska dając mu z wielkiego pugilaresu papiery)</stage> Mas tu zadatek, a jeśli dobze pokierujes, to dostanies trzy razy tyla. <stage>(głośno)</stage> No radźcie to sobie – a mądze. <stage>(odchodzi)</stage></p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Poradzić – poradzić mozna, ale to gruby interes.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Kasiu podajno gąsiorek, co pan harandaz pzynieśli.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Na co napocynać take rarytne wódkę. Ja mam inne wódkę, to wy będziecie się napić za darmo: tu idzie mój Szmil to un bądzie prznieść. <stage>(oknem woła)</stage> Szmil! Szmil! gaj ci di mame, zug a zołł geben ane kwurt ordiner brantween, fer huf dałed gedojlem <stage>(wraca)</stage> nu prawdę muwiący, tu jest bardzo wielki klopot z tego Bartłomiej: musielibyście oddać grunt, chałupe, stodołe, chlew, kunie, kacke, kure, świnie, przyodziewe.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A skądby my tego wzięli?!</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Poradź Mośku, poradź...</p>
+        </sp>
+        <sp who="#żydek">
+          <speaker>ŻYDEK.</speaker>
+          <p><stage>(wnosi wódkę)</stage> Wus giebst die sznaps fer die gałgenes, sie werden dioch nisz beculen.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Gaj weg, jach mache hier gite geszefte mit dio gojen. <stage>(odbiera wódkę, żydek odchodzi)</stage> Nu ja wam poradzę, nieturbujcie się, niestrachajcie, napijcie się gorzałki. Pij Wojciechu do żony. <stage>(sadza ich za stołem)</stage> Nu siadajcie, ja wam chcę dopomódz, boby to były strasne rzecy. Jakby was potem do Rzeszowa do kryminału powiedli, cała wieś pokazywałaby na was z palcem. A dziedzic! a wa, tenby się dopiero wyśmiewał z chłopskiego niescęście. Nu ja wam poradzę, ale napijcie się jesce. Otóż ja wam chcę dobze wykierować interes, ale widzicie kto kuniowi jeść nieda, to go nie pociągnie... kto smaruje ten jedzie... darmo nic, wase zdrowie pani Kogucińska.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Dyć my darmo nie chcemy.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu to mi zaraz rzeknijcie, co mi dacie; bo ja nie lubię po omacku chodzić.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>No cóz tam choćby i pięć ryńskich śrebła.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p><stage>(zrywa się)</stage> Kiepskie pięć ryńskich – haste gesehen, takie rarytne gospodarstwo, coście Bartłomiejowi ukradnęli, warte więcej jak tysiąc ryńskich, a ze świniem, z gęsiem, z kuniami więcej jak półtore tysiące. Oj waj, zeby ja się wdał do tego interesu, toby mnie samego najmniej kostowało ze dwiesta ryńskich. Ale ja nie jestem taki i jeżeli mi dacie siwulę i 50 ryńskich, to juz Bartłomiej nie powącha wase chałupę.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>No krowę mozes wziąść, ale z pieniądzmi nie wiem jak będzie, bo my nie mamy ani grajcara.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu ja nie taki twardy, ja z dobremi ludźmi zawse dobry; krowę wezmę zaraz, a na pieniądze to się umnie kwitek napise.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(do Katarzyny)</stage> Cóz ty na to?</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(do Wojciecha cicho)</stage> Wielkie rzecy ze mu das kwitek, abo to kwitek pieniądze? Niech se potem odbieze jeśli potrafi, damy mu figę; udaj ze na wsyćko pzystajes.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(głośno)</stage> No juz my pieniędzy nie pozałujema.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p><stage>(uradowany)</stage> Nu niech ciebie gięsi zdeptają, ty mas pańską figurę Wojciechu. Jabym nie mógł patrzeć jakby ciebie do Rzesowa w kajdankach powiedli. Dziś wiecór mój swagier Icek jedzie do Bredów: otóz wy musicie dać 10 ryńskich śrybła.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(nieco pijana)</stage> Jesce by tam cego... dziesięć ryńskich? Ślicny mi rajca: niedość ze sam bierzes, jesce chces nasemi pieniądzmi wsyćkich zydów zbogacic.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Cego tak krzycys? Nic nie pomoze: musicie mu dać dziesięć śrybła i Marynkę. Jus ja wam tak kazę!</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Marynkę?</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(pijana)</stage> Co? co? ja! ja!! miałabym dać krew katolicką zydowi, ja miałabym dać Marynkę. O niescęśliwe docekanie <stage>(płacze)</stage> kiedy juz zydy nasą krew wypijają! O niescęsny narodzie... niescęsny narodzie! <stage>(mocno płacze)</stage></p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>A niech cię diabli wezmą!... Płac! płac! będzies gozej płakać jak cię Bartłomiej z chałupę wyzenie. <stage>(chce iść)</stage></p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(zatrzymuje go)</stage> Mośku, Mośku! Co tam zwazas na babskie gadanie, tylko widzis trza powiedzieć: na co ci pieniądze, na co ci dziewucha?</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu jakto, poco? Wy dobrze miarkujecie ze jak Bartłomiej powróci, to będzie źle z wami więc niech Icek weźmie Marynkę do Brodów, ztamtąd do Berdycewa prześwercuje, odda do jakiego ucciwego zydowskiego domu do słuzby; wtedy niech sobie Bartek wraca. Powiemy mu ze ona uciknęła z jakim wojakim na Węgry, albo za granicę. Nu, jak on pojdzie, to go tam pewno diabli wezmą, a wy sobie ostaniecie na gruncie.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Mądze gadas, to prawda, ale mi zal dziewuchy, tyrać ją po zydowskich słuzbach.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(wstaje)</stage> Głupiś niech się poleruje, u zydów się dopiero naucy porządku. Z twoim miłosierdziem na to zejdziemy, ze jesce Bartłomiej kaze nam pańskie odrabiać.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>No to się wie, ze ja wolę być panem. Ha! no coz robić, jabym się i zgodził... ale...</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Na co to ale, po co tego ale... <stage>(nalewa)</stage> Napijcie się, <stage>(piją)</stage> nu, ja tu przyjdę wiecorem... <stage>(nalewa)</stage> jakze przyjść?...</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(spluwa)</stage> A no coz robić, to i przyjdź.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Mówię ci Mosku ze my niemamy tyla pieniędzy.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu patrzcie Wojciechu jaki ja dobry, ja wam jesce dla Icka pieniędzy pozycę... ale mi musicie dać trzy ryńskie procentu.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>No juz ci damy, damy, tylko teraz idź, bo bo mozeby kto zmiarkował co my tu robiema, a wiecor nie zapomnij.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Ja juz przywiodę Icka, a wy przyjdźcie do karcmy to się do tych kwitków pogodziemy. <stage>(odchodzi)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="6">
+        <head>Scena szósta.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#wojciech">WOJCIECH.</rs>
+          </p>
+        </stage>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Straśnie mi się widzi przeciwnie, oddawać, Marynkę.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Dosyć się juz najadła nasego chleba za darmo.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Oddawać Bartłomiejowe dziecko w żydowskie ręce!?</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Baj baja, może lepiej zeby nas z chałupy wygnali; darmo co się raz stało to się nieodstanie. Kiedyś juz raz dostąpił ślacheckiej dystynkcye to ci się trudno do komornictwa wrócić. Źle ci to, ze kazdy komornik, kazdy charłak sięga ci kapelusem do butów, ze ci mówi jegomość? mi się widzi ze ci dobrze bez cały dzień nic nie robić; mozebyś wolał, zeby ci okomon gzbiet baciskiem smarował. Strasne cuda usługiwać zydom? Aboś to ty nie ucierał świc staremu harendarzowi na sądny dzień, jakeś był chłopem? Dziewuchy nie ubędzie – a ze jest urodna, to się moze w mieście wykierować na jaką pannę.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(ociąga się)</stage> Kiej widzis ja mam zawdy śkrypuły; awo i Marcinek miał się ku niej.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Marcinek nase dziecko, wcale nie dla takiej charłacki. A widzis jak ją wygnamy, to i Bartka bisi wezmą, a ja ci wtedy pozwolę bez cały dzień siedzieć u Mośka.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(uśmiecha się)</stage> No juścićby się to ta i zesło.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Źle ci to? spis co chces! pijes co strzymas, jes ledwie nie pęknies.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>No juści prawda, ja zawdy powiadam ześ ty Kaśka mądra.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Ato nie baj próźno, o rób jak ućciwy Mosiek radzi. No, pójdź juz pójdz ciemięgo... pójdźma do karcmy dobić targu. <stage>(bierze go pod rękę)</stage> No pójdź wielmożny Koguciński... pójdź ślachcicu do zyda. <stage>(odchodzą)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="7">
+        <head>Scena siódma.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#szczepan">SZCZEPAN.</rs>
+          </p>
+        </stage>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p><stage>(wchodzi w mundurze kaprala z krótką fajeczką)</stage> Aha przeciem się dostał do nasej chałupy, rychtyg tutaj. Ha, ha, tu się obacę z całą moją familiją! Co tes moje landsmany powiedzą jak mię spenetrują. <stage>(ogląda się po sobie śmiejąc się)</stage> Hu, hu, hu, wyglądam jak regiments tambor, kiej na mustrunk idzie. Bardzo mi śpiluje po kapralsku. Jak mię tyz gromada ujźry, to się będą dziwować, gospodaze będą stać za mną het zdaleka jak fuhrwezy za frontem, będą mówić do mnie jak się macie panie kapral, to oni panie kapral, są kapralem: a ja się nic do nich nie będę odzywał, tylko sobie moje wyśwarcowane wąsy wykręcę do góry. A dziewuchy!! <stage>(uśmiecha się)</stage> E, kaj im ta do Italianek, to tak jak świecce za grajcar do faklu... będą się tez to wedle mnie uwijały, jak kumpanija w geldtag wele hajtmana. <stage>(Marysia wchodzi)</stage> A! to jakaś fain dziewecka, ta zbiedy mogłaby jesce Italianką ostać.</p>
+        </sp>
+      </div>
+      <div type="scene" n="8">
+        <head>Scena osma.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#marysia">MARYSIA.</rs>
+            <rs key="#szczepan">SZCZEPAN.</rs>
+          </p>
+        </stage>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p><stage>(n. s)</stage> Jakiś zołnierz!</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Piękna dziewucha, musę do niej po miemiecku abo po Italiańsku zagadać <stage>(głośno)</stage> ach donner wetter kraic... gut morgen noch a mal.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Cy pan się pyta o co... może pan od Sceponka.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>O nein Mamzel, ja jestem tutejszy lancman mam tu przeróżne geszefta a najpiersy do ciebie moj hercku.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Do mnie!</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Potz tauzend panienka... ja cię chcę po italiańsku wyśtuderować: a najprzód zacnijmy od tego, ze cię musę po tamtejsemu pocałować.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p><stage>(ucieka)</stage> Obejdzie się, u nas nie Italia.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>To mi jest olles eins – ja cię musę na Italiańskie fertig przerobić. <stage>(goni ją)</stage></p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Co to jest... co to jest o rany! o rany!</p>
+        </sp>
+      </div>
+      <div type="scene" n="9">
+        <head>Scena dziewiąta.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#marysia">MARYSIA.</rs>
+            <rs key="#marcin">MARCIN.</rs>
+            <rs key="#szczepan">SZCZEPAN.</rs>
+          </p>
+        </stage>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(wpada)</stage> A to co! <stage>(odtrąca gwałtownie Szczepanka od Marysi)</stage> puscaj ją wasan!</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Donner schock schwer noth! ty chamski chłopie, co ty się na mnie zrywas, ja cię tu wnet naucę. <stage>(dobywa pałasza)</stage></p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Ej wara... pałasa się nie zlęknę. Jeśliś tu przysedł, obchodź się ućciwie – bo bez mała coby ci się mogło oberwać, i do platzkomendy trafimy.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Do platzkomendy?!... <stage>(chowa pałasz prędko)</stage> No, mas glik ze mnie złość ominła, bobyś się mógł bardzo smutnego ślusu docekać.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Powiedz no wasan co tu chces? pocoś tu przyszedł!</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Jabym się prędzej mógł zapytać ty kneflliku, co ty mas za racyą, ja to wazanders, ja mam tu rekt być, bom nie tylko z tego krajsu ale nawet z tej dominii i z tej chałupy.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(uderzony tem)</stage> O mój Boze... moze to on!? A jakze się oni nazywają?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Stefan Hahn.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(do siebie)</stage> E to nie on <stage>(gł)</stage> wybaccie bo ja myślał ze macie inakse przezwisko.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>A bo widzis, to jest moje auślandzkie przezwisko, po tutejsemu to się nazywam Scepon Koguciok.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(rzuca się ku niemu i ściska go z największą radością)</stage> A toć on! To ty kochany bracie! mój bracie... to ja Marcin twój brat!</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Co! zaś, dyć Marcinek był mały chłopak.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p><stage>(śmiejąc się)</stage> Toć przecie bez ośm lat musiał urosnąć. Witaj Sceponku, niepoznałeś mię, toć ja jestem Marysia!</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>A mój Boze, jakże te śpicbuby powyrastały!</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>A widzis?! Ale musę skoknąć po ojców do karcmy; to dopiero będzie uciecha. <stage>(odchodzi)</stage></p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(chce go uścisnąć)</stage> No jakze się miewasz Sceponku, takem cię dawno nie widział?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p><stage>(pompatycznie, odpycha go)</stage> No, wie gejc bruder.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Jakto Sceponku bracie, nie uścisnies mię to?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>O ne nein – to być nie moze – ja jestem kapral a ty nawet nie jesteś gemajnem.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Ba, cóz to znacy – ktoby tam na takie furdy uważał, kiej ja cie kocham Sceponku!</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>To znacy duzo, bardzo siła znacy – i ja cię kocham bruderku, ale tak, z daleka. Coby sobie moje kolegi pomyśleli jakby ujźreli ze się ściskam z chłopem?</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Chociaz chłop, ale zawdy twój brat, wsak i ty kiedyś byłeś chłopem.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Nie rezenuj... bo to nie pomoze; ja widziałem siła róznych landów, stałem w róznych feśtunkach i śtatach, ja nawet na ciebie patrzeć nie powinien.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(smutno)</stage> Sceponku ty zartujesz!?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>O nein, nie śpasuje i prosę mię nie hunierować Sceponkiem, ale entweder: pan Stefan, oder panie kapral.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>No kiejście tak zchardzieli ze brata niechcecie uścisnąć, to trzeba chociaz ojców przywitać, bo oni bardzo wyglądali za wami.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Ja nie pójdę – niech tu przyjdą, bo oni są młodsi jak ja.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Cyście osaleli; toć przecie ojciec i matka przód się urodzili.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Prawda, ale każdy cywil, młodsy jest od wojaka.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(za sceną)</stage> Kaj Sceponek! kaj mój Sceponek kochany!</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(podobnież)</stage> Sceponku! Sceponku! <stage>(wbiegają oboje, porywają go między siebie i ściskają)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="10">
+        <head>Scena dziesiąta.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#marcin">MARCIN.</rs>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#szczepan">SZCZEPAN.</rs>
+            <rs key="#wojciech">WOJCIECH.</rs>
+          </p>
+        </stage>
+        <sp who="#katarzyna #wojciech">
+          <speaker>KATARZYNA. WOJCIECH.</speaker>
+          <p>Jak się mas, jak się mas miły Sceponku!!</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p><stage>(odpycha ich)</stage> Langsam, langsam faterku – zwolna puśćcie mię!</p>
+        </sp>
+        <sp who="#katarzyna #wojciech">
+          <speaker>KATARZYNA. WOJCIECH.</speaker>
+          <p>Jakto!? co! cemu?</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(smutno)</stage> Bo to nie Sceponek, ale pan kapral.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Co ja słysę! mój Sceponek kapral!? A dalibóg ze prawda. Mój Sceponku jakześ ty ostał kapralem, kiej ty nawet cytać nie umies.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Ale za to bardzo sykownie pisę.</p>
+        </sp>
+      </div>
+      <div type="scene" n="11">
+        <head>Scena jedenasta.</head>
+        <stage type="setting">
+          <p></p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#marcin">MARCIN.</rs> (na boku)
+            <rs key="#wojciech">WOJCIECH.</rs>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#szczepan">SZCZEPAN.</rs>
+            <rs key="#stanisław">STANISŁAW.</rs>
+          </p>
+        </stage>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>A witajze miły Sceponku!</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>A cóz to za fidelius <stage>(kłania się obojętnie)</stage> Servus!</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A przywitajze go przecie, toć pan Stanisław, ojciec twojej Franki.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Jakiejze znowu Franki?</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A tej co się mas z nią zenić.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Co? ja miałbym się zenić z chłopską córką? Ejze, bo jakbym wziął dunderować, tobyście dopiero poznali co ja umię.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Chłopy! chłopy! Cy to niewies, ze pan Stanisław i panna Franciska ostali ślachtą.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>O! O! toć mi przecie krankfater powiadał jakem był w śpitalu; ze jakiś pan Rajkstag ślachtę skasował.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>O ba, starą to prawda, ale my nowa ślachta. Ostaliśmy na wieki wieków panami, bo mamy swoje własne posesye i niepotrzebujema nic robić, a kumornicy będą zawdy pańskie odrabiać, bo są podlejsej kondycyje od nas.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Slicna mi ślachta co w górnicach chodzi. Taka ślachta to u mnie mniej znacy, niz patrona wykręcona z gweru; a mnie co po chamskiej córce, kiedy ja mam grefinę w Italii?</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Co ty gadas Sceponku?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Wcale prawdę. Widzicie jakeśmy stali łońskiego roku w Majlandzie, była tam grefina italiańska, com u niej stał na kwatirunku. Otóz to fasing zrobi! się tam aufśtand, niby rebelia: więc kiej nas regiment miał wyrukować z Majlandu, moja grefina przybiegła do mojej śtuby i niedała mi odchodzić bojąc się okrutnie rebejlantów i prosiła mnie zebem się ostał dla przezpiecności od insurgentów.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>I ostałeś się Scepanku?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>To się wi; zrobiła mi kasarnią na drugim śtoku i byłem tam bez kilka miesięcy a jak Majland kapitulirował, dostałem się do nasych i ostałem kapralem.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Podajno, stary, gorzałki, <stage>(do Szczepana)</stage> A rebejlanty nic ci nie mówiły?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Gwałtu! reta! albo to raz chcieli! ale mieli przestraśny furcht odemnie: com się im pokazał, to zaraz fluchtowali o 10 mil od Majlandu. Straśne tez to bestye o jednym oku, nic nie jedzą tylko cłece mięso, a krew to tak z lustykiem piją, jak wy pani matko śnaps.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>O rany!...</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(przynosi wódkę, nalewa, pije do Szczepanka, poczem według zwyczaju chłopskiego nieustannie kolej obchodzi)</stage> Do ciebie Sceponku. Ale ze tez to ciebie Insurgenty nie zjadły?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Pijcie zdrowo. Mnie nie zjedli – bo widzicie oni są tureckiej wiary, to mnie zjeść nie mogli, ale mi chcieli skórę złupić i zrobić z niej bęben: więc się zakradli i przeróżnie śpekulowali. Ale tez raz jakem wypadł z feśtunku, tom ich kuplą nabił z milion, to wtedy az do Francuza retirade zrobili, a ja za nimi az do moza awansirowałem. <stage>(pije i spluwa)</stage> Brrr! A cóz to za okrutne świństwo <stage>(pije)</stage> tfy!</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(zdziwiona)</stage> Co ty plecies Sceponku?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>W całej Italii śnapsa nie piją. <stage>(pije)</stage> Obrzydła gorzałka <stage>(pije)</stage>, pić jej nie mogę. <stage>(do ojca)</stage> Nalijcie mi jesce.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>A cózeście tam w Litanii pijali?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Sampan... ba ale jaki? bodajto ta Italia: to dopiero land! Zebyście go mogli dostać, tobyście lepiej wyśli niz na wszyćkich pańszczyznach. Kwarta najlepsego sampana dwa dutki kostuje, flajsiu jak kupi w flajśbanku to przy nim knochów niema – a najfajniejsą oliwą śtible pucują!</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>O, O! przesoliłeś Sceponku.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Nieprzesolilem, bo w Italii soli nie znają.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(pije)</stage> Twoje zdrowie... a jakże tam śledzie solą?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Śledzie? <stage>(pije)</stage> brr... tfy... Śledzie smazą w oliwie. W Wenedyku na fasing, to po tłuconym cukrze saniami się wozą, jak u nas po śniegu!</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Awo i ja, kiej jesce byłem chłopem, jeździłem po wino z ciarachami do Mady, to widziałem jak madziary nabolałe grona dawali trzodzi, alem takich rzeczy niesłyszał.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>W Italii wajnberów nie ma, tam wino ze źródeł bije, a kazdemu wolno pić siła chce.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Strasna mi się oskumina na tę Litanią zbiera; mnie się widzi zeby ją mogli nasym gospodarzom oddać.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Co jej nie mają oddać? ino trza mądze spekulować.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Jutro zaraz zwołam gromadę i podam suplikę do Cyrkułu.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Nie rwijcie się z suplikami, bobyście ztamtąd umykali: azby się za wami kurzyło.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A to bez co?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>O bo tam są okrutne batalije, jak wezmą bić z kanonów to az moze jęcy. Juz to dla mnie iść do batalii to tyla znacy jak śtuk flajsiu z komisem przetrącić. Widział ja ich więcej anzeli dni w roku! Nie raz tom sobie od rakiety fajkę zapalał – a głów uciętych zebym bez cały rok rachował, tobym jednej nie zrachował cęści.<lb />
+          <stage>(ŚPIEW)</stage><lb />
+          Gdy batalia się zacyna.<lb />
+          Huknie armat miliony<lb />
+          bum!... bum!...<lb />
+          A wnet wszyćko z kazdej strony,<lb />
+          Trzęsie się kieby osina.<lb />
+          Juz grzmią trąbki tyralierów<lb />
+          Tra ra ra, tra ra ra, tra ra ra.<lb />
+          Piechota zacyna z gwerów<lb />
+          Brrr, brrr, brrr.<lb />
+          Granat pęka mi pod nosem<lb />
+          <stage>(odskakuje)</stage> Bęc <stage>(naśluje puszczenie rakiety i klaska ustami mówiąc)</stage> to rakieta!<lb />
+          Wojsko wrzescy straśnym głosem<lb />
+          Hurra, hurra, hurra, hurra!<lb />
+          Z trupów wznoszą się góry,<lb />
+          Sięgające az pod chmury.<lb />
+          Krew w strasne rzeki wzrasta,<lb />
+          Zalewa wioski i miasta!...<lb />
+          I w tedy chociaz z natury.<lb />
+          Jestem sobie rycerz srogi,<lb />
+          Jednak kryje się do dziury<lb />
+          Lub odważnie zmykam w nogi.<lb />
+          Chwała Bogu ze to juz przeminęło: bo na samo spomnienie, wściekłość mnie porywa takbym mordował, bił, gryzł! <stage>(biega po izbie)</stage> Chciałbym na cem złość spędzić. Pani matko nie macie tam gęsiny.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Pójdź Sceponku, pójdźma do drugiej izby, tam przy kołacu, gęsinie i przepalance zapomnis tych straśliwości. Pójdźcie i wy Stanisławie.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(ogląda się że Marcin nie idzie woła)</stage> A pójdze Marcinku!</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>A ja tam po co! Ja tu wolę ostać.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A to bez co?</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Bo ja nie lubię słuchać o wojnach, bo się boję.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Pójdź napijes się krztynkę, to ci rozpędzi turbacye.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>E! mnie się ta pić nie chce.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Osalała sobaka gorzałki pić nie chce. Otóż docekałam się drągala, co nawet kieliska przewrócić nie umie, nie pij głupi, kiej nie wies co dobre – pójdźwa!</p>
+        </sp>
+        <stage>(odchodzą)</stage>
+      </div>
+      <div type="scene" n="12">
+        <head>SCENA XII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#marcin">MARCIN.</rs> (potem)
+            <rs key="#feldwebel">FELDWEBEL.</rs>
+          </p>
+        </stage>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Mocny Boze! Oni się weselą, a ja się ledwie nierozpęknę od zalu: co słowo to państwo, ślachectwo, pieniądze; mojemu bratu ino Italia siedzi we łbie, i jeżeli dłużej tak będzie to mię się moze i błąd chwyci.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p><stage>(człowiek miły około lat 50, postać żołnierska komiczności żadnej – wchodzi i mówi głosem powolnym)</stage> Niech będzie pochwalony!</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Na wieki wieków. <stage>(n. s)</stage> Widzicie, znowu jakiś wojak.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Mój przyjacielu zdaje mi się że tu mieszka Wojciech Koguciak.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Tak, panie wojak, to jest mój Ojciec; jeśli macie co do niego, to mozecie i mnie rzeknąć, bo ja jego syn Marcin.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p><stage>(przypominając sobie)</stage> Marcin? Marcin? a prawda. Podobno macie więcej rodzeństwa?</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Jednego brata, który jako i wy jest wojakiem.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p><stage>(wachając się)</stage> A... a dziewczyny żadnej u was niema?</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Jest ci tu niby jedna na wychowku u ojców, jedna Marysia.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p><stage>(wachając się)</stage> O moj Boże! Czyżby to ona? <stage>(gł)</stage> Dziwno ci mój chłopcze, że ja się tak dopytuję; ale widzisz, ja jestem stary przyjaciel twojego ojca, mam do niego różne interesa i dla tego chciałbym go widzieć... a ta... dziewczyna podobno jest niedobra, leniwa?</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>A któz to śmie powiadać? Ejze wara! bo dalibóg zebym wiedział ze to wy... ale nie... a dyć to pod słońcem niema nic lepsego jak moja Marysia!</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Jakto twoja Marysia...</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(drapiąc się za ucho)</stage> E... bo... bo... widzicie... bo ja... ja Marysię kocham... okrutnie kocham i radbym się zenił.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Czy tak? a ona?</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>To się wie ze mnie i ona ogniście kocha: jak mię chcieli wziąść na wojaka, bez mała nie umarła.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>A i cóż wam nieda się żenić, kiedy się tak kochacie, może nie macie pieniędzy.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Furda o pieniądze, dyć zarobić potrafię, ale ojcowie moi nie chcą dać pozwolenia.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Ojcowie!</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>A takci Ojcowie... dawniej przystajali, ale teraz jak ostali panami...</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Panami!?...</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>A tak, jak pańscyznę darowano, gospodarze pogłupieli, ino im ślachectwo w głowie, a mnie ojcowie nie dają się zenić z Marysią – bo nic nie ma.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Powiadali mi przecie że dom i grunt po ojcach przynależy Marysi.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>A gdziez tam! Ojciec Marysi wziął od moich ojców za grunt wielkie pieniądze.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p><stage>(d. s)</stage> Mój Boze co za nieuczciwość <stage>(gł.)</stage> Więc może ten grunt przeznaczają dla ciebie?</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Ba to wsyćko dla Sceponka.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Któż to jest ten Sceponek?</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>A mój brat, pan kapral. Toć go musicie znać, chwat to okrutny, w Majlandzie sam jeden stał na załodze.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Co ty bajesz mój przyjacielu?</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>To wsyćko być moze ze baje, bo mi się jus we łbie przewraca.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Wiesz co Marcinku, zaciągnij się do wojska możesz wyjść dobrze, teraz wojenne czasy! honor... sława!...</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Aha, ślicny honor! Jakby mię zabili, toby się wnet dosłużył kto Marysi, ale pewnie nie ja.</p>
+        </sp>
+      </div>
+      <div type="scene" n="13">
+        <head>Scena trzynasta.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#feldwebel">FELDWEBEL.</rs>
+            <rs key="#marcin">MARCIN.</rs>
+            <rs key="#marysia">MARYSIA.</rs>
+          </p>
+        </stage>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p><stage>(wchodzi płacząc)</stage> Marcinku!</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>A to co Marysiu, czego ty płaces?</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Marcinku, ja musę iść w świat daleko, na zawse juz cię ujrzę więcej!</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p><stage>(do siebie)</stage> O mój Boże, to ona!</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(do Feldfebla)</stage> O mój Boze... panie wojak... dla Boga co tu robić? Marysiu, to dobry cłowiek... Panie wojak patrzcie <stage>(pół z płaczem)</stage> Marysia płace.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Kochane dziecie, niepłacz; Bóg cię nie opuści, pocieszy cię niespodzianie. Słyszałem że masz w obcych stronach ojca: może on wróci, może już jest niedaleko.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Ojciec... mój Ojciec, <stage>(z płaczem)</stage> o nie... on o mnie zapomniał!</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Nie winuj go moje dziecie, może on nie mógł cię widzieć. <stage>(z zajęciem)</stage> Czy go pamiętasz?</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>O tak! pamiętam... dawno, bardzo dawno siedział w ubiorze zołnierza, w koło stało wielu innych, co wołali na niego zeby się śpiesył. On mię całował, płakał nademną, pzezegnał. Tamci go porwali, a ja płakałam, wydzierałam się za nim co dzień modlę się za niego, zawse o nim myślę... O mój ojce! cy ja cię tez kiedy zobacę?!</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Biedne dziecie, patrz: i ja jestem nieszczęśliwy i ja mam córkę daleko, niewidziałem jej przez lat trzynaście. Pośród kolegów, pośród bitew i zabaw zawsze byłem sam... zawsze sam; bo niebyło przymnie mojego dziecięcia... mojej biednej córki. Chciałbym jak najprędzej przycisnąć ją do mojego serca!</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Musiałeś za nią tęsknić, zawse o niej spominać?</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Czy za nią tęskniłem?<lb />
+          <stage>(ŚPIEW)</stage><lb />
+          Pośród walk krwawych, gdy działa ziejące<lb />
+          Śmierć i zniszczenie w koło roznosiły,<lb />
+          Wśród huku strzałów, słałem modły wrzące.<lb />
+          Aby mi nieba córkę mą wróciły.<lb />
+          Jedyną myślą w sercu mem stęsknionym<lb />
+          Jedynem szczęściem, nim zamknę powieki.<lb />
+          Było raz jeden ujrzeć ją przed zgonem<lb />
+          Ujrzeć ją w szczęściu i zasnąć na wieki.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Biedny, poćciwy żołnierzu! Ty tak kochas twoją córkę, jaka to skoda ze mnie wyganiają z domu, zawsebyśmy mówili o moim ojcu i o twojej córce. Ale to jus całe zycie moje takie niescęśliwe.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Zaufaj w Bogu moje dziecie. On cie niezawodnie zeszle pomoc. <stage>(ściska Marcina za rękę)</stage> Nie smuć się, to nie pięknie, żeby taki młody człowiek upadał na sercu. Moje dzieci!... wkrótce się zobaczymy, ja tu do was powrócę. <stage>(odchodzi w głąb, Marcin za nim, Marysia na prawo)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="14">
+        <head>Scena czternasta.</head>
+        <stage type="setting">
+          <p>(wchodzą z lewej strony)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#stanisław">STANISŁAW.</rs>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#szczepan">SZCZEPAN.</rs>
+            <rs key="#wojciech">WOJCIECH.</rs>
+          </p>
+        </stage>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Ha no! to jus dzięka Bogu wsyćko skońcone: miły Sceponek ozeni się z Franką, będzies sobie jaśnie wielmoznym.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Nie wielki to dla mnie honor zona w górnicy.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>E mój synecku, dyć ja cię niemyślałam niewolić, ale skorośmy juz raz ułozyli – to jus trudno. My teraz musiemy wsyćko robić wedle pańskiej maniery, a ze u panów, jak ojcowie ułozą, to się dzieci musą zenić: więc i ty musis się ozenić z panną Franciską.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Wiecie, ze mię jus zacynacie nudzić ze swojemi obrządkami. Jabym tu z wami wnet skrepirował: jak mi się sprzyksy to dalibóg ucieknę do Śtajermarku abo do Italije, a mnie wsyscy djabli po wasym pańskiem chłopstwie. Z całem wasem ślachectwem toście niewarci Italijańskim zydom świc na sabas pucować. Jak mi nie dacie spokoju to zabiorę moje klejnigkejty i powandruje napowrót do Majlandu.<lb />
+          <stage>(ŚPIEW polka)</stage><lb />
+          Niemas jak w Italskim landzie:<lb />
+          Dziewcąt tam przez liku<lb />
+          Cy w Brescyi, cy w Majlandzie,<lb />
+          Cy tez w Wenedyku.<lb />
+          Pomorańcy tam jak śnieci<lb />
+          Na futrunek trzodzie dają<lb />
+          A ot takie małe dzieci,<lb />
+          Po italiańsku gadają.<lb />
+          Tam zyd nie jada cybuli<lb />
+          Ni katolik śpeku,<lb />
+          A jak ucys się w Simsiuli [Schwim-schule]<lb />
+          W winie pływas cłeku!<lb />
+          Tam kazda ma piękne miano,<lb />
+          Tam się zadna nie zwie Franka<lb />
+          A mnie każda Italianka<lb />
+          Mówiła: Synior Stefano.<lb />
+          <stage>(do Stanisława)</stage><lb />
+          Donner wetter, znaj heciaku<lb />
+          Jakie to tam miasta<lb />
+          Kiej nawet liście z tabaku<lb />
+          Juz w packach wyrasta.<lb />
+          A niech was tu piorun trzaśnie<lb />
+          Z wasą Galicyą,<lb />
+          Ja zabieram kleinigkaity<lb />
+          Mars na Italią.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Mój synku, mój Sceponku, my sobie mozemy i tu Italiją zrobić, a ja byle ci dogodzić gotowa jestem sama Italianką ostać.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Wy?... tfy do bisa. Ha ha ha! Tza wam wiedzieć ze choćby ze świecą po całej Italii chodził, toby takiej brzyćkiej baby nie znalazł.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(rozgniewana)</stage> Stulze gębę Sceponku, bo jakbym cię trzasła na odlew, tobyś wnet przez paśportu, do Italii zaleciał.</p>
+        </sp>
+      </div>
+      <div type="scene" n="15">
+        <head>Scena piętnasta.</head>
+        <stage type="entrance">
+          <p>
+            (Dawniejsi) <rs key="#stanisław">STANISŁAW.</rs>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#szczepan">SZCZEPAN.</rs>
+            <rs key="#wojciech">WOJCIECH.</rs>
+            <rs key="#mojsiek">MOJSIEK.</rs> (później)
+            <rs key="#marysia">MARYSIA.</rs>
+          </p>
+        </stage>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p><stage>(wsadza głowę przez drzwi)</stage> Wojciechowa, jus cas!</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Zaraz, zaraz Mośku, pójdźno haw na chwileckę.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p><stage>(cicho do Katarzyny)</stage> No idźcie po Marynkę. <stage>(do Szczeponka)</stage> No wie gehets herr Szczepan, hob ihnen lang nisz gesehen.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p><stage>(usiłuje mówić po niemiecku)</stage> Ja... gut... gut... jud...</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>No, cóz powieś Mośku, jakze tam?</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu jabym powiedział, ale... <stage>(pokazuje nieznacznie na Szczeponka)</stage></p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Śmiało, śmiało gadaj o wsyćkiem; Sceponek wie o tym, dyć to moja krew.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu Icek tam stoi z budką za stodołem; on nie może długo cekać.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Dyć ona musi być jus przyryktowana – Maryna!</p>
+        </sp>
+        <stage>(Marysia wchodzi z zawiniątkiem zapłakana)</stage>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Wyguzdrałaś się przecie, no dalej w drogę. Mośku bierz ją!</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Ja nikaj, nikaj nie pójdę. Skąd macie prawo w taką zimę wyganiać mię z domu... Cy wam na to mię oddał mój ojciec zebyście mię zydom sprzedawali. Ja stąd nikaj nie pójdę choćbym miała umrzeć.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A to co!? zkądże ci to taka sroga gęba urosła? Nieuwazaj Mośku, bierz ją... <stage>(popycha ją gwałtownie)</stage></p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu, pójdź głupia, nie bądź taka ślifowana, nic ci się kiepskiego nie stanie. Icek jest dobry zyd... on cie ućciwie zryktuje.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p><stage>(usiłując wyrwać się)</stage> Puscaj mię zydzie.... puscaj mię...</p>
+        </sp>
+      </div>
+      <div type="scene" n="16">
+        <head>Scena szesnasta.</head>
+        <stage type="setting">
+          <p></p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            (Dawniejsi) <rs key="#stanisław">STANISŁAW.</rs>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#szczepan">SZCZEPAN.</rs>
+            <rs key="#wojciech">WOJCIECH.</rs>
+            <rs key="#mojsiek">MOJSIEK.</rs>
+            <rs key="#marysia">MARYSIA.</rs>
+            <rs key="#marcin">MARCIN.</rs> (potem)
+              <rs key="#feldwebel">FELDWEBEL.</rs>
+          </p>
+        </stage>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(wpada i odtrąca gwałtownie żyda)</stage> Puscaj ją psia wiaro, bo ci karku nakręcę!</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p><stage>(wrzeszczy)</stage> Aj waj gwalt! zbojnik! panie kapral ratuj! Gwalt! rebeliant! galgan!</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>No langsam, bruder, bo pojdzies do śtokhausu i dostanies zelaza.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Wara mi od Marysi!</p>
+        </sp>
+        <stage>(Katarzyna chodzi między chłopami namawia ich, ci się rzucają na Marcinka i chwytają go z tyłu)</stage>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A widzis pogańska duso! Mosiek biez ją!</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu pójdź, ty zbójnicka kochanka!</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(usiłuje wyrwać się)</stage> Puscajcie mię.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Na pomoc! ratujcie!</p>
+        </sp>
+        <stage>(Drzwi główne otwierają się – ukazuje się w nich Feldwebel, a za nim kilku żołnierzy)</stage>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Co to za gwałty! puszczaj ją niegodziwy żydzie.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p><stage>(spostrzegłszy go)</stage> Co ja widzę? A dyć to Feldwebel od nasego regimentu. <stage>(kryje się pod stołem)</stage></p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p><stage>(do żyda)</stage> Łotrze! wiem o wszystkiem.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Wielmożny panie Feldwebel, to nie ja, to oni.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A wam co do tego, że ja moją służącą chce oddać do innej służby.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Służąca?! I ty to śmiesz powiedzieć! Czy poznajesz mię!?</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p><stage>(do siebie)</stage> O la Boga, coś mi się ochapia.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Biedna dziewczyno! Bóg o tobie nie zapomniał, w największej potrzebie zsyła ci pomoc Marysiu! moja córko!... pójdź tu, pójdź do twego ojca.</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>O mój Boze!... <stage>(z krzykiem)</stage> Mój ojciec!...</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>O rany! a dyć to Bartłomiej!! Swięty Janie ratujze mię.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Już cię nie wypędzą z pod ojcowskiej strzechy. <stage>(z wyrzutem)</stage> Dziękuję ci Wojciechu za opiekę nad mojem dzieckiem.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(zakłopotany)</stage> Przepuście mi Bartłomieju; Ale wiecie, że kaj diabeł nie może, tam babę poślę, awo tez i namnie diabeł moją Kaśkę nasłał.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Jaćby ta nie myślała Marysiecki wyganiać, bo ją bardzo kocham, ale mię Mosiek skusił kieby Jewę wąz. Ej Bartłomieju, wiem zebyście mi przepuścili, kieby się za mną stawiła jaka mądra głowa <stage>(ogląda się)</stage> Sceponku! Sceponku! a kajzes ty?</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Nu jakto kaj? siedzi pod stołem...</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A pocóześ ty tam zalazł, wyjdze poratować matusie.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Kiej się boje.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p><stage>(spostrzega go)</stage> Co ja widzę! Wszak to forysic od regiments kapelana.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Nie gniewajcie się panie Feldwebel.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Co ty tu robisz w mundurze kaprala.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Chciałem trochę pośpasować z ojcami i pożycyłem tego kabata od regiments śnajdra co go wziął do wypucowania fleków.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>To ty Scepon nie jesteś kapralem?</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Ej, cobym miał być.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Za to wykroczenie pójdziesz do aresztu.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Prosę wielmoznego pana Feldwebel, to skoda taki odwazny wojak pakować do hareśtu. W Majlandzie to un sam jeden spotknął się z parę stów nieprzyjacielskie rebellantes.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Gdyśmy w początkach zeszłego roku opuścili na czas niejaki Medyolan, on ukrył się w piwnicy gdzie stał kwaterą; za naszym powrotem spotkał się walecznie z trzemaset ludźmi, bo chodził przez rózgi. Dla swego tchórzostwa był pogardzony od całego regimentu, aż w końcu został oddany za ordynansa regiments kapelanowi, No panie exkapral! dalej, marsz do kozy! precz.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(nieśmiało)</stage> Bartłomieju cy i ja mam iść prec.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Nie, mój synu, tyś jeden kochał moje dziecię opuszczone, tyś ją bronił od wszelkich przeciwności, zato więc oddaje ci ją z całem majątkiem. <stage>(szydząc)</stage> Spodziewam się że Jaśnie Wielmożna Kogucińska raczy dać pozwolenie Marcinkowi.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>O la Boga niech się zeni, z taką dziewcyną co ją tak kocham, com ją uchowała, z córką takiego ućciwego pana Feldwebla. A niechze im pan Jezus błogosławi.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p><stage>(upada mu do nóg)</stage> Bartłomieju!... Matusiu, moja Marysiu!...</p>
+        </sp>
+        <sp who="#marysia">
+          <speaker>MARYSIA.</speaker>
+          <p>Ojce! Marcinku!</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Stanisławie!... wiecie, ze kiej na nich patrzę to mi się jakoś okrutnie na zeniackę zabiera, niech kaci wezmą; kwit z Italii, ozenię się z Franką.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Hola, hola! córki za chłopskiego syna nie wydam, Frankę musę wydać za pana, a przynajmniej za landsdragona.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p>Stanisławie, nie bądź taki; przecieśma przyjaciele, niepowinniście mego dziecka odganiać.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Furda wszystko, ja nie jestem chłopski przyjaciel, nie dam córki za chłopa.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Przecieście wprzód sami chcieli zebym do wasej Franki przyflisował.</p>
+        </sp>
+        <sp who="#stanisław">
+          <speaker>STANISŁAW.</speaker>
+          <p>Pierwej co innego: ty byłeś kapralem a ojcowie ślachtą; z panami chciałem się krewniać, ale teraz <stage>(wzrusza ramionami)</stage> kwita z przyjaźni. <stage>(odchodzi)</stage></p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Moje dzieci! trzynaście lat was niewidziałem trzynaście lat wzdychałem za wami. Uzyskawszy zaszczytną dymissą o którą prosiłem, przychodzę przy was odmłodnieć i zapomnić dni smutku. Przez miłość dla was odpuszczam ojcom Marcinka. Wojciechu! Katarzyno! moje dziecko przez trzynaście lat z wami pod jednym dachem przebywało, wy u mnie do śmierci macie kawałek chleba.</p>
+        </sp>
+        <sp who="#marcin">
+          <speaker>MARCIN.</speaker>
+          <p>Bartłomieju przepuśćcie i Sceponkowi.</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>Z chęcią, mój kochany Marcinku.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p><stage>(biegnie i całuje go w rękę)</stage> Dziękuję, panie Feldwebel.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Wielmozny panie, a znami jak będzie, może ja mam pobiegnunć po wódkę?</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>A, dziękuje żeś mi przypomniał. <stage>(otwiera drzwi)</stage> Hola! kamraci! <stage>(żołnierze wchodzą)</stage> Wytrzepać tam dobrze temu łapserdakowi skórę, żeby węża nie udawał, a pani Kogucińskiej nie kusił.</p>
+        </sp>
+        <sp who="#mojsiek">
+          <speaker>MOJSIEK.</speaker>
+          <p>Oj waj... na co to!? <stage>(porywają go i wynoszą)</stage> Aj waj gwalt, panie feldwebel, jaśnie wielmozny panie! <stage>(głos niknie w oddaleniu)</stage></p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Dzięka Bogu, wsyćko się lepiej skończyło, anizelim myślała, choć nie jesteśmy ślachta ale tez nie chłopy. Ja i Wojtek tośma niby suspendowani oficyaliści na retrycie, abo na ameryturze. Awo i Marcinek będzie panem: jedno mi tylko na myśli!</p>
+        </sp>
+        <sp who="#feldwebel">
+          <speaker>FELDWEBEL.</speaker>
+          <p>No, i cóż takiego.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Otóż widzicie Bartłomieju: wyście mię skasowali ze ślachectwa, ale się turbuje cy nas ci państwo, co hań na ławeckach siedzą nie zgradyryją na chłopów.<lb />
+          <stage>(ŚPIEW OSTATNI)</stage><lb />
+          O sanowna publicnosci<lb />
+          Ręcę, przyznacie to sami<lb />
+          Kiej w tyjatrze duzo gości<lb />
+          To aktory są panami.<lb />
+          Lec gdy teatr pustką stanie<lb />
+          Casem nawet przez racye<lb />
+          To aktory niespodzianie,<lb />
+          Znów są chłopskiej kundycyje.</p>
+        </sp>
+        <sp who="#szczepan">
+          <speaker>SZCZEPAN.</speaker>
+          <p>Choć nie kapral ale zawse<lb />
+          Donner sok śwer not chłop klawy<lb />
+          Kiej zyskał Sceponek zwawy,<lb />
+          Wase względy najłaskawse.<lb />
+          I chociaz tam w Italje,<lb />
+          Mam grefinę... pal ją kaci,<lb />
+          Hej – Chłopi Arystokraci<lb />
+          Krzycma: publicność niech zyje.</p>
+        </sp>
+        <stage>(Chór powtarza ostatnie dwa wiersze)</stage>
+        <trailer>(KONIEC)</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

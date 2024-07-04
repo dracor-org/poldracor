@@ -1,0 +1,1316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000030" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Kucharki</title>
+        <title type="sub">Obrazek z obyczajów domownictwa miejskiego</title>
+        <author>
+          <idno type="isni">0000000071474167</idno>
+          <idno type="wikidata">Q9370511</idno>
+          <persName>
+            <forename>Walery</forename>
+            <surname>Wielogłowski</surname>
+          </persName>
+        </author>
+        <!-- Walery Wielogłowski (1805-1865) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item-view/85b3707c-335c-47a0-a687-faa6a12f85ff?page=4</idno>
+          <title>Wielogłowski, W., Kucharki: obrazek z obyczajów domownictwa miejskiego, Kraków 1858</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="anna" sex="FEMALE">
+            <persName>Anna</persName>
+          </person>
+          <person xml:id="apolonija" sex="FEMALE">
+            <persName>Apolonija</persName>
+          </person>
+          <person xml:id="franusia" sex="FEMALE">
+            <persName>Franusia</persName>
+          </person>
+          <person xml:id="halka" sex="FEMALE">
+            <persName>Halka</persName>
+          </person>
+          <person xml:id="inspektor_komissarza" sex="MALE">
+            <persName>Inspektor komissarza</persName>
+          </person>
+          <person xml:id="jadwiga" sex="FEMALE">
+            <persName>Jadwiga</persName>
+          </person>
+          <person xml:id="katarzyna" sex="FEMALE">
+            <persName>Katarzyna</persName>
+          </person>
+          <person xml:id="kunda" sex="FEMALE">
+            <persName>Kunda</persName>
+          </person>
+          <person xml:id="maryanna" sex="FEMALE">
+            <persName>Maryanna</persName>
+          </person>
+          <person xml:id="mąż_reginy" sex="MALE">
+            <persName>Mąż reginy</persName>
+          </person>
+          <person xml:id="obywatel_z_miasta" sex="FEMALE">
+            <persName>Obywatel z miasta</persName>
+          </person>
+          <person xml:id="pan_komissarz_okręgowy" sex="MALE">
+            <persName>Pan komissarz okręgowy</persName>
+          </person>
+          <person xml:id="pani_k" sex="FEMALE">
+            <persName>Pani k</persName>
+          </person>
+          <person xml:id="pani_z" sex="FEMALE">
+            <persName>Pani z</persName>
+          </person>
+          <person xml:id="policyant" sex="MALE">
+            <persName>Policyant</persName>
+          </person>
+          <person xml:id="przekupka" sex="FEMALE">
+            <persName>Przekupka</persName>
+          </person>
+          <person xml:id="regina" sex="FEMALE">
+            <persName>Regina</persName>
+          </person>
+          <person xml:id="róża" sex="FEMALE">
+            <persName>Róża</persName>
+          </person>
+          <person xml:id="salomea" sex="FEMALE">
+            <persName>Salomea</persName>
+          </person>
+          <person xml:id="urzędnik_z_magistratu" sex="MALE">
+            <persName>Urzędnik z magistratu</persName>
+          </person>
+          <person xml:id="wdowa" sex="FEMALE">
+            <persName>Wdowa</persName>
+          </person>
+          <person xml:id="woźny" sex="MALE">
+            <persName>Woźny</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-29">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1858">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">KUCHARKI</titlePart>
+            <titlePart type="sub">OBRAZEK<lb />
+            Z OBYCZAJÓW DOMOWNICTWA MIEJSKIEGO</titlePart>,
+          </docTitle>
+          <byline>PRZEZ<lb />
+            <docAuthor>Walerego Wielogłowskiego</docAuthor>.
+          </byline>
+          <docImprint>
+            <p>
+              W <pubPlace>KRAKOWIE</pubPlace>
+              <bibl>
+                <publisher>NAKŁADEM WYDAWNICTWA DZIEŁ KATOLICKICH<lb />
+                NAUKOWYCH I ROLNICZYCH</publisher>
+              </bibl>
+              <date>1858</date>.
+            </p>
+          </docImprint>
+        </titlePage>
+      </div>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>ROZMOWA<lb />
+        PRZED RZEŹNICZEMI JATKAMI</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#salomea">SALOMEA.</rs>
+            <rs key="#regina">REGINA.</rs>
+            <rs key="#maryanna">MARYANNA.</rs>
+          </p>
+        </stage>
+        <sp who="#salomea">
+          <speaker>SALOMEA.</speaker>
+          <p>Poczekajże mnie pani chwilkę ja się tu wnet wrócę, a mam pani coś ciekawego opowiedzieć.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Poczekam, poczekam Salusiu, tylko się Salusia długo niebaw, bo jeszcze mam iść po jarzynę na Szczepańskie.</p>
+        </sp>
+        <sp who="#salomea">
+          <speaker>SALOMEA.</speaker>
+          <p>A przecieć i ja mam iść kupować na mieście, to pójdziemy razem, tylko im na obiad jakiego ochłapa kupię.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>No, idź Salusia, idź, a zwijaj się.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p><stage>(nadchodząc)</stage> Dzień dobry pani, zdrowa pani teraz dobrze?...</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Poprawiło mi się tam trochę, ale jeszcze moja panno głowa mnie okrutnie boliwa, że ledwo się gdzie niezapodzieję. Powiadam pannie, że jak mnie zacznie drzyć, jak mi zacznie w owej głowie szumieć, to tak jakby w jakim młynie; a oczy to mnie będą tak boleć co mi aż z nich łzy się leją, jak z rynny, a to wszystko z tej kuchni, co powiadam pannie, że jakby jaka latarnia, że wszędzie wieje i wydyma wszystek ogień, jak z miecha. Już teżto bestyjski wymysł, z temi kuchniami, co ja zaraz powiadałam że to nie będzie dobrze. Ale jak panu zaczął mularz dogadywać, i przyświadczać, więc też kazał, taką zrobić, a to się zwie na francuzką modę. Gdzie to ma być dobrze, gdzie? Jest najprzód taki lucht co nie jest do komina, ale do ściany a znowu od ściany to się będzie ciągnął do izby, a potem to się wkoło kręci aż póki na swoją dziurę nie trafi. No moja panno chciałoby się to ogniowi albo dymowi tyli pęd chodzić, kiedy ma bliżej wydymać. To powiadam, że się onego dymu tyla napołykam, że w gardle to mnie ciągle zgaga pali, że aże nie wiem co. Otóż co prawda, to i o tę kuchnią chciałam się już oddalić, bo mi tego nie potrzeba, abym dla nich zdrowia sobie ujmowała, albo i żywot mój skracała.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Nie może im to pani perswadować, żeby kuchnią kazali przerobić?... Jabym się uparła na swojem, choćby nie wiedzieć jak!...</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Oh, moja panienko! albo ja się im to małom naperswadowałam, a pan mówi, że jeszcze trzeba próbować, bo mury świeże to para dusi ogień. A ja mu znowu na to: że nigdy przenigdy niebyło i nie będzie tak dobrze, bo ja też nie w jednym ani nie we dwóch miejscach sługiwałam a nigdzie takiej kuchni nie było, tylko jak zwyczajnie z kapą albo jeżeli już nie, to na angielską, a nie na francuzką modę, co to wszystko na psa.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Bo wie pani co zrobić? Oto wziąć jaką szmatę i naprawdę zatkać lucht, coby się nie paliło wcale, a jakby pani obiadu raz nie ugotowała, toby prędko kazał inaczej przestawić.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>A dobrze panna radzi, jak Boga kocham, nie inaczej tylko tak trzeba będzie zrobić, dla przekonania coby sam widział... A pannie jak się też powodzi? Czy dobrze?</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Ej, mnie tam jak mnie!... Z początku to mi się bardzo przykrzyło w tej służbie, bo nikogutko nieznałam, to chodziłam tak jakby błędna, ale teraz tom się już wezwyczaiła.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Nie ma pannie Resi być teraz weselej, kiedy do panny kawaler zachodzi!... Słyszałam ja, o wszystkiem.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Ej, kto tam wie co z tego będzie? Ja się tam jeszcze na nic nie decyduje, bo strasznie jestem na to bojąca. Najłatwiej sobie los na całe życie zawiązać, a jakby na to mówiąc źle trafić, to już trzeba cały żywot przecierpieć. Teraz to nie warto lada komu wierzyć bo mężczyźni są okropni oszukańce. Jak i ten... moja pani, co bywa u mnie, to znowu go Maciejowa wypatrzyła, jak jednego razu, chodził z Magdaleną za mogilską rogatkę. Wierzyćto takiemu? Moja pani!!</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Bo może ona jaka jego krewna...</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Krewna ci tam, krewna, ale chyba po cygańskiej kobyle, tylko taka szelma dziewka, co nie warta że ją święta ziemia nosi, i że to słońce nad nią świeci.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Już to najgorzej jak druga bałamuci, a nie powinna nigdy na świecie, bo przecież tego męzkiego rodu nie brakuje, coby się każdej dostało, i jeszcze by zbyło. Mało to jest na świecie kawalirów?... Ja chociaż jestem w średnim wieku a miałabym ich cobym ich tylko chciała. Ale ja tam już o to prawdę mówiąc to i nie stoję, bo mi się już dało we znaki moja panno, co byłoby o moim nieboszczyku cały rok opowiadać. Już taki był hycel chłoposko powiadam, że Bogu wiecznie dziękuję że go z tego świata zabrał... Bo co ja się też na niego napłakałam, moja panno! co ja też miałam desperacyi, to dzień i w noc od świtu do zmroku.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Ale w czemże taki był? Czy za innemi gonił, czy też tylko siedział w trunku?</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Oj moja panno! Żebym ja pannie wszystko opowiedziała, toby sobie panna tego nigdy na świecie nie wystawiła; bo jak się chłop nie uda, to już jest gorszy od psa, aż okropność!</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Może panią bijał.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Ej, co tam o to, jeszczebym nic nie mówiła, ale że tracił na takie bezeryje że nawet wspominać niechcę. Albo on to mało miał pieniędzy z professyi swojej a był mularzem?... Trafiało się, że i piętnaście złotych dziennie zarobił, bo lada gdzie pobielił sień za niecałą godzinę i łap zaraz ośm złotych, albo blachę w kuchni poprawił, co mu i ćwierć godziny nie zeszło, łap cztery złote, w tenku dziury zamazał, jużci znowu cztery złote. I na cóż mu wyszło hyclowi? na co mu miły Boże?... Przyniósł on mi z tego kiedy choć grosz? albo dał mi na życie kiedy co? Nigdy na świecie! tylko żarł farynę a popiał wódką. A nigdy sam nie pił, broń Boże, ani mnie też z sobą nie pojął do szynku, tylko z innemi chodził, a rzadko kiedy i na wieczór do domu łajdak przyszedł. Oj moja panno! stokroć lepsza śmierć jak taki mąż! Ale się też pan Bóg ulitował, i wziął go z tego świata, co nawet długo nie chorował, ale tak jakby powiedzieć trzy dni od wieczora do wieczora, i już było po nim. Tak ja niewiele myśląc, posprzedałam naczynie jakie miał, i sprawiłam mu piękny pogrzeb, co mnie kosztował 14 złotych, i leży tam w świętej ziemi, a ja to jakbym się drugi raz na świat narodziła. Oj tak moja panienko tak!!... Jeśli panna Resia ma iść za mąż, to trzeba bardzo dobrze uważać a pierwej na wszystkie strony kawalira wypróbować i doświadczyć, aby potem nie płakać całą wieczność. Bo i są prawdę powiedzieć ludzie porządni jak i ten gospodarz z kamienicy co mi się zalecał, ale to tylko trafunkiem się dobry znajdzie, a resztę to tylko obmyć i powiesić!</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Tego ja się też to boję moja pani, tego! bo jakby trafić na takiego, co z innemi traci a nie ze swoją żoną, to lepiej panną życia dokonać jak iść zatakiego. A ten mój kawaler to byłby i może, tylko o tę Magdalenę, co Maciejowa mi mówiła.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Może jej się tylko tak uwidziało?</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Ale wyraźnie mi powiadała, że ich na swoje własne oczy oglądała. Bo nawet Magdalena miała na głowie chustkę czerwoną, a znowu odziana była w taką w kraty, a spódnicę miała niebieską, i fartuch z tej żółtej sukni co ją miała.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>No widzicie!! jaki to łajdak dziewka, żeby z cudzym kawalirem za rogatkę chodzić!! Oni pewno chodzili na tańce do Piaseckiej Karczmy?...</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>A gdzieżby?... jeno tam! To taką karczmę, to nie warto tylko rozburzyć. A tę Magdalenę oddać do policyi, coby jej skórę wybili. Bo ona nie powinna ze służby chodzić na tańce z cudzym kawalirem. Jeśli chce, to niech chodzi ze swoim, o co teraz nie trudno znaleźć. Żebym ja ją tylko gdzie spotkała, tobym ją brewiter tak zwołała przy ludziach jak najostatniejszą sukę.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Dobrzeby jej panna zrobiła.</p>
+        </sp>
+      </div>
+      <div type="scene" n="2">
+        <stage type="entrance">
+          <p>
+            <rs key="#maryanna">MARYANNA.</rs>
+            <rs key="#regina">REGINA.</rs>
+            <rs key="#franusia">FRANUSIA.</rs>
+          </p>
+        </stage>
+        <sp who="#franusia">
+          <speaker>FRANUSIA.</speaker>
+          <p>Czóż panie radzą tak radzący?</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Tak sobie też mówimy o różnościach.</p>
+        </sp>
+        <sp who="#franusia">
+          <speaker>FRANUSIA.</speaker>
+          <p>A ja dzisiaj tak zaszpałam, żebym się była do południa nie obudziła.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Bo musiała gdzieś Franusia w nocy hulać! Może na jakiem weselu?</p>
+        </sp>
+        <sp who="#franusia">
+          <speaker>FRANUSIA.</speaker>
+          <p>Ej, nie byłamtam na zadnem weszelu, tylko tak tez, com tylko z godzinkę była na mużyce.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Nie dziwota! Młodziznie to się chce bawić, ale jak już w starszych leciech, to i nie ma do tego ochoty.</p>
+        </sp>
+        <sp who="#franusia">
+          <speaker>FRANUSIA.</speaker>
+          <p>I paniby tam jeszcze pochulała, jakby na to mówiącz przyszło.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Oczywiście, iżby tam pani od tego nie była odmowna. Mnie to tam i trudno, bo się pani zawsze dopytuje, albo i w nocy do dzieci woła.</p>
+        </sp>
+        <sp who="#franusia">
+          <speaker>FRANUSIA.</speaker>
+          <p>A co mnie, to żnowu na to lepiej, że u nas kuchnia jest na tyłach, więc jak się położą to już mój cały jest czasz. Choć kto przyjdzie albo i ja wyjdę, to mam drugi klucz od kamieniczy, i żadnego nie ma hambaraszu.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>O, wierzę! tak to święte życie, ale ja to sypiam w podle państwa. Pani zadzwoni i dalejże. Jakże się tam Franusi na tej nowej służbie powodzi?</p>
+        </sp>
+        <sp who="#franusia">
+          <speaker>FRANUSIA.</speaker>
+          <p>Jeszcze nie jestem doświadczona jak mi tam będzie, alem się już poswarzyła z pokojówką o to pranie. Bo ona chciała, abym z nią prała, i o noszenie wody, a ja jakem się uparła tak na moim stanęło. Bo jakby się, na to mówiąc, raż człek poddał, toby na zawsze weszło w żwycajność.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Skoro Franusia do kuchni godzona, to się nie należy.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Oh, niech Bóg broni zrazu tylko przystać, to już na całe życie. A któż chodzi na targ?...</p>
+        </sp>
+        <sp who="#franusia">
+          <speaker>FRANUSIA.</speaker>
+          <p>Ej, o to tam, bo ja kupuję a nie pani. Służyłabym to gdyby pani kupowała?... Ona niby sama bo jest z państwa, toby na targ nie chodziła, ale czóz mi z tego kiedy daje na wszystko ośm złotych, i wielaż na tem zostanie?... tak jakby nic!... Chyba na tę szklaneckę kawy.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Oj, nie wykroi, nie, z ośmiu złotych, bo choć się mięsa z wolnicy weźmie, i na jarzynach co urwie, to na korzeniu nic, na mleku mało, na bułkach ani grosza, na chlebie też nic, więc cóż mi z tej całej parady?!! Boże zmiłuj się!</p>
+        </sp>
+        <sp who="#franusia">
+          <speaker>FRANUSIA.</speaker>
+          <p>Ej, na cenie toby nietyla; ale na wadże to tam jak kto umie, to caszem obstoi.</p>
+        </sp>
+      </div>
+      <div type="scene" n="3">
+        <stage type="entrance">
+          <p>
+            <rs key="#maryanna">MARYANNA.</rs>
+            <rs key="#franusia">FRANUSIA.</rs>
+            <rs key="#regina">REGINA.</rs>
+            <rs key="#jadwiga">JADWIGA.</rs>
+          </p>
+        </stage>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>Oj! moje panie, co teżto na mieście otrębowali. Oto, że zginął pulares, co w nim było tysiąc złotych i jakieś tam papiery! Mój Boże! Żeby teżto znaleźć to dopiero byłoby szczęście od Boga.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Znajdzieto dzisiaj co przed temi próżniakami, co ich jest tyla i co się włóczą po ulicach. Lada papierek dziesiątowy co kto zgubi, to paper znajdzie i schowa.</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>Obiecują dwadzieścia i pięć reńskich znaleźnego na rękę.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>To i tak dobrze obiecują. Ja choćbym i znalazła, tobym odniosła, bobym się bała, mieć tyle pieniędzy. Lada kto by się zmiarkował.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>A jabym zaś schowała do skrzynki i byłoby na mój stary żywot.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>A jakby się kto spodział albo wypatrzył? to z tego zaraz kłopot w policyi, jeszczeby mnie posądzili żem ukradła.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Jabym pieniądze w łaszek obwinęła, a pulares, tobym spaliła... niech cię tam!... A jakby kto na to mówiąc i chciał dociekać, tobym powiedziała, że mi brat dał spłackę, a resztę mam od kawalira i kwita!</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Nibyby to w Policyi uwierzyli!!... Oni mają taki sposób, że choćbyś jeszcze nie rzekła, to oni już wiedzą co chcesz rzec. Bo kiedy Nastkę wzięli do Policyi, a tak jakby o nic, bo tylko dwa prześcieradła ukradła, i rądel u żydówki zastawiła za trzy złote, to się jej zaraz Komisarz pytał: „Gdzieś podziała skradzione rzeczy?“ A ona na to: „Ja nie wiem, Wielmożny Komisarzu, o żadnych rzeczach na świecie, i ani słycham.“ A na to pan Komisarz spojrzał na nią i z góry tak mówi: „Kiedy ty nie wiesz, złodziejko, to ja ci powiem jak to było. Żeś prześcieradła wyniosła do twojej znajomej Kundy na schowanie, a rądel zastawiłaś u Mendlowej".</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Oj rety! rety! Zkądże on mógł to moja droga pani przepynetrować? choć i komisarz!</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Oho! Moja Resiu! Żebyś to panna wiedziała jak oni to sztuderują, to nawet nasz pan mówił, że się pod ziemią na sto łokci, i co mówię na sto? Nawet na więcej, nic przed niemi nie ukryje. Mają takich Inspektorów co wszystko na świecie wiedzą. Jak który jak, albo co! lub z kim kto, albo jak komu!... Dość, że ani wypisać ani wypowiedzieć.</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>Oj Boże! mój Boże! Co teżto i za nieszczęście z tą policyą, bo jakże tu żyć na świecie? trzebaby już bardzo żyć uczciwie, iżby nie było nic złego, a przecież zawsze każdy radby sobie losu poprawić.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Moja panno! rzeźniki i przekupki a także się skarżą, bo im ważą bułki i mięso. Jak braknie na chlebie choćby te półfunta, to halom chleb do koszyka i niosą do Magistratu.</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>A to prawda! Tak robią, tak!</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Ani słowa, bo prawda, gdyż sama kiedyś widziałam... Oj, ale się tu bawię, a pani tam będzie krzyczyć! Co ja też mam do słuchania od obydwóch i od starej i od młodej, to czasem, aż mi się życie uprzykrza! „Gdzieżeś tak długo siedziała, prawi, gdzieżeś wystawała po ulicy?" A ja na to: Siedziałam to? Tylkom chodziła za pańskim sprawunkiem!! Ale ta stara, co się jej mówi: Jejmość, to sto razy jeszcze gorsza złośnica od tej młodszej, bo jak mnie młodsza raz spotkała w sieni, co już było ciemnawo z moim kawalirem, to tylko rzekła: „Regina! Idź do kuchni!" A stara jak mnie raz w południe zeszła na schodach, co mnie on tak za palice u rąk trzymał i gadał, to jak wsiądzie na mnie: „to taka! to owaka!" więc mnie tak zwołała, tak się nawydziwiała, że ażem się zanosiła od płaczu ze złości. Bo ja za moją uczciwość na tom sobie nigdy nie zasłużyłam. Oj! powiadam pani! moja kochana pani! że nie warto teraz nigdy na świecie służyć, i lepiej psy zbijać jak ten Wawrzek na mieście, a mieć sobie głowę spokojną!</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p><stage>(dostrzegając)</stage> Widzicie! patrzcież panny po za się, na tę Jejmość co idzie z koszykiem, to kucharka od K...</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Może!...</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>Kucharka! Ale ona z nikim nie kompani, tylko sama tak chodzi jak, nie przymierzając, zwierz dziki, i ani się do której odezwie, tylko kupi prędziuchno, zawinie się po jatce, i idzie.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>A prawda! bo ja ją codzień widuję jak chodzi do kościoła z książką, jak jaka pani, a to kucharka i męża ma też kucharzem, a sama służy u K... Jakoś jej to podobno Anna, bo mi tak mówili, lecz to taka herna i swój honor trzyma, że się z nią ani co człowiek dogada.</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>Ale ona tam już długo służy u tych państwa, i jeździ z niemi na wieś, bom widziała, jak raz jechała przez Zwierzeniecką rogatkę.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Różne się to trafią, moja panno! I lada której się widzi, że wyżyje na uczciwej służbie. Już ja nie mówię aby kraśdź, albo zbytkiem krzywdzić. Broń Boże! ale żeby też znowu nic nie korzystować, to znowu tego nie uważam, bo każdy człowiek na to żyje, aby też coś uskładał na starość, bo to nie radość! Ja to jestem taka, że nie ruszę jakby tam już co wielkiego, ale co z drobiazgów co i znaku z tego nie ma, to nawet ani sami państwo nie uznają że brakuje.</p>
+        </sp>
+      </div>
+      <div type="scene" n="4">
+        <stage type="entrance">
+          <p>
+            <rs key="#maryanna">MARYANNA.</rs>
+            <rs key="#franusia">FRANUSIA.</rs>
+            <rs key="#regina">REGINA.</rs>
+            <rs key="#jadwiga">JADWIGA.</rs>
+            <rs key="#salomea">SALOMEA.</rs>
+          </p>
+        </stage>
+        <sp who="#salomea">
+          <speaker>SALOMEA.</speaker>
+          <p><stage>(nadchodząc)</stage> Jeszcze to tu panie są?</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>A czekam na Salusię! myślałam że Salusia gdzie zginęła, albo że Salusię kto ukradł!</p>
+        </sp>
+        <sp who="#salomea">
+          <speaker>SALOMEA.</speaker>
+          <p>Ej, gdzie tam, tylko się spotkałam z lokajem od hrabiego B... i ugadaliśmy się troszkę.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Patrzajcież! to może będzie z tego gadania i wesele.</p>
+        </sp>
+        <sp who="#salomea">
+          <speaker>SALOMEA.</speaker>
+          <p>Będzie tam wesele, moja panno! kiedy ma żonę, jeszcze starą babę, jak jakiego diabła!</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>To na cóż było z żonatym gadać, kiedy nic z tego nie ma być!</p>
+        </sp>
+        <sp who="#salomea">
+          <speaker>SALOMEA.</speaker>
+          <p>Choć on żonaty, ale przystojny mężczyzna i taki przyjemny na twarzy, a bywalec po całym świecie. To jak czasem przyjdzie do szynku a zacznie rozpowiadać, to jest się czemu przysłuchać. A znam też i takiego drugiego, co jest stangretem u państwa C... to i ten ma co powiedzieć, bo jeździł po cudzych krajach, ale już ten nie jest taki rozgadany.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>I o czemżeście z sobą rozmawiali?</p>
+        </sp>
+        <sp who="#salomea">
+          <speaker>SALOMEA.</speaker>
+          <p>Tak tam, moja pani, o różnych różnościach, co nie warto powtórzyć tego słowa co on mi mówił, że mnie chce wyswatać ze swoim bratem, co jest szewcem na wsi i ma grunt swój własny, ale jest zwyczajnie z chłopskiej kondycyi.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Czasem lepszy taki, jak miejski człowiek.</p>
+        </sp>
+        <sp who="#salomea">
+          <speaker>SALOMEA.</speaker>
+          <p>Może tam, moja pani i byłby lepszy, ale nie byłby dla mnie honor, żebym za chłopa poszła.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Słuchajcie panie!... którażto teraz bije na zegarze? Będzieto już ósma?</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Co też to Resia mówi! ósma?... Już dziesiąta wybiła.</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>O mój Boże! ja myślałam że to ósma i, gadam, a oni tam kawy nie pili, bom klucz od kuchni wzięła. Będzie też to tam kłopotu i hałasu, będzie!</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Przecież pannie za to głowy nie urwą! Powiedzieć, że się do jatki docisnąć nie można, co tyle było ludzi, i że dopiero do szlachtuzu po mięso posyłali i stanie się!!</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Takci trzeba jako wykręcić, a potem cóż mi zrobią?... Jakby mi tylko marne słówko rzekli, to zabieram pościel i skrzynkę i idę! Teraz o służbę nie trudno, i mnie każdy odrazu weźmie! No, żegnam panią i panienki i całą kompanię, a jakby kiedy była łaska na drugi dzień, to ja już ślicznie proszę na kawę do Janowej, co jest bardzo dobra kobieta, że i poradzi co komu, a jak potrzeba to i nastręczy.</p>
+        </sp>
+        <sp who="#salomea">
+          <speaker>SALOMEA.</speaker>
+          <p>O znam ja tę Janową!! To cała suka baba, że choćby na to mówiąc, trupa z trupem, toby  wyswatała, a choć nie młoda, to tak hula na weselach, że jej nigdy młodsza nie dokaże.</p>
+        </sp>
+      </div>
+      <div type="scene" n="5">
+        <stage type="entrance">
+          <p>
+            <rs key="#maryanna">MARYANNA.</rs>
+            <rs key="#regina">REGINA.</rs>
+            <rs key="#jadwiga">JADWIGA.</rs>
+          </p>
+        </stage>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>Dobra dziewczyna jest ta Salusia, bo nawet często jak z nią iść to potraktuje.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Tylko nie jest jeszcze wyadukowana i jest bojąca a nie odetnie się.</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>Bo ona niedawno w służbie praktykowana, to takie jak ciele potulne, ale zmądrzeje ona; wszystkiego ją ludzie wyuczą.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Oczywiście; niechno za pół roku, aniby ją w domu nie poznali.</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>To i ja to samo, jakem z domu przyszła do miasta, com świata jeszcze nie przewidziała, tom była okrutnie posłuszna, a pani mnie bardzo za to lubiła; a taka byłam głupia, że jak mi już pani dała reńskiego albo pięć złotych, to już tak dociekałam, żeby tanio kupić a wyrachować się co do ostatniego grosza. To jak mi brakło, okrutniem płakała. Dopiero jedna z przyjaciółek, co jest zaraz z drugiej wsi, mówi mi: „Oj, głupia! głupia!, czegóż ty płaczesz? albo to twoje pieniądze żebyś za niemi płakała? Jak ci brakuje to podaj drożej to albo owo i zaraz ci się wyrówna i jeszcze tobie zostanie!”. Z początku tom się wagowała, bo myślę sobie: że grzech, ale potem jakem doświadczyła, że wszystkie tak robią, więc też dopiero było mi lepiej.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Oczywiście, iż inaczej nie wypada, bo jakby człowiek tak się rachował, toby nic na tem nie miał.</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>Gdzież pani kupuje mięso?</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Ja, czasami to kupię w jatce, to tylko tyle mam z tego ile się przytrafi na wadze, ale jak się da, to kupuję na Wolnicy, i na tem też to tam, co się zostanie na dalsze lata.</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>I ja najczęściej kupuję z Wolnicy. Ale raz to mi się kupił podły kawałek, a pan się pyta pani, który to rzeźnik takie brzydkie mięso sprzedaje? i chciał iść do Magistratu; to powiadam pani, żem się tak wylękła!!</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Jabym powiedziała brewiter, iż nie wiem jak się rzeźnik nazywa i kwita.</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>Dociekałby, bo jest taki zawzięty, ale tyle tylko że mało w domu siedzi, tylko cały dzień po mieście biega za interesami, to nie ma czasu dociekać. A pani to jest taka co się tam nie zna na gospodarstwie, tylko żeby się ubrać, i z państwem rozmawiać co przychodzą, albo wyjdzie tam do jakich państwa i siedzi, a dopiero przyjdzie na obiad.</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Trzeba nam może będzie i iść?!</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>A nie wstąpimy to pod bociana, na mały kubeczek?</p>
+        </sp>
+        <sp who="#maryanna">
+          <speaker>MARYANNA.</speaker>
+          <p>Nie jestem od tego odmowna, tylko się długo nie bawmy!</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Ja bo już, nie wymawiający, piłam dzisiaj!</p>
+        </sp>
+        <sp who="#jadwiga">
+          <speaker>JADWIGA.</speaker>
+          <p>Ej, nic Resi nie będzie, choć wypije i drugi.</p>
+        </sp>
+      </div>
+      <div type="scene" n="6">
+        <head>Kucharka Katarzyna u Pani Z.</head>
+        <stage type="setting">
+          <p>(rano)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#pani_z">PANI Z.</rs>
+          </p>
+        </stage>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>Cóż będzie na obiad?</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Albo ja wiem?... Trzebaby co ugotować, ale też to wszystko drogo na mieście, żeby temu nikt nie uwierzył: kiedy kwarta jęczmiennej kaszy kosztuje 12 groszy.</p>
+        </sp>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>Moja Katarzyno, to być nie może, bo przecież pani K. mówiła mi że jej sługa kupuje jej po sześć groszy kwartę.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Ale do czego i kiedy? Nigdy na świecie! Przecież ja znam tę Annę co jest u pani K... i jak ją tylko na mieście zobaczę, to się z nią poswarzę, bo ona nie powinna na inne sługi instygować; ani się jej też wtrącać do cudzego targu!, Jeżeli ona kupuje po sześć groszy, to pewno nie od krupiarek, bo ani jednej niema krupiarki coby po sześć groszy sprzedawała; ja przecież wiem najlepiej bo tem traktuję.</p>
+        </sp>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>Ja niewiem gdzie Anna kupuje; ale wiem że tylko płaci sześć groszy.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Może być że u baby ze wsi które noszą, kupiła jakiej kaszy, czarnej i nieożubrowanej na pół z ziemią i z piaskiem, a pół na pół z wyką wilkiem i matonogiem; to daję temu wiarę. Ale cóż lokaj, ani pokojówka, ani żaden człowiek na świecie choć najuboższy; toby tego nie jadł, bo każdy też na to służy aby sobie podjadł a jak mu naparzyć warzy jak nieprzymierzając trzodzie, to też co nadto to niezdrowo, jak to mówią.</p>
+        </sp>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>...Już moja Katarzyno, nie mów tak wiele, tylko powiedz co będzie na obiad?</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>No, cóż będzie? to będzie co pani każe! Ja potrafię i za ośm złotych obiad ugotować, i za 42 i za 20... Wiele mi dadzą to za tyle kupię i ugotuję. Może być rosół i sztuka mięsa i jarzynka jaka i ta kura co ją ze wsi przywieźli, więc mi na to trzeba dwanaście złotych!</p>
+        </sp>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>...Ale gdzie znowu 12 złotych? na pięć funtów mięsa i jarzynę?...</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Albo to pani nie wie, po czemu to mięso? a jeszcze małych kawałków odcinać niechcą, tylko kości. A jarzyny też o dubelt droższe jak łońskiego roku.</p>
+        </sp>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>...Moja Katarzyno, to być może i dla tego muszę kazać pokojówce na targ chodzić, bo ciebie może oszukują.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Jeżeli mnie tam ma pokojówka podglądać albo mieć odemnie lepszą wiarę, to niechże ona kupuje i gotuje, a ja gotować nie będę tylko się zabieram i idę... Mnie o służbę nie chodzi, bo ja sobie przy córce będę na stancyi siedziała bez żadnej turbacyi i nikt mi oka nie zapruszy. Dziękuję więc pani za służbę i zaraz odchodzę, a kiedy pokojówka taka ma być mądra, niechże będzie i do kuchni i do pokoju, ja jej tam nie zazdroszczę.</p>
+        </sp>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>...A to znowu zkąd taki humor? cóż to ma znaczyć?...</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Nie jest żaden hunor, tylko tego nie potrzebuję aby mnie kto podglądał, bo każdy ma swój rozum.</p>
+        </sp>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>...Wreszcie moja kochana kiedy tak chcesz koniecznie, to możesz odejść, a ja każę dzisiaj z traktyerni obiad przynieść!</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Owszem, bardzo dobrze, bardzom z tego kontenta, bo dopiero pani zobaczy co kosztuje! Przecież wczoraj wzięli na dwie osoby ci państwo co ze wsi przyjechali, to mówił mi lokaj że zapłacili 20 złotych.</p>
+        </sp>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>...Kto się chce dać oszukać, to tyle płaci, ale w Krakowie doskonałe są obiady po trzy złote i my tyle tylko płacimy. Wolno ci więc starać się o inne miejsce.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Owszem, ale proszę pani o zasługę za cały kwartał.</p>
+        </sp>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>...To ci się nie należy, bo ty się sama odprawiasz, a nie ja cię oddalam.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Jeżeli mnie pani ma tak dalece krzywdzić to wolę dosłużyć do kwartału albo i do roku, byłem ja sama na targ chodziła! Dzisiaj będą na obiad takie blinki co pan lubi, i barszcz, i duszona pieczeń, tak jak państwo jadają i jarzynka wykrawana w czterech gatunkach.</p>
+        </sp>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>Zostańże więc do kwartału! a tutaj masz sześć złotych na targ.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Dobrze! jeśli wystarczy, to sama będę kontenta, ale wątpi o tem kościół święty.</p>
+        </sp>
+        <sp who="#pani_z">
+          <speaker>PANI Z.</speaker>
+          <p>...Trzeba oszczędzać i targować się przecież, bo nie sposób tyle co dzień pieniędzy wydawać.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Kiedy nawet głupia pietruszka z przeproszeniem Wej pani, a kosztuje sześć groszy, a gdzie dopiero marchew, selery, pory i wszelka włoszczyzna. Nigdy tak niebywało jak teraz, i nawet mnie samej dziwno. Za sześć złotych niekupię, trzeba dać najmniej dziesięć a niechby ośm to najmniej.</p>
+        </sp>
+      </div>
+      <div type="scene" n="7">
+        <head>Kucharka Anna u Pani K.</head>
+        <stage type="setting">
+          <p>(rano)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#anna">ANNA.</rs>
+            <rs key="#pani_k">PANI K.</rs>
+          </p>
+        </stage>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Chciałabym iść na targ, aby wcześniej u wiejskich kobiet kupić, bo u przekupek dużo drożej.</p>
+        </sp>
+        <sp who="#pani_k">
+          <speaker>PANI K.</speaker>
+          <p>Dobrze moja Anno. A czy byłaś już w Kościele?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>O, już dziękować Bogu! byłam jak zwykle na prymaryi.</p>
+        </sp>
+        <sp who="#pani_k">
+          <speaker>PANI K.</speaker>
+          <p>...Wielęż ci dać pieniędzy na targ?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Zostało mi jeszcze z wczorajszego dwa złote więc będzie dość drugie dwa. Teraz przecież wszystko staniało, to się łatwiej obejdzie!</p>
+        </sp>
+        <sp who="#pani_k">
+          <speaker>PANI K.</speaker>
+          <p>...Może ci nie wystarczy, to weź więcej.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Wystarczy mi, wystarczy a może zostanie.</p>
+        </sp>
+        <sp who="#pani_k">
+          <speaker>PANI K.</speaker>
+          <p>...Mówiła mi pani Z. iż jej kucharka płaci kwartę kaszy po 12 groszy. Czy może być tak drogo?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Ja nie wiem!... Może jaka bardzo piękna, ale zwykła co dla państwa kupujemy jest po 6 groszy u zubiarek czyli u krupniczek.</p>
+        </sp>
+        <sp who="#pani_k">
+          <speaker>PANI K.</speaker>
+          <p>A czy prawda że pietruszka jedna ma być po sześć groszy?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>To nie może być, ale zapewne kucharka robi zapas na parę tygodni... Pani Z... najlepiej uczyni gdy się sama o cenach przekona.</p>
+        </sp>
+      </div>
+      <div type="scene" n="8">
+        <head>ROZMOWA.</head>
+        <stage type="setting">
+          <p>(Kucharki Katarzyny z przekupką)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#przekupka">PRZEKUPKA.</rs>
+          </p>
+        </stage>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Płacę pani z góry dwanaście groszy, a będę sobie przez cały tydzień wybierać marchew i pietruszkę. Ja tam wiele nie potrzebuję, tylko tyle co dla smaku.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>O moja pani, albo ja to pani nie znam! Mój Boże, od tylu lat co pani kupuje! ktoby tam pani żałował o tę parę groszy coby się więcej wzięło. Niech tam pani bierze, przecież pani nie weźmie pełnego koszyka.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Ja tam pani nie ukrzywdzę, bo choć i do rosołu, to wolę zrobić smak z palonej cebuli, jak z jarzyny, bo się nawet tęższy wydaje.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>A jakże! niema jak cebula, bo i za mięso w rosole obstoi. Choćby najmniej mięsa włożyć, a cebulą paloną zafarbować, to wydaje się jakby jaki bulijon.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>A wie pani, że już się miałam wczoraj odprawiać, bo chcieli pokojówkę na targ wysyłać; a mają taką góralkę co im wierna, więcby mi był się cały mój zysk popśnił i jeszcze byłoby się wydało po czemu co jest na mieście. Ale jakem ich zastraszyła, tak pani już nic nie śmiała rzec. Ale bo jakaś pani, zmówiła się z moją po czemu jest jedno albo drugie, a jest znowu u tamtej pani taka kucharka Anna, co ma takie sumienie jakby jaki ksiądz. Więc ta Anna wszystką cenę wydaje i przez to sługom psuje. A ja, jak ją lada kiedy spotkam, to jej tego niedaruję, to kiedy służy, to powinna być tak, jak i inne, a rozgruchu nie robić. Ona myśli że będzie za to w niebie, a i tak nie będzie, jakby ją inne kucharki przeklęły.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>O, prawdę, pani mówi, bo największy grzech, kompanii nie trzymać! Tak i my to samo. Jakby tylko jedna staniła towar, toby zaraz na mieście spadło, bo jaka taka musiałaby się na tę cenę przymierzać; a jak się zmówimy, to choć przyjdą obywatelki do jednej albo drugiej to wszędzie muszą kupować na jedne pieniądze. Ale i tak mieliśmy na tę wiosnę taką co dopiero na przekupkę terminowała, bo mąż jej służy u piwowara; więc ona przyniosła po dwa razy w koszyku, a jarzynę rozkłada na stradze w kupki niby po trzy grosze, co my sprzedaje my za sześć czyli za czeski. Dopiero ja Jej tak mówię: „Cóż też pani najlepszego robi, że pani tak spuszcza towar, co niema na nim ani pół na pół zarobku?“ A ona mi na to. „Tak mi się podoba, i tak będę sprzedawała.” Ja też poleciałam zaraz powiedzieć pani Duckowej, i pani Opałkowej, i Garusińskiej, i jak przypadniemy do niej, takeśmy jej poburzyły cały towar na stradze. Dobrze! Więc ona zaczęła krzyczyć i wywoływać na nas, zwyczajnie jak suka: “O szelmy, o złodziejki, zbójnice, bąki”, i rozmaicie, nawet jeszcze gorzej, a ja nie wiele myśląc jak złapię za wierzchowisko! zdarłam jej ze łba chustkę!... Dobrze! pani Duckowa mi też pomogła chwyciła za kłaki, a ja dopiero okładam pięścią po pysku. Ale cóż z tego kiedy p. Garusińska to baba jak ciele, więc zamiast chwycić za ręce, stanęła i patrzy. A zatem nieuzdolilam cofnąć się z gębą, a ta szelma jak mnie zacznie pazurami drzyć, więc mi tak po czole i po całym nosie zorała, że mi aż krew ciekła. Dopiero przyszły policyanty i zabrali nas wszystkich na odwach, a potem do magistratu, aleśmy się wszystkie zgodziły na jedno, a ona przecież nie mogła nas przeszczekać. Tak więc zatem się stało, że od tego czasu, jak zaczęłyśmy jej dokuczać a dogryzać, a śmiać się z niej, tak się zabrała jednego razu ze stragą i już nie siedzi, tylko tam gdzieś w bramie bułki sprzedaje.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Oj dobrzeście panie zrobiły! Niewypadałoby jak i Annie to samo zrobić, bo ona tak obces jakby stała na zdradziectwie wszystkim uczciwym sługom! Bo jeżeli ja sobie tam z każdego obiadu urwę te dwa złote, a niechby i trzy, a w rzadki też dzień jak są goście te cztery złote albo pięć, to też na moje stare lata! Bo któż mnie będzie żywił?... Nawet i w Dobroczynności, to teraz trudno się umieścić, tylko człowiekowi każę pracować. A chce się to w starszym lecie harować?... Ja już mam lat czterdzieści beze dwóch, to się już nie jednej użyło biedy i kłopotu po rozmaitych służbach, co ani przeliczyć!</p>
+        </sp>
+      </div>
+      <div type="scene" n="9">
+        <head>Anna Kucharka w rozmowie z przekupką.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#anna">ANNA.</rs>
+            <rs key="#przekupka">PRZEKUPKA.</rs>
+          </p>
+        </stage>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>Jużem też to dawno pani nie widziała! Już może będzie z ośm niedziel.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Bo mi drogo sprzedajecie więc próbowałam u innych.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>A gdzież tam moja pani drogo! miły Boże! inne dwa razy tyle płacą, a nie skarżą się, bo jeszcze drożej swoim paniom rachują. Pani to mogłaby na dobre, choć z pół na pół zarobić a jeszczeby się państwu wydawało tanio.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Tak się nie godzi, bo grzech! Trzeba państwu tyle podać, ile się na mieście zapłaci. Człowiek z cudzej krzywdy nie utyje.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>Moja pani! żeby tak wszystkie kucharki robiły, toby chodziły bez trzewików.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>A to lepiej boso iść do Nieba jak w trzewikach do piekła.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>Oj moja jejmość! Zkądżeś się też taka wzięła na ten czas, zkąd?... Nie wyżyjesz ty o tem, nie. Bo na to mówiąc, aby co ukraść z rzeczy, albo z pieniędzy, albo komu zajrzyć do skrzynki, to nie mówię i nawetbym sama na to nie namawiała; ale aby swoich państwa na tę tam parę złotych uskubnąć, to przecież nie jest żadnym grzechem.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>A nie prawda! bo jeszcze większy grzech jest oszukać, kiedy państwo słudze ufają. Złodzieja obcego to się każdy strzeże i zamyka przed nim pieniądze, ale co domowego to się nikt nie ustrzeże; więc nie godzi się tem bardziej krzywdzić państwa, iż słudze wierzą. I tak przez podobieństwo: Jeżeli mi moja pani da sześć złotych, a ja wydam cztery a dwa sobie schowam, tom te dwa ukradła gorzej jakby z komody, albo z kieszeni, bo w komodzie, to pani porachuje, ale po całem mieście nie będzie rachować, gdzie co jest nadpłacone! Przecież pani bywa na kazaniach, to musi słyszeć jak księża mówią.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>Gdziebym ja tam chodziła do kościoła! mam ja to czas?... Trzeba stragi pilnować!... A potem cóż mi z tego przyjdzie, kiedy człowiek dzisiaj nie wyżyje przy sprawiedliwości i przyszłoby skapieć, jeszcze kto ma takiego pijaka męża jak mój, co jest lokajem a już trzy lata przez służby, bo go nikt przyjąć nie chce.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Lepiej skapieć, jak duszę zatracić nawieki! Ale i to nieprawda, żeby się skapiało bo Bóg nigdy uczciwego człowieka nieopuści. W jakiej bądź potrzebie zawsze Pan Bóg dopomoże, a człowieka bez chleba nie zostawi, krzywda zaś ludzka jeszcze nikomu na nic dobrego nie wyszła.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>No! kupi pani za dziesięć groszy, czy nie? bo nie mam czasu!</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Za sześć groszy to kupię a więcej nie dam!</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>Choćbym ukradła, tobym za sześć groszy niesprzedała.</p>
+        </sp>
+      </div>
+      <div type="scene" n="10">
+        <head>Kucharka Kunda [Kunegonda] w rozmowie z przekupką.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#kunda">KUNDA.</rs>
+            <rs key="#przekupka">PRZEKUPKA.</rs>
+          </p>
+        </stage>
+        <sp who="#kunda">
+          <speaker>KUNDA.</speaker>
+          <p>Dzień dobry jejmości! zdrowa jejmość dobrze? Hulała jejmość na tem weselu co szewc wyprawiał? Ja to tylko tyle com zabiegła, i trochem się obróciła i zaraz poszłam na drugie co było na Zwierzeńcu, a tańcowałam całą noc, aż do samego rana. Takem sobie trzewiki zdarła że podeszwa na nic!... Ale bo ci od legrów to tak cięto tańcują choć małe chłopaki, że im nigdy kanoniry nie podolą.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>Bo zwykle leger choć malutki to weselutki; a ci od harmat, to cięższe chłopy i takie podufalsze a herniejsi i prędzej tańcują z taką co w sukni. Ale też to panna taka była ubrana!! Taka chustka co najmniej trzydzieści złotych! wstążka szeroka u warkocza i spódnica na podobieństwo jedwabiu!... musi panna mieć kawalira co nie żałuje.</p>
+        </sp>
+        <sp who="#kunda">
+          <speaker>KUNDA.</speaker>
+          <p>Ej, ja tam mam coprawda kilku, a jeden co stary, to najlepszy! Nie lubię go strasznie, bo dziad, ale co ja już z niego nawyciągałam, toby tego ani przeliczył. To on mi tę chustkę sprawił, a zawsze go zwodzę, on też głupi wierzy!... To tyle było śmiechu, jak przyszedł mój kawalir, co służy w sklepie za parobka i pyta mi się, czylim dużo ze starego natopiła łoju?... a ja mu na to! miałby to stary łój? same tylko kościska jakby gnaty, prawie psu ogryść!!! A on to mówił niby nie o łoju, tylko do pieniędzy, czym dużo od niego wyłgała?</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>Dobrze mieć takiego kawalira co za innych płaci! Czegóż panienka chce?... czy jarzyny?...</p>
+        </sp>
+        <sp who="#kunda">
+          <speaker>KUNDA.</speaker>
+          <p>Ej, sama nie wiem pocom przyszła, bo mi tak w głowie granie szumi, że się cały świat ze mną obraca.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>Nie z grania to, tylko z miodu!</p>
+        </sp>
+        <sp who="#kunda">
+          <speaker>KUNDA.</speaker>
+          <p>A może i z miodu, bom wypiła żeby wszystko zlał do kupy z półgarnca albo i więcej, ale mi nic nie było bo zaraz zemnie wytargało, i znowum hulała i piłam ale już tylko wódkę, bo miód mgli, jak go pić dużo. Jutro znowu pójdę aż do Bronowskiej karczmy bo tam bodzie muzyka.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>To dobrzy państwo że nie bronią!</p>
+        </sp>
+        <sp who="#kunda">
+          <speaker>KUNDA.</speaker>
+          <p>A co im do tego!! Bylem swoje zrobiła i odgotowała, to przecież moja noc a nie ich. Oni mi za noc nie płacą, ani się za noc zemną nie godzili tylko za dzień. I pan też czasem po północku wraca co gra w karty, a pani to na ten Tyatr to taka ciekawa, że zawsze chodzi. A potem, jak by mi co mówili, tobym im wśród dnia odeszła. Bo znam drugiego wdowca, co jest stróżem w kamienicy, więc mi ten powiedział że mnie przyjmie kiedy jeno zechcę.</p>
+        </sp>
+      </div>
+      <div type="scene" n="11">
+        <head>ROZMOWA</head>
+        <stage type="setting">
+          <p>(Halki z Różą przed kamienicą)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#halka">HALKA.</rs>
+            <rs key="#róża">RÓŻA.</rs>
+          </p>
+        </stage>
+        <sp who="#róża">
+          <speaker>RÓŻA.</speaker>
+          <p>Już niebędę u tej wściekłej złośnicy, choćby mi tyle drugie płaciła. Com się tyle napłakała, że ani wypowiedzieć. A to tak było: Wczoraj wyszłam wieczorkiem com się była od dawna obiecała że z nim pójdę, i więc mnie on powiódł, i tylko co kazał dać tej herbaty z arakiem i zaraz wyszliśmy, i chodziliśmy z sobom. A potem on mówi, że jeszcze się świeci w tym szynku na długiej ulicy więceśmy wstąpili na chwilkę, aż tu bije dwunasta. Tak ja mu mówię: Oj będzie też to moja pani wrzeszczeć, [bo ona taka że nim się położy, to cały dom obejdzie] a on mówi: „Niechże tam wrzeszczy to ją będzie gardziel bolał a nie ciebie... Alem ja zaraz jak przez skórę przeczuła co się dzisiaj stało. Tak dziś rano co prawda, zaspałam sobie, tak że była ósma... Ona się dobija, aż ja otwieram i widzę, że już calusieńka ubrana. Dopiero na mnie! „A ty szkaradnico, [prawi] ty łajdaczko! po nocach się włóczyć! Czy to pięknie na młodą dziewczynę?... Na cóż ty chcesz wyjść... bezecnico!! Poczekaj! napiszę ja zaraz do matki twojej, bo ja niechcę ani przed Bogiem ani przed rodzicami twemi odpowiadać, żem pozwoliła na zgorszenie! Gdzieś była całą noc? Gdzieś była?.. Gadaj zaraz!!”. Tak ja na to: żem była u przyjaciółki. „U jakiej byłaś przyjaciółki?... gdzie ona mieszka? jak jej na imie? u kogo służy?”... ja na to stanęłam jak głupia, a trzeba mi było rzec, żem była u ciebie.</p>
+        </sp>
+        <sp who="#halka">
+          <speaker>HALKA.</speaker>
+          <p>Oczywiście!</p>
+        </sp>
+        <sp who="#róża">
+          <speaker>RÓŻA.</speaker>
+          <p>Dopiero Ona: „A widzisz że kłamiesz!... Czy ty się Boga nie boisz, i czy o zbawienie duszy twojej nie dbasz?... A wreszcie jakiż cię los czeka?... Oto wszyscy tobą pogardzać będą, i żadnego losu nie zrobisz, bo cię nikt nie pojmie chyba taki łotr, jakeś ty sama! Już osma godzina a tu nic nieposprzątane, śmietanka nie kupiona, i pan wyszedł bez kawy"! Tak ja też na to: kiedym pani niedogodna, to dziękuję pani i odejdę, bo ja przecież nie mogę być jak pies na uwiązaniu cały dzień i całą noc. Choć stanę w bramie przed kamienicą, albo do kogo słowo rzeknę, to pani zaraz tyle narobi w domu hałasu, że aż się inne sługi dziwują, że ja to przenieść mogę. Wolę śmierć jak taką służbę! Tak dopiero ona: „Nie pójdziesz odemnie, tylko cię sama do matki odeślę, bo mi cię matka powierzyła, i jej cię oddam, a powiem o powodach twego oddalenia. Wstyd na taką młodą dziewczynę, aby się wałęsać po nocy!!... Ja na to pozwolić nie mogę, gdyżby mi nawet ksiądz nie odpuścił gdybym nie rozciągała nad domową czeladzią dozoru“.</p>
+        </sp>
+        <sp who="#halka">
+          <speaker>HALKA.</speaker>
+          <p>Ja, anibym godziny u takiej pani nie służyła; bo cóż jej jest nato mówiąc do tego, że mi się kto zaleca!</p>
+        </sp>
+        <sp who="#róża">
+          <speaker>RÓŻA.</speaker>
+          <p>To też!...</p>
+        </sp>
+        <sp who="#halka">
+          <speaker>HALKA.</speaker>
+          <p>Albo że ja wyjdę przed kamienicę i pogadam z kim, albo się pośmieję?</p>
+        </sp>
+        <sp who="#róża">
+          <speaker>RÓŻA.</speaker>
+          <p>No, ja też to mówię!...</p>
+        </sp>
+        <sp who="#halka">
+          <speaker>HALKA.</speaker>
+          <p>Albo że mi kto kupi szklankę herbaty i potraktuje kiedy to nie za jej pieniądze.</p>
+        </sp>
+        <sp who="#róża">
+          <speaker>RÓŻA.</speaker>
+          <p>Jużci, ani słowa!... to przecież nie jej krzywda; tylko już taka złośnica!... Dobrze jej mieć męża a jeszcze młodego, to myśli że już nikt niechce iść za mąż!! a chciałabym widzieć, jak ona była panną czy nie miała kawalirów!!! najgorzej mi o to, że chce do matki pisać!... Jakby matka uwierzyła toby mnie zbiła, bo tak też do kościoła chodzi jak i ona.</p>
+        </sp>
+        <sp who="#halka">
+          <speaker>HALKA.</speaker>
+          <p>To wie Rózia co zrobić?... Oto zaraz napisać do matki, że Rózi bardzo źle, i że głód straszny, a roboty przerobić nie można i że tyle jest pracy, że aż Rózia z tego chora. Potem że państwo bardzo są niedobrzy, i że nikt u nich i kwartału nie służy. Opisać ją na wszystkie strony; dopiero jak ona napisze, to już będzie na nic!!</p>
+        </sp>
+        <sp who="#róża">
+          <speaker>RÓŻA.</speaker>
+          <p>O! moja Haluś! Jak cię też kocham żeś mi tak poradziła! Tak będzie najlepiej!... ale któż napisze?...</p>
+        </sp>
+        <sp who="#halka">
+          <speaker>HALKA.</speaker>
+          <p>Jest tu taki pisarz w szynku, co za złoty cały list wypisze, a tak ją osmoli jak węglem.</p>
+        </sp>
+        <sp who="#róża">
+          <speaker>RÓŻA.</speaker>
+          <p>Kiedy nie mam złotego, tylko reński, co mi pani dała na mięso!</p>
+        </sp>
+        <sp who="#halka">
+          <speaker>HALKA.</speaker>
+          <p>Wielkie rzeczy! to powiedzieć, że Rózi z chustki wypadł i zginął w jatkach. Lamentować, że się Rózia tyle naszukała, ale jakby kamień w wodę cisnął.</p>
+        </sp>
+        <sp who="#róża">
+          <speaker>RÓŻA.</speaker>
+          <p>Ej, boję się, bo to tak jakby ukraść!...</p>
+        </sp>
+        <sp who="#halka">
+          <speaker>HALKA.</speaker>
+          <p>Głupstwo! czegobym się bała! Czy to jedna tylko Rózia taka na świecie.</p>
+        </sp>
+        <sp who="#róża">
+          <speaker>RÓŻA.</speaker>
+          <p>Wolę pożyczyć!...</p>
+        </sp>
+        <sp who="#halka">
+          <speaker>HALKA.</speaker>
+          <p>Oj! aż mi się chce śmiać z Rózi, że ma takie miękkie sumienie! Nie dziwota!... pierwsza służba, to zawsze tak... Ale jak Rózia w jednem albo w drugiem miejscu posłuży, to się wszystkiego od ludzi nauczy.</p>
+        </sp>
+        <sp who="#róża">
+          <speaker>RÓŻA.</speaker>
+          <p>Ja tam nie jestem znowu taka głupia, tylko się boję czy pani uwierzy, żem zgubiła.</p>
+        </sp>
+        <sp who="#halka">
+          <speaker>HALKA.</speaker>
+          <p>Trzeba tak dokładać aby uwierzyła, a teraz pójdź Rózia zemną do szynku to napiszemy! bo trzeba wyrazić, tak i tak, i najwięcej o głodzie, że aż Rózia schudła od czasu co służy! napisać, że daję stęchłą kaszę i gorzkie ziemniaki co się psują.</p>
+        </sp>
+        <sp who="#róża">
+          <speaker>RÓŻA.</speaker>
+          <p>To pójdźmy Halusiu! byle najprędzej!</p>
+        </sp>
+      </div>
+      <div type="scene" n="12">
+        <head>ROZMOWA</head>
+        <stage type="setting">
+          <p>(dwóch dobrych kucharek Apolonii z Anną)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#apolonija">APOLONIJA.</rs>
+            <rs key="#anna">ANNA.</rs>
+          </p>
+        </stage>
+        <sp who="#apolonija">
+          <speaker>APOLONIJA.</speaker>
+          <p>Przyszłam tu panią odwiedzić, bośmy się też dawno nie widziały.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Bóg zapłać pani, zkądże pani idzie? z nieszporów?</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIA.</speaker>
+          <p>Byłam u Dominikanów na nieszporach, i na kazaniu, co miał Ks. G. Ale ażem się spłakała, tak do sumienia mówił. I on też nieboraczek aże ochrypł co takby rad, aby wszyscy ludzie na świecie żyli poczciwie.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Dałby to Pan Bóg, żeby obrazy Bożej, a krzywdy ludzkiej nie było. Ale taki teraz świat jakiś niezrozumiały, jakby się wszystkim w głowie poprzekręcało. Ani państwa już takich niema jak bywali, ani też sług takich jak dawniej. Byłam tego roku na wsi z państwem to lud zuchwały i nieusłuchany a pracować się temu niechce. Aż przykro patrzyć jak za darmo pieniądze biorą.</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIJA.</speaker>
+          <p>A pani, jak się tu w tem miejscu powodzi?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Dobrze dzięki Bogu, i nie mogę sobie krzywdzić! państwo dla mnie dobrzy i marnego słowa mi nie powiedzą, a ja się też do nich przywiązałam i siedzę do woli Bożej... Teraz jak się na dobrą służbę trafi a do takich państwa, co się Boga boją i są pobożni, to nie warto zmieniać, tylko lepiej nie jedną niewygodę znieść a siedzieć na miejscu.</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIJA.</speaker>
+          <p>Oj prawda moja pani, prawda. Bo są teraz i tacy państwo co do kościoła nie pozwolą chodzić, albo są jakie zbytniki, tobym u takich za żadną zasługę nie służyła. Ale co moi państwo to także dobrzy!. Pan to często choruje, i dla tego dużo mamy roboty, bo ciągle się ogień w kuchni pali, a to raz wołają o kleik, znowu o rosół z kurczęcia, to rumianek, to szlaz, ale cóż robić? Kiedy chory to trudno! Trzeba to Panu Bogu ofiarować, a prosić żeby wyzdrowiał. Moja pani to już zawsze tak sturbowana, tyle się namartwi. Ale co on, to nie jest sprzeczny w chorobie, i choć cierpi to tak cichutko, że aniby się kto spodział.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Mój Boże! szkoda takiego pana! niech mu Pan Bóg zdrowie wróci. Jutro jak będę na prymaryi to się będę za niego modlić!</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIJA.</speaker>
+          <p>Oj dobrze moja pani! Bóg zapłać, bo też poczciwe panisko. Dzisiaj to sam mi mówił: „Apolonijo! Idź się przejść trochę, bo cały tydzień ślęczysz, to się rozerwij, a moja żona tu już przy mnie będzie...". Więc poszłam na nieszpór i tu też do pani.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Nieboraczek!...</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIJA.</speaker>
+          <p>Albo kiedyś to mi mówił: „Ej, coś źle ze mną moja Apolonijo, podobno mnie pogrzebiesz niezadługo". A ja się rozpłakała i rzeknę mu: „Co teżto Wielmożny pan mówi. Gdyby pani słyszała, toby jej serce pękło! najlepiej niech się pan wyspowiada, a ohfiaruje Najświętszej pannie Częstochowskiej, to zaraz się panu ulży". A on nato: „Oj dobrze mi radzisz poczciwa kobieto! bo Sakramenta najlepszem są lekarstwem, a Matka Boska uzdrowieniem chorych”. I widzicie, że się pięknie wyspowiadał, a ja znowu jak mu poduszki poprawiałam, więc mu pod głowę medalik co mam z Częstochowy włożyłam i zaraz mu się ulżyło i ja dopiero potem mojej pani powiedziałam, to się tak uradowała, że mi darowała kilka złotych za moją życzliwość. Dobra tam i pani! a byłby grzech na nią co złego powiedzieć.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>I moja dobra, a taka polityczna, że nigdy się do służącego po grubiańsku nie odezwie, bo to już z domu takiego są ci państwo, że brzydkiego słowa nie powiedzą.</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIJA.</speaker>
+          <p>Po czemu też pani słoninę płaci?...</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>A po 20 kr. czyli po 40 groszy.</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIJA.</speaker>
+          <p>O, mój Boże! a ja o grajcar drożej. No widzicie jak to głupiego człowieka oszukują. To ja muszę iść jutro z panią do tego kupca, bo po cóż moi państwo mają drożej płacić?</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>A kawy funt po czemu pani płaci?</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIJA.</speaker>
+          <p>Po dwa złote funt polski.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>A gdzież to tak?... Ja moim państwu kupuję po dwa złote groszy trzy. Musi mnie pani zaprowadzić do tego sklepu. Jak się to człowiek do starości rozumu nie nauczy!. To jutro pójdziemy.</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIJA.</speaker>
+          <p>Dobrze, a teraz pozdrawiam panią bardzo pięknie, bo muszę iść gdyż mnie tam może w domu potrzebują.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>No, to dziękuję za odwiedzenie. Ja teraz pójdę odśpiewać przed obrazem Matki Boskiej łaskawej choć ze dwie pieśni.</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIA.</speaker>
+          <p>To i ja wstąpię na jeden pacierz.</p>
+        </sp>
+        <sp who="#anna">
+          <speaker>ANNA.</speaker>
+          <p>Dobrze moja pani to pójdziemy razem, tylko muszę pierwej dom opatrzyć, czy wszystkie drzwi pozamykane, żeby jaki zły człowiek nie wszedł a nie skrzywdził.</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIJA.</speaker>
+          <p>Oj dobrze pani robisz bo teraz trzeba być na to bardzo uważliwą, gdyż świat zepsuty i pełno się łajdactwa włóczy, a o nieszczęście nie trudno. To poczekam na panią przed kamienicą, a teraz Adiu!...</p>
+        </sp>
+      </div>
+      <div type="scene" n="13">
+        <head>ZŁE POSTĘPKI UKARANE.<lb />
+        A POCZCIWA SŁUŻBA WYNAGRODZONA.<lb />
+        Los Katarzyny<lb />
+        na starość.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#obywatel_z_miasta">OBYWATEL Z MIASTA.</rs>
+            <rs key="#przekupka">PRZEKUPKA.</rs>
+          </p>
+        </stage>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Dopraszam się też o opatrzność Boską, bom też jeszcze dzisiaj nic nie jadła.</p>
+        </sp>
+        <sp who="#obywatel_z_miasta">
+          <speaker>OBYWATEL Z MIASTA.</speaker>
+          <p>Nie mam nic przy sobie moja kobieto, niech was Bóg opatrzy.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Kiedym ja też taka biedna; tak mi zimno a nie mam ani koszuli na grzbiecie, ani posiedliska ani kawałka chleba.</p>
+        </sp>
+        <sp who="#obywatel_z_miasta">
+          <speaker>OBYWATEL Z MIASTA.</speaker>
+          <p>Idźcie do Towarzystwa Dobroczynności; my tam już pieniądze składamy na ubogich.</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Byłam, mój drogi panie, ale mnie nie chcą przyjąć, chyba wypadnie uskwierknąć gdzie z zimna i z głodu.</p>
+        </sp>
+        <sp who="#obywatel_z_miasta">
+          <speaker>OBYWATEL Z MIASTA.</speaker>
+          <p>Pójdźcież tu do przekupki, u której mam kredyt, to wam kupię szewski placek <stage>(Do przekupki)</stage> Dajno jej Wpani placek, a ja zapłacę przechodząc kiedy.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>Dobrze Wielmożny Panie! ale co się to z tą kobietą stało!... Taka sławna kucharka i wyszła na żebraczkę!... Nie chciało się szanować chleba... nie pilnowało się służby, tylko się krzywdą ludzką żyło i pan Bóg ukarał.</p>
+        </sp>
+        <sp who="#obywatel_z_miasta">
+          <speaker>OBYWATEL Z MIASTA.</speaker>
+          <p>To ją Wpani znasz?...</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>O mój Boże! jak zły szeląg!... Przecież ona sobie chodziła jak jaka pani, ale się kompaniła z łajdaczkami, rozpiło się to, straciło pieniądze, a świadectwa dobrego żadne państwo jej dać nie chciało, i zeszło to na dziady. Ona bo tam u mnie nigdy nie kupowała, tylko u szachrajek i tak zmawiały się na kieszeń państwa. Na cóż się jej to teraz przydało, na co?... Najlepiej żyć po sprawiedliwości.</p>
+        </sp>
+        <sp who="#obywatel_z_miasta">
+          <speaker>OBYWATEL Z MIASTA.</speaker>
+          <p>To prawda, że taka łajdaczka sama sobie winna, iż jest dzisiaj nieszczęśliwą, ale że w istocie umrzyć może z zimna i z głodu, przeto proszę was moja przekupko, abyście jej na mój rachunek, nie powiadając jej wszakże mego nazwiska, dawali po funcie chleba, albo po placku, a moja żona jej tu na wasze ręce przyśle jakiej starzyzny, aby miała co na grzbiet włożyć.</p>
+        </sp>
+        <sp who="#przekupka">
+          <speaker>PRZEKUPKA.</speaker>
+          <p>Dobrze, Wielmożny Panie! mój Boże! jaki też to pan miłosierny nad biednemi co i tego nie warci. Pan Bóg panu zapłaci!</p>
+        </sp>
+      </div>
+      <div type="scene" n="14">
+        <head>Katarzyna i Policyant.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#katarzyna">KATARZYNA.</rs>
+            <rs key="#policyant">POLICYANT.</rs>
+          </p>
+        </stage>
+        <sp who="#policyant">
+          <speaker>POLICYANT.</speaker>
+          <p>Co się to Wacpani włóczysz po ulicy i po domach?! Czy nie wiesz, że zakazane żebractwo! Musisz Wacpani iść zemną na odwach, a potem halum marsz! do magistratu!</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Oj, mój panie kochany! ja też nie żebrzę, tylko sobie tak chodzę po moich dobrodziejach, co mi kazali przyjść.</p>
+        </sp>
+        <sp who="#policyant">
+          <speaker>POLICYANT.</speaker>
+          <p>Kłamstwo! bo widziałem sam jak ludzi po ulicach napastujesz i gonisz, że ci się opędzić nie mogą. Mam taki nakaz i nic nie pomoże!</p>
+        </sp>
+        <sp who="#katarzyna">
+          <speaker>KATARZYNA.</speaker>
+          <p>Zmiłuj się też pan nademną! już nigdy się nie pokażę na mieście.</p>
+        </sp>
+        <sp who="#policyant">
+          <speaker>POLICYANT.</speaker>
+          <p>No, pierwszy i ostatni raz Wacpani przepuszczam, ale jak drugi raz zobaczę, to już żadna prośba nie pomoże.</p>
+        </sp>
+      </div>
+      <div type="scene" n="15">
+        <head>Śmierć Katarzyny.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#inspektor_komissarza">INSPEKTOR KOMISSARZA.</rs>
+            <rs key="#pan_komissarz_okręgowy">PAN KOMISSARZ OKRĘGOWY.</rs>
+          </p>
+        </stage>
+        <sp who="#inspektor_komissarza">
+          <speaker>INSPEKTOR KOMISSARZA.</speaker>
+          <p>Melduję panu komisarzowi, iż znaleziono dzisiaj z rana przy starej Wiśle kobietę, liczącą mniej więcej lat 55 do 60, która tam zapewne z głodu i przeziębienia umarła.</p>
+        </sp>
+        <sp who="#pan_komissarz_okręgowy">
+          <speaker>PAN KOMISSARZ OKRĘGOWY.</speaker>
+          <p>Udamy się niezwłocznie na miejsce z panem doktorem, dla sprawdzenia stanu rzeczy, poczem się ją wywiezie na cmentarz.</p>
+        </sp>
+      </div>
+      <div type="scene" n="16">
+        <head>Los Kundy Kucharki.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#urzędnik_z_magistratu">URZĘDNIK Z MAGISTRATU.</rs>
+            <rs key="#woźny">WOŹNY.</rs>
+          </p>
+        </stage>
+        <sp who="#urzędnik_z_magistratu">
+          <speaker>URZĘDNIK Z MAGISTRATU.</speaker>
+          <p><stage>(do Woźnego)</stage> Czy odprowadziłeś tę kucharkę do szpitala Śgo Ducha?...</p>
+        </sp>
+        <sp who="#woźny">
+          <speaker>WOŹNY.</speaker>
+          <p>Odstawiłem ją wozem skarbowym, bo iść nie mogła; ale doktór kiwał głową i rzekł do młodszego doktora, tak żem dosłyszał: „iż trudno aby była wyleczoną, bo nos jej odpadł; podniebienie zepsute i całe ciało gnije aż do kości“. Szkoda, bo to miała być kiedyś dobra kucharka, ale się rozpuściła jak bicz dziadowski i kilka razy była tu już w areszcie, bo ją patrol w nocy z ulicy sprzątał. Potem w domu roboczym, aż w końcu gdy ztamtąd wyszła, rozpiła się jeszcze gorzej i rozłajdaczyła, aż teraz przyszło jej na koniec.</p>
+        </sp>
+      </div>
+      <div type="scene" n="17">
+        <head>Los Jadwigi Kucharki.</head>
+        <stage type="setting">
+          <p>()</p>
+        </stage>
+        <p>Była ogłoszona w dzienniku Czas sprawa Jadwigi kucharki, oskarżonej o zastawienie u żyda rądla miedzianego, oraz za kradzież wielu rzeczy domowych, oraz popełnionych oszustw, w skutek czego sąd kryminalny wyrokiem swym wskazuje Jadwigę na dwa lata ciężkiego więzienia. Owe przeto nogi co tak wybijały hołupca, albo podrygały w polce i sztayerze, to w karczmie, to na weselu, to na muzyce, obciążone teraz łańcuchami, brzęczą żałośnie, posuwając się krok za krokiem do ciupy. I te oczy co tak strzelały to za jednym to za drugim, nic nie widzą prócz ciemności więzienia. I na tem cielsku, które przystrajano w rożne gorseciki, i spódniczki i fartuszki za kradzione pieniądze, wisi teraz bura aresztancka siermięga. I ta gęba co miodek z kawalirami spijała, i likierem sobie wargi słodziła, żłopie teraz wodę po kawałku czarnego brykały. Oj! bieda! bieda! ale któż tej biedzie winien? Sama sobie Jadwiga winna, bo zamiast żyć poczciwie i szanować służby, puściła się na złe rzeczy, i aż doszła do kryminału! Jak się o tem pisze, to aż włosy powstają na głowie!</p>
+      </div>
+      <div type="scene" n="18">
+        <head>Los Reginy Kucharki.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#regina">REGINA.</rs>
+              <rs key="#mąż_reginy">MĄŻ REGINY.</rs>
+          </p>
+        </stage>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p><stage>(jako żona)</stage> Gwałtu! czegóż mnie ty bijesz i gwałtu! zabije mnie ten hycel, pijaczysko! ten zbój, co mu prawie na psiej górce psy obdzierać.</p>
+        </sp>
+        <sp who="#mąż_reginy">
+          <speaker>MĄŻ REGINY.</speaker>
+          <p>Stulisz ty pysk? ty hyclówko, ty psia wełno! Com ci dał, tom ci dał, a na tem nie koniec, bo cię będę dopóty kuł w łeb, dopóki mi nie dasz pieniędzy coś za śliwki utargowała. Ja jestem pan i moje wszystko i wolno mi cię zabić, utopić, i na tymtu miejscu zamordować; bo ja się nie potrzebowałem z tobą hyclówko żenić, i byłem sobie kawalirem, cobym był pięćset żon dostał z pieniędzmi i majątkiem! Mówiłaś mi żeś u państwa uzbierała pieniędzy, gdzież je masz złodziejko?... gdzie?... Dawaj zaraz majętność, bo jak nie, to cię uśmiercę! Rozumiesz, ty świńska nogo! ty zatratowana kobyło!</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p>Oj! mój Boże! jakżem też nieszczęśliwa, żem za takiego hycla, zbója i pijaka poszła. Dopomina się pieniędzy, a ja nie mam ani grosza!</p>
+        </sp>
+        <sp who="#mąż_reginy">
+          <speaker>MĄŻ REGINY.</speaker>
+          <p><stage>(rozbijając garnek o jej głowę)</stage> Masz szelmo czegoś chciała! Wszystkie ci garnki o łeb porozbijam, i wszystko w domu porąbię!</p>
+        </sp>
+        <sp who="#regina">
+          <speaker>REGINA.</speaker>
+          <p><stage>(uciekając z domu)</stage> Oj! gwałtu! sąsiady! Jezus, Marya, ratujcie mnie! bo mnie ten zbój zabije na śmierć. Gwałtu! Panie policyant!!</p>
+        </sp>
+      </div>
+      <div type="scene" n="19">
+        <head>Los dobrej Apolonii kucharki.</head>
+        <stage type="setting">
+          <p>()</p>
+        </stage>
+        <p>Sąd cywilny rozpieczętowawszy testament pana X..., między innemi zapisami znalazł i następujący kodycyl: „Gdy kucharka Apolonja przez lat wiele służąc u nas wiernie, dawała nam dowody życzliwości i przywiązania, a w chorobie mojej znosi wiele trudów i troskliwie mnie opatruje, przeto zapisuję jej darowiznę 500 złotych i polecam ją względom mojej żony i dzieci”.</p>
+      </div>
+      <div type="scene" n="20">
+        <head>Cóż się dalej stało?</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#wdowa">WDOWA.</rs>
+              <rs key="#apolonija">APOLONIJA.</rs>
+          </p>
+        </stage>
+        <sp who="#wdowa">
+          <speaker>WDOWA.</speaker>
+          <p><stage>(Oto wdowa po panu X... zapłaciwszy jej 500 złotych, tak do niej rzekła)</stage> Moja poczciwa Apolonijo, płacąc ci 500 złotych przez śp. męża mego zapisane, życzę ci, abyś je umieściła w kasie oszczędności, aby ci ta mała sumka przyrastała, a ty zaś dobra sługo, zostań przy mnie. Teraz jako wdowa tem bardziej wiernych sług potrzebuję. Będziemy razem biedę klepać i razem się modlić za duszę śp. męża mojego, po mojej zaś śmierci, to córka moja da ci domek i łaskawy chleb, bo ja ci to znowu w testamencie zapewnię...</p>
+        </sp>
+        <sp who="#apolonija">
+          <speaker>APOLONIJA.</speaker>
+          <p><stage>(Apolonja upadła do nóg swej pani, i zalewając się łzami odpowiedziała)</stage> Oh, moja najłaskawsza pani! Jakie ja też zawdzięczę państwu tyle dobrodziejstw, com doznała, a na które nawet nie zasłużyłam. Jeżelim państwa nie krzywdziła, to sobie tego nie rachuję za żadną zasługę, gdyż tylko dopełniłam przykazania Boskiego, które mówi: Nie kradnij i nie pożądaj cudzej własności. A jeśli też jaką usługę robiłam w chorobie śp. pana, to tylko dokonałam obowiązków służby. Ale skoro Wna pani chce mnie na starość jeszcze trzymać przy sobie, to chętnie obiecuję służyć do śmierci, albo dopóki mi siły pozwolą, bo ja nigdzie lepszej pani nie znajdę, gdzieby mi łatwiej było duszę zbawić a pana Boga za żywota chwalić.</p>
+        </sp>
+        <p>Tak więc Apolonija służyła do śmierci swej pani, a później starowinka przeniosła się do swojego domku, gdzie pobiera dożywotnio ordynaryą. Sumka ta zaś 500 złotych już się jej przez procenta potroiła, i powiadała, iż je ma zapisać ubogiej sierocie, którą sobie przywłaszczyła, i która ją codzień prowadzi na mszą świętą do kościoła. A jakaś musi być dobra dziewczyna, bo pobożna, pilna, i bardzo o zdrowie swojej opiekunki troskliwa. Aż się serce raduje, kiedy się o takich dobrych sługach pisze, a daj Boże, aby takich było jak najwięcej.</p>
+      </div>
+      <div type="scene" n="21">
+        <head>Los dobrej Anny [kucharki].</head>
+        <p>Już się Anna miała od swych państwa odprawiać, bo Anna ma męża, który służy i chciał aby na wieś powróciła. Ale Anna umieściła w Krakowie troje dzieci, a dbała o to, aby te dzieci wychowały się na chwałę Boską, pociechę rodziców i pożytek dla bliźnich. Przedstawiła więc mężowi, iż lepiej aby była bliżej dzieci i miała ich pod bacznym dozorem. Mąż, człowiek roztropny, przystał na to i rzekł do niej: „Kiedy państwo z ciebie kontenci i tobie też u nich dobrze, to zostań dalej a pilnuj dzieci. Oddaj ich do rzemiosła, niech wyterminują, a jak zostaną majstrami, to i nas na starość przy sobie wyżywią“. Otóż dobra Anna została, a co oszczędziła z zasług, to na te swoje dzieci składała. Córka poszła w służbę za garderobiannę, bo pięknie szyje, a jeden chłopiec poszedł do krawca, drugi zaś do szewca. Chłopcy się dobrze sprawiali, bo ich matka chowała w bojaźni Bożej, skromności i uczciwości. Majstrowie ich byli bardzo kontenci i lubili ich a uczyli roboty, pokazując wszelka majsterską sztukę. Dość na tem, że owe chłopcy wkrótce wyszli na czeladników, a majstrowie dobijali się o nich i dobrze im płacili. Za kilka lat uzbierali sobie ładną sumkę i wyszli na majstrów. Państwo, u których Anna służyła nie tylko dawali im swoją robotę, ale wszystkim przyjaciołom ich rekomendowali. Wkrótce tyle się im nagarnęło zarobku, iż rady temu dać nie mogli i po kilkunastu czeladzi trzymali, a pieniądze płynęły im oknami i drzwiami. Bo też mówiąc prawdę, dobremi, sumiennemi i rzetelnemi byli majstrami. Jaś się pierwej dorobił, a Józio później, ale obadwa kupili sobie po kamieniczce, gdzie warsztaty szeroko rozłożyli. Tak dopiero, mówią do matki: „Żywiłaś nas matko, opatrywała i dzieliłaś się uczciwie wysłużonym groszem, jakeśmy byli małymi, to też na starość mieszkaj u nas, a będziemy się starać, aby ci na żadnej wygodzie nie zbywała. Dzięki Boga mamy się dobrze, i nic nam nie brakuje, mieszkaj więc z nami i błogosław naszej pracy“.<lb />Obadwaj majstrowie dobrze się pożenili, a stara Anna kołysała swoje wnuki, dziękując panu Bogu, że jej dał tej pociechy doczekać. Często potem ze swoją dawną panią spotykały się w jednej ławce w kościele Panny Maryi przed obrazem Matki Boskiej, a obie się modliły za dzieci, za wnuki, a może już i za duszo tego który to pisze!</p>
+      </div>
+      <div type="scene" n="22">
+        <head>(UPOMINEK DLA WSZYSTKICH KUCHAREK)</head>
+        <p>1) Każda kucharka do swojego rzemiosła dwóch głównych rzeczy potrzebuje: Wody i Ognia.Wody niechaj nie żałuje, ale ognia czyli opału niech oszczędza bo węgiel drogi a drzewo jeszcze droższe.<lb />
+        2) Dobroczynna woda wszystko odczyści, wybieli i obmyje, zacząwszy od twarzy i rąk kucharki aż do ostatniego garnka i miski. Dodawszy zaś do niej piasku, wybornie stół i stolnicę wyszoruje. Oh! poczciwa woda! to skarb kucharek, a wielka zaprawa do apetytu dla państwa! Bo jakże ma obiad smakować, jeśli go kucharka gotuje z brudną twarzą i rękami, w brudnych garnkach, a mięso kraje na brudnym stole?!... Jakże ma służącym obiad smakować, jeśli kucharka wysypie nieczystą warzę na brudną miskę, i na której dnie, reszty niedojadków się zawadzają. Otóż kucharka co wody żałuje nazywa się po polsku „pluchą" albo flondrą, a inni to ją jeszcze gorzej nazywają, to jest tak jak się to mówi o nierogaciznie. W dwóch tylko przypadkach trzeba z miarą wody używać, to jest kiedy się ją do rosołu albo do sosu leje. Bo nikt ani cienkiego rosołu ani długiego sosu nie lubi.<lb />
+        3) Ognia oszczędzać trzeba, albowiem kuchnia to nie jest piekło, gdzie się wieczny ogień pali, ale jest ogień doczesny, to jest na czas obiadu. Nietrzeba też tyle pod blachę na raz pakować, żeby się aż blacha spaliła i pękła, ale aby się rozpaliła i równo ogrzewała. Lepiej więc częściej a w miarę dokładać po parę węgli. Także gdy węgiel z pieca wypadnie, to lepiej go zaraz podnieść i w piec rzucić, jak żeby miał podłogę wypalić i swędu narobić, z czego kieszeń i głowa boli. Także na rozpaloną do białości blachę, nie trzeba z niecierpliwością chlustać zimna wodą, bo blacha się psuje a lane żelazo [nawet na tandecie] kosztuje funt po groszy ośm, a cala blacha do 24 złotych, których teraz nikt na drodze nie znajdzie.<lb />
+        4) Węgle z piwnicy, powinny iść prosto do kuchni i już z kuchni nie wychodzić, jak tylko spalone na popiół. Bo się trafia, że węgle z piwnicy wstępują z kucharką na wódkę, albo wieczorkiem idą z kuchni na herbatę.<lb />
+        5) Otworzyć bez zwad i kłótni z pokojówką, gościnne drzwiczki pieca, dla duszy od żelazka. Bo skoro się bez prasowania nie obejdzie to lepiej że dusza żelazna goreje w kuchni, jakby w skutek zawiści i gniewu dusza kucharki miała przez ogień przynajmniej czyszcowy przechodzić.<lb />
+        6) Gdy pokojówka prosi kucharki o komorne na blasze dla garnuszka z ciepłą wodą, to należy zsunąć uprzejmie rądle, a garnuszkowi miejsce zrobić, bo i ten sierotka, ma prawo cisnąć się do domowego ogniska.<lb />
+        7) Jeden z bardzo ważnych kuchennych sprzętów jest ścierka; a niktby nie uwierzył jak dalece się do porządku kuchni przyczynia. Ale ścierka, służyć powinna do czyszczenia naczyń, a nie do ich zawalania. Tem czasem, przytrafia się, iż kucharki inaczej pojmują przeznaczenie ścierki, to jest wskazują one na wieczne zabrudzenie i zatracenie. Ścierka więc która brud ścierać powinna jest brudniejszą od wszelkich brudów, i leży pod stołem, pod ławą, za skrzynką, za beczką, i tam gnije zaszargana, zapomniana i pogardzona. Warto się więc ująć za nią, i życzyć, aby najprzód ścierki były w kuchni rozgatunkowane. Cieńsze i służące do delikatniejszej roboty, powinny wisieć osobno na goździu, opatrzone pentelkami, grubsze zaś na innym goździu. Tak zaś jedne jak i drugie powinny być uprane, i wstanie białości do służby użyte. Widuje się często, z żalem i z obrzydzeniem, iż ta sama ścierka, która zakopcone garnki i rądle ociera, służy później do talerzy, cienkie zaś i ku szlachetniejszemu użytkowi przeznaczone, najpodlejsze oddają usługi, i potem na strzępy podarte, w śmieciach są pogrzebane. Ten nieporządek podwójnie zasługuje na naganę: raz, iż sprawia obrzydzenie, a powtóre iż mnoży wydatki, bo nigdy ścierek nastarczyć niemożna... Na zapytanie: „gdzie się podziały?” Gotową ma kucharka odpowiedź „podarły się” a gdy się pani domu spyta, „gdzież więc są te podarte?”. Kucharka bez zająknienia się przyznaje, iż je wyrzuciła w śmieci.<lb />
+        8) Kucharka powinna wcześniej wstawać, i być już o piątej zrana na nogach; a to z dwóch głównych przyczyn: Raz, iż musi porządek zrobić, zamieść, pomyć, oczyścić, opał i wodę przygotować, wodę na kawę nastawić, a powtóre iż ważnem jest, iżby wcześniej szła na targ i nie od przekupek ale od kobiet wiejskich to jest z pierwszej ręki wiktuały kupowała. Kura u wiejskiej kobiety kosztuje o połowę mniej jak u przekupki, masło młode, jarzyny, jaja bez porównania tańszemi są z pierwszej ręki. Wreszcie kucharka, wstając rano, ma wybór między towarem, kiedy później musi kupować wybiórki i liche resztki, a śmietanę zatrzepaną krochmalem, lub rozwiedzioną wodą. W końcu przysłowie niesie „kto rano wstaje to mu Pan Bóg daje“.<lb />
+        9) Kucharka wstająca rano, dobrze uczyni a zbawiennie dla swej duszy, gdy wstąpi do kościoła, i albo mszy świętej wysłucha, jeżeli czas pozwala, lub też się przynajmniej pomodli. W niedzielę zaś i w uroczyste święta nic kucharki od słuchania mszy świętej nie uwalnia, szczególniej w mieście, gdzie może sobie tak pracę rozłożyć, iż ku temu czas zawsze znajdzie, bo msze święte ciągle się po wszystkich kościołach odbywają. Pani domu bronić dopełnienia tego obowiązku nie może, a gdyby trafił się dom [czego przypuścić trudno] iżby sługom wzbraniano, lub od powinności chrześciańskich odwodzono, w tenczas taką służbę porzucić należy.<lb />
+        10) Idąc na targ, należy koszyk wytrzepać, aby w nim z przeszłego kupna żadnych zaległości nie było. Tak zaś towar w koszyku układać, aby jeden drugiego ani nie gniótł ani nie walał. Widziano często, iż najprzód kupione jaja były na spodku a kalarepa na wierzchu, ztąd też jaja zostały pogniecione, i z koszyka cieknął na bruk ulicy soporek, walając kraciastą chustę kucharki. Na mięsie bezpośrednio osełki masła kłaść nienależy, bo nie milo mieć do herbaty lub kawy masło krwią zbroczone. Często się trafia, iż kucharka w zbytecznej dla państwa życzliwości, własna chustkę od nosa poświęca, aby do niej kaszę tatarczaną lub mąkę w węzełkach powiązać. Tej ofiary państwo nigdy nie wymagają i wolą aby kucharka wzięła serwetę lub cienką i dobrze wyprawną ściereczkę. Mniej sobie także państwo życzą, aby na taki woreczek do noszenia kaszy, poczciwa kucharka poświęcała podartą swoją pończochę z zawiązaną na węzeł stopą. Ten zbytek ofiar, nie był nigdy w warunkach ugody.<lb />
+        11) Idąc do jatek rzeźniczych należy wybierać ile możności dobre a do właściwego użytku stosowne kawałki i niebrać kości na pieczeń, a polędwicy na rosół; niebrać też wydętych błon cielęciny na kotlety. Co zaś do mięsa z wolnicy, to tylko za wiedzą i pozwoleniem państwa kupować go można, bo jest na targu dużo gorsze i dużo tańsze, a w regestrzyku wieczornym, bywa dużo droższe lub na tę sama cenę co i rzeźnicze.<lb />
+        12) Kucharki, tak sobie zwykle rozwalniają sumienie, iż przeznaczonego na nich pół funta mięsa nie kupują, ale wartość tej porcyi chowa ją do kieszeni, mówiąc: ,,Kucharka się tam przy innych pożywi“! o tem nikt nie wątpi, iż się kucharka pożywi, ale nader często bywa, iż się inni służący przy kucharce nie pożywią.<lb />
+        13) Sól w Wieliczce jest obfita, to prawda! ale kosztuje dużo, a tem czasem, co dzień kucharka podaje ją w rachunku tak jakby z niej osobną potrawę gotowała: Gdy zaś pani przypomni, iż wczoraj dopiero funt soli kupiono, to zwykła na to odpowiedź bywa: że „wyszła“! Że wyszła z kuchni to być może, bo czasem sól ma nogi, ale czy do kuchni co dzień wchodzi, to zagadka trudna do rozwiązania, i kucharka jedna odgadnąćby nam ją mogła.<lb />
+        14) Gdy kucharka idzie na rynek po kupno, to ma przynieść do domu koszyk z żywnością, ale nie torbę plotek; tem czasem się trafia, iż towaru w koszyku jest dużo mniej jak potrzeba, a w worku plotek jest dużo więcej jak się godzi. W tym worku, czyli w tej torbie, jest najprzód obmowa swoich i różnych państwa; zuchwałe odpowiedzi sług; wypadki dzienne: kto się urodził? kto umarł? która panna idzie za mąż, a która się żona z mężem kłóci?! potem w tej torbie, są sny, czyli, której się kucharce przyśnił ojciec lub kawalir? które się jej przyśniły numera na loteryą? kto wygrał, a kto przegrał? kto i wiele stawił, i że się tylko o jedynkę 19  omylił, boby był 14 Reńskich wygrał. — i t. d. Otóż, za nim kucharka korcowy worek plotkami zapełni, to czas umyka, gotowanie się opóźnia, a tem samemi obiad!... pan się gniewa... pani ciągle dzwoni, aby się z obiadem spieszono — kucharka łap cap w ówczas chwyta się to jednego to drugiego rądla; ognia poddaje aby nim stracony czas dogonić... Ale cóż?! Rosół nagle gotowany wykipiał i cienki, mięso twarde — jarzyny niedogotowane, potrawka bez smaku, a pieczeń nie upieczona ale spalona. Dla czego?... bo za nim się torbę plotek na mieście uzbierało, i za nim się one w domu wytrzęsło, to zegar Maryacki, bił a bił jednę godzinę po drugiej, i przypominał że się śmierć zbliża a przed śmiercią jeszcze obiad na pierwszą musi być gotowy.<lb />
+        15) Masło, to doskonała przyprawa, ale wtenczas tylko kiedy jest w rądlu, a nie w ukrytym garnuszku kucharki, gdzie go ona składa na późniejszą spekulacyą. Mówi przysłowie: „pływa jak pączek w maśle.“ Daj Boże aby pączek pływał! Częściej jednak bywa, iż kucharka pływa w maśle, a pączek pływa na jałowej wodzie, lub na cuchnącej pozłocie. Dziwna rzecz! iż kiedy kucharka na obiad wybiera, to pełną łyżką z faski czerpie, a kiedy na stół wydaje, to na koniec noża masła bierze!!... Prawda iż się to masło topi, ale nikt nie słyszał aby się między spiżarnią i kuchnią ulotniało jak kamfora.<lb />
+        16) Między przyprawami do potraw, liczymy tu korzenie, cytryny, rodzenki i t. p. ale nie liczymy much, ani włosów, ani trzasek z drzewa, ani węglików, nici i szpagatu. Mucha w rosole lub potrawce, bardzo jest niemiłą przyprawą, a włosów kucharki nikt sobie na pamiątkę mieć nie życzy. Jest więc prośba, aby ani rosołu ani potrawki w peruce na stół nie dawać!<lb />
+        17) Potrawy podane na stół powinny być wyłożone i na półmisku ułożone, a nie wysypane i poszarpane tępym nożem w nieforemne kawałki, ze sterczącemi kościami wołowego ogona. Tak wydany obiad niedbale i nieporządnie przypomina owe potrawy, które się nie na półmisek, ale do koryta sypią.<lb />
+        18) Po odgotowaniu obiadu, każda porządna kucharka, wszystkie naczynia myje, czyści, sprząta, ustawia, i dopóty niespocznie, dopóki każda rzecz i każdy sprzęt nie jest na swojem miejscu. Potem dopiero usiądzie, ręce założy i spoczywa jak żołnierz po wojnie. Ale kucharka, tak nazwana plucha [a takich nie brakuje] zaledwie po wydaniu na stół, wybiega z kuchni i zęby suszy przed kamienicą, wyglądając albo na tę albo na tego. W kuchni zaś nieład! pogrzebacz leży na stolnicy, szafa otwarta; rądel na ławce a kot z niego wyskrobki zajada. Kupiona na jutro kura, rozpętana, drepcze po przetaku i zostawia tam ślady swego pobytu. Stos misek przeplatanych talerzami i półmiskami, wznosi się w górę jak wieża babilońska, a z pomiędzy niego wyglądają srebrne cynowe trzonki od łyżek, nóż zakrwawiony i z siekaniny kotletów nie obtarty, leży na krawędzi pieca, a na podłodze pełno wody porozlewanej, łupin z cebuli, naci i korzenie z jarzyn i błota, które czeladź na obówiu z ulicy naniosła. Drzwiczki u pieca otwarte. Wiatr przez nie wypędza resztę ciepła, a na stołku kucharki stoi cebrzyk z pomyjami, które się od trzech dni uzbierały. — moja kuchareczko! próżno stoisz przed kamienicą, bo ten którego czekasz nie przyjdzie, bo ten woli porządną i pilną mieć żonę, jak flondrę i próżniaka!!<lb />
+        19) Oprócz pokus na mieście znajdziesz je kucharko i w domu, bo w szynku są diabły obdartuchy, a w kamienicy są diabły eleganty, w kusym fraczku lub kurteczce albo w liberyi z galonami. Tak jedni jak i drudzy mają też same zamiary, ale diabeł obdartuch daje ci wypić grzech w prostej anyżówce, a diabeł elegant w likierze albo w miodzie.<lb />
+        20) Dla tego jeśli służysz w domu kupieckim, to szanuj panów subiektów, ale z daleka. Gotuj im smaczne potrawy, ale ty sama nie bądź dla nich smacznym kąskiem. Niechaj sztukę mięsa i pieczeń znajdą miękką, a ciebie twardą.<lb />
+        21) Jeżeli służysz w domu rzemieślnika to jeszcze stoisz bliżej niebezpieczeństw, gdyż się łudzisz niebogo, iż którego z czeladzi potrafisz zbałamucić, i że potem, jak go raz złapiesz w sidła, to się z tobą ożeni. Oj nie, moja kochana! Czeladź rzemieślnicza wysoko teraz patrzy, a pyta się czy panna ma kamienicę a przynajmniej dom na kleparzu lub grunt w czerwonym Prądniku. Nie ożeni się więc z tobą ten czeladnik, który cię wabi i co chwila za tobą na ganek wygląda. Ty na niego zastawiasz sidła, a on potrzask na ciebie zastawił, i złapie cię jak głupią sikorę jeżeli mu zawierzysz.<lb />
+        22) Jeżeli służysz na pensyi, gdzie są młodzi panicze, to uważaj ich za dzieci, a gdy się który zapędzi do kuchni, to stukaj i pokaż drzwi do pokoju, bo widzisz że student to jak scyzoryk, którym chleba nie ukroisz, ale tak jest ostry, iż się nim okaleczyć możesz.<lb />
+        23) Jeżeli służysz w pensyi panien, to pamiętaj, że na tobie dużo polega i że Bogu jesteś surowo odpowiedzialną za każde zgorszenie jakie niewinnym istotom dać możesz, czy w słowie lekkiem lub nieobyczajnem, czy w poufałej rozmowie, czy robiąc jakie bądź sprawunki panienkom bez opowiedzenia się pani ochmistrzyni. Za wstążkę, za łaszek, za stary fartuszek co ci daje pensyonarka, albo za obietnicę iż mama panienki da parę złotych, poddają się czasem kucharki wymaganiom pensyonarek, w kommissach przez panią ochmistrzynią niedozwolonych, a szkody w obyczajach niepowotowane zrządzają. Pensya żeńska jest jak ścisły zakon, a ty kucharko jesteś w niej jakby furtyjanką! Pamiętaj więc ile polega na twojem sumieniu! Gdy zaś odprowadzasz panienkę z domu na pensyą, to maszeruj prosto ulicą, nie wstępując ani do kwiaciarki ani do sklepiku, nie zatrzymując się i nie przypatrując na prawo i na lewo, lub na to albo na owo! W ogólności na zakończenie, daję ci radę ogólną. Zachowaj kuchareczko panieński wstyd dla kochanka a zostaw poufałość dla męża, bo gdy wstyd stracisz, to wyjdziesz na bezwstydną a każdy cię parobek kamienicy nogą kopnie, a patrząc na ciebie, splunie. I tak też bywa, że kiedy się idzie w niedziele na około miasta, to śliny w ustach zabraknie, aby spluwać na widok tych spacerujących flonder, z których gęby bucha wódczana para, z których oczów tryska ogień rozwiązłych namiętności i które zaszargane i w przydeptanych trzewikach, wloką się przy swych obdartych i pijanych zwodzicielach. Zdawałoby się iż wracają te obrzydłe pary z jakiej piekielnej jaskini, gdzie diabeł robi dziewosłęby między potępieńcem, a czarownicą. Gdybyście wiedziały jakeście w tenczas obrzydłe i jaką zgrozą przejęci są ci co na was patrzą, tobyście twarz zasłoniły ze wstydu i uciekałybyście w pustynie, gdzieby was oko ludzkie nie widziało. Kiedy jednak zabrudzicie duszę i ciało wasze czyliż ma być wszystko dla was stracone? i czyli w tenczas, mamy was ostatecznie potępiać i wami pogardzać?... Nie!... jest i dla was skuteczny środek oczyszczenia i poprawy, jest dla was otwarta droga powrotu do cnotliwego życia! Tym środkiem i tą drogą jest Sakrament pokuty: za którym idzie silne postanowienie odmiany życia. My was ze służby oddalić możemy, a często musimy, ale was Bóg od miłosierdzia swego nieoddali. Przyjmie was pokutujące za sługi swoje, za córy swoje, a my widząc że kochacie Boga i że Bóg was kocha, znowu wam otworzymy domy nasze, i powierzymy wam ogniska nasze, i dzielić się z wami będziemy kawałkiem chleba, dziękując Bogu za sprawy Jego nad wami miłosierdzia.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

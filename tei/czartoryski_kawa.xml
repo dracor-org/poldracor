@@ -1,0 +1,1022 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000019" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Kawa</title>
+        <title type="sub">Komedia w jednym akcie</title>
+        <author>
+          <idno type="isni">0000000082069466</idno>
+          <idno type="wikidata">Q349948</idno>
+          <persName>
+            <forename>Adam Kazimierz</forename>
+            <surname>Czartoryski</surname>
+          </persName>
+        </author>
+        <!-- Adam Kazimierz Czartoryski (1734-1823) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/kawa-komedya-w-jednym-akcie,NzAzMTM5MzY/6/</idno>
+          <title>Czartoryski, A.K., Kawa: Komedya w jednym akcie, Warszawa 1779</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="dorant" sex="MALE">
+            <persName>Dorant</persName>
+          </person>
+          <person xml:id="eliza" sex="FEMALE">
+            <persName>Eliza</persName>
+          </person>
+          <person xml:id="fryzer" sex="MALE">
+            <persName>Fryzer</persName>
+          </person>
+          <person xml:id="julusia" sex="FEMALE">
+            <persName>Julusia</persName>
+          </person>
+          <person xml:id="michałek" sex="MALE">
+            <persName>Michałek</persName>
+          </person>
+          <person xml:id="sensatkiewicz" sex="MALE">
+            <persName>Sensatkiewicz</persName>
+          </person>
+          <person xml:id="sentymencicka" sex="FEMALE">
+            <persName>Sentymencicka</persName>
+          </person>
+          <person xml:id="sobąnudzka" sex="FEMALE">
+            <persName>Sobąnudzka</persName>
+          </person>
+          <person xml:id="szastański" sex="MALE">
+            <persName>Szastański</persName>
+          </person>
+          <person xml:id="trzepałkowska" sex="FEMALE">
+            <persName>Trzepałkowska</persName>
+          </person>
+          <person xml:id="walery" sex="MALE">
+            <persName>Walery</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-14">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1779">
+        <desc />
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/pol000019" passive="http://www.wikidata.org/entity/Q11737515"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <div>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">KAWA</titlePart>
+            <titlePart type="sub">KOMEDYA<lb />
+            W JEDNYM AKCIE</titlePart>
+          </docTitle>
+          <epigraph>
+            <cit><quote>.... w szczegulności nikomu nie łaię.<lb />
+            Czołem biię osobom, ganię obyczaie.</quote><lb /> 
+            <bibl>NARUSZEWICZ Satyra III.</bibl>.</cit>
+          </epigraph>
+          <docImprint>
+            <p>
+              W <pubPlace>WARSZAWIE</pubPlace> <date>1779</date>.
+              <bibl>
+                <publisher>w Drukarni J. K. Mci y Rzeczypospolitey uprzywileiowaney GRÖLLOWSKIEY.</publisher>
+              </bibl>
+            </p>
+          </docImprint>
+        </titlePage>
+        <div type="appendix">
+          <opener>
+            <salute>
+              <p>WIELMOŻNEMU JMCI PANU<lb />
+              JOZEFOWI SZYMANOWSKIEMU,<lb />
+              KASZTELANICOWI RAWSKIEMU<lb />
+              SZAMBELANOWI J. K. MCI.</p> 
+              <p>Kochany Przyiacielu!</p>
+            </salute>
+          </opener>
+          <p>Ani te wyrazy, które tu wiążę listem przypisnym, ani ta fraszka [która z twoim na czele wychodzi imieniem] dziełem nazywać się mogą; więc tu nic podchlebnego nie znaydziemy, czyli ty w odbieraniu, czyli ia w oddawaniu, censendum nil nisi dantis amor. [1] Kwiatek ręką miłości zerwany y w ręce oddany miłości nie iest darem, lecz upominkiem, pierwsze y prożność przynosi, drugie czułość tylko składa. Przyiaźń nie iest wyłączoną od tak delikatnego uczucia, a że nasza nie iest pewnie, przeciąg tey chwili, od którey się zawzięła, nauczył mnie sowicie. Tobie tedy ofiaruię [mało-znaczny wprawdzie] płód kilku prożnych godzin, y z wszech miar czynię to z ufnością: namque tu solebas, meas esse aliquid putare nugas. [2]<lb /> Częstokroć w rozmowach naszych trafiało nam się życzyć, aby się rozszerzał co raz gust dobrych sztuk teatralnych; zgadzaliśmy się na to, że ten gust, łącząc przyiemność z pożytkiem, naydokładnieysze w sobie zawiera sposoby, nagany, przestrogi, y rady. Nie musiał znać tey pracy gatunek wzbudzać umysły ziomków naszych, kiedy dotąd tak mało sztuk widziemy. Mniemaną roboty trudnością naydowcipnieysze głowy zrażone, puszczać się w ten zawod unikaią; lecz gdyby we wszystkich narodach, trudność dostateczną była od sprobowania się wymowką, żaden kunszt nie byłby się choć iednym krokiem do doskonałości przysunął, y przelęknieni Rasyn [3] y Molier [4] byliby, ręce opuściwszy, ludziom nieznaiomemi z tego świata zeszli, bez domysłu nawet, że w nich taki rzadki znaydował się talent.<lb /> Nigdzie tak zręcznie imaginacya okazać nie zdoła swey bystrości, iak w dziełach teatralnych; iey obfitość czyni Autora stworcą, że tak rzekę, przypadku, który na scenę wprowadza, lub też, ieżeli [iak się nayczęściey w tragedyi zdarza] wzięty z Historyi alboli też z mitologii przypadek w sceniczną odzież przybiera, układ okoliczności w iego zostaie się rozrządzeniu, a ieżeli komedyą pisze, skarb rożno-wzorych charakterow do iego wyboru otworem leży, przy zupełney wolności wystawowania onych pod punktem zoczenia [5] nayprzyzwoitszym myśli tey, która go prowadzi. Inwencya osnowę [6] daie, rozsądek zdarzenia szykuie, dowcip y świata znaiomość Dialog czyli rozmowy układa, czytanie dobrych wzorów reguł naucza. Trzy są gatunki komedyi, ieden, w którym charaktery do związku zdarzeń stosuią się, y zwane są te sztuki intrygowe; taką są BLIŹNIĘTA czyli MENEKMY Reniara; wymyślone w nich bowiem iest podobieństwo dwóch braci tak zupełnie w twarzach, z taką różnicą w postępkach, aby tym lepiey dopomodz ustawnym omyłkom, do których dać pochop iest celem intrygi. W drugim sztuk rodzaiu zdarzenia do charakteru stosowność maią, y zwane są sztuki charakterowe, taką iest DUMNY tegoż Reniara; w niey tym kształtem kierowane są zdarzenia, aby duma w zupełney swey wybitności pokazać się mogła. W pierwszych charaktery wysługuią się intrydze czyli osnowie, w drugich intryga pryncypalnemu wysługuie się charakterowi; trzeci rodzay bez względu na intrygę y bez charakteru pryncypalnego, chwyta y centruie błędy w umyśle te, które w potoczynym społeczności biegu zdradza sposob tłumaczenia się; w tym rodzaiu iest KAWA; bardziey Dialogiem [7] czyli rozmową, iak komedyą nazwać się może. Ten rodzay iest nayłatwiejszy; krotkość naywiększą tych sztuk iest zaletą: wymiar bowiem czasu, który w nich trwaniu tego, co się dzieie iest dozwolonym [a ten dłuższym być może nad zwyczayny czas przypadkowey biesiady] obiera ie z korzyści intrygi, którey zmyślne uplecenie obudzoną trzyma spektatora ciekawość. Liczbę scen kilkunastu przechodzić nie maią takowe sztuki; długość bowiem [nie wspartey żadnym czynieniem] rozmowy, ciągnie rozwlekłość za sobą y wnet ostudza attencyą patrzących się; słowem naymniey ten rodzaj iest interessuiącym y nie wart wchodzić żadną miarą w porownanie z dwoma pierwszemi.<lb /> Lecz iuż dosyć o tym, ale cię może, przyiacielu! tym pobudzę do śmiechu, że dramatyczne uwagi poddaię rozwadze twoiey w tey właśnie porze, kiedy Teatrum ustawa. Choć te myśli bez pożytku zostaną się w przytomnym czasie, rzucone to ziarno stać się może w przyszłości krzewnym. Nie iest iednak w mocy moiey patrzyć się oboiętnym okiem na rozpuszczenie Polskich Aktorow, których [iuż dwa razy oszukanych w nadzieiach swoich] z trudnością przyidzie zbierać, gdy się wroci ochota wznowienia Teatru Polskiego. Myślić nie przestanę, że źrzodłem niezmiernych korzyści widowiska być mogą, że serce, umysł, dowcip, znaczne z nich zyski odniosą, skoro gust, rozum y duch publiczny [który do wszystkiego drogę skazywać powinien] sceną Polską zaprzątnąć się zechcą. Rożnić mi się przyidzie zdaniem zapewne z udaiącemi surowych obywatelow osobami, które sprzeczne bez wglądania, nudność chcą mieć za nierozdzielną powagi towarzyszkę, y które gardząc mało przez nich znaną influencyą, którą, roztropnie prowadzone widowiska mieć mogą nad myślenia sposobem narodu, gry sceniczne mienią być tylko próżną y kosztowną zabawą. Bez winy y tych uznać nie mogę, którym przy rządowey władzy, gdy dozor także poprawy obyczaiow oddany, tę zarzucaią sprężynę iak lekce-ważną. [Pamiętać proszę, że ia w kraiowym tylko widowisku istotną upatruię korzyść, w innym, sposob szczegulnie spędzenia godzin przyiemnych.] Lecz choć nie ta iest iedna w kraiu naszym żalow bez-skutecznych materya, ieden iest podobno kray nasz na świecie, który obarczyć potrafiono w rozrywkach nawet swoich. [8]<lb /> Nim skończę, pozwol mi udzielić sobie iedną ieszcze y z myśli moich, y z przyczyn frasunku. Jęczą w tych czasach prassy wyciskaiąc pisma, których mnostwo w rożnych rodzaiach przesila cierpliwość czytelnikow; wielka część piszących, ieżeli z głowy pisze, to do piora rękę ściąga z szczupłym zwyczaynie zbiorem wiadomości potrzebnych do ułożenia księgi poczytney. [9] Jeżeli tłumaczy, to rozpoczyna dzieło nayczęściey bez znaiomości dokładney ięzyka, z którego tłumaczy, y ięzyka, na który tłumaczy, y bez zastanowienia się, czyli dzieło, które przekładać ma w przedsięwzięciu, może stać się w istocie pożytecznym, y czyli rozchodząc się po kraiu [bo inney w translatorze nie upatruię intencyi] znaydzie większość czytelnikow iuż przygotowanych przez poprzedzaiące wiadomości do zrozumienia pisma tego, które nabywa. Ztąd sądziłbym, że prożny mozoł biorą na siebie ci, którzy się porywaią do tłumaczenia ksiąg metafizycznym sposobem pisanych, iako to Russa, Monteskiu, [10] &amp;c. Trudność takowey imprezy byłaby niewymowną dla naydoskonaley posiadaiących obydwa ięzyki, coż dopiero być musi dla tych, co powierzchownie tylko znaią ięzyk ten, z którego tłumaczą; w takowym bowiem zamiarze troiaka łączy się robota: 1mo. Wartość słowa każdego trzeba umieć oszacować, 2do. Myśl przeniknąć wskroś. 3tio. Dobierać słowa korresponduiące w ięzyku swoim, aby doskonały dać wykład myśli, która w zawiłych zawiązana stosowaniach, choć w iasnych w texcie wypisana wyrazach, staie się niezrozumiałą w tłumaczeniu, skoro mylnie wzięte słowo, albo zbyt literalnie, inne iey daie znaczenie. Tłumaczyć literalnie, iest to wokabularz spisywać; tłumaczyć mylnie, iest to myśli przeistaczać; piać dobrze, iest to myślić dobrze; czuć dobrze, y dobrze wyrażać, iest to łączyć wspołem, dowcip, duszę, y smak; a potym, wracaiąc się do pierwszey myśli moiey, dokładam, że iako pokarm miarkowany być powinien według siły żoładka, tak też gatunek książek, według stanu aktualnego massy światła w narodzie będącey. Księgi o Historyi, o Geografii, o Podrożach, [11] te choć y z zwyczayną ięzyków zagranicznych znaiomością, mogą przy staraniu być łatwo przewiedzione na rodowitą mowę, y wyraźne przynosić pożytki.<lb /> Chwalebną pracuiących zrażać aplikacyą, nie iest myślą moią, y owszem zachęcenia widzieć pomnożone życzyłbym, ale dla dobra powszechności y wydoskonalenia piszących, ustawę iedną sądzę być nieuchnorrnie potrzebną, a ta iest uformowanie towarzystwa, któreby dzieło każde wychodzące z pod prassy osądziło, y zdanie swoie wraz z przyczynami wypisało, formą cudzoziemskich Żurnalow. [12] Piszącego teraz u nas nikt nie poprawuie, nikt mu postrzedz nie daie, że złym poszedł torem; gotuiącemu się pisać zbywa na przestrogach, aby chronił się tych zdrożności, czyli w stylu, czyli w materyi samey, w które wpadali piszący przed nim. Bez przewodnika drogą nieznaiomą błądząc chyba trafi podrożny; dla czegoż inne kraie szczycą się wydaniami, które warte przechodzić do potomności? bo idą Autorowie za poprzedniczym światłem naylepszych wzorow, bo piszą z ostrożnością y pracowicie, wiedząc, że co napiszą wzięte będzie pod surowy examen, y błędy wytykane. Z tych obserwacyi nad pismami biorą prawidła dobrego pisania ci, co ochotę czuią w sobie do pracy; iednym słowem krytyka iest to tygiel, w którym przeczyszcza się talent, krytyka szczegulnie ustanowić może wartość wewnętrzną pism w każdym rodzaiu; o tey ia tu mowię, która bez żołci, bezstronna, nie myśląc o Autorze, iedynie się przywiązuie do dzieła, sędziowski w litteraturze sprawuje urząd, y stosuiąc nowe wydania do zbioru dawnych ustaw y wzorow [przez sławnych mistrzow w kunszcie nam zostawionych] wyrok pochwały lub nagany daie. Jedynie przez krytykę gust może być wypolerowany; gust zaś iest to ta forma, w którey myśli ulać należy, chcąc kształty im dać przyiemne.<lb /> Dowcip błądził dotąd w Polszcze bez przewodnika po rozłożystych imaginacyi dziedzinach; domniemywał się czasem tych własności, które są cechą dobrego naznaczone smaku, a nayczęściey na domysł mylił się y trafiał. Pisarze nasi gustowi cześć oddawali tę, którą odbierał od Atenczyków Deus [13] ignotus. Gościniec do przybytkow iego y w nich zachowane obrządki były im nieznaiome. Ten Bożek iest naydotkliwszym z niebian, urazić go często można, chcąc go nawet y wielbić. Lazurowym obłokiem [który słodkiego światła promień złotem przeszywa] wpoł obwijany, spoczywa w Swiątyni z przezroczystego kryształu; kwieć niezwiędłey nigdy młodości lice iego farbi; Gracye bez przestanku odnawiaią róże w wieńcu, który skronie bostwa zdobi; całe iestestwo iego z tak łatwo przenikłych złożone będąc cząstek, iż naymnieysza niebaczność przykrego iest mu uczucia przyczyną; w straż oddał krytyce przystępy boźnic swoich, którą bezoczną rozsądek y subtelne dotknięcie prowadzi; dowcip w dziełach kunsztow y piora daniny swoie przynosi; krytyka, nim ie przy ołtarzach gustu złożyć pozwoli, rozeznawa czy miłą być mogą ofiarą, strzeże, aby żadne kadzidło nie zaleciało bostwa, któreby przez zmieszanie źle dobraney woni, świeżość mogło odiąć różom, odzieże Gracyi spęłzić, parą nieczystą zaćmić iasność kryszatłu. Niech tedy znaią autorowie y kunsztownicy z iak dotkliwym bożkiem maią sprawę. Ja nawet o nim mowiąc, y iego opisuiąc mieszkanie, w boiaźni iestem czyli przeciwko iemu nie grzeszę.<lb /> Nie czyniłem o Geniuszu wzmianki, bo twardym u nas ieszcze snem uśpiony leży, ale y Geniusz, ten możny Pan, gustu iest hołdownikiem. Do obudzenia go żaden z naszych rodakow nie posunął się dotąd. Lekko ziednane pochwały, przekładaiąc nad trwałą sławę, wolą ci, co u nas piorem pracuią, winszować, chwalić, czy iest z czego czy nie masz, opisywać, tłumaczyć, po mirtowych krzaczkach przelatywać z gałązki na gałązkę, niżeli rzucić się o własney mocy y silnym polotem na gościniec nieśmiertelności.<lb /> Lecz postrzegam dopiero, że prożno opisałem idealny Gustu przybytek; pewnieysze [tym, co go znaleść są chciwemi] winien iestem odkryć tego Boga mieszkanie. Niech idą do Swiątyni w Knidos, [14] iuż się tam przeniosł, tam go w swoiey chwale zobaczą. Niech Kapłan tey świątyni rzuci za mnie swą ręką ziarko kadzidła w ogień, który roznieca, niech w sercu swym umieści hołd żywey y zawsze trwałey przyiaźni.</p>
+          <closer>
+            <p>AUTOR</p>
+          </closer>
+        </div>
+        <docTitle>
+          <titlePart type="main">KAWA</titlePart>
+          <titlePart type="sub">KOMEDYA<lb />
+          W JEDNYM AKCIE</titlePart>
+        </docTitle>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#sobąnudzka">JEYMĆ PANI SOBĄNUDZKA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#trzepałkowska">JEYMĆ PANI TRZEPAŁKOWSKA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#sentymencicka">JEYMĆ PANI SENTYMENCICKA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#eliza">ELIZA.</role>
+            <roleDesc>Synowica Jeymć Pani Sobąnudzkiey.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#julusia">JULUSIA.</role>
+            <roleDesc>Panna.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#szastański">JMĆ P. SZASTANSKI.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#sensatkiewicz">JMC P. SENSATKIEWICZ.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#dorant">DORANT.</role>
+            <roleDesc>Wuy Elizy.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#walery">WALERY.</role>
+            <roleDesc>Amant Elizy.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#fryzer">FRYZER.</role>
+            <roleDesc>Jeymć Pani Sobąnudzkiey.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#michałek">MICHAŁEK.</role>
+            <roleDesc>Służący Jeymć Pani Sobąnudzkiey.</roleDesc>
+          </castItem>
+        </castList>
+      </div>
+      <set>
+        <p>(Scena w Warszawie w domu Jeymć Pani Sobąnudzkiey)</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>SCENA I.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#julusia">JULUSIA.</rs>
+            <rs key="#michałek">MICHAŁEK.</rs>
+          </p>
+        </stage>
+        <stage type="setting">
+          <p> (Pokoy Jeymć Pani Sobąnudzkiey, trzy stoliki rozstawione po teatrze, na iednym książki y gitara, na drugim tambur, trzeci do kawy; ten ostatni nakrywa paiuczek y uprząta pokoy; stołków dziesięć, między któremi ze trzy krzesełka)</p>
+        </stage>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Michałku! iak nakryiesz, poustawiayże te stołki, a powiedz Barbarze, żeby śmietanki poty nie przelała w małe garnuszki, poki się nie ziadą. Nasza Jeymć według zwyczaiu nudzi sobą; kilka razy ubrała się inaczey na głowę, zrzuciła robron, szlafrok wzięła, zdięła szlafrok, wzięła robron; lubo w te dni, w które nie miewa gości u siebie, nie lubi ieździć na spektakl, [15] dziś iednak przykro iey, że dla nich w domu zostać się musi, y gotuiąc się na ich przyięcie w krześle zasiadła, książkę trzyma y ziewa.</p>
+        </sp>
+      </div>
+      <div type="scene" n="2">
+        <head>SCENA II.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#sobąnudzka">SOBĄNUDZKA.</rs>
+            <rs key="#julusia">JULUSIA.</rs>
+          </p>
+        </stage>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Któraż to godzina?</p>
+        </sp>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Mościa Dobrodzieyko! wpół do szostey.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>A ieszcze nikogo nie masz. <stage>(idzie, bierze gitarę a potym książkę, potym do zwierciadła)</stage> Jakże ten czepek źle leży!</p>
+        </sp>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Można go poprawić. <stage>(siada Sobąnudzka, Julusia poprawuie)</stage></p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Na cóż kręcić, równo go zwinąć; przynieś no zwierciadło z gotowalni.</p>
+        </sp>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Czy dobrze tak Mościa Dobrodzieyko?</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Ale cóś dziś znowu robisz? patrzay, iakeś mnie roztrzepała, a wiem że fryzera w domu nie masz.</p>
+        </sp>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Potrafię ia poprawić y przypudrować WćPanią Dobrodzieykę.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Ale nie potrafisz, boś taka niezgrabna; pośliy prędzey po fryzera.</p>
+        </sp>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Idę Mościa Dobrodzieyko!</p>
+        </sp>
+      </div>
+      <div type="scene" n="3">
+        <head>SCENA III.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#sobąnudzka">SOBĄNUDZKA.</rs>
+          </p>
+        </stage>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p><stage>(trzymaiąc zwierciadło)</stage> Stroie y umizgi tych panien cała robota; nie im być sługami, ale imby y owszem sług potrzeba. A ia też tą gotowalnią tak się zatrudniam, iak gdybym o stroy dbała. Cóż z tym czynić? żyiąc z ludźmi, trzeba się choć czasem y niechętnie żenować [16] dla nich.</p>
+        </sp>
+      </div>
+      <div type="scene" n="4">
+        <head>SCENA IV.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#julusia">JULUSIA.</rs>
+            <rs key="#fryzer">FRYZER.</rs>
+            <rs key="#sobąnudzka">SOBĄNUDZKA.</rs>
+          </p>
+        </stage>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Jest Fryzer, Mościa Dobrodzieyko! zchwytałam go na wylocie, ledwom go utrzymała.</p>
+        </sp>
+        <sp who="#fryzer">
+          <speaker>FRYZER.</speaker>
+          <p>Mościa Dobrodzieyko! bo się śpieszę do Jeymć Pani Starościny, któreym się na szostą obiecał; ma iechać na operę, y miałem iey grzebień w szynionie poprawić.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Wierzę, że się ten grzebień często wymyka, kiedy te kłaki wszystkie, co ie ma na głowie nie iey są, bo wiem, że nie iey.</p>
+        </sp>
+        <sp who="#fryzer">
+          <speaker>FRYZER.</speaker>
+          <p>Mościa Dobrodzieyko! y owszem y iednego włosa nie masz cudzego, wszystkie iey własne, bardzo gęste y długie.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Na cóż to takie rzeczy gadać, kiedy wiem dowodnie... nawet onegday co w męskim kapeluszu była na balu, z pod szyniona wylazł nieostrożnie kawałek sznurka białego.</p>
+        </sp>
+        <sp who="#fryzer">
+          <speaker>FRYZER.</speaker>
+          <p>Mościa Dobrodzieyko! dalibóg wszystkie włosy iey są, wszak ią nie dopiero fryzuię.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Ah! iakże przyciszkasz, muszę Stefanka wziąść, bo ten chłopiec nieznośnie ciężką ma rękę. Julusiu, wszak nie iey włosy.</p>
+        </sp>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Widziałam się onegday z Panną, co ią w wigilią była odprawiła, która mi toż samo powiedziała, że wszystkie loki y szynion przyprawny.</p>
+        </sp>
+        <sp who="#fryzer">
+          <speaker>FRYZER.</speaker>
+          <p>Już Mościa Dobrodzieyko!</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>To sobie póydź. <stage>(Fryzer odchodzi)</stage> Julusiu! kończże, a prętko.</p>
+        </sp>
+      </div>
+      <div type="scene" n="5">
+        <head>SCENA V.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#sobąnudzka">SOBĄNUDZKA.</rs>
+            <rs key="#julusia">JULUSIA.</rs>
+          </p>
+        </stage>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Mościa Dobrodzieyko! w mgnieniu oka skończę. Jeno szpilek kilka przypnę, ale iak Pani dobrze w tym czepeczku!</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Prawda, że nie źle, chociaż to tu nie wiele pomoże bydź ładną, a nie wiele zaszkodzi złym gustem się ubrać. Nie masz gdzie się pokazać, ani też komu się podobać. A Walery nie ziawiłże się tu ieszcze dzisiay, smutną wdzięczność Elizy zabieraiąc w zamian smutnieyszych daleko wyrazów miłości swoiey; przez wzgląd dla męża nieboszczyka tę iego synowicę trzymam u siebie, ale Bogu podziękuię iak ią ztąd Walery zabierze.</p>
+        </sp>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Trzem się osobom dogodzi razem.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Co mnie to zapewne, ale bo nudna też to kreatura ten Walery! cnotliwy człowiek prawda, lecz do czegoż ta cnota dobra? chyba może do interessow, do dzieł publicznych, [a iuż y tam naprzykrzać się poczyna] ale proszę z samą tylko cnotą przyiść do kogo na wieczerzę, ieżeli wszystkich nie rozziewa, tom nie człek. Jednak dobrze się zeszła ta para, bo y kochana nasza Panna Eliza, y to osobliwszego ułożenia stworzenie; chce to być rządną, będzie to chciało wiedzieć, co się w domu, co się w gospodarstwie dzieie; iam nigdy do tego drobiazgu nie mogła przywyknąć. Ale dla Boga, gdzież to oni wszyscy siedzą, iużbym ich się rada zbyła; a zbywszy się ich, gdzież się obrócić? sam człowiek nie wie, co tu z sobą robić.</p>
+        </sp>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Mościa Dobrodzieyko! zapewne zaczną się nie zadługo zieżdżać.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Gdyby ta Eliza inszą była, niż iest, dobraćby można dla niey męża wydatnieyszego daleko, niżeli Walery; iużci iest w kim wybierać, między tą nawet młodzieżą, co w naszey koteryi [17] żyie; Pana Szastańskiego naprzykład, cóż ty o nim mówisz?</p>
+        </sp>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Mościa Dobrodzieyko! żywy iest, z daleka go słychać.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Onby tego sam dosyć życzył, y przyrzekłam mu wszelkie w tey mierze staranie moie: lecz wątpię, żeby kiedy Eliza na to zezwoliła. Dorant Wuy iey także nie pomału będzie nam na przeszkodzie, y z Walerym prawda, że rzeczy daleko zaszły, choć tenby wzgląd był naymnieyszy, bo tandem w każdey okazyi namyślić się wolno. Z Elizą mówić będę, lubo z małą nadzieią skutku, y Pan Szastański nie zachoruie, choć nim ta Dulcimella wzgardzi.</p>
+        </sp>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Walery tu idąc nie zgadywa pewnie intencyi WćPani Dobrodzieyki.</p>
+        </sp>
+      </div>
+      <div type="scene" n="6">
+        <head>SCENA VI.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#walery">WALERY.</rs>
+            <rs key="#sobąnudzka">SOBĄNUDZKA.</rs>
+            <rs key="#julusia">JULUSIA.</rs>
+          </p>
+        </stage>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Jakaż to grzeczność Wmć Pana! pierwszy przyieżdżasz na kawę; lecz nie sobie ten pośpiech przypisuię, wiem komu mam mieć za to obligacyą.</p>
+        </sp>
+        <sp who="#walery">
+          <speaker>WALERY.</speaker>
+          <p>Mościa Dobrodzieyko! y w tych nawet myślach, których się dogadywam, czynisz mi WćPani Dobrodzieyka krzywdę, wątpiąc o tym, że nie zawsze mi iest pilno służyć iey.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Pod tak ścisły examen brać nie chcę te powody, które mi się zdarzaią widzieć tu Wmć Pana przed innemi, lecz pokazuiąc, że y ia umiem być grzeczną: Julusiu biegay, niech tu Panna Eliza przyidzie. <stage>(wychodzi Julusia)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="7">
+        <head>SCENA VII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#walery">WALERY.</rs>
+            <rs key="#sobąnudzka">SOBĄNUDZKA.</rs>
+          </p>
+        </stage>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Siadayże Wmć Pan, proszę. Czy lubisz Wmć Pan na drugich czekać? gdyby to było twoim gustem, móy Dobrodzieiu! dawayże kawy, albo zbieray kompanią w Warszawie, upewniam, że się twoiemu gustowi dogodzi. Wieki, iak tu siedzę, nikogo nie widać, znać to taka moda teraz; tym sposobem staie się gospodyni niewolnicą; rządzić czasem swoim iuż tego dnia nie może.</p>
+        </sp>
+        <sp who="#walery">
+          <speaker>WALERY.</speaker>
+          <p>Zaiście przykra to iest rzecz. WćPani Dobrodzieyka pewniebyś rada była użyć ieszcze cokolwiek spektaklu?</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Nie masz tam po co się tak bardzo kwapić; wiem, że dziś naprzykład psa, kota nie będzie; pewnie iaką niezabawną Polszczyznę graią, słowem nie mogę mówić, żebym się wyśmienicie bawiła na tych spektaklach; w naszey loży duszno, nie bardzo iasno, a potym niewiedzieć iakoś tego roku nic nie zażywia, nic nie ostrzy chęci widzenia, y być widzianą.</p>
+        </sp>
+        <sp who="#walery">
+          <speaker>WALERY.</speaker>
+          <p>Jakem uważał, to WćPani Dobrodzieyka promenadę przekładasz nad inne zabawy.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Bardzoś źle uważał, móy Walery! ścieszki wydeptywać bez zamiaru, albo też toczyć się w poieździe niewiedzieć dokąd, nigdym nie lubiła, a do tego, czy ieszcze to rzeczą podobną, dobrać sobie choć dwie osoby, z któremiby miło zamknąć się w karecie; to dla iedney trzeba szkło spuścić, dla drugiey podnieść, ta się spieszy, owa się opoźnia, niewiedzieć iak im dogodzić.</p>
+        </sp>
+        <sp who="#walery">
+          <speaker>WALERY.</speaker>
+          <p>Trudności w ułożeniu takowych partyi są nie małe, ale maiąc tylo przyiaciołek, masz WćPani Dobrodzieyka zawsze kogo odwiedzać y z kim się bawić.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Dayże pokóy, Walery, bo właśnie tak gadasz, iak nie tego świata człowiek, ktoż tu czyią iest przyiaciółką? y dokądże tu ieździć?... Ah! to straszna rzecz, patrzayże, iak nie widać ich, tak nie widać.</p>
+        </sp>
+      </div>
+      <div type="scene" n="8">
+        <head>SCENA VIII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#eliza">ELIZA.</rs>
+            <rs key="#julusia">JULUSIA.</rs>
+            <rs key="#sobąnudzka">SOBĄNUDZKA.</rs>
+            <rs key="#walery">WALERY.</rs>
+          </p>
+        </stage>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Rozumiałam, że iuż dziś nie zniydziesz, cożeś tak długo u siebie robiła?</p>
+        </sp>
+        <sp who="#eliza">
+          <speaker>ELIZA.</speaker>
+          <p>Różnie, Mościa Dobrodzieyko! haftowałam, bawiłam się muzyką, książką...</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Jakieżeś to WćPanna księgi wartowała, ieżeli się godzi wiedzieć?</p>
+        </sp>
+        <sp who="#eliza">
+          <speaker>ELIZA.</speaker>
+          <p>Zbior Historyi Polskiey X. Wagi.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Winszuję WćPannie, że to czytać możesz, bo się domyślam, że to musi być arcy-niezabawne.</p>
+        </sp>
+        <sp who="#eliza">
+          <speaker>ELIZA.</speaker>
+          <p>Polką będąc, wiedzieć, co się w kraiu moim działo, mam za zabawę; obcą w nim być nie chcę, wstydziłabym się tego.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Jeymć, widzę, na heroinę się edukuie; takiey żonki zazdrościć będą Jmci Panu Waleremu.</p>
+        </sp>
+        <sp who="#walery">
+          <speaker>WALERY.</speaker>
+          <p>Pewnieże, Mościa Dobrodzieyko! z wielu nawet przyczyn, y ten sposob myślenia, który względem kraiu swego odkrywa Eliza, szacunek ziedna iey bez pochyby u każdego z tych, co się zacnym uczuciem chlubić może. Potrafi, ręczę, śrzodek utrzymać między zimnym niedbaniem o to wszystko, co się do iey oyczyzny ściąga, a czynnym, [przez intrygi] własnych zysków szukaniem, pod hasłem patryotyczney Heroiny. Gdyby ta płeć tak słusznie umysłem władaiąca naszym, którey iedno spoyrzenie nadgrodą być może, y karą, pochwałą lub obwinieniem, innym chciała poglądać okiem na tych, co dobrze czynią, innym na tych, co nie, lub źle czynią, ożyłaby miłość sławy, y tylokrotne narodu skazy ust y oczu pięknych ruszenia zatrzećby potrafiły; dobre Polki walecznych y rzetelnych Polaków plemię wskrzesiłyby zapewne.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Wmć Pana słyszeć mówiącego, iest to tak dobrze iak Swadę Ciwilną czytać [wszak pono macie książkę, co się tak zowie.] Ja zaś mówię, że w to wszystko wchodzić nam kobietom nie należy; byle męszczyzna umiał nas zabawić, niczego więcey po nim nie mamy prawa domagać się; wiadomości zaś tego, co się dzieie, albo działo w kraiu, lub też w nim się stanie, wcale dla nas nie potrzebne; naypierwey, gdzież nam czas na to wystarczy? Powtore niezmiernie to nudne rzeczy. Jednak pokazuiąc Wmć Panu, żem nie iest wcale nieczułą na to, co się w kochaney Oyczyznie działo, otoż powiadam mu, że dość mnie zabawił ten kawałek historyi, co to mi powiadali o tym Królu Łokietku. Jakoż to atandryssuiąca [18] myśl, wystawić sobie maciupciego Królika, co go to nie było nad łokieć, osobliwie, ieżeli przy takim wzroście kształtnym był y proporcyonalnym.</p>
+        </sp>
+        <sp who="#walery">
+          <speaker>WALERY.</speaker>
+          <p>Co do tego punktu ostatniego w wątpliwości zostawuią nas Dzieiopisowie; w grubych też to wiekach żyli; lecz przez wzgląd na iego zwycięstwa y na to, że był oycem Kazimierza Wielkiego, pozwol WćPani Dobrodzieyka swoiey imaginacyi wystawić go sobie miluchnym.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Otoż czynię to dla przyiaźni Wmć Pana; iuż tedy zupełnie oświadczam się za Łokietkiem; a ieżeli takim był, iakim go widzę w tym punkcie, to Dobrodziey musiał być, Dobrodziey. Lecz Kroniki porzuciwszy, powiedzże mi Wmć Pan, Szwagier móy Dorant, czy stanąłże, czy nie stanął? wiedzieć nigdy nie można, gdzie iest, kiedy będzie.</p>
+        </sp>
+        <sp who="#walery">
+          <speaker>WALERY.</speaker>
+          <p>Mościa Dobrodzieyko, wiem dowodnie że dziś miał przybyć.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Dla interesu samegoż Wmć Pana dobrzeby było, żeby się tu iuż znaydował: bo podobno chwile długie zdawać się muszą Wmć Panu.</p>
+        </sp>
+        <sp who="#walery">
+          <speaker>WALERY.</speaker>
+          <p>Kto spoyrzy na Elizę, łatwo o tym sądzić potrafi. Dorant, iak miarkuię, niezawodnie stanąć musiał, skoczę do niego, y za pozwoleniem WćPani Dobrodzieyki z nim się tu wrócę.</p>
+        </sp>
+      </div>
+      <div type="scene" n="9">
+        <head>SCENA IX.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#sobąnudzka">SOBĄNUDZKA.</rs>
+            <rs key="#eliza">ELIZA.</rs>
+            <rs key="#julusia">JULUSIA.</rs>
+          </p>
+        </stage>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Chodźże, moia Eliziu! niech ci to przypnę inaczey, nie do twarzy ci tak. <stage>(poprawia Elizie na głowie)</stage> Ale kochaneczko! nie dość to być ładną, gustu trzeba nabierać; gust wdzięki nadstawia; mało ich iest takich, coby się same przez się utrzymać mogły. Julusiu, dayże mi szpilkę. <stage>(Julusia pomaga, Sobąnudzka pod brodę trzyma Elizę, y mówi)</stage> Oczy piękne u niey.</p>
+        </sp>
+        <sp who="#julusia">
+          <speaker>JULUSIA.</speaker>
+          <p>Sliczne!</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p><stage>(a parte do Julusi)</stage> Oh co śliczne, to exageracya. <stage>(do Elizy)</stage> Moia Panno! wiesz, iak cię kocham, do szczęścia twoiego interessować się mam za słodką powinność; cóżeś w umyśle uradziła swoim, czy iuż nieodmiennie ma być Walery ten, nad którym wybor się twóy zastanawia?</p>
+        </sp>
+        <sp who="#eliza">
+          <speaker>ELIZA.</speaker>
+          <p>Cóżby we mnie iaką sprawiać mogło odmianę? wszystko mi być stałą doradza, skłonność, zezwolenie krewnych, przyzwoitość wszelka.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Skłonność wyprobować należy, zezwoleniem krewnych chęć WćPanny rządzić będzie, przyzwoitości zaś inney nie znam iak być szczęśliwą.</p>
+        </sp>
+        <sp who="#eliza">
+          <speaker>ELIZA.</speaker>
+          <p>Tego się zupełnie z Walerym spodziewam.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Zupełnie? winszuię całym sercem; idzie to do gustu; może być poczciwym, ale co zabawnym [wybacz mi, Eliziu! wszak my tu w poufałości mowiemy] ale co zabawnym... bo tandem będąc ustawnie mądrym, komużby się naprzykrzyć nie można, a dopieroż żonie, a twóy Walery takim chce być.</p>
+        </sp>
+        <sp who="#eliza">
+          <speaker>ELIZA.</speaker>
+          <p>Nigdym tego nie postrzegła: lecz dla dalszey moiey w życiu informacyi, pozwol mi się WćPani Dobrodzieyka spytać, iakimże męszczyznie być trzeba, chcąc sobie na zaletę zasłużyć?</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Oto moia Panno! zupełnie nie takim, iakich tu część ich naywiększą widzę, długoby o tym mówić trzeba, a muszę, nim kto nadeydzie, powiedzieć ci, żem się podięła zdaleka wyrozumieć z ciebie, czyliby mógł błysnąć dla Jmci Pana Szastańskiego promyk nadziei iakiey? lecz usta mi zamknęłaś; iednak między młodzieżą, naybliższą dobrego tonu, mieścić się może.</p>
+        </sp>
+        <sp who="#eliza">
+          <speaker>ELIZA.</speaker>
+          <p>Mościa Dobrodzieyko! zasługom iego nie przeczę: lecz widzi mi się, że w sposobach myślenia częstobyśmy się różnili.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Nie naglę cię, moia Panno! wyperswadować sobie potrafi Jegomość co być nie może. Dam mu sprawę, iako wierna Ambassadorka z niepomyślney negocyacyi staraniom moim powierzoney. Ale kochanko! nie admiruieszże te Damy, y tych Ichmościów?</p>
+        </sp>
+      </div>
+      <div type="scene" n="10">
+        <head>SCENA X.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#szastański">JMC P. SZASTAŃSKI.</rs> (Y PRZESZLI AKTOROWIE)
+            <rs key="#sobąnudzka">SOBĄNUDZKA.</rs>
+            <rs key="#eliza">ELIZA.</rs>
+            <rs key="#julusia">JULUSIA.</rs>
+          </p>
+        </stage>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p><stage>(do JP. Szastańskiego)</stage> Jakżeś się okrutnie poranił, móy Dobrzodzieiu! dla czegóż nie późniey?</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>JMC P. SZASTAŃSKI.</speaker>
+          <p>Pani moia, dziwnież to pomyślnie wypada dla wszystkich, że w sądowych dyskasteryach nie wolno ci zasiadać, bobyś, iak widzę, czas skracaiąc, gotowa człeka osądzić w lot, nie pozwoliwszy mu nawet momentu do iustyfikacji.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Ta wcale tu mieysca mieć nie może, wiesz Wmć Pan dobrze, że u mnie z kolei dziś kawa, wiesz ieszcze lepiey, że choć sama do drugich późno przyieżdżać lubię, strasznie iednak nie lubię na drugich czekać. Wmć Pan dopiero się teraz stawiasz, czyż potrzebna iustyfikacya tam, gdzie wina oczywista?</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Ale czyja?</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Wmć Pana bez zawodu.</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Otoż nie, Mościa Dobrodzieyko!</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Czyiaż tedy?</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Jeymć Pani Sentymencickiey, która zaiechawszy do Jeymć Pani Trzepałkowskiey, żeby ią tu przywieść, zastała nas tam kilku; właśnieśmy gadali o niespodzianym rozstaniu się Kleona z Dorymeną; wymknęło mi się słowko na obronę Kleona, Jeymć Pani Sentymencicka, która spraw płci swoiey przeciwko naszey generalną iest agentką, powstała na mnie, zasiadła w krześle y oppugnowała z uniwersalnej miłości przeciw wszystkim argumentuiącym, więcey iak pułtory godziny; broniłem propozycyi moiey, ile mogłem; było nas y więcey iednego zdania; tandem spędzony z placu, lecz nie pokonany, stawam przed obliczem WćPani Dobrodzieyki, y mam nadzieię, że nie mnie iuż pociągniesz do odpowiedzi za późne ziechanie na iey kawę.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Ta exkuza ma pozor iakiś za sobą: lecz długim wyczekiwaniem znudzona, osłąbioną czuię w sobie skłonność do klemencyi, więc ani mogę uznać Wmć Pana zupełnie bez winy, ani też żal móy całkiem mu darować, ale powiedzże, czy bardzo się unosiła nasza nieoszacowana Sentymencicka?</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Wiadomo WćPani Dobrodzieyce, że skoro wpada w unoszenie się, to nie zaraz y nie lada czym się uspokoi.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Daycież iey pokoy; cierpieć nigdy nie będę, żeby przy mnie o moiey przyiaciołce, pozwolił kto sobie myślić nawet nie z tym uwielbieniem, z którym ia iestem dla niey; wiesz z iaką żywnością iestem w przyiaźni. Cóż to komu wadzi, że przy tylu przymiotach, czasem u Sentymencickiey w głowie gore! że często się przenosi z tego świata na świat iey własnego zupełnie utworzenia; żywy dowcip, y czułości dostatek sprawuią to. Zkądże Wmć Panu wpadać w te krytyki? A Wmć Pan iuż to iesteś bez ale, bez niedoskonałości żadney?</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Pani moia, tey wyborney o sobie nie mam opinii, rozumiem nawet, że nie masz tego ale, coby się we mnie nie znaydowało: lecz czemuż mnie o krytykę obwiniasz? Pytałaś mnie się Wmć Pani Dobrodzieyka, odpowiedź iey dałem, ale o tych łateczkach [w Sentymencickiey myślenia sposobie znayduiących się,] nie przyszłoby mi było nawet pamiętać, gdyby mi ie nie był napomknął przyiaźny ięzyczek, który ie przypiął.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Między ślicznemi przymiotami, któremi się tego wieku męszczyzni dystyngwuią w postępkach swoich względem kobiet, y ten się znayduie, że się każdego słowa przekręceniem złośliwym bawić lubią. Pewnie chcesz Wmć Pan wmówić we mnie, że to ia przyiaciółkę krytykuię, wszak tak? przyznay się, bo czemużbyś nie wolał złą iak dobrą mieć o białogłowie opinią; iest to Wmć Panów wszystkich naywiększą teraz pociechą.</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Dla mnie naywiększą iest pociechą palić ofiary wdziękom y piękności, y do tego punku bierze nademną górę duch rycerstwa, że gotow iestem nie tylko na harc wyiechać, utrzymuiąc wszystkie Dam doskonałości, ale nawet drobne ich defekcika, a raczey omyłki przyiąć na siebie, byle im wygodnie z tym było; więc y w teraz wynikłey okoliczności czekam tylko rozkazu Wć Pani Dobrodzieyki.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Szkoda, że w ięzyku naszym te słowo fat [19] żadnego nie ma znaczenia, bo że się rzecz sama w kraiu znayduie Wmć Pan iesteś dowodem; ale przerywaiąc ten dyskurs, y na poniżenie, [ieżeli to rzeczą iest podobną] miłości włąsney iego, powiem mu też, że wiernie dotrzymuiąc słowa, wytłumaczyłam Elizie intencye Wmć Pana; sama to przyświadczy: lecz słowa moie stałysię próżnemi; przypisać ten sukces niepomyślny okolicznościom, nieczułości Elizy, lub moiey niezręczności, w Wmć Pana zostanie się obraniu.</p>
+        </sp>
+        <sp who="#eliza">
+          <speaker>ELIZA.</speaker>
+          <p>Przewidziałaś znać WćPani Dobrodzieyka, że móy ambaras w tey mierze stać się może dla niey zabawą, iednak winę w okoliczności, y z WćPani Dobrodzieyki zdeymuię, na siebie ią biorę całą, czuię, iż nierozeznaniu moiemu przypiszą to na świecie, żem podchlebnie tak grzecznego kawalera zamysły, nie przyięła, innemi zastawuiąc się obowiązkami.</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Rozumiała Jeymć Pani Sobąnudzka, że ma przyczynę mściwą się pokazać; myśli przenikać grzechem często stać się może, w oczach dam osobliwie, y ten grzech podobno popełniłem. Co się zaś ściąga do propozycyi [bardziey dla mnie w celu szczęśliwych, niż dla ciebie, Elizo, podchlebnych] pozwolisz mi obszerniey przełożyć ie sobie w zręcznieyszey porze, y wierzyć oraz temu, że nie potrafisz być na wierne zasługi nieczułą.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Nie wiem iakby się daley ten rozhowor ciągnął, prawda, żem trochę znienacka dała do niego pochop; na wasze szczęście, reszta też naszey kompanii gromadzi się.</p>
+        </sp>
+      </div>
+      <div type="scene" n="11">
+        <head>SCENA XI.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#trzepałkowska">TRZEPAŁKOWSKA.</rs>
+            <rs key="#sentymencicka">SENTYMENCICKA.</rs>
+            <rs key="#sensatkiewicz">SENSATKIEWICZ.</rs> (PRZESZLI AKTOROWIE)
+            <rs key="#szastański">SZASTAŃSKI.</rs>
+            <rs key="#sobąnudzka">SOBĄNUDZKA.</rs>
+            <rs key="#eliza">ELIZA.</rs>
+            <rs key="#julusia">JULUSIA.</rs>
+          </p>
+        </stage>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Już co z tego wam nigdy nie daruię; czy możnasz tak nierychło przyieżdżać? właśnie was moią dobrocią psuię; powinnabym was niegodziwie przyiąć, a iak na złość, tak mi się zestroiły, że na nie patrzyć tylko trzeba, a do gniewu czasu nie masz.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p><stage>(ściska ią y całuie)</stage> Kochaneczko! prawdziwie nie moia wina; żebyś wiedziała, com dzisiay miała do czynienia; połowę Warszawy obleciałam; byłam u kupca, który dopiero wczoray z Paryża przyiechał, y chciałam go złapać na samym wyskoczeniu z kolaski, żeby mnie nikt nie uprzedził; potym na reytszuli byłam, y na reszcie w Zamku na Sessyi; zawlekli mnie tam, mówiąc, że to ciekawa rzecz się patrzyć, iak to tych Deputatów na Seymie obieraią.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Jakich Deputatów? co ona gada?</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>Ale tych Deputatów, co to z Permamemsem siedzą, albo ia tam wiem, y znudziłam się iak pies. Ale kochaneczko! nie maszże tu źwierciadła? bom sobie popsuła na głowie y wszystko pototała; oto iest, <stage>(idzie do źwierciadła)</stage> gdybyś wiedziała, iakich sobie nakupiłam gałganków; ah! Moście Państwo, delicye iedyne!</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Bogu dzięki, że się potrzepała do tego źwierciadła, boby sposobu nie było docisnąć się do ciebie. Przynaymniey na mnie nie masz przyczyny gniewać się, bo ia punktualnie do Trzepałkowskiey przyiechałam o piątey; ale cóż z taką głową robić? Niechże cię uściskam sobie; iakżeś mi y świeża, y piękna!</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Komu to o tym mowić! uprzedzasz grzecznie to, co ia tobie szczerze mowić chciałam; ale siadaycież proszę, przynaymniey momencik pobądźmy z sobą. Julusiu! każże nam kawy przynieść; Trzepałkosiu! iużże się nie trzpiotay, a do nas się zbliż.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p><stage>(Porzuciwszy źwierciadło, po wszystkich stolikach przegląda, co na nich iest; iak ią Sobąnudzka woła, haft na Tamburze ogląda)</stage> Jakiż to ładny wzorek wybrałaś do tey kamizelki! ale co za złoto! ustąp mi choć iedną szpułkę; nigdzie takiego dostać nie mogę.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Chodźże ieno tu, to Ci iuż nie iednę, ale dwie szpulki dam. <stage>(Trzepałkowska przychodzi y całuie ią; Sobąnudzka bierze ią wpół)</stage> Nie podobna żyć z tobą; ale powiedz mi, co ty z sobą kochaneczko! robisz? codzień iesteś kształtnieyszą, iaki to stanik!</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>Prawdziwie, że nic nie robię, nawet się nie sznuruię, o patrzay; to właśnie tak, iak rozumieią, że ciasne trzewiki noszę, a ledwie się trzewik trzyma na nodze, widzisz? <stage>(nogą trzęsie na pokazanie, że trzewik nie ciasny)</stage></p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p><stage>(Kawę przynoszą, Julusia nalewa na pobocznym stoliku, roznosi lokay, y ma baczność filiżanki odbierać)</stage> Zasiądźcież raz, proszę was bardzo. <stage>(do Sentymencickiey)</stage> Wcalem nie kontenta z ciebie dzisiay; iakaś mi iesteś wniwecz obrócona, y w mglistym humorze!</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Prawda, y z tym się taić nie mogę; głowa mnie boli niezmiernie; ta moia czułość nieszczęśliwa zepsuciem iest mego zdrowia. Byłam u tey niebogi Selimeny; wyieżdża iutro z Warszawy na całą zimę; dziwnie iey się tego nie chce; zeszlochałam się z nią okrutnie, bo dobra białogłowa iest extra.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Y czegoż wyieżdża?</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Cóż ma robić, kiedy się mąż koniecznie uparł.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>Mąż? y taki to on iest niewyperswadowany! a iabym mu wyperswadowała.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Z drugiey strony nie bardzo widzę, czego iey tak strasznie żal Warszawy, bo choc nieoszacowana kobiecinka y serdecznie ią lubię, ale ani gatunek rozumku iey, ani wychowanie nie iest takie, żeby się bez Warszawy obeyść nie mogła. Nayczęściey w kompaniach o takich rzeczach mowa, które podobno nie zawsze poymuie, ton inszy, z tym wszystkim okrutnie mi iey żal.</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Niech mi się godzi spytać, czyli Pani zeszlochała się nad gatunkiem iey rozumku y wychowania, czy nad iey wyiazdem z Warszawy?</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Usadziłeś się Wmć Pan dzisiay w passyą mnie wprowadzać.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Nie tylko WćPani się te szczęście dostaie, ale y mnie. Powiedzcież mi proszę, iakże się bal wczorayszy udał? nie mogłam być na nim, bo mi krawiec suknie popsuł, w zły mnie to humor wprowadziło, y wzięłam rezolucyą nie iechać, a do tego przyznaię się, że nie umiem znaydować te ziazdy zabawnemi?</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Według mnie bal się wyśmienicie udał, mieysca y światła było dosyć, kolacya wyborna, wszyscy wesołemi być się zdawali.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Winszować Wmć Panu trzeba, żeś tak łaskawym okiem na wszystko patrzał, prócz wesołości, może, że inne okoliczności znaydowały się w istocie. Co ia, tom sobie w kątku zasiadła, y złapałam naszego kochanego Filozofa, z którymeśmy sobie różne obserwacyiki czynili. Mości Panie Sensatkiewicz! wszak prawda?</p>
+        </sp>
+        <sp who="#sensatkiewicz">
+          <speaker>SENSATKIEWICZ.</speaker>
+          <p><stage>(poważnie tabaki zażywaiąc)</stage> Było to szczęściem moim; ia sobie zawsze iadę na te publiczne mieysca, iak obserwator <stage>(śmieie się)</stage> ha! ha! ha! iak obserwator; iuż mnie w tym znacie Wmć Państwo.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>Co ia, tom żadnego tańca nie opuściła, ale prawdziwie z biedy.</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Przynaymniey dla moiey konsolacyi przyznacież Wmć Państwo, że wiele Dam było, y pięknych, y pięknie postroionych.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Naprzykład?</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Naprzykład Orfiza.</p>
+        </sp>
+        <sp who="#sentymencicka #trzepałkowska">
+          <speaker>SENTYMENCICKA. TRZEPAŁKOWSKA.</speaker>
+          <p><stage>(razem)</stage> Ah dla Boga!</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Jakże! nie? co mnie, to stróy y figura iey zdawały się naywiększey być świeżości.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p><stage>(z śmiechem głośnym)</stage> Czy słyszysz Trzepałkosiu? Orfizy figura y stróy naywiększey świeżości; ale bo to ci mężczyźni naymnieyszego gustu nie maią.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>Czy możnaż to mówić? iak istny czypigrał wyglądała, ale Ichmciom, byle iaskrawo y nagwazdano się ubrać, to się widzi pięknie.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Filozofie! cóż ty mówisz na pochwały Orfizy?</p>
+        </sp>
+        <sp who="#sensatkiewicz">
+          <speaker>SENSATKIEWICZ.</speaker>
+          <p><stage>(z uśmiechem poważnym)</stage> Ha! ha! pełen pobłażania, pełen pobłażania Jegomość.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>A byłaż tam Dorymena?</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Było niebożątko; patrzyć na nią nie mogę bez poruszenia; z indygnacyą widziałam tego Kleona, co iey nigdy nie wart, siedzącego u kolacyi, y popisuiącego się z appetytem swoim, iak gdyby nic sobie nie miał do wymawiania.</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Siedział prawda u stołu: leczem uważał, że obwarzanek ieden, całym iego był pokarmem; z okam go nie spuścił, ciekawym będąc, iak też sobie w tey okoliczności postąpi.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Tak sobie postąpił zapewne, iakbyś Wmć Pan uczynił w podobnym razie; bo dorozumiewam się, że w ich myślenia sposobie żadney nie masz różnicy.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Dorozumiewanie te możesz nawet w przeświadczenie zamienić; wszak Jegomość naygorliwszym Kleona iest obrońcą; dopiero wadziliśmy się o to do zębów, takich nam dzikich rzeczy napowiadał, tak nas zagłuszył [bo Ichmć kiedy im racyi nie staie, to wrzątkiem y głosem od naszego silnieyszym woiuią] tak nas, mówię, zagłuszył, że aż Sensatkiewicz zabierał się do odpowiedzi, ale Jegomość umknął.</p>
+        </sp>
+        <sp who="#sensatkiewicz">
+          <speaker>SENSATKIEWICZ.</speaker>
+          <p>[20] Nie uśpiłem prawda dać odpowiedzi Jmci Panu Szastańskiemu, bo ia Mościa Dobrodzieyko! jak to WćPani Dobrodzieyka wiesz dobrze, nie lubię letko, ani powierzchownie rzeczy brać, tylko z gruntu. Zacząłem ważyć racye pro y contra, a tym czasem Jegomość się wysunął – ale to pewna, że w materiach, które się serca tykać mogą – nie mówię dla wszystkich, bo natura [a ta iest źrzódłem wszystkiego] nierówne uczyniła czułości podziały, tak dalece, że naydrobnieyszych okoliczności wielo czy mało-ważność do determinacyi instynktu sentymentowego bardziey, iak rozumowania moralnego należyć może. Ztąd konkluzya ta nieochybna, że do tych czas nie mogę być u siebie przeświadczonym, kto w tey sprzeczce winnieyszym, Kleon, czyli Dorymena; sądzę iednak z przeproszeniem Jmć P. Szastańskiego, że Kleon.</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Przyznay Filozofie, że nie iesteście y wy bez miłości własney, bo wolałeś przyjaciela wniwecz obrócić, niżeli nie popisać się z tym rzadkim talentem, który posiadasz do wyłuszczenia każdey kwestyi. Goniłeś mnie z temi silnemi argumentami od domu Jeymć Pani Trzepałkowskiej aż tutay, y w oczach tych Dam raniłeś mnie niemi; wybacz mi, wybacz, zniknął Filozof teraz przed człowiekiem. – Co się zaś ściąga do tego sporu, w którym dosyć byłem nieszczęśliwym różnić się z zdaniem z Jeymć P. Sentymencicką, mówić muszę, że Kleona szczegulnieyszą obronę zaiąłem, w obronie ogulney, od tych zarzutów, które Jeymć płci naszey czyniła.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Jakoż niesprawiedliwie bardzo! Bo tandem co Jegomości uraziło naywięcey, to iest, żem utrzymywała, iż delikatność, y iey ustawy, są rzeczy męszczyznom rzadko, ieżeli nie zupełnie, nie znaiome.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Alboż Ichmć ieszcze iakową do tey znaiomości formuią pretensyą?</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>Prawda, że żaden męszczyzna, ale bo to żaden nie zna delikatności. Wmć Panowie wszyscy umiecie tylko kobiety oszukiwać, z rozumu wyprowadzać, attencyi żadnych nie macie, ani przy ludziach, ani bez ludzi, o nikogo szczerze nie dbacie; wolno się gniewać, ale to prawda.</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Wiadoma iest pewnie, Moście Damy, odpowiedź lwa w owey bayce, któremu, gdy ktoś pokazywał obraz wyrażaiący lwa od człowieka pokonanego, rzekł: „macie szczęście, że nikt z nas malować nie umie”. Ale śliczne Niebianki, górność waszych maxym [nikczemność okazuiąc nam naszą] w rozpaczby nas pewnie wprawiała, gdybyście nas [z stępuiąc przez zapomnienie czasem z obłoków] nie pocieszały; rozumie cie, że niedościgłe są wasze postępki, ztąd omyłki wasze, ztąd nasza konsolacya.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Ten dyskurs mnie w ustach Wmć Pana nie zadziwia, choć mogłby być mniey uszczypliwym. Usiłuiesz zwrócić na nas ostrze tych argumentow, które was potępiaią, przyznay, że źle kobiety traktuiesz.</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Choway Boże! nikt bardziey nie zna odemnie, że są społeczności ozdobą y życia rozkoszą; wiem, że y w ich sercach prawdziwa się często mieści czułość; lecz przez te słowa, które mi się wymknęły, y o które mnie WćPani strofuiesz, indyskretnym tylko pokazałem się, wyiawiaiąc sekret tyranek tych, które nas sądzą tak surowo, a siebie tak łagodnie.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Bo lepiey od drugich znaią, co iest miłość.</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Dołóż WćPani, własna.</p>
+        </sp>
+      </div>
+      <div type="scene" n="12">
+        <head>SCENA XII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#dorant">DORANT.</rs>
+            <rs key="#walery">WALERY.</rs> (PRZESZLI AKTOROWIE)
+            <rs key="#trzepałkowska">TRZEPAŁKOWSKA.</rs>
+            <rs key="#sentymencicka">SENTYMENCICKA.</rs>
+            <rs key="#sensatkiewicz">SENSATKIEWICZ.</rs>
+            <rs key="#szastański">SZASTAŃSKI.</rs>
+            <rs key="#sobąnudzka">SOBĄNUDZKA.</rs>
+            <rs key="#eliza">ELIZA.</rs>
+            <rs key="#julusia">JULUSIA.</rs>
+          </p>
+        </stage>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Pożądanego witam gościa serdecznie. Pozwolicie Wmć Państwo, żebym miała honor im prezentować Doranta Wuia Elizy. Jużeśmy też zaczęli byli powątpiwać, widzieć kiedy Wmć Pana w Warszawie, przetrzymałeś chęci nasze.</p>
+        </sp>
+        <sp who="#dorant">
+          <speaker>DORANT.</speaker>
+          <p>Spieszyłem się, ile mogłem, ale to nami wieśniakami czas bardziey rządzi, niż my czasem.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Zawsze ia to słyszę, że na tych wsiach macie wiele do czynienia, ale nie poymuię, co takiego, bo siadywałam ci y ia czasem na wsi, a prawdziwie znaleść nie mogłam inney dla siebie zabawy, iak tęsknić nie miłosiernie.</p>
+        </sp>
+        <sp who="#dorant">
+          <speaker>DORANT.</speaker>
+          <p>Wierzę moia Pani! bo iesteście przyzwyczaione z łyżką tylko przychodzić do stołu, a gdybyście się chciały popytać choć o to, co na stoł dadzą, to iuż gotowa zabawka; wiedzieć co się w domu dzieie, iak w mieśie tak na wsi, płciby wam nie zepsuło. Niech się nauczy kobieta, być z rana gospodynią, a przez resztę dnia zabawną y miłą, mniey iey tęsknota dokuczać będzie.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Jak to? chcesz Wmć Pan, żebyśmy w śpiżarni gotowalnie nasze rozkładały?</p>
+        </sp>
+        <sp who="#dorant">
+          <speaker>DORANT.</speaker>
+          <p>Nie iest to moią myślą, ale wiedząc, co się w niey znaydnie y po czemu, więceyby się wam zostało na stroie, a bez brania na kredyt.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>Co ia, tobym wolała całe życie w koszuli chodzić, iak rzeczami tak nieświeżemi się zatrudniać.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Wmć Pan przecie z nami przez zimę zabawisz, wszak nie przyieżdżasz iak po ogień?</p>
+        </sp>
+        <sp who="#dorant">
+          <speaker>DORANT.</speaker>
+          <p>Wiesz WćPani, co mnie sprowadza? dla Ichmć <stage>(pokazuiąc na Walerego i Elizę)</stage> ziechałem tu, y dla rozmowienia się z WćPanią w sprawie iey, która wnet na stoł poydzie, pilny to interes, bo o całe iey dożywocie idzie. Skoro wam iuż nie będę potrzebnym, do domu spieszyć muszę.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Syna zostawisz nam przynaymniey na karnawał, wszak przywiozłeś go z sobą?</p>
+        </sp>
+        <sp who="#dorant">
+          <speaker>DORANT.</speaker>
+          <p>Nie Mościa Dobrodzieyko! iest teraz na funkcyi Deputackiey, potrzebnieysze mu to, iak karnawał; choć ia tego nie ganię, żeby się młodzież bawiła, ale tych ganię, co tylko o zabawkach myślą. Być kraiowi użytecznym, dobrą reputacyą zagruntować sobie, to pierwszy młodego człowieka obowiązek, a co mu czasy zbędzie od tego, niech zabawom poświęci.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Załuię, że go nie będziemy widzieć, śliczny kawaler! Sentymencicko! znasz go?</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Nie mogę sobie przypomnieć.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p><stage>(do Doranta)</stage> Zapewneś go iuż przebrał po francuzku?</p>
+        </sp>
+        <sp who="#dorant">
+          <speaker>DORANT.</speaker>
+          <p>A to na iaką pamiątkę, anim go przebrał, ani on o tym myśli.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>Jakże to y ładny kawaler y w kontuszu? Ale iak to może być? Do czegoż go zażyć można, w kompanii naprzykład y na balu? to tedy nie musi kontredansow tańcować?</p>
+        </sp>
+        <sp who="#dorant">
+          <speaker>DORANT.</speaker>
+          <p>O! moia Pani, kogo Pan Bog pięknie stworzył, to mu w każdym stroiu dobrze, a do kontredansow, ieżeli tego koniecznie trzeba, to może poły zagiąć.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>A pfe, iakże to nieszykownie; z przeproszeniem Wmć Pana komparacyi nie masz. Sam Wmć Pan powinienbyś się przebrać, dalekoby mu lepiey było; wierzay mi, insza figura byłaby zaraz, gdybyś tupet przylepił, te wąsy ogolił...</p>
+        </sp>
+        <sp who="#dorant">
+          <speaker>DORANT.</speaker>
+          <p>Y kontredansa poszedł? ślicznegobyś ze mnie wystrychnęła Francuza! choć się teraz zagęściły te transfiguracye, iednak mnie się ieszcze ta zaraza nie chwyciła. Mowią prawda, że stroy człeka nie czyni, choćby y o tym kwestyą wrzucić można [czyli y to, lubo małą rzeczą się zdaie, nie ma influencyi nad myślenia sposobem w wielu okolicznościach] ale tey wzgardy dla stroiu własnego y preferencyi szczegulnie z stroju dla tych, co w obcym chodzą, a tak zupełney cierpieć nie mogę, y nie poymuię, iak się w rozumney głowie mieści.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p><stage>(watwając)</stage> Kochanko! nim się ta materya udecyduie, czasby nam podobno iechać na komedyą, ieżeli chcemy ieszcze kawałek baletu zarwać.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>Nie śpieszmy się, bo ieszcze samą komedyą zastaniemy, okrutnie długa, bliźnięta graią po polsku, te co to z francuzkiego tłumaczone, strasznie te komedyą lubię w tym ięzyku, a drzymię na niey kiedy po polsku; iakoś ona się to śmiesznie nazywa po francuzku...</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Les Menechmes.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>A, a, tak iest Meknem.</p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Ale nie Meknem, Menekm.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>Prawda prawda, Meknem, Meknem.</p>
+        </sp>
+        <sp who="#dorant">
+          <speaker>DORANT.</speaker>
+          <p>Pani choć polszczyzną gardzi, a podobno nie tęga po francuzku.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>Czasu darmo nie traćmy, wszak u mnie iesteście na kolacyi; Sobąnudzka, iedziesz z nami teraz?</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Nie wiem, miałabym ci interessu kawałek z Jegomcią. <stage>(na Doranta pokazuiąc)</stage></p>
+        </sp>
+        <sp who="#szastański">
+          <speaker>SZASTAŃSKI.</speaker>
+          <p>Może WćPani dobrodzieyka nie wiesz, że nowy balet daią dzisiay.</p>
+        </sp>
+        <sp who="#sensatkiewicz">
+          <speaker>SENSATKIEWICZ.</speaker>
+          <p>Pozwol mi WćPani Dobrodzieyka powiedzieć sobie, że nie trzeba też tak ustawnie zatapiać sie w interessach.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Ah! kiedy nowy balet to wybaczysz braciszku! iutro się rozmowiemy, byway mi zdrow, rozgość się tu y rozkazuy iak w własnym domu.</p>
+        </sp>
+        <sp who="#dorant">
+          <speaker>DORANT.</speaker>
+          <p>Jakże! y nie pogadamy to z sobą? pamiętay WćPani, że interes iey, a ieszcze tak ważny zwłoki nie cierpi, że sprawa za pasem, y że z opoźnienia szkoda pewna.</p>
+        </sp>
+        <sp who="#sobąnudzka">
+          <speaker>SOBĄNUDZKA.</speaker>
+          <p>Ale pamiętay też Wmć Pan, że to balet nowy. Nie spodziewam się nigdy, żeby Trybunał był tak niegrzecznym y osądził mnie, nie dawszy mi czasu do użycia tey niewinney rozrywki. Adieu, byway mi zdrow, siaday Panno Elizo!</p>
+        </sp>
+        <sp who="#eliza">
+          <speaker>ELIZA.</speaker>
+          <p>Za pozwoleniem WćPani Dobrodzieyki! zostanę się, y Wuiowi moiemu kompanii dotrzymywać będę.</p>
+        </sp>
+        <sp who="#sentymencicka">
+          <speaker>SENTYMENCICKA.</speaker>
+          <p>No iedźmyż iuż, iedźmyż.</p>
+        </sp>
+        <sp who="#trzepałkowska">
+          <speaker>TRZEPAŁKOWSKA.</speaker>
+          <p>Y pewnie iedźmy, dla Boga iedźmy.</p>
+        </sp>
+        <stage>(Wychodząc ściskaią Elizę Damy, Szastańskiego biorą pod rękę Sobąnudzka y Sentymencicka, a Trzepałkowska Sensatkiewicza)</stage>
+      </div>
+      <div type="scene" n="13">
+        <head>SCENA XIII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#eliza">ELIZA.</rs>
+            <rs key="#dorant">DORANT</rs>
+            <rs key="#walery">WALERY.</rs>
+          </p>
+        </stage>
+        <sp who="#walery">
+          <speaker>WALERY.</speaker>
+          <p><stage>(do Elizy)</stage> Jakże ci podziękować potrafię, ześ się została?</p>
+        </sp>
+        <sp who="#eliza">
+          <speaker>ELIZA.</speaker>
+          <p>W uczynku nadgrodę znayduię.</p>
+        </sp>
+        <sp who="#dorant">
+          <speaker>DORANT.</speaker>
+          <p>Jakież to głowy! idźmyż a układaymy przyspieszenie pożądanego podobno dla was oboyga momentu. Cieszę się widząc, Elizo, że nie idziesz ślepo za przykładem; iak miarkuię, umiesz się zastanawiać; miey zawsze w pamięci, że bogata w powaby białogłowa nayprzyiemnieyszym iest przyrodzenia dziełem, które staie się doskonałym, skoro każdy swoy postępek na szali rozsądku ważyć umie.</p>
+        </sp>
+        <trailer>(KONIEC)</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>
