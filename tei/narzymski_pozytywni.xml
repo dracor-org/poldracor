@@ -115,7 +115,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docAuthor>Józef Narzymski</docAuthor>
           <docTitle>
@@ -128,14 +127,10 @@
             1872 r.</p>
           </note>
           <docImprint>
-            <p>
-              <pubPlace>WARSZAWA</pubPlace>
-              <bibl>
-                <publisher>NAKŁADEM KSIĘGARNI CELSA LEWICKIEGO I SP.<lb />
-                Druk K. Kowalewskiego ul. Królewska, N. 23.</publisher>
-              </bibl>
-              <date>1875</date>.
-            </p>
+            <pubPlace>WARSZAWA</pubPlace><lb />
+            NAKŁADEM KSIĘGARNI <name>CELSA LEWICKIEGO</name> I SP.<lb />
+            Druk <name>K. Kowalewskiego</name> <address><street>ul. Królewska, <num>N. 23</num>.</street>
+            <date>1875</date>.
           </docImprint>
           <imprimatur>Дозволено Цьнзурою<lb />
           Варшава, 25 Сентября 1874 г.</imprimatur>
@@ -199,7 +194,6 @@
             <roleDesc>lokaj.</roleDesc>
           </castItem>
         </castList>
-      </div>
       <set>
         <p>(Akt pierwszy w mieszkaniu Dowgiełły w mieście; II-gi w letniem mieszkaniu Choryńskich: III-ci u pani Zenobii w mieście; IV-ty u Leona na wsi. Pomiędzy III-im a IV-ym aktem upływa rok)</p>
       </set>

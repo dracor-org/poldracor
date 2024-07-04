@@ -94,7 +94,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">POLOWANIE NA MĘŻA.</titlePart>
@@ -105,14 +104,10 @@
             <docAuthor>MICHAŁA BAŁUCKIEGO</docAuthor>.
           </byline>
           <docImprint>
-            <p>
-              <pubPlace>LWÓW</pubPlace>.
-              <bibl>
-                <publisher>NAKŁADEM KSIĘGARNI ZELMANA IGLA.<lb />
-                Ulica Syxtuska Nr. 131 2/4.</publisher>
-              </bibl>
+              <pubPlace>LWÓW</pubPlace>.<lb />
+              NAKŁADEM KSIĘGARNI <name>ZELMANA IGLA</name>.<lb />
+              <address><street>Ulica Syxtuska <num>Nr. 131 2/4</num>.</street></address><lb />
               <date>1869</date>.
-            </p>
           </docImprint>
         </titlePage>
         <castList>
@@ -151,7 +146,6 @@
             <roleDesc/>
           </castItem>
         </castList>
-      </div>
       <set>
         <p>(Rzecz dzieje się w domu p. Walentego)</p>
       </set>

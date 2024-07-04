@@ -97,7 +97,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">PODEYRZLIWI</titlePart>
@@ -105,13 +104,10 @@
             WE TRZECH AKTACH</titlePart>
           </docTitle>
           <docImprint>
-            <p>
-              w <pubPlace>Warszawie</pubPlace>
-              <bibl>
-                <publisher>w Drukarni Nadworney<lb />
-                J. K. Mci</publisher>
-              </bibl> <date>Roku 1781</date>.
-            </p>
+              w <pubPlace>Warszawie</pubPlace><lb />
+              w Drukarni Nadworney<lb />
+              J. K. Mci<lb />
+              <date>Roku 1781</date>.
           </docImprint>
         </titlePage>
         <castList>
@@ -153,7 +149,6 @@
             <roleDesc>Prostakiewicza Żony.</roleDesc>
           </castItem>
         </castList>
-      </div>
       <set>
         <p>(SCENA w Wilnie)</p>
       </set>

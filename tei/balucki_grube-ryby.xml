@@ -103,7 +103,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">GRUBE RYBY</titlePart>
@@ -114,17 +113,11 @@
             <docAuthor>Michała Bałuckiego</docAuthor>
           </byline>
           <docImprint>
-            <p>
-              <pubPlace>WARSZAWA</pubPlace>
-              <bibl>
-                <publisher>Skład główny w Księgarni JANA FISZERA<lb />
-                Nowy-Świat Nr. 9.</publisher>
-              </bibl>
-              <date>1900</date>.
-              <bibl>
-                <publisher>Druk F. Csernaka, Warszawa. Krak.- Przedm. Nr. 60.</publisher>
-              </bibl>
-            </p>
+              <pubPlace>WARSZAWA</pubPlace><lb />
+              Skład główny w Księgarni <name>JANA FISZERA</name><lb />
+              <address><street>Nowy-Świat <num>Nr. 9</num>.</street></address><lb />
+              <date>1900</date>.<lb />
+              Druk <name>F. Csernaka</name>, <address><settlement>Warszawa</settlement>. <street>Krak.- Przedm. <num>Nr. 60</num>.</street></address>
           </docImprint>
           <imprimatur>Дозволено Цьнзурою<lb />
           Варшава, 16 Августа 1899 г.</imprimatur>
@@ -168,7 +161,6 @@
             <roleDesc>służący Ciaputkiewiczów.</roleDesc>
           </castItem>
         </castList>
-      </div>
       <set>
         <p>(Rzecz dzieje się w mieszkaniu Ciaputkiewiczów)</p>
       </set>

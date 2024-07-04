@@ -105,7 +105,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">ZMARNOWANE ŻYCIE.</titlePart>
@@ -115,17 +114,11 @@
             <docAuthor>STEFANIĘ LAUDYNOWĄ</docAuthor>.
           </byline>
           <docImprint>
-            <p>
-              <pubPlace>LWÓW</pubPlace>.
-              <bibl>
-                <publisher>GUBRYNOWICZ I SCHMIDT.<lb />
-                przy placu Katedralnym</publisher>
-              </bibl>
-              <date>1895</date>.
-              <bibl>
-                <publisher>Z DRUKARNI I LITOGRAFII PILLERA I SPÓŁKI.</publisher>
-              </bibl>
-            </p>
+              <pubPlace>LWÓW</pubPlace>.<lb />
+              <name>GUBRYNOWICZ</name> I <name>SCHMIDT</name>.<lb />
+                przy <address><street>placu Katedralnym<street></address><lb />
+              <date>1895</date>.<lb />
+              Z DRUKARNI I LITOGRAFII <name>PILLERA</name> I SPÓŁKI.
           </docImprint>
         </titlePage>
         <castList>
@@ -175,7 +168,6 @@
             <roleDesc/>
           </castItem>
         </castList>
-      </div>
     </front>
     <body>
       <div type="act" n="1">

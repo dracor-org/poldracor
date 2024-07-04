@@ -102,7 +102,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <titlePart type="series">TEATR<lb />
           POLSKI<lb />
@@ -126,15 +125,10 @@
             <docAuthor>GRZEGORZA BRONISZEWSKIEGO</docAuthor>
           </byline>
           <docImprint>
-            <p>
-              w <pubPlace>WARSZAWIE</pubPlace>
-              <bibl>
-                <publisher>w Drukarni P. DUFOUR, Konsyl: Nadw: J. K. Mci,
-                Dyrektora Drukarni Korpusu Kadetów.</publisher>
-              </bibl>
-              <lb />
+              w <pubPlace>WARSZAWIE</pubPlace><lb />
+              w Drukarni <name>P. DUFOUR</name>, Konsyl: Nadw: J. K. Mci,
+                Dyrektora Drukarni Korpusu Kadetów.<lb />
               <date>M. DCC. LXXXVI.</date>
-            </p>
           </docImprint>
         </titlePage>
         <castList>
@@ -191,7 +185,6 @@
             </castItem>
           </castGroup>
         </castList>
-      </div>
       <set>
         <p>(Scena na Wsi w Domu Łatwowierskiego)</p>
       </set>

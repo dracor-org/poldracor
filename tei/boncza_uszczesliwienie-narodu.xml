@@ -102,7 +102,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">USZCZĘSLIWIENIE<lb />
@@ -113,19 +112,16 @@
             PODDANYCH</titlePart>
             <titlePart type="sub">DRAMA WE DWÓCH AKTACH,</titlePart>
           </docTitle>
-          <div type="appendix">
+          <note type="appendix">
             <p>Z kilku wydarzonych okoliczności: a mianowicie osobliwego przypadku pod Rumszyszkami, w czasie przeiazdu Nayiaśnieyszego ALEXANDRA I. IMPERATORA Całey Rossyi, przez Prowincye Litewskie w Roku 1802. z dodatkiem Przypisków obiaśniaiących niektóre szczeguły w tem dziele.</p>
-          </div>
+          </note>
           <byline>przez<lb />
             <docAuthor>MICHAŁA B. TOMASZEWSKIEGO</docAuthor><lb />
             NAPISANE
           </byline>
           <docImprint>
-            <p>
-              w <pubPlace>Wilnie</pubPlace>, w <bibl><publisher>Drukarni XX, Piarów</publisher></bibl>
-              <lb />
+              w <pubPlace>Wilnie</pubPlace>, w Drukarni XX, Piarów<lb />
               <date>Roku 1804</date>.
-            </p>
           </docImprint>
           <note>
             <p> Drama we dwóch Aktach przez Michała B. Tomaszewskiego napisana niemaiące nic przeciwnego obyczaiom, a w dobrey chęci pełne czci i wdzięczności dla Nayłaskawszego MONARCHY, może z druku wyniść: jak wyszły i jnne podobnego rodzaju tegoż Autora pisma. w Wilnie Roku 1803. Dnia 17. 9 br:<lb />
@@ -175,12 +171,10 @@
             <roleDesc>wieśniaczka.</roleDesc>
           </castItem>
         </castList>
-      </div>
       <set>
         <p>(Scena w Wilnie, w domie P. Dalbor)</p>
       </set>
       <div type="appendix">
-        <p>
           <opener>DO<lb />
           Jaśnie Wielmożney<lb />
           MYRYI<lb />
@@ -192,7 +186,6 @@
           <salute>JASNIE WIELMOZNA PANI!</salute>
           Wszystkie dzieła wychodzące dotąd z pod mego pióra na widok publiczny, acz znaydowały zawsze łaskawe przyjęcie; były tylko płodem imaginacyi moiey. To zaś, które teraz poświęcam Jimieniowi Jaśnie Wielmożney Pani (prócz dialogu przezemnie ułożonego,) z resztą, zawiera w sobie nayistotnieyszą prawdę; a nawet osoby wystawione w tey sztuce, prawie wszystkie są rzetelnemi. Słowem: są to zebrane różnego gatunku kwiaty i w ieden ułożone bukiet. Naywiększą zaś ozdobą, przez którą usiłowałem dodać świetności temu dziecku, iest okazana dobroć i miłosierdzie Panuiącego MONARCHY, miłość iaką są przeięci ku Niemu wszyscy Jego poddani. Wyznać muszę, że odwaga moia za nadto się posuneła w tym razie: bo któreż pióro iest zdolne należycie okazać światu Portret ALEXANDRA Pierwszego i wyszczegulnić to wszystko, co TEN MONARCHA od wstąpienia na Tron Przodków swoich czynił i dotąd czynić nieprzestanie dla uszczęsliwienia Narodu? Ale mam nadzieię, że baczny Czytelnik i Spektator przez wzgląd na szczerą chęć moią, z łatwością przebaczy mey niezdolności, a ostry i surowy Krytyk stanie się choć na moment łaskawszym.<lb />
           Rok tysiączny ośmsetny wtóry, rok pamiętny w dzieiach ludzkości, kiedy Nayiaśnieyszy IMPERATOR obieżdżaiąc Prowincye tuteysze, wszędzie zostawił ślady dobroci Swoiey, Miłość i wdzięczność, iaką cały Narod iest przeięty, i w każdym punkcie stara się swemu MONARSZE okazać (czego naywiększym dowodem jest Miasto Wilno które w tymże roku dzień trzydziesty Augusta poświęcony Imieniowi ALEXANDRA z niesłychaną dotąd obchodziło okazałością) są to prawdy, na które się oczy nasze patrzyły, prawdy ogłaszane przez pisma publiczne. Te mi były na celu w pisaniu tego dramatu, a usiłowanie uiściło przedsięwzięcie. Niemogę tedy przyzwoiciey użyć tey moiey pracy, iak poświęcaiąc ią Jmieniowi Jaśnie Wielmożney Pani, iest to JWżna Baronowo mały bukiet szacownym i pięknym ozdobiony kwiatem, który CI offiaruię; znam, że jdąc za powszechnym zwyczaiem, należałoby mi przy tem okazać światu wielkość i wielość nayokazalszych przymiotów Twoich, ale niech każdy sobie wystawi: iak one muszą bydź obfite w tey Osobie, która potrafiła ziednać u wszystkich współobywateli powszechną miłość i poważenie, a szacunek u Męża piastuiącego w tuteyszych Prowincyach władzę tak Wielkiego MONARCHY. Mam przeto nadzieię, że ta offiara moia będzie od Pani łaskawie przyięta.
-        </p>
       </div>
     </front>
     <body>

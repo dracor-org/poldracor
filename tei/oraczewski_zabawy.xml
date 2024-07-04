@@ -106,7 +106,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docAuthor>Oraczewski</docAuthor>
           <docTitle>
@@ -117,14 +116,10 @@
             WE TRZECH AKTACH</titlePart>
           </docTitle>
           <docImprint>
-            <p>
-              w <pubPlace>Warszawie</pubPlace> <docDate>1780</docDate>.<lb />
-              Nakładem y drukiem
-              <bibl>
-                <publisher>MICHAŁA GRÖLLA</publisher>
-              </bibl>,<lb />
+              w <pubPlace>Warszawie</pubPlace> <date>1780</date>.<lb />
+              Nakładem y drukiem<lb />
+              <name>MICHAŁA GRÖLLA</name>,<lb />
               Księgarza Nadwornego J.K.Mci.
-            </p>
           </docImprint>
         </titlePage>
         <castList>
@@ -178,7 +173,6 @@
             <roleDesc>lokay.</roleDesc>
           </castItem>
         </castList>
-      </div>
     </front>
     <body>
       <div type="act" n="1">

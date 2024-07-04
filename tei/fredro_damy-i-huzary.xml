@@ -115,7 +115,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">DAMY I HUZARY.</titlePart>
@@ -123,7 +122,7 @@
             we trzech Aktach, prozą.</titlePart>
           </docTitle>
           <epigraph>
-            <cit><quote>Pochlebstwo ma w sobie osobliwy przysmak, chociaż go kto rzkomo odrzuca, przecież ono smakuje.</quote><lb /> <bibl>And. Max. Fredro</bibl>.</cit>
+            <cit><quote>Pochlebstwo ma w sobie osobliwy przysmak, chociaż go kto rzkomo odrzuca, przecież ono smakuje.</quote><lb /> <bibl>And. Max. Fredro.</bibl></cit>
           </epigraph>
         </titlePage>
         <castList>
@@ -181,7 +180,6 @@
             <roleDesc>stare HUZARY.</roleDesc>
           </castGroup>
         </castList>
-      </div>
       <set>
         <p>(Scena w domu MAJORA, na wsi)</p>
       </set>

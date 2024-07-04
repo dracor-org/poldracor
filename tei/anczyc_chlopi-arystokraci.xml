@@ -104,7 +104,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">CHŁOPI<lb />
@@ -116,13 +115,9 @@
             <docAuthor>WŁADYSŁAWA LUDWIKA ANCZYC</docAuthor>.
           </byline>
           <docImprint>
-            <p>
-              <pubPlace>KRAKÓW</pubPlace>
-              <bibl>
-                W <publisher>DRUKARNI JÓZEFA CZECHA</publisher>.
-              </bibl>
+              <pubPlace>KRAKÓW</pubPlace><lb />
+              W DRUKARNI <name>JÓZEFA CZECHA</name>.<lb />
               <date>1951</date>.
-            </p>
           </docImprint>
         </titlePage>
         <castList>
@@ -176,18 +171,17 @@
         <note>PRZEDSTAWIONO NA TEATRZE KRAKOWSKIM<lb />
         PIERWSZY RAZ<lb />
         DNIA 20go GRUDNIA 1849go ROKU</note>
-      </div>
       <set>
         <p>(Scena w Jasielskim w zimie 1849 r.)</p>
       </set>
     </front>
     <body>
-      <div type="title">CHŁOPI ARYSTOKRACI</div>
+      <note type="title">CHŁOPI ARYSTOKRACI</note>
+      <div type="scene" n="1">
+        <head>Scena pierwsza.</head>
       <stage type="setting">
         <p>(Teatr przedstawia izbę chłopską)</p>
       </stage>
-      <div type="scene" n="1">
-        <head>Scena pierwsza.</head>
         <stage type="entrance">
           <p>
             <rs key="#marysia">MARYSIA.</rs>

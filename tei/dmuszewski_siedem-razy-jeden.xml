@@ -104,25 +104,18 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <titlePart type="series">DZIEŁA<lb />
           DRAMATYCZNE<lb />
-          <byline>
-            <docAuthor>L. A. DMUSZEWSKIEGO</docAuthor>.<lb />
-          </byline>
+          <name>L. A. DMUSZEWSKIEGO</name>.<lb />
           TOM OSMY,<lb />
           Z RYCINĄ</titlePart>
           <docImprint>
-            <p>
-              W <pubPlace>WARSZAWIE</pubPlace>
-              <bibl>
-                NAKŁADEM I DRUKIEM <publisher>N. GLÜCKSBERGA,<lb />
-                KSIĘGARZA I TYPOGRAFA KRÓLEWSKIEGO UNIWERSYTETU.</publisher>
-              </bibl>
+              W <pubPlace>WARSZAWIE</pubPlace><lb />
+              NAKŁADEM I DRUKIEM <name>N. GLÜCKSBERGA</name>,<lb />
+              KSIĘGARZA I TYPOGRAFA KRÓLEWSKIEGO UNIWERSYTETU.
               <lb />
               <date>1823</date>.
-            </p>
           </docImprint>
           <docTitle>
             <titlePart type="main">SIEDM RAZY JEDEN</titlePart>
@@ -131,7 +124,7 @@
           </docTitle>
           <note>
             <p>z Muzyką.<lb />
-            Jozefa Elznera.<lb />
+            <name>Jozefa Elznera</name>.<lb />
             GRANA PIERWSZY RAZ w WARSZAWIE.<lb />
             1804.</p>
           </note>
@@ -180,7 +173,6 @@
             <roleDesc/>
           </castItem>
         </castList>
-      </div>
       <set>
         <p>(Scena w Warszawie w Pałacu Kasztelana)</p>
       </set>

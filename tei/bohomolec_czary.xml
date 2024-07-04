@@ -97,14 +97,15 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">CZARY</titlePart>
             <titlePart type="sub">KOMEDYA<lb />
             WE TRZECH AKTACH.</titlePart>
           </docTitle>
-          <date>1775</date>.
+          <docImprint>
+            <date>1775</date>.
+          </docImprint>
         </titlePage>
         <castList>
           <head>OSOBY</head>
@@ -145,7 +146,6 @@
             <roleDesc>Sługa Drągayły.</roleDesc>
           </castItem>
         </castList>
-      </div>
       <set>
         <p>(SCENA. W Domu Dziwomira. We Wsi Raugieliszkach)</p>
       </set>
