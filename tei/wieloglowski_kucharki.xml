@@ -136,28 +136,23 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">KUCHARKI</titlePart>
-            <titlePart type="sub">OBRAZEK<lb />
-            Z OBYCZAJÓW DOMOWNICTWA MIEJSKIEGO</titlePart>,
+            <titlePart type="sub">OBRAZEK<lb />Z OBYCZAJÓW DOMOWNICTWA MIEJSKIEGO</titlePart>,
           </docTitle>
           <byline>PRZEZ<lb />
             <docAuthor>Walerego Wielogłowskiego</docAuthor>.
           </byline>
           <docImprint>
-            <p>
-              W <pubPlace>KRAKOWIE</pubPlace>
+              W KRAKOWIE<lb />
               <bibl>
                 <publisher>NAKŁADEM WYDAWNICTWA DZIEŁ KATOLICKICH<lb />
                 NAUKOWYCH I ROLNICZYCH</publisher>
               </bibl>
               <date>1858</date>.
-            </p>
           </docImprint>
         </titlePage>
-      </div>
     </front>
     <body>
       <div type="scene" n="1">

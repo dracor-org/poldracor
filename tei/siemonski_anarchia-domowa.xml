@@ -178,17 +178,15 @@
             CZŁONKA TOWARZY: NAUKOWEGO KRAKOWSKIEGO
           </byline>
           <docImprint>
-            <p>
               W <placeName>KRAKOWIE</placeName> w <origDate>ROKU 1808</origDate><lb />
               NAPISANA.<lb />
               W <date>ROKU 1820.</date> NA TEATRZE KRAKOWSKIM ODEGRANA.<lb />
               W <pubPlace>KRAKOWIE</pubPlace><lb />
               W <publisher>DRUKARNI AKADEMICKIEJ</publisher>.<lb />
               <docDate>1833</docDate>.
-            </p>
           </docImprint>
           <epigraph xml:lang="la">
-            <cit><quote>Sunt lacrymae rerum.</quote><lb /> <bibl>VIRGIL</bibl>.</cit>
+            <cit><quote>Sunt lacrymae rerum.</quote><lb /> <bibl>VIRGIL</bibl></cit>
           </epigraph>
           <imprimatur>Za pozwoleniem Cenzury Rządowej.</imprimatur>
         </titlePage>
@@ -285,7 +283,7 @@
       </set>
       <div type="appendix">
         <salute>
-          <p>DO<lb /> PANI HRABINY ŁOŚ<lb/> z Domu SIEMOŃSKIEJ.</p>
+          DO<lb /> PANI HRABINY ŁOŚ<lb/> z Domu SIEMOŃSKIEJ.
         </salute>
         <p>Tę Dramę napisałem dla Ciebie kochana Córko, jeszcze kiedyś była dzieckiem. Twoje wychowanie jedynym celem życia mego było - Odpowiedziałaś we wszystkim moim nadziejom. Gdybym znalazł lepszą od ciebie Córkę, Żonę i Matkę, któraby więcej od Ciebie wartą była szacunku, Jejbym tę pracę ofiarował - Ofiarę w dzieciństwie dla ciebie przeznaczoną, rozumiem, że milej przyjmiesz w dojrzałości Twojej od przywiązanego Ojca.<lb /> Obraz nieszczęść Ojca w tej sztuce skreślony, był mi powodem do wystawienia ich na scenę. Będąc we Florencyi, w Instytucie obłąkanych widziałem Ojca, który z miłości po straconej jedynej swej Córce zmysły utracił, i Córkę Jego, która po stracie swego kochanka, który ją uwiódł i porzucił, zmysły straciła, i była w tym samym Instytucie. Pamiętałem o prawidle Boalego:<lb />"Il est des objets, que l'art judicieux<lb />"Peut offrir en récit et réculer des yeux"<lb />Ale w tej sztuce nie sądziłem tego potrzeby, i oprócz wypadków na okręcie i śmierci Kukumy chytrej przyjaciółki domu, wszystko na scenie się dzieje - Oby ten obraz okropny był przykładem w tem mieście dzieciom, aby podobnego nieszczęścia nie stały się przyczyną swoim rodzicom. Oby Twoja śliczna Melania, Adaś i Alfred we wszystkiem byli podobnemi dziećmi dla Ciebie, jaką Ty kochana Olympjo! Córką byłaś dla mnie!</p>
       </div>

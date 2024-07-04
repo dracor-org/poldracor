@@ -103,7 +103,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <titlePart type="series">NIEŚMIERTELNE DUSZE.<lb />
             I.</titlePart>
@@ -111,30 +110,28 @@
             <titlePart type="main">OJCIEC MAKARY</titlePart>
             <titlePart type="sub">DRAMAT W 3ch AKTACH</titlePart>
           </docTitle>
-          <docAuthor>WŁADYSŁAWA OKOŃSKIEGO</docAuthor>.
+          <docAuthor>WŁADYSŁAWA OKOŃSKIEGO.</docAuthor>
           <epigraph>
-            <cit><quote>Prawda ma do przebrania się nieskończoną ilość postaci.</quote><lb /> <bibl>(Ze starej książki).</bibl>.</cit>
+            <cit><quote>Prawda ma do przebrania się nieskończoną ilość postaci.</quote><lb /> <bibl>(Ze starej książki).</bibl></cit>
           </epigraph>
           <docImprint>
-            <p>
-              <pubPlace>KRAKÓW</pubPlace>.
+            KRAKÓW.<lb />
               <bibl>
                 <publisher>W drukarni W. Korneckiego.<lb />
                 Nakładem Księgarni Adolfa Dygasińskiego i Sp.</publisher>
               </bibl>
               <date>1876</date>.
-            </p>
           </docImprint>
           <note>Prawa autorskie zastrzegają się.</note>
+          <div type="appendix">
+            Dramat obecny jest pierwszą częścią całości większej, której następne wkrótce kolejno się ukażą. Złączy je wspólna idea, tożsamość zaś osób o tyle, o ile przeprowadzenie ich z jednego dramatu do drugiego tkwić będzie w logice ogólnego planu akcyi. Każda przytem część, na podobieństwo obecnej, mieć będzie swoją własną, skończoną osnowę, w której pewna kombinacya motywów rozwiąże się konkluzyą w jej zakresie decydującą. Usprawiedliwienie ogólnej nazwy: Nieśmiertelne dusze – zaczeka do ostatniej z tych prac, z których pierwszą<lb />
+            <salute>
+              Szczerym jej przyjaciołom
+            </salute>
+            przypisuje<lb />
+            AUTOR.
+          </div>
         </titlePage>
-        <div type="appendix">
-          <p>Dramat obecny jest pierwszą częścią całości większej, której następne wkrótce kolejno się ukażą. Złączy je wspólna idea, tożsamość zaś osób o tyle, o ile przeprowadzenie ich z jednego dramatu do drugiego tkwić będzie w logice ogólnego planu akcyi. Każda przytem część, na podobieństwo obecnej, mieć będzie swoją własną, skończoną osnowę, w której pewna kombinacya motywów rozwiąże się konkluzyą w jej zakresie decydującą. Usprawiedliwienie ogólnej nazwy: Nieśmiertelne dusze – zaczeka do ostatniej z tych prac, z których pierwszą<lb />
-          <salute>
-            <p>Szczerym jej przyjaciołom</p>
-          </salute>
-          przypisuje<lb />
-          AUTOR.</p>
-        </div>
         <castList>
           <head>OSOBY.</head>
           <castItem>
@@ -177,7 +174,6 @@
             <roleDesc>służący Reginy</roleDesc>
           </castGroup>
         </castList>
-      </div>
       <set>
         <p>(Dramat rozgrywa się w Krakowie)</p>
       </set>

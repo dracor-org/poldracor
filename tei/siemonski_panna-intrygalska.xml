@@ -114,29 +114,26 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">PANNA INTRYGALSKA<lb />
             CZYLI<lb />
             CHYTROŚĆ UNIEWINNIONA.</titlePart>
             <titlePart type="sub">KOMEDYA ORYGINALNA<lb />
-            w 3ch Aktach</titlePart>,
+            w 3ch Aktach,</titlePart>
           </docTitle>
           <byline>przez<lb />
             <docAuthor>ADAMA SIEMOŃSKIEGO</docAuthor>.
           </byline>
           <epigraph>
-            <cit><quote>Ses vertus sont de lui, ses vices sont de nous.</quote><lb /> <bibl>TEATRE FRANÇAISE.</bibl>.</cit>
+            <cit><quote>Ses vertus sont de lui, ses vices sont de nous.</quote><lb /> <bibl>TEATRE FRANÇAISE.</bibl></cit>
           </epigraph>
           <docImprint>
-            <p>
-              W <pubPlace>KRAKOWIE</pubPlace>,
+              W KRAKOWIE,
               <bibl>
                 w <publisher>DRUKARNI BRACI GIESZKOWSKICH.</publisher>
               </bibl>
               <date>1828</date>.
-            </p>
           </docImprint>
           <imprimatur>Za pozwoleniem Cenzury.</imprimatur>
           <div type="appendix">
@@ -161,7 +158,7 @@
             <titlePart type="main">PANNA INTRYGALSKA<lb />
             CZYLI<lb />
             CHYTROŚĆ UNIEWINNIONA.</titlePart>
-            <titlePart type="sub">KOMEDYA.</titlePart>,
+            <titlePart type="sub">KOMEDYA.</titlePart>
           </docTitle>
         </titlePage>
         <castList>
@@ -233,7 +230,6 @@
             <roleDesc>ŻYDZI.</roleDesc>
           </castGroup>
         </castList>
-      </div>
       <set>
         <p>Muzyka Janczarska Reymentowa.</p>
         <p>(Scena podczas Licytacyi na wsi w zamku Hrabiego).</p>
@@ -342,13 +338,6 @@
         </sp>
         <trailer>KONIEC PROLOGU.</trailer>
       </prologue>
-      <docTitle>
-        <titlePart type="main">PANNA<lb />
-        INTRYGALSKA,<lb />
-        CZYLI<lb />
-        CHYTROŚĆ UNIEWINNIONA.</titlePart>
-        <titlePart type="sub">KOMEDYA.</titlePart>,
-      </docTitle>
     </front>
     <body>
       <div type="act" n="1">
