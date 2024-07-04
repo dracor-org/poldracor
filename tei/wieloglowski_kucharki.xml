@@ -139,13 +139,13 @@
         <titlePage>
           <docTitle>
             <titlePart type="main">KUCHARKI</titlePart>
-            <titlePart type="sub">OBRAZEK<lb />Z OBYCZAJÓW DOMOWNICTWA MIEJSKIEGO</titlePart>,
+            <titlePart type="sub">OBRAZEK<lb />Z OBYCZAJÓW DOMOWNICTWA MIEJSKIEGO,</titlePart>
           </docTitle>
           <byline>PRZEZ<lb />
             <docAuthor>Walerego Wielogłowskiego</docAuthor>.
           </byline>
           <docImprint>
-              W KRAKOWIE<lb />
+              W <pubPlace>KRAKOWIE</pubPlace>
               <bibl>
                 <publisher>NAKŁADEM WYDAWNICTWA DZIEŁ KATOLICKICH<lb />
                 NAUKOWYCH I ROLNICZYCH</publisher>

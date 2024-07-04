@@ -115,7 +115,7 @@
             <cit><quote>Prawda ma do przebrania się nieskończoną ilość postaci.</quote><lb /> <bibl>(Ze starej książki).</bibl></cit>
           </epigraph>
           <docImprint>
-            KRAKÓW.<lb />
+            <pubPlace>KRAKÓW.</pubPlace>
               <bibl>
                 <publisher>W drukarni W. Korneckiego.<lb />
                 Nakładem Księgarni Adolfa Dygasińskiego i Sp.</publisher>
@@ -123,14 +123,14 @@
               <date>1876</date>.
           </docImprint>
           <note>Prawa autorskie zastrzegają się.</note>
-          <div type="appendix">
-            Dramat obecny jest pierwszą częścią całości większej, której następne wkrótce kolejno się ukażą. Złączy je wspólna idea, tożsamość zaś osób o tyle, o ile przeprowadzenie ich z jednego dramatu do drugiego tkwić będzie w logice ogólnego planu akcyi. Każda przytem część, na podobieństwo obecnej, mieć będzie swoją własną, skończoną osnowę, w której pewna kombinacya motywów rozwiąże się konkluzyą w jej zakresie decydującą. Usprawiedliwienie ogólnej nazwy: Nieśmiertelne dusze – zaczeka do ostatniej z tych prac, z których pierwszą<lb />
+          <note type="appendix">
+            <p>Dramat obecny jest pierwszą częścią całości większej, której następne wkrótce kolejno się ukażą. Złączy je wspólna idea, tożsamość zaś osób o tyle, o ile przeprowadzenie ich z jednego dramatu do drugiego tkwić będzie w logice ogólnego planu akcyi. Każda przytem część, na podobieństwo obecnej, mieć będzie swoją własną, skończoną osnowę, w której pewna kombinacya motywów rozwiąże się konkluzyą w jej zakresie decydującą. Usprawiedliwienie ogólnej nazwy: Nieśmiertelne dusze – zaczeka do ostatniej z tych prac, z których pierwszą<lb />
             <salute>
               Szczerym jej przyjaciołom
             </salute>
             przypisuje<lb />
-            AUTOR.
-          </div>
+            AUTOR.</p>
+          </note>
         </titlePage>
         <castList>
           <head>OSOBY.</head>
