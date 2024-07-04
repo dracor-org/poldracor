@@ -111,7 +111,7 @@
           <docImprint>
               W <pubPlace>WARSZAWIE</pubPlace><lb />
               W DRUKARNI <name>JANA WRÓBLEWSKIEGO</name><lb />
-              W <address>RYNKU STAREGO MIASTA Nr. 61.</address><lb />
+              W <address><street>RYNKU STAREGO MIASTA <num>Nr. 61</num>.</street></address><lb />
               <date>1833</date>.
           </docImprint>
         </titlePage>

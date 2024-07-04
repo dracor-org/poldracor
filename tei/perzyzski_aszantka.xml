@@ -119,24 +119,18 @@
             <titlePart type="sub">KOMEDYA W TRZECH AKTACH</titlePart>
           </docTitle>
           <docImprint>
-              WE LWOWIE - <date>1907</date>
-              <bibl>
-                <publisher>NAKŁADEM KSIĘGARNI POLSKIEJ B. POŁONIECKIEGO<lb />
-                WARSZAWA – E. WENDE I SP.
-                </publisher>
-              </bibl>
+              WE <pubPlace>LWOWIE</pubPlace> - <date>1907</date><lb />
+              NAKŁADEM KSIĘGARNI POLSKIEJ <name>B. POŁONIECKIEGO</name><lb />
+              WARSZAWA – <name>E. WENDE</name> I SP.
               <note>TEGOŻ AUTORA.<lb />
               LEKKOMYŚLNA SIOSTRA, komedya w czterech aktach, kor. 1.50.<lb />
-              MAJOWE SŁOŃCE, komedya w jednym akcie, kor. 1.-.</note>
-              <bibl>
-                <publisher>ODBITO CZCIONKAMI DRUKARNI SŁOWA POLSKIEGO WE LWOWIE<lb />
-                POD ZARZĄDEM JÓZEFA ZIEMBIŃSKIEGO - <origDate>1907 ROKU</origDate>
-                </publisher>
-              </bibl>
+              MAJOWE SŁOŃCE, komedya w jednym akcie, kor. 1.-.</note><lb />
+              ODBITO CZCIONKAMI DRUKARNI SŁOWA POLSKIEGO WE LWOWIE<lb />
+              POD ZARZĄDEM JÓZEFA ZIEMBIŃSKIEGO - <origDate>1907 ROKU</origDate>
           </docImprint>
         </titlePage>
-        <salute>Tadeuszowi Pawlikowskiemu</salute>
         <castList>
+          <salute>Tadeuszowi Pawlikowskiemu</salute><lb />
           <head>OSOBY:</head>
           <castItem>
             <role corresp="#łoński">EDMUND ŁOŃSKI,</role>
