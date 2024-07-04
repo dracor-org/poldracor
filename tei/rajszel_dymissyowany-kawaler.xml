@@ -90,7 +90,6 @@
   </standOff>
   <text>
     <front>
-      <div>
         <titlePage>
           <docTitle>
             <titlePart type="main">DYMISSJONOWANY<lb />
@@ -108,16 +107,12 @@
             <docAuthor>Ludwika Edwarda Rajszla</docAuthor>
           </byline>
           <note>Z MUZYKĄ<lb />
-          JÓZEFA DAMSEGO.</note>
+          <name>JÓZEFA DAMSEGO</name>.</note>
           <docImprint>
-            <p>
-              W <pubPlace>WARSZAWIE</pubPlace>
-              <bibl>
-                <p>W <publisher>DRUKARNI JANA WRÓBLEWSKIEGO<lb />
-                W RYNKU STAREGO MIASTA Nr. 61.</publisher></p>
-              </bibl>
+              W <pubPlace>WARSZAWIE</pubPlace><lb />
+              W DRUKARNI <name>JANA WRÓBLEWSKIEGO</name><lb />
+              W <address>RYNKU STAREGO MIASTA Nr. 61.</address><lb />
               <date>1833</date>.
-            </p>
           </docImprint>
         </titlePage>
         <castList>
@@ -157,7 +152,6 @@
             <actor>JP. BARANIECKI</actor>
           </castItem>
         </castList>
-      </div>
       <set>
         <p>(Rzecz dzieje się w domu Floransowicza.)</p>
       </set>
