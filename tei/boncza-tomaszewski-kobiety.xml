@@ -259,14 +259,13 @@
             <roleDesc/>
           </castItem>
           <castGroup>
-            <role corresp="#konsyliarze">KONSYLIARZE.</role>
             <castItem>
               <role corresp="#konsyliarz1"/>
             </castItem>
             <castItem>
               <role corresp="#konsyliarz2"/>
             </castItem>
-            <roleDesc/>
+            <roleDesc>KONSYLIARZE.</roleDesc>
           </castGroup>
           <castItem>
             <role corresp="#sekretarz">SEKRETARZ</role>
