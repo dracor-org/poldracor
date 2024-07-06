@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Moralność pani Dulskiej</title>
-        <title type="sub">komedya w trzech aktach</title>
+        <title type="sub">Komedya w trzech aktach</title>
         <author>
           <idno type="isni">0000000108565995</idno>
           <idno type="wikidata">Q454870</idno>
@@ -121,10 +121,16 @@
   </teiHeader>
   <standOff>
     <listEvent>
-      <event type="print" when="1906">
+      <event type="premiere" when="1906">
+        <desc/>
+      </event>
+      <event type="print" when="1907">
         <desc/>
       </event>
     </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/pol000009" passive="http://www.wikidata.org/entity/Q11785407"/>
+    </listRelation>
   </standOff>
   <text>
     <front>
