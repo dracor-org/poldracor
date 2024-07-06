@@ -69,7 +69,7 @@
             <persName>Lotary</persName>
           </person>
           <person sex="FEMALE" xml:id="dartur">
-            <persName>DArtur</persName>
+            <persName>D'Artur</persName>
           </person>
           <person sex="MALE" xml:id="ludwik">
             <persName>Ludwik</persName>
@@ -96,6 +96,7 @@
             <persName>Vice-prezydent</persName>
           </person>
           <personGrp xml:id="konsyliarze">
+            <persName>Konsyliarze</persName>
             <persona sex="MALE" xml:id="konsyliarz1">
               <persName>Konsyliarz</persName>
             </persona>
@@ -257,10 +258,16 @@
             <role corresp="#vice">VICE-PREZYDENT.</role>
             <roleDesc/>
           </castItem>
-          <castItem>
+          <castGroup>
             <role corresp="#konsyliarze">KONSYLIARZE.</role>
+            <castItem>
+              <role corresp="#konsyliarz1"/>
+            </castItem>
+            <castItem>
+              <role corresp="#konsyliarz2"/>
+            </castItem>
             <roleDesc/>
-          </castItem>
+          </castGroup>
           <castItem>
             <role corresp="#sekretarz">SEKRETARZ</role>
             <roleDesc>Sądowy.</roleDesc>

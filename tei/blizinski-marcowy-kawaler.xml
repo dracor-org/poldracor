@@ -89,8 +89,8 @@
           <person sex="MALE" xml:id="ignacy">
             <persName>Ignacy</persName>
           </person>
-          <person sex="MALE" xml:id="heliodor">
-            <persName>Heliodor</persName>
+          <person sex="MALE" xml:id="heljodor">
+            <persName>Heljodor</persName>
           </person>
           <person sex="FEMALE" xml:id="eulalja">
             <persName>P. Eulalja</persName>
@@ -167,7 +167,7 @@
           <roleDesc>właściciel wsi.</roleDesc>
         </castItem>
         <castItem>
-          <role corresp="#heliodor">HELIODOR,</role>
+          <role corresp="#heljodor">HELJODOR,</role>
           <roleDesc>literat.</roleDesc>
         </castItem>
         <castItem>
