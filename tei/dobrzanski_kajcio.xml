@@ -1,0 +1,1809 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000031" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Kajcio</title>
+        <title type="sub">Komedia w jednym akcie</title>
+        <author>
+          <idno type="isni">0000000122131720</idno>
+          <idno type="wikidata">Q9341812</idno>
+          <persName>
+            <forename>Stanisław</forename>
+            <surname>Dobrzański</surname>
+          </persName>
+        </author>
+        <!-- Stanisław Dobrzański (1847-1880) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/komedye-kajcio-onufry-podejrzana-osoba-tajemnica-wujaszek-alfonsa-zloty,MTEwNjI5NjQ/22/</idno>
+          <title>Dobrzański, S., Kajcio [w:] Dobrzański, S., Komedye, Lwów 1886</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="hipolit" sex="MALE">
+            <persName>Hipolit</persName>
+          </person>
+          <person xml:id="hryń" sex="MALE">
+            <persName>Hryń</persName>
+          </person>
+          <person xml:id="julja" sex="FEMALE">
+            <persName>Julja</persName>
+          </person>
+          <person xml:id="kajcio" sex="MALE">
+            <persName>Kajcio</persName>
+          </person>
+          <person xml:id="ksawera" sex="FEMALE">
+            <persName>Ksawera</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-29">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1869">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">KAJCIO</titlePart>
+            <titlePart type="sub">komedja w jednym akcie</titlePart>
+          </docTitle>
+          <byline>przez<lb />
+            <docAuthor>STANISŁAWA DOBRZAŃSKIEGO</docAuthor>.
+          </byline>
+        </titlePage>
+        <castList>
+          <head>OSOBY:</head>
+          <castItem>
+            <role corresp="#hipolit">HIPOLIT BĄCZAŁA,</role>
+            <roleDesc>szlachcic.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#ksawera">KSAWERA,</role>
+            <roleDesc>jego córka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#julja">JULJA,</role>
+            <roleDesc>panna służąca.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#kajcio">KAJCIO BOGDALEWICZ,</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#hryń">HRYŃ,</role>
+            <roleDesc>fornal Hipolita.</roleDesc>
+          </castItem>
+        </castList>
+      <set>
+        <p>(Rzecz dzieje się na wsi u Bączały)</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>SCENA I.</head>
+        <stage type="setting">
+          <p>(Scena przedstawia pokój bawialny w dworku szlacheckim)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#hipolit">HIPOLIT.</rs> (później)
+            <rs key="#ksawera">KSAWERA.</rs>
+          </p>
+        </stage>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(przez okno)</stage> Ksawerciu! Ksawerciu! a chodź-że raz, porzuć to głupie podlewanie kwiatów.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(za sceną)</stage> Muszę podlewać kwiatuszki, bo powiedną.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>To, to! młodość! płochość, a zawsze kwiatki, fiu! fiu! w głowie. A chodź-że raz Ksaweruńciu, kiedy ci mówię!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(z. s.)</stage> Zaraz tatku! zaraz!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Chodź-że! bo mam pilny do ciebie interes.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(z. s.)</stage> Idę już tatku, idę.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(sam)</stage> A nareszcie! Z temi młodemi pannami rady sobie dać nie można. Mam jedną córeczkę, a taki kłopot, że wołałbym mieć bataljon synów. Póki nie wiedziała nic o mężu, to pół biedy, teraz córkę za mąż wydawać trzeba, a wydaję ją już chwała Bogu lat dwadzieścia. Zawsze się tak jakoś stało, że albo konkurent serca jej podbić nie mógł, albo ona jemu sie nie podobała; myślałem już, że moja najdroższa Ksawercia zostanie starą panną, aż tu nagle trafia się jej dobra partja. Może mu się uda podobać mojej córce.</p>
+        </sp>
+      </div>
+      <div type="scene" n="2">
+        <head>SCENA II.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#hipolit">HIPOLIT.</rs>
+            <rs key="#ksawera">KSAWERA.</rs>
+          </p>
+        </stage>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(wbiega z koneweczką w ręku w szerokim słomianym kapeluszu)</stage> Jestem papo, jestem. Co rozkażesz?</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Siadaj Ksawerciu! czy wiesz gołąbeczku o czem mam mówić?</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Nie wiem papo.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Jakto nie wiesz?</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Nje.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A prawda, że ci jeszcze o tem nic nie mówiłem. Hm! Jakby ci to jasno rzecz wytłumaczyć. Bo to pannie trudno tak od razu powiedzieć...</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Papa zaczyna mnie intrygować.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(całuje ją)</stage> Tylko nie przestraszaj się mój aniołku!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Tak mnie papa rozciekawił...</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Oto moja Ksawerciu, masz już lat 38.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>O, dopierom niedawno skończyła.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(nie uważając na nią, dalej mówi)</stage> Jest to najpiękniejszy czas do zamążpójścia. Nieprawdaż?</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(zawstydzona)</stage> Ależ papo!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Niby to nie chce, a oczy aż się iskrzą za mężulkiem, ja was dobrze znam. No, no!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(skubiąc suknię)</stage> Papo!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Nie przerywaj mi! Czas już, żebyś stan panieński opuściła.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Nikt dotychczas mojego serca podbić nie zdołał.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Oj, prawda! hardioza z ciebie moja Ksaweruńciu! Ale co tam, to wszystko jedno, co było, to już przepadło, a teraz radzę ci nie przebierać, bo daję ci chłopaka złotego.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(uradowana)</stage> Czy zgłosił się kto o moją rękę?</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Aha, filutko! puka ci serduszko, puka!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Papa prześladuje mnie dzisiaj; ale któż to taki?</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Syn mojego dobrego przyjaciela, którego już dawno nie widziałem.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(klaszcząc w dłonie)</stage> Jak wygląda! jak wygląda!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A to ciekawość.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Papo! jak wygląda?</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Tego nie wiem, bo syna jego nie widziałem. Jeżeli taki zuch jak ojciec, to będzie dobry mąż z niego. Ten list oświeci cię dokładnie. Przeczytaj go na głos, bo i mnie odświeży w pamięci żądania mego przyjaciela.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(odbiera list)</stage> Jakto, więc to list od tego, który się o moją rękę oświadczył! <stage>(Całuje list)</stage></p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Nie, to od jego ojca, ale czytaj!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(czyta)</stage> „Szanowny Mości Dobrodzieju i przyjacielu od serca! - Nie widziałem Cię z górą lat dwadzieścia”...</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Czekajno! <stage>(liczy na palcach)</stage> A tak, prawda, jak to lata mijają. Pamiętam jak dziś, jakeś się urodziła...</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(głośniej czyta)</stage> „Czasami tylko dochodzą mnie wieści, że ci się dobrze powodzi. I mnie dzięki Najwyższemu jakoś tam lizie. Uciułałem sobie dosyć znaczny majątek, i wszystko dobrzeby było, gdyby nie kłopot z synem, chcę go ożenić, ale że to chłopczyna nieśmiała, więc ani rusz go do panny wypędzić”.<lb /> Ach to mój ideał!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>No, no! czytaj dalej.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>„Wtem dowiaduję się, że u ciebie jest córka na wydaniu, a jeden z moich przyjaciół nawet pochlebnie się o niej wyraził”.<lb /> Wyraził się pochlebnie!<lb /> „Podobno skończyła już lat ośmnaście”.<lb /> Lat ośmnaście... <stage>(zdziwiona)</stage></p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Tak! czegóż się dziwisz, przecież skończyłaś lat ośmnaście.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>A tak, skończyłam.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>I cóż tam dalej pisze?</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(czyta dalej)</stage> „A syn mój ma lat dwadzieścia i pięć, więc będzie para doskonała”. <stage>(Uradowana)</stage> Dopiero lat dwadzieścia pięć!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>No, proszę, jak to teraz młodo się żenią.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(j. p.)</stage> „Mam nadzieję, że podoba się twojej córce, bo chłop jak bursztyn. A teraz całuję cię serdecznie i łączę ukłony przyszłej synowej, bo mam wszelką nadzieję”.<lb /> Jak bursztyn! Czemuż mi papa prędzej nie pokazał tego listu.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Bo chciałem ci niespodziankę zrobić, ale dłużej ukrywać go nie mogłem, bo właśnie przed chwilą otrzymałem ten oto telegram, oznajmiający, że dziś i to niedługo przybędzie wyżwymieniony Kajcio.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Przyjedzie wkrótce! Ach! to muszę się przebrać! Julciu! Juleczko!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A to gorączka z ciebie Ksawerciu! poczekaj no, poczekaj!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Ale ja mam jedną prośbę do papy.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Jaką-ż to serce, jaką?</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(skubiąc suknię)</stage> Niech papa wieku mojego nie wyjawia.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A to czemu nie?</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Panny zwykle swój wiek ukrywają.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Nigdy w świecie tego nie zrobię; gdybyś byłaś starą to jeszcze nie mówię, ale 38 latek, cóż to jest. Ojciec mój jak się żenił, to miał lat 55, a matka 45 i dla tego też szczęśliwie żyli ze sobą.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Ale mnie o to chodzi, że on cokolwiek młodszy.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>E! co tam parę latek różnicy, to nie wielka historja, ale kłamać nigdy nie kłamałem i nie będę.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(n. s.)</stage> Co tu począć, aha! <stage>(głośno)</stage> To jakby się zapytał o wiek, niech papa mówi, że skończyłam naprzykład, 25. to przecież nie kłamstwo.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Koniecznie?</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Koniecznie!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>No, zrobię to już dla ciebie, moje serduszko.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Daje na to papa święte słowo?</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Verbum nobile!</p>
+        </sp>
+      </div>
+      <div type="scene" n="3">
+        <head>SCENA III.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#hipolit">HIPOLIT.</rs>
+            <rs key="#ksawera">KSAWERA.</rs>
+            <rs key="#julja">JULJA.</rs> (wchodzi)
+          </p>
+        </stage>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Proszę państwa, jakiś nieznajomy przyjechał!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Jak wygląda?!</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Wielki nos, duże oczy...</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Serce mi powiada, że to on, spieszę przebrać się! <stage>(wybiega)</stage></p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>To pewnie on, a ja w szlafroku jeszcze. Hryńku! Iwasiu! a bodaj-że was spaliło. Frak, buty, hej hołota! <stage>(odchodzi do siebie)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="4">
+        <head>SCENA IV.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#julja">JULJA.</rs>
+          </p>
+        </stage>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(sama)</stage> „To pewnie on!” Co za on, jaki on. Jakiś młody człowiek z dużym nosem, a taki śmieszny. Ale chwała Bogu, że choć taki przyjechał. Przecież będzie jakaś odmiana. Tu można umrzeć z nudów. Żyć młodej osobie tak jak ja, między temi staremi gratami, nie widzieć nic oprócz arendarza i chłopów, to doprawdy śmierci się równa. O! jużem sobie przysięgła, że jak się ztąd wybawię, to za żadną cenę nie przyjmę służby na wsi. Ale Bóg wie, kiedy to nastąpi. <stage>(Przystępuje do źwierciadła)</stage> Trzeba sobie włosy poprawić może to panicz z miasta, niech pozna zaraz, że ma z miejską do czynienia.</p>
+        </sp>
+      </div>
+      <div type="scene" n="5">
+        <head>SCENA V.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#julja">JULJA.</rs>
+            <rs key="#kajcio">KAJCIO.</rs>
+          </p>
+        </stage>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(wchodzi i ogląda się po pokoju, stając co chwila)</stage> Wśrodku dosyć porządnie, ale z wierzchu wygląda jak buda. Stajnia niezła, tylko gorzelnia coś krzywo postawiona. Ale jak to przyjdzie w moje ręce to się wszystko naprawi. <stage>(Oglądając meble)</stage> Dosyć! dosyć porządnie, ale że nikogo nie spotkałem, coby się przywitał ze mną. Trzeba się w lustrze przeglądnąć, bo się człowiek zaszłapał w podróży. <stage>(Idzie po przed kanapę blizko Julji, która go dopiero teraz spostrzega)</stage></p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Ach!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Oj! <stage>(przewraca krzesło)</stage></p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(zażenowana)</stage> Przestraszyłam się.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ja sam się przestraszył.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Pan zapewne do pana Bączały ma interes.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> To pewno córka. <stage>(śmiejąc się)</stage> Nie tyło do pana Bączały, kilo do jego córki. <stage>(n. s.)</stage> To mi się udało. Musiałem się jej podobać, bo nic nie gada.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Zaraz będą panu służyć.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> Jakoś nie mam już konceptu.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Proszę, niech pan siada.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>O, dziękuję! nasiedziałem się na bryczce! <stage>(n. s.)</stage> Ale fajn dziewczyna. <stage>(głośno)</stage> Proszę pani - pani zapewne nie wie jak ja się nazywam?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>W samej rzeczy nie wiem. <stage>(n. s.)</stage> Jakiś grzeczny, mówi do mnie „pani”.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ja jestem Bogdalewicz.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(z dygiem)</stage> Bardzo mi przyjemnie.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>A wie pani po co ja tu przyjechałem?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>I tego nie wiem. <stage>(n. s.)</stage> Dziwne pytanie!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>To pani nie czytała listu mojego tata.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(z tonami)</stage> Nie; tutaj na wsi nie ma co czytać...</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ale przecież pani umiesz czytać?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Do usług, ale tutaj na wsi...</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>To pani pewnie nie wie, że ja tutaj ożenić się przyjechałem.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Nie słyszałam o tem.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Myślałem, że ja tu przyjadę na gotowe, a tu dopiero trzeba się zalecać. <stage>(po chwili milczenia)</stage> Była pani w mieście?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Byłam długi czas we Lwowie.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>To ma być duże miasto, większe jak Czerniowce.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Pan nie był nigdy we Lwowie?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Jechałem raz do Lwowa z końmi na jarmarek, ale ukradli mi je na drodze, i ja się wróciłem.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>O szkoda!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ja mam wielką ochotę jechać do Lwowa.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(z westchnieniem)</stage> Ach! i ja także!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> Wzdycha! a tom się jej podobał. <stage>(głośno)</stage> Jak się ożenię, to pojedziemy do Lwowa.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Jakto? zabierze mnie pan ze sobą?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>No to się rozumię! A cóżbym ja bez pani robił, nie wiedziałbym nawet gdzie się obrócić.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>E! pan żartuje!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Jak Boga kocham, nie żartuję!</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>A cóżby ojciec pański na to powiedział?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Teraz mi tato nie pozwala jechać do Lwowa, ale jak się ożenię, to będę robił co mi się podoba.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>O! bardzo panu będę obowiązaną.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ho, ho! zobaczy pani, jak będziemy tam używać!</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(zażenowana)</stage> O! panie!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ja nie żartuję! Tato da dużo pieniędzy. <stage>(całuje ją w rękę)</stage></p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Ależ panie!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> A to fajn dziewczyna, przysięgam Bogu!</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Puść mnie pan, muszę odejść.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Całuję rączki pani! Pa!</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Do widzenia! <stage>(odbiega)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="6">
+        <head>SCENA VI.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#kajcio">KAJCIO.</rs>
+          </p>
+        </stage>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(sam)</stage> A to mi dziewczyna, to z nią i pogadać można. Mnie dotychczas każda panna tak zbiła z pantałyku, żem gęby otworzyć nie mógł. Ale musiałem się jej diabelnie podobać, kiedyśmy od razu tak się zaprzyjaźnili. E! to ja się tu krótko sprawię, aż się tato zadziwi. A mówił mi jakem odjeżdżał: <stage>(oglądając się)</stage> „Pamiętaj cymbale, żebyś mi do domu bez żony nie powracał, bo jak szósty koszyk do domu przywieziesz <stage>(a ja jużem ich pięć dostał)</stage> to ci każę wsypać <stage>(ogląda się, ciszej)</stage> pięćdziesiąt batów i starym kawalerem zostaniesz na całe życie”. Powiedział przytem: uważaj, żeby nie była bardzo młodziutka, ani też starsza od ciebie, bo wodziłaby wszystkich za nos. A tu trafia się na szczęście w sam raz panienka, aż sąsiedzi moi oblizywać się będą.</p>
+        </sp>
+      </div>
+      <div type="scene" n="7">
+        <head>SCENA VII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#kajcio">KAJCIO.</rs>
+            <rs key="#hipolit">HIPOLIT.</rs>
+          </p>
+        </stage>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Ha, ha. Domyślam się kto jesteś! Te rysy! ten nos! O ten nos przypomina mi twojego ojca! <stage>(Obejmuje go)</stage></p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Pewnie mam honor z panem Hipolitem Bączałą...</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Tak jest serce! tak jest! z przyjacielem ojca twego; ale jak tu przyjechałeś mój Kajciuniu!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Na bryczce, proszę pana.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Nie o to cię pytam. Wpadłeś tu niespodzianie jak z deszczem, nikt cię nie widział jakeś tu wszedł.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>O! owszem, ja mówiłem już nawet z córką pana dobrodzieja.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Mówiłeś już, a to zuch z ciebie! Ledwie wstąpił w progi domu, a już panny bałamuci!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(z przechwałką)</stage> O panie! ja mam do kobiet ogromne szczęście, ja panie raz w Czerniowcach...</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>E! co tam w Czerniowcach! gadaj mi zaraz, jak ci się podobała?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>O! bardzo!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>To mnie cieszy! Zuch panna, nie prawdaż?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>O! zuch dalibóg! Podobała mi się dla tego, że nie jest taki trzpiot, jak inne panny, co to zaraz z człowieka żartują.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Niby to ty nie umiesz z pannami się obchodzić!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Nie bardzo, bo dotychczas zajmowałem się wypasem wołów najwięcej.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>To przypomina mi przysługę, którą mi twój ojeiec przed dwudziestu laty wyrządził.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>A wiem! wiem! Tato opowiada o tem przy każdej sposobności.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Wyobraź sobie, prowadzę woły na sprzedaż do Krakowa, a tu jak mnie schwyci choroba w Dębicy, że ani ruszyć się z łóżka. Woły stać na miejscu nie mogą, a powierzyć ich nie ma komu, w tem zjawia się twój ojciec, którego przedtem nawet nie znałem, i wyręcza mnie. <stage>(Z uczuciem)</stage> Co popatrzę na ciebie, to mi się woły przypominają. <stage>(ściska go)</stage> Cieszy mnie to jednak, że masz gust do poważniejszych kobiet.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Tak jest! nie lubię takich panien, co to jakby śmieszka zjadły.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>To mój gust także. Ja lubie kobietę wtedy, jak skończy trzydziestkę, bo to i doświadczenie jest i powaga.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>A ileż pańska córka ma lat?</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(zakłopotany)</stage> Niby... to jest... skończyła lat 23.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Proszę pana, nigdybym nie myślał!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>O tak, skończyła już, skończyła!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ja myślałem, że najwięcej ma lat 18.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A tak, wygląda na to, bo to jeszcze młode, żywe, o będziesz miał żoneczkę co się zowie, a że poczciwa, to ja ci ręczę.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>O! wierzę panu.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(idzie do drzwi Ksawery)</stage> Hej! Ksawerciu, a chodźże! Pan Kajetan już czeka tak długo. <stage>(do Kajcia)</stage> Zaraz przyjdzie Ksawercia. Ale ty pewnie śniadania nie jadłeś? co? hę? gadajno zaraz prawdę!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>A tak jest, jestem trochę głodny.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Z ciebie zcichapęk Kajciu. Siedzi i nic nie gada, zaraz ja ci urządzę śniadanko w twoim guście. <stage>(wychodzi na prawo)</stage></p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(sam)</stage> Aż mi w głowie szumi, tyle mi nagadał. Aha ktoś tu idzie, jakaś stara kobieta, to pewno ciotka córki pana Hipolita.</p>
+        </sp>
+      </div>
+      <div type="scene" n="8">
+        <head>SCENA VIII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#kajcio">KAJCIO.</rs>
+            <rs key="#ksawera">KSAWERA.</rs>
+          </p>
+        </stage>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(wchodzi, Kajcio prosto do niej idzie i całuje ją w rękę; n. s.)</stage> Jaki obcesowy. <stage>(głośno)</stage> Pan zmęczony z podróży?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>O nie, całuję rączki, spałem całą drogę.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Jakże się panu okolica nasza podoba?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Bardzo, proszę pani dobrodziejki, szczególnie kartofle bardzo piękne.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Mówiłeś pan przed chwilą, żeś spał całą drogę?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(zmięszany)</stage> To jest... e... e... ale do kartofli to mnie furman zbudził.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Pan musisz być zawołanym gospodarzem. Niechże pan siada.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>O całuję rączki... <stage>(siada z daleka)</stage></p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(z kokieterją)</stage> Proszę bliżej.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>O dziękuję ślicznie, mnie i tu dobrze.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Ja pana proszę.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Dziękuję... <stage>(siada obok niej na kanapie)</stage></p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Jak się ojciec pański miewa.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Całuję rączki pani dobrodziejki <stage>(całuje ją w rękę)</stage> dobrze, tylko trochę cierpi na apetyt.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(n. s.)</stage> Jaki naiwny! <stage>(głośno)</stage> Ale to nie jest niebezpieczne?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Całuję rączki, nie, bo przy tem je dobrze.</p>
+        </sp>
+      </div>
+      <div type="scene" n="9">
+        <head>SCENA IX.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#kajcio">KAJCIO.</rs>
+            <rs key="#ksawera">KSAWERA.</rs>
+            <rs key="#hipolit">HIPOLIT.</rs>
+          </p>
+        </stage>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(wchodzi z lokajem, niosącym śniadanie)</stage> Aha, złapałem was! gruchacie sobie na kanapie! <stage>(do Kajcia)</stage> Oj ty bałamucie!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Doprawdy rumienić się muszę!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Kajcio! zaraz na kanapkę i bałamuci.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(zdziwiony)</stage> Ale proszę pana, ta przecież ja nie...</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Nie tłumacz się! nie, przecież ja to pochwalam! lubię jak młody człowiek umie zawracać pannom głowy!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ale panie, ta jak Boga, kocham...</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Tłumaczy się poczciwiec! Daj pokój, siadaj do śniadania, podjedz, a potem pogadamy!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Proszę siadać! <stage>(Kajcio chce usiąść na kraju, Hipolit go sadza koło Ksawery)</stage></p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Siadajcie razem, tak blisko siebie.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Oj tu taki przeciąg, ja tutaj sobie usiądę. <stage>(siada naprzeciwko Ksawery)</stage></p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(z cicha)</stage> Aha! filucie! chcesz naprzeciwko siedzieć, aby lepiej korespondować.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ja przy śniadaniu nigdy nie koresponduję.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A kiedyż figlarzu?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Zwykle wieczorem, proszę pana.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A hultaj z ciebie Kajciu, więc wieczorem powiadasz? szarą godzinką?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Nie, proszę pana, przy świecy.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Przy świecy! przy świecy! a niechże go dunder świśnie, a to chłopak zuch, co powie, to dowcip, kubek w kubek jak ojciec!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(n. s.)</stage> To wcale dowcipny chłopak! <stage>(do Kajcia)</stage> Niechże pan więcej je.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>O, o! całuję rączki <stage>(n. s.)</stage> co oni gadają!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Kajciuniu! jedźże! cóż to, miłość ci apetyt odebrała?</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(skromnie)</stage> Więc pan Kajetan zakochany?</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Ale to po same uszy!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(zmięszany)</stage> Ca... całuję... rączki!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Aha, raczka spiekłeś, ażeby potwierdzić pytanie, to, to filut z ciebie!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(czule)</stage> Niechże pan je. Ja proszę pana!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Całuję rączki, już nie mogę!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Patrzy się w twój talerz! Chce, żebyś mu ze swego dała. O znam ja te miłośne żarciki, zabawki. A zróbże to Ksawerciu zrób, podaj mu ze swego talerza.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Ależ... ja nie śmiem...</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Jak mnie kochasz, zrób to, patrz, jemu aż się oczy iskrzą.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(zażenowana podaje mu swój talerz)</stage> Proszę pana...</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Jak Boga kocham, tak nie mo... mo...</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Aha, chce, żebyś sama własną rączką mu podała, zróbże to zrób serdeńko!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Ja się wstydzę.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Nie wstydź się! Tak! <stage>(Ksawera bierze na widelec kawałek koziny. Kajcio ździwiony patrzy się na nią)</stage></p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Proszę pana.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Całuję rączki.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A otwórz-że gębę. <stage>(Kajcio otwiera usta)</stage> Zamknijże teraz - tak moje gołąbeczki! kochajcie się! Trzeba się wynosić, bo to stary w takich interesach niepotrzebny, wy młodzi sami lepiej się zrozumiecie. Ha, ha, ha! o to zuch chłopak, niech go dunder... <stage>(Wychodzi śmiejąc się)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="10">
+        <head>SCENA X.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#ksawera">KSAWERA.</rs>
+            <rs key="#kajcio">KAJCIO.</rs>
+          </p>
+        </stage>
+        <stage type="setting">
+          <p>(wstaje od stołu i odchodzi parę kroków, Kajcio siedzi ciągle przy stole)</p>
+        </stage>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(d. s. po chwili)</stage> Co temu staremu się stało? Czemu on tak wyleciał? Poco on nas to samych zostawił? Czy my mamy we dwoje resztę koziny zmachać?</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(n. s.)</stage> Nie wstaje od stołu, a to niedomyślny. <stage>(kaszle)</stage></p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> To jakaś suchotnica ta pani.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(d. s.)</stage> Trzeba coś przemówić. <stage>(głośno)</stage> Doprawdy tak sami jesteśmy...</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(wstaje od stołu)</stage> Proszę pani dobrodziejki, ja wyjdę jak pani sobie życzy.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>O i owszem, niech pan zostanie, tylko że to pannie nie wypada być z kawalerem sam na sam.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Przecież tu niema żadnej panny w tym pokoju.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(d. s.)</stage> Co on mówi? <stage>(głośno)</stage> Czy pan mnie nie widzi?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Owszem, widzę panią dobrodziejkę, przecież ja nie ślepy?</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(z przekąsem)</stage> Dla czego pan tak często używa tego wyrazu „pani dobrodziejka”.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ja zwykle przez uszanowanie.</p>
+        </sp>
+      </div>
+      <div type="scene" n="11">
+        <head>SCENA XI.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#ksawera">KSAWERA.</rs>
+            <rs key="#kajcio">KAJCIO.</rs>
+            <rs key="#julja">JULJA.</rs> (wchodzi i słucha w głębi)
+          </p>
+        </stage>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(z gniewem)</stage> Czy pan nie masz dla mnie nic więcej oprócz uszanowania?!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> Przymawia się o prezent. <stage>(głośno)</stage> Kiedy proszę pani dobrodziejki, ja nie jadę z jarmarku.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Panie! pan sobie pozwalasz za grubych żartów.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(zdziwiony)</stage> Grubych żartów.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Gdyby mój papa tu był, to skarciłby pana za to!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(j. p.)</stage> Pani papa! to żyje jeszcze!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(z gniewem)</stage> Mój panie! to są zanadto dotkliwe żarty!</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(n. s.)</stage> On nie wie, że to córka pana Hipolita.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Przepraszam panią dobrodziejkę, ale ja nie wiem o co się tu gniewać.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(z przekąsem)</stage> Pan nie wiesz?!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Papa pani dobrodziejki musi być już sędziwy człowiek.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(po cichu do Kajcia)</stage> Przestań pan, przecież to córka pana Hipolita!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Oj!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(zirytowana)</stage> Dosyć niewczesnych żartów pozwalałeś pan sobie przy śniadaniu, ale te przechodzą granice przyzwoitości! <stage>(odchodzi śpiesznie)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="12">
+        <head>SCENA XII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#kajcio">KAJCIO.</rs>
+            <rs key="#julja">JULJA.</rs>
+          </p>
+        </stage>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Więc to córka pana Hipolita, a ja myślałem, że to pani ciocia.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Ostrzegłam pana w sam czas.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Dziękuję pani bardzo, ale teraz dopiero pojmuję! pan Hipolit gwałtem mnie z nią swatał przy śniadaniu.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Przecież pan po co tu przyjechał.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Rozumie się, ale nie po to, żeby się ożenić z starszą córką, kiedy jest młodsza i ładniejsza. <stage>(z ukłonem do Julji)</stage></p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Przecież pan Hipolit ma tylko jedną córkę.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(zdziwiony)</stage> Jedną tylko, a któż pani jesteś?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Ja jestem Julcia, jestem tutaj panną służącą.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Pa... pa...</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Panną służącą.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Czemu mi pani pierwej tego nie mówiła.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Nie myślałam, żeś mnie pan wziął za córkę pana Hipolita.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(z przestrachem)</stage> Oj, oj! to ja muszę się teraz z tą starą ożenić?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Zdaje się.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>A ileż ona ma lat?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Nie wiem.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Oto śliczną żonę przywiozę do domu!</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Czegóż pan rozpaczasz? przecież pan nie jesteś zmuszony z nią się ożenić?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Jakto nie? jak nie przekonam ojca, że ona była starszą odemnie, to dostanę... <stage>(pokazuje w powietrzu)</stage></p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Jeżeli mnie pan nie zdradzisz, to pana wybawię.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Doprawdy! ja cię za to do Lwowa zawiozę, do którego tak tęsknisz.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Zgoda! Nie trać pan nadziei, a teraz bądź zdrów, bo słyszę czyjeś kroki. <stage>(odbiega)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="13">
+        <head>SCENA XIII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#kajcio">KAJCIO.</rs>
+            <rs key="#hipolit">HIPOLIT.</rs>
+            <rs key="#ksawera">KSAWERA.</rs>
+          </p>
+        </stage>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(za sceną zaczyna)</stage> Uspokój się Ksawerciu, to były tylko żarty.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Oj, słabo mi się robi. <stage>(usuwa się na bok)</stage></p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A zresztą, kto się kocha, ten się kłóci, to już stara facecja. <stage>(ciągnie ją za sobą)</stage></p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Ach! papo ja mu nigdy tego nie zapomnę.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Ktoby tam o tem myślał. <stage>(spostrzegłszy Kajcia)</stage> Patrzaj, stoi jak trusia, czuje, że za wiele przeskrobał, ale jak się z tobą ożeni, to się poprawi. Prawda Kajciu?!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Prawda proszę pana! <stage>(d. s.)</stage> Julci nie ma.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Nie gniewajcie się już! no gadajcie-że raz.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(skromnie)</stage> Ja z mojej strony przebaczam, ale...</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A ty Kajciu przepraszasz? Odezwij że się, zbrodni przecież nie popełniłeś! Ot! żarty jak to zwykle u młodych ludzi. Przepraszasz ją?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Przepraszam panią dobro... pannę Ksawerę.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Tak, tak! otóż to lubię, no! teraz na zgodę pocałujcie się.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Ależ papo!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Co tam ceregiele, ot dajcie sobie buzi i basta. <stage>(przyciąga Kajcia)</stage> A chodźże tu chodź! Żartować umie, a pocałować wstydzi się.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Jak Boga kocham tak...</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Co papa wyrabia.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>To już moja rzecz! No raz, dwa, i... i... i... ja się odwrócę, ja nie będę się patrzeć <stage>(odwraca się)</stage> już?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> Dalibóg nie mogę!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Już?</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>Nie można tak prędko, wstydzimy się.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> Oj! żeby Julcia nadeszła!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Już? bo mu cierpliwości braknie! <stage>(Ksawera i Kajcio nachylają się i całują)</stage></p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(zawstydzona)</stage> Już papo. <stage>(wybiega)</stage></p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Brrrr!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Otóż tak, to lubię, teraz tak jak po zaręczynach, możecie „ty” mówić do siebie, bez ceremonji. <stage>(spostrzegłszy, że nie ma Ksawery)</stage> Aha! wybiegła, uciekła, „nieboraczka spiekła raczka”.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> To mi nieboraczka.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A co Kajciu, jak ci smakowało?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Zdaje mi się, że trochę przestarzała.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(postępuje kilka kroków)</stage> Co? co? moja córka przestarzała.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ja o kozinie mówię, nie o córce.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A to tak gadaj! już byłbym się rozgniewał.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> Probójmy jeszcze ostatniego sposobu. <stage>(głośno)</stage> Proszę pana, jaki pan córce posag daje?</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Aha! chciałbyś zaraz dobić targu, podobała ci się moja Ksawercia.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Niby też to! ale tato powiedział, żebym się nie żenił z panną, co ma mniej jak 25 tysięcy.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Oto się nie obawiaj. Moja Ksawercia dostanie pod poduszkę 50 tysięcy.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> Już ostatni ratunek zniknął.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Ucieszyłeś się? A ja ci powiem, że jak się będziecie dobrze sprawować <stage>(pokazuje dzieci)</stage> to jeszcze dołożę.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(z determinacją)</stage> Co pan woli, czy córkę, czy 50 tysięcy!...</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Nie wiem, dla czego mnie o to pytasz, ale gdyby przyszło do wyboru, toć wolę córkę jak pieniądze.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>A przykro panu będzie bez córki?</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Ha! cóż robić, człowiek przyzwyczaił się do tej szczebiotki, ale na mus rady nie ma.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Dla czego nie ma? niech mi pan da 50 tysięcy, a ja panu córkę zostawię.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Ha, ha, ha! u ciebie zawsze figle w głowie, a gdybym cię tak wziął za słowo, tobyś Ksawerci za miljony nie oddał. Muszę jej opowiedzieć to, będzie się miała śmiać z czego. Ha, ha, ha! <stage>(odchodzi)</stage></p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(sam)</stage> Dla czego śmiać się, dla czego figle, jabym to za darmo zrobił, gdybym się nie bał mojego tata. Jakby się tato dowiedział, że ja pannę z 50 tysiącami w trąbę puścił, to nie miałbym się czego pokazywać do domu. Coś ta Julcia bajdurzyła, że mnie wybawi, ale gdzieby ona to potrafiła. Jabym się nareszcie z Julcią ożenił, żebym się nie bał tata; aj szkoda, szkoda, że ona nie jest córką pana Hipolita.</p>
+        </sp>
+      </div>
+      <div type="scene" n="14">
+        <head>SCENA XIV.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#kajcio">KAJCIO.</rs>
+            <rs key="#julja">JULJA.</rs> (wchodzi na palcach)
+          </p>
+        </stage>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(n. s.)</stage> Aha! stoi biedaczek zafrasowany, nie wie, że ja mam ratunek dla niego.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(spostrzega Julję)</stage> Jesteś przecie! Gadałaś, że mnie wyratujesz, a tymczasem ja tak dobrze jak po zaręczynach.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Tak prędko? Jakim sposobem?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Kazał mi ją pocałować. <stage>(wstrząsa się)</stage></p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>I cóż?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(z żalem)</stage> I ja ją pocałowałem.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Smakowało panu?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Jej smakowało, aż się oblizała.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>I gdzieżeś ją pan pocałował?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Naturalnie, że w gębę.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>A ona nic na to?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Nibyto zawstydziła się i uciekła.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>I kiedyż ślub będzie?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(przestraszony)</stage> Oj oj! to ja muszę już ożenić się! to nie ma już ratunku?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Ha! kiedy pan pocałował, to podług prawa już przepadło.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ja musiałem, bo mi sama nadstawiła, a ojciec stał nademną, jak czart nad grzeszną duszą. O ja nieszczęśliwy!</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Czegóż pan rozpaczasz, będziesz pan miał żoneczkę, własne gospodarstwo.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Całuję rączki... za takie gospodarstwo. <stage>(z rozrzewnieniem)</stage> Julciu! a ty będziesz u nas służyć za pokojówkę?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(z dygiem)</stage> Jeżeli mnie państwo przyjmą...</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(przysuwa się do Julji)</stage> Musisz u nas służyć, będzie nam weselej...</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Mnie się zdaje, że to nie nastąpi.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>A to czemu?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Bo pan się nie ożeni z moją panną!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Aha! nie ożeni!</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Ja pana wyratuję.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(uradowany)</stage> Jakim sposobem?!</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Mówiłeś pan, że musisz przekonać ojca, iż panna Ksawera starsza od pana.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Tak jest! i cóż z tego?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>A gdybyś go pan przekonał?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Czem go przekonam?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Metryką!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>To trzeba ją mieć, a tu prędzej można dąb stuletni wyrwać z ziemi, aniżeli metrykę starej pannie.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>A gdybym ja ją miała?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(uradowany)</stage> Co? ty? nie żartuj, bo aż mi się płakać chce z radości.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(pokazuje papier)</stage> A to co?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(wyrywa papier)</stage> Metryka, wiwat! <stage>(rozwija papier)</stage> urodzona w roku 1831, ma lat 39 panna z 31. roku! A niechże cię uścisnę Julciu! Zobaczysz jak ja się tobie odwdzięczę! Zabiorę cię do Lwowa.</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p>Tylko niech pan nie mówi, że to odemnie.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Dobrze! dobrze! 39 lat! jaki to dobry wynalazek te metryki.</p>
+        </sp>
+      </div>
+      <div type="scene" n="15">
+        <head>SCENA XV.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#kajcio">KAJCIO.</rs>
+            <rs key="#julja">JULJA.</rs>
+            <rs key="#hipolit">HIPOLIT.</rs>
+            <rs key="#hryń">HRYŃ.</rs>
+          </p>
+        </stage>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(wchodzi i słyszy ostatnie słowa)</stage> Co za metryki! jakie metryki? O jakich to metrykach gadacie?</p>
+        </sp>
+        <sp who="#julja">
+          <speaker>JULJA.</speaker>
+          <p><stage>(szarpie Kajcia za połę)</stage> Nie zdradź mnie pan!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>E, to końskie metryki. Julcia nie chce wierzyć, że koniom metryki piszą.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Oczywiście, każdy koń rasowy ma metrykę. To może metrykę końską trzymasz w ręku.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>A tak... tak... to mojej kobyły metryka.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Tej kasztanowatej.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Tak jest, tej kasztanowatej.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>A wiesz co, ładna klaczka, podobała mi się bardzo.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Doprawdy. <stage>(n. s.)</stage> Stara jak świat i ślepa do tego.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Nie śmiem ci zaproponować, ale ja mam drugą taką klaczkę i nie mogę pary dobrać, możebyśmy zafacjendowali?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Dobrze proszę pana, ja zawsze na facjendy końskie gotów. Może ją pan każe przepędzić.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(przez okno)</stage> A dobrze! Hryńku! Hryńku! Chodźno tutaj!</p>
+        </sp>
+        <sp who="#hryń">
+          <speaker>HRYŃ.</speaker>
+          <p><stage>(za oknem)</stage> Co wielmożny pan rozkaże.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(j. p.)</stage> Wyprowadź no tę kasztankę pana Kajetana na dziedziniec po przed okno. Wiesz którą?</p>
+        </sp>
+        <sp who="#hryń">
+          <speaker>HRYŃ.</speaker>
+          <p><stage>(j. p.)</stage> Wiem proszę wielmożnego pana.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Bardzo mi się podobała, bo to i maść ładna i miara dobra.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> O, to się zna? <stage>(głośno)</stage> O tak panie, to zgrabna, zwinna, ganczu żadnego. Doskonałą będzie pan miał parę.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(patrząc przez okno)</stage> O! już prowadzi twoją klaczkę.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> Będę ci ją tak zachwalał, jak ty swoją córkę.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(j. p.)</stage> Podoba mi się. Kłus nie zły.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Śliczna jak anioł!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>E! przesadzasz Kajciu! a ile ma lat?</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Skończyła cztery lata. <stage>(n. s.)</stage> Stara jak świat.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Skończyła cztery, hm, hm! a cóż żądasz za nią?...</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Dasz mi pan 300 guldenów i parę do mojej szpakowatej <stage>(n. s.)</stage> tom mu nasolił!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Jako zięciowi, dam 250 guldenów i konika ładnego, jako parę do twojej szpakowatej. Zgoda? <stage>(podaje dłoń Kajciowi)</stage></p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Zgoda! <stage>(n. s.)</stage> Sam się ocyganił.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(daje mu pieniądze)</stage> Masz tu zaraz pieniądze, żeby prędzej skończyć interes.</p>
+        </sp>
+      </div>
+      <div type="scene" n="16">
+        <head>SCENA XVI.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#kajcio">KAJCIO.</rs>
+            <rs key="#hipolit">HIPOLIT.</rs>
+            <rs key="#hryń">HRYŃ.</rs>
+          </p>
+        </stage>
+        <sp who="#hryń">
+          <speaker>HRYŃ.</speaker>
+          <p><stage>(wchodzi)</stage> Proszu wielmożnego pana.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Czego chcesz?</p>
+        </sp>
+        <sp who="#hryń">
+          <speaker>HRYŃ.</speaker>
+          <p>Klaczka tego jasnego pana łepetę sobie rozwaliła.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Kiedy?</p>
+        </sp>
+        <sp who="#hryń">
+          <speaker>HRYŃ.</speaker>
+          <p>Teraz dopiero. My puścili ją wolno, a ona jak szła do stajni, wyrżnęła łbem o słup i skaleczyła się.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Jakim sposobem?</p>
+        </sp>
+        <sp who="#hryń">
+          <speaker>HRYŃ.</speaker>
+          <p>Takim sposobom, że to ślepa kobyła.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Jakto! cztery lata ma i ślepa.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(n. s.)</stage> To tato ucieszy się, jak mu tę historję opowiem.</p>
+        </sp>
+        <sp who="#hryń">
+          <speaker>HRYŃ.</speaker>
+          <p>Ona ma już ze dwadzieścia lat, ani jednego zęba.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p><stage>(odwracając się do Kajcia)</stage> Dwadzieścia lat, a cóżeś ty mówił, że cztery.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Skończyła cztery tak, jak pańska córka dwadzieścia trzy.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Co mi córkę tak porównujesz!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ja tak facjenduję końmi, jak pan córką.</p>
+        </sp>
+      </div>
+      <div type="scene" n="17">
+        <head>SCENA XVII.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#kajcio">KAJCIO.</rs>
+            <rs key="#hipolit">HIPOLIT.</rs>
+            <rs key="#ksawera">KSAWERA.</rs>
+          </p>
+        </stage>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(wchodzi i staje w głębi)</stage> Co to za hałas?</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Ja panu ślepej córki nie daję!</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Ale starą.</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Co? pan się poważasz...</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p>Poważam się, bo mam metrykę panny Ksawery w rękach!</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p><stage>(występując naprzód)</stage> Papo! to jakiś grubianin!</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Teraz żebyś na kolanach błagał, to nie dostaniesz mojej córki.</p>
+        </sp>
+        <sp who="#ksawera">
+          <speaker>KSAWERA.</speaker>
+          <p>O! ja nie poszłabym za takiego...</p>
+        </sp>
+        <sp who="#hipolit">
+          <speaker>HIPOLIT.</speaker>
+          <p>Opiszę ja ten fakt w gazetach, że całe życie zostaniesz starym kawalerem.</p>
+        </sp>
+        <sp who="#kajcio">
+          <speaker>KAJCIO.</speaker>
+          <p><stage>(we drzwiach)</stage> Ouwa! Co mi zrobicie, kiedy ja nigdy gazet nie czytam!</p>
+        </sp>
+		<trailer>(KONIEC)</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>
