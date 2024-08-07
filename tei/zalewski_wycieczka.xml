@@ -1,0 +1,1377 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000032" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Wycieczka za granicę</title>
+        <title type="sub">Komedia w jednym akcie</title>
+        <author>
+          <idno type="isni">0000000110514636</idno>
+          <idno type="wikidata">Q4185157</idno>
+          <persName>
+            <forename>Kazimierz</forename>
+            <surname>Zalewski</surname>
+          </persName>
+        </author>
+        <!-- Kazimierz Zalewski (1849-1919) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/wycieczka-za-granice-komedja-w-1-akcie,Mzc1MzA1ODg/4/</idno>
+          <title>Zalewski, K., Wycieczka za granicę: komedja w 1 akcie, Warszawa 1872</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="albin" sex="MALE">
+            <persName>Albin</persName>
+          </person>
+          <person xml:id="aniela" sex="FEMALE">
+            <persName>Aniela</persName>
+          </person>
+          <person xml:id="leon" sex="MALE">
+            <persName>Leon</persName>
+          </person>
+          <person xml:id="radost" sex="MALE">
+            <persName>Radost</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-29">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1870">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <titlePart type="series">TEATRY<lb />
+            AMATORSKIE.<lb />
+            II.</titlePart>
+          <docTitle>
+            <titlePart type="main">WYCIECZKA<lb />
+              ZA GRANICĘ.</titlePart>
+            <titlePart type="sub">KOMEDJA<lb />
+              W JEDNYM AKCIE</titlePart>
+          </docTitle>
+          <byline>NAPISANA ORYGINALNIE<lb />
+            PRZEZ<lb />
+            <docAuthor>KAZIMIERZA ZALEWSKIEGO</docAuthor>
+          </byline>
+          <docImprint>
+              <pubPlace>WARSZAWA</pubPlace><lb />
+              SKŁAD GŁÓWNY W KSIĘGARNI <name>GEBETHNERA I WOLFA<name>.<lb />
+              <date>1872</date>.<lb />
+          </docImprint>
+          <imprimatur>Дозволено Цьнзурою.<lb />
+          Варшава 12 (24) Ноября 1871 года.<lb /></imprimatur>
+          <docImprint>
+              w Drukarni i Litografii <name>Ch. Keltera<name>, <address><street>ul. Tłomackie <num>Nr 570 (6)</num>.</street></address><lb />
+          </docImprint>
+        </titlePage>
+        <castList>
+          <head>OSOBY</head>
+          <castItem>
+            <role corresp="#leon">LEON MIREWICZ,</role>
+            <roleDesc>urzędnik i właściciel domu.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#aniela">ANIELA,</role>
+            <roleDesc>jego żona.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#radost">RADOST,</role>
+            <roleDesc>doktór, jego przyjaciel.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#albin">ALBIN,</role>
+            <roleDesc>jego lokator.</roleDesc>
+          </castItem>
+        </castList>
+      <set>
+        <p>(Rzecz w Warszawie, w mieszkaniu Mirewicza)</p>
+        <p>(Salonik gustownie umeblowany, troje drzwi, pjanino, stół z przyborami do pisania)</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>SCENA 1.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#aniela">ANIELA.</rs>
+          </p>
+        </stage>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(sama, za podniesieniem zasłony siedzi przy fortepianie i gra)</stage> Tak grać cały dzień, to także zabawa! Powiada mi, idź się przejść do ogrodu, gdzie nie ma ani żywej duszy; - piękna przyjemność! o Boże mój, Boże! co to za nudy w tej Warszawie w lecie. Bo i na co Pan Bóg to lato stworzył nieznośne! A prawda! dla tych, co jeżdżą za granicę. Na koniec proszę mi powiedzieć, co można robić w czasie upałów w Warszawie? Do teatru nikt nie chodzi, bo za gorąco, o wieczorach, a tem bardziej o balach, mowy być nie może. Ach! co to za życie! Jeszcze, żeby choć mąż był przy mnie, ale nawet, i to nie, codzień w biurze po kilka godzin zajęty, a w niedzielę comme des petits bourgeois endimanchés idziemy do Saskiego ogrodu, lub w aleje na spacer. Czyta się czasem w gazecie: „cały świat modny, dystyngowany, zebrał się na wodach, albo w dolinie Szwajcarskiej”, to nieprawda! ci dziennikarze to tylko same kłamstwa piszą. Cały modny świat w lecie bawi za granicą, tak było, tak jest i tak będzie. <stage>(podczas całego tego monologu gra coraz mocniej na fortepianie)</stage> Pękła stróna, do reszty się rozklekotał ten fortepjan, ale bo też grałam tak mocno. Jestem zdenerwowana, chora... Chora! co za myśl! żebym ja mogła tak lekko zachorować, Leon nie mógł by mi odmówić wyjazdu za granicę. Tak! ale cóż! jestem zdrowa na nieszczęście; nawet palec mnie nie zaboli, a w zimę to jak na złość chorowałam. Już to mnie wszystko tak się wiedzie, a jednak, żeby to można jakoś. Dałabym rok życia za jeden miesiąc w Spa, Ems albo Ostendzie; do innych wód jechać niemodnie. Bo co to za przyjemność nawet po powrocie rozpowiadać swoje wycieczki: byłam w Spa, moja droga, jakeśmy się bawiły! a jakie toalety! Moja zwróciła uwagę Księcia de... albo Hrabiego von... Ach co to za rozkosz, ale nie dla mnie. <stage>(gwałtownie)</stage> Dla czego nie dla mnie, kiedy ja tak chcę; wszakże nas stać na to. Mamy dom; Leon ma pensji ośm tysięcy, prawda, że wyjeżdżać nie może, to i cóż? pojechałabym z ciocią. Tak, ale mój pan mąż jest zazdrosny i to do najwyższego stopnia. Wiem o tem dobrze jak spogląda na naszego lokatora z góry, który nawiasem mówiąc, jest tak niewinnym jak baranek. <stage>(po chwili namysłu)</stage> Jedna tylko osoba, mogła by mi tu dopomódz, Radost doktór, i przyjaciel mojego męża. Gdybym go prosiła. Bardzo mnie lubi, a jakkolwiek w ogóle jest przeciwny wyjazdom za granicę, to dla mnie będzie pobłażliwszym. On tu codzień przychodzi... spróbuję... powiem mu... E! znajdę mu co powiedzieć.</p>
+        </sp>
+      </div>
+      <div type="scene" n="2">
+        <head>SCENA 2.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#aniela">ANIELA.</rs>
+            <rs key="#radost">RADOST.</rs>
+          </p>
+        </stage>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p><stage>(mówi za sceną)</stage> No dobrze, dobrze! Wiem, że pana nie ma, to i cóż ztąd?</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(n. s.)</stage> To on! jakże w porę przychodzi, ale coś rozgniewany.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p><stage>(wchodząc)</stage> Sodoma i Gomora, co się dzieje w tem mieście. A! moje uszanowanie pani dobrodziejce. Cóżem to chciał powiedzieć, śliczne rączki całuję.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Witam kochanego doktora, ale dla czegoż w tak złym humorze?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Dla czego!... dla czego! Dla tego pani dobrodziejko, że Warszawa robi się dzisiaj stekiem zepsucia i demoralizacji. O to dla tego.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Aż tak okropnie!</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>A tak, cóżem to chciał powiedzieć; tak pani dobrodziejko!</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Cóż się stało przecie? za cóż wyrok potępienia?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>E! co tam mówić! albo nie, cóżem to chciał powiedzieć! powiem! właśnie powiem. Niech sobie pani dobrodziejka wyobrazi, macie tu państwo na górze lokatora, pana Albina, którego ojca, poczciwego szlachcica znam od lat kilkunastu. Przysyła on tedy do mnie, cóżem to chciał powiedzieć, że jest chory, żebym do niego przyszedł, przychodzę więc i zastaję... zastaję wymuskanego elegancika, który wpycha mi w rękę dziesięcio-rublowy papierek i prosi...</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>O co?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>O co! do miljon kroć sto tysięcy fur beczek laudanum, krew się we mnie burzy, jak sobie to przypomnę! Prosił mnie, żebym mu list do ojca napisał; list do ojca, że jest chory, i że, cóżem to chciał powiedzieć, z mojego przepisu musi jechać za granicę.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>I za to taki gniew srogi?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>A czy nie ma za co pani dobrodziejko? Jak to? dla tego, że stary ma we mnie zaufanie, to on chce, cóżem to chciał powiedzieć, żebym ja mu pieniądze z kieszeni wydurzył i dał sposób synowi przehulania ich za granicą! A pani dobrodziejko do miljon kroć sto tysięcy fur beczek...</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Laudanum?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Nie! morfiny. Fircyk jakiś! poczekaj napiszę ja ci list!</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Ale jeśli rzeczywiście słaby?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Żeby to choć słaby pani dobrodziejko, ale zdrów jak lew, cóżem to chciał powiedzieć.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(na stronie)</stage> Oj! zdaje mi się, że moja sprawa na złej drodze, ha! sprobójmy. <stage>(głośno)</stage> Więc pan doktór jesteś tak stanowczym przeciwnikiem wód zagranicznych?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Tak pani dobrodziejko; chyba w ostatniej konieczności.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Ale dla czego panie doktorze?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Dla tego, że i tak mamy za mało pieniędzy, nie potrzeba ich za granicą marnotrawić.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Więc pan życzył byś sobie, żeby ani jeden grosz nie wychodził od nas z kraju?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>A tak! tego bym właśnie chciał, pani dobrodziejko. Niech młodzi skończywszy tu nauki, jadą się dalej uczyć za granicę, ale prawdziwie uczyć, niech chorzy, ale prawdziwie chorzy jadą się leczyć, a zresztą nikt, cóżem to chciał powiedzieć.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Pokaż mi doktorze ten kapelusz z łaski swojej.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p><stage>(podając jej swój kapelusz)</stage> Oto jest! służę pani dobrodziejce.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(czytając napis we środku)</stage> Gibus de Paris.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Paryzki, prawdziwy. Lepsze są one i trwalsze, aniżeli krajowe.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A jakie cygara palisz doktorze?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Zwykle Manilla, a tak od zbytku czasami hawańskie, cóżem to chciał powiedzieć, krajowe nie są tak smaczne, pani dobrodziejko. Ale na co to pytanie? Czyżby i pani... <stage>(pokazuje na cygaro)</stage></p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>O nie! pytałam się tylko z ciekawości. Jaką ładną masz pan laskę?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Prawda że ładna, przywieziono mi ją w podarunku z Wiednia, kosztuje 10 reńskich.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Przepraszam pana najmocniej za to pytanie, ale która też jest teraz godzina?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Bez pięciu minut - pierwsza.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A jaki piękny zegarek! niezawodnie genewski?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>A jakże pani dobrodziejko! regularny, jak ja sam.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>No i ty doktorze piorunujesz na wysyłanie pieniędzy za granicę, nosząc kapelusz paryzki, ubranie z kortu angielskiego, obuwie ze skóry hamburgskiej, zegarek genewski, laskę mając wiedeńską i cygara paląc hawańskie, doprawdy łatwo moralizować.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>A! to podstęp pani dobrodziejko. Ale cóżem to chciał powiedzieć, to nic nie dowodzi.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Przeciwnie, to dowodzi, że kiedy kto sobie co pozwala, to innym tego bronić nie powinien, kupujesz pan wszystko za granicą?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Tak, bo tam jest wszystko lepsze.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A my tam chcemy jechać, bo tam się lepiej bawią.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Pani dobrodziejko, tu nie ma porównania.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Doktorze najdroższy! jest porównanie, a najlepszym dowodem to, że ja porównałam i że się w kraju okropnie nudzę w lato.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Cóż z tąd pani dobrodziejko?</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>To ztąd doktorze, że ponieważ się nudzę, chcę się bawić, aby się bawić potrzebuję wyjechać, a na to, aby wyjechać potrzebuję... pana.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Mnie? cóżem to chciał powiedzieć.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A tak! ciebie, doktorze. Musisz skłonić Leona, aby mi pozwolił wyjechać z Ciocią...</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Dokąd?</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Do Spa, Ems, albo Ostendy.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Ja pani dobrodziejko! cóżem to chciał powiedzieć, to się wręcz sprzeciwia wszystkim moim zasadom.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Ależ doktorze, dowiodłam ci przed chwilą, że nie masz żadnych zasad.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Mam, czy nie mam, jednak od nich nie odstąpię.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Odstąpisz doktorze, odstąpisz, Ileż to razy mówiłeś, że dla mnie wszystko gotów jesteś uczynić... nawet w ogień wskoczyć.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Pani dobrodziejko, tu nie idzie o ogień, ale o wody i pieniądze.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Za to też tak pana będę kochać, uściskam pana trzy razy.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>A to jest dom pokuszenia, tylko co tamten na górze, chciał mnie przekupić biletem bankowym, a teraz pani...</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A ja uściskiem.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Tak, bo już szósty krzyżyk kończę.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Najdroższy doktorze, dasz się ubłagać.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Ba! Pani dobrodziejka zrobisz ze mnie kozła barana.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A więc namówisz go pan?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>No! ależ ja nawet nie wiem jakby to zrobić?</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>O nic łatwiejszego. Powiedz mu pan, że jestem cokolwiek cierpiącą, tylko nie bardzo, bo by się zmartwił, i że koniecznie do wód jechać potrzebuję. On ma takie w panu zaufanie.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Tem ci gorzej, jeśli go nadużywam.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Tylko na dwa miesiące doktorze, jak cię kocham tylko na dwa miesiące.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Aj! pani dobrodziejka każesz mi srogo pokutować, za moją słabość dla płci pięknej.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>To też ulegasz pan tylko natarczywym prośbom.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>A któżby to nie uległ, cóżem to chciał powiedzieć, takiej pokusie.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Więc zgadzasz się pan nie prawdaż? o jakże panu będę za to wdzięczną. Po powrocie Leona z biura zaraz przypuszczamy do niego atak.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Oboje razem.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Tak, ale w razie silnego oporu, ostrzegam pana, że zdezertuję.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>A ja pani dobrodziejko, cóżem to chciał powiedzieć.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Pan jako mężczyzna, powinieneś dotrzymać placu.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Tak, gdybym to ja bronił moich przekonań.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Jeszcze więcej doktorze, bo będziesz walczył jak rycerz za swoją damę. I oto, aby pana bardziej zachęcić, przypinam panu moje barwy. <stage>(odpina kokardkę i przypina mu ją)</stage> Ot tak.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Cóżem to chciał powiedzieć, żebym tak był ze trzydzieści lat młodszy.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A daj pokój doktorze. Leon już i tak jest dosyć zazdrosny.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Ma o co, jak Boga kocham, ma o co pani dobrodziejko.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Aha! zdaje mi się, że słyszę mego męża na schodach. No doktorze odważnie i śmiało do ataku! Proszę pamiętać, że nosisz moją kokardę.</p>
+        </sp>
+      </div>
+      <div type="scene" n="3">
+        <head>SCENA 3.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#leon">LEON.</rs>
+            <rs key="#radost">DOKTÓR.</rs>
+            <rs key="#aniela">ANIELA.</rs>
+          </p>
+        </stage>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Jak się masz Anielciu! A! witam cię kochany Radoście. Zabawiasz mi żonę podczas mojej nieobecności, stary bałamucie. Zostaniesz u nas na obiedzie zgoda?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Widzisz, cóżem to chciał powiedzieć, mam jeszcze kilka wizyt na mieście; pacjenci czekają.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>To pójdziesz do nich przed objadem, jeszcze masz czas, dopiero w pół do drugiej.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(n. s.)</stage> Doktorze nie puszczam cię. Jakbyś się wymknął, tobyś już nie powrócił.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p><stage>(do Anieli)</stage> Wszakże mieliśmy atakować we dwoje? Niech pani dobrodziejka zaczyna.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Co tam szepczecie z doktorem Anielciu?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Dowiesz się i tak zawcześnie.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>O mój Boże cóż to takiego, - przerażasz mnie.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Uspokój się Leonie, nie jest to nic zatrważającego.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Przeciwnie, ja uważam, że bardzo.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Przesadzasz pan. Doktór egzaminował mnie tutaj, podczas twojej nieobecności. Miałam ból głowy i mdłości lekkie, a jakkolwiek to choroba niezatrważająca...</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>To jednak musimy rozpocząć radykalną kurację.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Ale jaką?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Jaką, jaką? cóżem to chciał powiedzieć jestem zmuszony pomimo moich zasad przepisać pani podróż do Ems. <stage>(n. s.)</stage> No wypowiedziałem swoje, nie myślałem, że mi to tak gładko pójdzie.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(na stronie do Radosta)</stage> Doktorze! ja wolałabym do Spa.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p><stage>(n. s.)</stage> Daj kurze grzędę. <stage>(do Anieli)</stage> Pani Dobrodziejko ja uważam, że i tak już dosyć.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Widzisz Anielciu! ty mi nic nie mówiłaś, że jesteś słabą, gdybyś się wcześniej zaczęła leczyć...</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Niechciałam cię martwić, zresztą sama nie wiedziałam o tem, doktór dopiero otworzył mi oczy.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Ja pani dobrodziejko!... Tak jest cóżem to chciał powiedzieć. <stage>(n. s.)</stage> O jakżem dobrze zrobił, żem się nie ożenił.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Więc ty myślisz Radoście, że choroba Anielci stanowczo w kraju wyleczyć się nie da.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(do doktora)</stage> No odpowiedzże pan, <stage>(głośno)</stage> gdyby był jaki środek <stage>(do doktora)</stage> powiedz pan, że nie ma żadnego.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>A tak nie ma żadnego. To jest nie, cóżem to chciał powiedzieć, najskuteczniej podziała podróż do Ems <stage>(n. s.)</stage> bo na przyszły rok sprawi recydywę.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Mój Boże, tak to jakoś nagle wypadło, ha! cóż robić, twoje zdrowie przedewszystkiem, lecz z drugiej strony, nie wiem jak my to urządzimy, bo ja z tobą jechać nie mogę, moje obowiązki w kraju mnie zatrzymują.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Wiem, że ciocia w tym roku wybiera się za granicę, a dla niej jest wszystko jedno do jakich wód pojedzie.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p><stage>(n. s.)</stage> Tak, jak i dla siostrzenicy.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>To napisz że do niej Anielciu, a ja zrobię staranie o paszport, ażeby w tych dniach wszystko było gotowe do drogi.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Tak mnie prędko chcesz wyprawić!</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Wszakże tem prędzej powrócisz, idź, idź napisać list, a ja tymczasem pomówię z doktorem.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(n. s.)</stage> W tej chwili żal mi doprawdy mojego podstępu. Biedny Leon! zmartwił się, tak mnie kocha... Ha! trzeba skończyć, com zaczęła, powrócę przecież niedługo. <stage>(wychodzi)</stage></p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A teraz mój Radoście powiedz mi na serjo, czy Anielce nic nie grozi, wody Ems zwykle się przepisuje dla osób piersiowych, czyżby Anielka miała być dotkniętą piersiową słabością, proszę cię, nie ukrywaj nic przedemną.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p><stage>(n. s.)</stage> Otóż masz <stage>(głośno)</stage> cóżem to chciał powiedzieć, bądź spokojny w tej mierze, wróci najzupełniej zdrowa..., <stage>(n. s.)</stage> bo zdrowa pojedzie.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>To mnie cokolwiek uspakaja, ale jakiego jest rodzaju jej słabość.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>E! cóżem to chciał powiedzieć, to jest słabość czysto kobieca, nerwowa.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Hm... niezmiernie przykre dla mnie takie rozłączenie, gdybym chociaż mógł z nią pojechać... a długo potrwa kuracja?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Nie więcej nad dwa miesiące, gdyby nawet chciała dłużej zostać, nie pozwalaj, mogło by jej to zaszkodzić, a teraz do widzenia, idę do moich pacjentów.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Ale powrócisz na objad, będę cię prosił o ostateczną instrukcję, jak się ona u wód ma zachowywać, co do djety, spacerów...</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Dobrze, dobrze, wrócę za półgodzinki, <stage>(n. s.)</stage> Oj kobiety! kobiety! cóżem to chciał powiedzieć... <stage>(wychodzi)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="4">
+        <head>SCENA 4.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#leon">LEON.</rs> (sam, siada przy stole z boku, później)
+            <rs key="#albin">ALBIN.</rs>
+          </p>
+        </stage>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Na dwa miesiące... To zawsze pociągnie za sobą spory wydatek, ze trzy albo i cztery tysiące, ja będę za to w domu oszczędzał, odprawię sługi, będę się stołował w restauracyi, trzeba zrobić poświęcenie, dla zdrowia Anielki. Będzie mi tu tęskno i nudno... Ems, to wody modne, massa osób, młodzieży co nie wiedzieć po co kręci się po świecie... Jak ten z góry. No pozbędę go się z domu przez ten czas, zresztą komorne mi winien za dwa kwartały... wyeksmituję panicza. <stage>(po chwili)</stage> Anielka będzie tam z ciotką, to osoba poważna, której można zaufać; no i Anielce przecież można zaufać.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p><stage>(wchodzi nie widząc Leona)</stage> Powinienem ją teraz zastać, on pewno jest w biurze... Zawsze to z kobietą łatwiej niż z mężczyzną.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(nie widzi Albina)</stage> A tego hołysza wyprawię, bo jakkolwiek jestem zupełnie spokojny, że Anielka nie zwraca na niego uwagi, to jednakże...</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p><stage>(j. w.)</stage> Niegodziwy rządca nie chce mi wydać kwalifikacji do paszportu, podając jakoby za powód, żem za dwa kwartały komornego nie zapłacił. Pokazałbym ja mu komorne! ale cóż, teraz jestem zmuszony - jeśli się nie wyproszę, to będę musiał zapłacić. Kto to wymyślił te niefortunne przepisy policyjne.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(wstaje i zaczyna chodzić po scenie)</stage> Choćby mi chciał płacić podwójną cenę, wyrzucę go z domu. Tak jest wyrzucę. <stage>(spostrzega Albina)</stage> A to co.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p><stage>(jąkając się)</stage> To, to jestem ja... <stage>(n. s.)</stage> A to mi się szykuje, rano z doktorem, a teraz jego potrzebowałem tu zastać.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(ze złością, hamując się)</stage> Widzę dobrze, że to pan, ale jakiejże okoliczności zawdzięczam szczęście pańskich odwiedzin.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p><stage>(n. s.)</stage> On ma coś tak dziwnego we wzroku. <stage>(głośno)</stage> To jest ja... nie spodziewałem się tutaj zastać pana dobrodzieja.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(j. w.)</stage> Tak! no proszę, ale ponieważ mnie pan zastałeś, to czybyś nie był łaskaw wytłumaczyć mi na koniec, co sprowadza pana do mojego mieszkania, w przewidywaniu mojej nieobecności.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Ja panie dobrodzieju chciałem się widzieć z panią <stage>(n. s.)</stage> jak on te oczy wytrzeszcza, zupełnie jakby mnie chciał połknąć.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Z moją żoną!... i można wiedzieć czego to pan chciałeś od mojej żony?</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>To jest, ja przyszedłem tutaj z największą prośbą. Rzecz się ma tak <stage>(n. s.)</stage> trzeba mu co zablagować, może go wzruszę i wyda mi to utrapione świadectwo. <stage>(głośno)</stage> Pan dobrodziej widzi zapewne na mojej twarzy, żem w ostatnich czasach wychudł i zmizerniał.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Nie! ja nic na pańskiej twarzy nie widzę.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>A jednak tak jest panie dobrodzieju. Otóż spostrzegając, że z każdym dniem jestem słabszy i niknę prawie w oczach - zawezwałem doktora.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Arcyroztropnie pan postąpiłeś, ale to mnie jeszcze nie objaśnia, co pan chcesz od mojej żony.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Doktór nawet znajomy i przyjaciel pański, pan Radost uznał, że jestem bardzo i niebezpiecznie chory.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Ale cóż mnie to obchodzi?</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Na chorobę piersiową i dla tego kazał mi jak najprędzej rozpocząć kurację.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>W mojem mieszkaniu?</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Nie panie, kazał mi wyjechać.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Wyjechać!</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>I to natychmiast.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Cudownie panu poradził.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Tak, ale cóż kiedy...</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(podchwytując)</stage> Są przeszkody?</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Właśnie też dla nich tu przyszedłem.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(n. s.)</stage> No! a więc nie do mojej żony, <stage>(głośno)</stage> o cóż panu chodzi.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>O kwalifikację do paszportu, bez której wyjechać nie mogę, a której rządca domu stanowczo mi odmawia.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Także mi pan mów, więc pan przyszedłeś...</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Prosić pana dobrodzieja o karteczkę do rządcy, aby mi świadectwo wydał.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Tak, ale on musiał mieć przecież powód do odmowy.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Nie! broń Boże! Ma jakąś ukrytą złość do mnie.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Nie miałby przecież prawa sprzeciwiać się panu.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Podaje niby to za przyczynę, że w opłacaniu komornego zaległem trochę.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A więc jakże będzie?</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Ja zaraz po powrocie zapłacę.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A ja bym wolał przed wyjazdem, no ale mniejsza o to, chcę wierzyć, że pan jesteś rzetelnym dłużnikiem i w tej chwili panu kartkę napiszę, <stage>(n. s.)</stage> pozbędę go się przynajmniej raz na zawsze, bo mi z pewnością nie zapłaci. <stage>(pisze świadectwo)</stage></p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p><stage>(n. s.)</stage> A to mi się blaga udała. Jak świadectwo dostanę to niech mu tam Radost powie... Myślał, że on jest jedynym doktorem w Warszawie, a ja w kwadrans już od innego list do ojca miałem. Prawda, że mój stary Radostowi najlepiej ufał, alem mu też napisał, że wyjechał. Tak tedy za trzy tygodnie jestem w Ems. Ojciec pieniędzy przysyła, za komorne nie płacę i żenię się bogato! Górą nasi!</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Dokąd pan jedziesz, bo muszę tu napisać?</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Za granicę łaskawy panie, do Ems.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(gwałtownie)</stage> Do Ems! powiedziałeś pan do Ems!</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>A tak jest, powiedziałem do Ems, <stage>(n. s.)</stage> temu się znów co stało.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Do Ems... oboje razem... A to jest okropne.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p><stage>(zbliża się do stołu, chcąc wziąść kartkę)</stage> Czy już mogę zabrać, zdaje mi się, że gotowa.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Nie panie i nie będzie gotowa.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p><stage>(na stronie)</stage> Co on fiksum dostał nagle. <stage>(głośno)</stage> Dla czego? przecież przed chwilą mówił pan dobrodziej...</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Ja nic przed chwilą nie mówiłem.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Ale słyszałem.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Zdawało się panu.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Więc mi pan kartki nie wyda?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Nie wydam.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Stanowczo?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Najzupełniej stanowczo.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Ha! no jeśli tak, to zmuszony będę poszukać innego środka.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Ciekawym jakiego?</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>To już do pana nie należy, <stage>(n. s.)</stage> teraz mogę być nie grzeczny, kiedy mi odmówił, ale co się jemu stało, <stage>(głośno)</stage> żegnam.</p>
+        </sp>
+      </div>
+      <div type="scene" n="5">
+        <head>SCENA 5.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#leon">LEON.</rs> (sam, później)
+            <rs key="#aniela">ANIELA.</rs>
+          </p>
+        </stage>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Poszedł, tak daleko posunąć udawanie i bezczelność!... Ale co za szatański pomysł, oczywiście zmówili się wyjechać oboje razem. Tu, ja im przeszkadzałem. Od dawna już miałem podejrzenie. Ile razy wracałem z biura, zawszem go zastawał na schodach albo pod mojemi drzwiami. A teraz ta nagła jej słabość!... Nie pozostawili mi najmniejszej wątpliwości. Ale Radost! czy on wiedział! i ze świadomością dał się wciągnąć do tak haniebnego spisku przeciwko mnie, czy też... Wiedział, musiał wiedzieć, czyliż go nie widziałem, jak szeptał z Anielą - dawali sobie ciągłe znaki porozumienia - z resztą wszak oboje razem wyprawiał, <stage>(po chwili)</stage> ha! zdrajczyni, ale się to tak nie skończy! rozwód! rozwiodę się z nią. Mam punkta do rozwodu. Pójdę do mecenasa, powiem mu wszystko, niech całe miasto zna moją hańbę. O to miasto, które dzisiaj jest stekiem brudu, kału i bezeceństwa. Żony zwodzą mężów, mężowie zwodzą żony, ale to rzadziej, dzieci zwodzą rodziców, - lokatorzy właścicieli domów, handlarze kupujących, doktorzy pacjentów - a mnie - wszyscy. Żona, doktór i lokator. Ale się zemszczę, a ha! idzie tu właśnie moja zacna małżonka, kto by pomyślał, że pod tą niewinną powierzchownością, tak szkaradny fałsz się gnieździ. Miarkujmy się. Zobaczę do jakiego stopnia obłudę posunąć można.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Napisałam już list Leonie, widzisz jakem się pośpieszyła.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>O! ty się w wielu rzeczach umiesz śpieszyć <stage>(na stronie)</stage> nie mogę panować nad sobą.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Ale z taką łatwością mój mężu przystałeś na nasze rozstanie, że doprawdy możnaby pomyśleć, że mój wyjazd nie sprawia ci przykrości.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(na stronie)</stage> Nie wiem czy wytrzymam, <stage>(głośno)</stage> tak sądzisz?</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Ja tak nie myślę, ale możnaby tak sądzić.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Wytłomaczyłem sobie. Wiem, że jesteś tak dobrą żoną i tak mnie kochasz, że gdybyś w istocie nie była zmuszoną wyjechać, to byś pewno opuścić mnie nie chciała.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(na stronie)</stage> Chęć mnie bierze powiedzieć mu wszystko i pozostać w domu, <stage>(głośno)</stage> widzisz Leonie, słabość moja tak lekka, że z pewnością i w kraju wyleczeć by się dała.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(na stronie)</stage> Teraz zaczyna grać komedją, ale to się skończy tragicznie.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Doktór jest tak poczciwy, tak nam dobrze życzy, może przez zbytek przychylności...</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(na stronie)</stage> Zdrajca, którego przekupili oczywiście, kazał im obojgu wyjeżdżać, <stage>(głośno)</stage> A tak! dziś mi dał najlepszy dowód swojej przyjaźni.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A więc chcesz, żebym koniecznie wyjechała?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A tego już za wiele mościa pani, dowiedz się, że wiem o wszystkiem.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>O wszystkiem, powiedział ci Radost.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Tak jest! wiem wszystko.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Wszystko.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A co! ani jednej chwili się nie zapiera.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(na stronie)</stage> Niegodziwy doktór, ja to przeczuwałam, kiedy ich zostawiłam sam na sam. Co tu robić; ha! trzeba uderzyć w pokorę, <stage>(głośno)</stage> Leonie! czy ty na prawdę tak bardzo gniewasz się na mnie za to?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Ona się pyta, czy ja się bardzo gniewam za to. To mało powiedzieć, ja się wściekam, ja bym bił, kąsał, mordował.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Bo widzisz doprawdy, jam nie tak winna jak ci się zdaje, zawsze w dzień jesteś w biurze zajęty a w lecie to tak nudno siedzieć samej.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Umiałaś też sobie uprzyjemnić samotność.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Co przez to chcesz powiedzieć.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>O! moja pani nie grajmy komedyi, to się na nic nie przyda. Powiedziałem już, że wiem o wszystkiem.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Ależ nareszcie co wiesz? bo jeżeli ci powiedział doktór.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Doktór nic mi nie powiedział, zjednałaś go sobie zupełnie.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A zatem.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A zatem dowiedz się, że tu był pan Albin.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Pan Albin? no i cóż ztąd?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>I pani śmiesz mnie pytać co ztąd?</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Pani!?... nic nie rozumiem.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Jak to więc ta nagła choroba, ten oddawna uplanowany wyjazd do Ems razem z nim, to jeszcze mało, to jeszcze pani nie objaśnia.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Z nim!... O kim ty mówisz Leonie.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Nie! ta kobieta w hypokryzyi, przechodzi wszystkie komedjantki.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Przyznaję, żem zawiniła Leonie, ale co uważam, że ty z twojej strony zapominasz o tem, co się należy żonie, a nawet każdej kobiecie, o grzeczności i przyzwoitości. Pozwolisz zatem, że odejdę do mojego pokoju.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Pani nigdzie nie odejdziesz, zostaniesz tu i wysłuchasz mnie aż do końca.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>O tyle, o ile nie zapomnisz o szacunku, jaki mi się od ciebie należy.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Nic się pani odemnie nie należy, odsyłam panią do familii i rozpoczynam kroki rozwodowe. Z tym Albinem, sam się załatwię, a doktora zdyfamuję przez pisma publiczne.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Tak, to dobrze, bardzo dobrze, <stage>(płacząc)</stage> byłeś dla mnie zawsze złym mężem, ciągle mi tylko dokuczałeś, męczyłam się tylko z panem, byłeś pan zazdrosny, tyran, nieludzki, jestem szczęśliwa, że się to wszystko raz skończy, bardzo szczęśliwa.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>O ja wiedziałem o tem, żeś mnie pani nigdy nie kochała, wyjście twoje za mnie było tylko spekulacją, miałem dom, byłem urzędnikiem...</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A ja miałam urodę, młodość, wykształcenie i nie taką jak pan znalazłabym partję.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Czemużeś jej pani nie wyszukała?</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Bom była nierozsądna, zaślepiona, wszyscy mi odradzali, krewni, przyjaciele, nawet ojciec i mama, widać że znali pański brzydki charakter, jam ich słuchać nie chciała, to też mam teraz.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A pani myślałaś, że znajdziesz we mnie męża wyrozumiałego.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Nie, ale który by się nie unosił, sam nie wiedząc czego.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Podoba mi się to, ja nie wiem dla czego się unoszę.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A nie wiesz pan, bo jeśli ci doktór cóś powiedział.</p>
+        </sp>
+      </div>
+      <div type="scene" n="6">
+        <head>SCENA 6.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#leon">LEON.</rs>
+            <rs key="#aniela">ANIELA</rs>
+            <rs key="#radost">RADOST.</rs> (który wszedł na ostatnie słowa)
+          </p>
+        </stage>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Otóż jestem z powrotem, słyszę, że mówicie państwo o mnie, ale cóż to ja widzę, Leon czerwony jakby miał dostać apopleksyi, pani zapłakana, cóżem to chciał powiedzieć.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(odciągając Radosta na swoją stronę)</stage> Możesz pan podziwiać swoje dzieło. Potrzebowałeś pan wypaplać wszystko jak baba, czy nie można mi było powiedzieć, jabym była i tak nie pojechała, a pan wolałeś narobić plotek, pokłóciłeś męża z żoną - wstydź się pan, nigdym się po panu tego niespodziewała.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Ja, cóżem to chciał powiedzieć, miałem wypaplać? co! o czem pani dobrodziejka mówi.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(odciągając do siebie)</stage> Radoście! miałem cię dotąd za swojego przyjaciela i uczciwego człowieka, ale dziś...</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p><stage>(oburzony)</stage> Hę.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(j. w.)</stage> Tobie na starość mieszać się w taką skandaliczną intrygę, pfe wstydź się.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>O czem ty mówisz, a to chyba cóżem to chciał powiedzieć, epidemja mózgowa przez to mieszkanie przeleciała nagle.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(j. w.)</stage> Aha! zapieraj się pan teraz. <stage>(przechodzi na lewo i siada z boku, płacząc)</stage></p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Ale przysięgam pani dobrodziejce, że...</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(j. w.)</stage> Udawaj niewiniątko.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Słuchaj no na koniec, proszę cię, cóżem to chciał powiedzieć, jeżeli twoja żona ma mnie w podejrzeniu, to wiem przynajmniej o co... ale ty cóżem to chciał powiedzieć, czego ty chcesz odemnie?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Czego ja chcę? Ty, czy nie ty namawiałeś mnie, abym moją żonę do Ems wyprawił?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>No jeśli o to ci tylko idzie, to widzisz cóżem to chciał powiedzieć... moja słabość. Ja się oprzeć nie mogę, jak mnie o co... piękna kobieta prosi.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Czy i Albin jest także piękna kobieta, żeś go chciał wyprawić z tą panią?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Albin?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A tak! Albin, Albin, udawaj zdziwionego. Patrzy się na mnie.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Patrzę się, cóżem to chciał powiedzieć, czyś ty nagle bzika nie dostał?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Mój panie.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Mój panie i mnie także zaczyna nudzić to wszystko. Można o mnie wiele rzeczy powiedzieć, ale żebym ja protegował wybryki i rozpustę jakiegoś fircyka... kto tobie mógł taką myśl podsunąć?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A któżby? on sam.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>On!</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A tak, on! był tu, sądził, że mnie nie ma w domu, chciał widać razem z tą panią robić projekta do dalszej podróży. Zamówił się o kwalifikację do paszportu.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>No tak! to poczekajże, chodź ze mną, pójdziemy natychmiast do niego, cóżem to chciał powiedzieć, sprawdzimy rzecz na gruncie.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Pójdźmy! ale nie potrzebujemy chodzić, patrzaj o to i on.</p>
+        </sp>
+      </div>
+      <div type="scene" n="7">
+        <head>SCENA 7.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#leon">LEON.</rs>
+            <rs key="#aniela">ANIELA.</rs>
+            <rs key="#radost">RADOST.</rs>
+            <rs key="#albin">ALBIN.</rs>
+          </p>
+        </stage>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p><stage>(n. s.)</stage> Sprzedałem hurtownie całą garderobę, zostawiłem sobie tylko frak i tę żantylkę, pamiątkowy zegarek także w kurs puściłem, no, ale mam za to tyle, ile mi potrzeba, <stage>(do Leona)</stage> proszę pana, o to jest 62 ruble z kopiejkami, moje komorne za dwa kwartały. A teraz sądzę, że nie możesz mi pan dłużej odmawiać pozwolenia na wyjazd?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(odpychając Albina do doktora)</stage> No masz go, rozmawiaj się z nim.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p><stage>(impetycznie)</stage> Panie! cóżem to chciał powiedzieć.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p><stage>(n. s.)</stage> Radost! a tom się wplątał, dowiedział się o mojem kłamstwie i gotów mi jakiego figla u starego wypłatać. Ha! trzeba się ratować, <stage>(głośno)</stage> panie doktorze! Ja pana najmocniej przepraszam za kilka słów niekoniecznie prawdziwych, które tu przed chwilą powiedziałem; ale...</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Ale co?</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Ale byłem w okropnym ambarasie pieniężnym i jedynie w celu zaoszczędzenia sobie na pewien czas, tego co się należało za komorne, wymyśliłem tę małą bajkę. Jestem bowiem zmuszony przy moich szczupłych funduszach gonić za narzeczoną za granicę.</p>
+        </sp>
+        <sp who="#radost #leon">
+          <speaker>RADOST I LEON.</speaker>
+          <p>Narzeczoną!</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>A tak! i ja sądziłem że pan dobrodziej oddawna wie o tem, jako właściciel domu, w którym państwo Babtusiewiczowie sklep trzymają.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Więc to z panną Babtusiewiczówną?</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Anastazją do usług.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>To dla tego ja tak często widywałem pana na schodach i podedrzwiami mojego mieszkania.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p><stage>(sentymentalnie)</stage> To około ich drzwi kręciłem się. Rodzice panny przez pewien czas byli przeciwni tym związkom, ale dziś dowiedziawszy się o mojej prawdziwej pozycyi, że jestem syn obywatelski i dobrze urodzony.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Zgadzają się chętnie, winszuję panu, serdecznie winszuję.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p><stage>(n. s.)</stage> Proszę! jak teraz nagle wygrzeczniał, ale prawda! powiedziałem mu, że się bogato żenię.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Patrzajże pan, cóżem to chciał powiedzieć, a Leon myślał...</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(wstrzymując Radosta)</stage> Dajże pokój, cóż znowu?</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(która przez całą poprzednią scenę siedziała na boku)</stage> Teraz rozumiem. Leon myślał że ja... ha! ha! ha!</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Oto jest kwit z komornego, świadectwo do wyjazdu, sam je napisałem. Może mi pan wierzyć, że serdecznie żałuję, tracąc tak miłego lokatora. Znajdzie mnie pan zawsze gotowym na swoje usługi.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Wzajemnie i mnie panie dobrodzieju, wzajemnie. <stage>(na stronie)</stage> Oj! pieniądze! pieniądze, co to za zmiany w ludziach robią. Jak ja doskonale robię, że się bogato żenię. <stage>(głośno)</stage> Żegnam panów.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Adieu panu! szczęśliwej podróży, a gdyby państwo potrzebowali po ślubie mieszkania, to polecam mój dom, każę wyrestaurować lokale... nowe obicia dla młodych małżonków.</p>
+        </sp>
+        <sp who="#albin">
+          <speaker>ALBIN.</speaker>
+          <p>Dziękuję, dziękuję i żegnam. <stage>(wychodzi)</stage></p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Choćby na złamanie karku.</p>
+        </sp>
+      </div>
+      <div type="scene" n="8">
+        <head>SCENA 8 i ostatnia.</head>
+        <stage type="setting">
+          <p>(Aniela po odejściu Albina zaczyna płakać i łkać mocno)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#aniela">ANIELA.</rs>
+            <rs key="#leon">LEON.</rs>
+            <rs key="#radost">RADOST.</rs>
+          </p>
+        </stage>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>No, a cóż teraz będzie.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Kochany Radoście, darujesz mi to, com powiedział nieprawdaż?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>O mnie, to mniejsza. Ale patrz żona płacze, cóżem to chciał powiedzieć.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(z żalem)</stage> Aha! płacze.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Trzeba ją przeprosić.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A tak, trzeba.</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>No więc przeproś.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(zbliża się nieśmiało do Anieli)</stage> Żono! żoneczko! Anielciu! czy ty się tak bardzo gniewasz na mnie? bo widzisz, jam nie tyle winien jak ci się zdaje. Okoliczności tak się dziwnie złożyły... Tylko już nie płacz mój aniołku. <stage>(Aniela płacze coraz mocniej)</stage> <stage>(do Radosta)</stage> Patrzaj Radoście płacze ciągle...</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Ha! cóżem to chciał powiedzieć, bo czyż to się tak żonę przeprasza; uklęknij jak winowajca i przyrzeknij poprawę, żebyśmy byli przynajmniej pewni, że drugi raz, cóżem to chciał powiedzieć...</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(ukląkłszy)</stage> No tak Anielciu jestem zazdrosny, przyznaję się; ale to tylko jeden dowód więcej, że cię kocham. Zresztą, ktoby o ciebie zazdrosnym nie był?</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(odejmuje chustkę od oczu i przechodzi z udanego płaczu w śmiech gwałtowny)</stage> Ha! ha! ha! ślicznie wyglądasz teraz brzydki zazdrośniku. Widzisz jak to źle z żoną się kłócić.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Ty się śmiejesz Anielciu?</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Cóżem to chciał powiedzieć, dalibóg śmieje się.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>A tak! z was się śmieję moi panowie.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>A więc się nie gniewasz?</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Żony się nigdy o to nie gniewają, gdy je za bardzo kochają mężowie.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>No, a teraz daj list Anielciu, poślę go na pocztę i pójdę robić staranie o paszport.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>O! to już wcale nie potrzebne Leonie. Rozmyśliłam się i nigdzie bym nie pojechała bez ciebie.</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Tak?... A więc podam o pozwolenie do mojej władzy...</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>I pojedziemy?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p>Na całe dwa miesiące na wieś do stryjostwa, gdzie się wybornie bawią.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p><stage>(rzucając mu się na szyję)</stage> Doskonale!</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>A cóżem to chciał powiedzieć, to aż miło pani dobrodziejko! Gdyby to większa część tych pań, co jeżdżą za granicę, wiedziała i czuła jaką krzywdę sobie i nam robi, bo często narażają się na obmowę i złą opinię, a prawie zawsze gust zepsuty i dziwaczne wybryki mody do nas przynoszą, to by wolały pewno w domu pozostać.</p>
+        </sp>
+        <sp who="#aniela">
+          <speaker>ANIELA.</speaker>
+          <p>Ślicznieś pan to powiedział i w nagrodę...</p>
+        </sp>
+        <sp who="#radost">
+          <speaker>RADOST.</speaker>
+          <p>Dziękuje pani, już mam swoją, <stage>(pokazując kokardę)</stage> a chociaż mi dzisiaj źle posłużyła, to zachowam ją jednak na pamiątkę. <stage>(do Leona)</stage> Wszak pozwalasz mi nosić barwy swojej żony?</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEON.</speaker>
+          <p><stage>(żartując)</stage> Strzeż się jednak, bo widziałeś, że jestem zazdrosny.</p>
+        </sp>
+        <trailer>(KONIEC)</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>
