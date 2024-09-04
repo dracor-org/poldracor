@@ -138,13 +138,13 @@
   <text>
     <front>
         <titlePage>
-          <titlePart type="series">101 NARÓD SOBIE! 101</titlePart>
           <docTitle>
+            <titlePart type="series">101 NARÓD SOBIE! 101</titlePart>
             <titlePart type="main">SKALMIERZANKI<lb />
               czyli Koniki Zwierzynieckie.</titlePart>
             <titlePart type="sub">Komedyo-opera w 3 aktach</titlePart>
-            <docAuthor>J. N. Kamińskiego</docAuthor>.
           </docTitle>
+          <docAuthor>J. N. Kamińskiego.</docAuthor>
           <docEdition>Drugie wydanie<lb />
             z muzyką <name>Buschnego</name>.<lb /></docEdition>
           <docImprint>
