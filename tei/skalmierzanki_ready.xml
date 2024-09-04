@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000033" xml:lang="pol">
   <teiHeader>
     <fileDesc>
@@ -1737,7 +1736,7 @@
           </sp>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
-            <p>Pani jedzie – lud zawoła,<lb />Ach! z radości (:pewno zginę.:)</p>
+            <p>Pani jedzie – lud zawoła,<lb />Ach! z radości [:pewno zginę.:]</p>
           </sp>
           <sp who="#dosia #marcinowa">
             <speaker>OBIE.</speaker>
