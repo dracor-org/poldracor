@@ -531,7 +531,7 @@
           <p>(Rzecz dzieje się w mieście rodzinnem Doktora Karola)</p>
         </stage>
       <div type="scene" n="2">
-      <head/>
+      <head>-</head>
         <stage type="setting">
           <p>(Pokój doktora Karola – między dwoma oknami stolik do pisania – na nim książki... papiery – lampa z zieloną zasłoną – na prawo szafa otwarta, pełna ksiąg... foliałów – na lewo kanapa – przed nią okrągły stół – kilka stołków w około – dalej na lewo komin – na nim zegar – naprzeciw komina łóżko proste, jakby obozowe – na ścianie wisi para pistoletów – naprzeciwko stolika do pisania drzwi w głębi na pół otwarte – przez nie widać obszerny przedpokój oświecony małym kagankiem – ławki do koła ścian – na jednej spoczywa człowiek na wpół ubrany)</p>
         </stage>
@@ -555,7 +555,7 @@
         </sp>
       </div>
       <div type="scene" n="3">
-      <head/>
+      <head>-</head>
         <stage type="setting">
           <p>(Sypialnia Kassyldy – drzwi uchylone – naprzeciwko drzwi w oknie dwóch lekarzy rozmawia po cichu – na lewo łóżko, na którem spoczywa Kassylda przykryta bielą – w około łóżka klęczy kilka kobiet – na prawo hrabia Jan o piec oparty – dalej drugie drzwi do przedpokoju wiodące)</p>
         </stage>
@@ -678,7 +678,7 @@
         </sp>
       </div>
       <div type="scene" n="4">
-      <head/>
+      <head>-</head>
         <stage type="setting">
           <p>(Pokój doktora Karola)</p>
         </stage>
@@ -693,7 +693,7 @@
         </sp>
       </div>
       <div type="scene" n="5">
-      <head/>
+      <head>-</head>
         <stage type="setting">
           <p>(Sala w miejskim szpitalu – napełniona łóżkami – oświeca ją lampa zawieszona u suffitu – dwoje okien – dwoje drzwi otwartych – jedne prowadzą do całkiem podobnej sali – drugie do małego gabinetu, gdzie widać młodego człowieka siedzącego przy stoliku i piszącego – dozórcy i stróże przechodzą usługując chorym – nad każdem łóżkiem wisi tabliczka z numerem – pod No.6. spoczywa kobieta z zamkniętemi oczami – po głośnym, a ciężkim oddechu wiedzieć tylko można, że żyje)</p>
         </stage>
@@ -819,7 +819,7 @@
         </sp>
       </div>
       <div type="scene" n="6">
-      <head/>
+      <head>-</head>
         <stage type="setting">
           <p>(Przedpokój doktora Karola)</p>
         </stage>
@@ -1184,7 +1184,7 @@
         </sp>
       </div>
       <div type="scene" n="7">
-      <head/>
+      <head>-</head>
         <stage type="setting">
           <p>(Pokój doktora Karola)</p>
         </stage>
@@ -1352,7 +1352,7 @@
       <div type="act" n="3">
        <head>DOBA DRUGA.</head>
        <div type="scene" n="8">
-       <head/>
+       <head>-</head>
         <stage type="setting">
           <p>(Sypialnia Kassyldy – łóżko na pokój wysunięte – na niem Kassylda spoczywa z złożonemi rękami jak miewają umarli – w rękach krucyfix – cztery wielkie świece palą się w czterech rogach łóżka – obok łóżka stolik, który trzy kobiety ubierają w obrazki świętych – kilka obrazków leży na łóżku)</p>
         </stage>
@@ -1536,7 +1536,7 @@
         </sp>
        </div>
        <div type="scene" n="9">
-       <head/>
+       <head>-</head>
         <stage type="setting">
           <p>(Mieszkanie biednego rzemieślnika – w głębi izby przy cyganie leży człowiek na mizernem łóżku. W kącie dwoje dzieci śpi na gołym tapczanie – wzdłuż ściany szafa drewniana na naczynia – ława – przed nią stolik – dalej warsztacik, na którym skóry i kilka par starych butów leży w nieporządku – na cyganie stoi szklanka napełniona pół wodą, pół olejem – po którym pływa knot zapalony i migocąc płomykiem, niepewne rzuca na izbę światło)</p>
         </stage>
@@ -1685,7 +1685,7 @@
         <stage>(Doktor wychodzi)</stage>
        </div>
        <div type="scene" n="10">
-       <head/>
+       <head>-</head>
         <stage type="setting">
           <p>(Pokój doktora Karola – lampa się świeci na stoliku do pisania – doktor wchodzi, za nim Jakób)</p>
         </stage>
@@ -1765,7 +1765,7 @@
         </sp>
        </div>
        <div type="scene" n="11">
-       <head/>
+       <head>-</head>
         <stage type="setting">
           <p>(Pracownia przy aptece właściciela domu, gdzie doktor Karol mieszka – dwoje drzwi, jedne szklanne do apteki, drugie na prawo do jadalnej stancyi – meble porządne, prawie wikwintne – przy oknie Helena haftuje na tamborku. Ojciec jej stoi przy pulpicie – przed nim księga rachunkowa)</p>
         </stage>
@@ -1902,7 +1902,7 @@
         </sp>
        </div>
        <div type="scene" n="12">
-       <head/>
+       <head>-</head>
         <stage type="setting">
           <p>(Pokój doktora Karola – lampa na stoliku przed kanapą)</p>
         </stage>
@@ -2147,7 +2147,7 @@
         </sp>
        </div>
        <div type="scene" n="13">
-       <head/>
+       <head>-</head>
         <stage type="setting">
           <p>(Plac przy bramie miasta na drodze do Kalisza – na prawo odwach – dwie latarnie go oświecają – przed odwachem szyldwach przechodzi tam i nazad – wśród nocnej ciszy słychać w oddali tentent kopyt końskich po bruku)</p>
         </stage>
