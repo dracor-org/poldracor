@@ -1,0 +1,2427 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000034" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Sztuka i miłość</title>
+        <title type="sub">Dramat w dwóch dobach rzeczywistego życia</title>
+        <author>
+          <idno type="isni">0000000111383500</idno>
+          <idno type="wikidata">Q11771784</idno>
+          <persName>
+            <forename>Maurycy</forename>
+            <surname>Mann</surname>
+          </persName>
+        </author>
+        <!-- Maurycy Mann (1814-1876) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/sztuka-i-milosc-dramat-w-2ch-dobach-rzeczywistego-zycia,OTI4OTg5NDM/47/#index</idno>
+          <title>Mann, M., Sztuka i miłość, Poznań 1849</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="bryftregier" sex="MALE">
+            <persName>Bryftregier</persName>
+          </person>
+          <person xml:id="chłop" sex="MALE">
+            <persName>Chłop</persName>
+          </person>
+          <person xml:id="doktor" sex="MALE">
+            <persName>Doktor</persName>
+          </person>
+          <person xml:id="dozorca" sex="MALE">
+            <persName>Dozorca</persName>
+          </person>
+          <person xml:id="druga_kobieta" sex="FEMALE">
+            <persName>Druga kobieta</persName>
+          </person>
+          <person xml:id="drugi_lekarz" sex="MALE">
+            <persName>Drugi lekarz</persName>
+          </person>
+          <person xml:id="dziewczyna" sex="FEMALE">
+            <persName>Dziewczyna</persName>
+          </person>
+          <person xml:id="elew" sex="MALE">
+            <persName>Elew</persName>
+          </person>
+          <person xml:id="eustachy" sex="MALE">
+            <persName>Eustachy</persName>
+          </person>
+          <person xml:id="filip" sex="MALE">
+            <persName>Filip</persName>
+          </person>
+          <person xml:id="głos_kobiecy" sex="FEMALE">
+            <persName>Głos kobiecy</persName>
+          </person>
+          <person xml:id="głos_męzki" sex="MALE">
+            <persName>Głos męzki</persName>
+          </person>
+          <person xml:id="helena" sex="FEMALE">
+            <persName>Helena</persName>
+          </person>
+          <person xml:id="hrabia" sex="MALE">
+            <persName>Hrabia</persName>
+          </person>
+          <person xml:id="jakob" sex="MALE">
+            <persName>Jakób</persName>
+          </person>
+          <person xml:id="jedna_z_kobiet" sex="FEMALE">
+            <persName>Jedna z kobiet</persName>
+          </person>
+          <person xml:id="kassylda" sex="FEMALE">
+            <persName>Kassylda</persName>
+          </person>
+          <person xml:id="kobieta" sex="FEMALE">
+            <persName>Kobieta</persName>
+          </person>
+          <person xml:id="pierwszy_lekarz" sex="MALE">
+            <persName>Pierwszy lekarz</persName>
+          </person>
+          <person xml:id="podoficer" sex="MALE">
+            <persName>Podoficer</persName>
+          </person>
+          <person xml:id="romuald" sex="MALE">
+            <persName>Romuald</persName>
+          </person>
+          <person xml:id="szyldwach" sex="MALE">
+            <persName>Szyldwach</persName>
+          </person>
+          <person xml:id="służący" sex="MALE">
+            <persName>Służący</persName>
+          </person>
+          <person xml:id="władysław" sex="MALE">
+            <persName>Władysław</persName>
+          </person>
+          <person xml:id="żołnierz" sex="MALE">
+            <persName>Żołnierz</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-06-29">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1849">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">SZTUKA I MIŁOŚĆ.</titlePart>
+            <titlePart type="sub">DRAMAT<lb />
+            w 2ch dobach rzeczywitego życia.</titlePart>
+          </docTitle>
+          <byline>przez<lb />
+            <docAuthor>MAURYCEGO MANNA.</docAuthor>
+          </byline>
+          <docImprint>
+              <pubPlace>POZNAŃ.</pubPlace><lb />
+              W KSIĘGARNI <name>JANA KONSTANTEGO ŻUPAŃSKIEGO</name>.<lb />
+              <date>1849</date>.
+          </docImprint>
+        </titlePage>
+    </front>
+    <body>
+     <div type="act" n="1">
+      <head>PROLOG.</head>
+        <castList>
+          <head>OSOBY:</head>
+          <castGroup>
+            <head>przyjaciele Doktora Karola.</head>
+            <castItem>
+              <role corresp="#hrabia">HRABIA JAN,</role>
+            </castItem>
+            <castItem>
+              <role corresp="#władysław">WŁADYSŁAW,</role>
+            </castItem>
+          </castGroup>
+          <castItem>
+            <role corresp="#służący">SŁUŻĄCY.</role>
+            <roleDesc/>
+          </castItem>
+        </castList>
+      <stage type="setting">
+        <p>(Rzecz dzieje się w pomieszkaniu Hrabiego Jana – w końcu Listopada roku 1830)</p>
+      </stage>
+      <div type="scene" n="1">
+        <stage type="setting">
+          <p>(Gabinet Hrabiego Jana. Hrabia siedzi przed stolikiem i czyta)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#hrabia">HRABIA.</rs>
+            <rs key="#władysław">WŁADYSŁAW.</rs>
+            <rs key="#służący">SŁUŻĄCY.</rs></p>
+        </stage>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Wchodząc)</stage> Dzień dobry Janie.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Jak się masz Władysławie – czy dzisiaj przyjechałeś?</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Co dopiero, i zaraz przychodzę do Ciebie dowiedzieć się, jak się ma twoja kuzyna. List mnie wczoraj zatrwożył...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>I miał czego – <stage>(przysuwając krzesło)</stage> siadaj. Kassylda jest mocno chora – lubo, jak to mówią, złego jeszcze nic nie ma. Ale słabość ciężka – niebezpieczna. Doktorzy według zwyczaju nie chcą wyraźnie się oświadczyć – by się nie skompromitować – jednak widzę ich wachających się – niespokojnych... Cała moja nadzieja dla Kassyldy w Karolu.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Widziałeś go dzisiaj?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Dzisiaj?... chyba żartujesz... godzina dziewiąta z rana! Toć trzeba być żebrakiem lub leżeć w szpitalu, aby Karola o tej zobaczyć godzinie.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Prawda... zapomniałem. A wczoraj?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Wczoraj i zawczoraj... i codzień przy łóżku chorej Kassyldy... pilnuje ją z pieczołowitością prawdziwego przyjaciela.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Powiedz mi – jakim Ci się wtedy wydaje?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(Z zadziwieniem)</stage> Kto?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Karol...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Doktor?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Tak jest... on... Chciałbym wiedzieć, czy nie zmienia w czem sposobu postępowania, z jakim się zwykle z pacyentami obchodzi?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Doktor?... on tam – przy Kassyldzie – taki jak wszędzie – taki, jakim go znasz od dawna... jakim go sto razy widziałeś. W obec cierpienia spokojny – niewzruszony: lekki uśmiech w uldze, którą sprawił, dopiero znajduje... Ale czemu mnie o to pytasz?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Więc żadnej nie spostrzegłeś zmiany?...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Najmniejszej.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Z przyciskiem)</stage> Żadnej? – żadnego niezwykłego drgnienia?... znaku bojaźni... trwogi... żałości?... łzy w oczach?...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Nic wcale, powtarzam. Ale cóż znaczy ta inkwizycya?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Do siebie)</stage> Zwyciężył!... co to za człowiek!... co to za siła woli!...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Proszę Cię, powiedz – bo nic nie rozumiem, a ciekowość moję, wyznaję, do najwyższego pobudziłeś stopnia.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Pojmuję – i po tem, co mówisz... po tem zaręczeniu nie widzę, czemubym jej nie miał zaspokoić. Pytałem się Ciebie o te szczegóły, bo wiem, że nasz przyjaciel był w Kassyldzie zakochany.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(zrywa się i staje)</stage> Zakochany?... to być nie może!</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Było przecie, jak mówię.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(chodzi po pokoju)</stage> On?... doktor Karol?... zakochany?... to być nie może, powtarzam. On?... którego Bogiem Polska, a religią Ludzkość... on... który oddał się cały ludzkości w nadziei, że przez nią Boga swego kiedyś ujrzyć potrafi... Nie! miłość nie może znaleść miejsca w sercu tak zajętem... w umyśle tak czynnym... w życiu tak pracowitem...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Masz racyą – ja to samo myślałem.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(zatrzymuje się)</stage> Zapewne kuzyna moja... kobieta, jak Kassylda z tem ognistem sercem w ciele tak schorzałem, przy tylu prostocie – z tak bujną imaginacyą – z opiniami tak stałemi... wykończonemi – z tą excentrycznością w wykonaniu energicznem tego, co jej się wolą nazywać podoba – szczególniej też z tą żądzą niepohamowaną ofiary i poświęcenia... zapewne, mogła zrobić wrażenie na człowieku, jak Karol. Nic też naturalniejszego nad tę sympatyą, którą czuli jedno ku drugiemu... Ależ miłość... miłość?... czy wystawiasz Ty sobie Władysławie to uczucie w Karolu?... czy nie widzisz tę burzę straszliwą... te druzgoty... te łomy... konieczne jej skutki?... bo czyż nie z gwałtownością pioruna namiętność uderzyćby musiała chcąc się przedrzeć w ten karakter z granitu?... <stage>(siadając)</stage> Nie, mój przyjacielu – uwiodły Cię pozory prostej przyjaźni, którą widziałem... na którą patrzę ciągle... przyjaźń tak spokojna i wyraźna, że co do mnie, przypuścić nie mogę innego między niemi uczucia.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Twój sceptycyzm nie dziwi mnie wcale. Byłem i ja niewiernym Tomaszem, aż do chwili, gdzie się dowiedziałem.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(Z żywością)</stage> Od kogoś się dowiedział?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Od niego.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(Powstając)</stage> Od Karola?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Tak jest – od Karola.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Od doktora... to rzecz niesłychana!... i jakimże dla Boga sposobem?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Najprościejszym w świecie. Usiądź i posłuchaj. <stage>(Hrabia siada)</stage> Przypominasz sobie zapewne nagłą w humorze Karola zmianę... we dwa lub trzy lata po powrocie z Berlina? On taki otwarty i dobry, stał się raptem ponurym... gniewliwym: w rozmowie przebijała głęboka melankolia, a niespokojność w ruchach świadczyła o wewnętrznej walce.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Tak – tak – mawiał wtedy o projektach podróży.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Otóż właśnie. Ja, za nadto znałem Karola, aby mnie widok tych symptomatów nie miał niepokoić, prawie nic nieznaczące dla świata – mnie przestraszały. Żyjąc w zażyłości z Karolem jeszcze w uniwersytecie, wiedziałem, ile on cierpieć musiał, by spokojność i myśl swobodną utracić. Oszczędzę Ci domysłów poszukiwań, do których stan moralny doktora był dla mnie pobudką – słowem – włożyłem to na karb jego samotności i w konkluzyi ułożyłem, że się winien ożenić.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Ale z kim?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>To też sęk. Przechodząc przez sklep właściciela domu, by odwiedzić Karola, spotykałem był nieraz młodą i piękną osobę, mniej więcej ośmnastoletnią...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Znam ją także... prześliczna – jest tam jeszcze – to córka aptekarza Romualda. –</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Ona sama. Otóż miałem ją w podejrzeniu, że kocha Karola. Jakżeż nie mieć tej myśli?... Każdy kto go zna lepiej, ulega tym czarownym przymiotom, jakie z jego natury nadzwyczajnej, a tak dziwnie dobrej wynikają. Tysiące talarów, które płaci za przepisane dla ubogich lekarstwa, a które prócz należnej za najem pomieszkania summy corocznie w ojca przechodziły ręce – musiały swym wspaniałej szczodroty blaskiem, córki zażywiać entuziazm. Uważałem ją pilnie – wiesz Janie – w czasie choroby piersiowej przez Karola przebytej, która dotąd zostawiła ślady – i przekonałem się o słuszności mojej konjektury.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>I myślałeś, że toby była dla Karola osoba?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Tak jest – myślałem. Sądziłem bowiem, że miłość już na zawsze uduszona jest w sercu wyłącznie przejętem żądzą dla dobra kraju – sądziłem, jak ty Janie, że jest niepodobną w exystencyi tak przepełnionej. Karol mówił mi często... pochlebnie... z dobrocią i przyjaźnią o Helenie – to jej imię: mawiał jakby to czynił ojciec o swojem dziecięciu. Chciałem powierzyć więc Helenę tej miotanej czemsiś tajemniczem duszy – w nadziei, że obowiązek tak słodki spokój jej przyniesie. Łatwość zawarcia tego związku – bezinteressowność Karola – nakoniec przekonanie, że małżeństwo to nie mogło nigdy stać się w przyszłości dla niego przeszkodą... najwięcej mnie do tego zdecydowało przedsięwzięcia.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(Z uśmiechem)</stage> Dodaj, że zasady demokratyczne tak głośno przez doktora proklamowane były ci więcej jeszcze, niż ostatnia, ta przyczyna, do tego kroku pobudką?</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>W istocie – dobrze mówisz. Udzieliłem planu mego Twemu kuzynowi – Eustachemu. Karol – wiesz – często bywał w jego domu, jako doktor Kassyldy i wiele ku jej bratu okazywał przychylności. Eustachy podzielał moje zdanie – obiecał pójść razem i popierać. Udaliśmy się więc jednej nocy do doktora – i zastali jak zawsze zatopionego w książkach. Przyjął nas serdecznie, ale z tą surowością – która go nigdy nie porzuca. Pomimo pewnego rodzaju niedowoli – powiem nawet bojaźni, która się zawsze przejmuje w jego obecności – pomimo, mówię Ci, tego uczucia prawdziwej jego wyższości, a trudnego przedmiotu... silny będąc przekonaniem, że chcę dobrze czynić – po prostu przystąpiłem do rzeczy. Słuchał mnie Karol spokojnie – bez najmniejszej niecierpliwości – bez oznaki wstrętu. Gdym skończył, miałem sprawę za wygraną. Przeszła chwila milczenia – podczas której czoło Karola się zachmurzyło – i brwi się ściągnęły. Moi przyjaciele – rzekł wreszcie – to być nie może. Dla czego? zapytałem. Obrócił się wtedy do Eustachego i odpowiedział tonem najnaturalniejszym w świecie: bo twoję siostrę kocham...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(Porywczo)</stage> A to nie do pojęcia!</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Osądź nasze zdziwienie – staliśmy osłupieni.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Ah spodziewam się – i było też czego... vox faucibus haesit!</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Szczerością i otwartością za szczerość i otwartość Waszę odpłacić winienem – ciągnął dalej po krótkiej pauzie Karol – wszystko jest niepodobnem i być nie może dla mnie – co się na drodze mojej nie znajduje. Znam ją doskonale – bom ją przejrzał w całej jej przestrzeni – przyjąłem ją – nią idę. Sam na niej jestem – sam na niej pozostać muszę... tak chcę!... Powstał – przeszedł wzdłuż pokoju razy kilka – wrócił – wyciągnął ku nam obie ręce... i rzekł z prostotą, która się w nas boleśnie odbiła: Dziękuję wam kochani za waszę troskliwość... Dowód mojej wdzięczności macie w tem, com wam powiedział... Zatrzymał się – i pokrótce do dał z tym akcentem decyzyi, który, jak wiesz Janie, żadnej nie przypuszcza repliki: Dałem wam ten dowód, byście mi już nigdy nic więcej w tym przedmiocie nie mówili – uczyniłem to, bo uznałem za sposób, by świat o tem nie wiedział... tak jak sam o tem wiedzieć nie chcę!... Nie trwożcie się o mnie – niech was samotność moja nie przeraża... Jest ona w mojem powołaniu, a wiecie – dorzucił z uśmiechem – czy moję karyerę miłuję?... Wierzcie zwłaszcza mej woli!... ufajcie jej. Ona losy dziecka ludu zwalczyła... ona, nieszczęście z twardej potrafiła wyrzucić kolei – ona może przeznaczenie przemogła... Ufajcie jej... ona przytłumi namiętność silną głęboką... ale powtarzam wam, dla mnie nie podobną... Tak jest – niemożebną... to właściwy wyraz... Ścisnął nas za ręce i usiadł. Czoło się wypogodziło – twarz swobodną przybrała expressyą. Spokojnie zaczął o polityce rozmawiać.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Nie mogę przyjść do siebie z ciągłego podziwu... Cóż to za szczególny człowiek ten Karol!... A Kassylda, nigdy o tem nie wiedziała – co? – Władysławie?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Nie myślę, aby brat był jej kiedy to zwierzenie Karola objawił. Ja, wierząc w jego siłę moralną – lecz nie widząc koniecznej celibatu potrzeby – próbowałem raz jeszcze szczęścia mu przychylić. Kassylda, od śmierci rodziców żyje w odosobnieniu – używa całkowitej niepodległości osoby i majątku, zasady jej nadzwyczaj liberalne – dowody żywej sympatyi, któremi, widziałem nieraz, tak chojnie obsypuje Karola – wszystko to... ośmielało mnie do nowej wyprawy. Pewnego wieczora... po długiej o Karolu rozmowie, namieniłem zręcznie, jak bardzo życzyłem sobie módz go ożenić... i dodałem podstępne oświadczenie, że znam zaporę, przed którą znika dla mnie wszelka udania się szansa. Naprowadziłem pomału konwersacyą na nią samę – i to dosyć delikatnie, aby jej zostawić pole do dania mi choć jednem słówkiem odwagi do całkowitej konfidencyi... Ale wszystko napróżno. Podobnie, jak u Karola, żaden gest... żadno poruszenie... najlichszej nawet nie zdradziło emocyi. Z naiwnością i doskonałą gracyą opowiadała mi Kassylda swoję dla Karola przyjaźń – rozwodziła się wielce nad wdzięcznością, którą mu winna i winną będzie całe życie, ale – patrz Janie na szczególność spotkania – ale, dodała, ja lepiej niż ktokolwiek rozumiem jego samotności pociąg – gdy sama jestem zdecydowana nigdy za mąż nie pójść...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>W samej rzeczy – dziwnie! osobliwie!... No! przynajmniej się nie zawiodłem na Kassyldzie. U niej nie było tylko uczucie przyjaźni. Co zaś do naszego przyjaciela, wyznam ci szczerze, że ja podobną siłę woli – z niebytem wszelkiego uczucia, na jednej szali kładę.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Być może – a może też upadło pod brzemieniem czasu. Blisko pięć lat upływa, jak nam sekret swój odkrył – mówić Ci niepotrzebuję, czy choć raz od tej doby na wargach naszych postał. Wydałem go dzisiaj – bo widzę, że martwy. Po tem, coś mi powiedział o Karolu przy łożu cierpiącej Kassyldy... chorej i to niebezpiecznie – pewny jestem, że sekret istnąć przestał.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>I to dawno – już dawno. Zaręczam Cię Władysławie, nie potrzebowałeś tego ostatniego dowodu panowania Karola nad sobą. Pan to absolutny!... Pięć lat temu mówisz?... i ani jedna zapomnienia chwila?... ani godzina szału... uniesienia... niewstrzymanego pociągu?... oh jakże miał racyą doktor, rzucić wam te wyrazy: ufajcie mej woli!... <stage>(Służący wchodzi)</stage> Co powiesz?</p>
+        </sp>
+        <sp who="#służący">
+          <speaker>SŁUŻĄCY.</speaker>
+          <p>Pan doktor Karol kazał Panu Hrabiemu oświadczyć, że Pannie Kassyldzie dzisiaj dużo gorzej – prosi zatem, abyś Pan Hrabia mógł tam przyjść, gdyż chciałby z nim przed odejściem pomówić.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Odpowiedz, że przybywam natychmiast. <stage>(Służący odchodzi – Hrabia do wyjścia się gotuje)</stage></p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Więc brata jej tu nie ma?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Właśnie też, że nie ma Eustachego – wczoraj posłałem do niego sztafetę. Musiała nie zastać go w domu – boby już był zdążył. Biedna Kassylda!... umrze niezawodnie!...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Nie trać otuchy Janie – mam dobre przeczucia.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Bodajby prawdziwe! Bądź zdrów...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Odprowadzę Cię – mam przykry z landszaftą interess – muszę się Pawła poradzić – w jednę więc idziemy stronę. <stage>(Odchodzą)</stage></p>
+        </sp>
+        <trailer>(KONIEC PROOGU)</trailer>
+      </div>
+      </div><div type="act" n="2">
+        <castList>
+          <head>OSOBY:</head>
+          <castItem>
+            <role corresp="#doktor">DOKTOR KAROL.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#kassylda">KASSYLDA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#eustachy">EUSTACHY,</role>
+            <roleDesc>jej brat.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#hrabia">HRABIA JAN,</role>
+            <roleDesc>jej krewny.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#władysław">WŁADYSŁAW,</role>
+            <roleDesc>przyjaciel Doktora Karola.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#romuald">ROMUALD,</role>
+            <roleDesc>aptekarz.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#helena">HELENA,</role>
+            <roleDesc>jego córka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#jakob">JAKÓB,</role>
+            <roleDesc>służący Doktora Karola.</roleDesc>
+          </castItem>
+          <castGroup>
+            <head>DWAJ LEKARZE.</head>
+            <castItem>
+              <role corresp="#pierwszy_lekarz"/>
+            </castItem>
+            <castItem>
+              <role corresp="#drugi_lekarz"/>
+            </castItem>
+          </castGroup>
+          <castItem>
+            <role corresp="#elew">ELEW MEDYCYNY.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#dozorca">DOZORCA SZPITALU.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#kobieta">UBOGA KOBIETA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#chłop">CHŁOP.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#bryftregier">BRYFTREGER.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#filip">FILIP,</role>
+            <roleDesc>lokaj.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#dziewczyna">DZIEWCZYNA,</role>
+            <roleDesc>służąca niemiecka.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#podoficer">PODOFICER.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#szyldwach">SZYLDWACH.</role>
+            <roleDesc/>
+          </castItem>
+          <castGroup>
+            <head>KOBIETY,</head>
+            <castItem>
+              <role corresp="#jedna_z_kobiet"/>
+            </castItem>
+            <castItem>
+              <role corresp="#druga_kobieta"/>
+            </castItem>
+            <roleDesc>służące Kassyldy.</roleDesc>
+          </castGroup>
+          <castItem>
+            <role corresp="#stróże">STRÓŻE</role>
+            <roleDesc>przy szpitalu.</roleDesc>
+          </castItem>
+        </castList>
+      <head>DOBA PIERWSZA.</head>
+        <stage type="setting">
+          <p>(Rzecz dzieje się w mieście rodzinnem Doktora Karola)</p>
+        </stage>
+      <div type="scene" n="2">
+        <stage type="setting">
+          <p>(Pokój doktora Karola – między dwoma oknami stolik do pisania – na nim książki... papiery – lampa z zieloną zasłoną – na prawo szafa otwarta, pełna ksiąg... foliałów – na lewo kanapa – przed nią okrągły stół – kilka stołków w około – dalej na lewo komin – na nim zegar – naprzeciw komina łóżko proste, jakby obozowe – na ścianie wisi para pistoletów – naprzeciwko stolika do pisania drzwi w głębi na pół otwarte – przez nie widać obszerny przedpokój oświecony małym kagankiem – ławki do koła ścian – na jednej spoczywa człowiek na wpół ubrany)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#doktor">DOKTOR.</rs>
+            <rs key="#jakob">JAKOB.</rs>
+          </p>
+        </stage>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Karol siedzi przed stolikiem do pisania w krześle safianowem – nieruchomy – z założonemi na piersiach rękami – z głową na dół zwisłą – oczy w jedno wlepione miejsce świadczą głębokie zadumanie – po chwili podnosi zwolna głowę)</stage> To ona... Kassylda!... wciąż ona!... jej obraz wciąż przedemną – jej rysy schudzone – wzrok boleści pełen – wyraz jedno cierpienie – żądają mej pomocy... błagają o ratunek i wyrzucają niemoc – a przeszkadzają ciągle w myśleniu – czytaniu – szukaniu... <stage>(Pauza)</stage> Każda chwila, co od przeszłości oddala, to smutne przekonanie... gorzkie doświadczenie!... W Heidelberdze – spracowany – znużony – dla wypoczynku błąkałem po ruinach – ot tak mi się zda nie dawno... marzyłem... o miłości – o sercu – i głos jakiś proroczy w samym sobie słyszałem: Nie, ty nie będziesz kochał!... nie dla twego serca to uczucie Karolu!... To być nie może!... Wierzyłem – jakże życia nieświadom... oh, jakże zarozumiały byłem!... gdym głosowi zawierzył – A później? to już tak niedawno... to wczoraj... w Berlinie... gdy żałowałem, że trudów mojej sztuki słodzić nigdy nie będę mógł myślą... kochaną leczyć kiedyś osobę!... że nigdy nie poznam tego nad wyraz szczęścia!.. oh jakże wtedy z życia nic jeszcze nie widziałem... oh jakże głupi byłem!... <stage>(Zamyśla się – i znów mówi po chwili)</stage> Stoję na ostatecznej granicy sztuki – heroicznego muszę użyć środka – to być, albo nie być... szekspirowska kwestya – Hamlet mówił te słowa – dla siebie <stage>(z uśmiechem)</stage> dla siebie?... to łatwo – jedno skinienie woli... tak chcę – ją roztrzyga. Co chcę – to się stanie... stać się musi – to łatwo!... Ach wrzucić na szalę być lub nie być dla kogo... dla kogo, co się kocha – i nie wiedzieć, czy życie, czyli śmierć się rzuca?... to okropność!... to jest heroiczny środek – tam to wiedzie sztuka – przepaść... nad którą stoję... <stage>(Chwila niespokojnego milczenia)</stage> A cóż to za cierpienie!... jakże boli ta bojaźń – takie powątpiewanie!... jakże męczy to wachanie w użyciu tego, co się wie... co się umie!... Chcieć tyle i tak silnie... chcieć więcej, niźli sztuka – a nie módz tyle nawet... ile może sztuka... dla braku spokojności – zimnej krwi – decyzyi!... Boję się... bo wola milczy... O niestety! miłość to ogień, co pali – ale nie oświeca!... <stage>(Po pauzie)</stage> Lecz dawniej?... umiałem chcieć – spokojny byłem – pewny... a przecie kochałem. Tak – prawda – ale ta, co kochałem, nie była przy skonie... <stage>(Zegar bije – doktor wstaje i słucha)</stage> Północ – godzina przeszło jak odszedłem – cóżem zrobił?... przebieżmy w myśli całą jeszcze raz chorobę... <stage>(Chodzi po pokoju – potem staje przed stolikiem i rachuje)</stage> Dwódziesty pierwszy dzień – tak – niezawodnie dzień krytyczny – Moxa postawiona o dziesiątej godzinie... zobaczmy, jakie winny być skutki... <stage>(siada i bierze książkę)</stage> W każden sposób nic gwałtownego zajść nie może... <stage>(Czyta)</stage> To wiem – nie traćmy czasu, by nie było za późno... za późno!... straszne słowo... dreszcz mnie wskroś przechodzi. <stage>(Rzuca książkę – bierze inną i szuka)</stage> Aha!... otóż to właśnie... <stage>(Słychać gwałtowne dzwonienie)</stage> Cóż to być może? strach mnie ogarnia... <stage>(Wstaje)</stage> Ale nie... to być nie może... to nie.  <stage>(Siada i woła)</stage> Jakóbie!... ktoś dzwoni... Jakóbie! idź zobaczyć – może mnie kto potrzebuje... <stage>(Człowiek w przedpokoju wstaje i wychodzi)</stage> Nie – to być nie może – to nie od Kassyldy – cóżby tak niespodziewanego zajść miało?... <stage>(Patrzy w książkę)</stage> Ot nowy jeszcze jeden zaspokajający dowód...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(powraca i mówi z przedpokoju)</stage> Człowiek od panny Kassyldy przybiegł donieść, że pani jego umarła.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(osłupiały)</stage> Umarła!?... <stage>(Porywa się)</stage> Umarła!... przeklęty – za późno. <stage>(Odpycha książki)</stage> Umarła – precz odemnie próżna sztuko!... <stage>(Porywa za kapelusz – idzie ku drzwiom i staje)</stage> Umarła?... to być nie może... to sen. <stage>(Wychodzi)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="3">
+        <stage type="setting">
+          <p>(Sypialnia Kassyldy – drzwi uchylone – naprzeciwko drzwi w oknie dwóch lekarzy rozmawia po cichu – na lewo łóżko, na którem spoczywa Kassylda przykryta bielą – w około łóżka klęczy kilka kobiet – na prawo hrabia Jan o piec oparty – dalej drugie drzwi do przedpokoju wiodące)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#doktor">DOKTOR.</rs>
+            <rs key="#hrabia">HRABIA.</rs>
+            <rs key="#pierwszy_lekarz">PIERWSZY LEKARZ.</rs>
+            <rs key="#drugi_lekarz">DRUGI LEKARZ.</rs>
+          </p>
+        </stage>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Karol na progu drzwi głównych – do siebie)</stage> Te drzwi otwarte!... więc nie sen – to na jawie... <stage>(Stoi i zatacza okiem po pokoju)</stage></p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(do siebie)</stage> Ach to on... doktor – biedny człowiek, jakżeżby cierpieć musiał... gdyby...</p>
+        </sp>
+        <sp who="#pierwszy_lekarz">
+          <speaker>PIERWSZY LEKARZ.</speaker>
+          <p>Otóż nasz kolega – zdaje się zdziwiony.</p>
+        </sp>
+        <sp who="#drugi_lekarz">
+          <speaker>DRUGI LEKARZ.</speaker>
+          <p>Wszystko jedno – zaraz łajać będzie.</p>
+        </sp>
+        <stage>(Doktor idzie po mału do łóżka – daje znak kobietom, by się oddaliły – bierze lampę ze stolika obok stojącego – odrzuca prześcieradło kryjące rysy umarłej – zaczyna doktorski examin)</stage>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Nie spuszczajmy go z oka – cóż za spokojność!... jaki zimny – jak pulsu domacać się stara.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(puszcza rękę Kassyldy)</stage> Ani znaku <stage>(półgłosem)</stage> o moje biedne serce!...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(do siebie)</stage> Szuka teraz bicia serca, z jakąż doktorską zimnotą! Tak... szukaj... napróżno!... o czemuż tu Władysława nie ma – przekonałby się, czy to jest kochanek!...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Nie! żadnej iskierki – nadziei! Kończmy... <stage>(dotykając nóg)</stage> śmierć... zimna!... <stage>(ciężkim głosem nachylając się)</stage> Kassyldo!... mnie zimniej, jak Tobie!...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Jakże na nią zarzuca pośmiertne przykrycie... jakto?... i ani jednej łzy uronić nie zdoła?... ani jednego nie uchwycę serdecznego gestu?... To niepodobna... tyle natura ludzka nawet najsilniejsza dokazać nie jest w stanie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(po krótkiem zamyśleniu stawia lampę)</stage> Consummatum est!</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Nie kochał jej nigdy!... <stage>(Idzie na przeciw doktora, który ku oknu zmierza)</stage> Tak więc Karolu... umarła?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(z prostotą)</stage> Widzisz, jak ja – skończyła! <stage>(do lekarzy)</stage> Prosiłem był Panów, abyście mi znać dali, skoro tylko najmniejszą w stanie choroby spostrzeżecie zmianę – nie uczyniliście tego.</p>
+        </sp>
+        <sp who="#drugi_lekarz">
+          <speaker>DRUGI LEKARZ.</speaker>
+          <p><stage>(cicho do pierwszego)</stage> A co nie mówiłem?...</p>
+        </sp>
+        <sp who="#pierwszy_lekarz">
+          <speaker>PIERWSZY LEKARZ.</speaker>
+          <p>Nie bylibyśmy omieszkali tak zrobić, lecz możności nie było.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>I dla czegóż czekaliście śmierci, aby mnie przywołać?...</p>
+        </sp>
+        <sp who="#drugi_lekarz">
+          <speaker>DRUGI LEKARZ.</speaker>
+          <p>Dla tego właśnie, żeśmy jej nie czekali – przyszła tak niespodzianie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Z żywością)</stage> Bez poprzedniego osłabienia?...</p>
+        </sp>
+        <sp who="#pierwszy_lekarz">
+          <speaker>PIERWSZY LEKARZ.</speaker>
+          <p>Bez najmniejszego wyniszczenia sił – nasze doświadczenie, wyznajemy, nie było wystarczającem. <stage>(Doktor robi poruszenie zadziwienia)</stage> Tak jest panie – skończyła rzec można bez skonu – spazm mały... nic nie znaczący... ledwo poruszenie podobne do czkawki.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Z namysłem)</stage> Doprawdy?... to rzecz nadzwyczajna. –</p>
+        </sp>
+        <sp who="#drugi_lekarz">
+          <speaker>DRUGI LEKARZ.</speaker>
+          <p><stage>(Do Hrabiego)</stage> Po użytych przez nas środkach – szczególniej po stawieniu moxy śmierć ta prawie nagła jest wyjątkowym zdarzeniem, zagadką dla sztuki. W jej to imieniu chcemy prosić Pana Hrabiego, aby pozwolił przez dyssekcyą, dowiedzieć się istotnej jej przyczyny. Pan doktor Karol przyczyni się, sądzimy, do naszej prośby, bo patrz Panie Hrabio, <stage>(wskazując na doktora)</stage> z jaką uwagą cały skład jej rysów przechodzi.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Podczas gdy lekarz mówił do hrabiego Jana, poszedł do łóżka umarłej, odkrył jej twarz i z pilnością się w nią wpatruje)<lb />(Do siebie)</stage> Na nic – to na nic wszystko! Ja nie widzę trupa – sam za nadto cierpię. <stage>(Bierze kapelusz i wraca do okna)</stage></p>
+        </sp>
+        <sp who="#pierwszy_lekarz">
+          <speaker>PIERWSZY LEKARZ.</speaker>
+          <p>Zdanie nam swe powie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Podaje rękę hrabiemu)</stage> Bądź zdrów Janie – w dzień wrócę.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Bądź zdrów przyjacielu! <stage>(na stronie)</stage> co za dziwny człowiek!...</p>
+        </sp>
+        <sp who="#pierwszy_lekarz">
+          <speaker>PIERWSZY LEKARZ.</speaker>
+          <p>Słówko Panie kolego: jakaż twoja opinja o wypadku tak ciekawym?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Przerywając)</stage> I tak nieszczęśliwym!... Nie rozumiem go wcale. Żegnam Panów. <stage>(Wychodzi i starannie drzwi za sobą zamyka)</stage></p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>I my tu więcej podobno nie mamy co robić – kobiety się zostaną – przejdźmy do salonu. <stage>(Odchodzą)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="4">
+        <stage type="setting">
+          <p>(Pokój doktora Karola)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#doktor">DOKTOR.</rs>
+          </p>
+        </stage>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Wchodzi – kładzie kapelusz na stoliku – i rzuca się na krzesło, jakby wielkim tłoczony ciężarem – po chwili milczenia)</stage> Tak – istotnie – to było na nic!... Trupa nie widziałem!... ja widziałem Kassyldę... śpiącą – snem spokojnym – kołysaną na skrzydłach najpiękniejszych marzeń!... Twarz jej nie zmieniła wyrazu – lecz serce bić przestało – członki zlodowaciały – umarła!... Umarła? a ja – ja – Doktor Karol nie mogłem tego widzieć?... ja – odejść musiałem?... Cóż się więc zemną dzieje!... <stage>(bierze głowę oburącz i spiera na kolanach – po chwili wstaje i chodzi po pokoju)</stage> Czemuż ja ją porzucił?... czemu za nadchodzącą śmiercią trop w trop nie kroczyłem!... ileż to razy udało mi się pochwycić życie już na fatalnej pochyłości skonu – w samej chwili, gdy już nieodwołalne pożegnanie światu wyrzekało. <stage>(Staje)</stage> Lecz podobno mówili tamci, że śmierć nagle zaskoczyła – tak – tak – przyszła niespo–dzie–wa–nie mówili <stage>(z goryczą)</stage> Ciekawy dla nich wypadek – w samej rzeczy. Zda mi się, że wyraz dyssekcya uderzył me uszy... że sztuka tego żąda... <stage>(jakby przebudzony)</stage> A ja sam?... od jakiegoż to czasu sztuka dla mnie obcą... obojętną?... nie dosyćżem jej przyniósł poświęceń w ofierze?... po cóż wreszcie przyszedłem tu – kiedy tam ona umierała?... <stage>(Patrzy na stół i spostrzega otwarte książki)</stage> Otóż pamięć mi wraca – do sztuki tu przyszedłem... do sztuki! do niej, aby ją błagać o pomoc... o światło!... do niej – do celu mych nauk... mej pracy!... do niej – jedynej w mych cierpieniach pociechy... <stage>(z exaltacyą)</stage> Sztuko! ty mnie wołasz? nie prawda?... Oto przychodzę na twe zawołanie – oto jestem – rozkazuj!... <stage>(idzie szybko do stolika – siada i czyta – lecz po chwili przestaje i znużony opiera się przechylając głowę w tył krzesła)</stage> Nie – czytać nie mogę – ciało upada... potrzebuję spoczynku – czuję to – położę się, by spać kilka godzin. <stage>(Kładzie się na łóżko – po chwili się zrywa)</stage> Spać!... oh to gorzkie szyderstwo!... <stage>(Chodzi po pokoju)</stage> Ale przecie by myśleć jak należy – jak powinienem – muszę trochę wypocząć – <stage>(z decyzyą)</stage> więc śpijmy. <stage>(Kładzie się)</stage> Niepodobna?... o nie – bo chcę spać. <stage>(Po chwili)</stage> Jakże tu zimno. <stage>(Przykrywa się płaszczem)</stage> Będę spał! – <stage>(Zasypia – po niejakim czasie przebudza się i twarz rękami zakrywa)</stage> Srogie przebudzenie! Umarła!... <stage>(Długie milczenie, podczas którego siedzi na łóżku z spuszczoną głową)</stage> Uzbrójmy się w wolę. <stage>(Wstaje i chodzi po pokoju)</stage> Jestże co do czynienia? – otóż całe zadanie.  <stage>(Zatrzymuje się nagle i uderza ręką o czoło)</stage> Czyż wczoraj nie postawiono moxy chorej No. 6. zda mi się?... Choroba tej kobiety ma cokolwiek analogii... więc idźmy natychmiast. <stage>(Porywa za kapelusz i staje)</stage> Nadaremnie... wszak Kassylda umarła – o to nic – bo to dla sztuki – dla sztuki! <stage>(Wybiega z pospiechem)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="5">
+        <stage type="setting">
+          <p>(Sala w miejskim szpitalu – napełniona łóżkami – oświeca ją lampa zawieszona u suffitu – dwoje okien – dwoje drzwi otwartych – jedne prowadzą do całkiem podobnej sali – drugie do małego gabinetu, gdzie widać młodego człowieka siedzącego przy stoliku i piszącego – dozórcy i stróże przechodzą usługując chorym – nad każdem łóżkiem wisi tabliczka z numerem – pod No.6. spoczywa kobieta z zamkniętemi oczami – po głośnym, a ciężkim oddechu wiedzieć tylko można, że żyje)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#doktor">DOKTOR.</rs>
+            <rs key="#dozorca">DOZORCA.</rs>
+            <rs key="#elew">ELEW.</rs>
+          </p>
+        </stage>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Karol wchodzi do sali – mija kilka łóżek i zatrzymuje się przed tem ostatniem – za nim jeden z dozórców)</stage> Kto miał nadzór tej nocy?</p>
+        </sp>
+        <sp who="#dozorca">
+          <speaker>DOZORCA.</speaker>
+          <p>Pan Elew.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Gdzie jest?</p>
+        </sp>
+        <sp who="#dozorca">
+          <speaker>DOZORCA.</speaker>
+          <p>Pisze w izdebce ustępowej.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Powiedz mu, że tu jestem – chciałbym z nim mówić. <stage>(Doktor zastaje przy łóżku w obserwacyi chorej – dozórca idzie do gabinetu i ciągnie Elewa za suknią)</stage></p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p><stage>(Pisząc)</stage> Cóż tam znowu?</p>
+        </sp>
+        <sp who="#dozorca">
+          <speaker>DOZORCA.</speaker>
+          <p>Panie! Doktor Karol przyszedł i woła Pana.</p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p><stage>(Obracając się)</stage> Doktor Karol o tej godzinie? <stage>(Wstaje i z pośpiechem wchodzi do sali)</stage> Jestem na rozkazy Panie doktorze – przepraszam, że rapporta jeszcze nie wykończyłem – szósta, zdaje mi się, nie biła...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Nic nie szkodzi – przeczytam je później. Czy umarł kto tej nocy?</p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p>Nie, Panie doktorze.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Nikt! <stage>(do siebie)</stage> czemu mnie to dziwi?... <stage>(Chodzi wzdłuż sali – potem jakby sam do siebie wracając, wraca do łóżka N. 6)<lb />(Do Elewa wskazując chorą)</stage> Źle bardzo z tą kobietą.</p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p>Kona biedna już bardzo długo.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Z żywością, nie spuszczając chorej z oka)</stage> Mówisz Pan, że kona od dawna?</p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p>Tak panie doktorze – według ostatniego pańskiego przepisu, postawiłem moxę o siódmej w wieczór.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Z wzrokiem do chorej przykutym)</stage> Dobrze, no – i cóż dalej?... proszę mi wszystkie symptomata opowiedzieć – z godziny na godzinę, z chwili w chwilę...</p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p>Jeżeli pan doktor chce czytać – raport jej aż do tej godziny już gotów – przyniosę.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>To jeszcze lepiej – lecz wolę go przeczytać u Ciebie.</p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p>Służę panu doktorowi.</p>
+        </sp>
+        <stage>(Wchodzą do gabinetu – doktor czyta z uwagą podany papier – poczem wracają do sali i wykonywają na chorej długi i szczegółowy examin)</stage>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Półgłosem jakby do siebie)</stage> Żyć nie może!</p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p>Tak mniemałbym Panie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Podobnież)</stage> Muszę być przytomnym jej śmierci.</p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p>Każę na czas Pana doktora uprzedzić.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Nie – bo muszę ją obserwować – ciągle aż do chwili, gdzie ducha wyzionie.</p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p>To jeszcze długo potrwać może – a jeżeli pan doktor...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Przerywając)</stage> Wszystko jedno – poczekam. <stage>(Do stróża)</stage> Daj mi stołek. <stage>(Do Elewa)</stage> Możesz Pan iść raporta wykończyć. <stage>(Siada u nóg łóżka na podanym stołku)</stage></p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p><stage>(Odchodząc do stróża)</stage> Nie zapomnieć zgasić lampy – skoro tylko dzień się zrobi – jeden z was niech tu ciągle będzie na usługi pana doktora.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Kładąc rękę na czoło)</stage> Co za okrutne doświadczenie... potrzebne... <stage>(z westchnieniem)</stage> konieczne. <stage>(Wzrok w chorej zatapia – i siedzi nieruchomy)</stage></p>
+        </sp>
+        <sp who="#elew">
+          <speaker>ELEW.</speaker>
+          <p><stage>(W gabinecie)</stage> Doktor jakiś nieswój dzisiaj – ale jak też ten człowiek swoję sztukę kocha – to aż patrzeć miło. <stage>(Siada i pisze)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="6">
+        <stage type="setting">
+          <p>(Przedpokój doktora Karola)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#jakob">JAKOB.</rs>
+            <rs key="#chłop">CHŁOP.</rs>
+            <rs key="#bryftreger">BRYFTREGER.</rs>
+            <rs key="#dziewczyna">DZIEWCZYNA.</rs>
+            <rs key="#filip">FILIP.</rs>
+            <rs key="#kobieta">KOBIETA.</rs>
+            <rs key="#helena">HELENA.</rs>
+          </p>
+        </stage>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Suknie chędoży na stole)</stage> A toż mi to mróz dzisiaj! <stage>(zacierając ręce)</stage> Pan Romuald mi powiedział: jedenaście nad zerem... co ja pletę... pod zerem – przecie to człek rozumie, kiedy u doktora służy od lat siedmiu <stage>(chędożąc dalej)</stage> i nadal służyć będzie – jeśli Bóg pozwoli... i pan doktor – dobre panosko – nagły trochę, trochę bardzo nawet – rozgniewa się co moment – ale nie gdyra nigdy – nie marudzi. Gniewa się?... no i cóż z tego?... alboż to jego wina?... takim go Bóg stworzył. Ależ dobry... to serce dopiero! – gdym chorował, on koło mnie chodził – jak brat jaki... to też go kocham za to... <stage>(Rzuca, szczotkę i zaciera ręce)</stage> Panie – to piękne zimno jedenaście stopni. <stage>(Patrzy na płaszcz leżący na stole)</stage> Wziąść go nie mógł – a gdzie tam – czyż jemu kiedy ciepło albo zimno. <stage>(Chłop otwiera drzwi pomału – i patrzy)</stage> No to wchodźcież – ale przez Boga drzwi zamykajcie <stage>(do siebie)</stage> musi mieć naturę doktora.</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>Niech będzie pochwalony!</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Na wieki wieków. Cóż to powiecie ojcze?</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>Czy tu mieszka doktor?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Który?</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>Doktor Karol.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Tu – cóż to od niego chcecie?</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>Mam list do niego.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Pana nie ma w domu – ale list zawsze dać możecie <stage>(biorąc list)</stage> skądżeście to?</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>Z Pakowa.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Patrząc na list)</stage> Do kogoż to należy?</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>Ha do Pana.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Toć przecie ja wiem – ale jak się nazywa?</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>Zowią go Pan z Pakowa.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Do siebie)</stage> Nigdy o tej wsi nie słyszałem – to nie musi być jeden z przyjaciół doktora – może jaki znajomy – może i to nie. <stage>(Do chłopa)</stage> Dobrze mój przyjacielu – list zostawcie, a przyjdźcie jutro po odpowiedź.</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>Jutro? jako, toby doktor nie jechał dzisiaj?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>A czy to do chorego?</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>Abo nie co innego – Pan słaby – Pani dając list mówiła, bym spieszył – że trza raźno.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>A dalekoż do Pakowa?</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>To pół mili od Gniezna.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Do siebie)</stage> Pod Gniezno – to mi spacer, trzeba go odesłać, <stage>(do chłopa)</stage> kiedy tak, to słuchajcie. Weźcie list i idźcie, ztąd na lewo, o trzy kamienice na drugie piętro – tam mieszka doktor inny... ale doktor. Powiecie mu oddając list, że doktora Karola nie ma i jechać nie może – zobaczycie, ten zaraz pojedzie.</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>Na koniu?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Czemu na koniu?</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p>Bom przyprowadził ztąd o cztery mile konia co tam czeka na doktora... doskonała szkapa.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Idźcie tylko – idźcie – skoro wam trza raźno – mówię wam, że tamten pan zaraz pojedzie <stage>(do siebie z uśmiechem)</stage> ale pocztą.</p>
+        </sp>
+        <sp who="#chłop">
+          <speaker>CHŁOP.</speaker>
+          <p><stage>(Kłaniając się)</stage> Niech będzie pochwalony!</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Na wieki. <stage>(Chłop odchodzi)</stage> Poczciwina... konia przyprowadził... doskonałą szkapę. Tego też memu Panu trzeba było – szesnaście mil konno po dwóch bezsennych nocach. <stage>(wyciąga ręce i ziewa)</stage> Czuwamy nielada – trzeba przyznać – służba nocna przykra bardzo – ale za to cały dzień nie ma nic do roboty, prócz o dwóch koniach myśleć – on niczego nie potrzebuje – nie mam się czego skarżyć – trudno mniej, jak doktor wymagać. <stage>(Składa płaszcz)</stage> Onby był gotów pojechać... i bez płaszcza do tego – dalipan, kto go nie zna, myślałby, że zdrowie, jak u konia – ja wiem, co się święci – pokaszluje i często. Broń Boże, byś powiedział, bo się gniewa. Wszystko jedno... kontent jestem, żem poczciwca odprawił z kwitkiem do tego – bez jego wiedzy; muszę go pilnować – jak się da. <stage>(Bryftregier wchodzi)</stage> Dzień dobry panie bryftregier.</p>
+        </sp>
+        <sp who="#bryftregier">
+          <speaker>BRYFTREGIER.</speaker>
+          <p>Dzień dobry – oto gazety i listy.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Dużo się należy!</p>
+        </sp>
+        <sp who="#bryftregier">
+          <speaker>BRYFTREGIER.</speaker>
+          <p>Talar i ośm srebrników.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Rachując pieniądze)</stage> Cóż tam słychać na mieście?</p>
+        </sp>
+        <sp who="#bryftregier">
+          <speaker>BRYFTREGIER.</speaker>
+          <p>Panna Kassylda umarła tej nocy.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Sławna nowina! <stage>(z dumą)</stage> przecie my to wiedzieć musimy najlepiej.</p>
+        </sp>
+        <sp who="#bryftregier">
+          <speaker>BRYFTREGIER.</speaker>
+          <p>Ani słowa. Poczta warszawska nie przyszła.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>I cóż z tego?</p>
+        </sp>
+        <sp who="#bryftregier">
+          <speaker>BRYFTREGIER.</speaker>
+          <p>Ha nic.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Prawda – przepraszam. Wszakżeście wy z poczty – to was obchodzić musi – oto są pieniądze.</p>
+        </sp>
+        <sp who="#bryftregier">
+          <speaker>BRYFTREGIER.</speaker>
+          <p>Dziękuję. Do widzenia panie Jakóbie. <stage>(Wychodzi)</stage></p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Zbiera listy i dzienniki)</stage> Jest i tak dosyć, choć z Warszawy nie ma, ale to jednak dziwno, że niema – bo w królestwie to tak przecie wszystko, jak mówią porządnie idzie, jak w zegarku – co go knut nakręca – <stage>(śmieje się)</stage> – Gdyby mi też to wszystko czytać przyszło? ale bo pytam się, czemu doktor tak pracuje, skoro nie dba o pieniądze – bo że nie dba, toć pewno – ma – daje – znów nie ma – tylko się migają talary – na jego miejscu inaczejbym żyć umiał!... <stage>(bierze listy i wchodzi do pokoju – słychać pukanie do drzwi – wraca nazad)</stage> Któż puka?</p>
+        </sp>
+        <sp who="#dziewczyna">
+          <speaker>DZIEWCZYNA.</speaker>
+          <p><stage>(Wchodząc)</stage> Herr doktor Karl?...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Hier – <stage>(do siebie)</stage> przystojna Niemeczka.</p>
+        </sp>
+        <sp who="#dziewczyna">
+          <speaker>DZIEWCZYNA.</speaker>
+          <p>Mein Herr...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Przerywając)</stage> Mener nie umie deutsch – polnisch sprechen.</p>
+        </sp>
+        <sp who="#dziewczyna">
+          <speaker>DZIEWCZYNA.</speaker>
+          <p>Pan prosiła Doktor Karl przyjść bo chora...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Idzie do tablicy wiszącej na ścianie)</stage> Pan chory?</p>
+        </sp>
+        <sp who="#dziewczyna">
+          <speaker>DZIEWCZYNA.</speaker>
+          <p>Nein – Pan – Frau Räthin ist krank.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Mniejsza o to. Jak się nazywa?</p>
+        </sp>
+        <sp who="#dziewczyna">
+          <speaker>DZIEWCZYNA.</speaker>
+          <p>Von Wohlleben.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Pisząc na tablicy)</stage> Fonleben.</p>
+        </sp>
+        <sp who="#dziewczyna">
+          <speaker>DZIEWCZYNA.</speaker>
+          <p>Ach ne... von Wohlleben.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Tak też piszę – Fonleben – gdzie mieszka?...</p>
+        </sp>
+        <sp who="#dziewczyna">
+          <speaker>DZIEWCZYNA.</speaker>
+          <p>Am Ring No. 15.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Pisząc)</stage> Rynek No. pięćdziesiąt – powiem, jak doktor przyjdzie – bo go nie ma.</p>
+        </sp>
+        <sp who="#dziewczyna">
+          <speaker>DZIEWCZYNA.</speaker>
+          <p>Bitte sehr. Herr Rath wird erwarten. <stage>(Idzie ku drzwiom)</stage></p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Rad mu będzie – a wierzę <stage>(do siebie)</stage> to głupia, czy ja nie wiem, że jemu wszyscy radzi, <stage>(do dziewczyny, która wychodzi)</stage> gut... gut... <stage>(do lokaja w liberyi, który we drzwiach spotkał się z dziewczyną)</stage> A Filipku, jak się masz?...</p>
+        </sp>
+        <sp who="#filip">
+          <speaker>FILIP.</speaker>
+          <p><stage>(Wskazując na drzwi)</stage> He Panie Jakóbie!</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>To Niemka – Czy mego Pana szukasz?</p>
+        </sp>
+        <sp who="#filip">
+          <speaker>FILIP.</speaker>
+          <p>Abom go nie zastał?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Nie – i nie wiem, gdzie być może.</p>
+        </sp>
+        <sp who="#filip">
+          <speaker>FILIP.</speaker>
+          <p>Wczora wieczór mówił, że przyjdzie dziś rano, dwunasta, niewidać go! a Pani Hrabina czeka niecierpliwie...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Zapiszę, bym nie zapomniał, i poszlę go zaraz.</p>
+        </sp>
+        <sp who="#filip">
+          <speaker>FILIP.</speaker>
+          <p>Tylko pewno, bobym znowu musiał biegać. <stage>(Wychodzi)</stage></p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Nie bój się Filipku. <stage>(Idzie do tablicy i pisze)</stage> Fonleben – istny Niemiec – szczególny też to ten doktor – bo że Niemców nie lubi, to nie sekret – a jak który chory go zawezwie... to leci – to przecie tak kuruje, że wnet Niemiec na nogach – dalipan, jakby Polak jaki. Ale, ale – gdzie może być doktor tyle czasu? gdyby Panna Kassylda nie była umarła – rozumiałbym, że nie wraca do domu – naturalnie przy niejby siedział – bo to wielki jej przyjaciel – szkoda, dobra to była pani. <stage>(Kobieta wchodzi nieśmiało)</stage> Nie bójcie się matko, <stage>(z dobrocią)</stage> nie wyście to byli dzisiaj rano?</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Ja Panie.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Doktor jeszcze nie wrócił – trzeba, jeśli go pewnie zastać chcecie, przyjść jutro znów o piątej rano – wszakżeście wy nie bardzo chorzy?... co?</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Ja? zdrowam dzięki Bogu – ale mój chory... bardzo chory. Ja za niego dziś przyszłam – on nie może – leży – prosić Pana Doktora, aby był taki łaskaw i pomógł mu trochę – uzdrowił...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Będzie taki łaskaw – ja ręczę za niego – powiedźcie mi tylko, czem wasz mąż się trudni i gdzie mieszkacie.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Mój mąż? szewc Panie – mieszkamy na Gwarzędzu – ostatni dom na prawo – daleko stąd i boję się...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Nie bójcie się matko – wy nie wiecie, jaki mój Pan dobry.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Któżby tego nie wiedział!... Dziękuję, niech Panu Bóg płaci! <stage>(Wychodzi)</stage></p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Nie ma za co – <stage>(Pisząc na tablicy)</stage> Tak – tak, bądź spokojna biedna kobieto – chociaż cię tu wielka pani poprzedza, doktor do ciebie pójdzie, dziwny człowiek! ubodzy to jego passya – on się do nich pali. <stage>(Słychać głos za drzwiami: Jakóbie!)</stage> To panna Helena woła. <stage>(Otwiera drzwi)</stage> Niech Panniczka wejdzie – ja tu sam jestem – zawsze gotów na usługi.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Nic nie potrzebuję mój dobry Jakóbie – przyszłam cię tylko spytać, czy cię Pan nie uprzedził, że będzie na obiedzie?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Nie wiem nic Panniczko – wrócił późno bardzo – usnął trochę. Potem widziałem, jak wychodził – jeszcze nie dniało. Wołałem: Panie! Panie! wróci Pan na poradę?</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Odpowiedział, że nie?...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Przeszedł jak głuchoniemy.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Z niespokojnością)</stage> I dotąd nie powrócił.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Nie – chorzy czekali godzinę – potem się rozeszli.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Był może bardzo smutny – zamyślony?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Daruj mi Panniczka, spałem – więc powiedzieć nie mogę. Ale myślę, że nie – on zawsze trochę, z przeproszeniem, gburowaty – trochę posępny.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>A ta śmierć, co mu o niej donieśli?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Panny Kassyldy? o zapewne go gryzie – musi ją żałować – on ją tak kochał.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Ale mi zaręczyć możesz Jakóbie, że twój pan nie chory?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>A z czego? ze śmierci?... doktor?... Panniczko, alboż to on mało widzi w życiu umarłych?</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Sądzisz więc Jakóbie, że po prostu tak jest zatrudniony, że na obiad nie przyjdzie?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Z pewnością ja nie wiem – ale przecie już nieraz doktor jeść nie miał czasu.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Prawda – ale jabym go tak dzisiaj widzieć była chciała – <stage>(po chwili milczenia)</stage> A ty prędko zejdziesz Jakóbie?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Ja – nic już nie mam do czynienia – ja schodzę z Panniczką – obrok koniom zasypię – to nie będzie długo – i zaraz przyjdę do kuchni na obiad – na takim mrozie jeść się chce djabelnie. <stage>(otwiera drzwi Helenie i wychodzi za nią)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="7">
+        <stage type="setting">
+          <p>(Pokój doktora Karola)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#doktor">DOKTOR.</rs> 
+            <rs key="#jakob">JAKOB.</rs>
+          </p>
+        </stage>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(stoi przed kominem, i zapala lampę)</stage> Doktor cały dzień nie wrócił – Niemiec nie mógł się doczekać – tem lepiej – Dziewiąta godzina – o! musiał gdzie na wieś pojechać... <stage>(słychać szelest w przedpokoju)</stage> Nie, nie pojechał – to on, poznaję po chodzie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(wszedłszy – po pokoju szybko w głębokiem zajęciu się przechadza)</stage> Zrób ognia Jakóbie.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Zaraz Panie – <stage>(wkładając szkło na lampę)</stage> Myślałem, że Pan na wieś gdzie pojechał.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(chodząc)</stage> Czy mnie wołano?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>A jakże – Był naprzód chłop z Pakowa z końmi wierzchowemi...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(chodząc)</stage> odesłałeś go?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Odesłałem.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Dobrześ zrobił.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Stawia lampę na stole do pisania)</stage> Idę po drzewo.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Spiesz się. <stage>(Jakób wychodzi – doktor chodząc ciągle)</stage> Dwadzieścia cztery godzin niebawem – ani śladu życia – ani pewnej oznaki śmierci – najmniejszego rozkładu – to nie do pojęcia! <stage>(zwalniając kroki)</stage> to rozum się mięsza.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Wraca z drzewem i ze świecą – klęka przed kominem i układa polanka)</stage> Był tu także lokaj Pani Hrabiny...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Chodząc prędzej)</stage> Dobrze – już wiem.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Ale bo tu był w południe...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Wiem – ja byłem później.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Potem żona szewca...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Dobrze... <stage>(do siebie)</stage> wróci jutro.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Ależ bo ta biedna kobieta...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Zatrzymując się nagle)</stage> Biedna?... biedna mówisz?...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Tak jest Panie – ta biedna kobieta była dwa razy. Mąż jej bardzo chory – prosi Pana pięknie, byś go Pan wyleczył. –</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Do siebie z goryczą)</stage> O tak wyleczył – <stage>(do Jakóba)</stage> Gdzie on mieszka – pójdę do niego.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Zapisałem go sobie – daleko bardzo.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Nie szkodzi – daj mi adres.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Czy zaraz Panie?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Zaraz. <stage>(Jakob wychodzi)</stage> Mógłbym zapomnieć – dziś łatwo. Ta kobieta żąda, bym jej męża uleczył – żałuję ją <stage>(z pognębieniem)</stage> Alboż ja co umiem?... alboż ja co mogę?...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Wracając)</stage> Na przedmieściu Gwarzędzu ostatni dom na prawo. <stage>(Klęka, przed kominem)</stage></p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(zapisuje w pugilaresie i chowa)</stage><lb /><stage>(Do siebie)</stage> Zaniedbałem moje dzieci dzisiaj – moje biedne dzieci – to źle... źle bardzo. <stage>(idzie do komina zacierając ręce i staje za Jakóbem)</stage></p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Do siebie)</stage> Zimno mu – to słaby – Panna Helena przecię miała racyą.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Co tam mruczysz o Pannie Helenie Jakóbie?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Do siebie na wpół się obracając)</stage> Aj – był za mną i słyszał – gniewać się będzie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>I cóż? odpowiedzże – <stage>(z przychylnością)</stage> Może Panna Helena słaba?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>O nie Panie Doktorze <stage>(na stronie)</stage> Co tu począć... <stage>(głośno)</stage> Nie... Panna Helena zdrowa... bardzo zdrowa...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Tem lepiej <stage>(na stronie)</stage> Strachu mnie nabawił – <stage>(głośno)</stage> więc o cóż idzie?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Na stronie)</stage> Daj go katu! ani sposób – ot na nią wszystko złożę <stage>(wstając)</stage> Panna Helena przyszła się pytać, czy Pan nie chory – i jeszcze... zaraz, nie chciałbym słów przekrzywiać – czyś Pan nie smutny – stroskany.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Stawa przed ogniem i opiera się o komin)</stage> I cóżeś odpowiedział?</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Że Pan taki – jak zawsze.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>I dobrześ odpowiedział – <stage>(smutnie)</stage> bo też tak jest Jakóbie.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(przynosi gazety i listy)</stage> Przepraszam Pana – ale tak nie jest – tylko się Pan nie gniewaj <stage>(śmiejąc się)</stage> na to niech Pan czasu nie ma. Oto pańskie gazety i listy. <stage>(Kładzie na stoliku wskazanym przez doktora)</stage> Wszystko z Polski brakuje – bo poczta nie przyszła – <stage>(patrząc na doktora, który nie słucha)</stage> Czy już mogę się oddalić? <stage>(na skinienie doktora – odchodzi)</stage></p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(po długiem zamyśleniu)</stage> Jakob dobrze mówi – nie jestem sobą samym – czuję to aż nadto. Niszczę resztę sił w walce z małym światem – jakiż to znój... cóż to za trud gestami ten świat zwodzić!... ten świat, nad którym się panuje i głową i sercem – tak, sercem... kto serce widzi?... kto go sądzi?... <stage>(Milczy chwilkę)</stage> Pytała się, czym smutny – przeczuła – Helena, kochane dziecię... co się dziać musi we mnie – A inni?... może zgadują – o nie <stage>(z ironią)</stage> bo oni sądzą – inni – wyciągają wnioski!... Nie wiedzą... że przez każde z mych poruszeń wierzą – w to – co chcę, by uwierzyli... W każdem spojrzeniu widzą – to, co chcę, by widzieli... każde z mych słów tłómaczą – tak – jak chcę, by tłómaczyli... Nie wiedzą, że ja chcę, – by oni nie wiedzieli!... Biedni ludzie znacież wy, co to serce?... znacież wy siłę, jaką posiada, gdy jest proste i czyste?... macież wyobrażenie o woli, którą daje temu – nad kim wyłącznie panuje? <stage>(zapalając się)</stage> Wy patrzycie biedni ludzie – a ona was zaślepia... Sądzicie biedni ludzie a ona was w obłęd wprawia... Może wnioskować chcecie... ona na was woła: Mnie się pierwej nauczcie, zanim serce poznacie, co mną rozkazuje... o nędzoto ludzka!... <stage>(Po chwili milczenia)</stage> Lecz to drogo kosztuje ta ze światem zabawka, bo on uważa i ciągle i pilnie <stage>(ściskając ręką czoło)</stage> Byłoby to okropnie... gdyby mówić zaczęto teraz – po śmierci – świat głupi... ale świat zły – Ciągnijmy dalej walkę – choćby serce pęknąć miało... niechaj pęka w skrytości!... tak trzeba. <stage>(Spuszcza głowę na piersi i mówi pomału)</stage> Skoro żywą oszczędził najlekszy nawet cień potwarzy... umarłą niech szanuje... dziś... to moja powinność!... <stage>(Po długiem zamyśleniu)</stage> Umarła i ta biedna kobieta w szpitalu – byłem przytomny, jak oddała ducha – badałem ją aż do ostatniej chwili – tropiłem każdą stawkę tej gry strasznej muszkułów i nerwów – widziałem jak się ściągały... zwijały... rozprężały w miarę, jak passowanie z śmiercią przybierało potęgi!... ani jeden prąd arteryi... ani jedno bicie pulsu... drgnienia serca mi nie uszło – trzymałem tę kobietę przykutą pod mem śledczem okiem i każdy punkt jej ciała całkowitem przebijałem wejrzeniem. Cała ma dusza wglądała przez pryzmat nauki – cóż nie przewidywałem?... wyrachowałem grymasy... zgrzytania... wiedziałem, kiedy westchnie... pod epidermą byłem!... Siedząc ostatnie tchnienie... czułem, gdy uchodziło... czułem – tu granica <stage>(z niechceniem)</stage> dziś nie mogłem pochwycić!... Skonała!... ale jakżem się jej skonu wyuczył – świat powinien być kontent – byłem dosyć zimny – tak jak wymaga sztuka – jak lekarz być winien – bez znaku serca –– tak chciałem! <stage>(Po chwili milczenia)</stage> Lecz cóż czynię?... myśli puszczam samopas. Wszak porównać chciałem tę śmierć z śmiercią Kasyldy, której najdrobniejsze szczegóły kolega mi powiedział. Do pracy więc, tylko spokojnie – spokojnie. <stage>(Siada przy stoliku i różne przerzuca książki – czyta w jednej i drugiej z uwagą – nakoniec zamyka je i opiera się całkiem na pleczniku krzesła)</stage> Rzecz osobliwsza! – ci dwaj autorowie przeciwnego zdania zarówno mnie prowadzą do myśli – która głowę moję, jak strzała przeszyła w chwili – gdym się już o śmierci Kasyldy dowiedział: do myśli, której rozum mi wzbrania, a którą dusza radzi – do myśli, którą usta moje ani razu wyrzeknąć nie śmiały, a którą serce tysiąc już powtórzyło razy... Nie! ona nie umarła!... <stage>(Wstaje – pokój w około parę razy obchodzi)</stage> Symptomata jednak śmierci są oczywiste – wiem... widzę je, dotykam – a pomimo tych dowodów idea ta mnie dręczy... gniecie... jak sen szczęścia, w rzeczywistem, okropnem nieszczęściu!... <stage>(namiętnie)</stage> Miałażby to być szalona myśl miłości w zapasach z poważnem sztuki przekonaniem?... Jeżeli tak jest – ulegnie niezwłocznie... <stage>(Siada i chwyta książkę)</stage> Jestemli w mym normalnym stanie? – jestem – więc dociekajmy jeszcze. <stage>(Czyta – po chwili odrzuca książkę)</stage> Nie! – ta myśl nie jest szaleństwem – nadto mnie owładnęła! Wszak mi towarzyszy już przez całą dobę – nie opuszcza na krok ani chwilę – ciągle jej tylko słucham... ciągle staram się sztukę dać jej za podporę – ile razy przyszedłem do Kassyldy, ta myśl przez moje przemawiała usta – w niej dawałem rozkazy... by nie otwierać okien i pokój ogrzewać... <stage>(z decyzyą)</stage> za nią pójdę do końca!... <stage>(Wstaje)</stage> Życie nie porzuca bez zmiany wyrazu na twarzy – bez zwichnienia jej rysów... bez przeciągnienia choć lekkiej powłoki – trzeba więc zgłębić... przeniknąć... odkryć ten wyraz... te rysy... dotknąć to śmierci piętno!... trzeba dociec, co znaczy ta stagnacya... to wstrzymanie się toku odwiecznego zniszczenia... psucia!... Bo tak jest – widziałem... <stage>(chodzi po pokoju)</stage> Czym tylko dobrze widział?... przeświadczyć by się trzeba... długo... doskonale... Na to muszę być samym... Trzy razy byłem, zawsze jest otoczoną. Każę odejść kobietom... wszystkim. <stage>(zatrzymuje się)</stage> Mają odejść – precz – na długo – może na noc całą... Ale jakżeż to zrobić?... Cóż mi się dzieje?... Mnie taka rzecz wstrzymuje?... mnie? lekarza?... Idźmy... <stage>(Bierze za kapelusz – nagle ręką zakrywa oczy i pada na krzesło)</stage> Oh! a nuż tamci przyjdą, by robić dyssekcyą!... ludzkość im daje prawo... brat jej nie przyjechał... nikt im nic zabroni?... <stage>(Milczenie)</stage> Jakże tu zimno. <stage>(Idzie do komina)</stage> Więc dobrze, niech i tak będzie... jeżeli się mylę – niech zwycięży sztuka – niechaj robią autopsyą... <stage>(z westchnieniem)</stage> Nie!... to niepodobna... Czemu?... jeżeli moja myśl mnie zwodzi <stage>(drząco)</stage> wtedy... ja... ja sam to wykonam... <stage>(z goryczą)</stage> wszak mam prawo, jak tamci, więcej może jeszcze!... <stage>(Wraca do stolika – dobywa z szuflady szkatułkę – otwiera ją i ogląda instrumenta do dyssekcyi służące)</stage> Wolo!... bądź mocną... utrzymaj się... nie! ty mnie nie zaradzisz. <stage>(Bierze płaszcz – kładzie kapelusz)</stage> Sam będę <stage>(biorąc szkatułkę)</stage> bo te noże przestraszą kobiety – uciekną... <stage>(Chowa pod płaszcz szkatułkę i wychodzi pewnym krokiem)</stage></p>
+        </sp>
+        <trailer>(KONIEC PIERWSZEJ DOBY)</trailer>
+      </div>
+      </div>
+      <div type="act" n="3">
+       <head>DOBA DRUGA.</head>
+       <div type="scene" n="8">
+        <stage type="setting">
+          <p>(Sypialnia Kassyldy – łóżko na pokój wysunięte – na niem Kassylda spoczywa z złożonemi rękami jak miewają umarli – w rękach krucyfix – cztery wielkie świece palą się w czterech rogach łóżka – obok łóżka stolik, który trzy kobiety ubierają w obrazki świętych – kilka obrazków leży na łóżku)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#doktor">DOKTOR.</rs>
+            <rs key="#jedna_z_kobiet">JEDNA Z KOBIET.</rs>
+            <rs key="#druga_kobieta">DRUGA KOBIETA.</rs>
+            <rs key="#głos_kobiecy">GŁOS KOBIECY.</rs>
+            <rs key="#głos_męzki">GŁOS MĘZKI.</rs>
+            <rs key="#kassylda">KASSYLDA.</rs>
+            <rs key="#eustachy">EUSTACHY.</rs>
+          </p>
+        </stage>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Karol w płaszczu – kapelusz na głowie – wchodzi przez drzwi od przedpokoju)</stage> Co tu światła!... aha, to światło śmierci – śmierć zawsze oświeca... <stage>(Składa płaszcz na stołku – na nim kapelusz i szkatułkę – przybliża się do łóżka i patrzy na obrazki)</stage></p>
+        </sp>
+        <sp who="#jedna_z_kobiet">
+          <speaker>JEDNA Z KOBIET.</speaker>
+          <p><stage>(Do drugiej cicho)</stage> Doktor nie mówił, że jeszcze raz wróci?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Do siebie)</stage> Rozumiem – to śmierć – śmierć ciągle – a ja – ja jej nie chcę!... <stage>(do kobiet wskazując obrazki)</stage> Cóż to jest?</p>
+        </sp>
+        <sp who="#jedna_z_kobiet">
+          <speaker>JEDNA Z KOBIET.</speaker>
+          <p>Ołtarzyk układamy Panie – będziemy się modlić czuwając przy ciele.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Idźcie się modlić do siebie – mówiłem, żeby jej dać pokój – zdjąć to wszystko! <stage>(do siebie odrzucając z łóżka obrazki)</stage> Ten obrządek katolicki ma coś okrutnego – <stage>(do kobiet)</stage> zabierzcie... zabierzcie to wszystko.</p>
+        </sp>
+        <sp who="#jedna_z_kobiet">
+          <speaker>JEDNA Z KOBIET.</speaker>
+          <p>Czy Pan doktor będzie nas potrzebował?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Idzie po szkatułkę)</stage> Nie.</p>
+        </sp>
+        <sp who="#druga_kobieta">
+          <speaker>DRUGA KOBIETA.</speaker>
+          <p>Kiedyż mamy powrócić?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Zostanę noc całą. <stage>(Otwiera szkatułkę – kilka nożów wypada)</stage></p>
+        </sp>
+        <sp who="#jedna_z_kobiet #druga_kobieta">
+          <speaker>WSZYSTKIE KOBIETY.</speaker>
+          <p>O Jezus miłosierny!</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Zimno zbierając noże)</stage> Chyba, że widzieć chcecie? <stage>(Kobiety odchodzą, płacząc)</stage> Odeszły!... <stage>(Układa instrumenta na stole)</stage> Teraz od najścia zabezpieczyć się trzeba. <stage>(Oboje drzwi na klucz zamyka i wraca do łóżka)</stage> Ach jestem nakoniec, jak chciałem – sam – z nią!... Umarła, czy żywa, pożegnanie mi winnaś Kassyldo!... ciężko zasługuję na nie. <stage>(Wpatruje się)</stage> Kontent jestem z siebie – nic nie widzę jak... – nie trupa – lecz ciało. <stage>(Wyjmuje z rąk krucyfix)</stage> Śmierć pod ręką – lecz nie w oku, nie w myśli – szukajmy znaku dla pierwszego – dla drugiej przekonania. <stage>(Siada na stołku w nogach łóżka – zakłada ręce – zatapia wzrok w rysach Kassyldy – i zostaje długo nieruchomy)</stage> Teraz jak pierwej... jak zawsze – nic – nie widzę nic – nie widzę śmierci – przerwijmy. <stage>(Wstaje i chodzi po pokoju)</stage> Nie widzę nic... ale czy ja chcę widzieć?... czy chcę dostrzedz śmierci?... czy ja śmierci mam upatrzeć wolę?... Dobrze, więc skoro tego koniecznie potrzeba... <stage>(z przyciskiem)</stage> Chcę! <stage>(Zatrzymuje się)</stage> O moja wolo daj mi przekonanie na sztuce oparte!... Wolo moja! wszakże dziecku jeszcze pokazywałaś mi okropne wśród nędzy pożycie... parłaś mnie ku niej mówiąc, że aby ją zwyciężyć wręcz do niej iść trzeba – czyliż wtedy opierałem się tobie?... Gdy później stawiłaś mi obraz wszystkich cierpień, trudności i zgryzot w celu dojścia do sztuki – czyliż nie usłuchałem ciebie?... Czy był opór, któregobym nie zniósł w imię twoje?... <stage>(z czułością)</stage> Jeżeli od lat pięciu nie zdołałem przytłumić uczucia... nie skrępowałżem go... nie ścisnąłemże go, nie wtłoczyłemże go w serce, tak mocno, tak głęboko – że choć miłość była – żyć musiała bez żądzy, bez nadziei... Jakże była ukrytą!... Jeżeli więc tak stoi w przeznaczenia księdze, że dziś skończyć się musi... Wolo moja! o daj siłę – bym się o tem w tej dowiedział chwili... niech śmierć zobaczę – koniec!... A choćby na ten widok... choćby to przekonanie ostatecznym życia mego było kresem... <stage>(Zatrzymuje się chwilkę)</stage> Wolo moja – błogosławić cię będę!... <stage>(Chodzi po pokoju w milczeniu)</stage> Niepewność ta nad siły – to piekło!... więc po raz ostatni... ostatni... patrzmy! <stage>(Szybko zbliża się do łóżka – trąca o stolik – nóż spada z metalicznym brzękiem – cofa się przerażony)</stage> Ach!... jakże dźwięk ten przeszedł mi po żyłach – jakież przeszywające echo jego w sercu!... <stage>(z ironią)</stage> I jaż to mam śmierć widzieć?... ja... taki wątły... słaby?... <stage>(Milczy chwilę)</stage> Cofnąłbym się?... i czemu?... Jeśli ona nie żyje, dbamże o resztę świata... o kogo? <stage>(Chce siadać)</stage> Nie – trzeba wprzód przyjść do siebie. <stage>(Podnosi i układa noże – potem siada)</stage> Teraz – tak, teraz – zda mi się – jestem pewny... będę szczerym z sobą. <stage>(Po chwili bierze krucyfix i wciska go w ręce Kassyldy)</stage> Zimne, jak lód – ale nie dość stężałe – wszystko jedno... wróćmy jej tego Chrystusa, którego tak kochała – to godło śmierci tutaj – wszak ja za śmiercią gonię – wszak ja śmierć chcę zobaczyć... dotknąć... <stage>(Zostaje w niemej i spokojnej kontemplacyi – po niejakim przeciągu czasu powieki Kassyldy wolno, z trudnością się podnoszą i opadają natychmiast. Doktor zrywa się)</stage> Przebóg... com ja widział?... <stage>(Zakrawa oczy rękoma – potem je pomału rozsuwa – patrzy)</stage>  Nic?... nic?... jakto?... ja życie widziałem... a to nic nie było?... nic? <stage>(W twarz Kassyldy patrzy dzikim wzrokiem)</stage> Byłożto spojrzenie anielskie... lub czarta pomrugi?... Czy ja widzę?... czy jestem na jawie – lub może padłem pastwą przywidzenia... hallucynacyi, jaką chyba piekło zsyła, gdy nadzieję przedrzeźnia... naigrawa się ze sztuki?... <stage>(Stoi chwilkę nieruchomy – oczy w suffit wlepione – poczem chwyta prawą ręką za lewą i rachuje uderzenia pulsu)</stage> Nie – to ani jedno, ani drugie <stage>(zimno)</stage> to ja mam gorączkę... <stage>(Idzie do okna – otwiera – oddycha głęboko, odgarnia włosy z czoła)</stage> Jakże mnie głowa pali, <stage>(patrząc w niebo)</stage> błękitne... gwiaździste... księżyc świeci... jaki spokój w naturze – jakże niewzruszone prawa, któremi postępuje! ludzkość tylko wpleciona w koło odwiecznego ruchu, szamoce się i męczy – bo każdy szczebel – to inne cierpienie. <stage>(Słychać zegar miastowy)</stage> Dwónasta – wczoraj o tej godzinie znać mi dano – wczoraj o tym czasie pierwszy raz wyrzekłem – umarła!... <stage>(Po chwili jakby przebudzony)</stage> Właśnie dwadzieścia cztery godzin <stage>(zamykając okno)</stage> posłużylo mi zimno. <stage>(Idzie do łóżka i stawa z założonemi rękoma)</stage> To nic nie było – przywidzenie <stage>(z wzgardą)</stage> jakiż człowiek słaby na przeciw mocy żądzy. <stage>(Po chwili podnosi się pierś Kassyldy ledwo dostrzegalnym ruchem – doktor nieruchomy)</stage> Tylko czy ja spokojny?... tak – spokojnym – znów mi się zdawało... <stage>(Ruch się powtarza – nachyla się)</stage> Tak jest... nie mylę się... widzę... <stage>(Ruch przestaje)</stage><lb /><stage>(Przytłumionym głosem)</stage> Tak, niezawodnie. <stage>(Podnosi się)</stage><lb /><stage>(Z krzykiem)</stage> O szczęście – to letarg!... <stage>(Biegnie do drzwi – znika i wraca)</stage> Nieszczęsny!... głowę tracę... <stage>(wyjmując klucz z zamku)</stage> cóżbym był zrobił... gdyby tamci tymczasem nadeszli. <stage>(ze zgrozą)</stage> Okropność!</p>
+        </sp>
+        <stage>(Wychodzi do sieni – słychać jak drzwi na klucz zamyka – łoskot po schodach – głos woła: Karolu! Karolu! – doktorze! zmiłuj się... słuchaj! osoby do drzwi się zbliżają – rozmawiają pod drzwiami)</stage>
+        <sp who="#głos_męzki">
+          <speaker>GŁOS MĘZKI.</speaker>
+          <p>Gdzież może tak biedz doktor bez kapelusza?</p>
+        </sp>
+        <sp who="#głos_kobiecy">
+          <speaker>GŁOS KOBIECY.</speaker>
+          <p>Alboż ja wiem Panie.</p>
+        </sp>
+        <sp who="#głos_męzki">
+          <speaker>GŁOS MĘZKI.</speaker>
+          <p>Popchnął mnie jak waryat.</p>
+        </sp>
+        <sp who="#głos_kobiecy">
+          <speaker>GŁOS KOBIECY.</speaker>
+          <p>Doktor jest przy ciele od godziny – przyszedł z instrumentami – nożami – oh! to człowiek bez serca.</p>
+        </sp>
+        <sp who="#głos_męzki">
+          <speaker>GŁOS MĘZKI.</speaker>
+          <p>Z nożami!... on... to być nie może.</p>
+        </sp>
+        <sp who="#głos_kobiecy">
+          <speaker>GŁOS KOBIECY.</speaker>
+          <p>Na własne widziałam oczy, jak je przygotowywał.</p>
+        </sp>
+        <sp who="#głos_męzki">
+          <speaker>GŁOS MĘZKI.</speaker>
+          <p>Nie uwierzę – aż zobaczę. <stage>(Dobywa się do drzwi)</stage></p>
+        </sp>
+        <sp who="#głos_kobiecy">
+          <speaker>GŁOS KOBIECY.</speaker>
+          <p>On taki Panie nielitościwy.</p>
+        </sp>
+        <sp who="#głos_męzki">
+          <speaker>GŁOS MĘZKI.</speaker>
+          <p>Moja siostra! moja biedna siostra!... oh to okropnie – drzwi zamknięte – trzeba czekać, aż wróci.</p>
+        </sp>
+        <sp who="#głos_kobiecy">
+          <speaker>GŁOS KOBIECY.</speaker>
+          <p>Zamknął ją okrutnik – słyszałam, jak zamykał także drzwi od przedpokoju – niedostanie się Pan...</p>
+        </sp>
+        <stage>(Głosy się oddalają rozmawiając – słychać chałas innych drzwi otwierających się i zamykających – poczem cichość zupełna.<lb />Po chwili wchodzi doktor pomału z flaszeczką w ręku – rzuca okiem niespokojnem na łóżko – zamyka drzwi na klucz z ostrożnością – przybliża się do łóżka – stawia flaszeczkę, wyjmuje krucyfix z rąk Kassyldy – trzymając go sam nachylony, przygląda się pilnie)</stage>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Rozpatrujmy się naprzód – za zimne mam ręce – nic – nic – jeszcze nic – przecie – ach! tak – to wszystko – jeszcze trzeba wiedzieć, by zobaczyć – poruszenie takie słabe – a jednak to życie <stage>(z radością)</stage> Życie!... natura zwyciężyła – zachowała tchnienie – pomóżmy jej cokolwiek – dodajmy sztukę do zwycięztwa – mogłoby się zatrzymać. <stage>(Rzuca krucyfix – porywa flaszeczkę – otwiera i przykłada do ust Kassyldy)</stage> Zęby zaciśnięte!... <stage>(Próbuje otworzyć)</stage> Napróżno. <stage>(Stawia flaszeczkę – próbuje oburącz)</stage> Ani sposób – jakiż to spazm mocny! co tu robić?... jakto?... i ja się wacham... ja?... kiedy jej życie i moja powinność razem... <stage>(Porywa nóż – gwałtem roztwiera szczękę – wlewa rachując kilka kropel z flaszeczki – potem ciska noż)</stage> Jakież to żelazo zimne!... <stage>(z namysłem)</stage> więc moja ręka nie zimna. <stage>(Bierze Kassyldę za rękę)</stage> Jeszcze skośniała – lecz wkrótce – niedługo. <stage>(Siada i czeka – słychać lekkie westchnienie)</stage> Żyje! oh żyje – bo się skarży – kilka kropel jeszcze. <stage>(Zadaje kilka kropel)</stage><lb /><stage>(Z pychą)</stage> Wspaniały skutek... jak ciepła przybywa – ręka już mięknie. <stage>(Klęka przy łóżku, trzymając Kassyldę za rękę)</stage> Ot – puls już bić zaczyna. <stage>(Słychać bicie zegaru)</stage> O jakże to czas długi w oczekiwaniu szczęścia <stage>(cicho w najwyższem uniesieniu)</stage> Ach... Ach...</p>
+        </sp>
+        <sp who="#kassylda">
+          <speaker>KASSYLDA.</speaker>
+          <p><stage>(Otwiera wolno oczy, które chwilę bez wejrzenia zostają – doktor patrzy zachwycony – Kassylda osłabionym głosem)</stage> Gdzież jestem?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Na kolanach – trzymając rękę, po cichu)</stage> W Niebie!</p>
+        </sp>
+        <sp who="#kassylda">
+          <speaker>KASSYLDA.</speaker>
+          <p><stage>(Zatacza wzrokiem - zatrzymuje go chwilę na Karolu i mówi pomału)</stage> W niebie? o nie – bo – nie on – ale ty jesteś przy mnie...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Nieporuszony jak statua, ciągnie żarzącym wzrokiem za wzrokiem Kassyldy, której powieki się zamykają – oddech zaczyna być regularny i po chwili w sen spokojny przechodzi)</stage> Śpi... <stage>(Chwila milczenia)</stage> Tak – śpi... <stage>(Znowu chwila milczenia)</stage><lb /><stage>(Ciężkim głosem)</stage> Bo nie on – ale ty... <stage>(Nowa pauza)</stage> To jej pożegnanie... <stage>(Ciągle w tej samej nieruchomości – łza mu w oczach staje – świeci, błyszczy coraz więcej – wypełnia źrenicę – toczy się po licu i pada na rękę Kassyldy – którą w swojej trzyma)</stage> Płaczę... tak – płaczę! oh przyjmij... przyjm tę łzę Kassyldo!... to łza także pożegnania... pożegnania kochanka... <stage>(Nachyla się i całuje rękę Kassyldy)</stage> Kochanka – który przepadł! <stage>(z przymusem)</stage> człowiek sztuki powstaje. <stage>(Podnosi się i stoi chwilę patrząc spokojnie)</stage> Czyńmy naszę powinność. <stage>(Bierze flaszeczkę i jeszcze parę wlewa kropel w pół otwarte usta Kassyldy – gasi trzy świece – czwartą stawia za łóżkiem – pokój się ściemnia – chwilę jeszcze stoi nad łóżkiem)</stage> Wszystko idzie jak najlepiej. <stage>(Chowa flaszeczkę do kieszeni i po cichu udaje się do okna, o które się opiera)</stage> Więc to był sen – nie! ona nie umarła! <stage>(Po chwili słychać szelest w przedpokoju)</stage> Ktoś przychodzi – brat zapewne – prawda, na schodach go spotkałem... muszę całą mą zimną krew zachować <stage>(z goryczą)</stage> aby się nie spostrzegł, że tu zawsze jeden trup jest jeszcze. <stage>(Idzie do drzwi przedpokoju – które ktoś otworzyć próbuje – obraca pomału kluczem)</stage></p>
+        </sp>
+        <sp who="#eustachy">
+          <speaker>EUSTACHY.</speaker>
+          <p><stage>(Staje w progu)</stage>
+            <stage>(Z akcentem wyrzutu)</stage> Więc to prawda?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>KOTORA.</speaker>
+          <p><stage>(Przerywając)</stage> Cicho!... <stage>(prowadząc go do okna)</stage> Mówmy cicho Eustachy – tak jest prawda... to był letarg tylko.</p>
+        </sp>
+        <sp who="#eustachy">
+          <speaker>EUSTACHY.</speaker>
+          <p><stage>(Z krzykiem radości)</stage> Boże... co ja słyszę!</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Cicho!... śpi... trzeba snu jej strzedz pilnie – nic jej tyle sił powiększyć nie może.</p>
+        </sp>
+        <sp who="#eustachy">
+          <speaker>EUSTACHY.</speaker>
+          <p>Więc kiedyś mnie na schodach o mało nie wywrócił...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Biegłem po lekarstwo – nie miałem czasu ani uważać, ani stanąć.</p>
+        </sp>
+        <sp who="#eustachy">
+          <speaker>EUSTACHY.</speaker>
+          <p><stage>(Do siebie)</stage> A ja go oskarżałem <stage>(do doktora)</stage> Karolu! jakże ci podziękować!...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Dziękuj naturze – to jej sprawa mój przyjacielu – ja tylko powinność wypełniłem.</p>
+        </sp>
+        <sp who="#eustachy">
+          <speaker>EUSTACHY.</speaker>
+          <p><stage>(Z czułością)</stage> Masz racyą Karolu! powinność tak słodką... oh jakież szczęście twoje!...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Zachmurzając czoło)</stage> Wielkie zapewne – ratowałem przyjaciółkę – oddaję ci siostrę – tak – jestem bardzo szczęśliwy. <stage>(Idzie do stolika i chowa noże do szkatułki)</stage></p>
+        </sp>
+        <sp who="#eustachy">
+          <speaker>EUSTACHY.</speaker>
+          <p><stage>(Patrząc na niego)</stage> Co? noże?... więc ta kobieta prawdę mówiła... o zgrozo!... jakżeby on był mógł?... a jednak po to przyszedł, jak się zdaje... Ach okropniem się zawiódł... ależ bo jaki on zimny.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Bierze szkatułkę pod pachę i wraca do okna)</stage> Zostawiam cię przy siostrze Eustachy.</p>
+        </sp>
+        <sp who="#eustachy">
+          <speaker>EUSTACHY.</speaker>
+          <p><stage>(Z zadziwieniem)</stage> Odchodzisz – porzucasz ją teraz?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Z prostotą)</stage> Mam ubogiego bardzo niebezpiecznie chorym. Na teraz ona nic prócz spokojności nie potrzebuje. Jeśli się przebudzi – tylko spokój – wciąż spokój – żadnych wzruszeń – jak najmniej być może emocyi. Jeźli zażąda czego – możesz jej dać łyżkę... dwie, bulionu. Tylko powtarzam, wypoczynku i cichości – milczenie jak największe. – Bądź zdrów Eustachy... wrócę w poranku. <stage>(Kładzie płaszcz – kapelusz – zatrzymuje się jeszcze moment i patrzy na łóżko – potem wychodzi)</stage></p>
+        </sp>
+        <sp who="#eustachy">
+          <speaker>EUSTACHY.</speaker>
+          <p><stage>(Patrząc za nim)</stage> Prawdziwy człowiek sztuki! ale Kassylda żyje... kochana siostra żyje... O dzięki ci Panie!...<stage>(Siada przy łóżku)</stage></p>
+        </sp>
+       </div>
+       <div type="scene" n="9">
+        <stage type="setting">
+          <p>(Mieszkanie biednego rzemieślnika – w głębi izby przy cyganie leży człowiek na mizernem łóżku. W kącie dwoje dzieci śpi na gołym tapczanie – wzdłuż ściany szafa drewniana na naczynia – ława – przed nią stolik – dalej warsztacik, na którym skóry i kilka par starych butów leży w nieporządku – na cyganie stoi szklanka napełniona pół wodą, pół olejem – po którym pływa knot zapalony i migocąc płomykiem, niepewne rzuca na izbę światło)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#doktor">DOKTOR.</rs>
+            <rs key="#kobieta">KOBIETA.</rs>
+          </p>
+        </stage>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Karol u drzwi słucha opowiadania kobiety – potem płaszcz rzuca na stół)</stage> No teraz już wiem dosyć. <stage>(Przybliża się do leżącego człowieka, zacierając ręce)</stage> Dajcie tu bliżej światło.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p><stage>(Przynosi szklankę za lampę służącą)</stage> Świecy nie mamy – racz Pan doktor darować.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Na stronie)</stage> Biedni ludzie!... <stage>(examinując chorego)</stage> Nie mówi?...</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Nic – ani słowa.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Dawno?...</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Od wieczora – onegdaj nieborak pamięć stracił.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Z wyrzutem)</stage> Czemużeście pierwej do mnie nie przyszli?</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Byłamci wczoraj z rana o piątej godzinie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Przerywając)</stage> Ale mnie nie było! <stage>(Obraca się nagle i bierze ją za rękę)</stage> Moja wina – prawda, źle zrobiłem <stage>(z serdecznością)</stage> darujcie mi – wybaczcie <stage>(gorzko)</stage> nie mogłem.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p><stage>(Chce go w rękę całować)</stage> Ja zaś Panu darować – wszak ci to łaska Panie – nie powinność...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Najświętsza owszem – jedyna – <stage>(do siebie)</stage> gdzie cierpienie ludzkości – gdybym był wczoraj przyszedł... zapalenie nie byłoby do tego doszło stopnia – <stage>(głośno)</stage> trzeba natychmiast posłać po chirurga.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Polecę zaraz po niego...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Wy?... onby tu sam pozostał?... nie to ja polecę – <stage>(na stronie)</stage> najmniej co zrobić mogę... <stage>(głośno)</stage> przyszlę go tu natychmiast... Dajcie mi teraz papieru i pióra...</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p><stage>(Z ambarasem)</stage> Nie mam, panie doktorze przepraszam.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Nic nie szkodzi – poradzimy na to. <stage>(Wyrywa ćwiartkę ze swego pularesu – i pisze ołówkiem – kobieta mu przyświeca)</stage> Będzie to mixtura – słuchajcie – dacie zażyć mężowi połowę od razu – w godzinę resztę – potem zobaczymy <stage>(dodając słów kilka na recepcie)</stage> pójdziecie wtedy, gdy tu będzie cyrulik, do apteki pod Lwem.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>To tam, gdzie dobrodziej mieszka.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Tam.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Lekarstwo będzie drogie?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Nic – prawie nic kosztować nie będzie.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Mam dawną flaszeczkę – wezmę z sobą – zawsze o tyle taniej.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>W wielkiej więc jesteście biedzie?</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Kiedy mój ma robotę – to życie idzie jako tako panie – ale od niejakiego czasu i roboty nie było – i choroba złożyła.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Jak wyzdrowieje, bądźcie pewni, roboty mu nie braknie.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p><stage>(Z radością)</stage> Więc mój człek żyć będzie! o ja tego pewna byłam, skoro dobrodziej wstąpił w nasze progi.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Mam nadzieję – natura silna – rozpaczać nigdy nie potrzeba – cyrulik jak przyjdzie już będzie wiedział, co ma czynić. <stage>(Wdziewa płaszcz)</stage></p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p><stage>(Z nieśmiałością)</stage> Panie doktorze.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>No – i czegóż chcecie?</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Ale bo to – widzi pan doktor – bo to z dobrodziejem inaczej – zna go się – wie się, że dobry – że miłosierny.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Przerywając)</stage> No – no – skończyć proszę – nie mam czasu.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Że od biednych nic nie przyjmuje ludzi – ale ten, co przyjdzie – ten Pan.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Nie bójcie się – i ten od was nic nie przyjmie – ja wrócę, nim do szpitala pójdę – skoro mąż będzie trochę lepiej – tam go wezmę – bym go miał pod ręką.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p><stage>(Chce ująć doktora za kolana – doktor się broni)</stage> Panie ty jesteś aniołem!</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Surowo)</stage> Jestem człowiekiem <stage>(do siebie)</stage> i człowiekiem, który zawinił... <stage>(odchodząc)</stage> do zobaczenia.</p>
+        </sp>
+        <sp who="#kobieta">
+          <speaker>KOBIETA.</speaker>
+          <p>Niech Bóg błogosławi!...</p>
+        </sp>
+        <stage>(Doktor wychodzi)</stage>
+       </div>
+       <div type="scene" n="10">
+        <stage type="setting">
+          <p>(Pokój doktora Karola – lampa się świeci na stoliku do pisania – doktor wchodzi, za nim Jakób)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#doktor">DOKTOR.</rs>
+            <rs key="#jakob">JAKOB.</rs>
+          </p>
+        </stage>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Do siebie chowając szkatułkę)</stage> Posłałem chirurga – wszystkich użyję środków... bo choroba tego biednego szewca całem brzemieniem wyrzutu sumienia mnie przygniotła. <stage>(Siada kaszląc)</stage> Słowa jego żony były dla mnie balsamem – miałożby jeszcze nie być wyschniętem to źródło słodyczy?... <stage>(Kaszle mocniej)</stage></p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Do siebie)</stage> Otóż znowu ten przeklęty kaszel! jakże ma być inaczej – lata z odkrytą głową po takim mrozie... jakby się chciał zabić!... <stage>(głośno)</stage> Daruj Pan, ale bom ciekawy...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Czego?...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Bo proszę pana – gdy w nocy usłyszałem dzwonek... wstałem, sądząc, że pana wołają... zbiegłem – widząc światło w Aptece... wszedłem – Pan Romuald mi powiada – że Pan był po lekarstwo... że dla Panny Kassyldy – w nos mu się rozśmiałem... daruj Pan mówiąc: śni się panu, lekarstwo umarłemu to kadzidło!... Ale on utrzymywał, że tak jest w samej rzeczy.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Miał racyą – tak było w istocie – bo panna Kassylda nie umarła – żyje.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>A toż mi kuracya dopiero... to to pan mój kochany szczęśliwym być musi.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Przerywając)</stage> Która godzina Jakóbie.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Patrząc na zegar)</stage> Po piątej.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Idź teraz i daj mi znać – gdy kto przyjdzie.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Czy mam dolać oleju do lampy?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Weź ją z sobą – przyniesiesz dopiero, jak wrócisz.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Zabiera lampę i mówi odchodząc)</stage> A to mi sztuka umarłego uzdrowić.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Sam)</stage> Tak umarłego uzdrowić – a nie być w stanie powiedzieć sobie: życie to rezygnacya! – oh ten cios jest straszny – okropny – boję się, by nie był nad siły... Dobrze mi w tej ciemnocie... bo też ciemno w mej duszy – głucho w sercu. <stage>(Siedzi pochylony w głębokiem marzeniu)</stage></p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Wchodzi z lampą)</stage> Panie! – otoż jeden pacyent przyszedł w tej chwili.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Jakby przebudzony ze snu)</stage> Już!... <stage>(Poprawiając się)</stage> To dobrze... wprowadź. <stage>(Kaszle)</stage></p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Odchodząc)</stage> Boże, jak on kaszle.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Z ciężkiem westchnieniem)</stage> Dalej Karolu!... dalej... nowy dzień się otwiera... rozpoczynaj życie!... <stage>(Do pacyenta, który wchodzi)</stage> Proszę – bardzo proszę.</p>
+        </sp>
+       </div>
+       <div type="scene" n="11">
+        <stage type="setting">
+          <p>(Pracownia przy aptece właściciela domu, gdzie doktor Karol mieszka – dwoje drzwi, jedne szklanne do apteki, drugie na prawo do jadalnej stancyi – meble porządne, prawie wikwintne – przy oknie Helena haftuje na tamborku. Ojciec jej stoi przy pulpicie – przed nim księga rachunkowa)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#doktor">DOKTOR.</rs>
+            <rs key="#romuald">ROMUALD.</rs>
+            <rs key="#helena">HELENA.</rs>
+          </p>
+        </stage>
+        <sp who="#romuald">
+          <speaker>ROMUALD.</speaker>
+          <p>Dwa a cztery – sześć a ośm... <stage>(Słychać dzwonek w aptece)</stage> Helenko! pójdź zobacz – subjekt wyszedł.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Wstaje – idzie ku drzwiom szklannym – przy nich spotyka się z doktorem)</stage> To ty panie Karolu!</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Ja Heleno. <stage>(Bierze ją za rękę – patrzy chwilkę z rozrzewnieniem – potem jakby do siebie mówi)</stage><lb /><stage>(Półgłosem)</stage> Biedne dziecię!... i ciebie to chciano do mnie przykuć – do trupa.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Z przestrachem)</stage> Doktorze!... co ty mówisz?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Ot – nic wcale – nic.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Drżąc)</stage> O trupie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Tak – prawda – marzyłem – <stage>(z dobrocią)</stage> daruj mi Heleno – czy nie wiesz, że ja doktor? <stage>(z uśmiechem)</stage> nas śmierć straszyć nie może – daruj mi. <stage>(Idąc ku Romualdowi)</stage> Dzień dobry Romualdzie!</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Wracając do okna)</stage> Cóż chciał przez to powiedzieć?</p>
+        </sp>
+        <sp who="#romuald">
+          <speaker>ROMUALD.</speaker>
+          <p>Sługa twój doktorze – przepraszam, zaraz skończę kolumnę – otoż jestem.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Cokolwiek raptusowo zbudziłem cię tej nocy, nieprawda?</p>
+        </sp>
+        <sp who="#romuald">
+          <speaker>ROMUALD.</speaker>
+          <p>A spodziewam się... w takim razie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Siadając na kanapie)</stage> Tak... był to letarg.</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Haftując)</stage> Opowiedz nam to doktorze kochany.</p>
+        </sp>
+        <sp who="#romuald">
+          <speaker>ROMUALD.</speaker>
+          <p>Dobrze mówi Helena – prosimy cię – całe miasto o tem gada i wszyscy się dziwią.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Zapewne przypadek rzadki – chociaż bardzo prosty. <stage>(Z przymusem)</stage> Przyszedłem był w nocy zrobić autopsyą ciała...</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Przerywając)</stage> Jak to?... sam ją chciałeś robić?... ty doktorze?... <stage>(Zasłaniając sobie oczy)</stage></p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Z prostotą)</stage> Czemu nie? to powinność lekarza – <stage>(Odpowiadając na wejrzenie pytające Heleny)</stage> Byłem jej przyjacielem – zaiste kosztowało mnie to – <stage>(z przymusem)</stage> bardzo nawet – wyznaję. Ale sztuka przedewszystkiem – ma ona swoje wymagania... ma swe poświęcenia... ofiary! Ostatnie chwile panny Kassyldy uderzyły mnie niespodziewanością – powinienem był przeniknąć ten fenomen medyczny – i w tym celu poszedłem. <stage>(Kaszle)</stage></p>
+        </sp>
+        <sp who="#romuald">
+          <speaker>ROMUALD.</speaker>
+          <p>Wiedziałem o tem od jednego z lekarzy przytomnych skonu panny Kassyldy. Spotkałam go dzisiaj. Mówił mi, że był tej nocy dla tej samej przyczyny, lecz już nie zastał ciebie. Brat panny Kassyldy Eustachy opowiadał mu swe szczęście – i twoje. Dodał, żeś miał w nocy z sobą skalpele... noże... zgoła instrumenta do dyssekcyi potrzebne – i dla tego żalił się twój kolega, żeś zazdrosny...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Zazdrosny?... sztuki – może. <stage>(Zamyśla się)</stage></p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Do siebie)</stage> Jakiż dziś smutny wyraz jego twarzy!... <stage>(głośno)</stage> Nie skończyłeś opowiadać Panie Karolu.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Zimno)</stage> Symptomata, jak mówiłem, tej śmierci mocno mnie dziwiły – dla tego zacząłem od starannej, troskliwej obserwacyi ciała. Śladu zepsucia uchwycić nie mógłem, któryby mnie do zaczęcia czynności uprawnił. Dwie godziny tak przeszły – nagle zdało mi spostrzedz lekkie drgnienie – dalej nieznaczne odkryłem poruszenia – dalej jakby tchnienie w oczy mi wionęło – nakoniec przyszło przekonanie letargu i przybiegłem tutaj. Skutek kordiału twego nadzwyczaj był prędki. Ocknęła się panna Kassylda i spokojnie znów zasnęła. <stage>(Kaszle mocno)</stage></p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p>Jakże kaszlesz Panie Karolu!</p>
+        </sp>
+        <sp who="#romuald">
+          <speaker>ROMUALD.</speaker>
+          <p>Zaziębiłeś się trochę – i teraz coraz zdrowsza?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Znacznie do sił przychodzi – byłem u niej dwa razy – ale czy nie czas na obiad... spieszno mi cokolwiek... wybaczcie.</p>
+        </sp>
+        <sp who="#romuald">
+          <speaker>ROMUALD.</speaker>
+          <p>Prawda – pierwsza godzina – <stage>(do Heleny)</stage> Nie uważam, czy subjekt powrócił?</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Patrząc w okno u drzwi)</stage> Tak jest ojcze – widzę go ztąd.</p>
+        </sp>
+        <sp who="#romuald">
+          <speaker>ROMUALD.</speaker>
+          <p>No to spytaj się Helenko, czyli obiad gotów. <stage>(Helena wychodzi)</stage> Doktorze! reputacya twoja za nadto ustalona, aby potrzebowała blasku, którym ten wypadek uświetni wysokie twe zdolności – ale jednak przyznaj, że jesteś nadzwyczajnie szczęśliwym <stage>(śmiejąc się)</stage> Dalibóg, jabym z tobą nie śmiał grać w zielone!</p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Wracając)</stage> Obiad już na stole.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Słusznie mówisz Romualdzie – jestem nadzwyczajnie szczęśliwym – a jak zawsze na świecie – więcej szczęścia niż zasługi – <stage>(wstając)</stage> chodźmy jeść.</p>
+        </sp>
+        <sp who="#romuald">
+          <speaker>ROMUALD.</speaker>
+          <p>Na to się nie zgadzam – to jest na to, co mówisz – bo na obiad ci służę. <stage>(Doktor wychodzi – za nim Romuald)</stage></p>
+        </sp>
+        <sp who="#helena">
+          <speaker>HELENA.</speaker>
+          <p><stage>(Patrząc za doktorem)</stage> Mój Boże! cóż to za prostota w tym człowieku. <stage>(Odchodzi)</stage></p>
+        </sp>
+       </div>
+       <div type="scene" n="12">
+        <stage type="setting">
+          <p>(Pokój doktora Karola – lampa na stoliku przed kanapą)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#doktor">DOKTOR.</rs>
+            <rs key="#jakob">JAKOB.</rs>
+            <rs key="#władysław">WŁADYSŁAW.</rs>
+          </p>
+        </stage>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Przechadza się wolno po pokoju)</stage> Lepiej temu biedakowi – i mnie lżej nieco – okropnie byłoby to powiedzieć sobie: Umarł – osierocił żonę... dzieci... boś ty twojej uchybił powinności – obowiązku względem cierpienia... bliźniego <stage>(z dumą)</stage> uchybiłeś twej sławie – skłamałeś powołaniu – karyerze. <stage>(Zatrzymuje się i spuszcza głowę)</stage> O mojej karyerze... sławie... wszystko byłem zapomniał... ona jedna tylko była na świecie. <stage>(Rzuca się na kanapę)</stage> I jej lepiej... żyć będzie... a ja? <stage>(Po długiej medytacyi – z czoła odgarnia włosy)</stage> Tu gorąco – <stage>(Z smutnym uśmiechem patrząc w komin)</stage> to wczorajsze popioły – przypominam sobie – wczoraj mi zimno było. <stage>(Kaszle)</stage> Zwyczajnie – chory jestem po prostu. <stage>(Wstaje – chodzi – po chwili staje przed zegarem)</stage> Jedna doba się kończy – życia nowego! – Nowego?... Czemu?... czy miałem jaką żądzę która dziś ustała?... miałem jaką nadzieję, która dzisiaj spełzła?... nie – nic wcale. <stage>(Milczy i wzrokiem w koło siebie zatacza)</stage> Taki sam jestem!...  <stage>(Chodzi znowu)</stage> Czyliż sam zawsze nie byłem?... nie chciałżem być zawsze samym?... <stage>(Kaszle)</stage> Cóż się w tej koniecznej dla mnie samotności zmieniło?... nie mamże moich książek... moich chorych?... nie dosyć że to, aby zatrudnić i rozum i duszę?... a moja ambicya, którą chcę zaspokoić... która tego wymaga?... Sztuka... reputacya... ludzkość... ambicya, czyż to wszystko wystarczyć mi nie ma?... Oh powinno wystarczyć... to wszystko piękne... użyteczne... wielkie... musi zapełnić istnienie człowieka – musi!... <stage>(Chwila milczenia)</stage> Ależ to wszystko zimne – to dosyć dla głowy – dla umysłu... Lecz dla serca... <stage>(Staje nagle)</stage> Moje serce zniszczone – starło się na pył w okropnej z mą wolą szermierce – przewidziałem – chciałem – stało się – <stage>(z wyrazem goryczy)</stage> Nieprawda!... słowo straszne!... Kłam zadany duszy... woli... sobie!... <stage>(Kładąc rękę na serce)</stage> Czuję... o czuję... serce moje zgruchotane – lecz żyje!... Czuję konwulsyjne jego drgnienia... słyszę jak woła ratunku... zbawienia... w myśli, któraby u niego balsamicznie tchnęła... zcaliła go... ogrzała krew zastygłą... by znów biło... <stage>(Jakby w gorączce)</stage> Nieprawda!... jemu tylko myśli tej potrzeba – myśli tej kochania... miłości... Nieprawda! nie! ono nie umarło!... serce moje w letargu... Ale któż go przebudzi, któż go z niego wyciągnie? Nikt... na to nie umieć – nie chcieć – ale kochać... miłości potrzeba... <stage>(z ironią)</stage> któż kocha!... <stage>(z decyzyą)</stage> Ja sam jestem – bo sam w myśli – na zawsze!... <stage>(Siada na kanapie – po chwili bierze maszynalnie leżące gazety i listy – przegląda adresa)</stage> Nie ma nic z królestwa – ni gazety ni listu.. <stage>(Wołając)</stage> Jakóbie!... <stage>(Kaszle)</stage></p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Wchodząc – do siebie)</stage> Kaszle ciągle – co Pan każe?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Brakuje mi dzienników – gdzie są?...</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Z królestwa?... wczoraj Panu mówiłem, że poczta z królestwa nie przyszła – i dziś także.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>To dziwna. <stage>(Otwiera jeden z listów)</stage></p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Śniegi zapewne spadły. <stage>(Idzie ku drzwiom i wraca)</stage> Ale – zapomniałem powiedzieć, że Pan Władysław był u Pana – chciał się z Panem widzieć.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Władysław?... kiedy?... widziałem go w południe.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Kwadransem, nim Pan wrócił.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Musiał go jakiś nagły interes zaskoczyć. <stage>(Czyta dalej)</stage></p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Nie zrobić ognia na kominku?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Czytając)</stage> Nie.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Do siebie – przedrzeźniając)</stage> Nie – powiedziałby kto, że zdrów jak ryba. <stage>(Odchodzi)</stage></p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Czyta listy – potem myśli chwilę i zabiera się do gazet – gdy Władysław wchodzi)</stage> Dopiero co mi Jakób powiedział, żeś był u mnie Władysławie – że się ze mną chcesz widzieć – byłbym poszedł, ale bałem się minąć – czekałem, byś wrócił – siadaj tu koło mnie.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Wszak jesteśmy sami?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Czy ja sam, pytasz? <stage>(z uśmiechem)</stage> czy mnie nie znasz? mów tylko – co rozkażesz?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Mam Ci ważną udzielić nowinę.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Nowinę?... <stage>(obojętnie)</stage> spodziewałem się, że mnie potrzebować będziesz...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Nie Karolu. <stage>(ciszej)</stage> Rewolucya wybuchła w Warszawie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Z żywością)</stage> Kiedy?</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>29. Listopada – onegdaj.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Onegdaj... <stage>(do siebie)</stage> Była w letargu – nie umarła – zmartwychwstała... traf szczególny!.. <stage>(do Władysława)</stage> a jakże to wiesz?... przez kogo?... co się dzieje?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Czytaj ten list – doszedł mnie na drodze handlowej.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Przebiega list – i oddaje)</stage> Więcej nic nie wiesz?</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Nic – cóż mówisz na to Karolu?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Z oczywistem roztargnieniem)</stage> Co mówię... co ja mówię... <stage>(Wstaje nagle i wola)</stage> Jakóbie! Jakóbie!... <stage>(z decyzyą)</stage> Ja mówię, że jadę przyjacielu.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Wchodząc)</stage> Jestem Panie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Okulbacz mi konia.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p>Śmiałą – czy – Wolnego?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Wolnego <stage>(z uśmiechem)</stage> naturalnie Wolnego.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Do siebie)</stage> To biegus – gdzieś daleko pojedzie... a słaby... <stage>(głośno)</stage> Czy zaraz osiodłać mam Panie?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Natychmiast... chcę jechać.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Do siebie)</stage> Co mu się dzieje?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Do Jakóba, który wychodzi)</stage> Czekaj chwilę – <stage>(cicho do Władysława)</stage> Sądzisz, że już Rząd o tem się dowiedział... może zawiadomiony..</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>O bez wątpienia.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Zdejmuje pistolety ze ściany)</stage> Przypnij olstry do siodła – włożysz pistolety – <stage>(z prostotą)</stage> droga przez bór wypada.</p>
+        </sp>
+        <sp who="#jakob">
+          <speaker>JAKOB.</speaker>
+          <p><stage>(Bierze pistolety)</stage><lb /><stage>(Do siebie wychodząc)</stage> Boi się troszkę – to już chory być musi na dobre.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>I gdzież jedziesz?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Do królestwa.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Jakto?... tak jak jesteś... teraz zaraz?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Za dziesięć minut – tylko list jeden napiszę. <stage>(Kaszle i chodzi szybko po pokoju)</stage></p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Na stronie)</stage> Zwyczajnej zimnej krwi dziś nie ma... spróbuję go zatrzymać <stage>(głośno)</stage> Karolu co tobie?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Nic.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Tyś chory?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Tak, trochę – ale to nic nie szkodzi – ja mogę jechać.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Nie jedź dzisiaj – proszę Cię.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Ja muszę... chcę jechać – pojadę Władysławie.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Do siebie)</stage> Przepadło – pojedzie – nic w tem nie poradzę – <stage>(idąc do doktora)</stage> Bądź zdrów zatem Karolu – do zobaczenia...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Biorąc go za rękę)</stage> Gdzie?</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>No gdzieżby? w Warszawie.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Ściskając go)</stage> Wybacz mi Władysławie to pytanie... jam wiedział... ja cię znam... Bądź zdrów i do rychłego.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Idzie ku drzwiom – obraca się – i patrzy na doktora, który nieporuszony stoi)</stage> Karolu! ty masz coś na sercu.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Moż... lecz nic to.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Z czułością)</stage> Powiesz mi?...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Powiem – kiedyś – może na placu bitwy.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Na placu bitwy? <stage>(z uśmiechem)</stage> więc ci potrzebne do tego bicie bębnów... huk dział...</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p><stage>(Seryo)</stage> Nie – lecz widok trupów... jęk rannych – wszak wiesz, że ja do nich należę.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Więc na pobojowisku – do widzenia – Żegnam Cię.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>DOKTOR.</speaker>
+          <p>Bądź zdrów. <stage>(Władysław wychodzi – doktor po chwili namysłu przenosi lampę i siada do stolika)</stage> Zostawmy list Romualdowi – niech ułatwi bieżące interessa – niech pamięta o chorych – a z resztą? – nic – ja sam jestem. <stage>(pisze)</stage></p>
+        </sp>
+       </div>
+       <div type="scene" n="13">
+        <stage type="setting">
+          <p>(Plac przy bramie miasta na drodze do Kalisza – na prawo odwach – dwie latarnie go oświecają – przed odwachem szyldwach przechodzi tam i nazad – wśród nocnej ciszy słychać w oddali tentent kopyt końskich po bruku)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#szyldwach">SZYLDWACH.</rs>
+            <rs key="#doktor">DOKTOR.</rs>
+            <rs key="#podoficer">PODOFICER.</rs>
+          </p>
+        <sp who="#szyldwach">
+          <speaker>SZYLDWACH.</speaker>
+          <p><stage>(Staje – i patrzy w ulicę ku bramie wiodącą)</stage> Nic nie widać, jak na złość – chmury niebo zaciągnęły – księżyc przebić się nie może – wczoraj to jasno, jak w dzień było – dziś co befel: patrz! uważaj! to ciemno, wykłuj oczy... <stage>(Słucha – kroki końskie się zbliżają)</stage> Niezawodnie tu ktoś na koniu jedzie – muszę go zatrzymać – taki rozkaz. <stage>(Idzie ku budce pod latarnię – człowiek na karym koniu z bramy wyjeżdża)</stage> Stój! kto idzie?</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>JEZDZIEC.</speaker>
+          <p><stage>(Galopem puszcza konia i osadza przed budką)</stage> Polak!</p>
+        </sp>
+        <sp who="#szyldwach">
+          <speaker>SZYLDWACH.</speaker>
+          <p>To wy Panie Doktorze – jedźcie z Bogiem.</p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>JEZDZIEC.</speaker>
+          <p><stage>(Poprawiając płaszcza)</stage> Mylisz się przyjacielu – to nie doktor.</p>
+        </sp>
+        <sp who="#szyldwach">
+          <speaker>SZYLDWACH.</speaker>
+          <p><stage>(przystępuje do konia z bagnetem)</stage> Jakto się mylę?... kiż tam djabli – przecież ja Pana znam i dobrze – no jedź... jedź Pan Doktor – to nie dla Pana befel. <stage>(Wraca ku budce)</stage></p>
+        </sp>
+        <sp who="#doktor">
+          <speaker>JEZDZIEC.</speaker>
+          <p>Powtarzam Ci – ja nie doktor dzisiaj – tylko – Polak. <stage>(Spina konia i odjeżdża czwałem)</stage></p>
+        </sp>
+        <sp who="#podoficer">
+          <speaker>PODOFICER.</speaker>
+          <p><stage>(Wychodzi z odwachu)</stage> Szyldwach!</p>
+        </sp>
+        <sp who="#szyldwach">
+          <speaker>SZYLDWACH.</speaker>
+          <p>Słucham.</p>
+        </sp>
+        <sp who="#podoficer">
+          <speaker>PODOFICER.</speaker>
+          <p>Kto to odjechał?</p>
+        </sp>
+        <sp who="#szyldwach">
+          <speaker>SZYLDWACH.</speaker>
+          <p>Zatrzymałem go – to Doktor Karol.</p>
+        </sp>
+        <sp who="#podoficer">
+          <speaker>PODOFICER.</speaker>
+          <p>Poznałeś go?</p>
+        </sp>
+        <sp who="#szyldwach">
+          <speaker>SZYLDWACH.</speaker>
+          <p>Jeszczeby też – gdyby nie on, dawnobym był wdowcem.</p>
+        </sp>
+        <sp who="#podoficer">
+          <speaker>PODOFICER.</speaker>
+          <p>Czemuż on mówił: ja nie doktor, tylko Polak.</p>
+        </sp>
+        <sp who="#szyldwach">
+          <speaker>SZYLDWACH.</speaker>
+          <p>Ot zwyczajnie żartował – musi być dziś w bardzo dobrym humorze – ha wreszcie – bo i Polak.</p>
+        </sp>
+        <sp who="#podoficer">
+          <speaker>PODOFICER.</speaker>
+          <p><stage>(Patrzy za doktorem)</stage> Proszę jak leci – szkapa rwie gościniec – a gdzie jechał?</p>
+        </sp>
+        <sp who="#szyldwach">
+          <speaker>SZYLDWACH.</speaker>
+          <p>A licho go tam wie – zapewne gdzie kto cierpi.</p>
+        </sp>
+        <sp who="#podoficer">
+          <speaker>PODOFICER.</speaker>
+          <p><stage>(Patrzy ciągle)</stage> Płaszcz mu się rozwinął – podkowy iskry sypią – w nocy to jak duch się wydaje.</p>
+        </sp>
+        <sp who="#szyldwach">
+          <speaker>SZYLDWACH.</speaker>
+          <p>To djabeł cały ten Doktor Karol – on tak zawsze leci.</p>
+        </sp>
+        <sp who="#podoficer">
+          <speaker>PODOFICER.</speaker>
+          <p>Choć zawsze tak jeździ – przecie ktoś bardzo musi być chorym tej nocy. <stage>(Północ bije na zegarze miasta)</stage></p>
+        </sp>
+        <sp who="#szyldwach">
+          <speaker>SZYLDWACH.</speaker>
+          <p>Godzina – Panie Podoficer – trza zluzować wartę. <stage>(Woła)</stage> Do broni! <stage>(Żołnierze wychodzą z odwachu i zmieniają wartę)</stage></p>
+        </sp>
+        <trailer>(KONIEC DRUGIEJ DOBY)</trailer>
+      </div>
+      </div>
+      <div type="act" n="4">
+       <head>EPILOG.</head>
+        <castList>
+          <head>OSOBY:</head>
+          <castGroup>
+            <castItem>
+              <role corresp="#hrabia">HRABIA JAN,</role>
+            </castItem>
+            <castItem>
+              <role corresp="#władysław">WŁADYSŁAW,</role>
+            </castItem>
+            <roleDesc>oficerowie jazdy polskiej.</roleDesc>
+          </castGroup>
+          <castItem>
+            <role corresp="#żołnierz">ŻOŁNIERZ.</role>
+          </castItem>
+        </castList>
+      <stage type="setting">
+        <p>(Rzecz dzieje się w Warszawie r. 1831)</p>
+      </stage>
+       <div type="scene" n="14">
+        <stage type="setting">
+          <p>(Kwatera wojskowa – na kanapie siedzą hrabia Jan i Władysław – fajki palą – pierwszy w szlafroku rękę prawą na czarnej ma chustce, jakby na temblaku – drugi w mundurze hułańskim)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#hrabia">HRABIA.</rs>
+            <rs key="#władysław">WŁADYSŁAW.</rs>
+            <rs key="#żołnierz">ŻOŁNIERZ.</rs>
+          </p>
+        </stage>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Więc Ci lepiej Janie?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>I dużo – spodziewam się za dni kilka módz wnijść nazad do pułku. Na długoś w Warszawie?</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Nie zdaje mi się – jestem tu z Karolem, razem mamy odjechać.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>I gdzież się obraca – co porabia nasz lekarz sztabowy?</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Ciągle to samo – leczy – a pierwszy strzał armatni w żołnierza go zmienia. Dziś tu przyjechał zwiedzić lazarety. A propos lazaretów – powiedziano mi – czy prawda, że Twoja kuzyna przyjechała i ciągle w szpitalach przebywa?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Prawdę Ci mówiono – Kassylda jest tutaj – zupełnie szarytką.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Widział ją Karol, niewiesz?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Jakto? nie mówił Ci o tem?</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Ani słowa.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Zawsze równie szczególny – Spotkali się przy łóżku poczciwego wiarusa w lazarecie na krakowskiem przedmieściu – w sali, gdzie i mnie po Grochowie złożono – biedakowi amputowali rękę – wystaw sobie, Kassylda trzymała...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Z ciekawością)</stage> I widziałeś spotkanie?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Naturalnie – widziałem.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>No i cóż?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Co? nic... ot spotkali się jak dwaj starzy przyjaciele.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Nic Cię nie uderzyło?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>A cóż uderzyć miało?... źle mówię – prawda – uderzyło mnie, że całkiem ze spotkania nie byli zdziwieni – że tu – właśnie na tem miejscu – w takich okolicznościach. Tak mi się przynajmniej zdawało – ścisnęli się za ręce <stage>(śmieje się)</stage> i zaczęli sobie Ty mówić.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>I o czem mówili?</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>O sobie ani słowa – o polityce wiele.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Po chwili milczenia jakby odpowiadając sobie)</stage> Tak – tak jest.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Co mówisz?</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Nic.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(Śmiejąc się)</stage> No przyznaj się – myślałeś jeszcze o miłości Karola – ha, ha, ha, nie, to niepodobna!</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Myślę więcej, niż kiedy.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Ha, ha, ha, doskonały ty jesteś Władysławie!</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Seryo)</stage> Śmiej się jak chcesz – ja ci mówię, że oboje przedmiot miłości zmienili.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Oboje? <stage>(Z zadziwieniem)</stage> Kto oboje?</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Tak jest – Kassylda i Karol.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Mniejsza o Karola – skoro już chcesz koniecznie, a jesteś nie do uleczenia – ale Kassylda?... i ta się kochała?...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Może.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>I w kimże przecie? – mój ty romansotwórco.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Nie wiem – lecz na tem nie zależy – bo dzisiaj...</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>Skończ, proszę Cię.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Dzisiaj – nie kochają się Kassylda ani Karol w nikim – prócz w Ojczyźnie.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(Ironicznie)</stage> To bardzo pięknie!...</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>O zapewne, że pięknem jest i bardzo, to cudowne szlachetnych dwóch serc spotkanie w świętej naszej sprawie!</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p><stage>(Z uśmiechem)</stage> To spotkanie, jak mówisz doskonale, sławnie romans kończy.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p>Nie – ale masz racyą – rozwięuje dramat.</p>
+        </sp>
+        <sp who="#żołnierz">
+          <speaker>ŻOŁNIERZ.</speaker>
+          <p><stage>(Wchodzi – i oddaje Władysławowi bilet)</stage> Od lekarza sztabu.</p>
+        </sp>
+        <sp who="#władysław">
+          <speaker>WŁADYSŁAW.</speaker>
+          <p><stage>(Po przeczytaniu do żołnierza)</stage> Idź naprzód – powiedz, że zaraz przychodzę. <stage>(Żołnierz wychodzi)</stage> Karol mnie uprzedza, że odjeżdża natychmiast. <stage>(wstając i przypinając pałasz)</stage> Pewnie się o jakiejś dowiedział rozprawie. Bywaj zdrów Janie – wyzdrowij prędko i powracaj.</p>
+        </sp>
+        <sp who="#hrabia">
+          <speaker>HRABIA.</speaker>
+          <p>O chciałbym jak najprędzej. Bądź zdrów – dziękuję Ci, żeś mnie odwiedził – życzę szczęścia. <stage>(Władysław odchodzi – hrabia zamyśla się)</stage> Miałżeby Władysław mieć racyą? <stage>(Wstaje)</stage> Ej gdzie tam – to egzaltacya!... <stage>(Zapala faikę)</stage></p>
+        </sp>
+        <trailer>(KONIEC EPILOGU<lb />i<lb />DRAMATU)</trailer>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>
