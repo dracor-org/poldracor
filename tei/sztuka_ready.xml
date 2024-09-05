@@ -432,6 +432,7 @@
         <trailer>(KONIEC PROOGU)</trailer>
       </div>
       </div><div type="act" n="2">
+      <head>DOBA PIERWSZA.</head>
         <castList>
           <head>OSOBY:</head>
           <castItem>
@@ -526,7 +527,6 @@
             <roleDesc>przy szpitalu.</roleDesc>
           </castItem>
         </castList>
-      <head>DOBA PIERWSZA.</head>
         <stage type="setting">
           <p>(Rzecz dzieje się w mieście rodzinnem Doktora Karola)</p>
         </stage>
@@ -2145,6 +2145,7 @@
             <rs key="#doktor">DOKTOR.</rs>
             <rs key="#podoficer">PODOFICER.</rs>
           </p>
+        </stage>
         <sp who="#szyldwach">
           <speaker>SZYLDWACH.</speaker>
           <p><stage>(Staje – i patrzy w ulicę ku bramie wiodącą)</stage> Nic nie widać, jak na złość – chmury niebo zaciągnęły – księżyc przebić się nie może – wczoraj to jasno, jak w dzień było – dziś co befel: patrz! uważaj! to ciemno, wykłuj oczy... <stage>(Słucha – kroki końskie się zbliżają)</stage> Niezawodnie tu ktoś na koniu jedzie – muszę go zatrzymać – taki rozkaz. <stage>(Idzie ku budce pod latarnię – człowiek na karym koniu z bramy wyjeżdża)</stage> Stój! kto idzie?</p>
