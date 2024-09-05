@@ -530,6 +530,23 @@
         <stage type="setting">
           <p>(Rzecz dzieje się w mieście rodzinnem Doktora Karola)</p>
         </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#doktor">DOKTOR.</rs>
+            <rs key="#hrabia">HRABIA.</rs>
+            <rs key="#helena">HELENA.</rs>
+            <rs key="#jakob">JAKOB.</rs>
+            <rs key="#pierwszy_lekarz">PIERWSZY LEKARZ.</rs>
+            <rs key="#drugi_lekarz">DRUGI LEKARZ.</rs>
+            <rs key="#elew">ELEW.</rs>
+            <rs key="#dozorca">DOZORCA.</rs>
+            <rs key="#uboga_kobieta">UBOGA KOBIETA.</rs>
+            <rs key="#chłop">CHŁOP.</rs>
+            <rs key="#bryftreger">BRYFTREGER.</rs>
+            <rs key="#filip">FILIP.</rs>
+            <rs key="#dziewczyna">DZIEWCZYNA.</rs>
+          </p>
+        </stage>
       <div type="scene" n="2">
       <head>---</head>
         <stage type="setting">
