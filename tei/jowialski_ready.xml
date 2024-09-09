@@ -111,7 +111,7 @@
           <epigraph>
             <cit><quote>Głodnego żołądka bajką nie<lb />
             zabawić, racyą nie odbyć.</quote><lb /> 
-            <bibl>And. Max. Fredro.</bibl>.</cit>
+            <bibl>And. Max. Fredro.</bibl></cit>
           </epigraph>
         </titlePage>
         <castList>
@@ -1297,7 +1297,6 @@
         </div>
         <div type="scene" n="9">
           <head>SCENA IX.</head>
-          <stage type="setting">
           <stage type="entrance">
             <p>
               <rs key="#pan_jowialski">PAN JOWIALSKI.</rs>
