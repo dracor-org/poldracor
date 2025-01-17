@@ -142,10 +142,10 @@
           </docImprint>
         </titlePage>
         <div type="appendix">
-          <p><salute>
-            <p>MOJEMU BRATU I PRZYJACIELOWI XAWEREMU PUSŁOWSKIEMU</p>
+          <salute>
+            MOJEMU BRATU I PRZYJACIELOWI XAWEREMU PUSŁOWSKIEMU
           </salute>
-          POŚWIĘCAM.</p>
+          <p>POŚWIĘCAM.</p>
         </div><lb />
         <castList>
           <head>PO RAZ PIERWSZY WYSTAWIONO W KRAKOWIE DNIA 23 LUTEGO 1929 R. W NASTĘPUJĄCEJ OBSADZIE RÓL:</head>
@@ -2218,7 +2218,7 @@
           <speaker>JĘDREK.</speaker>
           <p>Najlepszego. <stage>(ciągnie z butelki do dna)</stage></p>
         </sp>
-        <stage>(Jednocześnie z przepijaniem toczy się następująca sprawa)</stege>
+        <stage>(Jednocześnie z przepijaniem toczy się następująca sprawa)</stage>
         <sp who="#kasperek">
           <speaker>KASPEREK.</speaker>
           <p><stage>(bezpośrednio po słowach Abramka)</stage> A za nase gemby kto nam zwróci!</p>
