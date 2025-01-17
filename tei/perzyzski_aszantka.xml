@@ -68,7 +68,7 @@
             <persName>Pan dyrektor</persName>
           </person>
           <person xml:id="pani_lubartowska" sex="FEMALE">
-            <persName>Pani Lubartowska</persName>
+            <persName>Pani lubartowska</persName>
           </person>
           <person xml:id="posłaniec" sex="MALE">
             <persName>Posłaniec</persName>
@@ -119,18 +119,22 @@
             <titlePart type="sub">KOMEDYA W TRZECH AKTACH</titlePart>
           </docTitle>
           <docImprint>
-              WE <pubPlace>LWOWIE</pubPlace> - <date>1907</date><lb />
-              NAKŁADEM KSIĘGARNI POLSKIEJ <name>B. POŁONIECKIEGO</name><lb />
-              WARSZAWA – <name>E. WENDE</name> I SP.<lb />
+              WE <pubPlace>LWOWIE</pubPlace> - <date>1907</date>
+              <publisher>NAKŁADEM KSIĘGARNI POLSKIEJ B. POŁONIECKIEGO<lb />
+              WARSZAWA – E. WENDE I SP.
+              </publisher>
               <note>TEGOŻ AUTORA.<lb />
               LEKKOMYŚLNA SIOSTRA, komedya w czterech aktach, kor. 1.50.<lb />
               MAJOWE SŁOŃCE, komedya w jednym akcie, kor. 1.-.</note><lb />
-              ODBITO CZCIONKAMI DRUKARNI SŁOWA POLSKIEGO WE LWOWIE<lb />
+              <publisher>ODBITO CZCIONKAMI DRUKARNI SŁOWA POLSKIEGO WE LWOWIE<lb />
               POD ZARZĄDEM JÓZEFA ZIEMBIŃSKIEGO - <origDate>1907 ROKU</origDate>
+              </publisher>
           </docImprint>
         </titlePage>
+        <div type="appendix">
+          <salute>Tadeuszowi Pawlikowskiemu</salute>
+        </div>
         <castList>
-          <salute>Tadeuszowi Pawlikowskiemu</salute><lb />
           <head>OSOBY:</head>
           <castItem>
             <role corresp="#łoński">EDMUND ŁOŃSKI,</role>
