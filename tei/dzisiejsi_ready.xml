@@ -84,13 +84,13 @@
             <titlePart type="main">DZISIEJSI.</titlePart>
             <titlePart type="sub">KOMEDYA W 1-ym AKCIE ORYGINALNIE NAPISANA.</titlePart>
           </docTitle>
-          <div type="appendix">
-            <salute>
-              D-ROWI JANOWI BRZEZIŃSKIEMU
-            </salute>
-            w przyjaznym upominku<lb />SKŁADA<lb />autor.
-          </div>
         </titlePage>
+        <div type="appendix">
+          <salute>
+            D-ROWI JANOWI BRZEZIŃSKIEMU
+          </salute>
+          w przyjaznym upominku<lb />SKŁADA<lb />autor.
+        </div>
         <castList>
           <head>OSOBY:</head>
           <castItem>
