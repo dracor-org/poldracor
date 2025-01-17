@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000036" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Jesteśmy gotowi</title>
+        <title type="sub">Obrazek sceniczny</title>
+        <author>
+          <persName>
+            <forename>Mieczysław</forename>
+            <surname>Janczowicz-Terlecki</surname>
+          </persName>
+        </author>
+        <!-- Mieczysław Janczowicz-Terlecki -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/jestesmy-gotowi-obrazek-sceniczny,OTY0NjkwNjM/2/#index</idno>
+          <title>Janczowicz-Terlecki, M., Cztery pokolenia: poemat sceniczny w 5 obrazach: napisany z okazji 20-lecia Odzyskania Niepodległości, Lwów 1939</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="bartosz" sex="MALE">
+            <persName>Bartosz Grzędziała</persName>
+          </person>
+          <person xml:id="dziedzic" sex="MALE">
+            <persName>Dziedzic</persName>
+          </person>
+          <person xml:id="julia" sex="FEMALE">
+            <persName>Julia</persName>
+          </person>
+          <person xml:id="michał" sex="MALE">
+            <persName>Michał Kuźniowski</persName>
+          </person>
+          <person xml:id="wojciech" sex="MALE">
+            <persName>Wojciech Dydziński</persName>
+          </person>
+          <person xml:id="wojtalowa" sex="FEMALE">
+            <persName>Wojtalowa</persName>
+          </person>
+          <person xml:id="wójt" sex="MALE">
+            <persName>Wójt</persName>
+          </person>
+          <person xml:id="włodzimierz" sex="MALE">
+            <persName>Włodzimierz Bednar</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-09-23">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1939">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <byline>
+            <docAuthor>MIECZYSŁAW JANCZOWICZ TERLECKI</docAuthor><lb />
+          </byline>
+          <docTitle>
+            <titlePart type="main">"Jesteśmy gotowi"</titlePart>
+            <titlePart type="sub">obrazek sceniczny</titlePart>
+          </docTitle>
+          <docImprint>
+              <pubPlace>LWÓW</pubPlace> <date>1939</date><lb />
+              Nakładem Komisji Wychowania Obywatelskiego Zarządu VI Okręgu Związku Strzeleckiego<lb />
+              Skład główny: Księgarnia <name>"KSIĄŻKA"</name> <name>Aleksandra Mazzucato</name>, <address><name>Lwów</name>, <street>ul. Czarnieckiego <num>l. 12</num>.</street></address><lb />
+          </docImprint>
+        </titlePage>
+        <castList>
+          <head>OSOBY:</head>
+          <castItem>
+            <role corresp="#dziedzic">Dziedzic</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#wójt">Wójt</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#wojciech">Wojciech Dydziński,</role>
+            <roleDesc>gospodarz</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#michał">Michał Kuźniowski,</role>
+            <roleDesc>gospodarz</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#bartosz">Bartosz Grzędziała,</role>
+            <roleDesc>gospodarz</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#wojtalowa">Wojtalowa,</role>
+            <roleDesc>gospodyni</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#włodzimierz">Włodzimierz Bednar,</role>
+            <roleDesc>gospodarz</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#julia">Julia.</role>
+            <roleDesc/>
+          </castItem>
+        </castList>
+      <set>
+        <p>(Rzecz dzieje się na wsi, współcześnie - w czasie deklarowania ofiar na Pożyczkę Obrony Przeciwlotniczej)</p>
+      </set>
+      <note>Objaśnienia: Obraz ten nadaje się również do odegrania w dniu 12 maja b. r. w Rocznicę Śmierci Marszałka Józefa Piłsudskiego. W tym wypadku portret Wielkiego Marszałka należy otoczyć bibułkami w kolorach narodowych, osłoniętych krepą, a pod portretem ustawić stolik z kwiatami.</note>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>SCENA PIERWSZA.</head>
+        <stage type="setting">
+          <p>(Duży pięknie, choć skromnie umeblowany pokój we dworze, z lewej stół i 3 krzesła. W środku na ścianie portret Marsz. Piłsudskiego, po obu jego stronach portrety Prezyd. Mościckiego i Marsz. Śmigłego-Rydza. Z prawej drzwi. Przy stole siedzi wójt nad księgą i licznymi wykazami. W pokoju przed stołem tłoczy się kilkanaście osób [wieśniaków i wieśniaczek]. W chwili podniesienia kurtyny jeden z wieśniaków podpisuje deklarację leżącą na stole wójta, a wójt przegląda wykazy [wchodzi dziedzic])</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#dziedzic">DZIEDZIC.</rs>
+            <rs key="#wójt">WÓJT.</rs>
+            <rs key="#wojciech">WOJCIECH.</rs>
+            <rs key="#michał">MICHAŁ.</rs>
+            <rs key="#bartosz">BARTOSZ.</rs>
+            <rs key="#wojtalowa">WOJTALOWA.</rs>
+            <rs key="#włodzimierz">WŁODZIMIERZ.</rs>
+            <rs key="#julia">JULIA.</rs>
+          </p>
+        </stage>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p>Niech będzie pochwalony...</p>
+        </sp>
+        <sp who="#wójt #wojciech #michał #bartosz #wojtalowa #włodzimierz #julia">
+          <speaker>WSZYSCY</speaker>
+          <p><stage>(robiąc mu miejsce)</stage> Na wieki wieków...</p>
+        </sp>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p><stage>(wita się z najbliższymi i podchodzi do stołu wójta)</stage> Moi drodzy! Oddałem do waszej dyspozycji ten pokój, aby pan wójt miał miejsce do przyjmowania dalszych deklaracyj na Pożyczkę Obrony Przeciwlotniczej i Fundusz Obrony Narodowej, oddałem ten pokój tak, jak oddałem cały mój dwór i folwark na którym ten dwór stoi. Nie ma ofiary od którejby się Polak mógł uchylić jeśli idzie o bezpieczeństwo Rzeczpospolitej.</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>Dziękuję ci, panie dziedzicu, w imieniu całej gminy zbiorowej, bo doprawdy nie było gdzie tylu ofiarujących pomieścić chyba w szkole, ale ona jeszcze nie gotowa, mury zimne... a ciągle się nowi ofiarujący zgłaszają...</p>
+        </sp>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p>Nie przeszkadzajcie sobie w pracy. <stage>(daje deklarację wójtowi i siada koło niego za stołem)</stage> Ta jest moja deklaracja, na dwór i folwark... pomogę panu, panie wójcie...</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>Dziękuję, przyda się pan, pracy dużo, <stage>(do zebranych)</stage> a więc następny... <stage>(czyta)</stage> Wojciech Dydziński.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(odziany bogato)</stage> Ja panie wójcie ofiaruję dziesiątą część mojego majątku, 4 morgi, z czego 2 na Lotniczom, a 2 na okręty, na Ligę Morskom, bo morze kocham okrutnie. Był mój jedynak w Gdyni i cuda naopowiadał. Musim być silni w powietrzu, hale i na morzu...</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>Słusznie, słusznie Wojciechu, morze to nasze okno na cały świat, dziękuję wam serdecznie... podpiszcie.</p>
+        </sp>
+        <sp who="#wojciech">
+          <speaker>WOJCIECH.</speaker>
+          <p><stage>(podpisuje)</stage> Już to czynię, ze serca... chocia dużo znoju kosztowała mnie ta ziemia, dużo znoju... ze szczyrego serca ofiaruje... Ostańcie z Bogiem. <stage>(wychodzi)</stage>
+          </p>
+        </sp>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p><stage>(podając mu rękę)</stage> Bywajcie...</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>Z Bogiem, a ci co już deklaracje podpisali mogą odejść... na kogo kolej?</p>
+        </sp>
+        <stage>(Kilku wieśniaków i wieśniaczek odchodzi)</stage>
+        <sp who="#michał">
+          <speaker>MICHAŁ.</speaker>
+          <p>Michał Kuźniowski.</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p><stage>(do dziedzica)</stage> W trzecim wykazie...</p>
+        </sp>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p><stage>(szuka)</stage> Jest...</p>
+        </sp>
+        <sp who="#michał">
+          <speaker>MICHAŁ.</speaker>
+          <p>Ja ta mam ino cztyry morgi w majątku, gliniankę i sześć gęb do wyżywienia...</p>
+        </sp>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p>Jeśliście tacy biedni gospodarzu, to dać nie musicie.</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>I nawet od was nie przyjmiemy, przecież was znam...</p>
+        </sp>
+        <sp who="#michał">
+          <speaker>MICHAŁ.</speaker>
+          <p>A brońże mnie Panie Boże abym sie ja uchylił od najświętszego obowiązku, mam... mam małego prosiaka, to go dam, pół roku obejdziem sie ta bez mięsa... ino że... <stage>(skrobie się w głowę)</stage>
+          </p>
+        </sp>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p>Ino, że co?</p>
+        </sp>
+        <sp who="#michał">
+          <speaker>MICHAŁ.</speaker>
+          <p><stage>(zakłopotany)</stage> Ino czy to aby wystarczy? Taka ci to darowizna?</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>Wystarczy, wystarczy Michale, ten wasz prosiak więcej znaczy jak 4 morgi Wojciecha... a jak moja locha będzie miała małe, to zgłoście się do mnie po jedno...</p>
+        </sp>
+        <sp who="#michał">
+          <speaker>MICHAŁ.</speaker>
+          <p>O nie! Dziękuje panie wójcie! Jak ochfiara to niech już bendzie ochfiara.</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p><stage>(podsuwając deklarację)</stage> Zróbcie tu trzy krzyżyki...</p>
+        </sp>
+        <sp who="#michał">
+          <speaker>MICHAŁ.</speaker>
+          <p><stage>(bierze niezgrabnie pióro do ręki)</stage> A to pan wójt nie wie... zacząłem sie uczyć pisać, nasza pani nauczycielka po godzinach szkoły... za darmo... myślałem: żołnirz bez pisania to nie cały żołnirz, a jak bendzi trzeba to ja zara, choć stary i niepoborowy...</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>To ładnie, to bardzo ładnie Michale z waszej strony <stage>(patrzy jak Michał pisze)</stage> kulasy, bo kulasy, ale coś już jest i będzie lepiej.</p>
+        </sp>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p>Dobry z was obywatel Michale... dziękujemy. <stage>(Michał wychodzi, kłaniając się)</stage>
+          </p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p><stage>(czyta)</stage> Bartek Grzędziała.</p>
+        </sp>
+        <sp who="#bartosz">
+          <speaker>BARTOSZ.</speaker>
+          <p>Jestem... nie mam ta duża więcej od Michała, tyli że mam krowę i jałówke, to te jałówke dam na deklaracyję lotniczom. <stage>(podpisuje)</stage>
+          </p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>Nie za dużo to dla was?</p>
+        </sp>
+        <sp who="#bartosz">
+          <speaker>BARTOSZ.</speaker>
+          <p>Dałbym i więcy, hale... <stage>(rozkłada ręce)</stage>
+          </p>
+        </sp>
+        <sp who="#wojtalowa">
+          <speaker>WOJTALOWA.</speaker>
+          <p><stage>(podchodzi energicznie do stołu)</stage> A ja dam wszystko co do mnie należy, wszystko co ta mam po nieboszczyku – połowe, bo połowa je moich chłopaków, dziecińskie, mnie ta nie trzeba, dadzom mi synkowie na starość to dobrze, a nie to o kiju żebraczym pójdę, a Polska musi być silna i mocarna!</p>
+        </sp>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p>Aż serce się raduje, że Polska ma takich synów i takie córki...</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>A może sobie morg ostawicie? bo to dzieci... wiadomo...</p>
+        </sp>
+        <sp who="#wojtalowa">
+          <speaker>WOJTALOWA.</speaker>
+          <p>Nie trzeba, a chłopaki to choć na piętnasty i szesnasty im dopiro idzie to pójdą! Sami się rwą! Gadają, że we Lwowie i młodsi walczyli i zwyciężali!</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>To prawda; możecie być dumni ze swoich synów.</p>
+        </sp>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p>I pięknieście ich wychowali.</p>
+        </sp>
+        <sp who="#wojtalowa">
+          <speaker>WOJTALOWA.</speaker>
+          <p>To obowiązek Polki panoczku. <stage>(podpisuje)</stage> Tutaj?</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>A tutaj... <stage>(patrzy na Włodzimierza)</stage> i wy coś deklarujecie Włodzimierzu?</p>
+        </sp>
+        <sp who="#włodzimierz">
+          <speaker>WŁODZIMIERZ.</speaker>
+          <p>A czemużby ni? Moży dlatego co ja Rusin? A z kimże my mamy trzymać jak ni z naszymi braćmi Polakami? Z Szwabem? Germanem? Z Krzyżakiem, co od wieków nas rabował a zawsze oszukał? A bo to ja nie wim jak to my razem u jednym wielgim, potężnym państwie żyli w zgodzie jak bracia rodzeni i bili i Niemców i Szwedów i Turków i Tatarów. A w powstaniach nie biliśmy sie o Polskę? Razem... ramię przy ramieniu, bo bez silnej Polski i nasby nie było! Bo my bracia Słowianie powinniśmy być praudziwymi braćmi, od serca... zapomnieć o wszystkich sporach i urazach, bo to interes Germańca! On to nas zawsze szczuł przeciw sobie!</p>
+        </sp>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p><stage>(wstaje i ściska dłoń Włodzimierza)</stage> Kochany bracie! Przyjaźń naszych narodów przetrwała próby ogniowe. Wiem, że wielu z was myśli tak jak ty, ale niestety nie wszyscy!</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>Oby i tamci zechcieli tę prawdę zrozumieć.</p>
+        </sp>
+        <sp who="#włodzimierz">
+          <speaker>WŁODZIMIERZ.</speaker>
+          <p>Daję moich uciułanych sto złotych ze szczyrym życzeniem, aby Polska stała się największą potęgą świata i powstrzymała na zauszy wrogie zakusy! Aby znowu Polska, Ruś i Litwa były jednym, złączonym, olbrzymim mocarstwem od morza do morza!</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>Na Polakach nikt się jeszcze nie zawiódł. Kto nam podaje rękę, to brat nasz najszczerszy. Podpisujcie.</p>
+        </sp>
+        <sp who="#włodzimierz">
+          <speaker>WŁODZIMIERZ.</speaker>
+          <p><stage>(podpisując)</stage> I źrebaka jeszcze dodaję... zdrowego źrebaka...</p>
+        </sp>
+        <sp who="#wójt">
+          <speaker>WÓJT.</speaker>
+          <p>Dziękuję ci kochany Włodzimierzu w imieniu Najjaśniejszej Rzeczypospolitej... a teraz na ciebie kolej Julciu... co? A potem kończymy na dziś deklarowanie.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(wzruszona)</stage> Nie mam ani ziemi, ani złota, ani brylantów, ani pieniędzy i całem sercem boleję, że nie mogę nic złożyć na dozbrojenie naszej armii. Proszę łaski pana wójta przyjąć ten jedyny dar jaki posiadam. Mam... mam tu <stage>(podaje wójtowi pakuneczek)</stage> materiał na ślubną suknię, a że ślub odkładam do jesieni, to materiał ofiaruję na lotnictwo, może się do czego przyda. W razie potrzeby pierwsza pójdę na pomoc, jeżeli się do czego przydam... Mam dwóch braci i cztery siostry i wszyscy jesteśmy gotowi pójść na pomoc jeżeli zajdzie potrzeba. Ojciec ma 57 lat, lecz jest silny, to też mówi, że jak będzie wojna, to też pójdzie na ochotnika. wszyscy gotowiśmy umrzeć na kochaną Ojczyznę...</p>
+          <note>Autentyczny list pomocnicy domowej Julii Doboszyńskiej do Komisarza generalnego P. O. P. gen. Berbeckiego.</note>
+        </sp>
+        <stage>(WÓJT. zruszony ociera łzę)</stage>
+        <sp who="#dziedzic">
+          <speaker>DZIEDZIC.</speaker>
+          <p><stage>(b. wzruszony do wszystkich)</stage> Moi kochani! Ta ofiara jest jedną z najmilszych ofiar jaką Najjaśniejsza Rzeczypospolita Polska otrzymała, – no nie wstydź się Julciu... <stage>(bierze pakuneczek Julci)</stage> Nie myślcie, że Polska otrzymała tu od tej ubogiej <stage>(pokazuje pakunek wszystkim)</stage> dziewczyny kawał materii jedwabnej! Nie! Polska otrzymała tu, na skromnie wyciągniętej ręce, prawdziwe, żywe, drgające gorącą miłością ku Niej, serce! – Serce polskiej kobiety! – Wzruszenie odbiera mi mowę... <stage>(wskazując na portret Marsz. Piłsudskiego)</stage> O jak że się raduje jasny Duch Wskrzesiciela Polski, Wielkiego Wodza i Nauczyciela Narodu Marszałka Józefa Piłsudskiego, który zawsze się nad nami unosi, tym, że rzucane przezeń ziarna wydały przepiękne owoce, że każdy obywatel i obywatelka gotowi są ponieść dla naszej ukochanej Ojczyzny największe ofiary.<lb />Że jesteśmy silni i zwarci!<lb />Że jesteśmy gotowi!</p>
+        </sp>
+        <sp who="#wójt #wojciech #michał #bartosz #wojtalowa #włodzimierz #julia">
+          <speaker>WSZYSCY.</speaker>
+          <p>Tak jesteśmy gotowi! <stage>(śpiewają)</stage>:<lb />„Nie rzucim ziemi”...</p>
+        </sp>
+        <trailer>(KONIEC)</trailer>
+        <note>Lwów, 19 kwietnia 1939.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

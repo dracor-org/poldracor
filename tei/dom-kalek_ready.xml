@@ -1,0 +1,1134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000042" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Dom kalek</title>
+        <title type="sub">Komedia w jednym akcie</title>
+        <author>
+          <idno type="isni">0000000071411238</idno>
+          <idno type="wikidata">Q4893683</idno>
+          <persName>
+            <forename>Adolf</forename>
+            <surname>Neuwert-Nowaczyński</surname>
+          </persName>
+        </author>
+        <!-- Adolf Neuwert-Nowaczyński (1876–1944) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/siedem-dramatow-jednoaktowych-adolfa-neuwerta-nowaczynskiego,MjQ2OTAwNTY/153/</idno>
+          <title>Nowaczyński, A., Dom kalek [w:] tegoż, Siedem dramatów jednoaktowych Adolfa Neuwerta-Nowaczyńskiego, Lwów 1903, s. 1-32</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="grabski" sex="MALE">
+            <persName>Grabski</persName>
+          </person>
+          <person xml:id="krzyżakowa" sex="FEMALE">
+            <persName>Krzyżakowa</persName>
+          </person>
+          <person xml:id="mączewski" sex="MALE">
+            <persName>Mączewski</persName>
+          </person>
+          <person xml:id="oskierko" sex="FEMALE">
+            <persName>Oskierko</persName>
+          </person>
+          <person xml:id="panna_tarczyńska" sex="FEMALE">
+            <persName>Panna Tarczyńska</persName>
+          </person>
+          <person xml:id="radomska" sex="FEMALE">
+            <persName>Radomska</persName>
+          </person>
+          <person xml:id="rösseler" sex="MALE">
+            <persName>Rösseler</persName>
+          </person>
+          <person xml:id="sownicki" sex="MALE">
+            <persName>Sownicki</persName>
+          </person>
+          <person xml:id="tarczyńska" sex="FEMALE">
+            <persName>Tarczyńska</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-09-23">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1900">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">DOM KALEK</titlePart>
+            <titlePart type="sub">KOMEDYA W JEDNYM AKCIE</titlePart>
+          </docTitle>
+        </titlePage>
+        <castList>
+          <head>OSOBY Z KÓŁ INTELIGENTNYCH:</head>
+          <castItem>
+            <role corresp="#sownicki">PROFESOR SOWNICKI.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#oskierko">HRABINA OSKIERKO.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#tarczyńska">PANI TARCZYŃSKA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#panna_tarczyńska">PANNA TARCZYŃSKA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#radomska">MECENASOWA RADOMSKA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#krzyżakowa">DOKTOROWA KRZYŻAKOWA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#mączewski">PAN ŁOWICZ-MĄCZEWSKI.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#rösseler">ERNEST RÖSSELER.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#grabski">HENIO GRABSKI.</role>
+            <roleDesc/>
+          </castItem>
+        </castList>
+      <set>
+        <p>(Rzecz dzieje się w jednej z prowincyonalnych stolic Galicyi. Scena przedstawia obszerny buduar mecenasowej Radomskiej. Na ścianach wisi symetrycznie odmierzonych sześć premii Towarzystwa Sztuk pięknych, po dwie na każdej ścianie. Portret pani domu w balowej tualecie z odpowiednio nieprzyzwoitym dekoltażem w złoconych, szerokich ramach, nadto kilka wypłowiałych oleodruków, kilka pejzażów wołających o pomstę do ikonoklastów, fotografii, chińskich wachlarzy, wszystko rozwieszone z gustownym brakiem smaku. W kącie otwarty fortepian–kometa, obok wielki kosz z wazonikami zwiędłych i zeschłych kwiatów. Na środku buduaru garnitur modnych [w separatkach i golarniach] mebli, kilka fotelików możliwie najniewygodniejszych, kanapa, kilkanaście stoliczków okrągłych. Dopełniają meblement dwie konsolki z lustrami, fotel na biegunach, etażerki, stolik z lampą, wysoko podciągniętą, krytą popularnym bordeaux abażurem. Na stoliczkach tanie wiedeńskie bibeloty, popielniczki, małe albumy z Badów, dziesięć numerów Kłosów z 1888, ozdobne wydanie: Pamiętników Kwestarza Chodźki, Kirgiza, Maryi, Pana Tadeusza, pana Tarnowskiego. Buduar oświetlony lampą i świecami w kandelabrach. Na stoliczku bliskim kanapki, żółta okładka… Daudeta: »La petite paroise«, co znaczy: »Mała parafia«.<lb />Godzina 5–ta w zimie, podczas karnawału. Rozpoczyna się jour–fixe. Mecenasowa Radomska tęga bruneta w 35–ciu latach, żółty stanik, czarna suknia, wyraz twarzy bezmyślny, przeciętny, sympatyczny. Henio Grabski, młody lowelas, ananas towarzyski z fryzurą a la cochon irrité, biała kamizelka, dobra tresura domowa, tendencya psychiczna ku arystokracyi, papa introligator, mama szlachcianka z domu.<lb />Piją herbatę i gryzą petites–foures)</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>SCENA 1.0.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#grabski">GRABSKI.</rs>
+            <rs key="#radomska">RADOMSKA.</rs>
+            <rs key="#krzyżakowa">KRZYŻAKOWA.</rs>
+            <rs key="#mączewski">MĄCZEWSKI.</rs>
+            <rs key="#rösseler">RÖSSELER.</rs>
+            <rs key="#tarczyńska">TARCZYŃSKA.</rs>
+            <rs key="#panna_tarczyńska">PANNA TARCZYŃSKA.</rs>
+          </p>
+        </stage>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Według mnie, jestto skandal, zapisany raz pierwszy w naszych kronikach towarzyskich, całe miasto mówi już tylko o tem, wyłącznie, formalne trzęsienie.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Ależ to okropne, panie kochany, toż straszne!</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p><stage>(z przesadą)</stage> Bez przesady całe miasto, po domach, w kawiarniach, teatrze, tego w cyrku, nawet w Odeonie. Wczoraj na balu u państwa Tarczyńskich mówiono o tem już półgłośno, udzielano sobie nawzajem uprzejmie najzłośliwszych szczegółów. Ha, ha! Paradne było słyszeć to wszystko, <stage>(tajemniczo)</stage> tem bardziej, że jest jeden jeszcze pieprzyk w całej historyjce, ale trochę za drastyczny i nie wiem doprawdy, czy zresztą…</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(rozciekawiona)</stage> Ależ panie, przecież Ofelka prawie najbliższa moja przyjaciółka, więc może pan powiedzieć zupełnie śmiało wszystko, co się jej tyczy. Wiem przecież, jaka z niej szalona ryzykantka, nic nigdy nie oblicza, zawsze tylko idzie za instynktem, najdzikszym nawet. Ach Boże drogi, co ja wszystko wiem, ileśmy się razy naśmiały, no, no…</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Tak, ale to byłoby trochę za dziwaczne, za jaskrawe, chociaż…</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Więc? Zresztą cóż pan droży się tak z opowiedzeniem mi całej prawdy, powie mi ją kto inny, wcześniej czy później, och joj! za godzinę »bede« wiedziała wszystkie nowe bajki. Może kanapki. <stage>(przekupuje młodzieńca kawiorem)</stage></p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p><stage>(połykając kanapkę)</stage> Dziękuję. Zresztą opowiadam. Otóż kiedy podobno czcigodny doktor Dziedzicki zastał swą panią Ofelię w negliżu, w wielkim negliżu… w bardzo wielkim negliżu… <stage>(pokazuje dyskretnie)</stage> w towarzystwie kochanego Turfowicza w sytuacyi…</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(z zażenowaniem, ale wesoło)</stage> Ależ rozumię, rozumię, więc?</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>…zabrał się w wielkiej furyi – passez–expression, do bicia parasolem, czy tam laską kochanka… pardon, faworyta, koniec końcem Turfa, tedy ha! ha! ha! miał Turfowicz wyrwać mu broń z ręki, ha! ha! ha! i, jak powiadają, zaczął nią okładać, ale faktycznie na seryo okładać nim męża. Ha! ha! nie! to świetne… <stage>(Oboje śmieją się serdecznie)</stage> …a pani Ofelia, ha! ha! ha! zaczęła mu pomagać, tak stanęła po jego… stronie, ha! ha! i dalejże w obronie Turfa na męża. Kapitalne, co?…</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(śmiejąc się ciągle)</stage> Ależ to znakomite… Oj… Ale to niemożliwe, chyba co?… oj… ach mój Boże, paradne! Ha! ha! ha!…</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>No… chyba fenomenalne, żona bijąca, ale to mało, tłucząca podobno z całych sił, grzmocąca męża własnego w obronie trzeciego, ha! ha! i to… parasolem…</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Chociaż swoją drogą, to niemożliwe. <stage>(poważniejąc)</stage> To cyniczne zanadto, oburzające nawet, jak można było.</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p><stage>(melancholijnie)</stage> W dzisiejszych czasach proszę pani, to przecież wszystko można, nie?</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>No tak, ale coś podobnego, nie myślałam. <stage>(wpada znowu w śmiech)</stage></p>
+        </sp>
+        <stage>(Wchodzą: doktorowa Krzyżakowa, przystojna, przysadkowata blondyna, ruchliwa, prawie krzykliwa, bardzo modna fryzura, całość tak zw. apetyczne ciałko; Mączewski bezczelnie łysy, bardzo dystyngowany stary epuzer, apoplektyczny kark, szkła na rasowym nosie, uśmiech fauna, który się urodził z wodą w łebku; Rösseler, w przedługim anglezie, czarnym bufiastym krawacie, dziennikarz, artysta, trochę znudzony, trochę schyłkowiec kawiarniany, trochę prostytuujący się w życiu towarzyskiem)</stage>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Wreszcie jesteście, czekaliśmy na was z niecierpliwością, lada chwila przyjdzie prezydyum komitetu. <stage>(Powitania, całusy, szastania nogami, wszyscy siadają ostrożnie ze względu na stoliki; dwa stoliki pomimo to padają, rozbija się porcelanowy chińczyk, który bezmyślnie potakuje ciągle głową wszystkiemu, co się tu będzie działo)</stage></p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>O, szkoda chińczyka… O… cały?</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p><stage>(podnosząc go)</stage> Nie, potłukł sobie bardzo <stage>(niektórzy w śmiech)</stage> można go już będzie dać na loteryę za fant, bo nic nie wart.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>No więc jakże ty się masz moja droga, tak długoście byli na tem Bożem Narodzeniu, jak można tak długo na wsi siedzieć.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Brakowało nam tu państwa i to bardzo, zadługo.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Musieliśmy, interesa.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Byliśmy na żurze u Michałowej, nudy powiadam ci zabijające, ty sobie tu flirtowałaś z panem Heniem, a tam strach, nie, coś okropnego doprawdy. A kiedyż reszta nadejdzie?</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Przyjdą koło 6–tej. Tarczyńska ma dzisiaj 4 żury i to dwa z kartami, wieczór winta u siebie. <stage>(lokaj wnosi herbatę)</stage></p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Niestrudzona, imponująca, wczoraj bal do siódmej, dziś tyle wizyt.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Prawda? niestrudzona. Po drugim żurze ma przyjść na posiedzenie. <stage>(Lokaj wywrócił stolik, dosięga go zabójcze oko pani)</stage> Niech Jan się nie kręci teraz, może odejść.</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p><stage>(huśtając się z nonszalancyą)</stage> Oj te żury, te żury, co za Gehenna, za tortury.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Wiecznie pan narzekasz na nie, a nie opuścisz ani jednego.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Ma pani racyę, ciągle wygaduje na nasze ukochane fixy, a obnosi się po nich ze swoją melancholią.</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p><stage>(z poważnem westchnieniem)</stage> Tak, to moje kłamstwo życiowe…</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Ach, nie kłamstwo, nie kłamstwo, tylko prawda, wygaduje pan na fixy, a łazi pan po nich i flirtuje. Chociaż co do Michałowej, to przyznaję panu racyę a tout, dziś naprzykład to było już coś rozpacznego, kilka starszych mam, kilkanaście córek…</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Herbata mocno przydymiona, czy coś, przemarne kanapki.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>A do tego z kawaleryi same doktory praw… filozofii… teologii… zoologii…</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>A na to tylko my dwaj. Słowem rozpacz beznadziejna, temata przeważnie filozoficzne, ani śladu flirtu, odrzekam się na zawsze jej fixów i daję sobie od nich urlop na cały karnawał.</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p>A ja nie.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Pan nie?</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>A pan nie?</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Nie? dlaczego?</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p><stage>(cedząc uroczyście)</stage> Ponieważ tylko u pani Michałowej bywają fixy po części uduchowione i kulturalne i gdyby nie tyle panien i tylu auskultantów…</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Uduchowione, czy nie uduchowione, dosyć, że nudy pustynne.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Doskonale określone… nudy pustynne, tak, tak, nudy pustynne.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(z głęboką wiarą)</stage> A fixy nie są przeznaczone na wasze dysputy literackie czy jakieś tam, tylko na zabawę, flirt, takie jest moje przekonanie o kwestyi fixowania.</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p><stage>(z ironią)</stage> Bardzo racyonalne.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Oczywista, punktum, pauza. Fixy na flirt i bajkowanie. No, ale tymczasem, moje panie, cóż słychać z Domem kalek?</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(z namiętną ciekawością)</stage> Tak, tak, któż należy do Domu kalek?</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Księżna Tęczyńska protektorka, hrabina Oskierko prezesowa, ordynatowa Spytkowa, hrabina Melsztyńska, z wojskowości pułkownikowa Grawerst-Hohenfelsen.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(do Mączewskiego słodko)</stage> A ciotka pana. <stage>(Mączewski kiwa głową)</stage></p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Tak, i ciotka pana Alfreda.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(uradowana)</stage> No to bal przedstawia się wspaniale, świetnie, księżna protektorat, pi pi a któż z naszych pań?</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(trochę zła, poprawiając ją)</stage> Z pań naszego koła pytasz? Ja, ty, Tarczyńska, <stage>(z pewnem wahaniem)</stage> Ofelka prawdopodobnie. <stage>(Chwilka ciszy)</stage></p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>W każdym razie pani Dziedzicka także…</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p><stage>(poważnie)</stage> Po tem, co zaszło? Przyznam się państwu, że to z trudnością da się przeprowadzić. Imaginuję sobie niechętny grymas księżnej, która wie, uprzedzam, wie już o całej aferze…</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Skąd?</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Skąd może księżna o tem wiedzieć?</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p><stage>(sucho)</stage> Nie wiem, dość że…</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p>Przecież w tym wypadku świadectwa moralności nie są wymagane.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Właśnie, że w tym wypadku proszę pana, tak właśnie. Moja ciotka naprzykład napomknęła mi dzisiaj już a propos pani Ofelii, że ta będzie musiała wystąpić z Assocyacyi Dzieciątek Maryi.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(z przerażeniem)</stage> Co? Czy być może?</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Na seryo?</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Nie ulega dyskusyi nawet; smutne to, ale prawdziwe. Pani Ofelia za dużo dostarczyła materyału opinii towarzyskiej, to jest plotkom.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>To prawda, nie da się zaprzeczyć że w ostatnich czasach ciągle była tu podobno na językach ludzkich, ale mój Boże, teraz…</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p><stage>(na seryo do Mączewskiego)</stage> Więc pani Ofelia w istocie musi być wykluczoną z listy komitetowej?</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Jestem tego prawie… prawie zupełnie pewny, ale ponieważ, jak w każdym komitecie, tak i w tym należałoby, aby połowa pań była z miasta, a połowa z towarzystwa, więc jeszcze brakuje, zdaje mi się…</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p>Wypadałoby chyba kogoś ze świata sztuki, literatury.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(z radością)</stage> Aha, koniecznie, koniecznie kogoś z literatury, bardzo ładnie, tylko kogo?</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Tu trzeba być bardzo ostrożnym, ale zaryzykować można, kogóż panie myślą »dejmy nato«?</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Może przepiękną Sępową?</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Tak, tak, żonę Sępa, doskonale.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(z niechęcią)</stage> Ach zaraz przepiękną. Cóż na niej tak przepięknego, przeciętnie przystojna kobieta, zresztą, moi państwo, to przecież ex-aktorka, okrzyczana awanturnica.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Ja też myślę, że trudnoby było przeforsować panią Sępową, ale któżby inny, no któż?</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Możeby panią tą, jakże no, żonę tego powieściopisarza.</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p>Szmiry?</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Ależ nie, Głębockiego, panią Głębocką. <stage>(Niechętne zdziwienie)</stage></p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p>A toś się pan wyrwał…</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Demagog, ratujcie mnie. <stage>(śmiejąc się)</stage></p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Tę, co ma biuro stręczeń guwernantek, czy sług? No, wybaczże pan.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p><stage>(śmiejąc się)</stage> Małżonkę komunarda? Strach… Wracajmy do Sępowej.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Dobrze już, dobrze.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Niechże będzie Sępowa.</p>
+        </sp>
+        <stage>(Wchodzą: Tarczyńska, trochę siwa, bardzo energiczna w binoklach czterdziestoletnia kobieta, w czarnej sukni, półmęskie, antypatyczne ruchy. Z nią córka, pełna, wyrosła blondyna, ładniutka, melancholijne oczy, widocznie zakrzyczana przez mamę)</stage>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>A, witamy, witamy kochaną panią, lada chwila będziemy mogły posiedzenie zacząć.</p>
+        </sp>
+        <stage>(Powitania)</stage>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Bardzo dobrze, jak się macie, dobry wieczór panom. Tylko prędko moje panie, pozostaje mi dzisiaj tak mało, mało czasu wolnego, mam jeszcze dzisiaj jeden fix do odrobienia, wieczór winta u siebie i muszę skończyć dziś absolutnie ostatnią powiastkę dla tomiku. <stage>(siadają)</stage></p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p><stage>(z uśmiechem)</stage> Dla dorastających, czyż nie?</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Aha, właśnie.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Oto co znaczy zadanie kobiety w społeczeństwie. Pani doprawdy jest niedoścignioną, wzorem dla wszystkich matek-Polek, że tak powiem.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Rzeczywiście. Jak pani może to wszystko ze sobą pogodzić.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>A widzicie moje panie, pokazuje się, ta głupia emancypacya wcale niepotrzebna, tak, jak ją pojmują te waryatki. <stage>(zakłada nogę na nogę rażąco wysoko i zapala papierosa)</stage> Można zachować czar kobiecy, a społeczeństwu służyć jak każdy jego członek męski. No nie? <stage>(Dyskretny uśmiech u pań i panów)</stage> No teraz moi drodzy, co do kalek, żądam w pewnej sprawie waszej pomocy i współdziałania.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>W czem?</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>No, jesteśmy gotowe.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Otóż kochany, zacny profesor Sownisio oświadczył mi coś bardzo niemiłego w kwestyi pań do komitetu.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Ciekawam?</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Zakomunikował mi z zimną krwią, że w porozumieniu z księżną zaprosił jeszcze do komitetu wiecie kogo?</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>No, nie zgadlibyście państwo nigdy. Wyobraźcie sobie panią Bernardową Lewisohn. <stage>(naśladuje wytwornie akcent żydowski)</stage></p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(spokojnie)</stage> Aha, Lewisohnową.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(spokojnie)</stage> Tę bankierową?</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(żargonując)</stage> Tak jest, panią Lewisohn, żydówkę, której mężulek potrzebował dacz na dom od kalek 5000 złr… Skandal, jaki tupet, taki żyd, imaginujcież sobie. Ale ponieważ mój mąż jest jednym z głównych filarów obozu przeciwnego tej rasie i ponieważ ja jestem także antysemitką, wobec tego w komitecie, w którym zasiada ta pani, nazwisko moje figurować nie może. Czy nie słusznie?</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>O… czy… wi… sta.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Ale my do tego nie dopuścimy, tak być nie może, komitet bez pani – to niemożliwość.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Zresztą poco ona? Warszawska moda jakaś, finanse, mechesy czy coś zaczynają nam tu włazić. Można ją przecież prosić na gospodynię, ale nie do komitetu znowu, skądże, poco?</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p><stage>(powoli, z namaszczeniem)</stage> Ja sądzę, zaś, że nie byłoby w tem nic zastraszającego znowu.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(z pasyą)</stage> Co?</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p><stage>(bohaterska, zimna krew)</stage> Jak słusznie zauważyła pani konsyliarzowa, jest to moda warszawska, przyjęta ze świata wielkiego, z Europy. Finanse tworzą z arystokracyą rodową i światem artystycznym owo milieu, miłe nadzwyczajnie, w którem kultura…</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Eh, co tam wielki świat.</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p>Zaraz, przepraszam, nie…</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Ale skończył pan, skończył. Wasz wielki świat i owo tam milieu, to właśnie warstwa zgangrenowana moralnie, żony kurtyzany, ach Boże, mężowie rogacze, kawalerya cyniczna, panny… tak czytałam ją Demivierges. Ach, to włosy stają, Sodoma, u nas chwała Bogu tego jeszcze niema, a to tylko dlatego, że się żydów trzyma zdaleka.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Aha! a i mój mąż zawsze mówi, że my to najhygieniczniejsza warstwa… tego… no… narodu.</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Jabym proponował więc, nie wpuszczać Lewisohnowej, a zostawić naszą śliczną Ofelkę.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(zirytowana pluje w chusteczkę)</stage> Mnie tam nie obchodzi kogo, dosyć, że nigdy Lewisohnową. Macie państwo decidement do wyboru albo panią »bankierową« Lewisohn, albo mnie.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(Dzwonek, szastania w przedpokoju, Radomska wybiega z wesołem zwiastowaniem)</stage> O… głos hrabiny!</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Więc jak stoją rzeczy?</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(półszeptem)</stage> To trzeba będzie popierać Tarczyńską, chociaż…</p>
+        </sp>
+      </div>
+      <div type="scene" n="2">
+        <head>SCENA 1.1.</head>
+        <stage type="setting">
+          <p>(Wchodzą: profesor Sownicki i hrabina Oskierko. On siwy, niski staruszek w fasonie „Fliegende Blätter”, oczy bardzo ruchliwe, ruchy drobne, pod pachą kilkanaście broszur. Hrabina Oskierko, angielska skromna suknia bez sznurówki, rysy pospolite prawie ordynarne, dystynkcya przesadna, grzeczność obrażająca w stosunku do innych pań, née de Rypalska z Zalesia.<lb />Mężczyźni wstają, nabożna chwila ciszy kłócona szelestem jedwabnych spódnic)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#grabski">GRABSKI.</rs> (Powitania)
+            <rs key="#krzyżakowa">KRZYŻAKOWA.</rs>
+            <rs key="#radomska">RADOMSKA.</rs>
+            <rs key="#hr._oskierko">HR. OSKIERKO.</rs>
+            <rs key="#tarczyńska">TARCZYŃSKA.</rs>
+            <rs key="#sownicki">SOWNICKI.</rs>
+            <rs key="#mączewski">MĄCZEWSKI.</rs>
+            <rs key="#rösseler">RÖSSELER.</rs>
+            <rs key="#panna_tarczyńska">PANNA TARCZYŃSKA.</rs>
+          </p>
+        </stage>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(prezentuje)</stage> Doktorowa Krzyżakowa – hrabina Oskierko. <stage>(ukłony)</stage></p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p><stage>(witając się z Tarczyńską)</stage> Ach jakże się serdecznie cieszę widząc panią, a i córkę, ooo, już przecież dorosła pani córka, czy nie tak.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(jowializując)</stage> A Ziutek już wyrósł do sufitu, lansuję ją teraz wszędzie, bo trzeba jej »prędko« szukać męża.</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p><stage>(śmiejąc się łaskawie)</stage> Tak? O nie trudno będzie zdaje mi się. Czyż nie?</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(przedstawiając hrabinie)</stage> Pan Grabski, pan Rösseler, pan Mączewski, profesor Sownicki. Proszę państwa siadać… <stage>(Hałaśliwe dyskretne siadanie, panie wytężają całą inteligencyę, aby ominąć kanapkę, siadają na wątłych krzesłach, Rösseler huśta się dalej, panna Ziuta idzie w kąt za fortepian)</stage></p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(rozdając wszystkim broszurę)</stage> Pozwólcież państwo, że was tu tego obdaruję skromnem, ale poczciwem pismem. <stage>(Ogólne zakłopotanie)</stage></p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(czytając tytuł)</stage> »Nędza fizyczna i moralna. Myśli społeczne Andrzeja Głębockiego« <stage>(Przerzucanie kartek i spoglądanie na siebie)</stage></p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(onieśmielony cokolwiek)</stage> A teraz tu tego czuję się w bardzo, bardzo miłym obowiązku serdecznie państwu podziękować za dotychczasowe trudy i znoje tu tego, jakie poniesłyście panie, pomagając mi w zrealizowaniu mych planów, przejęte głęboko zacną myślą służby dla swego tego… społeczeństwa…</p>
+        </sp>
+        <stage>(Wszyscy poprawiają się na siedzeniach, ktoś chrząka, Krzyżakowa wodzi krytycznem okiem po sukni hr. Oskierko, ta szepta coś ironicznie uśmiechnięta, nachylona do Mączewskiego, Rösseler przybiera w fotelu pozycyę nadzwyczaj skomplikowaną, Grabski słucha, panna Tarczyńska słucha, lokaj wnosi herbatę)</stage>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(do lokaja podającego herbatę)</stage> Dziękuję, całuję rączki, tu tedy panie pomoc dla cierpiącej ludzkości jest jednym z pierwszych naszych obowiązków moralnych i jedną z najszlachetniejszych misyi naszych piękne panie, nieprawdaż?</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(z westchnieniem głębokiem)</stage> O tak. <stage>(Inni potakują)</stage></p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p>Przed rokiem wpadła mi w ręce broszura, którą obecnie pieścicie w waszych rączkach, pod tytułem: »Nędza fizyczna i moralna«, praca jednego z najznakomitszych naszych pisarzy i mężów Andrzeja Głębockiego. Broszura ta wzruszyła mnie głęboko, w szczególności zaś bardzo zajmujący rozdział o kalekach wszelkiego rodzaju, tu tego ślepych, głuchoniemych, obłąkanych. Powiedziałem sobie, że trzeba tu tego nieść pomoc tym biedakom, trzeba, aby mieli dach nad głową, łyżkę strawy gorącej i jaką taką pościel zamiast barłogu… no nie? <stage>(Dyskretne oznaki znudzenia, wszyscy biorą z ochotą pączki z tacy)</stage> …Trzeba jednem słowem wybudować dom, tam tu tego podnieść ich moralnie i pomódz im fizycznie. Zwróciłem się tedy do ludzi zacnych i znanych z tego, że łożą hojnie na ofiarność publiczną. Sam złożyłem skromną i na jaką stać mnie było kwotę 500 złr… <stage>(Lokaj szelma wywraca stolik, panna Ziuta patrzy w profesora jak w tęczę)</stage> Mąż jednej z pań, a nasz poseł hr. Oskierko dodał drugie tyle, kilkanaście osób po 100, 200, 500… Powoli tu tego płynęły składki <stage>(Rösselor „szarżuje w nonszalancyi” i czyści ostentacyjnie paznokcie)</stage>, tak że zacząłem już powątpiewać w to, czy mój plan tu tego rychło da się w życie wprowadzić, kiedy w ręce moje złożono magnacki hojny dar 1000 złr. Ofiarodawcą był pan tu tego znany Lewisohn.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(twardo i rzucając rękawicę)</stage> Ten żyd bankier?</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(jowialnie)</stage> A tak, ten, zacne żydzie szczerze zajął się moją instytucyą i wprowadzeniem mego projektu z sfery marzeń w stan rzeczywisty. Tak więc tu tego rozporządzamy już dość znacznym kapitałem, z którym będzie można zacząć budowę domu, a pan Lewisohn poddał też kapitalną myśl urządzenia tu tego balu na dochód tych nieszczęśliwych w bieżącym karnawale. Tu tedy brak mi doświadczenia <stage>(uśmiecha się)</stage>, więc prosiłem jego panią i panią hrabinę i was łaskawe panie. <stage>(Hr. Oskierko rozpływa się w słodkim uśmiechu)</stage> Dzienniki mnie poparły, zacne panie z zapałem wzięłyście się do otarcia łez biednym kalekom. <stage>(wzruszony)</stage> I tu tego dzięki wam, które macie ładne kucharki i piękne mieszkania, to jest dobre kucharki chciałem tu tego powiedzieć, cieszycie się zdrowiem <stage>(zaciera ciągle ręce, wesoły)</stage>, przyświecacie cnotami i przymiotami, wpłynie nowy fundusz dla tych, którzy cierpią na ciele i duszy. Jeszcze raz tu tedy dziękuję za zapał i dobre serce… <stage>(siada, ocierając czoło z potu, w zebranych wzruszenie obok pewnego wstydu i ironii)</stage></p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(wzruszona)</stage> O czcigodny profesorze, jeszcześmy i niezasłużyły na twą wdzięczność…</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(z zapałem)</stage> Tak, ale zasłużymy, ja obiecuję pracować w tym komitecie za wszystkich.</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p><stage>(z humorem)</stage> Ja się zatańczę na śmierć. <stage>(lekki śmiech)</stage></p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(zimno, chłodząc zapały)</stage> Bardzo pięknie, i ja z mej strony dołożę wszystkich sił, ażeby bal powiódł się doskonale i z wielkim skutkiem finansowym, tylko proponuję, abyśmy się energicznie zabrały do roboty. Otóż łaskawy profesor zorganizuje odpowiedni komitet z pań i panów. Protektorat objęła księżna, więc z tem rzecz skończona, teraz chodzi tylko o dobry komitet, żeby wziął całą sprawę na barki.</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p><stage>(przegrzecznie)</stage> Ja myślę, że nikt z nas nie ma nic przeciwko temu, chyba się nie mylę? tak?</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(zakłopotany)</stage> Oj, co do organizowania komitetu, to ja już paniom oddaję w piękne rączki moje pełnomocnictwo. Zresztą tu tego komitet prawie już…</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Tak prawie, pierwsze: wszyscy tu obecni.</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p><stage>(słodko)</stage> A prezesostwo, myślę, obejmie może nasza gospodyni, bo jabym stanowczo nie mogła, nie podołała, zresztą już księżna… Więc któraś z pań, najlepiej pani Radomska.</p>
+        </sp>
+        <sp who="#grabski #krzyżakowa #mączewski #rösseler #tarczyńska #panna_tarczyńska #sownicki">
+          <speaker>WSZYSCY.</speaker>
+          <p>Tak, tak, tak.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(zbladła, ale pasyę skrywa słodkim uśmiechem)</stage> Tak, tak będzie najlepiej.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(skromnie)</stage> Ano dobrze, dziękuję, więc odczytam komitet… panie Grabski <stage>(ten podaje kartkę)</stage> księżna Tęczyńska, hrabina Oskierko, ordynatowa Melsztyńska, pani Spytkowa, pani Łowicz-Mączewska, br. Glan–Hohenfels, ja, pani Tarczyńska, pani Krzyżakowa, J. E. ministrowa Gnażewska może, albo pani Sępowa, albo… <stage>(urywa czytanie)</stage></p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p>Pani Sępowa? Przepraszam tak, a kto to? ta pani?</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p><stage>(z lekką irytacyą)</stage> To żona komedyopisarza Sępa, znanego nie?</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p>Aaaa, tak, to ta pani Sępowa, tylko że pani Sęp, zdaje mi się przynajmniej, o ile mogę wiedzieć, bo tych stosunków nie znam, czy to też osoba »comme il faut«? Zdaje mi się bowiem, że ta pani była, czy jest jeszcze w teatrze?</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p><stage>(zirytowany)</stage> Była proszę pani hrabiny sławną artystką, od trzech lat nie występuje, a Modrzejewska np. także…</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p><stage>(nie patrząc na niego)</stage> Merci, a więc była aktorką, tak zresztą jak panie uważają, ale uprzedzam, że księżna jest bardzo ostrym cenzorem. Jak uważasz panie Mączewski?</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p><stage>(półśmiało)</stage> Mnie się też wydaje, że ze względu na księżnę, to jest, że wogóle tym razem możeby lepiej było…</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(przeczytawszy kartkę, oddając ją)</stage> Jabym prosił łaskawych państwa jeszcze o głos w tej kwestyi, otóż w składzie komitetu zapomniał pan jeszcze dwóch pań już uproszonych przezemnie, to będzie trzeba tam jeszcze wpisać. <stage>(szuka ołówka)</stage></p>
+        </sp>
+        <stage>(Panie wydają oznaki niekłamanego zdziwienia)</stage>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Aż dwóch?</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p>Jedna to pani Bernardowa Lewisohn…</p>
+        </sp>
+        <stage>(Sztuczne zdziwienie u pań: Tarczyńskiej, Radomskiej i Krzyżakowej)</stage>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p>Tak, więc pani Lewisohn już zaproszona i przyjęła, któż drugi?</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p>A to zacna pani Głębocka.</p>
+        </sp>
+        <stage>(Zdziwienie skrajne w całem towarzystwie)</stage>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Pani Głębocka?</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Pani… Lewi…sohn!</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Ależ to niemożliwe.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Ani jedna, ani druga. Nigdy.</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p><stage>(poważnie, reservé)</stage> O pani Lewisohn słyszałam i sądzę, że panie nie będą miały przeciwko temu nic wobec tak hojnej ofiary jej męża i towarzyskiej i materyalnej sytuacyi tych państwa. Czy nie?</p>
+        </sp>
+        <stage>(Cisza)</stage>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(zakłopotany)</stage> Czy ja może coś złego, albo nietaktownego zbroiłem, no toż darujcie mi państwo, ale gdzie ja botanik…</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Ale broń Boże, profesorze, tylko…</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Tylko przecież te panie jedna żydówka, druga…</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(podbudzona ostrogami)</stage> Tak, tak jest, materyalna sytuacya pani Lewisohn jest w tym wypadku chyba obojętną, towarzyskiej <stage>(z naciskiem)</stage> nie znam, ofiarę jej męża się chwali i uznaje, ale ta okoliczność, że madame Lewi-sohn jest żydówką, winna rozstrzygać. Przecież żydówki nie możemy mieć w komitecie.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Tak nobliwym…</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p>Ale dlaczego nie, przecież to głupstwo.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>O nie, profesorze, nigdy, to nie powinno być i nie jest głupstwem. Mój mąż… a przepraszam.</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p>O proszę, nie przerywam.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Nie, proszę, skończyłam.</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p>Otóż pozwól profesorze. <stage>(Do Tarczyńskiej)</stage> Mnie się zdaje, że nad panią Lewisohn i jej wejściem do komitetu powinniśmy przejść bez dyskusyi. Profesor ją zaprosił, księżna »sankcyonowała« Inna rzecz co do tej drugiej pani.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(przerywając)</stage> Ja zaś i co do pani Lewisohn byłabym zdania, że na jej należenie do komitetu zgodzić się absolutnie nie możemy. Mnie np. moje przekonania zakazują zasiadać w komitecie, w którym jest żydówka. Nie wiem, jak inne panie zapatrują się na tę kwestyę, ale ja muszę oświadczyć, że ja, jeżeli pani Lewisohn wejdzie do »Domu kalek«, ja z komitetu ustępuję.</p>
+        </sp>
+        <stage>(Ziuta przy fortepianie uderza czasem klawisz – krępujące milczenie)</stage>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>To niemożliwe.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Ależ!</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(ze smutnem zdziwieniem)</stage> Ależ dlaczego, przecież to proszę tu tego łaskawej paniusi nie żadna polityczna ani socyalna akcya, ale zwykły tu tak bal. Eh, żartuje sobie pani…</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p>Ja także śmiałbym zwrócić uwagę zebranego komitetu, że bal dobroczynny nie jest przecież areną rozwiązywania rasowych konfliktów i że…</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Darujcie państwo, ale ja mam moje stałe zasady, od których ani na włosek nie odstępuję. Ziutuniuś świadkiem, nawet wtedy, gdy chodzi tylko o komitet balowy.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(chwiejnie, oportunistycznie)</stage> Ja właściwie byłabym też za nieprzyjęciem do komitetu pani Lewi… <stage>(Ziuta uderzyła mocniej w klawisz)</stage></p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(z pasyą)</stage> Zośka zostaw fortepian. <stage>(Ziuta spłoszona)</stage></p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(wymijająco)</stage> Ja także byłabym »naprzeciwko«, ale jeżeli już zaproszenia cofnąć nie można…</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Tak, to nie ulega kwestyi, fakt zaproszenia już zaszedł.</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p>To też właśnie, zresztą możecie panie jak najmniej stykać się z panią Lewisohn, jeżeli już to zetknięcie jest dla pań tak niemiłe. Czyż nie?</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p>Ale jakżeby tu tego takie zetknięcie mogłoby być niemiłe, przecież to taka dystyngowana, wykształcona, miła kobieta, dama, rzadka.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(słuchając Sownickiego)</stage> Tak jest, możnaby jej nie regardować wcale.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Oczywiście, poprosi się tę panią raz na posiedzenie dla formy i fine.</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p><stage>(podchodząc do Tarczyńskiej, która wstała do pudła z papierosami)</stage> Więc niech się pani łaskawa już zgodzi. Pani Lewisohn już zaproszona, już przepadło, będzie zresztą tylko figurantką, no nie? Czyż nie? <stage>(półszeptem)</stage> A tu większa historya nas czeka…</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(do Tarczyńskiej z lewej)</stage> Tak, zgódź się pani już na Lewisohnową.</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p><stage>(bez złośliwości)</stage> Dobro publiczne wymaga od pani zmiany zasad na rzecz uczucia dla »biednych«.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(blada)</stage> Zresztą ustępuję, mając wzgląd na to, że w żaden kontakt nie będziemy wchodzić z tą osobą i że to dla szlachetnego celu.</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(uradowany)</stage> A więc chwilowe nieporozumienie załatwione, chwałać Bogu. Więc nasz cudowny, śliczny komitet ukonstytuowany, a dla poznaki to ja stary kaleka tu taki tego, nie? <stage>(Śmieje się dobrodusznie)</stage></p>
+        </sp>
+        <stage>(Towarzystwo sztywne, milczenie)</stage>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p><stage>(śmiało)</stage> O jeszcze nie, profesorze. Więc na panią Lewisohn zgodziliśmy się wszyscy pod wpływem jej daru, tj. męża, czyż nie? ale kto to druga pani, bo już zapomniałam.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p><stage>(śmiejąc się)</stage> Podobno »Matka Polka«, tak?</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p>Ciotka Grachów.</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(patrzy ze zdziwieniem na śmiejących się, potem rozpogadza)</stage> E nie, no tego tu druga pani to przejdzie bez dyskusyi, bo to pani Głębocka, żona autora broszurki, którą panie pieścicie w swych rączkach.</p>
+        </sp>
+        <stage>(Niechętne milczenie, nieartykułowane półwykrzykniki)</stage>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p><stage>(wstając z fotelu i machając ręką)</stage> Nooo tak ale widzi profesor, pan Głębocki jest także redaktorem radykalnego organu, popierającego socyalizm, komunizm i jako taki…</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p><stage>(wpadając)</stage> Demagog, anarchist, strach!</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p>Temsamem absolutnie uniemożliwiony towarzysko w sferach, które chce, powiedzmy sobie już raz, wieszać…</p>
+        </sp>
+        <stage>(Milczenie)</stage>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>A pani Głębocka, to jeśli się nie mylę, bo tych stosunków nie znam, ma biuro komisowe dla bon, guwernantek, aku…</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Tam jest przecież biuro dla służby. Mój Jan niedźwiedź…</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Ale przytem schronisko dla młodzieży rewolucyjnej, anarchistów, dekadentystów, żydówek emancypantek, propaganda Darwina, pewnie i wolnej miłości, znam ja się już na tem, znam.</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(z niechęcią i niesmakiem, trudno skrywanym)</stage> U pani Głębockiej? ale któż to powiedział? Przecież ją nazywają matką Grachów, najzacniejszy dom w świecie, ogólnie szanowany.</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p>Tak, to prawda wszystko, ale pani Głębocka nie jest osobą z towarzystwa, nie zna naszych formuł i konwenansów, mogą jej się wydać niesłychanie śmiesznemi, nie będzie zadowolona z nas jak i my z niej prawdopodobnie.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>To już starsza zdaje mi się kobieta.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Ależ staruszka prawie.</p>
+        </sp>
+      </div>
+      <div type="scene" n="3">
+        <head>SCENA 1.2.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#radomska">RADOMSKA.</rs>
+            <rs key="#tarczyńska">TARCZYŃSKA.</rs>
+            <rs key="#mączewski">MĄCZEWSKI.</rs>
+            <rs key="#hr._oskierko">HR. OSKIERKO.</rs>
+            <rs key="#sownicki">SOWNICKI.</rs>
+            <rs key="#rösseler">RÖSSELER.</rs>
+            <rs key="#krzyżakowa">KRZYŻAKOWA.</rs>
+            <rs key="#grabski">GRABSKI.</rs>
+            <rs key="#panna_tarczyńska">PANNA TARCZYŃSKA.</rs>
+          </p>
+        </stage>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Nie, profesorze, pani Głębocka absolutnie do komitetu się nie nadaje jako osoba obca nam zupełnie.</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Bez najmniejszej kwestyi. To już są inne koła, inni jacyś ludzie z Litwy, obcy nam i niechętni.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Żona anarchisty z księżną Jerzową w komitecie! Nie, to niema mowy o tem.</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p>Pozwólcie panie, że ja to przeprowadzę, aby już skończyć dyskusyę nad tem. Otóż kochany profesorze, ty jako mąż nauki nie możesz być tak au courant towarzyskich stosunków, ale bądź pewien, że nawet wzgląd na szlachetny cel nie może łączyć ze sobą ludzi tak odmiennych światów.</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(z poważnem zakłopotaniem)</stage> Ale ja już tę szlachetną kobietę prosiłem o pomoc.</p>
+        </sp>
+        <sp who="#rösseler">
+          <speaker>RÖSSELER.</speaker>
+          <p>Niech profesor daruje, ale ja np. zawsze przecież idę z prądem nowej myśli. W tym wypadku więc nie przemawiam, jako zacofaniec. Ale na polu towarzyskiem trudno żądać tak dalece idącego zniwelowania obozów i sfer.</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(z naiwnem przekonaniem)</stage> Ja myślałem, że właśnie na tem polu są sobie wszyscy równi, byle dobrze wychowani i wykształceni. A pani Głębocka to córka takiej znakomitości naukowej, żona tak cenionego autora.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(cedząc protekcyonalnie)</stage> Tak bezsprzecznie, umysłowo, pod względem wykształcenia może ostatecznie stać na równi z nami, to prawda, i wychowanie mogła odebrać staranne, ale jej pozycya towarzyska…</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Ich światek jakiś rewolucyjno-emancypacyjny.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(pogardliwie)</stage> Zresztą choćby to, że pani Głębocka ma biuro służby.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Ale całe mnóstwo rozmaitych okoliczności, dyskusya nad tem zaprowadziłaby nas, zdaje mi się, za daleko.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Tak, a tu najsilniejszy argument leży przed nami, to jest, że księżna i reszta pań absolutnieby się na to nie zgodziły. Nieprawdaż hrabino?</p>
+        </sp>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p>Vous avez raison monsieur. Pan Mączewski ma racyę. I ja myślę, nie mogłabym brać udziału nawet w balu, a cóż dopiero w komitecie.</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Więc?</p>
+        </sp>
+        <stage>(Wszyscy wodzą po sobie wzrokiem wyczekująco)</stage>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(drżącym głosem)</stage> Więc taka okoliczność mogłaby wpłynąć na nieukonstytuowanie się komitetu?</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p>Właściwie tak, jeżeli nie da się jej ominąć w żaden sposób, chociaż to, zdaje mi się, będzie łatwo.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Cały komitet głosuje przeciw wejściu pani Głębockiej.</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p>Ale miejcież moje panie wzgląd na to, że poczciwa broszura Głębockiego zrodziła we mnie myśl Domu kalek, że ten człowiek drukowanem słowem łzy mi do oczu wywołał i pobudził energię do niesienia pomocy nieszczęśliwym.</p>
+        </sp>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p>Dobrze, ale to znajdzie się profesorze inna droga do wyrażenia wdzięczności, biust jego może stanąć w przedsionku Domu.</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Może zostać honorowym członkiem Domu kalek.</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Ale z jakiej racyi żona jego ma należeć do komitetu balowego?</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p>Przecież ona broszury nie pisała, a z pewnością nie tańczy nawet.</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(z odcieniem irytacyi)</stage> Z tej racyi łaskawa pani, że ja idąc za radą Lewisohna a będąc zawsze pod niezatartem wrażeniem broszury Głębockiego pobiegłem zaraz do tego zacnego domu i prosiłem ją i jego jako najgodniejszych i najzasłużeńszych dla tej idei o pomoc i od nich ją uzyskałem. Tak i układając ten komitet obok pań komitetujących stale i ciągle <stage>(u pań widać obrażoną godność)</stage> nie mogłem pominąć żony tego, który o moich kalekach z takiem sercem i rozumem napisał. Ot dlaczego.</p>
+        </sp>
+        <stage>(Towarzystwo trawi ostrą pigułkę)</stage>
+        <sp who="#mączewski">
+          <speaker>MĄCZEWSKI.</speaker>
+          <p><stage>(nabierając fantazyi)</stage> Nooo taaak, tak, ale… <stage>(profesor obciera pot z czoła)</stage></p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(ostro)</stage> To w takim razie złą radę dała profesorowi wielka pani Głębocka.</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(z irytacyą)</stage> Dlaczego, dlaczego, moja pani?</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(obojętnie, ostro)</stage> Bo poradziła profesorowi udać się do tych pań, stale czy wiecznie komitetujących, zamiast zebrać komitet z emancypantek i socyalistek.</p>
+        </sp>
+        <stage>(Przygnębiające wrażenie, cisza)</stage>
+        <sp who="#oskierko">
+          <speaker>HR. OSKIERKO.</speaker>
+          <p><stage>(chcąc zażegnać burzę)</stage> Zresztą może to się da urządzić w jaki sposób. Pani Głębocka może pocichu należeć do komitetu i pracować z nami, byle nie figurowała na zaproszeniach i w dziennikach.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(podchwytując z zapałem)</stage> Może być także tylko figurantką.</p>
+        </sp>
+        <sp who="#grabski">
+          <speaker>GRABSKI.</speaker>
+          <p>Jak pani Lewisohn, tylko że ta będzie urzędowo i w dziennikach bez pracy, a panią Głębocką schowa się w kąt, a da się jej wszystkie pisaniny.</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(z oburzeniem, stłumionym głosem)</stage> Oto się mylisz mój młody kawalerze. Pani Głębocka nie potrzebuje być figurantką chowaną w kącie do pracy. A jeżeli jej osoba, a co więcej nazwisko niesplamione tyle wam szanowne panie sprawiłoby kompromitacyi i wstydu, to ja nie chcę pań na nic narażać i…</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p><stage>(prędko, w zamiarze ratowania sytuacyi)</stage> Ależ bo profesor nie chce wejść w nasze położenie.</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(chwytając kapelusz w ręce i mnąc go z irytacyą)</stage> Tak, łaskawa pani, nie chcę i nie wejdę. Ponieważ zaś nie miałbym czoła zacnej kobiecie powiedzieć wyniku tego posiedzenia i z komitetu ją wyprosić, dlatego dziękuję za dotychczasowe trudy jeszcze raz… tak jeszcze raz i spróbuję bez balu i bez komitetów.</p>
+        </sp>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(z trwogą)</stage> Jakto, więc?…</p>
+        </sp>
+        <sp who="#radomska">
+          <speaker>RADOMSKA.</speaker>
+          <p>Więc komitet rozwiązany?</p>
+        </sp>
+        <sp who="#tarczyńska">
+          <speaker>TARCZYŃSKA.</speaker>
+          <p><stage>(dobitnie)</stage> A to nie nasza wina w tem moja pani, ale wszystko rozbija się o osobę pani Głębockiej. <stage>(do Sownickiego, który odstąpił kilka kroków i zmierza ku drzwiom)</stage> Najwięcej bo biedne kaleki na tem ucierpią.</p>
+        </sp>
+        <sp who="#sownicki">
+          <speaker>SOWNICKI.</speaker>
+          <p><stage>(z kapeluszem w ręce, podchodzi do niej)</stage> O nie, łaskawa pani, biedni na tem nie ucierpią, już ja się o to postaram <stage>(kłania się jej, poczem zwraca do Rösselera i wzruszonym głosem)</stage> A pana proszę, bądź łaskaw napisać w jutrzejszej kronice, że Bal na Dom Kalek nie odbędzie się z powodu nieprzewidzianych czy nieprzyjaznych okoliczności. Tymczasem żegnam panie. Prace moje nie pozwalają mi na dłuższy pobyt w przyjemnem towarzystwie. <stage>(kłania się)</stage> Moje uszanowanie. <stage>(wychodzi)</stage></p>
+        </sp>
+        <stage>(Wszyscy odprowadzają go wzrokiem, trochę zawstydzeni, hrabina żegna się zimno z "paniami z miasta", Grabski zapala papierosa, Rösseler wymyka się po "angielsku" za profesorem, panna Tarczyńska ma łzy w oczach)</stage>
+        <sp who="#krzyżakowa">
+          <speaker>KRZYŻAKOWA.</speaker>
+          <p><stage>(ze szczerym smutkiem)</stage> Jaka szkoda! A tak się efektownie i imponująco zapowiadała lista komitetu, szkoda…</p>
+        </sp>
+        <trailer>(ZASŁONA SPADA)</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

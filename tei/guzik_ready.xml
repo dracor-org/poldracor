@@ -1,0 +1,1373 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000047" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Guzik</title>
+        <title type="sub">Komedia w jednym akcie</title>
+        <author>
+          <idno type="isni">0000000071389413</idno>
+          <idno type="wikidata">Q11769390</idno>
+          <persName>
+            <forename>Marian</forename>
+            <surname>Gawalewicz</surname>
+          </persName>
+        </author>
+        <!-- Marian Gawalewicz (1852-1910) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>Śląska Biblioteka Cyfrowa</name>
+          <idno type="URL">https://sbc.org.pl/dlibra/publication//365417/edition/345159</idno>
+          <title>Gawalewicz, M., Guzik. Komedya w jednym akcie, [w:] tegoż, Komedye jednoaktowe i monologi. Serya druga, Warszawa 1890, s. 37-74</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="janina" sex="FEMALE">
+            <persName>Janina</persName>
+          </person>
+          <person xml:id="józef" sex="MALE">
+            <persName>Józef</persName>
+          </person>
+          <person xml:id="służący" sex="MALE">
+            <persName>Służący</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-09-23">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1887">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">GUZIK.</titlePart>
+            <titlePart type="sub">KOMEDYA W JEDNYM AKCIE.</titlePart>
+          </docTitle>
+          <div type="appendix">
+            <p><salute>
+              <p>DOKTOROWI<lb />T. HERYNGOWI</p>
+            </salute>
+            w dowód uznania i wdzięczności<lb />Autor.</p>
+          </div>
+        </titlePage>
+        <castList>
+          <head>OSOBY:</head>
+          <castItem>
+            <role corresp="#janina">JANINA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#józef">JÓZEF.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#służący">SŁUŻĄCY.</role>
+            <roleDesc/>
+          </castItem>
+        </castList>
+      <set>
+        <p>(Rzecz dzieje się w domu Józefa)</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>SCENA PIERWSZA.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#janina">JANINA.</rs>
+            <rs key="#józef">JÓZEF.</rs> (wchodzą)
+            <rs key="#służący">SŁUŻĄCY.</rs> (za nimi wnosi kawę na tacy)</p>
+        </stage>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(do służącego)</stage> Niech Kaźmierz postawi przy szezlągu.</p>
+        </sp>
+        <stage>(SŁUŻĄCY. stawia kawę na stoliku i wychodzi)</stage>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Nie kazałaś podać likieru?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Chcesz?... natychmiast każę... <stage>(idzie ku drzwiom za służącym)</stage></p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(zatrzymując ją)</stage> Po cóż się masz trudzić...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Ależ mój drogi, skoro sobie życzysz.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Nie, nie... nie odchodź, obejdziemy się bez niego; chyba ty?...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>O, ja - wiesz przecie - pijam tylko z tobą.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Wiem, wiem; maczasz usta zwykle w moim kieliszku, aby mi go większą słodyczą zaprawić.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Przez dwa tygodnie zapomniałam nawet, jak likier smakuje; Kazimierz nie podawał go nawet do stołu... nie było wcale dla kogo. Słomiana wdowa odmawiała sobie wszelkich słodyczy.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Czy tak?... Bardzo się tu nudziłaś bezemnie?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Nudziła... nudziła... nie powiem. Ty wiesz, że ja się nudzić nie umiem, ja się nudów boję.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(poprawiając się)</stage> Więc czy bardzo tęskniłaś?... <stage>(obejmuje ją w pół, ona mu ręce zarzuca na szyję)</stage></p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(patrząc mu w oczy)</stage> A ty?...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Ja?... przyspieszyłem powrót o całe trzy dni, kochanko.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Wielka zasługa, kiedy się dwa tygodnie włóczyło po świecie!...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Z konieczności. Cóż tu moja pani robiła przez ten czas?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(uśmiecha się przez chwilę filuternie)</stage> Ja?... układałam obiad dla ciebie... smakował?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Bardzo!... Jakób dostanie nową czapkę za dzisiejsze krutoniki.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>A ja?...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>A ty... <stage>(całując ją w czoło)</stage> całusa.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(z udanym dąsem)</stage> Wolałabym... kapelusz. No, chodźmy do kawy, bo ostygnie; <stage>(przechodzi do stolika)</stage> proszę. <stage>(podaje mu filiżankę)</stage></p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Dziękuję żonusi. <stage>(popijając)</stage> Ach, jak ta kawa smakuje... jednak niéma, jak dom!... Wyborna!</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(pijąc)</stage> Nie rozumiem, co wy dobrego znajdujecie w czarnej kawie; ja... bo piję dla zwyczaju, nie dla smaku <stage>(otrząsa się)</stage> Brrr!... <stage>(pije daléj)</stage></p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Bo nie trzeba pijać bez cukru. Jakiś niemiec powiedział, że kawa powinna być czarna, jak smoła, słodka, jak miłość, a gorąca jak piekło, jeżeli ma smakować.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(z uśmiechem)</stage> To musiała powiedzieć niemka; poznać zaraz, że pan dobrodziej wraca prosto z Wiednia... Bardzo jesteś zmęczony?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Wcale nie, spałem w wagonie przez całą drogę.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Możebyś się chciał zdrzemnąć?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Zamiast z tobą rozmawiać?... moja Janko!... <stage>(zapala papierosa)</stage></p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(układając się na szezlągu)</stage> Hm, hm, hm! co ja ci mam do opowiadania!... nawet nie wiem od czego zacząć.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Najlepiej od końca, bo to u was bywa najważniejsze, jak post scriptum w listach. <stage>(przechadza się po saloniku)</stage></p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(spoglądając na niego z pod oka, po chwili)</stage> Pan myśli długo tak maszerować?...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(przystając dobrodusznie)</stage> Razi cię to?... mogę usiąść, <stage>(pokazując na papierosa)</stage> nie chciałem, ażeby cię dym krztusił.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(złośliwie)</stage> Bardzo delikatnie, ale kiedy się dwa tygodnie z żoną nie rozmawiało, to papieros, sądzę...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(szybko odkładając papierosa)</stage> Już nie palę. <stage>(podchodzi do niéj i chce usiąść obok na krzesełku)</stage></p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(powstrzymując go)</stage> Nie tam... siądź tu na podnóżku, przy mnie... o tak, to będzie romantyczniéj.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(z uśmiechem)</stage> A zawsze ci ta romantyczność w głowie!... kapryśne dziecko z ciebie.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Nie lubię prozy tak, jak ty, to prawda. Wiesz ty, panie Józefie, że pan należysz do najprozaiczniejszych mężów, jakich znałam!... Gdybym nie była twoją żoną, nie romansowałabym z tobą za nic w świecie... o nie!... To nie byłoby zajmujące, ani trocha.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Dlaczego?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Jak cię kocham; przez te trzy lata, odkądeśmy się pobrali, żebyś ty choć raz sprawił mi jaką niespodziankę, postarał się o jakąkolwiek sensacyą!...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(z wyrzutem)</stage> Ależ Janiu...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Cicho, nie przerywać, kiedy żona mówi. <stage>(bierze bombonierkę ze stolika)</stage></p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Jednakże...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Pst!... Proszę słuchać, <stage>(wkłada mu w usta cukierek)</stage> masz pomadkę i zamknij usta. <stage>(zjada sama cukierek)</stage> Zawsze i zawsze ta sama pogoda, ten sam spokój, ten sam humor, ta sama słodycz. To miłe, niezaprzeczenie, ale to się... znudzi.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Chcesz powiedziéć, że jestem dla ciebie za dobrym mężem.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Ależ przeciwnie, ty nie jesteś dobrym mężem. Mężowie są całkiem inni; cóż to, ja nie widzę innych mężów, nie słyszę o nich?!... niby nie wiem, jak inni mężowie kochają swoje żony. Ho, ho!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(z urazą)</stage> Jakto, ja cię nie kocham!...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(dając mu drugi cukierek)</stage> Cicho, nie tłumaczyć się... masz pomadkę. Kiedy byłam panną, kochali się we mnie na zabój; cała młodzież szalała za mną. Może nie?... a widzisz!... Sprawiało mi to wielką przyjemność. Odkąd wyszłam za mąż, trochę się to zmieniło, ale jednak przyznaj sam, czy nie zachwycają się twoją żoną, gdzie się tylko pokaże?... czy nie zazdroszczą ci wszyscy?... Każdy byłby na twojém miejscu najszczęśliwszy, gdyby posiadał taki skarb, a ty...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(całując ją w rękę)</stage> A ja...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(przerywając mu)</stage> Masz pomadkę...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(broniąc się)</stage> Ależ Janinko, to za słodkie...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(napierając)</stage> Nie, nie... musisz zjeść...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(j. w.)</stage> Za słodkie...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(nalegająco)</stage> Musisz!...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Ale ostatnią już?... <stage>(nadstawia usta)</stage></p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(cofając paluszki)</stage> Albo nie... nie dostaniesz więcéj. <stage>(zjada sama cukierek)</stage> Idąc za ciebie, położyłam jeden warunek, pamiętasz?... że mi zostawisz zupełną swobodę, prawda?... Nie byłabym inaczéj twoją żoną; żądałam, abyś mi zaufał całkowicie.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(z westchnieniem)</stage> I tak się stało, choć warunek był ciężki.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Ciężki?... dlaczego?...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Pytasz o to, a wiesz dobrze, że byłaś... byłaś trochę zepsutą swojém powodzeniem w świecie, lubiłaś... uchodzić za zalotniejszą, niż jesteś... Miałaś opinią największéj bałamutki, moja pani.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>O to powinna się starać każda kobieta... <stage>(zmieniając ton)</stage> Daj mi trochę wody.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(wstaje i nalewa wody do szklanki)</stage> Jednak zaufałem ci na ślepo, pokochawszy raz prawdziwie i głęboko, pokochawszy na seryo, jak mężczyzna dojrzały kochać powinien...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(biorąc szklankę)</stage> Dziękuję... <stage>(pije)</stage> Za dużo słodyczy zjadłam... twoja wina, dlaczego mi pozwoliłeś?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Czy tobie można czego zabronić!...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(ze śmiechem)</stage> Prawda, ale rozmawiajmy daléj. Powiadasz, że miałam opinią bałamutki?... Chyba na to się nie uskarżasz, żem zbałamuciła ciebie, a co do innych, to wyznaję... ja bardzo lubię mężczyzn, <stage>(śmiejąc się)</stage> przystojnych, zajmujących, dobrze wychowanych - o bardzo!... Którażby tego nie lubiła!... ale ciebie to nie gniewa?... ty mi tego za złe nie bierzesz?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(spokojnie)</stage> Bynajmniéj.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(zrywając się do połowy)</stage> A widzisz!... ty o mnie nie jesteś nic a nic zazdrosny, i ty powiadasz, że mnie kochasz? To dziwna miłość. Ja... gdybyś mi dał powód ku temu... ja... jabym ci oczy wydrapała!... Ja nie pojmuję, jak można kochać i nie być zazdrosnym?... Ty mnie nie kochasz prawdziwie, mój Józiu, to nie jest miłość, to sobie jakieś takie przyzwyczajenie... taka gospodarska miłość na domowy użytek, ale to nie to, o nie!... Mów, co chcesz, kiedy mąż żonę kocha, to musi być zazdrosnym o każde jéj spojrzenie, o każdy uśmiech, każde słówko, o wszystko...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Moje dziecię, jesteś niekonsekwentną, a cóżby się stało z tą wymaganą swobodą?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>To co innego; swoboda swoją drogą, a zazdrość swoją. Tobie to wszystko jedno, z kim ja rozmawiam, z kim tańczę, kto do mnie czułe oczy robi. Albo ty to widzisz kiedy?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Tak sądzisz?...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Jestem pewną. No proszę cię, na ostatnim balu u prezesów byłam w oblężeniu, wyglądałam uroczo, toaletę moję opisali w Kuryerku, wszystkie panny pozieleniały i schudły z zazdrości, że im odbijałam jednego dansera za drugim, a ty co robiłeś wtedy?... ty grałeś winta w trzecim pokoju z samymi starymi mamutami na emeryturze. Żebyś chociaż spojrzał był na żonę!... Ty myślisz, żem ja tego nie uważała? jak się to nazywa, nie obojętnością?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Może właśnie wiarą i zaufaniem.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Mój drogi, sam mi kiedyś mówiłeś, że kobiecie nigdy zanadto ufać nie trzeba.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Nie przeczę, ale skoro się jéj raz już zaufało...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Proszę cię, przyznaj lepiéj, że nie jesteś o mnie wcale zazdrosny?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(wzruszając ramionami)</stage> Ani trocha; przynajmniéj ci tego nigdy nie okazywałem, prawda?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(z ironią)</stage> Ależ prawda, prawda - wystawię ci to świadectwo na piśmie i na stemplu.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Gdybym kiedykolwiek stracił wiarę w ciebie, to...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(żywo)</stage> To co?... to co?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>To nic; wiedziałbym, co uczynić.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(z westchnieniem)</stage> Nie zabiłbyś mnie, jak Otello; o ja cię znam!...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(seryo)</stage> Proszę cię, nie żartuj w tej kwestyi.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Powiedział mi to pan Zygmunt; tyś nie stworzony na Otella.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Pan Zygmunt?... który?... nasz sąsiad z dołu?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Ten sam.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>A gdzieżeś ty widziała pana Zygmunta?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(spuszczając oczy)</stage> Jakto gdzie?... Spotykałam go bardzo często, zaczęsto nawet w ostatnich dniach; był u mnie z wizytą, zaprosiłam go na herbatę, chodziliśmy razem na wystawę.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(pokręcając głową)</stage> No, no!...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Dziwi cię to?...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Bynajmniéj; pan Zygmunt znany jest z tego w całém mieście, że asystuje wszystkim pięknym kobietom. Czémś przecie trzeba się zajmować w życiu. Młody, swobodny...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Przystojny.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(potakująco)</stage> Przystojny...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Zajmujący!... niepospolicie zajmujący!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Taak?... ja myślałem, że on tylko rozmawia o koniach i o swoich nowych garniturach.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Ze mną mówił o czém inném. Bardzoś ciekawy, o czém mówiliśmy?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(obojętnie)</stage> Nie.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>To nie masz ani trochę instyktu mężowskiego. Powtarzam ci, że pan Zygmunt jest nie tylko bardzo zajmującym, ale i bardzo niebezpiecznym dla kobiet...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Dla uczciwych także?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Wszystkie kobiety są do pewnego punktu uczciwe.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>A po za tym punktem?!</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Jak się zdarzy; to zależy od okoliczności, od warunków, od fantazyi...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Proszę!... uczciwość zależy od fantazyi?... wiesz duszko, to ładna teorya.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(z dąsem)</stage> Nieznośny jesteś, ja powinnam była zdradzić cię już dawno.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>No, no, no!... a z kim?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>O to nigdy niéma kłopotu!... Wiesz mój kochany, że już nie wiele brakowało, a... <stage>(zatrzymuje się, patrząc na męża zdziwiona)</stage> czego ty się śmiejesz?... ty zdajesz się nie wierzyć?... Pan dobrodziéj zanadto ufa sobie. Cóż to, ja jestem święta! Kobieta ze mnie, jak inne. Słuchaj, ja cię ostrzegam, nie bądź ty takim pewnym siebie, bo zobaczysz!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Chciałbym to widziéć.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>To żałuj, żeś wczoraj wieczorem nie wrócił niespodzianie; byłbyś twoję Penelopę zastał właśnie sam na sam z Parysem.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Moje dziecko, Parys zalecał się do pięknéj Heleny.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(urażona)</stage> Pan sądzisz, że nas tego na pensyi nie uczono?... rozdział o wojnie trojańskiéj umiałyśmy na pamięć.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(żartobliwie)</stage> Czy i z muzyką Offenbacha?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(j. w.)</stage> Ech!... z tobą nie można poważnie rozmawiać! Ja wiem, co mówię; siebie nazwałam wierną Penelopą, a pana Zygmunta bałamutnym Parysem, bo mnie wziął za piękną Helenę, a ciebie...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Za głupiego Menelausa.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>I ty to tak spokojnie przyjmujesz?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>A cóż mam zrobić?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(wzruszając ramionami)</stage> Jak widzę, ty byłbyś jeszcze kontent, gdyby ci kto żonę wykradł.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(z uśmiechem)</stage> Gdyby się żona dała...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(rozgniewana)</stage> Mój Józku, ty masz osobliwszy talent do irrytowania mnie.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>O, to jest talent właściwy wszystkim mężom.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Co powiadasz?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Nic <stage>(biorąc bombonierkę)</stage> Chcesz pomadkę? <stage>(daje jéj cukierek, który ona odtrąca)</stage> Na osłodzenie téj rozmowy... moja Janiu!</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(wstając n. s.)</stage> Poczekaj!... dam ja ci pomadkę, <stage>(przechodzi)</stage> aż ci się słono zrobi. <stage>(do Józefa)</stage> Wróciłeś, jak widzę, w doskonałym humorze z drogi.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Czyżbyś mi go chciała zepsuć?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>O, to byłoby za trudno. <stage>(wyjmuje z kieszeni karteczkę)</stage> ach!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(spostrzegłszy)</stage> Co to za kartka?...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(z udaném pomieszaniem)</stage> To... to nic, to bilecik - od pana Zygmunta.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(zdziwiony)</stage> Od pana... Pisał do ciebie?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Uhm!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>W interesie?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Swoim.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(wyciągając rękę)</stage> Można przeczytać?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(obojętnie)</stage> Nie można.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Ha!... to trudno, tajemnica listów jest święta. Jak widzę jednak, znajomość z panem Zygmuntem w czasie mojéj nieobecności zrobiła postępy i to znaczne. Wizytka, herbata, bilecik...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Przecież znaliśmy się od dawna, od czasu, gdy zamieszkał w naszym domu.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>No, tak... ale...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Żałuję bardzo, żeśmy się wcześniéj nie zetknęli bliżéj; bardzo miły, bardzo przyjemny człowiek! <stage>(zwracając się nagle do Józefa)</stage> przyjemniejszy od ciebie, to fakt.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Proszę!...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Nagadał mi komplementów!...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>No, tém cię chyba nie uraczył.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Dlaczego?...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Bo się ich już tyle w życiu nasłuchałaś.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>No - tak, ale on ma swój sposób rozmawiania z kobietami; umie trafić zawsze w najsłabszą ich stronę, a w rękę całuje - wiesz jak?... <stage>(pakazując na dłoń)</stage> nigdy inaczéj, tylko tu. Tyś mnie ani razu jeszcze tak nie pocałował.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Mogę zaraz...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(lekceważąco)</stage> Daj pokój, nie potrafisz tak samo. To rywal bardzo niebezpieczny dla mężów, podobnych do ciebie. A jak rozmawia, jak rozmawia!... żaden mąż nigdy tak nie potrafi. Zresztą, albo wy kiedy z żonami rozmawiacie!... Jeden siedzi, jak mruk, drugi mruczy, jak niedźwiedź, a trzeciego nigdy w domu niéma.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Mnie przecież do żadnéj z tych kategoryj nie zaliczysz.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Boś ty nie mąż.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>A cóż takiego?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Co?... albo ja wiem co?... coś tak niby brat, niby przyjaciel, niby ojciec, niby guwerner, niby bona...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Bona?!...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Uhm!... przy dziecku. Ty mnie traktujesz, jak wychowanicę więcéj, niż jak żonę. Pilnujesz, abym dobrze spała, dobrze zjadła, ładnie się ubrała, bawiła się, abym się nie zaziębiła, nie potknęła...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Nie potknęła, o tak, - chodzisz tak nieostrożnie, trzebaby cię jeszcze, jak małe bobo nieraz na pasku prowadzić.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>A widzisz, to właśnie źle; tymczasem pan Zygmunt zupełnie inaczéj się na to zapatruje. On zna kobiety na wskróś.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(z politowaniem)</stage> Biedny człowiek!</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Na mnie poznał się odrazu.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>To nie trudno.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>I lepiéj od ciebie.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(niedowierzająco)</stage> Eh, wątpię.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Zarozumialec z pana!...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(chce ją w rękę pocałować)</stage> Janinko...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Proszę cię, nie przepraszaj.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Ja nie miałem zamiaru przepraszać; chciałem cię w rączkę pocałować tak po swojemu, po gospodarsku, prozaicznie, za ten zapał, z jakim mówisz o panu Zygmuncie. Szkoda, żeś się nie widziała w téj chwili!</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Bo pan Zygmunt zasłużył na to; zresztą, odwzajemniam mu się tylko. On jest mną również zachwycony.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Co? co?... zachwycony?!</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>A tak, jest zachwycony.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Powiedział ci to?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>I nie raz, mój panie.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>A tyś pozwalała na to?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>A to dobre!... Któraż kobieta zabroniłaby mężczyźnie zachwycać się nią, zwłaszcza takiemu, co więcéj znał pięknych kobiet, niż ty ostryg zjadłeś w swojem życiu.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Bogu dzięki, to mi jakoś wyszło na zdrowie, a gdybym był zjadł tyle kobiet, co ostryg... oho! <stage>(siada)</stage></p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Mój drogi, nie próbuj być dowcipnym; to ci się nawet w święta nie udaje.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Bo ja też nie jestem mężem od święta, tylko na codzień.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(siadając przy stoliku naprzeciw Józefa)</stage> Ach, to prawda... Nie dziwże się potém, kiedy się żonie podoba ktoś inny, co ma humor, dowcip, wesołość na zawołanie, a przytém brodę nosi á la Mierzwiński, a patrzéć umie tak sprytnie... pokaż-no mi swoje oczy! <stage>(spogląda mu w oczy)</stage> jakie ty masz oczy?... niebieskie?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(wytrzeszczając ku żonie oczy z przesadą)</stage> Bure; był czas kiedyś o tém lepiéj odemnie wiedziała?...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(rozmarzona)</stage> Pan Zygmunt ma czarne, jak węgiel, palące, namiętne, pożera niemi kobiety. Kiedyśmy tu wczoraj siedzieli przy herbacie, musiałam się zasłaniać co chwila... Opowiadał mi kilka swoich awanturek...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Z żydami?...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Cóż znowu!... miłosnych; a jednak utrzymuje, że go najbardziéj nęcił romans z kobietą uczciwą, którąby mógł pokochać, którąby się nie potrzebował bawić tylko, i któréjby znudzony nie musiał porzucać. Sprzykrzyła mu się nieustanna flirtacya.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>No, no! to zaczyna być zajmujące. Mówił ci to wszystko?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>O i więcéj jeszcze; mówił mi, że jestem warta innéj miłości, że należę do kobiet, za któremi szaléć można.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(n. s.)</stage> O! wyrzucę ja za drzwi tego pana!...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Co powiadasz?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(z udaną obojętnością)</stage> Mówię, żeście prowadzili bardzo miłą pogawędkę. I kiedyż to było?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Wczoraj, przedwczoraj, trzy dni temu.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Jakto codziennie?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Przy herbacie.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Wieczorami?... hm, hm!... cóż było do herbaty?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(urażona)</stage> To cię bardziéj zajmuje, niż co ja na to odpowiedziałam?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Domyślam się, żeś odpowiadała rozsądnie, jak w takich wypadkach uczciwa żona odpowiadać powinna.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Rozsądnie, rozsądnie!... ty masz zawsze ten rozsądek na języku. Nie zawsze można być rozsądną; żebyś był kobietą, to byś się o tém przekonał. <stage>(spoglądając na niego z pod oka uważnie)</stage> Gdybyś się tak znalazł sam-na-sam w buduarze wieczorem, z człowiekiem młodym, przystojnym, zakochanym, któryby patrzał na ciebie czule, rękę twoję do ust przyciskał i mówił ci o miłości... takie rzeczy, że...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Najpierw, gdybym był mężatką, nie znalazłbym się nigdy samochcąc w takiej sytuacyi.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>A jeśli męża niéma w domu?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>To wszystko jedno.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Nie wszystko jedno; żona nie ma obowiązku się nudzić.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Ale i nie ma obowiązku bawić się w ten sposób.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>A w jaki?... może ma pończoszkę robić, albo pasyansa ciągnąć? Głupiaby była!...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Moje dziecko...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Proszę cię, przestań mnie nazywać dzieckiem! ja mam swojego ojca.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>O, unosisz się?...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Broń Boże!... jestem zanadto pod wrażeniem wczorajszéj rozmowy, abym sobie tak łatwo humor zepsuła. Słyszałam rzeczy już dawno nie słyszane, <stage>(zaczyna się przechadzać)</stage> a zawsze przyjemne: <stage>(z przejęciem)</stage> „O pani, kocham panią!... ubóstwiam..., szaleję!”</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Co, co, co?..</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>A tak... cóż ciebie to obchodzi?... ty przecież nie jesteś zazdrosny o mnie.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(powściągając się)</stage> No, dobrze, ale kiedy mojéj żonie takie głupstwa mówią...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Co?... to ty to nazywasz głupstwem?... wyznanie miłości to głupstwo?... A cóżbyś powiedział, gdybym ci powtórzyła całą naszę rozmowę z panem Zygmuntem?... ale po co ci mam powtarzać.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Jak wolisz; wysłuchałbym z przyjemnością.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Nawet o propozycyi, jaką mi zrobił pan Zygmunt?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Cóż to za jedna?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Zaproponował mi... abym cię porzuciła dla niego.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Żartujesz!...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Wcale nie; uciekała z nim już jedna panna i dwie rozwódki.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>A cóż ty na to?...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Hm, to moja tajemnica; odpowiedziałam, jak mi się zdawało w danéj chwili najlepiéj. Tobie się zdaje, żeś mnie już na całe życie przywiązał do siebie - i dlatego jesteś taki spokojny, dlatego nic sobie z nikogo nie robisz.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Zgadłaś; jestem przekonany, że nie chciałabyś dopełnić kolekcyi ofiar pana Zygmunta i nie uciekłabyś odemnie.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Kto to wie!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Ależ Janinko, zastanów się, co ty mówisz!</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Mówię tylko, że nigdy nie można być zupełnie pewnym niczego. Tyle małżeństw się w tych czasach rozchodzi, tyle żon porzuciło mężów, to się staje epidemiczném w naszym świecie. Przykład jest zaraźliwym.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Moja droga, tu naprzeciw przez ulicę, mieszka szewc, który co sobota się upija, a co niedziela żonę bije. Wyobraź sobie, że ten przykład byłby także zaraźliwym dla innych szewców, coby to było!</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Także wyszukane porównanie!... jestem pewną, że pan Zygmunt nigdyby się na nie nie zdobył.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Nie uważasz, że my za często wspominamy tego pana Zygmunta?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Ja?... broń Boże, sądziłbyś jeszcze, że cię chcę nim podrażniać umyślnie. Wspomniałam tylko przypadkowo, mogę zupełnie nie rozmawiać z tobą o niczém i o nikim, ale pamiętaj, abyś potém sobie całą winę przypisał.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Jaką winę? czyż to moja wina, że jakiś pan Zygmunt ośmiela się przemawiać do ciebie w sposób...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(podchwytując)</stage> A widzisz, znowu mówisz o panu Zygmuncie; przecież nie ja zaczęłam, a widzisz!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>No, jakże!... skoro jest człowiek, który mi zamierza żonę wykraść...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Dotąd jeszcze tego nie zrobił.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>I nie zrobi, przypuszczam, jeżeli jedno z was dwojga będzie miało rozum.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(wyniośle)</stage> O, zaczynasz mi ubliżać!... mój Józefie, ten ton... jam nie przywykła...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(niby seryo)</stage> Bo pomyśl tylko, uciekać teraz podczas zimy... na dworze śniegi, mróz, wagony źle ogrzewane, i dokąd tu pojechać?... naraziłabyś siebie i mnie na niepotrzebne kłopoty i niewygody. Musiałbym przecie was gonić... takby wypadało. Wyobraź sobie tę scenę, kiedy was dopadam na granicy, przeziębłych, niewyspanych, siedzących gdzieś pod piecem na stacyi kolejowéj. Ty chuchasz w paluszki i masz łzy w oczach od zimna, pan Zygmunt ma nos czerwony i dygocze zębami, a przed wami ja staję z rewolwerem w ręku... no, choćby był nie nabity, ale rewolwer w takich sytuacyach jest rekwizytem koniecznym. Bez niego cały efekt stracony!... Ja czuję, że wpierw, zanimbym was pozabijał, przez litość kazałbym wam podać... gorącéj herbaty. Nie Janinko, wierzaj mi, nic gorszego, jak śmieszność w takich razach. Pierwszy paragraf w „Poradniku dla wykradających i wykradanych” opiewa: „Nie róbcie tego głupstwa nigdy podczas zimy...” Słowo honoru.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Możesz sobie dowcipkować, ile chcesz. Pan Zygmunt, gdyby mnie wykradał, przewidziałby wszystko lepiéj od ciebie. On się zna na tém, miał praktykę.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Zkąd ta pewność?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Są dowody; u niego w gabinecie stoi cała szafa, w któréj ma muzeum pamiątkowe wszystkich swoich romansów: cała kollekcya rękawiczek, chusteczek koronkowych, wstążek, kwiatów, pantofelków, włosów, fotografij...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(wtrącając)</stage> Lasek połamanych na jego grzbiecie.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Tacy, jak on, strzelają się, ale nie biją, jak ulicznicy.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Zkąd ty wiesz o tych zbiorach Don-Juańskich?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Od samego właściciela; przyznam ci się, że byłam niezmiernie ciekawą obejrzéć to wszystko. My kobiety passyami lubimy takie tajemnice, a pan Zygmunt chciał mi to sam ułatwić...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(zimno)</stage> Niepodobna?... ofiarował się przynieść ci cenniejsze okazy?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Coś lepszego; zaproponował, abym to sobie kiedyś obejrzała sama.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Co, co?... co?... zaproponował ci?... Janinko, ty przesadzasz! pan Zygmunt nie ośmieliłby się uczynić tego.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Dlaczegożby nie?...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Bo ty nie poszłabyś bezemnie do obcego człowieka.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>A „Francilion...”</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Co za Francillon?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>„Francillon” Dumasa; ty nie wiesz, co to „Francillon...” jakbyś z Chin przyjeżdżał?... On nie wie, co jest „Francillon!..” To komedya, w któréj żona, aby dokuczyć mężowi, idzie z maskarady na kolacyjkę z pierwszym lepszym nieznajomym mężczyzną.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Tak?!... Piękny wpływ wywiera na was teatr moje panie, jeśli z niego taką tylko naukę czerpiecie.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>To bardzo prawdziwe.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Bardzo fałszywe, bo prawdziwie i to do gruntu uczciwa kobieta, nawet kiedy jest zdradzaną, woli pozostać ofiarą, aniżeli kosztem swojéj godności mścić się na mężu. Znasz przysłowie: „zrobił syn ojcu na złość: odmroził sobie uszy?”...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Tak, tak... to wygodna dla was teoryjka. Wam trzeba na wszystko pozwolić bez odwetu.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(siada na szezlągu, odwrócony od Janiny)</stage> Moja droga, nie mam ochoty rozprawiać z tobą w téj chwili nad tą kwestyą, bo...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Bo jesteś zirrytowany? - przyznaj; obawiasz się niebezpiecznego rywala?... no powiedz-że nareszcie: tak.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Rozsądny mąż nie obawia się tego nigdy, bo sobie poradzić zawsze potrafi, gdy ma oczy otwarte, i pistolety w biurku, <stage>(n. s.)</stage> Trzeba będzie pana Zygmunta mieć na oku!</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(spoglądając na niego niespostrzeżenie n. s.)</stage> Jednak go to ubodło; <stage>(chwila milczenia)</stage> dobrze mu tak! <stage>(podchodzi do niego i chce usiąść obok)</stage> Posuń się.</p>
+        </sp>
+        <stage>(JÓZEF. udaje, że nie uważa)</stage>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Posuń-że się.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Jest krzesło.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Kiedy ja chcę przy tobie usiąść, blizko, bliziutko, jak przy mężu.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(z naciskiem)</stage> Znudzisz się.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(siadając na podnóżku, opiera łokcie na jego kolanach i patrzy mu w oczy)</stage> Pan bardzo zagniewany?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Któż ci to powiedział?... wiesz, że ja się nigdy nie gniewam.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Ej, troszeczkę... odrobinkę... <stage>(poprawia mu krawat, zapina surdut)</stage> zrób mi tę przyjemność i przyznaj się. <stage>(sięga ręką do kieszeni na piersiach)</stage> Co ty tu masz?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Chusteczkę.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(wyciąga chustkę)</stage> Kupiłeś sobie nowe perfumy?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Kupiłem.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Ładny zapach, ale za słodki, kobiecy... <stage>(szuka daléj w kieszeniach)</stage></p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(odsuwając ją z lekka)</stage> Proszę cię, daj mi teraz pokój.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Kiedy ty wiesz, że ja lubię myszkować po twoich kieszeniach.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Nic w nich ciekawego nie znajdziesz; to nie muzeum pana Zygmunta.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(wyciąga zieloną kartkę)</stage> Bilet do teatru?... byłeś w teatrze?... co dawali?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Balet.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>To pan chodzisz na balety zagranicą?... ślicznie... a to co?... <stage>(wyjmuje z kieszeni guziczek dżetowy)</stage> guzik?... <stage>(zdziwiona)</stage> Józiu, co to za guzik?...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Jaki guzik?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Znalazłam go w twojéj kieszeni, o... tu; nie udawaj, zkąd ty przychodzisz do takiego guzika?... to guzik od damskiego stanika. Co to znaczy?... wytłumacz się.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Albo ja wiem... pozwól...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Zmieszałeś się?... słuchaj-no, w tém coś jest!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(niechętnie)</stage> Ależ upewniam cię...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(powstając szybko)</stage> Nic nie słucham, ty masz go od kobiety!... co to za jedna?... mów zaraz.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Ależ moja droga... dzieciństwo!... znalazłem go dzisiaj.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Znalazłeś?... to nieprawda, ty się wykręcasz. Czuć cię kobiecemi perfumami, chodzisz na balet, ty mnie zdradzasz! Ty mnie zdradziłeś Józiu, ja to czuję. Ten guzik mi to powiada.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Jest!... ona gotowa wmówić we mnie, że ja ją zdradzam!</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Więc zkąd go masz?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Mówię ci, że go znalazłem.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Nieprawda, nie chowa się znalezionych guzików.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(pomięszany)</stage> Zrobiłem to przez roztargnienie, zaświecił mi pod nogą... podniosłem... i...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Proszę cię, nie kłam!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Ależ jak cię kocham!...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(z gorzką ironią)</stage> Ty mnie kochasz? ty kochasz!... teraz wiem, dlaczego nie jesteś o mnie, zazdrosny: jesteś zajęty inną kobietą, masz romans po za domem, masz kochankę, do któréj jeździsz, która ci daje guziki na pamiątkę. Kto jest ta niegodna?... mów, chcę wiedzieć wszystko!... ja jéj nienawidzę!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Uspokójże się, posłuchaj.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(co raz bardziéj wzburzona)</stage> Nic nie słucham, nie chcę się uspokoić, jesteś zdrajcą, zaczaiłeś się, aby mnie lepiéj oszukiwać. Niedarmo nazywano cię „cichą wodą.” O, Boże, Boże!... tegom się doczekała. I dla kogo?... dla jakiejś baletnicy pewnie, która dekoltuje się bezwstydnie od góry i od dołu, wierzga nogami przy muzyce i uczciwym kobietom zabiera mężów, pieniądze, spokój domowy!... Ona musi być baletnicą, powiedz! Może masz jéj fotografią w pugilaresie, o w takiéj pozie <stage>(robi przesadną pozę taneczną)</stage> z kieliszkiem szampana w ręku. Wy to lubicie, to ma szyk!... <stage>(oddając mu guzik z gwałtownym gestem)</stage> Masz, masz, schowaj sobie ten guzik!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(który starał się nadarmo dojść do słowa)</stage> Ależ Janinko, miejże rozum!...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Znowu rozum!... ja mam zawsze miéć rozum na zawołanie, mnie nie wolno głupstwa żadnego zrobić, mnie nie wolno słuchać oświadczyn innego mężczyzny, nie wolno przez ciekawość zwiedzać jego zbiorów, dlatego, abym się nie dowiedziała, co wy wszystko dostajecie od kobiet na pamiątkę, abym nie znalazła podobnych guzików, abym... <stage>(zakrywa sobie oczy)</stage> Nie, nie chcę miéć rozumu, jeżeli mi z niego taki tylko pożytek, abyś mnie dla głupszych zdradzał.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(przyjrzawszy się guzikowi, stojąc przy żonie)</stage> Janinko... ależ ten guzik... moje dziecko... ten guzik, <stage>(wybuchając nagle śmiechem)</stage> to twój własny!... Patrz-no taki sam.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(odwracając się żywo)</stage> Mój własny?... co ty mówisz?... Oddaj go! <stage>(bierze guzik i porównywa ze swojemi)</stage> A tak, prawda, to mój <stage>(wybucha śmiechem gwałtownym)</stage> A to wyborne! a ja ciebie posądzałam...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(klękając u jéj kolan)</stage> A widzisz, o patrz... nawet brakuje jednego guzika w tém miejscu, o patrz, świeżo oderwany. <stage>(pokazuje na piersi żony)</stage></p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(całując go w skronie i głowę)</stage> Mój kochany, przepraszam cię... przepraszam... posądziłam cię tak szybko...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(przypominając sobie nagle, odstępuje od niéj zaniepokojony)</stage> Poczekaj!... czy ty wiesz, gdzie ja ten guzik znalazłem?...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>No gdzie?</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Ja go znalazłem... pod progiem pana Zygmunta na dole; tak, teraz sobie doskonale przypominam, znalazłem go, wracając do domu dziś w południe, wracając z kolei... Janino!... <stage>(spogląda jéj badawczo przez chwilę w oczy, które ona spuszcza ku ziemi)</stage> Ty przecież... Boże, co za myśl!... przecież ty... nie, to niepodobna!... <stage>(chwyta ją za ręce)</stage></p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Józiu!... co ty mówisz?... ty myślisz coś złego, ja to poznaję po twojém spojrzeniu. To brzydko z twojéj strony...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Ja ci wierzyłem dotąd i ufałem, ale tyś mi sama przed chwilą opowiadała... ja nie chcę podejrzéwać, jednak... co to wszystko znaczy?...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(zakłopotana do siebie)</stage> Mój Boże, co za położenie!</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Ty się mięszasz?... nie odpowiadasz?... to oszaléć można!...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(rzucając mu się z radością na szyję)</stage> Ach, ty jesteś zazdrosny!... ty mnie kochasz!... Boże, jakże jestem szczęśliwą!... dopięłam swego, dopięłam!...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(siląc się zrozumiéć)</stage> Nie mogę pojąć... pan Zygmunt przecież, to łotr salonowy!... mówiłaś...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(zatykając mu usta)</stage> Mówiłam, mówiłam... nic nie mówiłam <stage>(zasłaniając mu oczy)</stage> Nie patrz na mnie; to wszystko było nieprawdą, ja tylko chciałam cię podrażnić... chciałam się przekonać, czy ty umiesz być zazdrosnym.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Jednak te wizyty... rozmowy...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Nie miały miejsca; ot, patrz... <stage>(bierze dziennik ze stołu)</stage> pana Zygmunta od tygodnia niéma w Warszawie, wykradł bankierowę Purzelbaum i uciekł z nią zagranicę. Masz, czytaj w Kuryerku: „Najświeższy skandal.”</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(czytając z zajęciem)</stage> „Najświeższy skandal... zeszłéj niedzieli zniknął nagle z widowni naszego high-lifu pan Zygmunt X. znany lew salonowy i przewódzca złotéj młodzieży, a z nim razem zapodziała się bankierowi P. żona wraz z podręczną kassą i klejnotami”... <stage>(kończy artykuł, półgłosem)</stage></p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>To właśnie podsunęło mi myśl użycia fortelu względem ciebie... no?...</p>
+        </sp>
+        <stage>(JÓZEF. spogląda na nią z urazą)</stage>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Czemuż tak spochmurniałeś?... śmiejże się przecież. To cię powinno zabawić...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>A ów bilecik?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>Bilecik?... jaki bilecik?... ale, ten... <stage>(szuka po kieszeniach)</stage> Szkaradny zazdrośniku, jeszcze żonę podejrzéwasz; ten bilecik?... chcesz go koniecznie przeczytać? wstydź się, niegodziwcze. Każesz mi się rumienić. <stage>(oddaje mu bilecik z niechęcią)</stage></p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(rozwija kartkę i czyta)</stage> „Kochana Janinko!...” <stage>(spogląda na żonę)</stage>... Kochana Janinko! weź trzy jaja, dwie łyżki mąki i łyżkę cukru”... Co to jest?</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(z wyrzutem)</stage> To... to przepis na dzisiejsze krutoniki, które mi przysłała pani Lucyna; chciałam ci zrobić przyjemność przy obiedzie i nauczyć Jakóba... <stage>(z dąsem)</stage> alboś ty wart tego?...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(poważnie)</stage> Moje dziecko...</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(przerywając mu szybko)</stage> Oho, będzie kazanie!... Proszę cię, nic mi teraz nie mów, powiesz mi późniéj... zresztą ja wiem, co mi możesz powiedziéć... żem źle zrobiła, żem nie powinna udawać gorszéj, niż jestem, że się nie godzi męża w ten sposób intrygować, ale to twoja wina. Doprowadziłeś mnie do ostateczności tym swoim spokojem i drwiącym tonem... Ty wiesz przecie, że ja tylko ciebie kocham.</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p>Zaczynam wątpić, skoro igrasz z moją miłością.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p><stage>(składając ręce)</stage> Ostatni raz. No, ucałuj mnie na znak przebaczenia; widzisz, inne kobiety kiedy źle robią, nie mówią tego. No, Józiu!...</p>
+        </sp>
+        <sp who="#józef">
+          <speaker>JÓZEF.</speaker>
+          <p><stage>(obejmując ją w pół)</stage> Złych nie trzeba naśladować. No, pójdź - pomogę ci przyszyć znowu ten guzik, abyś lepiéj pamiętała, że na nim z twojéj winy wisiał przez chwilę mój spokój i nasza wspólna wiara małżeńska.</p>
+        </sp>
+        <sp who="#janina">
+          <speaker>JANINA.</speaker>
+          <p>O, przyszyjemy go teraz najmocniejszym jedwabiem. <stage>(podaje mu usta do pocałunku)</stage> Mój ty zazdrośniku kochany!...</p>
+        </sp>
+        <trailer>(Zasłona spada)</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

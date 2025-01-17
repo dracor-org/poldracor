@@ -1,0 +1,3203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000045" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Żabusia</title>
+        <title type="sub">Sztuka w trzech aktach</title>
+        <author>
+         <idno type="isni">0000000108565995</idno>
+         <idno type="wikidata">Q454870</idno>
+         <persName>
+          <forename>Gabriela</forename>
+          <surname>Zapolska</surname>
+         </persName>
+        </author>
+        <!-- Gabriela Zapolska (1857-1921) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/teatr-gabryeli-zapolskiej-t-5-zabusia-dziewiczy-wieczor,Mjk0NTk0MDY/6/</idno>
+          <title>Zapolska, G., Żabusia: Sztuka w trzech aktach, [w:] Teatr Gabryeli Zapolskiej. T. 5, Żabusia; Dziewiczy wieczór, Warszawa 1903</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="bartnicki" sex="MALE">
+            <persName>Bartnicki</persName>
+          </person>
+          <person xml:id="franciszka" sex="FEMALE">
+            <persName>Franciszka</persName>
+          </person>
+          <person xml:id="julian" sex="MALE">
+            <persName>Julian</persName>
+          </person>
+          <person xml:id="maniewiczowa" sex="FEMALE">
+            <persName>Maniewiczowa</persName>
+          </person>
+          <person xml:id="marya" sex="FEMALE">
+            <persName>Marya</persName>
+          </person>
+          <person xml:id="milewska" sex="FEMALE">
+            <persName>Milewska</persName>
+          </person>
+          <person xml:id="milewski" sex="MALE">
+            <persName>Milewski</persName>
+          </person>
+          <person xml:id="niańka" sex="FEMALE">
+            <persName>Niańka</persName>
+          </person>
+          <person xml:id="żabusia" sex="FEMALE">
+            <persName>Helena</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-09-23">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1897">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">ŻABUSIA</titlePart>
+            <titlePart type="sub">SZTUKA<lb />w trzech aktach.</titlePart>
+          </docTitle>
+        </titlePage>
+        <castList>
+          <head>OSOBY:</head>
+          <castItem>
+            <role corresp="#bartnicki">BARTNICKI.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#milewski">MILEWSKI.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#milewska">MILEWSKA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#julian">JULIAN.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#żabusia">HELENA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#marya">MARYA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#maniewiczowa">MANIEWICZOWA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#franciszka">FRANCISZKA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#niańka">NIAŃKA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#mała_jadzia">MAŁA JADZIA.</role>
+            <roleDesc/>
+          </castItem>
+        </castList>
+      <set>
+        <p>(Rzecz dzieje się w Warszawie, w domu Bartnickich)</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT PIERWSZY.</head>
+        <stage type="setting">
+          <p>(Scena przedstawia salonik umeblowany z mieszczańskim komfortem. Dużo japońskich wachlarzy i parasolek, po kątach porozpinanych. Zbiór rozmaitych małych garniturków. Nad kanapą na lewo wielka fotografia, przedstawiająca roczne dziecko w koszulce. Po obu stronach fotografie Heleny i Bartnickiego. Dużo cacek i drobiazgów ręką kobiecą wykonanych. Atmosfera ciepłego domowego kąta, kwiaty, pianino. Troje drzwi, jedno w głębi wiodące do przedpokoju. Widać tam lustro, konsolkę i szaragi. W chwili podniesienia kurtyny Bartnicki w domowej kurtce siedzi po lewej na fotelu i trzyma na kolanach Jadwinię uśpioną)</p>
+        </stage>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#bartnicki">BARTNICKI.</rs> (później)
+              <rs key="#franciszka">FRANCISZKA.</rs>
+            </p>
+          </stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(kołysząc dziecko, nuci)</stage><lb />A! a! a! koty dwa,<lb />Szare, bure obydwa.</p>
+          </sp>
+          <stage>(Przez drzwi z lewej wsuwa się Franciszka, trzymając kuryer)</stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(szeptem)</stage> A co tam?</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>Kuryer.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ciszej, bo mi dziecko obudzisz.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p><stage>(ciszej)</stage> Kuryer.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Słyszę! połóż na stoliku! nie tu! nie tu, ciemięgo... tu leży pani robota. Ty przecie wiesz, że pani nie lubi, skoro się coś nie na swojem miejscu znajduje.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p><stage>(kładzie kuryer na krześle)</stage> Pewnie, że wiem.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nie tu!... pani nie lubi, jak się gazety po krzesłach przewracają.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>O, Jezu! jaki to pan kapryśny. Pan wszystkie kaprysy na panią zwala a wie się przecie, że kto dokuczy sługom, to pewnie nie pani, czysty anioł.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>No dobrze, dobrze! niech będzie, że to ja wszystkiemu winien. <stage>(dziecko się budzi)</stage> Cyt! cyt! lulaj... Mama zaraz przyjdzie i cukierków Nabuchodonozorowi przyniesie.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>A może niańki zawołać, żeby Buchozora wziena i do łóżka położyła?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nie trzeba! pani wychodząc prosiła, żeby panienka u mnie na ręku siedziała, to niech siedzi.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>A to niechże siedzi.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A nastaw samowar, bo pani przyjdzie zziębnięta. I kup cytrynę, bo panią głowa bolała.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>O! Jezu! a czemu też to pani w taką niepogodę poszła... jeszcze się biedactwo przeziębi.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Mówiła mi pani, że jej przechadzka na ból głowy pomoże.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>Mógł pan też był panią nie puścić... i zakazać chodzić w taką chlapaninę.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(patrzy przez chwilę na Frańciszkę i wzrusza ramionami)</stage> Ja? nie puścić? ja cokolwiek pani zakazać? co też Frańciszka wygaduje!</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>Nicem głupiego nie powiedziała... pani to czysty dzieciaczek a pan powinien umieć się z panią obejść...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(wyniośle)</stage> Niech Frańciszka idzie nastawiać samowar.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>O jej! idę... <stage>(Wraca się)</stage></p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Czego jeszcze?</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>Ano zapomniałam... szewc przyniósł od podzelowania te buty, co w nich pan do biura chodzi, to trza zapłacić.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>No to jak pani przyjdzie, to pani zapłaci.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>Ano to dobrze! <stage>(Wychodzi na lewo)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#bartnicki">BARTNICKI.</rs> (później)
+              <rs key="#maniewiczowa">MANIEWICZOWA.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(ściemnia się)</p>
+          </stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(sam)</stage> A! a!... koty dwa... Ściemnia się a Żabusia nie wraca. Już dziś nie pójdę na czarną kawę do cukierni, bo będzie zapóźno... szkoda... ciekawy jestem co się dzieje we Francyi. Czy Arton już przyjechał? Kto jest na liście panamczyków!... Ciekawe bardzo, jak Boga kocham!... Żebym choć kuryera mógł przeczytać, ale boję się poruszyć, żeby się dziecko nie rozkrzyczało...</p>
+          </sp>
+          <stage>(Przez drzwi z lewej wchodzi Maniewiczowa, owinięta szalem)</stage>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(wesoło)</stage> Dzień dobry sąsiedzie!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(zażenowany)</stage> A!... pani daruje... ale moje ubranie domowe...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Cóż znowu? sąsiedzi?... wszak pan widzisz, że i ja przychodę w domowem ubraniu. Zresztą jest tak ciemno, że nie widzę nawet kostyumu pana.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Niechże pani siada.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Chętnie, przychodzę dotrzymać panu towarzystwa. Wychodziłam przed chwilą i spotkałam Żabusię... prosiła mnie, ażeby przyjść i zabawić pana. Co za poczciwe serduszko, jak ona myśli zawsze o panu...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(z dumą)</stage> Och! Żabusia!...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Jak to pan mówisz... no, no! po pięciu latach małżeństwa!... To rzadko spotkać można.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Bo też i Żabusia jest istotą wyjątkową...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(tłumiąc uśmiech)</stage> Zapewne!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Wszyscy to mówią!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Wszyscy!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jak mi Bóg miły, wszyscy!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Wszyscy!</p>
+          </sp>
+          <stage>(Chwila milczenia)</stage>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Co mnie najwięcej w Żabci zachwyca, to jej wielka szczerość i prawdomówność.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Moja żona nigdy nie kłamie!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Nigdy!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nigdy!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>A pan?... kłamiesz pan kiedy?...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(szczerze)</stage> Ja? po co?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Często się kłamie z przyzwyczajenia, z potrzeby, z dobrego serca, z dobrego wychowania... czasem dla... przyjemności.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Och! pani dobrodziejko!...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>A czy pan wiesz, panie Raku, że są kobiety, które całe życie kłamią, zwodzą i oszukują...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A ich mężowie?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(śmiejąc się)</stage> Wierzą!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ci panowie godni są pogardy.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Dlaczego?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Bo mąż nie powinien się dać wywieźć w pole i znać winien dokładnie charakter swojej żony. Jakby Żabusia kiedy, co nie daj Boże, skłamała, zaraz ja, panie tego, jej z oczówbym kłamstwo wyczytał...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Tak pan sądzi?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A jakże.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Z pana taki psycholog?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Tego nie wiem, ale wiem, że jak byłem posesorem, to panie tego, złapię parobka koło spichlerza i mówię: „Zbierałeś ziarno“ on „nie, panie posesorze“. A ja mu tylko w oczy spojrzę i wiem, że bestya łże... <stage>(miarkując się)</stage> Przepraszam panią dobrodziejkę za takie słowo... I co pani powie, zawsze na prawdziwego złodzieja natrafiłem. To samo i teraz w biurze... woźny, nie woźny, każdy prawdę musi powiedzieć a nigdy mnie nikt nie okpi. A cóż dopiero kobieta!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Widzi pan, pomiędzy kłamstwem parobka, albo woźnego a kłamstwem kobiety — to cała przepaść. Kobieta kłamie tak delikatnie i artystycznie, jak pająk umie dzierzgać sieć swoją.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nie! nie!... już mnie tam nikt okłamać nie jest w stanie.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Tem lepiej.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A przytem widzi pani dobrodziejka... kłamstwo to ściąga kłamstwo drugie. Ja nigdy przed Żabusią nie kłamię, więc też i Żabusia przedemną nie kłamie. O! widzi pani dobrodziejka, w tem jest cała filozofia naszego pożycia.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>A ja kłamię.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Daruje pani dobrodziejka, ale w takim razie i mąż pani musi także kłamać.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Jak najęty!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(z szerokim gestem)</stage> A w takim razie, proszę siadać!...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Już siedzę... Ale dajmy temu pokój! Weszliśmy na bardzo śliską ścieżkę! Nam dobrze z naszemi kłamstwami, pan zaś cieszysz się szczerością... Błogosławieni ci, którzy wierzą...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Czy to znaczy, że Żabusia?...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(szybko)</stage> Cóż znowu? Helenka jest najlepsze, najszczersze na świecie stworzenie. Dość na nią spojrzeć, aby wiedzieć, że jest chodzącą prawdą, takie ma jeszcze oczy, takie niewinne, prawdziwie dziecięce spojrzenie.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(uszczęśliwiony)</stage> Prawda?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Ot!... Nabuchodonozor przy niej wydaje się istotą dojrzalszą i przewrotniejszą, niż ona.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(całując rękę Maniewiczowej)</stage> Jaka pani dobrodziejka poczciwa!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Jestem tylko w tej chwili szczera!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A widzi pani... jak to pięknie i miło nie kłamać.</p>
+          </sp>
+          <stage>(Chwila milczenia)</stage>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Nie nudno panu?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Czekam na Żabusię.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Ale ja pytam czy panu nie nudno wogóle, w mieście... pan przyzwyczajony do wsi, do gospodarki... jak się pan mógł zgodzić na zamieszkanie w mieście i na pracę biurową.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Żabusia wsi nie lubi... a potem babcia i dziadzio chcieli, żebym z posesora poszedł do biura. Niby to było w oczach ludzkich lepiej. Mnie tam nieraz jeszcze do wsi ciągnęło i ciężko było w biurową pracę się włożyć, ale teraz to mi już tęsknota za wsią odeszła. <stage>(po chwili)</stage> Przytem bardzo lubię politykę.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>A! to także zajęcie.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Spodziewam się. Codzień chodzę do cukierni na gazety. Wszystkie czytam. Czasem, panie tego, i „Timesa“ całego rznę od deski do deski choć nie umiem po angielsku. Potem w biurze dyskusya... panie tego, umysł się wyrabia, poglądy szerokie... Moje zdanie nawet specyalnie cenią i szanują. <stage>(po chwili)</stage> Nie! ja się nie nudzę.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Nie przeczę, iż polityka to rzecz wysoce zajmująca, ale Żabusia wychodzi często z domu, czy nie czujesz się pan wtedy osamotnionym?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(wskazując dziecko)</stage> Mam Nabuchodonozora.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(z ironiczną kokieteryą)</stage> To dobre dla kobiety... ale mężczyźnie niańczenie dziecka nie wystarcza...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(do siebie z niepokojem)</stage> Czego ona chce odemnie?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Czytałeś pan Baudelaire’a?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nie, pani dobrodziejko!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>To go przeczytaj! Potrafisz wtedy czytać w swem własnem sercu a może i... w sercach innych kobiet.</p>
+          </sp>
+          <stage>(Chwila milczenia)</stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ja zawołam Franciszkę, niech lampę zapali!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Nie trzeba! szara godzina, to godzina marzeń i... pokus.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(na stronie)</stage> Gorąco mi!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Przed chwilą mówiłam panu, że często w życiu mojem... kłamię. Czy sądzisz pan, że jestem szczęśliwą? Nie! tysiąc razy nie... Chcę przed panem uczynić spowiedź...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(przerażony)</stage> Pani dobrodziejko, wstrzymaj się... ja nie mam prawa słuchać twoich zwierzeń, ja lampę każę zapalić...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Są ludzie, którzy budzą mimowoli sympatyę w tych, którzy się do nich mają szczęście zbliżyć... Takim człowiekiem jesteś pan. Ja nie chcę, ażebyś miał jakiekolwiek wątpliwości, co do prawości mojego charakteru, ja...</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#maniewiczowa">MANIEWICZOWA.</rs>
+              <rs key="#bartnicki">BARTNICKI.</rs>
+              <rs key="#marya">MARYA.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(Słychać dzwonek, po chwili widać służącą ze świecą w przedpokoju, otwierającą drzwi i we drzwiach zjawia się Marya)</p>
+          </stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(z radością)</stage> Żabusia!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(na stronie)</stage> Jaka szkoda, bawiłam się tak dobrze!...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(wchodzi do przedpokoju)</stage> To ja zaczekam!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A! to moja siostra.</p>
+          </sp>
+          <stage>(Widać Maryę zdejmującą płaszcz i kalosze)</stage>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Ja uciekam.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dlaczego?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Siostra pana mnie wystrasza.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Mania?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Tak! Mania!... nie lubię dzisiejszych panien, zanadto surowe, poważne i lachons le mot... przesadzone. Mania jest wzorem doskonałości, ale ja, będąca wzorem ułomności, lękam się tego spotkania... et je me sauve! Do widzenia, panie prawdomówny i wierzący człowieku. Pamiętaj pan tylko jedno. Często kłamstwo jest dobrodziejstwem, nie zbrodnią.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nie rozumiem.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Bo pan jesteś mężczyzną... kobieta jedynie taką subtelność zrozumie.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nie każda.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Każda.</p>
+          </sp>
+          <stage>(Marya wchodzi do pokoju, za nią niańka ze świecą)</stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ręczę, że moja siostra należy do tych kobiet, które nie zrozumieją...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Czego?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dobroczynnych skutków kłamstwa...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>A!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jakież twoje zdanie?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Dowiem się innym razem. Muszę wracać do domu. Mąż na mnie czeka.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Spotkałam pani męża w bramie. Wychodził z domu, mówił że idzie do teatru...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(śmiejąc się)</stage> Nie udało mi się kłamstwo.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Po cóż więc pani kłamałaś?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Bo szczerość w tym razie potrąciłaby o złe wychowanie a ja je me pique d’être très correcte. Votre servante. <stage>(Idzie ku drzwiom na lewo)</stage></p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Pani daruje, że ją nie odprowadzam, ale Nabuchodonozor mi przeszkadza.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Daj mi dziecko! <stage>(Bierze dziewczynkę na ręce)</stage></p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Cóż znowu... wyjdę przez kuchnię, znam drogę. Jaka szkoda, że nasz wspólny balkon przedziela krata. Mogłabym wrócić do mego mieszkania przez balkon.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Wyjdź pani frontowemi schodami <stage>(odprowadza ją ze świecą do przedpokoju, idąc mówi)</stage> Daleko pani spotkała Żabusię?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(po chwili wahania)</stage> Prawdziwie nie pamiętam... Zdaję mi się, że na Długiej...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Och! Tak daleko?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Wysiadała z dorożki a zresztą może się pomyliłam, może znów skłamałam... Adieu.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Żegnam panią! <stage>(otwiera drzwi wejściowe)</stage> Cóż to? gaz jeszcze nie zapalony?... poświecę pani. <stage>(Wychodzi ze świecą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#marya">MARYA.</rs>
+              <rs key="#niańka">NIAŃKA.</rs> (później)
+              <rs key="#bartnicki">BARTNICKI.</rs>
+            </p>
+          </stage>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Niańko! weź dziecko i połóż do łóżeczka.</p>
+          </sp>
+          <sp who="#niańka">
+            <speaker>NIAŃKA.</speaker>
+            <p>Kiedy pani zaraz powróci i rozgniewa się, że dziecko już śpi i pani się z niem nie może bawić.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(ostro)</stage> Weź dziecko i połóż je spać.</p>
+          </sp>
+          <sp who="#niańka">
+            <speaker>NIAŃKA.</speaker>
+            <p>Może wpierw lampę zapalić?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie trzeba, ja sama lampę zapalę. Weź Jadzię!</p>
+          </sp>
+          <stage>(Niańka bierze dziecko na ręce i wychodzi)</stage>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(sama stoi chwilę nieporuszona, wreszcie wzrusza ramionami i pociera ręką po czole)</stage> Co zrobić? co zrobić?...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(wchodzi ze świecą)</stage> Poszła nareszcie, co to za dziwna kobieta.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie, mój drogi, to bardzo zwyczajna kobieta.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Co też ty wygadujesz. Słyszałaś sama co ona mówiła... wiecznie kłamie...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie wiem, ale często milczenie jest także kłamstwem.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>To zależy jakie milczenie.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Mówię o patrzeniu przez palce na cudze występki.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A nam co, panie tego, do występków innych. Byle tylko nam szkody nie przyniosły.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Naturalnie. Samolubne „ja“ górą ponad wszystkiem.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dobrze cię w domu nazywali.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Ach! wiem! romantyczką!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Tak i mieli racyę.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Być może!</p>
+          </sp>
+          <stage>(Chwilowe milczenie)</stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Gdzie dziecko?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Kazałam je spać położyć.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dlaczego?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Było senne.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Żabusia jak wróci zechce się dzieckiem bawić.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(ostro)</stage> Kup Żabusi piłkę, lalkę, pajaca, gumową kaczkę do zabawy, ale dzieckiem jej bawić się nie pozwól. Pamiętaj, że zabawkę, gdy się stłucze odkupić możesz... ale dziecka nigdy!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jesteś surową i niesprawiedliwą, Żabusia jest najlepszą matką.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie przeczę. Wasza córka jest zawsze ślicznie ubrana, fotografujecie ją co miesiąc i kazaliście jej zaszczepić ospę. Co więcej włóczycie ją zawsze na spacer we wspaniałym wózku i Żabusia ochrzciła ją Nabuchodonozorem, tak jak ciebie Rakiem. To wszystko jest miłe, ładne, wdzięczne i sympatyczne.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Czego więc chcesz więcej?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(cicho)</stage> Ja? nic nie chcę! Ja milczę!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nie rozumiem cię dzisiaj.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie trzeba ażebyś mnie rozumiał. Jestem dziś zdenerwowana, rozdrażniona... Zapalę lampę...</p>
+          </sp>
+          <stage>(Bartnicki gasi świecę, Marya zapala lampę i pokrywa ją czerwonym abażurem)</stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Moja biedna Maniu... ta praca w tej administracyi wyczerpuje cię i nuży.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Na pracę nie skarżę się nigdy. Wiesz o tem dobrze. Dokuczają mi inne, moralne względy. <stage>(Siada przy pianinie, czerwone światło lampy oświeca ją jaskrawo. Bartnicki siada na fotelu)</stage></p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Wiem, byłaś zawsze dzielną i pracowitą dziewczyną. Na wsi ręce sobie po łokcie urabiałaś, pomagając mi w gospodarstwie.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Lubiłam wieś całą duszą, praca żadna nie była mi zbyt ciężka w Rokatyczach.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Mnie także a przecież pracowaliśmy oboje od świtu do nocy. Pamiętasz ty Rokatycze?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Pamiętam. <stage>(Zaczyna grać)</stage></p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ciężko w mieście pomiędzy murami.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie, ale pomiędzy ludźmi.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ba! ludzie wszędzie jednacy.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nieprawda. Wieś ludzi lepszemi czyni, miasto niszczy, gubi i psuje.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Och! och! znow twoja romantyczna głowa zaczyna pracować. Wszędzie widzisz kłamstwo i zepsucie. I wiesz, Maniu, gdybym cię nie znał nawylot, gdybym cię niemal od dziecka nie chował przy sobie, sądziłbym, że i na ciebie musiało miasto źle oddziałać, skoro tak bardzo żółcią zioniesz na wszystko i na wszystkich. Ktoś mi podrażnił moją Manię, co to do słonka wstawała i śpiewała dzień cały, jak skowronek. A toż, panie tego, obejrzyj się choć i tu u nas a zobaczysz i ład i uczciwość i prawdę naokoło siebie. Wczoraj nagle przy herbacie napadłaś na zepsucie i przewrotność kobiet, żyjących w mieście. Szczęściem, że ci Żabusia w porę przyszła, bo zaraz umilkłaś i już moja żona jedna rozgadała się i popierała twoje argumenta. Ale ani babcia, ani dziadzio nie byli z tego zadowoleni, ho! ho! widziałem ja to z ich oczów.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(grając)</stage> Mało mnie to obchodzi!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(wstając zaczyna chodzić po pokoju z założonemi rękami i mówi jakby do siebie)</stage> Ale mnie obchodzi. Rodzice Żabusi są dla mnie świętością i mam dla nich przywiązanie syna. A co do Żabusi to, panie tego, tak mnie dobrocią swoją popsuła, że prosto modlić mi się chcę nieraz do niej. Ja nigdy sobie nie wyobrażałem, żeby kobieta mogła być takim aniołem...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(zamykając fortepian)</stage> Och!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(chodzi dalej po pokoju)</stage> Jak ona potrafiła mnie przyhołubić, rozpieścić, rozkochać. Mówi mi „Raku“, „Raku“ i po twarzy głaszcze a ja co? ot prosta dusza, posesorskie dziecko i przy niej co? zawsze parobek, choć niby się w mieście jakoś w biurze otarłem i teraz jak nic politykę przeczuć naprzód potrafię <stage>(staje przed siostrą)</stage>. Wiesz, Mańka, strach, jaki mam nieraz żal do ciebie.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Za co?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Bo widzę, że ty dla Żabci nie masz serca a ona dla ciebie taka łaskawa, taka dobra, żeby i siostra ci już taka nie była. Ej, Mańka, Mańka!... myślę, że ty jesteś zła w gruncie, kiedy możesz Żabci nie kochać. <stage>(Marya milcząc kieruje się ku drzwiom przedpokoju)</stage> Gdzie idziesz?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Wracam do siebie.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>O, zaraz dąsy! Widzisz, jaka ty niepoczciwa, ty jedna mi szczęście zatruwasz, bo to raj prawdziwy byłby ten kąt, gdybyś i ty ku Żabci trochę serca miała. A tyle razy cię Żabcia prosiła, żebyś u nas zamieszkała.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Ja? tu? nigdy!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>No dobrze! dobrze! kiedy nie chcesz, mniejsza z tem. Choć mnie serce boli, że ty sama, młoda dziewczyna, komornem gdzieś tam u obcych mieszkasz.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Ja lubię swobodę.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ależ to nie wypada.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(gwałtownie)</stage> Dla mnie wypada to wszystko, co jest w zgodzie z moją moralnością i sumieniem.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Zapewne... ale mnie jako twemu bratu boleśnie to i przykro. <stage>(obejmuje ją i prowadzi na przód sceny)</stage> Wszak my dwoje tylko sobie rodzonych i po śmierci rodziców żyli tak cicho, tak składnie tam w Rokatyczach. Ja cię, Mańka, pracować nauczyłem, ty mi książki po pracy czytała... kalendarz Ungra i inne ładne rzeczy, potem w sąsiedztwo przyjechała Żabusia z rodzicami, ot... zakochałem się odrazu, ślicznota bo była... ty się zaraz boczyć zaczęła. I ciągle się boczysz... A zapomniała ty, jakem cię w chorobie doglądał a potem słabą na rękach do ogrodu wynosił, bo na słońce patrzeć chciałaś, aj! ty kapryśna, ty... zła, zła dziewczyno!</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(całując gorąco brata)</stage> Mój Janku! mój ty biedny! nieszczęśliwy Janku!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Masz tobie, teraz beki i zaraz „biedny, nieszczęśliwy“!... Dlaczego nieszczęśliwy? Przeciwnie, jestem bardzo szczęśliwy i chcę, żeby wszyscy koło mnie byli szczęśliwi. Chodź tu usiądź i powiedz mi. Sprowadzisz się do nas?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Czemu?... czy przez to, że nie lubisz Żabusi?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie! lecz...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Więc powiedz szczerze przyczynę. Jesteś zanadto względem mnie skrytą.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Tak, masz racyę, czyniąc mi za to wymówki. Nie powinnam nic ukrywać przed tobą dłużej. Byłeś mi zawsze dobrym bratem i kochałeś mnie bardzo. Nie mogę sprowadzić się do was, bo zaręczyłam się miesiąc temu.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ty? z kim?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie pytaj mnie na razie. Wiedz tylko, że jest to człowiek młody, dzielny i energiczny. Jest na dorobku tak jak ja i poglądy nasze zgadzają się niemal na wszystkich punktach. Ma jechać na wieś i starać się o jaką posesyę. Wówczas weźmie mnie za żonę.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dlaczego nie powiedziałaś mnie wcześniej zanim przyjęłaś jakieś zobowiązanie. Byłbym się dowiedział coś bliższego o jego charakterze, o jego stosunkach rodzinnych i finansowych.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>W życiu przywykłam radzić się tylko samej siebie.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Przyjęte jest jednak, że rodzina dowiaduje się zwykle kto jest ów narzeczony. Ot, gdy babcia i dziadzio oddawali mi Żabusię, dowiadywali się o moją reputacyę w całej okolicy.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Tak, dowiadywali się czy nie masz długów i nie handlowałeś końmi mającemi szpata. Ale ty czy dowiadywałeś się kim była twoja narzeczona?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Co też ty pleciesz?... panna na wydaniu, to... panna na wydaniu. Rodzice gwarantują...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>A charakter?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Panna, panie tego... nie ma jeszcze żadnego charakteru, później ma taki, jaki jej mąż wyrobi.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Więc charakter Żabusi urobił się pod twoim wpływem?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Sądzę, panie tego, i jestem z tego dumny.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(patrzy na niego chwilę poczem wstaje, wzrusza ramionami i przechodzi do fortepianu)</stage> Ach! ty biedny Raku! <stage>(Stoi oparta o pianino)</stage></p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Powiedz-że mi przynajmniej czy kochasz swego narzeczonego?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(po chwili)</stage> Kocham.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A on?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Kocha.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dzięki Bogu! Będziecie żyli tak jak ja i Żabusia i wszystko będzie w porządku.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie jak ty i Żabusia! Nie. Widzisz ja mam za mało kobiecego wdzięku i uroku, ażeby z mego męża zrobić sobie raka, który będzie siedział z Nabuchodonozorem na ręku pod piecem i czekał aż powrócę ze spaceru. U nas role będą zmienione. Ja będę pod piecem czekać spokojnie a mój mąż będzie spacerował.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Kiedy mnie tak jest dobrze! jak Boga mego kocham. Ja nic więcej nie pragnę, niczego nie żądam.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Tem lepiej, mój bracie, tem lepiej.</p>
+          </sp>
+          <stage>(Dzwonek)</stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(radośnie)</stage> Żabusia!</p>
+          </sp>
+          <stage>(Niańka otwiera drzwi, widać wchodzących Milewskiego i Milewską opakowanych płaszczami)</stage>
+          <sp who="#niańka">
+            <speaker>NIAŃKA.</speaker>
+            <p><stage>(z przedpokoju)</stage> Starsi państwo!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Babcia! Dziadzio! <stage>(Idzie do przedpokoju pomaga im rozebrać się z futer)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#milewski">MILEWSKI.</rs>
+              <rs key="#milewska">MILEWSKA.</rs>
+              <rs key="#marya">MARYA.</rs>
+              <rs key="#bartnicki">BARTNICKI.</rs>
+              <rs key="#franciszka">FRANCISZKA.</rs>
+            </p>
+          </stage>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Żabcia w domu?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Wyszła.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Tem lepiej. Prawda, babciu, sprawimy jej niespodziankę. <stage>(wchodzą do pokoju)</stage></p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Dzień dobry pannie Maryi!</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Dzień dobry.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p><stage>(niosąc doniczki)</stage> Oto są hjacenty i fijołki, które kupiliśmy dla Żabusi. Fiołki parmeńskie wyhodowane w kraju, pachną cudownie. Powąchaj, zięciu... No dobrze! dobrze! nie wtykaj tak nosa, bo kwiaty połamiesz...</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p>Czy jeszcze do herbaty nie nakryte? Mój Boże, Żabcia wróci ze spaceru i herbaty nie zastanie. Franciszko! Franciszko!...</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Chciałem kupić nicejskie, ale zapachu nie miały.</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p><stage>(do Franciszki wchodzącej z lewej)</stage> Dalej! obrus! serwetki! samowar!</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p><stage>(do Bartnickiego)</stage> Cóż w biurze?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nic, wszystko po staremu.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Robota ciężka?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dziadzio żartuje. Cały dzień gada się, panie tego, o polityce.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>To źle, trzeba pracować, cóż z tego... biuro na to jest, na pisanie.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Kiedy niema co pisać.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>To pisz listy do żony... do Żabci, ale pisz, bo się rozpróżniaczysz do reszty. I tak utyłeś, wyglądasz jak radca. Prawda, panno Maryo?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Przeciwnie... ja znajduję, że mój brat zmizerniał...</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Z pani wieczna przekora. Nie to, co nasza Żabcia. Jej powiedzieć czarno, ona zaraz „czarno, dziadziu, czarno“, ja znów biało, ona „biało, dziadziu, biało“. Anioł, nie kobieta, rodzicom się nigdy nie sprzeciwi a panna Marya to zaraz ciur, ciur, ciur, jak mały kogutek <stage>(z umizgiem)</stage>. Taka śliczna panienka i taka sekutnica! <stage>(Marya się odsuwa)</stage> Rozgniewałem panią, przepraszam pokornie, ale proszę darować mnie staremu... Cofam sekutnicę, niech będzie... kapryśnica śliczna kapryśnica... Cóż jeszcze się gniewulki?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(z ironią)</stage> Nie, panie, nie gniewulkam się wcale. <stage>(Odchodzi w głąb)</stage></p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p><stage>(do Bartnickiego)</stage> Tetryczeje... jak Boga kocham, tetryczeje, trzeba zamąż wydać, bo wiesz... stara panna już coś... tego!... Ja się znam na tem!</p>
+          </sp>
+          <stage>(Przechodzi niańka i niesie na tacy filiżanki, Milewski ogląda się na żonę i szczypie niańkę w łokieć)</stage>
+          <sp who="#niańka">
+            <speaker>NIAŃKA.</speaker>
+            <p>O Jezu! co też to starszy pan wyrabia?</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p>Co się stało?</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>O mało nie upuściła filiżanek z ręki. W sam czas jej dopomogłem...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(śmiejąc się do Milewskiego)</stage> Hi! hi! a to dziadzio kłamie...</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Bo muszę! <stage>(głośno)</stage> Wie babcia co? ustawiemy doniczki przed talerzem Żabci i przykryjemy serwetą. Jak wróci będzie miała niespodziankę.</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p>Tak! tak! doskonała myśl.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Czy Franciszka przyniosła dla pani cytrynę?</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>Naturalnie. Jeszcze żebym czego dla pani zapomniała!</p>
+          </sp>
+          <stage>(Wszyscy zbliżają się do stołu i zajmują miejsca)</stage>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Gdzie też ona poszła w taki deszcz, w taką wichurę?</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p>Czy aby wzięła kalosze? Franciszka! Czy pani wzięła kalosze?</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p><stage>(biegnąc do przedpokoju)</stage> Nie, kalosze stoją tutaj.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>A, mój Boże, Żabusia się przeziębi.</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p>To wina Jana. Dlaczego pozwoliłeś jej wyjść bez kaloszy!</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Tak, dlaczego pozwoliłeś wyjść Żabci bez kaloszy?</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>Czemu pan puścił panią przez kaloszy?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nie wiedziałem, jak Boga kocham, nie wiedziałem.</p>
+          </sp>
+          <stage>(Dzwonek)</stage>
+          <sp who="#milewski #milewska #bartnicki #marya #franciszka">
+            <speaker>WSZYSCY.</speaker>
+            <p>Żabusia!</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage type="setting">
+            <p>(Franciszka biegnie, otwiera drzwi wchodowe. Staje w nich Helena w rozpiętym żakiecie. Wpada, rzuca żakiet w przedpokoju. Wchodzi do pokoju. Ma różową bluzkę, aksamitną spódnicę, włosy jasne, rozrzucone. Rzuca kapelusz i parasolkę na ziemię i z głośnym śmiechem rzuca się w objęcia dziadzi, babci i mężowi)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#franciszka">FRANCISZKA.</rs>
+              <rs key="#milewski">MILEWSKI.</rs>
+              <rs key="#milewska">MILEWSKA.</rs>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+              <rs key="#marya">MARYA.</rs>
+              <rs key="#bartnicki">BARTNICKI.</rs>
+            </p>
+          </stage>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p><stage>(biegnie ku drzwiom na lewo)</stage> Niańka! samowar a duchem, pani przyszła!</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p><stage>(całując córkę)</stage> Chwała Bogu, że jesteś nareszcie.</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p>Nie zziębłaś? nie przemoczyłaś nóżek?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie, babciu, nie! No i cóż biedny Raku? nie poszedłeś na gazety? Czekaj, ja ci coś za to przyniosłam. Ukradłam dla ciebie „Figaro”... jak babcię kocham, ściągnęłam z kija i wpakowałam w kieszeń. Nikt nie widział. Masz, czytaj.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Co ta wyprawia!</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p>Siadaj! napijesz się herbaty!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nalej mi babciu i włóż dużo cukru. Dobry wieczór, Maniu!</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(odsuwając ją, półgłosem)</stage> Popraw włosy... zgubiłaś na tym spacerze wszystkie szpilki.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(przez chwilę zmieszana)</stage> A prawda! <stage>(potrząsa głową i rozrzuca włosy)</stage> Tak będzie najlepiej!</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Patrzcie na nią, czysta wiochna!...</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p>Aż jaśniej się zrobiło, kiedy Żabcia wróciła.</p>
+          </sp>
+          <stage>(Sługi krzątają się koło stołu)</stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nabuchodonozor! gdzie jest Nabuchodonozor?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Przynieście dziecko!</p>
+          </sp>
+          <stage>(Niańka wybiega)</stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Kwiaty! jakie cudne! pachną! Dziadzio kupił... już widzę, bo brwi marszczy <stage>(wnoszą Jadzię)</stage>. Dawajcie mi córkę! moje ty... moje ty... złote! srebrne! ukochane! z tysiąca wybrane! Dziadzio też kochany i babcia też a Rak to już taki ulubiony, że na całym świecie niema więcej kochanego Raka. <stage>(Siada na kolanach mężowi, trzymając córkę)</stage></p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A co Żabcia robiła aż na Długiej ulicy?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ja? na Długiej? ja nie byłam na Długiej.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Byłaś.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>A może i byłam, ale nie powiem po co, bo to dla kogoś <stage>(patrzy na dziadzię)</stage> będzie niespodzianka!... A teraz... sza!...<lb />Jechał pan,<lb />Za nim chłop<lb />A za nimi żydóweczki,<lb />Pogubiły patyneczki<lb />Hop! Hop!</p>
+          </sp>
+          <stage>(Milewski i Bartnicki powtarzają chórem piosenkę Żabusi, która podskakuje wraz z dzieckiem na kolanach męża, w głębi sługi zachwycone, na przodzie sceny Marya nieruchoma, oparta o pianino patrzy z ironią na osoby siedzące przy stole)</stage>
+          <trailer>(Zasłona spada)</trailer>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT DRUGI.</head>
+        <stage type="setting">
+          <p>(Ta sama dekoracya co w akcie pierwszym. Na ziemi siedzi Żabusia w różowym szlafroczku i bawi się z małą Jadzią zabawkami. Opodal niańka ceruje pończochy)</p>
+        </stage>
+        <div type="scene" n="7">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+              <rs key="#niańka">NIAŃKA.</rs>
+            </p>
+          </stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(ustawia zabawki)</stage> Tak!... tu będzie dom, tu drzewo, tu żołnierz... a tu po za domem dziedziniec... Ot tak, znów drzewo, płot i dwie owce... no! Nabuchodonozor!... nie przewracaj zabawek, skoro mamusia tak ślicznie ustawia... Niańka! skocz do dziecinnego pokoju i przynieś samowar, co go wczoraj dla dziecka kupiłam... Będziemy nastawiać...</p>
+          </sp>
+          <sp who="#niańka">
+            <speaker>NIAŃKA.</speaker>
+            <p>Jeszcze się panienka poparzy...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Głupia jesteś... to nie panienka, ale my będziemy nastawiać. Nalej w samowar wody, nałóż węgli i przynieś tutaj - a żywo! Rzuć te pończochy... teraz będziemy się bawić.</p>
+          </sp>
+          <sp who="#niańka">
+            <speaker>NIAŃKA.</speaker>
+            <p>Lecę! <stage>(wybiega)</stage></p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(ustawia znów zabawki)</stage> Niech Nabuchodonozor nie rusza, bo dam po łapie... <stage>(spogląda na zegarek)</stage> druga!... O trzeciej Rak przyjdzie z biura i pójdzie z Manią do rejenta... Jadzia!... bo jak babcię kocham dam po łapie, jak będziesz psuła mamusi zabawki... Około wpół do czwartej mogę przyjąć Juliana. <stage>(do córki)</stage> Oddaj drzewo kiedy ci mówię... no!...</p>
+          </sp>
+          <stage>(Krzyczy, dziecko płacze)</stage>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#maniewiczowa">MANIEWICZOWA.</rs>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+              <rs key="#mała_jadzia">MAŁA JADZIA.</rs> (później)
+              <rs key="#niańka">NIAŃKA.</rs>
+            </p>
+          </stage>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(wchodząc przez drzwi balkonowe)</stage> Dzień dobry! cóż to za krzyki?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>To Nabuchodonozor! dałam mu po łapie! szkaradny dzieciak! <stage>(nagle rzuca się na dziecko z wybuchem wielkiej czułości)</stage> Skarby moje! szczęście mamusine!.. wszystko ty moje na świecie!...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Co za temperament.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie temperament, tylko strasznie kocham tego brzdąca... Są matki, które podobno zdaleka swoje dzieci od siebie chowają. Żeby mi kto zabrał Nabuchodonozora, tobym chyba umarła!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>We wszystkim egzaltacya!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie!... jak Bozię kocham, prawdę mówię...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Tak więc bardzo kochasz swoje dziecko?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Także pytanie? jak tu nie kochać takiego Nabuchodonozora? taką pyzatą biedę? no jak tu nie kochać?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Ty i Raka kochasz?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>A jakże... jak nie kochać Raka, kiedy to Rak taki kochany, że już drugiego niema na świecie.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>A Julian?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>E! Julian to Julian a Rak to Rak...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Nie rozumiem tej klasyfikacyi.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Bo ty jesteś inna kobieta... ty wyłącznie kochasz siebie samą i po za sobą nic nie widzisz.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Tak, ty masz dobre serce.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Pewnie, że mam dobre serce.</p>
+          </sp>
+          <stage>(Chwila milczenia)</stage>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Nie gniewasz się, że przeszłam przez balkon?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Gniewać się?... owszem jestem bardzo rada, że kazałyśmy zrobić w kracie furtkę... Nie potrzebujemy wchodzić i schodzić ze schodów. Nie cierpię chodzić po schodach, będziemy mogły częściej się widywać.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Ba! wtedy chyba, skoro ja do ciebie przyjdę. Ty jesteś zawsze zajęta. Jeżeli nie wychodzisz na spacer, to wiecznie masz coś do czynienia w domu.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Spodziewam się! Mąż, dziecko, dwie sługi — całe gospodarstwo na mojej głowie. A obejrzyj się dokoła jaki ład, jak czysto... codzień sama kurz obcieram a spytaj się czy mojemu mężowi albo dziecku co brakuje? Wszystko na czas i obiad i bielizna i froter i rachunek... a jakże!...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Widzę, widzę - jesteś wzorem żon i matek.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ja tak jak babcia. Dziadzio był zawsze z babci kontent.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Ale... czy wiesz, że z dziadzia straszny jeszcze lowelas. Kiedyś prawił mi takie rzeczy i komplementa, że aż rumienić się zaczęłam. Mnie się zdaje, że on jeszcze do kobiet się zaleca.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Co to szkodzi, jeżeli babcia nie wie o tem.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>A więc to głównie chodzi o to, ażeby babcia nie wiedziała.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Spodziewam się. Jeżeli żona nie wie i jest zupełnie szczęśliwa, mąż może robić co mu się podoba.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Mania byłaby innego zdania.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Mania jest głupia sensatka. Pozuje na oryginalność i zdaje się, że jest bocianem, który świat czyści.</p>
+          </sp>
+          <stage>(Wchodzi niańka)</stage>
+          <sp who="#niańka">
+            <speaker>NIAŃKA.</speaker>
+            <p>Proszę pani, jest samowar.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(zrywając się)</stage> Gdzie? pokaż!</p>
+          </sp>
+          <sp who="#niańka">
+            <speaker>NIAŃKA.</speaker>
+            <p>Ostrożnie, bo się pani poparzy.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Co za czad!... wynieście ztąd tą truciznę, nabawi nas bólu głowy!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Szkoda!... chciałam zobaczyć czy się nie zagotuje. Napiłybyśmy się herbaty.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Dziękuję!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Postaw samowarek na ganku i weź Nabuchodonozora. Zostaw zabawki... ja się będę jeszcze bawiła.</p>
+          </sp>
+          <stage>(Niańka z dzieckiem wychodzi)</stage>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Czy ty nigdy nie spoważniejesz?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Po co? czy ja komu tem krzywdę sprawiam a sama tak się dobrze bawię.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Zapewne, innym tem krzywdy nie sprawiasz, ale wyrządzasz złe samej sobie. Jesteś zanadto roztrzepana, możesz się wplątać w jaką brzydką awanturę.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ja? cóż to znaczy! Byleby tylko drudzy na tem nie cierpieli... a ponieważ wszyscy kochają mnie taką, jaką jestem i czują się ze mną szczęśliwi — więc ja zawsze do śmierci będę Żabusią.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Siostra twego męża cię nie kocha!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ach dzięki Bogu, że dochodzi dziś właśnie do pełnoletności, podniesie te sławne tysiąc rubli posagu i pojdzie za mąż. Miła z niej będzie żona! Wyniesie się z miasta i przestanie mnie prześladować swoją osobą.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Widziałaś jej narzeczonego! Musi to być nielada okaz!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Wyobraź sobie, że do tej pory ani ja, ani Rak, nie znamy go wcale. Taka skryta!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Boi się może, ażeby ten pan się w tobie nie zakochał.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Albo w tobie! Zasługiwałaby na nauczkę... Przedstaw sobie, ciągle mi daje do poznania, że się domyśla dużo rzeczy i że ja jestem... niegodziwą kobietą. <stage>(Chodzi po pokoju tam i napowrót, założywszy w tył ręce)</stage> To mnie oburza... bo przecież nikt mi nic nie ma do zarzucenia. Nie postępuję tak jak inne kobiety. Nie kocham się w przyjaciołach mego męża, tylko zawsze w kimś kogo Rak nie zna. W ten sposób nie narażam na śmieszność Raka, bo to zawsze jest mój mąż i nie powinien tracić na powadze.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Zapewne — ale często sama narażasz twego męża na śmieszną sytuacyę. Pamietasz jak kazałaś mu czytać głośno korespondencye prywatne, w których były wiersze na cześć twoją.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>A, to zupełnie co innego... to ja!... Mnie, jego żonie, wolno się śmiać z mego męża, ale nie zniosłabym, gdyby się ktoś obcy z niego wyśmiewał.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>No a ja? wszakże i ja wtedy śmiałam się do rozpuku.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>A ty, to co innego, ty jesteś przyjaciółką jego żony... <stage>(Idzie ku drzwiom balkonowym)</stage> O! idzie szacowna panna Marya! patrz jak ona wygląda! chodząca powaga... jak to idzie po trotuarze jak kaczka.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Uciekam!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Proszę cię zostań! Skoro ty tutaj jesteś, może powstrzyma swój sarkazm i przestanie mi dokuczać. A potem mam ci coś powiedzieć... Ty wiesz jak ja lubię śmieszne sytuacye... <stage>(Wchodzi Marya)</stage> Pst!... cicho!... To dziwne jej obecność zawsze mi rezon odbiera.</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#maniewiczowa">MANIEWICZOWA.</rs>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+              <rs key="#marya">MARYA.</rs>
+            </p>
+          </stage>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Dzień dobry!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(idąc ku niej nieśmiało)</stage> Dzień dobry, Maniu.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Janek nie wrócił jeszcze do domu?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie, za chwilę powróci. Zaczekasz?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Tak. <stage>(Idzie na prawo)</stage> Niech się panie mną nie krępują proszę bardzo!... <stage>(Siada zboku i bierze książkę)</stage></p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(do Żabci)</stage> Wychodzisz dziś po obiedzie?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie wiem... może...<stage>(Obie udają wielką swobodę, ale powoli głosu im obu brakuje i siedzą nie wiedząc co mówić)</stage></p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Byłam wczoraj w teatrze... nowy baryton jest zachwycający.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ach tak, zwłaszcza gdy ma czarną perukę...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Ja go wolę jako blondyna.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ja zaś jako bruneta... <stage>(Pauza)</stage></p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Pójdę jutro kupić sobie wiosenny kapelusz.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ja także...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>A... tak?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Jak Babcię kocham. <stage>(Pauza)</stage></p>
+          </sp>
+          <stage>(Marya podnosi się i nie odrywając oczów od książki wychodzi do pokoju dziecka. Maniewiczowa i Żabusia patrzą na siebie i wybuchają śmiechem)</stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Uważałaś?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Naturalnie. E! mniejsza z tem, co mi to chciałaś powiedzieć?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(przysuwając się)</stage> Ale nie powiesz nikomu?</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Nikomu!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Zaklnij się, że jak nie wiem co, nikomu nie powiesz...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>No, nie nudź... a powiedz!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Wiesz... Julian tu dziś przyjdzie...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Tutaj? wszakże mi mówiłaś, że nie wie kto jesteś...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Naturalnie, że nie wie i w tem cały szyk!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Ale skoro tu przyjdzie, to się dowie.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Właśnie że nie i w tem polega rzecz cała. Dał mi słowo honoru, że nie spojrzy na listę lokatorów i nigdy nie będzie się starał dowiedzieć u kogo był.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>I wierzysz, że on to zrobi?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Wierzę. Najprzód dał słowo honoru a ja słowu honoru mężczyzny wierzę a potem nie masz pojęcia do jakiego stopnia ogłupienia ja go doprowadziłam... Taki rozumny człowiek... bo on jest bardzo rozumny.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Chciałabym go kiedy zobaczyć.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Wiesz... jakby ci go opisać... on jest tak zupełnie w rodzaju ot... Maryi. Poważny, niby taki uczciwy, mądry... Często zupełnie tak samo mówi jak ona... albo jak ona się odezwie... to jakbym jego słyszała...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Jakże więc taki sensat mógł się zakochać w takiej jak ty kobiecie...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Właśnie... tu cała sztuka. Jak go zobaczyłam po raz pierwszy w Botanicznym ogrodzie na ławce, zamyślonego, z papierosem przylepionym do ust, mówię sobie phi! projekt na samobójcę...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(ciągnąc)</stage> A że masz dobre serce.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>A że mam dobre serce...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Dotąd kręciłaś się koło niego z Nabuchodonozorem, aż wydarłaś tą ofiarę szponom śmierci...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(śmiejąc się)</stage> A tak!...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Po co ty go tu sprowadzasz?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Chciałam, żeby zobaczył jak mieszkam!</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Szczególniejsze zachcenie... Ale teraz, uciekam!... bądź zdrowa! gdzież mam klucz od furtki... A za paskiem...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>A ja idę się przebrać.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Po co? wszakże zostajesz w domu?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie mogę przyjąć Juliana w szlafroku.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Dlaczego?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>To nieprzyzwoicie!</p>
+          </sp>
+          <stage>(Maniewiczowa wychodzi przez drzwi balkonu, Żabusia wybiega do swego pokoju)</stage>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#marya">MARYA.</rs> (później)
+              <rs key="#bartnicki">BARTNICKI.</rs>
+            </p>
+          </stage>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(wychodzi z pokoju dziecinnego)</stage> Nareszcie poszły... można będzie odetchnąć swobodniej. Och!... jak mi jakoś dziwnie, głowa mnie boli... Wstałam od rana jakaś nieswoja. Jakie życie jest smutne, och!... jakie smutne...</p>
+          </sp>
+          <stage>(Dzwonek. Przez scenę przebiega niańka i idzie otworzyć, Marya idzie ku stolikowi i układa książki)</stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A!... jesteś już siostruniu? Nie mogłem wcześniej uwolnić się z biura. Sądzę, żeś na mnie nie czekała.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Chwilkę tylko... Byłam u dziecka.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Gdzie Żabusia? dlaczego nie poszłaś do Żabusi?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Towarzystwo małej Jadzi jest przyjemniejsze...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jadzia mówić nawet nie umie.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Właśnie dlatego.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Czy jesteś dzisiaj znów w złym humorze?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie. Tylko jestem smutna.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Czy ci się co przytrafiło?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Więc o co ci chodzi?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>O nic!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A twój ślub? kiedyż nareszcie zdecydujesz się na to małżeństwo. Czasby już największy... przedstaw że mi twego narzeczonego.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(po chwili wahania)</stage> Być może, że to nastąpi niezadługo.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Niezadługo... niezadługo... Takie długie a sekretne przed rodziną narzeczeństwo, to sensu nie ma. Sama Żabcia mówiła, że to nieprzyzwoicie.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>A... skoro Żabcia tak mówiła...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ona się zna na tem i wie co wypada a co nie wypada. Przyznam ci się, że ani ona, ani ja nie mamy ochoty, aby źle o nas mówiono...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Jakto źle z mego powodu?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Z twego. Przyśpiesz twój ślub i niech się to raz skończy...</p>
+          </sp>
+          <stage>(Marya milczy chwilę, wreszcie wybucha płaczem)</stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(chwytając ją ztyłu za ramiona)</stage> Maniu!... Maryś!... co tobie?... czy ten twój narzeczony skręcił kominka? powiedz a jak Boga kocham wyzwę i rozpłatam na ćwierci...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(hamując się)</stage> Nic mi nie jest... to chwilowe dziecinne wzruszenie... Już przeszło. Chodźmy do rejenta.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Chodźmy. Tylko się z Żabcią pożegnamy. Pieniędzy twoich lokować nie trzeba. Skoro idziesz za mąż, będą ci potrzebne na wyprawę. Prawda?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Zapewne.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(nagle)</stage> Dlaczego ty masz tak mało do mnie zaufania? masz jakieś zmartwienie, ja to widzę... no przypuszczam, że mnie nie chcesz powiedzieć, ale Żabusi możesz. Kobiety łatwiej się porozumieją. Chcesz, zebym zawołał Żabci?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(stanowczo)</stage> Nie!... tysiąc razy nie.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Niechże i tak będzie. Skoro taka jesteś skryta to będziesz... to bądź sobie, panie tego... skryta...</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#marya">MARYA.</rs>
+              <rs key="#bartnicki">BARTNICKI.</rs>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+            </p>
+          </stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(w różowej sukience)</stage> Jesteście jeszcze w domu? myślałam że już wyszliście oddawna.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Któraż to, panie tego, godzina?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Trzecia.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Uf!... spóźnimy się... Mańka... Chodźmy... gdzie mój kapelusz?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Czekaj zatracony Raku, niech ci krawat poprawię. Wychodzisz na ulicę jak obdartus. Wstyd tylko Żabusi robisz... Tak a teraz pocałować Żabcię...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(całując ją)</stage> Sto razy, nie raz.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(do Maryi)</stage> Pocałować Żabcię!</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(usuwając się)</stage> Wezmę książki i zmienię w czytelni. Od trzech tygodni widzę „Krwawą trucicielkę” Boisgobeya... Czy mam wziąć ciąg dalszy tej wielce zajmującej powieści?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie, zresztą, nie bierz książek do zmiany. Ja ich i tak nie czytam.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Po co abonujesz?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Albo ja wiem... dla zwyczaju... Zresztą ja mam kuryerek... to mi wystarcza.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Chodźmy! chodźmy! Bądź zdrowa, Żabusiu.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Do widzenia, Raku. <stage>(Całuje serdecznie męża)</stage></p>
+          </sp>
+          <stage>(Marya i Bartnicki wychodzą)</stage>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+            </p>
+          </stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(sama biegnie do drzwi balkonowych)</stage> Wychodzą z bramy!... Przechodzą ulicą!... Rak się ogląda!... pa! pa! Biedny Rak! o potknął się... może stłukł sobie nogę... nie! nic mu nie jest... oddycham!... <stage>(biegnie do lustra)</stage> Zaraz Julian przyjdzie... chciałabym, żeby mu się u nas podobało. Ja się na tem nie znam, ale zdaje mi się, że tu jest bardzo ładnie... O wachlarz się przekrzywił <stage>(poprawia wachlarz)</stage>, pójdę na balkon ażeby pilnować przyjścia Juliana. Nie trzeba ażeby dzwonił i sługi go widziały. Choć niańka z Nabuchodonozorem poszła do babci... <stage>(patrzy przez okno balkonowe)</stage> Niema go... Może nie przyjdzie... Kto to wie. Przystał na to przyjście z taką niechęcią... Bogiem a prawdą zaczyna mnie już nudzić. Skoro na niego spojrzę zaraz mi się Mania przypomina. <stage>(patrzy na ulicę)</stage> Idzie!... jak babcię kocham!... widzi mnie! Tu! tu! o! potknął się! byleby się tylko nie uderzył, albo sobie nogi nie zwichnął. Nie - oddycham. Wchodzi do bramy... pędzę do przedpokoju!... <stage>(Biegnie do przedpokoju, po chwili wprowadza Juliana)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+              <rs key="#julian">JULIAN.</rs>
+            </p>
+          </stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Tutaj... proszę do salonu.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>A... to salon?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Tak ubraliśmy go po japońsku, to jest, ja ubrałam, bo mój mąż się do niczego nie wtrąca. <stage>(Chwila milczenia. Stoją oboje zakłopotani. Żabusia nagle)</stage> Siadaj.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>Dziękuję!...</p>
+          </sp>
+          <stage>(Chwila milczenia)</stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Tu jest salon a tu jest pokój Nabuchodonozora a tu pokój Raka a tu jadalnia a tam kuchnia a tu balkon.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p><stage>(ironicznie)</stage> A na górze strych a na dole piwnica.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Proszę nie być ironicznym... zaraz Mania mi się kłania.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>Ciągle słyszę o tej Mani, cóż to za Mania?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>To nikt.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>A, nikt?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nikt. <stage>(Chwila milczenia)</stage> Ładnie tutaj?</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>Bardzo ładnie.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Tu zawsze Rak w tym fotelu czyta swoje gazety a te fiołki to mi babcia i dziadzio przynieśli tydzień temu wieczorem... kiedy wróciłam do domu po widzeniu się z Tobą.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>Aha!... <stage>(Chwila milczenia)</stage>.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>To fotografia... to Nabuchodonozor jak miał osiem miesięcy.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>Widzę.</p>
+          </sp>
+          <stage>(Chwila milczenia)</stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ładnie tu?</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>Ładnie.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>E! bo może tak mówisz, żeby mi zrobić przyjemność.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>Nie, daję słowo... ładnie.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>A tu na balkonie mam kwiaty — o! śliczne oleandry... <stage>(zbliża się do okna, Żabusia odskakuje i odciąga Juliana)</stage> Schowaj się!</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>Co się stało?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Mój mąż!...</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>Masz tobie!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Uciekaj...</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>Którędy?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Przez kuchnię... <stage>(dzwonek)</stage> Zapóźno!... na balkon!... <stage>(Wypycha go na balkon, do pokoju wchodzi Bartnicki i Marya)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+              <rs key="#bartnicki">BARTNICKI.</rs>
+              <rs key="#marya">MARYA.</rs> (na balkonie)
+              <rs key="#julian">JULIAN.</rs>
+            </p>
+          </stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Wyobraź sobie Żabciu spóźniliśmy się, nie zastaliśmy rejenta.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(tajemniczo)</stage> Ach! moi drodzy! co za szczęście, żeście powrócili.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dla czego?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(patrząc na balkon)</stage> Ktoś jest na balkonie.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Tst... nie oglądajcie się! To cała historya! patrzcie jak się cała trzęsę... prawda? to ze strachu.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Cóż to? złodziej? trzeba posłać po policyę!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Złodziej? to gorzej niż złodziej... Wyobraźcie sobie, że tego pana przez furtkę balkonową, wepchnęła na nasz balkon Maniewiczowa.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dlaczego?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Jakto dlaczego? to...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A!...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Tak!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(dusząc się ze śmiechu)</stage> Jak Boga kocham!... a to biedny Maniewicz!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Teraz chodzi o to, żeby Maniewiczową z biedy wyciągnąć. Trzeba tego pana koniecznie ztąd wyprowadzić. Tymczasem zdaje mi się, że Maniewicz się czegoś domyśla i czatuje na jego wyjście, w której sąsiedniej bramie. Mój złoty, brylantowy, jedyny Raku... wyprowadź ty go z domu. Skoro z nim będziesz szedł, Maniewicz pomyśli, że to twój znajomy i nie będzie go napastował...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(do brata)</stage> Spodziewam się, że do tego ręki nie przyłożysz...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Dlaczego?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(gwałtownie)</stage> Bo żona oszukująca męża jest istotą godną pogardy i powinna zasłużoną ponieść karę...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ja sama także potępiam tego rodzaju kobiety... Maniewiczowa jednak jest dla mnie bardzo uprzejmą, dobrą i nie mam prawa odmówić jej pomocy w tak ważnej chwili. Trzeba ratować kobietę.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(z nagłą determinacyą)</stage> Tak panie tego!... trzeba ratować kobietę!... <stage>(Idzie ku drzwiom balkonowym. Marya odwraca się plecami, tak że nie widzi w pierwszej chwili Juliana. Bartnicki, otwierając drzwi)</stage> Proszę pana!... <stage>(Julian wychodzi i staje na progu zmieszany i niezdecydowany. Bartnicki prezentując się)</stage> Jestem Bartnicki!... żona moja mi, panie tego, wszystko powiedziała... chodźmy... przeprowadzę pana...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Pan Maniewicz, który was podejrzewał stoi prawdopodobnie na dole i czeka na pańskie wyjście. Mój mąż jest tak dobry, że chce pana przeprowadzić... niby swojego znajomego... który był u nas z wizytą... rozumie pan?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Zechciej mnie pan wziąć pod ramię i chodźmy, jak dwaj przyjaciele...</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>Doprawdy... nie wiem czy powinienem...</p>
+          </sp>
+          <stage>(Na głos Juliana, Marya odwraca się szybko)</stage>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>O!</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>JULIAN.</speaker>
+            <p>To pani?...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Znacie się?</p>
+          </sp>
+          <stage>(Chwila milczenia)</stage>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(z wysiłkiem)</stage> Nie... ja nie znam tego pana.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Chodźmy! tylko z fantazyą, mój młody panie! Idziesz zemną... więc ja ręczę, że ci się nic złego nie stanie.</p>
+          </sp>
+          <stage>(Wychodzą Bartnicki i Julian)</stage>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+              <rs key="#marya">MARYA.</rs> (później)
+              <rs key="#franciszka">FRANCISZKA.</rs>
+            </p>
+          </stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(przy oknie)</stage> Wychodzą z bramy!... jak babcię kocham, wychodzą!</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(na przodzie sceny)</stage> On!... on!...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(biegnąc do kuchni)</stage> Franciszko!... Franciszko!</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>Słucham pani!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Idź do pani Maniewiczowej i powiedz pani, że ja natychmiast przyjdę... niech pani na mnie czeka.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p><stage>(przerywa)</stage> Kiedy proszę pani — pani Maniewiczowa już z pół godziny jak wyszła z mężem na miasto.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(zmieszana)</stage> Dobrze!... odejdź.</p>
+          </sp>
+          <stage>(Franciszka wychodzi)</stage>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(zrywa się i rzuca się ku Żabusi)</stage> Jezus Marya!... Jezus Marya!...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Maniu, co ci się stało?...</p>
+          </sp>
+          <stage>(Skacze na kanapę zwijając się w kłębek)</stage>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(W szalonym gniewie chwytając ją za ręce)</stage>. A nikczemnico!... to twój kochanek!... nie tamtej!... nie tamtej!...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Puść mnie!...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Ach ty nikczemna!... zabiłaś mnie!...<stage>(Pada zemdlona na ziemię. Żabusia pozostaje nieruchoma, klęcząc na kanapie z oczyma utkwionemi w leżącą Maryę)</stage></p>
+          </sp>
+          <trailer>(Zasłona spada)</trailer>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT TRZECI.</head>
+        <stage type="setting">
+          <p>(Ta sama dekoracya co w akcie pierwszym i drugim. Za podniesieniem zasłony w drzwiach przedpokoju stoi Niańka gotowa do wyjścia, owinięta chustką, trzymająca na ręku małą Jadzię, ubraną w płaszczyk i kapturek. Obok stoi Żabusia i poprawia na dziecku ubranie)</p>
+        </stage>
+        <div type="scene" n="16">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#żabusia">ŻABUSIA.</rs> 
+              <rs key="#niańka">NIAŃKA.</rs>
+              <rs key="#mała_jadzia">MAŁA JADZIA.</rs>
+            </p>
+          </stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Niech niańka nadstawi łapę. Tu jest czterdzieści groszy tam i czterdzieści groszy z powrotem na dorożkę. A tu za dwadzieścia groszy kup Jadzi karmelków a sobie tam za dziesięć groszy czego.</p>
+          </sp>
+          <sp who="#niańka">
+            <speaker>NIAŃKA.</speaker>
+            <p>Dobrze proszę pani.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Panience się kłaniaj i nie siedźcie długo. Wracajcie przed wieczorem.</p>
+          </sp>
+          <sp who="#niańka">
+            <speaker>NIAŃKA.</speaker>
+            <p>Rozumiem, proszę pani.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>A z dorożki nie wyleć... i trzymaj dobrze Nabuchodonozora, żeby nie wyleciał...</p>
+          </sp>
+          <sp who="#niańka">
+            <speaker>NIAŃKA.</speaker>
+            <p>Dobrze proszę pani.</p>
+          </sp>
+          <stage>(Żabusia całuje córkę)</stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>No wynoście się swoim kosztem i wracajcie prędko... <stage>(Woła do przedpokoju)</stage> A zasłoń dziecko woalką, bo się opali... <stage>(Biegnie do okna balkonowego)</stage> Żeby tylko zaraz znalazła dorożkę... Może lepiej było posłać kucharkę po jednokonkę... Stoją na trotuarze... Mój Nabuchodonozor!... moje śliczności, moja księżniczka. <stage>(Wysuwa się na balkon, ale zostawia drzwi szeroko otwarte)</stage> pa!... córeczko!... pa!... widzi mnie...</p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#bartnicki">BARTNICKI.</rs>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+            </p>
+          </stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(idzie ku balkonowi. Jest schylony, trochę zmieniony i smutny)</stage> Żabuś!... gdzież ona?... a na balkonie.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Patrz Raku... Nabuchodonozor dryndą jedzie!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jak Boga kocham prawda! <stage>(Przesyłają dziecku pocałunki i wracają na scenę)</stage> Posłałaś dziecko do Mani?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Tak!... mówiłeś mi, że prosiła cię, aby Jadzia dziś po obiedzie do niej przyjechała.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Właśnie wracam od Mani. Czeka na dziecko!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Jakże się dziś czuje?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(macha ręką)</stage> Nieszczególnie. Osłabiona bardzo, ledwo się na nogach trzyma.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ale już w łóżku nie leży?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nie.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Co mówi doktor?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Że powrót do zdrowia będzie bardzo długi... trzeba ją wysłać na wieś, albo w góry.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(szybko)</stage> Tak!... tak!... najlepiej będzie, skoro wyjedzie z Warszawy. <stage>(Po chwili)</stage> Czy to prawda, że jej włosy obcięli.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Spodziewam się... zapalenie mózgu... jakże chcesz!... <stage>(Z nagłym wybuchem)</stage> A, biedna moja Mańka... taka zmieniona! taka zmarnowana! Ci co ją w tą chorobę wtrącili, ciężki mi za nią rachunek oddadzą.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(zmieszana)</stage> Ależ mój drogi... Choroba Mani przyszła sama... bez niczyjej winy... zapewne zadużo czytała. Ja zawsze mówię, że kobieta nie powinna być zamądra. Te wszystkie książki, ta cała literatura, teraz Mani zrobiły to, że jej wszystkie włosy wyszły.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>To nie książki Żabciu... to ludzie!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(niespokojna ramionami wzrusza)</stage> A ja ci mówię, że książki.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A ja ci mówię, co wiem napewno.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Co wiesz napewno?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>To, że moja biedna siostra jest nieszczęśliwą przez dwoje nikczemnych ludzi, którzy jej życie zatruli.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>A!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Tak!... tak!... ty tego nawet zrozumieć nie możesz, bo ty jesteś dobre i poczciwe dziecko, ty nie wiesz nawet, jakiego rodzaju nikczemne, panie tego, kobiety chodzą po Bożym świecie. <stage>(zrywa się)</stage> I pomyśleć, że to ja, panie tego, ratowałem tych dwoje szubrawców i wyprowadzałem tego pana z bramy pod rękę.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(kurcząc się instynktownie)</stage> Cóż ma twoja siostra do całej historyi Maniewiczowej z tym panem?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Co ma? co ma?... A wiesz ty, kto jest ten błazen, którego nam twoja pani Maniewicz na balkon wyrzuciła?... To narzeczony Mani...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>O!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Tak, ten narzeczony, którego nam miała wreszcie przedstawić i który miał się z nią ożenić!... I ta wymalowana nikczemnica romansowała z nim tymczasem, sprowadzała go do swego domu, odbierała go Mani, mojej Mani, takiej Mani!...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(cicho)</stage> Od kogo się o tem dowiedziałeś? od Mani?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Od niej? taka skryta, że w gorączce nawet jeszcze liczy się ze słowami. Jakeśmy ją ztąd wtedy z ziemi podnieśli i nieprzytomną do domu zawieźli... to tylko powtarzała ciągle „zabili mnie! zabili mnie”... No i tak było ciągle - zresztą wiesz o tem dobrze. Już ci to mówiłem... Doktór mówi, że to może tyfus... a drugie a trzecie, nawet ty dlatego do niej chodzić nie chciałaś, ale ja to wiesz, tak chłopskim rozumem powiadam sobie - to nie tyfus panie tego, co mi tak je moją dziewczynę... to zgryzota!... I skoro już tak było źle, że ot! ot!... śmierć była za progiem, ja panię myślę... gdzie ten narzeczony? dlaczego o nim ani widu, ani słychu... może on mi wyratuje dziewczynę... bo go strasznie kochała. Więc zacząłem przewracać jej papiery, myślę, może się ślad jaki znajdzie kto, gdzie ten pan... znajduje listy... czytam panie tego, rozumne, mądre, pół rozumiem, pół nie... ot zrozumiałem tyle, że ją nazywał ciągle kobietą wyższą!... patrzę... fotografia! do lampy z nią pod światło... mrowie mnie przeszło, poznałem tą gębę... to ten sam, com go z balkonu zabrał i pod rękę z bramy sprowadził, krew mi zbiegła do serca... zrozumiałem wszystko. Mańka tu była wtedy, dowiedziała się, że ten błazen ją zdradzał i tak sobie to wzięła do serca, że aż zachorowała. A nawet... czekaj!... pamiętasz, jak on wyszedł z tego balkonu to oboje spojrzeli się na siebie i pogłupieli!... pamiętasz?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie pamiętam!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Bo też i ty wtedy byłaś taka wystraszona i zmieszana, że i o ciebie się bałem... I to wszystko przez tę przeklętą!... Dam ja jej romanse!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Cicho!... nie krzycz!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dlaczego nie mam krzyczeć!... będę krzyczeć!... niech jej mąż posłyszy... Co ona sobie myśli? że ja pozwolę dla ocalenia jej sytuacyi, tak panie tego, moją siostrę krzywdzić...</p>
+          </sp>
+          <stage>(Żabusia idzie ku drzwiom balkonowym i zamyka je)</stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A tą furtkę co kazała sobie w kracie dorobić, żeby tu co chwila przyłazić, każę zamknąć od dziś na taki panie tego rygiel, że go żaden ślusarz ani kochanek nie odśrubują... <stage>(Po chwili spokojniej)</stage> Czy wiesz Żabciu, że ja u niego byłem.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(szybko)</stage> Byłeś po co?...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jakto po co. Żeby go panie tego nauczyć rozumu i obić panie tego za jego łajdactwo... Adresu domacałem się i dopytałem u tych ludzi, u których Mańka mieszkała, bo syn ich nieraz do niego z listem biegał.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(wahająco)</stage> I... widziałeś go?...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nie, bo szelma uciekł!... jak ostatni tchórz... wyjechał!...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(z uczuciem ulgi)</stage> Wyjechał.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ale ja go dogonię!... Rozpytywałem tam o niego w kamienicy, stróża... chciałem wiedzieć mniej więcej coś o nim... i wiesz? ta Maniewiczowa musiała dobrze pieniędzmi sypać, bo o niej stróż ani dudu... a tylko o jakiejś innej, blondynce... o małej... <stage>(nagle)</stage> Żabcia, czy ty czasem do niego nie chodziła?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(przerażona)</stage> Ja?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ty, bo ty masz takie poczciwe serduszko, żeś gotowa dla oddania komuś usługi Bóg wie co, zrobić... Mogła cię Maniewiczowa posłać z jaką karteczką, albo z ustnem poleceniem. Powiedz mi, chodziłaś? lepiej się przyznaj.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie Raku, nie chodziłam!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jak mnie kochasz?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Jak cię kocham!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ale pewnie nieraz Maniewiczowa prosiła cię o to?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Prosiła... ale ja nie chciałam.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Oddycham!... Która to godzina? Siódma! Dlaczego ten dziadzio nie przychodzi.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>A po co ci dziadzi?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Muszę się z nim naradzić, co zrobić z tym błaznem i jak go odnaleźć.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>To dziadzio wie?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Spodziewam się, że wie!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(zrywając się)</stage> Po co? po co? jeszcze babci powie!</p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#bartnicki">BARTNICKI.</rs>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+              <rs key="#maniewiczowa">MANIEWICZOWA.</rs> (przez drzwi balkonu)
+            </p>
+          </stage>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(za drzwiami stuka)</stage> Czy wolno?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ona? proszę cię, mój Raku, odejdź... ja sama ją przyjmę...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nie!... to ja panie tego ją przyjmę... oddawna chciałem się z nią spotkać, ale ty zawsze przeszkodziłaś...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Raku!... ja nie chcę!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(idzie ku drzwiom balkonowym)</stage> Pozwól, to do mnie należy...<stage>(Otwiera drzwi, ale nie wpuszcza do pokoju Maniewiczowej)</stage></p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p><stage>(wesoło)</stage> Cóż to zamknęliście się, przed kim? przedemną?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Zamykamy te drzwi odkąd nieszczęście nimi weszło pani dobrodziejko.</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Nieszczęście? przez balkon?...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Tak... a że my swój spokój cenimy bardzo... więc panie tego... choć mi to bardzo boleśnie, ale uprzedzam panią dobrodziejkę, że te drzwi będą zawsze zamknięte...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Co panu jest, panie Raku?... czy zaczynasz cierpieć na zawroty głowy?...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(z hamowanym gniewem)</stage> Moja główna choroba — to uczciwość! i to choroba całego mojego domu... całej mojej rodziny! Ja chcę, żeby próg mojego domu nie był splamiony nigdy nogą szubrawców a taka żona, panie tego, co kochanków do domu podczas nieobecności męża wpuszcza... to jest... panie tego... ja już wiem co ona jest!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Raku, proszę cię!...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Co to wszystko znaczy?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Niech pani przede mną nie udaje i oczów nie mruży, bo ja choć, panie tego, narazie na prośby Żabusi panią wyratowałem... ale kpić z siebie nie dam. A o Żabcię mi także chodzi. To dobre, niewinne i czyste dziecko. Pani mi ją możesz popsuć a już dosyć nieszczęścia na ten dom spadło... Dlatego pani daruję.. ale.. <stage>(z gestem)</stage> Kłaniam. <stage>(Wychodzi trzaskając drzwiami)</stage></p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Co się dzieje?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(szybko)</stage> Nic! nic! nieporozumienie... zlituj się nade mną... nie przychodź tutaj... ja to naprawię wszystko jakoś... Zresztą już tak zrobię, że się ztąd wyprowadzimy! moja droga! moja droga daruj to wszystko! ale... ja ci powiedzieć nie mogę, bo ty byś się na mnie gniewała...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Czyś ty czasem jakiegoś swojego wybryku na mnie nie spędziła?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ja? cóż znowu! jak babcię kocham nie! Tylko Rak zrobił się taki podejrzliwy... i to wszystko przez tę Manię... to ona go tak zbuntowała...</p>
+          </sp>
+          <sp who="#maniewiczowa">
+            <speaker>MANIEWICZOWA.</speaker>
+            <p>Przyznam ci się, że robicie na mnie wszyscy wrażenie szpitala waryatów i twój mąż nie potrzebuje mi drzwi zamykać, aby mi odebrać ochotę przychodzenia do was przez czas dłuższy... Żegnam cię, moja droga... i pamiętaj co ci powiedziałam. Strzeż się wplątać w jakąś awanturę... twój spryt i twoja przebiegłość nie na wiele ci się wtedy przydadzą. Nerwy wezmą górę i... zgubią cię!... bądź zdrowa!... <stage>(Wychodzi przez balkon i znika)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+            </p>
+          </stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(sama. Ściemnia się)</stage> I... zgubią cię!... o!... zdaje mi się nagle, że nie mam dachu nad głową... Zimno!... to był jej narzeczony!... <stage>(nagle)</stage> Jezus Marya!... jeżeli ona to wszystko Rakowi powie!... co ja zrobię!... co ja zrobię!... <stage>(po chwili)</stage> Dlaczego ta niańka nie wraca? jeszcze mała się zaziębi. Nie mogłam odmówić żądaniu Mani i nie posłać do niej dziecka. Boję się teraz sprzeciwić jej w czemkolwiek... Ze strachu głowę tracę. <stage>(Wychodzi do swego pokoju)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#milewski">MILEWSKI.</rs>
+              <rs key="#franciszka">FRANCISZKA.</rs> (później)
+              <rs key="#bartnicki">BARTNICKI.</rs>
+            </p>
+          </stage>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>Niech starszy pan pozwoli! ja zaraz pana zawołam.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Rozdarłem sobie palto.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>A czegóż to starszy pan przez kuchnię przyszedł?</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Żeby ciebie zobaczyć.</p>
+          </sp>
+          <sp who="#franciszka">
+            <speaker>FRANCISZKA.</speaker>
+            <p>Ojej, także zachcenie. <stage>(Idzie do Bartnickiego i woła)</stage> Proszę pana, starszy pan już przyszedł. <stage>(Idzie do kuchni)</stage></p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A!... nareszcie... wie dziadzio... ten szubrawiec wyjechał.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>A cóż miał innego do zrobienia. Zawsze w takich razach mężczyzna wyjeżdża.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ale ja go odnajdę. Dziadzio mi dopomoże.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>A czego ty właściwie chcesz od niego?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Chcę mu uszy obciąć!</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>W takim razie nie spiesz się zbytecznie. Ja myślałem, że ty masz inne plany.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jakie?</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Ja myślałem, że ty chcesz wpłynąć na tego pana i na twoją siostrę... zgodnie i dodatnio.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jakto? niby żeby Mańka przebaczyła?</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Aha.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>I poszła za niego?</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Naturalnie. Skoro go kocha i ponieważ to już było ułożone...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(krzycząc)</stage> Ale dziadzio zapomniał, że on ją zdradził!</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>O!... zaraz zdradził, zdradził. Mężczyzna nie zdradza, tylko... się zapomina. A zresztą można Mani wytłómaczyć, że się pomyliła, że to wszystko nie prawda!... W kobietę wszystko można wmówić!... Ona tylko na to czeka.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Inna kobieta — nie Mańka.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Głupi jesteś... Niema innych kobiet... są tylko kobiety.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Mańka nie przebaczy.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Przebaczy! Gadanie!... A zresztą cóż znowu tak strasznego?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jakto co strasznego? Był zaręczony i miał kochankę!</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Wielka historya!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dla mnie wielka historya.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Bo ty, oprócz Żabusi już innej kobiety na świecie nie widzisz... Nic dziwnego - bo też takiej Żabusi na świecie nie znajdziesz. Ale też panna Mania... to nie Żabusia. Daruj mój drogi, ale twoja siostra to czysty pastor w spódnicy. Cóż dziwnego, że młody chłopiec tego... ten...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dziadzio go uniewinnia.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Spodziewam się. Wszystko zależy od usposobienia. Ty masz takie usposobienie a ktoś inne. Cóż ja winien naprzykład, że mnie ciągle coś za babami ciągnie... Czy to moja wina, że nie umiałem się kochać tylko w babci całe życie? Ha!... A czy przez to babcię mniej kocham? co? nie. A czy może babcia nie jest szczęśliwa? bo nic nie wie... O! w tem cała filozofia... trzeba ażeby i ona nic nie wiedziała. Zdradzać można tylko tak, ażeby to na wierzch nigdy nie wyszło. Jak nie wyjdzie to i wilk syty i owca cała.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>E!... prawda jak oliwa na wierzch wypływa.</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>A ot u mnie nie wypływa... Dwadzieścia sześć lat... i babcia przysięgłaby, że jestem wzorem mężów. Trzeba umieć dobrze łgać. O!... tu cała sztuka!... i nigdy się nie przyznać. Co do mnie, jestem przekonany, że Mania przebaczy i że będziemy jeszcze na weselu. Gdzie Żabcia? chcę się z nią pożegnać i chodźmy do cukierni. Pogadamy jeszcze po drodze... Zamiast obcinania uszów, kup lepiej obrączki...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nigdy!...</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Głupi jesteś. Wierz staremu... ja wiem co jest żyć!... chodź!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Żabusia!...</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>SCENA VI.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#milewski">MILEWSKI.</rs>
+              <rs key="#bartnicki">BARTNICKI.</rs>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+            </p>
+          </stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Wołasz mnie Raku?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Tak, wychodziemy z dziadziem...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Dobry wieczór dziadziowi!... <stage>(Całuje ojca)</stage></p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Co ci to Żabciu? masz oczęta czerwone? płakałaś?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>To nic, głowa mnie boli.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Zmartwiłaś się, że wyrzuciłem za drzwi Maniewiczową? Ale jak Boga kocham inaczej postąpić nie mogłem.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie, to mi wszystko jedno... tylko niespokojna jestem... niańka z dzieckiem nie wraca.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Nic im się nie stanie. Mania musiała im zrobić czekoladę i bawi się z Nabuchodonozorem... Nie widziała dziecka blizko od miesiąca... Niech się z nią nacieszy.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Wolałabym żeby już Jadzia była w domu. <stage>(Idzie ku drzwiom balkonowym, nachyla się i patrzy na ulicę)</stage></p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p><stage>(patrzy na nią)</stage> Cacko!... nie dlatego, że moja córka, ale... cacko!... To nie żadna sztuka, że jej nie zdradzasz. Babcia także mnie nie zdradzała, nawet jej to przez myśl nie przeszło. Żabcia wdała się we mnie jak dwie krople wody... przypomina mnie zupełnie i z charakteru i z wyglądu... <stage>(do Bartnickiego)</stage> Więc przepędziłeś tę Maniewiczowę?</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ajakże... bez pardonu!...</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Miałeś racyę. Co nam, mężczyznom wolno, to kobietom zasię... Kobieta powinna być jak kryształ... o! jak Żabcia!... Już my ją z babcią na pokusy uzbroili... Ta ma zasady! Możesz być spokojny.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Spodziewam się. <stage>(do żony)</stage> Dowidzenia Żabciu, może ci przynieść antipiryny?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie Raku!... dziękuję... <stage>(Dławiąc się łzami, uwiesza u męża na szyi)</stage> Ja ciebie bardzo kocham, Raku!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Moje ty Żabstwo brylantowe!</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Przyjdziemy wieczorem z babcią... zagramy w loteryjkę...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Przyjdźcie!...<stage>(Odprowadza ich do przedpokoju)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <head>SCENA VII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+            </p>
+          </stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(Sama. Ściemniło się zupełnie. Żabusia idzie do okna balkonowego i patrzy)</stage> Nie widać ich!... Boże, jakbym chciała, ażeby dziecko już było w domu! <stage>(Wzrusza ramionami)</stage> Głupia jestem, nieraz przecież Jadzia wracała jeszcze później od Babci i nic się jej złego nie stało... Może deszcz pada? nie! nie! sucho i ładnie... <stage>(wraca na przód sceny)</stage> Ciemno już... zapalę lampę, nie będzie tak smutno! <stage>(Zapala lampę i znów idzie do okna)</stage> Jakaś dorożka, nie... jedzie dalej!... <stage>(bije ósma)</stage> Jóż ósma!... zapalają gaz. <stage>(Nagle jakby ją coś za serce chwyciło)</stage> O!... żeby tylko Mania milczała!... żeby ona tylko nic Rakowi nie powiedziała... zaraz mnie dreszcze, przejmują, kiedy o tem myślę... Boję się... zawołam Franciszkę i zrobię z nią rachunek... będzie mi weselej... zajmę się czem... O!... <stage>(Pociera ręką po czole i idzie do kuchni i woła)</stage> Franciszko! Franciszko!... <stage>(milczenie)</stage> Niema jej!... wyszła i zostawiła drzwi otwarte!... zaczekam! <stage>(owija się szalem i siada w kąciku)</stage> Jak mnie głowa boli!... <stage>(zamyka oczy, chwilowa pauza)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <head>SCENA VIII.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+              <rs key="#marya">MARYA.</rs>
+            </p>
+          </stage>
+          <stage type="setting">
+            <p>(Przez drzwi otwarte wchodzi Marya, ubrana czarno, w pelerynce zarzuconej na ramiona. Na głowie ma czepeczek wiązany pod brodę i kryjący zupełnie jej głowę bez włosów. Jest bardzo zmieniona. Wszedłszy zamyka za sobą drzwi kuchenne i staje naprzeciw Żabusi oświetlona lampą, podczas gdy Żabusia jest w cieniu)</p>
+          </stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(otwiera oczy, dostrzega Maryę i krzyczy)</stage> To ty!</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Ja!...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Gdzie Jadzia?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>U mnie!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Chora?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Zdrowa...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Dlaczego jej nie przywiozłaś?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Bo twoja córka już do tego domu nie wróci.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie wróci?... Jadzia?...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Tak!... nie krzycz!... krzykiem nic nie naprawisz. Pamiętaj, że i ty i twoje dziecko jesteście moralnie w mojem ręku. Lepiej milcz i słuchaj co ci mówić będę. To obrachunek pomiędzy nami a ta chwila przyjść nareszcie musiała. Powinnaś była na to się przygotować...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(łkając)</stage> Czego ty chcesze odemnie?... czego ty chcesz odemnie?... <stage>(chowając się za fotel)</stage> Nie zrób mi nic złego!</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie lękaj się... nie uczynię ci żadnej fizycznej krzywdy...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Ja nie jestem winna, to on!...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(z ironią)</stage> To samo i on mi napisał... ja nie jestem winien - to ona!... para zbrodniarzy, rzucająca na siebie wzajemnie odpowiedzialność za spełnioną zbrodnię... Nawet z godnością swej podłości nosić nie umiecie!...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Oddaj mi moje dziecko!</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie zasługujesz na to!... Wiedziałam oddawna, że jesteś występną. Przeczuwałam to instynktem kochającej siostry; mnie twe słodkie minki nie zwiodły, twa święta naiwność, twój wdzięk i pieszczoty nie budziły we mnie zaufania. Od dziecka boję się kotów i takich jak ty pieszczotek! Ile razy wracałaś ze schadzki z rozrzuconemi włosami i płonącemi oczyma i chwytałaś w swe objęcia dziecko, całowałaś swego męża, rodziców - ja usuwałam się od ciebie i drżałam ze wstrętu. Robiłaś na mnie wrażenie gadziny, podczas kiedy inni, ci oszukiwani, nazywali cię wiochną i promieniem słońca!... <stage>(po chwili)</stage> Wszystko to jednak były moje domysły, moje przeczucia... na nich nie mogłam oprzeć swego oskarżenia. Los jednak zrządził, że kochankiem twoim został... mój narzeczony!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(szybko)</stage> Ja nie wiedziałam... gdybym wiedziała, przysięgam ci...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Postąpiłabyś tak samo!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nigdy!... Skoro tylko byłby znajomy i bywał w domu... to przecież... nie... ja taka zła nie jestem!...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Chwilami patrząc na ciebie czuję, że mnie przytomność opuszcza. Ty masz cały odrębny kodeks moralności, który sobie stworzyłaś i wysnułaś z twego ptasiego mózgu. I według tego kodeksu, ty i tobie podobne oplątujecie rozum i serca ludzi, kłamstwem cukrowem osładzacie waszą nikczemność! I świat oczarowany waszym wdziękiem stawia dla was kapliczki uwielbienia, zamiast powlec was na pręgież i ochłostać rózgą pogardy i nienawiści!...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(zakrywając twarz)</stage> Ja taka zła nie jestem!</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie, ty nawet jesteś bardzo dobra, bardzo poczciwa Żabusia! Ty kochasz wszystkich i męża i dziecko i kochanka. Ty pogodzić wszystko potrafisz... i obowiązki żony i matki i... kochanki!...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Czego więc chcesz odemnie?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Czego ja chcę? Chcę, żeby to życie kłamstwa i nikczemności, w którem przebywa mój brat i jego dziecko skończyło się z dniem dzisiejszym! Nie sądź, że przezemnie przemawia znieważona w swych uczuciach narzeczona! Nie — narzeczonego mojego rzucam ci na pastwę, możesz się z nim połączyć, jeżeli zechcesz, ale brata mojego oszukiwać ci nadal nie pozwolę. W chwili, gdy Julian ukazał się w tych drzwiach — serce moje zamarło, bo miałam dowód jego zdrady względem mnie. Zapanowałam jednak nad bólem moim i powiedziałam, że nie znam tego człowieka. W kilka chwil później w skutek twej własnej nieostrożności, poznałam całą ohydę twojej zdrady względem mego brata. Wtedy... siły mnie opuściły, przeraziłam się stojąc wreszcie wobec twej zbrodni. Ogrom twego kłamstwa był dla mnie uderzeniem piorunu... <stage>(cicho)</stage> O mało nie umarłam. <stage>(Chwila milczenia)</stage> Jak ja go przecież chroniłam od zetknięcia się z tobą!... Nie mam wiele doświadczenia, bo skąd go mieć mogę? ale mam instynkt, który mi mówił: „skoro się tych dwoje pozna, kłamać będą wspólnie”. A przecież Julian nie jest przeciętnym człowiekiem. Każda inna kobieta w jego powadze, w jego inteligencyi byłaby widziała dostateczną ilość odpornej siły przeciwko pokusom takiej jak ty istoty. Ale ja widząc jak obmotałaś w swe sieci najuczciwszego człowieka, jakim jest mój brat, lękałam się, że podziałasz w ten spośób i na Juliana. Chłopski mój rozum mówił mi, że w mężczyźnie ani uczciwość, ani inteligencya nie mają nic wspólnego z tem, co wy, Żabusie nazywacie szałem, czy namiętnością. Nie zawiodłam się, bo choć nie wprowadziłam pod wasz dach Juliana, potrafiłaś jednak znaleźć go i połączyć się z nim na moje nieszczęście... <stage>(nagle)</stage> Powiedz mi przynajmniej, dlaczego ty to uczyniłaś?</p>
+          </sp>
+          <stage>(Żabusia milczy)</stage>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Dlaczego?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(cicho)</stage> Ja... nie wiem...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Czy kochałaś go przynajmniej.</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie wiem.</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Otóż to właśnie! nie wiem, to jedyna twoja wymówka... ty... nieodpowiedzialna, niepoczytalna lalko bez mózgu, ze zbyt dobrem sercem!... Z tem słodkiem słowem nie wiem, popełniasz występek za występkiem i całe twoje władze umysłowe wytężasz w jednym tylko kierunku. Okłamać tak wszystkich, aby ci wszyscy czuli się zadowoleni. I tryumfujesz kochana, ubóstwiana, stawiana później za wzór swoim własnym dzieciom, skoro te dorosną. A jedyną cnotą twoją, jedyną zasługą jest to, żeś zręcznie i bez zająknienia kłamać umiała. <stage>(Po chwili)</stage> Ale dość o tem, to co się stało nie wróci. Powtarzam ci raz jeszcze, możesz się połączyć ze swoim kochankiem... Ja wam nie będę stać na drodze. <stage>(Podnosząc ton i silniej)</stage> Trzeba jednak, ażebyś zrozumiała czego chcę od ciebie! Mój brat dłużej z tobą żyć nie może... nie będzie... zrozumiałaś mnie?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(blednąc ze wzruszenia)</stage> Rak... ze mną?... dlaczego?...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Bo ja na to pozwolić nie mogę!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Powiesz mu?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie, to ty mu sama powiesz!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(z płaczem)</stage> Ja?... nigdy!...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>A jednak powiesz... skoro zrozumiesz o co idzie. Mąż twój bezwarunkowo dowie się o wszystkiem. Jeżeli ty mu sama nie powiesz, ja go o wszystkiem uwiadomię, gdyż milczeć dłużej sumienie moje mi zabrania. Mówiąc jednak, że jedyną twoją zaletą jest „kłamstwo” pomyliłam się. Zapomniałam bowiem, że tak jak wiele kobiet takich jak ty, kochasz bardzo swe dziecko... prawda?</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Kocham!</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Tak, można być żoną występną, lecz zarazem wzorową matką!... To zdaje się niemożliwe a jednak jest tak - nie inaczej. Rozstając się z mężem, musisz także rozłączyć się z dzieckiem...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(z krzykiem prawdziwego bólu)</stage> Nie!... nie!... zostawcie mi dziecko!... ja sobie ztąd pójdę, tylko zostawcie mi dziecko!...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Dziecko może zostać przy tobie... tylko...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(na kolanach)</stage> Co chcesz wszystko zrobię, tylko niech moja mała przy mnie zostanie! Ja ci straszną wyrządziłam krzywdę, to rozumiem! mówisz, że ukrzywdziłam także mego męża... może masz racyę, ale ja nie wiem, że ja mu krzywdę zrobiłam! Ja mam już taką naturę... ja nie mogę się kochać zawsze w jednym i tym samym człowieku, ale ja tak zawsze postępowałam, że Rakowi się żadna krzywda nie działa! Ale... ty mówisz, że ja powinnam się z nim rozejść... dobrze!... ja się z nim rozejdę, tylko mi dziecka nie zabierajcie! tylko mi moją Jadzię zostawcie!... ja już będę inna! ja się poprawię! ja... się... poprawię!...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Wstań!... mam litość nad tobą, nad twem uczuciem matki. I choć sumienie moje nakazuje mi również i dziecko z rąk twych wydrzeć, jednak nie chcę pozbawiać cię wszystkiego w życiu. Zostawię ci dziecko a raczej wymogę na moim bracie, że ci dziecko zostawi. Ja jednak czuwać nad wami będę. Skoro dojrzę, iż jad kłamstwa zaczynasz sączyć w duszę swej córki, odbiorę ci ją natychmiast. Jeżeli jednak chcesz ażeby się to stało, musisz sama wszystko powiedzieć mężowi. Tą chwilą szczerości zmażesz poczęści wszystkie dawne kłamstwa twoje i przekonasz mnie, że i ty prawdę powiedzieć umiesz...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(nerwowo podniecona jak w gorączce)</stage> I dziecko mi oddasz?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Oddam!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Jak Bóg na niebie?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Jak prawda na ziemi! <stage>(Dzwonek)</stage> Jeżeli to twój mąż — wiesz co masz uczynić...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(prawie nieprzytomna)</stage> Wiem... wiem... wszystko mu powiem, bo ty mu powiesz jeżeli ja... mu... nie zechcę powiedzieć... ja znam ciebie... <stage>(Biegnie ku drzwiom przedpokoju otwiera drzwi wchodowe)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <head>SCENA IX.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#marya">MARYA.</rs>
+              <rs key="#bartnicki">BARTNICKI.</rs>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+            </p>
+          </stage>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(całą tą scenę gra jak w gorączce)</stage> Dobrze żeś przyszedł... usiądź!... albo nie!... ja ci muszę coś powiedzieć Raku!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Co się stało?... ty cała się trzęsiesz jak w febrze... a!... Mania tutaj?... co to wszystko znaczy?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Twoja żona chce ci powiedzieć... <stage>(Usuwa się na bok)</stage></p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Tak mam ci powiedzieć... to jest muszę ci powiedzieć... każą mi powiedzieć, że... ja... miałam kochanka...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jezus Marya!... ona ma gorączkę...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(wyrzucając ze siebie słowa jak w gorączce)</stage> Nie... nie... ja wiem dobrze co mówię... Ja miałam kochanka... poznałam się z nim w Botanicznym ogrodzie... schodziłam się z nim często... <stage>(z krzykiem)</stage> Raku... ty się na mnie nie gniewaj — bo ja i ciebie także kochałam! <stage>(Do Maryi)</stage> Oddaj mi teraz dziecko!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(cofa się z oczyma szeroko rozwartemi)</stage> Żabcia!... Żabcia!... co się z tobą dzieje? a toż mówisz takie herezye, że mi tchu brakuje jak cię słyszę... Sfiksowałaś? Mańka, co jej się stało? powiedz ty jej, że nawet przez usta poczciwej kobiety nie powinny przejść takie głupie słowa... Słyszałaś Mańka, co żona mówiła? <stage>(Mańka milczy. Żabusia padła przy kanapie. Bartnicki uczuwając zaniepokojenie)</stage> Dlaczego ty jesteś taka blada Mańka i dlaczego ty nie śmiejesz się z jej bzika?... Dlaczego ty się tak dziwnie patrzysz na mnie? Przemów co, powiedz, że... <stage>(Po chwili nagle przyskakując do Żabci)</stage> Matko Boża... może ona prawdę powiedziała?... Słuchaj Żabciu... powtórz raz jeszcze to coś mówiła...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Och! Raku!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(chwytając jej głowę i sunąc rękami po jej twarzy)</stage> Ty płaczesz? ty naprawdę płaczesz, nie udajesz? Mańka także naprawdę jest blada... Wy nie kłamiecie? to prawda?... O!... o!... co będzie teraz? co będzie teraz?... <stage>(Pada na krzesło, po chwili łkając)</stage> Dlaczegoście mi o tem powiedziały? tacy byliśmy szczęśliwi...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie mogliście dłużej żyć w ciągłem kłamstwie i wzajemnem oszukiwaniu się.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(płacząc)</stage> Kiedy nam z tem dobrze było! A teraz co? Ruina... pogorzelisko... Nie mam domu, nie mam żony... nie mam nic... <stage>(do Żabusi gwałtownie)</stage> Dlaczegoś to zrobiła? po co? odpowiedz!</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p>Nie wiem!</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p><stage>(chodząc po pokoju i drąc włosy rozpaczliwie)</stage> Co teraz zrobię?... gdzie pójdę!... dla mnie już niema nic na świecie... zabiję tamtego... ale co mi z tego przyjdzie... nie wróci mój dom... nie wróci Żabcia... <stage>(Z głośnym jękiem padając na krzesło)</stage> O!... niechby to już było... tylko czemuście wy mnie wszystko powiedziały? Było wszystko... a teraz niema nic! nic!... Mnie serce pęknie... Jaki ja biedny!...</p>
+          </sp>
+          <stage>(Długa chwila milczenia, słychać tylko płacz Żabusi i Bartnickiego)</stage>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(zrywa się i wchodzi pomiędzy nich)</stage> Dosyć! nie płacz Janku! czyż ty nie widzisz, że ona kłamie... że to jej zwykłe figle... <stage>(Do Żabusi ostro i cicho)</stage> Dalej... skłam żeś skłamała, każę ci... nadto wielka ruina... kłam dalej, dalej... tak potrzeba dla jego szczęścia... przyszlę wam dziecko... kłam, każę ci!...</p>
+          </sp>
+          <stage>(Żabusia z krzykiem radości rzuca się do kolan męża)</stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Idź precz!... idź precz! nie znam cię! muszę cię nie znać!</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Kiedy to był żart... ułożona farsa... graliśmy ją wszyscy... nudno było... chciałam, chciałyśmy się zabawić...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(nieśmiało powtarzając)</stage> Nudno było... chciałyśmy się zabawić...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jakże to się zabawić?... to zabawa? kiedy ja płaczę?...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Nie myślałam, że potrafisz tylko płakać i gdybym była wiedziała...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>To co? to co? no! gadajcie, czego się mam trzymać, bo oszaleć przyjdzie... Prawda czy nieprawda? niech wiem... bo toć łeb człowieka nie wytrzyma czegoś podobnego. Kiedyżeście kłamały! przedtem... czy teraz? No gadaj, Żabusia... Spójrz mi w oczy... albo nie - ty, nie... to Mańka niech powie... czy ona kłamała kiedy mówiła, że zna tego... jakiegoś z Botanicznego ogrodu i że go kocha?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(szybko i żywo)</stage> O!... przysiądz ci mogę na wszystko, że kłamała wtedy, kiedy mówiła, że go kocha.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>No! jeżeli ty przysięgasz... <stage>(Po chwili z wybuchem serdecznej radości)</stage> A to baby!... a to mnie wzięły na fis!... a to komedyantki!... niechże was kaczki zdepczą... jak Boga mego kocham, jak Boga kocham! I rozbeczałem się głupiec, jak jaka baba... A bo się naokoło mnie wszystko walić zaczęło i zdawało mi się, że mnie ktoś żywcem w trumnę wpakował... A to szkaradne zbytnice, jak to mnie zmaniły!... No, że Żabcia ma szusa, to dawno wiadomo i nieraz mi już figla wypłatała... choćby wtedy jakeś list do mnie napisała, że żyć ze mną nie możesz a samaś w szafie siedziała... ale żeby Mańka się dała do tego namówić, to jak Boga mojego kocham... no!... no!... trzeba już żeby ta Żabcia wszystkich na swoje kopyto przerobiła... No... no... <stage>(Wstaje chodzi po pokoju zaciera ręce i śmieje się hałaśliwie)</stage> A jak to sama beczała! o! Raku! Raku!... ja się z nim poznałam w Botanicznym ogrodzie. Komedyantka! jakby była na scenie, to niczem Modrzejewska!... Jak mi ty tak wygrywać będziesz! to cię jeszcze do komedyantów oddam... ty... ty... Żabo kochana. <stage>(Siada przy żonie całuje ją i pieści)</stage> A jak to czasem człowiek nagle rozum straci... A toż żebym się był zastanowił na chwilę, to byłbym zrozumiał, że to komedya, bo gdzież Żabciaby się takiej hańby dopuścić mogła... Moja Żabcia! nasza Żabcia. To ta Mańka winna, że się dałem obałamucić, bo to panna prawdomówna, nigdy niby nie kłamie, więc mnie jakby obuchem w łeb... uwierzyłem... Ej wy baby! komedyantki!... a jak to gładko kłamią!... Jezu miłosierny!... <stage>(Chwila milczenia)</stage> Cóż obie nic nie mówicie? Takie jesteście kontente, że wam się udało i żeście mnie zwiodły? Tylko niech to będzie raz ostatni, bo jak Boga kocham mogło się stać nieszczęście. Ja byłbym się wypłakał a potem się do ciebie wziął... ty... Żaba... to byłyby z ciebie kosteczki nie pozostały... Tylko mnie to cieszy, że Mańka widać do zdrowia wróciła, skoro jej się żarty trzymają... A to jak Boga kocham koncepta... a to koncepta... Ale dzięki Bogu, że Mańka w figle się bawi. To dobry znak, widać zdrowie wraca... dzięki Bogu... dzięki Bogu... <stage>(Całuje siostrę i garnie ją do siebie — drugą ręką tuli Żabusię. Dzwonek)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="25">
+          <head>SCENA X.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#marya">MARYA.</rs>
+              <rs key="#bartnicki">BARTNICKI.</rs>
+              <rs key="#żabusia">ŻABUSIA.</rs>
+              <rs key="#franciszka">FRANCISZKA.</rs>
+              <rs key="#milewski">MILEWSKI.</rs>
+              <rs key="#milewska">MILEWSKA.</rs>
+              <rs key="#niańka">NIAŃKA.</rs>
+              <rs key="#mała_jadzia">MAŁA JADZIA.</rs>
+            </p>
+          </stage>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p><stage>(na przedzie sceny do siebie)</stage> Nie mogłam inaczej uczynić!</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p><stage>(wchodząc)</stage> Czy jest tu panna Marya? wstąpiłam do pani i nie zastawszy jej, przywiozłam z sobą Jadzię...</p>
+          </sp>
+          <sp who="#żabusia">
+            <speaker>ŻABUSIA.</speaker>
+            <p><stage>(rzuca się do dziecka)</stage> Moje dzidzi!... moje maleństwo!...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Ostrożnie, udusisz jeszcze dziecko!</p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Przyniosłem nowe szkiełka do loteryjki i pudełko angielskich cukierków takich, jakie Żabcia lubi.</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p>Zagramy zaraz w loteryjkę... a potem wypijemy herbatę...</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>A ja wam opowiem, jakiego mi dziś figla pani Żabcia wypłatała...</p>
+          </sp>
+          <sp who="#milewska">
+            <speaker>MILEWSKA.</speaker>
+            <p>Figla!... aj ty!... ty... pieszczotko... ty zawsze myślisz, czem mężowi radość sprawić.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Kiedy to nie był przyjemny figielek... przeciwnie, aż mi serce się tłucze jak nietoperz...</p>
+          </sp>
+          <stage>(Starzy przygotowują stół, rozkładają tabliczki, sypią szkiełka. Marya gotuje się do wyjścia.)</stage>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Jakto, Maniu, odchodzisz?</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Tak.</p>
+          </sp>
+          <sp who="#bartnicki">
+            <speaker>BARTNICKI.</speaker>
+            <p>Dokąd?... Zostań... widzisz jak u nas wesoło...</p>
+          </sp>
+          <sp who="#marya">
+            <speaker>MARYA.</speaker>
+            <p>Pójdę się nauczyć kłamać! — to i mnie będzie wesoło. <stage>(Wychodzi)</stage></p>
+          </sp>
+          <sp who="#milewski">
+            <speaker>MILEWSKI.</speaker>
+            <p>Do loteryjki! do loteryjki!</p>
+          </sp>
+          <trailer>(Zasłona zapada)</trailer>
+          <trailer>(KONIEC)</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

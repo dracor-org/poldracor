@@ -1,0 +1,2707 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000038" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Niespodzianka</title>
+        <title type="sub">Prawdziwe zdarzenie w czterech aktach</title>
+        <author>
+          <idno type="isni">0000000108838316</idno>
+          <idno type="wikidata">Q6373041</idno>
+          <persName>
+            <forename>Karol Hubert</forename>
+            <surname>Rostworowski</surname>
+          </persName>
+        </author>
+        <!-- Karol Hubert Rostworowski (1877–1938) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/niespodzianka-prawdziwe-zdarzenie-w-4-ech-aktach,ODk3ODE5OTQ/8</idno>
+          <title>Rostworowski, K.H., Niespodzianka: prawdziwe zdarzenie w czterech aktach, Kraków 1929</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="abramek" sex="MALE">
+            <persName>Abramek</persName>
+          </person>
+          <person xml:id="antek" sex="MALE">
+            <persName>Antek</persName>
+          </person>
+          <person xml:id="chór">
+            <persName>Chór</persName>
+          </person>
+          <person xml:id="felek" sex="MALE">
+            <persName>Felek</persName>
+          </person>
+          <person xml:id="feluś" sex="MALE">
+            <persName>Feluś</persName>
+          </person>
+          <person xml:id="franek" sex="MALE">
+            <persName>Franek</persName>
+          </person>
+          <person xml:id="jasiek" sex="MALE">
+            <persName>Jasiek</persName>
+          </person>
+          <person xml:id="jędrek" sex="MALE">
+            <persName>Jędrek</persName>
+          </person>
+          <person xml:id="kasperek" sex="MALE">
+            <persName>Kasperek</persName>
+          </person>
+          <person xml:id="kubuś" sex="MALE">
+            <persName>Kubuś</persName>
+          </person>
+          <person xml:id="ludzie_wsiowi">
+            <persName>Ludzie wsiowi</persName>
+          </person>
+          <person xml:id="matka" sex="FEMALE">
+            <persName>Matka</persName>
+          </person>
+          <person xml:id="ojciec" sex="MALE">
+            <persName>Ojciec</persName>
+          </person>
+          <person xml:id="ryfka" sex="FEMALE">
+            <persName>Ryfka</persName>
+          </person>
+          <person xml:id="stary_chłop" sex="MALE">
+            <persName>Stary chłop</persName>
+          </person>
+          <person xml:id="staszek" sex="MALE">
+            <persName>Staszek</persName>
+          </person>
+          <person xml:id="zośka" sex="FEMALE">
+            <persName>Zośka</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-09-23">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1929">
+        <desc />
+      </event>
+      <event type="premiere" when="1929-02-23">
+        <desc>Po raz pierwszy wystawiono w Krakowie dnia 23 lutego 1929 r.</desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/pol000038" passive="http://www.wikidata.org/entity/Q26390945"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <byline>
+            <docAuthor>KAROL HUBERT ROSTWOROWSKI</docAuthor>
+          </byline><lb />
+          <docTitle>
+            <titlePart type="main">NIESPODZIANKA</titlePart>
+            <titlePart type="sub">Prawdziwe zdarzenie<lb />w 4-ech aktach</titlePart>
+          </docTitle><lb />
+          <docImprint>
+              <pubPlace>KRAKÓW</pubPlace> <date>1929</date><lb />
+              NAKŁADEM KSIĘGARNI <name>S. A. KRZYŻANOWSKIEGO</name><lb />
+              Odbito w Drukarni Narodowej w Krakowie<lb />
+          </docImprint>
+        </titlePage>
+        <div type="appendix">
+          <p><salute>
+            <p>MOJEMU BRATU I PRZYJACIELOWI XAWEREMU PUSŁOWSKIEMU</p>
+          </salute>
+          POŚWIĘCAM.</p>
+        </div><lb />
+        <castList>
+          <head>PO RAZ PIERWSZY WYSTAWIONO W KRAKOWIE DNIA 23 LUTEGO 1929 R. W NASTĘPUJĄCEJ OBSADZIE RÓL:</head>
+          <castItem>
+            <role corresp="#ojciec">OJCIEC,</role>
+            <roleDesc>lat 53</roleDesc>
+            <actor>Józef Sosnowski</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#matka">MATKA,</role>
+            <roleDesc>lat 47</roleDesc>
+            <actor>Helena Hałacińska</actor>
+          </castItem>
+          <castGroup>
+            <head>ich dzieci</head>
+            <castItem>
+              <role corresp="#antek">ANTEK,</role>
+              <roleDesc>lat 28</roleDesc>
+            </castItem>
+            <castItem>
+              <role corresp="#franek">FRANEK,</role>
+              <roleDesc>lat 23</roleDesc>
+              <actor>Bronisław Dąbrowski</actor>
+            </castItem>
+            <castItem>
+              <role corresp="#zośka">ZOŚKA,</role>
+              <roleDesc>lat 13</roleDesc>
+              <actor>Marja Bednarska</actor>
+            </castItem>
+          </castGroup>
+          <castItem>
+            <role corresp="#abramek">ABRAMEK,</role>
+            <roleDesc>lat 48</roleDesc>
+            <actor>Józef Łubiakowski</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#ryfka">RYFKA,</role>
+            <roleDesc>jego żona</roleDesc>
+            <actor>H. Zelwerowiczówna</actor>
+          </castItem>
+          <castGroup>
+            <head>parobczaki</head>
+            <castItem>
+              <role corresp="#felek">FELEK</role>
+              <roleDesc/>
+              <actor>Stefan Turski</actor>
+            </castItem>
+            <castItem>
+              <role corresp="#jędrek">JĘDREK</role>
+              <roleDesc/>
+              <actor>Stanisław Kwaskowski</actor>
+            </castItem>
+            <castItem>
+              <role corresp="#staszek">STASZEK</role>
+              <roleDesc/>
+              <actor>Władysław Kaczmarski</actor>
+            </castItem>
+            <castItem>
+              <role corresp="#jasiek">JASIEK</role>
+              <roleDesc/>
+              <actor>Tadeusz Burnatowicz</actor>
+            </castItem>
+            <castItem>
+              <role corresp="#kubuś">KUBUŚ</role>
+              <roleDesc/>
+              <actor>Jerzy Klimaszewski</actor>
+            </castItem>
+            <castItem>
+              <role corresp="#kasperek">KASPEREK</role>
+              <roleDesc/>
+              <actor>Ryszard Kierczyński</actor>
+            </castItem>
+          </castGroup>
+          <castItem>
+            <role corresp="#stary_chłop">STARY CHŁOP</role>
+            <roleDesc/>
+            <actor>Zbigniew Ziembiński</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#stary_chłop">PODRÓŻNY</role>
+            <roleDesc/>
+            <actor>Zbigniew Ziembiński</actor>
+          </castItem>
+          <castItem>
+            <role corresp="#ludzie_wsiowi">LUDZIE WSIOWI</role>
+            <roleDesc/>
+          </castItem>
+        </castList>
+        <note>Reżyser: <name>JÓZEF SOSNOWSKI</name></note>
+        <div type="appendix">
+          <p>DO PUBLICZNOŚCI.<lb />
+          „RZECZ”, KTÓRĄ PAŃSTWO ZOBACZYCIE,<lb />
+          UŁOŻYŁO ŻYWE ŻYCIE,<lb />
+          TEN DRAMATURG, CO SIĘ NIZKO<lb />
+          SCHYLA NAD KAŻDĄ KOŁYSKĄ,<lb />
+          CO SUMIENNIE TOWARZYSZY<lb />
+          DZIENNEJ WRZAWIE, NOCNEJ CISZY,<lb />
+          I CO IDZIE RAZEM Z NAMI,<lb />
+          CZYŚMY SAMI, CZY NIE SAMI;<lb />
+          CZYŚMY MĄDRZY, CZYŚMY GŁUPI,<lb />
+          CZY NAS KUPI, CZY NIE KUPI, –<lb />
+          A SCHODZI OSTATNI Z POLA,<lb />
+          KĘDY DOLA I NIEDOLA<lb />
+          W MNIEJSZEJ LUB WIĘKSZEJ PARADZIE<lb />
+          TAKSAMO SIĘ DO SNU KŁADZIE.<lb />
+          DZISIAJ ZAJRZAŁ... NIE DO CHATY!<lb />
+          BO TEN, KOMU DOMEM ŚWIATY,<lb />
+          NIE WIDZI ZBYTNIEJ RÓŻNICY<lb />
+          MIĘDZY IZBĄ KOMORNICY<lb />
+          A TAKĄ OLBRZYMIĄ SALĄ,<lb />
+          GDZIE SIĘ LAMP TYSIĄCE PALĄ<lb />
+          I MYŚLĄ, ŻE BIJE ŁUNA<lb />
+          OD BIEGUNA DO BIEGUNA.<lb />
+          ON ZAJRZAŁ DO WŁASNEJ KUŹNI.<lb />
+          W NIEJ KOWALI NIE ROZRÓŻNI,<lb />
+          CHOĆBY DŁUGO KRĘCIŁ SZYJĄ!<lb />
+          WSZYSTKIE SERCA JAK MŁOT BIJĄ,<lb />
+          WSZYSTKIE PIERSI JAK MIECH DYSZĄ,<lb />
+          WSZYSTKIE GŁOWY SIĘ KOŁYSZĄ<lb />
+          W GÓRĘ, NA DÓŁ, W LEWO, W PRAWO<lb />
+          NAD TĄ ROBOCIZNĄ KRWAWĄ,<lb />
+          CO NAM OGNIEM W ŻYŁACH PŁYNIE – –<lb />
+          WIĘC ZECHCIEJCIE W TEJ GODZINIE<lb />
+          ZAPOMNIEĆ O WSI, O MIEŚCIE,<lb />
+          A MYŚLAMI SIĘ PRZENIEŚCIE<lb />
+          W TAJEMNICZĄ GŁĄB CZŁOWIEKA,<lb />
+          CO RÓŻNIE SIĘ PRZYOBLEKA,<lb />
+          LECZ, POMIMO TYCH RÓŻNOŚCI,<lb />
+          JEST CZŁOWIEKIEM Z KRWI i KOŚCI.</p>
+        </div>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>Pierwsza odsłona</head>
+        <stage type="setting">
+          <p>(IZBA W DOMU SZYWAŁÓW)<lb /><lb />(Lewa ściana [od strony widowni]:<lb />Na pierwszym planie niegdyś malowana skrzynia. Za skrzynią drzwi – głębiej piec z okapem, z tak zwanym „kominkiem” i z piecem chlebowym. Na kominku garnki kuchenne, stojące na żelaznych „dynarkach” – przed piecem ława.<lb />Środkowa ściana:<lb />Z prawej familijne łóżko z pierzyną, – z lewej drugie łóżko „paradne”, żelazne, nakryte starą czerwoną, wyzwoloną z prześcieradła watówką, i wyposażone w poduszkę z poszewką, o której kolor lepiej nie pytać. Przy łóżku stoi również „paradne”, bo – jak kronika rodzinna zapewnia – wyplatane, w istocie zaś rozplecione krzesło. Nad łóżkami rząd zniszczonych, świętych obrazów.<lb />Prawa ściana:<lb />Dwa małe okna, każde o czterech szybkach, których suma ogólna równa się – pięć, gdyż resztę zastąpiono papierem. Wzdłuż ściany, między oknami, ława – kolor naturalny – przed ławą stół, i druga ława, którą dla orjentacji nazwiemy „zewnętrzną”. Te trzy sprzęty stanowią pod względem wieku, wykonania i właściwości doskonały „garnitur”. Koło jednego z okien, przybito do ściany „Kinkiet” z blaszanym, żółtym, okrągłym reflektorem. Ów kinkiet oświeca scenę dostatecznie, ażeby móc dokładnie zdać sobie sprawę z każdego szczegółu tak wydoskonalonej nędzy, że „paradne” łóżko i krzesło, robią wrażenie jakiejś burżuazyjnej prowokacji.<lb />W takiem otoczeniu, na zewnętrznej ławie, siedzi MATKA i ceruje męską, kolorową, „pańską” koszulę. Koło pieca myszkuje ZOŚKA i – bacznie śledząc Matkę – zagląda z kunsztowną zręcznością do garnków. Nagle zawodowa pomyłka – bez szelestu podniesiona pokrywa wypada z rąk – łoskot – panika – błyskawiczne poprawienie błędu – trwożny bezruch – wszystko napróżno!)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#matka">MATKA.</rs>
+            <rs key="#zośka">ZOŚKA.</rs>
+            <rs key="#ojciec">OJCIEC.</rs>
+            <rs key="#franek">FRANEK.</rs>
+          </p>
+        </stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(o ponurej, jakby zakamieniałej twarzy, groźna niepodniesieniem oczu od roboty)</stage> Nie zaziraj do garków! – Nima poco!</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p><stage>(słup soli chlipiący nosem)</stage> Kie mamusiu...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> Jak godam, to godam. Coś miała zezryć, toś zezarła, więc kładź się spać.</p>
+        </sp>
+        <stage>(ZOŚKA. buczy)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(podnosi oczy, co wywołuje przykucnięcie Zośki, i wydziera się)</stage> A jak mi bedzies tu bucyć, to cie wygnom na pole i tyla! <stage>(szyje)</stage></p>
+        </sp>
+        <stage>(ZOŚKA. z mysią przezornością chce schować się do łóżka)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(ponowny błysk podniesionych oczu)</stage> A pacirz kto za ciebie odmówi? – klękaj! <stage>(szyje)</stage></p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p><stage>(już na kolanach)</stage> W imię Ojca i Syna...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Głośnij! - Do nieba kawał drogi. Trza sie wydzirać <stage>(na str.)</stage> Choć i tak pewnikiem nie usłysom.</p>
+        </sp>
+        <stage>(ZOŚKA. ponownie się żegna i klepie Ojcze nasz, nie uznając trzech rzeczy: interpunkcji, modulacji głosu i ogonka pod literą „e”)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(nagłym ruchem porzuciła szycie – przeżegnała się i złożyła ręce. Dziurawa koszula co innego, a Królestwo niebieskie co innego! Toteż wyraz twarzy ulega zmianie. Twarde, suche oczy miękną i wilgną – a skoro ma być mowa o chlebie powszednim, wyrywa się z piersi coś w rodzaju krótkiego szlochu. Lecz nie trzeba dać znać po sobie! więc niby szorstko, a właściwie bardzo niepewnym głosem)</stage> A o Jantosiu se nie zabac, zeby przecie z tyj Ameryki trocha... <stage>(znowu szloch)</stage> dularów...</p>
+        </sp>
+        <stage>(ZOŚKA. zauważyła i odwróciła się w stronę matki)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(z przesadną surowością)</stage> Co sie gapis?! Jak z Ponem Jezusem obcujes, to się w Pona Jezusa patrz! <stage>(zawzięcie szyje)</stage></p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>...i odpuść nam nasze winy...</p>
+        </sp>
+        <stage>(Wchodzi OJCIEC. Widząc, że Zośka się modli, zdejmuje kapelusz, żegna się i stoi nieruchomy, patrząc posępnie w podłogę)</stage>
+        <stage>(MATKA. podnosi szybko głowę – ściąga brwi, nawpół otwiera usta, i z trudem czyta, co się, tam kryje za tą ojcowską twarzą: zła wieść czy dobra?)</stage>
+        <stage>(Kiedy Zośka odmówiła zdrowaśkę i Chwała Ojcu, i tak, w przyodziewie, zaczęła znikać pod pierzyną, Ojciec nagle maskuje się, kładzie kapelusz na głowę, siada na skrzyni – wyjmuje z kieszeni paczuszkę tytoniu, i bibułki, wreszcie bardzo wolniutko zaczyna kręcić papierosa)</stage>
+        <stage>(MATKA. na maskę Ojca odpowiada maską: na kręcenie papierosa szyciem. Siedzą naprzeciw siebie dwa kawałki drewna – dwa rozmyślne automaty)</stage>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(chowając tytoń do kieszeni, a wyjmując zapałki)</stage> Podkręć lompe.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(zajęta nawlekaniem igły)</stage> To nie zaśnie.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>A ino <stage>(zapala papierosa)</stage></p>
+        </sp>
+        <stage>(pauza jakby wywczasowa)</stage>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Siednij se blizy światła.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Kie widoć.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(w kłębie dymu)</stage> A ino.</p>
+        </sp>
+        <stage>(druga pauza)</stage>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(przez zęby)</stage> Zośka?... <stage>(milczenie)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Słysys Zośka, ze cie wołajom? <stage>(milczenie)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Śpi.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(niechętnie)</stage> Gdzieby ta spała. Strzyze usomi jak ten kóń.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(empiryk)</stage> E... za gupio.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(bez powodu przejęta)</stage> A jakze! Do syćkiego za gupio, ale do tego, cego nie trza, to ma rozumu dość.</p>
+        </sp>
+        <stage>(trzecia pauza)</stage>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(przebiegły)</stage> Zośka? kces cukierko? <stage>(milczenie)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Śpi.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>A dzis.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(szyjąc)</stage> Bo sharowana dzieucha.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(z gorzką drwiną)</stage> Niby cem. Tom ostatniom krowinom, co juz nawet kropli mlika z cycka nie wypuści, bo pysk ma ino od rycenio?</p>
+        </sp>
+        <stage>(czwarta pauza)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(arcydzieło obojętności)</stage> Ile ci za niom daje?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(gwałtownie)</stage> Gówno mi daje! <stage>(za chwilę wielki pan)</stage> Przecie jej nie przedom.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(jadowita)</stage> Takiś to amerykan. To pocóżeś ganiał do Jabromka?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(zacięty)</stage> Przedom gront, ale krowy nie przedom! Bede krod, ale krowy nie przedom!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> Kupa sie tego grontu ostała. Jaze półtora morgi.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(z wybuchem)</stage> Ostanie zagon i krowa! <stage>(drewnieje)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(po piątej pauzie niby ot tak sobie)</stage> Mało ci za niom dawał.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(ruszywszy lewem ramieniem)</stage> Pedo ze chudo <stage>(po chwili)</stage> Cymze jom wypase? <stage>(wskazując na familijne łóżko)</stage> Tym siennikiem?</p>
+        </sp>
+        <stage>(szósta pauza)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(od niechcenia)</stage> Ha no... bo zebyś sie nie był upiroł...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>To co?</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(szyjąc – z prostotą)</stage> To wszyćko byłoby po staremu. Ale ześ sie upiroł, tośmy i poszli na dziody.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Ciekawość ino, kto z nas pirszy zacoł. Ciekawość ino, cy to ja o tyk wielgaknyk rozumak Franka cięgiem prawił – jaki to niby śpekulant, jak to wszyćko dorazu wymiarkuje – jak to bez nijokiego zachodu dobije sie prefesury...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(z wybuchem)</stage> A bo prowda!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(jakby nienawistnie)</stage> Juści ze prowda. To tyz kie ukońcył gimnazyje, to tera niek końcy filozofije.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Za co?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(karmiący Franka własną ręką)</stage> Przedawałem dotond, bede przedawał dalij, a chopaka z drogi – <stage>(rzucając papierosa o ziemię)</stage> nie zawróce!!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Lepij za rychło jak za późno. Na dwa roki i tak juz grontu nom nie starcy. A bez dularów Jantka byłoby i przódy – wiadomo cemu, wiadomo cemu – nie starcyło.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(coraz większy ofiarnik)</stage> A co ma chopak robić?! Wracać do gnoju, kie wszyćkie siły z gnatów do gowy mu posły?! <stage>(zapalając się)</stage> Cy to moja wina, ze Jantek psiowiara od łońskiego roku ani grosicka nam nie posłał?! Cy to moja wina, ze ciorachy same sie dzisiok ucom i kurypitetorów nie biorom?! Cy mogłem Duchem świentym odgadnąć, ze Jantkowi syrce sie uodmieni?!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(z pyskiem)</stage> A skondze ty wis, ze syrce mu sie odmieniło?!! Skondze ty to tak akuratnie wis?! A jeśli chuery?! A jeśli pomar?! To co?!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(pełen mądrości)</stage> Jakby pomar, to przysłałyby papir. A jak nie przysłały papiru, to nie pomar.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Ale w śpitalu moze gnije!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Ka? Na bezludziu?!! Niby to pocty nie chodzom?! Juz ja go znom. Ja go znom! Godałem: „pilnuj swego”. Godałem: „bier gront po ojcach”. Godałem: „Tobie, gospodarskiemu synowi, wstyd gonić za zarobkiem”. Nie i nie! Beło mu mało. Widzioł ze Józek Ścibor, dziod z dzioda, przy złotym zygarku chodzi – widzioł ze Symek Wrona, tokze dziod z dzioda, kamienice we wsi stawio – to i on musi koniecnie! – no i posed na zatrocenie nase!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Choćby zaś i nie posed, choćby sie nawet nic nie zmarnowało – to ciekawość cegoby pilnował i coby po tyk ojcak brał. Ozdziel sześć morgów na troje i zwaz sobie, co mi za pikne gospodarze! <stage>(zmieniając ton)</stage> Jeden miał głowe, drugi rence, więc jeden posed robić głowom, a drugi renkami. I to jakimi renkami! Chopak był nie ułomek! gładki! Jesce se takom kobite tam weźnie, ze bedzie przed niom... capkował!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(złażąc ze skrzyni)</stage> E!... Końca z tobom nie dojdzie! Raz kces po staremu, raz kces po nowemu, a tymcosem Franek goda, ze jak nie nojdzie piniendzy, to sie uobwiesi, abo co.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(wstając z tragiczną złością)</stage> Niek sie obwiesi!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(pokazując kinkiet)</stage> Podkrenć lompe.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(roztrzęsiona manipulując koło lampy)</stage> Niek sie obwiesi! <stage>(nagle popłakując)</stage> Coze jo mu pomoge sirota?! Krowy nie kcom <stage>(pokazując paradne łóżko)</stage>, jego łózka takze nie kcom – bo wiedzom, ze jak bida przyciśnie, to wszyćko darmo dostanom!...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który siadł na zewnętrznej ławie, rozłożył na stole tytoń i bibułki, kręcąc drugiego papierosa)</stage> Ozbudzis Zośke!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(wciąż przy lampie, lecz bezrobotna)</stage> Zeby tego Jantka pokrenciło! – Pewnikiem jaka dziwko gwizneła na niego i wsyćko ściąga do siebie.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Pedom ci, ozbudzis Zośke, a bekiem grosa nie przycynis. Jutro targ w mieście. Pódziewa. Weźniemy krowe, Frankowe łózko... co dadzom to dadzom... jak mus to mus.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która stanęła przed oknem, i Bóg wie poco patrzyła w świat, jeszcze zapłakanym głosem, jakby na stronie)</stage> No juści ze chyba dziwko. Jokze. Wyjechoł ze strykiem... zara. Jemu było... dwonaście roków. Zośka urodziła sie... we trzy roki potem. Dzisiok jest jej... trzynoście roków. No to bedzie temu... akuracicek... roków... szysnoście. I zawdy, prawie od pocontku, ile ta móg, słoł. Pół dulara, dular, ale słoł. Dopiro tera, kie najgorzy...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(z pasją)</stage> Zowdy tak! zowdy tak! Kie nojgozyj, to jesce psiokrew <stage>(waląc pięścią w stół)</stage> dociśnie!!</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(w studenckiej czapce wchodząc)</stage> Cóż ojciec tak krzyczą. <stage>(nie czekając na odpowiedź, zdejmuje czapkę i rzuca ją na paradne łóżko)</stage></p>
+        </sp>
+        <stage>(MATKA. odeszła szybko od okna i zamaskowała się na beztroskę)</stage>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(również zamaskowany, zdejmując kapelusz: przykład syna)</stage> Zwycojnie.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(który zaczął się rozbierać, zdejmując marynarkę i wieszając ją na paradnem krześle – na str.)</stage> „Zwyczajnie”.</p>
+        </sp>
+        <stage>(pauza)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która wodziła wzrokiem za Frankiem – nieśmiało)</stage> Ozdziwos sie?...</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(który siadł na paradnem krześle rozsznurowując trzewiki)</stage> Tak. <stage>(zdejmuje trzewiki i stawia je przy krześle)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(gdy Franek skończył z trzewikami)</stage> Kaś był.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(zdejmując kamizelkę, co odsłania koszulę z dużą dziurą na plecach)</stage> U nauczyciela.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(gdy Franek złożył kamizelkę na krześle)</stage> No i cózeście nowego uradzili.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(rozwiązując krawatkę i zdejmując kołnierzyk)</stage> A nic.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(gdy Franek usiadł na krześle i zabrał się do ściągania spodni)</stage> A nie przegryzbyś co?</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(ściągając spodnie)</stage> Nie.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(gdy Franek złożył spodnie na krześle)</stage> Bo momy. Momy.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(ściągając bardzo dziurawe skarpetki)</stage> Już jestem po kolacji.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(nieśmiało)</stage> Zarznęliśmy kogutka lo ciebie...</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(kładąc skarpetki na krześle – nagle okropnie sucho)</stage> Zjedzcie go sami. <stage>(podchodząc do zmieszanej matki i całując ją w rękę z niespodziewanem wzruszeniem)</stage> Dobranoc Matusiu.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(z wybuchem serdeczności, tuląc Franka do piersi)</stage> A śpij chudzioku! Śpij! Co prześpis to twoje!</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(jakby na str.)</stage> Tak. <stage>(podchodząc do Ojca, obojętnie)</stage> Dobranoc, Ojcze.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(płacąc tąsamą monetą)</stage> A dobranoc. <stage>(pocałunku nie było)</stage></p>
+        </sp>
+        <stage>(FRANEK. zaczyna dziwaczyć. „Cóż on wyrabia?” zdaje się medytować zaniepokojona matka. Bo oto podszedł do paradnego łóżka, ściągnął poduszkę – zdjął z gwoździa miejski, wyszarzały paltot – podszedł do ławy pod piecem – rzucił [„o laboga”! – zdaje się cierpieć matka] – poduszkę na ziemię – siadł na ziemi – rozłożył paltot na piersiach, jakby się kołdrą nakrywał – położył się na wznak – założył ręce pod głowę i leży [„jak ten pies” – kiwa głową matka] patrząc i patrząc niesamowitym wzrokiem w jeden punkt powały)</stage>
+        <stage>(OJCIEC. otworzył gębę ale właściwie cóż go to może obchodzić?)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(lekko drżącym głosem)</stage> Cemu wydziwios Franuś?</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(bez zmiany pozy, jakby sennie)</stage> Nie wydziwiam, Matusiu. Naprawdę nie wydziwiam.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(po chwili)</stage> Przeziembis sie...</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(j. w.)</stage> Ciepło.</p>
+        </sp>
+        <stage>(długa, ciężka pauza)</stage>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(byle coś powiedzieć)</stage> A kie sie te twoje nauki zacynajom. <stage>(milczenie)</stage></p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p>Jakosi... za dwie niedziele. <stage>(milczenie)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(nie mogąc dłużej zapanować nad sobą)</stage> Bedzies mioł! Wszyćko bedzies mioł! I ksiozki bedzies mioł! i na komorne bedzies mioł! i na obiody bedzies mioł! i na przyodziwek bedzies mioł!...</p>
+        </sp>
+        <stage>(milczenie)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Ozwijze sie chopaku na Boga! <stage>(milczenie)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Hordy.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(wciąż bez ruchu, coraz niesamowiciej – coraz senniej i słodziej)</stage> Nie hardy. Naprawdę nie hardy.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(zły)</stage> No to gupi! <stage>(po chwili)</stage> Zwozze se. Mas ino dwa roki do ukońcenio. Po dwók rokak zdajes dochtorat i jezdeś pon. Wtedy bierzes do siebie matkę, Zośkę...</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(j. w.)</stage> Wtedy nie biorę do siebie nikogo, bo bez pomocy Antka dopiero wtedy jestem dziad.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Jakim sposobem?</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(zupełny miód)</stage> Takim sposobem, że podobnych mnie są całe fury... <stage>(nagle sucho a wciąż bez ruchu)</stage> Zresztą niema o czem gadać.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>To pocóześ sie pchoł.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(znowu pełen słodyczy)</stage> Wyście mię pchali.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(zły)</stage> Kie!</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(zaczyna zwolna fermentować)</stage> Z początku.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(zatknięty)</stage> No ale... ale potem!</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p>To co innego.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>A dzis! a dzis! Dyć juz od cwortyj klasy nie dospałeś, nie dojadeś, ino te ksiozki, te ksiozki... Tako cie goroncka trawiła!</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(prawie sucho)</stage> Bo jak się raz co zacznie – trzeba i skończyć.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Totez i skońcys.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(dotychczas nieruchomy, zrywając się na równe nogi z pasją)</stage> A skończę!!! skończę wcześniej niż wam się wydaje!! Ale skończę... <stage>(waląc się kułakiem w piersi)</stage> po mojemu!! Wykolejeńca ze mnie nie zrobicie!!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(z podniesioną pięścią, dysząc ze złości)</stage> Pyskujes?!! <stage>(nacierając na Franka)</stage> Grozis?!!!</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(przez zaciśnięte gardło, dygocąc na całem ciele)</stage> Niech Ojciec biją! Niech Ojciec nawet zabiją!!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(chwytając się za głowę)</stage> Laboga!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(j. w.)</stage> To my uostatniom krowe!... to my uostatni grat!...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Nieprowda, Franuś! nieprowda!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(jednocześnie)</stage> ... a ty... ty śmierzciom za to płacis?!!</p>
+        </sp>
+        <stage>(FRANEK. rzucił się, w stronę paradnego krzesła i gorączkowo, jak się da, wciąga spodnie, przepasuje się rzemieniem, chwyta marynarkę, wciąga bez zasznurowania jeden trzewik na bosą nogę i w tym dorywczym stroju – z marynarką przerzuconą przez ramię – stara się dopaść do drzwi)</stage>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(ani na chwilę nie przerywając grzmiącej nauki)</stage> To tako wdziencność?!! Tokie syrce?!! To całom nasom zmarnowanom chudobe momy wroz z tobom do ćtyrek desek wrzucoć?!! Uodpasuj sie!! Uozdziwoj sie!!! <stage>(barykadując swojem ciałem drzwi)</stage> Nie pódzies!!! Przysiengam na rany Chrystusa, ze nie pódzies, chyba po moim trupie!!!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(wciąż trzymając się za głowę)</stage> Jezu!! <stage>(skamieniała z przerażenia)</stage></p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(stanął jak wryty tuż przed Ojcem. Przecie go nie uderzy, ani nie odgoni. Ale za to może dygotać na całem ciele z bezsilnej, poprostu czarnej rozpaczy. Rzuca więc marynarkę na ziemię – bosą nogą ściąga trzewik z nogi obutej i kopniakiem posyła trzewik do stu djabłów – wreszcie wykrztusza, krótkie zdławione)</stage> Zostanę.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który oczekiwał takiego zakończenia sprawy, spokojny triumfator:)</stage> Dzienkować Bogu. <stage>(zrobił swoje – siada więc na skrzyni i zamienia się w zupełnie obojętnego obserwatora)</stage></p>
+        </sp>
+        <stage>(MATKA. podnosi marynarkę – rozwiesza ją na krześle, podnosi trzewik i stawia go na dawnem miejscu – a czyniąc to, spogląda co chwila biednym, macierzyńskim wzrokiem na Franka, bo czuje, że bardzo źle z nim się dzieje)</stage>
+        <stage>(FRANEK. usiadł na zewnętrznej ławie – lewym łokciem rozparł się, ale smutnie, na stole – podparł głowę na lewej ręce, a wskazującym palcem prawej, kreśli jakieś tam, bezsensowne figury. Czynności tej przypatruje się szklanym wzrokiem)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(Gdy ukończyła porządkowanie, podchodzi do Franka i, prawie że półgłosem, pociesza gładząc jego włosy)</stage> Sparło cie Franuś, sparło. Ale uobacys, ze do rana pofolguje.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(gdyż obojętność nie lubi sentymentów)</stage> Ostaw go. Cosem nolepij bez porady.</p>
+        </sp>
+        <stage>(MATKA. widząc, że jej „porady” nie odnoszą żadnego skutku, siada pokornie na skrzyni obok ojca)</stage>
+        <stage>(ZOŚKA. zerwała się i usiadła na łóżku, gdy padły ojcowe słowa: „nie pódzies!” teraz szybko się kładzie, odwraca twarzą do ściany i udaje, że śpi)</stage>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(po pauzie j. w.)</stage> Przedewszystkiem... <stage>(urywa)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Mów, synusiu. Mów.</p>
+        </sp>
+        <stage>(OJCIEC. tępo słucha)</stage>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(po chwili j. w.)</stage> Przedewszystkiem... co się dotyczy chudoby... to nie moje nauki, ale ojcowe – picie.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(potakując głową)</stage> Mów synusiu, mów.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(a głos jego załamuje się i rwie co chwila)</stage> Do zeszłego roku... żyłem z łaski Antka. Od zeszłego roku... z łaski mojego... brzucha... któremu trzy, a czasem cztery razy na tydzień... wystarczał kawałek suchego chleba – i szklanka czystej herbaty. <stage>(po chwili)</stage> Ale nawet mój brzuch ma swoje granice... i dłużej tak... <stage>(po chwili)</stage> Tymczasem ojciec ciągle pił. <stage>(po chwili)</stage> Ja tu ani nie sądzę; ani nie robię wyrzutów... <stage>(po chwili)</stage> ...ja stwierdzam.</p>
+        </sp>
+        <stage>(OJCIEC. powstał, rozkraczył w kolanach zgięte nogi, przechylił się naprzód i z otwartą gębą słucha)</stage>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(po pauzie)</stage> Na ojcowiznę nigdy nie liczyłem, tylko na własne siły. <stage>(po chwili)</stage> Myślałem, że wam do śmierci wystarczy... a że we dwóch z Antkiem... nie damy Zośce zdechnąć pod płotem... albo, co gorsze, zejść na psy. <stage>(po chwili)</stage> Wam nie wystarczyło... Antek przepadł... a ja... bez lekcyj, za któremi napróżno goniłem z wywieszonym językiem – chociażby za... dosłownie łyżkę strawy – ja zrozumiałem że już... nie doskoczę.</p>
+        </sp>
+        <stage>(MATKA. fartuchem otarła łzy)</stage>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(wciąż zajęty kreśleniem figur – po chwili)</stage> Chcecie sprzedawać krowę. Chcecie sprzedawać resztę gruntu. Gdyby Antek dalej pomagał – zgoda. Ale bez Antkowej pomocy wara – bo świnią nie byłem i nie będę. <stage>(po chwili)</stage> Jeżeli dotąd pozwalałem wam, gnieść się we troje na jednem łóżku, podczas gdy sam wylegiwałem się <stage>(wskazując głową paradne łóżko)</stage> tutaj... to robiłem to jedynie dlatego, żem się szanował przez wakacje... bo tam wylegiwań nie było. Tam była harówa... bez muzyki w karczmie i bez poczęstunków na jarmarkach. <stage>(po chwili)</stage> Dzisiaj co innego. Dzisiaj trzeba szanować przedewszystkiem Zośkę. Małe to to... nędzne to to... <stage>(wstaje – z rosnącem wzburzeniem)</stage> Słuchajcie! Jej chałupa, jej grunt, jej krowa, jej graty, a każdy kieliszek wódki, to jej – o pomstę do nieba wołająca – krzywda! <stage>(przybiera poprzednią pozę – po chwili prawie bez głosu)</stage> Bo mnie krzywdy już nikt zrobić nie potrafi. <stage>(długa pauza)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(jak to bywa – pokorny wobec nareszcie nagiej prawdy)</stage> Franek. Ino bez harmideru. Tak na rozum. Za pół morgi grontu – pirsy numer – dadzom... do tysionca. Cała morga, chałupa i krowa ostanie przy Zośce. Wedle onego picia – jak Pona Jezusa pragne w godzinie śmierzci – ani kuśtycko! Ani kielisecko! – No i cóz? – My jakosi przetrzymomy – ty doskocys – a moze przecie i z Jantkiem wrychle się wyklaruje...</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(oddzielając każde słowo)</stage> We troje – jakoś – przetrzymacie – na jednej – jedynej – mordze?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(załgany)</stage> Z pomocom Bozom...</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(powoli wstając i następując na ogłupiałego ojca, niby to spokojnie a prawie groźnie)</stage> A zarznęliście dla mnie kogutka. A onegdaj zarznęliście kurkę. A od jakiegoś czasu żonie nauczyciela ginie drób. <stage>(z wybuchem)</stage> Kradniecie! Już kradniecie!! I to gdzie?!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(ruszając ramionami j. w.)</stage> Cóze znowu...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(również załgana, jednocześnie)</stage> W imię Ojca i Syna...</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(składając ręce)</stage> Na litość Boską, przynajmniej nie kłamcie! <stage>(gorączkowo)</stage> Wracam stamtąd. Przecie wracam stamtąd. Była o tem mowa. Dzisiaj kogut. Onegdaj kura. <stage>(szarpiąc się za włosy i prawie goniąc po scenie)</stage> Nie! To doprawdy zwarjować można!</p>
+        </sp>
+        <stage>(OJCIEC. i MATKA. przerażeni i zdumieni patrzą po sobie)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(biorąc na odwagę i chodząc za Frankiem – bardzo trzeźwo i rozsądnie)</stage> Uspokójze sie Franuś i zekcij grzecnie wysłuchać. Dyć mos sie ku ik córce. Dyć ik córka mo sie ku tobie. Dyć rodzice godzom sie na ciebie jak dojdzies do posady. Dziadować u nik nie bede, bo wstyd. A tak to jakby ze swego do swego. Przecie i lo nik cie pase.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(który po słowach: „dyć mos sie ku ik córce”, stanął jak wryty i z rosnącą grozą słuchał matczynych wywodów, nie wierząc własnym uszom)</stage> Co wy... mówicie... matusiu?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Goda, ze...</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(bardzo szybko)</stage> Czekajcie, Ojcze. <stage>(nerwowo głaszcząc matkę po twarzy i prowadząc ją w stronę zewnętrznej ławy)</stage> Chodźcie. Chodźcie. Siądziemy sobie na ławie. O tak. Blizko. Bliziusieńko. Po staremu.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(nic nie rozumiejąc)</stage> No i co, synku. No i co.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p>No i, Matusiu... <stage>(nagle podnosi głowę – przez chwilę patrzy badawczo w oczy matki, poczem, rozpaczliwie opuszczając głowę i wyłamując palce)</stage> No i nic.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(głaszcząc Franka po głowie)</stage> Locegóz tak, synku. Locego.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p>Bo... bo, matusiu... <stage>(wybuchając płaczem i tuląc twarz do matczynej piersi)</stage> ... bo nie zrozumiecie!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w. ale już z jadem w pozornie czułym głosie)</stage> Cegóz to nie zrozumie. Cego.</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p>Być synem... być synem pijaka... i...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> ... i złodzijki... <stage>(po chwili: coraz więcej jadu)</stage> Ha no... kto wysoko zaloz, temu z góry wszyćko maluśkie widzić sie musi. <stage>(nagle zrywając się i odtrącając Franka – dziko)</stage> Prec odemnie!!</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(czepiając się kolan matki)</stage> Matuś!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Pedam Ci: prec odemnie!!!</p>
+        </sp>
+        <sp who="#franek">
+          <speaker>FRANEK.</speaker>
+          <p><stage>(który runął połową ciała na ławę, klęcząc i opierając głowę na rozpaczliwie splecionych ramionach)</stage> Matuś!!</p>
+        </sp>
+        <stage>(OJCIEC. od dłuższego czasu usiadł na Frankowem łóżku. Mruży oczy i kurząc papierosa, śledzi scenę bez najmniejszego wzruszenia)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(biorąc się pod boki)</stage> Uodmieńce zatracony! Miastowy hunorniku! Ozwiraj te ślipia, wyzorte twoimi mondrościami! Ozwiraj je syroko i patrz a moze na kóniec obaczys, ze tom renkom – widzis jom?! tom matcynom renkom jobym lo was nie tyko krodła, hale bym nowet i – zabiła! – Bo ja nie ciaćkam sie z ksiozkami, hale pazurami ziemie drapie! – I kie przyndzie uostatecno bido, to robie sie kworda, jako ta ziemia na mrozie! – A co mi wase hunory i naucycielowa gadzina! – Jo kce, wis cego kce, synu pijoka i złodzijki? – Jo kce, zomiast umrzyko, doć ik córce zywego chłopa do łózka!! I dom!! słysys mie? dom, chociabym mioła cortu przedoć duse!! chociabyś mioł kamieniem we mnie prasnąć! <stage>(podchodząc do Ojca i ściągając go z łóżka)</stage> Wstowaj. Uozdziwaj sie. Idziemy spać.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(zabierając się do ściągania butów)</stage> Do cna go uodmieniły. Do cna.</p>
+        </sp>
+        <stage>(MATKA. gwałtownie chwyta poduszkę i paltot leżący na ziemi. Poduszkę kładzie w głowach Frankowego łóżka, paltot zawiesza na gwoździu – składa poprzednio cerowaną koszulę i wrzuca do skrzyni – wreszcie klęka przed Frankowem łóżkiem i odmawia krótki pacierz)</stage>
+        <stage>(OJCIEC. w czasie tego zdjął, postękując, buty, prasnął je w kąt – rozwinął onucki, prasnął je w kąt, zdjął kurtkę, potem klęknął przed familijnem łóżkiem, zmówił również krótki pacierz i – sztucznie wlazł przez Zośkę do familijnego łóżka, ażeby zająć miejsce od ściany. Łóżko zatrzeszczało)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(po skończeniu pacierza wstaje, zdejmuje kaftan i buty – zbliża się do lampy i biorąc w palce zakrętkę mówi do Franka, ale nie patrząc w jego stronę)</stage> Gose.</p>
+        </sp>
+        <stage>(FRANEK. jak legł tak leży na ławie)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(po chwili)</stage> Słysys Fronek? – gose. <stage>(milczenie)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>A dyć nie bedzies jak ten pies... <stage>(milczenie)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>E!... ni mom casu na kumedyje. <stage>(szybko przykręca lampę i gasi ją głośnem dmuchnięciem)</stage></p>
+        </sp>
+        <stage>(Światło księżycowe wpada przez szybki i srebrzy koszulę Franka i Matki. Na koszuli Franka rozdarcie zamienia się w czarną plamę)</stage>
+        <stage>(MATKA. po chwili wpatrywania się we Franka, rusza zamaszystym krokiem i niewiadomo jakim cudem mieści się w familijnem łóżku – pod pierzyną)</stage>
+        <stage>(Ze wsi dolatują pijackie śpiewy parobczaków i ujadanie psów – oczywiście dalekie)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(po pauzie urozmaiconej chrapaniem Ojca, podnosi się nawpół i przechylając się w stronę Franka)</stage> Boć tego mi przecie... nie zrobis. <stage>(milczenie)</stage> Boć mi sie przecie nie obwiesis, chopaku ty mój serdecny. <stage>(milczenie)</stage> Boć mi wos przecie wszyćkiego ino troje ostało przy zyciu.</p>
+        </sp>
+        <stage>(FRANEK. powoli wstaje – podchodzi do okna – przez chwilę patrzy w świat – parę razy kiwa tragicznie głową – zawraca – opada na zewnętrzną ławę – ramiona zarzuca na stół – kładzie na nich głowę i przybiera pozę człowieka śpiącego)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która z zapartym oddechem śledziła każdy ruch Franka)</stage> Pockoj! Pockoj! Gorzcij ty jesce zapłaces za ten djabelski twój zawziontek! <stage>(rzuca głowę na poduszkę – jednem szarpnięciem dłoni nakrywa się pierzyną po uszy – łóżko rozpaczliwie trzeszczy)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(wiercąc się i wydobywając z łóżka najwyższe tony)</stage> Tylo gadanio, tylo gruchu...</p>
+        </sp>
+        <trailer>(Zasłona)</trailer>
+      </div>
+      <div type="scene" n="2">
+        <head>Druga odsłona</head>
+        <stage type="setting">
+          <p>(IZBA W DOMU SZYWAŁÓW)<lb />(Dekoracja tasama, tylko przed ławą koło pieca stoi skórzana, żółta waliza a obok niej rzucony podróżny płaszcz i podróżna czapka. Na zewnętrznej ławie siedzi Antek. Ramiona zarzucił na stół, na łokciu oparł czoło i śpi z twarzą najzupełniej niewidoczną. Poza jego jest identyczna jak poza Franka z końcem poprzedniej odsłony. Ubiór jego jest prawie zbytkowny, sportowy. Po bardzo zakurzonych, amerykańskich, żółtych trzewikach widać, że uszedł kawał drogi. Na prawej ręce świeci złota bransoleta z zegarkiem. Zaczyna zmierzchać.<lb />Po podniesieniu zasłony pauza)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#matka">MATKA.</rs> 
+              <rs key="#zośka">ZOŚKA.</rs>
+            <rs key="#ojciec">OJCIEC.</rs>
+            <rs key="#antek">ANTEK.</rs>
+          </p>
+        </stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(za sceną – krótko, sucho i twardo)</stage> Kaze on jest.</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p><stage>(wchodząc i wskazując Antka)</stage> A how, matusiu. Jak lignoł na stole, tak i lezy.</p>
+        </sp>
+        <stage>(Wchodzi Matka owinięta w chustę i z chustką na głowie. Za nią wchodzi Ojciec. Matka przez czas djalogowania z Zośką i z Ojcem, podchodzi do skrzyni, otwiera ją – zdziera gwałtownym ruchem chustę z ramion i chustkę z głowy i po złożeniu chowa do skrzyni. – Ojciec zaś rzuca byle gdzie kapelusz i siada na familijnem łóżku. Ruchy matki muszą być rwane, gorączkowe. Ruchy Ojca tępe, drewniane. Atmosfera katastrofy: sprzedali krowę)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(bezpośrednio po słowach Zośki)</stage> Toś piknie doglondała chałupy.</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>Ino tyle, com skoczyła pozganiać gadzine i już wloz.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>A jokze ci ten wlozunek przedłozył.</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>Kie, matusiu, nie mogłam bardzo zmiarkować, bo nie goda żadnym ludzkim jenzykiem.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Ino jokim.</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>Jo takiego jeszcze nie słyszała.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która wyjęła pieniądze z za pazuchy – do Zośki)</stage> Pockaj. <stage>(do Ojca, potrząsając pieniędzmi)</stage> Widzis to?!</p>
+        </sp>
+        <stage>(OJCIEC. ani nie drgnął)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(krzykiem)</stage> Widzis to?!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(bez ruchu)</stage> Nie drzyj sie, bom nie guchy.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(wciąż potrząsając pieniędzmi)</stage> Chociabyś konał i skonać nie móg! Chociabyś bez Pona Jezusa miał umiroć, popamientoj sobie, ze z tyk piniendzy ani grosika nie powonchos! <stage>(przykłada rękę do czoła, jak człowiek któremu głowa pęka z bólu)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Twoja krowa, twoje piniondze. Rozporzondzaj se nimi do woli.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(odejmując rękę od czoła, niejako otrząsając się i chowają pieniądze do skrzyni – sucho)</stage> Więc niceś nie wymiarkowała, gupio jedna?!</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>Wedle... czego, matusiu.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>No wedle cegózby. Wedle onego. <stage>(wskazała Antka głową)</stage></p>
+        </sp>
+        <stage>(Od tej chwili krząta się koło wieczerzy, zagląda do garnka – poprawia drewka, ułożone na kominku – stawia na nich żelazny dynarek, na dynarku garnek i rozpala ogień)</stage>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>Coś trocha... że do Miemiec wandruje, że mu daliko droga, że okrutecznie umencony, i że kciołby u nas przenocować.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>To mi sie dziwocne widzi. Skondze niby u nos. Przecie mo karcme pod renkom.</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>Peda że tam był, że tam wieczerzał i że Jobramek mu poradzili, jako że tu najdzie wygodne łóżko.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(gwałtownie)</stage> Do Fronkowego łózka nik nie wlizie, ino ón som!!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(drewniany)</stage> Jeźli z pomocom Bozom kie powróci.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(dziko)</stage> Powróci! <stage>(nagle patrząc nienawistnie w Antka – sucho)</stage> A onego wygnam i tylo. <stage>(podchodząc do Antka i szarpiąc go za ramię)</stage> Wstawej pon! No wstawejze pon!</p>
+        </sp>
+        <stage>(ANTEK. potrząsany śpi)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Pomar, cy co? <stage>(pochyla się nad Antkiem i nadsłuchuje)</stage> Dycho. <stage>(znów szarpiąc Antkiem)</stage> Słysys pon, ze cie tutok budzom!</p>
+        </sp>
+        <stage>(ANTEK. śpi)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>I cóze jo z nim pocne?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który z łóżka przełazi na skrzynię)</stage> Ochlony.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(groźna)</stage> A moze i ochlony. <stage>(pochylając się nad Antkiem i wąchając)</stage> Juści. Gorzołka z niego jedzie. Niceś nie wymiarkowała Zośka?</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>Nie, matusiu. Gadał niby do rzecy. Zwyczojnie.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(fachowy)</stage> E!... na to, zeby gorzołka jechała, wystorcy ze śtyry kieliski.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(groźna)</stage> Takik spraw toś ty znajomy! Wszyćko ci z gemby wyjechało! I Franek ci z gemby wyjechał i krowa ci z gemby wyjechała...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(fachowy)</stage> Kciołem przedawać? Nie kciołem przedawać!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(którą aż zatknęło, z niesamowitym spokojem)</stage> Coś ty zek?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Prowde.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Jakom prowde.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Takom prowde, ze krowy nimo i Fronka tokze nimo.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>I co z tego.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>To z tego ze krowa posła na marne.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(coraz spokojniej a gotująca się we wnątrzu)</stage> Cemu.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Temu, ze krowa – i to chudo – na dochtoraty nie starcy.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Wylicyłeś.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Ja moze nie wylicyłem, hale Franuś wylicył i posed brać sie do inaksej roboty. Ociec robił renkom, dziad robił renkom, to i on renkom robić moze. Świat sie do góry nogami nie wywali.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(dławiąc się od złości i wygrażając pięścią)</stage> Posuchoj mie! Posuchoj mie! Zeby... w tyj tu izbie... tyj tu Zośki nosej nie było... zeby tyj Zośki nie było... to jakbym cie... strzeliła w morde... za te straszecne krzywdy... za to dziecko moje... <stage>(nagle chwytając się za głowę i zataczając w stronę frankowego łóżka – prawie głosem skarżącego się dziecka)</stage> Jezu...Jezu... bo mi sie w tym łebie pomiso. <stage>(wali się na łóżko)</stage></p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p><stage>(przerażona)</stage> Matuś!... Matusiu!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(znów tonem człowieka, któremu pęka głowa z bólu)</stage> Co kces, Zośka. Co kces.</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p><stage>(wyjmując z za pazuchy pięciodolarowy banknot)</stage> Ja... zataiła przed wami... a ja kce tera na osłode... <stage>(wskazując Antka)</stage> że ón... podarował mi... jaze pienć dularów... to... dorzucicie do krowy.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(wyciągając rękę)</stage> Pokaz.</p>
+        </sp>
+        <stage>(ZOŚKA. podaje banknot)</stage>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Abo schlony, abo bogac.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która z trudem dźwignęła się i usiadła na łóżku, oglądając banknot)</stage> Juści. W jednyj śtuce. <stage>(po chwili)</stage> A skróś cego ci doł?</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>Oglondał se izbe... zaziroł do garków... do łózek... Pedo: „bido”. Pedo: „wielgo bido”. I zacyna pytać, ka Ojcowie. I ja godam, ze z krowom na targu. I on pedo... bo ja mu... bo ja sie wstrzymać nie mogła... no i... taka litość go wziena... ze dał.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(trąc czoło)</stage> Świenty Jantoni?... Cy joki inny Świenty?... E nie. Bo kieby Świenty... toby mi tego Fronusia wrócił... toby mi tego Jantka odmienił... toby mi te boleść w sobie zazegnoł... toby mi tyj zywicielki nie zabiroł... <stage>(zupełnie wyczerpana, podając banknot Zośce)</stage> Weź – schowaj za pazuchę – i poć tu – boś mi sie... <stage>(prawie szeptem)</stage> ino jedna ostała. Porachujmy. <stage>(licząc na palcach)</stage> Wicuś, Maryśka, Wiktusia... <stage>(do Zośki, która po schowaniu pieniędzy, chciała usiąść przy matce)</stage> Nie przeskodzaj.</p>
+        </sp>
+        <stage>(ZOŚKA. stanęła przy łóżku)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(kończąc przerwane obliczenia)</stage> ... Józek. Ci śmierzciom pomarli. Jantek, Franuś... ci syrcem pomarli. Razem siedem. Jak u tyj matki Boski bolesnyj. Cóz ja godam?... Dyć Zośka zyje. A wienc inacy. Ino sześć. Brakuje jesce jednego.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który z przymrużonemi oczami wpatrywał się tępo w Antka)</stage> Uozdziałabyś sie... ległabyś...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(prawie szeptem)</stage> Cichoj. Cichoj. Zeby się dorazu nie przebrało. Bo ściska... Ściska mnie w zywocie... a w ślipioch ciemno mi sie robi... <stage>(po chwili)</stage> Zośka? Wis? Ja nie wiem cy ja to przetrzymom. <stage>(wyciągając rękę do drżącej i bliskiej płaczu Zośki)</stage> Chodźze.</p>
+        </sp>
+        <stage>(ZOŚKA. siada przy matce)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Bo rozwaz se ino. Gospodarska córka, gospodyni, matka... a tera dziadówka i sirota. <stage>(wskazując na Antka)</stage> A ten śpi. Moze ta i lepij, ze śpi... Zawdy świodek... a bez świodka to przecie wienkso pokuso... <stage>(po chwili)</stage> Bo wis Zośka, ze cosi mi sie w tym łebie popsuło. Casem to kiebym wszyćkiego przepomniała, a znowu casem, jok ci mie nie łupnie, to jaze okropa. <stage>(Po chwili pieszcząc rękę Zośki)</stage> No cóz ci jeszce godał? Opowiodaj. Opowiodaj. <stage>(Nie dopuszczając Zośki do słowa)</stage> To jakiś sprawiedliwy cłek. A lezy całkiem kieby Fronuś. Takuśko. Te roncki podłozył se pod głowe... twarzyckom obrócił sie ku stołowi... Godam do niego... on nic... znowu godam do niego... on znowu nic... Ino ostawił kortecke z pismem, ze juz nie wróci... chyba kie kajsi na swojem postawi... <stage>(z bolesnym wybuchem)</stage> A jakze moze postawić!? Dyć zodnyj mocy w sobie nimo! Wszyćko w tyj głowie... a te roncyny tokie bieluśkie... tokie mientkie... Cóz on tokimi paluseckami wygrzebie?!... Dyć ty mas trzynoście roków, a popatrzze sie... <stage>(pokazując Zośce jej własną rękę)</stage> ... jakie to juz porencne do roboty. Ani sie to kopacki nie nostrasy, ani sie to przy zenciu nie oharuje... bo od maleńkości zwycojne... <stage>(podpierając głowę na rękach i kiwając się na boki)</stage> O Boze, Boze, Boze, Boze... <stage>(zmieniając ton)</stage> Opowiadajze Zośka, zeby chocia te ludzkom mowe słysyć... <stage>(zmieniając ton)</stage> Bo ja przecie nie ślepo! Cóz on se myśli? ze ja nie widziała? Ajakze! Przychodził, całował... przecie i kochał... ale to tokie kochanie od wielgiego dzwona... w razie choroby, niescynścia, w godzinę śmierzci... Zaś na dzień powszedni?... O to beło juz do cna inacy. Krencił sie po izbie, wysiodywał, jak ta móg zagodywał... Ale co które gembe ozwarło, to kużde słowo spadało kieby te cytnory na duse! A locego tak?! Dyć on kciał, dyć i jo kciała... <stage>(po chwili)</stage> A cosami to my sie tak ciskoli na siebie, jok te popsute psy. Taka złoś jokaś... taka złoś jokaś... <stage>(z rozpaczą)</stage> O co?! Laboga o to?! Cyzby o to, ze my sie nijak zejść nie mogli?... <stage>(prawie spokojnie)</stage> Bo my sie oześli. Dawno my sie oześli. I moze my bez to toki zal do siebie culi. On pasownyj sukoł matki – nie nolaz... jo pasownego sukołam chopaka – nie nolazłam... <stage>(gwałtownie)</stage> Godajze Zośka! Na rany Boskie godaj... <stage>(ze łzami w głosie)</stage> bo przecie strzymać nie mozna!</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>Już godam, Matusiu. Już godam. Wienc pedo ze caluśki świat piechty wokoło oblecioł... że sie one tak w kilku o grube dulary założyły, które którego przegoni... I pedo że już ik przegonił, bo tamte jak liche, pedo, śkapy – het, w tyle ostały... I pedo, że tera robi swoim takom niespodzianke, bo kie ta ziaba z dyscem spadnie... No i co jeszce pedo?... Acha! Pedo jeszce że jest okrutnie zmitrężony... że kcioł wandrować dalij, ale że, chocia pojod se u Jobramka, do krzty mu nogi odjeno... no i zaceno go powoluśku mroczyć... no i położył głowe na stole... no i zagodałam raz, zagodałam drugi raz...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która nie spuszczała oka z Antka – zupełnie niesamowita, jakby kończąc opowiadanie Zośki)</stage> Juści, juści... ino ze ni mioł tak piknyj przyodziwy na sobie, ale dziurawom kosuline i połatane portecki, a zamias radości gorzkość w syrcu, bo ostał za tamtymi het w tyle... <stage>(nagle wstając zupełnie nowym tonem)</stage> Pockoj Zośka. Zapol lompe. Niekno ja mu się z blizka przyźre.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(obojętnie)</stage> Po kiego djobła. Ozdziałabyś sie... ległabyś...</p>
+        </sp>
+        <stage>(Podczas gdy Zośka zapala lampę, matka podchodzi do Antka i siada naprzeciw niego. Po chwili przypatrywania się śpiącemu, wyciąga ostrożnie rękę i dotyka jego włosów)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Geste. <stage>(wąchając swoje palce)</stage> Cymsi pachnoncym wysmarowane. <stage>(wstając, obchodząc stół i wodząc ręką po Antkowych plecach)</stage> O. - Takie delikatności po wirzchu, a pod spodem bary jak u byko. <stage>(dotykając bicepsów Antka)</stage> O. - Abo te bochenki. Jes za co chycić. <stage>(dotykając Antkowej szyji)</stage> O! Abo to karcysko. Onemu nie dałoby rady. <stage>(prawie nienawistnie głaszcząc Antka po głowie)</stage> Chopak jak malowanie! To nie Fronuś. <stage>(nagle pochylając się)</stage> A cóze to sie tak świci? <stage>(ostrożnie stara się usunąć rękę z branzoletą z pod głowy Antka)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który z zapartym oddechem śledził badania matki, nie mogąc dłużej wytrzymać – chrapliwym półszeptem)</stage> Zbudzis go!</p>
+        </sp>
+        <stage>(MATKA. błyskawicznie odwróciła się w stronę ojca i przez chwilę mierzy go skupionym, bardzo niepokojącym wzrokiem)</stage>
+        <stage>(OJCIEC. na wzrok matki odpowiada zupełną martwotą)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(cedząc zgłoski)</stage> A choćby.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>To se go budź.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> Na rence ma scyrozłotom przeposke. We środku śtucny zygorecek.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(ruszając ramionami)</stage> Co mi ta.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(z jadem nienawiści w głosie i w półuśmiechu)</stage> Co ci ta? Śliś! Śliś! Na skrzyni nic nie wysiedzis, a nie zawadzi obacyć, jakby to nas Fronuś wyglondoł, zebyś nie był dobytku zmarnowoł.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(pokazując banknot, leżący pod ławą, na której siedzi Antek)</stage> Lepibyś zaźrała pod stół, bo tam jakowaś zgubo lezy.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(spojrzała za wskazaniem Ojca. Pochyla się, podnosi, wreszcie przypatrując się banknotowi, prawie szeptem)</stage> Dular.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Widać posiał. Trza mu z powrotem do kieseni.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Juści. <stage>(z niesłychaną ostrożnością wkłada banknot do bocznej kieszeni Antka. Nagle twarz jej zastyga. Chwila skupionej pauzy – wreszcie szeptem)</stage> A to co?... <stage>(Bardzo wolno wyjmuje rękę z Antkowej kieszeni, w dłoni dość spora paczka banknotów, j. w.)</stage> Dulary! <stage>(stoi nieruchoma wpatrzona w banknoty)</stage></p>
+        </sp>
+        <stage>(OJCIEC. ani nie drgnął, ani nie zmienił wyrazu twarzy)</stage>
+        <stage>(ANTEK. porusza się; przekłada głowę z ramienia na ramię)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(przerażona, chrapliwym, krótkim szeptem)</stage> Rusył sie! <stage>(kamienieje)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(rozmyślnie głośno)</stage> Jak sie zbudzi, to wezwie policyje.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(wciąż szeptem)</stage> Cichoj!! <stage>(po chwili)</stage> Przecie ja ino bez ciekawość. <stage>(po chwili)</stage> Starcyłoby na ksiozki... na zorcie...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(wskazując na walizę, j. w.)</stage> A tam pewnikiem jesce wiency.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(szeptem)</stage> Poźryj.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(ruszając ramionami i złażąc ze skrzyni, wciąż głośno)</stage> Jak kces koniecnie...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> Bez ciekawość.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(idąc bez pośpiechu w stronę walizy)</stage> Juści ze bez ciekawość. Ino przódy tomte wsodź ka były.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> Zara. <stage>(z ponownemi ostrożnościami wkłada pieniądze do Antkowej kieszeni – poczem szeptem)</stage> Juz!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(w czasie tego stanął nad walizą. Po chwili na klęczkach patrząc w walizę)</stage> Całe pikno. <stage>(manipulując przy zamku)</stage> Zomecek mosiezny – maluśki... <stage>(po chwili manipulowania)</stage> Tak? Nie tak. <stage>(po chwili)</stage> To moze tak. Tokze nie tak.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(którą od czasu do czasu, wstrząsa lekki dreszcz – nie spuszczając oka z ojca – szeptem)</stage> Uwazuj, zebyś nie popsuł.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(już najwidoczniej mocując się z zamkiem)</stage> Misterne a takie sielne.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Uozedrzes.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(j. w.)</stage> Nie uozedre. <stage>(Waliza otwiera się z trzaskiem)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(bezustanny szept)</stage> Uozdarłeś.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(nieporuszony, grzebiąc w walizie)</stage> Inom tyknoł a samo puściło.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> I cóze tera bedzie?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(j. w.)</stage> Nic nie bedzie. Jak najdzie wszyćko na swoim miejscu, to sam ze siebie wymiarkuje, ze kciołaś ino bez ciekawość.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> Jo? Jo mam palice za słabe.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(j. w.)</stage> To tyześ sie mnom wyrencyła. <stage>(wyciągając plikę dolarów)</stage> Som. <stage>(podnosząc dolary w górę i bez odwrócenia głowy, pokazując je matce)</stage> Tyla.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> Rany Boskie!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(wkłada pieniądze z powrotem do walizy – byle jak pakuje rozgrajdane rzeczy – wreszcie, starając się walizę zamknąć)</stage> Nijok sie, psiokrew, zamknonć nie do.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> I cóze bedzie?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(odchodząc od niedomkniętej walizy i zdążając na familijne łóżko)</stage> Mało to takik, za którymi sukajom? Onemu wolno beło przez pozwoleństwa pchoć sie do nasyj chaupy, to nam wolno robić rewizyjom. Mogło tam siedzić Bóg wi co.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która usiadła na ławie pod piecem, głęboko zamyślona)</stage> Juści. Juści. A wreście... sprawiedliwy cłek. Zośce z litości dał... Zebym tak przed nim syrce jak na spowiedzi ozwarła... zebym sie tak do kolan rzuciła... <stage>(po chwili)</stage> Mo na oblatywanie wokiel coluśkiego świota, to przecieby go nie ubyło, a otarby gorzkie łzy człowiece...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Probuj. Dał Zośce za nasom bide dularów pienć, to ci drugie pienć dorzuci i pódzie.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która prawie nieprzytomnym wzrokiem patrzyła w Ojca, przesuwając rękę po czole)</stage> Tok ci sie widzi?...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>A tok mi sie widzi.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(po chwili)</stage> Locego?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>A bo kuzdy mo rence do siebie.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(niesamowita)</stage> Moze. <stage>(po chwili)</stage> Moze. <stage>(po chwili wstrząśnięta dreszczem)</stage> Frybro mie trzensie.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Legnij.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(z groźbą w głosie)</stage> Jo ci legne! <stage>(po pauzie, do Zośki, która od chwili zapalenia lampy siedziała – tragiczny świadek – na Frankowem łóżku)</stage> Zośka. Wyźryjno na pole.</p>
+        </sp>
+        <stage>(ZOŚKA. zdumiona spokojnym tonem matki, spojrzała na nią przelotnie, poczem schodzi z łóżka)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Abo wis ty co? Idź do stajnie, bo juz jezdeś za duza dzieucha na sponie z obcym chłopem w jednyj stancyje.</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>Matusiu...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(ostro)</stage> Scurów sie bois? Proś Pona Boga, zeby cie bez cołe zycie ino scury strosyły! <stage>(biorąc poduszkę z Frankowego łóżka)</stage> Mos tu poduske. Nolezy ci sie po Fronku.</p>
+        </sp>
+        <stage>(ZOŚKA. bierze w milczeniu poduszkę)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Hale! – Byłabym se zabacyła. Uozewrzyj skrzynie. Dobondź jokie dwa fartuchy i przesłoń okna. Som ta wbite gwózdki.</p>
+        </sp>
+        <stage>(ZOŚKA. wykonuje rozkaz)</stage>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(z drwiną w głosie)</stage> Nowy uobycoj.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(twardo)</stage> A nowy obycoj! <stage>(wskazuje głową Antka)</stage> Nie bedzie nagościami na całom wieś świcił, kie do snu pocnie sie ozdziwać. Bo tacy oździwajom się do naga. <stage>(z rosnącą nienawiścią)</stage> Im mało jednyj kosuli. Majom ik dość. Mogom se wedle woli odnasać bez dzień insom, bez noc insom. To nie tak, jak z tym łachem, com to musiała cyrować i cyrować...<stage>(wzruszając się)</stage> ... zeby chłopak nie kład przecie tyj kurtecki na gołe ciało i nie musiał sie wstydoć przed równymi sobie kumpanami. A i z tego cyrowania nie było wielgiej pociechy! Wcora kie tu siedzioł w miesiencnyj światłości – widziałam. Widziałam! Na pleckach cyrniło mu sie takie ozdąrcie, kieby mu rane zadano! <stage>(znów z nienawiścią)</stage> A bo mu ranę i zadano! Ociec, Jantek... A jego miejsce zajoł obcy! <stage>(coraz nienawistniej)</stage> Rącki podłozył se pod głowe, tworzyckom obrócił sie ku stołowi... i co mu ta, ze wyciro łokciami te łzy serdecne, co sie tu wcora polały... <stage>(z lękiem)</stage> O! Znów mie wzieno. Znów mie trzensie. <stage>(ostro do Zośki, która skończyła przesłaniać okna i nie spuszcza z matki przerażonego wzroku)</stage> Nie gop sie Zośka! Skońcyłaś z przesłonianiem okien, to sie z tom Franusiowom poduskom zabiroj... <stage>(prawie płaczliwie)</stage> Kciołam powiedzieć: „jak Fronuś”. Slysone rzecy? Jak Fronuś! <stage>(do Zośki)</stage> Ozwaz sama! Miołabym to sumienie wygoniać cie z chałupy? Nie, Zośka – nie! <stage>(robiąc gest jakby tuliła dziecko do piersi)</stage> Mom ciebie! Mom! Mom! I nie pusce jaz do śmierzci! <stage>(po krótkiej chwili, prawie jak idjotka)</stage> Ino dzisiok trza wedle przyzwoitości. Zebyś wiedziała Zośka, wedle przyzwoitości. <stage>(biorąc za rękę Zośkę, która powoli zbliżyła się do niej)</stage> Pocałujes mie w renke – o tak – bo cyściutka – jo ci nakryśle krzyzycek na cole – o tak – i pójdzies sobie, lignies sobie, zamknies te twoje ślipka... i nawet nie bedzies wiedzioła... <stage>(zrywając się z przerażeniem)</stage> Jezus Marjo! Co jo plote?! Cego nie bedzies wiedzioła?!</p>
+        </sp>
+        <sp who="#zośka">
+          <speaker>ZOŚKA.</speaker>
+          <p>Wyście, Matusiu, chuerzy.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(głaszcząc Zośkę po głowie)</stage> Nie, córecko. Nie. Ino sie casem przywidzi... <stage>(siadając na Frankowem łóżku i machając ręką – szeptem)</stage> Do stajnie. Powiodam ci, do stajnie.</p>
+        </sp>
+        <stage>(Zośka z poduszką w ręku wychodzi)</stage>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(bez ruchu)</stage> Dzienkować Bogu. Juzem myśloł, ze kuńca temu godaniu nie bedzie.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(szeroko otwartemi oczami wpatrzona w jeden punkt podłogi)</stage> A tak – ci – spiesno?...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(przerażający bezczuciem)</stage> Ha no... Kozałaś poprzesłoniać okna. Zośkę wygnołaś do stajnie. Frybra cie trzensie. Fronkowe łózko prózne stoi. Zośki scury nie zjedzom a krowa nie ubodzie. Ten tu śpi. To chyba... byłoby pora na... spocynek. <stage>(pauza)</stage> Mozna ostatecnie pockać jaz sie obudzi. Bo nie wiada co z walizom bedzie i nie wiada, ka legnie. Cy w nosem łóżku, cy we Frankowym łózku. W nosym lo takiego za kwardo. Niekze we Frankowe wlizie. A i trza bedzie myślić o śniodaniu. Coze mu dos. Mliko? mlika mu nie dos. Chybo ze przódy pódzies po zakupy. Ino z tyk Frankowyk piniendzy za krowę nie bier. To na ksiozki. O znów cie trzensie. <stage>(po chwili)</stage> A te pienć dularów, co Zośce doł, to bedzie na przyodziwek. <stage>(po chwili)</stage> A te drugie pienć, co może dorzuci, kie syrce przed nim ozewrzes, to bedzie znowu na obiady. Sprowiedliwie gados. Momy cos. <stage>(po chwili)</stage> A jo co zmarnowałem, odrobie. Krzepki jesce jezdem w sobie... Póde ka na robote... za Fronkiem... Doświarcenie przecie mom... to mu i radom posłuze... I kie sie tak we dwók weźniemy, to... ho ho!... gospodarstwo bedzie rosło jak na drozdzak. <stage>(po chwili)</stage> Sprawiedliwie godas. Mozemy cekoć do rana. <stage>(po chwili wskazując Antka)</stage> Równo dycho. <stage>(po chwili)</stage> Chocia mi sie coś tak widzi, ze trocha lzyj. Mozeby tera spróbować?... <stage>(po chwili ale półgłosem)</stage> Ponie!... <stage>(po chwili)</stage> Ponie!...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która do tej chwili nie zmieniła pozy – jakby budząc się – chrapliwym szeptem)</stage> Cichoj!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Dobra. Momy cos.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(groźnie zacięta)</stage> A momy. Totyz i dobijemy – targu. <stage>(po chwili, wciąż zdławionym półgłosem)</stage> Kciołbyś, coby to była – moja sprawa. Ja kciołabym, coby to była – twoja sprawa! Mnie kces moim Fronkiem pchnonć. A jo ciebie kce pchnonć – wis cem? <stage>(wskazując na walizę)</stage> Tom walizom! Juześ pocontek zrobił. Dokońcys. A jak nie dokońcys, to cie... do kreminału wsodze!! Bo ty na mojij boleści zyrujes. Bo ty mojom boleś podpendzos. Bo ty myślis, że jageś sie umioł bez cołe nase pozycie wymigoć z obowiozku krześcijanina i Ojca, to toksamo i tera potrafis mi sie wymignonć z obowiozku przodowniko? Nie docekanie twoje! Dokońcys. Powiodam ci: dokońcys! Nie lo Fronusia – tegoś nie jes godzien! – Nie lo mnie – potrafiłabym sama! Ale lo twojego wiecystego gałgaństwa i wiecystego... potempienio!! <stage>(oparta o poręcz łóżka opuszcza głowę i prawie obłąkanym wzrokiem patrzy w jeden punkt podłogi)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który od dłuższej chwili kręcił papierosa)</stage> Dobra. Dobra. Ino kumyta se ukrence. <stage>(po chwili zalepiwszy śliną bibułkę)</stage> Gotów. Zapolam – ide. <stage>(wychodzi z papierosem w zębach)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(nie zmienia pozy. Jeden, silny dreszcz, drugi dreszcz, trzeci dreszcz. – Wreszcie szept, potem półgłos)</stage> Chopoku mój... Chopoku... nimo cie... wienc mie... nie ozgrzejes... <stage>(wchodzi ojciec z płachtą na ramieniu i z siekierą w dłoni)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(rzucając płachtę na Frankowe łóżko a potem podając matce siekierę)</stage> Ności płochte i sikire.</p>
+        </sp>
+        <stage>(MATKA. zupełnie machinalnie bierze siekierę od Ojca)</stage>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(sadzając Matkę na familijnem łóżku)</stage> Siednies tu z niom i bedzies nad nim stróżować. <stage>(po chwili)</stage> Ja póde po worki do zydo. <stage>(po chwili)</stage> Zawrzes za mnom drzwi na kluc. <stage>(po chwili)</stage> A kie powróce, zapukom w okno – wpuścis mie – i... dokońce. <stage>(po chwili)</stage> Uwazujes?</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(bez głosu – z siekierą na kolanach)</stage> Uwazuje.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Dobra. <stage>(kładąc kapelusz na głowę wychodzi)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(powoli podnosi głowę i wlepia wzrok w Antka. W oczach jej maluje się rosnące przerażenie. Wreszcie – przez zupełnie zaciśnięte gardło błagalnie)</stage> Ino mi sie nie porus – ino mi sie nie porus... laboga!</p>
+        </sp>
+        <trailer>(ZASŁONA)</trailer>
+      </div>
+      <div type="scene" n="3">
+        <head>Trzecia odsłona</head>
+        <stage type="setting">
+          <p>(W KARCZMIE)<lb />(Lewa ściana [od strony widowni].<lb />Dwa okna. Między oknami ława – przed ławą stół i druga ława – po bokach stołu stołki. Nad ławą kolorowy portret Piłsudskiego.<lb />Środkowa ściana:<lb />W środku ściany oszklony kredens – przed kredensem szynkwas, oddzielony od reszty izby drewnianą balustradą – z lewej drzwi.<lb />Prawa ściana:<lb />Drzwi wchodowe – na pierwszym planie mniejszy stół i cztery stołki. Na środku sufitu wisi zapalona lampa, z blaszaną płaską umbrą, lakierowaną od spodu na biało, od wierzchu na bronzowo.<lb />Za stołem z lewej siedzą parobczaki, złota młodzież. Wśród nich:<lb />FELEK, JASIEK, JĘDREK i STASZEK. Kurzą papierosy, popijają piwo i gwarzą w nieco wlokący się sposób, okraszając rozmowę „śpasami”. ABRAMEK, widocznie rozbawiony i tajemniczo uśmiechnięty, obsługuje parobczaków, lub krząta się za szynkwasem)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#felek">FELEK.</rs>
+            <rs key="#jasiek">JASIEK.</rs>
+            <rs key="#staszek">STASZEK.</rs>
+            <rs key="#jędrek">JĘDREK.</rs>
+            <rs key="#abramek">ABRAMEK.</rs>
+            <rs key="#ojciec">OJCIEC.</rs>
+            <rs key="#kasperek">KASPEREK.</rs>
+            <rs key="#kubuś">KUBUŚ.</rs>
+            <rs key="#ryfka">RYFKA.</rs>
+          </p>
+        </stage>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p><stage>(z pańska rozwalony na krześle)</stage> On sie dar, ona beczała, i tyla było śmichu w narodzie...</p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p><stage>(ruszając ramionami)</stage> Bo ktoby takom padline targował? Strach na wróble nie krowa.</p>
+        </sp>
+        <sp who="#staszek">
+          <speaker>STASZEK.</speaker>
+          <p><stage>(wśród przyśmiechów)</stage> A ino.</p>
+        </sp>
+        <sp who="#jędrek">
+          <speaker>JĘDREK.</speaker>
+          <p>To chyba poprowadzą ją faktycznie z powrotem.</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p><stage>(złośliwie)</stage> Kie po długich breweryjach naleźli kupca – na skórę. <stage>(do Abramka)</stage> Piwa! <stage>(przyśmiechy)</stage></p>
+        </sp>
+        <sp who="#staszek">
+          <speaker>STASZEK.</speaker>
+          <p>Byliby lepiej Zośke pognali a krowE ostawili w stajni.</p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p><stage>(znawca)</stage> Niczego bedzie dzieucha.</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p>Tylko że grosza to nawet i tęgi chłop z niej nie wydoi. <stage>(pełne powodzenie)</stage></p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p><stage>(do Abramka)</stage> Piwa!</p>
+        </sp>
+        <sp who="#staszek">
+          <speaker>STASZEK.</speaker>
+          <p>I mnie!</p>
+        </sp>
+        <stage>(ABRAMEK. obsługuje)</stage>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p>Tak to sie noga powija. Bo wicie co wam powiem nowego? Z Frankowych mądrości także guzik.</p>
+        </sp>
+        <sp who="#jędrek #staszek">
+          <speaker>JĘDREK. STASZEK.</speaker>
+          <p><stage>(z podskórną radością)</stage> Nie gadaj!...</p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p>Przecie widziałem go w mieście.</p>
+        </sp>
+        <sp who="#jędrek #staszek">
+          <speaker>JĘDREK. STASZEK.</speaker>
+          <p>No i co!</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p><stage>(bardzo nonszalancki)</stage> Szuka roboty.</p>
+        </sp>
+        <sp who="#jędrek #staszek">
+          <speaker>JĘDREK. STASZEK.</speaker>
+          <p><stage>(zabawieni)</stage> Jakij?</p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p>Powiada, że mu wszyćko jedno. Akurat! Przecie we flaki nawet biczyska nie uchwyci.</p>
+        </sp>
+        <sp who="#staszek">
+          <speaker>STASZEK.</speaker>
+          <p>Toteż bedzie móg sobie rychło przyśpiwywać: „Kiedym był na roli, miałem bydło hojne: cztery koty do roboty i dwie myszy dojne”. Ha! Ha! Ha! Ha! Ha! <stage>(Parobczaki pochwycili śpiewkę)</stage></p>
+        </sp>
+        <sp who="#jędrek">
+          <speaker>JĘDREK.</speaker>
+          <p>Myszy jak myszy. Ale co gorsze to to, że z nauczycielową córką faktycznie także sie rozlizie!</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p>Byle tylko z nauczycielowej córki co nie „wylazło”.</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p><stage>(wśród śmiechu)</stage> Właśnie! Właśnie! I popiskiwać nie zaczęło!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Chłopaki?... Jeżeliszcze sze już naszmiali, to wam cosz takiego powiem, że was odrazu szlag trafi.</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p>No cóż takiego Abramek?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Słuchajcze. <stage>(po retorycznej pauzie)</stage> Przed – może godżyną – a może i nie – wchodży tutaj goszcz.</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p>Bywa.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>I jeszcze jak biwa... <stage>(ciągnąc dalej)</stage> Czapki podróżne, angielskie – palto podróżne angielskie z paskiem – trzewiki amerykańskie żółte – walizę także amerikańskie, także żółte i ze skóry – na prawym ręku szczirozłote, eleganckie branzolete z zegarkiem – żebim tak zdrów był: cały hrabia. <stage>(do Felka)</stage> Nu?</p>
+        </sp>
+        <stage>(FELEK. rusza ramionami)</stage>
+        <sp who="#jędrek #staszek #jasiek">
+          <speaker>RESZTA PAROBCZAKÓW.</speaker>
+          <p>Cóż dalej?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Zaraz bedże i dalej. <stage>(po chwili)</stage> Kiwa mi głową, szada <stage>(pokazując stół z prawej)</stage> przi tym stole i zaczina patrzecz w te okno. Patrzi tak jakosz dżywacznie, że ni mam szmałoszczy mu przeszkadżacz. Nareszcze mówi niby z chłopska, niby z cudzożemska: „pszo krew chom”. Miszle sobie, zobaczył chomika na pole, niechaj mu bedże i chom. Ale nagle zaczina taksamo patrzecz we mnie. Kłaniam sze raz, kłaniam sze drugi raz, a un wycząga ręke i woła „hau! do miser Abramek!”</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p><stage>(śmiejąc się)</stage> Dobry kawał!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>To mi sze przestało podobacz. Wolno mu potrzebowacz ser – dlaczego nie – jak chce to mu go nawet i dam – ale poco odrazu szczeka? Nie koniec na tem. Kiedy zobacził, że jestem w kłopocze, co z nim robycz, podchodży do mnie, wali mie pięszczem w plecy, krziczy do mnie jak do telefon „halo” – i pita czy go nie poznaje? Tym razem miszle sobie: warjat. Nic innego tylko warjat. Więc dla szwentego spokoju mówię, że poznaje. I zaczynamy tak rozmawacz: "– Pan dobrodżej z daleka? – Z Amerika. – Pan dobrodżej daleko? – Do końca wszy. – Do końca jakij wszy? – Do końca naszyj wszy." <stage>(po pauzie)</stage> A reszte sobie zgadujcze.</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p>No! Abramek! Któż to taki? No!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Któż to taki? A szlag was napewno nie trafi?</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p>Nie róbcie głupich kawałów Abramek!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Tam dobry kawał, tu głupi kawał, niech bedże na trzeciego i żaden kawał. <stage>(po pauzie)</stage> Antek Sziwałka.</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p><stage>(aż przerażeni, zrywając się)</stage> Co?!!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Antek Sziwałka.</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p><stage>(opadając na ławy – grobowo)</stage> Psia krew dopiro!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>A psza krew. Psza krew. <stage>(do Felka)</stage> Radze kupowacz Zoszke. Kto ją kupi, ten wydoi z niej gruby dolar... Widżałem przi płaceniu. <stage>(ilustrując gestem jakby pakę książek)</stage> Tyle.</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p><stage>(tragiczny)</stage> Psia krew dopiro!</p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p><stage>(również tragiczny)</stage> Patrzcie państwo! Antek.</p>
+        </sp>
+        <sp who="#staszek">
+          <speaker>STASZEK.</speaker>
+          <p><stage>(z błyskiem nadziei)</stage> Jakże! Przecie od roku ani słychu, ani dychu!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>A poco ma bicz słych albo dych? Daleko lepij zobaczicz i... <stage>(robiąc palcami ruch liczenia pieniędzy)</stage> dotknącz.</p>
+        </sp>
+        <sp who="#jędrek">
+          <speaker>JĘDREK.</speaker>
+          <p><stage>(zapominając o faktycznościach)</stage> A godał wam ta jeszce co wiency?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Dlaczego ni miał gadacz? Gadał. Gadał, że wibuduje murowany dwór – że kupi... kiedy sze boje.</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p><stage>(rozgorączkowani)</stage> ... że kupi co?!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Pendżeszont morgi żemie.</p>
+        </sp>
+        <sp who="#jędrek #jasiek #staszek">
+          <speaker>JĘDREK. JASIEK. STASZEK.</speaker>
+          <p><stage>(zrywając się jednocześnie)</stage> Rany Boskie! Jezu Marja! Chryste Panie!</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p><stage>(wściekły)</stage> E! wy nas nabiracie, Abramek!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Jak własnim dżeczom zdrowia żicze.</p>
+        </sp>
+        <stage>(PAROBCZAKI. opadli na ławy)</stage>
+        <stage>(pauza)</stage>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p><stage>(zupełny grób)</stage> To starym urządził niespodziankę!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>A własznie. Dlatego tych dychów od roku nie puszczał.</p>
+        </sp>
+        <stage>(pauza)</stage>
+        <sp who="#staszek">
+          <speaker>STASZEK.</speaker>
+          <p><stage>(żałobnik)</stage> Ale też to będą tera deli.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Jeszczebi nie?</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p><stage>(razem jak na komendę)</stage> Piwa!!!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(biorąc kufle)</stage> Tak, tak. Najlepij na poczekaniu zapicz.</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p>Bez przymówek, Abramek! Niech sobie siedzą na stu morgach, na dwustu morgach... Cóż nas to może obchodzić?</p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p>Jak nam wlizie w drogę, to i tak nauczymy go rozumu.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(za ladą napełniając kufle)</stage> Chłopaki?... Radze z temi rozumami ostrożnie. Tutaj już biła awanture. Zaczepiło go dwóch. Kubusz Czajka i Kasperek Gwóżdż. Powiadam wam żaden geszeft. Tylko podwinął rękawy – cosz tam po angielsku krziknął, i tak sztucznie huknął w szczęki, że obaj przez te całe izbe poleczeli jak aeroplan. <stage>(stawia piwo przed parobczakami)</stage></p>
+        </sp>
+        <sp who="#staszek">
+          <speaker>STASZEK.</speaker>
+          <p><stage>(fachowo)</stage> Bo na takiego trza od tyłu.</p>
+        </sp>
+        <sp who="#jędrek">
+          <speaker>JĘDREK.</speaker>
+          <p>Kiedy sie najmnij spodziwa.</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p>I kupą. <stage>(w drzwiach z lewej staje Ojciec)</stage></p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p>Cicho, cicho! stary idzie!</p>
+        </sp>
+        <stage>(Wszystkie oczy zwróciły się w stronę Ojca, oczekiwano pysznego nuworysza, tymczasem zjawiła się postać patrząca z podełba, ponura, tępa, drewniana)</stage>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(pełen domyślników, znacząco uśmiechnięty)</stage> Witamy! Witamy! Witamy!...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który wodził po obecnych wzrokiem pełnym niepokoju – twardo i ponuro do Abramka)</stage> Cóz to za takie! <stage>(do parobczaków)</stage> A wy cóze sie tok wygopiacie!</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p><stage>(drwiąco)</stage> Widocznie mamy powody.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(nie mogąc ukryć lęku)</stage> Jokie?!</p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p>Papirkowe!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który drgnął, prawie groźnie)</stage> Przekpiwojcie se dalij. Przekpiwojcie se dalij. Potrafiłem ścirpieć w mieście, potrafię ścirpieć i tutok.</p>
+        </sp>
+        <sp who="#staszek">
+          <speaker>STASZEK.</speaker>
+          <p>Szczęść Boże!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(który od pierwszych słów Ojca, zaczął mu się bacznie przypatrywać – na str.)</stage> Dżywne.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(Podszedł do stołu z prawej i usiadł zwrócony plecami do parobczaków. Ale grobowa cisza na scenie zaczyna działać. Niepokój zamienia się w przerażenie. Dolna szczęka opada – ręce zaczynają drżeć. Trzeba koniecznie zobaczyć co oni tam robią! Trzeba się powoli, ze złodziejską ostrożnością odwrócić. Źle! Abramek, który nie miał czasu oddalić się od parobczaków, stoi z głową na bakier – wykrzywia się, jakby go słońce raziło – nerwowemi palcami skubie brodę i, chociaż przymknął jedno oko, wkręca aż do wnętrza, dwa ślepia jak dwa stalowe świderki! Brrr! A parobczaki? Nie lepiej! Ręce w kieszeniach – bazyliszkowe spojrzenia – jakieś paskudne, wrogie uśmiechy – coś wiedzą! Czegoś się domyślają! Lepiej zakończyć badania, patrzeć w stół, przy którym się siedzi, i byle co powiedzieć. Ale co? Aha)</stage> Cystom z kroplomi. <stage>(Ponowne, tym razem błyskawiczne badanie. Parobczaki mrugnęli na siebie porozumiewawczo. Abramek widocznie nie słyszał. Nagły strach przepędza ojcowe ręce przez wszystkie kieszenie. Tępa konsternacja, na str.)</stage> Psio krew, zabacyłem se piniondze! <stage>(głośno a nieśmiało)</stage> Jobramek?... Zabacyłem se piniondze.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(bez zmiany pozy)</stage> Nie szkodży, gospodarzu. Od dżyszaj możecze bracz na kredyt.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(z dreszczem w głosie)</stage> Uod dzisioj?!... <stage>(zamaskowany)</stage> Pewno ze moge. Przedołem krowę, to piniondze mom. <stage>(po chwili)</stage> Cystom z kroplomi.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(j. w.)</stage> No a... do domu... niby... nic?...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(j. w.)</stage> Do domu?... <stage>(znów zamaskowany)</stage> Pewno ze nic.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(półgłosem)</stage> Dżywne.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(podejrzliwie)</stage> Coze wos tak dziwi?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>To, że do domu nic.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(ruszając ramionami)</stage> Poco i la kogo?</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p><stage>(drwiąco)</stage> La Zośki!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(którym lekko szarpnęło, udając, że nie słyszał, do Abramka, ostro)</stage> Dojecie te cystom, cy nie dojecie!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(jakby budząc się)</stage> Daje, daje. <stage>(idzie za ladę, nalewa kieliszek wódki, z malej flaszeczki, dodaje parę kropel anodyny)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Chocia... po namyśle... toby sie moze... i co... nolazło. Juz wiem. Ni mocie ta ka pod renkom... dwók takik... sporyk... takik sporyk... worków?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(który podszedł z wódką, stawiając przed ojcem kieliszek)</stage> Worków? A na cóż wam po nocy worki, gospodarzu?</p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p><stage>(drwiąco)</stage> Na dulary!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(zrywając się i podnosząc zaciśniętą pięść ryczy)</stage> Stulić mordy!!! <stage>(z oczami wysadzonemi na wierzch, zdławionym głosem)</stage> Stulić mordy!! <stage>(opadając na krzesło, jakby rażony apopleksją – prawie szeptem, krótko)</stage> Stulić mordy.</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p><stage>(którzy zerwali się na równe nogi)</stage> Laboga!</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p><stage>(b. poważnie)</stage> Chyba mu rozum odjeło.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(potrząsając wskazującym palcem, a wciąż chrapliwym półszeptem, jak człowiek duszony)</stage> Nie... Nie... Nie odjeno!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(który skoczył za balustradę)</stage> Gospodarzu! Uspokójcze sze! Na myły Bóg uspokójcze sze!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(j. w.)</stage> Wy... na targu... z mojij krowy... wasa wola! Wy na targu... z mojego Fronka... wasa wola! Wy... tutok... z mojij Zośki... wasa wola! Ze wsyćkiego śmichy... ale z dularów... wara!!... Bo... bo... <stage>(bez tchu)</stage> Jobramek!... Cystom... z kroplomi.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(przypadając z butelką w ręku, stawiając ją na stole, chwytając nalany kieliszek i przykładając do ust ojca)</stage> Macze, macze, macze, macze! Pijcze. No pijcze!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(po wypiciu – zupełnym szeptem)</stage> Bóg wam zopłać. <stage>(wyciągając rękę)</stage> Jesce.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(roztrzęsiony, nie nalewając, ale przelewając kieliszek)</stage> Ile tyko chcecze! Ile tyko chcecze!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(biorąc kieliszek j. w.)</stage> Bóg wam zopłać. Jesce.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(j. w.)</stage> Tak. tak. Najlepszi do czech razy. Do czech razy, gospodarzu.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Juści. <stage>(wypił, wysapał się)</stage> Ulzyło. <stage>(po chwili)</stage> Trocha ulzyło. <stage>(po dłuższej chwili)</stage> Bo mie tak... ozeźlili. <stage>(po chwili)</stage> Bo w chaupie ino cięgiem... a taki a owaki... <stage>(po chwili)</stage> Wszyćko zawdy mojo wina. <stage>(po chwili)</stage> I Fronek mojo wina – i Jontek mojo wina – i wsyćko mojo wina. <stage>(po chwili)</stage> To sie na kóniec uprzyksy. <stage>(po chwili)</stage> Nowet obity kóń, kie weznom na niego kłonice... <stage>(po chwili)</stage> A cóz dopiro cłowiek.</p>
+        </sp>
+        <sp who="#staszek">
+          <speaker>STASZEK.</speaker>
+          <p>Żeby my byli przewidzieli, że wam takom krzywde wyrządzimy...</p>
+        </sp>
+        <sp who="#jędrek">
+          <speaker>JĘDREK.</speaker>
+          <p>Ale my faktycznie nie przewidzieli.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(zupełnie opanowany gracz)</stage> Jo wiem, chopoki. Jo wiem. Kużdy musi sam doświarcyć. Na bidę potrzyć nie wystorca. Trza z niom jak z własnom babom. W łózku, za stołem – wsendy. Dopiro woncas sie wi, co ona jes i być potrafi.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Słuchajczeno. Ja chczałbim postawicz wam pitanie... ale takie pitanie, jakże to powiedżecz... dyłykatne nature.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który badawczo spojrzał na Abramka)</stage> Pytojcie.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Czi... czi... nie zastaliszcze... w domu... jakiego... <stage>(szybko)</stage> goszcza?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(któremu oczy wylazły ponownie na wierzch – po opanowaniu się, załgany)</stage> Nie.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(podskakując)</stage> Jakto! <stage>(siląc się na spokój ale wciąż przyspieszając tempo)</stage> Nie zastaliszcze goszcza w angielskie czapki, angielskie palto z paskiem, amerikańskie trzewiki, amerikańskie walize i złote branzolete na prawe renke?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(najzupełniej opanowany)</stage> Nie.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(w gorączce do parobczaków)</stage> Chłopaky! Macze dwa kroki! Niech jeden skacze po Kubusza Czajke a drugi po Kasperka Gwożdża! Ale duchem chłopaky! I czycho sza!</p>
+        </sp>
+        <sp who="#staszek #jasiek">
+          <speaker>STASZEK. JASIEK.</speaker>
+          <p><stage>(wstając)</stage> Dobra. <stage>(wychodzą)</stage></p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(goniąc po scenie)</stage> To sze muszy dojszcz! To sze muszy dojszcz!! To sze za każdi ceny muszy dojszcz!!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który z rosnącym niepokojem patrzył w Abramka – niby od niechcenia)</stage> Coz wom sie tokiego wydozyło.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(wyprowadzony z równowagi)</stage> Co mi sze takiego widarziło? Może okropne rzeczi mi sze widarziło! Un tutaj u mnie jadł! Un tutaj miał gruby dolar w kieszeni! Uni sze tutaj potrzebowali pobicz! A jak uni sze tutaj potrzebowali pobicz, to i na goszczyńcu mogło wibuchnącz katastrofe, bo oni dżyszaj nie tylko żgacz, ale i szczelacz potrafią!</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p><stage>(pukając się w głowę)</stage> Gdzieby kto na gościńcu w biały dzień...</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Tu nima żaden goszczynec ani biały dżeń! Tu jest gruby dolar! A gdzie jest gruby dolar, tam może bicz nawet biały dżeń, bo dolar nie jest żadne sowe!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Pewno. Wedle figury majom dobry plac. Wokiel ino las. Kto ik ta wi. Mogli go dopaść od tyłu – a chociaby i sielny chłop był, to dwom rady nie da, kie sie napadu nie spodziwo.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Własznie! Własznie! Tak biło z Wicuszem Bombą, tak biło z Władkiem Feluszem...</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p><stage>(wpadając w słowo)</stage> Gadacie a nie rozumicie sie na rzeczy. Plac dobry. Nima co. Ale sprawa musi sie zawdy odleżeć, bo inaczy taki bedzie strzyg uszami, i żaden furtel sie nie uda.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(w szale)</stage> Na dolar nima żaden fortel! Na dolar nima żadne odkładanie! Dolar czągnie gorzy jak dżywke! Dolar czągnie jak maszine parowe! Kto go zobaczi, temu odrazu namientnoszcze buchną do głowe i czi dobry plac, czi niedobry plac... <stage>(spostrzegając Kasperka i Kubusia z napuchniętemi gębami, za którymi weszli Staszek i Jasiek)</stage> Idą!<stage>(rzucając się ku przybyłym)</stage> Kubusz! Kasperek! Gdże un jest!</p>
+        </sp>
+        <sp who="#kasperek #kubuś">
+          <speaker>KASPEREK. KUBUŚ.</speaker>
+          <p>Kto taki.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Co znaczi „kto taki”! Un!</p>
+        </sp>
+        <sp who="#kasperek #kubuś">
+          <speaker>KASPEREK. KUBUŚ.</speaker>
+          <p><stage>(już źli)</stage> Joki on?!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>No on! Ten goszcz w angielskie czapke, angielskie palto...</p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p>A bo my ta wiemy?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Wiecze! Wiecze! Wy muszycze wiedżecz! Wybił wam przeczie zęby...</p>
+        </sp>
+        <sp who="#kasperek">
+          <speaker>KASPEREK.</speaker>
+          <p><stage>(oburzony wpadając w słowo)</stage> Żadnych nam zębów nie wybił, ino nam gęby...</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(w szalonem tempie, przerywając)</stage> Czi zęby, czi gęby...</p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p><stage>(przerywając, ryczy)</stage> Nieprowda! Krwi nie było!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Słuchajcze chłopaki! Un przepad! Czy wy mie rozumicze?! Un przepad! A wiszed przed wami! A wyszcze wiszli po nim! A wiadomo, że jesteszcze – za przeproszeniem – zbijaki i że tam, pod figure, jest dobri plac na takie robote nawet w biały dżeń! Pamiętacze jak biło z Wicuszem Bombą, z Władkiem Feluszem...</p>
+        </sp>
+        <sp who="#kasperek">
+          <speaker>KASPEREK.</speaker>
+          <p><stage>(przerywając)</stage> Z Władkiem Felusiem było...</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Tu nie o Władka Felusza chodży! Tu nie o Władka...</p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p><stage>(wściekły, przerywając)</stage> Dajcież nam sie wygadać do stu djabłów!!!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(składając ręce i wciąż przerywając)</stage> Chłopaki, Chłopaki! Zaklynam was na wasze matki, na wasze ojce, na wasze dżeczy!...</p>
+        </sp>
+        <sp who="#kasperek #kubuś">
+          <speaker>KASPEREK. KUBUŚ.</speaker>
+          <p><stage>(w pasji)</stage> Jakie dzieci!!!?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(robiąc przeczące ruchy ręką)</stage> Żadne dżeczy! żadne dżeczy!...</p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p><stage>(przerywając)</stage> Psia krew! Jak nam gadać nie dacie, to sie wyniesiemy!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>No to gadajcze! Gadajcze!</p>
+        </sp>
+        <sp who="#kasperek">
+          <speaker>KASPEREK.</speaker>
+          <p><stage>(uspokojony)</stage> Z Władkiem Felusiem, były porachunki we dwa tygodnie po bitce.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(nie mogąc dłużej wytrzymać)</stage> Już wiem! Już wiem! Na myłoszcz boski już wiem!</p>
+        </sp>
+        <sp who="#kasperek">
+          <speaker>KASPEREK.</speaker>
+          <p><stage>(przerywając)</stage> Kiedy nie dopuścicie do słowa!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Dopuszczę do słowa! Już dopuszczyłem do słowa! Ale tu o krymynał chodży! Tu o gruby dolar chodży! A wyszcze tutaj byli, i un tutaj był, i ja tutaj był, i gruby dolar tutaj był i wsziscy tutaj byli i awanture tutaj byli, i wiszed przed wami, i wiszcze wiszli po nim...</p>
+        </sp>
+        <sp who="#felek #kasperek">
+          <speaker>FELUŚ. KASPEREK.</speaker>
+          <p><stage>(razem)</stage> Skończycie, czy nie skończycie do pioruna!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(rzucając się w stronę stołu i chwytając butelkę)</stage> Skończiłem! Skończiłem! Macze chłopaky! Poszylcze sze, pokrzepcze sze i z całe sumiennoszcze...</p>
+        </sp>
+        <sp who="#kasperek">
+          <speaker>KASPEREK.</speaker>
+          <p><stage>(który nagle spoważniał i przetarł palcem otwór butelki, przepijając do Abramka)</stage> Wasze zdrowie. <stage>(gdy dobrze, z dwoma odpoczynkami pociągnął, podając flaszkę Kubusiowi)</stage> Bier. <stage>(ociera gębę rękawem)</stage></p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p><stage>(zachowując identyczny rytuał)</stage> Wasze zdrowie. <stage>(oddając flaszkę Abramkowi)</stage> Bierzcie.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(który ani na chwilę nie przestał mówić, wtrącając po przepijaniach parobczaków błyskawiczne i odruchowe „dziękuję”)</stage> ... całe katołyckie sumiennoszcze – dżenkuje – na jakie was stacz, powiedzcze nagie prawde, caluszeńkie nagie prawde, co sze dżało na goszczyńcu, co sze dżało przed figure, co sze dżało pod figure, co sze dżało za figure, coszcze widżeli, coszcze widżeć mogli, czegoszcze nawet wydżecz nie mogli – dżenkuje – a czego domiszlacz sze możecze – bo w tak poważne sprawe, nima jeden szczegół, jeden taki drobnostki, który w razie dochodzenia sondowego nie poszadałby ogromne, pierwszorzędne znaczenie...</p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p><stage>(po obtarciu gęby dłonią)</stage> No to wam tera powimy.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(zupełnie wyczerpany, trzymając butelkę w dłoni)</stage> Mówcze chłopaky. Mówcze.</p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p>Z Władkiem Felusiem...</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(podskakując)</stage> Znowu Władek Felusz! Znowu Władek Felusz!</p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p><stage>(który poczekał cierpliwie, w zamian za poczęstunek)</stage> Z Władkiem Felusiem były porachunki we dwa tygodnie...</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>... po bitce. Tak tak tak!</p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p><stage>(już zły)</stage> ... po bitce! Z nim będą porachunki także we dwa tygodnie po bitce, bo przódy by sie spodziwał, a jakby sie spodziwał, toby my mu rady nie dali. Zmówimy Felka, Jędrka, Staszka...</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(przerażony)</stage> Więc przepad?!!!</p>
+        </sp>
+        <sp who="#kasperek">
+          <speaker>KASPEREK.</speaker>
+          <p>Któż wam powiedział, że przepad? Nie przepad, bom widział jak wchodził do...<stage>(wskazując ojca)</stage> Szywałowej chałupy.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(jakby go piorun strzelił)</stage> Do Szywa...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który z zapartym oddechem śledził przebieg sprawy, gwałtownie)</stage> Łgarstwo!!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(do Ojca, jednym tchem)</stage> Czycho, czycho, czycho, czycho! <stage>(do Kasperka)</stage> Powiada, że łgarstwo.</p>
+        </sp>
+        <sp who="#kasperek">
+          <speaker>KASPEREK.</speaker>
+          <p>Jakże łgarstwo, kie na żywe oczy widziałem. <stage>(do Ojca)</stage> Może was w chałupie nie było.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(opanowany)</stage> Łgarstwo. Na pocontku, kie was pytano, godaliście, ze nie wicie. A tera godacie, ze wicie.</p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p>Ja gadałem a nie Kasperek gadał. To raz. A co gadałem? Gadałem, że nie wima ka teraz siedzi. Bo i nie wima. To dwa.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Wsyćko łgarstwo.</p>
+        </sp>
+        <sp who="#kasperek">
+          <speaker>KASPEREK.</speaker>
+          <p>No to przywołajcie Zośke a obaczymy czy łgarstwo!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(uderzając się w głowę)</stage> Dzicie! Do krzty byłbym se Zośke zabocył! Sprawiedliwie goda. Beło tak:</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(jednym tchem)</stage> No, no, no, no, no!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(załgany)</stage> Kie powrócili my z miosta...</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>No...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Zośka – jak to gupia Zośka – jena cosi wyplotać mojij kobicie.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>No no...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>...ze przyseł jokiś ta miemiec, cy nie miemiec, bo zodnym ludzkim jenzykiem nie godał...</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Dalej...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>... nosłany od was.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>żebim tak zdrów był...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>... prosić o noclig.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(w siódmem niebie)</stage> Jak w pudełeczko. Jak w pudełeczko.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Tłumacył się niby, ze to w kilku załozyły sie o dulary, który którego przegoni...</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(przerywając)</stage> ... i że przegonił, i że robi niespodżanke jak żabe z diszczem, i że potrzebuje położicz sze na bardzo wigodne łóżko...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Juści – ale co ta mioł za przyodziwek, to nie powiem, bo Zośka wygnoła go prec.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(drugi piorun)</stage> Precz?!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>A prec.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>I poszed sobie??!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>A posed.</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p>Więceście nas nabrali Abramek!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(gwałtownie do parobczaków)</stage> Czycho! <stage>(z błyskawiczną szybkością wpadając w żartobliwy ton)</stage> Wiszcze sze szmiali, to i ja sze szmiał. <stage>(podając Felkowi butelkę)</stage> Wypijcze za te pendżeszęczomorgowe boleszcz, chłopaky.</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p><stage>(śmiejąc się)</stage> To ci jucha! To ci jucha!</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p><stage>(jednocześnie biorąc butelkę)</stage> Hycel z was! <stage>(przepijając do Jaśka)</stage> W twoje ręce.</p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p>Najlepszego. <stage>(przepijając do Staszka)</stage> W twoje ręce.</p>
+        </sp>
+        <sp who="#staszek">
+          <speaker>STASZEK.</speaker>
+          <p>Najlepszego. <stage>(przepijając do Jędrka)</stage> W twoje ręce.</p>
+        </sp>
+        <sp who="#jędrek">
+          <speaker>JĘDREK.</speaker>
+          <p>Najlepszego. <stage>(ciągnie z butelki do dna)</stage></p>
+        </sp>
+        <stage>(Jednocześnie z przepijaniem toczy się następująca sprawa)</stege>
+        <sp who="#kasperek">
+          <speaker>KASPEREK.</speaker>
+          <p><stage>(bezpośrednio po słowach Abramka)</stage> A za nase gemby kto nam zwróci!</p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p>Trza sie odrazu brać do rzecy.</p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p>Ino przepijemy.</p>
+        </sp>
+        <sp who="#staszek">
+          <speaker>STASZEK.</speaker>
+          <p>Cała śtuka w tem, żeby go odnaleść.</p>
+        </sp>
+        <sp who="#jędrek">
+          <speaker>JĘDREK.</speaker>
+          <p>Mucha! Nie móg iść ka indziej jak w strone miasta.</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p>Dopadniemy go za figurom.</p>
+        </sp>
+        <sp who="#kubuś">
+          <speaker>KUBUŚ.</speaker>
+          <p>Spieszcie się!</p>
+        </sp>
+        <sp who="#jasiek">
+          <speaker>JASIEK.</speaker>
+          <p>Nima gwałtu. Zdrożony.</p>
+        </sp>
+        <sp who="#jędrek">
+          <speaker>JĘDREK.</speaker>
+          <p><stage>(stawiając flaszkę na stole)</stage> Pusta.</p>
+        </sp>
+        <sp who="#felek #jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p><stage>(podciągając w pasie portki: czynność, niezbędna przed każdem ważnem przedsięwzięciem)</stage> To idziemy.</p>
+        </sp>
+        <sp who="#felek">
+          <speaker>FELEK.</speaker>
+          <p>Idziemy. <stage>(do Abramka)</stage> A za poczęstunek Bóg zapłać! <stage>(wychodzi)</stage></p>
+        </sp>
+        <sp who="#jędrek #staszek #jasiek">
+          <speaker>PAROBCZAKI.</speaker>
+          <p><stage>(ruszając w bój za Felkiem)</stage> Bóg zapłać. <stage>(wyszli)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Tera dowajcie te worki.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Gospodarzu. Ja musze z wami na osobnoszczy.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Ni mom casu.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Muszycze miecz czas. Ja tych chłopaków nie nabirał. Jabim tych chłopaków stąd nie wipuszczał, gdibym ja nie wiedżał, że un jest – u was.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(bardzo spokojny, bo gotów w danym razie i zabić)</stage> Skondze tak wicie.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Wy sze przed nimi kryjcze. Szczeżonego Pan Bóg szczerze. Ale wy sze przedemną kricz nie potrzebujecze, bo ja... wszistko wim.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(j. w.)</stage> Wsyćko?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Gadaliszcze z nim?</p>
+        </sp>
+        <stage>(OJCIEC. przymknął oczy i milczy)</stage>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>No mówcze. Gadaliszcze z nim, cziszcze z nim nie gadali.</p>
+        </sp>
+        <stage>(OJCIEC. j. w.)</stage>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Ja was nie zdradze, gospodarzu.</p>
+        </sp>
+        <stage>(OJCIEC. j. w.)</stage>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Ja was prziszengam na głowe moje dżeczy, że o tych pietnaszcze tysiency dolary ani słóweczka nie pisne.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Kcielibyście do spółki?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Do jakie spółki?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>A cóze wy przypuscocie?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>A o co wy sze pitacze?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Jo sie nie pytom. Jo sie ino dziwuje.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Słuchajcze mie. Gdybyszcze byli z nim gadali, tobyszcze nie byli weszli tu tak, jakeszcze weszli, i nie bylibyszcze skoczili na te dolary, tak jakeszcze skoczili. Alboszcze z nim nie gadali, albo...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Jobramek... Radze wam... <stage>(uderzając się pięścią w piersi)</stage> tak uod syrca wam radzę... dojcie te worki, i w policyjom sie nie bowcie. Bo za takom zabawe mozna cosami drogo zapłacić.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Tak mówycze? To ja wam odpowiem tilko tyle: Nie jest żaden niemiec – z nikim sze o nic nie zakładał – nikogo nie przeganiał – o żaden nocleg proszicz sze nie potrzebował – a szedł piechotą, bo w dżeń targowy nie dostał furmanke na stacje.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>To cemu... <stage>(urywa)</stage></p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(skwapliwie)</stage> Co czemu?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(po chwili)</stage> Ile kcecie.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(przykładając dłoń do ucha)</stage> Jak?</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(gwałtownie)</stage> No ile kcecie!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Za co.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Kie wsyćko wicie, toście powinni i to wiedzić.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Tego nie wim.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>W zydoskie przysiengi nie wierze.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Szkoda.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(b. gwałtownie)</stage> Nie wierze! <stage>(spokojnie)</stage> Lotego po raz ostatni was pytom: ile kcecie.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Za worki tile, ile sze należi.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(waląc pięścią w stół)</stage> Nie za worki!!!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>A nie za worki, to ja wam jeszcze dopłace. <stage>(po chwili)</stage> Dlaczegoszcze z nim nie gadali?</p>
+        </sp>
+        <stage>(OJCIEC. milczy)</stage>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(prawie ostro)</stage> Dlaczegoszcze z nim nie gadali? <stage>(po chwili)</stage> Jeżeliszcze z nim nie gadali, to chiba że zasnął, a że był umordowany i po kiełyszku, więc nie moglyszcze sze go dobudżicz.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(kryjąc zmieszanie)</stage> Ani nie zasnoł, ani my go nie budzili, bo go nimo.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>To w takim razie... <stage>(wskazując na Ojca palcem – ostro)</stage> nie żije!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który drgnął, maskując się)</stage> Opentało was?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(krzycząc)</stage> Nie opentało mie! Un jest u was! Un u was nie może nie bicz! Jego Zoszke nie mogła wygonicz! <stage>(półgłosem, jakby poufnie)</stage> Powiczcze, dla wasz własny interes – powiczcze, żebim wam dalij móg całe prawde wyjawicz, a żebi z was tu na miejscu nie był nieboszczik... <stage>(prawie krzycząc)</stage> żije, czi nie żije?!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(którym zachowanie się Abramka wstrząsnęło)</stage> Śpi.</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(opadając na krzesło)</stage> Dżenkowacz Bogu. Dżenkowacz Bogu Najwiższemu. Aż mi sze słabo robyło. No to wypyjcze za jego i za wasze zdrowie. <stage>(po chwili)</stage> Będżecze miecz murowany dwór – będżecze miecz pendżeszont morgi żemie – będżecze miecz wyedukowany Franek – będżecze miecz posag Zoszke – i niech was najjaszniejszy szlag trafi za całe moje zmartwie... Co sze z wami dżeje?!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który słuchał z rosnącem przerażeniem i który mienił się na twarzy – waląc się na ławę – strasznym głosem)</stage> Rety!!!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(oszalały)</stage> Ryfke!! Ryfke!!</p>
+        </sp>
+        <sp who="#ryfka">
+          <speaker>RYFKA.</speaker>
+          <p><stage>(stając w drzwiach w głębi)</stage> Co jest?!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(wijąc się i trzymając za głowę)</stage> Rety!!!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(nagle chwytając Ojca za ramię i potrząsając nim – natarczywie)</stage> Prędko! Prędko, gospodarzu! Jaknajprędzyj!! Ile nóg starczi!! Ile nóg starczi!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(zrywając się jak szalony i wypadając przez drzwi z lewej)</stage> Rety!!!</p>
+        </sp>
+        <sp who="#ryfka">
+          <speaker>RYFKA.</speaker>
+          <p>Co jest?</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p>Co jest? <stage>(po chwili opanowując się i pokazując lewe drzwi)</stage> Un – zwarjował – ze szczęszcza.</p>
+        </sp>
+        <trailer>(Zasłona)</trailer>
+      </div>
+      <div type="scene" n="4">
+        <head>Czwarta odsłona</head>
+        <stage type="setting">
+          <p>(IZBA W DOMU SZYWAŁÓW)<lb />(Dekoracja jak w drugiej odsłonie. Z tą różnicą że koło ławy zewnętrznej stoi wiadro z wodą. Z pod paradnego łóżka wystają nogi Antka. Na ziemi leży porzucona siekiera. Waliza na tem samem miejscu, lecz zupełnie otwarta)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#matka">MATKA.</rs> 
+            <rs key="#ojciec">OJCIEC.</rs>
+            <rs key="#ludzie_wsiowi">LUDZIE WSIOWI.</rs>
+            <rs key="#stary_chłop">STARY CHŁOP.</rs>
+            <rs key="#abramek">ABRAMEK.</rs>
+          </p>
+        </stage>
+        <stage>(MATKA. z podwiniętemi po łokcie rękawami od koszuli i z podkasaną spodnicą, szoruje ryżową szczotką stół, poczem wyciera go ścierką, popłukiwaną i wykręcaną w wiaderku. Pracy tej towarzyszy zacięcie ust, zmarszczka na czole i przerażająco oschła precyzja ruchów. Po długiej pauzie zapełnionej grą matki, słychać za sceną gwałtowne dobijanie się do drzwi z lewej, ale do dalszych, wchodowych)</stage>
+        <sp who="#ojciec">
+          <speaker>GŁOS OJCA.</speaker>
+          <p><stage>(przytłumiony, dolatujący z dworu)</stage> Puscoj!! Puscoj!!</p>
+        </sp>
+        <stage>(MATKA. nie przerywa zajęcia. Ani nie drgnęła, ani nie zmieniła wyrazu twarzy)</stage>
+        <sp who="#ojciec">
+          <speaker>GŁOS OJCA.</speaker>
+          <p><stage>(po chwili zupełnej ciszy, przy ponownem dobijaniu się do drzwi)</stage> Puscoj! Puscoj! <stage>(gwałtowny trzask, jakby wywalonych drzwi, i ciężkie, szybkie kroki)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>GŁOS OJCA.</speaker>
+          <p><stage>(i walenie pięścią, tym razem w drzwi z lewej)</stage> Na rany Boskie puscoj!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w. suchym, donośnym głosem)</stage> Ozwarte! <stage>(Łomot – drzwi otwierają się z trzaskiem, na progu stoi Ojciec, nie do człowieka podobny: goła głowa, oczy na wierzch wysadzone, włosy i twarz zlane potem, jakby je co dopiero wyciągnięto z wody, świszczący, dychawiczny oddech – trupia bladość)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(po chwili prawie że obłąkanego rozglądania się po scenie)</stage> Ka on!!!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(nie przerywając zajęcia, tylko pokazując głową na Frankowe łóżko)</stage> How.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Ka!!!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> Pod Frankowem łózkiem.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(spostrzegając nogi Antka, łapiąc się za głowę i zataczając się na ławę pod piecem)</stage> Jezu!!! <stage>(wali się na ławę)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(kończąc wykręcanie ścierki nad wiaderkiem)</stage> Porusył sie. <stage>(rzucając ścierkę na stół i biorąc wiaderko)</stage> Ide zmienić wode. <stage>(wychodzi)</stage></p>
+        </sp>
+        <stage>(OJCIEC. wciąż trzymając się oburącz za głowę, chwieje się wahadłowym ruchem na boki i najwidoczniej robi nadludzkie wysiłki, ażeby móc krzyczeć, mówić – napróżno. Wargi się tylko poruszają, ale poza świszczącym oddechem, żaden dźwięk z ust jego nie wychodzi)</stage>
+        <stage>(MATKA. wraca z wiadrem świeżej wody)</stage>
+        <stage>(OJCIEC. zrywa się, chwyta Matkę za ramię i, wciąż bezgłośnie ruszając wargami, wskazuje rozpaczliwie na Antkowe nogi)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która przystanęła i ze wstrętem spojrzała na Ojca – otrząsając się – sucho)</stage> Mowe ci odjeno? Nie wielko strata. Nagodałeś sie dość. Tera trza robić, nie godać. <stage>(idzie w stronę stołu – stawia wiaderko na ziemi – bierze ze stołu ścierkę – i, co chwila zanurzając ją w wodzie lub wykręcając nad wiaderkiem, zaczyna myć ławę)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(przez chwilę potrząsa rękami, wreszcie wydobywa się z jego gardła, podobne do ryku niemowy)</stage> Uaaaa!!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(myjąc ławę)</stage> Nie drzyj sie.</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(po chwili nadludzkich wysiłków)</stage> Zyd...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(j. w.)</stage> Nima worków? Wszyćko jedno.</p>
+        </sp>
+        <stage>(OJCIEC. przypada do Matki i ponownie chwyta ją za ramię)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(otrząsając się – groźnie)</stage> Ostaw!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który puścił Matkę, obchodzi stół – staje naprzeciw matki i po mozolnem wykrztuszeniu)</stage> Ty... <stage>(wskazuje kolejno na Antkowe nogi, na matkę i na siebie)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która przerwała mycie ławy i patrzyła w Ojca z pogardliwym półuśmiechem – twardo)</stage> Nie prowda! Nie razem. Jo sama. <stage>(myje podłogę)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(przez chwilę robi przeczące ruchy rękami i głową, wreszcie z ponownem)</stage> Jezu!!! <stage>(opada na ławę pod ścianą i tłukąc głową o stół zaczyna jęczeć jak człowiek wijący się z bólu)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(zajęta szorowaniem podłogi szczotką)</stage> Wiedziałam ze tak bedzie. <stage>(po chwili, z pauzami wypełnionemi szorowaniem podłogi)</stage> Piniondze odlicone. Lo Fronka w skrzyni – lo ciebie w walizie – lo mnie krwawa robota. <stage>(po chwili)</stage> Bedzies móg hulać całe zycie. <stage>(po chwili)</stage> Fronek dostanie ino na dwa roki. Zośka nie dostanie nic. Wsyćko ty. <stage>(po chwili)</stage> A jak sie wyjencys – to wyniesiemy go w pole – i porzucimy na gościniec. <stage>(po chwili)</stage> Niek sukajom. <stage>(po chwili)</stage> Znajdom dopiro, kie Fronek postowi na swojem. <stage>(po chwili)</stage> Pirwy nie. <stage>(po chwili)</stage> Ty z dularami w świat. Ja z Zośkom tu. Rozem juz... <stage>(nagle przerywając robotę, z wybuchem)</stage> ... nigdy!!! Słysys mie? nigdy!! <stage>(myjąc ławę – po chwili – nienawistnym szeptem)</stage> Chyba za kare Bozom w piekle. <stage>(po chwili)</stage> Tam ci nie umkne. Tam mie dopadnies. <stage>(po chwili)</stage> Za to nie dopadnies twoik dziecek. <stage>(po chwili)</stage> Bo gdybyś posed do nieba, tobyś im nowet... <stage>(z ponownym wybuchem)</stage> ... niebo zatruł! <stage>(chwytając wiadro)</stage> Ide zmienić wode. <stage>(wychodzi)</stage></p>
+        </sp>
+        <stage>(OJCIEC. po chwili dalszego jęczenia dźwiga głowę – podchodzi do Frankowego łóżka – klęka – próbuje ostrożnie wyciągać ciało Antka z pod łóżka – nagle pochyla się i zaczyna całować martwe stopy)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(wracając z wiadrem wody)</stage> Daj mu spokój! Ni mos go za co przeprasać. On do mnie nolezy i tylko ze mnom rachować sie bedzie!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(z trudem wymawiając każde słowo)</stage> Na... łózko...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p>Jo ci dom na łózko! Litośnik po niewcosie! A kto mie tym Frankowem łózkiem podjudzał?! A kto mi w renke sikire kłod?! Wydorłam ze siebie duse, to mi jej tera nie przywrocaj! <stage>(zawzięcie myje ławę)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(wciąż na kolanach)</stage> Był... u... Jobramka...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(myjąc ławę)</stage> Wiadomo ze był. <stage>(po chwili)</stage> Wiadomo nawet ze tam jad. <stage>(po chwili)</stage> Wiadomo nawet, ze Jobramek go nasłoł. <stage>(przerywając zajęcie)</stage> Wielkie rzecy! Wyda, to wyda! Odkond sie Boga bać przestałam, to sie i ludzi bać nie bede! Ty strochaku ty! Zamias podeprzyć, zamias sie nad zywym ulitować, to ty bedzies jeszce podgryzoł? Prec stond! Abo na ławe, abo bier ścirke i pomagaj!!</p>
+        </sp>
+        <stage>(OJCIEC. wstaje – chwiejnym krokiem idzie pod piec i wali się na ławę)</stage>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(myjąc ławę)</stage> Bo cóze ty se myślis? Ty myślis ze zeby Franek od takij jok ja tokie piniondze przyjon, to myłabym ten stół i te ławe? Ajokze! Posłabym – dopadłabym go – oddałabym mu – <stage>(prawie krzycząc)</stage> i na policje!!! Niek biorom! niek sondzom! niek końcom! <stage>(myjąc ławę – złamanym głosem)</stage> Ale ja wiem ze Fronuśby nie przyjon. Wienc muse kłomać – posełać dulary po troszecce... ze to niby od Jantka...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p>Od... Jantka!...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(gwałtownie)</stage> A od kogózby?! Od ciebie?! Odemnie?! Od Zośki?!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(wciąż chrypem niemowy)</stage> Od Jantka... murowany... dwór... pięćdziesiont... morgów... grontu...</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(myjąc ławę)</stage> No widzis jak to piknie bedzie! <stage>(grożąc pięścią)</stage> Ino ci radze nie tutok! Tutok ci w Jantka nie uwierzom! <stage>(myje ławę)</stage></p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(j. w.)</stage> Jo tyz... nie u... wiezył... jo... długo... za długo... nie... uwiezył... bo do... Miemiec... wokiel... świota... zało... zyły sie... o... dulary... wszyścy... tak... Zośka... tak... Jobramek... tak... i jo... uwiezył... w miemca... zaś... nie uwiezył... w Jantka... Jezu... Chryste... w Jantka... bo i... skond... umyśnie... Zośce... ze... do Miemiec... skróś... niespodzionki... a my... długo... cekoli... a my... juz cekać... przestali... i my sie... docekali... Jezu... Chryste... my sie... tak... docekali...<stage>(przy ostatniem słowie ukrył twarz w dłonie i zaczął gorzko płakać)</stage></p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(której ruchy – w miarę słów Ojca, powoli zamierały, której oczy powoli się zamknęły i którą od czasu do czasu wstrząsały krótkie dreszcze, oparta obiema rękami o stół – głosem jakby zasypiającego człowieka)</stage> Juz nie mów wiency... Juz nie mów wiency... <stage>(czepiając się sprzętów i idąc w stronę Frankowego łóżka)</stage> Juz wiem... wsyćko wiem. <stage>(siadając na podłodze obok Antkowych nóg – opierając głowę o łóżko i zamykając oczy)</stage> Tamci het w tyle ostali... zrobił swoim niespodzianke... <stage>(po chwili do Ojca)</stage> Wypłoc sie... potym weź nasom poduske... połóz na Franusiowem łózku... nokryj mu płachtom głowine... Ino to jesce zrób lo mnie... ino to... choć kwordam była... kworda... Ale zeby te ocy moje nie widzioły... <stage>(po chwili)</stage> Potem... pomozes mi... dźwignonć go... bo soma nie wydole. <stage>(po chwili)</stage> Swicki to ani jednyj ni momy. <stage>(po chwili)</stage> Jakto powiedział?... Aha, Boze, mój Boze, cemuś mie opuścił... cemuś mie nie oświcił. Tak powiedzioł. <stage>(głaszcząc nogi Antka)</stage> O. Te nozki. Schodziły sie. Tylo kuzu... tylo kuzu... Bo gnoły. Bo one sie tak załozyły. Które którego przegoni. Bez one dulary. <stage>(dźwigając się z trudem i wlokąc się w stronę skrzyni)</stage> Pockoj Jantoś. Pockoj. Cobyś mioł dowód, ze nie bez kciwość... ze nie lo mnie. <stage>(otwierając skrzynię i wyjmując dolary)</stage> Zowdy trzo mieć dowód. Miały być Fronkowe. Bedom twoje. <stage>(drąc banknoty na kawałki i upuszczając strzępy na podłogę)</stage> Juz som twoje. <stage>(wlokąc się w stronę walizy, klękając i taksamo niszcząc banknoty)</stage> A te miały być ojcowe. Tokze bedom twoje. Juz som twoje. Ostanie lo resty ino ociec. Ino ociec. <stage>(patrząc w Ojca)</stage> Cóz?... Kie płace. Moze i lepij ze płace... <stage>(podchodząc w stronę Ojca)</stage> Moze wsyćka złoś z płokaniem odejdzie i wskrzyśnie duso obmyto... <stage>(głaszcząc Ojca po głowie)</stage> Płoc bidoku. Płoc. I odpuść mi moje winy, joko i my uodpuscamy nosym winowajcom... Takze tak powiedzioł. On duzo rzecy powiedzioł. Ino ze my go nie słuchali. <stage>(przykładając rękę do czoła)</stage> Zara. <stage>(po chwili)</stage> Dulary juz... <stage>(po chwili)</stage> Aha. Podusko. <stage>(biorąc poduszkę z familijnego łóżka i niosąc ją w stronę Frankowego łóżka)</stage> Przez posywki. <stage>(z okropnym dreszczem a wciąż łagodnie)</stage> Cyrwona. <stage>(gdy podeszła do Frankowego łóżka)</stage> Kołdro tyz cyrwona. Wsyćko cyrwone! <stage>(kładąc poduszkę na Frankowem łóżku)</stage> Spokojnie. Spokojnie. <stage>(znów przykładając rękę do czoła)</stage> Zara. <stage>(po chwili)</stage> No to juz chyba gotowe. <stage>(po chwili patrzenia w łóżko)</stage> Juści ze gotowe. <stage>(klęka, zagląda pod łóżko. Po chwili bardzo cicho)</stage> Jantoś?... <stage>(pochwili zupełnego bezruchu)</stage> Juz gotowe. <stage>(po chwili j. w.)</stage> Jantoś?... <stage>(po chwili bardzo spokojnie)</stage> Nie słysy. <stage>(po chwili z przerażeniem a półgłosem)</stage> Nie słysy! <stage>(nagle zrywając się)</stage> Nie słysy!!! <stage>(rzucając się do okien i rozwalając je pięścią – strasznym głosem)</stage> Ludzie!! Ludzie!! Ratunku!! Ludzie!! Ratunku!! Ratunku!! Ratunku!! Ludzie!! Ludzie!! <stage>(pada zemdlona)</stage></p>
+        </sp>
+        <sp who="#ludzie_wsiowi">
+          <speaker>GŁOSY.</speaker>
+          <p><stage>(za oknami)</stage><lb />– Ka wołajom?<lb />– Tu tu tu!<lb />– U Sywałów!<lb />– U Sywałów!<lb />– Jego baba!<lb />– Jego kobita!<lb />– Po policyje!<lb />– Po ksiendza!<lb />– Po dochtora!</p>
+        </sp>
+        <sp who="#ludzie_wsiowi">
+          <speaker>LUDZIE WSIOWI.</speaker>
+          <p><stage>(w drzwiach)</stage> Co sie stało!!!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(podnosząc rękę i odzyskując mowę, z jakąś majestatyczną powagą)</stage> Cichojcie. Zabiliśwa chopoka. <stage>(wskazując matkę)</stage> Una – lezy.</p>
+        </sp>
+        <sp who="#ludzie_wsiowi">
+          <speaker>WSIOWI LUDZIE.</speaker>
+          <p><stage>(półgłosem – krótko)</stage> Rety!</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(j. w.)</stage> Cichojcie. <stage>(wskazując nogi Antka)</stage> Jego na to łózko – jom ratować. <stage>(jedni pod przewodem Felka i Jaśka rzucają się na zwłoki Antka i wyciągają je z pod łóżka – drudzy pod przewodem Jędrka, Kasperka i Kubusia rzucają się na matkę, ażeby ją cucić)</stage></p>
+        </sp>
+        <sp who="#ludzie_wsiowi">
+          <speaker>MIESZANE GŁOSY I.</speaker>
+          <p><stage>(przy matce)</stage><lb />– Wody!<lb />– Jest!<lb />– Krwawa!<lb />– Pryskać na twarz! Pryskać na twarz!<lb />– Dycha!<lb />– Bedzie zyć!<lb />– Ozcirać rence i nogi!<lb />– Porusać jom! Porusać!<lb /><stage>(robiąc matce sztuczne oddechanie)</stage><lb />– O tak tak tak tak!<lb />– Byle syrce nie ustało!<lb />– Bedzie zyć! Bedzie! Bedzie!<lb />– Ozwira oczy!<lb />– Znów zamknena!<lb />– Nie skodzi. Zwycojne zemglenie!<lb />– Ino nie ustawać! Ino nie ustawać!</p>
+        </sp>
+        <sp who="#ludzie_wsiowi">
+          <speaker>MIESZANE GŁOSY II.</speaker>
+          <p><stage>(przy Antkowych zwłokach jednocześnie)</stage><lb />– Ostroznie ostroznie ostroznie chopaki!<lb />– Bo zawadzi o łózko!<lb />– Jezu! Głowa!<lb />– Nakryć płachtom! Nakryć płachtom!<lb />– Ka jes?!<lb />– Na łózku!<lb />– Nie widzita ze na łózku!<lb />– Dobra!<lb />– Juz!<lb />– Ozstąpić sie! Ozstąpić sie!<lb />– Dźwigamy!<lb /><stage>(dopiero w tej chwili ukazują się zwłoki Antka, składane na łóżku, a poprzednio przesłonięte przez ludzi. Głowa i połowa piersi nakryte płachtą)</stage></p>
+        </sp>
+        <sp who="#stary_chłop">
+          <speaker>STARY CHŁOP.</speaker>
+          <p><stage>(gdy zwłoki spoczęły na łóżku)</stage> Tero rynce mu złozyć jok do pacirzo. <stage>(po chwili)</stage> A tera copki z głowy i klenkać. <stage>(gdy wszyscy uklękli)</stage> W imię Ojca...</p>
+        </sp>
+        <sp who="#chór">
+          <speaker>CHÓR.</speaker>
+          <p><stage>(podchwytując)</stage> ... i Syna i Ducha świentego, Amen. Anioł Pański zwiastował Pannie Marji... <stage>(po każdem Zdrowaś Marja odmawiają „Wieczne odpoczywanie”. W razie potrzeby, gdyby Anioł Pański trwał za krótko, mają odmawiać „Witaj Królowo”)</stage></p>
+        </sp>
+        <stage>(na tle modlitwy)</stage>
+        <sp who="#ludzie_wsiowi">
+          <speaker>GŁOSY.</speaker>
+          <p><stage>(ratujących matkę)</stage><lb />– Wstaje!<lb />– Niech usiendzie na ziemi!<lb />– Ale ją podtrzymywać!<lb />– Lepij wam?<lb />– Nie słysy.<lb />– Kobito! Lepij wam?<lb />– Nie słysy.<lb />– Mozebyście sie co napili.<lb />– Kie nic nie słysy.<lb />– Cekojcie! Zacyno godać!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(która usiadła, zrazu cicho, potem coraz głośniej)</stage> Posałbyś sobie bydełko – chadzałbyś sobie do skółki.</p>
+        </sp>
+        <sp who="#ludzie_wsiowi">
+          <speaker>GŁOSY.</speaker>
+          <p><stage>(przy matce)</stage><lb />– Pomieszana.<lb />– Pilnować jom.<lb />– Juści.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(wstając i krążąc pomiędzy klęczącemi, ciągnie dalej)</stage> – wzionbyś sobie dzieuuuche – miałbyś pasownom matuuusie – <stage>(udając że klęka do modlitwy, rozglądając się podejrzliwie po obecnych i ukradkiem sięgając po siekierę leżącą na ziemi)</stage> – a niiiii mos – a niiiii mos – bo una wziena... <stage>(zrywając się, podnosząc w górę siekierę – dziko a krótko)</stage> ... sikire!!! <stage>(wszystkie głowy zwróciły się w stronę matki)</stage></p>
+        </sp>
+        <sp who="#ludzie_wsiowi">
+          <speaker>LUDZIE.</speaker>
+          <p><stage>(pilnujący matki chcąc ją chwycić za rękę)</stage> Trzymoj!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(oddając siekierę, bardzo łagodnie)</stage> Jo nie uderze. Nie. Jo przecie ino ze strachu. Cekaaałam – cekaaaałam – cekaaaaałam – <stage>(przykucając i pokazując zwłoki Antka, znów okropnie szybko a prawie szeptem)</stage> – a on sie rusył!!! <stage>(tonem zwierzenia, do tych, którzy jej pilnują)</stage> I posło. Sama renka. Sama renka. Ona tyz ma swój rozum. Ani kopacki sie nie nostrasy – ani sikiry sie nie nostrasy... <stage>(znów chodząc)</stage> E!... Jemu sikira nie potrzebna. Ino dulary. <stage>(przystając i podnosząc w górę palec)</stage> Dulary. <stage>(wskazując podarte banknoty)</stage> Jantkowe dulary.</p>
+        </sp>
+        <sp who="#ludzie_wsiowi">
+          <speaker>LUDZIE.</speaker>
+          <p><stage>(którzy pilnują Matki, spostrzegając banknoty)</stage> Rany Boskie!</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(przykładając palec do ust)</stage> Ciiiiicho! <stage>(szeptem budzącym umarłych)</stage> Jo takze tak mówiła. <stage>(pokazując na Antka)</stage> I patrzcie. Patrzcie, co sie stało. Zaniós je ze sobom Ponu Bogu. <stage>(klękając i żegnając się)</stage> W imię Ojca i Syna... <stage>(zrywając się – strasznym krzykiem)</stage> Ni mom go!!!! Ni mom go!!! <stage>(wszystkie głowy zwróciły się ponownie w stronę matki i modlitwa urwała się nagle)</stage></p>
+        </sp>
+        <sp who="#stary_chłop">
+          <speaker>STARY CHŁOP.</speaker>
+          <p>Modlić sie. Tutok trza sie modlić.</p>
+        </sp>
+        <sp who="#matka">
+          <speaker>MATKA.</speaker>
+          <p><stage>(klękając)</stage> Juści... juści... trzo sie modlić. <stage>(składając ręce i modląc się, ale do Ojca)</stage> Ojce nas... Biiiido... Biiiiido była...<stage>(po chwili)</stage> Dał Zośce za niom dularów pienć – drugie pienć dorzuci i pódzie – bo kuzdy mo rence do siebie... I nie wodź nas na pokuszenie... I nie wodź nas na pokuszenie... Ojce nas... Ojce Jantkowy, Fronusiowy, Zoścyny...</p>
+        </sp>
+        <sp who="#ojciec">
+          <speaker>OJCIEC.</speaker>
+          <p><stage>(który wciąż siedział z twarzą ukrytą w dłoniach)</stage> Po policyjom!!! Po policyjom!!! <stage>(waląc się z całych sił w piersi i przy ostatniem słowie opadając na ławę)</stage> Jo zabił!!! Jo zabił!!! Jo zabił!!!</p>
+        </sp>
+        <sp who="#abramek">
+          <speaker>ABRAMEK.</speaker>
+          <p><stage>(który od chwili pojawił się w drzwiach – kiwając boleśnie głową)</stage> A chczał im zrobycz niespodżankę!</p>
+        </sp>
+		<trailer>(KONIEC)</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

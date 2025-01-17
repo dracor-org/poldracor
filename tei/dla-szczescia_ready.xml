@@ -1,0 +1,2125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000043" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Dla szczęścia</title>
+        <author>
+          <idno type="isni">0000000120962803</idno>
+          <idno type="wikidata">Q921405</idno>
+          <persName>
+            <forename>Stanisław</forename>
+            <surname>Przybyszewski</surname>
+          </persName>
+        </author>
+        <!-- Stanisław Przybyszewski (1868–1927) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/dla-szczescia,MTMxMjcwMjM/6/</idno>
+          <title>Przybyszewski, S., Dla szczęścia, Lwów 1900</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="helena" sex="FEMALE">
+            <persName>Helena</persName>
+          </person>
+          <person xml:id="mlicki" sex="MALE">
+            <persName>Mlicki</persName>
+          </person>
+          <person xml:id="olga" sex="FEMALE">
+            <persName>Olga</persName>
+          </person>
+          <person xml:id="zdżarski" sex="MALE">
+            <persName>Zdżarski</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-09-23">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1899">
+        <desc />
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/pol000043" passive="http://www.wikidata.org/entity/Q19132685"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <docImprint>
+              DRUKOWANE W DRUKARNI C. K. UNIWERSYTETU JAGIELLOŃSKIEGO W KRAKOWIE POD ZARZĄDEM <name>J. FILIPOWSKIEGO</name> <date>MCM</date>. NAKŁADEM KSIĘGARNI POLSKIEJ WE <pubPlace>LWOWIE</pubPlace>.
+          </docImprint><lb />
+          <byline>
+            <docAuthor>STANISŁAW PRZYBYSZEWSKI</docAuthor>
+          </byline><lb />
+          <docTitle>
+            <titlePart type="main">DLA SZCZĘŚCIA</titlePart>
+          </docTitle>
+        </titlePage>
+        <div type="appendix">
+          <p><salute>
+            <p>Świetnemu artyście dramatycznemu<lb />Kazimierzowi Kamińskiemu</p>
+          </salute>
+          Stanisław Przybyszewski.</p>
+        </div>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>AKT I.</head>
+        <stage type="setting">
+          <p>(Scena przedstawia obszerny pokój z głównemi drzwiami na kurytarz. Na lewo drzwi do przyległych pokoi, na prawo okno, za niem biurko z wysuniętemi szufladami. Na biurku listy, papiery, koperty w wielkim nieładzie. Na stole pali się wysoka lampa; niewyraźne światło. Widnieje)</p>
+        </stage>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#helena">HELENA.</rs>
+              <rs key="#mlicki">MLICKI.</rs>
+            </p>
+          </stage>
+          <stage>(HELENA. siedzi przy biurku, czyta jeden list po drugim, odrzuca je potem ze wstrętem, wstaje i wpatruje się błędnie przed siebie. Słychać, jak drzwi od kurytarza się otwierają, a potem z trzaskiem zamykają. Helena drgnęła, idzie do okna i przyciska skronie do szyby)</stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(Wchodzi, zatrzymuje się zdumiony, niespokojnym wzrokiem mierzy Helenę, przystępuje do biurka, wrzuca bezładnie papiery i listy do szuflad i zamyka je. Potem bierze papierosa, zapala go powoli, siada na krześle. Po chwili zmęczonym głosem)</stage> Ty otworzyłaś moje biurko?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(zwraca się wolno ku niemu, stoi chwilę tyłem ku oknu odwrócona, śmieje się urwanym, ochrypłym śmiechem)</stage> Tak! – może ci to niemiło?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Dlaczegoś to zrobiła?</p>
+          </sp>
+          <stage>(HELENA. patrzy nań pogardliwie i milczy)</stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(rozdrażniony)</stage> Czemuś to zrobiła?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(śmiejąc się ironicznie)</stage> Bo chciałam wiedzieć, jaka jest treść listów owej pani – owej pani, o której tyle słyszałam. A przecie przyznasz, że to rzecz dla mnie bardzo ważna. <stage>(patrzy chwilę na niego)</stage> Sądzisz, żem nie wiedziała, iż mnie od kilku tygodni oszukujesz? Gdzie spędzasz całe wieczory? na konferencyi redakcyjnej? ha ha ha!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(podrażniony)</stage> Mogłaś trochę cierpliwiej czekać. Dziś byłabyś się o wszystkim dowiedziała i nie potrzebowałabyś... <stage>(wskazuje na biurko)</stage></p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Byłabym się dowiedziała? Od ciebie? od ciebie? Gdyby się Zdżarski nie był przypadkowo wygadał, nicbym nie wiedziała. O wstydź się, wstydź, jakiś ty nikczemny! Za kilka tygodni masz wziąść ślub z tą – tą panią, a słowaś mi jeszcze o tem nie wspomniał. Bałeś się, co?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(chodzi po pokoju z udanym spokojem)</stage> Więc do rzeczy. Miło mi bardzo, że o wszystkim wiesz i oszczędziłaś mi długich wyjaśnień... <stage>(przeciągle)</stage>, ja wyjaśnień strasznie nie lubię...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(z wzrastającym oburzeniem)</stage> Boś nędzny tchórz! <stage>(krzyczy)</stage>, na coś grał tę nędzną komedyę? Sledziłeś każdy mój ruch, chciałeś wyzyskać chwilę, w której byłabym przystępną dla twoich wyjaśnień. Ha! ha! Szukałeś sposobności, żeby wszystko powiedzieć, a nie odważyłeś się na to... nie odważyłeś się na to, żeby twojej dawniejszej kochance powiedzieć: „kocham inną” – a kłamałeś – kłamałeś bezustannie! O! jak ty nędznie kłamałeś!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(tracąc spokój)</stage> Proszę cię, daj teraz pokój! Mam dosyć twoich życzliwych uwag. Wymówki są zupełnie nie na miejscu. Powinnaś być mi wdzięczną, że tak długo ci przykrości oszczędzałem... Więc wiesz już, że się musimy rozstać!...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(z wściekłością)</stage> Rozstać!... rozstać!... Ha, ha, ha! Nie, nie, mój kochany, tak szybko to nie idzie! Krew mi wyssałeś, duszę mi zniweczyłeś, ze czci mnie odarłeś, a teraz chcesz mnie wyrzucić?!... Oddałam ci wszystko, co tylko kobieta dać może!... Dla ciebie porzuciłam rodziców, dla ciebie wytykają mnie ludzie palcami... A teraz, teraz mamy się rozstać!! Ha, ha, ha!... jak pies będę szła za tobą, jednej minuty spokoju ci nie dam – o ty – ty!... <stage>(zanosi się płaczem)</stage> O Boże! Boże!...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>W ten sposób oczywiście się nie porozumiemy. Trzeba wreszcie, żebyś spokojnie całą rzecz rozpatrzyła. Kocham inną. Długo walczyłem z tem uczuciem, by nie robić cię nieszczęśliwą. Uległem, bom musiał uledz. Są uczucia, wobec których obowiązki i tem podobne rzeczy są czczym frazesem. A zresztą o ile cię znam, nie chciałabyś, bym tylko z obowiązku został przy tobie... Wątpię, czybyś chciała żyć z człowiekiem, który przez całe życie będzie cię uważał za kulę u nogi, za... za... zaporę do szczęścia.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(przerywa mu gwałtownie)</stage> Ja kulą u nogi? ja?... A czem ty się dla mnie stałeś? – Byłam dzieckiem prawie, gdyś mi raj obiecywał, by mnie tylko posiąść, a teraz jestem kulą u nogi? Ja tobie zaporą? a tym mnie czem?... czem?... Co się ze mną stanie?... Gdzie ten raj... ta... ha, ha, ha, ta wieczna rozkosz, którąś mnie nęcił?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Nie unoś się. Zapędzasz się coraz bardziej w twoim niesprawiedliwym żalu. Przecież nie poszłaś za mną dlatego, żem ci raj obiecywał, tylko dlatego, żeś mnie kochała. Więc cię tylko ta spodziewana rozkosz nęciła, a nie miłość twoja, he?...</p>
+          </sp>
+          <stage>(HELENA. patrzy błędnie przed siebie)</stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>A więc, gdybyś była wiedziała, że pójdziesz w nieszczęście ze mną...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Tak, w nieszczęście, ale z tobą! z tobą, a nie dlatego, byś mógł po trzech latach mnie opuścić – dla innej – dla tej pani. <stage>(nagle spokojna)</stage> Zresztą po cóż te długie rozprawy. Jesteś przecież wolny, niczem nieskrępowany. Nie kochasz mnie, więc idź, idź, gdzie ci się podoba, idź do niej, idź!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(siada naprzeciw niej, wolno i łagodnie)</stage> Słuchaj Hela, mówże ze mną rozsądnie.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(prostuje się gwałtownie)</stage> Ale dajże mi raz przecie spokój! Czego chcesz jeszcze odemnie? Czy lękasz się o mnie?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Tak – zanadto jestem do ciebie przywiązany, żeby mi to miało być obojętnem.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Przywiązany! przywiązany! Ha, ha, ha, może poczuwasz się do wdzięczności za tyle rozkoszy? może mi chcesz dać odszkodowanie?... <stage>(z dziką ironią)</stage> Wiesz co? Sprawa załatwi się najlepiej, jeżeli mnie wydasz za kogo.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(z tłumioną wściekłością)</stage> Podła!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ty, ty jesteś podły! Dlaczego mnie wziąłeś? Dlaczegoś mi całe dwa lata miłość kłamał. <stage>(w najwyższem oburzeniu)</stage> Płaciłeś moją miłość!... Strawą i odzieniem płaciłeś moją miłość! Jezu! Jezu! jakie to obrzydliwe. <stage>(porywa się)</stage> Czego chcesz, czego?... Mamże prosić niebios, by wszelkie błogosławieństwo na twoją głową zlały, mamże cię w czoło całować i mówić: Idź mój Stefanie, idź, szukaj dla siebie innego szczęścia?!...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(patrzy na nią cały czas, potem śmieje się krótko)</stage> All right! To wcale nie źle powiedziałaś. Więc dobrze, będziemy żyć dalej spokojnie i szczęśliwie. Wiesz aż nadto dobrze, że cię nie opuszczę, dopóki ci twej przyszłości nie zapewnię... Spodziewałem się, że serce twoje delikatniej odczuwa...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(oburzona)</stage> Niecny z ciebie komedyant! Chciałeś powiedzieć, że zostajesz ze mną, bo cię do tego zmuszam?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Otóż to właśnie powiedziałem.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(patrzy na niego z osłupieniem)</stage> Ja cię chcę zmusić?... Ja?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Rozumie się – skoro mówisz: nie chcę twojej pomocy – to znaczy tyle, co: będziesz mnie miał na sumieniu.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Na sumieniu?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Oczywiście! bez mojej pomocy zmarniejesz.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>A cóż ciebie to obchodzi? Daj mi zmarnieć! Daj mi skosztować tych rozkoszy, tych rajów, któreś mi obiecywał!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Chciałabyś sobie zdobyć koronę męczeńską? Nie, moja złota, pomyśl tylko co za przykra rzecz, dostać się na języki tych panien i pań, żądnych równouprawnienia. We wszystkich petycyach wskazywanoby na nasz stosunek – He, he, pan się ożenił, a opuszczona dama zmarniała!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>O! jakiś ty nędzny! jakiś ty podły! <stage>(rzuca się z płaczem na kanapę)</stage></p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(zgryźliwie)</stage> Nie pojmuję, dlaczego płaczesz? chcę iść – płaczesz – chcę zostać – także płaczesz. Obrzucasz mnie niesłychanie pochlebnymi epitetami. Nasza cała rozmowa była okresem pełnym obelg – pauzy wypełniałaś płaczem... No powiedz tylko, czy nie dobrze się stało, żeś wcześniej o tem nie wiedziała? Te same sceny byłyby się już od kilku tygodni powtarzały, a to chyba nie byłoby zbyt miłą strawą.</p>
+          </sp>
+          <stage>(HELENA. wstaje i idzie ku drzwiom)</stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>A więc skończmy raz... Zostaję przy tobie! Będzie nam dobrze razem <stage>(uśmiecha się ironicznie)</stage> Tak, tak dobrze, bardzo dobrze... <stage>(słychać pukanie do drzwi; Helena wychodzi)</stage></p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Proszę!</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#mlicki">MLICKI.</rs>
+              <rs key="#zdżarski">ZDŻARSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(wchodzi. Powierzchowność zaniedbana, niespokojne ruchy)</stage> Dzień dobry!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Zkąd się tu wziąłeś?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Wydarzyła mi się przykra rzecz.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Cóż takiego?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Kazano portierowi, aby nie puszczał mnie do hotelu, dopóki nie zapłacę rachunku.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Przecież miałeś dziś w nocy pieniądze?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Wszystko przegrałem!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Pociesz się, ja też się mocno zgrałem.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Mogę u ciebie parę dni pozostać? W tych dniach nadejdą pieniądze dla mnie.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Bez wątpienia, miejsca jest aż nadto. <stage>(gasi lampę i chodzi do koła niespokojnie)</stage></p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Jesteś bardzo niespokojny?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Ty byłeś tu wczoraj?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Tak; nie zastałem cię w domu!...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Ale z Heleną rozmawiałeś?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Niestety, nie wiedziałem, że ona o niczem nie wie. Przypadkowo zgadało się o Oldze, ja w tej myśli, że ona o wszystkiem wie...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(uśmiecha się)</stage> Przypuszczałeś to rzeczywiście?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(kręci papierosa)</stage> Tak! nie spodziewałem się, że chcesz nadal ukrywać tak głośny stosunek.</p>
+          </sp>
+          <stage>(MLICKI. śmieje się nerwowo)</stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Czemu się śmiejesz?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Dziwna rzecz, jakiś ty czasem naiwny.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(potakując)</stage> Aha!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>No i cóż dalej?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>A nic. Helę jakby piorun raził. Ale to kobieta hartowna. W jednej chwili się opanowała. Niczem się przedemną nie zdradziła.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>To ci się podobało?... co?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Bardzo. Zrozumiałem, że gdybyś ją kochał, gdyby była z tobą szczęśliwa, byłaby mogła być czemś więcej dla ciebie, jak tylko...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Masz niezrównany zmysł psychologiczny.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Jak czasem... No, w każdym razie dobrze zrobiłem, że ją przygotowałem?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Lepiej, niż się tego spodziewałeś. <stage>(chwila milczenia)</stage></p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>No i na czem obecnie stanęło?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Na czem? hm! jedno z nas zmarnieć musi.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Ty nie zmarniejesz. Ale Hela z pewnością.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>No i co potem?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>O to cię właśnie chciałem zapytać...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Ja na to rady nie mam, nic a nic pomódz jej nie mogę. Stanowczo wszelką moją pomoc odrzuciła.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Hm, to jasne, że Hela, właśnie Hela nie chce być dalej twoją utrzymanką...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Utrzymanką?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>No, nazwij to jak chcesz, nie będziemy się o słowa sprzeczać... Hm!... Podła sprawa... Ty rzeczywiście żadnej odpowiedzialności nie masz. Cóżeś ty winien, że inną pokochałeś... Ale... ale... jakżeż z sumieniem? to głupie sumienie, co się w żaden sposób nie chce dać ucywilizować!?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>A cóż mnie sumienie obchodzi! Chcę szczęścia! chcę żyć, a pozostać tu dłużej, to dla mnie zguba!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>A więc zdecydowałeś się Helenę poświęcić?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Jeżeli tak być musi!...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Aby żyć!... żyć w szczęściu!... He, he, a jeśli to szczęście nie spełni twych oczekiwań, jeśli wszystkie te ofiary pójdą na marne?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>To wszystko możliwe.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Mam na myśli całkiem specyalny wypadek.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(śmieje się ironicznie)</stage> Wiem, wiem... wreszcie dosiadłeś swego konika. Nieprawdaż? Stare teorye o czystości, o instynktach samczych...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Możeby było lepiej, gdybyś trochę poważniej zajrzał w twoje serce.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Dla mnie Olga pozostanie czystą i dziewiczą, choć – choć już należała do innego.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Jakie to jasne w teoryi! <stage>(śmieje się)</stage> Jasne jak słońce! Bo cóż ona temu winna, że cię ktoś uprzedził, że oddała serce swe, zanim mogła przeczuwać, iż jakiś Mlicki istnieje? Cóż do djabła ona temu winna, że ten ktoś żądał pochwytnej rękojmi jej miłości – to znaczy he, he, wiesz już czego się żąda od dziewicy. Cóż wreszcie winna, że się oddała? oddać się musiała – bo przecież miłość silniejsza od rozsądku. Podobno to nawet jest siłą charakteru, odwagą, szlachetną dumą, jeźli kobieta nie czeka, aż otrzyma państwowe zezwolenie na – na ową he, he, rękojmię miłości. No proszę cię, czyż można coś piękniej uzasadnić, można coś głębiej zrozumieć, jak właśnie to? Więc nie zważam na nic: żenię się. Naraz odzywa się samiec. Prosty ordynaryjny samiec, samiec, który jest równie silny w duszy parobka, jak naprzykład w duszy człowieka tak moralnie przerafinowanego, jakim ty jesteś. Rozpoczyna się pierwszy akt szczęścia. Czujesz, że to wszystko, co kobieta po raz pierwszy daje, to wszystko, co w duszy kobiety jest tylko przeczuciem, obawą dziwną a tajemniczą, pełną strachu i pragnienia, to wszystko już w duszy twej, no, dajmy na to, żony – dawno przekwitło: już dawno zapomniała tego pijanego szału, z jakim się po raz pierwszy oddawała; he, he... jest doświadczona, może trochę zimna... bo, bo wiesz w tych chwilach budzi się w kobietach doświadczonych zmysł spostrzegawczy, a wiesz, że my mężczyźni jesteśmy właśnie w tych chwilach niezrównanie komiczni – he, he. Ale może ci przykro, że tę sprawę poruszam?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>I tobie się zdaje, że to mnie boli? he, he...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Nie boli cię to? Toś niezwykły człowiek; nie boli cię to nawet, jeźli pomyślisz, że Olga mogłaby być już matką?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(wściekły)</stage> Milcz!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Po co mam milczeć, kiedy to cię nie boli? <stage>(zapalczywie)</stage> Od człowieka, którego serce szanuję, żądam tego instynktu! Wolno parobkowi go nie mieć, wolno mu brać za żonę kobietę, która mu w posagu przynosi dzieci z innym spłodzone. Ale tobie nie wolno brać kobiety za żonę, któraby ewentualnie... <stage>(urywa)</stage></p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(siada na krześle)</stage> Dosyć tego! jeśli ci na tem zależy, bym ci się przyznał, jak bardzo nad tem cierpię – to tę satysfakcję możesz mieć. Ale nie męcz mnie teraz. To się na nic nie zda. Ja bez Olgi żyć nie mogę. Jest coś, co jest silniejszem we mnie nad wszystkie cierpienia, nad wszystkie inne instynkty. <stage>(macha ręką)</stage> Niech idzie wszystko na marne jeśli tak być musi...</p>
+          </sp>
+          <stage>(pauza)</stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Kiedyż Olga wróci?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Dlaczego właściwie pytasz o to?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Możeby to lepiej było, gdyby nie była wyjeżdżała?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Czemu?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Na dystans wydaje się zawsze, że żyć bez tego kogoś nie można.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(wstaje rozdrażniony)</stage> Jakoś niezwykle przyjacielsko jesteś dziś do mnie usposobiony. Powiedz tylko, kochasz ją jeszcze? Kochasz ją więcej niż dotąd?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(pogardliwie)</stage> Mylisz się mój drogi!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Nie, nie, nie mylę się.</p>
+          </sp>
+          <stage>(ZDŻARSKI. wzrusza ramionami)</stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Zkądże ta nienawiść ku niej?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDZARSKI.</speaker>
+            <p>Nienawiść? Ja jej bynajmniej nie nienawidzę, ale nie mam powodu zachowywać dla niej w mem sercu wdzięcznej pamięci.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Aha! aha! za dalekoś się zapędził w twoich nadziejach?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Ja ich w sobie nie robiłem, ktoś inny je we mnie gwałtem wzbudzał.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>A! a! To podczas waszego pobytu w Paryżu?... N’est ce pas? Raz mówiłeś coś o tem! Ale jak to było?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(śmieje się)</stage> Masz dobrą pamięć! Tylko wtedy – ot, niewinne głupstwo.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>No opowiedzże!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>A, drobnostka! Siedzieliśmy w zamkniętym pokoiku jakiejś winiarni i piliśmy szampana. Olga namiętnie lubi szampana. Wprawdzie trochęśmy dużo pili...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>No i...?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Nic więcej... <stage>(zjadliwie)</stage> Mój przyjaciel szukał mnie... taki prosty łatęda, który miał też ochotę na szampana...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(z sztuczną wesołością)</stage> Padliście zatem, że tak powiem ofiarą – przerwanej miłości. Czytałem raz pyszną baladę na ten temat. <stage>(pauza)</stage> Teraz jej już nie kochasz? Toś się szybko odkochał! Jakże się to stało, że twoja miłość tak gwałtownie zamilkła?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Wcale nie gwałtownie... zwolna, kawałek po kawałku gniła moja miłość, zresztą poznałeś ją w tem samem męskiem towarzystwie, co i ja. Zanadto był mi wstrętny widok tylu pożądliwych rąk, które do niej i po nią się wyciągły.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(z tajoną wściekłością)</stage> He, he – przedziwnie to powiedziałeś. Ale, ale... twa pamięć kiepska. Nigdy nie zapomnę, z jakiem uwielbieniem o niej mówiłeś zaczem ją poznałem. Wtedy była dla ciebie piękną odważną, coś w rodzaju nad–kobiety, co depcze wszelkie prawa, co stoi ponad wszystkimi tymi przesądami, których teraz tak zapalczywie bronisz... pamiętasz?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Owszem, pamiętam. Nie znałem jej jeszcze wtedy. Sama sobie stawiała ideały, którym się dziś sprzeniewierza.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Przedziwny z ciebie dyalektyk. Wyrażasz się bardzo niejasno; przynajmniej pojąć nie mogę, dlaczego się tak gorąco moim stosunkiem zajmujesz.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Ja? ależ niech Bóg broni! Poprostu mnie zmuszasz do tego. O niczem innem nie jesteś w stanie mówić. Wypytujesz mnie ustawicznie, krążysz na około mnie, jak kot koło gorącej miski. Przypuszczasz, że wiem coś o niej, czego ty nie wiesz, chciałbyś mnie znienacka podejść...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(zapomina się i przerywa mu szyderczym śmiechem)</stage> He, he! powiedzno tylko kochany Janie, czy cię na prawdę nie wpuszczono do hotelu?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(uśmiecha się)</stage> Mam się oburzyć?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(z zjadliwą ironią)</stage> Czy <stage>(pokazuje na drzwi)</stage> czyś nie słyszał z kurytarza mojej rozmowy z Heleną?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(cynicznie)</stage> Mam cię wyzwać?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(śmieje się coraz pogardliwiej)</stage> Rzeczywiście myślałeś wczoraj, że Helena wie o wszystkiem?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>A do diabła! tyś jakby stworzony na małżonka, który świetnie będzie umiał dogryzać swej doświadczonej pani.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(przypatruje mu się chwilę)</stage> A toś się odciął! <stage>(wybucha gniewem)</stage> Szatan z ciebie! <stage>(naraz bardzo życzliwie)</stage> Ale bój się Boga! całkiem o kawie zapomnieliśmy! <stage>(idzie do przyległego pokoju. Zdżarski uśmiecha się drwiąco i bawi się kapeluszem)</stage></p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(wraca ziewając)</stage> Czy istotnie przegrałeś dziś wszystkie pieniądze?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Gorzej niż wszystkie.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Więc na dług?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Trzeba go dziś zapłacić!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Mogę ci chętnie pożyczyć.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Dziękuję!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Chcesz zaraz?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Możemy to później załatwić!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Jak chcesz.</p>
+          </sp>
+          <stage>(pauza)</stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(chodzi po pokoju, naraz staje przed Zdżarskim; patrzą chwilę na siebie)</stage> Było nam lepiej, zaczem...</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage type="setting">
+            <p>(pauza)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#mlicki">MLICKI.</rs> (pauza)
+              <rs key="#zdżarski">ZDŻARSKI.</rs>
+              <rs key="#helena">HELENA.</rs>
+            </p>
+          </stage>
+          <stage>(HELENA. wchodzi z kawą; na pozór bardzo spokojna)</stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Dzień dobry pani.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(porządkuje zastawę i podaje Zdżarskiemu rękę. Siadają i piją kawę w milczeniu)</stage></p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(nagle)</stage> Wybaczcie mi, na chwilę muszę wpaść do redakcyi. <stage>(Szuka kapelusza)</stage> Człowiek się trochę przy korekcie przetrzeźwi... <stage>(wychodzi)</stage></p>
+          </sp>
+          <stage>(Zdżarski i Helena siedzą chwilę w milczeniu)</stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Ma pani papierosy?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(podając je z biurka)</stage> Proszę.</p>
+          </sp>
+          <stage>(ZDŻARSKI. zapala papierosa i obraca nerwowym ruchem filiżankę od kawy)</stage>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(nagle)</stage> No i będzie Stefan z nią szczęśliwy?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Szczęśliwy? nie! nie!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>A jednak on ją bardzo kocha.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Tak mu się zdaje. Jego miłość jest w trzech częściach prostą próżnością. Olśniewa go swymi śmiałymi sądami, pochlebia mu jej piękność, jej wyniosła duma; w okół niej roi się od mężczyzn; a to go oczarowało, że właśnie ku niemu zwróciła swe względy, że on został wybrany. Przytem umie nęcić, podrażnić, obiecuje jednem spojrzeniem więcej, ile inna nie da, choćby się całą duszą oddała. Ilu ich już się w jej sieci zaplątało!... Znałem jednego, który przez nią stał się – he, he, jakby to nazwać?... Ale pani nie idzie o przymiotnik. Był szczęśliwy i dziwna rzecz był także zaręczony... Spotkał ją przypadkowo – nie wiem w jaki sposób. <stage>(zamyśla się)</stage> No, dość na tem, że uległ odrazu. Zajęła się nim bardzo, wabiła go ku sobie i odtrącała go, pozwoliła się nosić na rękach po schodach aż do drzwi mieszkania, a potem kiwnęła głową i powiedziała: Dziękuję. Wyobraź sobie pani, jaką głupią minę musiał ten ktoś zrobić. He, he, trzebaby widzieć młodzieniaszka z tą kapitalną miną!... Nienawidził jej do tego stopnia, że chciałby ją nieraz udusić, a czołgał się przed nią, a błagał, raz nawet płakał! Ha! ha! Płakał jak dzieciak. Dziw, że sobie w łeb nie palnął... <stage>(tajemniczo z brzydkim uśmiechem)</stage> Raz nawet okradł swego przyjaciela...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Okradł?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Najlepszego przyjaciela, żeby módz za nią pojechać! Podróż była kosztowna, bardzo kosztowna... sumienie się o kryminał otarło.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Czy pańskie?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Tak – moje...</p>
+          </sp>
+          <stage>(pauza)</stage>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>I niema sposobu aby Stefana uratować?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Co będę mógł zrobić, to zrobię. <stage>(Niespokojnie)</stage> Dla pani to zrobię. <stage>(Zakłopotany)</stage> Pani tak uderzająco podobna do niej, mojej dawniejszej narzeczonej. Tak mi ją pani przypomina... <stage>(mówi cicho i szybko)</stage> Niczego nie żądam, straciłem wszelki szacunek dla siebie, nie wymagam go od innych. Pogardzam ludźmi, nie nawidzę ich. Ale, ale są rzeczy w obec których słabnę, serce mnie tak boli... i... i... <stage>(zacina się i wstaje)</stage> Co będę mógł, to zrobię. Tylko, tylko, że się nieda nic zrobić, absolutnie nic! Kogo ona pochwyci, tego nie puści... wyssie, odrzuci, ale nie puści... Człowiek na zawsze z nią pozostanie spętany... <stage>(nagle wybucha)</stage> Czy pani jeszcze Mlickiego kocha po tem wszystkiem? Ma pani jeszcze trochę dumy i rozsądku?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(przerywa)</stage> Czy panu rozsądek i duma w pańskiej miłości pomogły? Mój Boże, Boże! powtarzam sobie tysiąc razy, Stefan mnie nie kocha, kocha inną; niech idzie, niech będzie szczęśliwy, woła mój rozsądek, podłością go zatrzymywać, jeśli mnie nie kocha. A serce krzyczy ratunku, do nóg jego przyczepić bym się chciała, żeby nie odszedł. Niech bije, niech nogami tratuje, byle tylko pozostał! <stage>(chwyta się za głowę)</stage> O Boże, Boże, co teraz będzie? <stage>(do siebie)</stage> Co będzie, co będzie? <stage>(pauza)</stage><lb /><stage>(Gwałtownie)</stage> Pan mi musi pomódz. Pomóż mi pan, pomóż! Zmarnieję bez niego. Nie mam domu, nie mam rodziców; cały świat się mnie wyparł. Na całym świecie Stefan, tylko Stefan, jedyny Stefan!...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(z wzrastającym niepokojem)</stage> Ale jak ja mam pomódz? Cóż ja na to poradzę? Ona go opętała. Cała jego dusza jest jedną rozbolałą raną, a oderwać się od niej nie może.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(złamanym głosem)</stage> Tak, tak, ma pan słuszność. Nie ma rady – nikt pomódz nie może – nikt!</p>
+          </sp>
+          <stage>(pauza)</stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(po chwili, jakby porwany nagłym strachem)</stage> Jakie to życie straszne! po co, po co tu jeszcze żyć?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Co? co pan mówił?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Nie ma szczęścia dla nas obojga – a bez odrobiny szczęścia nie można żyć.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(zamyślona)</stage> Nie można... <stage>(pauza)</stage><lb /><stage>(Budząc się z zamyślenia)</stage> Może sobie pan wyobrazić stan duszy człowieka, któremu wyrok śmierci przeczytano?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Co? co?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Wyrok śmierci.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Wyrok śmierci?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ja mam przy sobie mój wyrok śmierci. Wczoraj przyszedł telegram. Od niej – ja wiem, że to od niej. Ja wiem, co w nim stoi. Nie otworzyłam go, a wiem, że ona jutro, pojutrze, za dwa, trzy dni przyjedzie... i Stefana zabierze... I wie pan, za każdym razem, gdy go do ręki wezmę, i chcę go dać Stefanowi, ręka mi cierpnie, trzęsę się cała. Jakie to głupie! przecież mu go dać muszę a chociażbym go nie oddała – nic się nie zmieni – nic!</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#zdżarski">ZDŻARSKI.</rs>
+              <rs key="#helena">HELENA.</rs>
+              <rs key="#mlicki">MLICKI.</rs>
+            </p>
+          </stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(wchodzi zamyślony i bardzo smutny, siada przy stole i nalewa sobie kawy)</stage> Może się prześpisz trochę?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Jestem co prawda strasznie zmęczony.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Idź do mego pokoju, wyśpij się uczciwie, a po południu załatwimy twoją sprawę.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(wstaje)</stage> Ty się nie położysz?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Nie! mam dużo roboty.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(wychodząc)</stage> Obudź mnie za parę godzin. Dobranoc. <stage>(wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#mlicki">MLICKI.</rs>
+              <rs key="#helena">HELENA.</rs>
+            </p>
+          </stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(po chwili milczenia bardzo poważnie, patrzy ku ziemi)</stage> Nie bierz mi za złe, Hela, jeźli ci coś przykrego powiedziałem.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(z głębokim smutkiem)</stage> Właśnie cię też oto chciałam prosić. Uniosłam się, przebacz mi. To wszystko tak niespodzianie się na mnie zwaliło. Głowa mi pęka.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Nie mówmy o tem – zostanę teraz przy tobie, i o wszystkiem zapomnę.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Nie, nie! między nami wszystko skończone. Teraz wiem, że mnie nie kochasz, żeś mnie nigdy nie kochał. Nie, Stefanie, jesteś zupełnie wolny, ja cię nie zatrzymuję.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(gwałtownie)</stage> Ale ja chcę pozostać! <stage>(opanowuje się)</stage> nie, nie, tam szczęścia dla mnie nie ma! Zapomnę o wszystkiem.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(wybucha płaczem)</stage> Nie męcz mnie! nie męcz! Ja nie pragnę twej miłości, ja brzydzę się tą rezygnacyą, wolę już, byś mnie bił, pogardzał mną... nie chcę!... nie chcę!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Nie płacz Hela, nie płacz! wszystko będzie dobrze! Będę pracował, zapomnę. Tyś taka dobra, nieczegoś nigdy odemnie nie wymagała. Będziemy żyć obok siebie. I tyś była moją, tylko moją – niczyje ręce nie dotknęły ciebie. <stage>(zamyślony)</stage> Zdżarski ma słuszność!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Zdżarski? co mówił Zdżarski?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Nic, nic... Będziemy żyć obok siebie spokojnie.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(wybucha nagle spazmatycznym śmiechem)</stage> Ha, ha, ha! Nie opuszczaj mnie Stefanie! nie opuszczaj mnie! Na litość boską, nie gub mnie! <stage>(rzuca się na jego szyję)</stage> Patrz tu, tu mój wyrok. Patrz tu jej telegram, ona przyjeżdża <stage>(osuwa się na krzesełku; szuka nerwowo po kieszeniach)</stage> Patrz tu... tu... <stage>(mnie kurczowo telegram i daje mu go, patrząc nań wpół błędnie)</stage></p>
+          </sp>
+          <stage>(MLICKI. Rozrywa depeszę, czyta raz i drugi z wyrazem najwyższego przerażenia, potem zwraca się ku oknu)</stage>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(Zrywa się z krzesła z dziko rozwartemi oczyma; ochrypłym głosem)</stage> No i co? co? co?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Przyjeżdża...</p>
+          </sp>
+          <trailer>(Koniec aktu I-ego)</trailer>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>AKT II.</head>
+        <stage type="setting">
+          <p>(Dzień później)<lb />(Ten sam pokój, co w pierwszym akcie. Zmrok coraz gęstszy; na kanapie siedzi Zdżarski i pali papierosa. Przed nim na stole kilka flaszek piwa. Helena do połowy zwrócona do Zdżarskiego, patrzy w okno. Po odsłonięciu kurtyny przez chwilę zupełna cisza)</p>
+        </stage>
+        <div type="scene" n="6">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#helena">HELENA.</rs> 
+              <rs key="#zdżarski">ZDŻARSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(kaszle. Długa pauza)</stage> Dziwny nastrój w tym pokoju. Jesień. Jesień. Niedługo zaczną się deszcze. A to straszna rzecz, gdy deszcz całymi dniami na szybach jęczy.</p>
+          </sp>
+          <stage>(HELENA. nie odpowiada)</stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(po chwili)</stage> Że też Stefana tak długo nie widać!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(śmieje się cicho)</stage> Pewno też tak rychło nie przyjdzie.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Panna Agrelli przyjeżdża zatem z pewnością jutro?</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Podobno.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>No i co pani zamyśla robić.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ja? <stage>(śmieje się błędnie)</stage> Ja? nic, nic... czekam, aż się wszystko skończy!... Jestem tak spokojna... Ja tylko czekam, czekam... A potem – no! niech będą szczęśliwi. On ją kocha, a ona jego chyba też kocha; dlaczegóż by go nie miała kochać?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(śmieje się szyderczo)</stage> Ona? Kocha? He, he!... Ona kochać nie umie! Siebie kocha! swoją próżność, swoją dumę, swoją piękność.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(chłodno)</stage> Tego pan wiedzieć nie możesz. To, że pana nie kochała, nie pozwala wnioskować, by nie miała kochać Stefana. Dlaczegóżby za niego wychodziła? On przecież ani sławny, ani bogaty, kocha go, kocha i on będzie z nią szczęśliwy!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(z bolesną ironią)</stage> Może jest coś heroicznego w pani rezygnacyi... Tak, tak... rezygnacya podobno zawsze jest heroiczną. <stage>(uśmiecha się zmęczony)</stage> Ale dajmy spokój bohaterstwu! Nam bohaterstwa nie trzeba; ot – trochę szczęścia, maleńką odrobinkę szczęścia. Tego nam potrzeba. Bądź pani otwartą. Niewiem, cobym za to dał, żeby pani ze mną otwarcie mówiła. Ja nie wierzę w pani rezygnacyę; ja czuję, jak się serce pani krwawi. A ja mam dużo, dużo sympatyi dla pani, więcej, jakby się tego można po mnie spodziewać. Pani mi tak żywo przypomina moją narzeczoną.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Z nikim nie byłam tak otwartą, jak właśnie z panem. Pan mi okazał tyle uczciwej przyjaźni w ostatnim czasie... Alem ja taka zmęczona. Moje myśli tak rozprószone. Ja nie jestem w stanie ani jednej myśli do końca domyśleć... Teraz się wszystko skończyło. Ta męka... ta straszliwa męka ostatnich dni.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(gwałtownie)</stage> Pani nie powinna go puścić! Jeżeli go pani kocha, to go pani zatrzyma przy sobie; on przy niej szczęścia nie znajdzie, tylko rozpacz i cierpienie.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(z bladym uśmiechem)</stage> Nie!... nie!... przepadło! To już koniec!...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Poświęć pani swą dumę dla jego dobra. Pani go kocha. Pani ostatecznie na tem zależy, żeby nie zmarniał przy tej kobiecie.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Dlaczegóżby miał zmarnieć?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(z namysłem)</stage> Bo... bo... jakże mam to pani wytłómaczyć? Wie pani może, że jest coś, co starzy ludzie dawniej cnotą czystości nazywali... he... he... rzeczywiście cnotą czystości – dziś to już jest starzyzną. Cnota czystości nabrała komicznego znaczenia. He, he... młodzi panowie nauczyli panienki, że cnota czystości jest śmieszna. I my ludzie postępowi śmiejemy się z owej cnoty – w teoryi proszę pani... bo w sercu o, w sercu... chciałbym widzieć tego mężczyznę, któryby przenosił kobietę, co z rąk do rąk przechodziła, nad kobietę tak czystą i jasną, jak... jak naprzykład pani...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Co pan chcesz przez to powiedzieć?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(po chwili)</stage> Do tych ludzi, którzy sami siebie okłamują, do tych ludzi słabych, dla których tak nazwany postęp ha, ha, ha, postęp jest ideałem, w imię którego niszczą najszlachetniejsze instynkty sercowe – ową starzyzną moralną – należy Mlicki. Mlicki jest rodzajem takiego moralnego Don–Kiszota. W sercu pełno owej „starzyzny”, ale się jej wstydzi!... He, he! najpiękniejsze teorye mu się w nic rozprysną, gdy robak zacznie serce dzień i noc toczyć!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Zupełnie nie rozumiem, co pan chcesz powiedzieć.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Otóż proszę pani, ta dama, z którą Mlicki się chce żenić, była dawniej już kochanką innego, a może i innych.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(patrzy na niego osłupiona)</stage> Stefan wie o tem?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Wie!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>I???</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Powiedz mu to pani; może wobec pani uczuje wstyd... może, jeźli pani mu to powie, przeleci mu przez myśl, co czystość znaczy, co znaczy posiąść kobietę tak czystą... he, he... Zna pani Hamleta?... Stary Poloniusz ma racyę... Nawet ciekawość księżyca może tę czystość skazić!...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Czemu mi pan tego dawniej nie mówił?... <stage>(w wielkim niepokoju)</stage> i on o tem wie, i pomimo tego chce mnie opuścić – mnie – mnie, dla niej – co z rąk do rąk przechodziła... O mój Boże... mój Boże...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Jeszcze nic nie stracone. Powiedz mu to pani. Pani sama musi to powiedzieć!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(opada)</stage> Nie, nie, to się na nic nie zda. To nic nie pomoże. On o tem wie, wie o wszystkiem i pomimo tego idzie do niej... O Boże, jak on ją kocha!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Posłuchaj mnie pani.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(zrozpaczona)</stage> Nie, nie, nie! nie mów pan dalej! To nie ma sensu... On wie o tem, a jednak, jednak mnie opuszcza... nie ma rady, nie ma...</p>
+          </sp>
+          <stage>(Pauza, Helena głęboko zamyślona)</stage>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(nagle)</stage> Od jutra mam sama pozostać... <stage>(z trwogą)</stage> Sama! Co to znaczy? Jak to jest, być samą – samiuteńką?... o Boże! To musi być straszne.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>To więcej, jak straszne! <stage>(po chwili)</stage> Pani nie ma pojęcia, jakie to okropne... a te noce, te noce, te noce szału i obłąkania... nocą w łóżku... tak strasznie cicho... słyszy się bicie własnego serca... Lampa zgaszona – a serce bije, bije, bije – ktoś stuka do drzwi – czoło się potem oblewa – a ktoś puka, puka <stage>(gwałtownie, bezładnie, sam pełen strasznego lęku)</stage>, jakieś szmery wokoło... szepty, obłąkany śmiech... wyskakuję z łóżka, drżę na całem ciele, zapalam świecę... Strach spojrzeć za siebie, bo tuż za mną ktoś stoi, ktoś rękę wyciąga. <stage>(coraz gwałtowniej)</stage> A drzwi, drzwi zdają się otwierać. Chcę biedz ku drzwiom, rzucić się na nie, zaprzeć je... skradam się pocichutku... Jezus! Marya! drzwi się otwierają...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jezus! Marya!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>A płomień świecy rzuca jakieś straszne cienie – cały pokój drży, błyska niespokojnie... Cienie zamieniają się w upiory, schodzą ze ścian, wyciągają ręce, zbliżają się...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Przestań pan, przestań...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(opada, obciera sobie ręką czoło, po chwili)</stage> Teraz Stefan widma odgania i rozprasza upiory, ale jak pani sama zostanie z tą wściekłą rozpaczą w sercu...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(nieprzytomna)</stage> Ten los mnie czeka, ten los...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Tak! ten los panią czeka.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(w strasznym niepokoju)</stage> To się nie dobrze skończy... nie dobrze... nie dobrze...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(zimno i stanowczo)</stage> Tak, to nie dobrze się skończy. Pani zmarnieje, a Mlickiego gorszy los jeszcze czeka. Dzień i noc będzie się truł i gryzł i myślał o swoich szczęśliwych poprzednikach. Dla nich była ta pani kochanką, dla niego żoną! Ha! ha! żona Mlickiego była metresą innych! Ta myśl się wpije w jego krew, zatruje mu każde uczucie, zaprzepaści duszę! Jego gorszy los czeka, niż panią!... Pani będzie żyła; tak łatwo sobie człowiek życia nie odbiera... Będzie się pani musiała postarać o jakieś zatrudnienie. <stage>(urywa nagle)</stage> Tak! będzie się pani musiała obejrzeć za zarobkiem. O, o, to trudna rzecz... Pani zepsute dziecko bogatych rodziców, wychowana w zbytku i pieszczotach – pani będzie wędrować od jednego pryncypała do drugiego... a pani znajdzie zarobek, bo pani jest przystojna, bardzo przystojna... rozumie pani, co to znaczy?... trzeba być bardzo przystojną, by otrzymać pracę...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(prostuje się, z załamanemi rękami)</stage> Jak mnie pan męczy! jak mnie pan męczy! Co mam począć nieszczęśliwa?... On nie zważa na moje prośby... odtrącił mnie wczoraj od siebie. Całą noc chodził po pokoju jak szalony, kładł się i zrywał znowu... i błagał i nogi mi całował... Mój Boże, on opętany... on nie może żyć bez niej – niech idzie – niech idzie – niech zmarnieje przy niej, byle tylko mi nie robił wyrzutów... niech się ze mną dzieje, co chce... byle mnie nie zabijał swoją rozpaczą!...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>On chce panią zmusić swoją niecną komedyą.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(opamiętuje się)</stage> Co pan powiedział? co? Tego panu nie wolno mówić!...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Owszem! jeszcze raz powtarzam, że Mlicki gra niecną komedyę. To nie miłość, co go ku niej ciągnie, to próżność – prosta, marna próżność.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(wybucha gniewem)</stage> Pan kłamie! <stage>(naraz patrzy nań dziko i krzyczy)</stage> Pan ją jeszcze kocha! kocha! kocha!...</p>
+          </sp>
+          <stage>(ZDŻARSKI. wstaje zmięszany)</stage>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Milcz pan! pan ją kocha! pan się chce mścić na niej i na nim... O, o, jak pan zbladł... jak twarz pana drga...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(chwyta ją za ręce, po cichu)</stage> Ja jej nie kocham, ale ją zmiażdżę! zmiażdżę! Pomszczę panią i siebie!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Ja nie chcę, byś mnie pan mścił! nie chcę, nie pozwalam! Stefan ma być szczęśliwy! Będzie szczęśliwy! Nie pozwolę panu się mścić! Będę żyć, będę pracować, przyjmę jego pomoc.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(wściekły)</stage> Tego pani nie zrobi...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Zrobię! zrobię!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Nie krzycz! Mlicki stoi za drzwiami – ha, ha, ha!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(patrzy wpół nieprzytomna na drzwi)</stage> A! a!... <stage>(idzie ku bocznym drzwiom, stoi chwilę, patrzy na Zdżarskiego i wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#zdżarski">ZDŻARSKI.</rs>
+              <rs key="#mlicki">MLICKI.</rs>
+            </p>
+          </stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(wchodzi wolno drzwiami z kurytarza i podchodzi do Zdżarskiego)</stage> Coś jej powiedział? co?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(bębni palcami po stole i pije piwo. Obaj patrzą nienawistnie na siebie)</stage> Nic jej nie powiedziałem. Tylko Hela mi wyłożyła jasno jak na stole, że kocham twoją narzeczoną, że chcę się mścić na niej i na tobie. A więc powiedziała to samo, co ty myślisz – nie prawda?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>A tak, mniej więcej to samo.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(uśmiecha się złośliwie)</stage> Wiem, wiem o tem od dawna.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Dlaczego jesteś moim wrogiem?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Nie jestem – ja nie uważam nikogo za wroga.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Zupełnie nie rozumiem, co ty sobie właściwie za pretensyę do niej rościsz? Cóż ona temu winna, że się nie mogła do tego przymusić, by cię pokochać. Widzisz, szanuję o tyle twoją inteligencyę, że szukam w innych przyczynach źródła twojej nienawiści.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Hm. Jesteś człowiek mądry i sprawiedliwy.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Więc idzie ci o Helenę!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Może być!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Ale przecież nie jesteś na tyle brutalny, na tyle parobkiem, żebyś sobie życzył, bym z Heleną dalej żył, nie kochając jej?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Jestem nim na tyle, że nie życzyłbym sobie, byś Helę w przepaść wtrącał.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Więc to będzie szczęściem dla niej, jeżeli pozostanę i będę ją nienawidził?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Opamiętasz się. Pozatem Heli nie można nienawidzieć.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>A ze mną całkiem się nie liczysz?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Właśnie, że się liczę. Jeżeli się ożenisz z panną Agrelli, to zmarniejesz. Kark skręcisz w tem szczęściu, do którego tak dążysz. To nie fraszka nazywać kobietę z jej przeszłością – swoją żoną.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(gwałtownie)</stage> Powiedz raz do djabła, dlaczego wciąż tę głupią przeszłość wywlekasz?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Byś się opamiętał.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Ale przecież ja wiem o wszystkiem.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>He, he! o wszystkiem! Tu nie idzie o to, że się wie o jakimś gołym fakcie, n. p. należała do tego lub owego. Tu idzie o drobne szczegóły, o te maleńkie i drobne tajemnice sypialni... Te drobniutkie szczegóły he, he! jak mam je nazwać? te wszystkie tajemnicze pieszczoty, które trzeba przed światem kryć – ha, ha, ha – wiesz, te wszystkie pieszczoty, których małżeństwo nie zna. W małżeństwie nie ma tego drżącego strachu, tego nasłuchiwania, czy ktoś nie przeszkodzi, tego tajemniczego skradania się po ciemnych schodach do kapliczki miłości...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(zbołało, jakby do siebie)</stage> Wolę to, jak żyć bez niej... <stage>(chodzi niespokojny, naraz śmieje się krótkim, urywanym śmiechem)</stage> Może jeszcze masz co na sercu?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Owszem. Daj mi papierosa.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(podaje mu etui z papierosami)</stage> Masz jakie wiadomości z kraju?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Natrętny ci jestem?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Bynajmniej, ale jutro opuszczam to mieszkanie.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Tak? hm... <stage>(sięga po pugilares)</stage> Załatwimy jeszcze rachunek. Tu masz pieniądze, któreś mi wczoraj pożyczył... Bardzo ci jestem zobowiązany. <stage>(wstaje, chwilę zamyślony)</stage> Jest mi niesłychanie przykro, że w takich warunkach się rozstajemy, <stage>(pauza)</stage> byłeś serdecznym i dobrym przyjacielem – spędziłem z tobą chwile, których się nie zapomina – żal mi cię... <stage>(urywa)</stage></p>
+          </sp>
+          <stage>(pauza)</stage>
+          <stage>(MLICKI. siedzi na kanapie i patrzy ponuro przed siebie)</stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Więc jutro opuszczasz Helę, by żyć z kobietą, o której nawet nie wiesz, czy cię kocha?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(zdziwiony)</stage> Nie wiem, czy mnie kocha?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>To przecież sambyś sobie mógł powiedzieć, że siła miłości, jak każda inna siła, jest ograniczona. Kochała tego pierwszego. Ten pierwszy zużył wszystkie jej zasoby miłości... a to ją zniszczyło – szła od jednego do drugiego zmęczona, znudzona, może tylko dla tego, by zapomnieć o pustce swego serca. Ty sprawiłeś na niej względnie największe wrażenie – względnie – względnie...</p>
+          </sp>
+          <stage>(MLICKI. przygląda mu się pogardliwie i śmieje się)</stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Śmiejesz się? <stage>(naraz zimno)</stage> Poco grasz tę komedyę? Twój śmiech nie z serca. Ty się mnie boisz.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Ja, ciebie?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Tak!...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Czy sądzisz z tego, że cię dotychczas jeszcze nie wyrzuciłem!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Zgadłeś!...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>To tylko dlatego, że chciałem w tobie szatana ubezwładnić!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>I to ci się nie udało?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Zdaje się, że nie.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(naraz bardzo poważnie)</stage> Więc słuchaj. Rób co chcesz, bądź szczęśliwy, lub nieszczęśliwy, to mi wszystko jedno, ale jeżeli Helena w przystępie chwilowego szału położy koniec swemu biednemu życiu.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(z tajoną wściekłością)</stage> To będzie tylko twoją winą! twoją! twoją! tyś ją wepchnął w wir tego szalonego strachu... tyś w niej przepaść roztworzył... przez całe dwa dni działałeś na nią, bo ci potrzeba śmierci Heli, by się na Oldze zemścić!...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>To głupstwo, co mówisz! Jesteś zbyt rozdrażniony. Ale pamiętaj, jeżeli Helena sobie życie odbierze, a zrobi to z pewnością...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(wybuchając dziko)</stage> Ty, ty wiesz to?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Wiem... no! bądź zdrów, muszę iść!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Czekaj tylko – jeżeli więc – jeżeli – Co potem?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Potem? to już twoja rzecz.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>A jeżeli i to przemogę...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Nie zdołasz.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(z wściekłością)</stage> Przemogę.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Otóż właśnie – że nie, w tem cała moja zemsta!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Twoja?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(namiętnie)</stage> Moja!... moja!...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(patrzy nań osłupiałym wzrokiem)</stage> Com ja ci zrobił złego?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Ty? nic!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Zemsta twoja na mnie spada... tylko na mnie!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Bardzo mi przykro, że to cię pośrednio dotknie... pamiętaj... Nie porzucaj Heli!... Bądź zdrów! <stage>(wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#mlicki">MLICKI.</rs> (sam, potem)
+              <rs key="#helena">HELENA.</rs>
+            </p>
+          </stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(stoi niezdecydowany na środku pokoju. Idzie ku drzwiom, znowu przystaje, namyśla się, nagle otwiera drzwi i woła)</stage> Hela! <stage>(Po chwili wchodzi Helena chwiejnym krokiem, wpatruje się w Mlickiego. Długa pauza. Mlicki w najwyższem wzburzeniu chodzi po pokoju i żuje nerwowo munsztuk papierosa)</stage></p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Hela, rozejdziemy się jak przyjaciele.</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Jak chcesz.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Zmiłuj się moja droga: zechciej to wszystko zrozumieć!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Wszystko zrozumiałam.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(niepewnym głosem)</stage> Nie chcę, abyśmy się rozstali w gniewie i żalu. Zanadtoś mi droga. Nie miej do mnie nienawiści. Ja nie mogę inaczej postąpić; chociażbym chciał, nie mogę się wycofać! Toby mi życie złamało. Będę ci bratem, będę ci pomagał – będę się opiekował tobą...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(milczy, naraz z tajoną rozpaczą)</stage> I dasz mi dużo, dużo pieniędzy. <stage>(namyśla się)</stage> Ale cóż ja ci w zamian dam? dałam ci moją duszę, moje ciało! <stage>(patrzy na niego długo)</stage> Stefan, dałam ci czyste ciało! tak czyste, jak u dziecka. Zaczem cię poznałam, nie wiedziałam, co jest ciało...</p>
+          </sp>
+          <stage>(MLICKI. patrzy na nią przerażony)</stage>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Tak, Stefanie, byłam czysta, byłam niewinna; wszystko było twojem, tylko twojem – myśli, serce, dusza, ciało – każdy nerw... <stage>(naraz gwałtownie)</stage> Pogardziłeś! odrzuciłeś! Cóż ci dam za twoją pomoc, za twoją opiekę?!... Nie chcesz mnie, gardzisz mną! Więc co? co?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Zlituj się Helo! zlituj się! nie męcz mnie tak szalenie!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(prostuje się z hysterycznym śmiechem)</stage> Precz z twoją pomocą! nie chcę twej pomocy! idź do niej! dziel z innymi ostatnie męty jej miłości!...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(chwyta ją za ręce i szarpie ją)</stage> Milcz! milcz! Bo... bo...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(wydziera mu się)</stage> Nie szarp mnie! Czego żądasz odemnie? Czego chcesz? ha, ha, ha!... Chcesz mieć spokojne sumienie, chcesz sobie powiedzieć: Hela zrezygnowała. Hela zadowolni się przyjaźnią. Chcesz własne sumienie okłamać?!...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(spogląda na nią przez chwilę, potem gwałtownie)</stage> Tak, byłaś ze mną szczęśliwa, teraz ja dla siebie szczęścia zapragnąłem. Przy tobie go nie znalazłem!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(patrzy nań nieprzytomna)</stage> Nie znalazłeś szczęścia przy mnie?! Więc kłamałeś dwa lata, dzień po dniu kłamałeś!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Nie kłamałem! wtedy myślałem że to szczęście, bo innego nie znałem...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(porywa się)</stage> Więc teraz ci dam szczęście... zostań przy mnie, a dam ci szczęście! <stage>(szybko, nieprzytomnie)</stage> dam ci rozkosze, o których nie śniłeś. Dam ci, dam taką rozkosz, taki raj, dam, dam, tylko nie gardź mną... zostań... Widzisz to strach mój krzyczy... Ja oszaleję bez ciebie – nie, nie, ty też oszalejesz, ona była kochanką innych – przechodziła z rąk do rąk... <stage>(Pada na kolana. Pukanie do drzwi. Helena zrywa się i przytula do ściany, Mlicki przestraszony patrzy chwilę, a potem ochrypłym głosem)</stage></p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Proszę!</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#mlicki">MLICKI.</rs>
+              <rs key="#helena">HELENA.</rs>
+              <rs key="#olga">OLGA.</rs>
+            </p>
+          </stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(wchodzi rozpromieniona)</stage> A to niespodzianka... <stage>(spostrzega Helenę, staje i patrzy na nią zdziwiona, potem na Mlickiego; chwila przykrego milczenia)</stage></p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(opanowuje się, bierze ją za rękę i chce ją wyprowadzić)</stage> Chodź!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(rzuca się na nich, szukając słów, wyciąga rękę, wskazując na Olgę)</stage> Ta! ta!...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(bardzo zdziwiona)</stage> Czego chce ta pani?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Proszę cię Hela, nie rób już scen... <stage>(do Olgi stanowczo)</stage> Chodź!</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p>Idź pani, precz! precz! Chcesz go pani zniszczyć, jakeś Zdżarskiego zniszczyła?!</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Ale czego pani sobie życzy odemnie? Ja przecież nie chcę nikogo niszczyć!...</p>
+          </sp>
+          <sp who="#helena">
+            <speaker>HELENA.</speaker>
+            <p><stage>(błagalnie do Mlickiego)</stage> Zostań, zostań! twoim psem będę, rób ze mną, co chcesz! bij, zabij! – rób co chcesz, tylko nie opuszczaj mnie! <stage>(do Olgi)</stage> Idź pani, idź! Ja z nim żyłam dwa lata, on mój... mój!... Pani dość ich znajdzie – ja mam tylko Stefana, zostaw mi go pani! Ja oszaleję!</p>
+          </sp>
+          <stage>(OLGA. Patrzy chwilę na Helenę, potem na Mlickiego i wychodzi. Za nią idzie Mlicki. Helena patrzy błędnie na niego, wyciąga ku niemu ręce i cofa je bezwiednie. Po wyjściu Olgi i Mlickiego ogląda się nieprzytomnie, rzuca się ku drzwiom i pada)</stage>
+          <trailer>(Koniec aktu II–ego)</trailer>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>AKT III.</head>
+        <stage type="setting">
+          <p>(Dzień później) (Salon bardzo gustownie umeblowany. Wieczór. Pokój oświetla lampa, osłonięta abażurem)</p>
+        </stage>
+        <div type="scene" n="10">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#olga">OLGA.</rs> (potem)
+              <rs key="#mlicki">MLICKI.</rs>
+            </p>
+          </stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(leży na otomanie. Co chwilę siada i nadsłuchuje. Zewnątrz słychać kroki. Wchodzi Mlicki bardzo zgnębiony, nie zdejmuje kapelusza z głowy, Olga wstaje)</stage> Nareszcie przyszedłeś!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Był tu Zdżarski?</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(trwożnie)</stage> Ale cóż ci jest? zdejmże kapelusz! jesteś chory?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(zdejmuje kapelusz)</stage> Nie, nie, nic mi nie jest... Ale ten wiatr jesienny, ten deszcz – szedłem przez park, wiatr gwizdał wśród nagich gałęzi... mówią, że w takim czasie ktoś się obwiesił... He... he, albo może utopił. Bo są ludzie, co się topią. He, he! Ale zdejmże tę umbrę z lampy – inaczej zdaje mi się, że ktoś tu śmiertelnie chory leży.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(zdejmuje umbrę, po chwili)</stage> Czyż to było konieczne, że Helena aż do końca u ciebie mieszkała?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Gdzież się miała podziać?</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Pisałeś mi przecież, że wszelkie stosunku z nią zerwałeś?...</p>
+          </sp>
+          <stage>(MLICKI. milczy)</stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Dlaczegoś nie poszukał sobie innego mieszkania?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Bo się bałem, że sobie życie odbierze.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Groziła ci samobójstwem?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Zapewne to zrobi.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(gwałtownie)</stage> A gdyby nawet? Cóż z tego, chociażby nawet to zrobiła? Wszak byłoby to tylko ulgą dla niej i dla ciebie. Czy jesteś tyle naiwny, że przenosisz życie, pełne ustawicznych cierpień i bólu nad śmierć? Dla niej – jak powiadasz – niema szczęścia, więc pocóż się ma dalej męczyć? <stage>(nagle)</stage> mówiłeś jej kiedykolwiek, że ją kochasz?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Nic nie wiem – nie kochałem nikogo przed tobą.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>I to ci szczęścia nie przyniosło?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Czemu się o to pytasz?</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Czemu?... przecież widzę co się z tobą dzieje. Cały dzień cię nie widziałam. Gdzieś był?... O! jakiś ty blady! z twoich oczu wyzierają widma. Twój lęk, gdyby cały legion widm. Cały legion upiorów przyniosłeś ze sobą. Pełno widm w pokoju. Mój Boże, mój Boże... Czujesz ty, że jestem przy tobie? Nie, nie, ty tego nie czujesz. Myślisz tylko o niej, widzisz ją wciąż przed sobą. Pełno jej tu wokół nas...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Czy nie możesz pojąć, że mam powody lękać się o jej życie?...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(twardo)</stage> Nie! nie mogę tego pojąć. Nigdy tego nie zrozumiem. Jeżeli się coś lub kogoś opuszcza, to nie patrzy się za siebie... Zupełnie tego nie pojmuję. Mówisz, żeś nikogo nie kochał przedtem. Kochasz mnie i wiesz jak cię kocham. Powinienbyś być szczęśliwy. Powinienbyś o wszystkiem zapomnieć. Pamiętasz, jakeś przed moim odjazdem mówił: dla ciebie jestem zdolny popełnić największą zbrodnię... A teraz kiedy porzuciłeś ją – a czem ona była dla ciebie? – teraz drżysz – trzęsiesz się na całem ciele – jesteś zrozpaczony... Boże... Boże... czyśmy się oboje pomylili? Ja byłam tak pewna, że zapomnisz, utopisz wszystko w tem szczęściu, że mnie masz przy sobie, że jestem twoją, na zawsze twoją... Stało się inaczej – inaczej...</p>
+          </sp>
+          <stage>(Pauza – Mlicki głęboko zamyślony patrzy przed się)</stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(po chwili zmęczonym głosem)</stage> Jechałam do ciebie dniem i nocą, nigdzie nie wypoczęłam, przyjechałam dzień wcześniej, niż ci pisałam. Zdawało mi się, że cię tem uszczęśliwię, że sprawię ci wielką radość!... Tak, tak, zrobiłam ci niespodziankę. Nigdy nie zapomnę, jakeś tam stał zgnębiony, na wpół nieprzytomny i patrzyłeś na mnie błędnemi oczyma, jak na widmo... Najchętniej byłbyś się w ziemię zapadł, nie śmiałeś na nią spojrzeć...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(przerywa)</stage> Byłoby zatem lepiej, gdyby się był skandal rozpoczął?...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(gwałtownie)</stage> Powinieneś był odrazu więzy poprzecinać. Od dwóch miesięcy miałeś wybór pomiędzy mną a Heleną <stage>(urywa i patrzy poważnie na Mlickiego. Zmienionym głosem)</stage> Słuchaj Stefan! Możesz jeszcze wybierać! Czujesz, że nie możesz być przy mnie szczęśliwy, to idź. Nie chcę żyć z człowiekiem, który w ciągłej rozpaczy rozmyśla możliwość samobójstwa dawniejszej kochanki. <stage>(Z wzrastającą namiętnością)</stage> Nie chcę! nie chcę dzielić się z inną kobietą, nie chcę, by ktoś dniem i nocą stał między tobą a mną.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Dzielić?... Hm... <stage>(patrzy na nią)</stage> Nie chcesz się dzielić?... nie chcesz, by ktoś dniem i nocą stał między nami. <stage>(pociera ręką czoło)</stage></p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(wystraszona)</stage> Cóż ci jest? Słyszałeś, co mówiłam? zrozumiałeś, że nie chcę żyć z tobą, dopóki o niej nie zapomnisz?!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Wszystko zrozumiałem... wszystko zapomnę, nawet... <stage>(urywa i patrzy na Olgę)</stage> A będę miał wiele trudu, bo muszę dużo rzeczy zapomnieć – dużo. <stage>(opamiętywa się, bierze ją za rękę)</stage> Miej tylko trochę cierpliwości. Nie jestem całkiem zdrów. Dziwna rzecz, myślę całkiem jasno. Mózg mój mówi mi to samo, coś ty przed chwilą mówiła. Wiem, że bez ciebie żyć nie mogę. Wiem, że dla niej śmierć byłaby prawdziwem szczęściem. A jednak... Jakbym miał gdzieś drugi mózg, który zupełnie inaczej myśli, który sobie ze mnie kpi, cały mój rozsądek wywraca. Patrz, dziś naprzykład. Szukałem jej po całem mieście... W mieszkaniu jej niema... Znikła... Wiedziałem to od kilku tygodni... Więc się zabiła... mówi mój mózg. Ale w tej samej chwili osłabłem, nogi poczęły mi się chwiać...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(przerywa)</stage> Gdzież nasze szczęście, gdzie? O jak ja pragnęłam tego szczęścia z tobą, jak drżałam na samą myśl, że za parę dni nowe życie się dla mnie rozpocznie... tak niewysłowienie piękne życie.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(zgnębiony)</stage> Nie męcz mnie teraz. To wszystko przejdzie. Wpierw muszę ochłonąć. Tak bez wszystkiego, całej przeszłości ze serca wyrwać nie można.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(namiętnie)</stage> Można, można, wszystko można, jeśli się kocha!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Tak tak... łatwo ci to mówić. Tyś na twej drodze nie miała żadnych przeszkód.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>A tyś ciężką ofiarę poniósł?</p>
+          </sp>
+          <stage>(MLICKI. nie odpowiada)</stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>I ta ofiara przechodzi twe siły?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(nagle)</stage> Powiedz tylko, kochasz ty mnie rzeczywiście tak, jak mówisz?...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Poczynasz o tem wątpić?!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Nie, nie wątpię... zresztą głupstwo! Przypomniało mi się tylko pierwsze wrażenie. Byłaś wtedy tak zmęczona, taka zimna...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(przerywa)</stage> Nie, nie, to nie to, to nie twoje pierwsze wrażenie... <stage>(patrzy na niego z smutną powagą)</stage> Twoja miłość nie ta co była. Obce struny dźwięczą. Nie czuję jej tak, jak ją dawniej czułam... Podejrzywasz mnie, śledzisz, analizujesz każde moje słowo. <stage>(Zwątpiała)</stage> Zdżarski pracował nad tobą – o! jak ja jego słowa słyszę, jak czuję cały ten jad, który ci w twoją miłość wszczepił.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Powiedz mi tylko, dlaczego Zdżarski taką ma wściekłą nienawiść ku tobie?...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Chciał koniecznie, żebym poszła za niego... <stage>(nagle)</stage> Powiedz mi Stefanie otwarcie, co ci Zdżarski mówił o mnie? Powiedz mi całą prawdę...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Nic mi nie mówił. Jedna tylko <stage>(jąka się, a potem ochrypłym głosem)</stage> Bardzoś go kochała?</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Kogo?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Jego – Pretwica!</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(załamuje ręce)</stage> Więc i to jeszcze! Boże! co za nieszczęście! Więc to było tylko urojeniem, senną marą... <stage>(opada całkiem)</stage> Nie, Stefanie, niemam siły walczyć z widmami! nie mam siły kalać się temi wspomnieniami. Nie chcę, żeby mi je przypominano. A wiem, o jak to jasno, jak silnie czuję, że nigdy tego nie zapomnisz, że wciąż będziesz całą moją przeszłość wywlekał... Nie, nie, nie! Sam widzisz, że dla nas niema szczęścia!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(chwyta jej ręce, całuje je i tuli ją do piersi)</stage> Nie Olgo! Nigdy o tem więcej nie wspomnę. Zapomnę o wszystkiem. Wszystko, co przeszło, ze serca wyrwę – będę szczęśliwy i zrobię cię szczęśliwą. <stage>(po chwili)</stage> Ja cię tak kocham. <stage>(po chwili)</stage> No, śmiej się do mnie – powiedz, żeś szczęśliwą.</p>
+          </sp>
+          <stage>(OLGA. śmieje się)</stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Twój śmiech taki wymuszony.</p>
+          </sp>
+          <stage>(OLGA. śmieje się coraz więcej)</stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Nieszczerze się śmiejesz.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(z ironią)</stage> Ależ śmieję się, śmieję się z całego serca, z siebie, z ciebie – z twoich trosk – i twej słabości... Nieprawda? jesteś trochę słaby – może zbyt tkliwy – i może trochę zawiele masz trosk i kłopotów i lęku, przyznaj się tylko... <stage>(patrzy mu w oczy)</stage></p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Drwisz ze mnie?</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Nie, cóż znowu?</p>
+          </sp>
+          <stage>(Pauza. Mlicki unika jej wzroku)</stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(z bolesnym uśmiechem)</stage> Stało się inaczej – to wszystko było urojeniem, marą...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Czujesz się zawiedzioną?</p>
+          </sp>
+          <stage>(Olga nie odpowiada. Milczenie)</stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(nagle bardzo niespokojny)</stage> Wiesz, spotkałem dziś Zdżarskiego. Wykrzywił obrzydliwie twarz i zapowiedział, że nas dziś odwiedzi. <stage>(Z nagłym strachem)</stage> Przyniesie nieszczęście – przyniesie. Czuję je, jak się zbliża... Wiesz, Olga, jeśli on tu przyjdzie, to powiedz mu, że niema mnie w domu – albo nie, powiedz mu wprost, że niechcę go widzieć. Tak, to najlepiej. Powiedz mu, że wogóle niechcę się z nim widzieć, to szatan wcielony a nie człowiek... <stage>(Słychać gwałtowne dzwonienie)</stage></p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(patrzy przerażony ku drzwiom)</stage> Nieszczęście... idzie... nieszczęście...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(przejęta tąsamą trwogą)</stage> To Zdżarski! idź do drugiego pokoju, idź! Powiem mu, żeś wyszedł, że nie chcesz się z nim widzieć – idź, idź! <stage>(Powtórne dzwonienie)</stage></p>
+          </sp>
+          <stage>(Olga idzie do drzwi, dając znaki Mlickiemu, żeby wyszedł)</stage>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#olga">OLGA.</rs>
+              <rs key="#mlicki">MLICKI.</rs>
+              <rs key="#zdżarski">ZDŻARSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(stoi jak wryty i patrzy z szeroko rozwartemi oczyma ku drzwiom)<lb />(Po chwili otwierają się drzwi i wchodzi Olga, za nią Zdżarski)</stage>A!... Zdżarski... w istocie...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Co?... Nie poznajesz mnie?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(opamiętywa się nagle, potem śmieje się nerwowo)</stage> Zupełnie mi się w głowie pokręciło. Ale też mam taki szalony ból głowy, że zwaryowaćby można... <stage>(przeciera sobie czoło)</stage> kiedyś zadzwonił, zdawało mi się, że się wszystkie dzwony rozjęczały... <stage>(patrzy na Zdżarskiego)</stage> Tak jakoś dziwnie wyglądasz...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>E, zdaje ci się.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(niespokojna do Stefana)</stage> Powinieneś wypocząć; może ten ból głowy przejdzie.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Tak, tak, masz racyę... położę się na chwilę... zażyję antipyryny. <stage>(do Zdżarskiego)</stage> Wszak mi wybaczysz?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Ale rozumie się. <stage>(Mlicki wychodzi)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#olga">OLGA.</rs>
+              <rs key="#zdżarski">ZDŻARSKI.</rs>
+            </p>
+          </stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(po chwili)</stage> Prawdopodobnie wyjedziecie niedługo.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Jak najprędzej!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Mlickiemu niemiło pozostawać tu dłużej. He, he, mocno wierzę!...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(wymijająco)</stage> Niema już tu co robić! Pojedziemy do Paryża.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(śmieje się)</stage> Bardzo ładne miasto...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(drwiąco)</stage> Nieprawda?...</p>
+          </sp>
+          <stage>(pauza)</stage>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Tam chyba przyjdzie do siebie.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Z pewnością.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>No, tak całkiem pewne to nie jest.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(naraz zimna i dumnie)</stage> Po coś właściwie tu przyszedł?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(z zjadliwą ironią)</stage> Zkądże nagle ten nieprzyjemny ton?...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(pogardliwie)</stage> Chcesz wobec nas podjąć się roli złego sumienia?!...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Może...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Właściwie nie spodziewałam się czego innego po tobie... Jesteś podły, chytry, i podstępny jak sumienie.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(parska jej w twarz śmiechem)</stage> Wspaniale to powiedziane. Podłe, chytre, podstępne sumienie, to kapitalna rzecz. He, he! Jesteś dumna i harda; może twój umysł nie sięga tak daleko, by zrozumieć, że sumienie może być jeszcze czemś innem. Mlicki to lepiej wie od ciebie.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(mierzy pogardliwie Zdżarskiego)</stage> I pomyśleć, że ja kiedyś dla tego człowieka miałam trochę sympatyi. Jak bezdennie naiwną byłam! Teraz dopiero widzę, jak nisko myślisz i jak ordynarnie odczuwasz.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Przedziwnie maskujesz twój strach i twoją rozpacz. Dziwna rzecz, że wy – wy – ludzie postępu i inteligencyi macie obawę – straszną obawę przed owem chytrem i podstępnem sumieniem.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Obawę? Bynajmniej! Ale to niesłychanie komiczne, gdy pan Zdżarski pocznie kazać o sumieniu! Wstydź się tego niskiego kłamstwa! Tobie nie o sumienie chodzi, ale o zemstę. Chcesz się pomścić na mnie. Nie wiem za co. To mnie zresztą mało obchodzi... i w tym celu zakwaterowałeś się u Stefana i zacząłeś szczuć Helenę przeciw Stefanowi, a Stefana przeciw mnie.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(cynicznie)</stage> Jak widzę, jesteś o wszystkiem dobrze poinformowana. Skarżył ci się biedny Stefanek?...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(przerywa mu)</stage> Chciałeś zachwiać miłością Stefana. Chciałeś w niego jad zaszczepić. Wiesz! jesteś jak jadowity pająk...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Dziękuję – i cieszy mnie – że widocznie należycie oceniasz mój wpływ na Stefana. <stage>(śmieje się dziko)</stage> Mówił ci o Pretwicu? Czy bardzo nad nim ubolewał!...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(wyniośle)</stage> Proszę nie mówić mnie „ty”, to mi bardzo nieprzyjemnie.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>A zatem pani! wybornie... Właściwie żal mi pani; jesteś pani dla mnie bardzo ciekawą tą swoją gorączkową tęsknotą za władzą, siłą i mocą... A co najciekawsze, że pani, coś całe życie goniła za tą hardą twardą dumą, co nie zna ani granic, ani przeszkód, wybrałaś sobie właśnie człowieka – miękkiego jak wosk, tkliwego jak rozpieszczone dziecko.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(przerywa)</stage> Znam tylko jedną tęsknotę i jedno pragnienie za tem, co piękne... Możesz sobie zatem wystawić, jak mi przykro, że muszę się ocierać o coś tak brudnego...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Jak ja? Ha, ha, ha! Jak pani znakomicie umie za drzwi wypraszać... Przykro mi, że muszę jeszcze chwileczkę panią bawić <stage>(poważnie)</stage> mam pewne prawa pozostać tu – prawo i obowiązek.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Aby pomścić Helenę. O! Boże!... jakie to sumienie obłudne i nieuczciwe.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>I to pani również dobrze powiedziała. Nie wiedziałem, że pani umie wygłaszać takie sentencye, ale pani wybaczy, że nie odejdę, póki...</p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA IV.</head>
+          <stage type="setting">
+            <p>(Mlicki wchodzi nagle, na wpół nieprzytomny, wlepia upornie oczy w Zdżarskiego)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#olga">OLGA.</rs>
+              <rs key="#zdżarski">ZDŻARSKI.</rs>
+              <rs key="#mlicki">MLICKI.</rs>
+            </p>
+          </stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(niespokojnie)</stage> Cóż to Stefanie?...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(krzątając się)</stage> Nic... nic... Szukam papierosów, nie wiem, gdzie je położyłem.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(przyjaźnie)</stage> Nie powinieneś palić, jeżeli cię tak bardzo głowa boli.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(niespokojny)</stage> No!... cóż tam nowego słychać w mieście? Ty tak jakoś dziwnie wyglądasz – tak ci oczy latają...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Już dawno zauważyłem, że cierpisz na manię prześladowczą.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Tobie, mój kochany druhu, tobie jedynie mam ją do zawdzięczenia. <stage>(Kiwa mu głową i odchodzi)</stage></p>
+          </sp>
+          <stage>(pauza)</stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Kiedyż nareszcie będzie pan łaskaw opuścić mnie?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(brutalnie)</stage> Kiedy mi się będzie podobało!</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(zrywa się)</stage> Czyś pan zwaryował? Co się panu zdaje? Czego pan chcesz odemnie?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Chwileczkę cierpliwości!</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Pan mi grozisz?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Bynajmniej. Ale chętnie chciałbym się przekonać, czy tchórzliwe, chytre i obłudne sumienie jest w stanie zepsuć szczęście ludziom postępu, ludziom inteligentnym.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(dumnie i z pogardą)</stage> Słuchaj pan! Był czas, że miałam litość nad panem. Czułam, że byłam powodem pańskich cierpień i cierpiałam z panem pospołu... Chciałam pana choć w części odszkodować – miałam na myśli proste odszkodowanie – trochę przyjaźni...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Aleś ty fenomenalną komedyantką! he, he! kochałem panią, a pani zadawałaś sobie trud, by mnie z miłości wyleczyć! Czyś ty mi kiedykolwiek powiedziała, że nie mogę mieć nadziei? Czyś nie siedziała ze mną w ciemnym gabinecie przy szampanie, nie pozwoliłaś się wziąść na ręce i nieść na trzecie piętro, rozpuszczać włosy i całować? zawsześ mi zostawiała otwartą furtkę i jeszcze przy końcu podawałaś mały paluszek.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(drwiąco)</stage> A ty byłeś na tyle głupi, żeby chwytać za całą rękę... Ha, ha, ha! Jakiś ty nieokrzesany!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(nie zważając na jej drwiny)</stage> Odszedłem raz, rzuciłem ci obelgę w twarz – przysłałaś po mnie na drugi dzień. Unikałem cię, a ty zawsześ mnie wyszukała i wlokłaś za sobą i psułaś i niszczyłaś jeden kawałek mej duszy za drugim.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(osłupiona)</stage> I ten nędzny człowiek w ten sposób pojmował moją litość i moje współczucie! <stage>(z drwiącą pogardą)</stage> Ha, ha, ha! to rzeczywiście wspaniałe!... Dlaczegóż nie zadeklamujesz strasznej a płaczliwej ballady o twej narzeczonej, którą dla mnie porzuciłeś? Miałeś przecie też taką Helenkę!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(porywa się drżący)</stage> Milcz!</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(śmieje się coraz głośniej)</stage> Co za pyszny widok... Zdżarski w pasyi! Jak on się umie unieść! Ha, ha, ha! Powiadałeś mi raz, żeś najlepszemu przyjacielowi skradł pieniądze, by módz za mną pogonić! Zapomniałeś o tem?</p>
+          </sp>
+          <stage>(ZDŻARSKI. podchodzi ku niej)</stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(staje przed nim)</stage> No, panie Zdżarski, czego sobie pan jeszcze życzy?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(opanowuje się nagle – z drwinami)</stage> Podziwiam panią! pani ma rzeczywiście odwagę!</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(z głęboką wzgardą)</stage> Słuchaj pan! pan chcesz się mścić! Well! Ale może ten interes – bo dla pana wszystko interesem – może interes ten polubownie załatwimy? Żądasz pan odszkodowania. Przyjaźnią się pan odszkodować nie dał – a więc może monetą. Jestem dość zamożna. Ile pan żądasz? Zacznij pan od wysokiej sumy...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(śmieje się wesoło)</stage> Pani niezwykle dowcipna!</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Więc nie chce pan pieniędzy. To mnie cieszy. Ale pomścić chce się pan za wszelką cenę! Więc proszę! mścij się pan!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(wpada w zamyślenie)</stage> Właściwie jestem już zmęczony tą całą komedją! W części jestem już pomszczony! Ile pani ma niepokoju, i ile obawy o biednego Stefana... Zresztą pani broni sprawy zupełnie przegranej... Helena go zabije... Możeby mógł o niej zapomnieć, gdyby przy pani znalazł odrobinę szczęścia.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Dalej, dalej! kończ pan!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Ale go nie znajdzie! niestety! Nie potrafi pokonać w sobie samca, który się od kobiety domaga czystości.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Żałuję nieskończenie, że nie mogę kazać pana za drzwi wyrzucić!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Na dobre nie wyszłoby to pani! zresztą ma pani racyę! Doprowadźmy sprawę do końca. Więc proszę pani, nasamprzód postarałem się o to, że Mlicki swych szczęśliwych a może szczęśliwszych od niego poprzedników nie zapomni!</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(opada zupełnie ze sił)</stage> Więc czegóż pan chcesz więcej?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Ale to wszystko są rzeczy niepewne. Jego próżność i słabość mogłyby samca pokonać, a wtedy mogłaby pani być z nim szczęśliwą... Więc pozostaje sumienie – a sumienie jego zbolałe – jedna rana otwarta...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Cóż dalej, dalej?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>W tej chwili!, otóż żeby pani wszystko zrozumiała, muszę pani wyznać, że nie znałem nikogo, ktoby mi tak głęboko wrósł w serce, jak Helena... Oboje jesteście winni jej nieszczęściu... Ale wy jesteście ludzie inteligentni, więc moglibyście o niej zapomnieć, a wtedy, kto wie, czybyście istotnie nie mogli być szczęśliwi... A na to nie pozwolę!... Przyszedłem pomścić Helenę i siebie. Skoro się Mlicki dowie...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(z największą trwogą)</stage> O czem?</p>
+          </sp>
+          <stage>(pauza. Zdżarski zamyśla się)</stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(opada zupełnie)</stage> Przyszedłeś mu to powiedzieć?</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Tak.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(porywa się nagle)</stage> I nic cię od tego nie powstrzyma? nic?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Nic...</p>
+          </sp>
+          <stage>(pauza)</stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(namiętnie, bezładnie)</stage> Nie mów mu tego! teraz nie... Błagam cię, proszę cię na litość Boską! nie mów mu tego. Rób ze mną co chcesz, ale nie powiadaj mu tego! Później! Później! Jutro... <stage>(Zdżarski milczy)</stage></p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(szepce)</stage> Dam ci wszystko co zechcesz – opuszczę go, jeżeli zażądasz, ale nie druzgocz go teraz! A to go dziś zdruzgocze.</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>On bezlitośnie Helenę zdruzgotał. Ty mnie.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(zrywa się)</stage> Dobrze! dobrze! powiedz mu natychmiast! zobaczymy kto silniejszy, ja czy ona! <stage>(woła)</stage> Stefan! Stefan!...</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA V.</head>
+          <stage type="setting">
+            <p>(Pauza)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#zdżarski">ZDŻARSKI.</rs>
+              <rs key="#olga">OLGA.</rs>
+              <rs key="#mlicki">MLICKI.</rs>
+            </p>
+          </stage>
+          <stage>(MLICKI. wchodzi blady, chwiejny, wpół błędny)</stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(z wielką mocą)</stage> Patrz! patrz na tego człowieka. Był moim niewolnikiem, moim psem! czy to prawda, że się teraz stał twoim panem? Prawdaż to, że zachwiał zaufanie do mnie? prawdaż to, że nigdy nie byłbyś porzucił Heleny, gdybym nie była przyjechała tak nagle? Prawda to?</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(wściekły)</stage> Kłamie nędznik, kłamie! Idź precz! precz!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(patrzy na nich spokojnie)</stage> Nie pojmuję dlaczego się tak unosicie! Tobie, Stefanie, całkiem nie do twarzy z tą bohaterską pozą.</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(do Mlickiego)</stage> Nie pozwól-że się obrażać.</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(trzęsąc się nerwowo, z wyciągniętą ręką – po chwili z trudnością)</stage> Precz stąd...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Niechciałbyś wprzód dowiedzieć się, co się z Heleną stało?...</p>
+          </sp>
+          <stage>(MLICKI. patrzy nań błędnie)</stage>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Chodź Stefanie! Chodź! błagam cię, chodź! zostaw go tu!...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Czekaj tylko, czekaj! Niech wprzód powie! on ma coś strasznego do powiedzenia. <stage>(krzyczy do Zdżarskiego)</stage> Mów! Mów!...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Nie pozwól mu tryumfować!... <stage>(chwyta Mlickiego za rękę)</stage> Chodź! sama ci powiem! Chodź! chodź!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(wyrywa się gwałtownie i woła ochrypłym głosem)</stage> Mówże wreszcie przeklęty kacie!</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(z mocą)</stage> Sama ci powiem. Helena się zabiła!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Utopiła!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(nierozumiejąc)</stage> Utopiła? Helena się utopiła?</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p>Tak, utopiła się!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(patrzy nieprzytomnie to na Olgę, to na Zdżarskiego, potem rzuca się na niego)</stage> Kłamiesz! kłamiesz! powiedz, żeś skłamał!</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Sam się niedługo przekonasz. Ja w trupiarni podałem wasz adres, więc ją tu przyniosą...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Co mówi ten szatan? Tu ją zaraz przyniosą?...</p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p>Przecież ją trzeba pochować!</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Tu ją kazałeś przynieść? <stage>(ze strasznym strachem)</stage> Tu! Tu! <stage>(wpada w furyę i krzyczy)</stage> Precz, precz! Bo... bo... <stage>(stoi z zaciśniętymi pięściami)</stage></p>
+          </sp>
+          <sp who="#zdżarski">
+            <speaker>ZDŻARSKI.</speaker>
+            <p><stage>(do Olgi)</stage> Pani! nasz rachunek jeszcze nie wyrównany <stage>(wychodzi)</stage></p>
+          </sp>
+          <stage>(Pauza, Mlicki na środku pokoju z załamanemi rękami. Olga podchodzi nieruchoma przy ścianie – przez cały czas patrzyła z zastygłą twarzą na obu mężczyzn)</stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(obraca się i podchodzi do niej)</stage> Prawda? to prawda?</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(cicho)</stage> Tak, to prawda!...</p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(nieprzytomnie)</stage> A więc to prawda! Hela nie żyje!... <stage>(pada na krzesło; po chwili zrywa się i podchodzi do Olgi)</stage> Myśmy ją zamordowali! my!... Ja i ty!... Ty też!... Ty też!... <stage>(wybucha dzikim śmiechem)</stage> Zamordowałem ją dla ciebie. Ha, ha, ha. Dla szczęścia... dla naszego szczęścia... Zamordowałem... Ha, ha, ha! Dla szczęścia!...</p>
+          </sp>
+          <sp who="#olga">
+            <speaker>OLGA.</speaker>
+            <p><stage>(patrzy na niego z pogardą, potem wybucha spazmatycznym śmiechem. Mlicki podchodzi ku niej jak kot przyczajony. Olga cofa się bojaźliwie, naraz słychać hałas zewnątrz. Mlicki wypręża się i chwyta Olgę w strasznem przerażeniu)</stage></p>
+          </sp>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p>Niosą ją, niosą! Nie wpuszczaj, zamknij drzwi! nie wpuszczaj!</p>
+          </sp>
+          <stage>(OLGA. porwana strachem drży – słychać mocne stukanie. Olga i Mlicki cofają się przerażeni. Chwila milczenia. Potem ponowne gwałtowne stukanie)</stage>
+          <sp who="#mlicki">
+            <speaker>MLICKI.</speaker>
+            <p><stage>(krzyczy dzikim głosem)</stage> Nie wpuszczę! nie wpuszczę!... <stage>(rzuca się ku drzwiom)</stage></p>
+          </sp>
+          <trailer>(KONIEC)</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

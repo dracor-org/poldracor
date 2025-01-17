@@ -1,0 +1,1658 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000039" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Cyrce Mańkowska</title>
+        <author>
+          <idno type="isni">0000000071411238</idno>
+          <idno type="wikidata">Q4893683</idno>
+          <persName>
+            <forename>Adolf</forename>
+            <surname>Neuwert-Nowaczyński</surname>
+          </persName>
+        </author>
+        <!-- Adolf Neuwert-Nowaczyński (1876–1944) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/siedem-dramatow-jednoaktowych-adolfa-neuwerta-nowaczynskiego,MjQ2OTAwNTY/148/</idno>
+          <title>Nowaczyński, A., Cyrce Mańkowska [w:] tegoż, Siedem dramatów jednoaktowych Adolfa Neuwerta-Nowaczyńskiego, Lwów 1903, s. 133-188</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="colonna" sex="MALE">
+            <persName>Colonna Rozdrażewski</persName>
+          </person>
+          <person xml:id="giguś_thugut" sex="MALE">
+            <persName>Giguś Thugut</persName>
+          </person>
+          <person xml:id="laskowska" sex="FEMALE">
+            <persName>Laskowska</persName>
+          </person>
+          <person xml:id="mańkowska" sex="FEMALE">
+            <persName>Mańkowska</persName>
+          </person>
+          <person xml:id="oleśnicki" sex="MALE">
+            <persName>Hrabia Oleśnicki</persName>
+          </person>
+          <person xml:id="panna_kazia" sex="FEMALE">
+            <persName>Panna Kazia</persName>
+          </person>
+          <person xml:id="panna_lola" sex="FEMALE">
+            <persName>Panna Lola</persName>
+          </person>
+          <person xml:id="panna_stefa" sex="FEMALE">
+            <persName>Panna Stefa</persName>
+          </person>
+          <person xml:id="pryncypałowa" sex="FEMALE">
+            <persName>Pryncypałowa</persName>
+          </person>
+          <person xml:id="sançonci" sex="FEMALE">
+            <persName>Sançonci</persName>
+          </person>
+          <person xml:id="scholzówna" sex="FEMALE">
+            <persName>Scholzówna</persName>
+          </person>
+          <person xml:id="sternbaldowa" sex="FEMALE">
+            <persName>Sternbaldowa</persName>
+          </person>
+          <person xml:id="thugut" sex="MALE">
+            <persName>Thugut</persName>
+          </person>
+          <person xml:id="thugutowa" sex="FEMALE">
+            <persName>Thugutowa</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-09-23">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1903">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">CYRCE MAŃKOWSKA</titlePart>
+          </docTitle>
+        </titlePage>
+        <castList>
+          <head>OSOBY:</head>
+          <castItem>
+            <role corresp="#pryncypałowa">PANI PRYNCYPAŁOWA.</role>
+            <roleDesc/>
+          </castItem>
+          <castGroup>
+            <head>konfekcyonistki</head>
+            <castItem>
+              <role corresp="#panna_kazia">PANNA KAZIA</role>
+              <roleDesc/>
+            </castItem>
+            <castItem>
+              <role corresp="#panna_stefa">PANNA STEFA</role>
+              <roleDesc/>
+            </castItem>
+          </castGroup>
+          <castItem>
+            <role corresp="#thugut">PAN THUGUT,</role>
+            <roleDesc>właściciel fabryki cementu.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#colonna">BOGDAN COLONNA ROZDRAŻEWSKI.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#oleśnicki">HRABIA WŁADYSŁAW OLEŚNICKI.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#thugutowa">PANI THUGUTOWA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#laskowska">PANI LASKOWSKA.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#sternbaldowa">PANI STERNBALDOWA.</role>
+            <roleDesc.>
+          </castItem>
+          <castGroup>
+            <head>"z własnych funduszów"</head>
+            <castItem>
+              <role corresp="#mańkowska">MANIA MAŃKOWSKA</role>
+              <roleDesc/>
+            </castItem>
+            <castItem>
+              <role corresp="#sançonci">HERMINA SANÇONCI</role>
+              <roleDesc/>
+            </castItem>
+            <castItem>
+              <role corresp="#scholzówna">AGAJ ZOFIA SCHOLC</role>
+              <roleDesc/>
+            </castItem>
+          </castGroup>
+        </castList>
+      <set>
+        <p>(Rzecz dzieje się w Eldorado polskiej prostytucyi, na wyspie Syreniego grodu, w Warszawie. Pracownia konfekcyi damskiej na jednej z najludniejszych ulic u madame Anna, na pierwszem piętrze dochodowej mansardy któregoś z polskich magnatów-aferzystów.<lb />Scena przedstawia rzęsistem elektrycznem światłem zalany pokój do przymierzania sukien, którego drzwi po prawej wskazują swym napisem: "Obcym wstęp wzbroniony", pracownię cichych bohaterek igły; szeroka, imponująca kotara w głębi zasłania wejście do równie rzęsiście oświeconej poczekalni; dwie wielkie szyby lustrzane wychodzą na ulicę; na szybach lustrzanych złote napisy: "Pracownia konfekcyi damskiej", "Magasin t’hailleur des dames". Pokój urządzony ze zbytkiem, cały kryty dywanem, z dwoma obrazami w gustownych ramach, przedstawiającymi osławione miłosne sceny Romea i Julietty, Fausta i Małgorzatki. Na środku pokoju dwa wielkie zwierciadła w kosztownych ramach, przy nich wygodne foteliki, kozetki, krzesełka. W głębi dwa długie stoły całe pokryte stosami materyi, koronek, pasmanteryi, pudełek od kapeluszów, kapeluszami, wstążkami, gipiurami, gazami, tiulami, itp. Na wieszadłach, mamekinach i po stołkach porozrzucane niewykończone suknie, staniki, wielkie bryty materyi jedwabnych itp. W progu z prawej szeroki, elegancki comptoir czy kantorek, koło niego poczciwa, otyła kasa wertheimoska, na ścianie szafka telefonu nr. 3989. Wszędzie porozrzucane tygodniki mód we wszystkich językach, żurnale, kroje…<lb />Atmosfera absolutnej effeminacyi, bezpodzielne królestwo kobiet lekkich, lżejszych i najlżejszych.<lb />Zima, karnawał [Carne Vale!] w dniach najwyższego rozpasania, 16o C., godzina szósta poobiednia. </p>
+        <p>Z ulicy dochodzi równomierny stukot gumowych pojazdów po drewnianym bruku, dzwonki tramwayów, hałas inteligentnej i barbarzyńskiej ciżby przeszło półmilionowego, anormalnie rosnącego wszerz, wzdłuż i w głąb zepsucia miasta…<lb />W poczekalni ruch i gwar za kotarą, co moment przebiegają stamtąd konfekcyonistki i biegną do stołów lub do pracowni, wracają, przebierają między materyami, niosą pudełka do poczekalni.<lb />Przed lustrem stoi PANI THUGOTOWA trzydziestoletnia kobieta, o pięknej, niezwykle miękko modelowanej twarzy, słodkich oczach dziecka, z bezpretensyonalną fryzurą przebogatych lśniących włosów, ubrana z wyczerpującą się, zeszłoroczną elegancyą; w ogólnym tonie znać pewne zaniedbanie harmonizujące chyba z melancholią altowego głosu i to egzaltacyą to cierpkością intonacyi. Jest zupełnie widocznie w błogosławionym stanie, a majestat ten dziwnie drastycznie sprzecza się z luxusowym kolorytem magazynu. Pani Thugutowa przymierza przerabiany zimowy płaszcz, przy niej kręci się PANNA KAZIA słodka dziewczyna z Leszna w piramidalnej fryzurze. Przy oknie stoi w płaszczyku, z czapeczką w ręku dziewięcioletni THUGUTEK, dziwnie blada, poważna, bezsłoneczna roślina wielkomiejska, i patrzy w piekło uliczne… Za comptoirem siedzi PANI PRYNCYPAŁOWA czterdziestoletnia eks-kokota siwiejąca, znudzona, „stosunkowo poczciwa” jednostka ludzka, i notuje skrzętnie rachunki w długich książkach…)</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>SCENA 1.0.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#thugutowa">THUGUTOWA.</rs>
+            <rs key="#panna_kazia">PANNA KAZIA.</rs>
+            <rs key="#pryncypałowa">PRYNCYPAŁOWA.</rs>
+            <rs key="#giguś_thugut">GIGUŚ THUGUT.</rs>
+            <rs key="#panna_lola">PANNA LOLA.</rs>
+          </p>
+        </stage>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Giguś zdejm płaszczyk!</p>
+        </sp>
+        <stage>(GIGUŚ THUGUT. bez drgnięcia)</stage>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Gigusiu bóstwo moje, zdejm płaszczyk, bo się zaziębisz.</p>
+        </sp>
+        <stage>(GIGUŚ THUGUT. potrząsa się niecierpliwie)</stage>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p>Trzeba zdjąć płaszczyk panie kawalerze, bo na dworze mróz, a tu jak w łazience, war idzie od kaloryferów.</p>
+        </sp>
+        <stage>(GIGUŚ THUGUT. z niesłychanem znudzeniem, flegmatycznie ściąga z siebie płaszczyk)</stage>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(z egzaltacyą)</stage> Grzeczny mój aniołek, śliczny, brylantowy król, słucha mamusi, słucha <stage>(obraca się dookoła i mierzy, do panny Kazi)</stage> Czy tylko w tyle dobrze leży?</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p><stage>(cokolwiek mechanicznie)</stage> Ależ świetnie, jak ulany, jak nowiuteńki, doskonale <stage>(poprawiając fałdów)</stage> Jak na imię synkowi wielmożnej pani?</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Jak na imię? a, Giguś, to jest Gustaw, August, August, Fryderyk, Zdzisław Thugut, moja chluba, moja perła… moje… Giguś! na zlitowanie boskie siadaj ty aniele mój, bo się zmęczysz, siadaj.</p>
+        </sp>
+        <stage>(GIGUŚ THUGUT. z kapitalnem znudzeniem siada na szerokim fotelu, zrzucając na ziemię materye, próbki)</stage>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(w uniesieniu biegnie do niego w płaszczu)</stage> Moje kochanie, moje złote; patrz panna jaki on posłuszny, jakie to wzorowe, fenomenalne dziecko!</p>
+        </sp>
+        <sp who="#giguś_thugut">
+          <speaker>GIGUŚ THUGUT.</speaker>
+          <p><stage>(bezdźwięcznie)</stage> Zdejm ty futro, bo się potem zaziębisz.</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Dobrze, dobrze; mamusia też będzie posłuszna, kiedy Giguś taki posłuszny, taki wzorowy, taki śliczny. <stage>(staje przed synkiem i prezentuje się)</stage> No, jak ci się królewiczu mój podobam teraz w tem futrze, co?</p>
+        </sp>
+        <sp who="#giguś_thugut">
+          <speaker>GIGUŚ THUGUT.</speaker>
+          <p><stage>(odwracając się)</stage> Nie podobasz mi się, masz brzydką figurę.</p>
+        </sp>
+        <stage>(Thugutowa i panna Kazia w śmiech)</stage>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(do Kazi)</stage> Słyszy panna, ha ha ha, jaki krytyk surowy! Moje dziecko, moje najukochańsze, upieszczone, najdroższe. <stage>(całuje małego i pieści z najprzesadniejszą egzaltacyą)</stage> Czy kto widział takiego znawcę, takiego konesera? Czy uwierzy panna, że to bobie ogląda się już za każdą piękniejszą kobietą, to mało, że on zna się, chwali, gani, wie której w czem do twarzy, wie która włosy farbuje… pamięta z kim którą widział.</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p>O ja to już dawno spostrzegłam. <stage>(z złośliwą intencyą)</stage> Kawaler nad wiek swój rozwinięty, rozsądny; będzie z niego pociecha dla państwa.</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Och dla mnie to już jedyna pociecha, to jedno co mam na świecie, co mnie trzyma ze światem to ten mój królewicz z bajki. <stage>(do Gigusia)</stage> Ale na razie mama lepszej figury mieć nie może… Jak Giguś będzie dalej tak grzeczny i rozsądny, to mamie się wnet figura poprawi i chłopiec będzie znów dumny ze swej mamusi.</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p>Więc wielmożna pani jest całkiem zadowolona z tej przeróbki? Teraz jest chyba wygodny, przestrony, a kołnierz też leży świetnie… chyba by może jeszcze podnieść go, chociaż wątpię, bo we wszystkich nowych żurnalach są niskie.</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Nie, nie trzeba, zupełnie nie trzeba. <stage>(nieśmiało)</stage> Chciałam jeszcze oglądnąć te garnitury futrzane z niebieskich lisów…</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p>W tej chwili, służę wielmożnej pani. <stage>(biegnie do stołu, do pudełek)</stage></p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Co prawda, dziś nie będę kupować, chciałam tylko oglądnąć, czy byłyby stosowne do tego futerka… może…</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p>O, tego nie powiem, ale proszę, spróbować w każdym razie można; taki garnitur da się zawsze nosić… <stage>(przynosi dwa pudełka i wyjmuje z nich futrzane kołnierze, zarękawki, czapeczki)</stage> …O proszę, ten nawet stosunkowo nie drogi, a bardzo, bardzo efektowny; pani łaskawa przymierzy.</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(przymierza garnitur z prawdziwą rozkoszą, patrzy w lustro, odsuwa się)</stage> Swoją drogą mnie się zdaje, że dla mnie, obecnie, to jest przy tej figurze takie rzeczy są niestosowne, za żywe, nie? za mało poważne…</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p><stage>(rumieniąc się)</stage> O, dlaczego proszę łaskawej pani? pani hrabina z Wiejskiej ulicy także jest… także w tym, to jest odmiennym stanie proszę, a przedwczoraj taki sam u nas kupiła, jeszcześmy do czapeczki czaple pióra doszywali…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Tak, tak, ale to co innego, im wszystko wolno i wypada!… <stage>(wskazując garnitur na sobie)</stage> Musi być bardzo drogi.</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p><stage>(patrząc na pudło)</stage> O, nie, wcale nie, ten drugi droższy, ten 180 rubli.</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(z przestrachem)</stage> 180 rubli! 180 rubli! Ależ nie może być… <stage>(smutnie)</stage> To mnie ani nawet myśleć o tem, prawda Giguś? skądbyśmy wzięli… 180 rubli!</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p><stage>(dyskretnie)</stage> Wielmożna pani żartuje!</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(cierpko)</stage> Ech, gdzie tam żartuje… mnie tam do żartów. <stage>(ściąga z siebie niecierpliwie garnitur, rzuca mufką do pudełka)</stage> Jakże można tak drogo cenić, nikt wam tyle nie da, nikt, pakuj to panna; proszę mi tamten żakiet stary odesłać do domu, ja już zostanę w tem futrze… <stage>(cokolwiek szorstko)</stage> Giguś ubieraj paltocik.</p>
+        </sp>
+        <stage>(GIGUŚ THUGUT. siedząc na fotelu, przegląda z żywem zainteresowaniem żurnale, ani drgnie)</stage>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(podchodząc do comptoiru)</stage> Okropnie drogie te lisy u was moja pani, któżby to kupił.</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(ożywiając się)</stage> O, tak się mówi łaskawa pani; trzy garnitury już poszły, tylko dwa jeszcze zostały i te zaraz pójdą…</p>
+        </sp>
+        <stage>(Dzwonek od telefonu: dzzzzyń, dzzzzyń)</stage>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(ostro)</stage> Kazia! do telefonu. Lisy teraz ogromnie w modzie; mówiła nam jedna pani, która przedwczoraj wróciła z Paryża, że wychodzić z Renaissançu albo z Opery to nic tylko same lisy niebieskie, albo i gronostaje. Wprowadziła panna Wanda Choińska, nasza proszę pani rodaczka, ona jest w Odeonie, czy Ambigu, nie wiem dokładnie, a od niej cała arystokracya…</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p><stage>(przy telefonie)</stage> Z Bristolu proszę pani jakiś pan pyta, czy kostyum damy coeur dla panny Mańkowskiej gotowy…</p>
+        </sp>
+        <stage>(THUGUTOWA. drgnęła cała i lekko pobladła)</stage>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(do Thugutowej)</stage> Przepraszam panią, tylko to załatwię. <stage>(do Kazi)</stage> Co za pan?</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p>Jakiś pan, gość przez płatniczego, czy kostyum na maskaradę panny Mańkowskiej gotowy?</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(niezdecydowanie)</stage> Cóż to za głupie pytanie? kto?… zresztą powiedz, że gotowy, od rana gotowy, ale się go nie wyda, dopóki conto panny Mańkowskiej nie będzie wyrównane… przepraszam wielmożną panią… ale co to?… pani zbladła… w tym gorącu, w futrze, naturalnie, proszę, niechże pani zaraz siądzie. <stage>(schodzi z za comptoiru, poddaje Thugutowej fotel, ta siada)</stage></p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>…To nic, to chwilowe, tu jest istotnie niemożliwe gorąco, a ja jestem tak wrażliwą…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Szczególnie teraz chyba, przypuszczam, niechże łaskawa pani choć zwilży usta. <stage>(podaje jej szklankę wody sodowej z jakimś sokiem)</stage> Zawsze mamy na podorędziu wodę sodową, bo dość często się zdarza…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(wypiła)</stage> Dziękuję, już mi lepiej; przepraszam panią za tyle ambarasu… Giguś jesteś gotów? A teraz chciałabym mój rachunek wyrównać… choć w części… <stage>(zakłopotana)</stage>, gdyż zdaje mi się większa kwota już się… to jest… większa suma już pewnie, bo kilka razy… <stage>(wstaje)</stage></p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(słodko)</stage> A, z największą przyjemnością. Zaraz się wystawi pani pokwitowanie, ale niema co się spieszyć, musi łaskawa pani trochę jeszcze odpocząć.</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p><stage>(odejmując słuchawki telefonu)</stage> Ten pan co się pytał, zaraz tu będzie. <stage>(dyskretnie, tylko do pryncypałowej)</stage> Mówi płatniczy Artur, że stary wściekły…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(karcąco)</stage> Co za stary?</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p><stage>(zawstydzona)</stage> A no niby ten pan od panny Mańkowskiej; płatniczy Artur nie mówił, co za jeden, tylko ten stary, że jest wściekły, że się mu o rachunkach powiedziało, i że zaraz tu będzie…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Dobrze, już dobrze, niech tylko płaci… <stage>(do Thugutowej)</stage> Służę pani <stage>(idzie za comptoir)</stage>… przepraszam, że zatrzymuję, ale doprawdy, powinna pani jeszcze spocząć. <stage>(patrzy w książki rachunkowe i liczy osobno na ćwiartce)</stage> Noo w tym sezonie… od jesieni począwszy, nie było dużo… bardzo mało, same przeróbki i zmiany… wielmożna pani Aleksandra Thugut… 18 rubli, a 95 rubli, a 73 ruble, a 44 rubli to za ten żakiet jesienny… a 123 ruble… to jedyna większa pozycya teraz, ta wełniana suknia, a 25 rubli, a teraz 12 rubli — razem czterysta pięćdziesiąt.</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(z przestrachem)</stage> Aż 450 rubli! Nigdy nie myślałam, że aż tyle…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(zdziwiona)</stage> Jakto aż tyle? Innemi laty, pamięta pani wielmożna, bywało do 2500, do 3000 rubli; przecież dobrze pamiętam tę suknię balową: sama jedna przeszło 450 rubli…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(szybko)</stage> Tak, to prawda, bywało więcej, no widzi pani tego roku ja nie potrzebuję, absolutnie nie potrzebuję, nigdzie nie bywam, o karnawale nie wiem, więc…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(protekcyjnie)</stage> Tak, ja to pojmuję, oczywiście, nie może być inaczej; przecież będąc przy nadziei nie można ubierać się w dekoltowane suknie, Rembrandty, lub tańczyć… O, tu proszę pani łaskawej pokwitowanie…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(niespokojna, strapiona)</stage> Tak? no dobrze, ale ja tyle gotówki nie wzięłam z sobą, ani połowy… tak to jest… ja… tylko na conto w takim razie…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(zamykając hałaśliwie wielką książkę)</stage> Ależ proszę łaskawej pani, proszę, przecież my dobrze wiemy; pokwitowanie się poszle do domu razem z żakietem; chłopak zaniesie…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(wyjmując nieśmiało z pugilaresku banknot)</stage> A tymczasem z mojego conta odliczy pani 25 rubli.</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Dobrze, dobrze, to drobnostka, proszę się tem nie kłopotać, to zresztą może pani wielmożna już razem w domu zapłacić, po cóż osobno…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(chowając banknot ochotnie)</stage> Tak?… A to dobrze, tak będzie najlepiej, tylko… jeżeli to pani nie zrobi różnicy, to może… oczywiście, jeżeli tylko trzeba to zaraz… ale dogodniej by mi było w przyszłym miesiącu wyrównać…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Ależ naturalnie, naturalnie, niema o czem mówić, kiedy szanowna pani sobie tę drobnostkę przypomni… proszę tylko dla naszego etablissement zachować sympatyę… Z ostatniej roboty myślę, że pani zadowolona…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>O, tak, to drobiazg, ale zawsze jest mi w tem wygodnie… ale… a propos chciałam się panią jeszcze o coś zapytać. <stage>(ogląda się znacząco za panną Kazią)</stage></p>
+        </sp>
+        <stage>(PANNA LOLA. dziewczyna w rażąco secesyjnym stylu koafiury, ubrania, cery, twarzy, wpada z pracowni z efektownym kostyumem damy kierowej i obie z PANNĄ KAZIĄ układają go na kozetce, przyglądając się rozłożonemu z lubością)</stage>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(jeszcze więcej zmieszana)</stage> W pewnej sprawie cokolwiek drażliwej, tak, że wolałabym, aby…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Rozumiem, rozumiem. <stage>(do dziewcząt ostro)</stage> Proszę panien nie zabawiać się, tylko do poczekalni.</p>
+        </sp>
+        <stage>(PANNA KAZIA. wybiega szybko)</stage>
+        <stage>(PANNA LOLA. z gestami obrażenia i uporu wychodzi powoli, wzruszając pogardliwie ramionami)</stage>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(niepewnym głosem)</stage> Ja tylko, to jest oddawna już chciałam się pani zapytać, czy tu u pani, tak tylko z ciekawości… czy tu ubiera się u pani… ta… <stage>(jąkając się)</stage> ta panna… <stage>(wskazuje mufką na kostyum damy kierowej)</stage></p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(lekko zakłopotana)</stage> …Kto?… aha ta panna, to jest niby… ta Mańkowska?… a tak u nas się ubiera, ale to darmo proszę pani, my nie możemy wybierać, to jest przebierać w klienteli, to darmo, żadna pracownia nie przebiera… tu już wiele pań się skarżyło, ale cóż ja na to pocznę? my na tych paniach stoimy tak, wszystkie magazyny na tem stoją, ooo ja nie ukrywam proszę łaskawej pani; i Scholzówna się tu ubiera i trzy Marcinkowskie i Mańkowska i Stefańska i ta jakżeż jej tam…, ale to też one nadają szyku w całem mieście…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Mnie też zupełnie nie razi, nie dlatego się pytam, tylko tak…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Ja też domyślam się, że łaskawej pani o to nie rozchodzi się, bo skądże, przecież zresztą w całym cywilizowanym świecie: w Paryżu, w Nicei, w Aix les Bains, no i u nas przecie i pierwsze panie z teatru i najwyższy high-life, owszem kilka pań każe sobie zawsze robić suknie według Marcinkowskiej, bo ta ma wszystko od mistrza Martiala, od Armanda…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Słyszałam, słyszałam; ta Mańkowska ubiera się też prześlicznie, one wszystkie ubierają się bardzo estetycznie… czasem… więc proszę pani, czy… czy ta panna, ta Mańkowska tu bywa… bo ten kostyum naprzykład…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(podchodząc do kozetki i rozkładając kostyum)</stage> …O bywa; ten kostyum to na dzisiejszą maskaradę w redutowych… Niech pani wielmożna sama powie; nasza pracownia dla tych pań zrobiła sześć kostyumów, to jest ten kostyum pompadour dla panny Sançonci, dla trzech Marcinkowskich trzy suknie à la Diana de Poitiers, à la madame de Sevigne, à la Dubarry, a dla tej zwaryowanej Scholzówny szambelana Mossakowskiego kostyum Joanny papieżycy…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(z wzrastającem zainteresowaniem, zasłuchana)</stage> Jaki?… przepraszam, bo nie zrozumiałam…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(śmiejąc się serdecznie)</stage> …ach, a czy wielmożna pani myśli, że ja rozumiałam? Kostyum żony jakiegoś papieża z średnich wieków, która sama była papieżem podobno… tak mi panna Scholzówna tłómaczyła i dała nam obrazek, przedstawiający ową papieżycę i w tym kostyumie będzie na dzisiejszej maskaradzie…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(z szczerym podziwem)</stage> Ależ to nieprawdopodobne moja pani. <stage>(śmieje się)</stage></p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>A jednak prawdziwe. Na dzisiejszej maskaradzie ma być premiowanie najpiękniejszej maski wspaniałą brylantową broszką, którą ofiarował na to ordynat Tenczyński…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>…na premiowanie maski?…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Tak; otóż teraz już agitują dwie partye, gdyż kandydują na broszkę panna Scholz ta półwaryatka i Mańkowska…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(z wzrastającą ciekawością)</stage> Taak, no i co? no i co?…</p>
+        </sp>
+        <sp who="#giguś_thugut">
+          <speaker>GIGUŚ.</speaker>
+          <p><stage>(z fotelu)</stage> Nudzi mi się, chcę już do domu! <stage>(wstaje)</stage></p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(niecierpliwie)</stage> Teraz czekaj troszeczkę.</p>
+        </sp>
+        <sp who="#giguś_thugut">
+          <speaker>GIGUŚ.</speaker>
+          <p><stage>(stanowczo)</stage> Nie chcę czekać… Zaraz idziesz, albo Giguś sam pójdzie…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(ze złością)</stage> Niedobry, niegrzeczny dzieciak!… Więc cóż? mów pani… wszystko cokolwiek pani wie… proszę, ani pani uwierzy jak mnie to wszystko zajmuje… proszę się niczem nie krępować…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(skromnie)</stage> Ja tam tylko tyle wiem co słyszę rozmowę między temi pannami… tutaj… w probierni… otóż za Scholzówną agituje i już teraz zbiera bilety wizytowe szambelan Bossakowski, a za Mańkowską agitują hrabia Oleśnicki młodszy i jakiś stary bogacz, ale który się ukrywa, ten który za nią wszystko płaci, utrzymuje ją niby, ale incognito.</p>
+        </sp>
+        <stage>(THUGUTOWA. zupełnie zmieszana, przybladła i jakby bliska zemdlenia, opada na fotel)</stage>
+        <sp who="#giguś_thugut">
+          <speaker>GIGUŚ.</speaker>
+          <p><stage>(w paltociku, czapeczce, przy drzwiach)</stage> Idziesz mama, czy nie?… to paa…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(z wysiłkiem podnosząc się, błagalnie)</stage> Giguś! Gigulu, Gig… idę, ależ idę… zaraz…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(odwróciwszy się, surowo do Giga)</stage> …O, niegrzeczny kawaler, bardzo niegrzeczny, przecież Giguś widzi, jak mama zmęczona, fee!…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>To nic, to nic, już nie zmęczona mama, już idzie… <stage>(kieruje się ku wyjściu)</stage> …mama już musi iść… <stage>(do pryncypałowej)</stage>. Ani pani nie przeczuwa… ile… ile pani wdzięczna jestem za te informacye… tak… ale jeszcze… więc ta panna… ta Mańkowska tu dziś jeszcze będzie?… pewnie…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(wyciągając złoty zegareczek z za paska)</stage> Tak… o 7-dmej zamykamy magazyn, więc między szóstą a siódmą… ale dlaczegóż wielmożna pani tak…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Nic… nic, tak tylko, mam w tem swój interes… w każdym razie dobrze, że wiem… popróbuję… Giguś!…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(badawczo)</stage> No… ciekawam, bo cóż wielmożną panią… zresztą cóż nas to… <stage>(z uśmiechem)</stage> do szóstej są te panie wszystkie w cukierniach, albo w Alejach, na gumach hahaha.</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(z uśmiechem)</stage> Ano tak podobno być musi, trzeba się godzić z tem… Giguś dej rączkę… do widzenia pani… <stage>(bierze Gigusia za rączkę)</stage></p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Moje uszanowanie. Adieu szanownej pani, adieu, dobra noc. <stage>(odchyla kotarę do poczekalni)</stage>.</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(już w przechodzie pod kotarą)</stage> Mówię do widzenia… tak, bo być może, jeszcze tu dzisiaj do pani wpadnę… do widzenia. <stage>(znika za kotarą)</stage></p>
+        </sp>
+        <stage>(PRYNCYPAŁOWA. rozciekawiona, kiwając głową wraca do comptoiru)</stage>
+      </div>
+      <div type="scene" n="2">
+        <head>SCENA 1.1.</head>
+        <stage type="setting">
+          <p>(Telefon: dzzzzdzzzzyń!…)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#pryncypałowa">PRYNCYPAŁOWA.</rs>
+            <rs key="#panna_kazia">PANNA KAZIA.</rs>
+            <rs key="#thugut">THUGUT.</rs>
+            <rs key="#laskowska">LASKOWSKA.</rs>
+            <rs key="#sternbaldowa">STERNBALDOWA.</rs>
+            <rs key="#mańkowska">MAŃKOWSKA.</rs>
+            <rs key="#panna_stefa">PANNA STEFA.</rs>
+            <rs key="#sançonci">SANÇONCI.</rs>
+            <rs key="#scholzówna">SCHOLZÓWNA.</rs>
+          </p>
+        </stage>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(cokolwiek nie w humorze)</stage> Godzinę siedzi, a nie płaci; a jeszcze raz chce przyjść, eee… <stage>(głośno)</stage> Kazia! telefon!</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p><stage>(wbiega z poczekalni, w podskokach do telefonu)</stage> Hallo! Kto mówi?… <stage>(rozmawia)</stage></p>
+        </sp>
+        <stage>(PRYNCYPAŁOWA. ogląda z satysfakcyą kostyum damy kierowej)</stage>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p>Proszę pani? proszę pani! Z Europy… Pan hrabia Oleśnicki u telefonu, zapytuje czy kostyum panny Mańkowskiej gotowy?… czy tu niema panny Mańkowskiej, czy może była?… czy nie były panna Scholz z panną Sançonci?… czy ich niema?…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(zła)</stage> No więc cóż czekasz, cóż mnie pytasz? nie widzisz? Gotowy, nie były, niema, będą.</p>
+        </sp>
+        <stage>(PANNA KAZIA. odpowiada do telefonu)</stage>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(z pasyą)</stage> Co oni się wściekli wszyscy z tą Mańkowską?… Boże Ojcze taka wywłoka i taką karyerę robi… to jednemu Pan Bóg wszystko da, a innej to jednego starego poskąpi…</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p>Proszę pani! Pan hrabia pyta, czy nie było u nas pana Thuguta?</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Jakiego? Starego? Skądże znowu, była przed chwileczką żona, ale pan Thugut, skądżeby…</p>
+        </sp>
+        <stage>(PANNA KAZIA. odpowiada do telefonu i zamyka)</stage>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Oberwanie głowy dziś z tym telefonem, jak się zezłoszczę, to zamknę raz na zawsze, niech dzwonią aż do nagłej śmierci…</p>
+        </sp>
+        <stage>(Portyerę uchyla wysoki, wytwornie szpakowaty gentleman w kosztownem krótkiem futerku, spasły, wygolony, z cylindrem w ręku: fabrykant cementu Thugut)</stage>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(odwracając się, ostro)</stage> Przepraszam, mężczyznom wstęp wzbroniony!</p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p><stage>(stanowczo, lekko wzburzony)</stage> Wyjątkowo wolny… <stage>(oglądając się dookoła)</stage> Wszak niema nikogo? <stage>(surowo)</stage> Czy z panią pryncypałową?…</p>
+        </sp>
+        <stage>(PRYNCYPAŁOWA. potakuje, ale zirytowana)</stage>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p>Jestem Thugut… telefonowałem przed chwilą do magazynu pani <stage>(rozpina palto)</stage> proszę natychmiast przedstawić mi rachunki… tak… ale pozwalam sobie zwrócić uwagę kochanej pani, że to… że to nie jest w formie kupieckich interesów… tego… podobnie impertynencko… tego… telefonować… proszę natychmiast pokwitować… <stage>(wyjmuje portfel z kieszeni i otwiera)</stage></p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(niedokładnie rozumiejąc)</stage> Ależ przepraszam szanownego pana… pan szanowny zapewne w błędzie… Pani w tej chwili… przed momentem wyszła z zakładu zupełnie zadowolona.</p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p>Co kochana pani wyplatasz?… Co wyszła, gdzie wyszła, kto wyszła?… Mnie nie obchodzi kto wszedł, kto wyszedł… Pierwszy raz trafia mi się odbierać podobną alternatywę… tego, albo się rachunek zapłaci… albo się sukni nie wyda… i to ma być europejski interes…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(energicznie)</stage> Ależ szanowny pan stanowczo jest w błędzie… Dla szanownej pani nie robiło się w ostatnich czasach żadnej sukni, więc żadnej nie można było wydać lub nie wydać, zresztą…</p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p>Jakto się nie robiło? gdzież się robiło, a gdzież dzisiejszy kostyum damy kierowej?…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(staje nagle ze zdziwienia)</stage> …Damy kierr…? Aha… Kostyum dla panny Mańkowskiej?… Ależ jest, jest <stage>(wskazuje ręką na kostyum)</stage> tu, tu, gdzieżby indziej… więc wielce szanowny pan każe sobie podać rachunek pani Mańkowskiej?… ależ w tej chwili, to tylko pewne nieporozumienie, zrozumiałe wobec tego… tak… że <stage>(podchodzi do comptoiru, otwiera i przewraca w książce i liczy na osobnej kartce)</stage>… że nigdy nie przypuszczaliśmy, to jest ja nie śmiałam przypuszczać, że to szanowny pan… w tej chwili będzie…</p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p><stage>(podchodząc do kozetki i oglądając kostyum)</stage> Więc to dla tego arcydzieła kochana pani zdecydowała się na… tego, na awanturę… no proszę. Piękne to jest, nawet bardzo piękne <stage>(podnosi stanik)</stage> ale…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(z ołówkiem w zębach)</stage> Ależ nigdy awanturę… gdybym była choć trochę przeczuwała, nie pisnęłabym ani słówka, 80 <stage>(zapisuje)</stage>… ale tak proszę szanownego pana łatwo wytłómaczona nieufność ze strony <stage>(zapisuje)</stage> 120 rubli… ze strony kierowników magazynów przy codziennych doświadczeniach i wogóle zarywaniach, 180 rubli <stage>(zapisuje)</stage>… Śliczny! nasz magazyn w każdym razie odniesie tryumf, bo oba konkurencyjne kostyumy wyszły z pod… 75 rubli <stage>(zapisuje)</stage>… Tak, teraz sobie zsumujemy… Już szanowny pan z pewnością będzie z nas zadowolony po dzisiejszym tryumfie… Oto jest:… a tu pokwitowanie… <stage>(podchodzi do niego z dwoma papierkami)</stage></p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p><stage>(patrząc przez pincez-nez w rachunki)</stage> Więc teraz łaskawa pani dopiero pozwolisz na wydanie… czy tak?… bagatela… do 800 to znaczy do tysiąca rubli… tak… no proszę… <stage>(podaje pryncypałowej kilka banknotów)</stage> tak, a teraz proszę zawsze każdy rachunek pani… panny Mańkowskiej posyłać zaraz do kancelaryi, tak, nie do kantoru w mieście, tylko do kancelaryi fabryki… wie pani gdzie…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>O, wiem, skądżeby też <stage>(idzie do kasy wertheimowskiej i chowa pieniądze, ale nie zamyka jej, tylko wziąwszy z kantorka inny rachunek, podchodzi z nim do Thuguta; symulując pewne niezdecydowanie)</stage> A tu proszę szanownego pana, to już odrazu… przy sposobności to możeby się i z temi drobnostkami uregulowało. <stage>(wręcza mu papierek)</stage></p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p><stage>(czyta)</stage> Czterysta pięćdziesiąt, tak, bardzo pięknie… tak, ale to przy innej tego okazyi… tak, nic chyba pilnego.</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(z ociąganiem się)</stage> To nie! Nie koniecznie, ale jeśliby wielce szanowny pan mógł przy dzisiejszej okazyi… bo to z końcem miesiąca wypłaty mamy ogromne… tak, a to zalega od jesieni, cóż, drobnostka…</p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p><stage>(sucho, chowając portfel i zapinając futerko)</stage> Nie, to już kiedyindziej… nie bankrutujemy ani ja, ani pani… W każdym jednak razie conto mojej żony proszę na tej pozycyi zamknąć, nie płacę żadnych długów… ostrzegam… <stage>(popatrzywszy jeszcze raz na kostyum, wkłada cylinder na głowę)</stage> kostyum wydaje mi się bardzo stylowym… to prawda… <stage>(prawie wesoło, już na wychodnem)</stage> Jeżeli ten kostyum otrzyma pierwszą nagrodę…</p>
+        </sp>
+        <stage>(Z za kotary wchodzą: mecenasowa LASKOWSKA i doktorowa STERNBALDOWA, przeciętnie hałaśliwe i trywialne mieszczanki z t. zw. inteligencyi, lafiryndy trottoirowe, pozujące bez ostatecznego zdecydowania raz na kokoty, raz na damy z towarzystwa. Laskowska fason lalki o mózgu lalki, z trocin. Sternbaldowa przysadzista, krzaczasta semitka)</stage>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p><stage>(uchylając cylindra)</stage> A przepraszam! <stage>(kończąc do pryncypałowej i wkładając cylinder napowrót)</stage> to w takim razie i drugie conto zaraz się wyrówna… dobra noc pani, adieu. <stage>(wychodzi)</stage></p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p>Dobry wieczór, cóż ten tu?</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>To Thugut, prawda? ten milioner?</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p>Ach gdzież tam zaraz milioner.</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>Ale zawsze krociowi ludzie… Nieprawda?… Cóż, czy zgodzi się pani na ośmdziesiąt rubli za tę suknię wełnianą? po tośmy właśnie wstąpiły…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(sztywno, niezbyt grzecznie)</stage> Nie proszę pani, ani na 95, tylko równe sto.</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p>Julo, popatrz się, jakiś kostyum na maskaradę, ale śliczny. <stage>(ogląda, podnosi suknie)</stage></p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>Śliczny jak z cukru! Pewnie na dziś?</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(wracając za comptoir)</stage> Ehe.</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p><stage>(z źle tajoną zawiścią)</stage> Mogłabym się założyć, że dla którejś z tych, co się na gumach rozbijają.</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>No, a tyś myślała, że dla Urszulanek, czy Sakrekerek…</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p>Właśnie, że ja zgadłam, że dla którejś kurtyzany… Któżby mógł sobie pozwalać na takie zbytki, moja kochana; zresztą co prawda uczciwa kobieta by się w taki kostyum nie ubrała.</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>Eh, daj tam spokój Zosiu, gdyby tylko można… hoho każda z nas, no przyznaj się… myślisz, żebym nie poszła naprzykład na dzisiejszą maskaradę… och joj dałabym pięć lat życia, gdybym mogła, tylko nie mogę, bo wiem, że Sternbald na niej będzie…</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p><stage>(z dumą)</stage> Ale mój mąż nie będzie…</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>A bo musi grać w karty, z fachu… to co innego, <stage>(do pryncypałowej)</stage> więc jakże będzie z nami?… proszę pani a czyj ten kostyum?</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(wymijająco)</stage> To jednej z pań z baletu…</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>Bączkowskiej?</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(sucho)</stage> Nie, proszę pani.</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p>Siekierskiej?</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>Pławickiej?</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p>Piszczakiewiczównej?</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>Rombini? no więc czyj? niech nam pani powie, zachowamy dyskrecyę.</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p>Aaa, już wiem, pewnie tej, co teraz ma przejść do dramatu, jeżeli ją przeforsuje hrabia Oleśnicki z swoją kliczką.</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>Acha, tak! <stage>(z wybuchem)</stage> Mańkowskiej.</p>
+        </sp>
+        <stage>(PRYNCYPAŁOWA. potakuje)</stage>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p>O, tak, ja zaraz domyśliłam się, to ładna, o ładna, ślicznie zbudowana kobieta, co za biusta, co za prześliczne biusta, co za biodra! mówię ci Jula, że doprawdy nie ma się co dziwić mężczyznom, że tak lecą na nią na złamanie karku.</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>Ubiera się ślicznie, wszyscy mówią, pisali gdzieś nawet, że na wyścigach miała poemat z koronek i piór na sobie.</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(z prostotą)</stage> Ubiera się u nas i u Armada paryskiego…</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p><stage>(staje z podziwu)</stage> Doprawdy?</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Można przejrzyć książki… I ta suknia jej zielona palietkami cała obszywana, sławna na całe miasto i ta narzutka z koronek z białym kołnierzem z angielskiej gipiury… wszystko u nas.</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>No, no, nic nie wiedziałyśmy; więc teraz moja pani, jakże będzie z moim kostyumem?… Więc ośmdziesiąt pięć…</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p>No, daj już 90…</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>Dobrze już, więc niech stracę: 90.</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(z lekceważącym śmiechem)</stage> Eee co tam łaskawa pani masz tracić, to już niech kto inny traci… prix fixe, prix fixe, prix fixe…</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>A zdecyduje się pani dodać ten haft z sutażu?</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(sucho)</stage> Owszem, za osobną dopłatą… 10 rubli, razem sto dziesięć.</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p><stage>(zamyślona)</stage> Prawda proszę pani, ta Mańkowska jest teraz na utrzymaniu szambelana Bossakowskiego?</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>Ależ Zosiu! co ty za herezye wyplatasz, jeszcze nie wiesz, sto razy się o tem na dzień mówi, a ty jeszcze…</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p><stage>(przypominając sobie)</stage> A, prawda, przepraszam cię, jakże ja mogłam zapomnieć, ale bo tyle się tego słyszy, że potem wszystko się miesza. To Scholzówna ta ekscentryczka u Bossakowskiego, Marcinkowskie u ordynata, najmłodsza Marcinkowska u księcia Zbaraskiego, a Mańkowska żyje z Oleśnickim.</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>Średnia Marcinkowska u ordynata, najmłodsza u Salomona Steiermarkera, wszystkie mięszasz…</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p>Mnie chodzi o Mańkowską teraz; więc prawda proszę pani, że Mańkowska z Oleśnickim.</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(ziewając bez żenady)</stage> Prawda i nieprawda proszę pani. Świat mówi, że u hrabiego, cały świat, a ja swoje wiem…</p>
+        </sp>
+        <sp who="#laskowska #sternbaldowa">
+          <speaker>LASKOWSKA. STERNBALDOWA.</speaker>
+          <p><stage>(zainteresowane do najwyższego stopnia)</stage> Więc u kogo? u kogo? powiedz pani.</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(stanowczo)</stage> Nie mogę, zresztą panie wybaczą, ale ja mam czas wyrachowany… więc…</p>
+        </sp>
+        <sp who="#sternbaldowa">
+          <speaker>STERNBALDOWA.</speaker>
+          <p>To ja już daję sto rubli, ale musi być ten haft.</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(sztywnie)</stage> Nie, bez haftu.</p>
+        </sp>
+        <sp who="#laskowska">
+          <speaker>LASKOWSKA.</speaker>
+          <p><stage>(skromnie)</stage> Słuchaj Jula: to ja dodam te dziesięć rubli, tylko, <stage>(wracając się do pryncypałowej, z błagalną miną, niepewnie)</stage> tylko pani kochana nam powie to o Mańkowskiej, na czyjem utrzymaniu…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(surowo, obrażona)</stage> Pani chyba żartuje… <stage>(odwraca się i sztywnym krokiem idzie do pracowni, trzaskając za sobą drzwiami)</stage></p>
+        </sp>
+        <stage>(Z poczekalni słychać srebrzysto-wyuzdany śmiech kobiet, hihoty, głośne zdania, wpada panna Kazia i trzyma szeroko odchyloną kotarę, z za której wchodzą panny: MAŃKOWSKA, SCHOLZ, SANÇONCI, za niemi PANNA STEFA)</stage>
+        <stage>(LASKOWSKA i STERNBALDOWA. patrzą na siebie kompletnie zdekoncertowane, nie wiedzące co z swemi figurami podziałać)</stage>
+        <stage>(Dzwonek telefonu: dzzzzzń, dzzzzzń)</stage>
+        <stage>(MAŃKOWSKA imponująca Rubensową pełnią bioder, kształtną zwięzłością różowych kolan, niepojętem zdrobnieniem stóp, Tycyanowskiemi liniami pleców i jedwabną kataraktą rudo-kasztanowych włosów; oczy wilgotne najedzonej pantery, ząbki młodych kotów, timbre głosu greckich ephebów)</stage>
+        <stage>(HERMINA SANÇONCI gryzetka francuska, znaleziona pod mostem na Pradze, bez imienia, nazwiska, ojca, matki, religii, skrupułów społecznych; niska, szczupła, arogancka, o oczach blado-fiołkowych, ciemniejących i fosforyzujących jak węgle na widok każdego lepiej zbudowanego mężczyzny)</stage>
+        <stage>(ZOFIA AGAJ SCHOLZ, wysoka i smukła jak pinia, alabastrowej karnacyi i cery, zielone oczy jaszczurów, przesadnie plastyczne cuda okrągłych piersi, długie nogi Fidyaszowej modelacyi. Fryzura od poczciwej Cleo de Merode, mądra dla hebanowych, w niebieski połysk wpadających włosów. Wąż ten w czarnej, obcisłej sukni, ma biały gronostajowy kapelusz, a po wyleczonym śmiercionośnym jadzie została mu melancholia centralizująca się w potwornie pięknych zapadających się oczach-kameach i ukochanie wszelkiej „literatury” i wszelkich ekscentryczności. Przepada za maraskinem, androgynizmem, a wężowej natury będąc, objadłszy się mężczyznami, zwija się w kłębek i śpi, a w śnie jeszcze wzdycha i pyszczek otwiera szeroko)</stage>
+        <stage>(Dzwonek telefonu: dzzzzzń, dzzzzzń, dzzzzyń)</stage>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(wesoło, imperatywnie)</stage> Panno Kaziu do telefonu, hopla… <stage>(do dam serdecznie)</stage> Dobry wieczór paniom!</p>
+        </sp>
+        <stage>(LASKOWSKA i STERNBALDOWA.  nie odpowiadając, cofają się w bok)</stage>
+        <sp who="#panna_stefa">
+          <speaker>PANNA STEFA.</speaker>
+          <p>Zaraz pójdę po pryncypałową. <stage>(biegnie do pracowni)</stage></p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(biegnie wprost do kostyumu)</stage> Jest, jest, jest! Mańka jest twój kostyum, śliczny, psia kostuśka, śliczny, brillant, excellente, collosal!</p>
+        </sp>
+      </div>
+      <div type="scene" n="3">
+        <head>SCENA 1.2.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#mańkowska">MAŃKOWSKA.</rs>
+            <rs key="#panna_kazia">PANNA KAZIA.</rs>
+            <rs key="#sançonci">SANÇONCI.</rs>
+            <rs key="#panna_stefa">PANNA STEFA.</rs>
+            <rs key="#scholzówna">SCHOLZÓWNA.</rs>
+            <rs key="#pryncypałowa">PRYNCYPAŁOWA.</rs>
+            <rs key="#panna_stefa">PANNA STEFA.</rs>
+          </p>
+        </stage>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Pokaż, pokaż…</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p><stage>(przy telefonie)</stage> Hallo! Jest… Madame Anna, tak… proszę, są panie, w tej chwili przyszły proszę jaśnie pana… <stage>(urywa; do dam)</stage> Pan Colonna Rozdrażewski pyta się, czy panie tu są… z Bristolu… i gdzie pan hrabia Oleśnicki może być teraz, czy panie nie wiedzą?…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(krzyczy)</stage> W powozie, czeka na dole.</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p>Dobrze i gdzie pan Gęborzewski?</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>W cyrku na próbie, albo w tattersalu, gdzieżby…</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p>I gdzie stary pan Thugut?</p>
+        </sp>
+        <stage>(MAŃKOWSKA i SANÇONCI. w śmiech)</stage>
+        <stage>(PANNA STEFA. wraca z pracowni i podchodzi do cofających się z widowni Laskowskiej i Sternbaldowej)</stage>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(zanosząc się od śmiechu i równocześnie zdejmując, a raczej zdzierając z siebie wspaniałe sobolowe futro)</stage> Powiedz panna, że stary Thugucik w kantorze, albo w fabryce…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>I żeby pan Colonna zaraz pojechał po pana Gęborzewskiego i po pana Thuguta.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(z furyą)</stage> Co? Ty sfiksowałaś Sansuska na glanc, czy tobą zakręciło? po co mi tu starego sprowadzasz na łeb…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>A to prawda. <stage>(Do panny Kazi)</stage> Więc tylko, żeby pan Colonna i pan Rębaczewski tu zaraz do nas przyjechali, bo reina będzie próbowała kostyumu, a hrabia Oleśnicki, powiedz panna, marznie sam na dole w karetce…</p>
+        </sp>
+        <stage>(PANNA KAZIA. telefonuje)</stage>
+        <stage>(Z pracowni wchodzi PRYNCYPAŁOWA i kłania się sztywno. LASKOWSKA i STERNBALDOWA wobec tego wszystkiego cofły się straciwszy rezon aż do stołu w głębi; bezmyślnymi gestami dają wyraz swemu moralnemu oburzeniu, krótko konferują z PANNĄ STEFĄ, niecierpliwą i lakoniczną, wreszcie z szerokimi ruchami absolutnej obrazy i odrazy wychodzą)</stage>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(która cały czas obserwowała je z miłą arogancyą cedzi flegmatycznie)</stage> Poszły te flondry, które cały dzień pływają po Alejach…</p>
+        </sp>
+        <stage>(Wszystko w śmiech)</stage>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(żywsza, wesoła)</stage> Oj masz pani racyę, masz, te flondry to coś okropnego, godzinami wysiadują…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Wyłącznie dla macedonii jedwabiu i koronek; zna się takie, zna… Lepsze ze sklepów wylewają.</p>
+        </sp>
+        <stage>(Śmiech)</stage>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Och! Oczywiście i to siedzi, siedzi, dobrze panna mówi, dla koronek i jedwabiu i gada, gada, aż w brzuchu wierci i pyta się i targuje się, że dyabli człowieka biorą…</p>
+        </sp>
+        <sp who="#panna_stefa">
+          <speaker>PANNA STEFA.</speaker>
+          <p><stage>(do Mańkowskiej, podnosząc kostyum)</stage> Będzie pani zapewne zaraz próbować?</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Zaraz, natychmiast, bo chcę być już w kostyumie, jak chłopcy przyjdą… a Olesia trzeba będzie zaraz zawołać…</p>
+        </sp>
+        <sp who="#panna_kazia">
+          <speaker>PANNA KAZIA.</speaker>
+          <p>Służę pani… stanik…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(nachylając się do Mańkowskiej, półgłośno)</stage> Przed chwilą był tutaj pan Thugut.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(zdziwiona)</stage> Tutaj? <stage>(do przyjaciółek)</stage> Słyszycie? Stary tu był… Po co? Z czem?</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Zapłacił rachunki!…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(dość radośnie)</stage> Zapłacił rachunki, moje? tak? Bardzo słusznie. Zacny paradyer, zacny staruszek, święty staruszek; dostanie za to buzi, buzi i wszystkiego, co będzie chciał…</p>
+        </sp>
+        <stage>(Ogólny śmiech)</stage>
+        <stage>(PRYNCYPAŁOWA. wskazuje gestem na dziewczęta sklepowe upominająco)</stage>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(rozpinając stanik jeszcze bez zdjęcia kapelusza)</stage> Panny konfekcyonistki nie słuchać, nie gorszyć się, nie patrzyć się, bo ktoby zgorszył jedną z tych maluczkich, godzien jest, aby mu kamień młyński przywiązano do szyi…</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(równie sentencyonalnie)</stage> I pokazywano w panoptikum…</p>
+        </sp>
+        <stage>(Ogólny śmiech)</stage>
+        <sp who="#panna_stefa">
+          <speaker>PANNA STEFA.</speaker>
+          <p><stage>(rezolutnie)</stage> To czy mam iść na dół proszę pani po pana hrabiego Oleśnickiego?</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(ostro)</stage> Siedź tu, nie pójdziesz, widzicie ją, jużby leciała na szyję; pilnuj panna swojej roboty, pomagaj pani rozbierać się.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(łagodnie)</stage> Ale może, może; panienka ruda jak kokosowy interes, hrabia nie cierpi jasnorudych słomkowych dziewiczek, może, może…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Ale nie o nią mi chodzi, tylko nie wypada; już się wiele pań kundmanek skarżyło, że mężczyźni efroncko zaglądają do probierni, a już podczas rozbierania się, to już absolutnie nie.</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(siedząc na kanapie z przedsię szeroko wyciągniętemi nóżkami, ćmiąc cieniutkiego papierosa; poważnie)</stage> Owszem, można, pozwalam.</p>
+        </sp>
+        <stage>(Wszyscy w śmiech)</stage>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(zanosząc się od śmiechu)</stage> Agaj na rany Boskie trzymajcie mnie, jaka ona komiczna, to potrzaskać można.</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Ale trzeba tu hrabiego sprowadzić, bo tam zmarznie… <stage>(do pryncypałowej)</stage> proszę pani przecież to już wnet siódma, teraz już nikt nie przyjdzie, żadna z tych pań…</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(przerywając jej)</stage> Owszem. Mogą przyjść i przyjdą. Ale cóż z tego? Piękna, dobrze zbudowana indywidualność może się wszędzie rozbierać, nawet na ulicy.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(z której obie dziewczęta zdejmują spódnicę; zanosząc się od śmiechu)</stage> Jak Boga kocham ja trzasnę… Agaj jak dziś nie przestaniesz, to ja kolek dostanę.</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(poważnie)</stage> Filisterki na to są, aby się nam przyglądały z uczuciem śmiertelnej zawiści i wielbiły nasz dyonyzejski światopogląd <stage>(jakby sobie jeszcze coś przypominała)</stage> aha! i nasz hedonizm, he-do-nizm!</p>
+        </sp>
+        <stage>(PANNA KAZIA. parska nieprzepartym śmiechem i ucieka do stołu, Mańkowska zostaje w negliżu…)</stage>
+        <stage>(MAŃKOWSKA. trzymając się jedną ręką za biust, drugą za brzuszek, dopada w śmiechu kozetki i rzuca się na nią leżąco tuż obok SCHOLZÓWNY, która z dziwną powagą wstaje i siada na inny fotel)</stage>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(patrząc niespokojnie na portyerę)</stage> Bójcie się biedy, jakby tak kto teraz wszedł, ciekawam coby sobie pomyślał.</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Ależ nikt nie wejdzie hahaha, już nikt nie wejdzie, ale bo naprawdę ta Scholzówna to prawdziwy nadfacet; niech pani… hahaha… patrzy tylko, co ona wyprawia.</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(siedząc na fotelu, podsuwa sobie nogami inny fotel i kładzie na nim nogi, lekko)</stage> Niema tak dalece co podziwiać moje panie. Każda z nas urządza sobie życie najwygodniej, a jak sobie kto wyściele, tak się wyśpi…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(śmiejąc się)</stage> Pościeli.</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p>Wyściele, tak się wyśpi. Trzeba przysłowia naprawiać, a nie podawać je w ich pierwotnej… pierwotnej, aha autochtonicznej, au-tochto-nicznej… formie…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(w śmiechach)</stage> Co ona bredzi? czy wy słyszycie?… Hermina bójcie się Boga zamknijcie jej jadaczkę, bo ja się rozpęknę dzisiaj, a przecież mamy całą noc przed sobą… hahaha… <stage>(do pryncypałowej)</stage> Czy pani widziałaś coś podobnego?… przecież ona tyle takich słów umie, co nie po polsku tylko po jakiemuś francusko-grecku… że czasem kwadrans dobry mówi, a z nas żadna jej nie rozumie.</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(do Mańkowskiej)</stage> Opowiedz pani o "Musik" i o kalece… hahaha… moja Maniu opowiedz…</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(ironicznie)</stage> Sądzę, że przedtem należałoby przymierzyć ten dama coeur… ten karciany kostyum, w którym masz tupet rywalizować ze mną.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(wesoło)</stage> Zaraz, zaraz, przymierzę nawet przy tobie; przecież Zosiu trzeba, żebyś się z nim oswoiła… papieżyco Joanno…</p>
+        </sp>
+        <stage>(Wszyscy w śmiech; MAŃKOWSKA zdejmuje spodnicę białą niby za lustrem, a dziewczęta nakładają jej mocno ażurową spodnicę z czerwonego muślinu)</stage>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Koniecznie trzeba wypróbować, choć to nie robi wrażenia właściwego, bo spodniczka idzie przecież na trykoty, nie na…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(wybiega z za lustra)</stage> Stanik!… <stage>(podają jej)</stage> prawda? a fryzura będzie casque… tak mi Marcinkowska radziła i fryzyer.</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(ironicznie)</stage> Bardzo pięknie… jest to fryzura ulubiona przez nasze babki.</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(melancholijnie)</stage> Eee, która tam z nas miała babkę?…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(z wybuchem radości)</stage> Jak to? nie wiesz? przecież babka Agaj opowiadała, nazywała się kasztelanowa Zakroczymska, ooo! Jezus Marya, trzymajcie mnie; nie pamiętasz jak Agaj opowiadała o starej babce kasztelanowej w zamku na górze…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Ach prawda, prawda! Mów Agaj, mów o tej babce… mów, ja tak lubię jak ona swoje powiastki opowiada…</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(odwracając się do nich tyłem, przestawiwszy fotelik pod nogi)</stage> Nie będziesz rzucał pereł między świnie, nawet fałszywych…</p>
+        </sp>
+        <stage>(Ogólny śmiech)</stage>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Taaak?… Czekajże. <stage>(ubierając równocześnie stanik wycięty w careau, a raczej w niemożliwy sposób)</stage> Tak, to ja opowiem o kalece i o "Musik"… <stage>(do pryncypałowej głównie)</stage>. Więc wierz pani, na jakie ta wpada pomysły, toż cała Warszawa trzęsie się od kilku dni ze śmiechu… <stage>(staje przed lustrem, dziewczęta przy niej)</stage> Wyobraź sobie pani przez dwa dni z rzędu obnosiła się wszędzie z wielką teczką z napisem "Musik", niby, że to z pensyi; wzięła pół-krótką sukienkę, białe pończoszki, kapelusz z różową wstążeczką…</p>
+        </sp>
+        <stage>(Dziewczęta, pryncypałowa, Sançonci zanoszą się od śmiechu)</stage>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(przypominając)</stage> A kaleka!…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Aha i jeszcze wynajęła sobie na kilka dni małego chłopczyka garbuska i kulawego, prawda?</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Tak, tak i kulawy był.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>I wyobraź sobie pani, dla secesyi, dla secesyi, bo dla czegóżby innego, woziła się z tem wszystkiem do Doliny, do Nowości, do Jackowskiego, do Bristolu, podobno nawet do Sielanki z tym kaleką i z tą teczką, aż jej w końcu i kalekę i teczkę odebrali… Tak Agaj?… no powiedz… ty secesyo… no?…</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(zapalając nową papierosinę)</stage> Tak! głupia Cyrce zamieniająca ludzi w świnie, tak moja Mańko perfumująca się Trefle Incarnat, tak moja Mańkowska mówiąca Monte Carlo, zamiast Monte Carle… tak… tak odebrali mi garbuska, jak tobie odbiorą Thugucika…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(cokolwiek gniewnie, ale nie tracąc humoru)</stage> Co?… Mnie ma kto zabrać starego… mnie… jeszcze się taka nie urodziła… jeszcze węgle gryzie za kominem… niech która spróbuje… proszę. <stage>(staje na środku pokoju, bierze się pod boki i przed Scholzówną cokolwiek kankanuje, podśpiewując)</stage><lb />Proszę spojrzyć tu i tam, tu i tam, tu i tam,<lb />jaką piękną nózię mam, nózię mam … cham.<lb /><stage>(otwiera usta szeroko i kłapie zębami, jakby Scholzównę chciała ugryźć; Dziewczęta patrzą na nią z uwielbieniem)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="4">
+        <head>SCENA 1.3.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#sançonci">SANÇONCI.</rs> 
+            <rs key="#pryncypałowa">PRYNCYPAŁOWA.</rs>
+            <rs key="#mańkowska">MAŃKOWSKA.</rs>
+            <rs key="#panna_kazia">PANNA KAZIA.</rs>
+            <rs key="#scholzówna">SCHOLZÓWNA.</rs>
+            <rs key="#colonna">COLONNA.</rs>
+            <rs key="#oleśnicki">OLEŚNICKI.</rs>
+          </p>
+        </stage>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(z podziwem)</stage> Śliczna jesteś, bój się Boga, ale trzeba posłać po Olesia, bo zamarznie na dole.</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(patrząc z lubością na kostyum)</stage> No chyba panna Mańkowska zadowolona, co?</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(protekcyjnie, klepnąwszy lekko pryncypałową po plecach)</stage> Panna Mańkowska zawsze z madame Anna zadowolona <stage>(imperatywnie do Kazi)</stage> Proszę panienko iść zaraz na dół do powozu i powiedzieć panu Oleśnickiemu, że mu już wolno…</p>
+        </sp>
+        <stage>(PANNA KAZIA. wybiega z impetem)</stage>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(krzywiąc się)</stage> Oj joj joj, byle mi teraz żadne klientki nie przychodziły, bo może być awantura, mężczyznom policyjnie zabronione tu wchodzić…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Eee! głupstwo, hrabiemu Oleśnickiemu wolno wszędzie wejść… nawet przez dziurkę od klucza… <stage>(staje przed Scholzówną; zaczepnie)</stage> Cóż podobam ci się papieżyco… <stage>(kankanuje, śpiewając)</stage><lb />Proszę spojrzyć tu i tam, tu i tam,<lb />Jaką piękną nóżkę mam, nóżkę mam…<lb /><stage>(wskakuje jedną nogą na fotel, na którym SCHOLZÓWNA trzyma nogi i stoi, z lekka fikając)</stage></p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(patrzy na nią lornetką)</stage> Nogi masz ładne, to ci zawsze mówiłam, ale ręce… ręce! Twoje łapuchy przypominają mi damy sprzedające selery za Żelazną Bramą…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(podchodząc do nich, by zażegnać spór)</stage> Kostyum jest non plus ultra, czyli hors concours, paryzki… <stage>(do Scholzówny)</stage> ale i pani chyba zadowolona ze swojego; przy nim było chyba cztery razy tyle roboty, bo i prucia i przeszywania i potem z tą infułą czy mitrą. <stage>(śmieje się serdecznie)</stage></p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(protekcyjnie)</stage> Bardzo, bardzo, próbowaliśmy dzisiaj rano, było kilku malarzy, których sprowadził mój Jur i wszyscy unosili się. Owszem <stage>(podaje pryncypałowej lewą rękę i wstrząsa jej dłonią serdecznie)</stage> owszem, przyjm pani wyrazy najwyższego zadowolenia… aha sankcyi najwyższej…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(krzyczy)</stage> Hermina! Hermina chodź-no tu, popatrz się jaką reinę robi Agaj. <stage>(śmieje się i fika nogami)</stage></p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(złośliwie, poważnie)</stage> Ale wracając do twoich rączek mydear Mańkowska <stage>(do pryncypałowej)</stage> otóż o jej rączkach opowiem ja znowu historyjkę, jak panie pozwolicie.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(cokolwiek niepewnie, nadrabiając wesołością)</stage> Owszem, owszem… proszę cię… mów secesyo mów, nooo słuchamy…</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(jakby fantazyowała bajkę)</stage> Pewnego razu więc była sobie pewna Cyrce, nazwiskiem Mańkowska od imienia Mańki, to jest Maryi Zielnej… Immaculaty… nie wiem… Otóż ta Cyrce miała nogi białe jak alabaster w nocy… w poświacie księżycowej, ale ręce… ręce czerwone jak rubieża zachodzącego słońca…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(pobladła z passyi)</stage> Czy ona wściekła się, czy co?…</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(spokojnie, jakby nie słyszała)</stage> Nadto pociła się… pociła się tak okropnie, że skandal… Aby jednak te brzydkie rączki przypodobnić tym pięknym nóżkom, smarowała się według Ronikera ichtyolowem mydłem. Nie pomagało… Wtedy zaczęła smarować ręce na noc tynkturą benzoesową. Nie pomagało… Potem nacierała się maścią cynkową i pakowała rękawiczki irchowe i nie pomagało…</p>
+        </sp>
+        <stage>(Wszystkie wstrzymują się z wysiłkiem od śmiechu)</stage>
+        <stage>(MAŃKOWSKA. zeskakuje z fotelu i staje purpurowa ze złości przed Scholzówną)</stage>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(flegmatycznie)</stage> I wtedy poradziła jej pewna kabalarka stara z Brackiej ulicy, żeby smarowała rączyny miodem. Że to podobno wszystkim pannom zawsze pomagało… Ale naszą Maniusię i to zawiodło… A wiecie czemu?</p>
+        </sp>
+        <stage>(Chwila ciszy; DZIEWCZĘTA przykładają dłonie do ust, żeby nie wybuchnąć śmiechem, MAŃKOWSKA dygota ze złości)</stage>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(upuszcza nogi z fotelu, wstaje, prostuje się i z angielską flegmą)</stage> A, bo nasza kochana Cyrce… lubiła zbyt słodycze i… zlizywała w nocy miód z… rączek… <stage>(Niepowstrzymany wybuch śmiechu)</stage></p>
+        </sp>
+        <stage>(SZCHOLZÓWNA i MAŃKOWSKA stają naprzeciw siebie jak pantera i hyena gotowe do skoku; pierwsza trupio blada, druga apoplektycznie czerwona. SANÇONCI i PRYNCYPAŁOWA stoją bezradnie. W głębi kotara się podnosi, wchodzą: pan COLONNA-ROZDRAŻEWSKI i HRABIA OLEŚNICKI)</stage>
+        <stage>(COLONNA-ROZDRAŻEWSKI wysoki, wychudły jak chart, ale jak chart rasowy dryblas, dosłownie łysy jak kolano bachantki z apostolskim wianuszkiem siwych włosów już blisko karku. W oku normalna dekoracya podobnych dekoracyjnych egzemplarzy z towarzystwa: monokl. Wąsiska z amerykańska obcięte, nos cokolwiek haczykowato-feudalny, również feudalna arogancya, tabes i noblesse, plecy zgięte już od dwunastu pokoleń Rozdrażewskich Colonnów (!). Patronuje młodym paniczykom, z zawodu szuler, krytyk marek szampańskich i wiceprezes towarzystwa łowieckiego)</stage>
+        <stage>(HRABIA OLEŚNICKI blanc-becque w przesadnie gogoskim marchesterskim stylu. Facyatka wygolona, bezwąsia, oczęta wybladłe, podkute, wiecznie zaspane. Równie senne ruchy. Rysy twarzyczki nie wyróżniają się od rysunku twarzyczek progenitury epiciersko-komi-wojażerskiej niczem chyba absolutnem brakiem już nie inteligencyi, ale jakiegokolwiek sprytu. Jest przeraźliwie skrofuliczny, wskutek czego flegmatyczny, wskutek czego wróżą mu dyplomatyczną karyerę i w nim składają misyę narodową. Nie wymawia naturalnie rrr i z powodu natłoku wenerycznych przypadłości jest „interesującym”... (impotentem))</stage>
+        <sp who="#colonna">
+          <speaker>COLONNA.</speaker>
+          <p><stage>(w cylindrze na głowie)</stage> Wieczór dobry paniom, czy można? he? <stage>(wchodzi)</stage></p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(odskakuje od Scholzówny i biegnąc naprzeciw)</stage> Można, można, prosimy…</p>
+        </sp>
+        <sp who="#colonna">
+          <speaker>COLONNA.</speaker>
+          <p>No… ty! prosisz niemowlę, ale czy pani pozwala? <stage>(wskazuje cylindrem na pryncypałową)</stage></p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(uspokojona)</stage> Proszę, proszę już panów, magazyn zaraz się zamyka i tak, więc wyekspedyuję ostatnich gości. <stage>(kłaniając się uniżenie, przechodzi do poczekalni)</stage></p>
+        </sp>
+        <sp who="#colonna">
+          <speaker>COLONNA.</speaker>
+          <p>Dziękujemy pani serdecznie… Dobry wieczór piękne gracye!</p>
+        </sp>
+        <sp who="#sançonci #scholzówna">
+          <speaker>SANÇONCI. SCHOLZÓWNA.</speaker>
+          <p>Dobry wieczór, Bon soir!</p>
+        </sp>
+        <sp who="#colonna">
+          <speaker>COLONNA.</speaker>
+          <p>Imaginujcież sobie moje ko-ko-ko-kocięta, że ten pierwiosnek marzł na dole i że trzeba było dopiero mojego szczęśliwego zjawienia się… Sapristi nom de Dieu, co za kostyum!… Och co to za atut taka dama coeur… chodź tu, do mnie śliczny czerwony… ptaku…</p>
+        </sp>
+        <sp who="#oleśnicki">
+          <speaker>OLEŚNICKI.</speaker>
+          <p><stage>(który obserwował wszystko, odkrywczo)</stage> Słuchaj Colonna!… one się tu musiały bardzo wyzywać, spójrz ty, jaka Scholz blada… a reina czerwona, co?…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(szybko)</stage> Co? my? ależ nigdy, co ci się wydaje Władusiu mój <stage>(podbiega do niego i rzuca mu się na szyję)</stage> skądżeby też znowu… ja z Agają, za bardzo ją lubię, kocham, wielbię, podziwiam, nigdy…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(nie w porę)</stage> No, no, no, troszeczkęście tam sobie naurągały, niema co odkręcać teraz kontramarę.</p>
+        </sp>
+        <stage>(PANNA KAZIA i PANNA STEFA wynoszą się do pracowni)</stage>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(wyniośle, ostro)</stage> Panna się mylisz, albo widzisz na jawie to, czego niema, czyli jesteś w hallucynacyi, w stanie… tym, no jakże… w transie…</p>
+        </sp>
+        <sp who="#oleśnicki">
+          <speaker>OLEŚNICKI.</speaker>
+          <p><stage>(odsuwając delikatnie Mańkowską, bezmyślnie)</stage> Błogosławionym…</p>
+        </sp>
+        <stage>(Wszyscy w śmiech)</stage>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(przypominając sobie)</stage> Aha, w transie hypnagogicznym, a ty mój hrabio nie rób dowcipów płaskich, a dziękuj Bogu, że cię zupełnie nie w porę powołał na świat. <stage>(patrzy na Oleśnickiego i rzucając mu w przechodzie pogardliwie)</stage> Amfibia! <stage>(przechodzi do okien wystawowych i z flegmą staje w oknie miedzy manekinami, patrząc w ulicę)</stage></p>
+        </sp>
+        <stage>(Ogólny śmiech)</stage>
+        <sp who="#colonna">
+          <speaker>COLONNA.</speaker>
+          <p><stage>(siadając na kozetce i uderzając laską o dywan)</stage> Silence! Petites dames de Varsovie! Silence, uspokójcie się na chwilę, mam coś ważnego…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(śmiejąc się)</stage> Ale bo ta Agaj jest niezrównana… przecież ona wymyśla takie historye, żeby inny godzinami nad tem myślał i…</p>
+        </sp>
+        <sp who="#oleśnicki">
+          <speaker>OLEŚNICKI.</speaker>
+          <p><stage>(trącając ją delikatnie laską)</stage> Cicho souris, cicho siedź, Colonna ma wam coś powiedzieć. <stage>(siada równie na fotelu. Mańkowska i Sançonci stają obok)</stage></p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Eee głupstwo, pewnie jakie świństwo.</p>
+        </sp>
+        <sp who="#oleśnicki">
+          <speaker>OLEŚNICKI.</speaker>
+          <p>Miałaś ty reina mówić cochonneria, ty się nigdy niczego nie nauczysz, ha?</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(przymilajaco, nachylając się do niego)</stage> No już się nauczę mój komtusiu, mój komturku, już się Mania nauczy, tylko bądź dobry, bądź cacacacany…</p>
+        </sp>
+        <stage>(COLONNA. uderza laską w podłogę)</stage>
+        <stage>(SCHOLZÓWNA. wraca od okna i staje przy nich)</stage>
+        <sp who="#colonna">
+          <speaker>COLONNA.</speaker>
+          <p>Mais oui… więc… jakby to wam powiedzieć. Otóż szczególnie ty Maniusia żebyś nie stanęła dęba zaraz, więc tak jest, że tego… <stage>(wszyscy czekają)</stage> że on został dziś przyjęty, więc już nie może iść na maskaradę, a ty… tak, to darmo, ale tak być musi, a ty pójdziesz… ze starym Thugutem… co?</p>
+        </sp>
+        <stage>(Ogólne zdziwienie. OLEŚNICKI oparł rękę na lasce i kiwa lakierkiem)</stage>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(przybladła)</stage> Jak? Co?… Nic nie rozumiem…</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(objaśniająco)</stage> Niektórych niektórzy puszczają kantem… czy tak?…</p>
+        </sp>
+        <sp who="#colonna">
+          <speaker>COLONNA.</speaker>
+          <p><stage>(nie kontent)</stage> Mais non… Panna Scholz zawsze wściubia swoje trzy kopiejki między drzwi… <stage>(do Mańkowskiej, łagodnie)</stage> Nie słuchaj jej moja Mańkosiu… On, ten… <stage>(wskazuje laską na Oleśnickiego)</stage> Oleśnicki oświadczył się o rękę księżniczki Miry Woroniczównej i tego i wbrew wszelkim szansom został kupiony, to jest przyjęty… wobec czego uważasz, Władek musi się szanować… ca faire…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(odstępując na krok, wściekła)</stage> Żeni się? Co to gadać długo i głupio! Żeni się. Z tą małpą, z tym kakadu, z tym koczkodanem, z tym chuchrem, z tą zieloną, obskurną, piegowatą dmiwierzą? Z tem paskudzctwem flanelowem, z tym chudym wiechciem?</p>
+        </sp>
+        <sp who="#oleśnicki">
+          <speaker>OLEŚNICKI.</speaker>
+          <p><stage>(spokojnie, nie podnosząc głowy)</stage> Szarżujesz Mańkowska, fatalnie szarżujesz.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(nie słuchając)</stage> Ależ dobrze! bardzo dobrze! Świetnie! Cóż się boicie? niech się żeni, czy ja mu bronię? czy on ze mną wiązany? czy ja go rujnuję może? dobrze, w samą porę, żeńcie go, żeńcie, róbcie mu dzieci, chrzcijcie dzieci… tak… swoją drogą to tak łatwo nie pójdzie… przenigdy; do karety się rzucę i parasolką tej orangutance spierę buziaków… o czekajcie, wy mnie jeszcze nie znacie, pókim dobra to… bale, na ranę mnie przyłóżcie i wygoi, ale ja umiem być… spytajcie się… podpaliłam w nocy poduszki, całą pościel, firanki, kapy, fiuuuut, poszedł chambr jednemu głupiemu frajerowi, co ze mną zadzierał… Niech się żeni Oleśnicki z Woroniczówną, owszem, owszem, ale Mańkowska da wam prezent… da, szczególnie temu chuchru, temu wyskrobkowi, temu…</p>
+        </sp>
+        <sp who="#colonna">
+          <speaker>COLONNA.</speaker>
+          <p><stage>(wstaje raptownie z groźną miną i zamierza się laską na Mańkowską)</stage> Milcz szelma!</p>
+        </sp>
+        <stage>(Ogólna konsternacya. MAŃKOWSKA nagle chłodnie i cofa się z pośpiechem w tył)</stage>
+        <sp who="#colonna">
+          <speaker>COLONNA.</speaker>
+          <p><stage>(prawie sycząc przez zęby)</stage> Jak jeszcze słówko piśniesz, nie dostaniesz ani rubla i na… Pawiak!… <stage>(siada napowrót na kozetkę i raptownie poprzednim tonem)</stage> Tak więc moja śliczniusia reino, dziś poafiszujecie się na maskaradce z nieocenionym panem Thunichtguthem… co?</p>
+        </sp>
+        <sp who="#oleśnicki">
+          <speaker>OLEŚNICKI.</speaker>
+          <p><stage>(podnosi zwolna głowę)</stage> Passez, passez assais! Kończycie spektakl, co? Schocking! Ty reina chyba się nie gniewasz, co? he? raz w życiu każde z nas musi się z kimś drugiem ożenić… to było stanowcze do prze… tego do przewidzenia. Ja ci tego nie chciałem dziś mówić, bo widzisz od tego jest Colonna, on jest nadzwyczajnie sublime w takich rzeczach, taak, no a co do, <stage>(wstaje z fotelu)</stage> a co do mojej narzeczonej, to stanowczo przyznaję ci bon sens entre nous, to jest tak racyę… <stage>(wskazuje na Colonnę)</stage> On to samo mówił na dole… <stage>(wkłada cylinder na głowę)</stage></p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(podbiega do Oleśnickiego, opiera mu ręce na piersiach)</stage> Ja cię puszczam, dobrze Władek, ja cię puszczam, ale cię muszę skarotować na koronkową, puentlassową suknię, dalej na automobil, na szkockiego szpica, a ja go dla ciebie nazwę już komturkiem i grammofon musi mi Właduś dać i dwadzieścia flakonów Coeur de Jeanette, a dwadzieścia Edellweissu i garnitur porcelanowy na dwanaście gości i dywan z białego futra do sypialki i tego i zegar kurantowy i… aha i kinematograf, prawda koniecznie kinematograf, no i pięć tysiączków rubeliansów… tak? <stage>(rzuca, się Oleśnickiemu na szyję)</stage> no powiedz komturku, no…</p>
+        </sp>
+        <sp who="#oleśnicki">
+          <speaker>OLEŚNICKI.</speaker>
+          <p><stage>(odchylając głowę do Colonny)</stage> Colonna pamiętałeś? <stage>(do Mańkowskiej)</stage> Spisz to moja reina na karteczce, i dej karteczkę Colonnie… hę?…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(przymilająco)</stage> A Mańkowska też coś zapłaci swemu komtusiowi…</p>
+        </sp>
+        <sp who="#oleśnicki">
+          <speaker>OLEŚNICKI.</speaker>
+          <p><stage>(odsuwając ją delikatnie)</stage> To jest pan Thuguter chyba, co? nie?</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(odbiega dwa kroki, skacze na krzesło i krzyczy)</stage> Brown Séquard chłopczyku! Brown Séquard, prezent ślubny hrabiemu z Oleśnicy: Brown Séquard!</p>
+        </sp>
+        <stage>(Wszyscy wybuchają wesołym śmiechem)</stage>
+        <stage>(Dzwonek: dzzzzyń, dzzzyń...)</stage>
+        <stage>(SCHOLZÓWNA biegnie do telefonu; we drzwiach staje Panna Kazia i podbiega do telefonu)</stage>
+      </div>
+      <div type="scene" n="5">
+        <head>SCENA 1.4.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#scholzówna">SCHOLZÓWNA.</rs>
+            <rs key="#colonna">COLONNA.</rs>
+            <rs key="#sançonci">SANÇONCI.</rs>
+            <rs key="#oleśnicki">OLEŚNICKI.</rs>
+            <rs key="#mańkowska">MAŃKOWSKA.</rs>
+            <rs key="#panna_kazia">PANNA KAZIA.</rs>
+            <rs key="#pryncypałowa">PRYNCYPAŁOWA.</rs>
+            <rs key="#thugutowa">THUGUTOWA.</rs>
+            <rs key="#thugut">THUGUT.</rs>
+          </p>
+        </stage>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p>Nie potrzeba panno, już jestem, ja powiem… Hallo!… kto mówi?… <stage>(odwracając się)</stage> pan Thugut mówi… są, jesteśmy, mierzy kostyum, prześliczny, prawda… nie, niema <stage>(odwraca się)</stage> mówię, że hrabiego Oleśnickiego tu niema… <stage>(do telefonu)</stage> dobrze, to zaczekamy… <stage>(odwraca się)</stage> zdecydował się iść na maskaradę z tobą <stage>(do Mańkowskiej)</stage> w nagrodę, że już mniej flirtujesz z nim <stage>(wskazuje na Oleśnickiego; do telefonu)</stage> dobrze! Szambelan idzie ze mną… do widzenia, czekamy <stage>(zamyka telefon)</stage> a pan całuj psa w nos <stage>(krzyczy w telefon)</stage> stary cemenciarzu, koźlorogi starcze! Marasumus senilis…</p>
+        </sp>
+        <stage>(Wszyscy w śmiech. Scholzówna poważnie schodzi od telefonu)</stage>
+        <sp who="#colonna">
+          <speaker>COLONNA.</speaker>
+          <p><stage>(wstając i zapinając palto)</stage> Wszystko tedy wybornie się składa… parfaitemen… Ja tam do was przyjdę koło drugiej, trzeciej rano… z małą Rombini i resztę nocy spędzimy razem, a Władek może nad ranem przyjechać już wprost do Marcelina; co innego bums, a co innego wielka maskarada… no pa, pa dziecka… petites…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Więc Mańka dzisiaj pierwszy raz ze starym?</p>
+        </sp>
+        <sp who="#colonna">
+          <speaker>COLONNA.</speaker>
+          <p><stage>(filuternie)</stage> Od niej będzie zależało, aby sędziwego gentlemana przemienić mocą czarodziejską… c’est à dire… w…</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(dobitnie)</stage> W świnię!</p>
+        </sp>
+        <stage>(Wszystko w śmiech. COLONNA i OLEŚNICKI odprowadzani przez SANÇONCI i MAŃKOWSKĄ wychodzą)</stage>
+        <sp who="#oleśnicki">
+          <speaker>OLEŚNICKI.</speaker>
+          <p>Bądź dobrej myśli reina, Colonna sobie wszystko zapisze… Dobranoc paniom.</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Dobranoc panom.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(czule)</stage> Do widzenia Władusiu…!</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Żeby was połamało…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(ściskając pięść)</stage> Ach żebym ja tego Colonnę mogła kiedy dopaść niby po pijanemu, niby sam na sam, bójcie się Boga żywego… zbrodniaby się stała… Jabym szampańską flaszkę mu na łbie rozbiła, jabym mu oczy drapała szpilkami od włosów, jabym tego szczypę… ach żebyście wy dziewczęta wiedziały jak ja go nienawidzę wściekle, to zły duch, to dyabeł wszystkich chłopców, to…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Ta przestań już, coś się uwzięła, czy co dzisiaj, co on ci zrobił… przecież to nie Colonna się żeni.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Ech co mi tam żeni się, czy się nie żeni, przezemnie mogą się wszystkie żenić co do jednego, co do nogi, cóż mnie mogą obchodzić ich żeniaczki, mam ich wszystkich w małym palcu od nogi… facetów nigdy nie zabraknie na świecie, ale… chociaż… teraz tylko mi o to chodzi, żeby stary nie zawiódł.</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Zaraz tu będzie przecież, słyszałaś?</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(leżąc znowu na kozetce z nóżkami opartemi na fotelu i paląc papierosa)</stage> Będzie… mówił… swoją jednak drogą papiery twoje pani Mańkowska stoją niżej… znacznie dzisiaj w nocy… co stary, to nie hrabia Oleśnicki… co kapitalizm, to nie feudalizm… Żal mi cię… na dziś…! cała frajernia warszawska musi być dzisiaj za mną… Chodź tu do mnie… ty plutokratko!…</p>
+        </sp>
+        <stage>(PANNA KAZIA. podbiega do okien wystawowych, skręca światło elektryczne, poczem biegnie do pracowni)</stage></p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Przestań, proszę cię Agaj już przestań… nie zamieniałabym się na twoje… o nigdy, nigdy… <stage>(z wybuchem radości)</stage> będę miała grammofon, a ty nie! będę miała kinematograf, a ty figę, a ty figograf, będę miała automobil, a ty tylko amerykan masz, będziemy się ścigały do Mokotowa z Marcinkowską i z Pławicką i z Piszczakiewiczówną, każda ze swoim, każda na swojej maszynie, a ty co?…</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p>Ja?… ja… o madame <stage>(z niesłychaną wyniosłością)</stage> o madame! Jedno skinienie palca tego <stage>(wskazuje mały paluszek u ręki)</stage> a mam pierwsza w Warszawie telefon bez drutu… automobil na sześć osób… yacht na Wiśle… gwiazdkę z nieba… Tylko nie chcę… pojmujecie wy mnie?… Nie chcę… nie życzę sobie… Mnie wystarczy białe futro pod nogi, kozetka directoire, trochę starego cognaku i… literatura… pojmujecie wy to… piękno… sztuka… artyści… myśliciele… filozofi!… Czy panie, czy panie cokolwiek choć słyszałyście o madame Thalien?… o Ninon de Lenclos… o wielkiej Ninon de Lenclos!…, co?</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(piskliwym głosem, nucąc)</stage> Ninon, Ninon, qu’es tu fait de la vi… eeee… <stage>(śmieje się)</stage></p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(machnąwszy ręką z wyrazem bezgranicznej pogardy)</stage> Ach głupiaś… głupieście obie!… Nic tylko Sclavenmoral, sclavenmoral i Pomery-Dry i ananas po portugalsku…! Wasze nadiry i zenity to… automobil, Cavalieri… oooch <stage>(wstrząsa się z wyrazem niepokonanej odrazy)</stage></p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(cokolwiek niespokojna, staje za kotarą, rozgląda się szeroko i rzuca przyciszone)</stage> Thugutowa idzie tutaj!</p>
+        </sp>
+        <stage>(SANÇONCI i MAŃKOWSKA mocno skonternowane i bezradne)</stage>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Cooo? Thugutowa? bójcie się Boga…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(do Mańkowskiej, w przechodzie)</stage> Ona ma jakiś interes do pani. <stage>(idzie do kantorka, oglądając się)</stage> Proszę pani łaskawej, proszę…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(ze zdziwieniem)</stage> Do mnie? <stage>(zdejmuje właśnie stanik)</stage></p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(wyciągając lorgnon)</stage> Tableau! zapowiada się scena.</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(z przestrachem)</stage> O Jezus!</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(wchodzi niepewnym krokiem, wzruszona)</stage> Przepraszam panią, magazyn pewno się już zamyka.</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Tak proszę wielmożnej pani. <stage>(wyciąga z za paska zegareczek)</stage> Siódma godzina. Kazia do pracowni, panno Stefciu w poczekalni gasić! Zamykamy. <stage>(Dziewczęta biegną, słychać gwar i hałas w pracowni)</stage>… Czem mogę służyć… pani łaskawej, myśmy posłali rachunek dla formalności tylko…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Ja wiem… myślałam sobie, ja też nie dlatego <stage>(pochylając się do pryncypałowej; w podnieceniu)</stage> Prawda… ta w kostyumie, to panna Mańkowska…</p>
+        </sp>
+        <stage>(PRYNCYPAŁOWA. potakuje głową)</stage>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Tak?… Ja właśnie… tylko… ja właśnie tylko z panną Mańkowską chciałam w pewnej kwestyi…, możeby mi, nam pani ułatwiła, ale tylko z nią samą…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(zdziwiona, ale chętna)</stage> Pani? Z panną Mańkowską… ale dobrze… tylko <stage>(do Mańkowskiej)</stage> Przepraszam panią… pani Mańkowska, bo… pani Thugutowa życzy sobie… na słóweczko.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(stojąc w samej spódniczce kostyumowej)</stage> Ze mną? <stage>(podchodzi)</stage> proszę… ja jestem Mańkowska… Pani pozwoli… <stage>(dziewczęta ściągają z niej spódniczkę i pomagają włożyć suknię)</stage></p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(siada wygodnie na fotelu, patrzy impertynencko)</stage> Nooo avançez…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(rozpinając sobie z wysiłkiem płaszcz, blada, wzruszona)</stage> Przepraszam panią bardzo, jestem Thugutowa… żona fabrykanta cementu Thuguta… pani wie… ja chciałam się bardzo widzieć z panią, bo mam do pani wielką, szczerą prośbę. <stage>(ogląda się na Sançonci i Scholzównę)</stage></p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Służę pani… czem mogę służyć? <stage>(nabierając śmiałości)</stage> To moje koleżanki… Proszę niech pani siada. <stage>(siadając, zapina sobie haftki stanika, poprawia sukni)</stage></p>
+        </sp>
+        <stage>(THUGUTOWA. opuszcza się osłabiona na fotel)</stage>
+        <stage>(PRYNCYPAŁOWA. odwołuje gestami obie panny sklepowe i wyprowadza je do poczekalni)</stage>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Dziękuję pani <stage>(łagodnie)</stage>, bardzo dziękuję… ale ja chciałabym tylko z panią samą…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(już zupełnie pewna siebie)</stage> Ależ i owszem… Agaj, Hermina, proszę, zostawcie nas chwileczkę same…</p>
+        </sp>
+        <stage>(SANÇONCI. przerażona ucieka prędko do poczekalni)</stage>
+        <stage>(SCHOLZÓWNA. bez jednego drgnięcia, zapala spokojnie papierosa)</stage>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(wskazuje na Scholzównę, a potem uderzając się palcem w czoło dla poinformowania, że Scholzówna ma początki niepoczytalności)</stage> Możemy… Słucham panią…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>…Ja przyjechałam tutaj drugi już raz, bo chciałam się koniecznie widzieć z panią i prosić ją o coś… gorąco…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(śmiało)</stage> Mów pani! Śmiało. Wszystko się zrobi, co tylko odemnie będzie zależało, no…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(zmieszana coraz więcej, pojąkając się)</stage> Dziękuję pani z góry, dziękuję… <stage>(podaje jej nieśmiało rękę)</stage></p>
+        </sp>
+        <stage>(MAŃKOWSKA. z wielkim impetem ściska rękę Thugutowej)</stage>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p>Ja wiem, pani musi mieć… w gruncie rzeczy bardzo dobre serce, pewnie, pani mnie zrozumie… ja mam synka… ja spodziewam się znowu… <stage>(walcząc ze łzami)</stage>… niech pani się ulituje nad nami, nad matką, nad dwojgiem dzieci… on już przecież niemłody… pani go nie kocha, nie może kochać… w to nikt nie uwierzy, a on rujnuje się na to, a to mały interes, początkujący, nowa fabryka jeszcze pięciu lat nie ma… zlituj się pani, my sobie w domu od ust odejmujemy, ja nie mam się w co ubrać, tak nie mam, biżuterye moje wziął… ta markiza to moja, ale niech tam… tylko teraz już, żeby dzisiaj nie szedł na tę maskaradę, moja pani ulituj się, żeby dzisiaj nie szedł… bo to kompromi… nic więcej… <stage>(wyciąga chusteczkę i lekko zanosi się od płaczu)</stage></p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(zrywając się raptownie; brutalnie)</stage> Coo? coo? Czego pani chcesz. Jakie biżuterye, jaka markiza? co? Może oddać! Cóż to pan Thugut frajer, czy co? Ja go rujnuję? Kto to pani powiedział? Ja, jeszcze coś nowego, słyszysz Scholz, ja mam zrobić, żeby stary… pan Thugut nie szedł dzisiaj na redutę… urwanie głowy.</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(przez łzy)</stage> Tylko to jedno, od tego zacząć moja pani… przecież jest tylu mężczyzn… wolnych… bardzo bogatych, my tyle renty nie mamy… Pani musisz to zrozumieć… odczuć. <stage>(wstaje z trudem)</stage></p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(w furyi)</stage> Dejcie mi spokój święty! <stage>(krzyczy)</stage> Sançonci! Sançonci! Słyszysz?</p>
+        </sp>
+        <stage>(SANÇONCI. wbiega osłupiała)</stage>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Słyszysz, a to ci szopka dopiero. Jeszcze tego brakowało… żebym tak zrobiła… żeby pan Thugut dzisiaj nie szedł na redutę i wogóle żebym go puściła… Czyś ty słyszała coś podobnego na świecie?</p>
+        </sp>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(wstaje, uroczyście)</stage> W tym wypadku całe moje współczucie po stronie pani… czyli legalnego kon… legalnej konkubinacyi…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Ależ nigdy, nigdy Maniu, dzisiaj to byłaby klapa na całej linii… pomyśl tylko, cała zabawa zepsuta…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Nigdy! <stage>(z wybuchem)</stage> nigdy… niech pan Thugut zresztą rozstrzyga, on nie blanbek ani dziecko… Co on powie, tak będzie, chce iść niech idzie, nie, to nie! ooowa, myśli pani, że sobie nie damy rady? taki on nam potrzebny, jak pieprz w…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p><stage>(staje przed kotarą, zgoła zbita z kontenansu)</stage> Przepraszam panie, ale pan Thugut idzie…</p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(z przerażeniem)</stage> Mój mąż?…</p>
+        </sp>
+        <sp who="#pryncypałowa">
+          <speaker>PRYNCYPAŁOWA.</speaker>
+          <p>Tak! <stage>(odwracając się za kotarę)</stage> Przepraszam pana, w tem moment. <stage>(trzymając kotarę)</stage> Ktoś musi iść do pracowni…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(odymając wargi)</stage> Ja… w każdym razie… nie.</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>To ja! <stage>(biegnie do pracowni)</stage></p>
+        </sp>
+        <sp who="#thugutowa">
+          <speaker>THUGUTOWA.</speaker>
+          <p><stage>(w śmiertelnym strachu, nogi drżą pod nią)</stage> Ja się skryję… ja przeczekam… panie tymczasem z nim wyjdą… <stage>(zmierza, cała trzęsąc się, do pracowni)</stage> nie chcę w żaden sposób, żeby się domyślił… o to jedno tylko… błagam was, aby nie dowiedział się… to była desperacya… dla Gigusia… przebaczcie panie i wyjdźcie zaraz… <stage>(otwiera drzwi pracowni prędko i wychodzi)</stage></p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(patrząc za nią, potem na pryncypałową, pewna siebie)</stage> Już… już możesz pani wpuścić… Agaj zlituj się nademną i nie mów nic staremu… Dobry wieczór.</p>
+        </sp>
+        <stage>(SCHOLZÓWNA. potakuje protekcyonalnie głową)</stage>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p><stage>(wchodzi energicznie, z wiązanką przepysznych parmeńskich fiołków)</stage> Dobry wieczór paniom, dobry wieczór, już bałem się cokolwiek, czy was tu zastanę.</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(przyszpilając kapelusz)</stage> Właśnieśmy się ubierały; o mało co byłbyś nas nie zastał <stage>(patrzy z lekkim niepokojem na drzwi pracowni)</stage> a, dziękuję.</p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p><stage>(wręcza jej staro-szarmanckim ruchem fiołki)</stage> Oto zwiastuny wiosny. <stage>(podtrzymuje Mańkowskiej rotundę)</stage></p>
+        </sp>
+        <stage>(SCHOLZÓWNA. wdziewa swój płaszcz, głęboko zamyślona)</stage>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p><stage>(do Scholzówny)</stage> Więc dzisiaj w nocy ma się rozegrać turniej między obiema królowymi naszego małego światka, tak?</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>Dzisiaj, tak i spodziewam się, że pan mój dzielnie walczyć będzie o nagrodę dla mnie.</p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p>Och moja cacana, jakżeż możesz wątpić na chwilę…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p><stage>(stając przed nim)</stage> Słowo?</p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p>Ależ dwa słowa, ślub, przysięga… Ale a propos słyszałyście piękne panie ostatnią senzacyę?</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p><stage>(już w futerku)</stage> Hrabia Oleśnicki się zaręczył, ta?</p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p>O tem myślałem. <stage>(biorąc za rękę Mańkowską)</stage> I cóż na to moja Maniusia śliczna?…</p>
+        </sp>
+        <sp who="#mańkowska">
+          <speaker>MAŃKOWSKA.</speaker>
+          <p>A nic, cóżby? A niech się zaręczył. A cóż mnie każdy blanbek, co sie zaręczy, ma obchodzić? A niech go dyabli… zresztą niech mu się najlepiej dzieje… taki on dobry jak każdy, będzie miał sukcesora, jak mu przyjaciele pomogą, oj joj, z miłą chęcią… Oleśnicki, więc cóż z tego?</p>
+        </sp>
+        <sp who="#thugut">
+          <speaker>THUGUT.</speaker>
+          <p><stage>(biorąc ją pod rękę)</stage> Więc nic. Bardzo się z tego cieszę, że nic, że już nie będę czuł za plecami ciągle tego żółtodzióba… <stage>(z szczerą starczą radością)</stage> A teraz chodźmy! <stage>(ogląda się za SCHOLZÓWNĄ i SANÇONCI)</stage></p>
+        </sp>
+        <stage>(Szykują się do wyjścia. Przy ścianie stoi PANNA KAZIA, która ma zaraz światło gasić)</stage>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(do SANÇONCI raptownie)</stage> Jak ty się właściwie nazywasz? co? bo jak można tak całe życie incognito… co?… Sançonci… wiesz co Sançonci?… wymyśliłam już aforyzm na kartki pocztowe ze mną, wiesz jaki?… Idźcie państwo, idźcie… my zaraz…</p>
+        </sp>
+        <stage>(THUGUT i MAŃKOWSKA. pod rękę wychodzą)</stage>
+        <stage>(SANÇONCI. stoi wesoła u portyery)</stage>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p>Otóż tak: gdyby ten lekki chleb nie był tak ciężkim, byłby ten ciężki chleb najlżejszym… Co?…</p>
+        </sp>
+        <sp who="#sançonci">
+          <speaker>SANÇONCI.</speaker>
+          <p>Pyszny, pyszny! <stage>(wybiega)</stage></p>
+        </sp>
+        <stage>(PANNA KAZIA. gasi, światło elektryczne)</stage>
+        <sp who="#scholzówna">
+          <speaker>SCHOLZÓWNA.</speaker>
+          <p><stage>(ogląda się w ciemnościach, podbiega do drzwi pracowni, otwiera je, krzyczy donośnie)</stage> Dobra noc pani filisterce! <stage>(i ostrożnie zmierza do kotary z poczekalni)</stage></p>
+        </sp>
+        <trailer>(ZASŁONA SPADA)</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1324 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000037" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">W zimową noc</title>
+        <title type="sub">Obrazek sceniczny w czterech odsłonach</title>
+        <author>
+          <idno type="isni">0000000017943380</idno>
+          <idno type="wikidata">Q11769030</idno>
+          <persName>
+            <forename>Maria</forename>
+            <surname>Markowska</surname>
+          </persName>
+        </author>
+        <!-- Maria Markowska (1878–1939) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>POLONA</name>
+          <idno type="URL">https://polona.pl/item/w-zimowa-noc-obrazek-sceniczny-w-4-odslonach-maryi-markowskiej,OTgwODc4ODc/4/#index</idno>
+          <title>Markowska, M., W zimową noc: obrazek sceniczny w 4 odsłonach, Warszawa 1918</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ewunia" sex="FEMALE">
+            <persName>Ewunia</persName>
+          </person>
+          <person xml:id="helenka" sex="FEMALE">
+            <persName>Helenka</persName>
+          </person>
+          <person xml:id="karolek" sex="MALE">
+            <persName>Karolek</persName>
+          </person>
+          <person xml:id="mania" sex="FEMALE">
+            <persName>Mania</persName>
+          </person>
+          <person xml:id="olenio" sex="MALE">
+            <persName>Olenio</persName>
+          </person>
+          <person xml:id="pan_antoni" sex="MALE">
+            <persName>Pan Antoni</persName>
+          </person>
+          <person xml:id="pan_strzembosz" sex="MALE">
+            <persName>Pan Strzembosz</persName>
+          </person>
+          <person xml:id="pan_zaklika" sex="MALE">
+            <persName>Pan Zaklika</persName>
+          </person>
+          <person xml:id="szczepanowa" sex="FEMALE">
+            <persName>Szczepanowa</persName>
+          </person>
+          <person xml:id="walek" sex="MALE">
+            <persName>Walek</persName>
+          </person>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Dramat</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-09-23">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1913">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <titlePart type="series">WYDAWNICTWO IM. FAUSTYNY MORZYCKIEJ<lb />
+          TEATR LUDOWY<lb />
+          10.</titlePart><lb />
+          <docTitle>
+            <titlePart type="main">W ZIMOWĄ NOC</titlePart>
+            <titlePart type="sub">Obrazek sceniczny w czterech odsłonach</titlePart>
+          </docTitle><lb />
+          <byline>
+            <docAuthor>MARYI MARKOWSKIEJ</docAuthor>
+          </byline><lb />
+          <note>NAGRODZONY W KONKURSIE MAŁEGO ŚWIATKA WE LWOWIE</note><lb />
+          <docImprint>
+              <pubPlace>WARSZAWA</pubPlace> - <date>1918</date><lb />
+              "KSIĘGARNIA LUDOWA" <name>JULJI SIKORSKIEJ</name><lb />
+              <address><street>WARECKA <num>14</num>.</street></address>
+          </docImprint>
+        </titlePage>
+        <castList>
+          <head>OSOBY.</head>
+          <castItem>
+            <role corresp="#pan_zaklika">P. Zaklika</role>
+            <roleDesc/>
+          </castItem>
+          <castGroup>
+            <head>jego dzieci</head>
+            <castItem>
+              <role corresp="#karolek">Karolek,</role>
+              <roleDesc>lat 14</roleDesc>
+            </castItem>
+            <castItem>
+              <role corresp="#mania">Mania,</role>
+              <roleDesc>lat 12</roleDesc>
+            </castItem>
+            <castItem>
+              <role corresp="#helenka">Helenka,</role>
+              <roleDesc>lat 10</roleDesc>
+            </castItem>
+            <castItem>
+              <role corresp="#olenio">Olenio,</role>
+              <roleDesc>lat 7</roleDesc>
+            </castItem>
+          </castGroup>
+          <castItem>
+            <role corresp="#ewunia">Ewunia,</role>
+            <roleDesc>ich stryjeczna siostra, lat 14</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#pan_strzembosz">P. Strzembosz,</role>
+            <roleDesc>krewny p. Zakliki</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#pan_antoni">P. Antoni,</role>
+            <roleDesc>leśniczy</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#walek">Walek,</role>
+            <roleDesc>jego syn, lat 14</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#szczepanowa">Szczepanowa,</role>
+            <roleDesc>stara niania</roleDesc>
+          </castItem>
+        </castList>
+        <note>Wszelkie prawa autorskie zastrzeżone.</note>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ODSŁONA I.</head>
+          <stage type="setting">
+            <p>(Duży pokój dziecinny do nauki i zabawy. Stół na środku, krzesła, fotel niani plecami do okna, kanapka, szafa, półki i t. p. Pod jedną ze ścian parawan osłania łóżko, tak, że łóżka nie widać. W kąciku stolik z zabawkami Olenia. Niania w dużym czepcu, okularach - siedzi w fotelu, robi pończoszkę. Helenka szyje, Mania rysuje, Karolek czyta głośno, Olenio bawi się w swoim kąciku)</p>
+          </stage>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#karolek">KAROLEK.</rs>
+              <rs key="#olenio">OLENIO.</rs>
+              <rs key="#mania">MANIA.</rs>
+              <rs key="#helenka">HELENKA.</rs>
+              <rs key="#szczepanowa">SZCZEPANOWA.</rs>
+              <rs key="#pan_antoni">PAN ANTONI.</rs>
+            </p>
+          </stage>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p><stage>(czyta)</stage> "Za szumnym Dniestrem, na Cecorskiem błoniu,<lb />Gdzie Żółkiewskiego spotkał los okrutny,<lb />Jechał Sieniawski odważny i smutny<lb />W błyszczącej zbroi i na białym koniu".</p>
+          </sp>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p><stage>(do siebie)</stage> Na białym koniu... To taki, jak mój Sokół! <stage>(ciągnąc konia za sobą, podchodzi do Karolka i opiera się na jego kolanach)</stage></p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Nie przeszkadzaj.</p>
+          </sp>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p>Dobrze. Ale co to znaczy: Żółkiewskiego spotkał los okrutny?</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Taki duży chłopiec żeby nie wiedział o Żółkiewskim! Wstydź się!</p>
+          </sp>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p>Dobrze. Ale ja chcę wiedzieć, <stage>(z powagą)</stage> Mamusia mówi, że jak kto czego nie wie, to nie powinien się wstydzić, ale ma się zapytać.</p>
+          </sp>
+          <sp who="#mania">
+            <speaker>MANIA.</speaker>
+            <p><stage>(śmiejąc się)</stage> Ach, ty kochany "dobrze, ale!"</p>
+          </sp>
+          <sp who="#helenka">
+            <speaker>HELENKA.</speaker>
+            <p>I cóż teraz będzie, Karolku?</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p><stage>(całuje brata)</stage> Co będzie? Wstydzę się i przepraszam i zaraz ci Oleniu opowiem o Żółkiewskim.</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p>Opowiedz, opowiedz, Karolku! Niech i moja stara głowa dowie się czegoś ciekawego.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Żółkiewski, wielki wódz, wielki bohater, hetmanił wojskom polskim... <stage>(w tej chwili otwierają się drzwi, na progu staje pan Antoni)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_antoni">PAN ANTONI.</rs>
+              <rs key="#szczepanowa">SZCZEPANOWA.</rs>
+              <rs key="#karolek">KAROLEK.</rs>
+              <rs key="#olenio">OLENIO.</rs>
+              <rs key="#helenka">HELENKA.</rs>
+              <rs key="#mania">MANIA.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p>Niech będzie pochwalony! Jak się macie, pisklęta! Dobry wieczór pani Szczepanowej.</p>
+          </sp>
+          <sp who="#szczepanowa #karolek #olenio #helenka #mania">
+            <speaker>WSZYSCY.</speaker>
+            <p>Na wieki wieków! <stage>(Dzieci zrywają się z miejsc i biegną ku panu Antoniemu)</stage></p>
+          </sp>
+          <sp who="#karolek #olenio #helenka #mania">
+            <speaker>DZIECI.</speaker>
+            <p>Pan Antoni! Pan Antoni!</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p>Dobry wieczór! a siadajże jegomość. Cóż tam nowego na świecie?</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p><stage>(siada)</stage> Na świecie? hm, hm! o tem to ja nie bardzo wiem. Chyba <stage>(patrząc w oczy Szczepanowej, z naciskiem)</stage> chyba o tem, co w lesie.</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p><stage>(upuszcza robotę na kolana i spogląda bystro na pana Antoniego)</stage> W lesie, powiadasz jegomość?</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p><stage>(nieznacznie kładzie palce na ustach i ruchem głowy pokazuje na dzieci)</stage> A tak, tak, moja pani! w lesie.</p>
+          </sp>
+          <stage>(SZCZEPANOWA. wzdycha i porusza się niespokojnie)</stage>
+          <stage>(DZIECI. obstąpiły pana Antoniego i wołają jedno przez drugie)</stage>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p>Dlaczego Bekas nie przyszedł?</p>
+          </sp>
+          <sp who="#mania">
+            <speaker>MANIA.</speaker>
+            <p>Co robi Baziuchna?</p>
+          </sp>
+          <sp who="#helenka">
+            <speaker>HELENKA.</speaker>
+            <p>Czy gile wesołe?</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>A gdzie Walek?</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p><stage>(zatyka sobie uszy)</stage> Aj! aj! dosyć, bo ogłuchnę! Bekas nie przyszedł, bo musi chałupy pilnować. Baziuchna wyhulała się po lesie i śpi teraz na słomie przed piecem, jakby nie sarna. Gile ćwierkają, choć nie tak głośno, jak wy, a Walek miał robotę w lesie. No, już wszystko? <stage>(śmieje się)</stage></p>
+          </sp>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p><stage>(gramoląc się na kolana p. Antoniego)</stage> Dobrze. Ale żeby pan nas przewiózł.</p>
+          </sp>
+          <sp who="#helenka #mania">
+            <speaker>DZIEWCZYNKI.</speaker>
+            <p><stage>(klaszcząc w dłonie)</stage> Oj, to, to! taka sanna doskonała!</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Zajechalibyśmy do leśniczówki.</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p>Jużci, rodziców niema w domu, dzieciakom markotno. A że, nie chwalący, dobrze się sprawiają, to zrób im jegomość uciechę.</p>
+          </sp>
+          <sp who="#karolek #olenio #helenka #mania">
+            <speaker>DZIECI.</speaker>
+            <p>Do lasu, panie Antoni, do lasu!</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p><stage>(z wybuchem)</stage> Co! co! do lasu! Tfu, Boże odpuść – imość też wymyśliła! <stage>(Spokojnie)</stage> Widzicie, dziś czasu nie mam, to jedno. A pod noc do lasu was wozić... Kto tam wie, co jest teraz w lesie!</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p><stage>(wzdycha)</stage> A bo i prawda.</p>
+          </sp>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p>Czy może są wilki?</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p>Wilki? A tak, tak, wilki!</p>
+          </sp>
+          <stage>(DZIECI. zdziwione spoglądają po sobie)</stage>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Wilki, w naszym lesie?</p>
+          </sp>
+          <sp who="#helenka">
+            <speaker>HELENKA.</speaker>
+            <p>Przecież ich nigdy nie było!</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p>Nie było, nie było, ale są i kwita! <stage>(wstaje)</stage> A teraz dajcie mi pokój, bom tu przyszedł nie do was, ale do apteczki pani Szczepanowej, po lekarstwo.</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p>Po lekarstwo? a, to chodźmy, chodźmy. I któż to chory?</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p>Chory? niby kto chory? Aha, tak, Josielowa z karczmy. Obiecałem po drodze wstąpić i oddać im lekarstwo.</p>
+          </sp>
+          <sp who="#karolek #olenio #helenka #mania">
+            <speaker>DZIECI.</speaker>
+            <p>To i my pójdziemy do apteczki!</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p><stage>(zastępuje dzieciom drogę)</stage> Nic z tego sikoreczki! Nie przeszkadzajcie nam starym. Bardzo mi dziś spieszno. <stage>(Wychodzi ze Szczepanową)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#karolek">KAROLEK.</rs>
+              <rs key="#helenka">HELENKA.</rs>
+              <rs key="#mania">MANIA.</rs>
+              <rs key="#olenio">OLENIO.</rs>
+              <rs key="#szczepanowa">SZCZEPANOWA.</rs>
+            </p>
+          </stage>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>No, no, no!</p>
+          </sp>
+          <sp who="#helenka #mania">
+            <speaker>HELA. MANIA.</speaker>
+            <p>No, no, no!</p>
+          </sp>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p>Dobrze. Ale dlaczego nas nie wzięli do apteczki, kiedy zawsze tam chodzimy?</p>
+          </sp>
+          <sp who="#mania">
+            <speaker>MANIA.</speaker>
+            <p>Coś się święci, coś się święci!</p>
+          </sp>
+          <sp who="#helenka">
+            <speaker>HELENKA.</speaker>
+            <p>Pan Antoni był taki dziwny!</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Wilkami nas straszył!</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p><stage>(Za sceną słychać głos)</stage> Dzieci! dzieci! na podwieczorek!</p>
+          </sp>
+          <sp who="#mania">
+            <speaker>MANIA.</speaker>
+            <p>Oho, panna Agata woła.</p>
+          </sp>
+          <sp who="#helenka">
+            <speaker>HELENKA.</speaker>
+            <p>Chodźmy, chodźmy.</p>
+          </sp>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p>Dobrze. Ale Sokół też pójdzie. <stage>(Wychodzi ciągnąc za sobą konia. Dziewczynki też wychodzą)</stage></p>
+          </sp>
+          <sp who="#mania">
+            <speaker>MANIA.</speaker>
+            <p><stage>(we drzwiach)</stage> Karolku, nie idziesz?</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Zaraz, zaraz, tylko książki złożę. <stage>(Mania wychodzi)</stage></p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Te dzieciaki tyle robią rejwachu, że mi aż w głowie huczy. A tak chciałem nauczyć się Dumy o Żółkiewskim! Zaraz, jakże to... aha! "Za szumnym Dniestrem..."</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage type="setting">
+            <p>(Drzwi uchylają się pocichu, Walek wsuwa głowę do pokoju)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#walek">WALEK.</rs>
+              <rs key="#karolek">KAROLEK.</rs> </p>
+          </stage>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Pst, pst, paniczu!</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Któż tam znowu? Ach, to ty Walku! jak się masz?</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(wchodzi ostrożnie, rozglądając się)</stage> Paniczu, niema nikogój?</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Po pierwsze: nikogo, a nie nikogój. Po drugie: nie jestem dla ciebie żaden panicz, tylko Karolek.</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Niechże ta, niechże! <stage>(ściskają się)</stage> A tato są?</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Poszedł ze Szczepanową do apteczki po lekarstwo.</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Acha, takie to i lekarstwo! <stage>(śmieje się)</stage> Poszli się naradzić.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Albo co?</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(tajemniczo)</stage> Coś się dzieje! Jakiesi ludzie są w naszym lesie.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p><stage>(poprawia)</stage> Jacyś ludzie. Ale kto? rozbójnicy? może cyganie?</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Bogać tam cyganie! Niechno Karolek słucha. Zastawialiśmy wczoraj z tatą sidła, aż przy Lisich Jamach. Wiatr dął, drogi szmat, zmachaliśmy się setnie. To też w nocy spaliśmy mocno. Ale przecie słyszę, coś: puk! puk! w szybę. Zbudziłem się pierwszy i letę do okna...</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p><stage>(poprawia)</stage> Lecę. No i co?</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>A tu już tata za mną. "Marsz mi do łóżka!" powiada. "Nie twoja sprawa. To po drzewo". Acha, zaraz! po drzewo łaziłby kto po nocy! A ja com widział, tom widział, bo miesiączek stał na niebie.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Coś widział? co?</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Ano, stał za oknem jakiś obcy z waszecia. Kożuszek na nim dostatni, czapka rogata z barankiem <stage>(zniżając głos)</stage> strzelba przez plecy i pistolce za pasem.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Strzelba, pistolety! co ty gadasz?!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Zaraz się powiedli z tatusiem do komory. A choc cicho gadali, tom przecie trochę słyszał. Coś jakby o naszej Dębince, o jakimś obozie. Że gdzieś trzeba dostawić krup, mąki, słoniny, obroków.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Walek, Walek! czy ci się aby nie przywidziało ze snu?</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(gorąco)</stage> Przywidziało! co też Karolek.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+          <stage type="setting">
+            <p>(Wchodzi spiesznie pan Antoni, za nim Szczepanowa)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_antoni">PAN ANTONI.</rs>
+              <rs key="#szczepanowa">SZCZEPANOWA.</rs>
+              <rs key="#walek">WALEK.</rs>
+              <rs key="#helenka">HELENKA.</rs>
+              <rs key="#mania">MANIA.</rs>
+              <rs key="#olenio">OLENIO.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p><stage>(spostrzegając Walka, groźnie)</stage> A ty tu po co?</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(nadąsany)</stage> A cóż to mi nie wolno przyjść do Karolka?</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p>Do Karolka? dobrze! dobrze!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(jituternie)</stage> A lekarstwo tatuś wziął?</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p>Jakie znowu lekarstwo? <stage>(przypominając sobie)</stage> a tak, tak, lekarstwo! <stage>(wyjmuje z kieszeni buteleczkę)</stage> Walek, smyku jeden! ruszaj mi z tem do karczmy, bo ja już nie mam czasu. A potem co tchu do domu! będziesz mi potrzebny. No, żywo!</p>
+          </sp>
+          <stage>(Walek wychodzi, dając znaki Karolkowi. Z za sceny słychać dzwonki sanek)</stage>
+          <sp who="#helenka #mania #olenio">
+            <speaker>DZIEWCZYNKI. OLENIO.</speaker>
+            <p><stage>(Wbiegają, wołając)</stage> Ktoś przyjechał! Ktoś przyjechał!</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p>Zaraz zobaczę. No bywajcie mi, moje sikoreczki! Z Bogiem, pani Szczepanowa, z Bogiem! <stage>(wychodzi)</stage></p>
+          </sp>
+        </div>
+      </div>
+      <div type="scene" n="6">
+        <head>SCENA VI.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#pan_antoni">PAN ANTONI.</rs>
+            <rs key="#szczepanowa">SZCZEPANOWA.</rs>
+            <rs key="#ewunia">EWUNIA.</rs>
+            <rs key="#karolek">KAROLEK.</rs>
+            <rs key="#olenio">OLENIO.</rs>
+            <rs key="#helenka">HELENKA.</rs>
+            <rs key="#mania">MANIA.</rs>
+          </p>
+        </stage>
+        <sp who="#pan_antoni">
+          <speaker>PAN ANTONI.</speaker>
+          <p><stage>(Za sceną słychać głos pana Antoniego)</stage> W domu rybko, w domu. Tylko państwo wyjechali do starszej pani. <stage>(Wchodzi Ewunia)</stage></p>
+        </sp>
+        <sp who="#szczepanowa #karolek #olenio #helenka #mania">
+          <speaker>WSZYSCY.</speaker>
+          <p>Ewunia! Ewunia! <stage>(biegną ją witać)</stage></p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p>Jak się macie! witajcie!</p>
+        </sp>
+        <sp who="#karolek">
+          <speaker>KAROLEK.</speaker>
+          <p><stage>(patrząc na drzwi)</stage> A gdzież stryjaszek?</p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p>Przyjechałam tylko ze starym Maciejem.</p>
+        </sp>
+        <sp who="#mania">
+          <speaker>MANIA.</speaker>
+          <p><stage>(zdziwiona)</stage> To stryjaszek w domu został?</p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p><stage>(cicho)</stage> Ojca mego niema w domu.</p>
+        </sp>
+        <sp who="#helenka">
+          <speaker>HELENKA.</speaker>
+          <p>Wyjechał? daleko?</p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p><stage>(Milczy. Siada, ukrywa twarz w dłoniach. Dzieci ją otaczają niespokojnie)</stage></p>
+        </sp>
+        <sp who="#szczepanowa">
+          <speaker>SZCZEPANOWA.</speaker>
+          <p>Dziecino kochana! co ci to? co się stało?</p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p><stage>(odsłania twarz, wzruszenie tamuje jej głos)</stage> Mój ojciec... w tej chwili może już... bije się z moskalami...</p>
+        </sp>
+        <sp who="#karolek #olenio #helenka #mania">
+          <speaker>DZIECI.</speaker>
+          <p>Ewuniu, Ewuniu! co ty mówisz!</p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p><stage>(wstaje, mówi coraz z większym zapałem)</stage> Stało się, co miało się stać, na co Naród oddawna z upragnieniem czekał. Polska do boju się zrywa, za broń chwyta. Precz z najeźdźcą! Wolność lub śmierć! Powstanie już wybuchło! słyszycie: Powstanie!</p>
+        </sp>
+        <sp who="#karolek #olenio #helenka #mania">
+          <speaker>DZIECI.</speaker>
+          <p>Wojna! wojna! wojna z Moskalami! <stage>(Ściskają się, płaczą i śmieją z radości. Szczepanowa ociera oczy)</stage></p>
+        </sp>
+        <sp who="#mania">
+          <speaker>MANIA.</speaker>
+          <p>My tu na wsi nic nie wiemy.</p>
+        </sp>
+        <sp who="#karolek">
+          <speaker>KAROLEK.</speaker>
+          <p>A rodzice pojechali do babci i też nic nie wiedzą.</p>
+        </sp>
+        <sp who="#szczepanowa">
+          <speaker>SZCZEPANOWA.</speaker>
+          <p><stage>(do siebie)</stage> Bogać tam nie wiedzą! jeno wam, robaki, nikt mówić nie chciał przed czasem.</p>
+        </sp>
+        <sp who="#olenio">
+          <speaker>OLENIO.</speaker>
+          <p>Dobrze. Ale czy my nic nie będziemy robić, kiedy jest powstanie?</p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p><stage>(całuje go)</stage> Wszyscy, wszyscy, braciszku, będziemy pomagać.</p>
+        </sp>
+        <sp who="#helenka">
+          <speaker>HELENKA.</speaker>
+          <p>Ale jak? jak?</p>
+        </sp>
+        <sp who="#karolek">
+          <speaker>KAROLEK.</speaker>
+          <p>Siedzieć spokojnie w domu, siedzieć z założonemi rękami, kiedy inni się biją, to okropne!</p>
+        </sp>
+        <sp who="#olenio">
+          <speaker>OLENIO.</speaker>
+          <p><stage>(żałośnie)</stage> Źle jest, kiedy kto mały i słaby!</p>
+        </sp>
+        <sp who="#mania">
+          <speaker>MANIA.</speaker>
+          <p>Ach, to prawda!</p>
+        </sp>
+        <sp who="#olenio">
+          <speaker>OLENIO.</speaker>
+          <p>Ja Sokoła bardzo kocham. Ale Sokół jest drewniany i pałasik mój też drewniany! nic moskalowi nie zrobię! <stage>(płacze)</stage></p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p>Źleby było, gdyby tylko dorośli i silni służyć mogli świętej sprawie. Nietylko rąk krzepkich trzeba ojczyźnie, ale i dusz mężnych i serc kochających. A czyż my, polskie dzieci, nie mamy męstwa w duszach? czyż nie kochamy gorąco?</p>
+        </sp>
+        <sp who="#karolek #olenio #helenka #mania">
+          <speaker>DZIECI.</speaker>
+          <p>O tak, Ewuniu!</p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p>Więc bądźmy zawsze gotowi. Przyrzeknijmy sobie, że spełnimy każdą ofiarę, jakiej od nas Ojczyzna zażąda. Mały i słaby może też stać się bohaterem.</p>
+        </sp>
+        <sp who="#olenio">
+          <speaker>OLENIO.</speaker>
+          <p>Jak Krzywousty!</p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p>Dobrze mówisz, Oleniu! A tymczasem będziemy mieli aż nadto roboty.</p>
+        </sp>
+        <sp who="#karolek #olenio #helenka #mania">
+          <speaker>DZIECI.</speaker>
+          <p>Ewuniu, naprawdę?</p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p>Czy nie pomyśleliście o tem, że gdzie się biją, tam będą ranni? Że trzeba dla nich bielizny, opatrunków, lekarst? Że może tu w domu trzeba będzie urządzić szpital, gdyby gdzie blizko przyszło do bitwy?</p>
+        </sp>
+        <sp who="#mania">
+          <speaker>MANIA.</speaker>
+          <p>Ewuniu, mnóstwo mamy do roboty!</p>
+        </sp>
+        <sp who="#helenka">
+          <speaker>HELENKA.</speaker>
+          <p>Nianiusiu złota! Trzeba nam płótna na bieliznę, na szarpie, na bandaże.</p>
+        </sp>
+        <sp who="#szczepanowa">
+          <speaker>SZCZEPANOWA.</speaker>
+          <p>Dobrze, dobrze. Jest tu w szafie wszystkiego dosyć. <stage>(Idzie do szafy)</stage></p>
+        </sp>
+        <sp who="#karolek">
+          <speaker>KAROLEK.</speaker>
+          <p>Ale co ja będę robił?</p>
+        </sp>
+        <sp who="#ewunia">
+          <speaker>EWUNIA.</speaker>
+          <p><stage>(z powagą)</stage> Czy wstydzisz się szarpie skubać lub szyć bandaże dla tych, co się za wolność biją? Bo to niby igła nie przystoi mężczyźnie! A któż to na wojnie żołnierzom szyje? Kto łata mundury, gdy je kule wroga poszarpią?</p>
+        </sp>
+        <sp who="#karolek">
+          <speaker>KAROLEK.</speaker>
+          <p><stage>(zawstydzony)</stage> To prawda, Ewuniu!</p>
+        </sp>
+        <stage>(Szczepanowa rozkłada na stole płótno, rozdaje dzieciom robotę. Przez chwilę pracują wszyscy w milczeniu)</stage>
+        <sp who="#olenio">
+          <speaker>OLENIO.</speaker>
+          <p>Dobrze. Ale dlaczego jest tak cicho?</p>
+        </sp>
+        <sp who="#mania">
+          <speaker>MANIA.</speaker>
+          <p>Nianiu najmilsza! proszę coś opowiedzieć.</p>
+        </sp>
+        <sp who="#karolek">
+          <speaker>KAROLEK.</speaker>
+          <p>Tak, tak! Jak to było wtedy, w listopadzie, kiedy dziadzio był kapitanem.</p>
+        </sp>
+        <sp who="#szczepanowa">
+          <speaker>SZCZEPANOWA.</speaker>
+          <p>Hej, hej! dziadzio kapitan, a Szczepan wachmistrz – oto byli zuchy! Pamiętam, kiedy ten dzień przyszedł, pan kapitan od rana gdzieś przepadał. Pani od okna do okna chodziła bo to już w Warszawie huczało, jak w ulu. A Szczepan ze stajni nie wychodził i konie na pogotowiu trzymał. Aż tu pan wpada. Jeno huknął: Szczepan! a mój już w progu stoi. Oczami się rozmówili i już po bruku kopyta huczą. A nam z panią serca biją jak dzwony! <stage>(zamyśla się)</stage></p>
+        </sp>
+        <sp who="#karolek #olenio #helenka #mania">
+          <speaker>DZIECI.</speaker>
+          <p>Dalej, nianiu, dalej!</p>
+        </sp>
+        <sp who="#szczepanowa">
+          <speaker>SZCZEPANOWA.</speaker>
+          <p>Wieczór był, pusto, cicho. Aż tu pod oknami krzyk. Gna ulicą, jak wicher, oficyjer z gołą szablą, a woła: Mości panowie, do broni! A tu już mrowić się zaczyna na ulicy. Z daleka strzały huczą. I znowu krzyk: Pod arsenał! pod arsenał! Padłyśmy z panią na kolana o zwycięstwo się modlić. Aż tu z sypialni wybiega Jasiunio, niby wasz tatuś. Bose to, w jednej koszulinie, szabelką drewnianą macha i woła: Mamusiu! na moskala! na moskala!</p>
+        </sp>
+        <stage>(W ciągu opowiadania dzieci stopniowo wypuszczały robotę z rąk. Siedzą zasłuchane, wpatrzone w Szczepanową. Nagle Mania się zrywa, wybiega, zostawiając drzwi otwarte. Słychać, jak gra na fortepianie Warszawiankę)</stage>
+        <sp who="#karolek #olenio #helenka">
+          <speaker>DZIECI.</speaker>
+          <p><stage>(wstają, zaczynają śpiewać)</stage> Hej, kto Polak, na bagnety! i t. d.</p>
+        </sp>
+        <trailer>(Zasłona spada)</trailer>
+      </div>
+      <div type="act" n="2">
+        <head>ODSŁONA II.</head>
+        <stage type="setting">
+          <p>(Ten sam pokój. Noc. Parawan odsunięty. Widać łóżeczko Karolka posłane. Przy łóżku na małym stoliczku zapalona świeca. Wchodzi Karolek)</p>
+        </stage>
+        <div type="scene" n="7">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#karolek">KAROLEK.</rs>
+              <rs key="#walek">WALEK.</rs>
+            </p>
+          </stage>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Mówiliśmy z nianią litanię za tych co się biją. Boże, jak mi smutno, żem jeszcze za mały i zasłaby do szeregu! <stage>(Podchodzi do okna)</stage> Taka jasna noc! Poco ta świeca się pali? <stage>(Gasi świecę)</stage> Mnie tu czeka łóżko wygodne, a tamci... <stage>(zamyśla się)</stage> Nie, nie pójdę jeszcze spać! <stage>(Siada w fotelu)</stage> Tak mi dziwnie, jakby koniecznie coś stać się miało tej nocy. <stage>(Po chwili słychać pukanie do okna)</stage> Co to? czy mi się zdaje? <stage>(Nasłuchuje, pukanie powtarza się)</stage> Ktoś puka. <stage>(Podchodzi do okna)</stage> Walek! co to znaczy? <stage>(Otwiera okno. Walek pocichu wsuwa się do pokoju)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#walek">WALEK.</rs>
+              <rs key="#karolek">KAROLEK.</rs>
+            </p>
+          </stage>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(zmęczony, zdyszany, rzuca się na krzesło, ociera pot z czoła)</stage> Zaraz... zaraz...</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Co się stało?</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Oj, tchu złapać nie mogę, takem gnał... Moskale idą.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p><stage>(gwałtownie)</stage> Walek!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Cicho tylko, cicho! Leciałem ścieżką do karczmy, aż tu z brzeziny kozacy wyjeżdżają. Ja buch! do rowu, nim mnie spostrzegli. Rowem, opłatkami rwę, co siły, i pierwszy byłem w karczmie. Zaszyłem się w komorze między worki i czekam. A tu już kozunie walą się we drzwi i krzyczą: jewrej wódki! <stage>(oddycha ciężko)</stage></p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Co dalej, mów!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Aao wódkę złopią, a mówią, że teraz nie mają czasu pohulać, ale jak „matieżników” pobiją to wrócą.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Co? co?!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Gadają, że w lesie „partya” jest i napadu się nie spodziewa. A tymczasem za nimi idzie piechota i armaty. Zasadzkę zropią i drogę przetną, wpędzą „polskich rozbójników” na bagna i wystrzelają do nogi.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p><stage>(chwyta się za głowę)</stage> Boże! Boże!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>A ja kalkuluję, że nasi w tej Dębince muszą stać, co to Karolek wie! Droga jedna, moczary dookoła. Jakby tam zasadzka – żywa dusza nie ujdzie! A juści, ten co nocą u taty był, to powstaniec! I o Dębince gadali!</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Do Dębinki! Trzeba ich ostrzedz!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Aby prędko! polami, na przełaj, możemy przed tamtymi zdążyć. Jeno, że śnieg po pas i kopno okrutnie.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Weźmy kuckę i starego szpaka.</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>A stajnia na klucz nie zamknięta?</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Nie, bo tam Porwij i Bura pilnują. A na przecie znają psy.</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Teraz kogo budzić, posyłać, albo i do taty lecieć – to już nie czas! A chyba nam uwierzą?</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Muszą uwierzyć! chodźmy.</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(bioręc go za rękę poważnie)</stage> Ale... Karolku, jeśli nas kozacy zobaczą, to śmierć!</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>A niechby śmierć, byle naszych przedtem ostrzedz.</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>ANTEK.</speaker>
+            <p>Wiedziałem, żeś taki! <stage>(ściskają się)</stage> Noto duchem! <stage>(Biegnie do szafy, wyjmuje kożuszek, czapeczkę, rękawice. Pomaga Karolkowi ubierać się)</stage> A przed lasem trza konie puścić, bo w lesie nic po nich. Ale szpak z kucką trafią same do domu.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Czekaj, zasuńmy jeszcze parawan. Niech niania nie zmartwi się, jeżeli zajrzy, czy świeca zgaszona. <stage>(Zasuwają parawan, tak żeby łóżka nie było widać)</stage> W drogę! <stage>(Wychodzą obaj przez okno, potem okno przymykają)</stage></p>
+          </sp>
+          <trailer>(Zasłona spada)</trailer>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ODSŁONA III.</head>
+          <stage type="setting">
+            <p>(Noc. Polanka w lesie. Śnieg. Zdaleka za krzakami błyska ogień. Na warcie stoi powstaniec. Po chwili z boku słychać szelest. Powstaniec bacznie patrzy w tę stronę. Szelest milknie)</p>
+          </stage>
+        <div type="scene" n="9">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#karolek">KAROLEK.</rs>
+              <rs key="#walek">WALEK.</rs>
+              <rs key="#pan_strzembosz">POWSTANIEC.</rs> </p>
+          </stage>
+          <sp who="#pan_strzembosz">
+            <speaker>POWSTANIEC.</speaker>
+            <p>Zdawało mi się. To może lis przemknął, albo śnieg zsuwa się z gałęzi.</p>
+          </sp>
+          <stage>(Szelest głośniejszy. Po chwili z boku, z gęstwiny, wynurzają się dwie małe ośnieżone postacie – Karolek i Walek. Idą z cięskością, utykając)</stage>
+          <sp who="#pan_strzembosz">
+            <speaker>POWSTANIEC.</speaker>
+            <p>Stój! Kto idzie?</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#karolek">KAROLEK.</rs>
+              <rs key="#walek">WALEK.</rs>
+              <rs key="#pan_strzembosz">PAN STRZEMBOSZ.</rs>
+            </p>
+          </stage>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p><stage>(zdyszany, niewyraźnie)</stage> To my... <stage>(chcą się zbliżyć)</stage></p>
+          </sp>
+          <sp who="#pan_strzembosz">
+            <speaker>POWSTANIEC.</speaker>
+            <p><stage>(groźnie)</stage> Ani kroku! bo strzelę!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(głos mu się rwie ze zmęczenia)</stage> Nie strzelać... swoi...</p>
+          </sp>
+          <sp who="#pan_strzembosz">
+            <speaker>POWSTANIEC.</speaker>
+            <p>Coście za jedni?</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p><stage>(j.w.)</stage> My z Zakliczyna.</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Juści. Karolek ze dwora i ja, niby Walek leśniczego.</p>
+          </sp>
+          <sp who="#pan_strzembosz">
+            <speaker>POWSTANIEC.</speaker>
+            <p><stage>(przygląda się im, zdziwiny)</stage> Karolek! Walek! co to znaczy?</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(poznając go)</stage> Laboga! pan Strzembosz!</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Wujaszek!</p>
+          </sp>
+          <sp who="#pan_strzembosz">
+            <speaker>PAN STRZEMBOSZ, POWSTANIEC.</speaker>
+            <p>Co tu robicie?</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Moskale idą!</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Walek w karczmie podsłuchał... <stage>(mówią szybko, przerywając jeden drugiemu)</stage></p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>I tyle, żem po Karolka zdążył, bo nie było czasu starszych budzić...</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Wzięliśmy kuckę i szpaka...</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>I duchem tu! ale lasem drzeć się, mitręga okrutna...</p>
+          </sp>
+          <sp who="#pan_strzembosz">
+            <speaker>PAN STRZEMBOSZ.</speaker>
+            <p>Wolniej! wolniej! Co wiecie o moskalach?</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>A prawda! Idą kozacy, aza nimi piechota z armatami.</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Zwiedzili się, że w Dębince są nasi...</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Chcą urządzić zasadzkę, drogę przeciąć, wpędzić, naszych na bagna i wystrzelać.</p>
+          </sp>
+          <sp who="#pan_strzembosz">
+            <speaker>PAN STRZEMBOSZ.</speaker>
+            <p>Walku, czyś pewien, żeś dobrze słyszał?</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(bijąc się w piersi)</stage> Jak naszym zwycięstwa życzę!</p>
+          </sp>
+          <sp who="#pan_strzembosz">
+            <speaker>PAN STRZEMBOSZ.</speaker>
+            <p>Rzecz niesłychanie ważna! Do wodza z tem, do wodza! <stage>(naśladuje głos puhacza, po chwili takież hukanie w odpowiedz)</stage> Zaraz tu przyjdzie który z towarzyszy i zaprowadzi wes do wodza. Dzielne chłopaki! Ani wiecie, komuście życie ocalili. <stage>(Z za drzew wychodzą dwaj mężczyźni)</stage> Ach, otóż i sam wódz! <stage>(staje w ten sposób, że zasłania chłopców przed nadchodzącymi, którzy ich nie widzą)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA III.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_zaklika">PAN ZAKLIKA.</rs>
+              <rs key="#pan_strzembosz">PAN STRZEMBOSZ.</rs>
+              <rs key="#karolek">KAROLEK.</rs>
+              <rs key="#walek">WALEK.</rs>
+              <rs key="#pan_antoni">PAN ANTONI.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_zaklika">
+            <speaker>WÓDZ.</speaker>
+            <p>Co nowego, poruczniku?</p>
+          </sp>
+          <sp who="#pan_strzembosz">
+            <speaker>PAN STRZEMBOSZ.</speaker>
+            <p>Ważna nowina! Kozacy i piechoda z armatami idą na nas. Mają urządzić zasadzkę, przeciąć nam drogę, wpędzić nas na bagna i wystrzelać.</p>
+          </sp>
+          <sp who="#pan_zaklika">
+            <speaker>WÓDZ.</speaker>
+            <p>Skąd te wieści?</p>
+          </sp>
+          <sp who="#pan_strzembosz">
+            <speaker>PAN STRZEMBOSZ.</speaker>
+            <p><stage>(odsłaniając chłopaków)</stage> Oto dwaj zuchy, co je przenieśli <stage>(chłopcy stoją z gołemi głowami, onieśmieleni, ze spuszczonemi oczami)</stage></p>
+          </sp>
+          <sp who="#pan_zaklika">
+            <speaker>WÓDZ.</speaker>
+            <p>Jak to, ci? <stage>(przygląda im się)</stage> Karolek! Walek!</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p><stage>(z krzykiem)</stage> Tatuś!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Rety! Toć to pan! <stage>(spojrzawszy na towarzysza wodza)</stage> I mój tato!</p>
+          </sp>
+          <sp who="#pan_zaklika">
+            <speaker>PAN ZAKLIKA, WÓDZ.</speaker>
+            <p><stage>(z powagą)</stage> Chłopcy, czy jesteście przekonani, że wieści przez was przyniesione są prawdziwe?</p>
+          </sp>
+          <sp who="#karolek #walek">
+            <speaker>CHŁOPCY.</speaker>
+            <p><stage>(uroczyście)</stage> Tak nam Boże dopomóż! Kozacy już wyszli z karczmy.</p>
+          </sp>
+          <sp who="#pan_zaklika">
+            <speaker>PAN ZAKLIKA.</speaker>
+            <p>Wiedzcie więc, żeście uratowali nas wszystkich. Teraz co żywo zwijać obóz i w drogę, <stage>(daje sygnał na trąbce, trąbki mu odpowiadają)</stage> Nim moskale nadążą, my obejdziemy lasem i urządzimy im niespodziankę. Wpadną we własne sidła. Nie oni nas, ale my ich wpędzimy na bagna <stage>(chce odejść)</stage></p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p><stage>(nieśmiało)</stage> Tatusiu, a my?</p>
+          </sp>
+          <sp who="#pan_zaklika">
+            <speaker>PAN ZAKLIKA.</speaker>
+            <p>Was na furgon się weźmie. Tu nie możecie zostać <stage>(chłopcy padają przed nim na kolana)</stage></p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Tatusiu! tatusiu!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Panie najdroższy!</p>
+          </sp>
+          <sp who="#pan_zaklika">
+            <speaker>PAN ZAKLIKA.</speaker>
+            <p>Czego chcecie?</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Nie na furgon! weź nas z sobą!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Bić się chcemy!</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Pan Antoni nauczył nas strzelać...</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Znajdą się przecie jakie pukawki!</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p>A ja się za nimi wstawiam. Zasługują sobie na to.</p>
+          </sp>
+          <sp who="#pan_zaklika">
+            <speaker>PAN ZAKLIKA.</speaker>
+            <p>Jeżeli p. Antoni weźmie was pod opiekę, to zgoda. A czy dajecie słowo słuchać go we wszystkiem?</p>
+          </sp>
+          <sp who="#karolek #walek">
+            <speaker>KAROLEK. WALEK.</speaker>
+            <p><stage>(uroczyście)</stage> Dajemy!</p>
+          </sp>
+          <sp who="#pan_zaklika">
+            <speaker>PAN ZAKLIKA.</speaker>
+            <p>A więc w drogę! Ty poruczniku, zostaniesz tu i będziesz czuwał do ostatka, póki nie damy ci znaku <stage>(Wychodzi z p. Antonim i chłopcami. Ogień za krzakami gaśnie)</stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#pan_strzembosz">PAN STRZEMBOSZ.</rs>
+            </p>
+          </stage>
+          <sp who="#pan_strzembosz">
+            <speaker>PAN STRZEMBOSZ.</speaker>
+            <p>Dzielne chłopcy! gdyby nie oni, żaden z nas nie ujrzałby wschodu słońca. Okropna była klęska! Czuliśmy się tu tak bezpieczni. Widać wytropił nas szpieg podły. Byle tylko nasi zdążyli przed kozakami. Ale przecież ich pan Antoni lasem poprowadzi, a on zna tu każdy zakutek. <stage>(z daleka słychać strzał)</stage> To mnie wołają. Nareszcie! W bój, w bój! Za wolny lud, za wolny kraj! <stage>(Wybiega)</stage></p>
+          </sp>
+          <trailer>(Zasłona spada)</trailer>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ODSŁONA IV.</head>
+          <stage type="setting">
+            <p>(Ten sam pokój dzieciny. Ranek. Wchodzi Szczepanowa)</p>
+          </stage>
+        <div type="scene" n="13">
+          <head>SCENA I.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#szczepanowa">SZCZEPANOWA.</rs> </p>
+          </stage>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p>Cóżto mój najstarszy tak dziś zaspał? Tamci już o śniadanie wołają, a on nie wstał jeszcze. Zbudzę go chyba. <stage>(zagląda za parawan)</stage> Wszelki duch! a toć posłanie nietknięte! cóż się z tym chłopcem stało? <stage>(woła)</stage> Karolku! Karolku! <stage>(podchodzi do okna)</stage> Co to? okno ledwie przymknięte?... O Matko Boska, ratujże mnie w nieszczęściu! a tu rodziców niema...</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA II.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#olenio">OLENIO.</rs>
+              <rs key="#szczepanowa">SZCZEPANOWA.</rs>
+              <rs key="#ewunia">EWUNIA.</rs>
+              <rs key="#mania">MANIA.</rs>
+              <rs key="#helenka">HELENKA.</rs>
+              <rs key="#karolek">KAROLEK.</rs>
+              <rs key="#walek">WALEK.</rs>
+              <rs key="#pan_strzembosz">PAN STRZEMBOSZ.</rs>
+              <rs key="#pan_antoni">PAN ANTONI.</rs>
+            </p>
+          </stage>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p><stage>(wbiega z krzykiem)</stage> Nianiu, nianiu! wojsko idzie!</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p><stage>(przerażona, siada bezsilna na krześle)</stage> A słowo stało się Ciałem! Jeśli to kozacy...</p>
+          </sp>
+          <sp who="#ewunia #mania #helenka">
+            <speaker>DZIEWCZYNKI.</speaker>
+            <p><stage>(wchodzą spiesznie)</stage> Idą, nianiu, idą!</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p><stage>(podnosi głowę, pewnym głosem)</stage> Chodźcie tu domnie! <stage>(ogarnia dzieci ramionami. Za sceną gwar i hałas)</stage> Ino mi się nie bać, boście żołnierskie dzieci! A i Szczepanowa nie pierwszy raz będzie z kozakami gadać... <stage>(Gwar się wzmaga)</stage></p>
+          </sp>
+          <sp who="#olenio #ewunia #mania #helenka">
+            <speaker>DZIECI.</speaker>
+            <p>Nie boimy się!</p>
+          </sp>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p>I Sokół się nie boi! <stage>(Słychać szczęk broni. Za oknami głośny śpiew)</stage> W krwawem polu srebrne ptaszę,<lb />Poszli w boje chłopcy nasze.<lb />Matko Polsko żyj!<lb />Jezus Marya! bij!</p>
+          </sp>
+          <sp who="#olenio #ewunia #mania #helenka">
+            <speaker>DZIECI.</speaker>
+            <p><stage>(biegną z krzykiem do okien)</stage> To nasi! nasi.</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p><stage>(wstaje, podnosi ręce)</stage> Zobaczą jeszcze moje stare oczy Polaków pod bronią!</p>
+          </sp>
+          <stage>(Drzwi otwierają się gwałtownie. Wpadają Walek i Karolek. Obaj z bronią. W ubraniu ich ślady nocnej wyprawy i walki. Za nimi wchodzą p. Strzembosz i p. Antoni. Za sceną szczęk broni i gwar wesołych głosów)</stage>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA III.</head>
+          <stage type="setting">
+            <p>(Cała scena powinna iść bardzo żywo)</p>
+          </stage>
+          <stage type="entrance">
+            <p>
+              <rs key="#walek">WALEK.</rs>
+              <rs key="#karolek">KAROLEK.</rs>
+              <rs key="#pan_antoni">PAN ANTONI.</rs>
+              <rs key="#pan_strzembosz">PAN STRZEMBOSZ.</rs>
+              <rs key="#szczepanowa">SZCZEPANOWA.</rs>
+              <rs key="#ewunia">EWUNIA.</rs>
+              <rs key="#olenio">OLENIO.</rs>
+              <rs key="#mania">MANIA.</rs>
+              <rs key="#helenka">HELENKA.</rs>
+              <rs key="#pan_zaklika">PAN ZAKLIKA.</rs>
+            </p>
+          </stage>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(wbiegając rzuca czapkę w górę)</stage> "Albośwa to jacy tacy, jacy tacy"...</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Pobici, nianiu, pobici!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Że i wtedy, w listopadzie, lepiej nie było! <stage>(W ciągu ich słów dzieci zdumione, wzruszone milczą)</stage></p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p>Cóżto, moje sikoreczki zaniemiały?</p>
+          </sp>
+          <sp who="#pan_strzembosz">
+            <speaker>PAN STRZEMBOSZ.</speaker>
+            <p>Nie witacie zuchów, którzy nam wszystkim życie uratowali?</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p>Robaki moje kochane! <stage>(płacze)</stage></p>
+          </sp>
+          <sp who="#ewunia #mania #helenka">
+            <speaker>DZIEWCZYNKI.</speaker>
+            <p>Oni! oni!</p>
+          </sp>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p>Karolek bohater i Waluś bohater! a czy kiedy będę?</p>
+          </sp>
+          <sp who="#ewunia">
+            <speaker>EWUNIA.</speaker>
+            <p>Przyjdzie czas i na ciebie.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Tylko nas nie chwalcie!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Co tam my!</p>
+          </sp>
+          <sp who="#mania">
+            <speaker>MANIA.</speaker>
+            <p><stage>(błagalnie)</stage> Panie Antoni! Wujaszku!</p>
+          </sp>
+          <sp who="#helenka">
+            <speaker>HELENKA.</speaker>
+            <p>Opowiedzcie nam!</p>
+          </sp>
+          <sp who="#pan_strzembosz">
+            <speaker>PAN STRZEMBOSZ.</speaker>
+            <p>Niech wam sam wódz opowie. <stage>(Wchodzi pan Zaklika)</stage> Otóż i on.</p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA IV.</head>
+          <stage type="entrance">
+            <p>
+              <rs key="#walek">WALEK.</rs>
+              <rs key="#karolek">KAROLEK.</rs>
+              <rs key="#pan_antoni">PAN ANTONI.</rs>
+              <rs key="#pan_strzembosz">PAN STRZEMBOSZ.</rs>
+              <rs key="#szczepanowa">SZCZEPANOWA.</rs>
+              <rs key="#ewunia">EWUNIA.</rs>
+              <rs key="#olenio">OLENIO.</rs>
+              <rs key="#mania">MANIA.</rs>
+              <rs key="#helenka">HELENKA.</rs>
+              <rs key="#pan_zaklika">PAN ZAKLIKA.</rs>
+            </p>
+          </stage>
+          <sp who="#olenio #ewunia #mania #helenka">
+            <speaker>DZIECI.</speaker>
+            <p>Tatuś nasz! tatuś!</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p>Jasiunio mój! wódz!</p>
+          </sp>
+          <sp who="#karolek #walek #olenio">
+            <speaker>CHŁOPCY.</speaker>
+            <p>Niech żyje wódz!</p>
+          </sp>
+          <sp who="#pan_zaklika">
+            <speaker>PAN ZAKLIKA.</speaker>
+            <p>Ukochani moi! Ale na później pieszczoty i opowiadania. Teraz czekają opieki waszej ranni. A i zdrowych i chorych nakarmić należy. Przyjąć drogich gości, czem chata bogata, bo wiara ledwie na nogach się trzyma! Nielada pracę mieliśmy dziś w nocy. A to dopiero początek.</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p>Ja tam i snu i jadła nie chciwy, byle kul i prochu nie brakło.</p>
+          </sp>
+          <sp who="#karolek">
+            <speaker>KAROLEK.</speaker>
+            <p>Tak, tak! znowu w bój!</p>
+          </sp>
+          <sp who="#pan_antoni">
+            <speaker>PAN ANTONI.</speaker>
+            <p><stage>(śmieje się)</stage> A jakie to zawzięte! niczem osy! ale jeść przecież trzeba.</p>
+          </sp>
+          <sp who="#szczepanowa">
+            <speaker>SZCZEPANOWA.</speaker>
+            <p><stage>(jakby odmłodzona, z energją)</stage> A ja tu siedzę! gdzieżto moje klucze?</p>
+          </sp>
+          <sp who="#mania">
+            <speaker>MANIA.</speaker>
+            <p>My z tobą, nianiu!</p>
+          </sp>
+          <sp who="#helenka">
+            <speaker>HELENKA.</speaker>
+            <p>Żywo! żywo!</p>
+          </sp>
+          <sp who="#olenio">
+            <speaker>OLENIO.</speaker>
+            <p>I ja też. A Sokoła zostawię, żeby nie przeszkadzał.</p>
+          </sp>
+          <sp who="#ewunia">
+            <speaker>EWUNIA.</speaker>
+            <p>Wszyscy do roboty!</p>
+          </sp>
+          <sp who="#pan_zaklika">
+            <speaker>PAN ZAKLIKA.</speaker>
+            <p>Tak, wszyscy do roboty! I najsłabszy przyda się, jeśli zechce. Patrzcie na tych dwóch najmłodszych żołnierzyków! <stage>(wskazuje Walka i Karolka)</stage> Dzięki im, oddział ocalony, moskal pobity, a oni sami godnie chrzest ognia otrzymali. Do roboty! A gdy wszyscy tej ziemi synowie w bratnim szeregu staną, gdy wieś i miasto za broń zgodnie pochwycą, wtedy z całej piersi hukniemy:<lb />Jeszcze Polska nie zginęła!</p>
+          </sp>
+          <sp who="#walek">
+            <speaker>WALEK.</speaker>
+            <p><stage>(podnosząc broń w górę)</stage> Mocą odbierzemy!</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,982 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000046" xml:lang="pol">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Dzisiejsi</title>
+        <title type="sub">Komedia w jednym akcie</title>
+        <author>
+          <idno type="isni">0000000071389413</idno>
+          <idno type="wikidata">Q11769390</idno>
+          <persName>
+            <forename>Marian</forename>
+            <surname>Gawalewicz</surname>
+          </persName>
+        </author>
+        <!-- Marian Gawalewicz (1852-1910) -->
+      </titleStmt>
+      <editionStmt>
+        <p>Edited by members of <orgName>Historical Pragmalinguistic Team</orgName> (<persName>Magdalena Pastuch</persName>, <persName>Barbara Mitrenga</persName>, <persName>Kinga Wąsińska</persName>) affiliated to the <orgName>Institute of Linguistics of University of Silesia in Katowice</orgName> with technical support <persName>Jan Wieczorek</persName>, <persName>Tomasz Bernaś</persName> and <persName>Tomasz Naskręt</persName> from <orgName>CLARIN-PL</orgName>/<orgName>Wrocław University of Science and Technology</orgName> (source: Polona.pl with modifications)</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name>Śląska Biblioteka Cyfrowa</name>
+          <idno type="URL">https://sbc.org.pl/dlibra/publication//365417/edition/345159</idno>
+          <title>Gawalewicz, M., Dzisiejsi. Komedya w 1-ym akcie oryginalnie napisana, [w:] tegoż, Komedye jednoaktowe i monologi. Serya druga, Warszawa 1890, s. 75-109</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="dominik" sex="MALE">
+            <persName>Dominik</persName>
+          </person>
+          <person xml:id="julia" sex="FEMALE">
+            <persName>Julia</persName>
+          </person>
+          <person xml:id="juliusz" sex="MALE">
+            <persName>Juliusz</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term>Komedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2024-09-23">file conversion from source with some corrections (no text interference)</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1885">
+        <desc />
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+        <titlePage>
+          <docTitle>
+            <titlePart type="main">DZISIEJSI.</titlePart>
+            <titlePart type="sub">KOMEDYA W 1-ym AKCIE ORYGINALNIE NAPISANA.</titlePart>
+          </docTitle>
+          <div type="appendix">
+            <p><salute>
+              <p>D-ROWI JANOWI BRZEZIŃSKIEMU</p>
+            </salute>
+            w przyjaznym upominku<lb />SKŁADA<lb />autor.</p>
+          </div>
+        </titlePage>
+        <castList>
+          <head>OSOBY:</head>
+          <castItem>
+            <role corresp="#julia">JULIA,</role>
+            <roleDesc>młoda wdowa.</roleDesc>
+          </castItem>
+          <castItem>
+            <role corresp="#juliusz">JULIUSZ TOPOLSKI.</role>
+            <roleDesc/>
+          </castItem>
+          <castItem>
+            <role corresp="#dominik">DOMINIK,</role>
+            <roleDesc>służący.</roleDesc>
+          </castItem>
+        </castList>
+      <set>
+        <p>(Rzecz dzieje się w domu Julii)</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene" n="1">
+        <head>SCENA PIERWSZA.</head>
+        <stage type="setting">
+          <p>(Scena przedstawia budoar kobiecy z wielkim smakiem wykwintnie urządzony, po prawéj okno od strony ogrodu – przy oknie małe, eleganckie biurko – po lewéj kozetka, stolik, foteliki, żardinierka z kwiatami, w głębi po prawéj jedne drzwi, prowadzące do salonu – po lewéj w kulisie drzwi do dalszych apartamentów, z lewéj strony w głębi zgrabna szafka à l’antique, na niéj ozdobny zegar z kurantem. Wieczór – duża lampa na środkowym stole – portyery, firanki, dywany etc.)</p>
+        </stage>
+        <stage type="entrance">
+          <p>
+            <rs key="#dominik">DOMINIK.</rs>
+          </p>
+        </stage>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p><stage>(sam, przez chwilę zajęty przy środkowym stole – poczém daje się słyszeć trzy razy w krótkich odstępach dzwonek w głębi, u drzwi wchodowych. Dominik wysłuchawszy, robi znak, jakby się domyślał gościa i mówiąc)</stage> Aha! <stage>(wychodzi spiesznie drzwiami w głębi)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="2">
+        <head>SCENA DRUGA.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#dominik">DOMINIK.</rs> (po chwili wprowadzając)
+            <rs key="#juliusz">JULIUSZA.</rs>
+          </p>
+        </stage>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p><stage>(typ lokaja z pańskiego domu, stara się zachowywać zawsze wyraz wielkiéj powagi i mówi przyciszonym głosem z odcieniem jakby tajemniczości)</stage> Zaraz poznałem, że to pan konsyljarz.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>A… po dzwonku?</p>
+        </sp>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p><stage>(skłaniając głowę potwierdzająco)</stage> Racya. Nikt u nas nie dzwoni trzy razy, tylko pan konsyljarz.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Melduję się jeszcze za drzwiami, aby mnie można łatwiej odprawić, jeżelim natrętny…</p>
+        </sp>
+        <stage>(DOMINIK. głową daje do zrozumnienia, że tego nie potwierdza)</stage>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Cóż tak głową kręcisz stary?</p>
+        </sp>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p><stage>(podchodząc krok bliżéj)</stage> Jasnego pana to nie spotka.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Sądzisz?</p>
+        </sp>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p>Jasny pan jest wszędzie dobrze widzianym… ja wiem… alboż to darmo trzy lata byłem w obowiązku u jasnego pana.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Możebyś się Dominik wrócił teraz?</p>
+        </sp>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p>Jeżeli mi podziękują za służbę tutaj, czemu nie?… ale się na to nie zanosi.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>A tu Dominikowi dobrze?</p>
+        </sp>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p>Dziękować Bogu; tylko krętaniny dużo – zwyczajnie, gdzie pana niéma w domu, tylko pani; <stage>(ze znaczącą miną)</stage> ale to się skończy…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Jakto?</p>
+        </sp>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p>Już ja tam znam się na tém… będziemy mieli rychło pana…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Oh?… czy się na to zanosi?</p>
+        </sp>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p><stage>(podchodzi i delikatnie całuje go w ramię)</stage> Niby to jasny pan nie wié… <stage>(cofając się z uszanowaniem)</stage> tylko, co to do nas należy?!… pójdę uwiadomić panią. <stage>(idzie ku drzwiom na lewo po chwili wraca i chce znów pocałować Juliusza)</stage> Przepraszam za poufałość.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(z uśmiechem, klepiąc go po ramieniu)</stage> Ależ mój Dominiku, źle się domyślasz…</p>
+        </sp>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p>Ho, ho!… Dominik zna się na tém… <stage>(wychodząc w ukłonach)</stage> Przepraszam za poufałość.</p>
+        </sp>
+      </div>
+      <div type="scene" n="3">
+        <head>SCENA TRZECIA.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#juliusz">JULIUSZ.</rs>
+          </p>
+        </stage>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(sam)</stage> No, proszę – więc mnie tu mają na seryo za starającego się. Cóż dziwnego?… wdowa, młoda, bogata, ładna, przyjemna, bezdzietna… wszystkie warunki, aby pocieszyć się jak najprędzej po stracie pierwszego małżonka. Interesująca kobieta – mało takich znałem… Trochę excentryczna, nawet tego trochę za wiele, ale to jéj dodaje pieprzyku. <stage>(biorąc machinalnie otwartą książkę z kozetki)</stage> „Autour du mariage”… Hm… ładna lektura. Kto to takie rzeczy czyta w wdowieńskim stanie!… Pani Julia widocznie zaostrza sobie apetyt do powtórnego małżeństwa… czy ze mną?… <stage>(uśmiechając się niedowierzająco)</stage> Zobaczymy. Nie pogniewałbym się o to wcale, bo ta flanerya po buduarach i salonach znudziła mnie już porządnie. Wszędzie to samo… zawsze ten majonez z łososia, tylko sos mniéj lub więcéj piquant. Dalibóg, poszedłbym już na emeryturę i zkwitował z donżuaneryi na zawsze, gdyby się znalazła jaka sprytniejsza od innych, któraby pozować nie chciała. Ach! jak one wszystkie pozują od pokojówki aż do damy wielkiego świata!… Ta przynajmniéj ma więcéj oryginalności od innych, choćby dla tego, że jéj się mężczyzna wydaje piłeczką, którą się bawić można dla zabicia czasu. Naturalnie, że są i piłeczki, tylko ich za wysoko podrzucać nie należy, bo się z rąk wymkną i złapać się już nie dadzą…</p>
+        </sp>
+      </div>
+      <div type="scene" n="4">
+        <head>SCENA CZWARTA.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#juliusz">JULIUSZ.</rs>
+            <rs key="#julia">JULIA.</rs>
+          </p>
+        </stage>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(wchodzi spiesznie)</stage> Dobry wieczór doktorze… dałam panu czekać?… to umyślnie, abyś miał więcéj czasu do zrobienia zwyczajnego przeglądu i spostrzeżeń w moim gabinecie. <stage>(podaje mu rękę, którą on chcę pocałować, ale się zatrzymuje)</stage> No, pocałuj pan już, pocałuj, zanim zaczniesz udawać zdziwionego, czy obrażonego… Tak… a teraz spróbuj się zapierać. <stage>(siada, wskazując mu miejsce obok siebie)</stage> Musiałeś tu już swém badawczém okiem rzucić na wszystko: wiész, co czytałam dziś, od kogo miałam ten list w różowej kopercie, od kogo te kwiaty w wazoniku, do kogo pisałam po południu… przyznaj się Asmodeuszu!</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Dobrą mam opinią u pani – ajenta policyjnego.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Ajenta!… cóż znowu, niechby Lecoqu’a N. 2, najsprytniejszego z sędziów śledczych, i to mało.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Dziękuję… bardzo pochlebne zdanie.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Naturalnie; dowodzi to sprytu z pańskiéj strony i jeszcze czegoś…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Czego?</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Zainteressowania się tém, co mnie dotycze. Chciałbyś pan zkontrolować każdą moję myśl, każdy czyn, każdy krok zły czy dobry – o dobre ci tyle nie chodzi, ale o złe – bardzo; tylko, że ich nie robię na wasze umartwienie, a pozorami was męczę  –  to mój sport. No, siadaj pan… cóż tam nowego?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(siadając obok obojętnie)</stage> Dostałem trzy pacyentki.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Na serce?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Nie, na nerwy, ale to wszystko jedno.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Naturalnie, kocha się dziś nerwami, nie sercem.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Ależ ja na miłość nie leczę.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Pan ją zaszczepiasz, jak dzieciom ospę.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Tylko, że coraz rzadziéj się przyjmuje.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Bo zła limfa… No i cóż te pacyentki?… młode?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>W pani wieku.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Ładne?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>To zależy; dla doktora niéma ładnych, ani brzydkich kobiet, są tylko mniéj lub więcéj interessujące.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>A do jakich pan mnie zaliczasz?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Pani nie jesteś moją pacyentką, to ja raczéj choruję… na panią.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(lekceważąco)</stage> Eh… chroniczna choroba.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Dodaj pani i epidemiczna. Kobiety powinny urządzić kwarantannę dla wszystkich, którzy choć raz przejdą przez pani salon.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Dużo pan w nim nieuleczalnych znalazłeś?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Pierwszego… siebie…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Pan?… Pan?… taki Juliusz Cezar wśród serc kobiecych!</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>O, uznanie to tém większe, że pochodzi od… niezwyciężonéj a zawsze zwycięzkiéj. Nie ustępujemy sobie ani na krok. Tryumfator z tryumfatorką.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Bodaj to dobra opinia!… czy wiész pan, że dzisiejszy wieczór poświęciłam wyłącznie panu?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Jakto?… a to ścisłe kółko przyjaciół i znajomych, o którém bilecik pani wspominał?…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Rozprysło się; zmieniłam zamiar i odprosiłam wszystkich, z wyjątkiem pana. Będziemy sami.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Tant mieux.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(z udaną urazą)</stage> I nie dziękujesz pan nawet za ten przywilej?… niewdzięczny!</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Podziękuję… wychodząc. O sam-na-sam z kobietą mówi się, jak pewien smakosz, pytany czy obiad był dobry: "Je vous le dirai demain".</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(wstając)</stage> Jesteś pan zarozumialcem, jak wszyscy. Zaczynam żałować, że odprosiłam moich gości na dzisiejszy wieczór. Pan Dezydery gdzieś we łzach tonąć musi, że go minęła ze mną rozmowa w tym kąciku; napisze pewnie elegią w trzystu wierszach p. t. „Stracona herbata” – i przyjdzie mi ją jutro wywzdychać na kolanach.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Pani, jak uważam, nie lubisz wierszy?</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Owszem, przy karmelkach. Dać panu już herbaty?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Wolę paluszek do pocałowania.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(ze śmiechem cofając rękę)</stage> Dostaniesz pan paluszki przy herbacie; <stage>(dzwoni)</stage> smaczniejsze, bo je nawet zjeść można.</p>
+        </sp>
+      </div>
+      <div type="scene" n="5">
+        <head>SCENA PIĄTA.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#julia">JULIA.</rs>
+            <rs key="#juliusz">JULIUSZ.</rs>
+            <rs key="#dominik">DOMINIK.</rs>
+          </p>
+        </stage>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p><stage>(przy drzwiach)</stage> Jaśnie pani dzwoniła?</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Mój Dominiku – herbaty.</p>
+        </sp>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p>Natychmiast. <stage>(wychodzi)</stage></p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(poprawiając włosy i suknię przed lustrem)</stage> Prawda, jak mi ten kolor do twarzy?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Prawda.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(spoglądając na niego przez ramię)</stage> Bez wykrzyknika?… bez zachwytu?… Ach, prawda, kto ma tak gust zepsuty, na tym nie łatwo zrobić wrażenie. Wiesz doktorze, że przez grzeczność chwali się zawsze kobiety.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Czy i wtedy, gdy się nie podobają?</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Wtedy najbardziéj.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(obojętnie)</stage> Jak pani prześlicznie w téj sukni, sto trzydziestéj dziewiątéj z rzędu, jeśli się tylko nie mylę, w których miałem przyjemność podziwiać panią.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Ach przewyborny komplement, z którego wnioskuję, że się panu dziś nie podobam, powtóre: że jestem strojną lalą, i po trzecie, że mnie pan za dużo razy widziałeś. Bardzo uprzejmie mój doktorze, ale ja cenię w panu otwartość; ona pana wyróżnia z całego otoczenia.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Tylko ona?… myślałem, że coś jeszcze.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Cóżby takiego?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Choćby to, że nie zwykłem dmuchać na kobiety, jak na młyn wietrzny westchnieniami, aby w nim zemléć swoje ziarnko miłości; choćby to, że należę do dyskretnych i cierpliwych, że umiem czekać swojéj kolei, nie cisnę się, jak niesforny dzieciak do tych biszkopcików, któremi pani obdzielasz swoich wielbicieli…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(z grymasem)</stage> Oj… co za wyszukane porównania! Doktór masz styl feljetonisty i to co najmniéj po dziesięć groszy od wiersza, jak nieoceniony pan Dezydery.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Broń Boże, pisuję tylko recepty i to po łacinie, a czasem… bileciki do kobiet…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>W lekkim stylu; dobrze pan robisz, styl u mężczyzny zawsze się nam podoba, choćby pod nim kryła się taka pustka, jak… jak… w sercu pańskiém.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Ach, przepraszam, o tém pani sądzić nie wolno. Nie zaglądałaś pani nigdy do mego serca.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Byłabym jak w studni zobaczyła tam… siebie, nieprawdaż? ale to każdéj innéj udałoby się tak samo, dlatego wolę nie zaglądać.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Byłabyś pani, jak w studni, zobaczyła tam… wodę, którą dotąd czerpały tylko spragnione moje… boginie po salonach.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>To znaczy, że uczuciem nie obdarzyłeś doktór dotychczas żadnéj z nas?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Tego odemnie nie żądano na seryo.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Zapewne przez instynkt…</p>
+        </sp>
+      </div>
+      <div type="scene" n="6">
+        <head>SCENA SZÓSTA.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#julia">JULIA.</rs>
+            <rs key="#juliusz">JULIUSZ.</rs>
+            <rs key="#dominik">DOMINIK.</rs> (wnosi na tacy dwie filiżanki z herbatą i koszyk z ciastami, stawia na środkowym stole, przy którym Julia i Juliusz z dwóch stron siadają)
+          </p>
+        </stage>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(kończąc)</stage> Zachowawczy.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(stawiając przed nim filiżankę)</stage> Dlaczego?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Bo téj, którejbym musiał dać prawdziwe uczucie – za ciężką odpowiedzialność podyktowałbym zarazem. Każda kobieta jest…</p>
+        </sp>
+        <sp who="#dominik">
+          <speaker>DOMINIK.</speaker>
+          <p><stage>(z boku nachylając się do Juliusza, mięszającego herbatę)</stage> Niesłodzona.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(do Dominika)</stage> Dobrze. <stage>(kończąc)</stage> …jest egoistką i boi się za wielkich zobowiązań.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>A wy moi panowie, czy tak łatwo je przyjmujecie, a co ważniejsza – dotrzymujecie?… Dałbyś pan pokój tym wytartym zarzutom przeciwko nam. Jakiemi jesteśmy, takiemi jesteśmy, dość że się wam podobamy od stworzenia świata. Pan Bóg wyganiając Adama z raju, oddał go za karę w niewolę Ewie.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Ewom, powiedz pani lepiéj, ja nie zaprzeczę… Całe życie byłem niewolnikiem pięknéj płci i dzisiaj czuję się nim nawet w dwójnasób w obec pani, która od czasu do czasu potrząsasz mojemi więzami, aby mi je przypomnieć.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Naturalnie, to było zawsze moją taktyką; z jednym tak, z drugim inaczéj. Jeden rodzaj mężczyzn zajmował mnie wszelako najbardziéj, ten rodzaj lwów, które na łańcuchach rzucają się i targają, ale… na nitce, z wolnéj ręki tresowane chodzą, jak baranki. <stage>(patrzy, uśmiechając się znacząco na Juliusza)</stage> Znałam i takich, znałam… Nie udawaj pan, że nie wiesz, o kim mówię.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(spokojnie)</stage> O mnie – to przecież jasne. Tak sprytnéj kobiécie, jak pani udałoby się każdego Ingomara, jak drugiéj Partenii ułaskawić i wziąść na nitkę. To już rzecz znana w całém mieście. Masz pani pod tym względem ustaloną sławę, dlatego trwożliwsi z nas, przystępując do pani, żegnają się ukradkiem trzy razy…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Jak przed złym duchem?… mówiono mi o tém. Nazywają mnie sprytną – cóż pan chcesz, – spryt to konieczna broń dla kobiety, zaczepna i odporna. Bez niéj idzie się w siatkę, jak motyl, albo jak ryba na wędkę. Pan pierwszy byłbyś mnie dawno złowił. Pomyśl pan tylko, co mogłoby obronić kobiétę taką, jak ja, przed takimi, jak pan, gdyby nie ten spryt zaostrzony długą wprawą. Wdowa, sama, młoda, niezależna, nie brzydka – mam nawet dnie, w których bardzo dobrze wyglądam, choć na codzień mogłabym być ładniejszą – z głową trochę przewróconą, a jak mój brat utrzymuje une tête de linotte i w tém otoczeniu wytrawnych łowców salonowych, z których każdy rzuca mi na przynętę samego siebie. Za mąż mi powtórnie nie spieszno, więc się bawię w kotka i myszkę.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Czy ze wszystkimi?</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Hm, to zależy; najlepiéj z tymi, którzy mi się oświadczają z miłością… Pana to nie dotyczy… znamy się przeszło pół roku, a dotąd…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(z ukłonem)</stage> Miałem tę zręczność nie oświadczyć się pani.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Co prawda, mało do tego brakowało. Pamiętasz pan tę pierwszą naszę eskapadę czerwcową, ten śliczny wieczór, któryśmy razem spędzili w parku u hrabiny Gustawowéj? Słowik śpiewał, księżyc świecił, fujarkę gdzieś zdaleka słychać było; chodziliśmy po brzegu wiślanéj łachy, patrzyli na nenufary i rozmawiali – poważniéj, niż w téj chwili o życiu i o tém, co w niém jest najpiękniejszego. Wypadłam z tonu wówczas, byłam rozmarzoną, a pan patrzałeś na mnie, jak na coś niezwykłego i nie mogłeś zrozumiéć, co się stało z tym trzpiotem, z tą bałamutką osławioną, z tą strzygą, która przy panu w ciemnych szpalerach ogrodu szła, jak zwyczajna kobieta – nawet trochę sentymentalna…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Ach, tak; wówczas wziąłem panią pierwszy raz za rękę, jak w téj chwili, goręcéj, namiętniéj i zacząłem mówić…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(wyrywając mu szybko rękę, przerywa)</stage> Chwileczkę… <stage>(wstaje śpiesznie, idzie ku zegarowi, pociąga za sznurek, a gdy się kurant odezwał, wraca na swoje miejsce i mówi swobodnym, trochę ironicznym tonem)</stage> O tak, teraz mów pan daléj; przy takim akompanjamencie lepiéj się słucha oświadczyn miłosnych. Dwie pozytywki popełniają się wzajemnie. No mów pan daléj… słucham.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(zaciął usta, przez chwilę patrzy na nią z urazą, potem wstaje i przechodzi na drugą stronę)</stage></p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(ze śmiechem)</stage> Bogi! co za Jowiszowe spojrzenie! otóż masz, powiadają, że my jesteśmy drażliwe, a wystaw na próbę miłość własną mężczyzny, zadraśnij go tylko czémkolwiek, zerwie się i z wulkanu będzie w jednéj chwili lodowcem. I jak tu wierzyć w trwałość waszych uczuć?… My musimy wszystko poświęcić dla was, serce, honor, cnotę, siebie, ambicyą naszę i egoizm, bo inaczéj każdy z was potrząsając głową z gorzką ironją powie: „i pani mnie kochasz?!!…” musimy się dać upokorzyć dla waszéj miłości i dziękować Panu Bogu, że nas jakiś król stworzenia raczył wybrać na ofiarę. A wam nie można bezkarnie przerwać miłosnego gruchania, nie można w połowie tyrady pociągnąć za sznurek od pozytywki, aby nas na miejscu piorun nie spalił. Mój doktorze, bądź-żeż sprawiedliwym – pójdź, wróć na swoje miejsce et soyons amis Cynna! No, niedajżeż się pan prosić!… <stage>(podaje mu rękę z miejsca)</stage> Przecież ani pan, ani ja nie możemy brać na seryo miłości między nami; pan jesteś za ostrożny i za rozumny, aby mnie zaufać, ja za wielką pessymistką i zepsutą przez świat, aby panu uwierzyć. Siadaj pan, pomówimy jak przyjaciele, jak dwa augury.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Zdaje mi się, że chyba już niewiele mamy sobie do powiedzenia.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Pan jeszcze jesteś rozdrażniony, dotknęłam pana więcéj, niż przypuszczałam – w takim razie serdecznie przepraszam.</p>
+        </sp>
+        <stage>(JULIUSZ. siada na dawném miejscu)</stage>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Nie dziw się pan, nasłuchałam się już tylu pozytywek sercowych, że mnie to nudzić zaczęło. Mam w sobie dwie natury – jednę złą, drugą dobrą; – dobréj nie lubię światu pokazywać, jestem za dumną, aby się chwalić. Kto jéj sam we mnie nie dopatrzy, pokrzywdza mnie i sam na tém traci. Widzisz pan, zrobiłam panu przykrość i teraz żałuję tego… nie, panie Juliuszu, ja nie jestem taką złą, jak się wydaję, gdybym się komu zwierzyć chciała z tego, co często w mojém sercu się odezwie, to nawet pan…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(przerywając jéj, wstaje)</stage> Chwileczkę… <stage>(idzie ku zegarowi)</stage></p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Co pan chcesz zrobić?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(złośliwie, chcąc pociągnąć za sznurek)</stage> Zaakompanjować pani; w tém miejscu muzyka również dobrzeby się wydała.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(powstrzymując go gestem)</stage> Nie… <stage>(tłumi w sobie wzburzenie)</stage> Wet za wet, zkwitowaliśmy się – jednak była to z pańskiéj strony niedelikatność, która teraz we mnie podrażniła kobietę. Uprzedzam pana, że jestem mściwą i nie łatwo zapominam.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Nie śmiem powtórzyć całéj tyrady o naszéj drażliwości, którą raczyłaś pani obrzucić moję głowę, jak gradem kamieni.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Jest między nami różnica – pan jesteś mężczyzną, a mnie, trochę więcéj uchodzi, jako… kobiecie. Zresztą dość o tém; żałuję teraz chwili nierozsądnéj szczerości, w któréj zaczęłam naiwnie spowiadać się przed panem.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Jestem spowiednikiem bez wiary, nie potrafiłbym rozgrzeszać, chyba słowami: „idź i nagrzesz więcéj.”</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Bądź pan spokojny, drugi raz nie powtórzy się ta chwila.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Widzę, że teraz koléj na mnie przepraszać panią.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>To zbyteczne… <stage>(wstrząsając się)</stage> nie uważasz pan, że tu trochę chłodno?… zimno mi się zrobiło. Proszę mi podać to okrycie, co leży na kozetce… o tak, dziękuję. <stage>(otulając się chustką)</stage> A teraz rozmawiajmy daléj. O czém to mówiliśmy na początku?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(który stał i patrzał na nią z ukrytym uśmiechem)</stage> Podaj mi pani rękę, pani Julio.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Na co?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Na zgodę.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(z udaną swobodą)</stage> Ależ obie. Pan jesteś tak miłym towarzyszem, że gniewać się z panem długo nie można.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(zatrzymując jéj rękę, udaje, że się jéj przygląda)</stage> Ręka pani zimna.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(spoglądając na niego z ironią przez chwilę)</stage> Ale czuła na ujęcie pańskiéj ręki, panie konsyliarzu. <stage>(odsuwając nieco rękę)</stage> Nie skradaj się pan do pulsu pod fałszywym pretekstem, zbadaj go otwarcie doktorze, masz do tego wszelkie prawo… no, badaj!… Chciałeś obliczyć, ile téż uderzeń na minutę wywołał pański experyment?… wstydź się pan. Robisz studya na żywych preparatach swoich.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Pochlebiasz mi pani.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Znam pana, – tylko tyle. Całe życie miałeś pan szczęście u kobiet i ono pana zepsuło, jak mnie moje powodzenie i ta pewność siebie, któréj dotąd nie straciłam nigdy ani na chwilę. Oboje jesteśmy… za sprytni – dla siebie, i dlatego trudno nam się porozumieć.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Uwielbiam panią, <stage>(z ukłonem)</stage> i podziwiam przenikliwość.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Porzućmy szczudła panie Juliuszu; niewygodnie chodzić nam z sobą na takich podporach. Ja panu ułatwię sytuacyą… <stage>(patrząc mu seryo w oczy)</stage> Pan mnie kochasz. Wiem o tém oddawna i kochasz inaczéj, po swojemu, ale kochasz, choć mi tego otwarcie jeszcze nie powiedziałeś. Zajęłam pana więcéj, niż wszystkie inne, które spotkałeś dotychczas. Czy ta – nazywajmy ją tak – miłość, nie okazałaby się jutro kaprysem, gdybym dziś zaufać jéj chciała i dała ci ten tryumf, za którym chodziłeś po wszystkich salonach i gabinetach – nie wiem. Ale pan jesteś człowiekiem fantazyi, ja jestem również fantastyczką, lubię podrażniać moję i cudzą wyobraźnię. Jaki dowód swojéj miłości raczyłbyś mi pan złożyć, gdybym go zażądała?…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Dowód?…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Nie przerywaj pan. Ożenisz się pan ze mną?… to niczego nie dowiedzie; z tych dziesięciu etatowych wielbicieli, których pan widujesz koło mnie tak bezustannie, każdy zrobi to samo na jedno skinienie méj ręki; ale taką naturę, jak moja, podbić może tylko coś niezwykłego. Zdobądź się pan na oryginalność jaką.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>A za to?…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Za to… oznaczysz cenę, jaką sam zechcesz. Znudziła mnie ta jednostajność szaréj barwy w życiu. Za jednę godzinę niezwykłych wzruszeń, oddałabym całe lata. Chwila ma dla mnie jedyną wartość, nie ta, co przeszła, ani ta, co przyjdzie – ale ta, co jest. Jesteśmy oboje wytworem salonowego chaosu, wydelikaciliśmy się zanadto w téj cieplarniarnéj atmosferze, flirtacya zepsuła nas, rozstroiła nerwy na niekorzyść zdrowego organizmu serca i umysłu. Przychodzą przecież chwile, w których chciałoby się myśleć, czuć, szaléć, kochać inaczéj, niż według szablonu!… Przypuśćmy, że ta chwila dla nas obojga przyszła teraz… Korzystajmy z niéj.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Czy pani mówisz seryo?</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Najzupełniéj.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(stanowczo, ale zimno)</stage> A więc tak… kocham panią; mówię to spokojnie …ale z tém większym rozmysłem i stanowczością. Przekonałem się w życiu, że kobiéty należą dzisiaj… do sprytnych, i ten zwycięża, kto lepiéj kusić potrafi; sama miłość bez sprytu niewystarcza – a tak oryginalne natury, jak pani, nie idą na lep zwyczajnych kommunałów. Pan Dezydery, który tylko wzdycha i wiersze pisze, nigdy nie posiędzie pani; panowie Izydor i Jakób prześcigając się w olśnieniu pani swemi milionami, niesmak wzbudzą na końcu. Cała czereda tych naiwnych, co się zaklina na wszystkie świętości i słowa honoru, że miłość ich gorąca, jak ukrop, nie wystygnie do końca świata – już dzisiaj uśmiech politowania budzi. Innych przejrzałaś pani oddawna i wiész, że patrzą na ciebie, jak na dojrzały owoc na gałęzi wysokiéj, i gotowi trząść to nieugięte drzewo, co sił, aby tylko smaczny kąsek spadł im do ust otwartych.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>A cóż pan powiesz o sobie?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>A ja kocham panią i umiem czekać na uboczu.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>O i to wiele, ale czekając, możesz pan się nie doczekać niczego.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(obojętnie)</stage> Spróbuję.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(patrząc na niego z pod oka)</stage> Wiész pan, że przychodzi mi szalony pomysł, wypróbować miłość pańską? jestem podrażnioną przez pana. Kto mi zaręczy, że pod tą niepospolitą powłoką, nie kryje się zwyczajna i pospolita natura męzka?… Więc pan przyznajesz, że mnie kochasz?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Muszę.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>I inaczéj od tamtych wszystkich?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Widzisz to pani sama.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>I nie cofnąłbyś się przed żadną ofiarą, aby wzajemność moję pozyskać?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Przed żadną się nie cofnę.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Słowo? <stage>(podając mu rękę)</stage></p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Słowo.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Dobrze. <stage>(wstaje z nagłém postanowieniem i idzie ku szafce w głębi)</stage> Przekonam się; ale jeśli się pan zachwiejesz?… jeśli odstąpisz?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Uznam się niegodnym pani; ale w zamian gdy wyjdę z próby zwycięzko?…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Ja uznam się zwyciężoną. <stage>(otwiera szybko skrytkę i wyjmuje z niéj flakonik, z którym wraca ku środkowemu stołowi, z miną seryo, spoglądając wyzywająco na Juliusza)</stage> Daruję panu… dwie godziny z mojego życia.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Dwie tylko?</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Dwie ostatnie.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Jakto?… nie rozumiem.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Zrozumiesz pan za chwilę. Brat mój, podróżując po Indach, kupił od jakiegoś bramina ten flakonik z tajemniczym płynem; kilka kropel wpuszczonych do téj filiżanki herbaty, zamieni ją w czarowny elixir, po którego wypiciu, człowiek wpada w rozkoszny szał; wszystkie zmysły potęgują się w nim… te krople zamieniają go w bóstwo, ziemię w raj i dają rozkosz, o jakiéj zwyczajni śmiertelnicy pojęcia nie mają. Patrz pan, nalewam płyn w obie filiżanki; wypijemy razem a potém… <stage>(nalewa)</stage></p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Potém?…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Będziesz za miłość swoję po królewsku nagrodzony, ale po dwóch godzinach… opanuje cię szał zachwytu, wpadniesz w stan odrętwienia i…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Więc ten tajemniczy płyn?</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>To trucizna z indyjskich kwiatów, która zabija rozkoszą.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(który zpoważniał, patrząc na nią badawczo)</stage> To żarty!…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Broń Boże!… jestem zdecydowaną na wszystko, skoro się pan nie cofniesz. Znasz mnie pan o tyle, że wiesz, jak umiem dotrzymywać słowa. A zatém?… dałeś pan słowo, słowo miłości swéj… <stage>(z ironią)</stage> Przecież kochasz podobno inaczéj od wszystkich?!… Przypuść, że to fantazya, kaprys, szaleństwo, ale takim kobietom, jak ja –  dziwić się nie trzeba.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(patrzał jej w oczy przez chwilę)</stage> Pozwól mi pani ten flakonik.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(z gestem)</stage> Żadnych układów, tak – albo nie. Decyduj się pan. Pijemy?…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(po chwili spokojnie)</stage> Pijemy.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(głęboko odetchnąwszy, pada z tryumfującém spojrzeniem na fotel)</stage> A więc zacznij pan.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(mierząc ją ciągle oczyma)</stage> Chwileczkę… <stage>(obzierając się, jakby czego szukał)</stage> Chciałem wpierw…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(z ironią)</stage> Szukasz pan swego kapelusza?… oto jest. <stage>(podaje mu kapelusz)</stage></p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Zaprawiasz pani goryczą swą łaskę… nie, szukałem pióra i papieru.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Chcesz pan pisać?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Kilka słów. Nie odchodzi się ze świata, jak pospolity zbieg – bez pożegnania. Chciałbym pozostawić list do…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Proszę, tam na biurku znajdziesz pan, co potrzeba.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Dziękuję. <stage>(siada przy biurku z miną bardzo poważną i pisze, podczas tego Julia przygląda mu się z ukrytym uśmiechem złośliwości; zegar wybija godzinę i grać zaczyna, milczenie)</stage></p>
+        </sp>
+        <stage>(JULIUSZ. napisawszy, wkłada list do koperty; adresuje i zostawia go na biurku, potém wstaje i przechadza się w głębi, jak gdyby się przygotował do ważnego postanowienia, z namysłem)</stage>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>No?… zdajesz się pan ociągać. A gdzież pańska stanowczość, doktorze? Kobiety należą do sprytnych – gdzież pański spryt w téj chwili? Czy przestałeś mnie pan kochać niespodzianie? czy téż ofiara wydaje ci się za wielką?… żal panu tego marnego życia, przyznaj.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(stanął nagle i z zimną stanowczością mówi w ciągu następnéj sceny)</stage> Mylisz się pani, jestem zdecydowany, ale teraz na mnie koléj. Spróbujemy się! <stage>(idzie ku drzwiom na lewo, zamyka je i klucz wyciąga z zamku, zamyka drzwi w głębi na klamkę, potém idzie ku oknu, które otwiera)</stage></p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(zdziwiona)</stage> Co to ma znaczyć?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Zamknąłem drzwi, aby nam nie przeszkodzili żyć i umierać razem, a dla większéj pewności – wyrzucam klucz za okno. <stage>(robi stosowny gest)</stage></p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(powstając)</stage> Ależ doktorze…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(podchodzi do stołu i chce przygasić lampę)</stage></p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Co pan robisz?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Gaszę światło – razić nas będzie; agonja w szale szpeci najpiękniejszą twarz… nie chciałbym i pani zepsuć ostatnich wrażeń w życiu.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(powstrzymuje go za rękę)</stage> Ależ nie wypada… <stage>(podnosi knot w lampie)</stage> ja nie pozwalam na to.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Niech i tak będzie; zasłonię twarz chustką w stanowczéj chwili. Proszę, usiądź pani i posłuchaj.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(siada, zaniepokojona wyrazem twarzy jego i głosu)</stage> Panie Julianie…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Chciałaś pani wypróbować mą miłość pomysłem, godnym jakiéjś Kleopatry czy Lokusty. Nie wchodzę w szczerość twych zamiarów – godzę się, przyjmuję warunki, ale my lekarze jesteśmy ludzie dokładni i według recepty zadajemy lekarstwa skuteczne. Nie ubliżam pani indyjskim ziółkom, jednak mam więcéj zaufania do mojéj… belladony. <stage>(z kieszonki w kamizelce wyjmuje mały flakonik)</stage> Pozwól pani doprawić swój elexir, aby nie zawiódł. <stage>(wlewa kilka kropel do jéj i swojéj filiżanki)</stage> Tak, teraz skutek nie chybi. Pani wmięszałaś rozkosz do tych czarek, ja – śmierć, mniéj fantastyczną, ale pewniejszą. Jestem na usługi pani… pijmy. Chciéj pani zacząć.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(półgłosem)</stage> To żart, czy prawda?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>To… prawda, do któréj doszliśmy przez żart, gdy się wyczerpał. <stage>(wyzywająco)</stage> No, chwila nadeszła, ona jedna ma wartość – drugiéj takiéj nie doczekamy się w tém życiu. Proszę, pij pani…</p>
+        </sp>
+        <stage>(JULIA. Nie wié, co począć, wstaje, chce coś powiedziéć, i przerywa z rosnącém zakłopotaniem)</stage>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(założywszy ręce, patrzy na nią spokojnie)</stage> Czekam… <stage>(po chwili)</stage> Jednemu z nas dwojga odwaga wypłatała figla!… Ja jakoś mniéj mówiłem o miłości, przez pół roku patrzałem tylko na panią i pani experymenta w zakresie wiwisekcyi sercowéj. Nawet poznać tego nie dałem po sobie, że swoim skalpelem zacinałaś pani codziennie prawie i we mnie to serce z pewnością doświadczonego w swoim zawodzie chirurga. Nie ukrywam już dzisiaj, że udało się pani i mnie, którego kobiety pozwalają sobie nazywać un blasè – rozkochać. Co więcej, widziałem dobrze, że sama byłaś mną zajęta… o proszę, nie zapieraj się pani, bo jesteś mną zajęta i tego za złe pani wziąść nie mogę, ale stwierdzeniem tego faktu nie chciałem ani razu dotknąć drażliwéj dumy pani i twéj szalonej pewności siebie. Teraz wolno mi to powiedzieć… u progu wieczności. Nie byłbym nigdy ośmielił się żądać od pani takiego dowodu wzajemności, jakiego pani zażądałaś odemnie, chciałem poprzestać na moim instynkcie i doświadczeniu. Ale pani wyzwałaś mnie pierwsza, słowo się rzekło – teraz zapóźno cofać się temu, kto nie chce przegrać w téj partyi moralnie.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Pan tego nie mówisz na seryo… ja… ja… pana zwalniam od téj próby.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(szybko)</stage> O nie… co się zaczęło, trzeba skończyć.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Ja panu… wierzę.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>To sytuacyi nie zmienia. Pani kobiecym instynktem musiałaś odgadnąć od razu, że kochałem szczerze i inaczéj, tylko igrałaś ze mną zarówno, jak i z wszystkimi, nareszcie dla zabawki chciałaś zadrwić ze mnie, jak drwisz z innych. Nie pani, takie rzeczy nie uchodzą bezkarnie. <stage>(podając jéj filiżankę)</stage> Pani musisz wypić razem ze mną, <stage>(z naciskiem)</stage> musisz teraz…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(odsuwając się instynktownie)</stage> Ależ panie Juliuszu… skończmy to raz.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Niczego więcéj nie pragnę. Skończmy to raz. Pragnęłaś pani silniejszych, niezwyczajnych wzruszeń – oto je masz. Cóż?… żal pani tak bardzo tego życia jałowego, szarego, nudnego i według szablonu? <stage>(kiwając głową z politowaniem)</stage> I to jest pani stanowczość!… Więc nie?… muszę chyba pierwszy dać przykład… <stage>(przytyka do ust filiżankę)</stage></p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(szybkim ruchem chce mu ją odebrać)</stage> Pan tego nie uczynisz… <stage>(wstrzymuje się i patrzy na niego w najwyższém zakłopotaniu)</stage> Posuwasz pan za daleko moje szaleństwo…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(odsuwając ją zlekka)</stage> Pozwól pani, moje życie do mnie należy i wolno mi je ofiarować na reklamę dla interessującéj kobiety, przez którą nikt dotąd jeszcze nie popełnił samobójstwa. <stage>(wypija do dna)</stage> Niech żyje spryt kobiecy!…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Co pan zrobiłeś?…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Zobaczymy za chwilę… <stage>(spokojnie stawia filiżankę na stole – wskazując Julii drugą)</stage> No, może teraz zechcesz pani pójść za moim przykładem?… jeszcze nie?… Trudno, ja dotrzymałem umowy, mam prawo do dwóch godzin z pani życia. Przeznaczam je na… rozmowę. Chcę skończyć, jak Sokrates. <stage>(otrząsając się)</stage> Brr!… dobrze pani robisz, że nie pijesz téj herbaty, ostygła zupełnie i dziwnie niesmaczna; czuć ją ambrą…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(chce wziąść drugą filiżankę, ale ręka jéj opada, zawstydzona, słowa przemówić nie może)</stage> Co z tego wyniknie!… <stage>(do siebie)</stage> nie wiem, co począć, doprawdy nie wiem, co począć.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(ocierając sobie czoło chustką)</stage> Pfu!… duszno mi się zrobiło, pozwoli pani, że otworzę okno… <stage>(idzie ku oknu chwiejnym krokiem)</stage></p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(patrzy za nim zaniepokojona)</stage> On jakoś pobladł – a gdyby…</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(oddychając głęboko)</stage> Ach!… jak to dobrze… orzeźwiające powietrze… Strach, co to za nerwowe z nas pokolenie! – lada bagatelka nawet lekarzowi rozstraja organizm… <stage>(do Julii)</stage> Proszę, chciéj pani zapalić więcéj światła – za ciemno tutaj.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(do siebie)</stage> Czy jemu słabo się robi?… <stage>(głośno)</stage> Panie Juliuszu, ja zawołam Dominika… <stage>(przypominając sobie)</stage> Ach, te drzwi – klucz za oknem! <stage>(do siebie)</stage> dreszcze mnie znów przechodzą.</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Nie wołaj pani nikogo… <stage>(osuwa się na krzesło przy oknie i opiera głowę o framugę, z zamkniętemi oczyma)</stage> No, rozmawiajmy o czémkolwiek… bo zasnę. Zaczynają mi ciążyć powieki, jak ołów… Ale pani jakoś humor straciłaś? Szkoda.</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(do siebie)</stage> Ten klucz… ten klucz… Co tu począć?… czy on tak dobrze udaje? pobladł tak bardzo… <stage>(idzie ku drzwiom na lewo)</stage></p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p><stage>(wstaje nagle, cucąc się chustką, powolnym krokiem idzie do stołu po kapelusz i przez chwilę patrzy na Julią żywo zakłopotaną, potém, zmierza ku drzwiom w głębi)</stage> No, teraz żegnam panią…</p>
+        </sp>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p>Jakto?… pan chcesz wyjść w takim… w takim stanie?</p>
+        </sp>
+        <sp who="#juliusz">
+          <speaker>JULIUSZ.</speaker>
+          <p>Przez delikatność; pójdę spokojniéj umrzeć… u siebie. <stage>(staje we drzwiach)</stage> Dobranoc pani na długą… długą noc!… Ale… <stage>(przypominając sobie, sięga do kieszeni fraka po klucz)</stage> byłbym klucz zabrał z sobą i musiałby Dominik po nocy sprowadzać ślusarza. Po co robić plotki!… świat i tak za dużo o nas mówi. <stage>(kładzie klucz na krześle przy samych drzwiach)</stage> Spokojnéj nocy. <stage>(spogląda jeszcze raz ku niéj i skłaniając głowę, powoli cofa się głębią)</stage></p>
+        </sp>
+      </div>
+      <div type="scene" n="7">
+        <head>SCENA SIÓDMA.</head>
+        <stage type="entrance">
+          <p>
+            <rs key="#julia">JULIA.</rs>
+          </p>
+        </stage>
+        <sp who="#julia">
+          <speaker>JULIA.</speaker>
+          <p><stage>(przez chwilę po jego wyjściu stoi nieruchoma, potém nagle biegnie ku drzwiom w głębi, nasłuchując, zatrzymuje się, jakby pod wpływem wewnętrznéj walki)</stage> Nie… niech odejdzie… nie okażę mu méj słabości… Co to było? co to było?… Przecież to żart chyba… <stage>(przechadza się wzburzona po scenie)</stage> ja jednak drżę, jak liść ze wzruszenia, przestrachu czy z podrażnienia?… sama siebie nie poznaję… <stage>(staje przy biurku, spostrzega list)</stage> Ah, list!… <stage>(spogląda na adres)</stage> Co?… do mnie?… <stage>(rozrywa szybko kopertę)</stage> Jego ostatnie słowa… <stage>(patrzy w list)</stage> Nie mogę przeczytać – za drobne pismo… <stage>(idzie szybko ku lampie, czytając z zajęciem)</stage> „Łaskawa pani! à un renard ud renard et demi. Chciałaś mnie pani zaszachowac i ośmieszyć w bardzo zręczny sposób, żądając ofiary z mojego życia za chwilową fantazyą; ceniłem zawsze wysoko spryt w kobiecie, ale chciałem panią przekonać, że umiem i z tak trudnego położenia wychodzić zwycięzko. Czy mi się udało… osądzisz sama po przeczytaniu téj przedśmiertnéj rady, którą ośmielam się zostawić pani w spuściźnie po sobie: serdecznéj struny w mężczyźnie nie należy nigdy przeciągać, a w miłości źle być… za sprytną. Proszę mi wybaczyć tę zaimprowizowaną komedyjkę, którą pani raczyłaś przecież reżysserować sama i przyjąć podziękowanie od pacyenta wyleczonego zupełnie… ze złudzeń i chęci pozyskania pani serca i ręki.<lb />Juliusz Topolski.<lb />„P. S. My lekarze znamy się dobrze z truciznami i nie wierzymy tak łatwo indyjskim elixirom, jak panie belladonie, która tym razem była zwyczajną solą do trzeźwienia czasem omdlałych kobiét, a czasem mdlejącego pomysłu.” <stage>(rzuca list z widoczną irrytacyą)</stage> No, no!… ależ sprytny!… oh, muszę mu przyznać, że przez chwilę nabawił mnie prawdziwego kłopotu… Bardzo sprytny! – byłby z niego wyborny… mąż?… o nie; za niebezpieczny na męża… Zresztą, kto wié?… takiemu tylko mogłabym być uległą… Helas! może on ma i słuszność – przeciągnęłam strunę i… pękła. Bądź co bądź, żyć z nim byłoby ryzykownie, lecz przepędzić wieczór zawsze przyjemnie. Trzeba go będzie zaprosić znowu na takie tête-à-tête; – zabawnych mężczyzn i zajmujących tak mało, oh, jak mało!… a ja herbaty nie rozumiem bez… sucharków i miłéj rozmowy. <stage>(Siada przy biurku i zabiera się do pisania)</stage></p>
+        </sp>
+        <trailer>(ZASŁONA SPADA)</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>
