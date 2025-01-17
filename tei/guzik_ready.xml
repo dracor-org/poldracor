@@ -84,13 +84,13 @@
             <titlePart type="main">GUZIK.</titlePart>
             <titlePart type="sub">KOMEDYA W JEDNYM AKCIE.</titlePart>
           </docTitle>
+        </titlePage>
           <div type="appendix">
-            <p><salute>
+            <salute>
               <p>DOKTOROWI<lb />T. HERYNGOWI</p>
             </salute>
-            w dowód uznania i wdzięczności<lb />Autor.</p>
+            <p>w dowód uznania i wdzięczności<lb />Autor.</p>
           </div>
-        </titlePage>
         <castList>
           <head>OSOBY:</head>
           <castItem>
