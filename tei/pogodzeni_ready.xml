@@ -147,12 +147,10 @@
             <docAuthor>EDWARDA LUBOWSKIEGO.</docAuthor>
           </byline>
           <docImprint>
-            <p>
               <pubPlace>WARSZAWA.</pubPlace>
               Skład główny w księgarni <name>Gebethnera i Wolfa</name>.<lb />
               W drukarni <name>Władysława Dębskiego</name><address><street>Senatorska <num>Nr. 20</num>.</street></address><lb />
               <date>1878.</date><lb />
-            </p>
           </docImprint>
           <imprimatur>Дозволено Цьнзурою.<lb />
           Варшава, 27 мая 1878 года.<lb /></imprimatur>
@@ -217,7 +215,7 @@
           <castItem>
             <role corresp="#goście">Goście</role>
             <roleDesc/>
-          </castItem> - 
+          </castItem>
           <castItem>
             <role corresp="#lokaj">Lokaje.</role>
             <roleDesc/>
@@ -5220,10 +5218,9 @@
           </stage>
           <sp who="#kazimierz">
             <speaker>KAZIMIERZ.</speaker>
-            <p><stage>(sam)</stage>
-              <stage>(powtarzając słowa Jerzego)</stage> „To co wiem o Tobie przeraża mnie”. Więc wiesz już? i grozisz i walczyć chcesz?... Walczmy!... Lecz przepaść jeszcze daleka, a ja mam siły dosyć i zepchnąć się nie dam, choćbym już cały wstyd zgarnąć miał z czoła!... Tak, muszę biedz naprzód bez wytchnienia i broniąc się zaciekle, stracić pamięć tego czem byłem... Muszę, ale ohydnego łudzenia tego akt ostatni! Marya tak zawsze słodka, będzie mi ten raz jeszcze posłuszną... Nie żądam od niej nic, tylko czaru jej uśmiechu i blasku spojrzenia, dla usidlenia tego starca... Nic? <stage>(wstrząsa się)</stage> Jakże trudno być... nikczemnym! Bóg mi jednak świadkiem, że za tę jedną minutę jej zalotności, odpłacę jej poświęceniem całego mego życia... <stage>(patrząc w głąb)</stage> zbliża się tu... tak – powiem jej, powiem, zaraz... <stage>(wychodzi naprzeciw niej na lewo)</stage></p>
+            <p><stage>(sam)</stage><lb /><stage>(powtarzając słowa Jerzego)</stage> „To co wiem o Tobie przeraża mnie”. Więc wiesz już? i grozisz i walczyć chcesz?... Walczmy!... Lecz przepaść jeszcze daleka, a ja mam siły dosyć i zepchnąć się nie dam, choćbym już cały wstyd zgarnąć miał z czoła!... Tak, muszę biedz naprzód bez wytchnienia i broniąc się zaciekle, stracić pamięć tego czem byłem... Muszę, ale ohydnego łudzenia tego akt ostatni! Marya tak zawsze słodka, będzie mi ten raz jeszcze posłuszną... Nie żądam od niej nic, tylko czaru jej uśmiechu i blasku spojrzenia, dla usidlenia tego starca... Nic? <stage>(wstrząsa się)</stage> Jakże trudno być... nikczemnym! Bóg mi jednak świadkiem, że za tę jedną minutę jej zalotności, odpłacę jej poświęceniem całego mego życia... <stage>(patrząc w głąb)</stage> zbliża się tu... tak – powiem jej, powiem, zaraz... <stage>(wychodzi naprzeciw niej na lewo)</stage></p>
           </sp>
-          <content>(z prawej, wypada szybko SENZI, uderzając się w czoło)</content>
+          <stage>(z prawej, wypada szybko SENZI, uderzając się w czoło)</stage>
           <sp who="#senzi">
             <speaker>SENZI.</speaker>
             <p>Gapiu, gapiu przeklęty – paliłeś kadzidła, deklamowałeś wiersze, nie śmiejąc być natrętnym, a teraz... sprzątną ci ją z przed nosa!... Łanicki prowadzi obcesowo strzelca na zwierzynę... ale ja nie dam, nie dam, choćbym miał <stage>(wyjmuje list)</stage>, z tego świstka zrobić dokument jej winy, choćbym miał kłamać i przysięgać fałszywie... Tożby było śmiechu ze mnie!... a potem... udając tyle razy, zadurzyłem się na prawdę... <stage>(patrzy w lewo)</stage> Co? co? – on ją prowadzi tu pod rękę? Ho, ho! to będzie rozmowa ciekawa! dowiedziałbym się raz, co z niej a ptaszek! <stage>(oglądając się szybko)</stage> Gdyby się zmieścić choćby w szufladę! <stage>(dochodząc do draperyi)</stage> Jest, jest framuga! los mi sprzyja – dalej w kąt, a uszy w górę! <stage>(chowa się za draperyą z prawej)</stage></p>
