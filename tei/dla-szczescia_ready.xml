@@ -96,10 +96,10 @@
           </docTitle>
         </titlePage>
         <div type="appendix">
-          <p><salute>
+          <salute>
             Świetnemu artyście dramatycznemu<lb />Kazimierzowi Kamińskiemu
-          </salute>
-          Stanisław Przybyszewski.</p>
+          </salute><lb />
+          <signed><name>Stanisław Przybyszewski.</name></signed>
         </div>
     </front>
     <body>
