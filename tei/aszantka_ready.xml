@@ -120,22 +120,20 @@
           </docTitle>
           <docImprint>
               WE <pubPlace>LWOWIE</pubPlace> - <date>1907</date>
-              <bibl>
-                <publisher>NAKŁADEM KSIĘGARNI POLSKIEJ B. POŁONIECKIEGO<lb />
-                WARSZAWA – E. WENDE I SP.
-                </publisher>
-              </bibl>
+              <publisher>NAKŁADEM KSIĘGARNI POLSKIEJ B. POŁONIECKIEGO<lb />
+              WARSZAWA – E. WENDE I SP.
+              </publisher>
               <note>TEGOŻ AUTORA.<lb />
               LEKKOMYŚLNA SIOSTRA, komedya w czterech aktach, kor. 1.50.<lb />
-              MAJOWE SŁOŃCE, komedya w jednym akcie, kor. 1.-.</note>
-              <bibl>
-                <publisher>ODBITO CZCIONKAMI DRUKARNI SŁOWA POLSKIEGO WE LWOWIE<lb />
-                POD ZARZĄDEM JÓZEFA ZIEMBIŃSKIEGO - <origDate>1907 ROKU</origDate>
-                </publisher>
-              </bibl>
+              MAJOWE SŁOŃCE, komedya w jednym akcie, kor. 1.-.</note><lb />
+              <publisher>ODBITO CZCIONKAMI DRUKARNI SŁOWA POLSKIEGO WE LWOWIE<lb />
+              POD ZARZĄDEM JÓZEFA ZIEMBIŃSKIEGO - <origDate>1907 ROKU</origDate>
+              </publisher>
           </docImprint>
         </titlePage>
-        <salute>Tadeuszowi Pawlikowskiemu</salute>
+        <div type="appendix">
+          <p><salute>Tadeuszowi Pawlikowskiemu</salute></p>
+        </div>
         <castList>
           <head>OSOBY:</head>
           <castItem>
