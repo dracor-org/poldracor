@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000024" xml:lang="pol">
   <teiHeader>
@@ -98,34 +98,34 @@
         <desc>Grana pierwszy raz w Warszawie 1804.</desc>
       </event>
       <event type="print" when="1805">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
   <text>
     <front>
         <titlePage>
-          <titlePart type="series">DZIEŁA<lb />
-          DRAMATYCZNE<lb />
-          <name>L. A. DMUSZEWSKIEGO</name>.<lb />
-          TOM OSMY,<lb />
+          <titlePart type="series">DZIEŁA<lb/>
+          DRAMATYCZNE<lb/>
+          <name>L. A. DMUSZEWSKIEGO</name>.<lb/>
+          TOM OSMY,<lb/>
           Z RYCINĄ</titlePart>
           <docImprint>
-              W <pubPlace>WARSZAWIE</pubPlace><lb />
-              NAKŁADEM I DRUKIEM <name>N. GLÜCKSBERGA</name>,<lb />
+              W <pubPlace>WARSZAWIE</pubPlace><lb/>
+              NAKŁADEM I DRUKIEM <name>N. GLÜCKSBERGA</name>,<lb/>
               KSIĘGARZA I TYPOGRAFA KRÓLEWSKIEGO UNIWERSYTETU.
-              <lb />
+              <lb/>
               <date>1823</date>.
           </docImprint>
           <docTitle>
             <titlePart type="main">SIEDM RAZY JEDEN</titlePart>
-            <titlePart type="sub">KOMEDYO-OPERA<lb />
+            <titlePart type="sub">KOMEDYO-OPERA<lb/>
             w JEDNYM AKCIE.</titlePart>
           </docTitle>
           <note>
-            <p>z Muzyką.<lb />
-            <name>Jozefa Elznera</name>.<lb />
-            GRANA PIERWSZY RAZ w WARSZAWIE.<lb />
+            <p>z Muzyką.<lb/>
+            <name>Jozefa Elznera</name>.<lb/>
+            GRANA PIERWSZY RAZ w WARSZAWIE.<lb/>
             1804.</p>
           </note>
         </titlePage>
@@ -345,7 +345,7 @@
         </sp>
         <sp who="#księgarz">
           <speaker>KSIĘGARZ.</speaker>
-          <p>Towar wyborny i dla wszystkich użyteczny, Damy nasze powinnyby do niego gustu nabierać: Oto wybor powieści moralnych: Eliza czyli wzór kobiet. Satyry Krasickiego. O małżeństwie; zapewne Panie z ukontentowaniem czytać będą Teatr Polski Zabłockiego, dzieła Niemcewicza, wiersze Trębeckiego i Węgierskiego, nowe tłumaczenie Jliady, Cyda, Alzyry... Oto ieszcze i Roczniki Towarzystwa Przyiacioł Nauk, na których czele zdało mi się położyć te dwa wiersze:<lb /> Rząd dzisieyszy od dzikich uroień daleki,<lb /> Muzom Polskim swobodney użycza opieki. Jakże nienabędzieciesz Panie którego z tych dzieł, pięknych?</p>
+          <p>Towar wyborny i dla wszystkich użyteczny, Damy nasze powinnyby do niego gustu nabierać: Oto wybor powieści moralnych: Eliza czyli wzór kobiet. Satyry Krasickiego. O małżeństwie; zapewne Panie z ukontentowaniem czytać będą Teatr Polski Zabłockiego, dzieła Niemcewicza, wiersze Trębeckiego i Węgierskiego, nowe tłumaczenie Jliady, Cyda, Alzyry... Oto ieszcze i Roczniki Towarzystwa Przyiacioł Nauk, na których czele zdało mi się położyć te dwa wiersze:<lb/> Rząd dzisieyszy od dzikich uroień daleki,<lb/> Muzom Polskim swobodney użycza opieki. Jakże nienabędzieciesz Panie którego z tych dzieł, pięknych?</p>
         </sp>
         <sp who="#emilia">
           <speaker>EMILIA.</speaker>
@@ -381,8 +381,8 @@
         </sp>
         <sp who="#księgarz">
           <speaker>KSIĘGARZ.</speaker>
-          <p>Całuię nóżki Wielmożney Pani. W samey rzeczy WPanna Dobrodzika posiadasz gust prawdziwie elegancki. Teraz nie popłacaią dzieła rozumne, bo też świat poznał, że dowcip więcey wart, niż prawdziwy rozum... Cały móy handel odtąd inaczey urządzam. Wczoray zawołano mnie do pewnego pałacu, gdzie znalazłem kilkadziesiąt osób. Miłyż Boże, miałem przypadkiem kilka naynowszych książek, czy uwierzycie Wielmożne Panie, rozerwano ie natychmiast, i zapłacono trzy razy tyle, ilem sam za nie żądał. Ale iakie to były dzieła? Oto: Opisanie historyczne kapelusza. Sposób nayskutecznieyszy poniterowania w Faraona. Reguły zawięzywania po elegancku chustek na szyi. Naydokładnieysze ustawy modnego kichania i ziewania. Elegia na śmierć czubka na głowie. Za to tedy dostałem 12. Czerw: Złotych, w końcu pokazałem Historyą przez Naruszewicza, tu śmiech powstał, rozgniewany, chciałem odeyść. Aż iakiś Sampanek raczył się odezwać półgębkiem „trzebać się zlitować nad tym nieborakiem” i chciał mi dać za 5. Tomów grubych in kwarto 2. złote groszy 18 i pół.<lb />
-          <stage>(PIOSNECZKA I)</stage> Pani! taka teraz moda,<lb />Cudzym towarem się szczycą;<lb />Gust, rozum, suknia, uroda,<lb />Wszystko lepsze za granicą.<lb />Próżno Feba towarzysze,<lb />Wzmagaią kraiu zaszczyty,<lb />Nie ieden z nich wyśmienity,<lb />Szkoda że po Polsku pisze.<lb />Niesmaczna Oyczysta mowa,<lb />Nie iasno rzeczy tłumaczy,<lb />Mieszać cudzoziemskie słowa,<lb />To prawdziwy rozum znaczy.<lb />Moie zdanie nie ubliża,<lb />Wielkim zaletom Paryża,<lb />Lecz nad wszystkie francuzczyzny,<lb />Milszy ięzyk swey Oyczyzny.<lb />
+          <p>Całuię nóżki Wielmożney Pani. W samey rzeczy WPanna Dobrodzika posiadasz gust prawdziwie elegancki. Teraz nie popłacaią dzieła rozumne, bo też świat poznał, że dowcip więcey wart, niż prawdziwy rozum... Cały móy handel odtąd inaczey urządzam. Wczoray zawołano mnie do pewnego pałacu, gdzie znalazłem kilkadziesiąt osób. Miłyż Boże, miałem przypadkiem kilka naynowszych książek, czy uwierzycie Wielmożne Panie, rozerwano ie natychmiast, i zapłacono trzy razy tyle, ilem sam za nie żądał. Ale iakie to były dzieła? Oto: Opisanie historyczne kapelusza. Sposób nayskutecznieyszy poniterowania w Faraona. Reguły zawięzywania po elegancku chustek na szyi. Naydokładnieysze ustawy modnego kichania i ziewania. Elegia na śmierć czubka na głowie. Za to tedy dostałem 12. Czerw: Złotych, w końcu pokazałem Historyą przez Naruszewicza, tu śmiech powstał, rozgniewany, chciałem odeyść. Aż iakiś Sampanek raczył się odezwać półgębkiem „trzebać się zlitować nad tym nieborakiem” i chciał mi dać za 5. Tomów grubych in kwarto 2. złote groszy 18 i pół.<lb/>
+          <stage>(PIOSNECZKA I)</stage> Pani! taka teraz moda,<lb/>Cudzym towarem się szczycą;<lb/>Gust, rozum, suknia, uroda,<lb/>Wszystko lepsze za granicą.<lb/>Próżno Feba towarzysze,<lb/>Wzmagaią kraiu zaszczyty,<lb/>Nie ieden z nich wyśmienity,<lb/>Szkoda że po Polsku pisze.<lb/>Niesmaczna Oyczysta mowa,<lb/>Nie iasno rzeczy tłumaczy,<lb/>Mieszać cudzoziemskie słowa,<lb/>To prawdziwy rozum znaczy.<lb/>Moie zdanie nie ubliża,<lb/>Wielkim zaletom Paryża,<lb/>Lecz nad wszystkie francuzczyzny,<lb/>Milszy ięzyk swey Oyczyzny.<lb/>
           <stage>(do Emilii)</stage> Ponieważ Pani inaczey myśli, ta książeczka przypadnie iey zapewne do gustu, oto tytuł: Różnica między Elegantką i Parafianką. Notabene po Francuzku, tanio przedam, nic więcey iak za Louidora.</p>
         </sp>
         <sp who="#emilia">
@@ -561,9 +561,9 @@
         </sp>
         <sp who="#cześnikowicz">
           <speaker>CZEŚNIKOWICZ.</speaker>
-          <p>Jednakowo ia moich wąsików nie mieniałbym za wszystkie modne okulary. Nasze Dziady i Oycowie mieli wąsy, i podobały się kobietom, samym tylko Nieprzyiaciołom strasznemi byli, zapewne WPanna Dobrodzika nie czytałaś pięknych wierszy Kniaźnina o Ozdobie wąsów, między któremi iest ta sławna dla nas wzmianka:<lb /> Jana trzeciego gdy Wiedeń sławił,<lb />Głos był powszechny między Niemkami,<lb />Oto Bohatyr co nas wybawił,<lb />Jakże mu pięknie z temi wąsami.<lb />
+          <p>Jednakowo ia moich wąsików nie mieniałbym za wszystkie modne okulary. Nasze Dziady i Oycowie mieli wąsy, i podobały się kobietom, samym tylko Nieprzyiaciołom strasznemi byli, zapewne WPanna Dobrodzika nie czytałaś pięknych wierszy Kniaźnina o Ozdobie wąsów, między któremi iest ta sławna dla nas wzmianka:<lb/> Jana trzeciego gdy Wiedeń sławił,<lb/>Głos był powszechny między Niemkami,<lb/>Oto Bohatyr co nas wybawił,<lb/>Jakże mu pięknie z temi wąsami.<lb/>
           <stage>(PIOSNECZKA II)</stage>
-          Niech się kto iak chce obrusza,<lb />Na widok moiey figury.<lb />Młodszy fraczek od kontusza,<lb />Starsze wąsy od fryzury.<lb />Szkło na nosie, czub na głowie,<lb />U kupców cała intrata,<lb />Nie tacy byli przodkowie,<lb />Co sławę mieli u świata.<lb />Gdzie iesteś o wieku złoty,<lb />Kiedy drżały Ossy, Sale,<lb />W ten czas uwielbiano cnoty,<lb />Wąs się wydawał wspaniale.</p>
+          Niech się kto iak chce obrusza,<lb/>Na widok moiey figury.<lb/>Młodszy fraczek od kontusza,<lb/>Starsze wąsy od fryzury.<lb/>Szkło na nosie, czub na głowie,<lb/>U kupców cała intrata,<lb/>Nie tacy byli przodkowie,<lb/>Co sławę mieli u świata.<lb/>Gdzie iesteś o wieku złoty,<lb/>Kiedy drżały Ossy, Sale,<lb/>W ten czas uwielbiano cnoty,<lb/>Wąs się wydawał wspaniale.</p>
         </sp>
         <sp who="#angelika">
           <speaker>ANGELIKA.</speaker>
@@ -757,7 +757,7 @@
           <speaker>HRABIA.</speaker>
           <p>Chociaż nie dawno tu bawię, iednak codziennie...
           <stage>(PIOSNECZKA III)</stage>
-          Zaraz po skończonym stroiu,<lb />Wymknę się tylnemi drzwiami,<lb />A wierzyciele w przedpoiu,<lb />Niech czekaią z Regestrami.<lb />Wnet w tysiączne odwiedziny,<lb />Po całey latam Warzawie,<lb />Tu kwadrans, tu półgodziny,<lb />Ziewam a przecież się bawię.<lb />Każdy Dom dla mnie otwarty.<lb />Tu dowcipne gadam żarty,<lb />Tam przy boku Celimeny,<lb />Czułe deklamuię Sceny.<lb />Zwiedzam wszystkie gotowalnie,<lb />Jak ubrać sentymentalnie<lb />Czy bydź rużowo, czy blado,<lb />Jam pierwszą gustu poradą.<lb />Mogą mnie przyiąć Kobiety,<lb />Za Ministra Toalety<lb />Po tych fraszkach na śniadanie<lb />Zasiadam między butelki,<lb />Tu dopiero rycerz wielki,<lb />Pływam iak w morzu w Szampanie.<lb />Potem woyska Faraona<lb />Stawią fortunne szeregi,<lb />I tam nikt mnie nie pokona,<lb />Tak znam Hetmańskie wybiegi.<lb />Kończy się dzień na Teatrze,<lb />Tam choć na Scenę nie patrzę,<lb />Nieznam sztuki, ganię przecie<lb />Lub się pocieszam w Buffecie.<lb />W Północ ku milszey zabawie,<lb />Z liczną towarzyszów Swito,<lb />Zwiedzam po całey Warszawie,<lb />Wszystkie Bale Inkognito.</p>
+          Zaraz po skończonym stroiu,<lb/>Wymknę się tylnemi drzwiami,<lb/>A wierzyciele w przedpoiu,<lb/>Niech czekaią z Regestrami.<lb/>Wnet w tysiączne odwiedziny,<lb/>Po całey latam Warzawie,<lb/>Tu kwadrans, tu półgodziny,<lb/>Ziewam a przecież się bawię.<lb/>Każdy Dom dla mnie otwarty.<lb/>Tu dowcipne gadam żarty,<lb/>Tam przy boku Celimeny,<lb/>Czułe deklamuię Sceny.<lb/>Zwiedzam wszystkie gotowalnie,<lb/>Jak ubrać sentymentalnie<lb/>Czy bydź rużowo, czy blado,<lb/>Jam pierwszą gustu poradą.<lb/>Mogą mnie przyiąć Kobiety,<lb/>Za Ministra Toalety<lb/>Po tych fraszkach na śniadanie<lb/>Zasiadam między butelki,<lb/>Tu dopiero rycerz wielki,<lb/>Pływam iak w morzu w Szampanie.<lb/>Potem woyska Faraona<lb/>Stawią fortunne szeregi,<lb/>I tam nikt mnie nie pokona,<lb/>Tak znam Hetmańskie wybiegi.<lb/>Kończy się dzień na Teatrze,<lb/>Tam choć na Scenę nie patrzę,<lb/>Nieznam sztuki, ganię przecie<lb/>Lub się pocieszam w Buffecie.<lb/>W Północ ku milszey zabawie,<lb/>Z liczną towarzyszów Swito,<lb/>Zwiedzam po całey Warszawie,<lb/>Wszystkie Bale Inkognito.</p>
         </sp>
         <sp who="#emilia">
           <speaker>EMILIA.</speaker>
@@ -866,7 +866,7 @@
           <speaker>GAWRONEK.</speaker>
           <p>Ale... Poczwaro? ia sobie nie iestem Poczwara, nic to nie znaczy, że ia sobie mam taki Spencerek, ia sobie myślę, że Eleganci chodzą sobie i suto i stroyno, a Krawcy, Szewcy i Kupcy nie popłaceni, a ia sobie chodzę iak Pan Bóg dał, alem sobie nic nikomu nie winien i śpię sobie zawsze spokoynie.
           <stage>(PIOSNECZKA IV)</stage>
-          Móy Tatulo mawiał sobie,<lb />Synu gdy chcesz żyć szczęśliwy,<lb />Czyń wszystko, tak iak ia robię,<lb />Naybogatszy kto poczciwy.<lb />Na tym błyszczą gwiazdy, wstęgi,<lb />Złotem napchane kieszenie,<lb />Lecz gdy ma czarne sumienie,<lb />Niewart tey twoiey siermięgi.<lb />Ah nie iedni w smutney chwili,<lb />Za swą cnotą utracili,<lb />I maiątki i nadzieię,<lb />Cnota i w nędzy iaśnieie.<lb />Poczciwy równie kochany,<lb />Czy żyie w świętney ozdobie,<lb />Czyli go kryią łachmany,<lb />Tak tatulo mawiał sobie.<lb />Niech wiedzą mężni próżniacy.<lb />Ze przy użyteczney pracy,<lb />Bogactwa szczęście przynoszą,<lb />I są prawdziwą rozkoszą.<lb />Dla tego pracować radzę,<lb />Praca nieszkodzi powadze,<lb />Milszy grosz gdy go zarobię,<lb />Tak tatulo mawiał sobie.<lb />
+          Móy Tatulo mawiał sobie,<lb/>Synu gdy chcesz żyć szczęśliwy,<lb/>Czyń wszystko, tak iak ia robię,<lb/>Naybogatszy kto poczciwy.<lb/>Na tym błyszczą gwiazdy, wstęgi,<lb/>Złotem napchane kieszenie,<lb/>Lecz gdy ma czarne sumienie,<lb/>Niewart tey twoiey siermięgi.<lb/>Ah nie iedni w smutney chwili,<lb/>Za swą cnotą utracili,<lb/>I maiątki i nadzieię,<lb/>Cnota i w nędzy iaśnieie.<lb/>Poczciwy równie kochany,<lb/>Czy żyie w świętney ozdobie,<lb/>Czyli go kryią łachmany,<lb/>Tak tatulo mawiał sobie.<lb/>Niech wiedzą mężni próżniacy.<lb/>Ze przy użyteczney pracy,<lb/>Bogactwa szczęście przynoszą,<lb/>I są prawdziwą rozkoszą.<lb/>Dla tego pracować radzę,<lb/>Praca nieszkodzi powadze,<lb/>Milszy grosz gdy go zarobię,<lb/>Tak tatulo mawiał sobie.<lb/>
           Ja sobie miałem Tatula, który sobie był kominiarzem, ale Tatulo sobie umarł, i ia zostałem sobie sierotą. <stage>(płacze)</stage> Móy Tatulo był sobie ubogi człowiek, i niczego mnie niekazał uczyć, bo nie miał za co, i ia też sobie nic nie umiem, muszę sobie pracować, ale uczciwie, poszedłbym sobie gdzie w służbę, ale ia mam sobie Matulę, biedną Matulę. <stage>(płacze)</stage> Otóż ia sobie moiey biedney Matuli nigdy nie odstąpię. Matula nie może sobie, nic zarobić, bo Matula iest sobie bardzo staruszka i chorowita, otóż ia i na nią sobie zarabiam. Jakem sobie teraz szedł, aż znowu iakiś Lokay sobie idzie, zapewne nie chciało mu się samemu dopełnić rozkazu Pana, zawołał mnie, i prosił, abym list oddał w tym Pałacu, dał mi za to dydka, ia też chciałem sobie tu prosto iść, a ten nic dobrego nie chciał mnie sobie w puścić, i ieszcze tak potuzał. <stage>(płacze)</stage> Otóż iest list. <stage>(oddaie Emilii)</stage></p>
         </sp>
         <sp who="#emilia">
@@ -1088,11 +1088,11 @@
         <stage>(TERCET V)</stage>
         <sp who="#angelika">
           <speaker>ANGELIKA.</speaker>
-          <p>Nie ieden stracił zbiory i złoto,<lb />Może szczęśliwszy chociaż ubogi,<lb />Lecz ieśli zawsze rządził się cnotą...<lb />Zawsze mi luby, zawsze mi drogi.</p>
+          <p>Nie ieden stracił zbiory i złoto,<lb/>Może szczęśliwszy chociaż ubogi,<lb/>Lecz ieśli zawsze rządził się cnotą...<lb/>Zawsze mi luby, zawsze mi drogi.</p>
         </sp>
         <sp who="#emilia">
           <speaker>EMILIA.</speaker>
-          <p>Czy można mon Dieu! straszne zdarzenie,<lb />Nie... niepodobnem to ożenienie,<lb />Pełna nadziei, że się iuż zbliża,<lb />Moment szczęśliwy, żem wśrzód Paryża,<lb />Lecz wszystko stracił... miałże sumienie,<lb />Nie, niepodobnem to ożenienie.</p>
+          <p>Czy można mon Dieu! straszne zdarzenie,<lb/>Nie... niepodobnem to ożenienie,<lb/>Pełna nadziei, że się iuż zbliża,<lb/>Moment szczęśliwy, żem wśrzód Paryża,<lb/>Lecz wszystko stracił... miałże sumienie,<lb/>Nie, niepodobnem to ożenienie.</p>
         </sp>
         <sp who="#złotołów">
           <speaker>ZŁOTOŁÓW.</speaker>
@@ -1323,19 +1323,19 @@
         <stage>ŚPIEWKI</stage>
         <sp who="#angelika">
           <speaker>ANGELIKA.</speaker>
-          <p>Jedni się żenią dla zbiorów,<lb />Inni szukaią urody,<lb />Ci pragną imion, honorów,<lb />Ci tonu, gustu i mody.<lb />Lecz ta tylko para tkliwa,<lb />Czystego szczęścia doznaie,<lb />Gdzie zgoda, miłość prawdziwa,<lb />I dobre są obyczaie.</p>
+          <p>Jedni się żenią dla zbiorów,<lb/>Inni szukaią urody,<lb/>Ci pragną imion, honorów,<lb/>Ci tonu, gustu i mody.<lb/>Lecz ta tylko para tkliwa,<lb/>Czystego szczęścia doznaie,<lb/>Gdzie zgoda, miłość prawdziwa,<lb/>I dobre są obyczaie.</p>
         </sp>
         <sp who="#emilia">
           <speaker>EMILIA.</speaker>
-          <p>Widzę że tam para tkliwa,<lb />Czystego szczęścia doznaie,<lb />Gdzie zgoda, miłość prawdziwa,<lb />I dobre są obyczaie.<lb />Niknie próżna okazałość,<lb />Z całą swoią etykietą,<lb />W Kobiecie skromność i stałość,<lb />Naypięknieyszą są zaletą.</p>
+          <p>Widzę że tam para tkliwa,<lb/>Czystego szczęścia doznaie,<lb/>Gdzie zgoda, miłość prawdziwa,<lb/>I dobre są obyczaie.<lb/>Niknie próżna okazałość,<lb/>Z całą swoią etykietą,<lb/>W Kobiecie skromność i stałość,<lb/>Naypięknieyszą są zaletą.</p>
         </sp>
         <sp who="#walery">
           <speaker>WALERY.</speaker>
-          <p>Los dla mnie dzisiay życzliwy,<lb />Wszystkie me chęci spełnione,<lb />Ten bowiem nader szczęśliwy,<lb />Kto dobrą pozyskał żonę.</p>
+          <p>Los dla mnie dzisiay życzliwy,<lb/>Wszystkie me chęci spełnione,<lb/>Ten bowiem nader szczęśliwy,<lb/>Kto dobrą pozyskał żonę.</p>
         </sp>
         <sp who="#angelika #emilia #walery">
           <speaker>ANGELIKA. EMILIA. WALERY.</speaker>
-          <p><stage>(Wszyscy)</stage> Bo tam tylko para tkliwa,<lb />Czystego szczęścia doznaie,<lb />Gdzie zgoda, miłość prawdziwa,<lb />I dobre są obyczaie.</p>
+          <p><stage>(Wszyscy)</stage> Bo tam tylko para tkliwa,<lb/>Czystego szczęścia doznaie,<lb/>Gdzie zgoda, miłość prawdziwa,<lb/>I dobre są obyczaie.</p>
         </sp>
         <trailer>(Koniec)</trailer>
       </div>

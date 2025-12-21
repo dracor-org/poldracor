@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000037" xml:lang="pol">
   <teiHeader>
@@ -94,27 +94,27 @@
   <standOff>
     <listEvent>
       <event type="print" when="1913">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
   <text>
     <front>
         <titlePage>
-          <titlePart type="series">WYDAWNICTWO IM. FAUSTYNY MORZYCKIEJ<lb />
-          TEATR LUDOWY<lb />
-          10.</titlePart><lb />
+          <titlePart type="series">WYDAWNICTWO IM. FAUSTYNY MORZYCKIEJ<lb/>
+          TEATR LUDOWY<lb/>
+          10.</titlePart><lb/>
           <docTitle>
             <titlePart type="main">W ZIMOWĄ NOC</titlePart>
             <titlePart type="sub">Obrazek sceniczny w czterech odsłonach</titlePart>
-          </docTitle><lb />
+          </docTitle><lb/>
           <byline>
             <docAuthor>MARYI MARKOWSKIEJ</docAuthor>
-          </byline><lb />
-          <note>NAGRODZONY W KONKURSIE MAŁEGO ŚWIATKA WE LWOWIE</note><lb />
+          </byline><lb/>
+          <note>NAGRODZONY W KONKURSIE MAŁEGO ŚWIATKA WE LWOWIE</note><lb/>
           <docImprint>
-              <pubPlace>WARSZAWA</pubPlace> - <date>1918</date><lb />
-              "KSIĘGARNIA LUDOWA" <name>JULJI SIKORSKIEJ</name><lb />
+              <pubPlace>WARSZAWA</pubPlace> - <date>1918</date><lb/>
+              "KSIĘGARNIA LUDOWA" <name>JULJI SIKORSKIEJ</name><lb/>
               <address><street>WARECKA <num>14</num>.</street></address>
           </docImprint>
         </titlePage>
@@ -186,7 +186,7 @@
           </stage>
           <sp who="#karolek">
             <speaker>KAROLEK.</speaker>
-            <p><stage>(czyta)</stage> "Za szumnym Dniestrem, na Cecorskiem błoniu,<lb />Gdzie Żółkiewskiego spotkał los okrutny,<lb />Jechał Sieniawski odważny i smutny<lb />W błyszczącej zbroi i na białym koniu".</p>
+            <p><stage>(czyta)</stage> "Za szumnym Dniestrem, na Cecorskiem błoniu,<lb/>Gdzie Żółkiewskiego spotkał los okrutny,<lb/>Jechał Sieniawski odważny i smutny<lb/>W błyszczącej zbroi i na białym koniu".</p>
           </sp>
           <sp who="#olenio">
             <speaker>OLENIO.</speaker>
@@ -1156,7 +1156,7 @@
           </sp>
           <sp who="#olenio">
             <speaker>OLENIO.</speaker>
-            <p>I Sokół się nie boi! <stage>(Słychać szczęk broni. Za oknami głośny śpiew)</stage> W krwawem polu srebrne ptaszę,<lb />Poszli w boje chłopcy nasze.<lb />Matko Polsko żyj!<lb />Jezus Marya! bij!</p>
+            <p>I Sokół się nie boi! <stage>(Słychać szczęk broni. Za oknami głośny śpiew)</stage> W krwawem polu srebrne ptaszę,<lb/>Poszli w boje chłopcy nasze.<lb/>Matko Polsko żyj!<lb/>Jezus Marya! bij!</p>
           </sp>
           <sp who="#olenio #ewunia #mania #helenka">
             <speaker>DZIECI.</speaker>
@@ -1310,7 +1310,7 @@
           </sp>
           <sp who="#pan_zaklika">
             <speaker>PAN ZAKLIKA.</speaker>
-            <p>Tak, wszyscy do roboty! I najsłabszy przyda się, jeśli zechce. Patrzcie na tych dwóch najmłodszych żołnierzyków! <stage>(wskazuje Walka i Karolka)</stage> Dzięki im, oddział ocalony, moskal pobity, a oni sami godnie chrzest ognia otrzymali. Do roboty! A gdy wszyscy tej ziemi synowie w bratnim szeregu staną, gdy wieś i miasto za broń zgodnie pochwycą, wtedy z całej piersi hukniemy:<lb />Jeszcze Polska nie zginęła!</p>
+            <p>Tak, wszyscy do roboty! I najsłabszy przyda się, jeśli zechce. Patrzcie na tych dwóch najmłodszych żołnierzyków! <stage>(wskazuje Walka i Karolka)</stage> Dzięki im, oddział ocalony, moskal pobity, a oni sami godnie chrzest ognia otrzymali. Do roboty! A gdy wszyscy tej ziemi synowie w bratnim szeregu staną, gdy wieś i miasto za broń zgodnie pochwycą, wtedy z całej piersi hukniemy:<lb/>Jeszcze Polska nie zginęła!</p>
           </sp>
           <sp who="#walek">
             <speaker>WALEK.</speaker>

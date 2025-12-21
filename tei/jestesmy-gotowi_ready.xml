@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000036" xml:lang="pol">
   <teiHeader>
@@ -86,7 +86,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1939">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -94,16 +94,16 @@
     <front>
         <titlePage>
           <byline>
-            <docAuthor>MIECZYSŁAW JANCZOWICZ TERLECKI</docAuthor><lb />
+            <docAuthor>MIECZYSŁAW JANCZOWICZ TERLECKI</docAuthor><lb/>
           </byline>
           <docTitle>
             <titlePart type="main">"Jesteśmy gotowi"</titlePart>
             <titlePart type="sub">obrazek sceniczny</titlePart>
           </docTitle>
           <docImprint>
-              <pubPlace>LWÓW</pubPlace> <date>1939</date><lb />
-              Nakładem Komisji Wychowania Obywatelskiego Zarządu VI Okręgu Związku Strzeleckiego<lb />
-              Skład główny: Księgarnia <name>"KSIĄŻKA"</name> <name>Aleksandra Mazzucato</name>, <address><name>Lwów,</name><street>ul. Czarnieckiego <num>l. 12.</num></street></address><lb />
+              <pubPlace>LWÓW</pubPlace> <date>1939</date><lb/>
+              Nakładem Komisji Wychowania Obywatelskiego Zarządu VI Okręgu Związku Strzeleckiego<lb/>
+              Skład główny: Księgarnia <name>"KSIĄŻKA"</name> <name>Aleksandra Mazzucato</name>, <address><name>Lwów,</name><street>ul. Czarnieckiego <num>l. 12.</num></street></address><lb/>
           </docImprint>
         </titlePage>
         <castList>
@@ -358,11 +358,11 @@
         <stage>(WÓJT. zruszony ociera łzę)</stage>
         <sp who="#dziedzic">
           <speaker>DZIEDZIC.</speaker>
-          <p><stage>(b. wzruszony do wszystkich)</stage> Moi kochani! Ta ofiara jest jedną z najmilszych ofiar jaką Najjaśniejsza Rzeczypospolita Polska otrzymała, – no nie wstydź się Julciu... <stage>(bierze pakuneczek Julci)</stage> Nie myślcie, że Polska otrzymała tu od tej ubogiej <stage>(pokazuje pakunek wszystkim)</stage> dziewczyny kawał materii jedwabnej! Nie! Polska otrzymała tu, na skromnie wyciągniętej ręce, prawdziwe, żywe, drgające gorącą miłością ku Niej, serce! – Serce polskiej kobiety! – Wzruszenie odbiera mi mowę... <stage>(wskazując na portret Marsz. Piłsudskiego)</stage> O jak że się raduje jasny Duch Wskrzesiciela Polski, Wielkiego Wodza i Nauczyciela Narodu Marszałka Józefa Piłsudskiego, który zawsze się nad nami unosi, tym, że rzucane przezeń ziarna wydały przepiękne owoce, że każdy obywatel i obywatelka gotowi są ponieść dla naszej ukochanej Ojczyzny największe ofiary.<lb />Że jesteśmy silni i zwarci!<lb />Że jesteśmy gotowi!</p>
+          <p><stage>(b. wzruszony do wszystkich)</stage> Moi kochani! Ta ofiara jest jedną z najmilszych ofiar jaką Najjaśniejsza Rzeczypospolita Polska otrzymała, – no nie wstydź się Julciu... <stage>(bierze pakuneczek Julci)</stage> Nie myślcie, że Polska otrzymała tu od tej ubogiej <stage>(pokazuje pakunek wszystkim)</stage> dziewczyny kawał materii jedwabnej! Nie! Polska otrzymała tu, na skromnie wyciągniętej ręce, prawdziwe, żywe, drgające gorącą miłością ku Niej, serce! – Serce polskiej kobiety! – Wzruszenie odbiera mi mowę... <stage>(wskazując na portret Marsz. Piłsudskiego)</stage> O jak że się raduje jasny Duch Wskrzesiciela Polski, Wielkiego Wodza i Nauczyciela Narodu Marszałka Józefa Piłsudskiego, który zawsze się nad nami unosi, tym, że rzucane przezeń ziarna wydały przepiękne owoce, że każdy obywatel i obywatelka gotowi są ponieść dla naszej ukochanej Ojczyzny największe ofiary.<lb/>Że jesteśmy silni i zwarci!<lb/>Że jesteśmy gotowi!</p>
         </sp>
         <sp who="#wójt #wojciech #michał #bartosz #wojtalowa #włodzimierz #julia">
           <speaker>WSZYSCY.</speaker>
-          <p>Tak jesteśmy gotowi! <stage>(śpiewają)</stage>:<lb />„Nie rzucim ziemi”...</p>
+          <p>Tak jesteśmy gotowi! <stage>(śpiewają)</stage>:<lb/>„Nie rzucim ziemi”...</p>
         </sp>
         <trailer>(KONIEC)</trailer>
         <note>Lwów, 19 kwietnia 1939.</note>

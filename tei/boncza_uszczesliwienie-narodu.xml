@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000022" xml:lang="pol">
   <teiHeader>
@@ -96,7 +96,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1802">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -104,31 +104,31 @@
     <front>
         <titlePage>
           <docTitle>
-            <titlePart type="main">USZCZĘSLIWIENIE<lb />
-            NARODU<lb />
-            CZYLI<lb />
-            MIŁOSC Y WDZIĘCZNOSC<lb />
-            W<lb />
+            <titlePart type="main">USZCZĘSLIWIENIE<lb/>
+            NARODU<lb/>
+            CZYLI<lb/>
+            MIŁOSC Y WDZIĘCZNOSC<lb/>
+            W<lb/>
             PODDANYCH</titlePart>
             <titlePart type="sub">DRAMA WE DWÓCH AKTACH,</titlePart>
           </docTitle>
           <note type="appendix">
             <p>Z kilku wydarzonych okoliczności: a mianowicie osobliwego przypadku pod Rumszyszkami, w czasie przeiazdu Nayiaśnieyszego ALEXANDRA I. IMPERATORA Całey Rossyi, przez Prowincye Litewskie w Roku 1802. z dodatkiem Przypisków obiaśniaiących niektóre szczeguły w tem dziele.</p>
           </note>
-          <byline>przez<lb />
-            <docAuthor>MICHAŁA B. TOMASZEWSKIEGO</docAuthor><lb />
+          <byline>przez<lb/>
+            <docAuthor>MICHAŁA B. TOMASZEWSKIEGO</docAuthor><lb/>
             NAPISANE
           </byline>
           <docImprint>
-              w <pubPlace>Wilnie</pubPlace>, w Drukarni XX, Piarów<lb />
+              w <pubPlace>Wilnie</pubPlace>, w Drukarni XX, Piarów<lb/>
               <date>Roku 1804</date>.
           </docImprint>
           <note>
-            <p> Drama we dwóch Aktach przez Michała B. Tomaszewskiego napisana niemaiące nic przeciwnego obyczaiom, a w dobrey chęci pełne czci i wdzięczności dla Nayłaskawszego MONARCHY, może z druku wyniść: jak wyszły i jnne podobnego rodzaju tegoż Autora pisma. w Wilnie Roku 1803. Dnia 17. 9 br:<lb />
+            <p> Drama we dwóch Aktach przez Michała B. Tomaszewskiego napisana niemaiące nic przeciwnego obyczaiom, a w dobrey chęci pełne czci i wdzięczności dla Nayłaskawszego MONARCHY, może z druku wyniść: jak wyszły i jnne podobnego rodzaju tegoż Autora pisma. w Wilnie Roku 1803. Dnia 17. 9 br:<lb/>
             X. Golański Censor.</p>
           </note>
           <imprimatur>
-            Wedle opinij Censora, wolno drukować. Podpisano: H. Stroynowski. N. B. K. Ł. Rektor Uniwersytetu.<lb />
+            Wedle opinij Censora, wolno drukować. Podpisano: H. Stroynowski. N. B. K. Ł. Rektor Uniwersytetu.<lb/>
             Zgodnie z Autentykiem Olbrycht Stanisław Odachowski. Rządu JMPERATORSKIEGO Wileńskiego Uniwersytetu Sekretarz.
           </imprimatur>
         </titlePage>
@@ -175,16 +175,16 @@
         <p>(Scena w Wilnie, w domie P. Dalbor)</p>
       </set>
       <div type="appendix">
-          <opener>DO<lb />
-          Jaśnie Wielmożney<lb />
-          MYRYI<lb />
-          z ANDRZEYKOWICZOW<lb />
-          BARONOWEY<lb />
-          BENIGSENOWEY<lb />
-          Litewskiey, Woienney<lb />
+          <opener>DO<lb/>
+          Jaśnie Wielmożney<lb/>
+          MYRYI<lb/>
+          z ANDRZEYKOWICZOW<lb/>
+          BARONOWEY<lb/>
+          BENIGSENOWEY<lb/>
+          Litewskiey, Woienney<lb/>
           GUBERNATOROWEY.</opener>
           <salute>JASNIE WIELMOZNA PANI!</salute>
-          <p>Wszystkie dzieła wychodzące dotąd z pod mego pióra na widok publiczny, acz znaydowały zawsze łaskawe przyjęcie; były tylko płodem imaginacyi moiey. To zaś, które teraz poświęcam Jimieniowi Jaśnie Wielmożney Pani (prócz dialogu przezemnie ułożonego,) z resztą, zawiera w sobie nayistotnieyszą prawdę; a nawet osoby wystawione w tey sztuce, prawie wszystkie są rzetelnemi. Słowem: są to zebrane różnego gatunku kwiaty i w ieden ułożone bukiet. Naywiększą zaś ozdobą, przez którą usiłowałem dodać świetności temu dziecku, iest okazana dobroć i miłosierdzie Panuiącego MONARCHY, miłość iaką są przeięci ku Niemu wszyscy Jego poddani. Wyznać muszę, że odwaga moia za nadto się posuneła w tym razie: bo któreż pióro iest zdolne należycie okazać światu Portret ALEXANDRA Pierwszego i wyszczegulnić to wszystko, co TEN MONARCHA od wstąpienia na Tron Przodków swoich czynił i dotąd czynić nieprzestanie dla uszczęsliwienia Narodu? Ale mam nadzieię, że baczny Czytelnik i Spektator przez wzgląd na szczerą chęć moią, z łatwością przebaczy mey niezdolności, a ostry i surowy Krytyk stanie się choć na moment łaskawszym.<lb />
+          <p>Wszystkie dzieła wychodzące dotąd z pod mego pióra na widok publiczny, acz znaydowały zawsze łaskawe przyjęcie; były tylko płodem imaginacyi moiey. To zaś, które teraz poświęcam Jimieniowi Jaśnie Wielmożney Pani (prócz dialogu przezemnie ułożonego,) z resztą, zawiera w sobie nayistotnieyszą prawdę; a nawet osoby wystawione w tey sztuce, prawie wszystkie są rzetelnemi. Słowem: są to zebrane różnego gatunku kwiaty i w ieden ułożone bukiet. Naywiększą zaś ozdobą, przez którą usiłowałem dodać świetności temu dziecku, iest okazana dobroć i miłosierdzie Panuiącego MONARCHY, miłość iaką są przeięci ku Niemu wszyscy Jego poddani. Wyznać muszę, że odwaga moia za nadto się posuneła w tym razie: bo któreż pióro iest zdolne należycie okazać światu Portret ALEXANDRA Pierwszego i wyszczegulnić to wszystko, co TEN MONARCHA od wstąpienia na Tron Przodków swoich czynił i dotąd czynić nieprzestanie dla uszczęsliwienia Narodu? Ale mam nadzieię, że baczny Czytelnik i Spektator przez wzgląd na szczerą chęć moią, z łatwością przebaczy mey niezdolności, a ostry i surowy Krytyk stanie się choć na moment łaskawszym.<lb/>
           Rok tysiączny ośmsetny wtóry, rok pamiętny w dzieiach ludzkości, kiedy Nayiaśnieyszy IMPERATOR obieżdżaiąc Prowincye tuteysze, wszędzie zostawił ślady dobroci Swoiey, Miłość i wdzięczność, iaką cały Narod iest przeięty, i w każdym punkcie stara się swemu MONARSZE okazać (czego naywiększym dowodem jest Miasto Wilno które w tymże roku dzień trzydziesty Augusta poświęcony Imieniowi ALEXANDRA z niesłychaną dotąd obchodziło okazałością) są to prawdy, na które się oczy nasze patrzyły, prawdy ogłaszane przez pisma publiczne. Te mi były na celu w pisaniu tego dramatu, a usiłowanie uiściło przedsięwzięcie. Niemogę tedy przyzwoiciey użyć tey moiey pracy, iak poświęcaiąc ią Jmieniowi Jaśnie Wielmożney Pani, iest to JWżna Baronowo mały bukiet szacownym i pięknym ozdobiony kwiatem, który CI offiaruię; znam, że jdąc za powszechnym zwyczaiem, należałoby mi przy tem okazać światu wielkość i wielość nayokazalszych przymiotów Twoich, ale niech każdy sobie wystawi: iak one muszą bydź obfite w tey Osobie, która potrafiła ziednać u wszystkich współobywateli powszechną miłość i poważenie, a szacunek u Męża piastuiącego w tuteyszych Prowincyach władzę tak Wielkiego MONARCHY. Mam przeto nadzieię, że ta offiara moia będzie od Pani łaskawie przyięta.</p>
       </div>
     </front>
@@ -2846,48 +2846,48 @@
             <speaker>KAMPLER. DALBOR. WANEWILLE. ELŻBIETA. ANIELIKA. PANI DALBOR.</speaker>
             <p>Niech żyie w naydłuższe lata... niech żyie!</p>
           </sp>
-          <stage>(Tu daie się słyszeć długi werbel w kotły, przy końcu huczne polne w trąby: teatr się odmienia przedstawia illuminacyą ile może bydź nayokazalii: dekoracya ustawiona porządkiem następnym:<lb /> W ostatniey kortynie wyrznięty prospekt w kolumnadzie, którędy widać Słońce w transparancie, w Słońcu widać cyfrę A.I. Promienie słoneczne zdaią się przechodzić wszystkie strony kortyny, między któremi w górze widać napis:<lb /> WSZYSTKIM ZA RÓWNO.<lb /> U dołu kortyny znamiona sztuk wyzwolonych, nad temi matka nauk wzniesiona na obłoku, w iedney ręce podnosi ku cyfrze palącą się offiarę, w drugiey trzyma uwieńczoną koronę nad znamionami.<lb /> Z prawey strony znamion, Mars otoczony woiennemi rynsztuekami, usypia na dziale, nad nim napis:<lb /> TU MÓY ODPOCZYNEK.<lb /> Z lewey Sprawiedliwość: u iedney ręce trzyma wyniesioną Szalę, w drugiey miecz opuszczony na dół. Nad nią napis:<lb /> NIE KARAĆ PRAGNIE...<lb /> Na pierwszych dwóch Kulisach: z iedney strony wzniesione miasto, z drugiey, Okręt w bliskości Portn.<lb /> Na drugich: z iedney strony różne, znaki kunsztów, z drugiey, znaki handlowe iako to: kotwica, paki i inne.<lb /> Na trzecich: z iedney strony narzędzia rolnicze, z drugiey facyata na niey napis: Dom miłosierdzia.<lb /> Na pozostałych: zboża, owoce, kwiaty i różne rośliny.<lb /> Przed kortyną stoią uszyknwane dzieci wieśniacze, w iednych rekach trzymaią bukiety, w drugich: pasterskie fleciki. Do Aktorów tych, co grali w Dramacie, przybywa wieśniak. Po ukończonym polne, czyli Vivat granego przez trębaczów, zaczynaią Vaudeville)</stage>
+          <stage>(Tu daie się słyszeć długi werbel w kotły, przy końcu huczne polne w trąby: teatr się odmienia przedstawia illuminacyą ile może bydź nayokazalii: dekoracya ustawiona porządkiem następnym:<lb/> W ostatniey kortynie wyrznięty prospekt w kolumnadzie, którędy widać Słońce w transparancie, w Słońcu widać cyfrę A.I. Promienie słoneczne zdaią się przechodzić wszystkie strony kortyny, między któremi w górze widać napis:<lb/> WSZYSTKIM ZA RÓWNO.<lb/> U dołu kortyny znamiona sztuk wyzwolonych, nad temi matka nauk wzniesiona na obłoku, w iedney ręce podnosi ku cyfrze palącą się offiarę, w drugiey trzyma uwieńczoną koronę nad znamionami.<lb/> Z prawey strony znamion, Mars otoczony woiennemi rynsztuekami, usypia na dziale, nad nim napis:<lb/> TU MÓY ODPOCZYNEK.<lb/> Z lewey Sprawiedliwość: u iedney ręce trzyma wyniesioną Szalę, w drugiey miecz opuszczony na dół. Nad nią napis:<lb/> NIE KARAĆ PRAGNIE...<lb/> Na pierwszych dwóch Kulisach: z iedney strony wzniesione miasto, z drugiey, Okręt w bliskości Portn.<lb/> Na drugich: z iedney strony różne, znaki kunsztów, z drugiey, znaki handlowe iako to: kotwica, paki i inne.<lb/> Na trzecich: z iedney strony narzędzia rolnicze, z drugiey facyata na niey napis: Dom miłosierdzia.<lb/> Na pozostałych: zboża, owoce, kwiaty i różne rośliny.<lb/> Przed kortyną stoią uszyknwane dzieci wieśniacze, w iednych rekach trzymaią bukiety, w drugich: pasterskie fleciki. Do Aktorów tych, co grali w Dramacie, przybywa wieśniak. Po ukończonym polne, czyli Vivat granego przez trębaczów, zaczynaią Vaudeville)</stage>
           <sp who="#chór #kampler #dalbor #wanewille #elżbieta #anielika #karol #reinhard #błażey #pani_dalbor">
             <speaker>CHÓR. KAMPLER. DALBOR. WANEWILLE. ELŻBIETA. ANIELIKA. KAROL. REINHARD. BŁAŻEY. PANI DALBOR.</speaker>
-            <p>Gdy rostoczy swe promienie<lb /> Słońce po Nieba błękicie:<lb /> Czem żywiołom pocieszenie,<lb /> A roślinom daie życie;<lb /> Tak ALEXANDRA staranie<lb /> Uszczęśliwia wszystkie stany.<lb /> On iest Narodu kochanie,<lb /> On Bóstwem ludu nazwany.</p>
+            <p>Gdy rostoczy swe promienie<lb/> Słońce po Nieba błękicie:<lb/> Czem żywiołom pocieszenie,<lb/> A roślinom daie życie;<lb/> Tak ALEXANDRA staranie<lb/> Uszczęśliwia wszystkie stany.<lb/> On iest Narodu kochanie,<lb/> On Bóstwem ludu nazwany.</p>
           </sp>
           <sp who="#kampler #anielika">
             <speaker>KAMPLER. ANIELIKA.</speaker>
-            <p>On sprawiedliwości szale<lb /> Bez stronnie dla wszystkich trzyma.<lb /> Ani tu obłudne żale,<lb /> Ni złoto przewagi nie ma.<lb /> Światło nauk rozprzestrzenia.<lb /> Chce swóy Narod mieć szczęśliwym.<lb /> Daie w nim Muzom schronienia.<lb /> Jest Dobroczyńcą prawdziwym.</p>
+            <p>On sprawiedliwości szale<lb/> Bez stronnie dla wszystkich trzyma.<lb/> Ani tu obłudne żale,<lb/> Ni złoto przewagi nie ma.<lb/> Światło nauk rozprzestrzenia.<lb/> Chce swóy Narod mieć szczęśliwym.<lb/> Daie w nim Muzom schronienia.<lb/> Jest Dobroczyńcą prawdziwym.</p>
           </sp>
           <sp who="#wanewille">
             <speaker>WANEWILLE.</speaker>
-            <p>Mars znużony długim boiem,<lb /> Spoczywa na swobod łonie.<lb /> Cieszy się lubym pokoiem,<lb /> Przy swym Oyczystym zagonie.<lb /> Głos chrapliwy surm woiennych,<lb /> Spokoyności nie przerywa.<lb /> Żołnierz wśrzód ćwiczeń codziennych<lb /> Na dal dzielności nabywa.</p>
+            <p>Mars znużony długim boiem,<lb/> Spoczywa na swobod łonie.<lb/> Cieszy się lubym pokoiem,<lb/> Przy swym Oyczystym zagonie.<lb/> Głos chrapliwy surm woiennych,<lb/> Spokoyności nie przerywa.<lb/> Żołnierz wśrzód ćwiczeń codziennych<lb/> Na dal dzielności nabywa.</p>
           </sp>
           <sp who="#reinhard">
             <speaker>REYNHARD.</speaker>
-            <p>Nowe się miasta wznaszaią.<lb /> Tworzą się nowe osady;<lb /> Nową świętość przybieraią.<lb /> Idąc w miast stołecznych ślady.<lb /> Dzielnym wsparciem zasilone,<lb /> Te, co iuż w gruzach ginęły:<lb /> Dziś na nowo odrodzone,<lb /> Wdzięczną na się postać wzięły.</p>
+            <p>Nowe się miasta wznaszaią.<lb/> Tworzą się nowe osady;<lb/> Nową świętość przybieraią.<lb/> Idąc w miast stołecznych ślady.<lb/> Dzielnym wsparciem zasilone,<lb/> Te, co iuż w gruzach ginęły:<lb/> Dziś na nowo odrodzone,<lb/> Wdzięczną na się postać wzięły.</p>
           </sp>
           <sp who="#karol">
             <speaker>KAROL.</speaker>
-            <p>Monopolium wygnane,<lb /> Podkupstwo ściśle wzbronione.<lb /> Intrygi prawie nie znane;<lb /> A z tąd zyski nie zliczone.<lb /> Porty dla handlu otworem,<lb /> Od wszystkich stron uczęszczane.<lb /> Pysznią się licznem Naw zbiorem.<lb /> Niosą bogactwa nieznane.</p>
+            <p>Monopolium wygnane,<lb/> Podkupstwo ściśle wzbronione.<lb/> Intrygi prawie nie znane;<lb/> A z tąd zyski nie zliczone.<lb/> Porty dla handlu otworem,<lb/> Od wszystkich stron uczęszczane.<lb/> Pysznią się licznem Naw zbiorem.<lb/> Niosą bogactwa nieznane.</p>
           </sp>
           <sp who="#pani_dalbor">
             <speaker>PANI DALBOR.</speaker>
-            <p>Rzemieślnik z wzgardy dzwigniony,<lb /> Którą go przesąd pokrywa.<lb /> Talęt udoskonalony,<lb /> Wdzięczną przyszłość obiecywa.<lb /> Przemysł znayduiąc nagrodę,<lb /> Co raz się bardziey rozszerza,<lb /> A przez pokoy i swobodę<lb /> Do swey doyrzałości zmierza.</p>
+            <p>Rzemieślnik z wzgardy dzwigniony,<lb/> Którą go przesąd pokrywa.<lb/> Talęt udoskonalony,<lb/> Wdzięczną przyszłość obiecywa.<lb/> Przemysł znayduiąc nagrodę,<lb/> Co raz się bardziey rozszerza,<lb/> A przez pokoy i swobodę<lb/> Do swey doyrzałości zmierza.</p>
           </sp>
           <sp who="#błażey">
             <speaker>BŁAŻEY.</speaker>
-            <p>Ten, co w swym kraiu zgnębiony,<lb /> Nie znayduie przytulenia;<lb /> Pewien wsparcia i obrony,<lb /> Tu szukać idzie schronienia.<lb /> Rząd mu swą opiekę daie,<lb /> Liczy go w mieszkańców rzędzie,<lb /> Gdy łask Monarszych doznaie,<lb /> Więc szczęśliwy w każdym względzie.</p>
+            <p>Ten, co w swym kraiu zgnębiony,<lb/> Nie znayduie przytulenia;<lb/> Pewien wsparcia i obrony,<lb/> Tu szukać idzie schronienia.<lb/> Rząd mu swą opiekę daie,<lb/> Liczy go w mieszkańców rzędzie,<lb/> Gdy łask Monarszych doznaie,<lb/> Więc szczęśliwy w każdym względzie.</p>
           </sp>
           <sp who="#dalbor">
             <speaker>DALBOR.</speaker>
-            <p>Lecz więcey Oyciec Oyczyzny<lb /> Wzrok swóy zwraca na sieroty.<lb /> Goić ich nieszczęścia, blizny:<lb /> Oto są JEGO pieszczoty.<lb /> Dzwiga z nędzy nieszczęsnego,<lb /> Nad udręczonym lituie.<lb /> Zachował Prawa każdego.<lb /> Przez co mu szczęście sprawuie.</p>
+            <p>Lecz więcey Oyciec Oyczyzny<lb/> Wzrok swóy zwraca na sieroty.<lb/> Goić ich nieszczęścia, blizny:<lb/> Oto są JEGO pieszczoty.<lb/> Dzwiga z nędzy nieszczęsnego,<lb/> Nad udręczonym lituie.<lb/> Zachował Prawa każdego.<lb/> Przez co mu szczęście sprawuie.</p>
           </sp>
           <sp who="#elżbieta #wieśniak">
             <speaker>ELŻBIETA. WIEŚNIAK.</speaker>
-            <p>Rolnik wesół na zagonie,<lb /> Na buyne pogląda Niwy,<lb /> A na obfitości łonie,<lb /> Wyznaie że iest szczęśliwy.<lb /> MONARCHO! TWOIE to dzieło<lb /> Zda się że za TWYM spóyrzeniem<lb /> Wszystko milszą postać wzięło,<lb /> Idąc za Pańskim skinieniem.</p>
+            <p>Rolnik wesół na zagonie,<lb/> Na buyne pogląda Niwy,<lb/> A na obfitości łonie,<lb/> Wyznaie że iest szczęśliwy.<lb/> MONARCHO! TWOIE to dzieło<lb/> Zda się że za TWYM spóyrzeniem<lb/> Wszystko milszą postać wzięło,<lb/> Idąc za Pańskim skinieniem.</p>
           </sp>
           <sp who="#kampler #dalbor #wanewille #elżbieta #anielika #karol #błażey #pani_dalbor">
             <speaker>KAMPLER. DALBOR. WANEWILLE. ELŻBIETA. ANIELIKA. KAROL. BŁAŻEY. PANI DALBOR.</speaker>
-            <p>Zyi więc naydłużey Szczęsliwy,<lb /> Spracwco szczęścia ludu Twego.<lb /> Ojcze dobry, sprawiedliwy.<lb /> Celu miłości każdego.<lb /> Niech Dobroci Twojey czyny.<lb /> Prawnukom Wnuki podaią.<lb /> Niehay nie zwiędłe wawrzyny,<lb /> Skronie TWOIE otaczaią.</p>
+            <p>Zyi więc naydłużey Szczęsliwy,<lb/> Spracwco szczęścia ludu Twego.<lb/> Ojcze dobry, sprawiedliwy.<lb/> Celu miłości każdego.<lb/> Niech Dobroci Twojey czyny.<lb/> Prawnukom Wnuki podaią.<lb/> Niehay nie zwiędłe wawrzyny,<lb/> Skronie TWOIE otaczaią.</p>
           </sp>
-          <stage>(Pod czas ostatniey sztrofy, dzieci rzucaią bukiety: po ukończeniu choru, Aktorowie daią plac, dzieci tańczą stosowne Divertimento przegrywaiąc na flecikach. Przy końcu, staią rzędem blisko Cyfry, rozwiiaią flety, z których formuie się Tarcza, na niey napis.<lb /> USZCZĘŚLIWIENIE NARODU)</stage>
+          <stage>(Pod czas ostatniey sztrofy, dzieci rzucaią bukiety: po ukończeniu choru, Aktorowie daią plac, dzieci tańczą stosowne Divertimento przegrywaiąc na flecikach. Przy końcu, staią rzędem blisko Cyfry, rozwiiaią flety, z których formuie się Tarcza, na niey napis.<lb/> USZCZĘŚLIWIENIE NARODU)</stage>
           <trailer>(KONIEC)</trailer>
         </div>
       </div>

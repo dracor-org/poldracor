@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000045" xml:lang="pol">
   <teiHeader>
@@ -91,7 +91,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1897">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -100,7 +100,7 @@
         <titlePage>
           <docTitle>
             <titlePart type="main">ŻABUSIA</titlePart>
-            <titlePart type="sub">SZTUKA<lb />w trzech aktach.</titlePart>
+            <titlePart type="sub">SZTUKA<lb/>w trzech aktach.</titlePart>
           </docTitle>
         </titlePage>
         <castList>
@@ -166,7 +166,7 @@
           </stage>
           <sp who="#bartnicki">
             <speaker>BARTNICKI.</speaker>
-            <p><stage>(kołysząc dziecko, nuci)</stage><lb />A! a! a! koty dwa,<lb />Szare, bure obydwa.</p>
+            <p><stage>(kołysząc dziecko, nuci)</stage><lb/>A! a! a! koty dwa,<lb/>Szare, bure obydwa.</p>
           </sp>
           <stage>(Przez drzwi z lewej wsuwa się Franciszka, trzymając kuryer)</stage>
           <sp who="#bartnicki">
@@ -1294,7 +1294,7 @@
           </sp>
           <sp who="#żabusia">
             <speaker>ŻABUSIA.</speaker>
-            <p>A może i byłam, ale nie powiem po co, bo to dla kogoś <stage>(patrzy na dziadzię)</stage> będzie niespodzianka!... A teraz... sza!...<lb />Jechał pan,<lb />Za nim chłop<lb />A za nimi żydóweczki,<lb />Pogubiły patyneczki<lb />Hop! Hop!</p>
+            <p>A może i byłam, ale nie powiem po co, bo to dla kogoś <stage>(patrzy na dziadzię)</stage> będzie niespodzianka!... A teraz... sza!...<lb/>Jechał pan,<lb/>Za nim chłop<lb/>A za nimi żydóweczki,<lb/>Pogubiły patyneczki<lb/>Hop! Hop!</p>
           </sp>
           <stage>(Milewski i Bartnicki powtarzają chórem piosenkę Żabusi, która podskakuje wraz z dzieckiem na kolanach męża, w głębi sługi zachwycone, na przodzie sceny Marya nieruchoma, oparta o pianino patrzy z ironią na osoby siedzące przy stole)</stage>
           <trailer>(Zasłona spada)</trailer>

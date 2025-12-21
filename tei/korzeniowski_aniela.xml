@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000012" xml:lang="pol">
   <teiHeader>
@@ -109,7 +109,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1826">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -121,7 +121,7 @@
             <titlePart type="sub">TRAGEDJA W PIĘCIU AKTACH.</titlePart>
           </docTitle>
           <epigraph xml:lang="la">
-            <cit><quote>Quid contraxistis frontem? quia Tragaediam Dixi futuram hanc?</quote><lb /> <bibl>PLAUTUS</bibl></cit>
+            <cit><quote>Quid contraxistis frontem? quia Tragaediam Dixi futuram hanc?</quote><lb/> <bibl>PLAUTUS</bibl></cit>
           </epigraph>
         </titlePage>
         <castList>

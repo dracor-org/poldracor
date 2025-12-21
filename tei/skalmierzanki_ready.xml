@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000033" xml:lang="pol">
   <teiHeader>
@@ -131,7 +131,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1828">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -140,17 +140,17 @@
         <titlePage>
           <docTitle>
             <titlePart type="series">101 NARÓD SOBIE! 101</titlePart>
-            <titlePart type="main">SKALMIERZANKI<lb />
+            <titlePart type="main">SKALMIERZANKI<lb/>
               czyli Koniki Zwierzynieckie.</titlePart>
             <titlePart type="sub">Komedyo-opera w 3 aktach</titlePart>
-          </docTitle><lb />
+          </docTitle><lb/>
           <docAuthor>J. N. Kamińskiego.</docAuthor>
-          <docEdition>Drugie wydanie<lb />
-            z muzyką <name>Buschnego</name>.<lb /></docEdition>
+          <docEdition>Drugie wydanie<lb/>
+            z muzyką <name>Buschnego</name>.<lb/></docEdition>
           <docImprint>
-              Nakładem księgarni <name>A. Cybulskiego</name> w <pubPlace>Poznaniu</pubPlace>.<lb />
-              Czcionkami Drukarni Dziennika Poznańskiego.<lb />
-              <date>1905</date>.<lb />
+              Nakładem księgarni <name>A. Cybulskiego</name> w <pubPlace>Poznaniu</pubPlace>.<lb/>
+              Czcionkami Drukarni Dziennika Poznańskiego.<lb/>
+              <date>1905</date>.<lb/>
           </docImprint>
         </titlePage>
         <castList>
@@ -388,7 +388,7 @@
           <stage>(Śpiew Nr. 1)</stage>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-              <p><stage>(niosąc dzbanek)</stage> Wysła Dosia spiesno zrania<lb />Do Krakowa z mlekiem, <stage>(bis)</stage><lb />Młody panic ją dogania<lb />Na wyścig konikiem <stage>(bis)</stage><lb />„Młoda, hoza Nadwiślanko,<lb />Widzis strasna spieka, <stage>(bis)</stage><lb />Ulituj się, ma kochanko,<lb />Daj się napić mleka<lb />Daj się napić mleka." <stage>(bis)</stage><lb />„Oj, dana, dana, dana, dana, dana,<lb />Niema mleka dla wasana!” <stage>(bis)</stage><lb /><stage>(Tańczy)</stage><lb />Panic zywo z konia skace<lb />I wiąze do gruski, <stage>(bis)</stage><lb />Dosia ksycy, woła, płace,<lb />On chwyta dzbanuski <stage>(bis)</stage><lb />„Idźze sobie, raz ci mówię,<lb />Skądze taka pycha? <stage>(bis)</stage><lb />Widzis wionek na mej głowie,<lb />Narobis mi licha!<lb />Narobis mi licha! <stage>(bis)</stage><lb />Oj, dana, dana, dana, dana, dana,<lb />Niema mleka dla wasana!” <stage>(bis)</stage><lb /><stage>(Tańcząc spostrzega Sarmackiego i Wandę – przestrasza się, zawstydzona)</stage> Ach!!</p>
+              <p><stage>(niosąc dzbanek)</stage> Wysła Dosia spiesno zrania<lb/>Do Krakowa z mlekiem, <stage>(bis)</stage><lb/>Młody panic ją dogania<lb/>Na wyścig konikiem <stage>(bis)</stage><lb/>„Młoda, hoza Nadwiślanko,<lb/>Widzis strasna spieka, <stage>(bis)</stage><lb/>Ulituj się, ma kochanko,<lb/>Daj się napić mleka<lb/>Daj się napić mleka." <stage>(bis)</stage><lb/>„Oj, dana, dana, dana, dana, dana,<lb/>Niema mleka dla wasana!” <stage>(bis)</stage><lb/><stage>(Tańczy)</stage><lb/>Panic zywo z konia skace<lb/>I wiąze do gruski, <stage>(bis)</stage><lb/>Dosia ksycy, woła, płace,<lb/>On chwyta dzbanuski <stage>(bis)</stage><lb/>„Idźze sobie, raz ci mówię,<lb/>Skądze taka pycha? <stage>(bis)</stage><lb/>Widzis wionek na mej głowie,<lb/>Narobis mi licha!<lb/>Narobis mi licha! <stage>(bis)</stage><lb/>Oj, dana, dana, dana, dana, dana,<lb/>Niema mleka dla wasana!” <stage>(bis)</stage><lb/><stage>(Tańcząc spostrzega Sarmackiego i Wandę – przestrasza się, zawstydzona)</stage> Ach!!</p>
           </sp>
           <sp who="#sarmacki">
             <speaker>SARMACKI.</speaker>
@@ -531,7 +531,7 @@
           </sp>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
-            <p><stage>(Śpiew Nr. 2)</stage> Precz mi z drogi, ty hultaju!<lb />Nie miej w drodze stać zwycaju<lb />Na bok z nosem, bo z Krakowa<lb />Idzie pani Marcinowa!<lb />Niechze będzie Bogu chwała!<lb />Wsyćkiem krupki dziś spsedała.<lb /><stage>(Podskakuje sobie wesolutko, w humorze podpiłym, ale bez przesady)</stage> Prec odemnie, prec zostrozna,<lb />Bom ja sobie jest wielmozna!<lb />Pięć tysiącków dziś wylicę,<lb />Kupię w mieście kamienicę,<lb />I gdy utnę w me chodaki,<lb />Do nóg padnie jaki, taki. Hej! ha!<lb />Dziś mnie wielka chętka zbiera<lb />Znaleść sobie kawalera;<lb />Córkę wydam za dziedzica,<lb />Sama pójdę za ślachcica. <stage>(Do parteru)</stage><lb />Śmiejcie się, a jakem zdrowa,<lb />Za mąz pójdzie Marcinowa. Hej! ha!</p>
+            <p><stage>(Śpiew Nr. 2)</stage> Precz mi z drogi, ty hultaju!<lb/>Nie miej w drodze stać zwycaju<lb/>Na bok z nosem, bo z Krakowa<lb/>Idzie pani Marcinowa!<lb/>Niechze będzie Bogu chwała!<lb/>Wsyćkiem krupki dziś spsedała.<lb/><stage>(Podskakuje sobie wesolutko, w humorze podpiłym, ale bez przesady)</stage> Prec odemnie, prec zostrozna,<lb/>Bom ja sobie jest wielmozna!<lb/>Pięć tysiącków dziś wylicę,<lb/>Kupię w mieście kamienicę,<lb/>I gdy utnę w me chodaki,<lb/>Do nóg padnie jaki, taki. Hej! ha!<lb/>Dziś mnie wielka chętka zbiera<lb/>Znaleść sobie kawalera;<lb/>Córkę wydam za dziedzica,<lb/>Sama pójdę za ślachcica. <stage>(Do parteru)</stage><lb/>Śmiejcie się, a jakem zdrowa,<lb/>Za mąz pójdzie Marcinowa. Hej! ha!</p>
           </sp>
           <sp who="#kwik">
             <speaker>KWIK.</speaker>
@@ -846,7 +846,7 @@
           </stage>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
-            <p>Moja córka dziedzicką! ja w karecie seściokonnej! <stage>(Zażywa tabakę)</stage> Osaleję! osaleję! <stage>(Nabuńczuczona, przechadza się dumnie i śpiewa sobie, klaszcząc w ręce)</stage> Dziś mnie wielka chętka zbiera<lb />Znaleść sobie kawalera<lb />Córkę wydam za dziedzica,<lb />Sama pójdę za ślachcica<lb />Dzisiaj panem jaki taki,<lb />Choć niedawno zdarł chodaki.<lb /><stage>(Odchodzi do chaty)</stage></p>
+            <p>Moja córka dziedzicką! ja w karecie seściokonnej! <stage>(Zażywa tabakę)</stage> Osaleję! osaleję! <stage>(Nabuńczuczona, przechadza się dumnie i śpiewa sobie, klaszcząc w ręce)</stage> Dziś mnie wielka chętka zbiera<lb/>Znaleść sobie kawalera<lb/>Córkę wydam za dziedzica,<lb/>Sama pójdę za ślachcica<lb/>Dzisiaj panem jaki taki,<lb/>Choć niedawno zdarł chodaki.<lb/><stage>(Odchodzi do chaty)</stage></p>
           </sp>
           <sp who="#kwik">
             <speaker>KWIK.</speaker>
@@ -863,7 +863,7 @@
           </stage>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
-            <p><stage>(Śpiew Nr 3)</stage> Co to znacy, o mój Boze!<lb />Ze w obcej krainie<lb />Cłowiek wesół być nie moze,<lb />A za swoją ginie!<lb />Słał mnie ojciec za granicę<lb />Z garnkami swojemi, <stage>(bis)</stage><lb />Jam juz w tsy dni cuł tęsknicę<lb />Do rodzinnej ziemi <stage>(bis)</stage><lb />Skorom ujzal tsy mogiły,<lb />Wawel nad skałami,<lb />Juzem w sobie ucuł siły<lb />Ksesać podkówkami. <stage>(bis)</stage><lb />Ze kraj obcy ma dostatki,<lb />Sepcą mi do ucha,<lb />Ja się tsymam ojców chatki<lb />Jak zepiak kozucha<lb />Gdzie ślicniejsa okolica,<lb />Dziewcęta ślicniejse? <stage>(bis)</stage><lb />Tu mnie każda zec zachwyca,<lb />Tu i serce lzejse, <stage>(bis)</stage><lb />Tutaj słysę swojską mowę,<lb />Psyjaźń rękę daje;<lb />Śmiało w górę wznosę głowę,<lb />Bo tu nase kraje! <stage>(bis)</stage><lb /><stage>(Mówi)</stage> Tutaj tedy ma mieskać moja ślicna Dosia. - Mówiła mi ongi: „pamiętaj dobrze, jak przejdzies przez lasek prosto gościńcem, weź się zaraz drozyną od siebie, <stage>(naśladuje jakby chodził)</stage> a potem przejdzies przez mostek ksobie, a potem przez płotek od siebie, a potem przebież przez rzepiaki prosto. - Oj, te przeklęte rzepiaki, tak mi się bestyje pocepiały, jak zydzi na Kazimierzu! - Tu jest dzwonnica na lewo, więc moja Dosia mieskać ma na prawo, w tej chatce zapewne. - Zapukajmy cichutko w okienko, tylko leciuchno. <stage>(Puka)</stage> Dosiu! Dosiu luba! ja tu jestem, juz przysedłem! Nie słysy – trzeba trochę mocniej zapukać. <stage>(Pukając tłucze okno)</stage> Tamże do licha! sybecka prysnęła, dałzem sobie bobu! ślicny pocątek! pięknie mi się wiedzie.</p>
+            <p><stage>(Śpiew Nr 3)</stage> Co to znacy, o mój Boze!<lb/>Ze w obcej krainie<lb/>Cłowiek wesół być nie moze,<lb/>A za swoją ginie!<lb/>Słał mnie ojciec za granicę<lb/>Z garnkami swojemi, <stage>(bis)</stage><lb/>Jam juz w tsy dni cuł tęsknicę<lb/>Do rodzinnej ziemi <stage>(bis)</stage><lb/>Skorom ujzal tsy mogiły,<lb/>Wawel nad skałami,<lb/>Juzem w sobie ucuł siły<lb/>Ksesać podkówkami. <stage>(bis)</stage><lb/>Ze kraj obcy ma dostatki,<lb/>Sepcą mi do ucha,<lb/>Ja się tsymam ojców chatki<lb/>Jak zepiak kozucha<lb/>Gdzie ślicniejsa okolica,<lb/>Dziewcęta ślicniejse? <stage>(bis)</stage><lb/>Tu mnie każda zec zachwyca,<lb/>Tu i serce lzejse, <stage>(bis)</stage><lb/>Tutaj słysę swojską mowę,<lb/>Psyjaźń rękę daje;<lb/>Śmiało w górę wznosę głowę,<lb/>Bo tu nase kraje! <stage>(bis)</stage><lb/><stage>(Mówi)</stage> Tutaj tedy ma mieskać moja ślicna Dosia. - Mówiła mi ongi: „pamiętaj dobrze, jak przejdzies przez lasek prosto gościńcem, weź się zaraz drozyną od siebie, <stage>(naśladuje jakby chodził)</stage> a potem przejdzies przez mostek ksobie, a potem przez płotek od siebie, a potem przebież przez rzepiaki prosto. - Oj, te przeklęte rzepiaki, tak mi się bestyje pocepiały, jak zydzi na Kazimierzu! - Tu jest dzwonnica na lewo, więc moja Dosia mieskać ma na prawo, w tej chatce zapewne. - Zapukajmy cichutko w okienko, tylko leciuchno. <stage>(Puka)</stage> Dosiu! Dosiu luba! ja tu jestem, juz przysedłem! Nie słysy – trzeba trochę mocniej zapukać. <stage>(Pukając tłucze okno)</stage> Tamże do licha! sybecka prysnęła, dałzem sobie bobu! ślicny pocątek! pięknie mi się wiedzie.</p>
           </sp>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
@@ -1163,19 +1163,19 @@
           <stage>(Dwuśpiew Nr. 4)</stage>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
-            <p>Miła Dosiu! zbiez twe zmysły,<lb />Pseciez będzies pamiętała. <stage>(bis)</stage></p>
+            <p>Miła Dosiu! zbiez twe zmysły,<lb/>Pseciez będzies pamiętała. <stage>(bis)</stage></p>
           </sp>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-            <p>Cy ci w głowie klepki prysły?<lb />Jam cię w zyciu nie widziała! <stage>(bis)</stage></p>
+            <p>Cy ci w głowie klepki prysły?<lb/>Jam cię w zyciu nie widziała! <stage>(bis)</stage></p>
           </sp>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
-            <p>Pomnij, ongi tam za stogiem,<lb />Gdym cię karmił malinami,<lb />Ojciec skropił mnie batogiem,<lb />Ksycał gwałtu, ześmy sami. <stage>(bis)</stage></p>
+            <p>Pomnij, ongi tam za stogiem,<lb/>Gdym cię karmił malinami,<lb/>Ojciec skropił mnie batogiem,<lb/>Ksycał gwałtu, ześmy sami. <stage>(bis)</stage></p>
           </sp>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-            <p>Co ty gadać śmies, hultaju!<lb />Taką sprawiać mi sromotę? <stage>(bis)</stage><lb />W całym świecie, w całym kraju<lb />Znają dobze moją cnotę. <stage>(bis)</stage><lb />Nie rób takiej mi zakały,<lb />Rusaj sobie, pókiś cały! <stage>(bis)</stage></p>
+            <p>Co ty gadać śmies, hultaju!<lb/>Taką sprawiać mi sromotę? <stage>(bis)</stage><lb/>W całym świecie, w całym kraju<lb/>Znają dobze moją cnotę. <stage>(bis)</stage><lb/>Nie rób takiej mi zakały,<lb/>Rusaj sobie, pókiś cały! <stage>(bis)</stage></p>
           </sp>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
@@ -1383,7 +1383,7 @@
           </sp>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
-            <p>A, to mi się podoba! <stage>(Pod nosem)</stage> Ja, teściowa pana kastelana mam ich prowadzić! <stage>(Zmierzywszy go dumnie okiem, śpiewa)</stage><lb />Prec odemnie, prec z ostrozna,<lb />Bom ja sobie jest wielmozna!<lb /><stage>(Stając przy drzwiach, otwiera je i patrzy na Sarmackiego)</stage> Jaki mi!... <stage>(Wchodzi do chaty)</stage></p>
+            <p>A, to mi się podoba! <stage>(Pod nosem)</stage> Ja, teściowa pana kastelana mam ich prowadzić! <stage>(Zmierzywszy go dumnie okiem, śpiewa)</stage><lb/>Prec odemnie, prec z ostrozna,<lb/>Bom ja sobie jest wielmozna!<lb/><stage>(Stając przy drzwiach, otwiera je i patrzy na Sarmackiego)</stage> Jaki mi!... <stage>(Wchodzi do chaty)</stage></p>
           </sp>
         </div>
         <div type="scene" n="15">
@@ -1606,7 +1606,7 @@
           <stage>(Śpiew Nr. 5)</stage>
           <sp who="#chór">
             <speaker>CHÓR.</speaker>
-            <p>Witaj nam, witaj nam, nasz drogi panie,<lb />Ksyccie co ducha stanie, na powitanie<lb />Witaj nam, witaj nam, nas panie drogi,<lb />Rzucajcie, rzucajcie kwiaty pod nogi.</p>
+            <p>Witaj nam, witaj nam, nasz drogi panie,<lb/>Ksyccie co ducha stanie, na powitanie<lb/>Witaj nam, witaj nam, nas panie drogi,<lb/>Rzucajcie, rzucajcie kwiaty pod nogi.</p>
           </sp>
         </div>
         <div type="scene" n="21">
@@ -1699,48 +1699,48 @@
             <speaker>MARCINOWA.</speaker>
             <p>Dla mnie? - Ach, w głowie mi się kręci!</p>
           </sp>
-          <stage>(Śpiew Nr. 6)</stage><lb />
+          <stage>(Śpiew Nr. 6)</stage><lb/>
           <stage>(Duet)</stage>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-            <p>Teraz, matulu, widzicie,<lb />Ze cyganka wywrózyła, <stage>(bis)</stage><lb />Panią będzie wase dziecie,<lb />Będę karetą jeździła!</p>
+            <p>Teraz, matulu, widzicie,<lb/>Ze cyganka wywrózyła, <stage>(bis)</stage><lb/>Panią będzie wase dziecie,<lb/>Będę karetą jeździła!</p>
           </sp>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
-            <p>Fornal będzie tzaskal z bica,<lb />Pojedziemy do Krakowa,<lb />Cała wybiezy ulica,<lb />Kto psyjechał?... Marcinowa.</p>
+            <p>Fornal będzie tzaskal z bica,<lb/>Pojedziemy do Krakowa,<lb/>Cała wybiezy ulica,<lb/>Kto psyjechał?... Marcinowa.</p>
           </sp>
           <stage>(Pieprzyk i Kwik wchodzą, stając w głębi)</stage>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-            <p><stage>(siadając na krześle)</stage> Tutaj będę siedzieć dumnie<lb /> Od poranka do zachodu.</p>
+            <p><stage>(siadając na krześle)</stage> Tutaj będę siedzieć dumnie<lb/> Od poranka do zachodu.</p>
           </sp>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
-            <p><stage>(odciąga ją, sama siadając)</stage> Wsystkich ocy zwrócę ku mnie,<lb />Hola, lokaj! pzynieś miodu.</p>
+            <p><stage>(odciąga ją, sama siadając)</stage> Wsystkich ocy zwrócę ku mnie,<lb/>Hola, lokaj! pzynieś miodu.</p>
           </sp>
           <sp who="#dosia #marcinowa">
             <speaker>DOSIA i MARCINOWA.</speaker>
-            <p><stage>(ściskając się, śpiewają razem)</stage> Będą konie i kolaski,<lb />A to, matko/córko, z twojej łaski. <stage>(bis)</stage></p>
+            <p><stage>(ściskając się, śpiewają razem)</stage> Będą konie i kolaski,<lb/>A to, matko/córko, z twojej łaski. <stage>(bis)</stage></p>
           </sp>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-            <p>Bym się lepiej podobała,<lb />Wdzieję na się pysne stroje. <stage>(bis)</stage><lb />I tak chodząc przez pokoje,<lb />Będę cukierki zjadała.</p>
+            <p>Bym się lepiej podobała,<lb/>Wdzieję na się pysne stroje. <stage>(bis)</stage><lb/>I tak chodząc przez pokoje,<lb/>Będę cukierki zjadała.</p>
           </sp>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
-            <p>Co ja – w cukry się nie wdaję,<lb />Z miodem musi stać aptecka,<lb />Napusę się jak jędycka,<lb />Wogon będą nieść lokaje!</p>
+            <p>Co ja – w cukry się nie wdaję,<lb/>Z miodem musi stać aptecka,<lb/>Napusę się jak jędycka,<lb/>Wogon będą nieść lokaje!</p>
           </sp>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-            <p>Kiedy wejdę do kościoła,<lb />Taką sobie zrobię minę.<lb /><stage>(Bierze się pod boki)</stage></p>
+            <p>Kiedy wejdę do kościoła,<lb/>Taką sobie zrobię minę.<lb/><stage>(Bierze się pod boki)</stage></p>
           </sp>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
-            <p>Pani jedzie – lud zawoła,<lb />Ach! z radości [:pewno zginę.:]</p>
+            <p>Pani jedzie – lud zawoła,<lb/>Ach! z radości [:pewno zginę.:]</p>
           </sp>
           <sp who="#dosia #marcinowa">
             <speaker>OBIE.</speaker>
-            <p><stage>(razem)</stage> Wsystko pójdzie nalezycie,<lb />Uściskajcie/Pójdź, niech ścisnę pańskie dziecię!</p>
+            <p><stage>(razem)</stage> Wsystko pójdzie nalezycie,<lb/>Uściskajcie/Pójdź, niech ścisnę pańskie dziecię!</p>
           </sp>
         </div>
         <div type="scene" n="23">
@@ -2241,7 +2241,7 @@
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
             <p>
-              <stage>(niby nie widząc Żurosława)</stage> Gdy mi chłopiec w drodze stanie,<lb />Albo całus skradnie, <stage>(bis)</stage><lb />Zaraz mówię: „Fe, mospanie!<lb />To brzydko, nieładnie!<lb />Niech ci słuzy piękność inna,<lb />Na mnie nie miej oka;<lb />Jestem skromna i niewinna,<lb />Twarda jak opoka,” <stage>(bis)</stage> la, la, la. <stage>(Tańczy)</stage></p>
+              <stage>(niby nie widząc Żurosława)</stage> Gdy mi chłopiec w drodze stanie,<lb/>Albo całus skradnie, <stage>(bis)</stage><lb/>Zaraz mówię: „Fe, mospanie!<lb/>To brzydko, nieładnie!<lb/>Niech ci słuzy piękność inna,<lb/>Na mnie nie miej oka;<lb/>Jestem skromna i niewinna,<lb/>Twarda jak opoka,” <stage>(bis)</stage> la, la, la. <stage>(Tańczy)</stage></p>
           </sp>
           <sp who="#ekonom">
             <speaker>EKONOM.</speaker>
@@ -2249,7 +2249,7 @@
           </sp>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-            <p>Ongi Janek, ten wisusek<lb />Napadł mnie znienacka, <stage>(bis)</stage><lb />Chciał odemnie skraść całusek,<lb />Ale dostał placka.<lb />Idź do miasta kraść całusy,<lb />Krzykłam z całej siły,<lb />Moich ustek nikt nie rusy,<lb />Bo mi wionek miły. <stage>(bis)</stage></p>
+            <p>Ongi Janek, ten wisusek<lb/>Napadł mnie znienacka, <stage>(bis)</stage><lb/>Chciał odemnie skraść całusek,<lb/>Ale dostał placka.<lb/>Idź do miasta kraść całusy,<lb/>Krzykłam z całej siły,<lb/>Moich ustek nikt nie rusy,<lb/>Bo mi wionek miły. <stage>(bis)</stage></p>
           </sp>
           <sp who="#ekonom">
             <speaker>EKONOM.</speaker>
@@ -2257,7 +2257,7 @@
           </sp>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-            <p>Kiedy descu nie ma kania,<lb />Narzeka na susę, <stage>(bis)</stage><lb />Moje serce chce kochania,<lb />A ja cierpieć musę<lb />Prózno łzami rosę lica<lb />Gdzie kochanek stały?<lb />Nie ma go ta okolica,<lb />Ach, świat nie ma cały. <stage>(bis)</stage><lb /><stage>(Odbiega tańcząc)</stage></p>
+            <p>Kiedy descu nie ma kania,<lb/>Narzeka na susę, <stage>(bis)</stage><lb/>Moje serce chce kochania,<lb/>A ja cierpieć musę<lb/>Prózno łzami rosę lica<lb/>Gdzie kochanek stały?<lb/>Nie ma go ta okolica,<lb/>Ach, świat nie ma cały. <stage>(bis)</stage><lb/><stage>(Odbiega tańcząc)</stage></p>
           </sp>
         </div>
         <div type="scene" n="30">
@@ -2314,7 +2314,7 @@
           <stage>(Śpiew Nr. 8)</stage>
           <sp who="#wanda">
             <speaker>WANDA.</speaker>
-            <p><stage>(za kulisami)</stage> Ach! tylko tam, gdzie się rodzimy,<lb />Prawdziwe szczęście Bóg nam daje<lb />Gdy wyjdziem stamtąd, wszystko tracimy,<lb />Bo serce nasze tam zostaje.<lb />Bo to, co kochamy,</p>
+            <p><stage>(za kulisami)</stage> Ach! tylko tam, gdzie się rodzimy,<lb/>Prawdziwe szczęście Bóg nam daje<lb/>Gdy wyjdziem stamtąd, wszystko tracimy,<lb/>Bo serce nasze tam zostaje.<lb/>Bo to, co kochamy,</p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
@@ -2585,7 +2585,7 @@
           <stage>(Śpiew Nr. 9)</stage>
           <sp who="#wanda">
             <speaker>WANDA.</speaker>
-            <p><stage>(za sceną)</stage> Z odległych Alp krainy<lb />Przychodzę tu zmartwiona<lb />Ach, jestem biedna opuszczona,<lb />Straciłam skarb jedyny. <stage>(bis)</stage><lb />Wylawszy gorzkich łez za wiele,<lb />Opuszczam dom i idę w drogę<lb />Ach! mówcie, przyjaciele,<lb />Gdzie ja go znaleść mogę? <stage>(bis)</stage></p>
+            <p><stage>(za sceną)</stage> Z odległych Alp krainy<lb/>Przychodzę tu zmartwiona<lb/>Ach, jestem biedna opuszczona,<lb/>Straciłam skarb jedyny. <stage>(bis)</stage><lb/>Wylawszy gorzkich łez za wiele,<lb/>Opuszczam dom i idę w drogę<lb/>Ach! mówcie, przyjaciele,<lb/>Gdzie ja go znaleść mogę? <stage>(bis)</stage></p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
@@ -3099,39 +3099,39 @@
           <stage>(Śpiew Nr. 10)</stage>
           <sp who="#wanda">
             <speaker>WANDA.</speaker>
-            <p>Chociaż cnota jest mi święta,<lb />Nią się chełpić honor wzbrania:<lb />Róża w pączku gdy zwinięta,<lb />Od motylów się zasłania.</p>
+            <p>Chociaż cnota jest mi święta,<lb/>Nią się chełpić honor wzbrania:<lb/>Róża w pączku gdy zwinięta,<lb/>Od motylów się zasłania.</p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
-            <p>Lecz gdy róża liść rozwinie,<lb />Gdy się zrosi łza zarania,<lb />Wtenczas serce dla niej ginie,<lb />Bo pociąga do kochania.</p>
+            <p>Lecz gdy róża liść rozwinie,<lb/>Gdy się zrosi łza zarania,<lb/>Wtenczas serce dla niej ginie,<lb/>Bo pociąga do kochania.</p>
           </sp>
           <sp who="#wanda">
             <speaker>WANDA.</speaker>
-            <p>Matka mi zawsze mówiła:<lb />Strzeż się serca płomieni! <stage>(bis)</stage></p>
+            <p>Matka mi zawsze mówiła:<lb/>Strzeż się serca płomieni! <stage>(bis)</stage></p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
-            <p>Jakże piękna, jakże miła!<lb />Taki klejnot w wiejskiej cieni!<lb />Serce twoje kochać zdolne!<lb />Mogęż jaką mieć nadzieję?</p>
+            <p>Jakże piękna, jakże miła!<lb/>Taki klejnot w wiejskiej cieni!<lb/>Serce twoje kochać zdolne!<lb/>Mogęż jaką mieć nadzieję?</p>
           </sp>
           <sp who="#wanda">
             <speaker>WANDA.</speaker>
-            <p>Tobie, panie, żarty wolne,<lb />Ta myśl we mnie nie zatleje.</p>
+            <p>Tobie, panie, żarty wolne,<lb/>Ta myśl we mnie nie zatleje.</p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
-            <p>Moją żoną ty, nie inna!<lb />Ja nad wszystko cię przenoszę.</p>
+            <p>Moją żoną ty, nie inna!<lb/>Ja nad wszystko cię przenoszę.</p>
           </sp>
           <sp who="#wanda">
             <speaker>WANDA.</speaker>
-            <p>Com ja cnocie mojej winna,<lb />O tem pomnij, panie, proszę!</p>
+            <p>Com ja cnocie mojej winna,<lb/>O tem pomnij, panie, proszę!</p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
-            <p>O wy słodkie dla mnie chwile,<lb />Jakże urok jej mnie wabi!</p>
+            <p>O wy słodkie dla mnie chwile,<lb/>Jakże urok jej mnie wabi!</p>
           </sp>
           <sp who="#wanda">
             <speaker>WANDA.</speaker>
-            <p>O mężczyźni! o motyle!<lb />Jakże zdradni, jakże słabi! <stage>(bis razem)</stage></p>
+            <p>O mężczyźni! o motyle!<lb/>Jakże zdradni, jakże słabi! <stage>(bis razem)</stage></p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
@@ -3391,11 +3391,11 @@
           <stage>(Śpiew Nr. 11)</stage>
           <sp who="#chór">
             <speaker>CHÓR.</speaker>
-            <p>Dziś dzieweczki skromnych lic<lb />Odbiorą nagrodę;<lb />Wszakże w świecie niema nic<lb />Nad skromność, urodę. (bis 3 razy)<lb />Dzisiaj jednę spotka los<lb />Być dziedzica żoną, (bis)<lb />Dziś uwieńczy panny włos<lb />Mirtową koroną. (bis)<lb />Zdajmy raport jak poszła robota.</p>
+            <p>Dziś dzieweczki skromnych lic<lb/>Odbiorą nagrodę;<lb/>Wszakże w świecie niema nic<lb/>Nad skromność, urodę. (bis 3 razy)<lb/>Dzisiaj jednę spotka los<lb/>Być dziedzica żoną, (bis)<lb/>Dziś uwieńczy panny włos<lb/>Mirtową koroną. (bis)<lb/>Zdajmy raport jak poszła robota.</p>
           </sp>
           <sp who="#ekonom #marcinowa">
             <speaker>EKONOM. MARCINOWA.</speaker>
-            <p><stage>(razem)</stage> Mej dzieweczki cnota<lb />Czyściejsza od złota,<lb />Czystsza od bursztynu,<lb />Ma usta z karminu,<lb />Rumieńczyki własne,<lb />Kwitnące jak róże. <stage>(bis)</stage><lb />I jak sobie róże!<lb />Resztę et caetera<lb />Niechże Bóg zabiera!</p>
+            <p><stage>(razem)</stage> Mej dzieweczki cnota<lb/>Czyściejsza od złota,<lb/>Czystsza od bursztynu,<lb/>Ma usta z karminu,<lb/>Rumieńczyki własne,<lb/>Kwitnące jak róże. <stage>(bis)</stage><lb/>I jak sobie róże!<lb/>Resztę et caetera<lb/>Niechże Bóg zabiera!</p>
           </sp>
         </div>
         <div type="scene" n="41">
@@ -3435,7 +3435,7 @@
           <stage>(Śpiew Nr. 11a)</stage>
           <sp who="#dziewczęta">
             <speaker>CHÓR DZIEWCZĄT.</speaker>
-            <p>Z klejnotem dziewicy,<lb />Jaki cnota daje,<lb />Kiedy sobie dziedzic zycy,<lb />Kazda z nas tu staje<lb />Pełny kłosek z łanu<lb />Psynalezy panu. <stage>(bis)</stage></p>
+            <p>Z klejnotem dziewicy,<lb/>Jaki cnota daje,<lb/>Kiedy sobie dziedzic zycy,<lb/>Kazda z nas tu staje<lb/>Pełny kłosek z łanu<lb/>Psynalezy panu. <stage>(bis)</stage></p>
           </sp>
           <sp who="#kwik">
             <speaker>KWIK.</speaker>
@@ -3455,7 +3455,7 @@
           </sp>
           <sp who="#kwik">
             <speaker>KWIK.</speaker>
-            <p><stage>(deklamuje)</stage> Niemałą rzecz, zaiste, dzisiaj przedsiębiorę,<lb />Kiedy twoją, panie, pro tuo honore,<lb />Rzadką dobroczynność<lb />I tych jagniątek niewinność<lb />Jako bakałarz wioski przy samym Skalmierzu<lb />Tak jasno chcę opisać, jakby na talerzu. <stage>(Krząka)</stage></p>
+            <p><stage>(deklamuje)</stage> Niemałą rzecz, zaiste, dzisiaj przedsiębiorę,<lb/>Kiedy twoją, panie, pro tuo honore,<lb/>Rzadką dobroczynność<lb/>I tych jagniątek niewinność<lb/>Jako bakałarz wioski przy samym Skalmierzu<lb/>Tak jasno chcę opisać, jakby na talerzu. <stage>(Krząka)</stage></p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
@@ -3463,7 +3463,7 @@
           </sp>
           <sp who="#kwik">
             <speaker>KWIK.</speaker>
-            <p><stage>(zapalając się)</stage> O! zaiskrzą się gwiazdy, zawstydzi się słońce,<lb />Jak zacznę wasze cnoty chwalić na dwa końce...</p>
+            <p><stage>(zapalając się)</stage> O! zaiskrzą się gwiazdy, zawstydzi się słońce,<lb/>Jak zacznę wasze cnoty chwalić na dwa końce...</p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
@@ -3471,7 +3471,7 @@
           </sp>
           <sp who="#kwik">
             <speaker>KWIK.</speaker>
-            <p>Bo niech mi tu wystąpi któren albo która<lb />I powie skąd? dlaczego? płci żeńskiej natura...</p>
+            <p>Bo niech mi tu wystąpi któren albo która<lb/>I powie skąd? dlaczego? płci żeńskiej natura...</p>
           </sp>
           <sp who="#ekonom">
             <speaker>EKONOM.</speaker>
@@ -3479,11 +3479,11 @@
           </sp>
           <sp who="#kwik">
             <speaker>KWIK.</speaker>
-            <p>Hic Rhodus, hic et saltus! ja przeszkody zrąbię,<lb />Co cnota, co natura, wszystko wam wytrąbię...<lb />Pisze o tem Heród, pisze i Barnaba... <stage>(Marcinowa daje mu w bok kułaka, - on podskakuje)</stage> Oj! oj! z piekła rodem baba.</p>
+            <p>Hic Rhodus, hic et saltus! ja przeszkody zrąbię,<lb/>Co cnota, co natura, wszystko wam wytrąbię...<lb/>Pisze o tem Heród, pisze i Barnaba... <stage>(Marcinowa daje mu w bok kułaka, - on podskakuje)</stage> Oj! oj! z piekła rodem baba.</p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
-            <p><stage>(podnosząc się z krzesła, bierze wieniec z tacy od Pieprzyka)</stage><lb /><stage>(Śpiew Nr. 12)</stage><lb />Oto jeszcze trzymam wieniec w mojej dłoni,<lb />Jeśli której serce dawna miłość płoni,<lb />Niech mi wyzna szczerze,<lb />Uwolnię ją od ślubu, nagrodę odbierze!<lb />Cóż to, nic nie mówicie?</p>
+            <p><stage>(podnosząc się z krzesła, bierze wieniec z tacy od Pieprzyka)</stage><lb/><stage>(Śpiew Nr. 12)</stage><lb/>Oto jeszcze trzymam wieniec w mojej dłoni,<lb/>Jeśli której serce dawna miłość płoni,<lb/>Niech mi wyzna szczerze,<lb/>Uwolnię ją od ślubu, nagrodę odbierze!<lb/>Cóż to, nic nie mówicie?</p>
           </sp>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
@@ -3491,7 +3491,7 @@
           </sp>
           <sp who="#dziewczęta">
             <speaker>CHÓR DZIEWCZĄT.</speaker>
-            <p>Nie, nie, wielmożny panie,<lb />Nieznane nam kochanie.</p>
+            <p>Nie, nie, wielmożny panie,<lb/>Nieznane nam kochanie.</p>
           </sp>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
@@ -3499,7 +3499,7 @@
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
-            <p>Tej więc tylko ślubny wieniec na skroń włożę,<lb />Która świeżą w zanadrzu okaże mi różę.<lb /><stage>(Wszystkie dziewczęta odsłaniają się raptem, każda pełna radości wskazuje różę)</stage><lb />Co widzę!!</p>
+            <p>Tej więc tylko ślubny wieniec na skroń włożę,<lb/>Która świeżą w zanadrzu okaże mi różę.<lb/><stage>(Wszystkie dziewczęta odsłaniają się raptem, każda pełna radości wskazuje różę)</stage><lb/>Co widzę!!</p>
           </sp>
           <sp who="#kwik #ekonom #marcinowa #podstarościowie #dziewczęta #skalmierzanie #jemiel #pieprzyk">
             <speaker>WSZYSCY.</speaker>
@@ -3531,7 +3531,7 @@
           </sp>
           <sp who="#kwik">
             <speaker>KWIK.</speaker>
-            <p><stage>(zostaje za kurtyną)</stage> Wszyscy pouciekali,<lb />Niewiem co gadali.</p>
+            <p><stage>(zostaje za kurtyną)</stage> Wszyscy pouciekali,<lb/>Niewiem co gadali.</p>
           </sp>
           <trailer>(Koniec aktu 2-go)</trailer>
         </div>
@@ -3710,7 +3710,7 @@
           </sp>
           <sp who="#wanda">
             <speaker>WANDA.</speaker>
-            <p><stage>(Śpiew Nr. 13)</stage><lb />Kwiatku drogi, kwiatku luby,<lb />Nie ozdabiasz mojej skroni,<lb />Choćeś dla mnie miły, luby,<lb />Przyjąć ciebie honor broni,<lb />Zwiędnij, kwiatku, zwiędnij w grobie,<lb />Ja się tobą nie ozdobię<lb />Cóż mi z tego, żem wybrana,<lb />Kiedy nie jestem kochana<lb />Spełzły moje już nadzieje,<lb />Próżno w sercu ogień tleje. <stage>(bis)</stage><lb />Kwiatku drogi, kwiatku luby,<lb />Ja się tobą nie ozdobię!<lb />Nie ozdobisz mojej skroni,<lb />Przyjąć ciebie honor broni,<lb />Zwiędnij, kwiatku, zwiędnij w grobie,<lb />Ja się tobą nie ozdobię.<lb /><stage>(Rzuca różę i wybiega)</stage></p>
+            <p><stage>(Śpiew Nr. 13)</stage><lb/>Kwiatku drogi, kwiatku luby,<lb/>Nie ozdabiasz mojej skroni,<lb/>Choćeś dla mnie miły, luby,<lb/>Przyjąć ciebie honor broni,<lb/>Zwiędnij, kwiatku, zwiędnij w grobie,<lb/>Ja się tobą nie ozdobię<lb/>Cóż mi z tego, żem wybrana,<lb/>Kiedy nie jestem kochana<lb/>Spełzły moje już nadzieje,<lb/>Próżno w sercu ogień tleje. <stage>(bis)</stage><lb/>Kwiatku drogi, kwiatku luby,<lb/>Ja się tobą nie ozdobię!<lb/>Nie ozdobisz mojej skroni,<lb/>Przyjąć ciebie honor broni,<lb/>Zwiędnij, kwiatku, zwiędnij w grobie,<lb/>Ja się tobą nie ozdobię.<lb/><stage>(Rzuca różę i wybiega)</stage></p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
@@ -3805,7 +3805,7 @@
           </stage>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
-            <p><stage>(sam)</stage> Otóz właśnie nie zgadł, bo ja pierogów nie lubię! <stage>(Przeciąga się)</stage> Dostałem tedy absit, juz mi trochę lzej na sercu! <stage>(Patrzy się po sobie)</stage> Chodzę jak kij oskrobany, a kamer durny pański powiadał, zem po janielsku ubrany. Bodajeś przepadł!<lb /><stage>(Śpiew Nr. 14)</stage>I to znacy wystrojony!<lb />Łokieć sukna, dwa galony!<lb />Ani kłapciów, ani poły!<lb />Jakby djablik chodzę goły!<lb />I tak mówiąc między nami,<lb />Świecę ludziom kolanami,<lb />Świecę kolanami!<lb />Dwie kiesenie, ale takie,<lb />Jak kalitki na tabakę!<lb />Zamiast capki to jarmułka,<lb />Obróz twarda w brodę śturka!<lb />Gdybym podjadł kasy z mlikiem,<lb />Pękłby guzik za guzikiem,<lb />Guzik za guzikiem<lb />Capki ani wziąć na bakier,<lb />W buty chuchaj, dawaj lakier,<lb />Zamiast klusek, zamiast śperki<lb />Zjedz na obiad dwa cukierki<lb />Dla ciasnoty chodź okrakiem<lb />Jaz to jestem krakowiakiem?<lb />Jestem krakowiakiem?<lb />A idź mi do paralusa<lb />Ty ozdobo ciasna, kusa!<lb />Niech się tobą ten oblece,<lb />Kto się ojców swych wyzece! <stage>(bis)</stage><lb />Więc znów wdzieję zupan siny,<lb />Jak krakowskie chodzą syny, <stage>(bis)</stage><lb />Jak krakowskie syny!<lb /><stage>(Odchodzi)</stage></p>
+            <p><stage>(sam)</stage> Otóz właśnie nie zgadł, bo ja pierogów nie lubię! <stage>(Przeciąga się)</stage> Dostałem tedy absit, juz mi trochę lzej na sercu! <stage>(Patrzy się po sobie)</stage> Chodzę jak kij oskrobany, a kamer durny pański powiadał, zem po janielsku ubrany. Bodajeś przepadł!<lb/><stage>(Śpiew Nr. 14)</stage>I to znacy wystrojony!<lb/>Łokieć sukna, dwa galony!<lb/>Ani kłapciów, ani poły!<lb/>Jakby djablik chodzę goły!<lb/>I tak mówiąc między nami,<lb/>Świecę ludziom kolanami,<lb/>Świecę kolanami!<lb/>Dwie kiesenie, ale takie,<lb/>Jak kalitki na tabakę!<lb/>Zamiast capki to jarmułka,<lb/>Obróz twarda w brodę śturka!<lb/>Gdybym podjadł kasy z mlikiem,<lb/>Pękłby guzik za guzikiem,<lb/>Guzik za guzikiem<lb/>Capki ani wziąć na bakier,<lb/>W buty chuchaj, dawaj lakier,<lb/>Zamiast klusek, zamiast śperki<lb/>Zjedz na obiad dwa cukierki<lb/>Dla ciasnoty chodź okrakiem<lb/>Jaz to jestem krakowiakiem?<lb/>Jestem krakowiakiem?<lb/>A idź mi do paralusa<lb/>Ty ozdobo ciasna, kusa!<lb/>Niech się tobą ten oblece,<lb/>Kto się ojców swych wyzece! <stage>(bis)</stage><lb/>Więc znów wdzieję zupan siny,<lb/>Jak krakowskie chodzą syny, <stage>(bis)</stage><lb/>Jak krakowskie syny!<lb/><stage>(Odchodzi)</stage></p>
           </sp>
         </div>
         <div type="scene" n="46">
@@ -4279,7 +4279,7 @@
         <div type="scene" n="51">
           <head>SCENA X.</head>
           <stage type="setting">
-            <p></p>
+            <p/>
           </stage>
           <stage type="entrance">
             <p>
@@ -4290,7 +4290,7 @@
           </stage>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
-            <p><stage>(na stronie)</stage> Aha, pani Marcinowa! Nadmijmy się! <stage>(Kładzie ręce w kieszenie, idzie dumnie i śpiewa sobie)</stage> Dosia mnie nie chciała, a ja zyję przecie,<lb />Dla takiego chłopca dosyć dziewek w świecie.</p>
+            <p><stage>(na stronie)</stage> Aha, pani Marcinowa! Nadmijmy się! <stage>(Kładzie ręce w kieszenie, idzie dumnie i śpiewa sobie)</stage> Dosia mnie nie chciała, a ja zyję przecie,<lb/>Dla takiego chłopca dosyć dziewek w świecie.</p>
           </sp>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
@@ -4298,7 +4298,7 @@
           </sp>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
-            <p><stage>(jak wyżej)</stage> Nie chcialaś mnie, Dosiu, przyjmze teraz figę,<lb />Mam za ciebie Baśkę i tłustą Jadwigę!</p>
+            <p><stage>(jak wyżej)</stage> Nie chcialaś mnie, Dosiu, przyjmze teraz figę,<lb/>Mam za ciebie Baśkę i tłustą Jadwigę!</p>
           </sp>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
@@ -4375,19 +4375,19 @@
           <stage>(Dwuśpiew Nr. 15)</stage>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-            <p> Co ja widzę? – Dyć to ón,<lb />Drogi Piepsyk! luby zdun!</p>
+            <p> Co ja widzę? – Dyć to ón,<lb/>Drogi Piepsyk! luby zdun!</p>
           </sp>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
-            <p><stage>(na stronie)</stage> Juz na kwintę spusca nos;<lb />Jak to ludzi zmienia los!<lb />Nie mam waści znać honoru,<lb />Puść mnie, idę jeść do dworu.<lb />La, la, la, la, la, la, la, la, la, la, la!</p>
+            <p><stage>(na stronie)</stage> Juz na kwintę spusca nos;<lb/>Jak to ludzi zmienia los!<lb/>Nie mam waści znać honoru,<lb/>Puść mnie, idę jeść do dworu.<lb/>La, la, la, la, la, la, la, la, la, la, la!</p>
           </sp>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-            <p><stage>(nie puszcza go – z płaczem)</stage> Tybyś moim chciał być wrogiem?<lb />Pomnij, coś mi zekl za brogiem.</p>
+            <p><stage>(nie puszcza go – z płaczem)</stage> Tybyś moim chciał być wrogiem?<lb/>Pomnij, coś mi zekl za brogiem.</p>
           </sp>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
-            <p>Dobze mówią, - ze do woza<lb />Prędzej, później psyjdzie koza.<lb />Prosę puścić! juz od ranka<lb />Ceka na mnie... <stage>(podskoczywszy)</stage> kastelanka!</p>
+            <p>Dobze mówią, - ze do woza<lb/>Prędzej, później psyjdzie koza.<lb/>Prosę puścić! juz od ranka<lb/>Ceka na mnie... <stage>(podskoczywszy)</stage> kastelanka!</p>
           </sp>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
@@ -4395,7 +4395,7 @@
           </sp>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
-            <p>Prosę tu nie robić ksyku!<lb />Skądeś mogła nabrać lica,<lb />Podnieść ocy na panica?<lb />La, la, la, la i t.d.<lb /><stage>(Puszy się z pańska, macha chustką i odchodzi. - Dosia patrzy za nim zdumiona)</stage></p>
+            <p>Prosę tu nie robić ksyku!<lb/>Skądeś mogła nabrać lica,<lb/>Podnieść ocy na panica?<lb/>La, la, la, la i t.d.<lb/><stage>(Puszy się z pańska, macha chustką i odchodzi. - Dosia patrzy za nim zdumiona)</stage></p>
           </sp>
         </div>
         <div type="scene" n="52">
@@ -4887,7 +4887,7 @@
           <stage>(Śpiew Nr. 16)</stage>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
-            <p>Dana, dana, dana, dana,<lb />Potańcmy trosecka, <stage>(bis)</stage><lb />Milsy zupan za kolana<lb />Niz ciasna kurtecka. <stage>(bis)</stage><lb /><stage>(Tańczą po każdej zwrotce krakowiaka)</stage> Miały dziewki oskominę<lb />Na pańskie jagody,<lb />Jak przysło iść przez tarninę,<lb />Nie wysły bez skody. <stage>(bis)</stage><lb />Gdy się dobze podrapały,<lb />Śmieli się chłopaki<lb />Lepse chłopskie specyjały<lb />Niz pańskie przysmaki. <stage>(bis)</stage><lb />Kazda posła jakby zmyta<lb />I płakała doma,<lb />Kazdy to wie, ze kobieta<lb />Na przysmak łakoma. <stage>(bis)</stage><lb />Aby dziewkom skrócić lejcy,<lb />Dały radę nieba;<lb />Kiedy kąkol jest w pszenicy,<lb />Dobrze młócić trzeba. <stage>(bis)</stage></p>
+            <p>Dana, dana, dana, dana,<lb/>Potańcmy trosecka, <stage>(bis)</stage><lb/>Milsy zupan za kolana<lb/>Niz ciasna kurtecka. <stage>(bis)</stage><lb/><stage>(Tańczą po każdej zwrotce krakowiaka)</stage> Miały dziewki oskominę<lb/>Na pańskie jagody,<lb/>Jak przysło iść przez tarninę,<lb/>Nie wysły bez skody. <stage>(bis)</stage><lb/>Gdy się dobze podrapały,<lb/>Śmieli się chłopaki<lb/>Lepse chłopskie specyjały<lb/>Niz pańskie przysmaki. <stage>(bis)</stage><lb/>Kazda posła jakby zmyta<lb/>I płakała doma,<lb/>Kazdy to wie, ze kobieta<lb/>Na przysmak łakoma. <stage>(bis)</stage><lb/>Aby dziewkom skrócić lejcy,<lb/>Dały radę nieba;<lb/>Kiedy kąkol jest w pszenicy,<lb/>Dobrze młócić trzeba. <stage>(bis)</stage></p>
           </sp>
         </div>
         <div type="scene" n="58">
@@ -4964,7 +4964,7 @@
           <stage>(Śpiew Nr. 17)</stage>
           <sp who="#chór">
             <speaker>CHÓR.</speaker>
-            <p>Ktoś zajezdza! to kolaska,<lb />Juz jest w bramie, fornal trzaska,<lb />Prosto wali, nie dba na nic,<lb />Wsak to nas pan kastelanic. <stage>(bis)</stage></p>
+            <p>Ktoś zajezdza! to kolaska,<lb/>Juz jest w bramie, fornal trzaska,<lb/>Prosto wali, nie dba na nic,<lb/>Wsak to nas pan kastelanic. <stage>(bis)</stage></p>
           </sp>
           <sp who="#ekonom">
             <speaker>EKONOM.</speaker>
@@ -4976,7 +4976,7 @@
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
-            <p>Żem niezgięty w uporze, król dowiedział się o tem,<lb />Wysłał do mnie kuryera,<lb />Że się już nie spiera,<lb />Że swój zamysł zmienił,<lb />Pozwala, abym się według swej woli z kim zechcę ożenił.</p>
+            <p>Żem niezgięty w uporze, król dowiedział się o tem,<lb/>Wysłał do mnie kuryera,<lb/>Że się już nie spiera,<lb/>Że swój zamysł zmienił,<lb/>Pozwala, abym się według swej woli z kim zechcę ożenił.</p>
           </sp>
           <sp who="#dosia #basia #małgosia #zosia">
             <speaker>DZIEWCZĘTA.</speaker>
@@ -4996,7 +4996,7 @@
           </sp>
           <sp who="#sarmacki">
             <speaker>SARMACKI.</speaker>
-            <p>Zapóźnoś przyjechał, inaczej już grają organki,<lb />Wszystkie już zamówione, nie znajdziesz kochanki.</p>
+            <p>Zapóźnoś przyjechał, inaczej już grają organki,<lb/>Wszystkie już zamówione, nie znajdziesz kochanki.</p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
@@ -5004,7 +5004,7 @@
           </sp>
           <sp who="#sarmacki">
             <speaker>SARMACKI.</speaker>
-            <p>Spytaj się ekonoma, kiedyś tak uparty.<lb />Oto masz, czytaj, tu są atestata.</p>
+            <p>Spytaj się ekonoma, kiedyś tak uparty.<lb/>Oto masz, czytaj, tu są atestata.</p>
           </sp>
           <sp who="#ekonom">
             <speaker>EKONOM.</speaker>
@@ -5036,7 +5036,7 @@
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
-            <p><stage>(czyta – muzyka przygrywa)</stage> Zaświadczam z mego urzędu,<lb />Że Dosia Marcinowej, nie mniej ani więcej,<lb />Z miłosnego zapędu<lb />Już od trzech miesięcy,<lb />Ma... ma... jakiegoś zduna!</p>
+            <p><stage>(czyta – muzyka przygrywa)</stage> Zaświadczam z mego urzędu,<lb/>Że Dosia Marcinowej, nie mniej ani więcej,<lb/>Z miłosnego zapędu<lb/>Już od trzech miesięcy,<lb/>Ma... ma... jakiegoś zduna!</p>
           </sp>
           <sp who="#ekonom">
             <speaker>EKONOM.</speaker>
@@ -5080,12 +5080,12 @@
           </sp>
           <sp who="#sarmacki">
             <speaker>SARMACKI.</speaker>
-            <p>Tak wyglądasz z każdej strony,<lb />Jak szałaput poprawiony. <stage>(Całuje go, - odzywa się odgłos trąbki – wszyscy odwracają się w tę stronę)</stage></p>
+            <p>Tak wyglądasz z każdej strony,<lb/>Jak szałaput poprawiony. <stage>(Całuje go, - odzywa się odgłos trąbki – wszyscy odwracają się w tę stronę)</stage></p>
           </sp>
           <stage>(Śpiew Nr. 17)</stage>
           <sp who="#chór">
             <speaker>CHÓR.</speaker>
-            <p>Ktoś pzyjechał! – to kolaska<lb />Tutaj jedzie, fornal trzaska<lb />Zróbcie miejsce prędko dla niej;<lb />Jakaś z cubem wielka pani. <stage>(bis)</stage></p>
+            <p>Ktoś pzyjechał! – to kolaska<lb/>Tutaj jedzie, fornal trzaska<lb/>Zróbcie miejsce prędko dla niej;<lb/>Jakaś z cubem wielka pani. <stage>(bis)</stage></p>
           </sp>
         </div>
         <div type="scene" n="60">
@@ -5120,11 +5120,11 @@
           </sp>
           <sp who="#wanda">
             <speaker>WANDA.</speaker>
-            <p><stage>(wchodząc)</stage> Proszę mi to darować, że w tak późnej porze<lb />Szukam cię, pułkowniku, tu na obcym dworze<lb />Słyszałam, że Żurosław dziś małżonkę bierze,<lb />W twe ręce składam zapis potrzebny w tej mierze.<lb /><stage>(Oddaje papier pułkownikowi)</stage></p>
+            <p><stage>(wchodząc)</stage> Proszę mi to darować, że w tak późnej porze<lb/>Szukam cię, pułkowniku, tu na obcym dworze<lb/>Słyszałam, że Żurosław dziś małżonkę bierze,<lb/>W twe ręce składam zapis potrzebny w tej mierze.<lb/><stage>(Oddaje papier pułkownikowi)</stage></p>
           </sp>
           <sp who="#sarmacki">
             <speaker>SARMACKI.</speaker>
-            <p>O, mylna to wieść była. - Chciej mu podać rękę;<lb />Niech ci za to sam, pani, złoży swą podziękę.</p>
+            <p>O, mylna to wieść była. - Chciej mu podać rękę;<lb/>Niech ci za to sam, pani, złoży swą podziękę.</p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
@@ -5140,11 +5140,11 @@
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
-            <p>Pojmuję, pani. <stage>(Klęka)</stage> Jestem zawstydzony.<lb />Ukarz mnie, ukarz! masz po temu prawo!</p>
+            <p>Pojmuję, pani. <stage>(Klęka)</stage> Jestem zawstydzony.<lb/>Ukarz mnie, ukarz! masz po temu prawo!</p>
           </sp>
           <sp who="#sarmacki">
             <speaker>SARMACKI.</speaker>
-            <p>Brawo, Żurosławie, brawo!<lb />Podnieś go, Wandziu!</p>
+            <p>Brawo, Żurosławie, brawo!<lb/>Podnieś go, Wandziu!</p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
@@ -5152,7 +5152,7 @@
           </sp>
           <sp who="#wanda">
             <speaker>WANDA.</speaker>
-            <p><stage>(podnosząc go)</stage> Daruj mi,<lb />Jeśli źle grałam Szwajcarkę a gorzej baranka.</p>
+            <p><stage>(podnosząc go)</stage> Daruj mi,<lb/>Jeśli źle grałam Szwajcarkę a gorzej baranka.</p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
@@ -5188,7 +5188,7 @@
           </sp>
           <sp who="#sarmacki">
             <speaker>SARMACKI.</speaker>
-            <p>Że waści sprzyja, czytaj to w jej oku.<lb />Proszę was, dziatki, rzućcie ceregiele,<lb />Dajcie mi ręce. <stage>(Łączy je)</stage> Ot tak, mamy już wesele. -</p>
+            <p>Że waści sprzyja, czytaj to w jej oku.<lb/>Proszę was, dziatki, rzućcie ceregiele,<lb/>Dajcie mi ręce. <stage>(Łączy je)</stage> Ot tak, mamy już wesele. -</p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
@@ -5200,7 +5200,7 @@
           </sp>
           <sp who="#sarmacki">
             <speaker>SARMACKI.</speaker>
-            <p>Bomby i granaty! dosyć już tej sprawie.<lb />A nuże, krzyczcie: Wiwat narzeczeni!<lb />Już niema żadnych przeszkód; nasz dziedzic się żeni!</p>
+            <p>Bomby i granaty! dosyć już tej sprawie.<lb/>A nuże, krzyczcie: Wiwat narzeczeni!<lb/>Już niema żadnych przeszkód; nasz dziedzic się żeni!</p>
           </sp>
           <sp who="#pieprzyk #dosia #basia #małgosia #zosia #marcinowa #kwik #sarmacki #ekonom">
             <speaker>WSZYSCY.</speaker>
@@ -5209,19 +5209,19 @@
           <stage>(Śpiew Nr. 18)</stage>
           <sp who="#wanda">
             <speaker>WANDA.</speaker>
-            <p>Chociaż błahą grałam rolę,<lb />Życzeń moich spełniam miarkę,<lb />Zbiłam przesąd, nad Szwajcarkę<lb />Przeniósł dobrą, wierną, czułą Polkę<lb />Od was, dobre, zacne panie,<lb />To najpierwej dziś zależy<lb />Zbijać zgubne, błędne zdanie,<lb />Prawe cnoty dać młodzieży. <stage>(bis)</stage></p>
+            <p>Chociaż błahą grałam rolę,<lb/>Życzeń moich spełniam miarkę,<lb/>Zbiłam przesąd, nad Szwajcarkę<lb/>Przeniósł dobrą, wierną, czułą Polkę<lb/>Od was, dobre, zacne panie,<lb/>To najpierwej dziś zależy<lb/>Zbijać zgubne, błędne zdanie,<lb/>Prawe cnoty dać młodzieży. <stage>(bis)</stage></p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
-            <p>Wszystkich sił moich staraniem<lb />I najdroższym będzie celem,<lb />Bym szczęśliwy twem kochaniem,<lb />Dobrym był obywatelem<lb />Rzucam odtąd zagranicę<lb />I zostanę przy mej roli,<lb />Milsze nasze okolice,<lb />Rzucam odtąd zagranicę<lb />I zostanę przy mej roli,<lb />Milsze nasze okolice,<lb />Są to świadki naszej doli.</p>
+            <p>Wszystkich sił moich staraniem<lb/>I najdroższym będzie celem,<lb/>Bym szczęśliwy twem kochaniem,<lb/>Dobrym był obywatelem<lb/>Rzucam odtąd zagranicę<lb/>I zostanę przy mej roli,<lb/>Milsze nasze okolice,<lb/>Rzucam odtąd zagranicę<lb/>I zostanę przy mej roli,<lb/>Milsze nasze okolice,<lb/>Są to świadki naszej doli.</p>
           </sp>
           <sp who="#wanda #żurosław">
             <speaker>WANDA i ŻUROSŁAW.</speaker>
-            <p><stage>(razem)</stage><lb />Takim idąc zawsze torem,<lb />Będziem dobrych panów wzorem. <stage>(bis)</stage></p>
+            <p><stage>(razem)</stage><lb/>Takim idąc zawsze torem,<lb/>Będziem dobrych panów wzorem. <stage>(bis)</stage></p>
           </sp>
           <sp who="#żurosław">
             <speaker>ŻUROSŁAW.</speaker>
-            <p>Niech dziś radość wyjaśni każdego oblicze,<lb />Posag dla nowożeńców dziś jeszcze wyliczę.</p>
+            <p>Niech dziś radość wyjaśni każdego oblicze,<lb/>Posag dla nowożeńców dziś jeszcze wyliczę.</p>
           </sp>
           <sp who="#pieprzyk #dosia #basia #małgosia #zosia #marcinowa #kwik #sarmacki #ekonom #sarmacki">
             <speaker>WSZYSCY.</speaker>
@@ -5230,35 +5230,35 @@
           <stage>(Śpiew Nr. 19)</stage>
           <sp who="#pieprzyk">
             <speaker>PIEPRZYK.</speaker>
-            <p>Nuze skrzypki i wy basy,<lb />Nie załujcie dzisiaj smyka,<lb />Pzypomnijcie dobre casy,<lb />Tnijcie skalbmierzyka.<lb />Sosny mają dość zywicy,<lb />Niech zapiscą wsyćkie skrony,<lb />Wyhasajmy bez róznicy<lb />I panny i zony!<lb /><stage>(Tańczą)</stage></p>
+            <p>Nuze skrzypki i wy basy,<lb/>Nie załujcie dzisiaj smyka,<lb/>Pzypomnijcie dobre casy,<lb/>Tnijcie skalbmierzyka.<lb/>Sosny mają dość zywicy,<lb/>Niech zapiscą wsyćkie skrony,<lb/>Wyhasajmy bez róznicy<lb/>I panny i zony!<lb/><stage>(Tańczą)</stage></p>
           </sp>
           <sp who="#ekonom">
             <speaker>EKONOM.</speaker>
-            <p>Już i we mnie chęć dygocze,<lb />Gwałtem w taniec się komosi,<lb />Nie wytrzymam, w górę skoczę,<lb />Choć brzuch pardon prosi<lb />Hejże, hejże, kumo droga,<lb />Żwawo utnijmy ku sobie,<lb />I w przód i w tył dyga noga,<lb />Zróbcie, co ja zrobię.<lb /><stage>(Tańczą)</stage></p>
+            <p>Już i we mnie chęć dygocze,<lb/>Gwałtem w taniec się komosi,<lb/>Nie wytrzymam, w górę skoczę,<lb/>Choć brzuch pardon prosi<lb/>Hejże, hejże, kumo droga,<lb/>Żwawo utnijmy ku sobie,<lb/>I w przód i w tył dyga noga,<lb/>Zróbcie, co ja zrobię.<lb/><stage>(Tańczą)</stage></p>
           </sp>
           <sp who="#marcinowa">
             <speaker>MARCINOWA.</speaker>
-            <p>Kiedy sapis, bryło spasła,<lb />Nie chciejze udawać zucha!<lb />Ledwiem w trzewik zwawo trzasła,<lb />Juz jak indor dmucha.<lb />Hejze, hejze, lekko, zwawo,<lb />Hejze, tędy i owędy,<lb />Trochę w lewo, trochę w prawo,<lb />Ale ładnie wsędy!<lb /><stage>(Tańczą)</stage></p>
+            <p>Kiedy sapis, bryło spasła,<lb/>Nie chciejze udawać zucha!<lb/>Ledwiem w trzewik zwawo trzasła,<lb/>Juz jak indor dmucha.<lb/>Hejze, hejze, lekko, zwawo,<lb/>Hejze, tędy i owędy,<lb/>Trochę w lewo, trochę w prawo,<lb/>Ale ładnie wsędy!<lb/><stage>(Tańczą)</stage></p>
           </sp>
           <sp who="#dosia">
             <speaker>DOSIA.</speaker>
-            <p>Nuz na skrzypkach i na basie<lb />Nuze wyzej od podstawka,<lb />Są pieniądze dzisiaj w kasie,<lb />Więc miła zabawka<lb />Tu publicność jest łaskawą,<lb />Więc się nam tez dobrze wiedzie,<lb />Dała pieniądz, da i brawo<lb />I do dom odjedzie.<lb /><stage>(Tańczą)</stage></p>
+            <p>Nuz na skrzypkach i na basie<lb/>Nuze wyzej od podstawka,<lb/>Są pieniądze dzisiaj w kasie,<lb/>Więc miła zabawka<lb/>Tu publicność jest łaskawą,<lb/>Więc się nam tez dobrze wiedzie,<lb/>Dała pieniądz, da i brawo<lb/>I do dom odjedzie.<lb/><stage>(Tańczą)</stage></p>
           </sp>
           <sp who="#kwik">
             <speaker>KWIK.</speaker>
-            <p>Nie wiem wprawdzie co się dzieje,<lb />Nie wiem, czyli gra muzyka... <stage>(mówi)</stage> Hę, co?<lb />Lecz gdy baba oszaleje,<lb />Któż z nią nie pobryka?<lb />Wszakże uczy po łacinie/To przysłowie bardzo stare:<lb />Przy kobiecie i przy winie<lb />Jam licet saltare.<lb /><stage>(Tańczą. - Zasłona spada wśród ogni bengalskich)</stage></p>
+            <p>Nie wiem wprawdzie co się dzieje,<lb/>Nie wiem, czyli gra muzyka... <stage>(mówi)</stage> Hę, co?<lb/>Lecz gdy baba oszaleje,<lb/>Któż z nią nie pobryka?<lb/>Wszakże uczy po łacinie/To przysłowie bardzo stare:<lb/>Przy kobiecie i przy winie<lb/>Jam licet saltare.<lb/><stage>(Tańczą. - Zasłona spada wśród ogni bengalskich)</stage></p>
           </sp>
-          <trailer>(KONIEC)</trailer><lb />
+          <trailer>(KONIEC)</trailer><lb/>
           <note>
-            <stage>(Rekwizyta.<lb />Białe róże, - bukiet wielki z wstążkami, - dzbanuszek zielony, - dwa harapy, - szpicruta, - wieniec na talerzu, - koszyk z wiekiem, - trzy wystrzały, ognie bengalskie)<lb /></stage>
+            <stage>(Rekwizyta.<lb/>Białe róże, - bukiet wielki z wstążkami, - dzbanuszek zielony, - dwa harapy, - szpicruta, - wieniec na talerzu, - koszyk z wiekiem, - trzy wystrzały, ognie bengalskie)<lb/></stage>
             <stage>(Dodatek aktorów)</stage>
             <sp who="#dosia">
               <speaker>DOSIA.</speaker>
-              <p>Dalej, dudy, rżnijcie hucnie,<lb />Utniem z podkówki mazura,<lb />Chociaz zła jestem kaducnie,<lb />Chłop mój strasny rura<lb />Wolałabym mieć dziedzica,<lb />Bo, zda się, nie taki juz fryc,<lb />Lecz cóz robić? trza mieć męza,<lb />Lepsy Pieprzyk jak nic.<lb /><stage>(Tańczą)</stage></p>
+              <p>Dalej, dudy, rżnijcie hucnie,<lb/>Utniem z podkówki mazura,<lb/>Chociaz zła jestem kaducnie,<lb/>Chłop mój strasny rura<lb/>Wolałabym mieć dziedzica,<lb/>Bo, zda się, nie taki juz fryc,<lb/>Lecz cóz robić? trza mieć męza,<lb/>Lepsy Pieprzyk jak nic.<lb/><stage>(Tańczą)</stage></p>
             </sp>
             <sp who="#kwik">
               <speaker>KWIK.</speaker>
-              <p>Czyście państwo co mówili,<lb />Czy mi się tylko zdawało, <stage>(mówi)</stage> Hę? co?<lb />Bo choćbyście brawo bili,<lb />Na nic się nie zdało<lb />Ja już prawie nic nie słyszę,<lb />Sprawię sobie trąbki sztuczne,<lb />Jeśli chcecie, bym usłyszał,<lb />Bijcie brawo huczne.<lb /><stage>(Tańczą)</stage></p>
+              <p>Czyście państwo co mówili,<lb/>Czy mi się tylko zdawało, <stage>(mówi)</stage> Hę? co?<lb/>Bo choćbyście brawo bili,<lb/>Na nic się nie zdało<lb/>Ja już prawie nic nie słyszę,<lb/>Sprawię sobie trąbki sztuczne,<lb/>Jeśli chcecie, bym usłyszał,<lb/>Bijcie brawo huczne.<lb/><stage>(Tańczą)</stage></p>
             </sp>
           </note>
         </div>

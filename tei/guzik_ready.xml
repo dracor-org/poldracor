@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000047" xml:lang="pol">
   <teiHeader>
@@ -73,7 +73,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1887">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -87,9 +87,9 @@
         </titlePage>
           <div type="appendix">
             <salute>
-              DOKTOROWI<lb />T. HERYNGOWI
+              DOKTOROWI<lb/>T. HERYNGOWI
             </salute>
-            <p>w dowód uznania i wdzięczności<lb />Autor.</p>
+            <p>w dowód uznania i wdzięczności<lb/>Autor.</p>
           </div>
         <castList>
           <head>OSOBY:</head>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000013" xml:lang="pol">
   <teiHeader>
@@ -100,7 +100,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1780">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -109,16 +109,16 @@
         <titlePage>
           <docAuthor>Oraczewski</docAuthor>
           <docTitle>
-            <titlePart type="main">ZABAWY,<lb />
-            CZYLI<lb />
+            <titlePart type="main">ZABAWY,<lb/>
+            CZYLI<lb/>
             ŻYCIE BEZ CELU,</titlePart>
-            <titlePart type="sub">KOMEDYA<lb />
+            <titlePart type="sub">KOMEDYA<lb/>
             WE TRZECH AKTACH</titlePart>
           </docTitle>
           <docImprint>
-              w <pubPlace>Warszawie</pubPlace> <date>1780</date>.<lb />
-              Nakładem y drukiem<lb />
-              <name>MICHAŁA GRÖLLA</name>,<lb />
+              w <pubPlace>Warszawie</pubPlace> <date>1780</date>.<lb/>
+              Nakładem y drukiem<lb/>
+              <name>MICHAŁA GRÖLLA</name>,<lb/>
               Księgarza Nadwornego J.K.Mci.
           </docImprint>
         </titlePage>

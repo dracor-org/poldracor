@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000025" xml:lang="pol">
   <teiHeader>
@@ -106,7 +106,7 @@
         <desc/>
       </event>
       <event type="print" when="1826">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
     <listRelation>
@@ -118,11 +118,11 @@
         <titlePage>
           <docTitle>
             <titlePart type="main">DAMY I HUZARY.</titlePart>
-            <titlePart type="sub">KOMEDIJA<lb />
+            <titlePart type="sub">KOMEDIJA<lb/>
             we trzech Aktach, prozą.</titlePart>
           </docTitle>
           <epigraph>
-            <cit><quote>Pochlebstwo ma w sobie osobliwy przysmak, chociaż go kto rzkomo odrzuca, przecież ono smakuje.</quote><lb /><bibl>And. Max. Fredro.</bibl></cit>
+            <cit><quote>Pochlebstwo ma w sobie osobliwy przysmak, chociaż go kto rzkomo odrzuca, przecież ono smakuje.</quote><lb/><bibl>And. Max. Fredro.</bibl></cit>
           </epigraph>
         </titlePage>
         <castList>
@@ -186,7 +186,7 @@
     </front>
     <body>
       <div type="act" n="1">
-        <head>DAMY I HUZARY<lb />
+        <head>DAMY I HUZARY<lb/>
         AKT I.</head>
         <stage type="setting">
           <p>(Duży pokój. Czworo drzwi bocznych; dwoje w głębi. Na środku stół z mapami; stolik po prawej stronie, na którym gra szachów, przy nim wzgłąbsz krzesła. W głębi broń różna; dzidy, cel, głowy tureckie do karuzelu służące, także w głębi)</p>
@@ -708,7 +708,7 @@
           </sp>
           <sp who="#major">
             <speaker>MAJOR.</speaker>
-            <p>Hej! Grzesiu! Rembo! Zaraz wszystko będzie. <stage>(Rembo i Grzegorz wchodzą)</stage><lb /><stage>(Do Remba)</stage> Niech Kutasiński na łysego wsiędzie i dalej w pogoń za klucznicą; a jak ją dojdzie, niech baba nie trzepie, nie rozprawia, i czem prędzej na łysego wsiada.</p>
+            <p>Hej! Grzesiu! Rembo! Zaraz wszystko będzie. <stage>(Rembo i Grzegorz wchodzą)</stage><lb/><stage>(Do Remba)</stage> Niech Kutasiński na łysego wsiędzie i dalej w pogoń za klucznicą; a jak ją dojdzie, niech baba nie trzepie, nie rozprawia, i czem prędzej na łysego wsiada.</p>
           </sp>
           <sp who="#kapelan">
             <speaker>KAPELAN.</speaker>
@@ -1952,7 +1952,7 @@
             <speaker>PORUCZNIK.</speaker>
             <p>Już ona sobie poradzi, tylko idź i powiedz. <stage>(Odchodzą w przeciwne strony)</stage></p>
           </sp>
-          <stage>(Major, Rotmistrz, Kapelan wychodzą bardzo ostrożnie i na palcach powoli postępują; mantelzaczki pod pachą, przy pałaszach. Dają sobie znak, aby być cicho, a zszedłszy się na środku, wychodzą oglądając się i powoli.<lb />Fruzia, a potem Juzia i Zuzia przebiegają ze drzwi do drzwi jak w scenie drugiej)</stage>
+          <stage>(Major, Rotmistrz, Kapelan wychodzą bardzo ostrożnie i na palcach powoli postępują; mantelzaczki pod pachą, przy pałaszach. Dają sobie znak, aby być cicho, a zszedłszy się na środku, wychodzą oglądając się i powoli.<lb/>Fruzia, a potem Juzia i Zuzia przebiegają ze drzwi do drzwi jak w scenie drugiej)</stage>
         </div>
         <div type="scene" n="21">
           <head>SCENA VI.</head>

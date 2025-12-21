@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000029" xml:lang="pol">
   <teiHeader>
@@ -88,7 +88,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1865">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -97,16 +97,16 @@
         <titlePage>
           <docTitle>
             <titlePart type="main">POLOWANIE NA MĘŻA.</titlePart>
-            <titlePart type="sub">KOMEDYA<lb />
+            <titlePart type="sub">KOMEDYA<lb/>
             z życia mieszczańskiego w dwóch aktach.</titlePart>
           </docTitle>
-          <byline>PRZEZ<lb />
+          <byline>PRZEZ<lb/>
             <docAuthor>MICHAŁA BAŁUCKIEGO</docAuthor>.
           </byline>
           <docImprint>
-              <pubPlace>LWÓW</pubPlace>.<lb />
-              NAKŁADEM KSIĘGARNI <name>ZELMANA IGLA</name>.<lb />
-              <address><street>Ulica Syxtuska <num>Nr. 131 2/4</num>.</street></address><lb />
+              <pubPlace>LWÓW</pubPlace>.<lb/>
+              NAKŁADEM KSIĘGARNI <name>ZELMANA IGLA</name>.<lb/>
+              <address><street>Ulica Syxtuska <num>Nr. 131 2/4</num>.</street></address><lb/>
               <date>1869</date>.
           </docImprint>
         </titlePage>
@@ -1000,7 +1000,7 @@
         <div type="scene" n="9">
           <head>Scena dziewiąta.</head>
           <stage type="setting">
-            <p></p>
+            <p/>
           </stage>
           <stage type="entrance">
             <p>
@@ -1504,7 +1504,7 @@
         <div type="scene" n="15">
           <head>Scena szósta.</head>
           <stage type="setting">
-            <p></p>
+            <p/>
           </stage>
           <stage type="entrance">
             <p>

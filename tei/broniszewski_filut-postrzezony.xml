@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000020" xml:lang="pol">
   <teiHeader>
@@ -96,38 +96,38 @@
   <standOff>
     <listEvent>
       <event type="print" when="1786">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
   <text>
     <front>
         <titlePage>
-          <titlePart type="series">TEATR<lb />
-          POLSKI<lb />
-          CZYLI<lb />
-          ZBIOR<lb />
-          KOMEDYI DRAMMY TRAGEDYI.<lb />
-          z naysławnieyszych autorow Francuzkich tłómaczonych, i przez aktorów Polskich na Teatrze Warszawskim granych.<lb />
-          TOM XVI.<lb />
-          w WARSZAWIE.<lb />
-          u P. DUFOUR Konsyliarza Nadwornego<lb />
-          J. K. Mci i Dyrek : Druk : Korp : Kadet :<lb />
+          <titlePart type="series">TEATR<lb/>
+          POLSKI<lb/>
+          CZYLI<lb/>
+          ZBIOR<lb/>
+          KOMEDYI DRAMMY TRAGEDYI.<lb/>
+          z naysławnieyszych autorow Francuzkich tłómaczonych, i przez aktorów Polskich na Teatrze Warszawskim granych.<lb/>
+          TOM XVI.<lb/>
+          w WARSZAWIE.<lb/>
+          u P. DUFOUR Konsyliarza Nadwornego<lb/>
+          J. K. Mci i Dyrek : Druk : Korp : Kadet :<lb/>
           M.DCC.XCIV.</titlePart>
           <docTitle>
-            <titlePart type="main">FILUT<lb />
+            <titlePart type="main">FILUT<lb/>
             POSTRZEŻONY</titlePart>
-            <titlePart type="sub">KOMEDIA<lb />
-            ORYGINALNA<lb />
+            <titlePart type="sub">KOMEDIA<lb/>
+            ORYGINALNA<lb/>
             WE TRZECH AKTACH</titlePart>
           </docTitle>
-          <byline>PRZEZ<lb />
+          <byline>PRZEZ<lb/>
             <docAuthor>GRZEGORZA BRONISZEWSKIEGO</docAuthor>
           </byline>
           <docImprint>
-              w <pubPlace>WARSZAWIE</pubPlace><lb />
+              w <pubPlace>WARSZAWIE</pubPlace><lb/>
               w Drukarni <name>P. DUFOUR</name>, Konsyl: Nadw: J. K. Mci,
-                Dyrektora Drukarni Korpusu Kadetów.<lb />
+                Dyrektora Drukarni Korpusu Kadetów.<lb/>
               <date>M. DCC. LXXXVI.</date>
           </docImprint>
         </titlePage>
@@ -191,8 +191,8 @@
     </front>
     <body>
       <div type="title">
-        <p>FILUT<lb />
-        POSTRZEŻONY<lb />
+        <p>FILUT<lb/>
+        POSTRZEŻONY<lb/>
         KOMEDIA.</p>
       </div>
       <div type="act" n="1">
@@ -1896,7 +1896,7 @@
           </sp>
           <sp who="#łatwowierski">
             <speaker>ŁATWOWIERSKI.</speaker>
-            <p><stage>(czyta)</stage> „Monsieur Wywiacki kochany przyiacielu. Jeżeliś goły, nie troskay się, wkrótce będziemy bogaci, walna mi tu do stu tysięcy trafia się partya, u poczciwego staruszka Łatwowierskiego. Jestem teraz w urzędzie, nazywaią mnie Skarbnikowiczem, y wszyscy Parafianie czołem prawie przedemną biią. Niechcę tak pomyślney opuszczać chwili, trzeba z osłów profitować. Zabawiam się teraz u Cześnikostwa Przytulińskich iego sąsiadów, ci prostaczkowie nie wiedząc co się stanie, naywiększą mi są pomocą do zyskania ręki namienionych pieniędzy. W tych dniach myślę zakończyć wszystko. Ułożyłem niektóre punkta, na które spodziewam się bez żadney trudności od mego mniemanego Teścia dostać pieniędzy... A tak zaręczyny zrobiwszy, a może y część wesela, pośpieszę do ciebie, zostawiwszy komu się podoba żonę... Jeżeli masz także iaką facyendę, uwiiay się co żywo, gdyż ia wkrótce do ciebie zbiegnę, y musiemy uiechać daley. Całuię się serdecznie, twóy przyiaciel y sługa,<lb /> Franciszek Szykanowicz.<lb /> A po tuteyszemu Skarbnikowicz Wendeński” ... No. Takiś to waść Panie zięciu?</p>
+            <p><stage>(czyta)</stage> „Monsieur Wywiacki kochany przyiacielu. Jeżeliś goły, nie troskay się, wkrótce będziemy bogaci, walna mi tu do stu tysięcy trafia się partya, u poczciwego staruszka Łatwowierskiego. Jestem teraz w urzędzie, nazywaią mnie Skarbnikowiczem, y wszyscy Parafianie czołem prawie przedemną biią. Niechcę tak pomyślney opuszczać chwili, trzeba z osłów profitować. Zabawiam się teraz u Cześnikostwa Przytulińskich iego sąsiadów, ci prostaczkowie nie wiedząc co się stanie, naywiększą mi są pomocą do zyskania ręki namienionych pieniędzy. W tych dniach myślę zakończyć wszystko. Ułożyłem niektóre punkta, na które spodziewam się bez żadney trudności od mego mniemanego Teścia dostać pieniędzy... A tak zaręczyny zrobiwszy, a może y część wesela, pośpieszę do ciebie, zostawiwszy komu się podoba żonę... Jeżeli masz także iaką facyendę, uwiiay się co żywo, gdyż ia wkrótce do ciebie zbiegnę, y musiemy uiechać daley. Całuię się serdecznie, twóy przyiaciel y sługa,<lb/> Franciszek Szykanowicz.<lb/> A po tuteyszemu Skarbnikowicz Wendeński” ... No. Takiś to waść Panie zięciu?</p>
           </sp>
           <sp who="#starosta">
             <speaker>STAROSTA.</speaker>

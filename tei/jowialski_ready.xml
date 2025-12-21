@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000035" xml:lang="pol">
   <teiHeader>
@@ -94,7 +94,7 @@
         <desc/>
       </event>
       <event type="print" when="1834">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
     <listRelation>
@@ -106,11 +106,11 @@
         <titlePage>
           <docTitle>
             <titlePart type="main">PAN JOWIALSKI.</titlePart>
-            <titlePart type="sub">KOMEDYA<lb />W CZTERECH AKTACH,<lb />PROZĄ.</titlePart>
+            <titlePart type="sub">KOMEDYA<lb/>W CZTERECH AKTACH,<lb/>PROZĄ.</titlePart>
           </docTitle>
           <epigraph>
-            <cit><quote>Głodnego żołądka bajką nie<lb />
-            zabawić, racyą nie odbyć.</quote><lb /> 
+            <cit><quote>Głodnego żołądka bajką nie<lb/>
+            zabawić, racyą nie odbyć.</quote><lb/> 
             <bibl>And. Max. Fredro.</bibl></cit>
           </epigraph>
         </titlePage>
@@ -300,7 +300,7 @@
           </sp>
           <sp who="#ludmir">
             <speaker>LUDMIR.</speaker>
-            <p><stage>(śpiewa)</stage> Niemądry, kto śród drogi<lb />Z przestrachu traci męztwo...</p>
+            <p><stage>(śpiewa)</stage> Niemądry, kto śród drogi<lb/>Z przestrachu traci męztwo...</p>
           </sp>
           <sp who="#wiktor">
             <speaker>WIKTOR.</speaker>
@@ -1112,7 +1112,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>Więc słuchajcie:<lb />Osiołkowi w żłoby dano<lb />W jeden owies, w drugi siano.<lb />Uchem strzyże, głową kręci,<lb />I to pachnie i to nęci;<lb />Od któregoż teraz zacznie,<lb />Aby sobie podjeść smacznie?<lb />Trudny wybór, trudna zgoda:<lb />Chwyci siano, owsa szkoda,<lb />Chwyci owies, żal mu siana.<lb />I tak stoi aż do rana,<lb />A od rana do wieczora;<lb />Aż nareszcie przyszła pora,<lb />Że Oślina pośród jadła<lb />Z głodu padła.</p>
+            <p>Więc słuchajcie:<lb/>Osiołkowi w żłoby dano<lb/>W jeden owies, w drugi siano.<lb/>Uchem strzyże, głową kręci,<lb/>I to pachnie i to nęci;<lb/>Od któregoż teraz zacznie,<lb/>Aby sobie podjeść smacznie?<lb/>Trudny wybór, trudna zgoda:<lb/>Chwyci siano, owsa szkoda,<lb/>Chwyci owies, żal mu siana.<lb/>I tak stoi aż do rana,<lb/>A od rana do wieczora;<lb/>Aż nareszcie przyszła pora,<lb/>Że Oślina pośród jadła<lb/>Z głodu padła.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>
@@ -1188,7 +1188,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p><stage>(biorąc za rękę syna i synową)</stage> Za pozwoleniem, jedno słówko, parę wierszyków:<lb />Kłódkę mąż żonie przywiózł na wiązanie,<lb />Kłódka! co za myśl! na cóż to, kochanie?<lb />Użyj jej jak chcesz, w jakimbądź sposobie,<lb />Byleś użyła, ja zawsze zarobię.</p>
+            <p><stage>(biorąc za rękę syna i synową)</stage> Za pozwoleniem, jedno słówko, parę wierszyków:<lb/>Kłódkę mąż żonie przywiózł na wiązanie,<lb/>Kłódka! co za myśl! na cóż to, kochanie?<lb/>Użyj jej jak chcesz, w jakimbądź sposobie,<lb/>Byleś użyła, ja zawsze zarobię.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>
@@ -1347,7 +1347,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>Słuchajcie więc:<lb />Głupie wszystkie ptaki!<lb />Rzekła sowa.<lb />Na te słowa<lb />Jaki taki<lb />Dalej w krzaki:<lb />Miłość własną ma i ptak.<lb />Ale śmielszy stary szpak<lb />Gwiźnie, skoczy<lb />Jej przed oczy,<lb />I zapyta Jejmość pani,<lb />Z jakich przyczyn wszystkich gani?<lb /> Boście ślepi. Bośmy ślepi?<lb />A któż widzi lepiej?<lb /> Ja bez słońca pomocy<lb />Widzę w nocy.<lb />Na to odrzekł stary szpak:<lb />Widzieć zawsze wszystkim wspak,<lb />To nie chluba,<lb />Sowo luba.<lb />Możeś mądra – niech tak będzie,<lb />Lecz twą mądrość kryje cień,<lb />A tymczasem słychać wszędzie:<lb />Każda sowa głupia w dzień.</p>
+            <p>Słuchajcie więc:<lb/>Głupie wszystkie ptaki!<lb/>Rzekła sowa.<lb/>Na te słowa<lb/>Jaki taki<lb/>Dalej w krzaki:<lb/>Miłość własną ma i ptak.<lb/>Ale śmielszy stary szpak<lb/>Gwiźnie, skoczy<lb/>Jej przed oczy,<lb/>I zapyta Jejmość pani,<lb/>Z jakich przyczyn wszystkich gani?<lb/> Boście ślepi. Bośmy ślepi?<lb/>A któż widzi lepiej?<lb/> Ja bez słońca pomocy<lb/>Widzę w nocy.<lb/>Na to odrzekł stary szpak:<lb/>Widzieć zawsze wszystkim wspak,<lb/>To nie chluba,<lb/>Sowo luba.<lb/>Możeś mądra – niech tak będzie,<lb/>Lecz twą mądrość kryje cień,<lb/>A tymczasem słychać wszędzie:<lb/>Każda sowa głupia w dzień.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>
@@ -3028,7 +3028,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>Powtarzam jeszcze, że nie stosuję do osób – zaczynam:<lb />Rada małpa, że się śmieli,<lb />Kiedy mogła udać człeka,<lb />Widząc panią raz w kąpieli,<lb />Wlazła pod stół – cicho czeka.<lb />Pani wyszła, drzwi zamknęła,<lb />Małpa figlarz nuż do dzieła!<lb />Wziąwszy pański czepek ranny,<lb />Prześcieradło<lb />I zwierciadło,<lb />Szust do wanny!<lb />Dalej kurki kręcić żwawo<lb />W lewo, w prawo,<lb />Z dołu, z góry,<lb />Aż się ukrop puścił z rury,<lb />Ciepło – miło – niebo – raj!<lb />Małpa myśli: w to mi graj;<lb />Hajże kozły, nurki, zwroty,<lb />Figle, psoty,<lb />Aż się wody pod nią mącą.<lb />Ale ciepła coś za wiele...<lb />Trochę nadto... Ba, gorąco!...<lb />Fraszka! Małpa nie ciele,<lb />Sobie poradzi:<lb />Zkąd ukrop ciecze,<lb />Tam palec wsadzi.<lb />Aj gwałtu! piecze!<lb />Niema co czekać:<lb />Małpa w nogi<lb />Ukrop za nią – tuż, tuż w tropy,<lb />Aż pod progi.<lb />Tu nie żarty, parzy stopy...<lb />Dalej w okno... brzęk! – uciekła.<lb />Że tylko palce popiekła,<lb />Nader szczęśliwa.<lb />Takto zwykle małpom bywa.</p>
+            <p>Powtarzam jeszcze, że nie stosuję do osób – zaczynam:<lb/>Rada małpa, że się śmieli,<lb/>Kiedy mogła udać człeka,<lb/>Widząc panią raz w kąpieli,<lb/>Wlazła pod stół – cicho czeka.<lb/>Pani wyszła, drzwi zamknęła,<lb/>Małpa figlarz nuż do dzieła!<lb/>Wziąwszy pański czepek ranny,<lb/>Prześcieradło<lb/>I zwierciadło,<lb/>Szust do wanny!<lb/>Dalej kurki kręcić żwawo<lb/>W lewo, w prawo,<lb/>Z dołu, z góry,<lb/>Aż się ukrop puścił z rury,<lb/>Ciepło – miło – niebo – raj!<lb/>Małpa myśli: w to mi graj;<lb/>Hajże kozły, nurki, zwroty,<lb/>Figle, psoty,<lb/>Aż się wody pod nią mącą.<lb/>Ale ciepła coś za wiele...<lb/>Trochę nadto... Ba, gorąco!...<lb/>Fraszka! Małpa nie ciele,<lb/>Sobie poradzi:<lb/>Zkąd ukrop ciecze,<lb/>Tam palec wsadzi.<lb/>Aj gwałtu! piecze!<lb/>Niema co czekać:<lb/>Małpa w nogi<lb/>Ukrop za nią – tuż, tuż w tropy,<lb/>Aż pod progi.<lb/>Tu nie żarty, parzy stopy...<lb/>Dalej w okno... brzęk! – uciekła.<lb/>Że tylko palce popiekła,<lb/>Nader szczęśliwa.<lb/>Takto zwykle małpom bywa.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>
@@ -3080,7 +3080,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>Przebacz Waćpan niezgrabność, mówił kat łotrowi,<lb />Pierwszy raz dzisiaj wieszam, jestem nowym katem.<lb />Proszę się nie żenować, łotr grzecznie odpowie,<lb />Pierwszy raz mnie wieszają, nie poznam się na tem.</p>
+            <p>Przebacz Waćpan niezgrabność, mówił kat łotrowi,<lb/>Pierwszy raz dzisiaj wieszam, jestem nowym katem.<lb/>Proszę się nie żenować, łotr grzecznie odpowie,<lb/>Pierwszy raz mnie wieszają, nie poznam się na tem.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>
@@ -3303,7 +3303,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>Dobrze, Najjaśniejszy Panie. <stage>(na stronie)</stage> Ucieszne stworzenie! <stage>(do syna)</stage> Panie Janie, słuchaj:<lb />Najczęściej sprzeczka z niczego się wznieci,<lb />Jak to między małżeństwem raz poszło o dzieci.<lb />Mąż utrzymywał że lubo nadobne,<lb />Jednak do niego całkiem niepodobne;<lb />Żona zaś powtarzała: podobne z urody<lb />Do swego ojca, jak dwie krople wody.<lb />O cóż im chodzi? wszystkich sprzeczką zadziwili,<lb />Bo żona prawdę mówi, a mąż się nie myli.</p>
+            <p>Dobrze, Najjaśniejszy Panie. <stage>(na stronie)</stage> Ucieszne stworzenie! <stage>(do syna)</stage> Panie Janie, słuchaj:<lb/>Najczęściej sprzeczka z niczego się wznieci,<lb/>Jak to między małżeństwem raz poszło o dzieci.<lb/>Mąż utrzymywał że lubo nadobne,<lb/>Jednak do niego całkiem niepodobne;<lb/>Żona zaś powtarzała: podobne z urody<lb/>Do swego ojca, jak dwie krople wody.<lb/>O cóż im chodzi? wszystkich sprzeczką zadziwili,<lb/>Bo żona prawdę mówi, a mąż się nie myli.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>
@@ -3359,7 +3359,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p><stage>(po krótkiem milczeniu)</stage> Ażeby dostać kawałek kiełbasy,<lb />Zgodnym sposobem wziął chłopiec trzy basy.<lb />Ledwie się strzepnął i skarbem nabytym<lb />Łzy ocierając, powąchał go przytem,<lb />Biegnie ze szkoły wygłodniały żaczek:<lb />"Stój! krzyczy – nie jedz, odkupię przysmaczek".<lb />Mądryś! odpowie właściciel kiełbasy,<lb />Dopiero za nią dostałem trzy basy.<lb />Dajże mi pięć, a daj ją zjeść.<lb />Targ w targ, wyrzepił mu sześć,<lb />I dał<lb />Co miał.<lb />Grosz na groszu – lichwa czysta,<lb />Jednak kapitalista<lb />Rozważywszy sobie,<lb />Coś się w głowę skrobie.<lb />Nie tylko to szkolne żaki,<lb />Biorą z handlów skutek taki<lb />Często<lb />Gęsto<lb />Los szalony,<lb />Gdy z rachubą pójdzie w tuzy,<lb />Stratą – plony;<lb />Zyskiem – guzy.</p>
+            <p><stage>(po krótkiem milczeniu)</stage> Ażeby dostać kawałek kiełbasy,<lb/>Zgodnym sposobem wziął chłopiec trzy basy.<lb/>Ledwie się strzepnął i skarbem nabytym<lb/>Łzy ocierając, powąchał go przytem,<lb/>Biegnie ze szkoły wygłodniały żaczek:<lb/>"Stój! krzyczy – nie jedz, odkupię przysmaczek".<lb/>Mądryś! odpowie właściciel kiełbasy,<lb/>Dopiero za nią dostałem trzy basy.<lb/>Dajże mi pięć, a daj ją zjeść.<lb/>Targ w targ, wyrzepił mu sześć,<lb/>I dał<lb/>Co miał.<lb/>Grosz na groszu – lichwa czysta,<lb/>Jednak kapitalista<lb/>Rozważywszy sobie,<lb/>Coś się w głowę skrobie.<lb/>Nie tylko to szkolne żaki,<lb/>Biorą z handlów skutek taki<lb/>Często<lb/>Gęsto<lb/>Los szalony,<lb/>Gdy z rachubą pójdzie w tuzy,<lb/>Stratą – plony;<lb/>Zyskiem – guzy.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>
@@ -3594,7 +3594,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>Hola, hola! byś tak nie skończył, jak ów kłamca – słuchajcie:<lb />Jeżeli kłamię, niech mnie piorun trzaśnie!<lb />Tak zaczął kłamca – wtem zagrzmiało właśnie.<lb />A on czem prędzej dokończając mowy:<lb />Żem zawsze kłamał i kłamać gotowy.</p>
+            <p>Hola, hola! byś tak nie skończył, jak ów kłamca – słuchajcie:<lb/>Jeżeli kłamię, niech mnie piorun trzaśnie!<lb/>Tak zaczął kłamca – wtem zagrzmiało właśnie.<lb/>A on czem prędzej dokończając mowy:<lb/>Żem zawsze kłamał i kłamać gotowy.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>
@@ -3612,7 +3612,7 @@
         <div type="scene" n="25">
           <head>SCENA I.</head>
           <stage type="setting">
-            <p></p>
+            <p/>
           </stage>
           <stage type="entrance">
             <p>
@@ -3621,7 +3621,7 @@
           </stage>
           <sp who="#szambelan">
             <speaker>SZAMBELAN.</speaker>
-            <p><stage>(sam)<lb />(siedzi przy stoliku, na którym leży kilka patyczków i nucąc jeden struże – potem przymierza do już ustruganego)</stage> Jeszcze trzeba strugać. <stage>(nuci i struże, po krótkiem milczeniu)</stage> Gruby można zestrugać, ale cienki, zje kaduka, kto grubszym zrobi. <stage>(po krótkiem milczeniu, rozśmiawszy się)</stage> Pewnie że nikt nie potrafi. <stage>(po krótkiem milczeniu)</stage> Z tego by nawet można przysłowie wymyśleć – naprzykład: Łatwo grubemu kijkowi... nie: Łatwiej cienki... źle: Gruby cienkiego kijka... nie, nie: Łatwo kijek grubowego... Bodaj cię! z grubego na gruby... czy kaduk nadał! <stage>(śmieje się)</stage> Ani rusz! <stage>(przymierza patyki)</stage> Tymczasem dość będzie.</p>
+            <p><stage>(sam)<lb/>(siedzi przy stoliku, na którym leży kilka patyczków i nucąc jeden struże – potem przymierza do już ustruganego)</stage> Jeszcze trzeba strugać. <stage>(nuci i struże, po krótkiem milczeniu)</stage> Gruby można zestrugać, ale cienki, zje kaduka, kto grubszym zrobi. <stage>(po krótkiem milczeniu, rozśmiawszy się)</stage> Pewnie że nikt nie potrafi. <stage>(po krótkiem milczeniu)</stage> Z tego by nawet można przysłowie wymyśleć – naprzykład: Łatwo grubemu kijkowi... nie: Łatwiej cienki... źle: Gruby cienkiego kijka... nie, nie: Łatwo kijek grubowego... Bodaj cię! z grubego na gruby... czy kaduk nadał! <stage>(śmieje się)</stage> Ani rusz! <stage>(przymierza patyki)</stage> Tymczasem dość będzie.</p>
           </sp>
         </div>
         <div type="scene" n="26">
@@ -3849,7 +3849,7 @@
         <div type="scene" n="27">
           <head>SCENA III.</head>
           <stage type="setting">
-            <p></p>
+            <p/>
           </stage>
           <stage type="entrance">
             <p>
@@ -4680,7 +4680,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>W tem to sensie następujące cztery wierszyki:<lb />Miły deszczyk, rzekł rolnik, życie niesie wszędzie,<lb />Wszystko nam z ziemi dobędzie.<lb />Boże uchowaj! krzyknął sąsiad przestraszony,<lb />Ja tam mam trzy żony.</p>
+            <p>W tem to sensie następujące cztery wierszyki:<lb/>Miły deszczyk, rzekł rolnik, życie niesie wszędzie,<lb/>Wszystko nam z ziemi dobędzie.<lb/>Boże uchowaj! krzyknął sąsiad przestraszony,<lb/>Ja tam mam trzy żony.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>
@@ -4966,7 +4966,7 @@
           </stage>
           <sp who="#wiktor">
             <speaker>WIKTOR.</speaker>
-            <p><stage>(z kilku klatkami)</stage> A, już dłużej i anioł nie wytrzyma! <stage>(rzuca klatki o ziemię w głąb sceny)</stage> Panie, jak się zowiesz! można tu koni dostać do najęcia? <stage>(Janusz spojrzawszy, dalej chodzi)<lb />(Wiktor głośniej)</stage> Czy tu dostanie koni do najęcia? <stage>(Janusz milczy)<lb />(Wiktor w złości)</stage> Panie, ja grzecznie pytam się po raz trzeci...</p>
+            <p><stage>(z kilku klatkami)</stage> A, już dłużej i anioł nie wytrzyma! <stage>(rzuca klatki o ziemię w głąb sceny)</stage> Panie, jak się zowiesz! można tu koni dostać do najęcia? <stage>(Janusz spojrzawszy, dalej chodzi)<lb/>(Wiktor głośniej)</stage> Czy tu dostanie koni do najęcia? <stage>(Janusz milczy)<lb/>(Wiktor w złości)</stage> Panie, ja grzecznie pytam się po raz trzeci...</p>
           </sp>
           <sp who="#janusz">
             <speaker>JANUSZ.</speaker>
@@ -5154,7 +5154,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>Zaraz wam powiem bajeczkę. Słuchajcie:<lb />Na dziedzińcu przy kurniku<lb />Krzyknął kogut kukuryku;<lb />Kukuryku krzyknął drugi,<lb />I dalej w czuby.<lb />Biją skrzydła jak kańczugi,<lb />Dziobią dzioby,<lb />Drą pazury<lb />Aż do skóry.<lb />Już krew kapie, pierze leci<lb />Z kwoczką uszedł rywal trzeci.<lb />A wtem indor dmuchnął: Hola!<lb />Stała się jego wola.<lb />O co idzie, o co chodzi?<lb />Indor was pogodzi.<lb />Na to oba, każdy sobie:<lb />Przedrzeźniał się mej osobie.<lb />Moi panowie,<lb />Indor powie:<lb />Niepotrzebnie się czubiło,<lb />Przedrzeźniania tu nie było;<lb />Obydwa z jednej zapialiście nuty,<lb />Boście obydwa koguty.<lb />Kiedy głupstwo jeden powie,<lb />Głupstwo drugi mu odpowie;<lb />Potem płacą życiem, zdrowiem:<lb />Co rzec na to? Wiem – nie powiem.</p>
+            <p>Zaraz wam powiem bajeczkę. Słuchajcie:<lb/>Na dziedzińcu przy kurniku<lb/>Krzyknął kogut kukuryku;<lb/>Kukuryku krzyknął drugi,<lb/>I dalej w czuby.<lb/>Biją skrzydła jak kańczugi,<lb/>Dziobią dzioby,<lb/>Drą pazury<lb/>Aż do skóry.<lb/>Już krew kapie, pierze leci<lb/>Z kwoczką uszedł rywal trzeci.<lb/>A wtem indor dmuchnął: Hola!<lb/>Stała się jego wola.<lb/>O co idzie, o co chodzi?<lb/>Indor was pogodzi.<lb/>Na to oba, każdy sobie:<lb/>Przedrzeźniał się mej osobie.<lb/>Moi panowie,<lb/>Indor powie:<lb/>Niepotrzebnie się czubiło,<lb/>Przedrzeźniania tu nie było;<lb/>Obydwa z jednej zapialiście nuty,<lb/>Boście obydwa koguty.<lb/>Kiedy głupstwo jeden powie,<lb/>Głupstwo drugi mu odpowie;<lb/>Potem płacą życiem, zdrowiem:<lb/>Co rzec na to? Wiem – nie powiem.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>
@@ -5230,7 +5230,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>Do mojego pokoju! pójdzie myszka między koty. Kieliszek wadzi, kieliszek radzi. Znacie tę piosneczkę?<lb />Jak mnie kochasz, dolej szczerze,<lb />Bo cię kuflem w łeb uderzę...<lb />Wypijemy sobie po kieliszku i zgoda. - Rybom woda, ludziom zgoda, bez niej nic. Proszę do mnie, proszę.</p>
+            <p>Do mojego pokoju! pójdzie myszka między koty. Kieliszek wadzi, kieliszek radzi. Znacie tę piosneczkę?<lb/>Jak mnie kochasz, dolej szczerze,<lb/>Bo cię kuflem w łeb uderzę...<lb/>Wypijemy sobie po kieliszku i zgoda. - Rybom woda, ludziom zgoda, bez niej nic. Proszę do mnie, proszę.</p>
           </sp>
           <sp who="#szambelanowa">
             <speaker>SZAMBELANOWA.</speaker>
@@ -5641,7 +5641,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>Ale wracając do bajki – słuchajcie:<lb />Z pięknej róży motyl płowy,<lb />Wychyliwszy trochę głowy,<lb />Zwołał braci rój niestały.<lb />Nuż prawić morały,<lb />Stałość wychwalać,<lb />Do cnoty zapalać,<lb />I we wszystkiem co rozprawiał,<lb />Siebie za przykład wystawiał;<lb />Słowem, nagadał i nałajał tyle,<lb />Że o poprawie myśleć zaczęły motyle.<lb />Wtem jakiś młodzik na fijołku siada,<lb />I tak powiada:<lb />Nie wierzajcie co on prawi,<lb />Ja powiem, czemu latać go nie bawi.<lb />Oto przed kilku chwilami,<lb />Gdy aż do znoju swawolił z kwiatkami,<lb />Nadszedł starzec, co kosą wszystko w swojej drodze<lb />Wycina i niszczy srodze,<lb />Co ciągle idzie, nigdy nie odpocznie w trudzie,<lb />Ten to sam, co go Czasem nazywają ludzie;<lb />Nadszedł, a w koło ostrem tnąc żelazem,<lb />Podciął i braciszkowi skrzydełka zarazem.<lb />Dlatego stałość chwali, jednę lubi różę<lb />Bo sam już latać nie może. <stage>(kłaniając się z pierwszym następującym wierszem żonie)</stage> Nie jest tu moją myślą, młode, piękne panie,<lb />Często zbyt płoche pochwalać latanie,<lb />Ale słuchając nie jednej matrony,<lb />Trzeba wyznać z drugiej strony,<lb />Że i to motyl... <stage>(ciszej do Ludmira)</stage> ale motyl obarczony.</p>
+            <p>Ale wracając do bajki – słuchajcie:<lb/>Z pięknej róży motyl płowy,<lb/>Wychyliwszy trochę głowy,<lb/>Zwołał braci rój niestały.<lb/>Nuż prawić morały,<lb/>Stałość wychwalać,<lb/>Do cnoty zapalać,<lb/>I we wszystkiem co rozprawiał,<lb/>Siebie za przykład wystawiał;<lb/>Słowem, nagadał i nałajał tyle,<lb/>Że o poprawie myśleć zaczęły motyle.<lb/>Wtem jakiś młodzik na fijołku siada,<lb/>I tak powiada:<lb/>Nie wierzajcie co on prawi,<lb/>Ja powiem, czemu latać go nie bawi.<lb/>Oto przed kilku chwilami,<lb/>Gdy aż do znoju swawolił z kwiatkami,<lb/>Nadszedł starzec, co kosą wszystko w swojej drodze<lb/>Wycina i niszczy srodze,<lb/>Co ciągle idzie, nigdy nie odpocznie w trudzie,<lb/>Ten to sam, co go Czasem nazywają ludzie;<lb/>Nadszedł, a w koło ostrem tnąc żelazem,<lb/>Podciął i braciszkowi skrzydełka zarazem.<lb/>Dlatego stałość chwali, jednę lubi różę<lb/>Bo sam już latać nie może. <stage>(kłaniając się z pierwszym następującym wierszem żonie)</stage> Nie jest tu moją myślą, młode, piękne panie,<lb/>Często zbyt płoche pochwalać latanie,<lb/>Ale słuchając nie jednej matrony,<lb/>Trzeba wyznać z drugiej strony,<lb/>Że i to motyl... <stage>(ciszej do Ludmira)</stage> ale motyl obarczony.</p>
           </sp>
           <sp who="#ludmir">
             <speaker>LUDMIR.</speaker>
@@ -5717,7 +5717,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>Słuchaj więc:<lb />Paweł i Gaweł w jednym stali domu,<lb />Paweł na górze, a Gaweł na dole,<lb />Paweł spokojny, nie wadził nikomu,<lb />Gaweł najdziksze wymyślał swawole.<lb />Ciągle polował po swoim pokoju:<lb />To pies, to zając – między stoły, stołki<lb />Gonił, uciekał, wywracał koziołki,<lb />Strzelał i trąbił i krzyczał do znoju.<lb />Znosił to Paweł, nareszcie nie może;<lb />Schodzi do Gawła i prosi w pokorze:<lb />Zmiłuj się Waćpan, poluj ciszej nieco,<lb />Bo mi na górze szyby z okien lecą.<lb />A na to Gaweł: Wolnoć Tomku w swoim domku.<lb />Cóż było mówić? Paweł ani pisnął,<lb />Wrócił do siebie i czapkę nacisnął.<lb />Nazajutrz Gaweł jeszcze smacznie chrapie,<lb />A tu z powały coś mu na nos kapie,<lb />Zerwał się z łóżka i pędzi na górę:<lb />Stuk! puk! zamknięte. Spogląda przez dziurę,<lb />I widzi – cóż tam? cały pokój w wodzie,<lb />A Paweł z wędką siedzi na komodzie.<lb />– Co Waćpan robisz? – Ryby sobie łowię.<lb />– Ależ Mospanie, mnie kapie po głowie.<lb />A Paweł na to: Wolnoć Tomku w swoim domku.<lb />Z tejto powiastki morał w tym sposobie:<lb />Jak ty komu, tak on tobie.</p>
+            <p>Słuchaj więc:<lb/>Paweł i Gaweł w jednym stali domu,<lb/>Paweł na górze, a Gaweł na dole,<lb/>Paweł spokojny, nie wadził nikomu,<lb/>Gaweł najdziksze wymyślał swawole.<lb/>Ciągle polował po swoim pokoju:<lb/>To pies, to zając – między stoły, stołki<lb/>Gonił, uciekał, wywracał koziołki,<lb/>Strzelał i trąbił i krzyczał do znoju.<lb/>Znosił to Paweł, nareszcie nie może;<lb/>Schodzi do Gawła i prosi w pokorze:<lb/>Zmiłuj się Waćpan, poluj ciszej nieco,<lb/>Bo mi na górze szyby z okien lecą.<lb/>A na to Gaweł: Wolnoć Tomku w swoim domku.<lb/>Cóż było mówić? Paweł ani pisnął,<lb/>Wrócił do siebie i czapkę nacisnął.<lb/>Nazajutrz Gaweł jeszcze smacznie chrapie,<lb/>A tu z powały coś mu na nos kapie,<lb/>Zerwał się z łóżka i pędzi na górę:<lb/>Stuk! puk! zamknięte. Spogląda przez dziurę,<lb/>I widzi – cóż tam? cały pokój w wodzie,<lb/>A Paweł z wędką siedzi na komodzie.<lb/>– Co Waćpan robisz? – Ryby sobie łowię.<lb/>– Ależ Mospanie, mnie kapie po głowie.<lb/>A Paweł na to: Wolnoć Tomku w swoim domku.<lb/>Z tejto powiastki morał w tym sposobie:<lb/>Jak ty komu, tak on tobie.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>
@@ -6884,7 +6884,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p><stage>(przytrzymując go za rękę)</stage> Słuchaj:<lb />Na ciemnym jarzębie.<lb />Młody czyżyk siadł przy ziębie,<lb />A że zawsze myśl w nim płocha,<lb />Ledwie zoczył jużci kocha.<lb />Lecz uważa, prócz urody,<lb />W tem już baczny lubo młody<lb />Że ptaszyna ma w udziele<lb />W swem mieszkaniu ziarna wiele.<lb />Tem mieszkaniem domek mały:<lb />Drobne kratki go składały,<lb />I szczeblikiem drzwi podparte<lb />Stały otwarte.</p>
+            <p><stage>(przytrzymując go za rękę)</stage> Słuchaj:<lb/>Na ciemnym jarzębie.<lb/>Młody czyżyk siadł przy ziębie,<lb/>A że zawsze myśl w nim płocha,<lb/>Ledwie zoczył jużci kocha.<lb/>Lecz uważa, prócz urody,<lb/>W tem już baczny lubo młody<lb/>Że ptaszyna ma w udziele<lb/>W swem mieszkaniu ziarna wiele.<lb/>Tem mieszkaniem domek mały:<lb/>Drobne kratki go składały,<lb/>I szczeblikiem drzwi podparte<lb/>Stały otwarte.</p>
           </sp>
           <sp who="#szambelan">
             <speaker>SZAMBELAN.</speaker>
@@ -6892,7 +6892,7 @@
           </sp>
           <sp who="#pan_jowialski">
             <speaker>PAN JOWIALSKI.</speaker>
-            <p>Uważał czyżyk dość długo, a potem<lb />Lekkim zbliżył się lotem.<lb />Nuci, śpiewa, bawi,<lb />O miłości prawi,<lb />Wzajemności żąda,<lb />A na proso wciąż pogląda;<lb />Zięba zaś swoim zwyczajem,<lb />Wdzięczy się nawzajem.<lb />Zięba nadobnej była urody,<lb />A czyżyk młody.<lb />Pokarm był piękny, liczny, dorodny,<lb />A czyżyk głodny.<lb />Nie myśląc więc wiele,<lb />Posunął się śmiele,<lb />Lecz ledwie przy kratce...<lb />Trzask! – Czyżyk w klatce.<lb />Zrazu pieszczoty zięby, jej głos miły,<lb />Myśli niewoli z główki oddaliły,<lb />Lecz niedługa<lb />Ta usługa.<lb />Jakby nie ta co z początku,<lb />Dumała gdzieś w swoim kątku,<lb />A gdy czyżyk, grzecznie, ładnie<lb />O śpiewanie ją zagadnie;<lb />Huknie,<lb />Fuknie:<lb />Ja póty wabię, pókim sama w domu,<lb />Póki mi trzeba podobać się komu.<lb />Choć westchnął czyżyk nad dzielnością mowy<lb />Nie stracił głowy,<lb />Wspomniał o prosie;<lb />Wziął się do niego. Lecz o smutny losie!<lb />O nadziejo marna!<lb />Dużo tam łupek, a niewiele ziarna<lb />Westchnął jeszcze i wzdychał, ale nic nie zmienił<lb />Nie jeden jest czyżykiem co się dziś ożenił.</p>
+            <p>Uważał czyżyk dość długo, a potem<lb/>Lekkim zbliżył się lotem.<lb/>Nuci, śpiewa, bawi,<lb/>O miłości prawi,<lb/>Wzajemności żąda,<lb/>A na proso wciąż pogląda;<lb/>Zięba zaś swoim zwyczajem,<lb/>Wdzięczy się nawzajem.<lb/>Zięba nadobnej była urody,<lb/>A czyżyk młody.<lb/>Pokarm był piękny, liczny, dorodny,<lb/>A czyżyk głodny.<lb/>Nie myśląc więc wiele,<lb/>Posunął się śmiele,<lb/>Lecz ledwie przy kratce...<lb/>Trzask! – Czyżyk w klatce.<lb/>Zrazu pieszczoty zięby, jej głos miły,<lb/>Myśli niewoli z główki oddaliły,<lb/>Lecz niedługa<lb/>Ta usługa.<lb/>Jakby nie ta co z początku,<lb/>Dumała gdzieś w swoim kątku,<lb/>A gdy czyżyk, grzecznie, ładnie<lb/>O śpiewanie ją zagadnie;<lb/>Huknie,<lb/>Fuknie:<lb/>Ja póty wabię, pókim sama w domu,<lb/>Póki mi trzeba podobać się komu.<lb/>Choć westchnął czyżyk nad dzielnością mowy<lb/>Nie stracił głowy,<lb/>Wspomniał o prosie;<lb/>Wziął się do niego. Lecz o smutny losie!<lb/>O nadziejo marna!<lb/>Dużo tam łupek, a niewiele ziarna<lb/>Westchnął jeszcze i wzdychał, ale nic nie zmienił<lb/>Nie jeden jest czyżykiem co się dziś ożenił.</p>
           </sp>
           <sp who="#pani_jowialska">
             <speaker>PANI JOWIALSKA.</speaker>

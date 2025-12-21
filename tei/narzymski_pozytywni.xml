@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000014" xml:lang="pol">
   <teiHeader>
@@ -106,7 +106,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1875">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
     <listRelation>
@@ -122,17 +122,17 @@
             <titlePart type="sub">KOMEDYA W CZTERECH AKTACH</titlePart>
           </docTitle>
           <note>
-            <p>PREMIOWANA<lb />
-            pierwszą nagrodą na konkursie krakowskim<lb />
+            <p>PREMIOWANA<lb/>
+            pierwszą nagrodą na konkursie krakowskim<lb/>
             1872 r.</p>
           </note>
           <docImprint>
-            <pubPlace>WARSZAWA</pubPlace><lb />
-            NAKŁADEM KSIĘGARNI <name>CELSA LEWICKIEGO</name> I SP.<lb />
-            Druk <name>K. Kowalewskiego</name> <address><street>ul. Królewska, <num>N. 23</num>.</street></address><lb />
-            <date>1875</date>.<lb />
+            <pubPlace>WARSZAWA</pubPlace><lb/>
+            NAKŁADEM KSIĘGARNI <name>CELSA LEWICKIEGO</name> I SP.<lb/>
+            Druk <name>K. Kowalewskiego</name> <address><street>ul. Królewska, <num>N. 23</num>.</street></address><lb/>
+            <date>1875</date>.<lb/>
           </docImprint>
-          <imprimatur>Дозволено Цьнзурою<lb />
+          <imprimatur>Дозволено Цьнзурою<lb/>
           Варшава, 25 Сентября 1874 г.</imprimatur>
         </titlePage>
         <castList>
@@ -5555,7 +5555,7 @@
         <div type="scene" n="62">
           <head>SCENA XIV.</head>
           <stage type="setting">
-            <p></p>
+            <p/>
           </stage>
           <stage type="entrance">
             <p>

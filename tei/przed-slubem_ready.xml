@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000049" xml:lang="pol">
   <teiHeader>
@@ -94,7 +94,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1875">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -105,17 +105,17 @@
             <titlePart type="main">PRZED ŚLUBEM.</titlePart>
             <titlePart type="sub">KOMEDYA W 5CIU AKTACH</titlePart>
           </docTitle>
-          <byline>PRZEZ<lb />
+          <byline>PRZEZ<lb/>
             <docAuthor>Kazimierza Zalewskiego.</docAuthor>
           </byline>
           <docImprint>
               <pubPlace>WARSZAWA.</pubPlace>
-              NAKŁADEM I DRUKIEM <name>JANA NOSKOWSKIEGO,</name><lb />
-              <address><street>ul. Mazowiecka, <num>11</num>.</street></address><lb />
+              NAKŁADEM I DRUKIEM <name>JANA NOSKOWSKIEGO,</name><lb/>
+              <address><street>ul. Mazowiecka, <num>11</num>.</street></address><lb/>
               <date>1875.</date>
           </docImprint>
-          <imprimatur>Дозволено Цьнзурою.<lb />
-          Варшава, 25 Іюля (6 Августа) 1875 г.<lb /></imprimatur>
+          <imprimatur>Дозволено Цьнзурою.<lb/>
+          Варшава, 25 Іюля (6 Августа) 1875 г.<lb/></imprimatur>
         </titlePage>
         <castList>
           <head>OSOBY:</head>
@@ -490,7 +490,7 @@
           </sp>
           <sp who="#uszyński">
             <speaker>USZYŃSKI.</speaker>
-            <p><stage>(jedząc)</stage> Otóż muszę ci powiedzieć kochany przyjacielu, że życie w Mławie szczególniéj z początku nie było bardzo wesołe, – zwyczajnie życie na prowincyi. W karty grać nie umiałem, do rozpuszczania plotek nie miałem wprawy, pozycya moja nie nazbyt świetna nie czyniła mnie przyjemnym dla panien na wydaniu. Jednem słowem byłem nieużytecznym członkiem towarzystwa Mławskiego. Odbijałem się za to jak mogłem na Horacym i Virgilim. Zrobiłem nawet waryant na:<lb />ille ego qui quondam gracili modulatus avena;<lb />zmieniając na:<lb />ille ego qui quondam Moscoviae et Petri in urbe.<lb />Nawiasem mówiąc miałem wątpliwość jak przetłumaczyć Petersburg, miasto to bowiem nie było znane w starożytności.</p>
+            <p><stage>(jedząc)</stage> Otóż muszę ci powiedzieć kochany przyjacielu, że życie w Mławie szczególniéj z początku nie było bardzo wesołe, – zwyczajnie życie na prowincyi. W karty grać nie umiałem, do rozpuszczania plotek nie miałem wprawy, pozycya moja nie nazbyt świetna nie czyniła mnie przyjemnym dla panien na wydaniu. Jednem słowem byłem nieużytecznym członkiem towarzystwa Mławskiego. Odbijałem się za to jak mogłem na Horacym i Virgilim. Zrobiłem nawet waryant na:<lb/>ille ego qui quondam gracili modulatus avena;<lb/>zmieniając na:<lb/>ille ego qui quondam Moscoviae et Petri in urbe.<lb/>Nawiasem mówiąc miałem wątpliwość jak przetłumaczyć Petersburg, miasto to bowiem nie było znane w starożytności.</p>
           </sp>
           <sp who="#august">
             <speaker>AUGUST.</speaker>
@@ -3239,7 +3239,7 @@
           </stage>
           <sp who="#muszkat">
             <speaker>MUSZKAT.</speaker>
-            <p><stage>(wchodzi i rozgląda się w około)</stage><lb /><stage>(po małéj pauzie)</stage> Fiu! fiu! <stage>(spostrzega kwiaty wącha i ogląda wazonik)</stage> Ho! ho! <stage>(ogląda obrazy na ścianie)</stage> Tu coś jest. Pokój porządnie zamieciony, obrazy porozwieszane starannie... i te kwiaty!... fijołki w Marcu! Proszę, co najmniéj jakaś księżniczka. Złapał się robaczek w jakieś sidła. Czyżby Róża? Eh nie, ją przyjmował na śmieciach. Dla kogóż u licha tak się rujnuje? <stage>(idzie do stolika i otwiera szufladę)</stage> A zbrodniarz! nawet o tytoniu dla mnie zapomniał... To historya nie na żart. Zobaczmy co on tam bazgrze. <stage>(idzie do sztalug i zdejmuje płótno)</stage> Aha! jest i corpus delicti, znalazła się królowa. Bo że to ona, tobym przysiągł. Jegomość ma wcale nie zły gust... królewski kąsek... Fiu, fiu, jakie oczy, proszę siadać. A buzia! daj go katu, amator... kłaniam pani dobrodziejce. To to pani zawróciła taką mocną głowę, a sama jakoś sztywno się trzyma. Wargi cieniutkie... musi być dumna... będzie ciężka sprawa. Zobaczmy nozdrza... zwarte... nie! mogłyby się rozszerzyć. A więc namiętność i ogień być może. To już lepiéj. Co to może być? panna, wdowa, mężatka; nie znam tego. Nie widziałem jeszcze téj buziuchny; bo słowo daję ładna buziuchna, ja się znam na tém. Pamiętam przed dwudziestu laty i ja modelowałem coś podobnego. I u mnie w pracowni było i czysto i wymieciono, bodaj czym nawet kwiatów nie kupił. Cóż ztąd! papa się wdał w tę sprawę, drzwi mi pokazał, bodaj nawet czy nie z zamocnym naciskiem, a model jest dziś podżyłą mamą, żoną jakiegoś filistra i ma córkę z zadartym nosem, zupełnie do niéj nie podobną. Dziwna rzecz jak to się wyradza to młodsze pokolenie! Choć Antoni tęgi chłopak, ale filister. I z nim się tak skończy. Papa mu drzwi pokaże... a może mąż. No gdyby mąż toby było lepiéj.. z mężatkami teraz łatwiejsza sprawa. Co tam! marność, wszystko marność! oprócz fajki. Zapalmy własny tytoń, kiedy o mnie zapomniał.</p>
+            <p><stage>(wchodzi i rozgląda się w około)</stage><lb/><stage>(po małéj pauzie)</stage> Fiu! fiu! <stage>(spostrzega kwiaty wącha i ogląda wazonik)</stage> Ho! ho! <stage>(ogląda obrazy na ścianie)</stage> Tu coś jest. Pokój porządnie zamieciony, obrazy porozwieszane starannie... i te kwiaty!... fijołki w Marcu! Proszę, co najmniéj jakaś księżniczka. Złapał się robaczek w jakieś sidła. Czyżby Róża? Eh nie, ją przyjmował na śmieciach. Dla kogóż u licha tak się rujnuje? <stage>(idzie do stolika i otwiera szufladę)</stage> A zbrodniarz! nawet o tytoniu dla mnie zapomniał... To historya nie na żart. Zobaczmy co on tam bazgrze. <stage>(idzie do sztalug i zdejmuje płótno)</stage> Aha! jest i corpus delicti, znalazła się królowa. Bo że to ona, tobym przysiągł. Jegomość ma wcale nie zły gust... królewski kąsek... Fiu, fiu, jakie oczy, proszę siadać. A buzia! daj go katu, amator... kłaniam pani dobrodziejce. To to pani zawróciła taką mocną głowę, a sama jakoś sztywno się trzyma. Wargi cieniutkie... musi być dumna... będzie ciężka sprawa. Zobaczmy nozdrza... zwarte... nie! mogłyby się rozszerzyć. A więc namiętność i ogień być może. To już lepiéj. Co to może być? panna, wdowa, mężatka; nie znam tego. Nie widziałem jeszcze téj buziuchny; bo słowo daję ładna buziuchna, ja się znam na tém. Pamiętam przed dwudziestu laty i ja modelowałem coś podobnego. I u mnie w pracowni było i czysto i wymieciono, bodaj czym nawet kwiatów nie kupił. Cóż ztąd! papa się wdał w tę sprawę, drzwi mi pokazał, bodaj nawet czy nie z zamocnym naciskiem, a model jest dziś podżyłą mamą, żoną jakiegoś filistra i ma córkę z zadartym nosem, zupełnie do niéj nie podobną. Dziwna rzecz jak to się wyradza to młodsze pokolenie! Choć Antoni tęgi chłopak, ale filister. I z nim się tak skończy. Papa mu drzwi pokaże... a może mąż. No gdyby mąż toby było lepiéj.. z mężatkami teraz łatwiejsza sprawa. Co tam! marność, wszystko marność! oprócz fajki. Zapalmy własny tytoń, kiedy o mnie zapomniał.</p>
           </sp>
         </div>
         <div type="scene" n="28">
@@ -3728,7 +3728,7 @@
           </stage>
           <sp who="#antosia">
             <speaker>ANTOSIA.</speaker>
-            <p><stage>(sama)</stage><lb /><stage>(siedzi na kanapie z lewej w ręku trzyma sennik)</stage><lb /><stage>(czyta)</stage> „Jeżeli chcesz wiedzieć między 12 znamion niebieskich w któremeś się urodził, a który był sprawcą przyrodzenia twego, masz tak postąpić. Napisać imię matki”. <stage>(czyta daléj pocichu. Słychać dzwonek kilkakrotnie w przedpokoju)</stage> Aha! dzwoń, dzwoń... myślisz że ci otworzę... Matki imię 9, a moje 8, razem 17. Oczywiście rodziłam się albo pod Rakiem, albo pod Bliźniętami... <stage>(słychać znowu dzwonek)</stage> Niecierpliwi się, tem lepiéj; pójdzie sobie z Bogiem. Zobaczmy co mi będzie korzystniéj... a może Byk, albo panna. <stage>(przerzuca książkę i czyta; wchodzi Łucka)</stage></p>
+            <p><stage>(sama)</stage><lb/><stage>(siedzi na kanapie z lewej w ręku trzyma sennik)</stage><lb/><stage>(czyta)</stage> „Jeżeli chcesz wiedzieć między 12 znamion niebieskich w któremeś się urodził, a który był sprawcą przyrodzenia twego, masz tak postąpić. Napisać imię matki”. <stage>(czyta daléj pocichu. Słychać dzwonek kilkakrotnie w przedpokoju)</stage> Aha! dzwoń, dzwoń... myślisz że ci otworzę... Matki imię 9, a moje 8, razem 17. Oczywiście rodziłam się albo pod Rakiem, albo pod Bliźniętami... <stage>(słychać znowu dzwonek)</stage> Niecierpliwi się, tem lepiéj; pójdzie sobie z Bogiem. Zobaczmy co mi będzie korzystniéj... a może Byk, albo panna. <stage>(przerzuca książkę i czyta; wchodzi Łucka)</stage></p>
           </sp>
         </div>
         <div type="scene" n="35">

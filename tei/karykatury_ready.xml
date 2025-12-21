@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000044" xml:lang="pol">
   <teiHeader>
@@ -133,7 +133,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1899">
-        <desc />
+        <desc/>
       </event>
       <event type="premiere" when="1899-04-08">
         <desc>Karykatury wystawiono na scenie Teatru Miejskiego w Krakowie dnia 8 kwietnia 1899 roku.</desc>
@@ -231,37 +231,37 @@
         </castList>
       <set>
         <p>Działo się w stolicy W. Księstwa Krakowskiego, królewskiem wolnem mieście Krakowie, w oficynach piętrowych, w realności i domostwie mieszczanina Okręgłowskiego, które to domostwo, na chwałę Bożą, a pożytek ludziom dobrej woli, przez ś. p. dziada Okręgłowskiego, mieszczanina przy ulicy Krupniczej wzniesione, numerem siódmym w księgach magistrackich sygnowane; w stancyi i przed jej drzwiami, Antoniemu Relskiemu, żakowi krakowskiej Almae Matris, za komornem miesięcznem 11 guldenów austryackich w srebrze podnajmowanej, a to w czwartym dniu miesiąca listopada roku od narodzenia Chrystusa Pana tysiąc ośmset dziewięćdziesiątym i szóstym.</p>
-        <p>– Pschakrefff kikeriki Kremstange!<lb />
-        – Niema go w domu!<lb />
-        – Lecz duch jego przebywa w samotni, choć ciało krąży wśród kamiennych szpalerów.<lb />
-        – Właśnie, sądziłem... o tej godzinie miał być.<lb />
-        – Zimno jest. Wyważyć podwoje!<lb />
-        – Relskiego niema? Nic nie szkodzi.<lb />
-        – Niee. To nawet pomaga. Jednego kpa mniej.<lb />
-        – Klucz, klucz, klucz!!<lb />
-        – Dawaj!<lb />
-        – Stróż was wyrzuci.<lb />
-        – Albo my stróża.<lb />
-        Chrzęst – weszli. – Ciemno. – Sześć sylwet majaczy.<lb />
-        – Niech się stanie światłość!<lb />
-        Głośno krzyczące cienie słowami skaczą sobie wzajem przez ramiona myśli: ten jeszcze siedzi na karku sąsiada, następny już goni krzykiem rodzącej się, świat zbawiającej idei.<lb />
-        – Kto ma zapałki?<lb />
-        I stała się światłość, w smukłej o podłogę wspartej lampie, z głową całą w seledynach.<lb />
-        – Zbrodnia! Jaką ten Relski ma lampę!<lb />
-        – Królewski apartament, co?<lb />
-        – Na szezlongu siadać ostrożnie!<lb />
-        – Gryzie sprężynami. Już czuję.<lb />
-        – Witraże! To jest byczy karton! Kiedy machnąłeś?<lb />
-        – Szelma Relski grypsnął mi pejzaż! Ten na prawo.<lb />
-        – Łożnica na cztery niewiasty! Tę lornetę mu ściągnę. Co ten idyota w cylindrze chodzi?<lb />
-        – Niee. Składa w nim smutne chustki do nosa.<lb />
-        – Kto z kolegów zdolen będzie milczeć przez pięć minut, pierwszy dostanie czarnej kawy!!<lb />
-        – Tyrania! Właśnie! Protestuję! Wolność słowa, towarzysze!<lb />
-        – Kolego Radowski, jesteście wstrętny i t. d. i t. d. biją się językami purpurowymi: Radowski, Stachowski, Lassota, Jurowicz, Jesz i Witoldyński; kolega Rozborski przeczy ustawicznie.<lb />
-        – Z koniakiem postępować należy bardzo subtelnie.<lb />
-        Tak rzekł Witoldyński.<lb />
-        Koliste, lśniące kieliszki szampańskie zapełniają się wrzącym płynem kawowym. Lotne słowa wirują po komnacie w lekkich tunikach z dymu sinego<lb />
-        ...Ibsen, Gladstone, Munch, Kowalewska, Maeterlinck, Nietzsche, Björnson, Tołstoj, Boecklin, Dostojewski, Strindberg, Bebel, posłowie, dyabolicy, redaktorzy, mistycy, piąta kurya, feministki, palladyści, misogyni, dzień ośmiogodzinny, dramat parlamentarny z przeskoczeniem foteli, akustyka teatralna, barykada z pulpitów, votum nieufności, pięć absolutów (jeden dymisyonowany), artysta kapłanem – koniak arcykapłanem, jeżeli to wszystko nie skończy się na kobiecie, to jestem gips.<lb />
+        <p>– Pschakrefff kikeriki Kremstange!<lb/>
+        – Niema go w domu!<lb/>
+        – Lecz duch jego przebywa w samotni, choć ciało krąży wśród kamiennych szpalerów.<lb/>
+        – Właśnie, sądziłem... o tej godzinie miał być.<lb/>
+        – Zimno jest. Wyważyć podwoje!<lb/>
+        – Relskiego niema? Nic nie szkodzi.<lb/>
+        – Niee. To nawet pomaga. Jednego kpa mniej.<lb/>
+        – Klucz, klucz, klucz!!<lb/>
+        – Dawaj!<lb/>
+        – Stróż was wyrzuci.<lb/>
+        – Albo my stróża.<lb/>
+        Chrzęst – weszli. – Ciemno. – Sześć sylwet majaczy.<lb/>
+        – Niech się stanie światłość!<lb/>
+        Głośno krzyczące cienie słowami skaczą sobie wzajem przez ramiona myśli: ten jeszcze siedzi na karku sąsiada, następny już goni krzykiem rodzącej się, świat zbawiającej idei.<lb/>
+        – Kto ma zapałki?<lb/>
+        I stała się światłość, w smukłej o podłogę wspartej lampie, z głową całą w seledynach.<lb/>
+        – Zbrodnia! Jaką ten Relski ma lampę!<lb/>
+        – Królewski apartament, co?<lb/>
+        – Na szezlongu siadać ostrożnie!<lb/>
+        – Gryzie sprężynami. Już czuję.<lb/>
+        – Witraże! To jest byczy karton! Kiedy machnąłeś?<lb/>
+        – Szelma Relski grypsnął mi pejzaż! Ten na prawo.<lb/>
+        – Łożnica na cztery niewiasty! Tę lornetę mu ściągnę. Co ten idyota w cylindrze chodzi?<lb/>
+        – Niee. Składa w nim smutne chustki do nosa.<lb/>
+        – Kto z kolegów zdolen będzie milczeć przez pięć minut, pierwszy dostanie czarnej kawy!!<lb/>
+        – Tyrania! Właśnie! Protestuję! Wolność słowa, towarzysze!<lb/>
+        – Kolego Radowski, jesteście wstrętny i t. d. i t. d. biją się językami purpurowymi: Radowski, Stachowski, Lassota, Jurowicz, Jesz i Witoldyński; kolega Rozborski przeczy ustawicznie.<lb/>
+        – Z koniakiem postępować należy bardzo subtelnie.<lb/>
+        Tak rzekł Witoldyński.<lb/>
+        Koliste, lśniące kieliszki szampańskie zapełniają się wrzącym płynem kawowym. Lotne słowa wirują po komnacie w lekkich tunikach z dymu sinego<lb/>
+        ...Ibsen, Gladstone, Munch, Kowalewska, Maeterlinck, Nietzsche, Björnson, Tołstoj, Boecklin, Dostojewski, Strindberg, Bebel, posłowie, dyabolicy, redaktorzy, mistycy, piąta kurya, feministki, palladyści, misogyni, dzień ośmiogodzinny, dramat parlamentarny z przeskoczeniem foteli, akustyka teatralna, barykada z pulpitów, votum nieufności, pięć absolutów (jeden dymisyonowany), artysta kapłanem – koniak arcykapłanem, jeżeli to wszystko nie skończy się na kobiecie, to jestem gips.<lb/>
         Nie mówiłem?... jest!</p>
       </set>
     </front>
@@ -704,7 +704,7 @@
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
-          <p>Chachacha! Matematyku trzeźwy! Ja dziś "otrzeźwiałem"... dziś dopiero przejrzałem! <stage>(Książkę, którą miał w ręce, rzuca)</stage> Precz szmaty!!<lb />Zagrzebany w bibule, jak mól, żyłem drukiem. A tu, tu harfa drzemała nieczynna, wielka harfa życia. Jednej struny mi brakło. Dziś mam ją... mam tę złotą!<lb />Uderzę w nią silnie, przewodniczkę strun chóru, stworzę życia symfonię: orgią tonów zahuczy!!<lb />Jej echem pieśń będzie, pieśń moja rytmiczna. Hurah!!!</p>
+          <p>Chachacha! Matematyku trzeźwy! Ja dziś "otrzeźwiałem"... dziś dopiero przejrzałem! <stage>(Książkę, którą miał w ręce, rzuca)</stage> Precz szmaty!!<lb/>Zagrzebany w bibule, jak mól, żyłem drukiem. A tu, tu harfa drzemała nieczynna, wielka harfa życia. Jednej struny mi brakło. Dziś mam ją... mam tę złotą!<lb/>Uderzę w nią silnie, przewodniczkę strun chóru, stworzę życia symfonię: orgią tonów zahuczy!!<lb/>Jej echem pieśń będzie, pieśń moja rytmiczna. Hurah!!!</p>
         </sp>
         <sp who="#jurowicz">
           <speaker>JUROWICZ.</speaker>
@@ -757,7 +757,7 @@
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
-          <p>O matematyko, Kassandrą być chcesz!?<lb />A... tak wyrwać ją z tej menażeryi! Dalej! jazda "na wyżyny zawrotne... stawiać zamki błękitne", jak twierdzi pan Solness...<lb />...I że ta dziewczyna zdołała uratować duszę z pośród te hordy!... To są okazy! W spirytusie chować i tournée po Europie! No, ale słuchajcie męże, czemu zawdzięczam gremialne wtargnięcie do mojej samotni?</p>
+          <p>O matematyko, Kassandrą być chcesz!?<lb/>A... tak wyrwać ją z tej menażeryi! Dalej! jazda "na wyżyny zawrotne... stawiać zamki błękitne", jak twierdzi pan Solness...<lb/>...I że ta dziewczyna zdołała uratować duszę z pośród te hordy!... To są okazy! W spirytusie chować i tournée po Europie! No, ale słuchajcie męże, czemu zawdzięczam gremialne wtargnięcie do mojej samotni?</p>
         </sp>
         <sp who="#chór">
           <speaker>CHÓR.</speaker>
@@ -869,7 +869,7 @@
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
-          <p>Ależ, zlitujcie się, ja nie mam warunków na prezesa. Nie zdolny jestem. Dobrze wybraliście się! Zwłaszcza w tej chwili!!<lb />I do tego w studenckiej instytucyi finansowej, w której musiałbym wieść ciężko poważną politykę! Dajcie pokój!</p>
+          <p>Ależ, zlitujcie się, ja nie mam warunków na prezesa. Nie zdolny jestem. Dobrze wybraliście się! Zwłaszcza w tej chwili!!<lb/>I do tego w studenckiej instytucyi finansowej, w której musiałbym wieść ciężko poważną politykę! Dajcie pokój!</p>
         </sp>
         <sp who="#radowski">
           <speaker>RADOWSKI.</speaker>
@@ -1037,7 +1037,7 @@
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
-          <p>...to będzie moją zasadą. Nie bądźże tak poduszkowo sentymentalny. Furda, mości Stachowski. Patrz w górę; szybuj wzrokiem sokoła po ścianie onej, a natkniesz się na proroctwo urągające Akibie: "Wszystko będzie, mawiał ben Relski".<lb />Gotuję kufer stimungów, kosz sonetów; powiadam ci...</p>
+          <p>...to będzie moją zasadą. Nie bądźże tak poduszkowo sentymentalny. Furda, mości Stachowski. Patrz w górę; szybuj wzrokiem sokoła po ścianie onej, a natkniesz się na proroctwo urągające Akibie: "Wszystko będzie, mawiał ben Relski".<lb/>Gotuję kufer stimungów, kosz sonetów; powiadam ci...</p>
         </sp>
         <sp who="#stachowski">
           <speaker>STACHOWSKI.</speaker>
@@ -1099,7 +1099,7 @@
         <stage>(RELSKI. zamyka drzwi)</stage>
         <stage>(ZOSIA. osuwa się na kufer obok stojący. Oczy spuszczone, dłonie splecione jakimś ruchem rozpaczliwym. Milczy)</stage>
         <sp who="#relski">
-          <speaker></speaker>
+          <speaker/>
           <p>Niechże coś powie. Choć słowo. Co się stało?</p>
         </sp>
         <sp who="#zosia">
@@ -1112,7 +1112,7 @@
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p><stage>(po chwili)</stage> Antoś u nas nie był, to nie wie.<lb />A dwa dni w domu nie byłam, ojczym chciał bić, i dwa dni chodziłam. Wieczór, po robocie. I nigdzie nie spałam. A tu iść, wstyd mi było. Aż i głód, taki straszny głód!<lb />Dzisiaj wróciłam do domu, niema godziny, a ojczym na mnie się teraz porwał. I mama odratować nie mogła, zbił mnie i mamę...</p>
+          <p><stage>(po chwili)</stage> Antoś u nas nie był, to nie wie.<lb/>A dwa dni w domu nie byłam, ojczym chciał bić, i dwa dni chodziłam. Wieczór, po robocie. I nigdzie nie spałam. A tu iść, wstyd mi było. Aż i głód, taki straszny głód!<lb/>Dzisiaj wróciłam do domu, niema godziny, a ojczym na mnie się teraz porwał. I mama odratować nie mogła, zbił mnie i mamę...</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -1141,7 +1141,7 @@
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p>O..on. Co ja się miałam za niego wydać? Też wächter. I dom ma swój; to myślał, że se mnie kupi...<lb />To Antoś nic nie wiedział? -<lb />A ja, to jak do domu od roboty wracałam, to zawsze w okno patrzyłam: czy się u pana Antosia świeci, czy nie.<lb />Pan Antoś do nas nigdy nie przychodził... a mnie się działo już nie wiem co! Ja już całkiem jestem waryatka.<lb />A dziś, to jak mnie ojczym chciał bić, to mnie tak gnało, aż tu... i jak ślepa leciałam tu, ino tu... <stage>(Dreszcz z trwogą ogromną)</stage> Antoś mnie nie wypędzi, prawda, panie Antosiu? Antosiu, prawda?...<lb />Niech pan Antoś o mnie se myśli, co chce, ale ja nie mogłam. Chciałam se zrobić śmierć, ale jeszcze choć widzieć chciałam Antosia.<lb />Nie... wy..pędzi!?... <stage>(przytula się do rąk Relskiego)</stage></p>
+          <p>O..on. Co ja się miałam za niego wydać? Też wächter. I dom ma swój; to myślał, że se mnie kupi...<lb/>To Antoś nic nie wiedział? -<lb/>A ja, to jak do domu od roboty wracałam, to zawsze w okno patrzyłam: czy się u pana Antosia świeci, czy nie.<lb/>Pan Antoś do nas nigdy nie przychodził... a mnie się działo już nie wiem co! Ja już całkiem jestem waryatka.<lb/>A dziś, to jak mnie ojczym chciał bić, to mnie tak gnało, aż tu... i jak ślepa leciałam tu, ino tu... <stage>(Dreszcz z trwogą ogromną)</stage> Antoś mnie nie wypędzi, prawda, panie Antosiu? Antosiu, prawda?...<lb/>Niech pan Antoś o mnie se myśli, co chce, ale ja nie mogłam. Chciałam se zrobić śmierć, ale jeszcze choć widzieć chciałam Antosia.<lb/>Nie... wy..pędzi!?... <stage>(przytula się do rąk Relskiego)</stage></p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -1202,7 +1202,7 @@
         <stage>(Cisza. Syk spirytusowego sinego płomienia)</stage>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p>...Co sobie pan Antoś o mnie pomyśli. <stage>(Zakryła dłońmi twarz)</stage> Ale niech! Bo ja sobie myślałam... że przecież–.<lb />Jak Antoś u nas na stancyi stał. Pamięta Antoś? W gimnazyum. To przecież nie tak dawno. Nie, nie, po co ja to mówię!</p>
+          <p>...Co sobie pan Antoś o mnie pomyśli. <stage>(Zakryła dłońmi twarz)</stage> Ale niech! Bo ja sobie myślałam... że przecież–.<lb/>Jak Antoś u nas na stancyi stał. Pamięta Antoś? W gimnazyum. To przecież nie tak dawno. Nie, nie, po co ja to mówię!</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -1210,7 +1210,7 @@
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p>A ja wiem, że Antoś śmiać się ze mnie będzie.<lb />A... nie wie Antoś, haha, jak to się dziwił nieraz, że mu nie braknie tytoniu w tytonierce. – To ja. Coś się tam zrobiło, a musiało być. W nocy nakładałam, żeby Antoś miał zawsze cygara.<lb />A jak Antoś na skrzypcach grał. Ja słuchałam; co ja sobie wtedy myślałam!<lb />Bo, bo przecież ja, chociaż szwaczka, ale i nie z podłej familii.<lb />Ale potem... pan Antoś od nas poszedł, jak się do egzaminów uczył, a mama się wydała za... za tego... to Antoś... i cóż ja będę gadać to wszystko!... Ja wiem, że Antoś tylko śmiać się będzie, a to jest moje nieszczęście.</p>
+          <p>A ja wiem, że Antoś śmiać się ze mnie będzie.<lb/>A... nie wie Antoś, haha, jak to się dziwił nieraz, że mu nie braknie tytoniu w tytonierce. – To ja. Coś się tam zrobiło, a musiało być. W nocy nakładałam, żeby Antoś miał zawsze cygara.<lb/>A jak Antoś na skrzypcach grał. Ja słuchałam; co ja sobie wtedy myślałam!<lb/>Bo, bo przecież ja, chociaż szwaczka, ale i nie z podłej familii.<lb/>Ale potem... pan Antoś od nas poszedł, jak się do egzaminów uczył, a mama się wydała za... za tego... to Antoś... i cóż ja będę gadać to wszystko!... Ja wiem, że Antoś tylko śmiać się będzie, a to jest moje nieszczęście.</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -1240,7 +1240,7 @@
       <div type="scene" n="4">
         <head>SCENA</head>
         <stage type="setting">
-          <p>(RELSKI i ZOSIA już od roku mieszkają na Grzegórzkach; pokoik na czwartem piętrze nowo-zbudowanych koszar mieszkalnych, recte na poddaszu. Kuchnię mają wspólną wraz z szewcową panią WALENTOWĄ; tam gotuje się obiad; makaron jednak można pokrajać u siebie; a w niedzielę wolno zlepić uszka do barszczu. [Siekane grzybki, owinięte w ciasto]. Też u siebie. Na stolnicy.<lb />Antoś wyszedł dzisiaj przed dziewiątą rano: w biurze weźmie urlop, u Schwindla ze Szpitalnej frak [półtora guldena za wypożyczenie na 12 godzin i kaucyi dziesiątka!] – bo Antoś dzisiaj, moja pani, zdaje egzamina jakieś tam. Tyż tu nie posprzątane, ani łóżka nawet; człowiek się krząta, kręci, bo ani czasu na uczesanie, a tu obiad trza przyrychtować. – Tylko moi drodzy, cichutko, no, proszę ja was: słyszycie...)</p>
+          <p>(RELSKI i ZOSIA już od roku mieszkają na Grzegórzkach; pokoik na czwartem piętrze nowo-zbudowanych koszar mieszkalnych, recte na poddaszu. Kuchnię mają wspólną wraz z szewcową panią WALENTOWĄ; tam gotuje się obiad; makaron jednak można pokrajać u siebie; a w niedzielę wolno zlepić uszka do barszczu. [Siekane grzybki, owinięte w ciasto]. Też u siebie. Na stolnicy.<lb/>Antoś wyszedł dzisiaj przed dziewiątą rano: w biurze weźmie urlop, u Schwindla ze Szpitalnej frak [półtora guldena za wypożyczenie na 12 godzin i kaucyi dziesiątka!] – bo Antoś dzisiaj, moja pani, zdaje egzamina jakieś tam. Tyż tu nie posprzątane, ani łóżka nawet; człowiek się krząta, kręci, bo ani czasu na uczesanie, a tu obiad trza przyrychtować. – Tylko moi drodzy, cichutko, no, proszę ja was: słyszycie...)</p>
         </stage>
         <stage type="entrance">
           <p>
@@ -1251,7 +1251,7 @@
         </stage>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p>A... a,<lb />Kotki dwa,<lb />Szare, bure, obydwa;<lb />A... a...<lb />Kotki dwa, szare... bu..re... Spi. Hysiaj, dzieciątko, hysiaj, gwiazdeczko, hyś! <stage>(Wpatrzona w dziecko z uśmiechem, stoi nad kołyską)</stage> Aha, poduszeczkę trzeba poprawić. Maleństwo moje.<lb />Która też to godzina? Dwunasta! <stage>(Biegnie ku stolnicy, kraje makaron. Nóż na ziemię spadł z brzękiem...)</stage> Aj!... <stage>(Biegnie ku dziecku)</stage> Hysiaj, robaczku!... Spi.</p>
+          <p>A... a,<lb/>Kotki dwa,<lb/>Szare, bure, obydwa;<lb/>A... a...<lb/>Kotki dwa, szare... bu..re... Spi. Hysiaj, dzieciątko, hysiaj, gwiazdeczko, hyś! <stage>(Wpatrzona w dziecko z uśmiechem, stoi nad kołyską)</stage> Aha, poduszeczkę trzeba poprawić. Maleństwo moje.<lb/>Która też to godzina? Dwunasta! <stage>(Biegnie ku stolnicy, kraje makaron. Nóż na ziemię spadł z brzękiem...)</stage> Aj!... <stage>(Biegnie ku dziecku)</stage> Hysiaj, robaczku!... Spi.</p>
         </sp>
         <sp who="#walentowa">
           <speaker>WALENTOWA.</speaker>
@@ -1285,7 +1285,7 @@
           <speaker>ZOSIA.</speaker>
           <p>No, ale kto? jak ubrana?... Mama!!...</p>
         </sp>
-        <stage>(Weszła MATKA ZOSI, kobieta zniszczona; lat ma około 50. Twarz sterana. Czarne ubranie przedmieszczanki. Na szyi różaniec.<lb />ZOSIA podbiega – stanęła, waha się. Nie widziała matki tak dawno... I teraz)</stage>
+        <stage>(Weszła MATKA ZOSI, kobieta zniszczona; lat ma około 50. Twarz sterana. Czarne ubranie przedmieszczanki. Na szyi różaniec.<lb/>ZOSIA podbiega – stanęła, waha się. Nie widziała matki tak dawno... I teraz)</stage>
         <sp who="#walentowa">
           <speaker>WALENTOWA.</speaker>
           <p><stage>(do siebie)</stage> Matka. Ale, ale!</p>
@@ -1353,7 +1353,7 @@
         </sp>
         <sp who="#matka">
           <speaker>MATKA.</speaker>
-          <p>Panie! świeć nad jego duszą!<lb />Ani na pogrzeb. Bo choć ta ci był ojczymem, ale już na boskim sądzie.</p>
+          <p>Panie! świeć nad jego duszą!<lb/>Ani na pogrzeb. Bo choć ta ci był ojczymem, ale już na boskim sądzie.</p>
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
@@ -1377,7 +1377,7 @@
         </sp>
         <sp who="#matka">
           <speaker>MATKA.</speaker>
-          <p><stage>(wzdycha)</stage> Hej, hej. <stage>(Zamyśla się)</stage> Ja mu ta nie wypominam, bo już i na boskim sądzie, ale pijał i pijał, a mnie do ciebie iść odkazywał; mówił, że zabije. Okrutną miał złość do ciebie.<lb />Ano, to mnie było markotno bez ciebie, ale wola Boża. Raz to ci się upił, ja mu ta nie wymawiam, bo po katolicku skończył i coś go potem na wnętrzu paliło: doktorzy nic; i tak już het! <stage>(Z ożywieniem)</stage> A pogrzeb, to ci był taki wielgi i trzech księży, jeden jako niby za moje pieniądze, a dwóch od hareśtantów; panów ci było tyle, niby, że on był przy sądzie.<lb />Był ta i on... nie wymawiając... ale zwyczajnie mąż.</p>
+          <p><stage>(wzdycha)</stage> Hej, hej. <stage>(Zamyśla się)</stage> Ja mu ta nie wypominam, bo już i na boskim sądzie, ale pijał i pijał, a mnie do ciebie iść odkazywał; mówił, że zabije. Okrutną miał złość do ciebie.<lb/>Ano, to mnie było markotno bez ciebie, ale wola Boża. Raz to ci się upił, ja mu ta nie wymawiam, bo po katolicku skończył i coś go potem na wnętrzu paliło: doktorzy nic; i tak już het! <stage>(Z ożywieniem)</stage> A pogrzeb, to ci był taki wielgi i trzech księży, jeden jako niby za moje pieniądze, a dwóch od hareśtantów; panów ci było tyle, niby, że on był przy sądzie.<lb/>Był ta i on... nie wymawiając... ale zwyczajnie mąż.</p>
         </sp>
         <sp who="#walentowa">
           <speaker>WALENTOWA.</speaker>
@@ -1413,7 +1413,7 @@
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p>Moja Pani Walentowa!! Niech pani nie tka palca między drzwi. Także coś!! <stage>(Chodzi, coś gestykulując)</stage> Co mamie do głowy przyszło, co mamie do głowy przyszło!<lb />Cz... czy mama wie, że on dzisiaj egzamina zdaje! czy mama wie, że on się ze mną ożeni? że on mnie kocha, że ja bez niego jednej godziny nie mogłabym żyć! Moje prawo ...także coś!<lb />A ta on by mi nie wiem co zrobił, gdyby wiedział, że mama tu była z takiem gadaniem! Co mamie do głowy przyszło?</p>
+          <p>Moja Pani Walentowa!! Niech pani nie tka palca między drzwi. Także coś!! <stage>(Chodzi, coś gestykulując)</stage> Co mamie do głowy przyszło, co mamie do głowy przyszło!<lb/>Cz... czy mama wie, że on dzisiaj egzamina zdaje! czy mama wie, że on się ze mną ożeni? że on mnie kocha, że ja bez niego jednej godziny nie mogłabym żyć! Moje prawo ...także coś!<lb/>A ta on by mi nie wiem co zrobił, gdyby wiedział, że mama tu była z takiem gadaniem! Co mamie do głowy przyszło?</p>
         </sp>
         <sp who="#walentowa">
           <speaker>WALENTOWA.</speaker>
@@ -1512,7 +1512,7 @@
         </sp>
         <sp who="#wojciech_migdał">
           <speaker>MIGDAŁ.</speaker>
-          <p>Towarzyszko Zofijo i wy mama dobrodziko. Wicie, jakom jest krakowskie dziecko, przez urazy, w durch. Żem jest chłopiec i towarzysz, jak się przynależy. Jak robie, to robie, jak pije, to pije, jak kocham, to kocham – ja sie ta nie bede chwalił. Ale robota sie mi w ręcach pali i przed fajerantem fertyk! Niechno majszter nademną se psuje gębę, to mu sie zrobi ciepło. Ja sie ta nie bede chwalił.<lb />Ino ryzelucyj tako: nie chcieli, ale musieli, wyzwolili mnie, a tu mama dobrodzika, <stage>(ukłon)</stage> nasuwa sie na mnie i mówi o pannie Zofiji, niby że my oddawna kamraty... <stage>(Zosia wstała)</stage> i że jako i mnie chyba casz, a niby, wedle opierunku. Ja sie zamyślił, jako głosować, a mama dobrodzika prawi deklaracyj, jako, niby, z przeproszeniem, nie wymawiając, <stage>(patrzy w stronę kołyski)</stage> tee, wedle tego, za hónor...</p>
+          <p>Towarzyszko Zofijo i wy mama dobrodziko. Wicie, jakom jest krakowskie dziecko, przez urazy, w durch. Żem jest chłopiec i towarzysz, jak się przynależy. Jak robie, to robie, jak pije, to pije, jak kocham, to kocham – ja sie ta nie bede chwalił. Ale robota sie mi w ręcach pali i przed fajerantem fertyk! Niechno majszter nademną se psuje gębę, to mu sie zrobi ciepło. Ja sie ta nie bede chwalił.<lb/>Ino ryzelucyj tako: nie chcieli, ale musieli, wyzwolili mnie, a tu mama dobrodzika, <stage>(ukłon)</stage> nasuwa sie na mnie i mówi o pannie Zofiji, niby że my oddawna kamraty... <stage>(Zosia wstała)</stage> i że jako i mnie chyba casz, a niby, wedle opierunku. Ja sie zamyślił, jako głosować, a mama dobrodzika prawi deklaracyj, jako, niby, z przeproszeniem, nie wymawiając, <stage>(patrzy w stronę kołyski)</stage> tee, wedle tego, za hónor...</p>
         </sp>
         <sp who="#matka">
           <speaker>MATKA.</speaker>
@@ -1525,7 +1525,7 @@
         <stage>(MIGDAŁ wkłada ręce w kieszenie marynarki; oko przymrużając – prawym łokciem wachluje, bokiem podsuwa się ku Zosi)</stage>
         <sp who="#wojciech_migdał">
           <speaker>MIGDAŁ.</speaker>
-          <p>Z kim..że, z kim..że panno Zofijo! Z kimże w tany? Z kimże wysuwa!? To ja pannie serce niese czyrwone, panna nie chcesz gadać?! Z kimże w dyrdy, z kimże okoliczność!?<lb />A cóż panna Zofija, na taki artykuł: Dwa tygodnie nima, jak zleciała na mnie kamienica po stryjciu, w Psi Wólce, he?</p>
+          <p>Z kim..że, z kim..że panno Zofijo! Z kimże w tany? Z kimże wysuwa!? To ja pannie serce niese czyrwone, panna nie chcesz gadać?! Z kimże w dyrdy, z kimże okoliczność!?<lb/>A cóż panna Zofija, na taki artykuł: Dwa tygodnie nima, jak zleciała na mnie kamienica po stryjciu, w Psi Wólce, he?</p>
         </sp>
         <sp who="#walentowa">
           <speaker>WALENTOWA.</speaker>
@@ -2423,7 +2423,7 @@
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
-          <p>A tak, nierozsądne, hehehe. Ale było, ale już stało się i teraz następstwa, miłe, cudowne następstwa.<lb />A, a! czekałem, tej chwili czekałem. Pomijałem rozkosz kupną by stworzyć sobie czystą »symfonię«, chłonąć wszystkie tony, upajać się, szaleć!<lb />Mam teraz, mam to wszystko. Ona i ja, hehe, »w białych szatach neofitów« zasiedliśmy do »uczty miłości« – »orgia szczęścia«!<lb />...Przeżarty brudem duszę się w tej norze, a powietrza zaczerpnąć nie wolno, bo »dziecko się zaziębi«. Dziecko. Karykatura życia – karykatura miłości... Prawda, kolego Radowski, to ładne, prawda?</p>
+          <p>A tak, nierozsądne, hehehe. Ale było, ale już stało się i teraz następstwa, miłe, cudowne następstwa.<lb/>A, a! czekałem, tej chwili czekałem. Pomijałem rozkosz kupną by stworzyć sobie czystą »symfonię«, chłonąć wszystkie tony, upajać się, szaleć!<lb/>Mam teraz, mam to wszystko. Ona i ja, hehe, »w białych szatach neofitów« zasiedliśmy do »uczty miłości« – »orgia szczęścia«!<lb/>...Przeżarty brudem duszę się w tej norze, a powietrza zaczerpnąć nie wolno, bo »dziecko się zaziębi«. Dziecko. Karykatura życia – karykatura miłości... Prawda, kolego Radowski, to ładne, prawda?</p>
         </sp>
         <sp who="#radowski">
           <speaker>RADOWSKI.</speaker>
@@ -2778,7 +2778,7 @@
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p><stage>(przeczy kilkakrotnym gestem)</stage> To nie to, Antoś, nie to. Ja nie wymawiam, bo tobie wolno. Tobie wolno mówić. To nie, że ty mówiłeś »głupia« tylko, że ty myślałeś, że myślisz – »ona jest głupia«.<lb />Ja nie jestem tak bardzo głupia. Ja tego wszystkiego nie umiem powiedzieć, ale ja to mam w głowie – i mam... wszystko, i to... <stage>(ręce na piersi, na głowę)</stage> I ja cię bardzo kocham, a to jest wielkie słowo. To tego nie kupić, ani się nauczyć. Ale teraz już nic – już. Ty jesteś dobry, ty nie chciałbyś dla mnie złego, ty Antoś, ty mój.</p>
+          <p><stage>(przeczy kilkakrotnym gestem)</stage> To nie to, Antoś, nie to. Ja nie wymawiam, bo tobie wolno. Tobie wolno mówić. To nie, że ty mówiłeś »głupia« tylko, że ty myślałeś, że myślisz – »ona jest głupia«.<lb/>Ja nie jestem tak bardzo głupia. Ja tego wszystkiego nie umiem powiedzieć, ale ja to mam w głowie – i mam... wszystko, i to... <stage>(ręce na piersi, na głowę)</stage> I ja cię bardzo kocham, a to jest wielkie słowo. To tego nie kupić, ani się nauczyć. Ale teraz już nic – już. Ty jesteś dobry, ty nie chciałbyś dla mnie złego, ty Antoś, ty mój.</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -2913,7 +2913,7 @@
       <div type="scene" n="11">
         <head>SCENA</head>
         <stage type="setting">
-          <p>(Jesteśmy w saloniku pp. Borkowskich. P. Borkowski po sprzedaniu dużego folwarku, Mądrowa, osiadł w Krakowie, nabywszy kamienicę. Lorcię, starszą, wydał za mąż nieszczęśliwie, bo mąż umarł w dwa miesiące po ślubie: córkę zabrał więc do domu. Stefie, młodszej, zachciało się gimnazyum: pozwolił, bo Stefie nie można niczego odmówić. Największy kłopot to z tym wisusem Ignasiem, ale młodość wyszumieć się musi, p. Borkowski trzyma się zasady: »Niech pamięta wół, że cielęciem był«, głównie dlatego zresztą, że Ignasia bardzo lubi, kto wie, czy nie bardziej od Stefy. Z żoną od 30 lat żyje w zgodzie: gospodarna bo jest; trochę zrzędziła na to życie w mieście, teraz mu ciągle dopieka, iż się wdał w politykę i inną pracę obywatelską, no, ale kobiecie wybacza się to, trudno się rozumieć równie dobrze na sznyclach, jak na pracy publicznej.<lb />Tak też państwu Borkowskim dość spokojnie schodzi dzień po dniu. W tej chwili np. po obiedzie, pani Borkowska, zajęta przygotowaniem »rozmaitości« na dzisiejszy wieczór, biega, a Ignasia tylko pilnuje, ażeby się uczył. Ignaś piłuje łacinę)</p>
+          <p>(Jesteśmy w saloniku pp. Borkowskich. P. Borkowski po sprzedaniu dużego folwarku, Mądrowa, osiadł w Krakowie, nabywszy kamienicę. Lorcię, starszą, wydał za mąż nieszczęśliwie, bo mąż umarł w dwa miesiące po ślubie: córkę zabrał więc do domu. Stefie, młodszej, zachciało się gimnazyum: pozwolił, bo Stefie nie można niczego odmówić. Największy kłopot to z tym wisusem Ignasiem, ale młodość wyszumieć się musi, p. Borkowski trzyma się zasady: »Niech pamięta wół, że cielęciem był«, głównie dlatego zresztą, że Ignasia bardzo lubi, kto wie, czy nie bardziej od Stefy. Z żoną od 30 lat żyje w zgodzie: gospodarna bo jest; trochę zrzędziła na to życie w mieście, teraz mu ciągle dopieka, iż się wdał w politykę i inną pracę obywatelską, no, ale kobiecie wybacza się to, trudno się rozumieć równie dobrze na sznyclach, jak na pracy publicznej.<lb/>Tak też państwu Borkowskim dość spokojnie schodzi dzień po dniu. W tej chwili np. po obiedzie, pani Borkowska, zajęta przygotowaniem »rozmaitości« na dzisiejszy wieczór, biega, a Ignasia tylko pilnuje, ażeby się uczył. Ignaś piłuje łacinę)</p>
         </stage>
         <stage type="entrance">
           <p>
@@ -3139,7 +3139,7 @@
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
-          <p>Ty myślisz, że to tak łatwo przyszło rozłączyć się z kulmbacherem!? Ale powiedziałem sobie tak, jak ś. p. Lenartowicz, Teofil Lenartowicz, wielki nasz powieściopisarz, zapamiętaj sobie, Ignaś: »Krąż każdy w kółeczku, jak każe Duch Boży – a całość sama się złoży«. I basta.<lb />He, ja także kiedyś byłem bardzo, bardzo liberalnie nastrojony, łaskawco!</p>
+          <p>Ty myślisz, że to tak łatwo przyszło rozłączyć się z kulmbacherem!? Ale powiedziałem sobie tak, jak ś. p. Lenartowicz, Teofil Lenartowicz, wielki nasz powieściopisarz, zapamiętaj sobie, Ignaś: »Krąż każdy w kółeczku, jak każe Duch Boży – a całość sama się złoży«. I basta.<lb/>He, ja także kiedyś byłem bardzo, bardzo liberalnie nastrojony, łaskawco!</p>
         </sp>
         <sp who="#ignaś">
           <speaker>IGNAŚ.</speaker>
@@ -3192,7 +3192,7 @@
         </sp>
         <sp who="#ignaś">
           <speaker>IGNAŚ.</speaker>
-          <p>Niechby tylko spróbował! Jak nas jest w klasie pięćdziesięciu, tak wszyscy temu żydowi kości połamaliby.<lb />Zresztą ja tacie i mamie powiadam, kiedy już tak jest, wszystko powiem: ja moich przekonań nie opuszczę za żadne pieniądze w świecie! Mnie wszystko jedno! Dla idei poświęca się wszystko! I teraz Prądlewicz jest na mnie zły, i ja muszę mamie i tacie powiedzieć, że on mi chce dać dwójkę. Ale ja nie ustąpię, ani na jeden krok! <stage>(krzyczy)</stage> My pokażemy! <stage>(w zapale czyni pogróżki prawicą, w której butelka błyszczy)</stage></p>
+          <p>Niechby tylko spróbował! Jak nas jest w klasie pięćdziesięciu, tak wszyscy temu żydowi kości połamaliby.<lb/>Zresztą ja tacie i mamie powiadam, kiedy już tak jest, wszystko powiem: ja moich przekonań nie opuszczę za żadne pieniądze w świecie! Mnie wszystko jedno! Dla idei poświęca się wszystko! I teraz Prądlewicz jest na mnie zły, i ja muszę mamie i tacie powiedzieć, że on mi chce dać dwójkę. Ale ja nie ustąpię, ani na jeden krok! <stage>(krzyczy)</stage> My pokażemy! <stage>(w zapale czyni pogróżki prawicą, w której butelka błyszczy)</stage></p>
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
@@ -3273,7 +3273,7 @@
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
-          <p>He, komitet, gdy się zbierze, to czasem do białego rana, łaskawco!<lb />Wracam, mówię ci, z komitetu, w domu cicho, ona siedzi. Aż mi żal było dziewczyny.<lb />Stefa, idźże już spać – powiadam, druga godzina.<lb />Ona wstaje, mówi, że już teraz nie robi, że odpoczywa.<lb />Odpoczywa; odpoczywa, ale nad książką. A ona śmieje się, załamuje ręce nad głową: no, niech ojczulek słucha, czy to nie jest, mówi, jak wiosna i jak zapach łąk. Wiesz co? Wiersze!! O drugiej w nocy, ja wracam z komitetu, a ona mi czyta wiersze! Rozziewałem się na dobre, mówię jej, niech idzie spać, ona ci urywa, patrzy długo na mnie, uśmiecha się, ale tak jakoś, jakby się jej na płacz zbierało, czy co, i potem mówi: »Dobranoc, ojczulku«. Dobranoc, dobranoc – a ona ni stąd ni z owąd nagle leci na mnie, całuje mnie po rękach, tuli się i mówi, że ona jest mi wdzięczna, że ja jej pozwoliłem się uczyć. Ja jej mówię, jak wiesz, no, no, łaskawco, ty straszna emancypantka; ale to moda – jak to ty mówisz; na to ona się odsuwa, trzyma mnie za ręce... może nie dla wszystkich, tato... tak się na mnie patrzy jakoś dziwnie, jakby jeszcze coś chciała mówić, że mi się ciepło w oczach zrobiło, i pocałowałem ją w czoło, pytam się... ty chcesz czego odemnie, Stefa?... Ona mówi: nic ojczulku. Dobranoc.<lb />Potem poszła do okna.<lb />Wychodzę, odwracam się, a ona, mówię ci, o tak: <stage>(Rozkłada ramiona wszerz)</stage> tak się oparła o ramy, czoło przyłożyła do szyby i tak stoi.<lb />Myślę sobie: hm... i poszedłem spać.</p>
+          <p>He, komitet, gdy się zbierze, to czasem do białego rana, łaskawco!<lb/>Wracam, mówię ci, z komitetu, w domu cicho, ona siedzi. Aż mi żal było dziewczyny.<lb/>Stefa, idźże już spać – powiadam, druga godzina.<lb/>Ona wstaje, mówi, że już teraz nie robi, że odpoczywa.<lb/>Odpoczywa; odpoczywa, ale nad książką. A ona śmieje się, załamuje ręce nad głową: no, niech ojczulek słucha, czy to nie jest, mówi, jak wiosna i jak zapach łąk. Wiesz co? Wiersze!! O drugiej w nocy, ja wracam z komitetu, a ona mi czyta wiersze! Rozziewałem się na dobre, mówię jej, niech idzie spać, ona ci urywa, patrzy długo na mnie, uśmiecha się, ale tak jakoś, jakby się jej na płacz zbierało, czy co, i potem mówi: »Dobranoc, ojczulku«. Dobranoc, dobranoc – a ona ni stąd ni z owąd nagle leci na mnie, całuje mnie po rękach, tuli się i mówi, że ona jest mi wdzięczna, że ja jej pozwoliłem się uczyć. Ja jej mówię, jak wiesz, no, no, łaskawco, ty straszna emancypantka; ale to moda – jak to ty mówisz; na to ona się odsuwa, trzyma mnie za ręce... może nie dla wszystkich, tato... tak się na mnie patrzy jakoś dziwnie, jakby jeszcze coś chciała mówić, że mi się ciepło w oczach zrobiło, i pocałowałem ją w czoło, pytam się... ty chcesz czego odemnie, Stefa?... Ona mówi: nic ojczulku. Dobranoc.<lb/>Potem poszła do okna.<lb/>Wychodzę, odwracam się, a ona, mówię ci, o tak: <stage>(Rozkłada ramiona wszerz)</stage> tak się oparła o ramy, czoło przyłożyła do szyby i tak stoi.<lb/>Myślę sobie: hm... i poszedłem spać.</p>
         </sp>
         <sp who="#pani_borkowska">
           <speaker>BORKOWSKA.</speaker>
@@ -3396,7 +3396,7 @@
         </sp>
         <sp who="#stefania">
           <speaker>STEFANIA.</speaker>
-          <p>I z kapeluszem. Dziękuję panu. <stage>(Podaje, Kalenicki wychodzi)</stage><lb />Jezus Marya, uwolnijcie mnie od tego błazna! Przyczepił się do mnie na ulicy i ani rusz pozbyć się go.</p>
+          <p>I z kapeluszem. Dziękuję panu. <stage>(Podaje, Kalenicki wychodzi)</stage><lb/>Jezus Marya, uwolnijcie mnie od tego błazna! Przyczepił się do mnie na ulicy i ani rusz pozbyć się go.</p>
         </sp>
         <sp who="#pani_borkowska">
           <speaker>BORKOWSKA.</speaker>
@@ -3432,7 +3432,7 @@
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
-          <p>Tak, jak Ignaś, zupełnie, łaskawco. Same umysły polityczne!<lb />Co to za młodzież teraz się rodzi, strach!</p>
+          <p>Tak, jak Ignaś, zupełnie, łaskawco. Same umysły polityczne!<lb/>Co to za młodzież teraz się rodzi, strach!</p>
         </sp>
         <sp who="#stefania">
           <speaker>STEFANIA.</speaker>
@@ -3540,7 +3540,7 @@
         </sp>
         <sp who="#laura">
           <speaker>LAURA.</speaker>
-          <p><stage>(rozpaczliwie chwyta się deski ratunku)</stage> Tak, właśnie, panie, jestem zachwycona, to jest niebywałe zwycięztwo!<lb />Ach, kiedyż nareszcie kobiety »otrzymają prawo wyboru i wybieralności«. Panie, jakbym ja chciała brać udział w polityce!</p>
+          <p><stage>(rozpaczliwie chwyta się deski ratunku)</stage> Tak, właśnie, panie, jestem zachwycona, to jest niebywałe zwycięztwo!<lb/>Ach, kiedyż nareszcie kobiety »otrzymają prawo wyboru i wybieralności«. Panie, jakbym ja chciała brać udział w polityce!</p>
         </sp>
         <sp who="#kalenicki">
           <speaker>KALENICKI.</speaker>
@@ -3726,7 +3726,7 @@
         </sp>
         <sp who="#stefania">
           <speaker>STEFANIA.</speaker>
-          <p>Proszę już zabrać się z tem. <stage>(Zamyśla się; do siebie)</stage> Gdzie to może być? <stage>(Twarz pokrywają cienie)</stage> Ten człowiek szydzi ze mnie...? To niemożliwe! On... on bawi się mną...?! To byłoby podłe!! A ja? Nie mogę... idę, idę ku niemu... i on to widzi... musi widzieć...<lb />Czy ja wiem; co ja wiem!! Moja głowa... głowa... <stage>(Ręce opadły bezwładnie)</stage><lb />A jeżeli... ah! ...To pójdę przez życie – sama!! ...Sama...! <stage>(Załamuje ręce; dreszcz. – Po chwili)</stage> Ha! <stage>(Szybko wstaje, siada za stołem, zabiera się do pracy. Ruchy gorączkowe. Nie zwraca uwagi na wchodzącego ojca; pisze)</stage></p>
+          <p>Proszę już zabrać się z tem. <stage>(Zamyśla się; do siebie)</stage> Gdzie to może być? <stage>(Twarz pokrywają cienie)</stage> Ten człowiek szydzi ze mnie...? To niemożliwe! On... on bawi się mną...?! To byłoby podłe!! A ja? Nie mogę... idę, idę ku niemu... i on to widzi... musi widzieć...<lb/>Czy ja wiem; co ja wiem!! Moja głowa... głowa... <stage>(Ręce opadły bezwładnie)</stage><lb/>A jeżeli... ah! ...To pójdę przez życie – sama!! ...Sama...! <stage>(Załamuje ręce; dreszcz. – Po chwili)</stage> Ha! <stage>(Szybko wstaje, siada za stołem, zabiera się do pracy. Ruchy gorączkowe. Nie zwraca uwagi na wchodzącego ojca; pisze)</stage></p>
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
@@ -3782,7 +3782,7 @@
         </sp>
         <sp who="#stefania">
           <speaker>STEFANIA.</speaker>
-          <p><stage>(uwalniając się z objęć ojca)</stage> Ach, tato! Co to za połączenie, to <stage>("Sonety")</stage> i emancypacya!? <stage>(Wstrząsa czupryną, mówi podniecona)</stage> Co to ma jedno z drugiem? Czy dla tego, że siadam do egzaminu, przestaję już być człowiekiem? Mam być wiecznie nudnym, chodzącym artykułem tygodnikowym?<lb />Tato ma dziwne pojęcia o tej emancypacyi. Niesłychani ludzie! <stage>(Wzruszyła ramionami, wyszła)</stage></p>
+          <p><stage>(uwalniając się z objęć ojca)</stage> Ach, tato! Co to za połączenie, to <stage>("Sonety")</stage> i emancypacya!? <stage>(Wstrząsa czupryną, mówi podniecona)</stage> Co to ma jedno z drugiem? Czy dla tego, że siadam do egzaminu, przestaję już być człowiekiem? Mam być wiecznie nudnym, chodzącym artykułem tygodnikowym?<lb/>Tato ma dziwne pojęcia o tej emancypacyi. Niesłychani ludzie! <stage>(Wzruszyła ramionami, wyszła)</stage></p>
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
@@ -4102,7 +4102,7 @@
         </sp>
         <sp who="#stefania">
           <speaker>STEFANIA.</speaker>
-          <p>O, jak to przecudnie! Więc ty nie przypuszczałeś, hahaha! Chodźmy do ojca. Niech cały świat wie, niech wszyscy wiedzą, niech wszyscy padają na kolana przed mojem szczęściem! Przed naszem, naszem szczęściem!!<lb />Wspólne myśli i wspólne marzenia! I ty nie przypuszczałeś – to niesłychane!!</p>
+          <p>O, jak to przecudnie! Więc ty nie przypuszczałeś, hahaha! Chodźmy do ojca. Niech cały świat wie, niech wszyscy wiedzą, niech wszyscy padają na kolana przed mojem szczęściem! Przed naszem, naszem szczęściem!!<lb/>Wspólne myśli i wspólne marzenia! I ty nie przypuszczałeś – to niesłychane!!</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -4118,7 +4118,7 @@
         </sp>
         <sp who="#stefania">
           <speaker>STEFANIA.</speaker>
-          <p>...Nie słucham dalej... Ojciec mój poczciwy, on kocha mnie.<lb />No – no, no, ja idę... ty brzydki zarozumialcze! Ojciec tu przyjdzie zaraz. <stage>(Wraca; ze swobodną zalotnością)</stage> A teraz... teraz wolno straszną emancypantkę... pocałować w ten reakcyjny lok. <stage>(Podaje włosy)</stage></p>
+          <p>...Nie słucham dalej... Ojciec mój poczciwy, on kocha mnie.<lb/>No – no, no, ja idę... ty brzydki zarozumialcze! Ojciec tu przyjdzie zaraz. <stage>(Wraca; ze swobodną zalotnością)</stage> A teraz... teraz wolno straszną emancypantkę... pocałować w ten reakcyjny lok. <stage>(Podaje włosy)</stage></p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -4147,7 +4147,7 @@
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
-          <p>Po raz ostatni dzisiaj byłem w domu państwa.<lb />Przyślę następcę; pannie Stefanii nadal pomocą moją.... ku... słu... służyć nie mo...gę. <stage>(Ukłon)</stage></p>
+          <p>Po raz ostatni dzisiaj byłem w domu państwa.<lb/>Przyślę następcę; pannie Stefanii nadal pomocą moją.... ku... słu... służyć nie mo...gę. <stage>(Ukłon)</stage></p>
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
@@ -4209,11 +4209,11 @@
         </sp>
         <sp who="#stefania">
           <speaker>STEFANIA.</speaker>
-          <p>Wiem! już wiem. Co za przeklęta duma!<lb />On bał się odmowy – on mi raz mówił, że walczy z ostatnią nędzą, nazywał siebie żebrakiem... Wiem–!</p>
+          <p>Wiem! już wiem. Co za przeklęta duma!<lb/>On bał się odmowy – on mi raz mówił, że walczy z ostatnią nędzą, nazywał siebie żebrakiem... Wiem–!</p>
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
-          <p>Jak to »żebrak«? Jaka »nędza«?<lb />A czy ja pytam się go, łaskawco, co mu w kieszeni siedzi!?<lb />Ja idę do niego z sercem, jak ojciec, bo wiem, że ty... tego, a on, panie, waryat–!<lb />To jest uszanowanie dla starszego człowieka? To on mi nie mógł powiedzieć, co jest?! Czy ja dla mojego dziecka nie mam już centa na życie, czy co?<lb />A stanowisko jakieś, to on tam chyba będzie miał. Waryat!</p>
+          <p>Jak to »żebrak«? Jaka »nędza«?<lb/>A czy ja pytam się go, łaskawco, co mu w kieszeni siedzi!?<lb/>Ja idę do niego z sercem, jak ojciec, bo wiem, że ty... tego, a on, panie, waryat–!<lb/>To jest uszanowanie dla starszego człowieka? To on mi nie mógł powiedzieć, co jest?! Czy ja dla mojego dziecka nie mam już centa na życie, czy co?<lb/>A stanowisko jakieś, to on tam chyba będzie miał. Waryat!</p>
         </sp>
         <sp who="#stefania">
           <speaker>STEFANIA.</speaker>
@@ -4241,7 +4241,7 @@
         </sp>
         <sp who="#stefania">
           <speaker>STEFANIA.</speaker>
-          <p>Tato... odmawia?...<lb />Dla szczęścia mojego nie chce popełnić małego nietaktu?</p>
+          <p>Tato... odmawia?...<lb/>Dla szczęścia mojego nie chce popełnić małego nietaktu?</p>
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
@@ -4327,7 +4327,7 @@
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p>To ja ci coś powiem. <stage>(Głowę opiera o brzeg kołyski, mówi cicho, jakby półsennie, lecz głosem czystym)</stage> A może nie powiedzieć? i tak już przeszło. <stage>(Milczenie)</stage> Jak ty w południe poszedłeś, to mnie tak dziwnie, głowa mnie rozbolała – i takie miałam myśli!<lb />Potem to ja siadłam przy kołysce na ziemi, długo siedziałam, aż i usnęłam.<lb />A sen miałam okropny. Nawet ci nie powiem.<lb />...Ludzie mówią: Sen mara, Bóg wiara. Tak mówią.<lb />Potem bardzo płakałam, tak mi było zimno, wszystko mnie bolało, jakby mnie kto zbił.<lb />Ani nawet nie mogłam wstać; aż dopiero Walentowa przyszła, zapaliła w piecu, a ja znowu zasnęłam.<lb />Ale ty przyszedłeś.<lb />...Antoś...</p>
+          <p>To ja ci coś powiem. <stage>(Głowę opiera o brzeg kołyski, mówi cicho, jakby półsennie, lecz głosem czystym)</stage> A może nie powiedzieć? i tak już przeszło. <stage>(Milczenie)</stage> Jak ty w południe poszedłeś, to mnie tak dziwnie, głowa mnie rozbolała – i takie miałam myśli!<lb/>Potem to ja siadłam przy kołysce na ziemi, długo siedziałam, aż i usnęłam.<lb/>A sen miałam okropny. Nawet ci nie powiem.<lb/>...Ludzie mówią: Sen mara, Bóg wiara. Tak mówią.<lb/>Potem bardzo płakałam, tak mi było zimno, wszystko mnie bolało, jakby mnie kto zbił.<lb/>Ani nawet nie mogłam wstać; aż dopiero Walentowa przyszła, zapaliła w piecu, a ja znowu zasnęłam.<lb/>Ale ty przyszedłeś.<lb/>...Antoś...</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -4395,11 +4395,11 @@
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
-          <p>He he! Rano kartoflanka, a wieczór nektar. Robi się taka mieszaninka, hehe, tak się chodzi codziennie w błogiem podnieceniu.<lb />Ciągle pijany, pijany szczęściem. Wściekłość!!<lb />Zosiu, tyś mi skradła pół mojego życia; ty mi zatrułaś najpiękniejsze lata, ty mnie pchnęłaś w bagno – nie, w to małe, ohydne bajoro! Błoto cieknie mi uszami, błoto pcha się do ust, lezie do oczu, lepi się po twarzy, po ciele – błoto, błoto!!<lb />Ja Oszaleję, ja oszaleję! <stage>(Pada na łóżko; głowę w poduszce tarza)</stage></p>
+          <p>He he! Rano kartoflanka, a wieczór nektar. Robi się taka mieszaninka, hehe, tak się chodzi codziennie w błogiem podnieceniu.<lb/>Ciągle pijany, pijany szczęściem. Wściekłość!!<lb/>Zosiu, tyś mi skradła pół mojego życia; ty mi zatrułaś najpiękniejsze lata, ty mnie pchnęłaś w bagno – nie, w to małe, ohydne bajoro! Błoto cieknie mi uszami, błoto pcha się do ust, lezie do oczu, lepi się po twarzy, po ciele – błoto, błoto!!<lb/>Ja Oszaleję, ja oszaleję! <stage>(Pada na łóżko; głowę w poduszce tarza)</stage></p>
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p>Matko Niepokalana, Matko Niepokalana! Antoś, Antoś mój złoty – no to co ja mam robić...<lb />Antoś, ja... wszystko, co tylko chcesz...</p>
+          <p>Matko Niepokalana, Matko Niepokalana! Antoś, Antoś mój złoty – no to co ja mam robić...<lb/>Antoś, ja... wszystko, co tylko chcesz...</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -4407,15 +4407,15 @@
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p>A to już po wszystkiemu – już po wszystkiemu.<lb />Antoś, ja teraz zrozumiałam już wszystko. Ale cóż ja winna... Ja wiem, że ja jestem winna.<lb />Ty mnie – nigdy nie kochałeś.<lb />Już teraz wiem – o moja dolo.</p>
+          <p>A to już po wszystkiemu – już po wszystkiemu.<lb/>Antoś, ja teraz zrozumiałam już wszystko. Ale cóż ja winna... Ja wiem, że ja jestem winna.<lb/>Ty mnie – nigdy nie kochałeś.<lb/>Już teraz wiem – o moja dolo.</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
-          <p>Zosiu, ja nie mogę powiedzieć, że ja cię nie kocham, bo ciebie nie można, bo ciebie ja nie kochać nie mogę, ale to jest coś innego.<lb />A razem nie możemy żyć. Ja kłamać nie chcę, a tak być nie może.</p>
+          <p>Zosiu, ja nie mogę powiedzieć, że ja cię nie kocham, bo ciebie nie można, bo ciebie ja nie kochać nie mogę, ale to jest coś innego.<lb/>A razem nie możemy żyć. Ja kłamać nie chcę, a tak być nie może.</p>
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p>Co ja mam robić?<lb />Już ja wiem – co każesz, ja zrobię.</p>
+          <p>Co ja mam robić?<lb/>Już ja wiem – co każesz, ja zrobię.</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -4428,7 +4428,7 @@
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p>Mój Antosiu, ty masz prawo, bo cóż... ja przecież przyszłam tutaj sama. Ale cóż ja winna?<lb />Ty masz prawo, każdy tak powie.</p>
+          <p>Mój Antosiu, ty masz prawo, bo cóż... ja przecież przyszłam tutaj sama. Ale cóż ja winna?<lb/>Ty masz prawo, każdy tak powie.</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -4452,11 +4452,11 @@
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p>Ja jutro pójdę. Wiem, że na zawsze.<lb />I mój sen się sprawdził... Że już raz na zawsze – o moja dolo!</p>
+          <p>Ja jutro pójdę. Wiem, że na zawsze.<lb/>I mój sen się sprawdził... Że już raz na zawsze – o moja dolo!</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
-          <p>Nie, nie, nie na zawsze! My będziemy się widywać, my... ja będę... nie!! Na Boga, tylko nie łudzić!<lb />Zosiu, na zawsze! My nigdy już nie będziemy się widzieć.</p>
+          <p>Nie, nie, nie na zawsze! My będziemy się widywać, my... ja będę... nie!! Na Boga, tylko nie łudzić!<lb/>Zosiu, na zawsze! My nigdy już nie będziemy się widzieć.</p>
         </sp>
       </div>
       <div type="scene" n="22">
@@ -4487,7 +4487,7 @@
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
-          <p>Czem... cz..em mogę służyć...? Hehe, nie wie... wiem, gdzie lampa, śmieszne, zdaje się, nafty...<lb />I jestem zdenerwowany – nie wiem, czem mogę służyć.</p>
+          <p>Czem... cz..em mogę służyć...? Hehe, nie wie... wiem, gdzie lampa, śmieszne, zdaje się, nafty...<lb/>I jestem zdenerwowany – nie wiem, czem mogę służyć.</p>
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
@@ -4499,7 +4499,7 @@
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
-          <p>Tak jest, panie. Pan jesteś młody, a ja jestem stary. A ja i tak przychodzę do pana, zaprosić pana...<lb />Chociaż... łaskawco... hm.<lb />Co tu długo owijać w bawełnę; ja o wszystkiem wiem, od dawna, i to nie jest zbrodnia.<lb />Jesteście młodzi, moja córka kocha pana...</p>
+          <p>Tak jest, panie. Pan jesteś młody, a ja jestem stary. A ja i tak przychodzę do pana, zaprosić pana...<lb/>Chociaż... łaskawco... hm.<lb/>Co tu długo owijać w bawełnę; ja o wszystkiem wiem, od dawna, i to nie jest zbrodnia.<lb/>Jesteście młodzi, moja córka kocha pana...</p>
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
@@ -4524,7 +4524,7 @@
         </sp>
         <sp who="#borkowski">
           <speaker>BORKOWSKI.</speaker>
-          <p><stage>(wpada; trzęsie się)</stage> Od mojego domu – wara!!<lb />Do mojej córki, żebyś się pan nie zbliżył.<lb />I ja... panu powiadam, że to jest podłość... ja panu...</p>
+          <p><stage>(wpada; trzęsie się)</stage> Od mojego domu – wara!!<lb/>Do mojej córki, żebyś się pan nie zbliżył.<lb/>I ja... panu powiadam, że to jest podłość... ja panu...</p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
@@ -4545,16 +4545,16 @@
         </sp>
         <sp who="#zosia">
           <speaker>ZOSIA.</speaker>
-          <p><stage>(drgnęła; cofa się. Porywa chustkę, biegnie ku kołysce)</stage> Dziecko jest moje. <stage>(Otula je)</stage> A centa od pana nie potrzebuję!<lb />To wszystko jest panowe! <stage>(Stoi w progu. Długie milczenie. Powieki drżą jej i wargi. Wyłkała)</stage> ...Aby ci tego – Bóg w niebie nie zapomniał! <stage>(Wyszła)</stage></p>
+          <p><stage>(drgnęła; cofa się. Porywa chustkę, biegnie ku kołysce)</stage> Dziecko jest moje. <stage>(Otula je)</stage> A centa od pana nie potrzebuję!<lb/>To wszystko jest panowe! <stage>(Stoi w progu. Długie milczenie. Powieki drżą jej i wargi. Wyłkała)</stage> ...Aby ci tego – Bóg w niebie nie zapomniał! <stage>(Wyszła)</stage></p>
         </sp>
         <sp who="#relski">
           <speaker>RELSKI.</speaker>
           <p><stage>(stoi niemy, zmartwiały; nagle chwyta kurczowo poręcz stołka)</stage> ...Powiedział – podły! i ja... nie dałem mu... w twarz??!!</p>
         </sp>
         <trailer>(KONIEC KARYKATUR)</trailer>
-        <note>KARYKATURY<lb />wystawiono na scenie Teatru Miejskiego<lb />w Krakowie dnia 8 kwietnia 1899 roku.</note><lb />
-        <note>Prawo przekładu i wprowadzania na sceny zastrzeżone we wszystkich krajach.</note><lb />
-        <note>NAKŁAD TOWARZYSTWA WYDAWNICZEGO WE LWOWIE.<lb />SKŁAD GŁÓWNY: LWÓW, UL. MOCHNACKIEGO, L. 6.<lb />DRUKIEM W. L. ANCZYCA I SPÓŁKI W KRAKOWIE.</note>
+        <note>KARYKATURY<lb/>wystawiono na scenie Teatru Miejskiego<lb/>w Krakowie dnia 8 kwietnia 1899 roku.</note><lb/>
+        <note>Prawo przekładu i wprowadzania na sceny zastrzeżone we wszystkich krajach.</note><lb/>
+        <note>NAKŁAD TOWARZYSTWA WYDAWNICZEGO WE LWOWIE.<lb/>SKŁAD GŁÓWNY: LWÓW, UL. MOCHNACKIEGO, L. 6.<lb/>DRUKIEM W. L. ANCZYCA I SPÓŁKI W KRAKOWIE.</note>
       </div>
     </body>
   </text>

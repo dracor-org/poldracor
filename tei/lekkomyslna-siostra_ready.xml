@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000040" xml:lang="pol">
   <teiHeader>
@@ -88,7 +88,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1904">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
     <listRelation>
@@ -102,12 +102,12 @@
             <docAuthor>WŁODZIMIERZ PERZYŃSKI</docAuthor>
           </byline>
           <docTitle>
-            <titlePart type="main">Lekkomyślna<lb />Siostra</titlePart>
+            <titlePart type="main">Lekkomyślna<lb/>Siostra</titlePart>
             <titlePart type="sub">KOMEDYA W CZTERECH AKTACH</titlePart>
           </docTitle>
           <docImprint>
-              WE <pubPlace>LWOWIE</pubPlace> - <date>1907</date>.<lb />
-              NAKŁADEM KSIĘGARNI POLSKIEJ <name>B. POŁONIECKIEGO</name><lb />
+              WE <pubPlace>LWOWIE</pubPlace> - <date>1907</date>.<lb/>
+              NAKŁADEM KSIĘGARNI POLSKIEJ <name>B. POŁONIECKIEGO</name><lb/>
               WARSZAWA <name>E. WENDE</name> I SP.
           </docImprint>
         </titlePage>
@@ -1543,7 +1543,7 @@
         <div type="scene" n="9">
           <head>SCENA DRUGA.</head>
           <stage type="setting">
-            <p></p>
+            <p/>
           </stage>
           <stage type="entrance">
             <p>

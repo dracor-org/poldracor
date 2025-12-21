@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000043" xml:lang="pol">
   <teiHeader>
@@ -75,7 +75,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1899">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
     <listRelation>
@@ -87,18 +87,18 @@
         <titlePage>
           <docImprint>
               DRUKOWANE W DRUKARNI C. K. UNIWERSYTETU JAGIELLOŃSKIEGO W KRAKOWIE POD ZARZĄDEM <name>J. FILIPOWSKIEGO</name> <date>MCM</date>. NAKŁADEM KSIĘGARNI POLSKIEJ WE <pubPlace>LWOWIE</pubPlace>.
-          </docImprint><lb />
+          </docImprint><lb/>
           <byline>
             <docAuthor>STANISŁAW PRZYBYSZEWSKI</docAuthor>
-          </byline><lb />
+          </byline><lb/>
           <docTitle>
             <titlePart type="main">DLA SZCZĘŚCIA</titlePart>
           </docTitle>
         </titlePage>
         <div type="appendix">
           <salute>
-            Świetnemu artyście dramatycznemu<lb />Kazimierzowi Kamińskiemu
-          </salute><lb />
+            Świetnemu artyście dramatycznemu<lb/>Kazimierzowi Kamińskiemu
+          </salute><lb/>
           <signed><name>Stanisław Przybyszewski.</name></signed>
         </div>
     </front>
@@ -720,7 +720,7 @@
           </sp>
           <sp who="#helena">
             <speaker>HELENA.</speaker>
-            <p><stage>(przerywa)</stage> Czy panu rozsądek i duma w pańskiej miłości pomogły? Mój Boże, Boże! powtarzam sobie tysiąc razy, Stefan mnie nie kocha, kocha inną; niech idzie, niech będzie szczęśliwy, woła mój rozsądek, podłością go zatrzymywać, jeśli mnie nie kocha. A serce krzyczy ratunku, do nóg jego przyczepić bym się chciała, żeby nie odszedł. Niech bije, niech nogami tratuje, byle tylko pozostał! <stage>(chwyta się za głowę)</stage> O Boże, Boże, co teraz będzie? <stage>(do siebie)</stage> Co będzie, co będzie? <stage>(pauza)</stage><lb /><stage>(Gwałtownie)</stage> Pan mi musi pomódz. Pomóż mi pan, pomóż! Zmarnieję bez niego. Nie mam domu, nie mam rodziców; cały świat się mnie wyparł. Na całym świecie Stefan, tylko Stefan, jedyny Stefan!...</p>
+            <p><stage>(przerywa)</stage> Czy panu rozsądek i duma w pańskiej miłości pomogły? Mój Boże, Boże! powtarzam sobie tysiąc razy, Stefan mnie nie kocha, kocha inną; niech idzie, niech będzie szczęśliwy, woła mój rozsądek, podłością go zatrzymywać, jeśli mnie nie kocha. A serce krzyczy ratunku, do nóg jego przyczepić bym się chciała, żeby nie odszedł. Niech bije, niech nogami tratuje, byle tylko pozostał! <stage>(chwyta się za głowę)</stage> O Boże, Boże, co teraz będzie? <stage>(do siebie)</stage> Co będzie, co będzie? <stage>(pauza)</stage><lb/><stage>(Gwałtownie)</stage> Pan mi musi pomódz. Pomóż mi pan, pomóż! Zmarnieję bez niego. Nie mam domu, nie mam rodziców; cały świat się mnie wyparł. Na całym świecie Stefan, tylko Stefan, jedyny Stefan!...</p>
           </sp>
           <sp who="#zdżarski">
             <speaker>ZDŻARSKI.</speaker>
@@ -745,7 +745,7 @@
           </sp>
           <sp who="#helena">
             <speaker>HELENA.</speaker>
-            <p><stage>(zamyślona)</stage> Nie można... <stage>(pauza)</stage><lb /><stage>(Budząc się z zamyślenia)</stage> Może sobie pan wyobrazić stan duszy człowieka, któremu wyrok śmierci przeczytano?</p>
+            <p><stage>(zamyślona)</stage> Nie można... <stage>(pauza)</stage><lb/><stage>(Budząc się z zamyślenia)</stage> Może sobie pan wyobrazić stan duszy człowieka, któremu wyrok śmierci przeczytano?</p>
           </sp>
           <sp who="#zdżarski">
             <speaker>ZDŻARSKI.</speaker>
@@ -861,7 +861,7 @@
       <div type="act" n="2">
         <head>AKT II.</head>
         <stage type="setting">
-          <p>(Dzień później)<lb />(Ten sam pokój, co w pierwszym akcie. Zmrok coraz gęstszy; na kanapie siedzi Zdżarski i pali papierosa. Przed nim na stole kilka flaszek piwa. Helena do połowy zwrócona do Zdżarskiego, patrzy w okno. Po odsłonięciu kurtyny przez chwilę zupełna cisza)</p>
+          <p>(Dzień później)<lb/>(Ten sam pokój, co w pierwszym akcie. Zmrok coraz gęstszy; na kanapie siedzi Zdżarski i pali papierosa. Przed nim na stole kilka flaszek piwa. Helena do połowy zwrócona do Zdżarskiego, patrzy w okno. Po odsłonięciu kurtyny przez chwilę zupełna cisza)</p>
         </stage>
         <div type="scene" n="6">
           <head>SCENA I.</head>
@@ -1667,7 +1667,7 @@
           </stage>
           <sp who="#mlicki">
             <speaker>MLICKI.</speaker>
-            <p><stage>(stoi jak wryty i patrzy z szeroko rozwartemi oczyma ku drzwiom)<lb />(Po chwili otwierają się drzwi i wchodzi Olga, za nią Zdżarski)</stage>A!... Zdżarski... w istocie...</p>
+            <p><stage>(stoi jak wryty i patrzy z szeroko rozwartemi oczyma ku drzwiom)<lb/>(Po chwili otwierają się drzwi i wchodzi Olga, za nią Zdżarski)</stage>A!... Zdżarski... w istocie...</p>
           </sp>
           <sp who="#zdżarski">
             <speaker>ZDŻARSKI.</speaker>

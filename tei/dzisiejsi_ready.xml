@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000046" xml:lang="pol">
   <teiHeader>
@@ -73,7 +73,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1885">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -89,7 +89,7 @@
           <salute>
             D-ROWI JANOWI BRZEZIŃSKIEMU
           </salute>
-          <p>w przyjaznym upominku<lb />SKŁADA<lb />autor.</p>
+          <p>w przyjaznym upominku<lb/>SKŁADA<lb/>autor.</p>
         </div>
         <castList>
           <head>OSOBY:</head>
@@ -973,7 +973,7 @@
         </stage>
         <sp who="#julia">
           <speaker>JULIA.</speaker>
-          <p><stage>(przez chwilę po jego wyjściu stoi nieruchoma, potém nagle biegnie ku drzwiom w głębi, nasłuchując, zatrzymuje się, jakby pod wpływem wewnętrznéj walki)</stage> Nie… niech odejdzie… nie okażę mu méj słabości… Co to było? co to było?… Przecież to żart chyba… <stage>(przechadza się wzburzona po scenie)</stage> ja jednak drżę, jak liść ze wzruszenia, przestrachu czy z podrażnienia?… sama siebie nie poznaję… <stage>(staje przy biurku, spostrzega list)</stage> Ah, list!… <stage>(spogląda na adres)</stage> Co?… do mnie?… <stage>(rozrywa szybko kopertę)</stage> Jego ostatnie słowa… <stage>(patrzy w list)</stage> Nie mogę przeczytać – za drobne pismo… <stage>(idzie szybko ku lampie, czytając z zajęciem)</stage> „Łaskawa pani! à un renard ud renard et demi. Chciałaś mnie pani zaszachowac i ośmieszyć w bardzo zręczny sposób, żądając ofiary z mojego życia za chwilową fantazyą; ceniłem zawsze wysoko spryt w kobiecie, ale chciałem panią przekonać, że umiem i z tak trudnego położenia wychodzić zwycięzko. Czy mi się udało… osądzisz sama po przeczytaniu téj przedśmiertnéj rady, którą ośmielam się zostawić pani w spuściźnie po sobie: serdecznéj struny w mężczyźnie nie należy nigdy przeciągać, a w miłości źle być… za sprytną. Proszę mi wybaczyć tę zaimprowizowaną komedyjkę, którą pani raczyłaś przecież reżysserować sama i przyjąć podziękowanie od pacyenta wyleczonego zupełnie… ze złudzeń i chęci pozyskania pani serca i ręki.<lb />Juliusz Topolski.<lb />„P. S. My lekarze znamy się dobrze z truciznami i nie wierzymy tak łatwo indyjskim elixirom, jak panie belladonie, która tym razem była zwyczajną solą do trzeźwienia czasem omdlałych kobiét, a czasem mdlejącego pomysłu.” <stage>(rzuca list z widoczną irrytacyą)</stage> No, no!… ależ sprytny!… oh, muszę mu przyznać, że przez chwilę nabawił mnie prawdziwego kłopotu… Bardzo sprytny! – byłby z niego wyborny… mąż?… o nie; za niebezpieczny na męża… Zresztą, kto wié?… takiemu tylko mogłabym być uległą… Helas! może on ma i słuszność – przeciągnęłam strunę i… pękła. Bądź co bądź, żyć z nim byłoby ryzykownie, lecz przepędzić wieczór zawsze przyjemnie. Trzeba go będzie zaprosić znowu na takie tête-à-tête; – zabawnych mężczyzn i zajmujących tak mało, oh, jak mało!… a ja herbaty nie rozumiem bez… sucharków i miłéj rozmowy. <stage>(Siada przy biurku i zabiera się do pisania)</stage></p>
+          <p><stage>(przez chwilę po jego wyjściu stoi nieruchoma, potém nagle biegnie ku drzwiom w głębi, nasłuchując, zatrzymuje się, jakby pod wpływem wewnętrznéj walki)</stage> Nie… niech odejdzie… nie okażę mu méj słabości… Co to było? co to było?… Przecież to żart chyba… <stage>(przechadza się wzburzona po scenie)</stage> ja jednak drżę, jak liść ze wzruszenia, przestrachu czy z podrażnienia?… sama siebie nie poznaję… <stage>(staje przy biurku, spostrzega list)</stage> Ah, list!… <stage>(spogląda na adres)</stage> Co?… do mnie?… <stage>(rozrywa szybko kopertę)</stage> Jego ostatnie słowa… <stage>(patrzy w list)</stage> Nie mogę przeczytać – za drobne pismo… <stage>(idzie szybko ku lampie, czytając z zajęciem)</stage> „Łaskawa pani! à un renard ud renard et demi. Chciałaś mnie pani zaszachowac i ośmieszyć w bardzo zręczny sposób, żądając ofiary z mojego życia za chwilową fantazyą; ceniłem zawsze wysoko spryt w kobiecie, ale chciałem panią przekonać, że umiem i z tak trudnego położenia wychodzić zwycięzko. Czy mi się udało… osądzisz sama po przeczytaniu téj przedśmiertnéj rady, którą ośmielam się zostawić pani w spuściźnie po sobie: serdecznéj struny w mężczyźnie nie należy nigdy przeciągać, a w miłości źle być… za sprytną. Proszę mi wybaczyć tę zaimprowizowaną komedyjkę, którą pani raczyłaś przecież reżysserować sama i przyjąć podziękowanie od pacyenta wyleczonego zupełnie… ze złudzeń i chęci pozyskania pani serca i ręki.<lb/>Juliusz Topolski.<lb/>„P. S. My lekarze znamy się dobrze z truciznami i nie wierzymy tak łatwo indyjskim elixirom, jak panie belladonie, która tym razem była zwyczajną solą do trzeźwienia czasem omdlałych kobiét, a czasem mdlejącego pomysłu.” <stage>(rzuca list z widoczną irrytacyą)</stage> No, no!… ależ sprytny!… oh, muszę mu przyznać, że przez chwilę nabawił mnie prawdziwego kłopotu… Bardzo sprytny! – byłby z niego wyborny… mąż?… o nie; za niebezpieczny na męża… Zresztą, kto wié?… takiemu tylko mogłabym być uległą… Helas! może on ma i słuszność – przeciągnęłam strunę i… pękła. Bądź co bądź, żyć z nim byłoby ryzykownie, lecz przepędzić wieczór zawsze przyjemnie. Trzeba go będzie zaprosić znowu na takie tête-à-tête; – zabawnych mężczyzn i zajmujących tak mało, oh, jak mało!… a ja herbaty nie rozumiem bez… sucharków i miłéj rozmowy. <stage>(Siada przy biurku i zabiera się do pisania)</stage></p>
         </sp>
         <trailer>(ZASŁONA SPADA)</trailer>
       </div>

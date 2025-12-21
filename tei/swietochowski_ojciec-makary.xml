@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000015" xml:lang="pol">
   <teiHeader>
@@ -97,14 +97,14 @@
   <standOff>
     <listEvent>
       <event type="print" when="1876">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
   <text>
     <front>
         <titlePage>
-          <titlePart type="series">NIEŚMIERTELNE DUSZE.<lb />
+          <titlePart type="series">NIEŚMIERTELNE DUSZE.<lb/>
             I.</titlePart>
           <docTitle>
             <titlePart type="main">OJCIEC MAKARY</titlePart>
@@ -112,20 +112,20 @@
           </docTitle>
           <docAuthor>WŁADYSŁAWA OKOŃSKIEGO.</docAuthor>
           <epigraph>
-            <cit><quote>Prawda ma do przebrania się nieskończoną ilość postaci.</quote><lb /> <bibl>(Ze starej książki).</bibl></cit>
+            <cit><quote>Prawda ma do przebrania się nieskończoną ilość postaci.</quote><lb/> <bibl>(Ze starej książki).</bibl></cit>
           </epigraph>
           <docImprint>
-            <pubPlace>KRAKÓW.</pubPlace><lb />
-			W drukarni W. Korneckiego.<lb />
-            Nakładem Księgarni Adolfa Dygasińskiego i Sp.<lb />
+            <pubPlace>KRAKÓW.</pubPlace><lb/>
+			W drukarni W. Korneckiego.<lb/>
+            Nakładem Księgarni Adolfa Dygasińskiego i Sp.<lb/>
             <date>1876</date>.
           </docImprint>
         </titlePage>
         <note type="licence">Prawa autorskie zastrzegają się.</note>
         <note type="appendix">
-          <p>Dramat obecny jest pierwszą częścią całości większej, której następne wkrótce kolejno się ukażą. Złączy je wspólna idea, tożsamość zaś osób o tyle, o ile przeprowadzenie ich z jednego dramatu do drugiego tkwić będzie w logice ogólnego planu akcyi. Każda przytem część, na podobieństwo obecnej, mieć będzie swoją własną, skończoną osnowę, w której pewna kombinacya motywów rozwiąże się konkluzyą w jej zakresie decydującą. Usprawiedliwienie ogólnej nazwy: Nieśmiertelne dusze – zaczeka do ostatniej z tych prac, z których pierwszą<lb />
-          Szczerym jej przyjaciołom<lb />
-          przypisuje<lb />
+          <p>Dramat obecny jest pierwszą częścią całości większej, której następne wkrótce kolejno się ukażą. Złączy je wspólna idea, tożsamość zaś osób o tyle, o ile przeprowadzenie ich z jednego dramatu do drugiego tkwić będzie w logice ogólnego planu akcyi. Każda przytem część, na podobieństwo obecnej, mieć będzie swoją własną, skończoną osnowę, w której pewna kombinacya motywów rozwiąże się konkluzyą w jej zakresie decydującą. Usprawiedliwienie ogólnej nazwy: Nieśmiertelne dusze – zaczeka do ostatniej z tych prac, z których pierwszą<lb/>
+          Szczerym jej przyjaciołom<lb/>
+          przypisuje<lb/>
           AUTOR.</p>
         </note>
         <castList>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000028" xml:lang="pol">
   <teiHeader>
@@ -98,7 +98,7 @@
         <desc>Przedstawiono na Teatrze Krakowskim pierwszy raz dnia 20go grudnia 1849go roku</desc>
       </event>
       <event type="print" when="1850">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -106,17 +106,17 @@
     <front>
         <titlePage>
           <docTitle>
-            <titlePart type="main">CHŁOPI<lb />
+            <titlePart type="main">CHŁOPI<lb/>
             ARYSTOKRACI</titlePart>
-            <titlePart type="sub">SZKIC DRAMATYCZNY<lb />
+            <titlePart type="sub">SZKIC DRAMATYCZNY<lb/>
             W JEDNEJ ODSŁONIE ZE ŚPIEWKAMI</titlePart>
           </docTitle>
-          <byline>PRZEZ<lb />
+          <byline>PRZEZ<lb/>
             <docAuthor>WŁADYSŁAWA LUDWIKA ANCZYC</docAuthor>.
           </byline>
           <docImprint>
-              <pubPlace>KRAKÓW</pubPlace><lb />
-              W DRUKARNI <name>JÓZEFA CZECHA</name>.<lb />
+              <pubPlace>KRAKÓW</pubPlace><lb/>
+              W DRUKARNI <name>JÓZEFA CZECHA</name>.<lb/>
               <date>1951</date>.
           </docImprint>
         </titlePage>
@@ -168,8 +168,8 @@
             <actor>Pan Giettirch.</actor>
           </castItem>
         </castList>
-        <note>PRZEDSTAWIONO NA TEATRZE KRAKOWSKIM<lb />
-        PIERWSZY RAZ<lb />
+        <note>PRZEDSTAWIONO NA TEATRZE KRAKOWSKIM<lb/>
+        PIERWSZY RAZ<lb/>
         DNIA 20go GRUDNIA 1849go ROKU</note>
       <set>
         <p>(Scena w Jasielskim w zimie 1849 r.)</p>
@@ -237,15 +237,15 @@
         </sp>
         <sp who="#marysia">
           <speaker>MARYSIA.</speaker>
-          <p>Dobrze wam mówić... ale mnie co innego na myśli.<lb />
-          <stage>(ŚPIEW)</stage><lb />
-          Ja bez wszyckie dnia godziny<lb />
-          O Marcinku myślę wciąż<lb />
-          Bo dla ucciwej dziewcyny<lb />
-          Scęściem byłby taki mąz.<lb />
-          Przy robocie pędzi chwile<lb />
-          Niknie przy nim smutku cień,<lb />
-          Za godzinę zrobi tyle<lb />
+          <p>Dobrze wam mówić... ale mnie co innego na myśli.<lb/>
+          <stage>(ŚPIEW)</stage><lb/>
+          Ja bez wszyckie dnia godziny<lb/>
+          O Marcinku myślę wciąż<lb/>
+          Bo dla ucciwej dziewcyny<lb/>
+          Scęściem byłby taki mąz.<lb/>
+          Przy robocie pędzi chwile<lb/>
+          Niknie przy nim smutku cień,<lb/>
+          Za godzinę zrobi tyle<lb/>
           Co drugi bez cały dzień.</p>
         </sp>
         <sp who="#jędrzejowa">
@@ -325,15 +325,15 @@
         </sp>
         <sp who="#marcin">
           <speaker>MARCIN.</speaker>
-          <p>Marysiu niezakrwawiaj mi serca... nie znas mię widzę – niewis jak cię kocham... za wsyćko w świecie nieustąpiłbym cię, i niech mię Bóg skarze jeśli cię kiej opuscę.<lb />
-          <stage>(ŚPIEW)</stage><lb />
-          Nieznas mię Marysiu luba<lb />
-          Krew ma dla Cię tylko płynie<lb />
-          Zyć przez ciebie dla mnie zguba<lb />
-          W tobie scęście me jedynie.<lb />
-          Dla ciebie tylko dla ciebie<lb />
-          Zyć pragnę sieroto biedna<lb />
-          I jak jeden Bóg na niebie,<lb />
+          <p>Marysiu niezakrwawiaj mi serca... nie znas mię widzę – niewis jak cię kocham... za wsyćko w świecie nieustąpiłbym cię, i niech mię Bóg skarze jeśli cię kiej opuscę.<lb/>
+          <stage>(ŚPIEW)</stage><lb/>
+          Nieznas mię Marysiu luba<lb/>
+          Krew ma dla Cię tylko płynie<lb/>
+          Zyć przez ciebie dla mnie zguba<lb/>
+          W tobie scęście me jedynie.<lb/>
+          Dla ciebie tylko dla ciebie<lb/>
+          Zyć pragnę sieroto biedna<lb/>
+          I jak jeden Bóg na niebie,<lb/>
           Tak ty w świecie dla mnie jedna.</p>
         </sp>
         <sp who="#marysia">
@@ -452,31 +452,31 @@
         </sp>
         <sp who="#katarzyna">
           <speaker>KATARZYNA.</speaker>
-          <p>Jesce na wiosnę, kiej dziedzica do reśty wygnamy ze wsi, to dopiero wsyćko będzie inacej – wsyćkim się podzielema – wtedy to i wam Stanisławie coś obliźnie, no to się wie ze ze nie tyla co nam – bo ja muse kuniecnie we dworze mieskać, juzem się do niego przyzwycaiła, jakem była za pannę do trzody; niesposob mi bez dworskiego życia wytrzymać: bo nawet kiej posłysę ze trzoda kwicy, to mi się zaraz na płac zbiera.<lb />
-          <stage>(ŚPIEW)</stage><lb />
-          Kiej cłek pańskie grunta złapie,<lb />
-          Przeniesiema się do dwora,<lb />
-          Będę siedzieć na kanapie,<lb />
-          Będę sobie zawdy chora.<lb />
-          Bez cały dzień będę piła,<lb />
-          Na obiad co dzień gęsina,<lb />
-          Arakiem się będę myła <stage>(bis)</stage><lb />
-          Wiwat pani Kogucina <stage>(bis)</stage><lb />
-          Jak panowie z polityką<lb />
-          Z Wiednia sę sprowadzę granie,<lb />
-          Mnie zwać będą „Dobrodziejko”<lb />
-          Mego Wojtka „Jaśnie panie".<lb />
-          A gdy jadę do kościoła,<lb />
-          Luberya konie zacina<lb />
-          Juz słyszę jak naród woła <stage>(bis)</stage><lb />
-          Wiwat pani Kogucina <stage>(bis)</stage><lb />
-          Wojtku tobie fracek sprawie<lb />
-          Sobie sal za ryńskich dwieście<lb />
-          Bez lato w kąpielach bawię,<lb />
-          W zimie będę mieszkać w mieście.<lb />
-          A gdy jestem za granicą,<lb />
-          Wtedy myśląc zem grefina,<lb />
-          Juz słysę jak Miemcy krzyczą <stage>(bis)</stage><lb />
+          <p>Jesce na wiosnę, kiej dziedzica do reśty wygnamy ze wsi, to dopiero wsyćko będzie inacej – wsyćkim się podzielema – wtedy to i wam Stanisławie coś obliźnie, no to się wie ze ze nie tyla co nam – bo ja muse kuniecnie we dworze mieskać, juzem się do niego przyzwycaiła, jakem była za pannę do trzody; niesposob mi bez dworskiego życia wytrzymać: bo nawet kiej posłysę ze trzoda kwicy, to mi się zaraz na płac zbiera.<lb/>
+          <stage>(ŚPIEW)</stage><lb/>
+          Kiej cłek pańskie grunta złapie,<lb/>
+          Przeniesiema się do dwora,<lb/>
+          Będę siedzieć na kanapie,<lb/>
+          Będę sobie zawdy chora.<lb/>
+          Bez cały dzień będę piła,<lb/>
+          Na obiad co dzień gęsina,<lb/>
+          Arakiem się będę myła <stage>(bis)</stage><lb/>
+          Wiwat pani Kogucina <stage>(bis)</stage><lb/>
+          Jak panowie z polityką<lb/>
+          Z Wiednia sę sprowadzę granie,<lb/>
+          Mnie zwać będą „Dobrodziejko”<lb/>
+          Mego Wojtka „Jaśnie panie".<lb/>
+          A gdy jadę do kościoła,<lb/>
+          Luberya konie zacina<lb/>
+          Juz słyszę jak naród woła <stage>(bis)</stage><lb/>
+          Wiwat pani Kogucina <stage>(bis)</stage><lb/>
+          Wojtku tobie fracek sprawie<lb/>
+          Sobie sal za ryńskich dwieście<lb/>
+          Bez lato w kąpielach bawię,<lb/>
+          W zimie będę mieszkać w mieście.<lb/>
+          A gdy jestem za granicą,<lb/>
+          Wtedy myśląc zem grefina,<lb/>
+          Juz słysę jak Miemcy krzyczą <stage>(bis)</stage><lb/>
           Wiwat pani Kogucina. <stage>(bis)</stage></p>
         </sp>
         <sp who="#wojciech">
@@ -1085,7 +1085,7 @@
       <div type="scene" n="11">
         <head>Scena jedenasta.</head>
         <stage type="setting">
-          <p></p>
+          <p/>
         </stage>
         <stage type="entrance">
           <p>
@@ -1234,29 +1234,29 @@
         </sp>
         <sp who="#szczepan">
           <speaker>SZCZEPAN.</speaker>
-          <p>O bo tam są okrutne batalije, jak wezmą bić z kanonów to az moze jęcy. Juz to dla mnie iść do batalii to tyla znacy jak śtuk flajsiu z komisem przetrącić. Widział ja ich więcej anzeli dni w roku! Nie raz tom sobie od rakiety fajkę zapalał – a głów uciętych zebym bez cały rok rachował, tobym jednej nie zrachował cęści.<lb />
-          <stage>(ŚPIEW)</stage><lb />
-          Gdy batalia się zacyna.<lb />
-          Huknie armat miliony<lb />
-          bum!... bum!...<lb />
-          A wnet wszyćko z kazdej strony,<lb />
-          Trzęsie się kieby osina.<lb />
-          Juz grzmią trąbki tyralierów<lb />
-          Tra ra ra, tra ra ra, tra ra ra.<lb />
-          Piechota zacyna z gwerów<lb />
-          Brrr, brrr, brrr.<lb />
-          Granat pęka mi pod nosem<lb />
-          <stage>(odskakuje)</stage> Bęc <stage>(naśluje puszczenie rakiety i klaska ustami mówiąc)</stage> to rakieta!<lb />
-          Wojsko wrzescy straśnym głosem<lb />
-          Hurra, hurra, hurra, hurra!<lb />
-          Z trupów wznoszą się góry,<lb />
-          Sięgające az pod chmury.<lb />
-          Krew w strasne rzeki wzrasta,<lb />
-          Zalewa wioski i miasta!...<lb />
-          I w tedy chociaz z natury.<lb />
-          Jestem sobie rycerz srogi,<lb />
-          Jednak kryje się do dziury<lb />
-          Lub odważnie zmykam w nogi.<lb />
+          <p>O bo tam są okrutne batalije, jak wezmą bić z kanonów to az moze jęcy. Juz to dla mnie iść do batalii to tyla znacy jak śtuk flajsiu z komisem przetrącić. Widział ja ich więcej anzeli dni w roku! Nie raz tom sobie od rakiety fajkę zapalał – a głów uciętych zebym bez cały rok rachował, tobym jednej nie zrachował cęści.<lb/>
+          <stage>(ŚPIEW)</stage><lb/>
+          Gdy batalia się zacyna.<lb/>
+          Huknie armat miliony<lb/>
+          bum!... bum!...<lb/>
+          A wnet wszyćko z kazdej strony,<lb/>
+          Trzęsie się kieby osina.<lb/>
+          Juz grzmią trąbki tyralierów<lb/>
+          Tra ra ra, tra ra ra, tra ra ra.<lb/>
+          Piechota zacyna z gwerów<lb/>
+          Brrr, brrr, brrr.<lb/>
+          Granat pęka mi pod nosem<lb/>
+          <stage>(odskakuje)</stage> Bęc <stage>(naśluje puszczenie rakiety i klaska ustami mówiąc)</stage> to rakieta!<lb/>
+          Wojsko wrzescy straśnym głosem<lb/>
+          Hurra, hurra, hurra, hurra!<lb/>
+          Z trupów wznoszą się góry,<lb/>
+          Sięgające az pod chmury.<lb/>
+          Krew w strasne rzeki wzrasta,<lb/>
+          Zalewa wioski i miasta!...<lb/>
+          I w tedy chociaz z natury.<lb/>
+          Jestem sobie rycerz srogi,<lb/>
+          Jednak kryje się do dziury<lb/>
+          Lub odważnie zmykam w nogi.<lb/>
           Chwała Bogu ze to juz przeminęło: bo na samo spomnienie, wściekłość mnie porywa takbym mordował, bił, gryzł! <stage>(biega po izbie)</stage> Chciałbym na cem złość spędzić. Pani matko nie macie tam gęsiny.</p>
         </sp>
         <sp who="#katarzyna">
@@ -1481,15 +1481,15 @@
         </sp>
         <sp who="#feldwebel">
           <speaker>FELDWEBEL.</speaker>
-          <p>Czy za nią tęskniłem?<lb />
-          <stage>(ŚPIEW)</stage><lb />
-          Pośród walk krwawych, gdy działa ziejące<lb />
-          Śmierć i zniszczenie w koło roznosiły,<lb />
-          Wśród huku strzałów, słałem modły wrzące.<lb />
-          Aby mi nieba córkę mą wróciły.<lb />
-          Jedyną myślą w sercu mem stęsknionym<lb />
-          Jedynem szczęściem, nim zamknę powieki.<lb />
-          Było raz jeden ujrzeć ją przed zgonem<lb />
+          <p>Czy za nią tęskniłem?<lb/>
+          <stage>(ŚPIEW)</stage><lb/>
+          Pośród walk krwawych, gdy działa ziejące<lb/>
+          Śmierć i zniszczenie w koło roznosiły,<lb/>
+          Wśród huku strzałów, słałem modły wrzące.<lb/>
+          Aby mi nieba córkę mą wróciły.<lb/>
+          Jedyną myślą w sercu mem stęsknionym<lb/>
+          Jedynem szczęściem, nim zamknę powieki.<lb/>
+          Było raz jeden ujrzeć ją przed zgonem<lb/>
           Ujrzeć ją w szczęściu i zasnąć na wieki.</p>
         </sp>
         <sp who="#marysia">
@@ -1528,32 +1528,32 @@
         </sp>
         <sp who="#szczepan">
           <speaker>SZCZEPAN.</speaker>
-          <p>Wiecie, ze mię jus zacynacie nudzić ze swojemi obrządkami. Jabym tu z wami wnet skrepirował: jak mi się sprzyksy to dalibóg ucieknę do Śtajermarku abo do Italije, a mnie wsyscy djabli po wasym pańskiem chłopstwie. Z całem wasem ślachectwem toście niewarci Italijańskim zydom świc na sabas pucować. Jak mi nie dacie spokoju to zabiorę moje klejnigkejty i powandruje napowrót do Majlandu.<lb />
-          <stage>(ŚPIEW polka)</stage><lb />
-          Niemas jak w Italskim landzie:<lb />
-          Dziewcąt tam przez liku<lb />
-          Cy w Brescyi, cy w Majlandzie,<lb />
-          Cy tez w Wenedyku.<lb />
-          Pomorańcy tam jak śnieci<lb />
-          Na futrunek trzodzie dają<lb />
-          A ot takie małe dzieci,<lb />
-          Po italiańsku gadają.<lb />
-          Tam zyd nie jada cybuli<lb />
-          Ni katolik śpeku,<lb />
-          A jak ucys się w Simsiuli [Schwim-schule]<lb />
-          W winie pływas cłeku!<lb />
-          Tam kazda ma piękne miano,<lb />
-          Tam się zadna nie zwie Franka<lb />
-          A mnie każda Italianka<lb />
-          Mówiła: Synior Stefano.<lb />
-          <stage>(do Stanisława)</stage><lb />
-          Donner wetter, znaj heciaku<lb />
-          Jakie to tam miasta<lb />
-          Kiej nawet liście z tabaku<lb />
-          Juz w packach wyrasta.<lb />
-          A niech was tu piorun trzaśnie<lb />
-          Z wasą Galicyą,<lb />
-          Ja zabieram kleinigkaity<lb />
+          <p>Wiecie, ze mię jus zacynacie nudzić ze swojemi obrządkami. Jabym tu z wami wnet skrepirował: jak mi się sprzyksy to dalibóg ucieknę do Śtajermarku abo do Italije, a mnie wsyscy djabli po wasym pańskiem chłopstwie. Z całem wasem ślachectwem toście niewarci Italijańskim zydom świc na sabas pucować. Jak mi nie dacie spokoju to zabiorę moje klejnigkejty i powandruje napowrót do Majlandu.<lb/>
+          <stage>(ŚPIEW polka)</stage><lb/>
+          Niemas jak w Italskim landzie:<lb/>
+          Dziewcąt tam przez liku<lb/>
+          Cy w Brescyi, cy w Majlandzie,<lb/>
+          Cy tez w Wenedyku.<lb/>
+          Pomorańcy tam jak śnieci<lb/>
+          Na futrunek trzodzie dają<lb/>
+          A ot takie małe dzieci,<lb/>
+          Po italiańsku gadają.<lb/>
+          Tam zyd nie jada cybuli<lb/>
+          Ni katolik śpeku,<lb/>
+          A jak ucys się w Simsiuli [Schwim-schule]<lb/>
+          W winie pływas cłeku!<lb/>
+          Tam kazda ma piękne miano,<lb/>
+          Tam się zadna nie zwie Franka<lb/>
+          A mnie każda Italianka<lb/>
+          Mówiła: Synior Stefano.<lb/>
+          <stage>(do Stanisława)</stage><lb/>
+          Donner wetter, znaj heciaku<lb/>
+          Jakie to tam miasta<lb/>
+          Kiej nawet liście z tabaku<lb/>
+          Juz w packach wyrasta.<lb/>
+          A niech was tu piorun trzaśnie<lb/>
+          Z wasą Galicyą,<lb/>
+          Ja zabieram kleinigkaity<lb/>
           Mars na Italią.</p>
         </sp>
         <sp who="#katarzyna">
@@ -1642,7 +1642,7 @@
       <div type="scene" n="16">
         <head>Scena szesnasta.</head>
         <stage type="setting">
-          <p></p>
+          <p/>
         </stage>
         <stage type="entrance">
           <p>
@@ -1872,26 +1872,26 @@
         </sp>
         <sp who="#katarzyna">
           <speaker>KATARZYNA.</speaker>
-          <p>Otóż widzicie Bartłomieju: wyście mię skasowali ze ślachectwa, ale się turbuje cy nas ci państwo, co hań na ławeckach siedzą nie zgradyryją na chłopów.<lb />
-          <stage>(ŚPIEW OSTATNI)</stage><lb />
-          O sanowna publicnosci<lb />
-          Ręcę, przyznacie to sami<lb />
-          Kiej w tyjatrze duzo gości<lb />
-          To aktory są panami.<lb />
-          Lec gdy teatr pustką stanie<lb />
-          Casem nawet przez racye<lb />
-          To aktory niespodzianie,<lb />
+          <p>Otóż widzicie Bartłomieju: wyście mię skasowali ze ślachectwa, ale się turbuje cy nas ci państwo, co hań na ławeckach siedzą nie zgradyryją na chłopów.<lb/>
+          <stage>(ŚPIEW OSTATNI)</stage><lb/>
+          O sanowna publicnosci<lb/>
+          Ręcę, przyznacie to sami<lb/>
+          Kiej w tyjatrze duzo gości<lb/>
+          To aktory są panami.<lb/>
+          Lec gdy teatr pustką stanie<lb/>
+          Casem nawet przez racye<lb/>
+          To aktory niespodzianie,<lb/>
           Znów są chłopskiej kundycyje.</p>
         </sp>
         <sp who="#szczepan">
           <speaker>SZCZEPAN.</speaker>
-          <p>Choć nie kapral ale zawse<lb />
-          Donner sok śwer not chłop klawy<lb />
-          Kiej zyskał Sceponek zwawy,<lb />
-          Wase względy najłaskawse.<lb />
-          I chociaz tam w Italje,<lb />
-          Mam grefinę... pal ją kaci,<lb />
-          Hej – Chłopi Arystokraci<lb />
+          <p>Choć nie kapral ale zawse<lb/>
+          Donner sok śwer not chłop klawy<lb/>
+          Kiej zyskał Sceponek zwawy,<lb/>
+          Wase względy najłaskawse.<lb/>
+          I chociaz tam w Italje,<lb/>
+          Mam grefinę... pal ją kaci,<lb/>
+          Hej – Chłopi Arystokraci<lb/>
           Krzycma: publicność niech zyje.</p>
         </sp>
         <stage>(Chór powtarza ostatnie dwa wiersze)</stage>

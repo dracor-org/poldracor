@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000017" xml:lang="pol">
   <teiHeader>
@@ -91,7 +91,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1881">
-        <desc />
+        <desc/>
       </event>
       <event type="premiere" when="1881-08-27">
         <desc/>
@@ -108,18 +108,18 @@
             <titlePart type="main">GRUBE RYBY</titlePart>
             <titlePart type="sub">KOMEDJA W 3ch AKTACH</titlePart>
           </docTitle>
-          <byline>oryginalnie napisana<lb />
+          <byline>oryginalnie napisana<lb/>
           przez
             <docAuthor>Michała Bałuckiego</docAuthor>
           </byline>
           <docImprint>
-              <pubPlace>WARSZAWA</pubPlace><lb />
-              Skład główny w Księgarni <name>JANA FISZERA</name><lb />
-              <address><street>Nowy-Świat <num>Nr. 9</num>.</street></address><lb />
-              <date>1900</date>.<lb />
+              <pubPlace>WARSZAWA</pubPlace><lb/>
+              Skład główny w Księgarni <name>JANA FISZERA</name><lb/>
+              <address><street>Nowy-Świat <num>Nr. 9</num>.</street></address><lb/>
+              <date>1900</date>.<lb/>
               Druk <name>F. Csernaka</name>, <address><settlement>Warszawa,</settlement> <street>Krak.- Przedm. <num>Nr. 60</num>.</street></address>
           </docImprint>
-          <imprimatur>Дозволено Цьнзурою<lb />
+          <imprimatur>Дозволено Цьнзурою<lb/>
           Варшава, 16 Августа 1899 г.</imprimatur>
         </titlePage>
         <castList>
@@ -3838,7 +3838,7 @@
           </sp>
           <sp who="#wistowski">
             <speaker>WISTOWSKI.</speaker>
-            <p><stage>(przechadza się rozpromieniony, nuci półgłosem)</stage> Tam na polu zawierucha<lb /> Mokrym śniegiem dmie,<lb /> Na kominku ogień bucha...</p>
+            <p><stage>(przechadza się rozpromieniony, nuci półgłosem)</stage> Tam na polu zawierucha<lb/> Mokrym śniegiem dmie,<lb/> Na kominku ogień bucha...</p>
           </sp>
           <sp who="#pagatowicz">
             <speaker>PAGATOWICZ.</speaker>

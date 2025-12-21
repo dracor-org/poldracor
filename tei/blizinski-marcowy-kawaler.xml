@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="pol000003" xml:lang="pol" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000003" xml:lang="pol">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -151,7 +151,7 @@
          <pubPlace>Lwowie</pubPlace>
          .
          <lb/>
-         Z drukarni &quot;Gaz. narod.&quot;  
+         Z drukarni "Gaz. narod."  
          <name>J. Dobrzańskiego</name>
          i 
          <name>K. Gromana</name>
@@ -546,7 +546,7 @@
             
             
             <stage>(nuci)</stage>
-            „parobeczek do niej, ona mu się broni...&quot; znasz?... podyktowała mi dwadzieścia warjantów.</p>
+            „parobeczek do niej, ona mu się broni..." znasz?... podyktowała mi dwadzieścia warjantów.</p>
         </sp>
         <sp who="#ignacy">
           <speaker>IGNACY.</speaker>
@@ -1520,7 +1520,7 @@
             
             
             <stage>(dobywa książeczkę)</stage>
-            To „żyd do wiązki siana&quot; było kapitalne. 
+            To „żyd do wiązki siana" było kapitalne. 
             
             
             
@@ -3048,7 +3048,7 @@
             
             
             
-            <stage>(słychać za sceną krzyki Ignacego i płacz Pawłowej: „o mój Boże! mój Boże! la Boga rety!&quot;)</stage>
+            <stage>(słychać za sceną krzyki Ignacego i płacz Pawłowej: „o mój Boże! mój Boże! la Boga rety!")</stage>
             ale tymczasem, on ją tam chyba zabije!... wyleciał za nią wściekły... 
             
             

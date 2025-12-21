@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000042" xml:lang="pol">
   <teiHeader>
@@ -91,7 +91,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1900">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -143,7 +143,7 @@
           </castItem>
         </castList>
       <set>
-        <p>(Rzecz dzieje się w jednej z prowincyonalnych stolic Galicyi. Scena przedstawia obszerny buduar mecenasowej Radomskiej. Na ścianach wisi symetrycznie odmierzonych sześć premii Towarzystwa Sztuk pięknych, po dwie na każdej ścianie. Portret pani domu w balowej tualecie z odpowiednio nieprzyzwoitym dekoltażem w złoconych, szerokich ramach, nadto kilka wypłowiałych oleodruków, kilka pejzażów wołających o pomstę do ikonoklastów, fotografii, chińskich wachlarzy, wszystko rozwieszone z gustownym brakiem smaku. W kącie otwarty fortepian–kometa, obok wielki kosz z wazonikami zwiędłych i zeschłych kwiatów. Na środku buduaru garnitur modnych [w separatkach i golarniach] mebli, kilka fotelików możliwie najniewygodniejszych, kanapa, kilkanaście stoliczków okrągłych. Dopełniają meblement dwie konsolki z lustrami, fotel na biegunach, etażerki, stolik z lampą, wysoko podciągniętą, krytą popularnym bordeaux abażurem. Na stoliczkach tanie wiedeńskie bibeloty, popielniczki, małe albumy z Badów, dziesięć numerów Kłosów z 1888, ozdobne wydanie: Pamiętników Kwestarza Chodźki, Kirgiza, Maryi, Pana Tadeusza, pana Tarnowskiego. Buduar oświetlony lampą i świecami w kandelabrach. Na stoliczku bliskim kanapki, żółta okładka… Daudeta: »La petite paroise«, co znaczy: »Mała parafia«.<lb />Godzina 5–ta w zimie, podczas karnawału. Rozpoczyna się jour–fixe. Mecenasowa Radomska tęga bruneta w 35–ciu latach, żółty stanik, czarna suknia, wyraz twarzy bezmyślny, przeciętny, sympatyczny. Henio Grabski, młody lowelas, ananas towarzyski z fryzurą a la cochon irrité, biała kamizelka, dobra tresura domowa, tendencya psychiczna ku arystokracyi, papa introligator, mama szlachcianka z domu.<lb />Piją herbatę i gryzą petites–foures)</p>
+        <p>(Rzecz dzieje się w jednej z prowincyonalnych stolic Galicyi. Scena przedstawia obszerny buduar mecenasowej Radomskiej. Na ścianach wisi symetrycznie odmierzonych sześć premii Towarzystwa Sztuk pięknych, po dwie na każdej ścianie. Portret pani domu w balowej tualecie z odpowiednio nieprzyzwoitym dekoltażem w złoconych, szerokich ramach, nadto kilka wypłowiałych oleodruków, kilka pejzażów wołających o pomstę do ikonoklastów, fotografii, chińskich wachlarzy, wszystko rozwieszone z gustownym brakiem smaku. W kącie otwarty fortepian–kometa, obok wielki kosz z wazonikami zwiędłych i zeschłych kwiatów. Na środku buduaru garnitur modnych [w separatkach i golarniach] mebli, kilka fotelików możliwie najniewygodniejszych, kanapa, kilkanaście stoliczków okrągłych. Dopełniają meblement dwie konsolki z lustrami, fotel na biegunach, etażerki, stolik z lampą, wysoko podciągniętą, krytą popularnym bordeaux abażurem. Na stoliczkach tanie wiedeńskie bibeloty, popielniczki, małe albumy z Badów, dziesięć numerów Kłosów z 1888, ozdobne wydanie: Pamiętników Kwestarza Chodźki, Kirgiza, Maryi, Pana Tadeusza, pana Tarnowskiego. Buduar oświetlony lampą i świecami w kandelabrach. Na stoliczku bliskim kanapki, żółta okładka… Daudeta: »La petite paroise«, co znaczy: »Mała parafia«.<lb/>Godzina 5–ta w zimie, podczas karnawału. Rozpoczyna się jour–fixe. Mecenasowa Radomska tęga bruneta w 35–ciu latach, żółty stanik, czarna suknia, wyraz twarzy bezmyślny, przeciętny, sympatyczny. Henio Grabski, młody lowelas, ananas towarzyski z fryzurą a la cochon irrité, biała kamizelka, dobra tresura domowa, tendencya psychiczna ku arystokracyi, papa introligator, mama szlachcianka z domu.<lb/>Piją herbatę i gryzą petites–foures)</p>
       </set>
     </front>
     <body>
@@ -599,7 +599,7 @@
       <div type="scene" n="2">
         <head>SCENA 1.1.</head>
         <stage type="setting">
-          <p>(Wchodzą: profesor Sownicki i hrabina Oskierko. On siwy, niski staruszek w fasonie „Fliegende Blätter”, oczy bardzo ruchliwe, ruchy drobne, pod pachą kilkanaście broszur. Hrabina Oskierko, angielska skromna suknia bez sznurówki, rysy pospolite prawie ordynarne, dystynkcya przesadna, grzeczność obrażająca w stosunku do innych pań, née de Rypalska z Zalesia.<lb />Mężczyźni wstają, nabożna chwila ciszy kłócona szelestem jedwabnych spódnic)</p>
+          <p>(Wchodzą: profesor Sownicki i hrabina Oskierko. On siwy, niski staruszek w fasonie „Fliegende Blätter”, oczy bardzo ruchliwe, ruchy drobne, pod pachą kilkanaście broszur. Hrabina Oskierko, angielska skromna suknia bez sznurówki, rysy pospolite prawie ordynarne, dystynkcya przesadna, grzeczność obrażająca w stosunku do innych pań, née de Rypalska z Zalesia.<lb/>Mężczyźni wstają, nabożna chwila ciszy kłócona szelestem jedwabnych spódnic)</p>
         </stage>
         <stage type="entrance">
           <p>

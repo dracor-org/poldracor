@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000023" xml:lang="pol">
   <teiHeader>
@@ -91,7 +91,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1781">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -100,13 +100,13 @@
         <titlePage>
           <docTitle>
             <titlePart type="main">PODEYRZLIWI</titlePart>
-            <titlePart type="sub">KOMEDYA<lb />
+            <titlePart type="sub">KOMEDYA<lb/>
             WE TRZECH AKTACH</titlePart>
           </docTitle>
           <docImprint>
-              w <pubPlace>Warszawie</pubPlace><lb />
-              w Drukarni Nadworney<lb />
-              J. K. Mci<lb />
+              w <pubPlace>Warszawie</pubPlace><lb/>
+              w Drukarni Nadworney<lb/>
+              J. K. Mci<lb/>
               <date>Roku 1781</date>.
           </docImprint>
         </titlePage>

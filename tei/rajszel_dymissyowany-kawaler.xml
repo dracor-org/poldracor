@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000027" xml:lang="pol">
   <teiHeader>
@@ -84,7 +84,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1823">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -92,26 +92,26 @@
     <front>
         <titlePage>
           <docTitle>
-            <titlePart type="main">DYMISSJONOWANY<lb />
+            <titlePart type="main">DYMISSJONOWANY<lb/>
             KAWALER.</titlePart>
           </docTitle>
           <imprimatur>Za pozwoleniem Cenzury Rządowej.</imprimatur>
           <docTitle>
-            <titlePart type="main">DYMISSJONOWANY<lb />
+            <titlePart type="main">DYMISSJONOWANY<lb/>
             KAWALER.</titlePart>
-            <titlePart type="sub">KOMEDJO-OPERA<lb />
-            W JEDNYM AKCIE<lb />
+            <titlePart type="sub">KOMEDJO-OPERA<lb/>
+            W JEDNYM AKCIE<lb/>
             ORYGINALNIE NAPISANA</titlePart>
           </docTitle>
-          <byline>PRZEZ<lb />
+          <byline>PRZEZ<lb/>
             <docAuthor>Ludwika Edwarda Rajszla</docAuthor>
           </byline>
-          <note>Z MUZYKĄ<lb />
+          <note>Z MUZYKĄ<lb/>
           <name>JÓZEFA DAMSEGO</name>.</note>
           <docImprint>
-              W <pubPlace>WARSZAWIE</pubPlace><lb />
-              W DRUKARNI <name>JANA WRÓBLEWSKIEGO</name><lb />
-              W <address><street>RYNKU STAREGO MIASTA <num>Nr. 61</num>.</street></address><lb />
+              W <pubPlace>WARSZAWIE</pubPlace><lb/>
+              W DRUKARNI <name>JANA WRÓBLEWSKIEGO</name><lb/>
+              W <address><street>RYNKU STAREGO MIASTA <num>Nr. 61</num>.</street></address><lb/>
               <date>1833</date>.
           </docImprint>
         </titlePage>
@@ -169,24 +169,24 @@
         </stage>
         <sp who="#piotruś">
           <speaker>PIOTRUŚ.</speaker>
-          <p><stage>(sam; wchodzi ubrany po wojskowemu, w ciasnym bardzo mundurze, komicznie przegląda się w lustrze)</stage> Zupełnie co innego!... co to za figura!... jakie spojrzenie!... a ten pałasz, ta furażerka... niech djabli porwą co się to ze mnie zrobiło. Wczoraj byłem sobie jeszcze głupim, nic nieznaczącym Piotrusiem, a dziś jestem wojskowym kadetem w konnej kawaleryi. Co też to panna Helenka powie, jak mnie zobaczy... ja najprzód stanę przed nią tak... <stage>(wyciąga się)</stage> a potem ukłonię jej się tak... <stage>(bierze rękę do furażerki)</stage> a ona najprzód wytrzyszczy oczy tak... <stage>(pokazuje)</stage> a potem z radości podskoczy w górę i na szyi wieszać mi się będzie <stage>(chce pokazać jak, ale mu mundur przeszkadza)</stage> przeklęty mundur, ja zaraz powiedziałem panu Wachmistrzowi że cokolwiek zaciasny, ale on rozśmiał się tylko... ruszył wąsami i kichnął sobie, jakby naumyślnie. Mój Boże! do czego to miłość niedoprowadzi, słowo honorowe daję, że ani mi się śniło, ażebym kiedy był wojskowym kadetem w konnej kawaleryi, ale panna Helenka ciągle dała się z tem słyszeć, że nie lubi... nie cierpi cywilnych, że za wojskowego tylko pójdzie... cóż miałem więc robić... dla miłości, dałem dymissyię cywilności i zaciągnąłem się do wojskowości <stage>(śmieje się)</stage> ale po części nie żałuię tego... kiedym szedł przez ulicę, wszystkie panny przechodzące, a nawet i z okien milutkiemi na mnie poglądały ślipkami.<lb />
-          <stage>(ŚPIEW I)</stage><lb />
-          I pałasik... i ostrogi...<lb />
-          O jak dobrze mieć!<lb />
-          Każdy mi umyka z drogi,<lb />
-          Czy to pan... czy kmieć.<lb />
-          Patrzę w górę bystrem okiem,<lb />
-          Powabny mam ruch,<lb />
-          Idę prosto... nigdy bokiem,<lb />
-          Bom żołnierz, bom zuch!<lb />
-          Płeć piękna gdy mię obaczy,<lb />
-          Wzdycha, ach! ach!.. ach!...<lb />
-          Wiem ja dobrze co to znaczy,<lb />
-          Tęgi ze mnie gach!<lb />
-          Wojskowy się wyda wszędzie,<lb />
-          Charmant... nigdy mal,<lb />
-          Zwłaszcza gdy z pochwy dobędzie<lb />
-          Hartowaną stal.<lb />
+          <p><stage>(sam; wchodzi ubrany po wojskowemu, w ciasnym bardzo mundurze, komicznie przegląda się w lustrze)</stage> Zupełnie co innego!... co to za figura!... jakie spojrzenie!... a ten pałasz, ta furażerka... niech djabli porwą co się to ze mnie zrobiło. Wczoraj byłem sobie jeszcze głupim, nic nieznaczącym Piotrusiem, a dziś jestem wojskowym kadetem w konnej kawaleryi. Co też to panna Helenka powie, jak mnie zobaczy... ja najprzód stanę przed nią tak... <stage>(wyciąga się)</stage> a potem ukłonię jej się tak... <stage>(bierze rękę do furażerki)</stage> a ona najprzód wytrzyszczy oczy tak... <stage>(pokazuje)</stage> a potem z radości podskoczy w górę i na szyi wieszać mi się będzie <stage>(chce pokazać jak, ale mu mundur przeszkadza)</stage> przeklęty mundur, ja zaraz powiedziałem panu Wachmistrzowi że cokolwiek zaciasny, ale on rozśmiał się tylko... ruszył wąsami i kichnął sobie, jakby naumyślnie. Mój Boże! do czego to miłość niedoprowadzi, słowo honorowe daję, że ani mi się śniło, ażebym kiedy był wojskowym kadetem w konnej kawaleryi, ale panna Helenka ciągle dała się z tem słyszeć, że nie lubi... nie cierpi cywilnych, że za wojskowego tylko pójdzie... cóż miałem więc robić... dla miłości, dałem dymissyię cywilności i zaciągnąłem się do wojskowości <stage>(śmieje się)</stage> ale po części nie żałuię tego... kiedym szedł przez ulicę, wszystkie panny przechodzące, a nawet i z okien milutkiemi na mnie poglądały ślipkami.<lb/>
+          <stage>(ŚPIEW I)</stage><lb/>
+          I pałasik... i ostrogi...<lb/>
+          O jak dobrze mieć!<lb/>
+          Każdy mi umyka z drogi,<lb/>
+          Czy to pan... czy kmieć.<lb/>
+          Patrzę w górę bystrem okiem,<lb/>
+          Powabny mam ruch,<lb/>
+          Idę prosto... nigdy bokiem,<lb/>
+          Bom żołnierz, bom zuch!<lb/>
+          Płeć piękna gdy mię obaczy,<lb/>
+          Wzdycha, ach! ach!.. ach!...<lb/>
+          Wiem ja dobrze co to znaczy,<lb/>
+          Tęgi ze mnie gach!<lb/>
+          Wojskowy się wyda wszędzie,<lb/>
+          Charmant... nigdy mal,<lb/>
+          Zwłaszcza gdy z pochwy dobędzie<lb/>
+          Hartowaną stal.<lb/>
           Bodajto bydź wojskowym – słowo honorowe daię, że mnię to nadzwyczajnie cieszy, kiedy widzę wszystkich oczy zwrócone na mnie... o jak naprzykład teraz... <stage>(śmieje się i patrzy na publiczność)</stage> a co?... nie prawdę mówiłem <stage>(ogląda się w koło)</stage> ale cóż to? niewidać nikogo... nikt tu zapewne nie dowiedział się jeszcze, o moiem zaciągnieniu się do wojska – jakże się zdziwią, gdy im przed samym przedefiluię nosem... Oho!... ktoś nadchodzi... <stage>(spostrzegłszy wchodzącego Łukasza)</stage> to stary Łukasz, wątpię żeby mnie poznał, bo całe życie jest roztargniony.</p>
         </sp>
       </div>
@@ -236,15 +236,15 @@
         </stage>
         <sp who="#zdzisław">
           <speaker>ZDZISŁAW.</speaker>
-          <p><stage>(za sceną otworzywszy okno)</stage> Psyt... Helenko!.. Heleneczko!... Helenciu! <stage>(w oknie)</stage> co się to znaczy? że jej tu dotychczas nie ma... <stage>(wchodzi na scenę)</stage> sama jedynasta... to jest godzina naszego Rendez vous... Zapewne ją kochany ojczym zatrzymuje opowiadaniem swoich handlowo-spekulacyinych interesów, miedzy któremi połączenie jej z Piotrusiem najmocniej go teraz zajmuje, <stage>(zbliżywszy się do stolika)</stage> O ileż to razy, jej piękne rączki na tym wspierały się stoliku, w chwili, kiedy spojrzenie jej czaruiących oczu, przedzierało się do serca mojego – jakże ią kocham!... <stage>(ŚPIEW 2.)</stage><lb />
-          Obok takiego Anioła<lb />
-          Przyjemnie stać na szyldwachu;<lb />
-          A gdy – „kto idzie?” zawoła:<lb />
-          Drżę z miłości... nie od strachu.<lb />
-          Za każdem na nią spojrzeniem,<lb />
-          Serce jak werbel uderza;<lb />
-          „Kto idzie?” głuszę westchnieniem<lb />
-          Jak przystoi na żołnierza.<lb />
+          <p><stage>(za sceną otworzywszy okno)</stage> Psyt... Helenko!.. Heleneczko!... Helenciu! <stage>(w oknie)</stage> co się to znaczy? że jej tu dotychczas nie ma... <stage>(wchodzi na scenę)</stage> sama jedynasta... to jest godzina naszego Rendez vous... Zapewne ją kochany ojczym zatrzymuje opowiadaniem swoich handlowo-spekulacyinych interesów, miedzy któremi połączenie jej z Piotrusiem najmocniej go teraz zajmuje, <stage>(zbliżywszy się do stolika)</stage> O ileż to razy, jej piękne rączki na tym wspierały się stoliku, w chwili, kiedy spojrzenie jej czaruiących oczu, przedzierało się do serca mojego – jakże ią kocham!... <stage>(ŚPIEW 2.)</stage><lb/>
+          Obok takiego Anioła<lb/>
+          Przyjemnie stać na szyldwachu;<lb/>
+          A gdy – „kto idzie?” zawoła:<lb/>
+          Drżę z miłości... nie od strachu.<lb/>
+          Za każdem na nią spojrzeniem,<lb/>
+          Serce jak werbel uderza;<lb/>
+          „Kto idzie?” głuszę westchnieniem<lb/>
+          Jak przystoi na żołnierza.<lb/>
           Diabla jednak będzie sprawa z tym panem ojczymem, strzeże jej jak oka w głowie i uroczyście postanowił nikogo z obcych w dom swój nie przyjmować... Ale poczekajno panie procentowiczu!... nie tak łatwo odeprzesz mój atak. Panna jest za mną, a maiąc tak silną assekuracyię, otrzymanie placu boju ani na chwilę nie może bydź wątpliwem <stage>(słyszy nadchodzących)</stage> jeżeli się nie mylę... nadchodzą... dalej na nasze stanowisko. <stage>(oddala się śpiesznie)</stage></p>
         </sp>
       </div>
@@ -268,52 +268,52 @@
         <stage>(ŚPIEW 3)</stage>
         <sp who="#floransowicz">
           <speaker>FLORANSOWICZ.</speaker>
-          <p> Przyśpieszę wasze wesele,<lb />
+          <p> Przyśpieszę wasze wesele,<lb/>
           Chce szczęśliwych widzieć was...</p>
         </sp>
         <sp who="#piotruś">
           <speaker>PIOTRUŚ.</speaker>
-          <p><stage>(zacieraiąc ręce)</stage> A krewni... i przyjaciele...<lb />
+          <p><stage>(zacieraiąc ręce)</stage> A krewni... i przyjaciele...<lb/>
           Będą odwiedzali nas!</p>
         </sp>
         <sp who="#floransowicz">
           <speaker>FLORANSOWICZ.</speaker>
-          <p>Już widzę rój drobnych dziatek...<lb />
+          <p>Już widzę rój drobnych dziatek...<lb/>
           Mnie dziaduniem będą zwać.</p>
         </sp>
         <sp who="#piotruś">
           <speaker>PIOTRUŚ.</speaker>
-          <p><stage>(n. s.)</stage> Słodki miłości zadatek,<lb />
+          <p><stage>(n. s.)</stage> Słodki miłości zadatek,<lb/>
           Trzeba będzie żonie dać...</p>
         </sp>
         <sp who="#floransowicz">
           <speaker>FLORANSOWICZ.</speaker>
-          <p>Pamiętaj, kochać ją szczerze,<lb />
+          <p>Pamiętaj, kochać ją szczerze,<lb/>
           Mniej obiecuj... więcej rób...</p>
         </sp>
         <sp who="#piotruś">
           <speaker>PIOTRUŚ.</speaker>
-          <p>Wielka mnie ochota bierze,<lb />
+          <p>Wielka mnie ochota bierze,<lb/>
           Dziś jeszcze odprawić ślub!...</p>
         </sp>
         <sp who="#floransowicz">
           <speaker>FLORANSOWICZ.</speaker>
-          <p><stage>(do Helenki)</stage> Czy widzisz jak się zapala,<lb />
+          <p><stage>(do Helenki)</stage> Czy widzisz jak się zapala,<lb/>
           Jak o tobie mówi wciąż...</p>
         </sp>
         <sp who="#helena">
           <speaker>HELENA.</speaker>
-          <p><stage>(n. s.)</stage> Prawdziwie pocieszna lala...<lb />
+          <p><stage>(n. s.)</stage> Prawdziwie pocieszna lala...<lb/>
           Piękny z niego byłby mąż!..</p>
         </sp>
         <sp who="#piotruś">
           <speaker>PIOTRUŚ.</speaker>
-          <p><stage>(n. s.)</stage> Mój stryjaszek mie zachwala.<lb />
+          <p><stage>(n. s.)</stage> Mój stryjaszek mie zachwala.<lb/>
           O mnie wspomina jej wciąż.</p>
         </sp>
         <sp who="#helena">
           <speaker>HELENA.</speaker>
-          <p><stage>(jak wyżej)</stage> Prawdziwie pocieszna lala!...<lb />
+          <p><stage>(jak wyżej)</stage> Prawdziwie pocieszna lala!...<lb/>
           To mi amant... to mi mąż...</p>
         </sp>
         <sp who="#floransowicz">
@@ -419,15 +419,15 @@
         </sp>
         <sp who="#floransowicz">
           <speaker>FLORANSOWICZ.</speaker>
-          <p>No... dosyć to tego... słuchaj Piotrusiu <stage>(mówi do niego na stronie, tymczasem Zdzisław uchyla okno, całuie rękę Heleny, daje jej różę i znika)</stage> jeżeli chcesz zasłużyć na moje względy, staraj się przypodobać Helence, i jeszcze w dniu dzisiejszym wymódz zezwolenie na ten związek.<lb />
-          <stage>(ŚPIEW 4)</stage><lb />
-          Kawaler póki jest młody,<lb />
-          Zwykle tylko liczy na to;<lb />
-          Żeby przez małżeńskie gody,<lb />
-          Złączyć się z panną bogatą.<lb />
-          A gdy się już podstarzeje...<lb />
-          Dola jego jest krytyczną,<lb />
-          Całą wówczas ma nadzieię,<lb />
+          <p>No... dosyć to tego... słuchaj Piotrusiu <stage>(mówi do niego na stronie, tymczasem Zdzisław uchyla okno, całuie rękę Heleny, daje jej różę i znika)</stage> jeżeli chcesz zasłużyć na moje względy, staraj się przypodobać Helence, i jeszcze w dniu dzisiejszym wymódz zezwolenie na ten związek.<lb/>
+          <stage>(ŚPIEW 4)</stage><lb/>
+          Kawaler póki jest młody,<lb/>
+          Zwykle tylko liczy na to;<lb/>
+          Żeby przez małżeńskie gody,<lb/>
+          Złączyć się z panną bogatą.<lb/>
+          A gdy się już podstarzeje...<lb/>
+          Dola jego jest krytyczną,<lb/>
+          Całą wówczas ma nadzieię,<lb/>
           Wygrać w loteryą klassyczną.</p>
         </sp>
         <sp who="#piotruś">
@@ -553,12 +553,12 @@
         </sp>
         <sp who="#piotruś">
           <speaker>PIOTRUŚ.</speaker>
-          <p><stage>(n. s.)</stage> Proza nie trafia do jej serca – zarecytujmy jej odę, której nauczenie się pół roku czasu mnie kosztowało... <stage>(deklamuje)</stage><lb />
-          Niechaj cię moja oda wzruszy romantyczna!<lb />
-          Dotknij się mnie... ach! dotknij, zapałko chemiczna.<lb />
-          A ujrzyj... jak płomieniem serce się zapali...<lb />
-          Jak ten płomień... gwałtownie posunie się dalej...<lb />
-          Wówczas... szmermel miłości... rozstrzelony jaśnie!<lb />
+          <p><stage>(n. s.)</stage> Proza nie trafia do jej serca – zarecytujmy jej odę, której nauczenie się pół roku czasu mnie kosztowało... <stage>(deklamuje)</stage><lb/>
+          Niechaj cię moja oda wzruszy romantyczna!<lb/>
+          Dotknij się mnie... ach! dotknij, zapałko chemiczna.<lb/>
+          A ujrzyj... jak płomieniem serce się zapali...<lb/>
+          Jak ten płomień... gwałtownie posunie się dalej...<lb/>
+          Wówczas... szmermel miłości... rozstrzelony jaśnie!<lb/>
           Póty się będzie kręcił... aż pęknie... i zgaśnie.</p>
         </sp>
         <sp who="#helena">
@@ -621,16 +621,16 @@
         </sp>
         <sp who="#piotruś">
           <speaker>PIOTRUŚ.</speaker>
-          <p><stage>(na stronie)</stage> Czy go tu diabli przynieśli... prawdziwy jakiś bujko... ale może też nie długo tam zabawię – Pułkownik do mnie pisze... odmówić, niewypada jakoś... byłoby nawet nie grzecznie <stage>(do Flankiera)</stage> idziem natychmiast <stage>(do Heleny)</stage> wiele, bardzo wiele, na tem cierpię... że muszę pannę Helenkę porzucić – ale... cóż robić?... pułkownik do mnie pisze...<lb />
-          <stage>(ŚPIEW 5)</stage><lb />
-          Muszę z tąd iść...<lb />
-          ach muszę iść...<lb />
-          Patrz... pułkownik pisze sam –<lb />
-          Gorzki ten orzech trzeba zgryść,<lb />
-          Ja moją powinność znam.<lb />
-          Żegnam cię więc... Aniołku mój,<lb />
-          Najpierwsza z najpierwszych Dam;<lb />
-          Przekonam cię... gdy będę twój,<lb />
+          <p><stage>(na stronie)</stage> Czy go tu diabli przynieśli... prawdziwy jakiś bujko... ale może też nie długo tam zabawię – Pułkownik do mnie pisze... odmówić, niewypada jakoś... byłoby nawet nie grzecznie <stage>(do Flankiera)</stage> idziem natychmiast <stage>(do Heleny)</stage> wiele, bardzo wiele, na tem cierpię... że muszę pannę Helenkę porzucić – ale... cóż robić?... pułkownik do mnie pisze...<lb/>
+          <stage>(ŚPIEW 5)</stage><lb/>
+          Muszę z tąd iść...<lb/>
+          ach muszę iść...<lb/>
+          Patrz... pułkownik pisze sam –<lb/>
+          Gorzki ten orzech trzeba zgryść,<lb/>
+          Ja moją powinność znam.<lb/>
+          Żegnam cię więc... Aniołku mój,<lb/>
+          Najpierwsza z najpierwszych Dam;<lb/>
+          Przekonam cię... gdy będę twój,<lb/>
           Że moją powinność znam.</p>
         </sp>
         <sp who="#helena">
@@ -1001,19 +1001,19 @@
         </sp>
         <sp who="#madam_de_tul">
           <speaker>MADAM de TUL.</speaker>
-          <p>Ale mocno mnie cieszy, że iuż i w tym nowym związku wkradły się nieporozumienia... i słyszałam z pewnością, że mój exmałżonek wkrótce powtórnie zostanie abszytowany – proszę tylko posłuchać...<lb />
-          <stage>(ŚPIEW 6)</stage><lb />
-          Dla zdrowia poratowania,<lb />
-          Co rok wyjeżdża do wód;<lb />
-          Żonie z sobą jechać wzbrania,<lb />
-          Bo kochankę wysłał wprzód.<lb />
-          Łzy wylewa przy rozstaniu,<lb />
-          Przysięga stałość w kochaniu!<lb />
-          Powraca od wód bez siły.<lb />
-          Straszny go przejmuie gniew,<lb />
-          Że mu wody zaszkodziły,<lb />
-          Zbytnie oziębiły krew:<lb />
-          Że tak blady... i zmieniony...<lb />
+          <p>Ale mocno mnie cieszy, że iuż i w tym nowym związku wkradły się nieporozumienia... i słyszałam z pewnością, że mój exmałżonek wkrótce powtórnie zostanie abszytowany – proszę tylko posłuchać...<lb/>
+          <stage>(ŚPIEW 6)</stage><lb/>
+          Dla zdrowia poratowania,<lb/>
+          Co rok wyjeżdża do wód;<lb/>
+          Żonie z sobą jechać wzbrania,<lb/>
+          Bo kochankę wysłał wprzód.<lb/>
+          Łzy wylewa przy rozstaniu,<lb/>
+          Przysięga stałość w kochaniu!<lb/>
+          Powraca od wód bez siły.<lb/>
+          Straszny go przejmuie gniew,<lb/>
+          Że mu wody zaszkodziły,<lb/>
+          Zbytnie oziębiły krew:<lb/>
+          Że tak blady... i zmieniony...<lb/>
           Do najdroższej wrócił żony!</p>
         </sp>
         <sp who="#zdzisław">
@@ -1026,15 +1026,15 @@
         </sp>
         <sp who="#zdzisław">
           <speaker>ZDZISŁAW.</speaker>
-          <p><stage>(n. s.)</stage> A czy mi diabli tę babę na kark wpakowali <stage>(głośno)</stage> nie wszyscy jednak takim postępuią torem... wielu daje wzorowy przykład najszczerszego przywiązania – i tak:<lb />
-          <stage>(ŚPIEW 7)</stage><lb />
-          Niemogąc działać otwarcie,<lb />
-          Pewien rycerz romansowy;<lb />
-          Wśród nocy... staje na warcie,<lb />
-          Pod oknem, swojej królowej.<lb />
-          Bez jej wiedzy zejść się boi...<lb />
-          Mogłaby połajać za to:<lb />
-          Posłuszny – całą noc stoi...<lb />
+          <p><stage>(n. s.)</stage> A czy mi diabli tę babę na kark wpakowali <stage>(głośno)</stage> nie wszyscy jednak takim postępuią torem... wielu daje wzorowy przykład najszczerszego przywiązania – i tak:<lb/>
+          <stage>(ŚPIEW 7)</stage><lb/>
+          Niemogąc działać otwarcie,<lb/>
+          Pewien rycerz romansowy;<lb/>
+          Wśród nocy... staje na warcie,<lb/>
+          Pod oknem, swojej królowej.<lb/>
+          Bez jej wiedzy zejść się boi...<lb/>
+          Mogłaby połajać za to:<lb/>
+          Posłuszny – całą noc stoi...<lb/>
           Przed panną piękną!... bogatą!...</p>
         </sp>
         <sp who="#madam_de_tul">
@@ -1330,14 +1330,14 @@
         <stage>(gdy Floransowicz zaczyna śpiewać, Zdzisław zbliża się ku drzwiom środkowym – otwiera je – skinieniem ręki przywołuje Flankiera – zdejmuje z głowy perukę)</stage>
         <sp who="#floransowicz">
           <speaker>FLORANSOWICZ.</speaker>
-          <p><stage>(ŚPIEW 8)</stage><lb />
-          Panna skromna... i cnotliwa,<lb />
-          Chce się kochać dubeltowo;<lb />
-          I jeszcze się z tem odzywa,<lb />
-          To za bardzo romansowo!<lb />
-          Tamten zrobił jej nadzieje...<lb />
-          Ten ledwie rzekł do niej słowo:<lb />
-          I już za niemi szaleje,<lb />
+          <p><stage>(ŚPIEW 8)</stage><lb/>
+          Panna skromna... i cnotliwa,<lb/>
+          Chce się kochać dubeltowo;<lb/>
+          I jeszcze się z tem odzywa,<lb/>
+          To za bardzo romansowo!<lb/>
+          Tamten zrobił jej nadzieje...<lb/>
+          Ten ledwie rzekł do niej słowo:<lb/>
+          I już za niemi szaleje,<lb/>
           To za bardzo romansowo!</p>
         </sp>
         <sp who="#zdzisław">
@@ -1463,14 +1463,14 @@
         </sp>
         <sp who="#piotruś">
           <speaker>PIOTRUŚ.</speaker>
-          <p><stage>(ŚPIEW 9)</stage><lb />
-          Oddano mnię do kaprala.<lb />
-          Straszny to z wąsami chłop...<lb />
-          Śpiewał ciągle: tra... la... la... la<lb />
-          Co mnie kazał krzyczeć – hop!<lb />
-          Koleżki wtórzyli zdala,<lb />
-          Każdy z nich, wąsaty chłop;<lb />
-          Zrobiło się: hop... tra... la... la...<lb />
+          <p><stage>(ŚPIEW 9)</stage><lb/>
+          Oddano mnię do kaprala.<lb/>
+          Straszny to z wąsami chłop...<lb/>
+          Śpiewał ciągle: tra... la... la... la<lb/>
+          Co mnie kazał krzyczeć – hop!<lb/>
+          Koleżki wtórzyli zdala,<lb/>
+          Każdy z nich, wąsaty chłop;<lb/>
+          Zrobiło się: hop... tra... la... la...<lb/>
           A jam ciągle krzyczał – hop!</p>
         </sp>
         <sp who="#madam_de_tul">
@@ -1525,42 +1525,42 @@
         <sp who="#piotruś">
           <speaker>PIOTRUŚ.</speaker>
           <p>Dwie dymissje razem, to zawiele na jednego... ale ja pierwszą tylko akceptuię... bo co do drugiej... to przecież niejedna panna jest na świecie – a zatem ja, nie dymissję... lecz urlop wziąłem nieograniczony. <stage>(do Publiczności, trzymaiąc dymissją w ręku)</stage>
-          <stage>(ŚPIEW 10)</stage> Ta dymissja mnie nie smuci...<lb />
-          Bom w waszej służbie pozostał;<lb />
-          Ten, smutny ze sceny wróci,<lb />
+          <stage>(ŚPIEW 10)</stage> Ta dymissja mnie nie smuci...<lb/>
+          Bom w waszej służbie pozostał;<lb/>
+          Ten, smutny ze sceny wróci,<lb/>
           Kto dymissją waszą dostał.</p>
         </sp>
         <sp who="#helena">
           <speaker>HELENA.</speaker>
-          <p>Ponieważ w obecnej sprawie,<lb />
-          Przebaczenie mam ojczyma;<lb />
-          Więc i publiczność łaskawie,<lb />
+          <p>Ponieważ w obecnej sprawie,<lb/>
+          Przebaczenie mam ojczyma;<lb/>
+          Więc i publiczność łaskawie,<lb/>
           Z moją się dymissją wstrzyma.</p>
         </sp>
         <sp who="#zdzisław">
           <speaker>ZDZISŁAW.</speaker>
-          <p>Wygrałem sprawę podejściem,<lb />
-          Wątpię otrzymać oklaski,<lb />
-          Więc przed dymissji nadejściem,<lb />
+          <p>Wygrałem sprawę podejściem,<lb/>
+          Wątpię otrzymać oklaski,<lb/>
+          Więc przed dymissji nadejściem,<lb/>
           Śpieszę do was drogą łaski!</p>
         </sp>
         <sp who="#madam_de_tul">
           <speaker>MADAM de TUL.</speaker>
-          <p>Idąc zawsze cnoty torem,<lb />
-          Wszak dosyć byłam ostrożna:<lb />
-          Więc mi pod żadnym pozorem,<lb />
+          <p>Idąc zawsze cnoty torem,<lb/>
+          Wszak dosyć byłam ostrożna:<lb/>
+          Więc mi pod żadnym pozorem,<lb/>
           Dymissyi dawać nie można.</p>
         </sp>
         <sp who="#floransowicz">
           <speaker>FLORANSOWICZ.</speaker>
-          <p>Patrzcie... towarzystwo całe...<lb />
-          Pokorną przybrało postać;<lb />
-          By za prace nie dojrzałe...<lb />
+          <p>Patrzcie... towarzystwo całe...<lb/>
+          Pokorną przybrało postać;<lb/>
+          By za prace nie dojrzałe...<lb/>
           Waszej dymissji nie dostać.</p>
         </sp>
         <sp who="#piotruś #helena #zdzisław #madam_de_tul #floransowicz">
           <speaker>PIOTRUŚ. HELENA. ZDZISŁAW. MADAM de TUL. FLORANSOWICZ.</speaker>
-          <p><stage>(Wszyscy)</stage> By za prace nie dojrzałe...<lb />
+          <p><stage>(Wszyscy)</stage> By za prace nie dojrzałe...<lb/>
           Waszej dymissyi nie dostać.</p>
         </sp>
         <stage>(zasłona spada – Łukasz podczas kupletów, tak daleko przez roztargnienie, postąpił na przód sceny, że po zapadnięciu zasłony, pozostaje z zewnętrznej strony tejże)</stage>

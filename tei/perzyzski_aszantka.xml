@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000018" xml:lang="pol">
   <teiHeader>
@@ -103,7 +103,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1906">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
     <listRelation>
@@ -120,13 +120,13 @@
           </docTitle>
           <docImprint>
               WE <pubPlace>LWOWIE</pubPlace> - <date>1907</date>
-              <publisher>NAKŁADEM KSIĘGARNI POLSKIEJ B. POŁONIECKIEGO<lb />
+              <publisher>NAKŁADEM KSIĘGARNI POLSKIEJ B. POŁONIECKIEGO<lb/>
               WARSZAWA – E. WENDE I SP.
               </publisher>
-              <note>TEGOŻ AUTORA.<lb />
-              LEKKOMYŚLNA SIOSTRA, komedya w czterech aktach, kor. 1.50.<lb />
-              MAJOWE SŁOŃCE, komedya w jednym akcie, kor. 1.-.</note><lb />
-              <publisher>ODBITO CZCIONKAMI DRUKARNI SŁOWA POLSKIEGO WE LWOWIE<lb />
+              <note>TEGOŻ AUTORA.<lb/>
+              LEKKOMYŚLNA SIOSTRA, komedya w czterech aktach, kor. 1.50.<lb/>
+              MAJOWE SŁOŃCE, komedya w jednym akcie, kor. 1.-.</note><lb/>
+              <publisher>ODBITO CZCIONKAMI DRUKARNI SŁOWA POLSKIEGO WE LWOWIE<lb/>
               POD ZARZĄDEM JÓZEFA ZIEMBIŃSKIEGO - <origDate>1907 ROKU</origDate>
               </publisher>
           </docImprint>
@@ -1043,7 +1043,7 @@
           </stage>
           <sp who="#kręcki">
             <speaker>KRĘCKI.</speaker>
-            <p><stage>(wchodzi do pokoju. Widząc Łońskiego klęczącego przed Władką odwraca się w miejscu, siada przy pianinie, zaczyna grać i śpiewać)</stage> Es war einmal ein bourirorout<lb />Und eine dame de cour<lb />Er war ein bischen amotout...</p>
+            <p><stage>(wchodzi do pokoju. Widząc Łońskiego klęczącego przed Władką odwraca się w miejscu, siada przy pianinie, zaczyna grać i śpiewać)</stage> Es war einmal ein bourirorout<lb/>Und eine dame de cour<lb/>Er war ein bischen amotout...</p>
           </sp>
           <sp who="#łoński">
             <speaker>ŁOŃSKI.</speaker>

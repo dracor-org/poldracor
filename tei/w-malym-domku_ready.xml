@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000041" xml:lang="pol">
   <teiHeader>
@@ -103,7 +103,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1904">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
     <listRelation>
@@ -121,12 +121,12 @@
             <titlePart type="sub">DRAMAT W TRZECH AKTACH.</titlePart>
           </docTitle>
           <docImprint>
-              <pubPlace>WARSZAWA</pubPlace><lb />
-              Nakł. i druk Tow. Akc. <name>S. Orgelbranda</name> S-ów<lb />
-              Skład główny w księgarni <name>E. WENDE</name> i S-ka.<lb />
-              <date>1907</date><lb />
+              <pubPlace>WARSZAWA</pubPlace><lb/>
+              Nakł. i druk Tow. Akc. <name>S. Orgelbranda</name> S-ów<lb/>
+              Skład główny w księgarni <name>E. WENDE</name> i S-ka.<lb/>
+              <date>1907</date><lb/>
           </docImprint>
-          <note>Zastrzega się prawo własności wobec scen.</note><lb />
+          <note>Zastrzega się prawo własności wobec scen.</note><lb/>
         </titlePage>
         <castList>
           <head>OSOBY:</head>

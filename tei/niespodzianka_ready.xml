@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000038" xml:lang="pol">
   <teiHeader>
@@ -115,7 +115,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1929">
-        <desc />
+        <desc/>
       </event>
       <event type="premiere" when="1929-02-23">
         <desc>Po raz pierwszy wystawiono w Krakowie dnia 23 lutego 1929 r.</desc>
@@ -130,15 +130,15 @@
         <titlePage>
           <byline>
             <docAuthor>KAROL HUBERT ROSTWOROWSKI</docAuthor>
-          </byline><lb />
+          </byline><lb/>
           <docTitle>
             <titlePart type="main">NIESPODZIANKA</titlePart>
-            <titlePart type="sub">Prawdziwe zdarzenie<lb />w 4-ech aktach</titlePart>
-          </docTitle><lb />
+            <titlePart type="sub">Prawdziwe zdarzenie<lb/>w 4-ech aktach</titlePart>
+          </docTitle><lb/>
           <docImprint>
-              <pubPlace>KRAKÓW</pubPlace> <date>1929</date><lb />
-              NAKŁADEM KSIĘGARNI <name>S. A. KRZYŻANOWSKIEGO</name><lb />
-              Odbito w Drukarni Narodowej w Krakowie<lb />
+              <pubPlace>KRAKÓW</pubPlace> <date>1929</date><lb/>
+              NAKŁADEM KSIĘGARNI <name>S. A. KRZYŻANOWSKIEGO</name><lb/>
+              Odbito w Drukarni Narodowej w Krakowie<lb/>
           </docImprint>
         </titlePage>
         <div type="appendix">
@@ -146,7 +146,7 @@
             MOJEMU BRATU I PRZYJACIELOWI XAWEREMU PUSŁOWSKIEMU
           </salute>
           <p>POŚWIĘCAM.</p>
-        </div><lb />
+        </div><lb/>
         <castList>
           <head>PO RAZ PIERWSZY WYSTAWIONO W KRAKOWIE DNIA 23 LUTEGO 1929 R. W NASTĘPUJĄCEJ OBSADZIE RÓL:</head>
           <castItem>
@@ -236,44 +236,44 @@
         </castList>
         <note>Reżyser: <name>JÓZEF SOSNOWSKI</name></note>
         <div type="appendix">
-          <p>DO PUBLICZNOŚCI.<lb />
-          „RZECZ”, KTÓRĄ PAŃSTWO ZOBACZYCIE,<lb />
-          UŁOŻYŁO ŻYWE ŻYCIE,<lb />
-          TEN DRAMATURG, CO SIĘ NIZKO<lb />
-          SCHYLA NAD KAŻDĄ KOŁYSKĄ,<lb />
-          CO SUMIENNIE TOWARZYSZY<lb />
-          DZIENNEJ WRZAWIE, NOCNEJ CISZY,<lb />
-          I CO IDZIE RAZEM Z NAMI,<lb />
-          CZYŚMY SAMI, CZY NIE SAMI;<lb />
-          CZYŚMY MĄDRZY, CZYŚMY GŁUPI,<lb />
-          CZY NAS KUPI, CZY NIE KUPI, –<lb />
-          A SCHODZI OSTATNI Z POLA,<lb />
-          KĘDY DOLA I NIEDOLA<lb />
-          W MNIEJSZEJ LUB WIĘKSZEJ PARADZIE<lb />
-          TAKSAMO SIĘ DO SNU KŁADZIE.<lb />
-          DZISIAJ ZAJRZAŁ... NIE DO CHATY!<lb />
-          BO TEN, KOMU DOMEM ŚWIATY,<lb />
-          NIE WIDZI ZBYTNIEJ RÓŻNICY<lb />
-          MIĘDZY IZBĄ KOMORNICY<lb />
-          A TAKĄ OLBRZYMIĄ SALĄ,<lb />
-          GDZIE SIĘ LAMP TYSIĄCE PALĄ<lb />
-          I MYŚLĄ, ŻE BIJE ŁUNA<lb />
-          OD BIEGUNA DO BIEGUNA.<lb />
-          ON ZAJRZAŁ DO WŁASNEJ KUŹNI.<lb />
-          W NIEJ KOWALI NIE ROZRÓŻNI,<lb />
-          CHOĆBY DŁUGO KRĘCIŁ SZYJĄ!<lb />
-          WSZYSTKIE SERCA JAK MŁOT BIJĄ,<lb />
-          WSZYSTKIE PIERSI JAK MIECH DYSZĄ,<lb />
-          WSZYSTKIE GŁOWY SIĘ KOŁYSZĄ<lb />
-          W GÓRĘ, NA DÓŁ, W LEWO, W PRAWO<lb />
-          NAD TĄ ROBOCIZNĄ KRWAWĄ,<lb />
-          CO NAM OGNIEM W ŻYŁACH PŁYNIE – –<lb />
-          WIĘC ZECHCIEJCIE W TEJ GODZINIE<lb />
-          ZAPOMNIEĆ O WSI, O MIEŚCIE,<lb />
-          A MYŚLAMI SIĘ PRZENIEŚCIE<lb />
-          W TAJEMNICZĄ GŁĄB CZŁOWIEKA,<lb />
-          CO RÓŻNIE SIĘ PRZYOBLEKA,<lb />
-          LECZ, POMIMO TYCH RÓŻNOŚCI,<lb />
+          <p>DO PUBLICZNOŚCI.<lb/>
+          „RZECZ”, KTÓRĄ PAŃSTWO ZOBACZYCIE,<lb/>
+          UŁOŻYŁO ŻYWE ŻYCIE,<lb/>
+          TEN DRAMATURG, CO SIĘ NIZKO<lb/>
+          SCHYLA NAD KAŻDĄ KOŁYSKĄ,<lb/>
+          CO SUMIENNIE TOWARZYSZY<lb/>
+          DZIENNEJ WRZAWIE, NOCNEJ CISZY,<lb/>
+          I CO IDZIE RAZEM Z NAMI,<lb/>
+          CZYŚMY SAMI, CZY NIE SAMI;<lb/>
+          CZYŚMY MĄDRZY, CZYŚMY GŁUPI,<lb/>
+          CZY NAS KUPI, CZY NIE KUPI, –<lb/>
+          A SCHODZI OSTATNI Z POLA,<lb/>
+          KĘDY DOLA I NIEDOLA<lb/>
+          W MNIEJSZEJ LUB WIĘKSZEJ PARADZIE<lb/>
+          TAKSAMO SIĘ DO SNU KŁADZIE.<lb/>
+          DZISIAJ ZAJRZAŁ... NIE DO CHATY!<lb/>
+          BO TEN, KOMU DOMEM ŚWIATY,<lb/>
+          NIE WIDZI ZBYTNIEJ RÓŻNICY<lb/>
+          MIĘDZY IZBĄ KOMORNICY<lb/>
+          A TAKĄ OLBRZYMIĄ SALĄ,<lb/>
+          GDZIE SIĘ LAMP TYSIĄCE PALĄ<lb/>
+          I MYŚLĄ, ŻE BIJE ŁUNA<lb/>
+          OD BIEGUNA DO BIEGUNA.<lb/>
+          ON ZAJRZAŁ DO WŁASNEJ KUŹNI.<lb/>
+          W NIEJ KOWALI NIE ROZRÓŻNI,<lb/>
+          CHOĆBY DŁUGO KRĘCIŁ SZYJĄ!<lb/>
+          WSZYSTKIE SERCA JAK MŁOT BIJĄ,<lb/>
+          WSZYSTKIE PIERSI JAK MIECH DYSZĄ,<lb/>
+          WSZYSTKIE GŁOWY SIĘ KOŁYSZĄ<lb/>
+          W GÓRĘ, NA DÓŁ, W LEWO, W PRAWO<lb/>
+          NAD TĄ ROBOCIZNĄ KRWAWĄ,<lb/>
+          CO NAM OGNIEM W ŻYŁACH PŁYNIE – –<lb/>
+          WIĘC ZECHCIEJCIE W TEJ GODZINIE<lb/>
+          ZAPOMNIEĆ O WSI, O MIEŚCIE,<lb/>
+          A MYŚLAMI SIĘ PRZENIEŚCIE<lb/>
+          W TAJEMNICZĄ GŁĄB CZŁOWIEKA,<lb/>
+          CO RÓŻNIE SIĘ PRZYOBLEKA,<lb/>
+          LECZ, POMIMO TYCH RÓŻNOŚCI,<lb/>
           JEST CZŁOWIEKIEM Z KRWI i KOŚCI.</p>
         </div>
     </front>
@@ -281,7 +281,7 @@
       <div type="scene" n="1">
         <head>Pierwsza odsłona</head>
         <stage type="setting">
-          <p>(IZBA W DOMU SZYWAŁÓW)<lb /><lb />(Lewa ściana [od strony widowni]:<lb />Na pierwszym planie niegdyś malowana skrzynia. Za skrzynią drzwi – głębiej piec z okapem, z tak zwanym „kominkiem” i z piecem chlebowym. Na kominku garnki kuchenne, stojące na żelaznych „dynarkach” – przed piecem ława.<lb />Środkowa ściana:<lb />Z prawej familijne łóżko z pierzyną, – z lewej drugie łóżko „paradne”, żelazne, nakryte starą czerwoną, wyzwoloną z prześcieradła watówką, i wyposażone w poduszkę z poszewką, o której kolor lepiej nie pytać. Przy łóżku stoi również „paradne”, bo – jak kronika rodzinna zapewnia – wyplatane, w istocie zaś rozplecione krzesło. Nad łóżkami rząd zniszczonych, świętych obrazów.<lb />Prawa ściana:<lb />Dwa małe okna, każde o czterech szybkach, których suma ogólna równa się – pięć, gdyż resztę zastąpiono papierem. Wzdłuż ściany, między oknami, ława – kolor naturalny – przed ławą stół, i druga ława, którą dla orjentacji nazwiemy „zewnętrzną”. Te trzy sprzęty stanowią pod względem wieku, wykonania i właściwości doskonały „garnitur”. Koło jednego z okien, przybito do ściany „Kinkiet” z blaszanym, żółtym, okrągłym reflektorem. Ów kinkiet oświeca scenę dostatecznie, ażeby móc dokładnie zdać sobie sprawę z każdego szczegółu tak wydoskonalonej nędzy, że „paradne” łóżko i krzesło, robią wrażenie jakiejś burżuazyjnej prowokacji.<lb />W takiem otoczeniu, na zewnętrznej ławie, siedzi MATKA i ceruje męską, kolorową, „pańską” koszulę. Koło pieca myszkuje ZOŚKA i – bacznie śledząc Matkę – zagląda z kunsztowną zręcznością do garnków. Nagle zawodowa pomyłka – bez szelestu podniesiona pokrywa wypada z rąk – łoskot – panika – błyskawiczne poprawienie błędu – trwożny bezruch – wszystko napróżno!)</p>
+          <p>(IZBA W DOMU SZYWAŁÓW)<lb/><lb/>(Lewa ściana [od strony widowni]:<lb/>Na pierwszym planie niegdyś malowana skrzynia. Za skrzynią drzwi – głębiej piec z okapem, z tak zwanym „kominkiem” i z piecem chlebowym. Na kominku garnki kuchenne, stojące na żelaznych „dynarkach” – przed piecem ława.<lb/>Środkowa ściana:<lb/>Z prawej familijne łóżko z pierzyną, – z lewej drugie łóżko „paradne”, żelazne, nakryte starą czerwoną, wyzwoloną z prześcieradła watówką, i wyposażone w poduszkę z poszewką, o której kolor lepiej nie pytać. Przy łóżku stoi również „paradne”, bo – jak kronika rodzinna zapewnia – wyplatane, w istocie zaś rozplecione krzesło. Nad łóżkami rząd zniszczonych, świętych obrazów.<lb/>Prawa ściana:<lb/>Dwa małe okna, każde o czterech szybkach, których suma ogólna równa się – pięć, gdyż resztę zastąpiono papierem. Wzdłuż ściany, między oknami, ława – kolor naturalny – przed ławą stół, i druga ława, którą dla orjentacji nazwiemy „zewnętrzną”. Te trzy sprzęty stanowią pod względem wieku, wykonania i właściwości doskonały „garnitur”. Koło jednego z okien, przybito do ściany „Kinkiet” z blaszanym, żółtym, okrągłym reflektorem. Ów kinkiet oświeca scenę dostatecznie, ażeby móc dokładnie zdać sobie sprawę z każdego szczegółu tak wydoskonalonej nędzy, że „paradne” łóżko i krzesło, robią wrażenie jakiejś burżuazyjnej prowokacji.<lb/>W takiem otoczeniu, na zewnętrznej ławie, siedzi MATKA i ceruje męską, kolorową, „pańską” koszulę. Koło pieca myszkuje ZOŚKA i – bacznie śledząc Matkę – zagląda z kunsztowną zręcznością do garnków. Nagle zawodowa pomyłka – bez szelestu podniesiona pokrywa wypada z rąk – łoskot – panika – błyskawiczne poprawienie błędu – trwożny bezruch – wszystko napróżno!)</p>
         </stage>
         <stage type="entrance">
           <p>
@@ -932,7 +932,7 @@
       <div type="scene" n="2">
         <head>Druga odsłona</head>
         <stage type="setting">
-          <p>(IZBA W DOMU SZYWAŁÓW)<lb />(Dekoracja tasama, tylko przed ławą koło pieca stoi skórzana, żółta waliza a obok niej rzucony podróżny płaszcz i podróżna czapka. Na zewnętrznej ławie siedzi Antek. Ramiona zarzucił na stół, na łokciu oparł czoło i śpi z twarzą najzupełniej niewidoczną. Poza jego jest identyczna jak poza Franka z końcem poprzedniej odsłony. Ubiór jego jest prawie zbytkowny, sportowy. Po bardzo zakurzonych, amerykańskich, żółtych trzewikach widać, że uszedł kawał drogi. Na prawej ręce świeci złota bransoleta z zegarkiem. Zaczyna zmierzchać.<lb />Po podniesieniu zasłony pauza)</p>
+          <p>(IZBA W DOMU SZYWAŁÓW)<lb/>(Dekoracja tasama, tylko przed ławą koło pieca stoi skórzana, żółta waliza a obok niej rzucony podróżny płaszcz i podróżna czapka. Na zewnętrznej ławie siedzi Antek. Ramiona zarzucił na stół, na łokciu oparł czoło i śpi z twarzą najzupełniej niewidoczną. Poza jego jest identyczna jak poza Franka z końcem poprzedniej odsłony. Ubiór jego jest prawie zbytkowny, sportowy. Po bardzo zakurzonych, amerykańskich, żółtych trzewikach widać, że uszedł kawał drogi. Na prawej ręce świeci złota bransoleta z zegarkiem. Zaczyna zmierzchać.<lb/>Po podniesieniu zasłony pauza)</p>
         </stage>
         <stage type="entrance">
           <p>
@@ -1449,7 +1449,7 @@
       <div type="scene" n="3">
         <head>Trzecia odsłona</head>
         <stage type="setting">
-          <p>(W KARCZMIE)<lb />(Lewa ściana [od strony widowni].<lb />Dwa okna. Między oknami ława – przed ławą stół i druga ława – po bokach stołu stołki. Nad ławą kolorowy portret Piłsudskiego.<lb />Środkowa ściana:<lb />W środku ściany oszklony kredens – przed kredensem szynkwas, oddzielony od reszty izby drewnianą balustradą – z lewej drzwi.<lb />Prawa ściana:<lb />Drzwi wchodowe – na pierwszym planie mniejszy stół i cztery stołki. Na środku sufitu wisi zapalona lampa, z blaszaną płaską umbrą, lakierowaną od spodu na biało, od wierzchu na bronzowo.<lb />Za stołem z lewej siedzą parobczaki, złota młodzież. Wśród nich:<lb />FELEK, JASIEK, JĘDREK i STASZEK. Kurzą papierosy, popijają piwo i gwarzą w nieco wlokący się sposób, okraszając rozmowę „śpasami”. ABRAMEK, widocznie rozbawiony i tajemniczo uśmiechnięty, obsługuje parobczaków, lub krząta się za szynkwasem)</p>
+          <p>(W KARCZMIE)<lb/>(Lewa ściana [od strony widowni].<lb/>Dwa okna. Między oknami ława – przed ławą stół i druga ława – po bokach stołu stołki. Nad ławą kolorowy portret Piłsudskiego.<lb/>Środkowa ściana:<lb/>W środku ściany oszklony kredens – przed kredensem szynkwas, oddzielony od reszty izby drewnianą balustradą – z lewej drzwi.<lb/>Prawa ściana:<lb/>Drzwi wchodowe – na pierwszym planie mniejszy stół i cztery stołki. Na środku sufitu wisi zapalona lampa, z blaszaną płaską umbrą, lakierowaną od spodu na biało, od wierzchu na bronzowo.<lb/>Za stołem z lewej siedzą parobczaki, złota młodzież. Wśród nich:<lb/>FELEK, JASIEK, JĘDREK i STASZEK. Kurzą papierosy, popijają piwo i gwarzą w nieco wlokący się sposób, okraszając rozmowę „śpasami”. ABRAMEK, widocznie rozbawiony i tajemniczo uśmiechnięty, obsługuje parobczaków, lub krząta się za szynkwasem)</p>
         </stage>
         <stage type="entrance">
           <p>
@@ -2468,7 +2468,7 @@
       <div type="scene" n="4">
         <head>Czwarta odsłona</head>
         <stage type="setting">
-          <p>(IZBA W DOMU SZYWAŁÓW)<lb />(Dekoracja jak w drugiej odsłonie. Z tą różnicą że koło ławy zewnętrznej stoi wiadro z wodą. Z pod paradnego łóżka wystają nogi Antka. Na ziemi leży porzucona siekiera. Waliza na tem samem miejscu, lecz zupełnie otwarta)</p>
+          <p>(IZBA W DOMU SZYWAŁÓW)<lb/>(Dekoracja jak w drugiej odsłonie. Z tą różnicą że koło ławy zewnętrznej stoi wiadro z wodą. Z pod paradnego łóżka wystają nogi Antka. Na ziemi leży porzucona siekiera. Waliza na tem samem miejscu, lecz zupełnie otwarta)</p>
         </stage>
         <stage type="entrance">
           <p>
@@ -2617,7 +2617,7 @@
         </sp>
         <sp who="#ludzie_wsiowi">
           <speaker>GŁOSY.</speaker>
-          <p><stage>(za oknami)</stage><lb />– Ka wołajom?<lb />– Tu tu tu!<lb />– U Sywałów!<lb />– U Sywałów!<lb />– Jego baba!<lb />– Jego kobita!<lb />– Po policyje!<lb />– Po ksiendza!<lb />– Po dochtora!</p>
+          <p><stage>(za oknami)</stage><lb/>– Ka wołajom?<lb/>– Tu tu tu!<lb/>– U Sywałów!<lb/>– U Sywałów!<lb/>– Jego baba!<lb/>– Jego kobita!<lb/>– Po policyje!<lb/>– Po ksiendza!<lb/>– Po dochtora!</p>
         </sp>
         <sp who="#ludzie_wsiowi">
           <speaker>LUDZIE WSIOWI.</speaker>
@@ -2637,11 +2637,11 @@
         </sp>
         <sp who="#ludzie_wsiowi">
           <speaker>MIESZANE GŁOSY I.</speaker>
-          <p><stage>(przy matce)</stage><lb />– Wody!<lb />– Jest!<lb />– Krwawa!<lb />– Pryskać na twarz! Pryskać na twarz!<lb />– Dycha!<lb />– Bedzie zyć!<lb />– Ozcirać rence i nogi!<lb />– Porusać jom! Porusać!<lb /><stage>(robiąc matce sztuczne oddechanie)</stage><lb />– O tak tak tak tak!<lb />– Byle syrce nie ustało!<lb />– Bedzie zyć! Bedzie! Bedzie!<lb />– Ozwira oczy!<lb />– Znów zamknena!<lb />– Nie skodzi. Zwycojne zemglenie!<lb />– Ino nie ustawać! Ino nie ustawać!</p>
+          <p><stage>(przy matce)</stage><lb/>– Wody!<lb/>– Jest!<lb/>– Krwawa!<lb/>– Pryskać na twarz! Pryskać na twarz!<lb/>– Dycha!<lb/>– Bedzie zyć!<lb/>– Ozcirać rence i nogi!<lb/>– Porusać jom! Porusać!<lb/><stage>(robiąc matce sztuczne oddechanie)</stage><lb/>– O tak tak tak tak!<lb/>– Byle syrce nie ustało!<lb/>– Bedzie zyć! Bedzie! Bedzie!<lb/>– Ozwira oczy!<lb/>– Znów zamknena!<lb/>– Nie skodzi. Zwycojne zemglenie!<lb/>– Ino nie ustawać! Ino nie ustawać!</p>
         </sp>
         <sp who="#ludzie_wsiowi">
           <speaker>MIESZANE GŁOSY II.</speaker>
-          <p><stage>(przy Antkowych zwłokach jednocześnie)</stage><lb />– Ostroznie ostroznie ostroznie chopaki!<lb />– Bo zawadzi o łózko!<lb />– Jezu! Głowa!<lb />– Nakryć płachtom! Nakryć płachtom!<lb />– Ka jes?!<lb />– Na łózku!<lb />– Nie widzita ze na łózku!<lb />– Dobra!<lb />– Juz!<lb />– Ozstąpić sie! Ozstąpić sie!<lb />– Dźwigamy!<lb /><stage>(dopiero w tej chwili ukazują się zwłoki Antka, składane na łóżku, a poprzednio przesłonięte przez ludzi. Głowa i połowa piersi nakryte płachtą)</stage></p>
+          <p><stage>(przy Antkowych zwłokach jednocześnie)</stage><lb/>– Ostroznie ostroznie ostroznie chopaki!<lb/>– Bo zawadzi o łózko!<lb/>– Jezu! Głowa!<lb/>– Nakryć płachtom! Nakryć płachtom!<lb/>– Ka jes?!<lb/>– Na łózku!<lb/>– Nie widzita ze na łózku!<lb/>– Dobra!<lb/>– Juz!<lb/>– Ozstąpić sie! Ozstąpić sie!<lb/>– Dźwigamy!<lb/><stage>(dopiero w tej chwili ukazują się zwłoki Antka, składane na łóżku, a poprzednio przesłonięte przez ludzi. Głowa i połowa piersi nakryte płachtą)</stage></p>
         </sp>
         <sp who="#stary_chłop">
           <speaker>STARY CHŁOP.</speaker>
@@ -2654,7 +2654,7 @@
         <stage>(na tle modlitwy)</stage>
         <sp who="#ludzie_wsiowi">
           <speaker>GŁOSY.</speaker>
-          <p><stage>(ratujących matkę)</stage><lb />– Wstaje!<lb />– Niech usiendzie na ziemi!<lb />– Ale ją podtrzymywać!<lb />– Lepij wam?<lb />– Nie słysy.<lb />– Kobito! Lepij wam?<lb />– Nie słysy.<lb />– Mozebyście sie co napili.<lb />– Kie nic nie słysy.<lb />– Cekojcie! Zacyno godać!</p>
+          <p><stage>(ratujących matkę)</stage><lb/>– Wstaje!<lb/>– Niech usiendzie na ziemi!<lb/>– Ale ją podtrzymywać!<lb/>– Lepij wam?<lb/>– Nie słysy.<lb/>– Kobito! Lepij wam?<lb/>– Nie słysy.<lb/>– Mozebyście sie co napili.<lb/>– Kie nic nie słysy.<lb/>– Cekojcie! Zacyno godać!</p>
         </sp>
         <sp who="#matka">
           <speaker>MATKA.</speaker>
@@ -2662,7 +2662,7 @@
         </sp>
         <sp who="#ludzie_wsiowi">
           <speaker>GŁOSY.</speaker>
-          <p><stage>(przy matce)</stage><lb />– Pomieszana.<lb />– Pilnować jom.<lb />– Juści.</p>
+          <p><stage>(przy matce)</stage><lb/>– Pomieszana.<lb/>– Pilnować jom.<lb/>– Juści.</p>
         </sp>
         <sp who="#matka">
           <speaker>MATKA.</speaker>

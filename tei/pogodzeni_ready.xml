@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000048" xml:lang="pol">
   <teiHeader>
@@ -129,7 +129,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1878">
-        <desc />
+        <desc/>
       </event>
       <event type="premiere" when="1878-02-07">
         <desc>Komedia przedstawiona po raz pierwszy na scenie warszawskiej w d. 7 lutego 1878 roku.</desc>
@@ -143,17 +143,17 @@
             <titlePart type="main">POGODZENI Z LOSEM</titlePart>
             <titlePart type="sub">KOMEDYA W 5-ciu AKTACH</titlePart>
           </docTitle>
-          <byline>przez<lb />
+          <byline>przez<lb/>
             <docAuthor>EDWARDA LUBOWSKIEGO.</docAuthor>
           </byline>
           <docImprint>
               <pubPlace>WARSZAWA.</pubPlace>
-              Skład główny w księgarni <name>Gebethnera i Wolfa</name>.<lb />
-              W drukarni <name>Władysława Dębskiego</name><address><street>Senatorska <num>Nr. 20</num>.</street></address><lb />
-              <date>1878.</date><lb />
+              Skład główny w księgarni <name>Gebethnera i Wolfa</name>.<lb/>
+              W drukarni <name>Władysława Dębskiego</name><address><street>Senatorska <num>Nr. 20</num>.</street></address><lb/>
+              <date>1878.</date><lb/>
           </docImprint>
-          <imprimatur>Дозволено Цьнзурою.<lb />
-          Варшава, 27 мая 1878 года.<lb /></imprimatur>
+          <imprimatur>Дозволено Цьнзурою.<lb/>
+          Варшава, 27 мая 1878 года.<lb/></imprimatur>
         </titlePage>
         <castList>
           <head>OSOBY:</head>
@@ -231,7 +231,7 @@
         <div type="scene" n="1">
           <head>SCENA I.</head>
           <stage type="setting">
-            <p>(W domu Kazimierza Łanickiego)<lb />(Strona lewa i prawa, biorą się od aktorów)<lb />(Salon – drzwi w środku – z lewej, drugie drzwi naprzód trochę wysunięte, jak gdyby tworzyły amfiladę do drugiego większego salonu – z prawej drzwi mniejsze jakby od budoaru.<lb />Salon elegancko umeblowany – po prawej na przodzie, kozeta, fotele, przed nimi stół większy – po lewej, kanapka i mały stoliczek okrągły. W głębi na ścianach, portrety przodków Łanickiego.<lb />Przy podniesieniu zasłony, wychodzą z lewej hr. Slizgawski z Fiszbinowiczową, prowadzi ją pod rękę i mówi jakby w dalszym ciągu.<lb />Fiszbinowiczowa 30 lat, przystojna, gustownie ubrana, ruchy powolne, głos słodki i trochę przez pieszczotliwość przesadzony. Slizgawski – blondyn z dużemi faworytami – szkiełka na nosie – elegancki, zawsze we fraku – ma ruch nerwowy potrząsania głową od czasu do czasu – mówi każde słowo z powagą nadzwyczajną)</p>
+            <p>(W domu Kazimierza Łanickiego)<lb/>(Strona lewa i prawa, biorą się od aktorów)<lb/>(Salon – drzwi w środku – z lewej, drugie drzwi naprzód trochę wysunięte, jak gdyby tworzyły amfiladę do drugiego większego salonu – z prawej drzwi mniejsze jakby od budoaru.<lb/>Salon elegancko umeblowany – po prawej na przodzie, kozeta, fotele, przed nimi stół większy – po lewej, kanapka i mały stoliczek okrągły. W głębi na ścianach, portrety przodków Łanickiego.<lb/>Przy podniesieniu zasłony, wychodzą z lewej hr. Slizgawski z Fiszbinowiczową, prowadzi ją pod rękę i mówi jakby w dalszym ciągu.<lb/>Fiszbinowiczowa 30 lat, przystojna, gustownie ubrana, ruchy powolne, głos słodki i trochę przez pieszczotliwość przesadzony. Slizgawski – blondyn z dużemi faworytami – szkiełka na nosie – elegancki, zawsze we fraku – ma ruch nerwowy potrząsania głową od czasu do czasu – mówi każde słowo z powagą nadzwyczajną)</p>
           </stage>
           <stage type="entrance">
             <p>
@@ -1860,7 +1860,7 @@
       <div type="act" n="2">
         <head>AKT II.</head>
         <stage type="setting">
-          <p>(U Kaźmierza Łanickiego)<lb />(Pokój duży, ten sam – po bokach drzwi)</p>
+          <p>(U Kaźmierza Łanickiego)<lb/>(Pokój duży, ten sam – po bokach drzwi)</p>
         </stage>
         <div type="scene" n="10">
           <head>SCENA I.</head>
@@ -1876,7 +1876,7 @@
           </stage>
           <sp who="#senzi">
             <speaker>SENZI.</speaker>
-            <p><stage>(deklamując napuszyście)</stage> Nie drżyj dziewico, nie drżyj – twój kochany<lb />Ni duch zwodniczy, ni aniół wygnany,<lb />Ach! jest on tylko z owych synów ziemi<lb />Co tak namiętni w miłości i gniewie<lb />Jak gdyby tchnęli płomieńmi samemi,<lb />Lub czując w sercu palące zarzewie<lb />Zgasić je tylko mogli w krwi rozlewie!...</p>
+            <p><stage>(deklamując napuszyście)</stage> Nie drżyj dziewico, nie drżyj – twój kochany<lb/>Ni duch zwodniczy, ni aniół wygnany,<lb/>Ach! jest on tylko z owych synów ziemi<lb/>Co tak namiętni w miłości i gniewie<lb/>Jak gdyby tchnęli płomieńmi samemi,<lb/>Lub czując w sercu palące zarzewie<lb/>Zgasić je tylko mogli w krwi rozlewie!...</p>
           </sp>
           <sp who="#leonia">
             <speaker>LEONIA.</speaker>
@@ -3227,7 +3227,7 @@
       <div type="act" n="3">
         <head>AKT III.</head>
           <stage type="setting">
-            <p>(Wielki salon u księcia.)<lb />(Wielkie drzwi z draperyą w głębi, przy których lokaj otwiera drzwi bez meldowania – z prawej drugie bardzo wspaniałe podwoje – z lewej trzecie. Jestto sala przyjęć zwykłych – fotele mogą stać rzędem po obydwóch stronach – z lewej pułka zamykana, z której Czaicki wyjmuje papiery, uważnie im się przyglądając)</p>
+            <p>(Wielki salon u księcia.)<lb/>(Wielkie drzwi z draperyą w głębi, przy których lokaj otwiera drzwi bez meldowania – z prawej drugie bardzo wspaniałe podwoje – z lewej trzecie. Jestto sala przyjęć zwykłych – fotele mogą stać rzędem po obydwóch stronach – z lewej pułka zamykana, z której Czaicki wyjmuje papiery, uważnie im się przyglądając)</p>
           </stage>
         <div type="scene" n="18">
           <head>SCENA I.</head>
@@ -3301,7 +3301,7 @@
           </sp>
           <sp who="#slizgawski">
             <speaker>SLIZGAWSKI.</speaker>
-            <p><stage>(z uśmiechem)</stage> Otóż tedy, ktoś tak jej powiedział:<lb /><stage>(deklamując napuszyście)</stage><lb />Mówią że najpiękniejsze kwiaty zwiędnąć kiedyś muszą<lb />Być może – lecz róża którą ja wybrałem,<lb />Tak się spoiła ściśle z całą moją duszą,<lb />Że stała się na wieki moim ideałem.<lb />Tę tylko znać, tę uwielbiać pragnę,<lb />Przed inną zaś – przysięgam, że karku nie nagnę!<lb /><stage>(z zadowoleniem)</stage> Cóż panowie na to?</p>
+            <p><stage>(z uśmiechem)</stage> Otóż tedy, ktoś tak jej powiedział:<lb/><stage>(deklamując napuszyście)</stage><lb/>Mówią że najpiękniejsze kwiaty zwiędnąć kiedyś muszą<lb/>Być może – lecz róża którą ja wybrałem,<lb/>Tak się spoiła ściśle z całą moją duszą,<lb/>Że stała się na wieki moim ideałem.<lb/>Tę tylko znać, tę uwielbiać pragnę,<lb/>Przed inną zaś – przysięgam, że karku nie nagnę!<lb/><stage>(z zadowoleniem)</stage> Cóż panowie na to?</p>
           </sp>
           <sp who="#fiszbinowicz">
             <speaker>FISZBINOWICZ.</speaker>
@@ -4042,7 +4042,7 @@
           </sp>
           <sp who="#czaicki">
             <speaker>CZAICKI.</speaker>
-            <p>Panowie – KSIĄŻĘ! <stage>(Wszyscy prócz JERZEGO i ROMANA stojącego przy nim, zginają się w ukłonie bardzo nizkim, tak oczekując mniemanego nadejścia KSIĘCIA, tworzą szpaler)</stage><lb /><stage>(Chwilka milczenia)</stage><lb />Przypatrz się pan tym panom – oto obraz pogodzonych z losem! <stage>(SLIZGAWSKI podnosi najprzód zwolna i ostrożnie głowę, potem cały korpus, za nim tak samo FISZBINOWICZ, potem SENZI)</stage></p>
+            <p>Panowie – KSIĄŻĘ! <stage>(Wszyscy prócz JERZEGO i ROMANA stojącego przy nim, zginają się w ukłonie bardzo nizkim, tak oczekując mniemanego nadejścia KSIĘCIA, tworzą szpaler)</stage><lb/><stage>(Chwilka milczenia)</stage><lb/>Przypatrz się pan tym panom – oto obraz pogodzonych z losem! <stage>(SLIZGAWSKI podnosi najprzód zwolna i ostrożnie głowę, potem cały korpus, za nim tak samo FISZBINOWICZ, potem SENZI)</stage></p>
           </sp>
           <sp who="#czaicki">
             <speaker>CZAICKI.</speaker>
@@ -4074,7 +4074,7 @@
           </sp>
           <sp who="#czaicki">
             <speaker>CZAICKI.</speaker>
-            <p>Panów liczę także do „nikogo” <stage>(zwracając się do JERZEGO, który usunął się na bok z ROMANEM, mówi półgłosem)</stage><lb />Zatem może pan pozwolisz do mego gabinetu, gdzie mu przedłożę sprawę całą, i przedstawię akta.</p>
+            <p>Panów liczę także do „nikogo” <stage>(zwracając się do JERZEGO, który usunął się na bok z ROMANEM, mówi półgłosem)</stage><lb/>Zatem może pan pozwolisz do mego gabinetu, gdzie mu przedłożę sprawę całą, i przedstawię akta.</p>
           </sp>
           <sp who="#jerzy">
             <speaker>JERZY.</speaker>
@@ -4111,7 +4111,7 @@
               <rs key="#lokaj">LOKAJ.</rs> </p>
           </stage>
           <stage type="setting">
-            <p>(służący stoi przy drzwiach głównych)<lb />(Kazimierz spostrzega rozmawiających ze sobą półgłosem Jerzego z Czaickim)</p>
+            <p>(służący stoi przy drzwiach głównych)<lb/>(Kazimierz spostrzega rozmawiających ze sobą półgłosem Jerzego z Czaickim)</p>
           </stage>
           <sp who="#kazimierz">
             <speaker>KAZIMIERZ.</speaker>
@@ -4265,7 +4265,7 @@
       <div type="act" n="4">
         <head>AKT IV.</head>
         <stage type="setting">
-          <p>(W domu Kazimierza Łanickiego)<lb />(Scena przedstawia od frontu salonik boczny z kozetami do odpoczynku z prawej, wielka framuga z draperyą adamaszkową, za którą się skryć można. Od pół sceny czyli w głębi, szeregi gerydonów z kwiatami czy też kolumnad, po za któremi, głównie zaś z lewej, domyślać się trzeba wielkiej sali balowej. Z lewej też głównie osoby w tym akcie jako przez porte d’honneur wchodzić będą, ale i z prawej jest wejście i wyjście. Muzyka, którą będzie słychać z początku i w ustępach całego aktu, musi być wyrachowaną na pewną odległość. Goście też balowi i służący w czarnych frakach, przesuwać się będą od czasu do czasu wzdłuż onych gerydonów czy kolumnad. W saloniku frontowym z prawej, dwie kozety i takież z lewej – bez stolików, albo z malutkiemi okrągłemi)</p>
+          <p>(W domu Kazimierza Łanickiego)<lb/>(Scena przedstawia od frontu salonik boczny z kozetami do odpoczynku z prawej, wielka framuga z draperyą adamaszkową, za którą się skryć można. Od pół sceny czyli w głębi, szeregi gerydonów z kwiatami czy też kolumnad, po za któremi, głównie zaś z lewej, domyślać się trzeba wielkiej sali balowej. Z lewej też głównie osoby w tym akcie jako przez porte d’honneur wchodzić będą, ale i z prawej jest wejście i wyjście. Muzyka, którą będzie słychać z początku i w ustępach całego aktu, musi być wyrachowaną na pewną odległość. Goście też balowi i służący w czarnych frakach, przesuwać się będą od czasu do czasu wzdłuż onych gerydonów czy kolumnad. W saloniku frontowym z prawej, dwie kozety i takież z lewej – bez stolików, albo z malutkiemi okrągłemi)</p>
         </stage>
         <div type="scene" n="21">
           <head>SCENA I.</head>
@@ -4395,7 +4395,7 @@
               <rs key="#danserzy">DANSERZY.</rs> </p>
           </stage>
           <stage type="setting">
-            <p>(Hrabianka 38 lat, elegancka i przystojna, w obejściu chłodna i dumna)<lb />(Hrabianka pod rękę z Fiszbinowiczową, posuwa się ku kozetom na froncie – za niemi goście i Senzi, Romcio na ostatku, powoli i zamyślony)</p>
+            <p>(Hrabianka 38 lat, elegancka i przystojna, w obejściu chłodna i dumna)<lb/>(Hrabianka pod rękę z Fiszbinowiczową, posuwa się ku kozetom na froncie – za niemi goście i Senzi, Romcio na ostatku, powoli i zamyślony)</p>
           </stage>
           <sp who="#senzi">
             <speaker>SENZI.</speaker>
@@ -4825,7 +4825,7 @@
           </sp>
           <sp who="#jerzy">
             <speaker>JERZY.</speaker>
-            <p><stage>(z głębi z prawej wchodzi szybko)</stage><lb /><stage>(rozglądając się)</stage> Tak – tu przynajmniej samotniej... Potrzeba mi pięciu minut, ażeby uratować honor człowieka, i szczęście kilku osób... Pięciu minut tylko – błogosławionych lub przeklętych! <stage>(spoglądając na lewo w amfiladę)</stage> Wszyscy skupili się około księcia, wszyscy zapragnęli być cieniem, odbijającym promień jego oblicza – kobiety z czarownym uśmiechem, który złudziłby anioła, wyrzekają się w tej chwili najsłodszych marzeń, najszlachetniejszych uczuć, mężczyźni zapierają dech w piersiach, patrzą w to słońce, przed którego blaskiem przymykają kłamliwie oczy... Hajże! kto korniej czołem o ziemię przed potęgą złota i znaczenia!... A on, mój krewniak – tam na czele, najzręczniejszy, najmniej mający skrupułów, ho! on wszystkich pobije!... <stage>(odwraca się i wstrząsa)</stage> W tym tłumie tutaj – wzrok czarno widzi, a serce zgorzknieć musi!...</p>
+            <p><stage>(z głębi z prawej wchodzi szybko)</stage><lb/><stage>(rozglądając się)</stage> Tak – tu przynajmniej samotniej... Potrzeba mi pięciu minut, ażeby uratować honor człowieka, i szczęście kilku osób... Pięciu minut tylko – błogosławionych lub przeklętych! <stage>(spoglądając na lewo w amfiladę)</stage> Wszyscy skupili się około księcia, wszyscy zapragnęli być cieniem, odbijającym promień jego oblicza – kobiety z czarownym uśmiechem, który złudziłby anioła, wyrzekają się w tej chwili najsłodszych marzeń, najszlachetniejszych uczuć, mężczyźni zapierają dech w piersiach, patrzą w to słońce, przed którego blaskiem przymykają kłamliwie oczy... Hajże! kto korniej czołem o ziemię przed potęgą złota i znaczenia!... A on, mój krewniak – tam na czele, najzręczniejszy, najmniej mający skrupułów, ho! on wszystkich pobije!... <stage>(odwraca się i wstrząsa)</stage> W tym tłumie tutaj – wzrok czarno widzi, a serce zgorzknieć musi!...</p>
           </sp>
         </div>
         <div type="scene" n="26">
@@ -5218,7 +5218,7 @@
           </stage>
           <sp who="#kazimierz">
             <speaker>KAZIMIERZ.</speaker>
-            <p><stage>(sam)</stage><lb /><stage>(powtarzając słowa Jerzego)</stage> „To co wiem o Tobie przeraża mnie”. Więc wiesz już? i grozisz i walczyć chcesz?... Walczmy!... Lecz przepaść jeszcze daleka, a ja mam siły dosyć i zepchnąć się nie dam, choćbym już cały wstyd zgarnąć miał z czoła!... Tak, muszę biedz naprzód bez wytchnienia i broniąc się zaciekle, stracić pamięć tego czem byłem... Muszę, ale ohydnego łudzenia tego akt ostatni! Marya tak zawsze słodka, będzie mi ten raz jeszcze posłuszną... Nie żądam od niej nic, tylko czaru jej uśmiechu i blasku spojrzenia, dla usidlenia tego starca... Nic? <stage>(wstrząsa się)</stage> Jakże trudno być... nikczemnym! Bóg mi jednak świadkiem, że za tę jedną minutę jej zalotności, odpłacę jej poświęceniem całego mego życia... <stage>(patrząc w głąb)</stage> zbliża się tu... tak – powiem jej, powiem, zaraz... <stage>(wychodzi naprzeciw niej na lewo)</stage></p>
+            <p><stage>(sam)</stage><lb/><stage>(powtarzając słowa Jerzego)</stage> „To co wiem o Tobie przeraża mnie”. Więc wiesz już? i grozisz i walczyć chcesz?... Walczmy!... Lecz przepaść jeszcze daleka, a ja mam siły dosyć i zepchnąć się nie dam, choćbym już cały wstyd zgarnąć miał z czoła!... Tak, muszę biedz naprzód bez wytchnienia i broniąc się zaciekle, stracić pamięć tego czem byłem... Muszę, ale ohydnego łudzenia tego akt ostatni! Marya tak zawsze słodka, będzie mi ten raz jeszcze posłuszną... Nie żądam od niej nic, tylko czaru jej uśmiechu i blasku spojrzenia, dla usidlenia tego starca... Nic? <stage>(wstrząsa się)</stage> Jakże trudno być... nikczemnym! Bóg mi jednak świadkiem, że za tę jedną minutę jej zalotności, odpłacę jej poświęceniem całego mego życia... <stage>(patrząc w głąb)</stage> zbliża się tu... tak – powiem jej, powiem, zaraz... <stage>(wychodzi naprzeciw niej na lewo)</stage></p>
           </sp>
           <stage>(z prawej, wypada szybko SENZI, uderzając się w czoło)</stage>
           <sp who="#senzi">
@@ -5234,7 +5234,7 @@
               <rs key="#marya">MARYA.</rs> </p>
           </stage>
           <stage type="setting">
-            <p>(KAZIMIERZ prowadzi ją pod rękę)<lb />(idąc mówią)</p>
+            <p>(KAZIMIERZ prowadzi ją pod rękę)<lb/>(idąc mówią)</p>
           </stage>
           <sp who="#marya">
             <speaker>MARYA.</speaker>
@@ -5448,7 +5448,7 @@
           </sp>
           <sp who="#senzi">
             <speaker>SENZI.</speaker>
-            <p><stage>(który wyszedł z kryjówki zaraz po wyjściu Kazimierza)</stage><lb /><stage>(padając przed nią na kolana)</stage> Masz go pani we mnie!</p>
+            <p><stage>(który wyszedł z kryjówki zaraz po wyjściu Kazimierza)</stage><lb/><stage>(padając przed nią na kolana)</stage> Masz go pani we mnie!</p>
           </sp>
           <sp who="#marya">
             <speaker>MARYA.</speaker>
@@ -5746,7 +5746,7 @@
       <div type="act" n="5">
         <head>AKT V.</head>
         <stage type="setting">
-          <p>(U Kazimierza Łanickiego)<lb />(Pokój zwyczajny, pewien nieporządek w porozsuwanych meblach i porozrzucanych sprzętach. Po prawej drzwi boczne, drugie w środku. Z prawej kanapa i stolik, z lewej szafka, fotel i stolik mały. Leonia chodzi niecierpliwie po pokoju, Marya otulona szalem siedzi na sofie, przed nią leży plik papierów)</p>
+          <p>(U Kazimierza Łanickiego)<lb/>(Pokój zwyczajny, pewien nieporządek w porozsuwanych meblach i porozrzucanych sprzętach. Po prawej drzwi boczne, drugie w środku. Z prawej kanapa i stolik, z lewej szafka, fotel i stolik mały. Leonia chodzi niecierpliwie po pokoju, Marya otulona szalem siedzi na sofie, przed nią leży plik papierów)</p>
         </stage>
         <div type="scene" n="34">
           <head>SCENA I.</head>
@@ -6337,7 +6337,7 @@
           </stage>
           <sp who="#kazimierz">
             <speaker>KAZIMIERZ.</speaker>
-            <p><stage>(sam)</stage><lb /><stage>(stoi chwilkę, nieporuszony)</stage><lb />Zemścił się... książe wie już... wie teraz, dla czegom, chcąc uprzedzić zdradę, własną żonę... jedno snuje się z drugiego... logika faktów! ha, ha, ha! logika... oszusta, który się chce ratować... <stage>(wymawiając cicho)</stage> Oszusta!... dwanaście lat pracowałem na to... i na nędzę... Jerzy tam, słyszę wyrazy potępienia... widzę ich twarze wykrzywione pogardą... <stage>(słaniając się ku ziemi)</stage> widzę ich, jakże okropni!... a potem przyjdą tu... i bryzną mi w twarz... hańbą! <stage>(zrywając krawatkę)</stage> Niewiedziałem, że to takie straszne!... <stage>(biegnąc ku drzwiom)</stage> Uciec?... ją zostawić z tem nazwiskiem! stchórzyć!... Poddać się kornie?... Nigdy! <stage>(dobywając z kieszeni mały rewolwer)</stage> Myślałem o tobie często, ale brzydziłem się tobą... Ty zabijasz ciało, ale pamięci u ludzi nie zatrzesz, Nie zatrzesz pamięci... nikt jednem słowem nie zmiłuje się nademną... Przyjaciele moi... <stage>(śmiejąc się gorzko)</stage> przyjaciele – jam was przecie karmił i poił – o! wy będziecie najokrutniejsi!... żona moja sercem swem mnie nie zasłoni, nie dbałem o nie... brat, rodzina – nikt!... Osamotniłem życie swoje dobrowolnie, odarłem je, ze wszelkich uczuć!... zginąć powinienem! A jednak – gdybym jeszcze przed ludźmi stanąć mógł czysty... gdyby nie plwali na mnie pogardą!... ten ostatni promyk nadziei!... gdyby Jerzy ulitował się!... <stage>(padając na kolana)</stage> Boże wielki – Boże miłosierny, spraw to... ocal moję duszę!... <stage>(pochyla głowę – Jerzy staje we drzwiach, patrzy się chwilkę i mówi)</stage></p>
+            <p><stage>(sam)</stage><lb/><stage>(stoi chwilkę, nieporuszony)</stage><lb/>Zemścił się... książe wie już... wie teraz, dla czegom, chcąc uprzedzić zdradę, własną żonę... jedno snuje się z drugiego... logika faktów! ha, ha, ha! logika... oszusta, który się chce ratować... <stage>(wymawiając cicho)</stage> Oszusta!... dwanaście lat pracowałem na to... i na nędzę... Jerzy tam, słyszę wyrazy potępienia... widzę ich twarze wykrzywione pogardą... <stage>(słaniając się ku ziemi)</stage> widzę ich, jakże okropni!... a potem przyjdą tu... i bryzną mi w twarz... hańbą! <stage>(zrywając krawatkę)</stage> Niewiedziałem, że to takie straszne!... <stage>(biegnąc ku drzwiom)</stage> Uciec?... ją zostawić z tem nazwiskiem! stchórzyć!... Poddać się kornie?... Nigdy! <stage>(dobywając z kieszeni mały rewolwer)</stage> Myślałem o tobie często, ale brzydziłem się tobą... Ty zabijasz ciało, ale pamięci u ludzi nie zatrzesz, Nie zatrzesz pamięci... nikt jednem słowem nie zmiłuje się nademną... Przyjaciele moi... <stage>(śmiejąc się gorzko)</stage> przyjaciele – jam was przecie karmił i poił – o! wy będziecie najokrutniejsi!... żona moja sercem swem mnie nie zasłoni, nie dbałem o nie... brat, rodzina – nikt!... Osamotniłem życie swoje dobrowolnie, odarłem je, ze wszelkich uczuć!... zginąć powinienem! A jednak – gdybym jeszcze przed ludźmi stanąć mógł czysty... gdyby nie plwali na mnie pogardą!... ten ostatni promyk nadziei!... gdyby Jerzy ulitował się!... <stage>(padając na kolana)</stage> Boże wielki – Boże miłosierny, spraw to... ocal moję duszę!... <stage>(pochyla głowę – Jerzy staje we drzwiach, patrzy się chwilkę i mówi)</stage></p>
           </sp>
           <sp who="#jerzy">
             <speaker>JERZY.</speaker>

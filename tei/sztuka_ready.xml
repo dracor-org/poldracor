@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000034" xml:lang="pol">
   <teiHeader>
@@ -139,7 +139,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1849">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -148,15 +148,15 @@
         <titlePage>
           <docTitle>
             <titlePart type="main">SZTUKA I MIŁOŚĆ.</titlePart>
-            <titlePart type="sub">DRAMAT<lb />
+            <titlePart type="sub">DRAMAT<lb/>
             w 2ch dobach rzeczywitego życia.</titlePart>
           </docTitle>
-          <byline>przez<lb />
+          <byline>przez<lb/>
             <docAuthor>MAURYCEGO MANNA.</docAuthor>
           </byline>
           <docImprint>
-              <pubPlace>POZNAŃ.</pubPlace><lb />
-              W KSIĘGARNI <name>JANA KONSTANTEGO ŻUPAŃSKIEGO</name>.<lb />
+              <pubPlace>POZNAŃ.</pubPlace><lb/>
+              W KSIĘGARNI <name>JANA KONSTANTEGO ŻUPAŃSKIEGO</name>.<lb/>
               <date>1849</date>.
           </docImprint>
         </titlePage>
@@ -667,7 +667,7 @@
         </sp>
         <sp who="#doktor">
           <speaker>DOKTOR.</speaker>
-          <p><stage>(Podczas gdy lekarz mówił do hrabiego Jana, poszedł do łóżka umarłej, odkrył jej twarz i z pilnością się w nią wpatruje)<lb />(Do siebie)</stage> Na nic – to na nic wszystko! Ja nie widzę trupa – sam za nadto cierpię. <stage>(Bierze kapelusz i wraca do okna)</stage></p>
+          <p><stage>(Podczas gdy lekarz mówił do hrabiego Jana, poszedł do łóżka umarłej, odkrył jej twarz i z pilnością się w nią wpatruje)<lb/>(Do siebie)</stage> Na nic – to na nic wszystko! Ja nie widzę trupa – sam za nadto cierpię. <stage>(Bierze kapelusz i wraca do okna)</stage></p>
         </sp>
         <sp who="#pierwszy_lekarz">
           <speaker>PIERWSZY LEKARZ.</speaker>
@@ -763,7 +763,7 @@
         </sp>
         <sp who="#doktor">
           <speaker>DOKTOR.</speaker>
-          <p>Nikt! <stage>(do siebie)</stage> czemu mnie to dziwi?... <stage>(Chodzi wzdłuż sali – potem jakby sam do siebie wracając, wraca do łóżka N. 6)<lb />(Do Elewa wskazując chorą)</stage> Źle bardzo z tą kobietą.</p>
+          <p>Nikt! <stage>(do siebie)</stage> czemu mnie to dziwi?... <stage>(Chodzi wzdłuż sali – potem jakby sam do siebie wracając, wraca do łóżka N. 6)<lb/>(Do Elewa wskazując chorą)</stage> Źle bardzo z tą kobietą.</p>
         </sp>
         <sp who="#elew">
           <speaker>ELEW.</speaker>
@@ -1313,7 +1313,7 @@
         </sp>
         <sp who="#doktor">
           <speaker>DOKTOR.</speaker>
-          <p><stage>(zapisuje w pugilaresie i chowa)</stage><lb /><stage>(Do siebie)</stage> Zaniedbałem moje dzieci dzisiaj – moje biedne dzieci – to źle... źle bardzo. <stage>(idzie do komina zacierając ręce i staje za Jakóbem)</stage></p>
+          <p><stage>(zapisuje w pugilaresie i chowa)</stage><lb/><stage>(Do siebie)</stage> Zaniedbałem moje dzieci dzisiaj – moje biedne dzieci – to źle... źle bardzo. <stage>(idzie do komina zacierając ręce i staje za Jakóbem)</stage></p>
         </sp>
         <sp who="#jakob">
           <speaker>JAKOB.</speaker>
@@ -1426,7 +1426,7 @@
         </sp>
         <sp who="#doktor">
           <speaker>DOKTOR.</speaker>
-          <p><stage>(Zimno zbierając noże)</stage> Chyba, że widzieć chcecie? <stage>(Kobiety odchodzą, płacząc)</stage> Odeszły!... <stage>(Układa instrumenta na stole)</stage> Teraz od najścia zabezpieczyć się trzeba. <stage>(Oboje drzwi na klucz zamyka i wraca do łóżka)</stage> Ach jestem nakoniec, jak chciałem – sam – z nią!... Umarła, czy żywa, pożegnanie mi winnaś Kassyldo!... ciężko zasługuję na nie. <stage>(Wpatruje się)</stage> Kontent jestem z siebie – nic nie widzę jak... – nie trupa – lecz ciało. <stage>(Wyjmuje z rąk krucyfix)</stage> Śmierć pod ręką – lecz nie w oku, nie w myśli – szukajmy znaku dla pierwszego – dla drugiej przekonania. <stage>(Siada na stołku w nogach łóżka – zakłada ręce – zatapia wzrok w rysach Kassyldy – i zostaje długo nieruchomy)</stage> Teraz jak pierwej... jak zawsze – nic – nie widzę nic – nie widzę śmierci – przerwijmy. <stage>(Wstaje i chodzi po pokoju)</stage> Nie widzę nic... ale czy ja chcę widzieć?... czy chcę dostrzedz śmierci?... czy ja śmierci mam upatrzeć wolę?... Dobrze, więc skoro tego koniecznie potrzeba... <stage>(z przyciskiem)</stage> Chcę! <stage>(Zatrzymuje się)</stage> O moja wolo daj mi przekonanie na sztuce oparte!... Wolo moja! wszakże dziecku jeszcze pokazywałaś mi okropne wśród nędzy pożycie... parłaś mnie ku niej mówiąc, że aby ją zwyciężyć wręcz do niej iść trzeba – czyliż wtedy opierałem się tobie?... Gdy później stawiłaś mi obraz wszystkich cierpień, trudności i zgryzot w celu dojścia do sztuki – czyliż nie usłuchałem ciebie?... Czy był opór, któregobym nie zniósł w imię twoje?... <stage>(z czułością)</stage> Jeżeli od lat pięciu nie zdołałem przytłumić uczucia... nie skrępowałżem go... nie ścisnąłemże go, nie wtłoczyłemże go w serce, tak mocno, tak głęboko – że choć miłość była – żyć musiała bez żądzy, bez nadziei... Jakże była ukrytą!... Jeżeli więc tak stoi w przeznaczenia księdze, że dziś skończyć się musi... Wolo moja! o daj siłę – bym się o tem w tej dowiedział chwili... niech śmierć zobaczę – koniec!... A choćby na ten widok... choćby to przekonanie ostatecznym życia mego było kresem... <stage>(Zatrzymuje się chwilkę)</stage> Wolo moja – błogosławić cię będę!... <stage>(Chodzi po pokoju w milczeniu)</stage> Niepewność ta nad siły – to piekło!... więc po raz ostatni... ostatni... patrzmy! <stage>(Szybko zbliża się do łóżka – trąca o stolik – nóż spada z metalicznym brzękiem – cofa się przerażony)</stage> Ach!... jakże dźwięk ten przeszedł mi po żyłach – jakież przeszywające echo jego w sercu!... <stage>(z ironią)</stage> I jaż to mam śmierć widzieć?... ja... taki wątły... słaby?... <stage>(Milczy chwilę)</stage> Cofnąłbym się?... i czemu?... Jeśli ona nie żyje, dbamże o resztę świata... o kogo? <stage>(Chce siadać)</stage> Nie – trzeba wprzód przyjść do siebie. <stage>(Podnosi i układa noże – potem siada)</stage> Teraz – tak, teraz – zda mi się – jestem pewny... będę szczerym z sobą. <stage>(Po chwili bierze krucyfix i wciska go w ręce Kassyldy)</stage> Zimne, jak lód – ale nie dość stężałe – wszystko jedno... wróćmy jej tego Chrystusa, którego tak kochała – to godło śmierci tutaj – wszak ja za śmiercią gonię – wszak ja śmierć chcę zobaczyć... dotknąć... <stage>(Zostaje w niemej i spokojnej kontemplacyi – po niejakim przeciągu czasu powieki Kassyldy wolno, z trudnością się podnoszą i opadają natychmiast. Doktor zrywa się)</stage> Przebóg... com ja widział?... <stage>(Zakrawa oczy rękoma – potem je pomału rozsuwa – patrzy)</stage>  Nic?... nic?... jakto?... ja życie widziałem... a to nic nie było?... nic? <stage>(W twarz Kassyldy patrzy dzikim wzrokiem)</stage> Byłożto spojrzenie anielskie... lub czarta pomrugi?... Czy ja widzę?... czy jestem na jawie – lub może padłem pastwą przywidzenia... hallucynacyi, jaką chyba piekło zsyła, gdy nadzieję przedrzeźnia... naigrawa się ze sztuki?... <stage>(Stoi chwilkę nieruchomy – oczy w suffit wlepione – poczem chwyta prawą ręką za lewą i rachuje uderzenia pulsu)</stage> Nie – to ani jedno, ani drugie <stage>(zimno)</stage> to ja mam gorączkę... <stage>(Idzie do okna – otwiera – oddycha głęboko, odgarnia włosy z czoła)</stage> Jakże mnie głowa pali, <stage>(patrząc w niebo)</stage> błękitne... gwiaździste... księżyc świeci... jaki spokój w naturze – jakże niewzruszone prawa, któremi postępuje! ludzkość tylko wpleciona w koło odwiecznego ruchu, szamoce się i męczy – bo każdy szczebel – to inne cierpienie. <stage>(Słychać zegar miastowy)</stage> Dwónasta – wczoraj o tej godzinie znać mi dano – wczoraj o tym czasie pierwszy raz wyrzekłem – umarła!... <stage>(Po chwili jakby przebudzony)</stage> Właśnie dwadzieścia cztery godzin <stage>(zamykając okno)</stage> posłużylo mi zimno. <stage>(Idzie do łóżka i stawa z założonemi rękoma)</stage> To nic nie było – przywidzenie <stage>(z wzgardą)</stage> jakiż człowiek słaby na przeciw mocy żądzy. <stage>(Po chwili podnosi się pierś Kassyldy ledwo dostrzegalnym ruchem – doktor nieruchomy)</stage> Tylko czy ja spokojny?... tak – spokojnym – znów mi się zdawało... <stage>(Ruch się powtarza – nachyla się)</stage> Tak jest... nie mylę się... widzę... <stage>(Ruch przestaje)</stage><lb /><stage>(Przytłumionym głosem)</stage> Tak, niezawodnie. <stage>(Podnosi się)</stage><lb /><stage>(Z krzykiem)</stage> O szczęście – to letarg!... <stage>(Biegnie do drzwi – znika i wraca)</stage> Nieszczęsny!... głowę tracę... <stage>(wyjmując klucz z zamku)</stage> cóżbym był zrobił... gdyby tamci tymczasem nadeszli. <stage>(ze zgrozą)</stage> Okropność!</p>
+          <p><stage>(Zimno zbierając noże)</stage> Chyba, że widzieć chcecie? <stage>(Kobiety odchodzą, płacząc)</stage> Odeszły!... <stage>(Układa instrumenta na stole)</stage> Teraz od najścia zabezpieczyć się trzeba. <stage>(Oboje drzwi na klucz zamyka i wraca do łóżka)</stage> Ach jestem nakoniec, jak chciałem – sam – z nią!... Umarła, czy żywa, pożegnanie mi winnaś Kassyldo!... ciężko zasługuję na nie. <stage>(Wpatruje się)</stage> Kontent jestem z siebie – nic nie widzę jak... – nie trupa – lecz ciało. <stage>(Wyjmuje z rąk krucyfix)</stage> Śmierć pod ręką – lecz nie w oku, nie w myśli – szukajmy znaku dla pierwszego – dla drugiej przekonania. <stage>(Siada na stołku w nogach łóżka – zakłada ręce – zatapia wzrok w rysach Kassyldy – i zostaje długo nieruchomy)</stage> Teraz jak pierwej... jak zawsze – nic – nie widzę nic – nie widzę śmierci – przerwijmy. <stage>(Wstaje i chodzi po pokoju)</stage> Nie widzę nic... ale czy ja chcę widzieć?... czy chcę dostrzedz śmierci?... czy ja śmierci mam upatrzeć wolę?... Dobrze, więc skoro tego koniecznie potrzeba... <stage>(z przyciskiem)</stage> Chcę! <stage>(Zatrzymuje się)</stage> O moja wolo daj mi przekonanie na sztuce oparte!... Wolo moja! wszakże dziecku jeszcze pokazywałaś mi okropne wśród nędzy pożycie... parłaś mnie ku niej mówiąc, że aby ją zwyciężyć wręcz do niej iść trzeba – czyliż wtedy opierałem się tobie?... Gdy później stawiłaś mi obraz wszystkich cierpień, trudności i zgryzot w celu dojścia do sztuki – czyliż nie usłuchałem ciebie?... Czy był opór, któregobym nie zniósł w imię twoje?... <stage>(z czułością)</stage> Jeżeli od lat pięciu nie zdołałem przytłumić uczucia... nie skrępowałżem go... nie ścisnąłemże go, nie wtłoczyłemże go w serce, tak mocno, tak głęboko – że choć miłość była – żyć musiała bez żądzy, bez nadziei... Jakże była ukrytą!... Jeżeli więc tak stoi w przeznaczenia księdze, że dziś skończyć się musi... Wolo moja! o daj siłę – bym się o tem w tej dowiedział chwili... niech śmierć zobaczę – koniec!... A choćby na ten widok... choćby to przekonanie ostatecznym życia mego było kresem... <stage>(Zatrzymuje się chwilkę)</stage> Wolo moja – błogosławić cię będę!... <stage>(Chodzi po pokoju w milczeniu)</stage> Niepewność ta nad siły – to piekło!... więc po raz ostatni... ostatni... patrzmy! <stage>(Szybko zbliża się do łóżka – trąca o stolik – nóż spada z metalicznym brzękiem – cofa się przerażony)</stage> Ach!... jakże dźwięk ten przeszedł mi po żyłach – jakież przeszywające echo jego w sercu!... <stage>(z ironią)</stage> I jaż to mam śmierć widzieć?... ja... taki wątły... słaby?... <stage>(Milczy chwilę)</stage> Cofnąłbym się?... i czemu?... Jeśli ona nie żyje, dbamże o resztę świata... o kogo? <stage>(Chce siadać)</stage> Nie – trzeba wprzód przyjść do siebie. <stage>(Podnosi i układa noże – potem siada)</stage> Teraz – tak, teraz – zda mi się – jestem pewny... będę szczerym z sobą. <stage>(Po chwili bierze krucyfix i wciska go w ręce Kassyldy)</stage> Zimne, jak lód – ale nie dość stężałe – wszystko jedno... wróćmy jej tego Chrystusa, którego tak kochała – to godło śmierci tutaj – wszak ja za śmiercią gonię – wszak ja śmierć chcę zobaczyć... dotknąć... <stage>(Zostaje w niemej i spokojnej kontemplacyi – po niejakim przeciągu czasu powieki Kassyldy wolno, z trudnością się podnoszą i opadają natychmiast. Doktor zrywa się)</stage> Przebóg... com ja widział?... <stage>(Zakrawa oczy rękoma – potem je pomału rozsuwa – patrzy)</stage>  Nic?... nic?... jakto?... ja życie widziałem... a to nic nie było?... nic? <stage>(W twarz Kassyldy patrzy dzikim wzrokiem)</stage> Byłożto spojrzenie anielskie... lub czarta pomrugi?... Czy ja widzę?... czy jestem na jawie – lub może padłem pastwą przywidzenia... hallucynacyi, jaką chyba piekło zsyła, gdy nadzieję przedrzeźnia... naigrawa się ze sztuki?... <stage>(Stoi chwilkę nieruchomy – oczy w suffit wlepione – poczem chwyta prawą ręką za lewą i rachuje uderzenia pulsu)</stage> Nie – to ani jedno, ani drugie <stage>(zimno)</stage> to ja mam gorączkę... <stage>(Idzie do okna – otwiera – oddycha głęboko, odgarnia włosy z czoła)</stage> Jakże mnie głowa pali, <stage>(patrząc w niebo)</stage> błękitne... gwiaździste... księżyc świeci... jaki spokój w naturze – jakże niewzruszone prawa, któremi postępuje! ludzkość tylko wpleciona w koło odwiecznego ruchu, szamoce się i męczy – bo każdy szczebel – to inne cierpienie. <stage>(Słychać zegar miastowy)</stage> Dwónasta – wczoraj o tej godzinie znać mi dano – wczoraj o tym czasie pierwszy raz wyrzekłem – umarła!... <stage>(Po chwili jakby przebudzony)</stage> Właśnie dwadzieścia cztery godzin <stage>(zamykając okno)</stage> posłużylo mi zimno. <stage>(Idzie do łóżka i stawa z założonemi rękoma)</stage> To nic nie było – przywidzenie <stage>(z wzgardą)</stage> jakiż człowiek słaby na przeciw mocy żądzy. <stage>(Po chwili podnosi się pierś Kassyldy ledwo dostrzegalnym ruchem – doktor nieruchomy)</stage> Tylko czy ja spokojny?... tak – spokojnym – znów mi się zdawało... <stage>(Ruch się powtarza – nachyla się)</stage> Tak jest... nie mylę się... widzę... <stage>(Ruch przestaje)</stage><lb/><stage>(Przytłumionym głosem)</stage> Tak, niezawodnie. <stage>(Podnosi się)</stage><lb/><stage>(Z krzykiem)</stage> O szczęście – to letarg!... <stage>(Biegnie do drzwi – znika i wraca)</stage> Nieszczęsny!... głowę tracę... <stage>(wyjmując klucz z zamku)</stage> cóżbym był zrobił... gdyby tamci tymczasem nadeszli. <stage>(ze zgrozą)</stage> Okropność!</p>
         </sp>
         <stage>(Wychodzi do sieni – słychać jak drzwi na klucz zamyka – łoskot po schodach – głos woła: Karolu! Karolu! – doktorze! zmiłuj się... słuchaj! osoby do drzwi się zbliżają – rozmawiają pod drzwiami)</stage>
         <sp who="#głos_męzki">
@@ -1469,10 +1469,10 @@
           <speaker>GŁOS KOBIECY.</speaker>
           <p>Zamknął ją okrutnik – słyszałam, jak zamykał także drzwi od przedpokoju – niedostanie się Pan...</p>
         </sp>
-        <stage>(Głosy się oddalają rozmawiając – słychać chałas innych drzwi otwierających się i zamykających – poczem cichość zupełna.<lb />Po chwili wchodzi doktor pomału z flaszeczką w ręku – rzuca okiem niespokojnem na łóżko – zamyka drzwi na klucz z ostrożnością – przybliża się do łóżka – stawia flaszeczkę, wyjmuje krucyfix z rąk Kassyldy – trzymając go sam nachylony, przygląda się pilnie)</stage>
+        <stage>(Głosy się oddalają rozmawiając – słychać chałas innych drzwi otwierających się i zamykających – poczem cichość zupełna.<lb/>Po chwili wchodzi doktor pomału z flaszeczką w ręku – rzuca okiem niespokojnem na łóżko – zamyka drzwi na klucz z ostrożnością – przybliża się do łóżka – stawia flaszeczkę, wyjmuje krucyfix z rąk Kassyldy – trzymając go sam nachylony, przygląda się pilnie)</stage>
         <sp who="#doktor">
           <speaker>DOKTOR.</speaker>
-          <p>Rozpatrujmy się naprzód – za zimne mam ręce – nic – nic – jeszcze nic – przecie – ach! tak – to wszystko – jeszcze trzeba wiedzieć, by zobaczyć – poruszenie takie słabe – a jednak to życie <stage>(z radością)</stage> Życie!... natura zwyciężyła – zachowała tchnienie – pomóżmy jej cokolwiek – dodajmy sztukę do zwycięztwa – mogłoby się zatrzymać. <stage>(Rzuca krucyfix – porywa flaszeczkę – otwiera i przykłada do ust Kassyldy)</stage> Zęby zaciśnięte!... <stage>(Próbuje otworzyć)</stage> Napróżno. <stage>(Stawia flaszeczkę – próbuje oburącz)</stage> Ani sposób – jakiż to spazm mocny! co tu robić?... jakto?... i ja się wacham... ja?... kiedy jej życie i moja powinność razem... <stage>(Porywa nóż – gwałtem roztwiera szczękę – wlewa rachując kilka kropel z flaszeczki – potem ciska noż)</stage> Jakież to żelazo zimne!... <stage>(z namysłem)</stage> więc moja ręka nie zimna. <stage>(Bierze Kassyldę za rękę)</stage> Jeszcze skośniała – lecz wkrótce – niedługo. <stage>(Siada i czeka – słychać lekkie westchnienie)</stage> Żyje! oh żyje – bo się skarży – kilka kropel jeszcze. <stage>(Zadaje kilka kropel)</stage><lb /><stage>(Z pychą)</stage> Wspaniały skutek... jak ciepła przybywa – ręka już mięknie. <stage>(Klęka przy łóżku, trzymając Kassyldę za rękę)</stage> Ot – puls już bić zaczyna. <stage>(Słychać bicie zegaru)</stage> O jakże to czas długi w oczekiwaniu szczęścia <stage>(cicho w najwyższem uniesieniu)</stage> Ach... Ach...</p>
+          <p>Rozpatrujmy się naprzód – za zimne mam ręce – nic – nic – jeszcze nic – przecie – ach! tak – to wszystko – jeszcze trzeba wiedzieć, by zobaczyć – poruszenie takie słabe – a jednak to życie <stage>(z radością)</stage> Życie!... natura zwyciężyła – zachowała tchnienie – pomóżmy jej cokolwiek – dodajmy sztukę do zwycięztwa – mogłoby się zatrzymać. <stage>(Rzuca krucyfix – porywa flaszeczkę – otwiera i przykłada do ust Kassyldy)</stage> Zęby zaciśnięte!... <stage>(Próbuje otworzyć)</stage> Napróżno. <stage>(Stawia flaszeczkę – próbuje oburącz)</stage> Ani sposób – jakiż to spazm mocny! co tu robić?... jakto?... i ja się wacham... ja?... kiedy jej życie i moja powinność razem... <stage>(Porywa nóż – gwałtem roztwiera szczękę – wlewa rachując kilka kropel z flaszeczki – potem ciska noż)</stage> Jakież to żelazo zimne!... <stage>(z namysłem)</stage> więc moja ręka nie zimna. <stage>(Bierze Kassyldę za rękę)</stage> Jeszcze skośniała – lecz wkrótce – niedługo. <stage>(Siada i czeka – słychać lekkie westchnienie)</stage> Żyje! oh żyje – bo się skarży – kilka kropel jeszcze. <stage>(Zadaje kilka kropel)</stage><lb/><stage>(Z pychą)</stage> Wspaniały skutek... jak ciepła przybywa – ręka już mięknie. <stage>(Klęka przy łóżku, trzymając Kassyldę za rękę)</stage> Ot – puls już bić zaczyna. <stage>(Słychać bicie zegaru)</stage> O jakże to czas długi w oczekiwaniu szczęścia <stage>(cicho w najwyższem uniesieniu)</stage> Ach... Ach...</p>
         </sp>
         <sp who="#kassylda">
           <speaker>KASSYLDA.</speaker>
@@ -1488,7 +1488,7 @@
         </sp>
         <sp who="#doktor">
           <speaker>DOKTOR.</speaker>
-          <p><stage>(Nieporuszony jak statua, ciągnie żarzącym wzrokiem za wzrokiem Kassyldy, której powieki się zamykają – oddech zaczyna być regularny i po chwili w sen spokojny przechodzi)</stage> Śpi... <stage>(Chwila milczenia)</stage> Tak – śpi... <stage>(Znowu chwila milczenia)</stage><lb /><stage>(Ciężkim głosem)</stage> Bo nie on – ale ty... <stage>(Nowa pauza)</stage> To jej pożegnanie... <stage>(Ciągle w tej samej nieruchomości – łza mu w oczach staje – świeci, błyszczy coraz więcej – wypełnia źrenicę – toczy się po licu i pada na rękę Kassyldy – którą w swojej trzyma)</stage> Płaczę... tak – płaczę! oh przyjmij... przyjm tę łzę Kassyldo!... to łza także pożegnania... pożegnania kochanka... <stage>(Nachyla się i całuje rękę Kassyldy)</stage> Kochanka – który przepadł! <stage>(z przymusem)</stage> człowiek sztuki powstaje. <stage>(Podnosi się i stoi chwilę patrząc spokojnie)</stage> Czyńmy naszę powinność. <stage>(Bierze flaszeczkę i jeszcze parę wlewa kropel w pół otwarte usta Kassyldy – gasi trzy świece – czwartą stawia za łóżkiem – pokój się ściemnia – chwilę jeszcze stoi nad łóżkiem)</stage> Wszystko idzie jak najlepiej. <stage>(Chowa flaszeczkę do kieszeni i po cichu udaje się do okna, o które się opiera)</stage> Więc to był sen – nie! ona nie umarła! <stage>(Po chwili słychać szelest w przedpokoju)</stage> Ktoś przychodzi – brat zapewne – prawda, na schodach go spotkałem... muszę całą mą zimną krew zachować <stage>(z goryczą)</stage> aby się nie spostrzegł, że tu zawsze jeden trup jest jeszcze. <stage>(Idzie do drzwi przedpokoju – które ktoś otworzyć próbuje – obraca pomału kluczem)</stage></p>
+          <p><stage>(Nieporuszony jak statua, ciągnie żarzącym wzrokiem za wzrokiem Kassyldy, której powieki się zamykają – oddech zaczyna być regularny i po chwili w sen spokojny przechodzi)</stage> Śpi... <stage>(Chwila milczenia)</stage> Tak – śpi... <stage>(Znowu chwila milczenia)</stage><lb/><stage>(Ciężkim głosem)</stage> Bo nie on – ale ty... <stage>(Nowa pauza)</stage> To jej pożegnanie... <stage>(Ciągle w tej samej nieruchomości – łza mu w oczach staje – świeci, błyszczy coraz więcej – wypełnia źrenicę – toczy się po licu i pada na rękę Kassyldy – którą w swojej trzyma)</stage> Płaczę... tak – płaczę! oh przyjmij... przyjm tę łzę Kassyldo!... to łza także pożegnania... pożegnania kochanka... <stage>(Nachyla się i całuje rękę Kassyldy)</stage> Kochanka – który przepadł! <stage>(z przymusem)</stage> człowiek sztuki powstaje. <stage>(Podnosi się i stoi chwilę patrząc spokojnie)</stage> Czyńmy naszę powinność. <stage>(Bierze flaszeczkę i jeszcze parę wlewa kropel w pół otwarte usta Kassyldy – gasi trzy świece – czwartą stawia za łóżkiem – pokój się ściemnia – chwilę jeszcze stoi nad łóżkiem)</stage> Wszystko idzie jak najlepiej. <stage>(Chowa flaszeczkę do kieszeni i po cichu udaje się do okna, o które się opiera)</stage> Więc to był sen – nie! ona nie umarła! <stage>(Po chwili słychać szelest w przedpokoju)</stage> Ktoś przychodzi – brat zapewne – prawda, na schodach go spotkałem... muszę całą mą zimną krew zachować <stage>(z goryczą)</stage> aby się nie spostrzegł, że tu zawsze jeden trup jest jeszcze. <stage>(Idzie do drzwi przedpokoju – które ktoś otworzyć próbuje – obraca pomału kluczem)</stage></p>
         </sp>
         <sp who="#eustachy">
           <speaker>EUSTACHY.</speaker>
@@ -1803,7 +1803,7 @@
         </sp>
         <sp who="#doktor">
           <speaker>DOKTOR.</speaker>
-          <p>Ja Heleno. <stage>(Bierze ją za rękę – patrzy chwilkę z rozrzewnieniem – potem jakby do siebie mówi)</stage><lb /><stage>(Półgłosem)</stage> Biedne dziecię!... i ciebie to chciano do mnie przykuć – do trupa.</p>
+          <p>Ja Heleno. <stage>(Bierze ją za rękę – patrzy chwilkę z rozrzewnieniem – potem jakby do siebie mówi)</stage><lb/><stage>(Półgłosem)</stage> Biedne dziecię!... i ciebie to chciano do mnie przykuć – do trupa.</p>
         </sp>
         <sp who="#helena">
           <speaker>HELENA.</speaker>
@@ -2072,7 +2072,7 @@
         </sp>
         <sp who="#jakob">
           <speaker>JAKOB.</speaker>
-          <p><stage>(Bierze pistolety)</stage><lb /><stage>(Do siebie wychodząc)</stage> Boi się troszkę – to już chory być musi na dobre.</p>
+          <p><stage>(Bierze pistolety)</stage><lb/><stage>(Do siebie wychodząc)</stage> Boi się troszkę – to już chory być musi na dobre.</p>
         </sp>
         <sp who="#władysław">
           <speaker>WŁADYSŁAW.</speaker>
@@ -2449,7 +2449,7 @@
           <speaker>HRABIA.</speaker>
           <p>O chciałbym jak najprędzej. Bądź zdrów – dziękuję Ci, żeś mnie odwiedził – życzę szczęścia. <stage>(Władysław odchodzi – hrabia zamyśla się)</stage> Miałżeby Władysław mieć racyą? <stage>(Wstaje)</stage> Ej gdzie tam – to egzaltacya!... <stage>(Zapala faikę)</stage></p>
         </sp>
-        <trailer>(KONIEC EPILOGU<lb />i<lb />DRAMATU)</trailer>
+        <trailer>(KONIEC EPILOGU<lb/>i<lb/>DRAMATU)</trailer>
       </div>
       </div>
     </body>

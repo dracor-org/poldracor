@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000016" xml:lang="pol">
   <teiHeader>
@@ -99,7 +99,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1895">
-        <desc />
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -110,14 +110,14 @@
             <titlePart type="main">ZMARNOWANE ŻYCIE.</titlePart>
             <titlePart type="sub">Dramat w 5-ciu aktach</titlePart>
           </docTitle>
-          <byline>PRZEZ<lb />
+          <byline>PRZEZ<lb/>
             <docAuthor>STEFANIĘ LAUDYNOWĄ</docAuthor>.
           </byline>
           <docImprint>
-              <pubPlace>LWÓW</pubPlace>.<lb />
-              <name>GUBRYNOWICZ</name> I <name>SCHMIDT</name>.<lb />
-                przy <address><street>placu Katedralnym</street></address><lb />
-              <date>1895</date>.<lb />
+              <pubPlace>LWÓW</pubPlace>.<lb/>
+              <name>GUBRYNOWICZ</name> I <name>SCHMIDT</name>.<lb/>
+                przy <address><street>placu Katedralnym</street></address><lb/>
+              <date>1895</date>.<lb/>
               Z DRUKARNI I LITOGRAFII <name>PILLERA</name> I SPÓŁKI.
           </docImprint>
         </titlePage>
@@ -964,7 +964,7 @@
         <div type="scene" n="12">
           <head>SCENA III.</head>
           <stage type="setting">
-            <p></p>
+            <p/>
           </stage>
           <stage type="entrance">
             <p>
@@ -1287,7 +1287,7 @@
        </div>
       </div>
       <div type="scene-stage" n="2">
-        <head>AKT IV.<lb />ODSŁONA II.</head>
+        <head>AKT IV.<lb/>ODSŁONA II.</head>
       <div type="scene" n="18">
         <head>SCENA I.</head>
         <stage type="setting">
@@ -1368,10 +1368,10 @@
         </sp>
         <sp who="#karski">
           <speaker>KARSKI.</speaker>
-          <p><stage>(otaczając ją ramieniem, mówi z uniesieniem)</stage> To nic... Tańczyć będziesz... Pamiętaj... Nie rób mi wstydu... Walc... Taniec mój ulubiony... Taniec — na życie i śmierć... O... Andziu... Szczęście ty moje!... Gdyby nawet umrzeć mi przyszło... Mniejsza o to... Byle z tobą... w twojem objęciu... <stage>(Puszcza się pędem w wir szalony, za nim ukazuje się kilka par innych, on wszystkie prześciga. Inni zaprzestają, on tańczy. Spojrzenia gonią za nimi, widać rosnące zdumienie, niektórzy z miejsc powstają, słychać wykrzykniki)<lb />
-          — Patrzcie... jak tańczy...<lb />
-          - Ależ to rozkosz... on lata, nie tańczy...<lb />
-          — Szaleństwo... tak się narażać...<lb />
+          <p><stage>(otaczając ją ramieniem, mówi z uniesieniem)</stage> To nic... Tańczyć będziesz... Pamiętaj... Nie rób mi wstydu... Walc... Taniec mój ulubiony... Taniec — na życie i śmierć... O... Andziu... Szczęście ty moje!... Gdyby nawet umrzeć mi przyszło... Mniejsza o to... Byle z tobą... w twojem objęciu... <stage>(Puszcza się pędem w wir szalony, za nim ukazuje się kilka par innych, on wszystkie prześciga. Inni zaprzestają, on tańczy. Spojrzenia gonią za nimi, widać rosnące zdumienie, niektórzy z miejsc powstają, słychać wykrzykniki)<lb/>
+          — Patrzcie... jak tańczy...<lb/>
+          - Ależ to rozkosz... on lata, nie tańczy...<lb/>
+          — Szaleństwo... tak się narażać...<lb/>
           (Robi się pustka, sami jedni wirują. Na salę wbiega Stebelska przerażona, wołając)</stage></p>
         </sp>
         <sp who="#stebelska">
