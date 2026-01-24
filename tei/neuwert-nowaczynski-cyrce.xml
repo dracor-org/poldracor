@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000039" xml:lang="pol">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000039" xml:lang="pl">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Cyrce Mańkowska</title>
+        <title>Cyrce Mańkowska</title>
         <author>
           <idno type="isni">0000000071411238</idno>
           <idno type="wikidata">Q4893683</idno>
@@ -22,10 +22,7 @@
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -34,10 +31,7 @@
           <idno type="URL">https://polona.pl/item/siedem-dramatow-jednoaktowych-adolfa-neuwerta-nowaczynskiego,MjQ2OTAwNTY/148/</idno>
           <title>Nowaczyński, A., Cyrce Mańkowska [w:] tegoż, Siedem dramatów jednoaktowych Adolfa Neuwerta-Nowaczyńskiego, Lwów 1903, s. 133-188</title>
           <availability>
-            <licence>
-              <ab>public domain</ab>
-              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
-            </licence>
+            <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
           </availability>
         </bibl>
       </sourceDesc>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000022" xml:lang="pol">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000022" xml:lang="pl">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Uszczęśliwienie narodu czyli miłość i wdzięczność w poddanych</title>
+        <title>Uszczęśliwienie narodu czyli miłość i wdzięczność w poddanych</title>
         <title type="sub">Drama we dwóch aktach</title>
         <author>
           <idno type="wikidata">Q104181175</idno>
@@ -22,10 +22,7 @@
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -34,10 +31,7 @@
           <idno type="URL">https://polona.pl/item/uszczesliwienie-narodu-czyli-milosc-y-wdziecznosc-w-poddanych-dramma-w-2-aktach,NjU5MjEwNDY/4/</idno>
           <title>Bończa-Tomaszewski, M., Uszczęśliwienie narodu czyli miłość i wdzięczność w poddanych: Drama we dwóch aktach, Wilno 1804</title>
           <availability>
-            <licence>
-              <ab>public domain</ab>
-              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
-            </licence>
+            <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
           </availability>
         </bibl>
       </sourceDesc>

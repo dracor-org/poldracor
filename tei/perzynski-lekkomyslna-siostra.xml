@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000040" xml:lang="pol">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pol000040" xml:lang="pl">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Lekkomyślna siostra</title>
+        <title>Lekkomyślna siostra</title>
         <title type="sub">Komedia w czterech aktach</title>
         <author>
           <idno type="isni">0000000071405786</idno>
@@ -23,10 +23,7 @@
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,10 +32,7 @@
           <idno type="URL">https://polona.pl/item/lekkomyslna-siostra-komedya-w-czterech-aktach,NzU4NjU1NTQ/8/#index</idno>
           <title>Perzyński, W., Lekkomyślna siostra: komedya w czterech aktach, Lwów 1907</title>
           <availability>
-            <licence>
-              <ab>public domain</ab>
-              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
-            </licence>
+            <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
           </availability>
         </bibl>
       </sourceDesc>
