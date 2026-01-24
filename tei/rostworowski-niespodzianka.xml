@@ -23,10 +23,7 @@
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -35,10 +32,7 @@
           <idno type="URL">https://polona.pl/item/niespodzianka-prawdziwe-zdarzenie-w-4-ech-aktach,ODk3ODE5OTQ/8</idno>
           <title>Rostworowski, K.H., Niespodzianka: prawdziwe zdarzenie w czterech aktach, Kraków 1929</title>
           <availability>
-            <licence>
-              <ab>public domain</ab>
-              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
-            </licence>
+            <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
           </availability>
         </bibl>
       </sourceDesc>

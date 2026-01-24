@@ -53,10 +53,7 @@
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -66,10 +63,7 @@
           <idno type="wikidata">Q11785407</idno>
           <title>Zapolska, G., Moralność pani Dulskiej: komedya w trzech aktach, Warszawa 1907</title>
           <availability>
-            <licence>
-              <ab>public domain</ab>
-              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
-            </licence>
+            <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
           </availability>
         </bibl>
       </sourceDesc>
